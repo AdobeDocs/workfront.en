@@ -1,0 +1,153 @@
+---
+filename: configure-workfront-for-slack
+product-area: workfront-integrations;setup
+navigation-topic: workfront-for-slack
+---
+
+
+
+# Configure *`Adobe Workfront`* for Slack {#configure-adobe-workfront-for-slack}
+
+Integrating *`Adobe Workfront`* with Slack allows you to do the following: 
+
+
+
+*  Access your *`Workfront`* work items, approvals, favorites, recent items from Slack. 
+*  Subscribe for, approve, assign work from Slack. 
+*  Create tasks and issues from Slack. 
+*  Receive some *`Workfront`* notifications in Slack. 
+
+
+Depending on how your Slack environment is configured, you can install and configure *`Workfront`* for Slack yourself, or your *`Workfront administrator`* must install and configure it first before you can configure it for yourself.&nbsp; 
+
+
+When you integrate your Slack instance with *`Workfront`* users can use *`Workfront`* while collaborating within their Slack channels. The integration can be used from any Slack environment, including the Slack mobile app.&nbsp; 
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ </col> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ </col> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</a>*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Pro or higher</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.\
+
+
+## Prerequisites for using *`Workfront`* with Slack  {#prerequisites-for-using-workfront-with-slack}
+
+
+
+
+*  You must have a Slack instance.&nbsp; 
+*  Your Slack system administrator must allow all Slack users to install *`Workfront`* for Slack.  
+
+*  You must have a *`Workfront`*license to be able to use the integrated features in *`Workfront`*.
+
+
+  >[!NOTE]
+  >
+  >Users with any *`Workfront`*license type can access *`Workfront`*from Slack. The actions that you can perform from Slack are limited to your *`Workfront`*license and permission levels.
+
+
+
+
+
+For more information about managing apps in Slack, see [Manage Apps for Your Workspace.](https://get.slack.help/hc/en-us/articles/222386767-Manage-apps-for-your-workspace)
+
+
+## Install *`Workfront`* for Slack {#install-workfront-for-slack}
+
+Each Slack user must install the *`Workfront`* app themselves in order to use *`Workfront`* from Slack. 
+
+
+You can install the app in the following ways: 
+
+
+
+* [Install the Workfront app outside Slack](#installing-the-workfront-addin-outside-of-the-slack-application) 
+* [Install the Workfront app within Slack](#installing-the-workfront-addin-within-the-slack-application) 
+
+
+
+
+### Install the *`Workfront`* app outside Slack {#install-the-workfront-app-outside-slack}
+
+Follow the steps below to run the installation process and authorize *`Workfront`* for Slack on your Slack instance.&nbsp; 
+
+
+>[!IMPORTANT] {type="important"}
+>
+>When a new version of *`Workfront`* for Slack is released, you must re-authorize the app in order to continue using it.&nbsp; 
+
+
+
+
+
+1.   Click the following button to begin the installation process.
+
+
+   ![](assets/untitled-350x143.png)   
+
+
+1.  Sign in to your workspace by specifying your Slack URL and clicking **Continue**.  
+   ![Screen_Shot_2017-10-17_at_8.27.38_AM.png](assets/screen-shot-2017-10-17-at-8.27.38-am-350x432.png)  
+
+1.   Examine the access that Slack is requesting. If you agree to this access, click **Allow Access** to authorize the *`Workfront`* app.
+
+
+   ![](assets/integrations-access-screen-350x429.png)   
+
+
+
+
+You can now access *`Workfront`* from Slack, as described in the [Access Workfront from Slack](access-workfront-from-slack.md#viewing-all-available-commands) section in [Access Adobe Workfront from Slack](access-workfront-from-slack.md).
+
+
+### Install the *`Workfront`* app within Slack {#install-the-workfront-app-within-slack}
+
+You can install the *`Workfront`* app directly from the Slack application: 
+
+
+
+1.  Navigate to your Slack URL.  
+
+
+
+   For example: *<YourTeamName>.slack.com/apps*. [  
+   ](http://slack.com/apps)Or  
+
+
+
+   Click the `Add Apps` icon in your Slack instance.  
+
+
+
+   ![add_apps_in_Slack.png](assets/add-apps-in-slack-350x112.png)
+
+
+
+1. Start typing * *`Workfront`** in the search field.
+1. Press Enter.
+1. Select the ` *`Workfront`*` app.
+1. Click `Settings`.&nbsp; `  
+   `The App Directory page is displayed.
+
+1. Click `Visit App Site`.
+1. Click `Add to Slack`.
+1. Follow the steps to finish the installation.&nbsp;
+1. When the installation completes, you can access *`Workfront`* from Slack, as described in the [Access Workfront from Slack](access-workfront-from-slack.md#viewing-all-available-commands) section in [Access Adobe Workfront from Slack](access-workfront-from-slack.md).
+
+
+

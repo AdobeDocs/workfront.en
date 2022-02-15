@@ -1,0 +1,46 @@
+
+
+
+# *`Workfront Fusion`* release activity:&nbsp;Week of July 26, 2021 {#workfront-fusion-release-activity-week-of-july}
+
+This page describes all enhancements made in *`Adobe Workfront Fusion`* the week of *`July 26, 2021`*.
+
+
+For a list of all recent changes, see [Adobe Workfront Fusion release activity](fusion-release-activity.md).
+
+
+For a list of recent bug fixes in *`Workfront Fusion`*, see the [ *`Workfront`* Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled *`Workfront Fusion`* Maintenance Update.
+
+
+## Simplified modules in Salesforce connector {#simplified-modules-in-salesforce-connector}
+
+To make it easier for you to set up Salesforce module in your scenario, we've made some changes to the Salesforce > Create a Record and Salesforce > Update a Record modules. Now, you can select the fields that you want to provide values for. Fields are clearly marked as required or optional, and only the fields you select appear in the module.
+
+
+Previously, all of a record's available fields appeared in the module, which could make it difficult to find desired fields, and could affect performance due to large amounts of unneeded data being sent to Workfront.
+
+
+Functionality of existing scenarios using the previously available modules will not change, although those modules will not be available for use in new scenarios.
+
+
+For more information, see [Salesforce modules](salesforce-modules.md).
+
+
+`<iframe class="vimeo-player_0" src="assets/580433094?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+
+
+[View this video in full-screen mode.](https://vimeo.com/580433094/fe81c38dc6) 
+
+
+## More clearly see details of account access when giving consent to Adobe Workfront Fusion connectors {#more-clearly-see-details-of-account-access-when-giving-consent-to-adobe-workfront-fusion-connectors}
+
+The consent screens for connections to Adobe Workfront Fusion are now updated. Now, you can see the specific actions and areas that the connections have access to, so that you can better understand what you are allowing the application to access.
+
+
+For more information, see the [Connect the module's app or web service to Workfront Fusion](create-a-scenario.md#connect) section in [Create a scenario](create-a-scenario.md).
+
+
+`<iframe class="vimeo-player_0" src="assets/580421677?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+
+
+[View this video in full-screen mode.](https://vimeo.com/580421677/ed98219259) 

@@ -1,70 +1,21 @@
 ---
-filename: portfolio-overview
-content-type: overview
+filename: _portfolio-overview
+content-type: overview;reference
 product-area: portfolios
-navigation-topic: portfolios-overview
+navigation-topic: portfolios-navigation-topic
 ---
 
 
 
-# Portfolio overview in *`Adobe Workfront`* {#portfolio-overview-in-adobe-workfront}
+# Portfolios {#portfolios}
 
-A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio. 
-
-
-You can use Portfolios and Programs to organize projects. Through organizing projects, you can compare similar projects and determine where resources will be best spent. 
-
-
-## Access needed to create portfolios {#access-needed-to-create-portfolios}
-
-You must have Edit access to Portfolios in your access level to create and manage Portfolios, and you must have Manage permissions on a Portfolio to be able to edit it. You must have View permissions on a Portfolio to be able to see it.  
-For information about access to Portfolios, see [Access levels overview](access-levels-overview.md).  
-For information about permissions to Portfolios, see [Share a portfolio in Adobe Workfront](share-a-portfolio..md).
-
-
-For information about using Programs, see [Create a program](create-program.md).
-
-
-## *`Adobe Workfront`* portfolio methodology  {#adobe-workfront-portfolio-methodology}
-
-In *`Workfront`*, you can add projects to portfolios to create and organize your portfolios. 
-
-
-We recommend that you follow these steps for an efficient organization of your portfolios:
+This section contains the following articles:
 
 
 
-1. Create a Business Case for a project and associate the project with a Portfolio.
-1. Associate Resource Pools with projects as you build their Business Case.
-1. Get the Business Case approved by your Portfolio Manager.
-1. Manage the performance of your projects within the portfolio in the Portfolio Optimizer. 
+* [Portfolio Management overview](portfolio-managament-overview.md) 
+* [Portfolio overview in Adobe Workfront](portfolio-overview.md) 
+* [Navigate within a portfolio](navigate-within-portfolio.md) 
 
 
-To create efficient portfolios that bring value to your organization, you must start with a Project Request where you define the Business Case for each project which is later added to the portfolio. 
-
-
-The Business Case contains the following information: 
-
-
-
-* General information about the project (description, Portfolio and Program assignments, Project Owner and Sponsor)
-* The goals or objectives of the project
-* Estimated expense costs
-* Resource budgets for labor costs
-* An alignment score
-* A risk assessment
-
-
-For more information about the Business Case, see [Create a Business Case for a project in Adobe Workfront](create-business-case.md).
-
-
-These key elements are used in the portfolio optimizer and the capacity planner to assist management in project selection.
-
-
-Portfolios are usually configured to correspond with Resource Pools. The Programs in a Portfolio also align with a Resource Pool. This correlation helps to ensure all resource planning fits within the purpose of the Portfolio, as the projects within the same Portfolio usually compete for the same resources. 
-
-
-Portfolio Managers can track financial performance inside the portfolio using the Portfolio dashboard. This dashboard is displayed in the header of the Portfolio. 
-
-
-For information about the financial fields of a Portfolio, see the [Understanding the Financial Fields in the Portfolio Optimizer](portfolio-optimizer-overview.md#financial-fieds-subsection) section in [Portfolio Optimizer overview](portfolio-optimizer-overview.md).
+&nbsp;

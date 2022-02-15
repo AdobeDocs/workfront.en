@@ -1,0 +1,99 @@
+---
+filename: create-a-wf-request-from-an-outlook-email
+product-area: workfront-integrations;projects
+navigation-topic: workfront-for-outlook
+---
+
+
+
+# Create an *`Adobe Workfront`* request from an Outlook email {#create-an-adobe-workfront-request-from-an-outlook-email}
+
+You can create a *`Adobe Workfront`* request from an email in Outlook.
+
+
+When you create a *`Workfront`* request based on an email, the&nbsp;content of the email (including the subject and body) are included in the request by default.
+
+
+>[!NOTE]
+>
+>You can not create a Workfront request from a shared Outlook mailbox.
+
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following access to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Work, Plan</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+
+
+## Prerequisites {#prerequisites}
+
+Your *`Workfront administrator`* must enable Outlook for Office with *`Workfront`* before you can use this integration.
+
+
+## Create a request from an Outlook email {#create-a-request-from-an-outlook-email}
+
+To create a *`Workfront`* Request from Outlook:
+
+
+
+1. Select the email that contains the information you want to include in a *`Workfront`* request.&nbsp;
+1. Click the  ` *`Workfront`*` icon in the upper-right corner of the email message to display the *`Workfront`* add-in.  
+   You might need to click the down-pointing arrow in the upper right of your email to access the *`Workfront`* icon.
+
+1.  Click the `Menu` icon to display the list of available *`Workfront`* options.  
+
+
+
+   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)   
+
+
+1. Click `Submit Request`.
+1.  In the `Select a Request Type` field, select the request queue where you want to submit the request.  
+
+
+
+   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
+
+
+
+1. Specify the following information:  
+   Depending on how the request queue was set up, available fields might vary. For a complete list and description of possible fields, see [Create and submit Adobe Workfront requests](create-submit-requests.md) article.
+    
+    
+    * `Subject:` Specify a subject for the request. By default, the email subject is used.
+    * `Description:` Specify a description for the request. By default, the email body is used.
+    * `Documents:` Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking `Select File` and browsing to and selecting the document.  
+      By default, any documents attached to the email are included in the request.
+    
+    
+    
+
+1. Click `Submit Request`.  
+   The Request is submitted to *`Workfront`*, in the specified request queue.&nbsp;
+
+1. (Optional) Navigate back to Outlook, and select the original email.  
+   At the top of the *`Workfront`* add-in panel, notice the confirmation with a link that the email was added to *`Workfront`* as a request. The link includes the date on which it was converted.  
+   ![outlook_submitted_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)
+
+
+
+

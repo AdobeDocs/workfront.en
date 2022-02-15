@@ -1,0 +1,176 @@
+---
+filename: share-link-for-workload-balancer
+product-area: resource-management
+navigation-topic: the-workload-balancer
+---
+
+
+
+# Share the *`Workload Balancer`* with a link {#share-the-workload-balancer-with-a-link}
+
+You can share the *`Workload Balancer`* with other users who might not have the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Resourcing area</MadCap:conditionalText>` available to them. For information about using the *`Workload Balancer`*, see [Navigate the Workload Balancer](navigate-the-workload-balancer.md).
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any plan</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> or higher</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>View or higher access to&nbsp;the following:</p> 
+    <ul> 
+     <li> <p>Resource Management</p> </li> 
+     <li> <p>Projects</p> </li> 
+     <li> <p>Tasks</p> </li> 
+     <li> <p>Issues</p> </li> 
+    </ul> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+
+
+## Information included in the *`Workload Balancer`* when viewing it from a shared link {#information-included-in-the-workload-balancer-when-viewing-it-from-a-shared-link}
+
+When you share a link to the *`Workload Balancer`* with other users, the following information is included with the shared link:
+
+
+
+* The Assigned Work area of the Workload Balancer. 
+* Project, task, user information. This includes the user allocation information. 
+*  The information displays according to the selected filter.
+
+
+  >[!IMPORTANT] {type="important"}
+  >
+  >If you delete the filters after you shared the link, the users viewing the *`Workload Balancer`* from the link receive a warning that the filters were deleted. They view all users in the Assigned Work area. This is the default view for the *`Workload Balancer`*. 
+
+
+
+* The number of weeks previously selected. 
+
+
+The following options are available to the user viewing the *`Workload Balancer`* from a shared link to update themselves: 
+
+
+
+* The following timeline selections:
+    
+    
+    * Today 
+    * Back and forward icons
+    * Calendar selection
+    
+    
+* The Day, Week, `and Month` icons 
+* The Settings icon
+*  The Show allocations icon 
+
+
+  For information about using these options, see [Navigate the Workload Balancer](navigate-the-workload-balancer.md). 
+
+*  The Show role allocations icon
+
+
+  This is available only for the *`Workload Balancer`* of a project.
+
+
+
+The user who receives the shared link cannot do the following in the *`Workload Balancer`* from this link:
+
+
+
+* Assign work items to users
+* Manage user allocations
+*  Build new or update originally applied filters
+
+
+
+
+## Access needed to view information in the *`Workload Balancer`* from a shared link {#access-needed-to-view-information-in-the-workload-balancer-from-a-shared-link}
+
+You need the following access to view information in the *`Workload Balancer`* from a shared link: 
+
+
+
+* A valid *`Adobe Workfront`* license and you must be logged in to *`Workfront`*. 
+
+* At least&nbsp;View access to Resource Management in your Access Level. For information about granting Resource Management access, see [Grant access to Resource Management](grant-access-resource-management.md). 
+* View permissions to the projects, tasks, issues, and users displayed in the *`Workload Balancer`*. 
+
+
+
+
+## Share the *`Workload Balancer`* with other users from a link {#share-the-workload-balancer-with-other-users-from-a-link}
+
+
+
+
+1.  Go to the *`Workload Balancer`*
+
+
+   For information about accessing the *`Workload Balancer`*, see [Navigate the Workload Balancer](navigate-the-workload-balancer.md). 
+
+1.  (Optional) Do one or more of the following:
+
+    
+    
+    * Update the time period selection.
+    *  Click `Day, Week`, or `Month` to view daily, weekly, `or monthly` information.
+    
+    
+      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)    
+    
+
+    
+    *  Apply filters to the Unassigned and Assigned Work areas.
+    
+    
+      For information about filtering information in the *`Workload Balancer`*, see [Manage filters in the Workload Balancer](filter-information-workload-balancer.md). 
+    
+    
+    
+
+1.  Click the `link icon` ![](assets/wb-shearable-link-icon-small.png). 
+
+
+   This adds the link to your clipboard. 
+
+1. Do one of the following to share the link with others:
+    
+    
+    * Paste it into an e-mail, chat message, or any other application and share that with other users. 
+    * Add it to a `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> custom section</MadCap:conditionalText>` as an external page, add the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> custom section</MadCap:conditionalText>` to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups. 
+    
+    
+      For information about creating an&nbsp;External Page, see [Embed an external web page in a dashboard](embed-external-web-page-dashboard.md). `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> For information about adding custom sections to a Layout Template, see  <a href="customize-left-panel.md" class="MCXref xref">Customize the left panel using a layout template</a>.</MadCap:conditionalText>` 
+    
+    
+      >[!IMPORTANT] {type="important"}
+      >
+      >When you add the *`Workload Balancer`* to the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> custom section</MadCap:conditionalText>` of an object, the information in the *`Workload Balancer`* is not filtered by the object. The *`Workload Balancer`* displays the information filtered by the originally applied filters. 
+    
+    
+    
+    
+    
+
+

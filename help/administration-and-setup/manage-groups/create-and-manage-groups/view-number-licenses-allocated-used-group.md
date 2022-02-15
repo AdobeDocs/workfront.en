@@ -1,0 +1,98 @@
+
+
+
+# View the number of licenses allocated and used in a group in *`the new Adobe Workfront experience`* {#view-the-number-of-licenses-allocated-and-used-in-a-group-in-the-new-adobe-workfront-experience}
+
+As an *`Adobe Workfront administrator`*, you can view counts of the individual types of licenses currently used in your group and its subgroups. This is useful when you need to assess whether to redistribute licenses.
+
+
+If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for *`Workfront administrators`* (for any group).
+
+
+>[!IMPORTANT] {type="important"}
+>
+>A user’s license is counted in a particular group only if the group is the user’s Home Group.
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> plan</a>*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Team variable varname">Team</span> or higher</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</a>*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> <p>You must be a <span class="mc-variable WFVariables.AdminGroup variable varname">group administrator</span> of the group<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+      s
+     </MadCap:conditionalText> or a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;If you need to find out what plan or license type you have, contact your *`Workfront administrator`*.
+
+
+## View the number of licenses used in a group {#view-the-number-of-licenses-used-in-a-group}
+
+
+
+
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Click the name of the group.
+1.  On the page that displays, in the header area near the upper-right corner, view the `Licenses in use` area to see the number of `Plan` and `Work` licenses currently being used.
+
+
+   If you are viewing a top-level group and the *`Workfront administrator`* defined a maximum number of each license type for the group, these numbers are also displayed. For example, in the group below, a maximum of 10 users can have a *`Plan`* license and a 15 can have a *`Work`* license:
+
+
+   ![](assets/licenses-used-allocated-350x210.png)
+
+
+
+
+   For information about how a *`Workfront administrator`* defines a maximum number of allocated licenses for a group, see the section [Set the maximum license count for a Home Group](manage-available-licenses-in-your-system.md#set) in the article [Manage available licenses in your system](manage-available-licenses-in-your-system.md).
+
+
+   >[!NOTE]
+   >
+   >If the group you are looking at is a subgroup, you can view only the numbers of licenses being used, not the maximum number of licenses allocated for the group. This is because *`Workfront administrators`* do not define a maximum license count for a subgroup.
+   >
+   >
+   >![](assets/subgroup-used-licenses-only-350x210.png)   >
+   >
+
+
+
+
+
+1.  For separate counts of each type of license currently used in the group (including *`Review`* and *`Request`*), click the text area directly below `Licenses in use:`
+
+
+   ![](assets/click-text-to-see-more-350x208.png)
+
+
+
+
+   The box that displays provides the same information for all 4 *`Workfront`* license types: *`Plan`*, *`Work`*, *`Review`*, and *`Request`*. At the bottom of the box, you can see the total number of licenses being used by members of this group or one of its subgroups:
+
+
+   ![](assets/more-license-info-350x269.png)
+
+
+
+
+   For *`Review`* and *`Request`* licenses, the Max column always displays Unlimited.
+
+
+
