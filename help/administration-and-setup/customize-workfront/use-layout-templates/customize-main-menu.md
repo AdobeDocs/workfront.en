@@ -1,0 +1,157 @@
+---
+filename: customize-main-menu
+title: Customize the Main Menu using a Layout Template
+user-type: administrator
+product-area: system-administration;templates;setup
+navigation-topic: layout-templates
+---
+
+
+
+# Customize the Main Menu using a layout template {#customize-the-main-menu-using-a-layout-template}
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+
+
+As an *`Adobe Workfront administrator`* or a *`group administrator`*, you can use a layout template to configure the options users see when they open the Main Menu in *`Workfront`*:
+
+
+![](assets/main-menu-adobe-branding-350x184.png)
+
+
+
+
+>[!NOTE]
+>
+>The Main Menu options that users see depend on their license type and what settings are configured in their access level. Some users who will use this layout template may not see all the options you choose here. For more information see [How access levels and permissions work together](how-access-levels-permissions-work-together.md) and [Configurable access to functionality for each object type](configurable-functionality-in-each-access-level-by-object-type.md).
+
+
+For information about layout templates for groups, see [Create and modify a group’s layout templates](create-and-modify-a-groups-layout-templates.md).
+
+
+## Access requirements {#access-requirements}
+
+You must have the following to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+## Customize the Main Menu {#customize-the-main-menu}
+
+
+
+
+1. Begin working on a layout template, as described in [Create and manage layout templates](create-and-manage-layout-templates.md).
+1.  Click `Set Main Menu` near the upper-right corner.
+
+
+   In the Main Menu box that appears, you can see the items that are currently active in the Main Menu for the template, as well as the items that are available to add. The following are all the possible items that can be added:
+
+    
+    
+    *  Home
+    
+    
+      >[!TIP] {type="tip"}
+      >
+      >`By default, Home displays as My Updates ![](assets/my-updates-area-in-main-menu-reviewer-only-nwe.png) for Review-license users unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu.` 
+    
+    
+    
+    * Portfolios
+    * Programs
+    * Projects
+    * Reports
+    * Dashboards
+    * Calendars
+    * Resourcing
+    *  Scenarios
+    
+    
+      >[!NOTE]
+      >
+      >This is available only in *`the new Adobe Workfront experience`* and requires an additional license. For information about the *`Workfront Scenario Planner`*, see [The Adobe Workfront Scenario Planner overview](scenario-planner-overview.md). 
+
+    
+    
+    
+    * Teams
+    *  Users
+    
+    
+      >[!NOTE]
+      >
+      >Only users with a Plan license can see Users ![](assets/users-icon-in-main-menu.png) in the Main Menu. 
+    
+    
+    
+    * Requests
+    * Timesheets
+    * Documents
+    * Templates
+    * Analytics
+    * Proofing
+    *  Goals
+    
+    
+      >[!NOTE]
+      >
+      >This requires an additional license. For information about *`Workfront Goals`*, see [Adobe Workfront Goals overview](wf-goals-overview.md). 
+
+    
+    
+    
+    *  My&nbsp;Updates
+    
+    
+
+1. Do any of the following:
+    
+    
+    * Hide ![](assets/remove-icon---x-in-circle.png) `Active items` that you don't want to display and show ![](assets/add-icon-plus-in-circle.png) `Available items` that you do want to display on the Main Menu.
+    
+    * Drag ![](assets/move-icon---dots.png) `Active items` to change their display order on the Main Menu.
+    
+    
+    
+1.  Click `Done`.
+
+
+   You can also click `Cancel` at any time if you want to discard your changes.
+
+1.  Continue customizing the layout template.
+
+
+   Or
+
+
+   If you are finished customizing, click `Save`.
+
+
+   >[!TIP] {type="tip"}
+   >
+   >You can `Save` your progress at any time, then continue to modify the template later.
+
+
+
+
+
+For more information about layout templates, see [Create and manage layout templates](create-and-manage-layout-templates.md).

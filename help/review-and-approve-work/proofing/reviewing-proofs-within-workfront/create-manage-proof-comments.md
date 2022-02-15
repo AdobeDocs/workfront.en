@@ -1,0 +1,538 @@
+---
+filename: create-manage-proof-comments
+product-area: documents
+navigation-topic: review-proofs-within-workfront
+---
+
+
+
+# Create and manage *`proof`* comments {#create-and-manage-proof-comments}
+
+Comments enable you to provide feedback on work and collaborate with other users in the *`proofing viewer`*. When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
+
+
+
+* If you are the proof creator, owner, or have specific permissions enabled, you can tag users outside of the proof workflow and share the proof with them.
+*  If you were added to the proof as an outside user and you are a member of another environment with a different proof account, you can tag only those users from your original environment. For more information, see [Proofing collaboration limitations with people outside of your organization](Collaboration with Members outside of your organization.md)
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following access to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Current plan: <span class="mc-variable WFVariables.WFLicense-Work variable varname">Work</span> or <span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.proofPermissionProfile variable varname">Proof Permission Profile</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Manager or higher</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Access level configurations*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, role, or *`Proof Permission Profile`* you have, contact your *`Workfront`* or *`Workfront Proof administrator`*.
+
+
+## Comment on a *`proof`* {#comment-on-a-proof}
+
+
+
+
+1. Open the *`proof`* where you want to add a comment.
+1. (Conditional) If this is a video *`proof`*, play the video *`proof`*, then click `Add comment` at the point in the video where you want the comment. (You can also pause the video, click in the time line where you want the comment, then click `Add comment`.)
+
+1. Or
+1. If you want to comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.  
+1.  ![playheads_in_video_timeline.png](assets/playheads-in-video-timeline-350x76.png)
+
+1. For better precision, you can click the values above the playheads and type new values.  
+1.  ![click_above_playheads_to_type_values.png](assets/click-above-playheads-to-type-values-350x79.png)
+
+1.  Click `Add comment`.   
+
+
+
+   ![Add_comment.png](assets/add-comment-350x73.png)
+
+
+
+1.  To draw attention to a specific location on the *`proof`*, click the markup tool you want in the toolbar that appears above the *`proof`*.  
+
+
+
+   ![Comment_markup_toobar-horizontal.png](assets/comment-markup-toobar-horizontal.png)
+
+
+
+
+   You can hover over the tools to see the following descriptions:
+
+<table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="bold">Draw a freehand line</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Lets you add a line on the selected area on the <span class="mc-variable WFVariables.proof-sing-n variable varname">proof</span>.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="bold">Draw an arrow</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Lets you add an arrow to an area you select.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="bold">Highlight an area</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Highlights the area you select.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="bold">Draw a rectangle</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Lets you draw a rectangle around an area.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="bold">Polyline</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Draws a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p>This tool is especially useful for working with technical and architectural images.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Text</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>This tool appears on the left of the other tools when you open a <span class="mc-variable WFVariables.proof-sing-n variable varname">proof</span> containing text. </p> <p> <img src="assets/comment-tools-with-text-tool-appearing.png" alt="Comment_tools_with_text_tool_appearing.png"> </p> <p>It provides markup tools for commenting on text in <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>. (For a list of text file types supported for this tool, see <a href="supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types overview</a> in <a href="supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types overview</a>.)<br></p> <p>When you click this tool and then select text on your <span class="mc-variable WFVariables.proof-sing-n variable varname">proof</span>, annotation options appear beneath the selected text:<br></p> <p>You can hover over the options to see descriptions for them.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+1.  (Optional) Click the square of color at the top of the viewer to display the markup color options, then use the options listed below to specify how the markup will look.
+
+
+   ![Comment_color_tool.png](assets/comment-color-tool-350x240.png)
+
+
+
+
+1. Mark the area of the *`proof`* that you want to comment on.
+1. In static *`proofs`*, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
+1. You can also mark multiple areas of an interactive proof as long as the areas are all on the same page. 
+1. Type your comment in the `Add comment` box on the right.
+1.  (Optional) To tag another user in your comment and add them to the *`proof`*'s workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;
+
+
+   For more information, see [Tag users to share a proof](tag-users-to-share-proof.md).
+
+1.  (Optional) To attach&nbsp;a file to a comment, do either of the following: 
+    
+    
+    * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
+    * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
+    
+    
+1. Click `Post`.
+1. *`Adobe Workfront`* drops a pin in the center of the area you marked for the comment. In the screenshot below, the markup (red box) was drawn with the Box tool and the pin marked number 2 in the center identifies the markup.  
+
+1.  ![pin_for_comment.png](assets/pin-for-comment-350x179.png)   
+
+
+
+
+
+## View comments {#view-comments}
+
+
+
+
+1. Open the *`proof`* where you want to view comments.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1.  (Optional) Use the `Previous comment` and `Next comment` buttons on the right edge of the screen to navigate forward and back through comments.
+
+
+   ![](assets/prev-commt-next-commnt-350x224.png)   
+
+
+1.  Click any comment to view the comment marks on the *`proof`*.
+1. &nbsp;Or
+1.  In a video *`proof`*, hover over the point in the timeline where a comment was made, then click the numbered balloon that appears.   
+
+1.  ![proof_comment_video.png](assets/proof-comment-video-350x190.png)
+
+1. Each comment displays the following information: 
+    
+    
+    * Name of the user who made the comment
+    * The page number where the comment was made (in static *`proofs`* containing more than one page)
+    * The frame number or range of footage where the comment was made (in video *`proofs`*)
+    
+    
+      If the comment you are viewing was applied to a range of video footage, you can click the Play button to review the range.
+    
+    * Text included with the comment
+    * Any attachments that were uploaded to the comment
+    
+    
+1. (Optional) To adjust the size of the comment list, hover over the left edge of the comment area (not on the comment that is currently open) until the mouse pointer changes for horizontal resizing, then drag the edge where you want it.
+1.  ![resize_comment_area-mouse.png](assets/resize-comment-area-mouse.png)   
+
+
+
+
+
+## View comments on the Updates tab in *`Workfront`* {#view-comments-on-the-updates-tab-in-workfront}
+
+In *`Workfront`*, you can view *`proof`* comments without launching your *`proofing viewer`*.
+
+
+>[!NOTE]
+>
+>This feature is not available in *`Workfront Proof`*.
+
+
+
+
+
+1.  On the `Documents` tab of a work item, locate the document you want to view.
+1. Click the row containing the document, then click the `Summary` icon ![](assets/summary-panel-icon.png) on the right-side of the page.  
+   The comments display in the Updates section of the Document Summary.
+
+
+
+
+
+## Reply to comments {#reply-to-comments}
+
+
+
+
+1. View the comment, as described in [View comments](#viewing-comments) in this article.
+1. Type your reply in the `Add a reply` box.
+1.   (Optional) To notify another reviewer&nbsp;about your reply, type @ in the comment box, then type the user's name or email address.
+
+
+   For more information, see [Tag users to share a proof](tag-users-to-share-proof.md).
+
+1.  (Optional) To add a file to a comment, do either of the following: 
+    
+    
+    * Click the paper clip icon, then browse to and select the file you want to upload.
+    * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
+    
+    
+1. Click `Reply`.
+
+
+You can also reply to a proof comment from the Updates area for the document.
+
+
+## Search the comment list {#search-the-comment-list}
+
+
+
+
+1. Open the *`proof`* where you want to search comments.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1.  Click the `Search` icon to display the search box.  
+
+1.  Begin typing either of the following: 
+    
+    
+    * The text you want to search for. The comment list filters as you type, beginning with the first character&nbsp;you enter.
+    * The number of the comment you want to display.
+    
+    
+1. (Optional) Click the comment to display a line connecting the comment to the related area on the *`proof`*.
+1. When you are finished searching and you want to display all the comments, click the X at the end of the search box.
+
+
+
+
+## Filter the comment list {#filter-the-comment-list}
+
+You can filter the comments that display by defining filter parameter such as user, actions, unread status, and more.
+
+
+
+1. Open the *`proof`* where you want to filter comments.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1.  In the comments area, click the `Filter` icon.  
+
+
+
+   ![proof_comment_filter.png](assets/proof-comment-filter.png)
+
+
+
+1.  Use the options that appear below the `Filter` icon to filter the comments by any of the following criteria:
+
+<table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="bold">Authors</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Displays only comments and comment replies made by users you specify. Begin typing the name of any user, then select the user you want from the list that appears. The number of comments added by the users you specify displays next to their names.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="bold">Actions</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">(if Actions are enabled in your system): Displays only comments that match the action you select. A number displayed to the right of an action indicates how many comments are associated with that action. The option <span class="bold">Unactioned</span> allows you to display only comments that contain no action.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader"><span class="bold">General filtering options</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+    <ul> 
+     <li><span class="bold">Unresolved</span>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
+     <li><span class="bold">Unread</span>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
+     <li><span class="bold">With attachments</span>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
+     <li><span class="bold">Current page only</span>:&nbsp;(Available only for static and interactive <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>.) Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+1. Click `Apply` or click the `Filter` icon to view the comment list with your filter criteria applied.
+
+1. The list is filtered, and the Filter icon displays swith a blue dot to indicate that a filter is applied.
+1.  ![proof_comment_filtered.png](assets/proof-comment-filtered-350x212.png)
+
+1. When you are finished filtering and you want to see all the comments, click the `Filter` icon, click `Reset`, then click the `Filter` icon again.
+
+
+
+
+
+## Sort the comment list {#sort-the-comment-list}
+
+When you sort the comment list, the sort option you choose is remembered the next time you open a *`proof`* in the *`proofing viewer`* you are using.
+
+
+
+1. Open the *`proof`* where you want to sort comments.
+1. If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+
+1. Click the sorting&nbsp;menu to open it.
+1.  ![](assets/mceclip3.png)   
+
+1.   Select one of the following sort options:
+
+<table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Latest</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Displays the most recent comments at the top of the comment list.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Oldest</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Displays the oldest comments at the top of the comment list (default).</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Creator A-Z</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Displays comments grouped by the user who created the comment, listed in alphabetical order.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Creator Z-A</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Displays comments grouped by the user who created the comment, listed in reverse alphabetical order.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Page (down, up)</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">(Available only for static <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>.) Displays comments in order of when they appear in relation to the page number or video timeline.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Timestamp (down)</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">(Available only for video <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>.) Displays comments in order of when they appear in relation to the video timeline. Comments made later in the timeline display&nbsp;first.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Timestamp (up)</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">(Available only for video <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>.) Displays comments in order of when they appear in relation to the video timeline.&nbsp;Comments made earlier in the timeline display first.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="bold">Device (up)</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">(Available only for interactive <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>.) Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Device (down)</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>(Available only for interactive <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>.) Displays comments in order according to the resolution selected when the comment was made. Comments made on higher resolutions display first.</p> <p>For information about changing the resolution in an interactive <span class="mc-variable WFVariables.proof-sing-n variable varname">proof</span>, see&nbsp;<a href="view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
+
+
+## Edit a comment {#edit-a-comment}
+
+You can edit any comment you make on a *`proof`*. Additionally, the following users&nbsp;can edit comments made by other users:
+
+
+
+* The *`proof`* Owner
+* The *`proof`* Creator
+* Users with Supervisor profile permissions
+* Users with a proof role of Author or Moderator
+
+
+Comments cannot be edited after a reply is added to the comment. This restriction maintains the integrity of the comment thread.
+
+
+When you edit a comment, the time the comment was made is not affected.
+
+
+To edit a comment:
+
+
+
+1. Open the *`proof`* containing the comment that you want to edit.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. Hover over the comment you want to edit, click the `More` (three dots) icon that appears, then click `Edit` in the drop-down menu.
+
+1.  ![Edit_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
+
+1.  Make any changes in the comment, then click `Post`.
+
+   The label "Edited" appears on the comment. When a reviewer mouses over this, your name and the date and time of the changes appear. If you edit the comment more than once, this information appears only for the most recent change.
+
+
+   ![Comments-Edited_label.png](assets/comments-edited-label-350x211.png)
+
+
+
+
+   This label also appears above the comment when you select the document in the Documents area and view the `Updates` tab`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  in the Summary</MadCap:conditionalText>`.
+
+
+   ![](assets/edited-label-in-minix-qs-350x280.png)
+
+
+
+
+
+
+
+## Resolve a comment {#resolve-a-comment}
+
+If you have the Author or Moderator role on a *`proof`*, you can resolve a comment after it has been addressed. 
+
+
+
+1. Open the *`proof`* containing the comment that you want to resolve.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1.  Click the check mark icon in the lower-right corner of the comment (to the right of the `Reply` button).
+
+
+   A green check mark appears in the upper-left corner of the comment and a "Thread resolved" label and message appear below it. The user who submitted the comment receives a notification that the comment was resolved.
+
+
+
+
+
+## Reopen a resolved comment {#reopen-a-resolved-comment}
+
+If you have the Author or Moderator role on a *`proof`*, you can re-open a comment that you or another reviewer has resolved. 
+
+
+
+1. Open the *`proof`* containing the comment that you want to reopen.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1.  Click the green check mark icon in the lower-right corner of the comment (to the right of the `Reply` button).
+
+
+   The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives a notification that the comment was reopened.
+
+
+
+
+
+## About applying an action to a comment {#about-applying-an-action-to-a-comment}
+
+You can use actions to keep track of what needs to happen on each comment thread on a *`proof`*. An action is simply a word or phrase you select and add to a comment to provide information about what has been done or what still needs to be done in response to the comment.
+
+
+Your *`Workfront administrator`* enables and configures your organization's actions to meet the needs of *`proof`* reviewers in your organization.
+
+
+For example, your reviewers may need actions such as "To Do," "Done," and "In Progress":
+
+
+![Actions_on_coments.png](assets/actions-on-coments-350x171.png)
+
+
+
+
+Other typical actions include Make Changes, Disregard, and Clarification Needed.
+
+
+For more information, see [Use actions on comments](use-actions-on-comments-in-viewer.md).
+
+
+## Mark all comments as read {#mark-all-comments-as-read}
+
+As a reviewer of a *`proof`*, you can quickly mark all comments as Read.
+
+
+
+1. Open the *`proof`* containing the comments you want to mark as Read.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+
+1. Above the comment list, click the `More` (three dots) icon, then click `Mark all as read`.
+
+1.  ![](assets/mceclip8-350x173.png)
+
+
+
+
+
+## Delete a comment or reply {#delete-a-comment-or-reply}
+
+You can delete a comment or a reply to a comment as long as no one has already replied to it. 
+
+
+It is usually better to resolve a&nbsp;comment rather than delete it. For more informaton, see&nbsp; [Resolve a comment](#resolving-a-comment) in this article.
+
+
+Additionally, the following users can delete comments or replies made by other users:
+
+
+
+* The *`proof`* Moderator
+* Users with Supervisor profile permissions
+
+
+After a comment is deleted, the system logs an entry in the *`proof`* activity section, showing that the comment was deleted.
+
+
+To delete a comment or reply:
+
+
+
+1. Open the *`proof`* containing the comment or reply that you want to delete.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1.  Select the comment or reply, then click the `More` (three dots) icon.  
+
+
+
+   ![phq_viewer_comment_edit.png](assets/phq-viewer-comment-edit.png)
+
+
+
+1. Click `Delete` > `Yes, delete it`.
+
+
+
+
+
+## Receive email notifications about comments {#receive-email-notifications-about-comments}
+
+The email notifications you receive about comment activity are determined by the option you select in the `Email alerts` menu on the *`proof`*.&nbsp; For more information, see in [Manage notifications for proof comments and decisions](manage-notifications-for-proof-comments.md).

@@ -1,0 +1,116 @@
+---
+filename: language-settings
+content-type: reference;how-to-procedural
+product: workfront-proof
+product-area: documents;system-administration
+navigation-topic: system-information
+---
+
+
+
+# Language Settings in *`Workfront Proof`* {#language-settings-in-workfront-proof}
+
+
+
+>[!IMPORTANT] {type="important"}
+>
+>This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
+
+
+As a *`Workfront Proof administrator`*, you can choose the language to be used in *`Workfront Proof`* for all the users in your&nbsp;account.
+
+
+## Languages Supported in *`Workfront Proof`* {#languages-supported-in-workfront-proof}
+
+*`Workfront Proof`* is available in the following languages:
+
+
+
+* English (US / UK)
+* Brazilian (Portuguese)
+* Chinese
+* Dutch
+* French
+* German
+* Japanese
+* Norwegian
+* Spanish
+* Swedish
+
+
+
+
+## Change the Default Language in Account Settings {#change-the-default-language-in-account-settings}
+
+To change your account's default language, follow the steps below.
+
+
+
+1. Go to the `Details` tab in  `Account settings` in  *`Workfront Proof`*.
+
+1. In `Account details` section, click  `Edit`for the  `Default language`settings.
+
+1. In the drop-down menu select your default language.  
+   ![account_language_setting.png](assets/account-language-setting-350x230.png)
+
+
+1. Click  `Save.`
+
+
+
+
+## Changing the Default Language in Personal Settings {#changing-the-default-language-in-personal-settings}
+
+Individual *`Workfront Proof`*&nbsp;users can specify a language different to the one used by default in their&nbsp;account. To change your personal default language, follow the steps below.
+
+
+
+1. Go to the  `Personal details` tab in your  `Personal settings` in  *`Workfront Proof`*.  
+   For more information, see [Manage Workfront Proof users](manage-wp-users.md).
+
+1. Click on the language visible in the `Language`setting.
+1. In the drop-down menu select your preferred language.&nbsp;Your selection will be saved automatically.  
+   ![personal_language_setting.png](assets/personal-language-setting-350x197.png)
+
+
+
+
+
+
+## Add Proof Comments Using Non-Latin Alphabet {#add-proof-comments-using-non-latin-alphabet}
+
+You can add comments using an alphabet that differs from your default language. When viewed by another *`proof`* recipient,&nbsp;the comments display in the language you used to add the content.&nbsp;
+
+
+You can choose from the following alphabets:
+
+
+
+* Latin script
+* Chinese
+* Korean
+* Japanese
+* Cyrillic
+* Hebrew
+* Arabic
+* Greek
+
+
+
+
+## Proof Viewer Language Settings {#proof-viewer-language-settings}
+
+The ability to adjust language in the *`proofing viewer`* depends on whether the person accessing a *`proof`* is a user or a guest. 
+
+
+For *`Workfront Proof`* users, the Proof Viewer displays content in the default language set in their Personal settings.
+
+
+For guests, the *`proofing viewer`* displays content in the language the *`proof`* owner's has set in the Personal settings.
+
+
+>[!NOTE]
+>
+>If there are custom actions or decisions present in the account, these will be displayed in the language in which they were originally added regardless of the reviewers' language preferences.
+
+

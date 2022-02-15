@@ -1,0 +1,149 @@
+---
+filename: calculated-field-example-edit-history-of-another-field
+content-type: reference
+product-area: reporting
+keywords: audit,trail,custom,field
+navigation-topic: calculate-custom-data-reports
+---
+
+
+
+# Calculated custom field example: display a field's edit history {#calculated-custom-field-example-display-a-fields-edit-history}
+
+If users update custom fields on a regular basis and you want to capture a log of all the changes made to a field as well as a date when the changes happen, you can capture this information in a calculated custom field. 
+
+
+The following example shows you how to build the *Instructions Edit History* calculated field to capture all the change made to a single-line text field called *Instructions*. 
+
+
+>[!TIP] {type="tip"}
+>
+>You can follow this example for all types of custom fields, not just single-line text fields. 
+
+
+This does this following:&nbsp;
+
+
+
+*  Limits the *Instructions Edit History* field to the most recent 2000 characters to stay within the Workfront database limit. 
+*  Checks if the current value of the *Instructions* field matches the front of the *Instructions Edit History* value; it assumes it is blank and if it is not, it does the following:&nbsp;
+
+    
+    
+    *  If they match, it leaves the *Instructions Edit History* as is; 
+    *  If they do not match, it replaces the *Instructions Edit History* with the latest value in the *Instructions* field, followed by the current date in parentheses, a vertical bar, and the previous *Instructions Edit History*, which preserves the previous value(s) and the date(s) when they were entered. 
+    
+    
+
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following:
+
+<table class="TableStyle-TableStyle-HeaderRow" style="mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');caption-side: bottom;" cellspacing="15"> 
+ <caption style="text-align: left;"> 
+  <p>*To find out what plan, license type, or access you have, contact your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>.</p> 
+ </caption> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 300px;"> 
+ </col> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ </col> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;"> <p><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Any</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;"> <p><span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> license*</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><span class="bold">Access level configurations*</span> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>Administrative access to Custom&nbsp;Forms</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="text-align: left;"> <p><span class="bold">Object permissions</span> </p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>Manage permissions on the custom forms </p> <p>For more information, see <a href="share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.<br></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+## Prerequisites {#prerequisites}
+
+To add a calculated field that displays a field's edit history to a custom form, you must first:
+
+
+
+*  Create the custom form 
+*  Add the field whose history you want to capture to the custom form
+
+
+
+
+## Display a field's edit history {#display-a-fields-edit-history}
+
+
+
+
+1.  Go to a custom form where you want to add the calculated field.
+
+
+   >[!IMPORTANT] {type="important"}
+   >
+   >You must add the field whose history you want to capture on the form first and save the form at least once before you can add the calculated field. 
+
+
+
+1.  To create the single-line text custom field, for example, do the following:
+
+    
+    
+    1.  Click  `Single Line Text Field`.
+    1.  Specify a `Label` for the custom field, for example: *Instructions*.
+    1.  (Optional) Click the `Name` field to update it. The Name of the field matches the Label you just entered by default. 
+    1.  For this example, select  `Text` in the `Format` field to format the custom field as text. This is the default. 
+    1.  Click  `Done`, then `Save + Close`. 
+    
+    
+
+1.  Click the name of the form you added the *Instructions* field to. 
+1. Click `Calculated` to add a calculated custom field to the form.  
+
+1. Specify a `Label` for the calculated custom field, for example: *Instructions Edit History*. This is the field that will capture any changes made to the *Instructions* text field you created in Step 2. 
+
+1. (Optional) Click the `Name` field to update it. The Name of the field matches the Label you just entered by default. 
+1.   In the `Calculation` field, specify the following calculation for your custom field:
+
+
+
+
+   ```
+   LEFT(IF(LEFT(Instructions Edit History,LEN(IF(ISBLANK(Instructions),"-",Instructions)))=Instructions ,Instructions Edit History,CONCAT(IF(ISBLANK(Instructions),"-",Instructions)," (",$$NOW,") | ",Instructions Edit History)),2000)
+   ```
+
+
+
+
+   >[!TIP] {type="tip"}
+   >
+   >In the above code, replace *Instructions* with the exact name of your single-line text field whose history you are tracking and *Instructions Edit History* with the exact name of your calculated field. 
+
+
+
+1.  (Recommended) Type the same code in the `Instructions` field on the calculated field on the form. 
+1.  Always select  `Text` in the `Format` field to format the calculated custom field as text. This is the default. 
+1. Click  `Done`, then `Save+Close`.
+
+1.  (Optional)&nbsp;Attach the custom form to an object.
+
+
+   When someone changes the information in the Instructions field
+
+
+
+&nbsp;

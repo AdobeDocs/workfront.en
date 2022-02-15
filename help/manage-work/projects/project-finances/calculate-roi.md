@@ -1,0 +1,76 @@
+---
+filename: calculate-roi
+content-type: overview;how-to-procedural
+product-area: projects
+navigation-topic: financials
+---
+
+
+
+# Calculate Return On Investment (ROI) {#calculate-return-on-investment-roi}
+
+Return On Investment (ROI) is *`Adobe Workfront`* metric that allows portfolio managers to quickly see how the project is performing against the original Planned Benefit and Budgeted Cost of the project.
+
+
+## Overview of the project Return on Investment (ROI) {#overview-of-the-project-return-on-investment-roi}
+
+*`Workfront`* calculates ROI using the following formula:
+
+
+
+
+```
+Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budgeted Cost] x 100
+```
+
+
+
+
+The following fields affect the ROI of a project:
+
+
+
+* `Project Planned Benefit`: This is a manual entry specified by the Project Owner when completing the Project Info area of the Business Case. This is an estimation of what you, as the Project Owner, think that the benefit of the project might be if you complete the project. This is a specific amount of currency and it must be a positive value.  
+  For more information about the Planned Benefit of a project, see the section "Project Info" in the article [Create a Business Case for a project in Adobe Workfront](create-business-case.md).
+
+*  `Project Budgeted Cost`:&nbsp;This is the total cost associated with the project as estimated when you first launch the project. 
+
+
+  The `Budgeted Cost` uses the  `Budgeted Labor Cost` value which is calculated in the Resource Budgeting area of the Business Case and it takes into account the hours budgeted for your job roles in the *`Resource Planner`* and the Cost per Hour rate of each job role.   
+  For more information, see [Calculate Budgeted Cost](budgeted-cost.md). 
+
+
+
+
+
+## Locate the project Return on Investment (ROI) {#locate-the-project-return-on-investment-roi}
+
+You can view the ROI value for a project in the following areas in *`Workfront`*:
+
+
+
+* In the Portfolio Optimizer&nbsp;if the project is associated with a portfolio  
+
+
+  >[!NOTE]
+  >
+  >The total of all project ROI values is the ROI of the portfolio.  
+
+
+
+  For information about the Portfolio Optimizer, see the article [Portfolio Optimizer overview](portfolio-optimizer-overview.md).   
+
+* In the Project&nbsp;ROI field in the following lists and reports:&nbsp;
+    
+    
+    * Project
+    * Task
+    * Issue
+    * Project (Financial&nbsp;Data) 
+    
+    
+  For more information about building reports in *`Workfront`*, see the article [Create a custom report](create-custom-report.md).  
+
+
+
+

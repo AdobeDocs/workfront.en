@@ -1,0 +1,61 @@
+---
+filename: user-sync-proofing
+user-type: administrator
+content-type: reference;overview
+product-area: system-administration;documents
+navigation-topic: configure-proofing-functionality
+---
+
+
+
+# User synchronization between *`Adobe Workfront`* and *`Workfront Proof`* {#user-synchronization-between-adobe-workfront-and-workfront-proof}
+
+User information is synchronized from *`Adobe Workfront`* to *`Workfront Proof`*; it is not synchronized from *`Workfront`* Proof to *`Workfront`*. Because of this, any time you create or modify users, you must make those changes within *`Workfront`*. You cannot make changes to users within *`Workfront Proof`*.
+
+
+The following sections provide information about user synchronization from *`Workfront`* to *`Workfront Proof`*:
+
+
+## Information that is synchronized {#information-that-is-synchronized}
+
+*`Workfront`* synchronizes the following user information to *`Workfront Proof`*:
+
+
+
+* Name (the user's first and last name)
+* Email address
+
+
+
+
+## When synchronization occurs {#when-synchronization-occurs}
+
+User information is synchronized from *`Workfront`* to *`Workfront Proof`* in the following circumstances:
+
+
+
+* A user's information is updated in *`Workfront`*
+* A user is created in *`Workfront`*
+
+
+Depending on whether a user with the same email address exists in *`Workfront Proof`*, either of the following occurs:
+
+
+
+* `If no user with a matching email exists in *`Workfront Proof`* and ... :`&nbsp; 
+    
+    
+    * `Proofing is enabled for the user:` The user is created as a User in *`Workfront Proof`*.
+    
+    * `Proofing is not enabled for the user:` The user is created as a Contact in *`Workfront Proof`*.
+    
+    
+    
+
+*  `If a user with a matching email exists in *`Workfront Proof`*:` Proofing is enabled for that user in *`Workfront`* (if it was not already enabled) and information is&nbsp;synchronized between the two users.
+
+
+  For more information, see [Configure a user's proofing access](configure-a-users-proofing-access.md) in [Configure a user's proofing access](configure-a-users-proofing-access.md).
+
+
+

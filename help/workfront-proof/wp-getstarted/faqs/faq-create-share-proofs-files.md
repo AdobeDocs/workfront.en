@@ -1,0 +1,212 @@
+---
+filename: faq-create-share-proofs-files
+content-type: faq
+product: workfront-proof
+product-area: documents;system-administration
+navigation-topic: faqs-workfront-proof
+---
+
+
+
+# FAQ - Create and share *`proofs`* and files {#faq-create-and-share-proofs-and-files}
+
+
+
+>[!IMPORTANT] {type="important"}
+>
+>This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
+
+
+
+
+## What is a *`proof`*? {#what-is-a-proof}
+
+
+
+### Answer {#answer}
+
+A *`proof`* is a static, audio, or video file that is available for review in the *`proofing viewer`*. Reviewers added to a *`proof`* have a set of tools available to them to make comments and decisions on the *`proof`*.&nbsp;
+
+
+## What file types are supported? {#what-file-types-are-supported}
+
+
+
+### Answer {#answer-1}
+
+Proofs can be created from static, audio, and video files. You can't upload files larger than 4GB. *`Workfront`* supports over 150 file types (see [Supported proofing file types overview](supported-proofing-file-types.md)&nbsp;for a full list).
+
+
+## What is the difference between a *`proof`* and a file? {#what-is-the-difference-between-a-proof-and-a-file}
+
+
+
+### Answer {#answer-2}
+
+When you upload a file to *`Workfront Proof`*, the system stores the file in your *`Workfront Proof`* account. When you share it, *`Workfront Proof`* emails your recipients a link that they can click to download the file. You can share any file type you want.
+
+
+When you create a *`proof`* from a file you have uploaded to *`Workfront Proof`*, you can make the file available for review in the *`proofing viewer`*. Reviewers receive an email with a link to the *`proof`*. When they open the *`proof`*, they see the *`proof`* image and can add comments and make decisions on it. You can create *`proofs`* using files from the list of supported file types. You can also create *`proofs`* using URLs for websites and other web content.
+
+
+For a full list of supported file types, see [Supported proofing file types overview](supported-proofing-file-types.md).&nbsp;
+
+
+## How do I create a *`proof`*? {#how-do-i-create-a-proof}
+
+
+
+### Answer {#answer-3}
+
+You can create *`proofs`* from static files, audio files, video files, and URLs (see [Generate a proof](generate-proof.md)).
+
+
+To create a *`proof`* in the account, you need to be a user with the right permission profile (see [Proof Permissions Profiles in Workfront Proof](proof-perm-profiles-in-wp.md)).&nbsp;
+
+
+If you upload multiple files at the same time, you create multiple *`proofs`* that you can send to the same group of reviewers using one email. If your organization has an Enterprise or Unlimited account, you can combine files into a single *`proof`* (see [Create a multi-page proof](create-multi-page-proof.md)).
+
+
+## What are *`proof`* roles and email alerts? {#what-are-proof-roles-and-email-alerts}
+
+
+
+### Answer {#answer-4}
+
+Proof roles define what actions a reviewer needs to take on a *`proof`*. There are different role options you can use for reviewers when you create a *`proof`*, depending on whether you want them to be able to make comments, make decisions, and so on. For more information, see [Manage Proof Roles in Workfront Proof](manage-proof-roles.md).
+
+
+Email alerts update reviewers on a *`proof`*'s progress (they are different from new *`proof`* and late *`proof`* notifications). You can select different options for different reviewers, depending on each reviewer’s role on the *`proof`*. For more information, see [Create an advanced proof with an Automated workflow](create-automated-proof-workflow.md).
+
+
+## Can I create a *`proof`* from multiple files? {#can-i-create-a-proof-from-multiple-files}
+
+
+
+### Answer {#answer-5}
+
+Combining multiple files into a single *`proof`* is a feature available on Enterprise and Unlimited edition plans. This option is possible only for static files, not for video files. For more information, see&nbsp; [Create a multi-page proof](create-multi-page-proof.md).
+
+
+## Can I create *`proofs`* from URLs? {#can-i-create-proofs-from-urls}
+
+
+
+### Answer {#answer-6}
+
+Yes, you can create *`proofs`* from websites and other web content. When you add a URL to create a *`proof`*, you can specify whether you want a static *`proof`* or an interactive *`proof`*:
+
+
+
+* In an interactive *`proof`*, reviewers can navigate and interact as they normally would with the website or other web content such as&nbsp;ads with streaming video or audio, Flash elements in an ad, HTML animations, and interactive banners. For more information, see [Create a proof for interactive content in a ZIP file](generate-proof-interactive-content-.md).
+
+* For a static *`proof`*, *`Workfront`* takes a set a screenshots of the pages and subpages you specify. Hyperlinks are live in the *`proof`*, so you can test whether or not they lead to the correct destination. For more information, see [Create a static proof for a website or other web content](generate-static-proof-website-other-web-content.md).
+
+
+
+You can add multiple URLs at once if you separate them with a space. Note that combining is only available on Enterprise and Unlimited edition plans.
+
+
+## Can people who don’t have a login create *`proofs`* in my account? {#can-people-who-don-t-have-a-login-create-proofs-in-my-account}
+
+
+
+### Answer {#answer-7}
+
+You need login credentials to create *`proofs`* directly in a *`Workfront Proof`* account. 
+
+
+## What does sharing a *`proof`* mean? {#what-does-sharing-a-proof-mean}
+
+
+
+### Answer {#answer-8}
+
+Sharing a *`proof`* gives reviewers access to it so that they can add comments and markups and make decisions on it. Guest reviewers access *`proofs`* from the email notification they receive. Reviewers with their own *`Workfront Proof`* account can access *`proofs`* on the Dashboard.&nbsp;
+
+
+## How do I share a *`proof`*? {#how-do-i-share-a-proof}
+
+
+
+### Answer {#answer-9}
+
+When you are creating a *`proof`*, you can add reviewers in the Workflow section of the New Proof page. When the *`proof`* is ready, *`Workfront Proof`* sends an email to the reviewers containing a link to the *`proof`*.
+
+
+If you have sufficient rights on a *`proof`*, you can use the *`proofing viewer`*, your Dashboard, or any of the list views to add reviewers to an existing *`proof`* (see [Share a Proof in Workfront Proof](share-proof.md)&nbsp;and [Manage Items on the Views Page in Workfront Proof](manage-items-on-views-page.md).
+
+
+Adding reviewers is the most common way to share *`proofs`*. If you’d like to explore other available options, see:
+
+
+
+*  [Share proof links in Workfront Proof](share-proof-links.md)&nbsp;
+* [Share the Public URL in Workfront Proof](share-public-url.md)&nbsp;
+* [Subscribe to a Proof in Workfront Proof](subscribe-to-proof.md)&nbsp;
+* [Create a Mini proof in Workfront Proof](create-mini-proof.md) 
+
+
+
+
+## Do you have to be a user to review a *`proof`*? {#do-you-have-to-be-a-user-to-review-a-proof}
+
+
+
+### Answer {#answer-10}
+
+No. Guest reviewers (people without *`Workfront Proof`* login credentials) can access a *`proof`* from the *`proof`* email notification they receive. You can share a *`proof`* with as many guests as you want.
+
+
+It is possible to restrict sharing *`proofs`* to people with *`Workfront Proof`* login credentials. This adds another layer of security to your *`proofs`*. For enhanced security, system administrators of organizations with Enterprise and Unlimited plans can configure this requirement for all *`proofs`* created in the organization.
+
+
+For more information about requiring login, see [Proof security in Workfront Proof](proof-security-in-workfront-proof.md).
+
+
+If you have your organization require reviewers to sign *`proofs`* electronically, which requires logging into *`Workfront Proof`*, users can share *`proofs`* only with registered users. This is available on Enterprise and Unlimited edition plans. For more information, see [Understanding electronic signatures in Workfront Proof](electronic-sigs-in-wp.md).
+
+
+## Can I set a deadline for my reviewers? {#can-i-set-a-deadline-for-my-reviewers}
+
+
+
+### Answer {#answer-11}
+
+You can set a deadline for a new *`proof`* or a new *`proof`* version when you are creating the *`proof`*. You do this in the Workflow section of the New Proof page. If you use Automated Workflow, you can set a different deadline for each stage of your review. For more information, see [Manage deadlines for a proof](set-deadlines-proof.md).
+
+
+You can also set or update a deadline for an existing *`proof`* using the Proof Details page.&nbsp;For more information, see [Manage Proof Details in Workfront Proof](manage-proof-details.md).
+
+
+## How can I create a new version of my *`proof`*? {#how-can-i-create-a-new-version-of-my-proof}
+
+
+
+### Answer {#answer-12}
+
+Reviewers often request changes in their comments on a *`proof`* and would like to see a new version of the *`proof`*. You can create new versions of a *`proof`*. *`Workfront Proof`* remembers the *`proof`*'s settings from the previous version. You can still edit these settings if you need to do something like adding or removing reviewers for the *`proof`*.
+
+
+You must share each version with the specific reviewers who need to view it. For example, if you share only version 3 with a reviewer, that person can't see versions 1 and 2. Supervisors and Administrators in your account oversee all projects in the account, so they can see and edit all versions of the *`proof`*.
+
+
+For more information, see .
+
+
+## Can I share files using *`Workfront Proof`*? {#can-i-share-files-using-workfront-proof}
+
+
+
+### Answer {#answer-13}
+
+Yes. If you want to share something with other people, but you don't need them to view it as a *`proof`* (or if it’s a file type that’s not supported by *`Workfront Proof`*), you can upload it as a file to your *`Workfront Proof`* account. As with *`proofs`*, you can organize your files into folders, tag files, and add a custom message to the notification email when you share the file.&nbsp;For more information, see [Upload Files and Web Content to Workfront Proof](upload-files-web-content.md).
+
+
+When your recipients receive the email notification about a file you are sharing, they can download the file by clicking the link in the notification.
+
+
+*`Workfront Proof`* users can convert files into *`proofs`* after saving them in their account.
+
+
+Is there a limit

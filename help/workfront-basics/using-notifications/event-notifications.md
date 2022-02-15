@@ -1,0 +1,69 @@
+---
+filename: event-notifications
+content-type: overview
+navigation-topic: notifications
+---
+
+
+
+# Event notifications {#event-notifications}
+
+Event notifications are emails triggered by various types of events on objects such as projects, tasks, or issues. They are sent when something occurs on the project that others need to know about. Depending on the event, users receive instant, daily, or both instant and daily email notifications about it.
+
+
+>[!NOTE]
+>
+>Event notifications are one of several types of *`Adobe Workfront`* notifications. For information about all *`Workfront`* notification types, see [Adobe Workfront notifications](wf-notifications.md).
+
+
+
+
+## Configuring event notifications {#configuring-event-notifications}
+
+Event notification emails can be configured at the following levels listed below. Configuration of an event notification consists of activating or deactivating it`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  and customizing its email subject line</MadCap:conditionalText>`.
+
+
+
+*  `System level`: A *`Workfront administrator`* can activate and deactivate event notifications at the system level, as explained in [Configure event notifications for everyone in the system](configure-event-notifications-for-everyone-in-the-system.md).
+
+
+  All groups inherit system notifications by default, but *`group administrators`* might be able to change some configurations on the group level, if allowed by the *`Workfront administrator`*, as explained in the next bullet item below.
+
+*  `Group level`: A *`group administrator`* can configure an event notification for groups they manage after a *`Workfront administrator`* unlocks this ability for groups. (missing or bad snippet) For more information, see [View and configure event notifications for a group](view-and-configure-event-notifications-group.md).
+
+
+  >[!NOTE]
+  >
+  >This functionality is available initially only to customers on Cluster 4 as part of a phased roll-out. It will become available for other clusters shortly thereafter. This article will be updated as this occurs.
+
+
+
+*  `User level`: All of the event notifications that are activated system-wide are listed in each user's Notifications section on their individual profile. Users can activate and deactivate their individual event notifications there.
+
+
+  *`Workfront administrators`* and users with access to edit other users can also activate and deactivate notifications in the profile of individual users.
+
+
+  For more information, see [Activate or deactivate your own event notifications](activate-or-deactivate-your-own-event-notifications.md).
+
+
+  >[!NOTE]
+  >
+  >User-level notifications also include *`Workfront Goals`* notifications. However, the *`Workfront administrator`* or the *`group administrator`* cannot configure notifications for *`Workfront Goals`*. Each use must configure their own *`Workfront Goals`* notifications in their profile. If you have access to edit users you can also modify these notifications for others. For enabling *`Workfront Goals`* notifications for your profile or for other users that you have access to edit, see [Notifications: Goals](notifications-goals.md).
+
+
+  For more information about what notifications the *`Workfront administrator`*can configure, see [Configure event notifications for everyone in the system](configure-event-notifications-for-everyone-in-the-system.md). *`Workfront Goals`*are available only in *`The new Adobe Workfront experience`*.
+
+
+
+
+
+## Event notification content {#event-notification-content}
+
+An event notification email contains information about the event that took place and contains a link to *`Workfront`* where you can see the event in the system. For more information about receiving email notifications, see [Adobe Workfront notifications](wf-notifications.md).
+
+
+A *`Workfront administrator`* cannot change the content of the email notifications, as they are configured by *`Workfront`*. However, they can change the subject lines of event notifications emails. For more information, see [Customize email subjects for event notifications](custom-email-subjects-event-notification.md).
+
+
+For a list all of the *`Workfront`* event notifications, along with a brief description of each event, and whether it is active or inactive by default, see [Event notifications available in Adobe Workfront](event-notifications-available-in-wf.md).

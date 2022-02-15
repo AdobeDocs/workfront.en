@@ -1,0 +1,131 @@
+---
+filename: create-custom-expense-types
+user-type: administrator
+product-area: system-administration
+navigation-topic: configure-system-defaults
+---
+
+
+
+# Create custom expense types {#create-custom-expense-types}
+
+You can keep track of expenses on projects and tasks. Expenses are non-labor costs and can be associated with tasks or projects.
+
+
+As the *`Adobe Workfront administrator`*, you can create custom expense types, to define the expenses associated with your tasks and projects. Some expense types are already in *`Workfront`* by default.
+
+
+You can edit or delete any expense types that you create. You cannot delete or edit default expense types.
+
+
+## Access requirements {#access-requirements}
+
+You must have the following to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+## Default Expense Types {#default-expense-types}
+
+The Expense Types that are in *`Workfront`* by default cannot be deleted or edited include the following:
+
+
+
+* Advertising
+* Consulting
+* Entertainment
+* General
+* Materials
+* Travel
+
+
+
+
+## Create custom expense types {#create-custom-expense-types-1}
+
+
+
+
+1.  Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*.
+1.  Click `Expense Types`.
+1. Click `New Expense Type`.  
+   The `New Expense Type` dialog box is displayed.
+
+1.   Specify the following information:
+
+<table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Name</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Specify a name for the expense.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Description</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Specify a description for the expense.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Calculated Unit</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Select the unit of measurement for your expense type from the drop-down list.</p> <p>The following unit of measurements are available:</p> 
+    <ul> 
+     <li>Mile</li> 
+     <li>Kilometer</li> 
+     <li>Kilogram</li> 
+     <li>Dollar</li> 
+     <li>Dollar</li> 
+     <li>Day</li> 
+     <li>Other - Selecting this option prompts you to name your unit of measurement and define the unit of measurement as something familiar to your organization.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Rate</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Specify the price per unit. This is a currency formatted field and it represents the cost of each unit established in the <span class="bold">Calculated Unit</span> field. </p> <p>The rate can contain a numerical value with up to 4 numbers after the decimal. For example, 1.0375</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+1. Click `Create Expense Type`.  
+   The expense type is now available for users to associate it with their expenses on projects and tasks.
+
+
+
+
+
+## Modify custom Expense Types {#modify-custom-expense-types}
+
+
+
+
+1.  Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*.
+1. Click `Expense Types`.
+1.  Select the expense type that you want to modify, then click `Edit`.
+
+
+   The `Edit Expense Type` dialog box is displayed.
+
+1. Make your desired changes, then click `Save Changes`.  
+   The expense type is now available for users to associate it with their expenses on projects and tasks.
+
+
+
+For more information about how to use expenses and how they can affect the cost of a project, see the article [Manage project expenses](manage-project-expenses.md). 

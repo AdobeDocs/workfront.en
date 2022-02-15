@@ -1,0 +1,107 @@
+---
+filename: delete-a-custom-field
+title: Manage Custom Forms
+user-type: administrator
+product-area: system-administration
+navigation-topic: create-and-manage-custom-forms
+---
+
+
+
+# Delete a custom field {#delete-a-custom-field}
+
+To improve system performance and to make forms easier to use for users, you might want to remove fields from a custom form when the fields are no longer being used.
+
+
+>[!IMPORTANT] {type="important"}
+>
+>Deleting a field also deletes all custom data on the objects associated with the field. The deleted data cannot be recovered.
+>
+>
+>You can view all custom forms and reports that use a custom field you want to delete in order to assess what the repercussions might be. For more information, see [View all custom forms that use a particular custom field](view-all-custom-forms-that-use-a-particular-custom-field.md) and [View all reports that use a particular custom field](view-all-reports-that-use-a-particular-custom-field.md).
+
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following to perform the steps in this article:
+
+<table class="TableStyle-TableStyle-List-options-in-steps" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray" data-mc-conditions=""> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> <p><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</p> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Any</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray" data-mc-conditions=""> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Administrative access to custom forms</p> <p>For information about how <span class="mc-variable WFVariables.AdminWF-plur variable varname">Workfront administrators</span> grants this access, see <a href="grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access level configurations you have, contact your *`Workfront administrator`*.
+
+
+## Delete a custom field {#delete-a-custom-field-1}
+
+
+
+
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Custom Forms.`
+1. Click the `Fields`tab.
+1. Select the custom field, then click `Delete`.
+1.  If you are sure you want to permanently delete the custom field and all associated data on objects where it was attached, click `Yes, Delete It`. 
+
+
+
+
+## Remove fields without losing data {#remove-fields-without-losing-data}
+
+
+` `**Warning: **`` Removing fields from a form that has over 500 fields cannot be undone. Avoid this unless you are certain that you won't need to re-add fields to the custom form in the future. Each time you remove a field, another field cannot be added to the custom form until the custom form has fewer than 500 fields.
+
+
+
+1.  Determine which fields you want to remove from the original custom form. 
+
+
+   Do not remove any fields from the original custom form at this time.
+
+1. Create a new custom form, as described in [Create or edit a custom form](create-or-edit-a-custom-form.md).  
+
+    
+    
+    1. Add the fields to the new form that you want to remove from the original custom form.
+    1. Save the new custom form that includes all of the fields that you are going to remove from the original custom form.
+    
+    
+
+1. Limit access to the custom form to only users with&nbsp;administrative access.&nbsp;
+1.  Apply the new custom form to the object where the original custom form is already applied, as described in [Add a custom form to an object](add-a-custom-form-to-an-object.md).
+
+
+   Applying the new custom form to the object ensures that historical reporting data is not affected.
+
+1.  Modify the original custom form and remove any fields. 
+
+
+   Remove only the fields that you previously&nbsp;added to the new form (in Step 2).
+
+
+   For information about removing fields from a custom form without losing data that users have entered in those fields, see the section [Remove fields without losing data](#remove)a in the article [Delete a custom field](#).
+
+
+   The fields that you removed from the original custom form are now available only on the new custom form that you created. Users are able to see the custom form on the object, but users without administrative access are not able to modify the custom form.
+
+
+

@@ -1,0 +1,959 @@
+---
+filename: new-api-version-12
+content-type: api
+navigation-topic: api-navigation-topic
+---
+
+
+
+# What's new in API version 12 {#whats-new-in-api-version}
+
+Workfront released API version 12 on November 12, 2020. API version 12 features the following changes from version 11 
+
+
+## Added Resources {#added-resources}
+
+The following resources are new in Workfront API version 12.
+
+
+
+*  [BreadCrumb](#breadcru) 
+*  [RichTextParameterValue](#richtext) 
+
+
+
+
+### BreadCrumb {#breadcrumb}
+
+A BreadCrumb object represents an element in the parent/child hierarchy of an *`Adobe Workfront`* work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
+
+
+For more information on Breadcrumbs in *`Workfront`*, see [Breadcrumbs overview in the new Adobe Workfront experience](breadcrumb-overview.md)
+
+
+### RichTextParameterValue {#richtextparametervalue}
+
+Rich text fields are now available on more objects. The RichTextParameterValue object was added to *`Workfront`* to support this availability.
+
+
+For more information, see [Rich text fields in the Adobe Workfront API](rich-text-field-api.md).
+
+
+## Removed Resources {#removed-resources}
+
+No resources were removed for API version 12.
+
+
+## Modified Resources {#modified-resources}
+
+The following resources were modified for Workfront API version 12.
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader"> 
+    <ul> 
+     <li> <p><a href="#accessle" class="MCXref xref">AccessLevel</a> </p> </li> 
+     <li> <p><a href="#accessle2" class="MCXref xref">AccessLevelPermissions</a> </p> </li> 
+     <li> <p><a href="#accessre" class="MCXref xref">AccessRequest</a> </p> </li> 
+     <li> <p><a href="#accessru" class="MCXref xref">AccessRule</a> </p> </li> 
+     <li> <p><a href="#activity" class="MCXref xref">ActivityLog</a> </p> </li> 
+     <li> <p><a href="#announce" class="MCXref xref">AnnouncementAttachment</a> </p> </li> 
+     <li> <p><a href="#approval" class="MCXref xref">Approval</a> </p> </li> 
+     <li> <p><a href="#calendar" class="MCXref xref">CalendarSection</a> </p> </li> 
+     <li> <p><a href="#company" class="MCXref xref">Company</a> </p> </li> 
+     <li> <p><a href="#customer" class="MCXref xref">Customer</a> </p> </li> 
+    </ul> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column2-LightGray"> 
+    <ul> 
+     <li> <p><a href="#customer2" class="MCXref xref">CustomerPreferences</a> </p> </li> 
+     <li> <p><a href="#document" class="MCXref xref">Document</a> </p> </li> 
+     <li> <p><a href="#document2" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#group" class="MCXref xref">Group </a> </p> </li> 
+     <li> <p><a href="#linkedfo" class="MCXref xref">LinkedFolder</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
+     <li> <p><a href="#paramete" class="MCXref xref">Parameter</a> </p> </li> 
+     <li> <p><a href="#portfoli" class="MCXref xref">Portfolio</a> </p> </li> 
+     <li> <p><a href="#program" class="MCXref xref">Program</a> </p> </li> 
+    </ul> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+    <ul> 
+     <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
+     <li> <p><a href="#schedule" class="MCXref xref">ScheduledReport</a> </p> </li> 
+     <li> <p><a href="#scorecar" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref">Task</a> </p> </li> 
+     <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
+     <li> <p><a href="#template" class="MCXref xref">TemplateTask</a> </p> </li> 
+     <li> <p><a href="#timeshee" class="MCXref xref">Timesheet</a> </p> </li> 
+     <li> <p><a href="#user" class="MCXref xref">User</a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref">Work </a> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&nbsp;
+
+
+### AccessLevel {#accesslevel}
+
+An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
+
+
+For more information on access levels, see [How access levels work](_access-levels.md).
+
+
+### AccessLevelPermissions {#accesslevelpermissions}
+
+An AccessLevelPermissions object represents a specific permission to access, create, or modify a Workfront object. These permissions can then be associated with an Access Level.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">coreAction</span> </p> <p>Added the following possibleValues:</p> 
+      <ul> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="create-or-edit-a-custom-form.md#add2" class="MCXref xref">Add a field to a custom form</a> in <a href="create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">forbiddenActions</span> </p> <p>Added the following possibleValues:</p> 
+      <ul> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">secondaryActions</span> </p> <p>Added the following possibleValues:</p> 
+      <ul> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### AccessRequest {#accessrequest}
+
+If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li> <p style="font-weight: bold;">action</p> <p>Added the following possibleValues:</p> 
+      <ul> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="create-or-edit-a-custom-form.md#add2" class="MCXref xref">Add a field to a custom form</a> in <a href="create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### AccessRule {#accessrule}
+
+An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li><span class="bold">coreAction</span> <p>Added the following possibleValues:</p> 
+      <ul> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="create-or-edit-a-custom-form.md#add2" class="MCXref xref">Add a field to a custom form</a> in <a href="create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">forbiddenActions</span> </p> <p>Added the following possibleValues:</p> 
+      <ul> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">secondaryActions</span> </p> <p>Added the following possibleValues:</p> 
+      <ul> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### ActivityLog {#activitylog}
+
+An ActivityLog object is a complete list of all activity that has taken place in a given Workfront Proof account.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Operations</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following operation was removed from the ActivityLog object:</p> 
+    <ul> 
+     <li> <p><span class="bold">ADD </span> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### AnnouncementAttachment {#announcementattachment}
+
+An AnnouncementAttachment object represents a file that has been attached to a Workfront announcement.
+
+
+For more about announcement attachments, see [Send announcements](view-send-announcements.md)
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">fileExtension</span> </p> <p>Added possible values:</p> 
+      <ul> 
+       <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
+       <li> <p>qslides (enum.fileextension.qslides)</p> </li> 
+       <li> <p>qsheet (enum.fileextension.qsheet)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Approval {#approval}
+
+A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">backlogOrder</span> </p> <p>Removed the following flags:</p> 
+      <ul> 
+       <li> <p>DYNAMIC,</p> </li> 
+       <li> <p>LAZY_READ,</p> </li> 
+       <li> <p>NOT_GROUPABLE</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">groupID</span> </p> <p>Added the following flags</p> 
+      <ul> 
+       <li> <p>AUTO_LOAD,</p> </li> 
+       <li> <p>DYNAMIC,</p> </li> 
+       <li> <p>READ_ONLY</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">workEffort</span> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
+      <ul> 
+       <li> <p>1 (Small)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
+       <li> <p>3 (Large)</p> </li> 
+      </ul> <p>For more information on Work Effort in Workfront, see <a href="work-effort.md" class="MCXref xref">Work Effort overview</a>.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### CalendarSection {#calendarsection}
+
+A Calendar Section is a calendar report.
+
+
+For more information on calendar reports, see [Calendar reports overview](calendar-reports-overview.md).
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p style="font-weight: normal;">The following fields were added to the CalendarSection object to support the new functionality of using custom dates in calendar reports. </p> <p style="font-weight: normal;">For more information, see <a href="use-custom-dates.md" class="MCXref xref">Use custom date fields in a calendar report</a>.</p> 
+    <ul> 
+     <li> <p style="font-weight: normal;">customDate</p> </li> 
+     <li> <p style="font-weight: normal;">customEndDateParameterID</p> </li> 
+     <li> <p style="font-weight: normal;">customStartDateParameterID</p> </li> 
+     <li> <p style="font-weight: normal;">ignoreActualDates</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Company {#company}
+
+A Company object represents an organization consisting of a collection of people. 
+
+
+For more information on companies, see [Create and edit companies](create-and-edit-companies.md).
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">The ID&nbsp;of the group that the company is associated with.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>group</p> <p style="font-weight: normal;">The group that the company is associated with. Associating a company with a group allows the group administrator to extend group access and permissions to the company.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Customer {#customer}
+
+A Customer object represents an organization that uses an instance of Workfront.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Actions</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li> <p style="font-weight: normal;"><span class="bold">productEnabled</span> </p> <p style="font-weight: normal;">This action takes a CustomerProductTypeEnum argument and returns a boolean that says whether that customer has an account for that product. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### CustomerPreferences {#customerpreferences}
+
+A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Added possible values:</p> 
+      <ul> 
+       <li style="font-weight: normal;">password:zoomIntegrationEnabled (Enable Zoom integration in the updates stream)</li> 
+       <li style="font-weight: normal;"> password:quipIntegrationEnabled (config.general.quip.enabled) &nbsp;</li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Document {#document}
+
+A Document object represents a file (such as written material, images, or other forms of information).
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Actions</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>createLinkedProofVersion</p> <p style="font-weight: normal;">Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### DocumentVersion {#documentversion}
+
+A DocumentVersion object represents a specific version of a file (such as written material, images, or other forms of information).
+
+
+For more information about document versions, see [Upload a new version of a document](upload-new-document-version.md).
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">Removed possible value:</p> 
+      <ul> 
+       <li style="font-weight: normal;">QUIP (Quip)</li> 
+      </ul> </li> 
+    </ul> 
+    <ul> 
+     <li> <p style="font-weight: normal;"><span class="bold">proofDecision</span> </p> <p>Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Actions</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>The following actions were added to the Document object.</p> 
+    <ul> 
+     <li> <p style="font-weight: bold;">getDocumentReviewerDecision</p> <p style="font-weight: normal;">This action takes the documentVersonID argument (string) and returns a map that indicates the reviewer's decision.</p> </li> 
+     <li style="font-weight: bold;"> <p>setDocumentReviewerDecision</p> <p style="font-weight: normal;">This action takes the following arguments:</p> 
+      <ul style="font-weight: normal;"> 
+       <li> <p>documentVersionID (string)</p> </li> 
+       <li> <p>reviewerDecision (string)</p> </li> 
+       <li> <p>comment (string)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Group  {#group}
+
+A Group object represents a set of users and teams. Groups often represent departmental structure. 
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>businessLeaderID</p> <p style="font-weight: normal;">The ID&nbsp;of the Business Leader assigned to the group.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>businessLeader</p> <p style="font-weight: normal;">The Business Leader assigned to the group. A Business Leader is someone who makes business decisions for the group.</p> <p style="font-weight: normal;">For more information on business leaders, see <a href="business-leader-overview.md" class="MCXref xref">Business Leader overview</a>.<br></p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Actions</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">assignMultiple</span> </p> <p>This action takes the following arguments:</p> 
+      <ul> 
+       <li> <p>userIDs (string[])</p> </li> 
+       <li> <p>roleIDs (string[])</p> </li> 
+       <li> <p>teamID (string)</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">getGroupMembers</span> </p> </li> 
+     <li> <p><span class="bold">updateMembersList</span> </p> <p>This action takes the following arguments:</p> 
+      <ul> 
+       <li> <p>newMemberIDs (string[])</p> </li> 
+       <li> <p>removedMemberDs (string[])</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### LinkedFolder {#linkedfolder}
+
+A LinkedFolder object represents a folder linked from an external document provider, such as Google Drive or Dropbox.
+
+
+For more information on Linked Folders, see [Link documents from external applications](link-documents-from-external-apps.md).
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">Removed possible value:</p> 
+      <ul> 
+       <li style="font-weight: normal;">QUIP (Quip)</li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### OpTask {#optask}
+
+An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> <p>Direct Fields</p> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">backlogOrder</span> </p> <p>Order indicates a task or story's position on the Agile backlog.</p> <p>This field removed the following flags:
+       <ul>
+        <li>DYNAMIC,</li>
+        <li>LAZY_READ,</li>
+        <li>NOT_GROUPABLE:</li>
+       </ul></p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Actions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>These actions added the argument status to support the new Start button functionality, which changes the status of a work item when a user clicks the button to indicate that they have begun work on the item.</p> <p>For more information, see <a href="work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> 
+    <ul> 
+     <li> <p><span class="bold">acceptWork</span> </p> </li> 
+     <li> <p><span class="bold">unacceptWork</span> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Parameter {#parameter}
+
+A Parameter object is a custom field.
+
+
+The Parameter resource added the flag SHARABLE.
+
+
+For more information on custom fields, see [Add a custom field](create-or-edit-a-custom-form.md#create) in [Create or edit a custom form](create-or-edit-a-custom-form.md).
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">dataType</span> </p> <p>Added possible value:</p> 
+      <ul> 
+       <li> <p>RICH (Rich Text)</p> <p>For more information, see <a href="rich-text-field-api.md" class="MCXref xref">Rich text fields in the Adobe Workfront API</a>.</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">displayType</span> </p> <p>Added possible value:</p> 
+      <ul> 
+       <li> <p>RICH (Text Field with Formatting)</p> <p>For more information, see <a href="rich-text-field-api.md" class="MCXref xref">Rich text fields in the Adobe Workfront API</a>.</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">label</span> </p> <p>Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Collection Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> 
+    <ul> 
+     <li> <p><span class="bold">accessRules</span> </p> <p>Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Default Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+    <ul> 
+     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><span class="bold">label</span> </p> <p>Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Portfolio {#portfolio}
+
+A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
+
+
+For more information on portfolios, see [Portfolio overview in Adobe Workfront](portfolio-overview.md).
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">The ID&nbsp;of the group that the portfolio is associated with.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>group</p> <p style="font-weight: normal;">The group that the portfolio is associated with. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Program {#program}
+
+A Program object is a subset of projects within a portfolio, where similar projects can be grouped together.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">The ID&nbsp;of the group that the program is associated with.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>group</p> <p style="font-weight: normal;">The group that the program is associated with. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### QueueDef {#queuedef}
+
+A QueueDef object represents a Queue, which is a Project that has been published to the Help Desk area to allow users to submit Issues to it.
+
+
+For more information on Request Queues, see [Create a Request Queue](create-request-queue.md).
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+    <ul> 
+     <li><span class="bold">requestorCoreAction</span> <p>Added the following possibleValues:</p> 
+      <ul> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="create-or-edit-a-custom-form.md#add2" class="MCXref xref">Add a field to a custom form</a> in <a href="create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a></p> </li> 
+      </ul> <li> <p><span class="bold">requestorForbiddenActions</span> </p> <p>Added the following possibleValues:</p> 
+       <ul> 
+        <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
+        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
+        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
+       </ul> </li> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### ScheduledReport {#scheduledreport}
+
+A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">format</span> </p> <p>Added possible values:</p> 
+      <ul> 
+       <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
+       <li> <p>qslides (enum.fileextension.qslides)</p> </li> 
+       <li> <p>qsheet (enum.fileextension.qsheet)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### ScoreCardQuestion {#scorecardquestion}
+
+A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.
+
+
+For more information on Scorecard Questions, see [Create a scorecard](create-scorecard.md).
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Added possible value RICH (Text Field with Formatting) </p> <p style="font-weight: normal;">For more information, see <a href="rich-text-field-api.md" class="MCXref xref">Rich text fields in the Adobe Workfront API</a>. &nbsp;</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Task {#task}
+
+A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">workEffort</span> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
+      <ul> 
+       <li> <p>1 (Small)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
+       <li> <p>3 (Large)</p> </li> 
+      </ul> <p>For more information on Work Effort in Workfront, see <a href="work-effort.md" class="MCXref xref">Work Effort overview</a>.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Actions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>These actions added the argument status to support the new Start button functionality, which changes the status of a work item when a user clicks the button to indicate that they have begun work on the item.</p> <p>For more information, see <a href="work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> 
+    <ul> 
+     <li> <p><span class="bold">acceptWork</span> </p> </li> 
+     <li> <p><span class="bold">unacceptWork</span> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Team {#team}
+
+A Team object is a collection of Users that can be assigned to a work item.
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>The following fields were added to the Team resource:</p> 
+    <ul> 
+     <li> <p><span class="bold">completeDaysOnKanbanBoard</span> </p> <p>This field represents the number of days that a completed card remains on the Kanban board.</p> </li> 
+     <li> <p><span class="bold">groupID</span> </p> <p>This field associates a team with a group. This identifies the team as part of the group and allows the Group Administrator to manage the teams.</p> </li> 
+     <li> <p><span class="bold">workOnItStatusChange</span> </p> <p>This is a boolean parameter that indicates whether the team's Work on It button has been configured as a Start button. When a member of the team clicks a Start button to begin work on a work item, the item's status changes from New to a status configured in the team settings.</p> </li> 
+     <li> <p>The following fields allow you to specify custom statuses for the Start button on the individual work items.</p> 
+      <ul> 
+       <li> <p><span class="bold">workOnItOpTaskBugReportStatuses</span> </p> </li> 
+       <li> <p><span class="bold">workOnItOpTaskChangeOrderStatuses</span> </p> </li> 
+       <li> <p><span class="bold">workOnItOpTaskIssueStatuses</span> </p> </li> 
+       <li> <p><span class="bold">workOnItOpTaskRequestStatuses</span> </p> <p><span class="bold">workOnItTaskStatuses</span> </p> </li> 
+      </ul> <p>For more information on the Start button, see <a href="work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Reference Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>The following field was added to the Team resource:</p> 
+    <ul> 
+     <li> <p><span class="bold">group</span> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### TemplateTask {#templatetask}
+
+A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
+
+
+For more information on Template Tasks, see [Edit a template task](edit-template-task.md).
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">workEffort</span> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
+      <ul> 
+       <li> <p>1 (Small)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
+       <li> <p>3 (Large)</p> </li> 
+      </ul> <p>For more information on Work Effort in Workfront, see <a href="work-effort.md" class="MCXref xref">Work Effort overview</a>.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Timesheet {#timesheet}
+
+A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
+
+
+For more information on Timesheets, see [Timesheets overview](timesheets-overview.md)
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Core Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>The following field was removed from the Timesheet resource:</p> 
+    <ul> 
+     <li> <p><span class="bold">objcode</span> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Update {#update}
+
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">updateType</span> </p> <p>Added the following possible values:</p> 
+      <ul> 
+       <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
+       <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information on initiatives, see <a href="initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### User {#user}
+
+A User object represents a person with an account in Workfront that can log in and interact with the system.
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>The following fields were added to the User resource:</p> 
+    <ul> 
+     <li> <p><span class="bold">actualDeactivationDate</span> </p> <p>This represents the date and time that a user was deactivated.</p> <p>For more information on deactivated Users, see <a href="deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
+     <li> <p><span class="bold">alignAccessType</span> </p> <p>This field shows the user's access to <span class="mc-variable WFVariables.Workfront_Align_(Goals) variable varname">Workfront Goals</span>. Possible values are:</p> 
+      <ul> 
+       <li> <p>No access</p> </li> 
+       <li> <p>View</p> </li> 
+       <li> <p>Edit</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Actions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>The following action was added to the User resource:</p> 
+    <ul> 
+     <li> <p><span class="bold">getUserAccessPermissionsByObjCode</span> </p> <p>This action takes the following arguments</p> 
+      <ul> 
+       <li> <p>ids (string)</p> </li> 
+       <li> <p>objCode (string)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Work  {#work}
+
+A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+    <ul> 
+     <li> <p><span class="bold">backlogOrder</span> </p> <p>Order indicates a task or story's position on the Agile backlog.</p> <p>This field removed the following flags:</p> 
+      <ul> 
+       <li> <p>DYNAMIC,</p> </li> 
+       <li> <p>LAZY_READ,</p> </li> 
+       <li> <p>NOT_GROUPABLE</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">groupID</span> </p> <p>This field added the following flags:</p> 
+      <ul> 
+       <li> <p>AUTO_LOAD,</p> </li> 
+       <li> <p>DYNAMIC,</p> </li> 
+       <li> <p>READ_ONLY</p> </li> 
+      </ul> </li> 
+     <li> <p><span class="bold">workEffort</span> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
+      <ul> 
+       <li> <p>1 (Small)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
+       <li> <p>3 (Large)</p> </li> 
+      </ul> <p>For more information on Work Effort in Workfront, see <a href="work-effort.md" class="MCXref xref">Work Effort overview</a>.</p> </li> 
+    </ul> <p style="font-weight: normal;"> &nbsp;</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

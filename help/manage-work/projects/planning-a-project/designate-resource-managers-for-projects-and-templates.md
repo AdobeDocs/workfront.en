@@ -1,0 +1,177 @@
+---
+filename: designate-resource-managers-for-projects-and-templates
+product-area: projects;templates
+navigation-topic: plan-a-project
+---
+
+
+
+# Designate Resource Managers for a project or template  {#designate-resource-managers-for-a-project-or-template}
+
+You can designate up to 30 users as Resource Managers for an individual project or template. Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in  *`Adobe Workfront`*. 
+
+
+>[!NOTE]
+>
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from *`Adobe Workfront`*. We recommend that you use the *`Workload Balancer`* for scheduling your resources. 
+>
+>
+>For information about scheduling resources using the new *`Workload Balancer`*, see the section [The Workload Balancer](_workload-balancer.md).
+>
+>
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *`Workload Balancer`*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](deprecate-resource-scheduling.md).
+
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following access to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to Projects and Templates</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions on the project or template</p> <p>Users who are added as Resource&nbsp;Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+
+
+## Considerations about Resource Managers  {#considerations-about-resource-managers}
+
+
+
+>[!NOTE]
+>
+>Resource Manager is not a *`Workfront`* role; it is a field available on a project or a template that you can manually update.
+
+
+
+
+
+
+*  Designating Resource Managers on projects is a prerequisite to allowing users to schedule resources for work on the project when using the Scheduling tools. 
+
+
+  For information about resource scheduling, see&nbsp; [Resource Scheduling](_resource-scheduling-overview.md)&nbsp;. 
+
+*  Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the *`Workload Balancer`*. 
+
+
+  For information about the *`Workload Balancer`*, see [Overview of the Workload Balancer](overview-workload-balancer.md). 
+
+*  You cannot designate teams or groups as resource managers. You can only designate users as resource managers. 
+
+
+
+
+
+*  The users that you designate as Resource Mangers on a project or template do not automatically become part of the Project&nbsp;Team. 
+
+
+  For information about project teams, see [Manage the Project Team](manage-project-team.md).
+
+* You can designate Resource Managers for projects or for project&nbsp;templates. When you designate Resource Managers on a project template, any users you designate as Resource Managers on the template automatically become Resource Managers on any projects that are created using that template.
+*  &nbsp;You can view the Resource Manager field in the following ways:
+
+    
+    
+    *  When building reports, as described in [Glossary of Adobe Workfront terminology](workfront-terminology-glossary.md).
+    * When creating or customizing Views, as described in [Views overview in Adobe Workfront](views-overview.md).
+    
+    
+
+* You can add or remove Resource Managers by adding the Resource Manager field to a View, viewing it on a list of projects, and editing the Resource Manager field via in-line edit.
+
+
+
+
+## Designate Resource Managers for a project {#designate-resource-managers-for-a-project}
+
+
+
+
+1.  Do any of the following:
+
+    
+    
+    * &nbsp; `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> To add Resource Managers to a single project, go to the project where you want to designate one or more resource managers, then click the  <span class="bold">More menu <img src="assets/more-icon.png"></span> next to the project name, then  <span class="bold">Edit .</span></MadCap:conditionalText>`
+    *  To add Resource Managers to multiple projects simultaneously, navigate to a list of projects, select the projects where you want to designate one or more resource managers, then click `Edit`.
+    
+    
+      Existing Resource Managers are not removed from the projects you are editing; any users you add in this way are added as Resources Managers on the project in addition to any existing Resource Managers.
+    
+    *   To add Resource Managers to a new project, begin creating a new project. 
+    
+    
+      For information about creating a project, see [Create a project](create-project.md).
+    
+    
+    
+
+1.  In the `Overview` section on the Edit Project dialog box, click in the `Resource Manager` field.
+1.  Begin typing the name of the user who you want to add as a resource manager for the project, then click the name when it appears in the list.
+
+
+   Repeat this step to add multiple resource managers for the project. Up to 30&nbsp;resource managers can be designated for a given project.
+
+1. Click `Save Changes`.  
+
+
+
+
+
+## Designate Resource Managers for a template {#designate-resource-managers-for-a-template}
+
+
+
+
+1.  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the  <span class="bold">Main Menu</span> icon  <img src="assets/main-menu-icon.png"> in the upper-right corner of  <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span>.</MadCap:conditionalText>`
+1.   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click&nbsp; <span class="bold">Templates</span>.</MadCap:conditionalText>`
+
+
+  
+
+
+1. Do any of the following:  
+
+    
+    
+    * `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> To add Resource Managers to a single template, go to the template where you want to designate one or more resource managers, then click the  <span class="bold">More menu <img src="assets/more-icon.png"></span> next to the template name, then  <span class="bold">Edit .</span></MadCap:conditionalText>`
+    * To add Resource Managers to multiple templates simultaneously, go to a list of templates and select the templates where you want to designate one or more Resource Managers, then click `Edit`.
+    
+    
+      Existing Resource Managers are not removed from the templates&nbsp;you are editing; any users you add in this way are added as Resources Managers on the template&nbsp;in addition to any existing Resource Managers.  
+
+    
+    *  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> To add Resource&nbsp;Managers to a new template, click&nbsp; <span class="bold">New Template</span>,then click the  <span class="bold">More menu <img src="assets/more-icon.png"></span> next to the template name, then  <span class="bold">Edit .</span></MadCap:conditionalText>`
+    
+    
+
+1.  In the `Overview` section, click in the `Resource Manager` field.
+1.  Begin typing the name of the user who you want to add as a resource manager for the template, then click the name when it appears in the list.
+
+
+   Repeat this step to add multiple resource managers to the template. Up to 30&nbsp;resource managers can be designated for a given template.&nbsp;
+
+1. Click `Save Changes`.
+
+

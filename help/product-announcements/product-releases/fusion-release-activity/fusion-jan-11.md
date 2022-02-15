@@ -1,0 +1,184 @@
+---
+filename: fusion-jan-11
+product: workfront-fusion
+content-type: release-notes
+product-area: workfront-integrations
+navigation-topic: fusion-release-activity
+---
+
+
+
+# *`Workfront Fusion`* release activity:&nbsp;Week of January 11, 2021 {#workfront-fusion-release-activity-week-of-january}
+
+This page describes all enhancements made in *`Adobe Workfront Fusion`* the week of *`January 11, 2021`*.
+
+
+For a list of all recent changes, see [Adobe Workfront Fusion release activity](fusion-release-activity.md).
+
+
+For a list of recent bug fixes in *`Workfront Fusion`*, see the [ *`Workfront`* Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled *`Workfront Fusion`* Maintenance Update.
+
+
+## Widen connector and modules now available {#widen-connector-and-modules-now-available}
+
+You can now use *`Workfront Fusion`* to connect to your Widen account. With the Widen modules, you can:
+
+
+
+*  Add assets to or remove assets from a collection
+*  Download or upload files
+*  Read or update asset metadata
+*  Search assets based on criteria you specify
+*  Retrieve a list of assets in a collection
+*  Perform a custom API call.
+
+
+For more information see [Widen modules](widen-modules.md).
+
+
+## Datadog connector and modules now available {#datadog-connector-and-modules-now-available}
+
+You can now use *`Workfront Fusion`* to connect to your Datadog account.
+
+
+With the Datadog modules, you can:
+
+
+
+*  Post timeseries points
+*  Perform a custom API call
+
+
+For information about Datadog modules, see [Datadog modules](datadog-modules.md).
+
+
+## Cvent connector and modules now available {#cvent-connector-and-modules-now-available}
+
+You can now use Workfront Fusion 2.0 to connect to your Cvent account.
+
+
+With the Cvent modules, you can:
+
+
+
+*  Create a meeting request
+*  Read records such as contacts, events, or invitees
+*  List records based on criteria you specify
+*  Register or add invitees to specific events
+*  Update or delete contacts
+*  Make a custom API call
+
+
+For information about available Cvent modules, see [Cvent modules](cvent-modules.md).
+
+
+## Microsoft Dynamics 365 connector and modules now available {#microsoft-dynamics-connector-and-modules-now-available}
+
+You can now use Workfront Fusion 2.0 to connect to your Microsoft Dynamics 365 account. With the Microsoft Dynamics 365 modules, you can:
+
+
+
+*  Trigger a scenario when records are added or updated in Microsoft Dynamics 365
+*  Create, read, update, or delete a Microsoft Dynamics 365 record
+*  Perform a custom API call
+
+
+For information about available Microsoft Dynamics 365 modules, see [Microsoft Dynamics 365 modules](microsoft-dynamics-365-modules.md).
+
+
+## DocuSign connector and modules now available {#docusign-connector-and-modules-now-available}
+
+You can now use Workfront Fusion 2.0 to connect to your Docusign account. With the Docusign modules, you can:
+
+
+
+*  Trigger a scenario when an envelope changes its status
+*  Create an envelope
+*  Read, send, or add a recipient to an existing envelope
+*  Add or modify custom fields in documents
+*  Download a document as a filed
+*  Upload a file to an envelope
+*  Perform a custom API call
+
+
+For more information, see [DocuSign modules](docusign-modules.md).
+
+
+## Search your scenario execution history {#search-your-scenario-execution-history}
+
+We've made it easier for you to locate specific information from previous scenario executions. Fusion's new full text search makes it possible to search execution history for any data contained in a bundle. For example, to identify which execution created a specific task, you could use full text search to search for that Task ID.
+
+
+Previously, finding specific execution information required viewing each execution individually.
+
+
+For more information, see [View a scenario's execution history](view-scenario-execution-history.md).
+
+
+`<iframe class="vimeo-player_0" src="assets/499405293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+
+
+[View this video in full-screen mode.](https://vimeo.com/499405293/16c7b06548) 
+
+
+## Updates to Fusion 2.0 Data Store {#updates-to-fusion-data-store}
+
+To make it easier for you to customize your data stores, we've added some new functionality. Now when you're viewing a data store, you can:
+
+
+
+*  Drag and drop to reorder columns
+*  Edit a single cell
+*  Add multiple rows
+
+
+For more information on Data Stores, see [Data store modules](data-store-modules.md).
+
+
+`<iframe class="vimeo-player_0" src="assets/499406655?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+
+
+[View this video in full-screen mode.](https://vimeo.com/499406655/925cab56d5) 
+
+
+## Make an API Key authorization request through the HTTP connector {#make-an-api-key-authorization-request-through-the-http-connector}
+
+To increase flexibility in the ways you can access APIs, we've added a new module to the HTTP connector. Now, you can use the HTTP connector to make a request when the web service you are accessing requires the use of an API key.
+
+
+For more information, see [HTTP modules](http-modules.md).
+
+
+## New functions available in mapping panel {#new-functions-available-in-mapping-panel}
+
+To help you customize and simplify formulas in your modules, we've added some new functions.
+
+
+
+*  The 
+
+  ```
+  omit
+  ```
+
+  function is a general function that omits the given keys of the object and returns the rest.
+*  The 
+
+  ```
+  pick
+  ```
+
+  function is a general function that picks only the given keys from the object.
+*  The 
+
+  ```
+  escapeMarkdown
+  ```
+
+  function is a string function that escapes all Markdown tags in a text.
+
+
+For more information on the omit and pick functions, see [General functions](general-functions.md).
+
+
+For more information on the escapeMarkdown function, see [String functions](string-functions.md).

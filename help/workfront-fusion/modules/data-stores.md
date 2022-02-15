@@ -1,0 +1,303 @@
+---
+filename: data-stores
+content-type: reference
+product: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: modules
+---
+
+
+
+# Data Stores {#data-stores}
+
+A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
+
+
+The data store modules enable you to take the following actions on records in your *`Adobe Workfront Fusion`* data store:
+
+
+
+*  Add
+*  Replace
+*  Update
+*  Retrieve
+*  Delete
+*  Search
+*  Count
+
+
+For information on using data store modules, see [Data store modules](data-store-modules.md).
+
+
+## Access requirements {#access-requirements}
+
+You must have the following access to use the functionality in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> <p data-mc-conditions="SnippetConditions.HIDE"><span class="mc-variable WFVariables.WFFusionAutomation variable varname">Workfront Fusion for Work Automation</span> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+
+
+## Create a data store in *`Workfront Fusion`* {#create-a-data-store-in-workfront-fusion}
+
+
+
+
+*  [Set up the data store](#set) 
+*  [Set up the data structure](#setting) 
+
+
+
+
+### Set up the data store {#set-up-the-data-store}
+
+Before you can use a data store in a module, you must create the data store in *`Workfront Fusion`*.
+
+
+>[!NOTE]
+>
+>Your organization has a limited number of available data stores. If you attempt to create more data stores than you have available, Workfront returns a Maximum stores reached error.
+>
+>
+>For more information, see [Maximum stores reached error](#maximum) in this article.
+
+
+
+
+
+
+1. Log in to your *`Workfront Fusion`* account.
+1. Click `Data stores` in the left navigation panel.
+1. Click `Add data store` in the upper-right corner of the screen.
+1.  Enter settings for the new data store.
+
+
+   A bolded title on a field in a *`Workfront Fusion`* module indicates a required setting.
+
+<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Data store name </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>Enter a name for the data store. </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;"> <p>Data Structure</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>A data structure is a list of the columns for a table. This list indicates the column name and data type.</p> <p>Do one of the following:</p> 
+    <ul> 
+     <li style="font-weight: bold;">Select a data structure that has been already created</li> 
+     <li> <p style="font-weight: bold;">Add a new data structure</p> <p>Click the <span class="bold">Add</span> button to create a new data structure.</p> <p>For more information, see the <a href="#setting" class="MCXref xref">Set up the data structure</a> section in this article.</p> </li> 
+     <li style="font-weight: bold;"> <p>Leave the field empty</p> <p style="font-weight: normal;">If you don't select or add a data structure, the database will only contain the primary key. Such a database type is useful if you want to save keys only and are interested in knowing only whether or not a specific key exists in the database.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Data storage size in MB</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>Allocate the size for the data store from your total internal data storage.</p> <p>Note: The reserved amount can be changed at any time later on.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
+
+
+### Set up the data structure {#set-up-the-data-structure}
+
+
+
+
+1. When creating or editing a data store, click `Add`.
+1.  In the `Add data structure` box that displays, configure the following fields:
+
+<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Data structure name</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p> Enter a name for the new data structure.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;"> <p>Specification</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>Do one of the following to set up your data store's columns.</p> 
+    <ul> 
+     <li> <p>Click <span class="bold">Add item</span> to specify the properties of one column manually.</p> <p>Enter the <span class="bold">Name </span>and <span class="bold">Type </span>for the data store column and define corresponding properties.</p> </li> 
+     <li> <p>Click <span class="bold">Generator </span>to determine the columns from the sample data you provide.</p> 
+      <div class="example" data-mc-autonum="<b>Example: </b>">
+       <span class="autonumber"><span><b>Example: </b></span></span> 
+       <p>For example, the following JSON sample data creates three columns: name, age, and phone number. Phone number is a collection of mobile and landline phone numbers.</p> 
+       <p><code>{</code> </p> 
+       <p><code>"name":"John",</code> </p> 
+       <p><code>"age":30,</code> </p> 
+       <p><code>"phone number": {</code> </p> 
+       <p><code>"mobile":"987654321",</code> </p> 
+       <p><code>"landline":"123456789"</code> </p> 
+       <p><code>}</code> </p> 
+       <p><code>}</code> </p> 
+       <p>The empty columns in the data store view:</p> 
+       <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
+       <p>You can then add values to the data store manually or by using the <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span> data store modules.</p> 
+      </div> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Strict </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>Enable this option to ensure that the payload matches the data structures. Payloads that contain extra items not specified in the data structure are rejected.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
+
+
+## Edit an existing data store {#edit-an-existing-data-store}
+
+You can edit the properties and contents of an existing Data Store in the Data Store area of *`Workfront Fusion`*.
+
+
+
+*  [Edit the properties of a data store](#edit) 
+*  [Edit the contents of a data store](#edit2) 
+
+
+
+
+### Edit the properties of a data store {#edit-the-properties-of-a-data-store}
+
+The properties of a data store include the data structure that the data store uses, as well as the data store's size.
+
+
+
+1.  Click `Data Store` ![](assets/data-store-icon.png) in the left navigation panel to open the Data Store area.
+1.  Click `Edit` ![](assets/data-store-edit.png)next to the data store that you want to edit.
+1.  (Optional) If you want to change the data structure used by this data store to another existing data structure, select it from the `Data structure` drop-down.
+
+
+   Or
+
+
+   (Optional) If you want to change the data structure used by this data store to an entirely new data structure, see [Set up the data structure](#setting) in this article.
+
+1.  (Optional) Change the size of the data store by entering the new size into the `Data storage size in MB` field.
+1.  Click `Save`.
+
+
+
+
+### Edit the contents of a data store {#edit-the-contents-of-a-data-store}
+
+
+
+
+1.  Click the `Data Store` icon ![](assets/data-store-icon.png) in the left navigation panel to open the Data Store area.
+1.  Click `Browse` ![](assets/browse-data-store.png) next to the data store that you want to edit.
+1.  (Optional) Reorder columns by dragging them to the desired location.
+1.  (Optional) Edit a single cell by clicking the `Edit` icon ![](assets/data-store-edit.png)in that cell, then entering the desired value.
+1.  (Optional) Add a new item to the data store by clicking `Add`, then entering the information for the new item.
+1.  Click `Save`.
+
+
+
+
+## Troubleshooting {#troubleshooting}
+
+
+
+
+* [Restoring lost data from a data store](#about) 
+* [Out of space error](#out) 
+* [Maximum stores reached error](#maximum) 
+
+
+
+
+### Restoring lost data from a data store {#restoring-lost-data-from-a-data-store}
+
+There is currently no tool which can automate restoring lost data. 
+
+
+#### Workaround {#workaround}
+
+
+
+
+1.  Examine all execution logs of scenarios where items were inserted to the data store.
+
+
+   For more information on examining execution logs, see [View a scenario's execution history](view-scenario-execution-history.md).
+
+1.  Copy the data.
+1.  Insert the data into your data store again.
+
+
+   For information on inserting data into a data store, see [Edit the contents of a data store](#edit2) in this article.
+
+
+
+
+
+### Out of space error {#out-of-space-error}
+
+An Out of Space error occurs because your previously created data stores have already been assigned your allocated data store storage.
+
+
+#### Workaround {#workaround-1}
+
+
+
+
+1.  Edit any of your existing data stores to use less space. This frees up space for your new data store.
+
+
+   For more information, see [Edit the properties of a data store](#edit) in this article.
+
+
+
+
+
+>[!NOTE]
+>
+>We recommend that you do not assign all of your space to a single data store unless you are certain you will not require more data stores.
+
+
+
+
+### Maximum stores reached error {#maximum-stores-reached-error}
+
+A Maximum stored reached error occurs because your organization has used all of its available data stores. An organization has a number of available data stores equal to twice the number of available scenarios. Therefore, the total number of available data stores depends on the plan you have purchased.
+
+
+For example, if your organization has purchased a plan with 15 scenarios, the organization can have up to 30 data stores.
+
+
+#### Workaround {#workaround-2}
+
+To reduce the number of existing data stores, consider doing one of the following:
+
+
+
+*  Combine existing data stores
+*  Delete unused data stores
+
+

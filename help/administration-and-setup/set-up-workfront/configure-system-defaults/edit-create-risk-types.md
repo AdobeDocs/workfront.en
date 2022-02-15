@@ -1,0 +1,113 @@
+---
+filename: edit-create-risk-types
+user-type: administrator
+product-area: system-administration
+navigation-topic: configure-system-defaults
+---
+
+
+
+# Edit and create risk types  {#edit-and-create-risk-types}
+
+Risks are possible events that prevent your project from finishing on time or within budget.
+
+
+You can add risks to your projects in the planning phase to identify potential obstacles prior to the approval of any work.
+
+
+## Access requirements {#access-requirements}
+
+You must have the following to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+## Risks types {#risks-types}
+
+Risk types are labels you can use for your risks to categorize them for reporting purposes. They are created in the `Setup` area by the *`Adobe Workfront administrator`*. After risk types are established in your `Setup` area, they are universal to your system. All project owners can use the same risk types for their projects. 
+
+
+## Edit and create risk types {#edit-and-create-risk-types-1}
+
+Some risk types are already in *`Workfront`*, by default. To reflect the needs of your organization, you can either edit the existing risk types, or create new risk types.
+
+
+
+* [Edit existing risk types](#editing-existing-risk-types) 
+* [Create new risk types](#creating-new-risk-types) 
+
+
+
+
+### Edit existing risk types {#edit-existing-risk-types}
+
+
+
+
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Risk Types`.
+1. Select the risk type you want to edit.
+1. Click `Edit`.
+1.  (Optional) Change the name and the description of the risk type.
+
+
+   There is a character limit of 50 characters for the `Name` and the `Description` fields.
+
+1. Click `Save Changes.`
+
+
+
+
+### Create new risk types {#create-new-risk-types}
+
+`<font size="2">You can create new risk types, in addition to the default ones, to reflect the needs of your organization.</font>` 
+
+
+To create a new risk type:
+
+
+
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Risk Types`.
+1.  Click `New Risk Type`.
+1.  Type a `Name`(required) and a `Description`(optional) for the risk type.
+
+
+   There is a character limit of 50 characters for the `Name` and the `Description` fields.
+
+1.  Click `Create Risk Type`. If you used in-line edit to add your risk type, click `Enter` when you are done.
+
+
+   >[!NOTE]
+   >
+   >If you need to edit a custom risk type, see the section [Edit existing risk types](#editing-existing-risk-types) in this article.
+
+
+
+
+
+
+
+## Attach risks with risk types on projects {#attach-risks-with-risk-types-on-projects}
+
+Risks types can be used for labeling risks that are added to your projects. For more information on how to add risks to projects, see [Create and edit risks on projects](create-edit-risks-on-projects.md).

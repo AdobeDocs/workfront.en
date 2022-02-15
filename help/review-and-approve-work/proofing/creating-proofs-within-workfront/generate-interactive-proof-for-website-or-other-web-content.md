@@ -1,0 +1,119 @@
+---
+filename: generate-interactive-proof-for-website-or-other-web-content
+product-area: documents
+navigation-topic: create-proofs-within-workfront
+---
+
+
+
+# Create an interactive *`proof`* for a website or other web content {#create-an-interactive-proof-for-a-website-or-other-web-content}
+
+You can generate a new interactive *`proof`* or a new version of an existing interactive *`proof`* for web content. This can be a website or other kinds of interactive content such as&nbsp;ads with streaming video or audio, HTML animations, and interactive banners.
+
+
+In an interactive *`proof`*, reviewers can navigate and interact as they normally would with the website or other web content.
+
+
+>[!IMPORTANT] {type="important"}
+>
+>Make sure that the website or interactive content is accessible to the people who are going to review it. They can access it in the *`proofing`* process only if they can also access it on the internet.
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following access to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see <a href="access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.proofPermissionProfile variable varname">Proof Permission Profile</span> </td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Manager or higher</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Access level configurations*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, role, or *`Proof Permission Profile`* you have, contact your *`Workfront`* or *`Workfront Proof administrator`*.
+
+
+## Create an interactive *`proof`* for a website or other web content {#create-an-interactive-proof-for-a-website-or-other-web-content-1}
+
+
+
+
+1. Go to the project, task, or issue where you want to create a new website *`proof`* or a new version of an existing one.
+1. Click `Documents` `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> in the left panel</MadCap:conditionalText>`.
+
+1. (Conditional) If you are creating a new *`proof`*, click `Add New`, then click `Proof` in the menu that appears.
+
+1. (Conditional) On the `New *`proof`*` page appears, if you are creating a new version of an existing *`proof`*: 
+    
+    
+    1. Hover over the URL *`proof`* for which you want to create a new version, then select it by clicking in the light blue background surrounding it.  
+
+    
+    
+       ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)  
+
+    
+    1. In the `Add new` drop-down, click `Version` > `Proof`.
+    
+    
+    
+
+1.  In the `Add files` section, type the URL of the website you want to *`proof`*, then press `Enter`.
+
+
+   ![proof_website.png](assets/proof-website-350x65.png)
+
+
+
+
+   You can repeat this process to add multiple websites to be proofed.  
+
+
+1.  Click the URL you have added.
+
+
+   ![](assets/click-url-350x137.png)
+
+
+
+1.  (Optional) If you want to change the name of the *`proof`* from the website URL to something else, type a `Proof name`.
+1.  Select `Interactive`, then click `Done`.
+
+
+   >[!NOTE]
+   >
+   >If you are adding a new version to an existing URL *`proof`*, any options that were configured on the original *`proof`* or previous version are maintained in this version.  
+
+
+
+
+1. Click `Create proof` to create a simple proof with no review process.  
+   or  
+   Continue by configuring an advanced *`proof`*: 
+    
+    
+    * [Create an advanced proof with a Basic workflow](configure-basic-proof-workflow.md)
+    * [Create an advanced proof with an Automated workflow](create-automated-proof-workflow.md)
+    
+    
+
+
+

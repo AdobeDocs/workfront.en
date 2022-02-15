@@ -1,0 +1,87 @@
+---
+filename: workfront-community
+content-type: tips-tricks-troubleshooting
+navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
+---
+
+
+
+# The *`Adobe Workfront`* Community {#the-adobe-workfront-community}
+
+The *`Adobe Workfront`* Community is an online group of over 10,000 *`Workfront`* users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about *`Workfront`* products and services. You’ll find answers to questions and establish connections with other *`Workfront`* customers.
+
+
+## Logging In {#logging-in}
+
+
+
+
+* [Authorized Support Contact](#authorized-support-contact) 
+* [Non-Authorized Support Contact without SSO Login](#non-asc-no-sso-login) 
+* [Non-Authorized Support Contact with SSO Login](#non-asc-sso-login) 
+
+
+
+
+### Authorized Support Contact {#authorized-support-contact}
+
+If you are an Authorized Support Contact (ASC), you have login credentials for the Help Desk, Innovation Lab, and *`Workfront`* Ascent. You can use the same credentials to log into the *`Workfront Community`*. In this case, you will leave the subdomain blank.
+
+
+![community_4.png](assets/community-4-350x129.png)
+
+
+
+
+### Non-Authorized Support Contact without SSO Login {#non-authorized-support-contact-without-sso-login}
+
+If you are not an Authorized Support Contact, you can log in with your regular *`Workfront`* instance credentials. Use the same subdomain as your *`Workfront`* instance.
+
+
+>[!NOTE]
+>
+>This option works only if your company does not use Single Sign-On (SSO) to log in to *`Workfront`*.
+
+
+
+
+### Non-Authorized Support Contact with SSO Login {#non-authorized-support-contact-with-sso-login}
+
+If your company does use SSO, you must reach out to *`Workfront Customer Support`* via phone to request an account. If you are unable to submit a ticket or engage in live chat, contact your Authorized *`Workfront Customer Support`* contact.&nbsp;
+
+
+If you already have an account set up within Ascent Training, you can use those same credentials to access the Community site (leave the subdomain blank in this case).
+
+
+If you do not remember your password for the Community site, reach out to *`Workfront Customer Support`* and they can assist you.
+
+
+## FAQ {#faq}
+
+
+
+
+* [What’s my subdomain?](#subdomain) 
+* [I forgot my username or password. How do I reset my username or password?](#forgot-username-or-password) 
+
+
+
+
+### What's the URL for the *`Workfront Community`*? {#whats-the-url-for-the-workfront-community}
+
+The *`Workfront Community`* is available on the Workfront One website at the following URL:&nbsp; [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+
+
+### What’s my subdomain? {#what-s-my-subdomain}
+
+If you are unfamiliar with your subdomain, there is an easy way to find it. If you’re logged into *`Workfront`*, your subdomain is the text string or word prior to *.workfront.com*  or *my.workfront.com* in the URL. For example, if your *`Workfront`* URL reads *appetite.workfront.com,*&nbsp;then *appetite* is your subdomain. See marker&nbsp;C in the diagram below.
+
+
+![community_5.png](assets/community-5-350x175.png)
+
+
+
+
+### I forgot my username or password. How do I reset my username or password? {#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password}
+
+If you forget your username or password, contact support and a representative will help reset your credentials.

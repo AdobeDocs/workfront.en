@@ -1,0 +1,102 @@
+---
+filename: define-wf-goals-objectives
+user-type: administrator
+content-type: reference;overview
+product-area: system-administration
+navigation-topic: start-with-workfront-administration
+---
+
+
+
+# Defining objectives for your *`Adobe Workfront`* implementation {#defining-objectives-for-your-adobe-workfront-implementation}
+
+When implementing *`Adobe Workfront`*, it is important to identify the principles of your success criteria. You may want to ask yourself the following questions:
+
+
+
+* What is it that you are trying to solve?
+* Why are you implementing *`Workfront`*?
+* How do you plan to use the software to improve your processes?
+* How would you know whether you are successful?
+
+
+There are a few factors to consider as you map your goals and identify the business processes you want to improve. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall goals and objectives for how *`Workfront`* will fit in your organization.&nbsp;
+
+
+The following are examples of goals defined by a company and how they fit within *`Workfront`*. You may consider some of these as you gather your requirements:
+
+
+## Improve service response times within the organization {#improve-service-response-times-within-the-organization}
+
+You can achieve this in *`Workfront`* by configuring the following:
+
+
+
+* Create a *`Workfront`* Request Queue to manage specific requests within your organization.  
+  For more information about Request Queues, see [Create a Request Queue](create-request-queue.md).
+
+* Create a report to show any outstanding issues not closed within 5 days.  
+  For more information about creating reports, see [Create a custom report](create-custom-report.md).
+
+
+
+
+
+## Improve time spent on projects and improve budget spending in the coming year {#improve-time-spent-on-projects-and-improve-budget-spending-in-the-coming-year}
+
+You can achieve this in *`Workfront`* by configuring the following:
+
+
+
+* Develop a standard project methodology for your organization. This includes identifying the users who will be responsible for creating and managing projects, as well as granting any approvals.  
+  For more information about creating projects, see [Create a project](create-project.md).  
+  For more information about creating approval processes, see [Create an approval process](create-approval-processes.md).
+
+* Determine whether you should organize your projects in portfolios and programs, for more in-depth budget and resource management.  
+  For more information about creating portfolios, see [Create a portfolio](create-portfolios.md).
+
+* Include a best-practices approach to deliver quality in every project.
+* Identify any repeatable projects that can be used to create templates.  
+  For more information about creating templates, see [Create a project template](create-template.md).
+
+* Create a dashboard that displays the progress of this year's portfolios of projects.  
+  For more information about creating a dashboard, see [Create a dashboard](create-dashboard.md).
+
+
+
+
+
+## Improve the quality of services with better management of internal processes {#improve-the-quality-of-services-with-better-management-of-internal-processes}
+
+You can achieve this in *`Workfront`* by configuring the following:
+
+
+
+* Develop a process for delivery of services and use *`Workfront`* to manage tasks associated with any daily or weekly responsibilities.&nbsp;
+* Use Resource Management tools to view the allocation of resources to tasks so you can better understand how to improve productivity and quality of delivery.  
+  For more information about Resource Planning, see [Resource Planning in Adobe Workfront](_resource-planning-overview.md)
+
+
+
+
+
+## Define success criteria {#define-success-criteria}
+
+Once you identify your primary goals and objectives, you can start defining the success criteria surrounding your *`Workfront`* implementation. The criteria should reflect the reasons you purchased *`Workfront`* in the first place.
+
+
+With your success criteria in place, *`Workfront`* will be in position to manage the needs of your organization and make your implementation a success.
+
+
+The following are examples of success metrics:
+
+
+
+* All approved projects for the coming year are entered into *`Workfront`* and ready to be managed by project managers.  
+
+* All departmental requests are managed through *`Workfront`* Request Queues.
+* The processes that support internal projects are managed using *`Workfront`*.
+* All repetitive processes are managed in *`Workfront`* including utilization of resources, continual project and task templates, and any internal processes necessary for quality delivery.
+
+
+As you work to define these goals and success criteria, be sure to provide opportunities for review by implementation team members as well as other stakeholders involved. Incorporating their feedback is key to success and facilitates a smooth adoption of the *`Workfront`* solution.

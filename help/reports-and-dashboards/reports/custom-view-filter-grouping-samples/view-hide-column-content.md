@@ -1,0 +1,101 @@
+---
+filename: view-hide-column-content
+content-type: reference
+product-area: reporting;projects
+navigation-topic: custom-view-filter-and-grouping-samples
+---
+
+
+
+# View: hide the content of a column {#view-hide-the-content-of-a-column}
+
+You might want to hide information in the column of a view. You can do this by modifying the text mode of the column.
+
+` `**Tips: **`` 
+
+
+* You can use hidden columns to sort by a certain object that you do not want to display in the view.  
+  For example, you can sort by Task Number in a task view and hide the Task Number information from the view. In this case, the object referenced in the column helps sorting the view, but the information of that object does not display in the view.
+* When you hide a column, note that the information in the column is hidden, but the column still exists in the view.
+
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following access to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+
+
+## Example: Sort and hide the Task Number column in a task view: {#example-sort-and-hide-the-task-number-column-in-a-task-view}
+
+
+
+
+1. Go to a list of tasks.
+1. From the `View` drop-down menu, click `New View`.
+
+1. Click `Add Column` and start typing "Task Number" in the `Show in this column` field then select it when it displays in the list.
+
+1. Click `Switch to Text Mode`.
+1. Hover over the text mode area, and click `Click to edit text`.
+1.  Remove the text you find in the `Text Mode` box, and replace it with the following code:
+   `<pre><span class="bold">displayname=<br></span>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><span class="bold">value=<br></span>valueformat=int<br><span class="bold">width=0</span></pre>` The important changes in this code which make the column hidden are:
+
+    
+    
+    *     
+    
+      ```    
+      displayname
+      ```    
+    
+      : This line must be blank.
+    *     
+    
+      ```    
+      valuefield
+      ```    
+    
+      : This has been replaced by *value*, and must be blank.
+    
+    *     
+    
+      ```    
+      width
+      ```    
+    
+      : Depending on the field, this must have a value of *0* or *1*.
+    
+    
+    
+
+1. Click `Save`, then `Save View`.
+
+
+

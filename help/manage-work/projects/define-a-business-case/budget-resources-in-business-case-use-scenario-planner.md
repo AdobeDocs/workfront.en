@@ -1,0 +1,199 @@
+---
+filename: budget-resources-in-business-case-use-scenario-planner
+navigation-topic: business-case-and-scorecards
+---
+
+
+
+# Budget resources in the Business Case using the *`Adobe Workfront Scenario Planner`* {#budget-resources-in-the-business-case-using-the-adobe-workfront-scenario-planner}
+
+As part of resource planning, you can use the *`Adobe Workfront Scenario Planner`* to budget the job roles necessary for completing the work in a project when you build the business case. 
+
+
+For more information about creating a business case, see [Create a Business Case for a project in Adobe Workfront](create-business-case.md). 
+
+
+>[!TIP] {type="tip"}
+>
+>The job role information for the initiative linked to the project that you enter in the system-level *`Scenario Planner`* is visible in the Resource Budgeting area of the project's business case when you publish the initiative. This is available only in *`the new Adobe Workfront experience`* and requires an additional license. For information about the *`Workfront Scenario Planner`*, see [The Adobe Workfront Scenario Planner overview](scenario-planner-overview.md). 
+
+
+You can also budget resources in the business case using the *`Resource Planner`*. For more information, see the following:
+
+
+
+*  [Budget resources in the Business Case](budget-resources-in-business-case.md) 
+*  Budget resources by project in the Resource Planner
+
+
+
+
+>[!NOTE]
+>
+>We recommend that you make the decision whether to use the  *`Resource Planner`* or the  *`Scenario Planner`* when you begin working on a project. Frequently switching between the two during the life of the project may create inconsistencies in the way you budget your resources for the project. 
+
+
+
+
+
+## Access requirements {#access-requirements}
+
+You must have the following:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ </col> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ </col> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Business variable varname">Business</span> or higher</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Review variable varname">Review</span> or higher</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Product</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>You must purchase an additional license for the <span class="mc-variable WFVariables.FullProdNameWFScenPlan variable varname">Adobe Workfront Scenario Planner</span> to access functionality described in this article.</p> <p>For information about obtaining the <span class="mc-variable WFVariables.ProdNameWorkfrontScenarioPlanner variable varname">Workfront Scenario Planner</span>, see <a href="access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Access level configurations*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Edit access to the following: </p> 
+    <ul> 
+     <li> <p>Projects</p> </li> 
+     <li> <p>Financial Data</p> </li> 
+     <li> <p><span class="mc-variable WFVariables.Scenario_Planner_-_feature_name variable varname">Scenario Planner</span> </p> </li> 
+    </ul> <p>For information about the access needed to budget resources, also see <a href="access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.FullProdNameAdminWF-sing variable varname">Adobe Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Object permissions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+
+
+## Prerequisites {#prerequisites}
+
+Before you begin, you must do the following:
+
+
+
+*  Create a plan using the *`Scenario Planner`*. 
+
+
+  For information, see [Create and edit plans in the Adobe Workfront Scenario Planner](create-and-edit-plans.md).
+
+*  Create an initiative on the plan and link it to a project.
+
+
+  Ensure that you indicate the required job roles information for the initiative and update the linked project with this information. 
+
+
+  For more information, see the following articles:
+
+    
+    
+    *  [Create and edit initiatives in the Adobe Workfront Scenario Planner](create-and-edit-initiatives.md) 
+    *  [Import projects to plans in the Adobe Workfront Scenario Planner](import-projects-to-plans.md) 
+    *  [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](publish-scenarios-update-projects.md). 
+    
+    
+
+*  Although these are not prerequisites, we also recommend the following:
+
+    
+    
+    *  Assign tasks on the project to the job roles budgeted in the *`Scenario Planner`*.
+    *  Indicate the number of Planned Hours for the tasks on the project.
+    
+    
+      This helps you understand the amount of work a task might need to complete, which helps with the decision of how much time the resources should be budgeted for to complete the task.
+    
+    
+      For information about associating tasks with Planned Hours, see [Edit tasks](edit-tasks.md).
+    
+    
+    
+
+
+
+
+
+## Budget resources in the Business Case using the *`Scenario Planner`* for projects linked to initiatives {#budget-resources-in-the-business-case-using-the-scenario-planner-for-projects-linked-to-initiatives}
+
+
+
+>[!IMPORTANT] {type="important"}
+>
+>You can budget your resources for a period of 15 years. If you budget resources for a project with a duration longer than 15 years the budgeting information might not be accurate. 
+
+
+
+
+
+1.  Go to the project for which you want to budget resources. 
+
+
+   >[!TIP] {type="tip"}
+   >
+   >This is a project linked to an initiative in the *`Scenario Planner`* whose linked initiative has been published at least once. 
+
+
+
+1.  Click `Business Case` in the left panel.
+1.  (Conditional) In the `Resource Budgeting`section, do one of the following:
+
+    
+    
+    *  If you just published information from the *`Scenario Planner`*, select *`Scenario Planner`* in the `Choose which hours to use to calculate the Budgeted Labor Cost of the project` field in the Resource Budgeting area, then click `Choose`. 
+    
+    
+      ![](assets/business-case-sp-selected-with-choose-button-350x121.png)    
+    
+
+    
+    *   If the *`Resource Planner`* was previously selected for budgeting resources for the project, click `Change > Scenario Planner > Choose.`
+    
+    
+      ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)    
+    
+
+    
+    
+      *`Workfront`* uses the required job role hours from the linked initiative to calculate the project's Budgeted Labor Cost. This is the recommended option. Cost displays in the Business Case in the currency of the project.
+    
+    
+      >[!IMPORTANT] {type="important"}
+      >
+      >When you use the *`Scenario Planner`* to budget resources for the project, the Budgeted Labor Cost displays in the following areas of *`Workfront`*:
+      >
+      >    
+      >    
+      >    *  Resource Budgeting area of the Business Case 
+      >    *  The system-level *`Scenario Planner`* as the People Cost of the initiative linked to the project. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](create-and-edit-initiatives.md). 
+      >    
+      >    
+
+    
+    
+    
+    
+    
+
+1.  (Optional) Click  `View in *`Scenario Planner`*` to open the plan that contains the initiative linked to the project. This opens the *`Scenario Planner`* in a new browser tab. 
+1.  (Optional) Update information on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](create-and-edit-initiatives.md). 
+
+
+   >[!NOTE]
+   >
+   >You must publish the initiative after every change for the Resource Budgeting area on the project to update. 
+
+
+
+
+

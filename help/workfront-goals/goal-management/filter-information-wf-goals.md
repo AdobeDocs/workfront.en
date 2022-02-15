@@ -1,0 +1,331 @@
+---
+filename: filter-information-wf-goals
+product: workfront-goals
+navigation-topic: goal-management
+---
+
+
+
+# Filter information in *`Adobe Workfront Goals`* {#filter-information-in-adobe-workfront-goals}
+
+You can view goals that you or anyone else added in  *`Adobe Workfront Goals`*. For information about creating goals, see [Create goals in Adobe Workfront Goals](create-goals.md). When viewing goals, you can filter information in *`Workfront Goals`* to view only goals that are important to you. 
+
+
+## Access requirements {#access-requirements}
+
+You must have the following access to perform the actions described in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Request variable varname">Request</span> or higher</p> <p>For more information, see <a href="wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Product</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>You must purchase an additional license for the <span class="mc-variable WFVariables.FullProdNameWFGoals variable varname">Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Access level*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see:</p> 
+     <ul> 
+      <li> <p><a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
+      <li> <p><span href="grant-access-goals.md"><a href="grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
+     </ul> </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray" data-mc-conditions=""> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Object permissions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+    <div> 
+     <p>View or higher permissions on goals</p> 
+     <p>For information about sharing goals, see <a href="share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+
+
+## Prerequisites {#prerequisites}
+
+You must have the following before you can start:
+
+
+
+*  A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+
+
+
+
+## Overview of filters in  *`Workfront Goals`*  {#overview-of-filters-in-workfront-goals}
+
+
+
+>[!NOTE]
+>
+>To efficiently find and focus on the right goals, we recommend that you use filters in *`Workfront Goals`*. This allows you to display the correct information before you start managing goals that are important to you. By default, *`Workfront Goals`* displays all goals in the system. 
+
+
+You can locate and filter for goals in several sections of the Goals area in  *`Workfront`*:
+
+
+
+*  *`Goal List`* 
+*  Graphs
+*  Goal Alignment
+*  *`Pulse`* 
+
+
+
+
+>[!TIP] {type="tip"}
+>
+>You cannot filter information in the *`Check-in`* section. Only active goals for whose progress you are responsible display in this section.
+
+
+For information about sections of the Goals area, see [Overview of the Adobe Workfront Goals sections](overview-of-wf-goals-sections.md). 
+
+
+>[!IMPORTANT] {type="important"}
+>
+>You can configure filters for one section and they remain persistent when moving to another section of *`Workfront Goals`*. 
+
+
+Consider the following when working with filters in *`Workfront Goals`*:
+
+
+
+*  You can create and apply a filter without saving it, or you can save a filter to reuse at a later time. 
+
+
+  The following scenarios exist: 
+
+    
+    
+    *  When you save a filter, it becomes the default filter for you every time you log in to *`Workfront Goals`*. 
+    *  When you apply a filter without saving it, you can revert to the original lists by refreshing your page. 
+    
+    
+
+*  You can only view and apply filters you created. Filters created by other users display only for those users. 
+*  You cannot share filters you created with other users. 
+
+
+
+
+## Create and apply a filter in *`Workfront Goals`*  {#create-and-apply-a-filter-in-workfront-goals}
+
+The process for creating filters is the same for any section of *`Workfront Goals`*. 
+
+
+You can create a filter from scratch or edit one of the built-in filters. 
+
+
+
+1.  Go to the *`Workfront Goals`*. 
+
+
+   For information about accessing *`Workfront Goals`*, see [Access and open goals in Adobe Workfront Goals](access-goals-in-wf-goals.md)
+
+
+   By default, the *`Goal List`* section displays. 
+
+1.  Click `Filter`in the upper-right corner of the list. 
+
+
+   ![](assets/filter-icon-and-label.png)
+
+
+
+
+   By default, *`Workfront`* applies the `All` filter which displays all goals in your system. 
+
+
+   >[!TIP] {type="tip"}
+   >
+   >You cannot edit or delete the All filter.
+
+
+
+1.  Do one of the following:
+
+    
+    
+    *  Click any of the following predefined filters to display goals only for the following owners:
+    
+    
+    <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">All</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Personal</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The goals for which you are the owner.</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">My teams</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>The goals for which any of your teams is selected as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">My groups</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The goals for which any of your groups is selected as the owner. </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Company</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>The goals associated with your organization. </p> 
+    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+     <span class="autonumber"><span><b>Tip: </b></span></span> 
+     <p>In <span class="mc-variable WFVariables.FullProdNameWFGoals variable varname">Adobe Workfront Goals</span>, the Company filter displays the goals for which your organization is selected as the owner. </p> 
+     <p>You cannot search for companies using this field. Only your organization who is the owner of your <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> instance is selected by default. </p> 
+    </div> </td> 
+  </tr> 
+ </tbody> 
+</table>    
+    
+    
+    
+    
+
+    
+    
+    *  Hover over the name of a filter, then click the `Edit` icon ![](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list. 
+    
+    
+
+    
+    
+    *  Click `New Filter` to create a new filter, then select from the following options to customize the new filter:
+    
+    
+    <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Period</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Select a time period in the drop-down menu. You can select multiple time periods. </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Status</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Select a status in the drop-down menu from the following options:</p> 
+    <ul> 
+     <li> <p>Active</p> </li> 
+     <li> <p>Draft</p> </li> 
+     <li> <p>Inactive</p> </li> 
+     <li> <p>Closed</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Progress</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Select a progress in the drop-down menu from the following options: </p> 
+    <ul> 
+     <li> <p>In Trouble</p> </li> 
+     <li> <p>At Risk</p> </li> 
+     <li> <p>On Target</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Owner</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Start typing the name of an owner, then select it when it appears in the list. </p> <p>You can type the names of users, teams, groups, or the name of your organization or you can select from predefined options. </p> <p>The following predefined filter options always refer to the user who is currently logged in: </p> 
+    <ul> 
+     <li> <p><span class="bold">Me</span>: Displays goals where you are the owner.</p> </li> 
+     <li> <p><span class="bold">My Home Team</span> and <span class="bold">All My Teams</span>: Displays goals where either your Home Team or any of your teams are designated as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </li> 
+     <li> <p><span class="bold">My Home Group</span> and <span class="bold">All&nbsp;My&nbsp;Groups</span>: Displays goals where either your Home Group or any of your groups are designated as the owner.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>    
+    
+    
+    
+    
+
+1. (Optional) Click `Reset` to clear out all the fields you have selected and start building the filter from scratch. 
+1.  (Optional) Click `Apply` to apply the filter without saving. 
+
+
+   The filter displays in the `Unsaved` area of the filter builder as `New Filter`. 
+
+
+   You cannot rename an unsaved filter. 
+
+
+   Unsaved filters are removed from the Goals area next time you log out of *`Workfront`* and log back in.
+
+
+   >[!TIP] {type="tip"}
+   >
+   >You can have only one unsaved New Filter at one time. 
+
+
+
+1.  Click `Save` to save the filter to use it later, then add a name for the filter in the `Add filter name`field and click `Done`. 
+
+
+   This saves the filter in the `Saved` section of the filter builder. You can use this filter in the future. 
+
+
+   The last saved and applied filter displays by default next time you log back in to *`Workfront`*
+
+1.  (Optional) Click the `left-pointing arrow` next to `New Filter` to exit the filter builder and return to the list of filters. 
+1.  (Optional) Hover over the name of a filter, click the `More` menu, then click  `Delete`, then  `Delete`. This deletes the filter and you cannot recover it. 
+
+
+   >[!TIP] {type="tip"}
+   >
+   >You cannot delete any of the predefined filters.
+
+
+
+1.  Click the `X icon` in the upper-right corner of the filter builder to close the filter builder.
+
+
+   The name of the filter currently applied displays to the right of the Filter icon, in the upper-right corner of the goals list. 
+
+
+   The list of goals is filtered by your filter criteria. 
+
+1.  (Optional) If you want to view the filtered out results, click  `Show them` in the list of goals in the *`Goal List`* or the *`Goal Alignment section`*. 
+
+
+   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+
+
+
+
+   The filter name is outlined in yellow to indicate that it is being ignored.
+
+
+   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+
+
+
+
+   >[!TIP] {type="tip"}
+   >
+   >Displaying items that are hidden by filters is not possible in the Graphs and *`Pulse`* sections. 
+
+
+
+1.  Click  `Reapply filter` to apply the filter and omit the items you displayed in the previous step. 
+
+
+&nbsp;
+
+
+
+
+
+###  
+

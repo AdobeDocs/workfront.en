@@ -1,0 +1,300 @@
+---
+filename: built-in-status-icons-views
+product-area: reporting
+navigation-topic: using-built-in-reports
+---
+
+
+
+# Built-in Status Icons in Views {#built-in-status-icons-in-views}
+
+You can add the built-in Status Icons field as a column in your views to enhance visibility into key points about your objects. Using Status Icons, you can see at a glance when the following conditions exist:
+
+
+
+* An object has documents attached
+* An object is associated with an approval process
+* An object has additional notes associated with it
+* An expense is billable or reimbursable 
+* A task is on a critical path
+* A user belongs to a company, a team, or is located in a different time zone 
+
+
+Most of the indicators in the Status Icons field are quick links to the actual object or area of the object that they represent. 
+
+
+If any of the items represented by the icons are missing from the object, the icon representing the missing item appears as an outline in the Status Icons column instead of a complete image.  
+![task_status_icons.png](assets/task-status-icons.png)  
+For more information, see the [Overview of Status Icons and Flags](#understanding-status-icons) section in this article.  
+In some views, the `Status Icons` field is named `Flags` or `View Icons`.  
+You cannot customize the look and feel of the icons that are included in the Status Icons field. 
+
+
+## Access requirements {#access-requirements}
+
+You must have the following access to perform the steps in this article:
+
+<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+ <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Request variable varname">Request</span> or higher</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">&nbsp;</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">&nbsp;</td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Access level configurations*</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports,&nbsp;Dashboards, Calendars to add columns to a report</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Object permissions</td> 
+   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Manage permissions to an existing view</p> <p>Manage permissions to a report to add columns to it</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+
+
+## Add the Status Icons field to a view {#add-the-status-icons-field-to-a-view}
+
+Some built-in views and reports already have the Status Icons field included. 
+
+
+You cannot add the Status Icons field to all views.
+
+
+To add the Status Icons field to a custom view that you build from scratch: 
+
+
+
+1. Go to a list of any of the following objects: 
+    
+    
+    * Tasks
+    * Issues
+    * Projects
+    * Template Tasks
+    * Templates
+    * Expenses
+    * Documents
+    * Users  
+      Only these objects have the `Status Icons` field available.  
+      For information on object lists, see [Get started with lists in Adobe Workfront](view-items-in-a-list.md).
+    
+    
+    
+1. From the `View` drop-down menu, select `New View`.
+
+1. Click `Add Column`.
+1. In the `Show in this column` box, start typing any of the following field names, then select it when it appears in the list: 
+    
+    
+    *  *Status Icons*
+    * *Flags*
+    * *View Icons *(only in Document views).
+    
+    
+   The built-in icons are listed under any of these names.  
+   A Template view contains both the `Status Icons` and the `Flags` fields. In this case, the two columns contain identical icons.   
+   Document views contain a `View Icons`field.
+
+1. Click `Save View`. 
+1.  (Optional) Specify a new name for your view, then click `Save View`.  
+   This adds the `Status Icons` column to your View.
+1.  (Optional) Mouse over an icon to understand what it represents.
+1. (Optional) Click an icon to go to the area of the object represented by it.  
+   Not all icons are links to objects.  
+   For a complete list of attributes for each icon, see the [Overview of Status Icons and Flags](#understanding-status-icons) section.
+
+
+
+
+
+## Overview of Status Icons and Flags {#overview-of-status-icons-and-flags}
+
+The following table lists all the Status Icons available in *`Workfront`*, the type of objects that can be associated with them, as well as what happens when you click them. 
+
+
+You must have permissions to at least View the objects in order to be able to click some of the following icons and access those objects. 
+
+<table style="mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
+ <col style="width: 103px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <col style="width: 557px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <col style="width: 103px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <col style="width: 103px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+ <thead> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
+   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><span class="bold">Status Icon or Flag</span> </th> 
+   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><span class="bold">Description</span> </th> 
+   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><span class="bold">Object</span> </th> 
+   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">On Click</th> 
+   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">or <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_trouble.png" style="width: 29;height: 26;"> or <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> or <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Indicates that the Condition of the project is On Target (green), In Trouble (red), or At Risk (yellow).<br>For information about project Condition, see <a href="project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Projects</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Click to open the tasks list of the project. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/notes-icon-44x34.png" alt="notes_icon.png" style="width: 44;height: 34;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Indicates that the object has notes (updates) in the Updates tab.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Projects<br>Tasks<br>Issues<br>Templates<br>Template Tasks</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Click to open the Updates tab of the object. </p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/document-icon-35x42.png" alt="document_icon.png" style="width: 35;height: 42;">or <img src="assets/new-documents-icon-36x43.png" alt="new_documents_icon.png" style="width: 36;height: 43;"></td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Indicates that the object has documents attached. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> Projects<br>Tasks<br>Issues<br>Templates<br>Template Tasks </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Click to open the Documents tab of the object. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/open-issu-icon-34x36.png" alt="open_issu_icon.png" style="width: 34;height: 36;">or <img src="assets/new-open-issues-25x30.png" alt="new_open_issues.png" style="width: 25;height: 30;"></td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Indicates that there are open issues on the project or the task.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> Projects<br>Tasks </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Click to open the object. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/approval-icon-42x38.png" alt="approval_icon.png" style="width: 42;height: 38;"> or <img src="assets/new-approval-icon-33x35.png" alt="new_approval_icon.png" style="width: 33;height: 35;"></td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Indicates that there is an approval on the object.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> Projects<br>Tasks<br>Issues<br>Templates<br>Template Tasks </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Click to open the object. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/expenses-icon-52x40.png" alt="expenses_icon.png" style="width: 52;height: 40;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>You can add an Expenses Icon column in your view to display this icon. This indicates that the project or the task has expenses associated with them.</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Projects</p> <p>Tasks</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Click to open the Expenses tab of the project or the task. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/task-progress-status-icon-on-time-44x39.png" alt="task_progress_status_icon_on_time.png" style="width: 44;height: 39;"> <br> <img src="assets/task-progress-status-late-44x43.png" alt="task_progress_status_late.png" style="width: 44;height: 43;"> <br> <img src="assets/task-progress-status-at-risk-44x35.png" alt="task_progress_status_at_risk.png" style="width: 44;height: 35;"> <br> <img src="assets/task-progress-status-icon-behind-44x35.png" style="width: 44;height: 35;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Indicates that the Progress Status of a task is one of the following:</p> 
+    <ul> 
+     <li>On Time (green square)</li> 
+     <li>Late (red circle)</li> 
+     <li>At Risk (blue diamond)</li> 
+     <li>Behind (yellow triangle)</li> 
+    </ul> <p>For information about the Progress Status of tasks, see <a href="task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</p> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Tasks</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Click to open the task. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/task-critical-path-icon-36x35.png" alt="task_critical_path_icon.png" style="width: 36;height: 35;"> or <img src="assets/new-critical-path-icon-34x34.png" alt="new_critical_path_icon.png" style="width: 34;height: 34;"></td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Indicates that the task is currently on the Critical Path. <br>For information about tasks on a Critical Path of the project, see <a href="critical-path.md" class="MCXref xref">Overview of the project Critical Path</a>.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Tasks</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Click to open the task.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/milestone-icon-50x43.png" alt="milestone_icon.png" style="width: 50;height: 43;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Indicates that the task is associated with a milestone. Your system administrator can customize the color of the diamond in your environment.<br>For information about milestones, see <a href="create-milestone-path.md" class="MCXref xref">Create a milestone path</a>.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Tasks</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Click to open the task. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/issue-source-link-icon-44x41.png" alt="issue_source_link_icon.png" style="width: 44;height: 41;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Link to the source object of an issue. The source object of an issue is the object where the issue was logged. A task or a project can be source objects for issues. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Issues</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Click to open the source object (task or project) of an issue. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/resolving-object-icon-43x45.png" alt="resolving_object_icon.png" style="width: 43;height: 45;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Indicates that there is a resolving object which ultimately resolves the issue. In this case, you cannot complete the issue. It is completed when the resolving object completes. <br>For information about resolving objects, see <a href="resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Issues</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Click to open the resolving object of the issue. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/view-doc-icon-45x48.png" alt="view_doc_icon.png" style="width: 45;height: 48;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">View a document.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Documents</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Click to download the document.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/download-doc-icon.png"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Download a document.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Documents</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Click to download the document.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/document-type-icon.png"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Indicates the type of document.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Documents</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Click to download the document.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_belongs_to_company_icon.png" style="width: 44;height: 44;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Indicates that the user is associated with a Company. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Users</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Unavailable</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/user-with-team-icon-40x48.png" alt="user_with_team_icon.png" style="width: 40;height: 48;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Indicates that the user is associated with a Team.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Users</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Click to open the user profile.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/resource-grid-icon-44x46.png" alt="resource_grid_icon.png" style="width: 44;height: 46;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Shortcut to the Allocation tab of the user. </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Users</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Click to open the Allocation tab of the user and learn to what work items the user is assigned.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/screen-shot-2018-07-26-at-2.31.40-pm-44x40.png" alt="Screen_Shot_2018-07-26_at_2.31.40_PM.png" style="width: 44;height: 40;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Indicates that the user is in a different time zone than that of the system.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Users</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Unavailable</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <img src="assets/billable-expense-icon-44x45.png" alt="billable_expense_icon.png" style="width: 44;height: 45;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Indicates that an expense is billable.<br>For information about expenses, see <a href="manage-project-expenses.md" class="MCXref xref">Manage project expenses </a>.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Expenses</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Unavailable</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <img src="assets/expense-reimbursable-icon-44x45.png" alt="expense_reimbursable_icon.png" style="width: 44;height: 45;"> </td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> Indicates that an expense is reimbursable.<br>For information about expenses, see <a href="manage-project-expenses.md" class="MCXref xref">Manage project expenses </a>.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Expenses</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Unavailable</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> </td> 
+  </tr> 
+  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <img src="assets/reimbursed-expense-icon-44x43.png" alt="reimbursed_expense_icon.png" style="width: 44;height: 43;"></td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> Indicates that an expense has been reimbursed.<br>For information about expenses, see <a href="manage-project-expenses.md" class="MCXref xref">Manage project expenses </a>.</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">Expenses</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">Unavailable</td> 
+   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

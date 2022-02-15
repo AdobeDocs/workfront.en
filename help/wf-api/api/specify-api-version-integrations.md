@@ -1,0 +1,60 @@
+---
+filename: specify-api-version-integrations
+content-type: api
+navigation-topic: api-navigation-topic
+---
+
+
+
+# Specify an API Version in your integrations {#specify-an-api-version-in-your-integrations}
+
+All *`Adobe Workfront`* URIs are required to reference a specific version of the API after the “attask/api” portion of the URI. The following example calls Version 7.0:
+`<pre>attask/api/v7.0/<objectName>/<objectId></pre>` Please ensure all your integrations call currently-supported *`Workfront`* APIs.
+
+
+## Release and Deprecation Schedule of *`Workfront`* APIs {#release-and-deprecation-schedule-of-workfront-apis}
+
+New versions of the API are&nbsp;released on a biannual basis--every six to eight months. Each version is&nbsp;supported for three years after its&nbsp;release date, with an additional year in a deprecated state where the version is&nbsp;available but not supported.
+
+
+For more information on the release cadence and deprecation schedule of *`Workfront`* APIs, see [API versioning and support schedule](api-version-support-schedule.md).
+
+
+*`Workfront`* deprecated the Default Version of the API as of July 2017. This means *`Workfront`* no longer designates a specific version of the API to be the Default Version. All future&nbsp;API URIs must specify a version of the API in order to be valid.
+
+
+>[!IMPORTANT] {type="important"}
+>
+>&nbsp;Any integrations using the Default API version must be updated to call a specific supported API version by July 1, 2018.
+
+
+
+
+## Determining the API Version You Are&nbsp;Using {#determining-the-api-version-you-are-using}
+
+`You can determine the version of the API you are using by checking the URI of an HTTP request sent to the *`Workfront`* API. The following example shows a *`Workfront`* request URI that specifies Version 7 of the API:` 
+`<pre>https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5</pre>` `I` `f a URI does not specify a version, then it is using the Default Version of the API, as shown in the following example:` 
+`<pre>https://<domainname>.my.workfront.com/attask/api/proj/4c7c08b20000002de5ca1ebc19edf2d5</pre>` 
+
+>[!IMPORTANT] {type="important"}
+>
+>&nbsp;Integrations that do not specify a version of the API in the URI are&nbsp;automatically routed to the Default Version of the API and will&nbsp;fail to work after July 1, 2018.&nbsp;
+
+
+
+
+## Updating Integrations to Use Supported API Versions {#updating-integrations-to-use-supported-api-versions}
+
+`As you build or maintain *`Workfront`* integrations you should include a method for dynamically updating the API version and other properties subject to change (such as your API key).` 
+
+
+`To make updating integrations more efficient, you should consider the following suggestions for recording integration values:` 
+
+
+
+* `Store values subject to future changes in a properties file you keep updated` 
+* `Create a web service to manage properties in real time` 
+* `Store property values in a data store that your application can read` 
+
+
+`Designing your *`Workfront`* integrations with this in mind alleviates the need for extensive development work when those values inevitably change.` 
