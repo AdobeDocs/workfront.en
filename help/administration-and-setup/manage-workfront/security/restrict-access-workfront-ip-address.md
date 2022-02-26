@@ -3,91 +3,56 @@ filename: restrict-access-workfront-IP-address
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
+title: Restrict access to Adobe Workfront by IP address
+description: You can configure an Adobe Workfront IP allowlist that limits access to Workfront to 45 IP addresses or IP address ranges that you specify. This provides an additional layer of security for the Workfront application.
 ---
 
+# Restrict access to *Adobe Workfront* by IP address
 
+You can configure an *Adobe Workfront* IP allowlist that limits access to *Workfront* to 45 IP addresses or IP address ranges that you specify. This provides an additional layer of security for the *Workfront* application.
 
-# Restrict access to *`Adobe Workfront`* by IP address {#restrict-access-to-adobe-workfront-by-ip-address}
+These IP addresses or IP address ranges should be provided by your network administrator.
 
-You can configure *`Adobe Workfront`* to allow access only from designated IP addresses. Configuring *`Workfront`* in this way provides an additional layer of security for the *`Workfront`* application.
-
-
-When someone attempts to access *`Workfront`* from an IP address that is not on the allowlist, *`Workfront`* cannot be reached.
-
-
-
-
->[!NOTE]
->
->Depending on the *`Workfront`* plan that you have purchased, you might not have access to this functionality in *`Workfront`*. Contact your Account Representative to learn what *`Workfront`* plan your organization has purchased
-
-
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Enterprise</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Other allowlists
 
+If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the *Adobe Workfront* servers. For information about that, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-## How the firewall allowlist differs from the *`Workfront`* allowlist {#how-the-firewall-allowlist-differs-from-the-workfront-allowlist}
+Also, if your organization uses the *Enterprise* plan, you can configure the *Workfront* email allowlist to control which email domains are allowed to accept emails from *Workfront* and which email domains can be in the email address that users specify in their *Workfront* user profile. For more information, see [Configure your email allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
-Configuring a *`Workfront`* allowlist is not the same as adding *`Workfront`* IP addresses to your corporate firewall allowlist.
+## Adding IP addresses to the allowlist
 
+After you add IP addresses to the *Workfront* allowlist, only those IP addresses can be used to access *Workfront*. Users who try to access *Workfront* from another IP address receive an error message indicating that their IP address is blocked.
 
-For more information about adding *`Workfront`* IP addresses to your corporate firewall allowlist, see [Configure your firewall](configure-your-firewall.md).
-
-
-## Adding IP addresses to the allowlist {#adding-ip-addresses-to-the-allowlist}
-
-After you add IP addresses to the *`Workfront`* allowlist, only those IP addresses can be used to access *`Workfront`*.
-
-
-Users who attempt to access *`Workfront`* from an IP address that is not on the allowlist are not able to log in. They receive an error message indicating that they are attempting to access *`Workfront`* from an IP address that has been blocked by the *`Workfront administrator`*.
-
-
-To add IP addresses to the *`Workfront`* allowlist:
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1. Click `System` > `Customer Info.`
-
-1.  In the `IP allowlist` section, select `Enable IP allowlist.`
-
-
-   This option is disabled by default.
-
-1. Specify the IP address that you are currently using to access the *`Workfront`* system.  
-   Or  
-   Specify a range of IP addresses that includes the IP address that you are currently using to access the *`Workfront`* system.  
-   The IP address that you are currently using to access *`Workfront`* must be added to the allowlist or the allowlist cannot be enabled.  
-   These IP addresses should be provided by your network administrator. 
-
-1. Click `Add IP Range,` then specify the IP address or range of IP addresses that you want to be able to access *`Workfront`*.  
-   Repeat this step to add additional IP addresses or IP ranges. You can add up to 15 IP address or IP ranges.
-
-1. Click `Save.`
-
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2">Click <span class="bold">System</span> > <span class="bold">Customer Info.</span></li> 
+ <li value="3"> <p>In the <span class="bold">IP allowlist</span> section, select <span class="bold">Enable IP allowlist.</span></p> <p>This option is disabled by default.</p> </li> 
+ <li value="4"> <p>Specify the IP address that you are currently using to access the <em>Workfront</em> system.</p> <p>Or</p> <p>Specify a range of IP addresses that includes the one you are currently using to access the <em>Workfront</em> system.</p> <p>The IP address you are using to access <em>Workfront</em> must be added to the allowlist before the allowlist is enabled.</p> </li> 
+ <li value="5"> <p>Click <span class="bold">Add IP Range,</span> then specify the IP address or range of IP addresses that you want to be able to access <em>Workfront</em>.</p> </li> 
+ <li value="6"> <p>(Optional) Repeat the previous step to add additional IP addresses or IP address ranges.</p> <p>You can add up to 30 addresses or ranges.</p> </li> 
+ <li value="7">Click <span class="bold">Save.</span></li> 
+</ol>
 

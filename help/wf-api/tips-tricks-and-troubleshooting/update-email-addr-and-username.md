@@ -2,35 +2,26 @@
 filename: update-email-addr-and-username
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
+title: Update to emailAddr does not update the username
+description: Normally, the emailAddr and username are the same attribute. Therefore, if you change a user's emailAddr attribute, the username attribute is automatically updated to match.
 ---
 
+# Update to emailAddr does not update the username
 
-
-# Update to emailAddr does not update the username {#update-to-emailaddr-does-not-update-the-username}
-
-
-
-## Problem {#problem}
+## Problem
 
 Normally, the emailAddr and username are the same attribute. Therefore, if you change a user's emailAddr attribute, the username attribute is automatically updated to match.
 
-
 When the username does not match the emailAddr, an update to the emailAddr does not update the username automatically. This is true for both emailAddr changes through the user interface and through the API.
 
-
-## Cause {#cause}
+## Cause
 
 The mismatch may be created in several ways:
 
+* Users created before the synchronization rule existed. Very old user accounts may not have these attributes in sync.
+* Users created via SSO at a time when the emailAddr in *Workfront* was case-sensitive. The SSO auto-provision option would run a case-sensitive check for users based on the attributes of the user from the identity provider. When an exact match did not exist, the auto-provision services would create a new user. If a user already existed, there was a potential that the username and emailAddr would not have the same casing.
+* Users that have had the username attribute updated directly via the API, and their emailAddr was not updated. The username and emailAddr possibly do not match.
 
-
-*  Users created before the synchronization rule existed. Very old user accounts may not have these attributes in sync.
-*  Users created via SSO at a time when the emailAddr in *`Workfront`* was case-sensitive. The SSO auto-provision option would run a case-sensitive check for users based on the attributes of the user from the identity provider. When an exact match did not exist, the auto-provision services would create a new user. If a user already existed, there was a potential that the username and emailAddr would not have the same casing.
-*  Users that have had the username attribute updated directly via the API, and their emailAddr was not updated. The username and emailAddr possibly do not match.
-
-
-
-
-## Solution {#solution}
+## Solution
 
 Use the API&nbsp;to change the username attribute to be the same as the emailAddr. After synchronizing the attributes, any update to the emailAddr will also update the username to match (when the username field is not included in the update).

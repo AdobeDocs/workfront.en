@@ -3,79 +3,84 @@ filename: delete-or-deactivate-a-custom-form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
+title: Delete or deactivate a custom form
+description: You can delete or deactivate a custom form from the system.
 ---
 
-
-
-# Delete or deactivate a custom form {#delete-or-deactivate-a-custom-form}
+# Delete or deactivate a custom form
 
 You can delete or deactivate a custom form from the system.
 
-
 ` `**Warning: **``Deleting a custom also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
 
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table class="TableStyle-TableStyle-List-options-in-steps" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray" data-mc-conditions=""> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> <p><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Any</td> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"> <p><em>Adobe Workfront</em> plan*</p> </td> 
+    <td>Any</td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p><em>Adobe Workfront</em> plan*</p> </td> 
+   <td>Any</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray" data-mc-conditions=""> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Administrative access to custom forms</p> <p>For information about how <span class="mc-variable WFVariables.AdminWF-plur variable varname">Workfront administrators</span> grants this access, see <a href="grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray" data-mc-conditions="SnippetConditions.HIDE"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage access to the <span class="mc-variable snippet-variables-custom-forms.custom-form-or-field variable varname">custom form</span></p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>Administrative access to custom forms</p> <p>For information about how <em>Workfront administrators</em> grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how <em>Workfront administrators</em> grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="SnippetConditions.HIDE"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>Manage access to the <em>custom form</em></p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="SnippetConditions.HIDE"> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to the <em>custom form</em></p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access level configurations you have, contact your *Workfront administrator*.
 
+## Delete a custom form
 
-## Delete a custom form {#delete-a-custom-form}
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2">Click <span class="bold">Custom Forms.</span></li> 
+ <li value="3">Select the custom form, then click <span class="bold">Delete</span>.</li> 
+ <li value="4"> <p>If you are sure you want to permanently delete the custom form and all associated data on objects where it was attached, click <span class="bold">Yes, Delete It</span>. </p> </li> 
+</ol>
 
+## Deactivate a custom form
 
+You can deactivate custom forms you no longer use without losing their associated historical data. Users can't add an inactive custom form to objects, but they can still view and add data to its fields on objects where it was already attached.
 
+Fields on an inactive custom form are also still available to inline-edit in a View. If a user adds a field from an inactive custom form during an inline edit, the form attaches to the object automatically, even though the custom form is deactivated.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
+If you re-activeate a custom form, it retains the settings it had before and users can interact with it as if it was never deactivated.
 
-1. Click `Custom Forms.`
-1. Select the custom form, then click `Delete`.
-1.  If you are sure you want to permanently delete the custom form and all associated data on objects where it was attached, click `Yes, Delete It`. 
+To deactivate a custom form:
 
-
-
-
-## Deactivate a custom form {#deactivate-a-custom-form}
-
-You can deactivate custom forms you no longer use while retaining all of the associated historical data. 
-
-
-If you deactivate a custom form, the custom form does not display in any drop-down menus on the object. However, the form does still display on any object it is attached to.
-
-
-Fields on a deactivated custom form are still available to inline-edit in a View. If you add a field during an inline edit, the form attaches automatically, even though the custom form is deactivated.
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1. Click the name of the custom form you want to deactivate.
-1. Click the `Form Settings` tab.
-1. Disable the `Is Active` option.
-1. Click `Save + Close`.
-
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2">Click the name of the custom form you want to deactivate.</li> 
+ <li value="3">Click the <span class="bold">Form Settings</span> tab.</li> 
+ <li value="4">Disable the <span class="bold">Is Active</span> option.</li> 
+ <li value="5">Click <span class="bold">Save + Close</span>.</li> 
+</ol>
 

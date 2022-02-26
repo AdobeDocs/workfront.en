@@ -2,100 +2,84 @@
 filename: delete-dashboard
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
+title: Delete a dashboard
+description: If you no longer have use for a dashboard, you can remove it from Adobe Workfront.
 ---
 
+# Delete a dashboard
 
+If you no longer have use for a dashboard, you can remove it from *Adobe Workfront*.
 
-# Delete a dashboard {#delete-a-dashboard}
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
-
-If you no longer have use for a dashboard, you can remove it from *`Adobe Workfront`*.
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-
-## Delete a dashboard from the Actions menu {#delete-a-dashboard-from-the-actions-menu}
+## Delete a dashboard from the Actions menu
 
 If you want to delete a dashboard, you can delete it using the Actions menu.
 
-
 For information on deleting a dashboard with an external page embedded, see [Delete a dashboard from the Dashboards area](#delete).
-
 
 To delete a dashboard:
 
+<ol> 
+ <li value="1"> <p>Go to the dashboard that you want to edit.</p> </li> 
+ <li value="2"> <p>Click <span class="bold">Dashboard Actions</span>, then click <span class="bold">Delete</span>.</p> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
+     <img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    </draft-comment><img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+ <li value="3">To confirm that you want to delete the dashboard, click <span class="bold">Yes, Delete it.</span><br>The dashboard is removed from <em>Workfront</em>.</li> 
+</ol>
 
+## Delete a dashboard from the Dashboards area
 
-1.  Go to the dashboard that you want to edit.
-1.  Click `Dashboard Actions`, then click `Delete`.
+If you are deleting multiple dashboards, you can delete the dashboards from the Dashboards 
 
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+area
+</MadCap:conditionalText>
+-->
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
-
-
-
-1. To confirm that you want to delete the dashboard, click `Yes, Delete it.`  
-   The dashboard is removed from *`Workfront`*.
-
-
-
-
-
-## Delete a dashboard from the Dashboards area {#delete-a-dashboard-from-the-dashboards-area}
-
-If you are deleting multiple dashboards, you can delete the dashboards from the Dashboards `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`. This is also the only way to delete a dashboard with an external page.
-
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`. This is also the only way to delete a dashboard with an external page.
 
 To delete multiple dashboards:
 
-
-
-1.  Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Workfront`*, then click `Dashboards`.
-1.  Select each dashboard in the list that you want to delete, then click `Delete` ` ![](assets/delete.png)
-
-   `.
-
-
-   ![](assets/nwe-delete-dashboard-350x184.png)
-
-
-
-   ![](assets/nwe-deletedashboard2021-350x182.png)
-
-
-1. To confirm that you want to delete the dashboard, click `Yes, Delete it.`  
-   The dashboard is removed from *`Workfront`*.
-
-
+<ol> 
+ <li value="1"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Dashboards</span>.</p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Dashboards</span>.</p> </li> 
+ <li value="2"> <p>Select each dashboard in the list that you want to delete, then click <span class="bold">Delete</span> <draft-comment>
+    <span data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/delete.png"></span>
+   </draft-comment><span data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/delete.png"></span>.</p> <p> <draft-comment>
+    <img src="assets/nwe-deletedashboard2021-350x182.png" title="Select the Delete icon." style="width: 350;height: 182;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   </draft-comment><img src="assets/nwe-deletedashboard2021-350x182.png" title="Select the Delete icon." style="width: 350;height: 182;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+ <li value="3">To confirm that you want to delete the dashboard, click <span class="bold">Yes, Delete it.</span><br>The dashboard is removed from <em>Workfront</em>.</li> 
+</ol>
 

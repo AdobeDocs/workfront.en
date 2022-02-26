@@ -5,17 +5,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
+title: Custom branding in Adobe Workfront
+description: This section contains the following articles:
 ---
 
-
-
-# Custom branding in *`Adobe Workfront`* {#custom-branding-in-adobe-workfront}
+# Custom branding in *Adobe Workfront*
 
 This section contains the following articles:
 
-
-
-* [Brand your Adobe Workfront instance](brand-your-workfront-instance.md) 
-* [Configure a custom help URL](configure-custom-help-url.md) 
-
+* [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md) 
+* [Configure a custom help URL](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
 

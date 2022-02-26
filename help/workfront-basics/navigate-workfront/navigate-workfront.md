@@ -2,24 +2,36 @@
 filename: _navigate-workfront
 content-type: reference
 navigation-topic: get-started-with-workfront
+title: Navigate Adobe Workfront
+description: This section contains the following subsections:
 ---
 
-
-
-# Navigate *`Adobe Workfront`* {#navigate-adobe-workfront}
+# Navigate *Adobe Workfront*
 
 This section contains the following subsections:
 
+* [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 
+* [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) 
+* [Adobe Workfront Search](../../workfront-basics/navigate-workfront/search/search.md) 
+* [Recents and favorites in Adobe Workfront](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md) 
+* [Lists in Adobe Workfront](../../workfront-basics/navigate-workfront/use-lists/lists.md) 
+* [Access Adobe Workfront help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fcustomize-global-navigation-bar.html&_LANG=en" target="_top">Customize the Main Menu in&nbsp;<em>Adobe Workfront</em></a> </li>
+  -->
 
-* [Understand objects in Adobe Workfront](understand-objects.md) 
-* [Glossary of Adobe Workfront terminology](workfront-terminology-glossary.md) 
-* [Adobe Workfront Search](_search.md) 
-* [Recents and favorites in Adobe Workfront](_recent-and-favorites.md) 
-* [Lists in Adobe Workfront](_lists.md) 
-* [Access Adobe Workfront help](access-workfront-help.md) 
-* [Customize the Main Menu in  *`Adobe Workfront`*](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fcustomize-global-navigation-bar.html&_LANG=en) 
-* [Understand a Worker's Main Menu in *`Adobe Workfront`*](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fworker-global-navigation-bar.html&_LANG=en) 
-* [Understand a Reviewer's Main Menu in *`Adobe Workfront`*](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Freviewer-global-navigation-bar.html&_LANG=en) 
+* [Customize the Main Menu in&nbsp;*Adobe Workfront*](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fcustomize-global-navigation-bar.html&_LANG=en)
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fworker-global-navigation-bar.html&_LANG=en" target="_blank">Understand a Worker's Main Menu in <em>Adobe Workfront</em></a> </li>
+  -->
+
+* [Understand a Worker's Main Menu in *Adobe Workfront*](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fworker-global-navigation-bar.html&_LANG=en)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Freviewer-global-navigation-bar.html&_LANG=en" target="_blank">Understand a Reviewer's Main Menu in <em>Adobe Workfront</em></a> </li>
+  -->
+
+* [Understand a Reviewer's Main Menu in *Adobe Workfront*](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Freviewer-global-navigation-bar.html&_LANG=en)
 

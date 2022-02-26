@@ -4,26 +4,20 @@ content-type: reference
 product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
+title: Proof notifications and reminders
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Proof notifications and reminders
 
-
-# Proof notifications and reminders {#proof-notifications-and-reminders}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-
-
-* [Late proof email](late-proof-email.md) 
-* [New proof email](new-proof-email.md) 
-* [The New Version email](new-version-email.md) 
-* [The Proof Made email](proof-made-email.md) 
-
+* [Late proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md) 
+* [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) 
+* [The New Version email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md) 
+* [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
 

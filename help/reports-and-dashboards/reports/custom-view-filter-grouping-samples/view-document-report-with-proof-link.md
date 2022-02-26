@@ -3,135 +3,77 @@ filename: view-document-report-with-proof-link
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
+title: View: document report with link to a proof
+description: In this document view, you can insert a link to a proof of the current version of the document.
 ---
 
-
-
-# View: document report with link to a proof {#view-document-report-with-link-to-a-proof}
+# View: document report with link to a proof
 
 In this document view, you can insert a link to a proof of the current version of the document.
 
-
 ![](assets/view-document-with-proof-link-350x92.png)
 
-
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-
-## View a document report with link to a proof {#view-a-document-report-with-link-to-a-proof}
+## View a document report with link to a proof
 
 To apply this view:
 
-
-
-1. Go to a list of documents.
-1. From the `View` drop-down menu, select `New View`.
-
-1. Click `Add Column`. 
-1. Click `Switch to Text Mode`.
-1. Hover over the text mode area, and click `Click to edit text`.
-1.  Remove the text you find in the `Text Mode` box, and replace it with the following code:
-
-
-
-   ```
-   displayname=Proof Link
-   ```
-
-
-
-
-
-
-   ```
-   shortview=true
-   ```
-
-
-
-
-
-
-   ```
-   textmode=true
-   ```
-
-
-
-
-
-
-   ```
-   valueexpression=CONCAT("https://Your domain.my.workfront.com/document/",{currentVersion}.{ID},"/proof/",{currentVersion}.{proofID},"/view")
-   ```
-
-
-
-
-
-
-   ```
-   valueformat=HTML
-   ```
-
-
-
-
-   >[!TIP] {type="tip"}
-   >
-   >Replace "Your domain" with your actual *`Workfront`* domain. For example, if your company's *`Workfront`* url is *Company.my.workfront.com*, your domain is "Company."
-
-
-
-1.  Click  `Save`, then  `Save View`.
-1.  Type a name for the view, then click `Save View`.
-1.  (Optional) To ensure you display only documents with proofs, add a filter by doing the following:
-
-    
-    
-    1.  Click the `Filter` drop-down menu, then click `New Filter`.
-    1.  Click `Add a Filter Rule` and start typing Current Version, then select `Current Version Proof ID` when it displays in the list.
-    1.  Select `Is Not Blank` for the filter modifier.
-    
-    
-       ![](assets/filter-current-version-proof-id-not-blank-350x67.png)    
-    
-
-    
-    1.  Click `Save Filter`, type the name of the filter, then click  `Save Filter`.
-    
-    
-
-1.  Click the link in the Proof Link column to access the proof of the last version of the document.
-
+<ol> 
+ <li value="1">Go to a list of documents.</li> 
+ <li value="2">From the <span class="bold">View</span> drop-down menu, select <span class="bold">New View</span>.</li> 
+ <li value="3">Click <span class="bold">Add Column</span>. </li> 
+ <li value="4">Click <span class="bold">Switch to Text Mode</span>.</li> 
+ <li value="5">Hover over the text mode area, and click <span class="bold">Click to edit text</span>.</li> 
+ <li value="6"> <p>Remove the text you find in the <span class="bold">Text Mode</span> box, and replace it with the following code:</p> 
+  <div> 
+   <p><code>displayname=Proof Link</code> </p> 
+   <p><code>shortview=true</code> </p> 
+   <p><code>textmode=true</code> </p> 
+   <p><code>valueexpression=CONCAT("https://Your domain.my.workfront.com/document/",{currentVersion}.{ID},"/proof/",{currentVersion}.{proofID},"/view")</code> </p> 
+   <p><code>valueformat=HTML</code> </p> 
+  </div> <note type="tip">
+   Replace "Your domain" with your actual 
+   <em>Workfront</em> domain. For example, if your company's 
+   <em>Workfront</em> url is 
+   <i>Company.my.workfront.com</i>, your domain is "Company."
+  </note> </li> 
+ <li value="7"> <p>Click&nbsp;<span class="bold">Save</span>, then&nbsp;<span class="bold">Save View</span>.</p> </li> 
+ <li value="8"> <p>Type a name for the view, then click <span class="bold">Save View</span>.</p> </li> 
+ <li value="9"> <p>(Optional) To ensure you display only documents with proofs, add a filter by doing the following:</p> 
+  <ol> 
+   <li value="1"> <p>Click the <span class="bold">Filter</span> drop-down menu, then click <span class="bold">New Filter</span>.</p> </li> 
+   <li value="2"> <p>Click <span class="bold">Add a Filter Rule</span> and start typing Current Version, then select <span class="bold">Current Version Proof ID</span> when it displays in the list.</p> </li> 
+   <li value="3"> <p>Select <span class="bold">Is Not Blank</span> for the filter modifier.</p> <p> <img src="assets/filter-current-version-proof-id-not-blank-350x67.png" style="width: 350;height: 67;"> </p> </li> 
+   <li value="4"> <p>Click <span class="bold">Save Filter</span>, type the name of the filter, then click&nbsp;<span class="bold">Save Filter</span>.</p> </li> 
+  </ol> </li> 
+ <li value="10"> <p>Click the link in the Proof Link column to access the proof of the last version of the document.</p> </li> 
+</ol>
 

@@ -2,89 +2,62 @@
 filename: optimize-projects-in-portfolio-optimizer
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
+title: Optimize projects in the Portfolio Optimizer
+description: You can use the Portfolio Optimizer to prioritize your projects based on their scores and other values. The Optimizer takes into account important project information like the cost, alignment, risk and ROI to prioritize the projects according to what is more important to you.
 ---
 
+# Optimize projects in the Portfolio Optimizer
 
+You can use the Portfolio Optimizer to prioritize your projects based on their scores and other values. The Optimizer takes into account important project information like the cost, alignment, risk and ROI to prioritize the projects according to what is more important to you.
 
-# Optimize projects in the Portfolio Optimizer  {#optimize-projects-in-the-portfolio-optimizer}
-
-You can use the Portfolio Optimizer to prioritize your projects based on their scores and other values. The Optimizer takes into account important project information like the cost, alignment, risk and ROI to prioritize the projects according to what is more important to you. 
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Business variable varname">Business</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Business</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> licenses*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> licenses*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Optimize projects in the Portfolio Optimizer
 
-## Optimize projects in the Portfolio Optimizer {#optimize-projects-in-the-portfolio-optimizer-1}
-
-
-
-
-1.  Open a Portfolio, then click `Portfolio Optimization` in the left panel.
-
-
-   The Portfolio Optimizer displays.
-
-1.  Click the `Optimize` icon .
-
-
-   ![](assets/optimize-icon-portfolio-optimizer.png)   
-   The categories by which a project can be scored display to the left of the Optimize icon.  
-
-
-1. Using the sliding circle, modify the optimization of any of the following categories: 
-    
-    
-    * `Low Cost`: Move the slider to the right to view projects with the lowest Planned Cost. ``
-    
-    * `High Alignment`: Move the slider to the right to view projects with the highest alignment based on the Scorecard.
-    * `High Value`: Move the slider to the right to view projects with a higher Net Value score.
-    * `Low Risk to Benefit`: Move the slider to the right to view projects with the lowest risk to benefit ratio.
-    * `High ROI`: Move the slider to the right to view projects with a higher return on investment (ROI).
-    
-    
-1.  Click the `x icon` to close the optimization categories. 
-
-
-   This updates the Score values for each project in the `Score` column. 
-
-
-   For information about the Portfolio Optimizer Score, see [Overview of the Portfolio Optimizer Score](portfolio-optimizer-score.md).
-
-1. After the correct weights have been set for the `Score` column, click the header of the `Score` column to sort by this column. The project with the highest score is displayed at the top of the list.
-
-1. (Optional) Drag and drop projects in the order of your priority.   
-   This will change the order of the projects in the Portfolio Optimizer.
-1. (Optional) Click `Set Priority`to save the new priority of the projects.  
-   For more information about prioritizing projects in the Portfolio Optimizer, see the article [Prioritize projects in the Portfolio Optimizer](prioritize-projects-in-portfolio-optimizer.md).
-
-1. Click `Save` to save your Portfolio Optimizer. 
-
+<ol> <draft-comment>
+  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Open a Portfolio, then click <span class="bold">Portfolio Optimization</span> in the left panel.</p> <p>The Portfolio Optimizer displays.</p> </li>
+ </draft-comment>
+ <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Open a Portfolio, then click <span class="bold">Portfolio Optimization</span> in the left panel.</p> <p>The Portfolio Optimizer displays.</p> </li> 
+ <li value="2"> <p>Click the <span class="bold">Optimize</span> icon .</p> <p> <img src="assets/optimize-icon-portfolio-optimizer.png"> <br>The categories by which a project can be scored display to the left of the Optimize icon.<br></p> </li> 
+ <li value="3">Using the sliding circle, modify the optimization of any of the following categories: 
+  <ul>
+   <li><span class="bold">Low Cost</span>: Move the slider to the right to view projects with the lowest Planned Cost.</li>
+   <li><span class="bold">High Alignment</span>: Move the slider to the right to view projects with the highest alignment based on the Scorecard.</li>
+   <li><span class="bold">High Value</span>: Move the slider to the right to view projects with a higher Net Value score.</li>
+   <li><span class="bold">Low Risk to Benefit</span>: Move the slider to the right to view projects with the lowest risk to benefit ratio.</li>
+   <li><span class="bold">High ROI</span>: Move the slider to the right to view projects with a higher return on investment (ROI).</li>
+  </ul></li> 
+ <li value="4"> <p>Click the <span class="bold">x icon</span> to close the optimization categories. </p> <p>This updates the Score values for each project in the <span class="bold">Score</span> column. </p> <p>For information about the Portfolio Optimizer Score, see <a href="../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md" class="MCXref xref">Overview of the Portfolio Optimizer Score</a>.</p> </li> 
+ <li value="5">After the correct weights have been set for the <span class="bold">Score</span> column, click the header of the <span class="bold">Score</span> column to sort by this column. The project with the highest score is displayed at the top of the list.</li> 
+ <li value="6">(Optional) Drag and drop projects in the order of your priority. <br>This will change the order of the projects in the Portfolio Optimizer.</li> 
+ <li value="7">(Optional) Click <span class="bold">Set Priority</span> to save the new priority of the projects.<br>For more information about prioritizing projects in the Portfolio Optimizer, see the article <a href="../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md" class="MCXref xref">Prioritize projects in the Portfolio Optimizer </a>.</li> 
+ <li value="8">Click <span class="bold">Save</span> to save your Portfolio Optimizer. </li> 
+</ol>
 

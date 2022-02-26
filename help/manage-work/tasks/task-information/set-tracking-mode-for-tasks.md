@@ -2,81 +2,65 @@
 filename: set-tracking-mode-for-tasks
 product-area: projects
 navigation-topic: task-information
+title: Set Tracking Mode for tasks
+description: The Tracking Mode of a task determines how the task Progress Status is updated in Adobe Workfront.
 ---
 
+# Set Tracking Mode for tasks
 
+The Tracking Mode of a task determines how the task Progress Status is updated in *Adobe Workfront*.
 
-# Set Tracking Mode for tasks {#set-tracking-mode-for-tasks}
+For information about Tracking Mode on tasks, see [Task Tracking Mode overview](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
-The Tracking Mode of a task determines how the task Progress Status is updated in *`Adobe Workfront`*. 
-
-
-For information about Tracking Mode on tasks, see [Task Tracking Mode overview](task-tracking-mode.md). 
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</a>*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><em>Adobe Workfront</em> plan</a>*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><a href="wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Work or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to Tasks </p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks </p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions on a task</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-
-
-## Set Tracking Mode for tasks {#set-tracking-mode-for-tasks-1}
+## Set Tracking Mode for tasks
 
 To set the tracking mode:
 
-
-
-1. Go to the task you want to set the tracking mode for.
-1.  Click the `More` icon ![](assets/qs-more-icon-on-an-object.png)next to the name of the task, then click  `Edit`.
-
-
-   The Edit Task dialog box opens. 
-
-1.  In the  `Settings` section, use the  `Tracking Mode` drop-down menu to select the Tracking Mode for the task.
-
-
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
-
-
-
-1. Select from the following options:
-    
-    
-    * User Must Update (this is the default option)
-    * Assume On&nbsp;Time
-    * Ignore Late Warnings
-    * Auto&nbsp;Complete
-    * Predecessor
-    
-    
-   For more information about the tracking mode options, see the [Set Tracking Mode for tasks](#tracking-mode-options) section in this article. 
-
-1. Click  `Save` `.`
-
-
+<ol> 
+ <li value="1">Go to the task you want to set the tracking mode for.</li> 
+ <li value="2"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click&nbsp;<span class="bold">Edit</span>.</p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click&nbsp;<span class="bold">Edit</span>.</p> <p>The Edit Task dialog box opens. </p> </li> 
+ <li value="3"> <p>In the&nbsp;<span class="bold">Settings</span> section, use the&nbsp;<span class="bold">Tracking Mode</span> drop-down menu to select the Tracking Mode for the task.</p> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png" style="width: 350;height: 233;"> </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png" style="width: 350;height: 233;"> </p> </li> 
+ <li value="4">Select from the following options:
+  <ul>
+   <li>User Must Update (this is the default option)</li>
+   <li>Assume On&nbsp;Time</li>
+   <li>Ignore Late Warnings</li>
+   <li>Auto&nbsp;Complete</li>
+   <li><p>Predecessor</p></li>
+  </ul><p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref">Set Tracking Mode for tasks</a> section in this article. </p></li> 
+ <li value="5">Click&nbsp;<span class="bold">Save</span><span class="bold">.</span></li> 
+</ol>
 

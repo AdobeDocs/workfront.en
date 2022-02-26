@@ -2,62 +2,53 @@
 filename: update-the-status-of-stories
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
+title: Update the status of stories on the Kanban board
+description: You can change the status of a story directly from the Kanban board in order to reflect how the stories are progressing.
 ---
 
-
-
-# Update the status of stories on the Kanban board {#update-the-status-of-stories-on-the-kanban-board}
+# Update the status of stories on the Kanban board
 
 You can change the status of a story directly from the Kanban&nbsp;board in order to reflect how the stories are progressing.
 
-
 >[!NOTE]
 >
->Only statuses selected in the Story Board section in the team settings area are available on the Kanban board and in the status drop-down menu. For more information, see [Configure Kanban](configure-kanban.md)
+>Only statuses selected in the Story Board section in the team settings area are available on the Kanban board and in the status drop-down menu. For more information, see [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Work variable varname">Work</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Work</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Update the status of stories on the Kanban board
 
-## Update the status of stories on the Kanban board {#update-the-status-of-stories-on-the-kanban-board-1}
-
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Teams`.
-
-1. (Optional) Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
-
-1. Go to the Kanban board where you want to update the status of a story.
-1. Drag a story from one status column on the Kanban&nbsp;board and into another column.  
-   A story remains in the Complete column for two weeks after it is added.  
-   ![](assets/agile-storyboard-progress-2021-350x140.png)
-
-
-
+<ol> <draft-comment>
+  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li>
+ </draft-comment>
+ <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li> <draft-comment>
+  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Kanban team from the drop-down menu or search for a team in the search bar.</li>
+ </draft-comment>
+ <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Kanban team from the drop-down menu or search for a team in the search bar.</li> 
+ <li value="3">Go to the Kanban board where you want to update the status of a story.</li> 
+ <li value="4">Drag a story from one status column on the Kanban&nbsp;board and into another column.<br>A story remains in the Complete column for two weeks after it is added.<br><img src="assets/agile-storyboard-progress-2021-350x140.png" style="width: 350;height: 140;"></li> 
+</ol>
 

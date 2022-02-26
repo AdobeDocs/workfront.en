@@ -2,193 +2,268 @@
 filename: new-api-version-8-updates
 content-type: api
 navigation-topic: api-navigation-topic
+title: Updates to API Version 8
+description: The following existing resources have been updated with this release of the Adobe Workfront API. To view the resources that are new to versions 8, please see What's New in API Version 8. Changes made to a resource are indicated in the following manner:
 ---
 
+# Updates to API Version 8
 
+## Updated Resources
 
-# Updates to API Version 8 {#updates-to-api-version}
-
-
-
-## Updated Resources {#updated-resources}
-
-The following existing resources have been updated with this release of the *`Adobe Workfront`* API. To view the resources that are new to versions 8, please see [What's New in API Version 8](new-api-version-8.md). Changes made to a resource are indicated in the following manner:
-
-
+The following existing resources have been updated with this release of the *Adobe Workfront* API. To view the resources that are new to versions 8, please see [What's New in API Version 8](../../wf-api/api/new-api-version-8.md). Changes made to a resource are indicated in the following manner:
 
 * Additions are simply listed
 * Removals are indicated with strikethrough text
 * Changes are noted in the note after the table
 
+### AccessRequest
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| action¹&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+`¹ Changes to possible values`
 
-### AccessRequest {#accessrequest}
+### AccessRule¹&nbsp;
 
-
-`¹ Changes to possible values` 
-
-
-### AccessRule¹&nbsp; {#accessrule}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| coreAction²&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| forbiddenActions² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| secondaryActions² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 `¹ Flag removed: REPORTABLE`   
-`² Changes to possible values` 
+`² Changes to possible values`
 
+### Approval
 
-### Approval {#approval}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditTypes¹ |agileWork&nbsp; |resourcePools |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| backlogOrder² |kanbanBoard&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| backlogParent |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 `¹Changes to possible values`   
 `²Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE`
 
+### Assignment
 
-### Assignment {#assignment}
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |assignUserToRoleOnTasks |getAssignAssignmentsForTasks&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |swapUsersOnTasks |getUnassignAssignmentsForTasks |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |unassignUserFromTasks |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+### Customer
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| bizRuleExclusions¹ |&nbsp; |&nbsp; |&nbsp; |getPackagingOptionValue |&nbsp; |&nbsp; |
+| proofPlan¹ |&nbsp; |&nbsp; |&nbsp; |isPackagingOptionEnabled |&nbsp; |&nbsp; |
 
+`¹Changes to possible values`
 
-### Customer {#customer}
+### CustomerPreferences
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| name¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values` 
+`¹Changes to possible values`
 
+### DocumentApproval
 
-### CustomerPreferences {#customerpreferences}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| ID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+`¹Flag added: NOT_FILTERABLE`
 
-`¹Changes to possible values` 
+### DocumentVersion
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| activeProofStages |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### DocumentApproval {#documentapproval}
+### Group
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |owners |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Flag added: NOT_FILTERABLE` 
+### HourType
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| appGlobalID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### DocumentVersion {#documentversion}
+`¹Flag added: NOT_FILTERABLE`
 
+### Iteration
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |moveStories |&nbsp; |&nbsp; |
 
+### Like
 
-### Group {#group}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| `<del>endorsementID</del>`  |`<del>endorsement</del>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+### Note
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+`¹Changes to possible values`
 
-### HourType {#hourtype}
+### OpTask
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditTypes¹ |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |defaultShownTimesheetIssues&nbsp; |&nbsp; |
+| backlogOrder |iteration |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| backlogParent |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| estimate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| iterationID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Flag added: NOT_FILTERABLE` 
+`¹Changes to possible values`
 
+### Portfolio
 
-### Iteration {#iteration}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+`¹Changes to possible values`
 
+### Program
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### Like {#like}
+`¹Changes to possible values`
 
+### Project
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditTypes¹ |&nbsp; |resourcePools |&nbsp; |&nbsp; |defaultShownTimesheetProjects |&nbsp; |
 
+`¹Changes to possible values`
 
-### Note {#note}
+### ProofApproval
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| approverID |approver |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| documentVersionID |documentVersion |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| proofCreationDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values` 
+`¹Flag added: NOT_FILTERABLE`
 
+### QueueDef
 
-### OpTask {#optask}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| requestorCoreAction¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| requestorForbiddenActions¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+`¹Changes to possible values`
 
-`¹Changes to possible values` 
+### Rate
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| endDate |&nbsp; |&nbsp; |&nbsp; |setRatesForRole&nbsp; |&nbsp; |&nbsp; |
+| name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| startDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### Portfolio {#portfolio}
+### ReservedTime
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| extRefID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values` 
+### ResourceManager
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| projectPriority |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### Program {#program}
+### Task
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditTypes¹ |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |allTasksOnIterations&nbsp; |&nbsp; |
+| backlogParent |kanbanBoard |&nbsp; |&nbsp; |&nbsp; |defaultShownTimesheetTasks |&nbsp; |
+| kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values` 
+`¹Changes to possible values`
 
+### Team
 
-### Project {#project}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| agileMethodology |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| autoAddNextStory |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| includeIssues |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| teamStoryBoardIssueStatuses |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| wipLimit |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+### Template
 
-`¹Changes to possible values` 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |resourcePools |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+### TemplateTask
 
-### ProofApproval {#proofapproval}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-
-`¹Flag added: NOT_FILTERABLE` 
-
-
-### QueueDef {#queuedef}
-
-
-`¹Changes to possible values` 
-
-
-### Rate {#rate}
-
-
-
-
-### ReservedTime {#reservedtime}
-
-
-
-
-### ResourceManager {#resourcemanager}
-
-
-
-
-### Task {#task}
-
-
-`¹Changes to possible values` 
-
-
-### Team {#team}
-
-
-
-
-### Template {#template}
-
-
-
-
-### TemplateTask {#templatetask}
-
-
-`¹Changes to possible values` 
-
+`¹Changes to possible values`
 
 `Update` 
 
-`¹Changes to possible values` 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| updateType¹ |`<del>updateEndorsement</del>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+`¹Changes to possible values`
 
-### User {#user}
+### User
 
+| &nbsp; |&nbsp; |Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |resourcePools |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |userGroups |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |userRoles |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+### UserNote
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| `<del>endorsementID</del>`  |`<del>endorsement</del>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `<del>endorsementShareID</del>`  |`<del>endorsementShare</del>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| eventType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### UserNote {#usernote}
+`¹Changes to possible values`
 
+### Work
 
-`¹Changes to possible values` 
-
-
-### Work {#work}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| auditTypes¹ |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| backlogOrder² |kanbanBoard&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| backlogParent&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 `¹Changes to possible values`   
 `²Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE`

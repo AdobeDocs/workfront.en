@@ -1,228 +1,166 @@
 
 
+# 22.1 Project enhancements
 
-# 22.1 Project enhancements {#project-enhancements}
+This page describes all *Project* enhancements made with the *22.1* release to the Preview environment. These enhancements will be made available in the Production environment 
 
-This page describes all *`Project`* enhancements made with the *`22.1`* release to the Preview environment. These enhancements will be made available in the Production environment the week of January 17, 2022. 
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+in January 2022
+</MadCap:conditionalText>
+-->
 
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> in January 2022</MadCap:conditionalText>`the week of January 17, 2022.
 
-For a list of all changes available with the *`22.1`* release, see [22.1 Release overview](22-1-release-overview.md).
+For a list of all changes available with the *22.1* release, see [22.1 Release overview](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
+## Change the default option for predecessors when copying or moving tasks
 
-## Change the default option for predecessors when copying or moving tasks {#change-the-default-option-for-predecessors-when-copying-or-moving-tasks}
-
-To minimize the number of manual steps when copying or moving tasks, we have updated the information that is copied or moved with the task by default. Now, all predecessors are copied or moved with the task by default, as the All Predecessors option is selected by default. 
-
+To minimize the number of manual steps when copying or moving tasks, we have updated the information that is copied or moved with the task by default. Now, all predecessors are copied or moved with the task by default, as the All Predecessors option is selected by default.
 
 Prior to this enhancement, the All Predecessors option was deselected by default when copying or moving a task.
 
-
 For more information, see the articles:
 
+* [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) 
+* [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 
+`<iframe class="vimeo-player_0" src="assets/655521623?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
-*  [Copy and duplicate tasks](copy-and-duplicate-tasks.md) 
-*  [Move tasks](move-tasks.md) 
+[View this video in full-screen mode.](https://vimeo.com/655521623/a837f8cefa)
 
-
-`<iframe class="vimeo-player_0" src="assets/655521623?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/655521623/a837f8cefa) 
-
-
-## Updated toolbar on dashboard list and reports in dashboards {#updated-toolbar-on-dashboard-list-and-reports-in-dashboards}
+## Updated toolbar on dashboard list and reports in dashboards
 
 The toolbar on four dashboard pages now has a modern look and feel that matches other Workfront lists such as projects, tasks, and issues. This intuitive toolbar now makes it easier to add, edit, share, copy, and delete dashboards.
 
-
 The pages with the updated toolbar are:
 
+* Task reports (displayed in dashboards)
+* All Dashboards list
+* My Dashboards list
+* Shared Dashboards list
 
+For more information, see [Create and manage dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
 
-*  Task reports (displayed in dashboards)
-*  All Dashboards list
-*  My Dashboards list
-*  Shared Dashboards list
+`<iframe class="vimeo-player_0" src="assets/655512195?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/655512195/8907676e19)
 
-For more information, see [Create and manage dashboards](_create-and-manage-dashboards.md).
-
-
-`<iframe class="vimeo-player_0" src="assets/655512195?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/655512195/8907676e19) 
-
-
-## Add and edit custom forms Summary panel for documents {#add-and-edit-custom-forms-summary-panel-for-documents}
+## Add and edit custom forms Summary panel for documents
 
 You can now add and edit custom forms directly in the document Summary panel.
 
-
 With this change, you’ll also see a new look and feel in the document Summary. There is a new Overview section, which contains the image thumbnail as well as the document details. You can also check documents in and out in the document details section.
-
 
 Previously, you had to go to the custom forms tab in the Document Details to make edits or add custom forms.
 
+For more information, see [Summary for documents overview](../../../documents/managing-documents/summary-for-documents.md).
 
-For more information, see [Summary for documents overview](summary-for-documents.md).
+`<iframe class="vimeo-player_0" src="assets/647362235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/647362235/d31257c503)
 
-`<iframe class="vimeo-player_0" src="assets/647362235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+## New experience when copying one or multiple tasks
 
-
-[View this video in full-screen mode.](https://vimeo.com/647362235/d31257c503) 
-
-
-## New experience when copying one or multiple tasks {#new-experience-when-copying-one-or-multiple-tasks}
-
-To make your use of Workfront consistent with *`the new Adobe Workfront experience`*, we have redesigned the interface when copying a task. This is currently available when copying a task at the task level or copying a task or multiple tasks in a list.
-
+To make your use of Workfront consistent with *the new Adobe Workfront experience*, we have redesigned the interface when copying a task. This is currently available when copying a task at the task level or copying a task or multiple tasks in a list.
 
 Some of the improvements include:
 
+* All information that you must update before you copy the task displays on one continuous page.
+* *Workfront* checks whether you have access to the destination project immediately after choosing the project. Prior to this enhancement, a warning message indicating that you don't have the correct access showed after you confirmed the copy, which resulted in extra steps and the copy not being allowed.
+* Ability to request access for a project where you want to copy the task without leaving the Copy Task box.
 
+For more information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-*  All information that you must update before you copy the task displays on one continuous page.
-*  *`Workfront`* checks whether you have access to the destination project immediately after choosing the project. Prior to this enhancement, a warning message indicating that you don't have the correct access showed after you confirmed the copy, which resulted in extra steps and the copy not being allowed.
-*  Ability to request access for a project where you want to copy the task without leaving the Copy Task box.
+`<iframe class="vimeo-player_0" src="assets/647381042?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/647381042/d982eec1ce)
 
-For more information, see [Copy and duplicate tasks](copy-and-duplicate-tasks.md).
-
-
-`<iframe class="vimeo-player_0" src="assets/647381042?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/647381042/d982eec1ce) 
-
-
-## New experience when moving one or multiple tasks from a list {#new-experience-when-moving-one-or-multiple-tasks-from-a-list}
+## New experience when moving one or multiple tasks from a list
 
 To offer a consistent experience when performing the same task, we have now updated the interface for moving one or multiple tasks from a list to match the experience when moving the task at the task level. (We had updated the experience for moving a task at the task level in a previous Preview release.)
 
+For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-For more information, see [Move tasks](move-tasks.md).
+`<iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/637948554/8766b69338)
 
-`<iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/637948554/8766b69338) 
-
-
-## New experience when moving a task at the task level {#new-experience-when-moving-a-task-at-the-task-level}
+## New experience when moving a task at the task level
 
 To make your use of Workfront consistent with the new Workfront experience, we have redesigned the interface for moving a task. This is currently available when moving a task at the task level. In a following release, we will extend this redesign to moving a task from a list.
 
-
 Some of the improvements of this newly redesigned interface include:
 
+* All information that you must update before the move displays on one continuous page.
+* Workfront will check whether you have access to the destination project immediately after choosing the project. Prior to this enhancement, Workfront warned you that you don't have the correct access after you have confirmed the move which resulted in extra steps and the move not being allowed.
+* Ability to request access for a project where you want to move the task without leaving the Move Task box.
 
+For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-*  All information that you must update before the move displays on one continuous page.
-*  Workfront will check whether you have access to the destination project immediately after choosing the project. Prior to this enhancement, Workfront warned you that you don't have the correct access after you have confirmed the move which resulted in extra steps and the move not being allowed.
-*  Ability to request access for a project where you want to move the task without leaving the Move Task box.
+`<iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/637948554/8766b69338)
 
-For more information, see [Move tasks](move-tasks.md).
-
-
-`<iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/637948554/8766b69338) 
-
-
-## New experience when converting an issue to a project using a template at the issue level {#new-experience-when-converting-an-issue-to-a-project-using-a-template-at-the-issue-level}
+## New experience when converting an issue to a project using a template at the issue level
 
 To make your use of Workfront consistent with the new Workfront experience, we have redesigned the interface for converting an issue to a project when using a template when you convert it from the issue page.
 
-
 You can now more easily access your list of favorites immediately after selecting to convert the issue.
-
 
 The redesigned interface matches the experience when creating a project from a template which we have also updated recently.
 
+For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-For more information, see [Convert an issue to a project in Adobe Workfront](convert-issue-to-project.md).
+`<iframe class="vimeo-player_0" src="assets/655515076?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/655515076/9eceb34c4b)
 
-`<iframe class="vimeo-player_0" src="assets/655515076?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/655515076/9eceb34c4b) 
-
-
-## Convert issues to projects using a template from lists, reports, and dashboards {#convert-issues-to-projects-using-a-template-from-lists-reports-and-dashboards}
+## Convert issues to projects using a template from lists, reports, and dashboards
 
 To increase the efficiency of your work and make it easier for you to convert issues in a fast-paced environment, we have added the ability to convert an issue to a project using a template from a list, report, or a dashboard.
 
-
 Prior to this enhancement, this functionality existed only when you converted the issue from the issue page.
 
+For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-For more information, see [Convert an issue to a project in Adobe Workfront](convert-issue-to-project.md).
+`<iframe class="vimeo-player_0" src="assets/655516670?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/655516670/c76c22c044)
 
-`<iframe class="vimeo-player_0" src="assets/655516670?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/655516670/c76c22c044) 
-
-
-## Filter by user list on agile boards shows users with most assignments first {#filter-by-user-list-on-agile-boards-shows-users-with-most-assignments-first}
-
-
+## Filter by user list on agile boards shows users with most assignments first
 
 >[!NOTE]
 >
 >This feature will not be included with the 22.1 release. It was removed from the Preview environment.
 
-
 Now the filter shows the users with the most assignments first so they are easier to locate without scrolling through the list.
 
-
-Previously, the filter by user list on both Kanban and Scrum boards was displayed alphabetically. 
-
+Previously, the filter by user list on both Kanban and Scrum boards was displayed alphabetically.
 
 For more information, see the following information
 
+* [Filter by user on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md) 
+* [Filter by user on the Kanban board](../../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
 
-
-*  [Filter by user on the Scrum board](filter-by-user-scrum-board.md) 
-*  [Filter by user on the Kanban board](filter-by-user.md) 
-
-
-
-
-## Limit the ability to add documents to a template you are sharing {#limit-the-ability-to-add-documents-to-a-template-you-are-sharing}
+## Limit the ability to add documents to a template you are sharing
 
 Sometimes people add documents to a project template thinking that they’re adding them to a project. Now you can help to prevent this—when you share a template with View access, you can disable the new advanced setting Add Documents. This disables your recipients’ ability to add documents to the template.
 
+For instructions on sharing a template, see [Share project templates](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-For instructions on sharing a template, see [Share project templates](share-project-template.md).
+For information about the new advanced setting Add Documents, see the section in the article [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
+`<iframe class="vimeo-player_0" src="assets/631405681?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
-For information about the new advanced setting Add Documents, see the section in the article [Share a template overview](share-a-template.md).
+[View this video in full-screen mode.](https://vimeo.com/631405681/b1834b7ab6)
 
-
-`<iframe class="vimeo-player_0" src="assets/631405681?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/631405681/b1834b7ab6) 
-
-
-## Share a document folder {#share-a-document-folder}
+## Share a document folder
 
 Now you can share a document folder and its contents from the Documents area. Previously this was not possible—you had to share each document in a folder separately.
 
+For more information, see [Share a document folder](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-For more information, see [Share a document folder](share-a-document-folder.md).
-
-
-`<iframe class="vimeo-player_0" src="assets/655509632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
+`<iframe class="vimeo-player_0" src="assets/655509632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
 [View this video in full-screen mode.](https://vimeo.com/655509632/920d3db4fb) 

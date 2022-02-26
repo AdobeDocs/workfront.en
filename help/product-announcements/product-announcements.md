@@ -2,18 +2,15 @@
 filename: _product-announcements
 content-type: release-notes
 navigation-topic: product-announcements
+title: Product announcements
+description: This section contains the following subsections:
 ---
 
-
-
-# Product announcements {#product-announcements}
+# Product announcements
 
 This section contains the following subsections:
 
-
-
-* [Product releases](_product-releases.md) 
-* [Announcements](_announcements.md) 
-* [Beta programs](_betas.md) 
-
+* [Product releases](../product-announcements/product-releases/product-releases.md) 
+* [Announcements](../product-announcements/announcements/announcements.md) 
+* [Beta programs](../product-announcements/betas/betas.md)
 

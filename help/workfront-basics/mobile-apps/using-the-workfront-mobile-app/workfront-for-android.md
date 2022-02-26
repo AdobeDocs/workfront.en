@@ -3,25 +3,23 @@ filename: workfront-for-android
 content-type: overview
 product: mobile
 navigation-topic: use-the-workfront-mobile-app
+title: Adobe Workfront for Android
+description: The Adobe Workfront app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
 ---
 
+# *Adobe Workfront* for Android
 
+The *Adobe Workfront* app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
 
-# *`Adobe Workfront`* for Android {#adobe-workfront-for-android}
+For information about logging in to the mobile app, see the section [Log in to the Workfront mobile app](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in the article [Log in to Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
-The *`Adobe Workfront`* app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
-
-
-For information about logging in to the mobile app, see the section [Log in to the Workfront mobile app](log-in-to-workfront.md#log) in the article [Log in to Adobe Workfront](log-in-to-workfront.md).
-
-
-## Home {#home}
+## Home
 
 The Home area allows you to work directly on tasks, issues, and approvals assigned to you. From the Home area of the app, you can:
 
-<table style="width: 100%;"> 
- <col style="width: 322px;"> 
- <col style="width: 1492px;"> 
+<table> 
+ <col> 
+ <col> 
  <tbody> 
   <tr> 
    <td> 
@@ -43,20 +41,16 @@ The Home area allows you to work directly on tasks, issues, and approvals assign
  </tbody> 
 </table>
 
-For more information, see [Home area widgets](home-area-widgets-mobile.md) and [My Work section in the mobile app](my-work-section-mobile.md).
-
+For more information, see [Home area widgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) and [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![](assets/mobile-home-area-338x1039.png)
 
-
-
-
-## Projects {#projects}
+## Projects
 
 The Projects area allows you to interact with and manage projects you own and projects you’re on. From the projects area of the app, you can:
 
-<table style="width: 100%;"> 
- <col style="width: 255px;"> 
+<table> 
+ <col> 
  <col> 
  <tbody> 
   <tr> 
@@ -80,15 +74,12 @@ The Projects area allows you to interact with and manage projects you own and pr
 
 ![](assets/mobile-projects-adobe-346x615.png)
 
-
-
-
-## Approvals {#approvals}
+## Approvals
 
 The Approvals area allows you to view and approve approvals assigned or delegated to you. From the approvals area, you can approve:
 
-<table style="width: 100%;"> 
- <col style="width: 166px;"> 
+<table> 
+ <col> 
  <col> 
  <tbody> 
   <tr> 
@@ -96,7 +87,7 @@ The Approvals area allows you to view and approve approvals assigned or delegate
     <ul> 
      <li>Work (Tasks and Issues)</li> 
      <li>Documents</li> 
-     <li><span class="mc-variable WFVariables.Proof-UC-plur-n variable varname">Proofs</span> </li> 
+     <li><em>Proofs</em> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -107,33 +98,24 @@ The Approvals area allows you to view and approve approvals assigned or delegate
  </tbody> 
 </table>
 
-For more information on approvals, see [Approvals in the Adobe Workfront mobile app](approvals-in-mobile-app.md).
+For more information on approvals, see [Approvals in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-
-For information on reviewing and approving *`proofs`*, see [Review and make decisions on proofs in the Adobe Workfront mobile app](work-with-proofs-in-mobile-app.md).
-
+For information on reviewing and approving *proofs*, see [Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Approvals list in mobile app](assets/mobile-approvals-adobe-350x574.png)
 
+## Notifications
 
-
-
-## Notifications {#notifications}
-
-The Notifications area allows you to view and respond to in-app notifications for your work. 
-
+The Notifications area allows you to view and respond to in-app notifications for your work.
 
 ![](assets/mobile-notifications-adobe-350x601.png)
 
-
-
-
-## Requests {#requests}
+## Requests
 
 The Requests area allows you to view details about requests. From the Requests area of the app, you can:
 
-<table style="width: 100%;"> 
- <col style="width: 250px;"> 
+<table> 
+ <col> 
  <col> 
  <tbody> 
   <tr> 
@@ -156,14 +138,9 @@ The Requests area allows you to view details about requests. From the Requests a
 
 ![](assets/mobile-requests-adobe-344x611.png)
 
+## Timesheets
 
-
-
-## Timesheets {#timesheets}
-
-The timesheets area allows you to view details about your timesheets. In the Timesheets area of the app, you can: 
-
-
+The timesheets area allows you to view details about your timesheets. In the Timesheets area of the app, you can:
 
 * Post in the Updates area
 * Adjust hour types
@@ -171,70 +148,47 @@ The timesheets area allows you to view details about your timesheets. In the Tim
 * Enter comments on your timesheet
 * Close your timesheet
 
-
 ![](assets/mobile-timesheets-adobe-350x604.png)
 
-
-
-
-## Favorites {#favorites}
+## Favorites
 
 You can access existing items from the Favorites menu and add new items to the Favorites menu.
 
-
 ![](assets/mobile-favorites-adobe-324x576.png)
 
-
-
-
-## Contacts {#contacts}
+## Contacts
 
 The Contacts area allows you to view the contact information for all users in your company.
 
-
 ![](assets/mobile-contacts-adobe-350x603.png)
 
-
-
-
-## Configuration {#configuration}
+## Configuration
 
 The Configuration area allows you to:
-
-
 
 * Manage your settings
 * View assigned teams
 * Set up security preferences
 * Submit Feedback
 * Access Help content
-* Log out  
-
+* Log out
 
 ![](assets/android-configuration-350x622.png)
 
-
-
-
-## Virtual Assistant {#virtual-assistant}
+## Virtual Assistant
 
 The virtual assistant allows you to perform the following tasks via voice command:
-
-
 
 * Show me
 * Delete
 * Search for 
 * Help me with commands
 
+For more information on the Virtual assistant, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
 
-For more information on the Virtual assistant, see [Adobe Workfront mobile app virtual assistant](wf-mobile-virtual-assistant.md).
-
-
-## Pins {#pins}
-
+## Pins
 
 The Pin area allows you to access saved virtual assistant commands as well as pins from your web browser. 
 ![](assets/pin-and-save-query-adobe-350x285.png)
 
-For more information on the Virtual assistant, see [Adobe Workfront mobile app virtual assistant](wf-mobile-virtual-assistant.md).
+For more information on the Virtual assistant, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

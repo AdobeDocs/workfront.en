@@ -4,235 +4,206 @@ title: Document permissions
 content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
+title: Share a document in Adobe Workfront
+description: Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in Grant access to documents.
 ---
 
+# Share a document in *Adobe Workfront*
 
+Your *Adobe Workfront administrator* grants users access to view or edit documents when they assign access levels, as explained in [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
-# Share a document in *`Adobe Workfront`* {#share-a-document-in-adobe-workfront}
+The access level that the *Workfront administrator* grants to users allows them to either view or edit documents. In addition to this, other users can also grant others permissions to view or manage specific documents that they uploaded themselves or that they have access to share.
 
-Your *`Adobe Workfront administrator`* grants users access to view or edit documents when they assign access levels, as explained in [Grant access to documents](grant-access-documents.md).
+Permissions are specific to one item in *Workfront* and define what actions one can take on that item. For information about object permissions, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
+The user who uploads a document to *Workfront* has Manage permissions to it, by default.
 
-The access level that the *`Workfront administrator`* grants to users allows them to either view or edit documents. In addition to this, other users can also grant others permissions to view or manage specific documents that they uploaded themselves or that they have access to share.
+For information about sharing an entire document folder, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
+## Considerations about sharing documents
 
-Permissions are specific to one item in *`Workfront`* and define what actions one can take on that item. For information about object permissions, see [Overview of sharing permissions on objects in Adobe Workfront](sharing-permissions-on-objects-overview.md).
-
-
-The user who uploads a document to *`Workfront`* has Manage permissions to it, by default.
-
-
-For information about sharing an entire document folder, see [Share a document folder](share-a-document-folder.md).
-
-
-## Considerations about sharing documents {#considerations-about-sharing-documents}
-
-In addition to the considerations below, also see [Overview of sharing permissions on objects in Adobe Workfront](sharing-permissions-on-objects-overview.md). 
-
+In addition to the considerations below, also see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
->A *`Workfront administrator`* can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A *Workfront administrator* can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
+* Sharing a document is similar to sharing any other object in *Workfront*. For information about how to share documents in *Workfront*, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* You can grant the following permissions to documents:
 
+  * View
+  * Manage
 
+* You can also share a document publicly or system-wide.
 
+  ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a *Workfront* user or part of your organization. 
 
-*  Sharing a document is similar to sharing any other object in *`Workfront`*. For information about how to share documents in *`Workfront`*, see [Share an object in Adobe Workfront](share-an-object.md). 
-*   You can grant the following permissions to documents: 
+* You can share a document with someone who does not have a Workfront account, by adding their email address in the Give document access to field.
+* When you share a document, users have the same access to all the document versions and all the document *proofs*.  
+  For more information about *proofing* in *Workfront*, see the [Proofing](../../review-and-approve-work/proofing/proofing.md) section.
 
-    
-    
-    * View
-    *   Manage
-    
-    
+* You can inherit permissions to documents from the objects they are associated with. Your *Workfront administrator* can restrict the inheritance of permissions for documents in your access level.
 
+  For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
+  You can manually remove inherited permissions on documents. For more information, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
+* An attached document inherits permissions only from the object where it was attached. If you create a folder on the object and move the document into the folder, it inherits the folder's permissions. But, if you create a folder on a parent or grandparent object and move the document into that folder, it does not inherit that folder's permissions.
 
-
-
-*  You can also share a document publicly or system-wide.  
-
-
-
-  ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a *`Workfront`* user or part of your organization. 
-
-*  You can share a document with someone who does not have a Workfront account, by adding their email address in the Give document access to field.
-* When you share a document, users have the same access to all the document versions and all the document *`proofs`*.  
-  For more information about *`proofing`* in *`Workfront`*, see the [Proofing](_proofing.md) section. 
-
-*  You can inherit permissions to documents from the objects they are associated with. Your *`Workfront administrator`* can restrict the inheritance of permissions for documents in your access level.
-
-
-  For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](create-modify-access-levels.md).  
-
-
-
-  You can manually remove inherited permissions on documents.  
-  For more information about removing inherited permissions from objects, see [Remove permissions from objects in Adobe Workfront](remove-permissions-from-objects.md)  
-
-
-
-
-
-
-## Document permissions {#document-permissions}
+## Document permissions
 
 The following table displays what permissions you can grant users when allowing them to view or manage documents:
 
-<table style="height: 461px;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');margin-left: 0;margin-right: auto;width: 100%;" border="2" cellspacing="15" cellpadding="1" class="TableStyle-TableStyle-HeaderRow"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table border="2" cellspacing="15" cellpadding="1"> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Action</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Manage</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">View</span> </p> </th> 
+  <tr> 
+   <th> <p><span class="bold">Action</span> </p> </th> 
+   <th> <p><span class="bold">Manage</span> </p> </th> 
+   <th> <p><span class="bold">View</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Create</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Create</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Edit Document Details</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Edit Document Details</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Delete*</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Delete*</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Download</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Download</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Checkout</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Checkout</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Add Approvers</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Add Approvers</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Approve Document</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Approve Document</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Attach Custom Form</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Attach Custom Form</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Edit Custom Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Edit Custom Fields</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Move to (object)</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Move to (object)</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Send To (integration)</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Send To (integration)</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Updates/ Comments</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Updates/ Comments</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Upload new version</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Upload new version</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Delete Version</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Delete Version</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">View Document(s)</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">View Document(s)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Preview</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Preview</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Proof**</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Proof**</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Generate Proof**</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Generate Proof**</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Remove Proof**</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Remove Proof**</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Share*</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Share*</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Share System-wide*</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Share System-wide*</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Share Documents Publicly*</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Share Documents Publicly*</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Share with an external email address</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;"> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Share with an external email address</td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Add/ Remove</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Add/ Remove</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Rename</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Rename</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Link (with integration)</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td> 
+  <tr> 
+   <td scope="row">Link (with integration)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td scope="row" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">Unlink (with integration)</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="text-align: center;">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray" style="text-align: center;"> </td> 
+  <tr> 
+   <td scope="row">Unlink (with integration)</td> 
+   <td>✓</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42; Action is shared by both Documents and Document Folders.
 
-
-&#42;&#42; You must have a separate *`proofing`* license associated with your *`Workfront`* account to be able to *`proof`* documents. Contact your account manager about acquiring a *`proofing`* license. For more information about *`proofing`* in *`Workfront`*, see [Proofing](_proofing.md). 
+&#42;&#42; You must have a separate *proofing* license associated with your *Workfront* account to be able to *proof* documents. Contact your account manager about acquiring a *proofing* license. For more information about *proofing* in *Workfront*, see [Proofing](../../review-and-approve-work/proofing/proofing.md). 

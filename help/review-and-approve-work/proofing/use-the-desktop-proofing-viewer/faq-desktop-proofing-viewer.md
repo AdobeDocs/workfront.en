@@ -3,62 +3,48 @@ filename: faq-desktop-proofing-viewer
 content-type: faq
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
+title: FAQ - Desktop Proofing Viewer
+description: No. The Desktop Proofing Viewer is specifically designed for real-time website proofing and for proofing interactive web content such as banner advertisements.
 ---
 
+# FAQ - *Desktop Proofing Viewer*
 
+## `My organization doesn’t *proof* interactive content. Do I still need to install the *Desktop Proofing Viewer*?`
 
-# FAQ - *`Desktop Proofing Viewer`* {#faq-desktop-proofing-viewer}
+No. The *Desktop Proofing Viewer* is specifically designed for real-time website *proofing* and for *proofing* interactive web content such as banner advertisements.
 
+However, in your organization does install it, note that it can also be used for *proofing* any of the other types of supported static and video content.&nbsp;
 
+For more information, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
-## `My organization doesn’t *`proof`* interactive content. Do I still need to install the *`Desktop Proofing Viewer`*?`  {#my-organization-doesn-t-proof-interactive-content-do-i-still-need-to-install-the-desktop-proofing-viewer}
+## `My organization does not allow users to install applications. Is there a way around this with the *Desktop Proofing Viewer*?`
 
-No. The *`Desktop Proofing Viewer`* is specifically designed for real-time website *`proofing`* and for *`proofing`* interactive web content such as banner advertisements. 
+Unfortunately not. You need to work with your IT department to install the *Desktop Proofing Viewer* locally. Ask them about your organization's&nbsp;process for certifying software for internal use. We can provide information on how we secure *Adobe Workfront* products.
 
+## `Is there another way to review websites?`
 
-However, in your organization does install it, note that it can also be used for *`proofing`* any of the other types of supported static and video content.&nbsp; 
+Yes. You can use the new *Web Proofing Viewer* to create a static web capture of a website. Each of the resulting pages in the *proof* is a screengrab of a page on the site. Reviewers can view one or more subpages within the wider site. The only requirement for this is that the website be publicly accessible by our servers.
 
+For more information, see
 
-For more information, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](understand-differences-between-web-viewer.md)
+## `How do I install the Desktop Viewer on my local system?`
 
+Open an interactive *proof* and download the app directly from the Launch screen.
 
-## `My organization does not allow users to install applications. Is there a way around this with the *`Desktop Proofing Viewer`*?`  {#my-organization-does-not-allow-users-to-install-applications-is-there-a-way-around-this-with-the-desktop-proofing-viewer}
+![](assets/mceclip0-350x114.png)&nbsp;
 
-Unfortunately not. You need to work with your IT department to install the *`Desktop Proofing Viewer`* locally. Ask them about your organization's process for certifying software for internal use. We can provide information on how we secure *`Adobe Workfront`* products.
+## `Do new versions of the Desktop Viewer require me to re-install?`
 
+No. Updates to the Desktop Viewer are automated and require nothing from you or your end users.
 
-## `Is there another way to review websites?`  {#is-there-another-way-to-review-websites}
+## `Is the Desktop Viewer required when I send the *proof* to my external stakeholder?`
 
-Yes. You can use the new *`Web Proofing Viewer`* to create a static web capture of a website. Each of the resulting pages in the *`proof`* is a screengrab of a page on the site. Reviewers can view one or more subpages within the wider site. The only requirement for this is that the website be publicly accessible by our servers. 
+Only if you are sending an interactive *proof* or real time website to the external stakeholder. If you are required to load the *Desktop Proofing Viewer* locally to view a piece of content, then any other users (internal or external) need to do the same before they can view it.
 
+## `What is the status of the Legacy *proofing viewer*, which my organization has used for interactive *proofing*?`
 
-For more information, see 
+Prior to the 2018.3 release, the Legacy *proofing viewer* was supported.&nbsp;With the 2018.3 release (in November 2018), the Legacy *proofing viewer* and all other applications that rely on Flash have been removed and are no longer available.&nbsp;
 
+For static and video *proofs*, the new *Web Proofing Viewer* is the default viewer. For interactive *proofs*, the *Desktop Proofing Viewer* is the default viewer.
 
-## `How do I install the Desktop Viewer on my local system?`  {#how-do-i-install-the-desktop-viewer-on-my-local-system}
-
-Open an interactive *`proof`* and download the app directly from the Launch screen. 
-
-
-![](assets/mceclip0-350x114.png)&nbsp; 
-
-
-## `Do new versions of the Desktop Viewer require me to re-install?`  {#do-new-versions-of-the-desktop-viewer-require-me-to-re-install}
-
-No. Updates to the Desktop Viewer are automated and require nothing from you or your end users. 
-
-
-## `Is the Desktop Viewer required when I send the *`proof`* to my external stakeholder?`  {#is-the-desktop-viewer-required-when-i-send-the-proof-to-my-external-stakeholder}
-
-Only if you are sending an interactive *`proof`* or real time website to the external stakeholder. If you are required to load the *`Desktop Proofing Viewer`* locally to view a piece of content, then any other users (internal or external) need to do the same before they can view it. 
-
-
-## `What is the status of the Legacy *`proofing viewer`*, which my organization has used for interactive *`proofing`*?`  {#what-is-the-status-of-the-legacy-proofing-viewer-which-my-organization-has-used-for-interactive-proofing}
-
-Prior to the 2018.3 release, the Legacy *`proofing viewer`* was supported. With the 2018.3 release (in November 2018), the Legacy *`proofing viewer`* and all other applications that rely on Flash have been removed and are no longer available.&nbsp;
-
-
-For static and video *`proofs`*, the new *`Web Proofing Viewer`* is the default viewer. For interactive *`proofs`*, the *`Desktop Proofing Viewer`* is the default viewer.
-
-
-For more information, see Legacy proofing viewer removed in 2018.3
+For more information, see [Legacy proofing viewer removed in 2018.3](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md)

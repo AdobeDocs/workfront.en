@@ -2,170 +2,261 @@
 filename: review-goals-in-pulse
 product: workfront-goals
 navigation-topic: goal-review-and-sections
+title: Review goals in the Adobe Workfront Goals Pulse section
+description: You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see Create goals in Adobe Workfront Goals.
 ---
 
+# Review goals in the *Adobe Workfront Goals* *Pulse* section
 
+You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
-# Review goals in the *`Adobe Workfront Goals`* *`Pulse`* section {#review-goals-in-the-adobe-workfront-goals-pulse-section}
+You can use the *Pulse* section of *Adobe Workfront Goals* as a collaboration tool, where you can review and participate in a stream of updates about current goals that belong to you, your teams, groups, or organization and ensure that goals stay current. *Workfront Goals* groups progress updates, comments and editing history by goal in the *Pulse* section.
 
-You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see [Create goals in Adobe Workfront Goals](create-goals.md).
-
-
-You can use the *`Pulse`* section of *`Adobe Workfront Goals`* as a collaboration tool, where you can review and participate in a stream of updates about current goals that belong to you, your teams, groups, or organization and ensure that goals stay current. *`Workfront Goals`* groups progress updates, comments and editing history by goal in the *`Pulse`* section. 
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the actions described in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Request variable varname">Request</span> or higher</p> <p>For more information, see <a href="wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Request</em> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>You must purchase an additional license for the <span class="mc-variable WFVariables.FullProdNameWFGoals variable varname">Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td> <p>You must purchase an additional license for the <em>Adobe Workfront Goals</em> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Access level*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see:</p> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see:</p> 
      <ul> 
-      <li> <p><a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
-      <li> <p><span href="grant-access-goals.md"><a href="grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
+      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray" data-mc-conditions=""> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader">Object permissions</td> 
+    <td> 
+     <div> 
+      <p>View or higher permissions on goals</p> 
+      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     </div> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
     <div> 
      <p>View or higher permissions on goals</p> 
-     <p>For information about sharing goals, see <a href="share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-
-## Prerequisites {#prerequisites}
+## Prerequisites
 
 You must have the following before you can start:
 
+* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
 
+## Manage goal updates and comments in the *Pulse* section&nbsp;
 
-*  A Layout Template that includes the Goals area in the Main&nbsp;Menu.
-
-
-
-
-## Manage goal updates and comments in the *`Pulse`* section&nbsp; {#manage-goal-updates-and-comments-in-the-pulse-section}
-
-
-
->[!TIP] {type="tip"}
+>[!TIP]
 >
 >Only goals that have been checked in on at least once display in the Pulse section.
 
+<ol> 
+ <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of your screen.</p> <p>This opens the <em>Workfront Goals</em> area. </p> <p>All goals display by default.</p> </li> 
+ <li value="2"> <p>Click <em>Pulse</em> in the left panel. </p> <p>A list of goals displays. The list contains the following columns with information about each goal: </p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Goals</td> 
+     <td>The goal name.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Owner</td> 
+     <td>The name of goal owner.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Period</td> 
+     <td>The time period for which the goal is scheduled.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Progress</td> 
+     <td>The progress indicator for the goal which is typically a percentage value.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader"> <p>Status (includes alignment icon)</p> <p> <img src="assets/alignment-icon-large.png"> </p> </td> 
+     <td> <p>The status of the goal which can be one of the following:</p> 
+      <ul> 
+       <li>Active</li> 
+       <li>Draft</li> 
+       <li>Inactive</li> 
+       <li>Closed</li> 
+      </ul> <p>The alignment icon appears on goals that are aligned to other goals. For information about aligning goals, see <a href="../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md" class="MCXref xref">Align goals by connecting them in Adobe Workfront Goals</a>.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="3"> <p>(Optional) Select the type of information you want to display by updating the filters in the upper-right corner of the <em>Pulse</em> section. </p> <p>The <em>Pulse</em> list displays goals and their updated history that match the criteria of your selected filter. </p> <p>For more information about filtering goals, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>.</p> </li> 
+ <li value="4"> <p>Click&nbsp;the right-pointing arrow to the left of the goal name to expand a goal and view additional information about the updates on each goal. </p> <p>The following information displays in the <em>Pulse</em> section under each goal: </p> 
+  <ul> 
+   <li>Results names and owners. For information about results, see <a href="../../workfront-goals/results-and-activities/add-results-to-goals.md" class="MCXref xref">Add results to goals in Adobe Workfront Goals</a>.</li> 
+   <li>Activity names and owners. For information about activities, see <a href="../../workfront-goals/results-and-activities/add-activities-to-goals.md" class="MCXref xref">Add activities to goals in&nbsp;Adobe Workfront Goals</a>.</li> 
+   <li>Results and activities progress bars and progress statuses. For information about how <em>Workfront Goals</em> calculates goal progress, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>. </li> 
+  </ul> </li> 
+ <li value="5">Click <span class="bold">Add a comment</span> to add a comment for the goal, then click <span class="bold">Post</span>. The comment is visible in the <em>Check-in</em> area, as well as the Updates tab of the Goal Details panel. We recommend that you use the <em>Pulse</em> section to comment on goals that have not been updated in a while and ask the goal owner for an update. </li> 
+ <li value="6">(Optional) Click <span class="bold">Show all updates</span> to display all goal updates. This opens the Updates tab in the Goal&nbsp;Details panel on the right. </li> 
+ <li value="7"> <p>Click the name of a goal to open the <span class="bold">Goal Details</span> panel on the right and review more information about the goal as well as manage it and its results and activities. For information about reviewing individual goals, see <a href="../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md" class="MCXref xref">Update goals in the Goal Details panel in&nbsp;Adobe Workfront Goals</a>.</p> </li> 
+ <li value="8">(Optional and conditional) Click <span class="bold">the alignment icon </span><img src="assets/align-icon.png"> to open the goal in the <em>Goal Alignment section</em>, if the goal is aligned to other goals. </li> 
+ <li value="9">(Optional) Expand the <span class="bold">Goals per page</span> drop-down menu and select from the following options to display additional goals:
+  <ul>
+   <li>20.&nbsp;This is the default selection. </li>
+   <li>50</li>
+   <li><p>100</p></li>
+  </ul></li> 
+</ol>
 
+&nbsp;
 
+&nbsp;
 
-
-1.  Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of your screen.
-
-
-   This opens the *`Workfront Goals`* area. 
-
-
-   All goals display by default.
-
-1.  Click *`Pulse`* in the left panel. 
-
-
-   A list of goals displays. The list contains the following columns with information about each goal: 
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Goals</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">The goal name.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Owner</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The name of goal owner.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Period</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">The time period for which the goal is scheduled.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Progress</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The progress indicator for the goal which is typically a percentage value.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader"> <p>Status (includes alignment icon)</p> <p> <img src="assets/alignment-icon-large.png"> </p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>The status of the goal which can be one of the following:</p> 
-    <ul> 
-     <li>Active</li> 
-     <li>Draft</li> 
-     <li>Inactive</li> 
-     <li>Closed</li> 
-    </ul> <p>The alignment icon appears on goals that are aligned to other goals. For information about aligning goals, see <a href="align-goals-by-connecting-them.md" class="MCXref xref">Align goals by connecting them in Adobe Workfront Goals</a>.</p> </td> 
-  </tr> 
- </tbody> 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p class="preview">Depending on what environment you access <em>Workfront Goals</em> from, do one of the following:</p>
+<ol>
+<li value="1"> <p class="preview">(Optional)&nbsp;Click one of the tabs in the table below to view the following types of goals: </p>
+<div>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Personal</td>
+<td>Goals where you are designated as the owner or that have a result or activity that you own.&nbsp;</td>
+</tr>
+<tr>
+<td role="rowheader">My Teams</td>
+<td> <p>Goals where any of your teams is designated as the Owner. </p> <note type="tip">
+<span>If you are not assigned to any teams, no results display when you select the My Teams filter. </span>
+</note> </td>
+</tr>
+<tr>
+<td role="rowheader">My Groups</td>
+<td>Goals where any of your groups is designated as the Owner. </td>
+</tr>
+<tr>
+<td role="rowheader">Company</td>
+<td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your <em>Workfront</em> instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p>
+<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+<span class="autonumber"><span><b>Tip: </b></span></span>
+<p>In <em>Adobe Workfront Goals</em>, the Company filter displays the goals for which your organization is selected as the owner. </p>
+<p>You cannot search for companies using this field. Only your organization who is the owner of your <em>Workfront</em> instance is selected by default. </p>
+</div> </td>
+</tr>
+<tr>
+<td role="rowheader">All</td>
+<td>Goals owned by you, your teams, your groups, your company, or anyone in your organization.</td>
+</tr>
+</tbody>
 </table>
+</div> </li>
+</ol>
+<ol>
+<li value="1"> <p>(Optional and conditional) If in the Production environment, deselect any of the options in the following table if you want to not display them in the Updates tab.&nbsp;They are selected by default. <span class="preview">These options have been removed from the Preview environment and all updates display there by default. </span></p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Progress Updates</td>
+<td>Displays information about the history of progress updates on results and activities. </td>
+</tr>
+<tr>
+<td role="rowheader">Comments</td>
+<td>Displays comments made by users on the goal. </td>
+</tr>
+<tr>
+<td role="rowheader">Editing History</td>
+<td>Displays information about creating and updating the goal, results, and activities. </td>
+</tr>
+</tbody>
+</table> </li>
+</ol>
+</div>
+-->
 
+Depending on what environment you access *Workfront Goals* from, do one of the following:
 
-1.  (Optional) Select the type of information you want to display by updating the filters in the upper-right corner of the *`Pulse`* section. 
+<ol> 
+ <li value="1"> <p class="preview">(Optional)&nbsp;Click one of the tabs in the table below to view the following types of goals: </p> 
+  <div> 
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Personal</td> 
+      <td>Goals where you are designated as the owner or that have a result or activity that you own.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">My Teams</td> 
+      <td> <p>Goals where any of your teams is designated as the Owner. </p> <note type="tip">
+        <span>If you are not assigned to any teams, no results display when you select the My Teams filter. </span> 
+       </note> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">My Groups</td> 
+      <td>Goals where any of your groups is designated as the Owner. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Company</td> 
+      <td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your <em>Workfront</em> instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p> 
+       <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+        <span class="autonumber"><span><b>Tip: </b></span></span> 
+        <p>In <em>Adobe Workfront Goals</em>, the Company filter displays the goals for which your organization is selected as the owner. </p> 
+        <p>You cannot search for companies using this field. Only your organization who is the owner of your <em>Workfront</em> instance is selected by default. </p> 
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">All</td> 
+      <td>Goals owned by you, your teams, your groups, your company, or anyone in your organization.</td> 
+     </tr> 
+    </tbody> 
+   </table> 
+  </div> </li> 
+</ol>
 
+<ol> 
+ <li value="1"> <p>(Optional and conditional) If in the Production environment, deselect any of the options in the following table if you want to not display them in the Updates tab.&nbsp;They are selected by default. <span class="preview">These options have been removed from the Preview environment and all updates display there by default. </span></p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Progress Updates</td> 
+     <td>Displays information about the history of progress updates on results and activities. </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Comments</td> 
+     <td>Displays comments made by users on the goal. </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Editing History</td> 
+     <td>Displays information about creating and updating the goal, results, and activities. </td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+</ol>
 
-   The *`Pulse`* list displays goals and their updated history that match the criteria of your selected filter. 
-
-
-   For more information about filtering goals, see [Filter information in Adobe Workfront Goals](filter-information-wf-goals.md).
-
-1.  Click&nbsp;the right-pointing arrow to the left of the goal name to expand a goal and view additional information about the updates on each goal. 
-
-
-   The following information displays in the *`Pulse`* section under each goal: 
-
-    
-    
-    * Results names and owners. For information about results, see [Add results to goals in Adobe Workfront Goals](add-results-to-goals.md).
-    * Activity names and owners. For information about activities, see [Add activities to goals in Adobe Workfront Goals](add-activities-to-goals.md).
-    * Results and activities progress bars and progress statuses. For information about how *`Workfront Goals`* calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](calculate-goal-progress.md). 
-    
-    
-    
-
-1. Click `Add a comment` to add a comment for the goal, then click `Post`. The comment is visible in the *`Check-in`* area, as well as the Updates tab of the Goal Details panel. We recommend that you use the *`Pulse`* section to comment on goals that have not been updated in a while and ask the goal owner for an update. 
-
-1. (Optional) Click `Show all updates` to display all goal updates. This opens the Updates tab in the Goal&nbsp;Details panel on the right. 
-1.  Click the name of a goal to open the `Goal Details` panel on the right and review more information about the goal as well as manage it and its results and activities. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](update-goals-in-goal-details-panel.md).
-1. (Optional and conditional) Click `the alignment icon` ![](assets/align-icon.png) to open the goal in the *`Goal Alignment section`*, if the goal is aligned to other goals. 
-
-1. (Optional) Expand the `Goals per page` drop-down menu and select from the following options to display additional goals:
-    
-    
-    * 20.&nbsp;This is the default selection. 
-    * 50
-    * 100
-    
-    
-
-
-
-&nbsp;
-
-
-&nbsp;

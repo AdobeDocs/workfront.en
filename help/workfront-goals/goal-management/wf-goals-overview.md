@@ -3,110 +3,115 @@ filename: wf-goals-overview
 content-type: overview
 product: workfront-goals
 navigation-topic: goal-management
+title: Adobe Workfront Goals overview
+description: Your organization must have the following to use the functionality described in this article:
 ---
 
+# *Adobe Workfront Goals* overview
 
+Your organization must have the following to use the functionality described in this article:
 
-# *`Adobe Workfront Goals`* overview {#adobe-workfront-goals-overview}
+* A *Pro* or higher [*Adobe Workfront* plan](https://www.workfront.com/plans). 
+* An *Adobe Workfront Goals* license in addition to a *Workfront* license.
 
+  Contact your *Workfront* account manager to learn about a *Workfront Goals* license.
 
-Your organization must have the following to use the functionality described in this article: 
+  *Workfront Goals* is available only in *the new Adobe Workfront experience*.
 
+For additional information about access to *Workfront Goals*, see 
 
+<!--
+<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>
+-->
 
-*  A *`Pro`* or higher [ *`Adobe Workfront`* plan](https://www.workfront.com/plans). 
-*  An *`Adobe Workfront Goals`* license in addition to a *`Workfront`* license.
+[Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+*Workfront Goals* helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
 
-  Contact your *`Workfront`* account manager to learn about a *`Workfront Goals`* license. 
+*Workfront Goals* is an add-on module for the core *Workfront* work management platform. It is intended to work together with *Workfront* with which it shares many of the setup elements and configuration entities, such as users, teams, groups, and projects.
 
+For more information about best practices for using *Workfront Goals*, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
-  *`Workfront Goals`* is available only in *`the new Adobe Workfront experience`*. 
-
-
-
-For additional information about access to *`Workfront Goals`*, see [Requirements to use Adobe Workfront Goals](access-needed-for-wf-goals.md).
-
-*`Workfront Goals`* helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
-
-
-*`Workfront Goals`* is an add-on module for the core *`Workfront`* work management platform. It is intended to work together with *`Workfront`* with which it shares many of the setup elements and configuration entities, such as users, teams, groups, and projects.
-
-
-For more information about best practices for using *`Workfront Goals`*, see [Get started with Adobe Workfront Goals](getting-started-with-wf-goals.md). 
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->Strategic goals that you manage using *`Workfront Goals`* should not be confused with project-level goals that are part of the project's Business Case. For information about project-level goals, see [Create Business Case goals](create-business-case-goals.md).
+>Strategic goals that you manage using *Workfront Goals* should not be confused with project-level goals that are part of the project's Business Case. For information about project-level goals, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
+## Features included with *Workfront Goals*
 
+The following functionality is currently included with *Workfront Goals*:
 
+* Create quarterly or yearly goals and assign them to users, teams, groups, or to your organization. You can also customize goal timelines.
 
-## Features included with *`Workfront Goals`* {#features-included-with-workfront-goals}
+  For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
-The following functionality is currently included with *`Workfront Goals`*:
+* Shared user, team, and group management of strategic goals with the *Workfront* core platform.
+* Create results and activities for goals to indicate goal progress.
 
+  For information about results and activities, see [Get started with results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
-
-*  Create quarterly or yearly goals and assign them to users, teams, groups, or to your organization. You can also customize goal timelines. 
-
-
-  For information about creating goals, see [Create goals in Adobe Workfront Goals](create-goals.md).
-
-* Shared user, team, and group management of strategic goals with the *`Workfront`* core platform.
-*  Create results and activities for goals to indicate goal progress.
-
-
-  For information about results and activities, see [Get started with results and activities in Adobe Workfront Goals](get-started-with-results-and-activities.md).
-
-*  Associate existing projects with goals to align your goals with your actual work. 
-
+* Associate existing projects with goals to align your goals with your actual work.
 
   The following project information is available at the goal level:
 
-    
-    
-    * Project name
-    * Project owner
-    * Project due date
-    *  Project percent complete
-    
-    
-  For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](connect-projects-to-goals-overview.md).
+  * Project name
+  * Project owner
+  * Project due date
+  * Project percent complete
 
-*  Update goals, results, and activities by checking in on goals.
+  For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
+* Update goals, results, and activities by checking in on goals.
 
-  For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](check-in-goals.md).
+  For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
-*  Align goals to one another to clearly define your organization's strategy to make every goal count. 
+* Align goals to one another to clearly define your organization's strategy to make every goal count.
 
+  For information about aligning goals, see [Goal alignment overview in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
 
-  For information about aligning goals, see [Goal alignment overview in Adobe Workfront Goals](goal-alignment-overview.md).
+* Review your organization's goal hierarchy in the *Goal Alignment* flowchart.
 
-*  Review your organization's goal hierarchy in the *`Goal Alignment`* flowchart. 
+  For information about the *Goal Alignment* chart, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
+* Collaborate across the organization by reviewing goal updates and comments in *Pulse*.
 
-  For information about the *`Goal Alignment`* chart, see [Navigate the Goal Alignment section in Adobe Workfront Goals](navigate-goal-alignment-chart.md).
+  For information about *Workfront Goals* *Pulse*, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-*  Collaborate across the organization by reviewing goal updates and comments in *`Pulse`*.
+* Review trends in goal progress in graphs.
 
+  For information about *Workfront Goals* graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-  For information about *`Workfront Goals`* *`Pulse`*, see [Review goals in the Adobe Workfront Goals Pulse section](review-goals-in-pulse.md).
-
-*  Review trends in goal progress in graphs. 
-
-
-  For information about *`Workfront Goals`* graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](review-goal-graphs.md).
-
-*  `Build goal reports and display goal information in project reports for projects that are associated to goals.` For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](connect-projects-to-goals-overview.md). 
-
+* `Build goal reports and display goal information in project reports for projects that are associated to goals.` For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 &nbsp;
 
+&nbsp;
 
 &nbsp;
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="sandbox"></a>Preview and Custom Refresh Sandbox environments</h2>
+<p>When the data on your Preview Sandbox refreshes at the end of every week, <em>Workfront Goals</em> data is also refreshed. However, when you refresh your Custom Refresh Sandbox, <em>Workfront Goals</em> data does not transfer to this environment. The ability to sync this data from your production environment to the Custom Refresh Sandboxes will be available after September 2020. </p>
+<p>For information about the <em>Workfront</em> sandbox environments, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md" class="MCXref xref">Adobe Workfront testing environments</a>.</p>
+</div>
+-->
 
-&nbsp;
+## Preview and Custom Refresh Sandbox environments
+
+When the data on your Preview Sandbox refreshes at the end of every week, *Workfront Goals* data is also refreshed. However, when you refresh your Custom Refresh Sandbox, *Workfront Goals* data does not transfer to this environment. The ability to sync this data from your production environment to the Custom Refresh Sandboxes will be available after September 2020.
+
+For information about the *Workfront* sandbox environments, see [Adobe Workfront testing environments](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md).
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="video"></a><em>Workfront Goals</em> video overview</h2>
+<p>For an overview of <em>Workfront Goals</em>, watch the following video:</p>
+<p><a href="https://workfront-video.wistia.com/medias/v4lzhz73g5" target="_blank"><img src="assets/align-video-overview-350x197.png" style="width: 350;height: 197;"></a> </p>
+</div>
+-->
+
+## *Workfront Goals* video overview
+
+For an overview of *Workfront Goals*, watch the following video:
+
+[ ![](assets/align-video-overview-350x197.png)](https://workfront-video.wistia.com/medias/v4lzhz73g5) 

@@ -1,0 +1,12 @@
+---
+filename: associate-goals-with-activities
+product: workfront-goals
+product-area: projects
+navigation-topic: old-workfront-goals-articles
+title: Associate goals with activities
+description: Delete this text and replace it with your own content.
+---
+
+# Associate goals with activities
+
+Delete this text and replace it with your own content.

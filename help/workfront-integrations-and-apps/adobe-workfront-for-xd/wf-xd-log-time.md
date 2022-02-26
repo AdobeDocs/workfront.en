@@ -2,81 +2,68 @@
 filename: wf-xd-log-time
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
+title: Log time in Adobe XD
+description: You can log time for projects, tasks, and issues you're working on directly in Adobe XD. The Workfront administrator determines which project-specific hour types are available as described in Manage hour types.
 ---
 
+# Log time in Adobe XD
 
+You can log time for projects, tasks, and issues you're working on directly in Adobe XD. The *Workfront administrator* determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-# Log time in Adobe XD {#log-time-in-adobe-xd}
-
-You can log time for projects, tasks, and issues you're working on directly in Adobe XD. The *`Workfront administrator`* determines which project-specific hour types are available as described in [Manage hour types](hour-types.md).
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+<table cellspacing="0"> 
+ <col> 
  </col> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <col> 
  </col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Pro or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p><em>Work</em> or <em>Plan</em></p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Work</em> or <em>Plan</em></p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray" data-mc-conditions=""> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Work variable varname">Work</span> or <span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span></p> </td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a <em>Workfront</em> license.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">You must have an Adobe Creative Cloud license in addition to a <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> license.</td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to tasks or issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Edit access to tasks or issues</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Log Hours permission to the task or issue</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Log Hours permission to the task or issue</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Prerequisites
 
-## Prerequisites {#prerequisites}
+* You must install the *Workfront* for Adobe XD plugin before you can log time in Adobe XD.
 
+  For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
+## Log time in Adobe XD
 
-
-*  You must install the *`Workfront`* for Adobe XD plugin before you can log time in Adobe XD.
-
-
-  For instructions, see [Install Workfront for Adobe XD](wf-adobe-xd-install.md).
-
-
-
-
-
-## Log time in Adobe XD {#log-time-in-adobe-xd-1}
-
-
-
-
-1.  Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.  
-
-
-
-   ![](assets/menu-350x627.png)   
-
-
-1.  From the `Work List`, select the work item you need to log time to.
-1.  Click `Time` in the navigation bar.
-1.  (Optional) Choose the `Hour Type` from the drop-down menu.
-1.  Enter the time in hours for the day you need.
-1.  Click `Submit`. 
-
+<ol> 
+ <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
+ <li value="2"> <p>From the <span class="bold">Work List</span>, select the work item you need to log time to.</p> </li> 
+ <li value="3"> <p>Click <span class="bold">Time</span> in the navigation bar.</p> </li> 
+ <li value="4"> <p>(Optional) Choose the <span class="bold">Hour Type</span> from the drop-down menu.</p> </li> 
+ <li value="5"> <p>Enter the time in hours for the day you need.</p> </li> 
+ <li value="6"> <p>Click <span class="bold">Submit</span>. </p> </li> 
+</ol>
 

@@ -3,114 +3,133 @@ filename: view-enhanced-analytics-charts-duration
 title: View Analytics charts by duration
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
+title: View Enhanced analytics visualizations by duration
+description: If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations:
 ---
 
-
-
-
-# View `Enhanced analytics` charts by duration {#view-enhanced-analytics-charts-by-duration}
-
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
-
-If your teams do not use Planned Hours, you can look at data for projects based on duration, which shows you the time spent on projects based on the amount of days planned to complete a project (Planned Duration) and the actual amount of days it took to complete a project (Actual Duration).
-
-
-For more information, see [Overview of project Duration](project-duration.md).
-
-
-You can select a duration view for the following charts:
-
-
-
-* Burndown chart  
-  To learn more about the Burndown chart, see [Burndown overview for Enhanced analytics](burndown-overview.md).
-
-* Project treemap chart  
-  To learn more about the Project treemap chart, see [Project treemap overview](project-treemap-overview.md).
-
-
-
-
-
-## View Burndown chart by duration {#view-burndown-chart-by-duration}
-
-
-
-
-1.   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the Main Menu icon  <img src="assets/main-menu-icon-16x13.png" style="width: 16;height: 13;">, then </MadCap:conditionalText>`select **Analytics**.
-
-
-   >[!NOTE]
-   >
-   >If you don't see Analytics in the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>` and you know you have the appropriate access, modify the URL by adding "analytics" to it.  
-   >For example, the URL changes to "company.my.workfront `.com`/analytics" in the address bar.
-
-
-
-1.  In the **Flight plan** or **Project treemap** chart, select a project.
-
-
-   The **Burndown** chart for that project opens.
-
-1.  In the Burndown chart, click the drop-down arrow, then select **duration**.
-
-
-   ![](assets/duration-selection-burndown.png)
-
-
-
-
-   The Y axis changes from Hours to Days.
-
-1.  Select any point on the chart to display information for that day.
-
-
-   This displays the columns Tasks and Days, which contain information about changes to tasks and their duration (in Days) for the selected day.
-
-
-
-![](assets/duration-burndown-600x240.png)
-
-
-
-
-## View Project treemap chart by duration {#view-project-treemap-chart-by-duration}
-
-
-
-
-1.   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the Main Menu icon  <img src="assets/main-menu-icon-16x13.png" style="width: 16;height: 13;">, then </MadCap:conditionalText>`select **Analytics**.
-
-
-   >[!NOTE]
-   >
-   >If you don't see Analytics in the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>` and you know you have the appropriate access, modify the URL by adding "analytics" to it.  
-   >For example, the URL changes to "company.my.workfront `.com`/analytics" in the address bar.
-
-
-
-1.  In the **Project treemap** chart, click the drop-down arrow, then select **duration**.
-
-
-   ![](assets/duration-selection-treemap.png)
-
-
-
-
-   The numbers listed in the boxes change from hours to days.
-
-1.  (Optional) Hover over a project to see more details, such as the Planned Timeframe—or number of days planned to complete the project.
-
-
-   ![](assets/duration-treemap-600x203.png)
-
-
-
-1.  (Optional) Select a project on the chart to open the **Burndown** chart.
-
-
-   To learn about the duration view for the Burndown chart, see [View Burndown chart by duration](#view).
-
-
+# View *Enhanced analytics* visualizations by duration
+
+If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations:
+
+* Burndown  
+  To learn more about the Burndown visualization, see [View the Burndown visualization in Enhanced analytics](../enhanced-analytics/burndown-overview.md).
+
+* Project treemap  
+  To learn more about the Project treemap visualization, see [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md).
+
+In *Enhanced analytics*, the duration of a project is calculated by the following formulas:
+
+<ul> 
+ <li> <p>Planned Timeframe: <code>Planned Completion Date of the project - Start Date of the project</code></p> </li> 
+ <li> <p>Days Worked: <code>Planned Duration for tasks completed in the selected date range / Typical hours per work day</code></p> <note type="note">
+   8 hours is the default number for 
+   <b>Typical hours per work day</b>. An 
+   <em>Adobe Workfront administrator</em> can update the 
+   <b>Typical hours per work day</b> setting under 
+   <b>Setup</b> > 
+   <b>Project Preferences</b> > 
+   <b>Projects</b> > 
+   <b>Timelines</b>.
+   <br>To learn more, see 
+   <a href="../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.
+  </note> </li> 
+</ul>
+
+For information on Planned Duration, see [Overview of project Duration](../manage-work/projects/planning-a-project/project-duration.md).
+
+## Access requirements
+
+You must have the following:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><em>Workfront</em> plan</a>*</td> 
+   <td> <p>Business or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+
+## Prerequisites
+
+For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## View the Burndown visualization by duration
+
+<ol> 
+ <li value="1"> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Click the Main Menu icon 
+     <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Click the Main Menu icon 
+    <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
+   </MadCap:conditionalText>select <b>Analytics</b>.</p> <note type="tip">
+   If you don't see Analytics in the 
+   <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Main Menu
+    </MadCap:conditionalText>
+   </draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Main Menu
+   </MadCap:conditionalText> and you know you have the appropriate access, modify the URL by adding "analytics" to it.
+   <br>For example, the URL changes to "company.my.workfront.com/analytics" in the address bar.
+  </note> </li> 
+ <li value="2"> <p>In the <b>Flight plan</b> or <b>Project treemap</b> visualization, select a project.</p> <p>The <b>Burndown</b> visualization for that project opens.</p> </li> 
+ <li value="3"> <p>In the Burndown visualization, click the drop-down arrow, then select <b>duration</b>.</p> <p> <img src="assets/duration-selection-burndown.png"> </p> <p>The Y axis changes from Hours to Days.</p> </li> 
+ <li value="4"> <p>Select any point on the visualization to display information for that day.</p> <p>This displays the columns Tasks and Days, which contain information about changes to tasks and their duration (in days) for the selected day.</p> </li> 
+</ol>
+
+![](assets/duration-burndown-350x112.png)
+
+## View the Project treemap visualization by duration
+
+<ol> 
+ <li value="1"> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Click the Main Menu icon 
+     <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Click the Main Menu icon 
+    <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
+   </MadCap:conditionalText>select <b>Analytics</b>.</p> <note type="tip">
+   If you don't see Analytics in the 
+   <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Main Menu
+    </MadCap:conditionalText>
+   </draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Main Menu
+   </MadCap:conditionalText> and you know you have the appropriate access, modify the URL by adding "analytics" to it.
+   <br>For example, the URL changes to "company.my.workfront
+   <span>.com</span>/analytics" in the address bar.
+  </note> </li> 
+ <li value="2"> <p>In the <b>Project treemap</b> visualization, click the drop-down arrow, then select <b>duration</b>.</p> <p> <img src="assets/duration-selection-treemap-321x191.png" style="width: 321;height: 191;"> </p> <p>The numbers listed in the boxes change from hours to days.</p> </li> 
+ <li value="3"> <p>(Optional) Hover over a project to see more details, including this duration-specific information:</p> 
+  <ul> 
+   <li> <p><b>Planned Timeframe</b>: The number of days planned to complete the project.</p> </li> 
+   <li> <p><b>Days Worked</b>: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.</p> </li> 
+  </ul> <p> <img src="assets/duration-treemap-350x159.png" style="width: 350;height: 159;"> </p> </li> 
+ <li value="4"> <p>(Optional) Select a project to open the <b>Burndown</b> visualization.</p> <p>To learn about the duration view for the Burndown visualization, see <a href="#view" class="MCXref xref">View the Burndown visualization by duration</a>.</p> </li> 
+</ol>
 

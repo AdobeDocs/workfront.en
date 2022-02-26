@@ -3,40 +3,34 @@ filename: supported-proofing-file-types
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
+title: Supported proofing file types and size limits overview
+description: You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web captures, and interactive file types up to 4 GB in size.
 ---
 
-
-
-# Supported *`proofing`* file types overview {#supported-proofing-file-types-overview}
+# Supported *proofing* file types and size limits overview
 
 You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web captures, and interactive file types up to 4 GB in size.
 
+## File size limits
 
-## File size limits {#file-size-limits}
+*Workfront* has the following limits:
 
-*`Workfront`* has the following limits:
+* Files must be less than 4 GB per file.
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>XLS and XLSX files must be less than 100 MB.</p> </li>
+  -->
 
-
-*  Files must be less than 4 GB per file.
-*  Files attached to comments on *`proofs`* must be less than 100 MB.
-*  Static combined *`proofs`* can support up to 50 files.
-*  Documents uploaded as proofs must be less than 2,000 pages.
-
-
-
+* XLS and XLSX files must be less than 100 MB.
+* Files attached to comments on *proofs* must be less than 30 MB.
+* Static combined *proofs* can support up to 50 files.
+* Documents uploaded as proofs must be less than 2,000 pages.
 
 >[!NOTE]
 >
 >Larger files take more time to upload, and if your connection is not stable, the action may be terminated/broken.
 
-
-
-
-## Static files {#static-files}
-
-
-
+## Static files
 
 * ABC - LEAD Advanced Bitonal Compression
 * ABIC - Adaptive Bi-level Image Compression
@@ -60,7 +54,7 @@ You can share and review various types of files with your reviewers, even if the
 * CUT - Dr. Halo
 * DGN - Intergraph Design
 * DOC - Microsoft Word Document
-*  DOCX - Microsoft Word Document
+* DOCX - Microsoft Word Document
 * DCR - Kodak Digital Camera
 * DCS - Kodak Digital Camera System
 * DCM - DICOM
@@ -79,7 +73,7 @@ You can share and review various types of files with your reviewers, even if the
 * FLC - Flic Animation
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Graphics Interchange Format (animated GIF in the new *`Workfront Proof`* Viewer only)
+* GIF -&nbsp;Graphics Interchange Format (animated GIF in the new *Workfront Proof* Viewer only)
 * GIF HDP - Windows HD Photo
 * ICO - Windows Icon
 * IFF - Interchange File Format
@@ -157,38 +151,26 @@ You can share and review various types of files with your reviewers, even if the
 * XPS - XML Paper Specification
 * XWD - X WindowDump
 
+## Static files - Text tool
 
-
-
-## Static files - Text tool {#static-files-text-tool}
-
-
-
-
-*  AI -&nbsp;Adobe Illustrator Artwork 
-*  AIT - Adobe Illustrator Template 
-*  DOC -&nbsp;Microsoft Word Document
+* AI -&nbsp;Adobe Illustrator Artwork 
+* AIT - Adobe Illustrator Template 
+* DOC -&nbsp;Microsoft Word Document
 * DOCX - Microsoft Word Document
-*  DOT - Microsoft Word Document Template 
-*  DOTX - Microsoft Word Document Template&nbsp; 
-*  EPS - Encapsulated PostScript 
-*  PDF -&nbsp;Adobe Portable Document File 
-*  PPT- PowerPoint Presentation 
-*  PPTX - PowerPoint Presentation 2007 PS - PostScript File 
+* DOT - Microsoft Word Document Template 
+* DOTX - Microsoft Word Document Template&nbsp; 
+* EPS - Encapsulated PostScript 
+* PDF -&nbsp;Adobe Portable Document File 
+* PPT- PowerPoint Presentation 
+* PPTX - PowerPoint Presentation 2007 PS - PostScript File 
 * PSD - Photoshop
 * RTF - Rich Text
 * XLS - Microsoft Excel Spreadsheet
 * XLSX - Microsoft Excel Spreadsheet 2007
-*  XLT&nbsp;- Microsoft Excel Template 
-*  XLTX&nbsp;- Microsoft Excel Template 
+* XLT&nbsp;- Microsoft Excel Template 
+* XLTX&nbsp;- Microsoft Excel Template
 
-
-
-
-## Video files {#video-files}
-
-
-
+## Video files
 
 * MPEG-1
 * MPEG-2
@@ -209,49 +191,33 @@ You can share and review various types of files with your reviewers, even if the
 * DV
 * Raw YUV/RGB
 * MKV
-* Input audio codecs (part of video) 
-    
-    
-    * MP3
-    * AAC/AAC-HE
-    * Windows Media
-    * PCM/WAV/AIFF
-    * AMR
-    * Ogg Vorbis
-    
-    
+* Input audio codecs (part of video)
 
+  * MP3
+  * AAC/AAC-HE
+  * Windows Media
+  * PCM/WAV/AIFF
+  * AMR
+  * Ogg Vorbis
 
-
-
-## Audio files {#audio-files}
-
-
-
+## Audio files
 
 * MP3
 * WAV
 * AIF
 
+## Web captures
 
+You can create static web page *proofs*. For more information, see [Create a static proof for a website or other web content](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) and [Create a Static Website Proof using Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
-
-## Web captures {#web-captures}
-
-You can create static web page *`proofs`*. For more information, see [Create a static proof for a website or other web content](generate-static-proof-website-other-web-content.md) and [Create a Static Website Proof using Workfront Proof](create-status-web-proof.md).
-
-
-## Zip files {#zip-files}
+## Zip files
 
 We do not support or extract files from ZIP&nbsp;files for security reasons. Unzip the files before uploading them. If you do not do this, the upload will not be unsuccessful.
 
-
 You can submit zip files only if they contain a complete interactive project and your account has interactive features enabled (Premium plans).
 
+For more information, see [Interactive content proofs overview](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-For more information, see [Interactive content proofs overview](interactive-content-proofs.md).
-
-
-## InDesign and Quark files {#indesign-and-quark-files}
+## InDesign and Quark files
 
 We do not support InDesign and Quark Files because they are not self-contained file types and they reference numerous other files such as images and fonts. Output from these file types varies depending on the output settings. We recommend that customers save InDesign and Quark files as a PDF and upload the PDF.

@@ -4,10 +4,10 @@ title: Reference Custom Forms in a report
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
+title: Referencing custom forms in a report
+description: For information on referencing custom forms in a report, see Reference a custom form in a report.
 ---
 
+# Referencing custom forms in a report
 
-
-# Referencing custom forms in a report  {#referencing-custom-forms-in-a-report}
-
-For information on referencing custom forms in a report, see [Reference a custom form in a report](reference-custom-form-report.md).
+For information on referencing custom forms in a report, see [Reference a custom form in a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).

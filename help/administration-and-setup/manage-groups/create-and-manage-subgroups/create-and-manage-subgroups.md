@@ -4,17 +4,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
+title: Create and manage subgroups
+description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
+# Create and manage subgroups
 
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-# Create and manage subgroups {#create-and-manage-subgroups}
+* [Create a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) 
+* [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md" class="MCXref xref" xrefformat="{para}">View and manage subgroup members</a> </li>
+  -->
 
-
-
-* [Create a subgroup](create-a-subgroup.md) 
-* [Manage a subgroup](manage-subgroups.md) 
-* [View and manage subgroup members](view-and-manage-subgroup-members.md) 
-
+* [View and manage subgroup members](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 

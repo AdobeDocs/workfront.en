@@ -2,267 +2,270 @@
 filename: associate-approval-with-work
 product-area: projects
 navigation-topic: approvals
+title: Associate a new or existing approval process with work
+description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
+# Associate a new or existing approval process with work
 
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-# Associate a new or existing approval process with work {#associate-a-new-or-existing-approval-process-with-work}
+This article describes how you can associate approval processes with work items. For information about associating approvals with proofs or documents, see the following articles:
 
-You can associate a global or single-use approval process with a work item in  *`Adobe Workfront`*. The following scenarios exist:
+* [Create an advanced proof with an Automated workflow](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) 
+* [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
+You can associate a global or single-use approval process with a work item in&nbsp;*Adobe Workfront*. The following scenarios exist:
 
-
-*  Associate an existing global approval process with a project, task, issue, template, or template task. Some global approval processes are available to all groups in the system. Group-level global approval processes are available only to certain groups.
-*  Create a single-use approval process and associate it with an existing project, task, issue, template, or template task.
-
-
-
+* Associate an existing global approval process with a project, task, issue, template, or template task. Some global approval processes are available to all groups in the system. Group-level global approval processes are available only to certain groups.
+* Create a single-use approval process and associate it with an existing project, task, issue, template, or template task.
 
 >[!NOTE]
 >
 >This article uses the term "global approval process" to differentiate from "single-use approval process." A global approval process can be used repeatedly. 
 >
->
->At the group level, a global approval process is restricted to work items and statuses that belong to the group.
+>The term "group-level global approval process" refers to an approval process that can be used repeatedly for items and with statuses associated only with a specific group.
 
+For more general information about approval processes, see [Approval process overview](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
+For information about creating a global approval process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-For more general information about approval processes, see [Approval process overview](approval-process-in-workfront.md).
-
-
-For information about creating a global approval process, see [Create an approval process](create-approval-processes.md). 
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Work variable varname">Work</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Work</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access or higher to Projects, Tasks, Issues, or Templates</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access or higher to Projects, Tasks, Issues, or Templates</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions to the project, task, issue, or template</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the project, task, issue, or template</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Considerations about associating approval processes with work items
 
-## Considerations about associating approval processes with work items {#considerations-about-associating-approval-processes-with-work-items}
+In addition to the considerations described below, we recommend that you revisit the general considerations about approval processes in&nbsp;*Workfront*. For more information, see [Approval process overview](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
+<ul> <draft-comment>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Approvals can only be associated with the status of a project, task, or issue in <em>Workfront</em>.</li>
+ </draft-comment>
+ <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Approvals can only be associated with the status of a project, task, or issue in <em>Workfront</em>.</li> <draft-comment>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Each approval process corresponds with a status option in the <em>Workfront</em> system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.</li>
+ </draft-comment>
+ <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Each approval process corresponds with a status option in the <em>Workfront</em> system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.</li> 
+ <li>You must create the project, task, issue, template, or template task before the approval process can be associated with them.</li> 
+ <li> <p>When you attach an approval process to an item for a status that has passed and in which the item currently is, the approval process will not be triggered and no notifications are sent to the approvers.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If a task is in the status of&nbsp;Complete and you attach an approval process associated with the&nbsp;Complete status, the approval does not trigger. </p> </li> 
+ <li> <p>When you attach an approval process to the first status of an item (by using a template for tasks and projects, using the Queue Setup settings for issues, or defining the Task Settings of a project for new tasks), the approval processes are bypassed if the submitted approval is recalled. In this case, the approvers do not receive any notifications.</p> <p>For more information about recalling approvals, see <a href="../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a>.</p> <note type="tip">
+   The first status for a task or issue is New. The first status for a project is the status selected by your 
+   <em>Workfront administrator</em> in the Project&nbsp;Preferences in your system. For information, see 
+   <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.
+  </note> </li> 
+ <li> <p>The association of approval processes with an object is not recorded in the Updates area for the object.</p> </li> 
+ <li> <p>You cannot associate an approval process with a parent task.</p> </li> 
+ <li> <p>Adding a user, team, or role as an approver does not automatically give them permissions to the object associated with that approval. They receive permissions to the object when the approval step is triggered. Otherwise, the objects must be shared with them before they can make an approval decision. </p> </li> 
+</ul>
 
+The following sections describe the different methods of associating an approval process to a project, task, or issue.
 
-
-* You must create the project, task, issue, template, or template task before the approval process can be associated with it.
-*  When you attach an approval process to an item for a status that has passed and in which the item currently is, the approval process will not be triggered and no notifications are sent to the approvers.
-
-
-  ` `**Example: **``If a task is in the status of&nbsp;Complete and you attach an approval process associated with the&nbsp;Complete status, the approval does not trigger. 
-
-*  When you attach an approval process to the first status of an item (by using a template for tasks and projects and by using the Queue Setup settings for issues), the approval process are bypassed if the submitted approval is recalled. In this case, the approvers do not receive any notifications.
-
-
-  For more information about recalling approvals, see [View approvals](view-approvals.md).
-
-
-  >[!TIP] {type="tip"}
-  >
-  >The first status for a task or issue is New. The first status for a project is the status selected by your *`Workfront administrator`* in the Project&nbsp;Preferences in your system. 
-
-
-
-*  The association of approval processes with an object is not recorded in the Updates area for the object.
-*  Adding a user, team, or role as an approver does not automatically give them permissions to the object associated with that approval. They receive permissions to the object when the approval step is triggered. Otherwise, the objects must be shared with them before they can make an approval decision. 
-
-
-The following sections describe the different methods of associating an approval process to a project, task, or issue. 
-
-
-## Associate a global approval process with a work item {#associate-a-global-approval-process-with-a-work-item}
+## Associate a global approval process with a work item
 
 You can associate a global approval process with a work item (project, task, issue, template, template task).
 
-
-The global approval process must be available to the group associated with the work item or to all groups in the system. 
-
+The global approval process must be available to the group associated with the work item or to all groups in the system.
 
 >[!NOTE]
 >
 >You can attach project approval processes to a template, and task approval processes to a template task. After you do this, when someone uses the template to create a project, the approval process becomes a project or task approval process respectively. A single-use approval process attached to a template or template task remains a single-use approval process for projects and tasks.
 
-
-
-For information about how *`Workfront administrators`* can configure a global approval process for all groups in the system, and how *`group administrators`* can create approvals for a group, see [Create an approval process](create-approval-processes.md). 
-
+For information about how *Workfront administrators* can configure a global approval process for all groups in the system, and how *group administrators* can create approvals for a group, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 >[!NOTE]
 >
->
->
->
->* You can also modify a global approval process to meet your specific needs. For more information, see the section [Modify a global approval process for use on a specific object](#modifying-a-global-approval-process) in this article.
->* You cannot associate an approval process with a parent task.
->
->
+>You can also modify a global approval process to meet your specific needs. For more information, see the section [Modify a global approval process for use on a specific object](#modifying-a-global-approval-process) in this article.
 
+To associate an existing global approval process with a project, task, issue, template, or template task:
 
+<ol> 
+ <li value="1">Go to the work item where you want to associate an approval process.</li> 
+ <li value="2"> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+      Click 
+     <span class="bold">Approvals</span> in the left panel.
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Click 
+    <span class="bold">Approvals</span> in the left panel.
+   </MadCap:conditionalText> </p> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     You might need to click 
+     <span class="bold">Show More</span>, then click 
+     <span class="bold">Approvals</span>.
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    You might need to click 
+    <span class="bold">Show More</span>, then click 
+    <span class="bold">Approvals</span>.
+   </MadCap:conditionalText> <br> </p> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/approvals-section-on-task-highlighted-nwe-350x246.png" style="width: 350;height: 246;"> </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/approvals-section-on-task-highlighted-nwe-350x246.png" style="width: 350;height: 246;"> </p> </li> 
+ <li value="3"> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
+     (Conditional)&nbsp;Associating an existing approval process with a work item differs depending on what environment you choose. 
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
+    (Conditional)&nbsp;Associating an existing approval process with a work item differs depending on what environment you choose. 
+   </MadCap:conditionalText> </p> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
+     In the Production environment, 
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
+    In the Production environment, 
+   </MadCap:conditionalText>In the <span class="bold">Use an existing approval process</span> drop-down menu, select the global or group-level approval process you want to associate with the work item.</p> <p> <img src="assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png" style="width: 350;height: 50;"> </p> <p>The approval process selected displays.</p> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/existing-approval-attached-to-task-nwe-350x356.png" style="width: 350;height: 356;"> </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/existing-approval-attached-to-task-nwe-350x356.png" style="width: 350;height: 356;"> </p> <draft-comment>
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> 
+    <p>In the Preview environment, expand the <span class="bold">Use existing</span> drop-down menu and select an existing approval process. </p> <draft-comment>
+     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;"> </p>
+    </draft-comment>
+    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;"> </p> <draft-comment>
+     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">The approval process selected displays. </p>
+    </draft-comment>
+    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">The approval process selected displays. </p> 
+    <p> <img src="assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png" style="width: 350;height: 355;"> </p> 
+   </div>
+  </draft-comment>
+  <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> 
+   <p>In the Preview environment, expand the <span class="bold">Use existing</span> drop-down menu and select an existing approval process. </p> 
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;"> </p> 
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">The approval process selected displays. </p> 
+   <p> <img src="assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png" style="width: 350;height: 355;"> </p> 
+  </div> </li> 
+ <li value="4">Click <span class="bold">Save</span>.</li> 
+ <li value="5"> <p>(Optional) Click Edit Approval Process if you want to modify the existing approval you attached to the item. This changes the global approval process to a single-use approval process. For more information, see the section <a href="#modifying-a-global-approval-process" class="MCXref xref">Modify a global approval process for use on a specific object</a> in this article.</p> </li> 
+</ol>
 
-To associate an existing global approval process with a project, task, issue, template, or template task: 
+## Modify a global approval process for use on a specific object
 
+Your *Workfront administrator* or *group administrator* creates global approval processes for you to use, as described in [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). You can modify a global approval process to suit any specific needs of the project, task, or issue where you are associating it.
 
-
-1. Go to the work item where you want to associate an approval process.
-1.   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click  <span class="bold">Approvals</span> in the left panel.</MadCap:conditionalText>` 
-
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> You might need to click  <span class="bold">Show More</span>, then click  <span class="bold">Approvals</span>.</MadCap:conditionalText>`   
-
-
-
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
-
-
-
-1.  In the `Use an existing approval process` drop-down menu, select the global or group-level approval process you want to associate with the work item.
-
-
-   The approval process you select displays.
-
-
-   ![](assets/existing-approval-attached-to-task-nwe-350x356.png)
-
-
-
-1. Click `Save`.
-1.  (Optional) Click Edit Approval Process if you want to modify the existing approval you attached to the item. This changes the global approval process to a single-use approval process. For more information, see the section [Modify a global approval process for use on a specific object](#modifying-a-global-approval-process) in this article.
-
-
-
-
-## Modify a global approval process for use on a specific object {#modify-a-global-approval-process-for-use-on-a-specific-object}
-
-Your *`Workfront administrator`* or *`group administrator`* creates global approval processes for you to use, as described in [Create an approval process](create-approval-processes.md). You can modify a global approval process to suit any specific needs of the project, task, or issue where you are associating it. 
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
 >When you modify a global approval process, it becomes a single-use approval process that can be used only on the object where you modified it. The global approval process remains unchanged.
 >
->
 >Consider the following limitations when modifying a global approval process:
 >
+>* The approval process is modified only for the project, task, or issue you are associating the approval process with.
+>* Any future changes made by an administrator to the original global approval process do not reflect on the global approval process that you modified.
 >
->
->*  The approval process is modified only for the project, task, or issue you are associating the approval process with.
->*  Any future changes made by an administrator to the original global approval process do not reflect on the global approval process that you modified.
->
->
-
-
 
 To modify an existing global approval process:
 
+<ol> 
+ <li value="1"> <p>Add a global approval process to the project, task, or issue.</p> <p>For instructions, see the section <a href="#associating-an-existing-global-approval-process" class="MCXref xref">Associate a global approval process with a work item</a> in this article.</p> <note type="important">
+   Ensure that you click 
+   <span class="bold">Save</span> when adding the approval.
+  </note> </li> 
+ <li value="2"> <p>After the global approval process is added, click <span class="bold">Edit Approval Process</span>. This action turns the global or group-level approval process into a single-use approval process. </p> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-approval-process-button-on-task-highlighted-nwe-350x189.png" style="width: 350;height: 189;"> </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-approval-process-button-on-task-highlighted-nwe-350x189.png" style="width: 350;height: 189;"> </p> </li> 
+ <li value="3"> <p>Make any changes to the existing approval process. For more information, see the section <a href="#creating-a-single-use-approval-process" class="MCXref xref">Associate a single-use approval process with a project, task, issue, template, or template task</a> in this article. </p> </li> 
+ <li value="4">Click <span class="bold">Save</span>, then click<span class="bold">Save</span> again to confirm that you want to convert the global approval process to a single-use approval process that is available only on this object.</li> 
+</ol>
 
+## Associate a single-use approval process with a project, task, issue, template, or template task
 
-1.  Add a global approval process to the project, task, or issue.
+You can create a single-use approval process for use only on a specific project, task, or issue.
 
-
-   For instructions, see the section [Associate a global approval process with a work item](#associating-an-existing-global-approval-process) in this article.
-
-
-   >[!IMPORTANT] {type="important"}
-   >
-   >Ensure that you click `Save` when adding the approval.
-
-
-
-1.  After the global approval process is added, click `Edit Approval Process`. This action turns the global or group-level approval process into a single-use approval process. 
-
-
-   ![](assets/edit-approval-process-button-on-task-highlighted-nwe-350x189.png)
-
-
-
-1.  Make any changes to the existing approval process. For more information, see the section [Associate a single-use approval process with a project, task, issue, template, or template task](#creating-a-single-use-approval-process) in this article. 
-1. Click `Save`, then click `Save` again to confirm that you want to convert the global approval process to a single-use approval process that is available only on this object.
-
-
-
-
-
-## Associate a single-use approval process with a project, task, issue, template, or template task {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
-
-You can create a single-use approval process for use only on a specific project, task, or issue. 
-
-
-You can also associate a single-use approval process with a template or template task so that it is available on projects and tasks that are created from the template. 
-
+You can also associate a single-use approval process with a template or template task so that it is available on projects and tasks that are created from the template.
 
 >[!NOTE]
 >
->You can associate a single-use approval process with any system-level or `group-level status` for a project, task, issue, `template, or template task`. For information about *`Workfront`* statuses, see [Create or edit a status](create-or-edit-a-status.md). 
+>You can associate a single-use approval process with any system-level or `group-level status` for a project, task, issue, `template, or template task`. For information about *Workfront* statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-
-Creating an approval process in this way enables you to create a custom approval process to meet your needs. However, the approval process cannot be associated with other work items in the future. 
-
+Creating an approval process in this way enables you to create a custom approval process to meet your needs. However, the approval process cannot be associated with other work items in the future.
 
 Alternatively, you can modify a global approval process for a specific item and that also becomes a single-use approval process. For information, see the section [Modify a global approval process for use on a specific object](#modifying-a-global-approval-process) in this article.
 
-
 To create a single-use approval process:
 
+<ol> 
+ <li value="1">Go to the project, task, issue, template, or template task where you want to associate an approval process. </li> 
+ <li value="2"> <p> <p> <draft-comment>
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+      Click 
+      <span class="bold">Approvals</span> in the left panel.
+     </MadCap:conditionalText>
+    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Click 
+     <span class="bold">Approvals</span> in the left panel.
+    </MadCap:conditionalText> </p> <p> <draft-comment>
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+      You might need to click 
+      <span class="bold">Show More</span> > 
+      <span class="bold">Approvals</span>.
+     </MadCap:conditionalText>
+    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     You might need to click 
+     <span class="bold">Show More</span> > 
+     <span class="bold">Approvals</span>.
+    </MadCap:conditionalText> <br> </p> <draft-comment>
+    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/approvals-section-on-task-highlighted-nwe-350x246.png" style="width: 350;height: 246;"> </p>
+   </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/approvals-section-on-task-highlighted-nwe-350x246.png" style="width: 350;height: 246;"> </p> </p> </li> 
+ <li value="3"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Associating a single-use approval process differs depending on which environment you choose. </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Associating a single-use approval process differs depending on which environment you choose. </p> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
+     In the Production environment,
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
+    In the Production environment,
+   </MadCap:conditionalText> Click <span class="bold">Create a single-use approval process</span>.</p> <p> <img src="assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png" style="width: 350;height: 50;"> </p> <draft-comment>
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, click <span class="bold">Create single-use</span>.</p>
+  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, click <span class="bold">Create single-use</span>.</p> <draft-comment>
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;"> </p>
+  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;"> </p> </li> 
+ <li value="4"> <p>Complete the steps beginning with step 6 in the section "Create a system-level or group-level global approval process for work items" in the article <a href="../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>. </p> <draft-comment>
+   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    <span class="autonumber"><span><b>Tip: </b></span></span> 
+    <p>After you attach the single-use approval process, it displays as "<Custom>" in the Approval Process field inside the Edit box of templates and template tasks. For information about editing templates or template tasks, see the following articles:</p> 
+    <ul> 
+     <li> <p><a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a> </p> </li> 
+     <li> <p><a href="../../manage-work/projects/create-and-manage-templates/edit-template-task.md" class="MCXref xref">Edit a template task</a> </p> </li> 
+    </ul> 
+   </div>
+  </draft-comment>
+  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   <span class="autonumber"><span><b>Tip: </b></span></span> 
+   <p>After you attach the single-use approval process, it displays as "<Custom>" in the Approval Process field inside the Edit box of templates and template tasks. For information about editing templates or template tasks, see the following articles:</p> 
+   <ul> 
+    <li> <p><a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a> </p> </li> 
+    <li> <p><a href="../../manage-work/projects/create-and-manage-templates/edit-template-task.md" class="MCXref xref">Edit a template task</a> </p> </li> 
+   </ul> 
+  </div> </li> 
+</ol>
 
-
-1. Go to the project, task, issue, template, or template task where you want to associate an approval process. 
-1.   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click  <span class="bold">Approvals</span> in the left panel.</MadCap:conditionalText>` 
-
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> You might need to click  <span class="bold">Show More</span> >  <span class="bold">Approvals</span>.</MadCap:conditionalText>`   
-
-
-
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
-
-
-
-1. Click `Create a single-use approval process`.
-1.  Complete the steps beginning with step 5 in the section [Create an approval process](create-approval-processes.md#create) in the article [Create an approval process](create-approval-processes.md). 
-
-   ` `**Tip: **`` The single-use approval process displays as "<Custom>" in the Approval Process field inside the Edit box of templates and template tasks. For information about editing templates or template tasks, see the following articles:
-
-    
-    
-    *  [Edit project templates](edit-templates.md) 
-    *  [Edit a template task](edit-template-task.md) 
-    
-    
-
-
-
-
-
-## Automatically associate an approval process with work items {#automatically-associate-an-approval-process-with-work-items}
+## Automatically associate an approval process with work items
 
 You can associate an approval process automatically with work items using the following workflows:
 
-
-
 * For projects and tasks, you can associate an approval process using a template. You can attach an existing approval process to the Template Approvals tab or the Template Task Approvals tab. For information about associating an existing approval with a work item, see [Associate a global approval process with a work item](#associating-an-existing-global-approval-process) in this article.
-* For issues, you can associate an approval with every new issue that is added to a project by associating an existing approval process with a request queue. For information about configuring request queues, see [Create a Request Queue](create-request-queue.md).
-
+* For new tasks on an existing project, you can associate a global approval process or a group-level global approval process in the Task Settings area of the Edit Project box. For information, see the section "Task Settings"&nbsp;in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+* For issues, you can associate an approval with every new issue that is added to a project by associating an existing approval process with a request queue. For information about configuring request queues, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 

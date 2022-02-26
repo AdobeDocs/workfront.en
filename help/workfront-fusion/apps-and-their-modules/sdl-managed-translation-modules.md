@@ -5,56 +5,70 @@ product: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
+title: SDL Managed Translation modules
+description: You must have the following access to use the functionality in this article:
 ---
 
+# SDL Managed Translation modules
 
-
-# SDL Managed Translation modules {#sdl-managed-translation-modules}
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## SDL&nbsp;Managed Translation Modules {#sdl-managed-translation-modules-1}
-
-
+## SDL&nbsp;Managed Translation Modules
 
 >[!NOTE]
 >
 >The operation timeout for calls to SDL Managed Translation is **120 seconds**.
 
+### Files
 
-
-
-### Files {#files}
-
-
-
-#### Download Translated File {#download-translated-file}
+#### Download Translated File
 
 This module retrieves the content of a single translated file, contained within the specified project. If the requested file is not yet in Downland status, the content of the file may not yet be fully translated. If the file is in Download status, and you have successfully retrieved it, be sure to mark the file as complete using the 
 
@@ -64,8 +78,7 @@ Cancel or Complete File
 
 method.
 
-
-#### Upload a File {#upload-a-file}
+#### Upload a File
 
 This module allows uploads of files for translation or for inclusion in a translation project as reference material. Uploads must be submitted using multipart/form-data and can contain more than one file. You specify the 
 
@@ -99,34 +112,25 @@ tar
 
 files) the app examines the contents of the archive and indicates whether the archive as a whole can be translated, or whether it contains a mixture of translatable and non-translatable files.
 
-
 >[!NOTE]
 >
 >Uploading more than one file at a time is not recommended, because it can increase the impact of any failure.
 
-
-
-
-#### Add a Reference File {#add-a-reference-file}
+#### Add a Reference File
 
 This module adds a Reference File.
 
+### Projects
 
-### Projects  {#projects}
-
-
-
-#### Create a project {#create-a-project}
+#### Create a project
 
 This module creates the specified project.
 
-
-#### Cancel or Complete a Project {#cancel-or-complete-a-project}
+#### Cancel or Complete a Project
 
 This module cancels or completes the specified project. If the project is awaiting download, the project transitions through any final steps in the workflow, and eventually moves to complete. If the project is awaiting approval or vendor selection is cancelled. If the project is at any other status, the request will fail.
 
-
-#### Download Project Zip {#download-project-zip}
+#### Download Project Zip
 
 This module gets the 
 
@@ -136,13 +140,11 @@ zip
 
 file of translated files for the specified project.
 
-
-#### Read a Project {#read-a-project}
+#### Read a Project
 
 This module gets the specified project.
 
-
-#### Get Projects at Status {#get-projects-at-status}
+#### Get Projects at Status
 
 This module gets all available projects in the specified status. This method allows the results to be paged, by specifying 
 
@@ -164,8 +166,7 @@ $orderby
 
 query parameters.
 
-
-#### Get Projects List {#get-projects-list}
+#### Get Projects List
 
 Gets a simple list of all projects, providing general information about each project. This method allows the results to be pages, by specifying 
 
@@ -187,16 +188,12 @@ $orderby
 
 query parameters.
 
-
-#### Search Project Creation Options {#search-project-creation-options}
+#### Search Project Creation Options
 
 This module gets Project Creation Options.
 
+### Other
 
-### Other {#other}
-
-
-
-#### Make an API Call {#make-an-api-call}
+#### Make an API Call
 
 This module performs an arbitrary authorized API call.

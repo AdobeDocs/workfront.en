@@ -3,46 +3,41 @@ filename: rename-docu-or-folder
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
+title: Rename a document or folder (not yet implemented)
+description: Renames a document or folder with the given ID in the external system.
 ---
 
-
-
-# Rename a document or folder (not yet implemented) {#rename-a-document-or-folder-not-yet-implemented}
+# Rename a document or folder (not yet implemented)
 
 Renames a document or folder with the given ID in the external system.
 
-
-## URL {#url}
+## URL
 
 PUT /rename
 
+## Query Parameters
 
-## Query Parameters {#query-parameters}
-
+| Name&nbsp; |Description |
+|---|---|
+| id |The document or folder ID to rename |
+| name&nbsp; |The new name of the document or folder |
 
 &nbsp;
 
-
-## Response {#response}
+## Response
 
 A JSON string indicating success or failure, as specified in the Error Handling section below.
 
-
 ` `**Example: **``PUT&nbsp;https://www.acme.com/api/rename
 
-
 -------------------------------
-
 
 id=1234
 
-
 name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
-
 
 -------------------------------
 
-
 returns
-`<pre>{</pre>``<pre>status: “success”</pre>``<pre>}</pre>` returns
-`<pre>{</pre>``<pre>status: “failure”, error: “Folder cannot be renamed because a folder with that name already exists.”</pre>``<pre>}</pre>`  
+<pre>{</pre><pre>status: “success”</pre><pre>}</pre>returns
+<pre>{</pre><pre>status: “failure”, error: “Folder cannot be renamed because a folder with that name already exists.”</pre><pre>}</pre>

@@ -4,51 +4,72 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
+title: Array functions
+description: You must have the following access to use the functionality in this article:
 ---
 
+# Array functions
 
-
-# Array functions {#array-functions}
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> <p data-mc-conditions="SnippetConditions.HIDE"><span class="mc-variable WFVariables.WFFusionAutomation variable varname">Workfront Fusion for Work Automation</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
+     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
+    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## add (array; value1; value2; ...) {#add-array-value-value}
+## add (array; value1; value2; ...)
 
 Adds values specified in parameters to an array and returns that array.
 
-
-## contains (array; value) {#contains-array-value}
+## contains (array; value)
 
 Verifies if an array contains the value.
 
-
-## distinct (array; [key]) {#distinct-array-key}
+## distinct (array; [key])
 
 Removes duplicates inside an array. Use the "key" argument to access properties inside complex objects. To access nested properties, use dot notation. The first item in an array is index 1.
 
@@ -60,49 +81,41 @@ name
 
 `)` Removes duplicates inside an array of contacts by comparing the "name" property
 
-
-## flatten (array) {#flatten-array}
+## flatten (array)
 
 Creates a new array with all sub-array elements concatenated into it, recursively, up to the specified depth.
 
-
 More details about the flatten function can be found in the Array.prototype.flat documentation.
 
-
-## join (array; separator) {#join-array-separator}
+## join (array; separator)
 
 Concatenates all of the items of an array into a string, using the specified separator between each item.
 
-
-## keys (object) {#keys-object}
+## keys (object)
 
 Returns an array of the properties of a given object or array.
 
-
-## length (array) {#length-array}
+## length (array)
 
 Returns the number of items in an array.
 
-
-## map (complex array; key;[key for filtering];[possible values for filtering]) {#map-complex-array-key-key-for-filtering-possible-values-for-filtering}
+## map (complex array; key;[key for filtering];[possible values for filtering])
 
 Returns a primitive array containing values of a complex array. This function allows filtering values. Use raw variable names for keys.
 
-` `**Examples: **`` 
+` `**Examples: **``
 
-
-*  `map(` `Emails[]` `;`
+* `map(` `Emails[]` `;`
 
   ```
   email
   ```
 
-  `)` 
-
+  `)`
 
   Returns a primitive array with emails
 
-*  `map(` `Emails[]` `;`
+* `map(` `Emails[]` `;`
 
   ```
   email
@@ -126,37 +139,37 @@ Returns a primitive array containing values of a complex array. This function al
   home
   ```
 
-  `)` 
-
+  `)`
 
   Returns a primitive array with `emails`having a label equal to work or home
 
+For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md)
 
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+and our Extract an item and/or its value from an array of collections video tutorial
+</MadCap:conditionalText>
+-->
 
-For more information, see [Map information from one module to another](map-information-between-modules.md).
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  and our Extract an item and/or its value from an array of collections video tutorial </MadCap:conditionalText>`.
 
-
-## merge (array1; array2; ...) {#merge-array-array}
+## merge (array1; array2; ...)
 
 Merges one or more arrays into one array.
 
-
-## remove (array; value1; value2; ...) {#remove-array-value-value}
+## remove (array; value1; value2; ...)
 
 Removes values specified in the parameters of an array. This function is effective only on primitive arrays of text or numbers.
 
-
-## reverse (array) {#reverse-array}
+## reverse (array)
 
 The first element of the array becomes the last element. The reverse is also true.
 
-
-## slice (array; start; [end]) {#slice-array-start-end}
+## slice (array; start; [end])
 
 Returns a new array containing only selected items.
 
-
-## sort (array; [order]; [key]) {#sort-array-order-key}
+## sort (array; [order]; [key])
 
 Sorts values of an array. The valid values of the 
 
@@ -166,53 +179,37 @@ order
 
 parameter are:
 
-
-
-*  
+* 
 
   ```
   asc
   ```
 
-
-
-
   (default) - ascending order: 1, 2, 3, ... for type Number. A, B, C, a, b, c, ... for type Text
 
-*  
+* 
 
   ```
   desc
   ```
 
-
-
-
   descending order: ..., 3, 2, 1 for type Number. ..., c, b, a, C, B, A for type Text.
 
-*  
+* 
 
   ```
   asc ci
   ```
 
-
-
-
   case insensitive ascending order: A, a, B, b, C, c, ... for type Text.
 
-*  
+* 
 
   ```
   desc ci
   ```
 
-
-
-
   case insensitive descending order: ..., C, c, B, b, A, a for type Text.
-
-
 
 Use the 
 
@@ -220,32 +217,27 @@ Use the
 key
 ```
 
-parameter to access properties inside complex objects. 
+parameter to access properties inside complex objects.
 
+Use raw variable names for keys.
 
-Use raw variable names for keys. 
-
-
-To access nested properties, use dot notation. 
-
+To access nested properties, use dot notation.
 
 The first item in an array is index 1.
 
-` `**Examples: **`` 
+` `**Examples: **``
 
-
-*  `sort(` `Contacts[]` `;`
+* `sort(` `Contacts[]` `;`
 
   ```
   name
   ```
 
-  `)` 
-
+  `)`
 
   Sorts an array of contacts by the "name" property in default ascending order
 
-*  `sort(` `Contacts[]` `;`
+* `sort(` `Contacts[]` `;`
 
   ```
   desc
@@ -257,12 +249,11 @@ The first item in an array is index 1.
   name
   ```
 
-  `)` 
-
+  `)`
 
   Sorts an array of contacts by the "name" property in descending order
 
-*  `sort(` `Contacts[]` `;`
+* `sort(` `Contacts[]` `;`
 
   ```
   asc ci
@@ -276,29 +267,21 @@ The first item in an array is index 1.
 
   <![CDATA[ ]]>
 
-
   Sorts an array of contacts by the "name" property in case-insensitive ascending order
 
-*  `sort(` `Emails[]` `;`
+* `sort(` `Emails[]` `;`
 
   ```
   sender.name
   ```
 
-  `)` 
-
+  `)`
 
   Sorts an array of emails by the "sender.name" property
 
-
-
-
-
-
-## arrayDifference [array1, array2, mode] {#arraydifference-array-array-mode}
+## arrayDifference [array1, array2, mode]
 
 Returns the difference between two arrays.
-
 
 Enter one of the following values for the 
 
@@ -308,9 +291,7 @@ mode
 
 parameter.
 
-
-
-*  
+* 
 
   ```
   classic
@@ -329,14 +310,13 @@ parameter.
   ```
 
   .
-*  
+* 
 
   ```
   symmetric
   ```
 
-  : Returns an array of elements that are not common to both arrays. 
-
+  : Returns an array of elements that are not common to both arrays.
 
   In other words, the function returns an array that contains all of the elements of 
 
@@ -364,39 +344,21 @@ parameter.
 
   .
 
-
-
-
 ` `**Examples: **`` Given the following arrays:
-
-
-
 
 ```
 myArray = [1,2,3,4,5]
 ```
 
-
-
-
-
-
 ```
 yourArray = [3,4,5,6,7]
 ```
 
-
-
-
-
-*  
+* 
 
   ```
   arrayDifference [myArray, yourArray, classic]
   ```
-
-
-
 
   Returns 
 
@@ -404,16 +366,11 @@ yourArray = [3,4,5,6,7]
   [1,2]
   ```
 
-
-
-*  
+* 
 
   ```
   arrayDifference [yourArray, myArray, classic]
   ```
-
-
-
 
   Returns 
 
@@ -421,24 +378,15 @@ yourArray = [3,4,5,6,7]
   [6,7]
   ```
 
-
-
-*  
+* 
 
   ```
   arrayDifference [myArray, yourArray, symmetric]
   ```
-
-
-
 
   Returns 
 
   ```
   [1,2,6,7]
   ```
-
-
-
-
 

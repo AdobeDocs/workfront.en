@@ -1,12 +1,8 @@
 
 
-
-# ProofHQ API {#proofhq-api}
+# ProofHQ API
 
 This section contains the following subsections:
 
-
-
-* [General](_General.md) 
-
+* [General](../proofhq-api/general/general.md)
 

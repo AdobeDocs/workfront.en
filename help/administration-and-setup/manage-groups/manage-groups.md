@@ -5,21 +5,23 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
+title: Manage groups
+description: This section contains the following subsections:
 ---
 
-
-
-# Manage groups {#manage-groups}
+# Manage groups
 
 This section contains the following subsections:
 
+* [Groups overview](../../administration-and-setup/manage-groups/groups-overview/groups-overview.md) 
+* [Create and manage groups](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md) 
+* [Create and manage subgroups](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md) 
+* [Group roles](../../administration-and-setup/manage-groups/group-roles/group-roles.md)
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md" class="MCXref xref" xrefformat="{para}">Work with a group’s objects</a> </li>
+  -->
 
-* [Groups overview](_groups-overview.md) 
-* [Create and manage groups](_create-and-manage-groups.md) 
-* [Create and manage subgroups](_create-and-manage-subgroups.md) 
-* [Group roles](_group-roles.md) 
-* [Work with a group’s objects](_work-with-a-groups-objects.md) 
-* [Manage group statuses](_manage-group-statuses.md) 
-
+* [Work with a group’s objects](../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md) 
+* [Manage group statuses](../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
 

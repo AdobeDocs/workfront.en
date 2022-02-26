@@ -2,130 +2,150 @@
 filename: submit-workfront-requests-from-ms-teams
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
+title: Submit Adobe Workfront requests from Microsoft Teams
+description: After your team owner installs Adobe Workfront for Microsoft Teams, you can submit Workfront requests from your Microsoft Teams account. To do so, you must have a Workfront account with access to submit requests. For information about installing Workfront for Microsoft Teams, see Installing Workfront for Microsoft Teams.
 ---
 
+#  Submit *Adobe Workfront* requests from Microsoft Teams
 
-
-#  Submit *`Adobe Workfront`* requests from Microsoft Teams {#submit-adobe-workfront-requests-from-microsoft-teams}
-
-After your team owner installs *`Adobe Workfront`* for Microsoft Teams, you can submit *`Workfront`* requests from your Microsoft Teams account. To do so, you must have a *`Workfront`* account with access to submit requests. For information about installing *`Workfront`* for Microsoft Teams, see [Installing *`Workfront`* for Microsoft Teams](install-workfront-ms-teams.md).
-
+After your team owner installs *Adobe Workfront* for Microsoft Teams, you can submit *Workfront* requests from your Microsoft Teams account. To do so, you must have a *Workfront* account with access to submit requests. For information about installing *Workfront* for Microsoft Teams, see [Installing *Workfront* for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->Microsoft Teams no longer supports Internet Explorer. To use the *`Adobe Workfront`* for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
+>Microsoft Teams no longer supports Internet Explorer. To use the *Adobe Workfront* for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
 
-
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Work, Plan, Review, Request</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Work, Plan, Review, Request</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       Example: Edit access to Documents
+      </MadCap:conditionalText></p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[Insert any access level configurations needed] <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      Example: Edit access to Documents
+     </MadCap:conditionalText></p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       Example: View access or higher on Documents
+      </MadCap:conditionalText></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[Insert permissions needed and specify the object] <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      Example: View access or higher on Documents
+     </MadCap:conditionalText></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Prerequisites
 
-## Prerequisites {#prerequisites}
+Your Microsoft Teams team owner must install *Workfront* for Microsoft Teams before you can use it.
 
-Your Microsoft Teams team owner must install *`Workfront`* for Microsoft Teams before you can use it.
+## Submit *Workfront* requests from Microsoft Teams
 
+<ol> 
+ <li value="1"> <p>Click the <span class="bold">More added apps</span> icon on the left navigation bar in Microsoft Teams.</p> <p> <img src="assets/ms-teams-more-added-apps-icon.png"> </p> </li> 
+ <li value="2">Click <span class="bold"><em>Workfront</em></span> in the list that appears.</li> 
+ <li value="3">Click the <span class="bold">Requests</span> tab.</li> 
+ <li value="4">Click <span class="bold">New Request</span>.</li> 
+ <li value="5">In the <span class="bold">Select a Request Type</span> box, select the request queue where you want to submit the request.</li> 
+ <li value="6">(Optional) Select a Topic Group or a Queue Topic, if they are available on the request queue.</li> 
+ <li value="7"> <p>Specify the following information:</p> <p>(Depending on how the request queue was set up, the options and boxes you see might vary. For a complete list and description of possible fields, see <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>.)</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Subject</td> 
+     <td>Type a subject name for the request.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Description</td> 
+     <td>Type a description for the request.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">&nbsp;</td> 
+     <td> <p>Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking Select file and browsing to and selecting the document in your file system.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="8">(Optional) If the <em>Workfront administrator</em> attached custom forms to the request queue, provide the information in the fields available on the custom forms.</li> 
+ <li value="9">The custom forms display at the bottom of the new request.</li> 
+ <li value="10"> <p>Click <span class="bold">Submit</span>.</p> <p>The Request appears in <em>Workfront</em>, in the specified request queue. You receive a confirmation that the request was submitted successfully.</p> </li> 
+</ol>
 
-## Submit *`Workfront`* requests from Microsoft Teams {#submit-workfront-requests-from-microsoft-teams}
+## View *Workfront* requests you submitted in Microsoft Teams
 
-
-
-
-1.  Click the `More added apps` icon on the left navigation bar in Microsoft Teams.
-
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
-
-
-
-1. Click ` *`Workfront`*` in the list that appears.
-1. Click the `Requests` tab.
-1. Click `New Request`.
-1. In the `Select a Request Type` box, select the request queue where you want to submit the request.
-1. (Optional) Select a Topic Group or a Queue Topic, if they are available on the request queue.
-1.  Specify the following information:
-
-
-   (Depending on how the request queue was set up, the options and boxes you see might vary. For a complete list and description of possible fields, see [Create and submit Adobe Workfront requests](create-submit-requests.md).)
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Subject</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Type a subject name for the request.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Description</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Type a description for the request.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking Select file and browsing to and selecting the document in your file system.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-1. (Optional) If the *`Workfront administrator`* attached custom forms to the request queue, provide the information in the fields available on the custom forms.
-1. The custom forms display at the bottom of the new request.
-1.  Click `Submit`.
-
-
-   The Request appears in *`Workfront`*, in the specified request queue. You receive a confirmation that the request was submitted successfully.
-
-
-
-
-
-## View *`Workfront`* requests you submitted in Microsoft Teams {#view-workfront-requests-you-submitted-in-microsoft-teams}
-
-
-
-
-1.  Click the `More added apps` icon on the left navigation bar in Microsoft Teams.
-
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
-
-
-
-1. Click ` *`Workfront`*` in the list that appears.
-1.  Click the `Requests` tab.
-
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
-
-
-
-
-   Requests you submitted are listed in the My submitted requests area of the Requests tab. You cannot configure the information displayed in this tab about the requests you submitted.
-
-
-   You can view the following information about your submitted requests in the My submitted requests area of the Requests tab:
-
-
-1. (Optional) Click the header of any of the columns in the list to sort the list by that column. By default, *`Workfront`* sorts the list by the Submitted on date, starting with the most recently submitted request.
-
+<ol> 
+ <li value="1"> <p>Click the <span class="bold">More added apps</span> icon on the left navigation bar in Microsoft Teams.</p> <p> <img src="assets/ms-teams-more-added-apps-icon.png"> </p> </li> 
+ <li value="2">Click <span class="bold"><em>Workfront</em></span> in the list that appears.</li> 
+ <li value="3"> <p>Click the <span class="bold">Requests</span> tab.</p> <p> <img src="assets/ms-teams-requests-page-with-count-350x198.png" style="width: 350;height: 198;"> </p> <p>Requests you submitted are listed in the My submitted requests area of the Requests tab. You cannot configure the information displayed in this tab about the requests you submitted.</p> <p>You can view the following information about your submitted requests in the My submitted requests area of the Requests tab:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Subject</td> 
+     <td>The name of the request</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Reference number</td> 
+     <td>&nbsp;</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Request type</td> 
+     <td>The name of the request queue where you submitted the request</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Status</td> 
+     <td>&nbsp;</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Submitted on</td> 
+     <td>The date when you submitted the request</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Assigned to</td> 
+     <td>&nbsp;</td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="4">(Optional) Click the header of any of the columns in the list to sort the list by that column. By default, <em>Workfront</em> sorts the list by the Submitted on date, starting with the most recently submitted request.</li> 
+</ol>
 

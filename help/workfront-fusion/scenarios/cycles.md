@@ -3,11 +3,10 @@ filename: cycles
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
+title: Cycles
+description: See Cycles in Scenario execution, cycles, and phases
 ---
 
+# Cycles
 
-
-
-# Cycles {#cycles}
-
-See Cycles in [Scenario execution, cycles, and phases](scenario-execution-cycles-phases.md)
+See Cycles in [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md)

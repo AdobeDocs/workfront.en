@@ -4,287 +4,208 @@ title: Configure document integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
+title: Configure document integrations
+description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-
-
-# Configure document integrations {#configure-document-integrations}
+# Configure document integrations
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-
-As an *`Adobe Workfront administrator`*, you can configure document integrations to manage documents in *`Workfront`*. You can also configure *`Workfront`* so that documents are stored only in document services applications and not in *`Workfront`* itself. For more information, see [Update and link a document from Workfront to an external cloud provider](link-documents-from-external-apps.md#sending-documents) in [Link documents from external applications](link-documents-from-external-apps.md).
-
+As an *Adobe Workfront administrator*, you can configure document integrations to manage documents in *Workfront*. You can also configure *Workfront* so that documents are stored only in document services applications and not in *Workfront* itself. For more information, see [Update and link a document from Workfront to an external cloud provider](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) in [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
->To allow open communication between *`Workfront Proof`* and the *`Workfront`* servers, you might need to add certain IP addresses to your allowlist. For more information, see [Configure your firewall](configure-your-firewall.md).
+>To allow open communication between *Workfront Proof* and the *Workfront* servers, you might need to add certain IP addresses to your allowlist. For more information, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For information on <span class="mc-variable WFVariables.AdminWF-plur variable varname">Workfront administrators</span>, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-
-## Supported integrations {#supported-integrations}
+## Supported integrations
 
 You can configure the following integrations for managing documents:
 
+<ul> 
+ <li> <p>Workfront Library</p> </li> 
+ <li> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><em>Experience Manager Assets Essentials</em> </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><em>Experience Manager Assets Essentials</em> </p> </li> 
+ <li> <p><em>Workfront DAM</em> <br> </p> </li> 
+ <li> <p><em>Workfront Proof</em> <br> </p> <p>Linking <em>proofs</em> from <em>Workfront Proof</em> allows you to make <em>proofs</em> that were originally created within <em>Workfront Proof</em> available within <em>Workfront</em>. A Pro <em>Workfront</em> Plan or higher is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans"><em>Workfront</em> Plans.</a></p> </li> 
+ <li> <p>Microsoft SharePoint<br></p> <p>For information about integrating with SharePoint, see <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">Configure the SharePoint integration</a>.</p> </li> 
+ <li>Third party cloud document providers: 
+  <ul>
+   <li>Box</li>
+   <li>Dropbox</li>
+   <li class="preview">Dropbox Business </li>
+   <li>WebDAM</li>
+   <li>Microsoft OneDrive</li>
+   <li>Google Drive</li><draft-comment>
+    <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">Quip</li>
+   </draft-comment>
+   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">Quip</li>
+  </ul><note type="tip">
+   You can 
+   <em>proof</em> and approve documents linked from an external cloud provider the same way you 
+   <em>proof</em> and approve documents uploaded directly to 
+   <em>Workfront</em>.
+  </note></li> 
+ <li> <p>Other document providers (through custom document integrations).</p> <p>A Pro <em>Workfront</em> Plan or higher is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans"><em>Workfront</em> Plans.</a></p> </li> 
+</ul>
 
+In addition, you can enhance your *Workfront* document experience with a native Digital Asset Management (DAM) system, or with third-party DAM integrations. Administrators must enable these features in order for users to link the service to their *Workfront* account. For more information about Workfront DAM, see [Managing Documents with Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-*  Workfront Library
-*  *`Workfront DAM`*   
+## Configure integrations to manage documents
 
-*  *`Workfront Proof`*   
+<ol> 
+ <li value="1">Log in to <em>Workfront</em> as the administrator.</li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="3">In the left panel, click <span class="bold">Documents</span> > <span class="bold">Cloud Providers.</span></li> 
+ <li value="4">(Optional) To stored documents in a document services application and not in <em>Workfront</em>, select <span class="bold">Prevent Users From Storing Documents in Workfront.</span><br></li> 
+ <li value="5">Select the integrations you want enabled.</li> 
+ <li value="6">Click <span class="bold">Save</span>.</li> 
+</ol>
 
+If you are setting up integrations with *Workfront Library* or *Workfront DAM*, you can enable Workfront to include metadata with documents. For information about mapping metadata, see [Set up metadata mapping](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
+## Configure custom document integrations
 
-  Linking *`proofs`* from *`Workfront Proof`* allows you to make *`proofs`* that were originally created within *`Workfront Proof`* available within *`Workfront`*. A Pro *`Workfront`* Plan or higher is required to use this feature. For more information about the various plans available, see [ *`Workfront`* Plans.](https://www.workfront.com/plans)
+A custom document integration allows *Workfront* users to link files into *Workfront* from practically any system, provided that the system is made to work with *Workfront*.
 
-*  Microsoft SharePoint  
-
-
-
-  For information about integrating with SharePoint, see [Configure the SharePoint integration](configure-sharepoint-integration.md).
-
-* Third party cloud document providers: 
-    
-    
-    * Box
-    * Dropbox
-    * Dropbox Business 
-    * WebDAM
-    * Microsoft OneDrive
-    * Google Drive
-    
-    
-
-
-  >[!TIP] {type="tip"}
-  >
-  >You can *`proof`* and approve documents linked from an external cloud provider the same way you *`proof`* and approve documents uploaded directly to *`Workfront`*.
-
-
-
-*  Other document providers (through custom document integrations).
-
-
-  A Pro *`Workfront`* Plan or higher is required to use this feature. For more information about the various plans available, see [ *`Workfront`* Plans.](https://www.workfront.com/plans)
-
-
-
-In addition, you can enhance your *`Workfront`* document experience with a native Digital Asset Management (DAM) system, or with third-party DAM integrations. Administrators must enable these features in order for users to link the service to their *`Workfront`* account. For more information about Workfront DAM, see [Managing Documents with Adobe Workfront DAM](manage-docs-with-wf-dam.md).
-
-
-## Configure integrations to manage documents {#configure-integrations-to-manage-documents}
-
-
-
-
-1. Log in to *`Workfront`* as the administrator.
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1. In the left panel, click `Documents` > `Cloud Providers.`
-
-1. (Optional) To stored documents in a document services application and not in *`Workfront`*, select `Prevent Users From Storing Documents in Workfront.`  
-
-1. Select the integrations you want enabled.
-1. Click `Save`.
-
-
-If you are setting up integrations with *`Workfront Library`* or *`Workfront DAM`*, you can enable Workfront to include metadata with documents. For information about mapping metadata, see [Set up metadata mapping](set-up-metadata-mapping.md).
-
-
-## Configure custom document integrations {#configure-custom-document-integrations}
-
-A custom document integration allows *`Workfront`* users to link files into *`Workfront`* from practically any system, provided that the system is made to work with *`Workfront`*.
-
-
-To make the custom integration available to users, you first need to build the integration. For information about how to build integrations to be used with *`Workfront`*, see [Document Webhooks API](docu-webhook-api.md).
-
+To make the custom integration available to users, you first need to build the integration. For information about how to build integrations to be used with *Workfront*, see [Document Webhooks API](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
 
 After the custom document integration is built, you can make it available to users on your site.
 
-
-
-1. Log in to *`Workfront`* as the administrator.
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).  
-
-1. In the left panel, click `Documents` > `Custom Integration.`
-
-1. Click `Add Custom integration`.
-1.  Specify the following information to configure the integration:
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1" style="width: 300px;"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" style="font-weight: bold;" role="rowheader">Name</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">The name of the custom integration. This is the name users see when using the integration within <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" style="font-weight: bold;" role="rowheader">Base API URL </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The base HTTP or secure HTTP URL for API calls. For example, <a class="link-https" title="https://documentprovider.com/api/v2" href="https://documentprovider.com/api/v2">https://documentprovider.com/api/v2</a></td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" style="font-weight: bold;" role="rowheader">Authentication Type</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>The authentication method to use when making authorized API calls to the custom integration.</p> 
-    <ul> 
-     <li>If you choose <span class="bold">OAuth</span>, continue with Step 6.</li> 
-     <li>If you choose <span class="bold">ApiKey</span>, continue with Step 7.</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-1.  (Conditional) If you selected `OAuth` authentication for the `Authentication Type`, specify the following information:
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col style="width: 300px;" class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" style="font-weight: bold;" role="rowheader">Authentication URL</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">The full URL used for user authentication. <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>&nbsp;navigates users to this address as part of the OAuth provisioning process.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" style="font-weight: bold;" role="rowheader">Token Endpoint URL</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The full API URL used to retrieve OAuth tokens.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" style="font-weight: bold;" role="rowheader">Client ID</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">The OAut&nbsp;Client ID for this integration.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" style="font-weight: bold;" role="rowheader">Client Secret</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The OAut&nbsp;Client Secret for this integration.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" style="font-weight: bold;" role="rowheader">Request Parameters</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Specify optional values to be appended to the query string of every API call. For example, access_type=offline.</p> <p>To add multiple request parameters, click <span class="bold">+Add Request Parameter</span>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-
-   >[!TIP] {type="tip"}
-   >
-   >The Workfront&nbsp;Redirect URI that displays at the bottom of the Custom Integration page lists the URI used to register this integration with the external document provider.
-
-
-
-1.  (Conditional) If you selected `ApiKey` authentication for the `Authentication Type`, specify the API key that was issued by the custom document provider.
-
-
-   *`Workfront`* uses this API key to make authorized API calls to the document provider.
-
-1. Click `Save` to create the integration.
-
-
-
-
-## Use document integrations {#use-document-integrations}
-
-For information about how users can use *`Workfront Library`*, see [Add a Workfront Library asset to Workfront](add-a-wf-library-asset.md).
-
-
-For information about how users can use *`Workfront DAM`*, see [Managing Documents with Adobe Workfront DAM](manage-docs-with-wf-dam.md).
-
-
-For information about how users can use *`Workfront Proof`*, see [Generate a proof](generate-proof.md).
-
-
-For information about how users can use third-party&nbsp;document integrations after you have configured them, see [Link documents from external applications](link-documents-from-external-apps.md).
-
-
-### Configure *`Workfront`* to send metadata to *`Workfront`* DAM {#configure-workfront-to-send-metadata-to-workfront-dam}
-
-When sending a document from *`Workfront`* to *`Workfront DAM`*, you can also send information associated with that document. Information about the document is mapped to *`Workfront DAM`* as metadata.
-
-
-Information is mapped one-way only, from *`Workfront`* to *`Workfront DAM`* and it is transferred only when the document is uploaded to *`Workfront DAM`*. Any future changes in the *`Workfront`* fields will not update metadata fields in *`Workfront DAM`* after the document has already been uploaded.  
-You can map the same *`Workfront`* field to various *`Workfront DAM`* fields, but you cannot use the same *`Workfront DAM`* field for multiple *`Workfront`* fields.&nbsp;
-
-
-If you must configure multiple *`Workfront`* fields to export to one *`Workfront DAM`* field, first create a calculated custom field in *`Workfront`* to display all the individual custom fields of an object. Then, map the calculated *`Workfront`* field to one *`Workfront DAM`* field.  
-For more information about calculated custom fields, see [Add calculated data to a custom form](add-calculated-data-to-custom-form.md).
-
-
-The mapping affects all the documents uploaded by any user from *`Workfront`* to *`Workfront DAM`*. 
-
-
-As a *`Workfront administrator`*, you must enable *`Workfront DAM`* in *`Workfront`* before you can map the fields for the metadata mapping process. For more information about how to enable *`Workfront DAM`*, see [Configure Workfront to send metadata to Workfront DAM](#configur2). &nbsp;
-
-
-To configure *`Workfront`* to send metadata to *`Workfront DAM`*:
-
-
-
-1. <![CDATA[        ]]>Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).  
-
-1.  Click `Documents` > `Metadata Mapping`.   
-
-1.  In the `Select Source Field for Mapping` field, begin typing the name of the *`Workfront`* field you want to map to *`Workfront DAM`*, then select it when you see it in the list.&nbsp;
-
-1.  In the `Select Target Field for Mapping`, select the *`Workfront DAM`* field you want to populate with the information in the selected *`Workfront`* field.
-
-
-   >[!NOTE]
-   >
-   >All documents sent to *`Workfront DAM`* by users who have the rights to do so have their metadata updated with the *`Workfront`* fields mapped here, when they upload to *`Workfront DAM`*.
-
-
-
-1. Click `Add Mapping`.  
-
-1. Continue adding more *`Workfront`* fields and corresponding *`Workfront DAM`* fields.&nbsp;
-
-
-
-
-
-### Delete mapped fields {#delete-mapped-fields}
-
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).  
-
-1. Expand `Documents`, then click `Metadata Mapping`.
-
-1. In the list of fields, select any of the fields you want to remove from metadata mapping.
-1.  Click `Delete`.  
-
-
-
-   The fields are removed from metadata mapping and the information contained in them is not transferred to *`Workfront DAM`* with the uploaded documents.&nbsp;
-
-
+<ol> 
+ <li value="1">Log in to <em>Workfront</em> as the administrator.</li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="3">In the left panel, click <span class="bold">Documents</span> > <span class="bold">Custom Integration.</span></li> 
+ <li value="4">Click <span class="bold">Add Custom integration</span>.</li> 
+ <li value="5"> <p>Specify the following information to configure the integration:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Name</td> 
+     <td>The name of the custom integration. This is the name users see when using the integration within <em>Workfront</em>.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Base API URL </td> 
+     <td>The base HTTP or secure HTTP URL for API calls. For example, <a class="link-https" title="https://documentprovider.com/api/v2" href="https://documentprovider.com/api/v2">https://documentprovider.com/api/v2</a></td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Authentication Type</td> 
+     <td> <p>The authentication method to use when making authorized API calls to the custom integration.</p> 
+      <ul> 
+       <li>If you choose <span class="bold">OAuth</span>, continue with Step 6.</li> 
+       <li>If you choose <span class="bold">ApiKey</span>, continue with Step 7.</li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="6"> <p>(Conditional) If you selected <span class="bold">OAuth</span>&nbsp;authentication for the <span class="bold">Authentication Type</span>, specify the following information:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Authentication URL</td> 
+     <td>The full URL used for user authentication. <em>Workfront</em>&nbsp;navigates users to this address as part of the OAuth provisioning process.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Token Endpoint URL</td> 
+     <td>The full API URL used to retrieve OAuth tokens.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Client ID</td> 
+     <td>The OAut&nbsp;Client ID for this integration.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Client Secret</td> 
+     <td>The OAut&nbsp;Client Secret for this integration.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Request Parameters</td> 
+     <td> <p>Specify optional values to be appended to the query string of every API call. For example, access_type=offline.</p> <p>To add multiple request parameters, click <span class="bold">+Add Request Parameter</span>.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> <note type="tip">
+   The Workfront&nbsp;Redirect URI that displays at the bottom of the Custom Integration page lists the URI used to register this integration with the external document provider.
+  </note> </li> 
+ <li value="7"> <p>(Conditional) If you selected <span class="bold">ApiKey</span> authentication for the <span class="bold">Authentication Type</span>, specify the API key that was issued by the custom document provider.</p> <p><em>Workfront</em> uses this API key to make authorized API calls to the document provider.</p> </li> 
+ <li value="8">Click <span class="bold">Save</span> to create the integration.</li> 
+</ol>
+
+## Use document integrations
+
+For information about how users can use *Workfront Library*, see [Add a Workfront Library asset to Workfront](../../workfront-library/content-management/add-a-wf-library-asset.md).
+
+For information about how users can use *Workfront DAM*, see [Managing Documents with Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+
+For information about how users can use *Workfront Proof*, see [Generate a proof](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md).
+
+For information about how users can use third-party&nbsp;document integrations after you have configured them, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+### Configure *Workfront* to send metadata to *Workfront* DAM
+
+When sending a document from *Workfront* to *Workfront DAM*, you can also send information associated with that document. Information about the document is mapped to *Workfront DAM* as metadata.
+
+Information is mapped one-way only, from *Workfront* to *Workfront DAM* and it is transferred only when the document is uploaded to *Workfront DAM*. Any future changes in the *Workfront* fields will not update metadata fields in *Workfront DAM* after the document has already been uploaded.  
+You can map the same *Workfront* field to various *Workfront DAM* fields, but you cannot use the same *Workfront DAM* field for multiple *Workfront* fields.&nbsp;
+
+If you must configure multiple *Workfront* fields to export to one *Workfront DAM* field, first create a calculated custom field in *Workfront* to display all the individual custom fields of an object. Then, map the calculated *Workfront* field to one *Workfront DAM* field.  
+For more information about calculated custom fields, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+
+The mapping affects all the documents uploaded&nbsp;by any user from *Workfront* to *Workfront DAM*.
+
+As a *Workfront administrator*, you must enable *Workfront DAM* in *Workfront* before you can map the fields for the metadata mapping process. For more information about how to&nbsp;enable *Workfront DAM*, see [Configure Workfront to send metadata to Workfront DAM](#configur2). &nbsp;
+
+To configure *Workfront* to send metadata to *Workfront DAM*:
+
+<ol> 
+ <li value="1"><![CDATA[
+        ]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="2"> Click <span class="bold">Documents</span> > <span class="bold">Metadata Mapping</span>. <br></li> 
+ <li value="3"> In the <span class="bold">Select Source Field for Mapping</span> field, begin&nbsp;typing the name of the <em>Workfront</em> field you want to map to <em>Workfront DAM</em>, then select it when you see it in the list.&nbsp;</li> 
+ <li value="4"> <p>In&nbsp;the <span class="bold">Select Target Field for Mapping</span>, select the <em>Workfront DAM</em> field you want to populate with the information in the selected <em>Workfront</em> field.</p> <note type="note">
+   &nbsp;All&nbsp;documents sent to 
+   <em>Workfront DAM</em> by users who have the rights to do so have their metadata updated with the 
+   <em>Workfront</em> fields mapped here, when they upload to 
+   <em>Workfront DAM</em>.
+  </note> </li> 
+ <li value="5">Click <span class="bold">Add Mapping</span>.<br></li> 
+ <li value="6">Continue adding more <em>Workfront</em> fields and&nbsp;corresponding <em>Workfront DAM</em> fields.&nbsp;</li> 
+</ol>
+
+### Delete mapped fields
+
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="2">Expand <span class="bold">Documents</span>, then click <span class="bold">Metadata Mapping</span>.</li> 
+ <li value="3">In the list of fields, select any of the fields you want to remove from metadata mapping.</li> 
+ <li value="4"> <p>Click <span class="bold">Delete</span>.<br></p> <p>The fields are removed from metadata mapping and the information contained in them is not transferred to <em>Workfront DAM</em> with the uploaded documents.&nbsp;</p> </li> 
+</ol>
 

@@ -1,0 +1,13 @@
+---
+filename: what-if-scenarios-balancer
+product-area: resource-management
+navigation-topic: the-workload-balancer
+title: Perform 'what-if' scenarios in the Workload Balancer
+description: This is a long-term goal; functionality not mapped yet. This is a placeholder for now.
+---
+
+# Perform 'what-if' scenarios in the *Workload Balancer*
+
+This is a long-term goal; functionality not mapped yet. This is a placeholder for now.
+
+The title might change to not have quotes in it?!&nbsp;

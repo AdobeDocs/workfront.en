@@ -2,55 +2,41 @@
 filename: r1-release-webinars
 content-type: release-notes
 navigation-topic: product-releases-archive
+title: R1 release webinars
+description: These webinars were focused on functionality included in the R1 release.
 ---
 
-
-
-# R1 release webinars {#r-release-webinars}
+# R1 release webinars
 
 These webinars were focused on functionality included in the R1 release.&nbsp;
 
-
 The R1 release is currently available to test in Preview; R1 releases to the Production environment on April 26, 2017.
 
-
-To view more detailed information about the functionality covered in the webinars, see the [R1 release activity overview](r1-release-activity-overview.md) page.
-
+To view more detailed information about the functionality covered in the webinars, see the [R1 release activity overview](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) page.
 
 The following webinar recordings are available:
 
+## R1 Release Webinar (March 29, 2017)
 
-## R1 Release Webinar (March 29, 2017) {#r-release-webinar-march}
-
-The *`Workfront`* R1 2017 Release Webinar was presented by the *`Workfront`* Product team on March 29. &nbsp;
-
+The *Workfront* R1 2017 Release Webinar was presented by the *Workfront* Product team on March 29. &nbsp;
 
 For convenience, the webinar is divided into the following topics:
-
-
 
 * [Introduction](#introduction) 
 * [Projects](#projects) 
 * [User Management](#user-management) 
 * [Configuration](#configuration) 
-* [Mobile and Outlook](#mobile-and-outlook) 
+* [Mobile and Outlook](#mobile-and-outlook)
 
+### Introduction
 
-
-
-### Introduction {#introduction}
-
-This portion of the webinar contains information about the release process, the Preview sandbox environment, and how to find more information about the release. 
-
+This portion of the webinar contains information about the release process, the Preview sandbox environment, and how to find more information about the release.
 
 `<iframe class="mt-media" src="assets/210676267?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
 
+### Projects
 
-### Projects {#projects}
-
-This portion of the webinar contains the following topics: 
-
-
+This portion of the webinar contains the following topics:
 
 * Recycle Bin
 * Utilization Report
@@ -64,15 +50,11 @@ This portion of the webinar contains the following topics:
 * Milestone View Enhancements
 * Reports Show the Gantt Chart by Default
 
-
 `<iframe class="mt-media" src="assets/210676363?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
 
+### User Management
 
-### User Management {#user-management}
-
-This portion of the webinar contains the following topics: 
-
-
+This portion of the webinar contains the following topics:
 
 * Redesign of the Group UI
 * Make a Group Public
@@ -83,15 +65,11 @@ This portion of the webinar contains the following topics:
 * Resource Scheduling Enhancements
 * Proofing Enhancements
 
-
 `<iframe class="mt-media" src="assets/210676485?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
 
+### Configuration
 
-### Configuration {#configuration}
-
-This portion of the webinar contains the following topics: 
-
-
+This portion of the webinar contains the following topics:
 
 * Terminology Customizations
 * Email Digest Options
@@ -102,28 +80,21 @@ This portion of the webinar contains the following topics:
 * Updated Event Notification Groupings in the Email Setup Area
 * Updated Look and Feel of Several System Setup Pages
 
-
 `<iframe class="mt-media" src="assets/210676560?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
 
+### Mobile and Outlook
 
-### Mobile and Outlook {#mobile-and-outlook}
-
-This portion of the webinar contains the following topics: 
-
-
+This portion of the webinar contains the following topics:
 
 * Mobile Enhancements
 * Outlook for Office 365
 
-
 `<iframe class="mt-media" src="assets/210676629?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
 
-
-## Preview 3 and Preview 4 Webinar (February 22, 2017) {#preview-and-preview-webinar-february}
+## Preview 3 and Preview 4 Webinar (February 22, 2017)
 
 `<iframe class="mt-media" src="assets/205295191?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
 
-
-## Preview 1, Preview 2, and Release Changes Webinar (January 19, 2017) {#preview-preview-and-release-changes-webinar-january}
+## Preview 1, Preview 2, and Release Changes Webinar (January 19, 2017)
 
 `<iframe class="mt-media" src="assets/200216498?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;

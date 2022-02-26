@@ -4,25 +4,19 @@ content-type: reference
 product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
+title: Manage security
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Manage security
 
-
-# Manage security {#manage-security}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-
-
-* [Proof security in Workfront Proof](proof-security-in-workfront-proof.md) 
-* [Single Sign-On in Workfront Proof](single-sign-on-overview.md) 
-* [Understanding electronic signatures in Workfront Proof](electronic-sigs-in-wp.md) 
-
+* [Proof security in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md) 
+* [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) 
+* [Understanding electronic signatures in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
 

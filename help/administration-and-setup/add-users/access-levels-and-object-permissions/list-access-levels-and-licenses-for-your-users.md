@@ -6,86 +6,70 @@ content-type: reference
 product-area: system-administration
 keywords: access,level,license
 navigation-topic: access-levels
+title: List your users’ access levels and licenses
+description: You can see which access level and license is assigned to each user in a user list or report.
 ---
 
+# List your users’ access levels and licenses
 
+You can see which access level and license is assigned to each user in a user list or report.
 
-# List your users’ access levels and licenses {#list-your-users-access-levels-and-licenses}
-
-You can see which access level and license is assigned to each user in a user list or report. 
-
-
->[!TIP] {type="tip"}
+>[!TIP]
 >
 >You can also group the list by license types, or filter it by a specific license.
 
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>View access to users. For more information about access to viewing users, see <a href="grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access to users. For more information about access to viewing users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## List your users’ access levels and licenses
 
-## List your users’ access levels and licenses {#list-your-users-access-levels-and-licenses-1}
-
-
-
-
-1.   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the  <span class="bold">Main Menu</span> icon  <img src="assets/main-menu-icon.png"> in the upper-right corner of  <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span>, then click <span class="bold"> Users</span>.</MadCap:conditionalText>` 
-
-
-   By default, all users who are set as Active display in the list.
-
-1.   In the `View` drop-down menu, select `Licenses`.
-
-
-   The `License` column displays the name of the license assigned to each user.
-
-1.  In the `Grouping` drop-down menu, click `License Type`.
-
-
-   This view groups together the users who have the same license types.
-
-1. (Optional) To filter the list by a specific license:
-    
-    
-    1. Click the `Filter` drop-down menu, then click `New Filter`.
-    
-    1. Click `Add a Filter Rule`.
-    1. Start typing `License` and select it when it appears in the list.
-    1. With the `Equal` modifier selected, start typing the name of the license you want to filter the list by.
-    
-    
-       You can specify more than one license type.
-    
-    1. Click `Save Filter`.
-    
-    
-       The list displays only the users associated with the license types that you specified in the filter.
-    
-    
-    
-
+<ol> 
+ <li value="1"> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Click the 
+     <span class="bold">Main Menu</span> icon 
+     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
+     <em>Adobe Workfront</em>, then click
+     <span class="bold"> Users</span>.
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Click the 
+    <span class="bold">Main Menu</span> icon 
+    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
+    <em>Adobe Workfront</em>, then click
+    <span class="bold"> Users</span>.
+   </MadCap:conditionalText> </p> <p>By default, all users who are set as Active display in the list.</p> </li> 
+ <li value="2"> <p> In the <span class="bold">View</span> drop-down menu, select <span class="bold">Licenses</span>.</p> <p>The <span class="bold">License</span> column displays the name of the license assigned to each user.</p> </li> 
+ <li value="3"> <p>In the <span class="bold">Grouping</span> drop-down menu, click <span class="bold">License Type</span>.</p> <p>This view groups together the users who have the same license types.</p> </li> 
+ <li value="4">(Optional) To filter the list by a specific license:
+  <ol>
+   <li value="1">Click the <span class="bold">Filter</span> drop-down menu, then click <span class="bold">New Filter</span>.</li>
+   <li value="2">Click <span class="bold">Add a Filter Rule</span>.</li>
+   <li value="3">Start typing <span class="bold">License</span> and select it when it appears in the list.</li>
+   <li value="4"><p>With the <span class="bold">Equal</span> modifier selected, start typing the name of the license you want to filter the list by.</p><p>You can specify more than one license type.</p></li>
+   <li value="5"><p>Click <span class="bold">Save Filter</span>.</p><p>The list displays only the users associated with the license types that you specified in the filter.</p></li>
+  </ol></li> 
+</ol>
 

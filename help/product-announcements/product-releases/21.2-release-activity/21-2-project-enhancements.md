@@ -3,353 +3,321 @@ filename: 21-2-project-enhancements
 content-type: release-notes
 keywords: notes,quarterly,update,release
 navigation-topic: 2021-2-release-activity
+title: 21.2 Project enhancements
+description: This page describes all project enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
 ---
 
+# 21.2 Project enhancements
 
+This page describes all *project* enhancements made with the *21.2* release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the *21.2* release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-# 21.2 Project enhancements {#project-enhancements}
-
-This page describes all *`project`* enhancements made with the *`21.2`* release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the *`21.2`* release, see [21.2 Release overview](21-2-release-overview.md).
-
-
-## New interface for creating and editing recurring tasks {#new-interface-for-creating-and-editing-recurring-tasks}
-
-
+## New interface for creating and editing recurring tasks
 
 >[!NOTE]
 >
->Available only in *`the new Adobe Workfront experience`*.
-
+>Available only in *the new Adobe Workfront experience*.
 
 As part of the redesign of the New and Edit Task boxes, we have added the ability to make a new task recurring as well as to edit the parent of a recurring task. This functionality was not included in the New and Edit Task box redesign released earlier.
 
+For more information, see 
 
-For more information, see [Create recurring tasks](create-recurring-tasks.md).
+<!--
+<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Create recurring tasks</a>
+-->
 
+[Create recurring tasks](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-`<iframe class="vimeo-player_0" src="assets/539887494?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+`<iframe class="vimeo-player_0" src="assets/539887494?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
-
-[View this video in full-screen mode.](https://vimeo.com/539887494/5d6eb5bc04) 
-
+[View this video in full-screen mode.](https://vimeo.com/539887494/5d6eb5bc04)
 
 This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 2: Plan a Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) learning path on Workfront One.
 
-
-## New buttons available in Projects header {#new-buttons-available-in-projects-header}
-
-
+## New buttons available in Projects header
 
 >[!NOTE]
 >
 >This feature is not yet available in Preview. It will release to the Preview environment on April 29, 2021.
 
-
 To allow you to quickly filter the list of projects on the Projects page, there are two new buttons in the header that allow you to quickly apply the Projects I’m On or Projects I Own filter.
 
+For more information on these filters, see 
 
-For more information on these filters, see [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](subtabs-removed.md).
+<!--
+<a href="../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Subtabs replaced by new main areas or filters in the new Adobe Workfront experience</a>
+-->
 
+[Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
 
-`<iframe class="vimeo-player_0" src="assets/539899695?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+`<iframe class="vimeo-player_0" src="assets/539899695?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
-
-[View this video in full-screen mode.](https://vimeo.com/539899695/71295bba4f) 
-
+[View this video in full-screen mode.](https://vimeo.com/539899695/71295bba4f)
 
 This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 1: Create a Project](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) learning path on Workfront One.
 
-
-## Move or delete a story or issue from the Scrum board {#move-or-delete-a-story-or-issue-from-the-scrum-board}
-
-
+## Move or delete a story or issue from the Scrum board
 
 >[!NOTE]
 >
->Available only in *`the new Adobe Workfront experience`*.
-
+>Available only in *the new Adobe Workfront experience*.
 
 You can now move a story or issue off of your Scrum board by clicking the More icon on a story or issue card and selecting Move to. If you have future iterations defined, you can move the item to another iteration. You can also move the item to your team's backlog.
 
-
 You also have the option to delete a story or issue directly from your Scrum board by clicking the More icon on a card and selecting Delete. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator.
 
+For more information, see 
 
-For more information, see [Manage stories and issues on the Scrum board](manage-scrum-board.md).
+<!--
+<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Manage stories and issues on the Scrum board</a>
+-->
 
+[Manage stories and issues on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
 
-`<iframe class="vimeo-player_0" src="assets/540320334?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+`<iframe class="vimeo-player_0" src="assets/540320334?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/540320334/bfa90eda56)
 
-[View this video in full-screen mode.](https://vimeo.com/540320334/bfa90eda56) 
-
-
-## New Edit Issue Box {#new-edit-issue-box}
-
-
+## New Edit Issue Box
 
 >[!NOTE]
 >
->Available only in *`the new Adobe Workfront experience`*.
-
+>Available only in *the new Adobe Workfront experience*.
 
 As part of updating the look and feel of the new Workfront experience, we have redesigned the Edit Issue box. You can access the new Edit Issue box from an individual issue or when editing a single issue from a list.
 
-
 In addition to an updated look and feel, the following changes are also available in the Issue Task box:
 
+* You can customize your Layout Template once and reflect those customizations in both the Details page and the Edit Issue box.
+* Individual custom form names are now available on the left panel inside the Edit Issue box and you can quickly access each form from there.
+* We have added the Planned Hours field to the Assignments section to make it easier to update the time it might take resources to complete the issue.
+* We have removed the commenting functionality from the Edit Issue screen to eliminate redundancy with the Updates section.
 
+`<iframe class="vimeo-player_0" src="assets/539897635?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
-*  You can customize your Layout Template once and reflect those customizations in both the Details page and the Edit Issue box.
-*  Individual custom form names are now available on the left panel inside the Edit Issue box and you can quickly access each form from there.
-*  We have added the Planned Hours field to the Assignments section to make it easier to update the time it might take resources to complete the issue.
-*  We have removed the commenting functionality from the Edit Issue screen to eliminate redundancy with the Updates section.
+[View this video in full-screen mode.](https://vimeo.com/539897635/47d032e7ec)
 
-
-`<iframe class="vimeo-player_0" src="assets/539897635?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/539897635/47d032e7ec) 
-
-
-## Relocated the Save and Cancel buttons for the Edit and New Object boxes {#relocated-the-save-and-cancel-buttons-for-the-edit-and-new-object-boxes}
-
-
+## Relocated the Save and Cancel buttons for the Edit and New Object boxes
 
 >[!NOTE]
 >
->Available only in *`the new Adobe Workfront experience`*.
+>Available only in *the new Adobe Workfront experience*.
 
-
-Based on user feedback, we have moved the Save and Cancel buttons to the lower-left corner of the Edit Object and New Object boxes for projects and tasks. 
-
+Based on user feedback, we have moved the Save and Cancel buttons to the lower-left corner of the Edit Object and New Object boxes for projects and tasks.
 
 Prior to this enhancement, these buttons were located in the upper-right corner of these boxes.
 
-
 For information about editing projects or tasks, see the following articles:
 
+* 
 
+  <!--
+  <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Edit projects</a>
+  -->
 
-*  [Edit projects](edit-projects.md) 
-*  [Edit tasks](edit-tasks.md) 
+  [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) 
+* 
 
+  <!--
+  <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Edit tasks</a>
+  -->
+
+  [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
 ![](assets/pasted-image-4-5-2021-0-350x278.png)
 
-
-
-
-## Custom forms enhancement {#custom-forms-enhancement}
-
-
+## Custom forms enhancement
 
 >[!NOTE]
 >
->This feature is available only in *`the new Adobe Workfront experience`*.
-
-
+>This feature is available only in *the new Adobe Workfront experience*.
 
 For a better experience when you fill out a custom form, we have improved the way that long custom field labels display. When there is enough horizontal space to show them in their entirety, these labels are no longer truncated.
 
+For information about filling out custom forms, see 
 
-For information about filling out custom forms, see [Edit information in custom form fields in Adobe Workfront](edit-custom-forms.md).
+<!--
+<a href="../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Edit information in custom form fields in Adobe Workfront</a>
+-->
 
+[Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-`<iframe class="vimeo-player_0" src="assets/522396709?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+`<iframe class="vimeo-player_0" src="assets/522396709?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/522396709/91d3105bd5)
 
-[View this video in full-screen mode.](https://vimeo.com/522396709/91d3105bd5) 
-
-
-## The Primary Contact of an Issue is now visible from the Project Details area {#the-primary-contact-of-an-issue-is-now-visible-from-the-project-details-area}
-
-
+## The Primary Contact of an Issue is now visible from the Project Details area
 
 >[!NOTE]
 >
 >This feature released to the Production environment on March 10, 2020.
 
-
 When converting an issue to a project, the issue’s requester is transferred to the project and visible in the Converted Issue Originator field. You can view this field in the Project Details area, as well as in project reports and lists. This information is also visible for tasks, only in reports and lists.
 
+You must enable this field in your Layout Template to be able to view it in the new *Adobe Workfront* experience for projects.
 
-You must enable this field in your Layout Template to be able to view it in the new *`Adobe Workfront`* experience for projects.
+For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
+`<iframe class="vimeo-player_0" src="assets/516275975?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
-For information about converting issues, see [Overview of converting issues in Adobe Workfront](convert-issues.md).
+[View this video in full-screen mode.](https://vimeo.com/516275975/f775e74810)
 
-
-`<iframe class="vimeo-player_0" src="assets/516275975?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/516275975/f775e74810) 
-
-
-## View information about a group that you want to assign to a portfolio, program, or team {#view-information-about-a-group-that-you-want-to-assign-to-a-portfolio-program-or-team}
-
-
+## View information about a group that you want to assign to a portfolio, program, or team
 
 >[!NOTE]
 >
->This feature is available only in *`the new Adobe Workfront experience`*.
-
+>This feature is available only in *the new Adobe Workfront experience*.
 
 When you are assigning a group to a portfolio, program, or team, we’ve made it easier to ensure that you have the right group—you can click the info icon next to the name of the group to display a tooltip containing the hierarchy of groups above it, along with the group’s administrators. Depending on the details configured for the group, you might also see the group’s Business Leader and description.
 
-
-This is the same functionality that was released recently to help you identify a group that you need to assign to a project, as explained in [Edit projects](edit-projects.md).
-
+This is the same functionality that was released recently to help you identify a group that you need to assign to a project, as explained in [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 For more information, see the following articles:
 
+* 
 
+  <!--
+  <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Create a portfolio</a>
+  -->
 
-*  [Create a portfolio](create-portfolios.md) 
-*  [Create a program](create-program.md) 
-*  [Create a team](create-a-team.md) 
+  [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) 
+* 
 
+  <!--
+  <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Create a program</a>
+  -->
 
+  [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) 
+* 
 
+  <!--
+  <a href="../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Create a team</a>
+  -->
 
-## Text formatting in custom fields now displays in all Workfront Classic lists and reports {#text-formatting-in-custom-fields-now-displays-in-all-workfront-classic-lists-and-reports}
+  [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 
-
+## Text formatting in custom fields now displays in all Workfront Classic lists and reports
 
 >[!NOTE]
 >
->This feature is available only in *`Adobe Workfront Classic`*.
-
+>This feature is available only in *Adobe Workfront Classic*.
 
 Users can now see text formatting such as bold, bullet lists, and hyperlinks in custom fields when viewing lists and reports.
 
-
 Previously in Workfront Classic, text formatting was visible only in Project, Task, and Hour lists.
 
+For information about formatting text in a custom field, see 
 
-For information about formatting text in a custom field, see [Create a custom form](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+<!--
+<a href="https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Create a custom form</a>
+-->
 
+[Create a custom form](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
-For information about displaying information in lists, see [Get started with lists](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&_LANG=en).
+For information about displaying information in lists, see 
 
+<!--
+<a href="https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&_LANG=en" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Get started with lists</a>
+-->
 
-`<iframe class="vimeo-player_0" src="assets/516458707?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+[Get started with lists](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&_LANG=en).
 
+`<iframe class="vimeo-player_0" src="assets/516458707?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
-[View this video in full-screen mode.](https://vimeo.com/516458707/519f4f9295) 
+[View this video in full-screen mode.](https://vimeo.com/516458707/519f4f9295)
 
-
-## New Edit Task box  {#new-edit-task-box}
-
-
+## New Edit Task box
 
 >[!NOTE]
 >
->Available only in *`the new Adobe Workfront experience`*.
-
+>Available only in *the new Adobe Workfront experience*.
 
 As part of updating the look and feel of the new Workfront experience, we have redesigned the Edit Task box. You can access the new Edit Task box from an individual task or when editing a single task from a list.
 
-
 >[!NOTE]
 >
->As part of this update, the Resource Scope field will be removed from *`the new Adobe Workfront experience`*.
-
+>As part of this update, the Resource Scope field will be removed from *the new Adobe Workfront experience*.
 
 In addition to an updated look and feel, the following changes are also available in the Edit Task box:
 
+* You can customize your Layout Template once and reflect those customizations in both the Details page and the Edit Task box.
+* Individual custom form names are now available on the left panel inside the Edit Task box and you can quickly access each form from there.
+* We have added the Duration, Duration Type, and Planned Hours fields to the Assignments section to provide consistency when updating assignments across various duration types and the time or duration they spend on the task.
+* We have removed the commenting functionality from the edit task screen to eliminate redundancy with the Updates section.
 
+For information about the new Edit Task box, see 
 
-*  You can customize your Layout Template once and reflect those customizations in both the Details page and the Edit Task box.
-*  Individual custom form names are now available on the left panel inside the Edit Task box and you can quickly access each form from there.
-*  We have added the Duration, Duration Type, and Planned Hours fields to the Assignments section to provide consistency when updating assignments across various duration types and the time or duration they spend on the task.
-*  We have removed the commenting functionality from the edit task screen to eliminate redundancy with the Updates section.
+<!--
+<a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Edit tasks</a>
+-->
 
+[Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-For information about the new Edit Task box, see [Edit tasks](edit-tasks.md).
+`<iframe class="vimeo-player_0" src="assets/532016466?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/532016466/43c460aa79)
 
-`<iframe class="vimeo-player_0" src="assets/532016466?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/532016466/43c460aa79) 
-
-
-## New Task box {#new-task-box}
-
-
+## New Task box
 
 >[!NOTE]
 >
->Available only in *`the new Adobe Workfront experience`*.
-
+>Available only in *the new Adobe Workfront experience*.
 
 As part of updating the look and feel of the new Workfront experience, we have redesigned the New Task box. You can access the New Task box when you add a task to a project by clicking New Task at the top of the task list.
 
-
 >[!NOTE]
 >
->As part of this update, the Resource Scope field will be removed from *`the new Adobe Workfront experience`*.
-
+>As part of this update, the Resource Scope field will be removed from *the new Adobe Workfront experience*.
 
 In addition to an updated look and feel, the following changes are also available in the New Task workflow:
 
+* A smaller New Task screen is available when you first click on New Task in a project list with a limited number of fields to update to save you time when you quickly want to add tasks to projects. You can access the complete new task form which contains all task fields that we have renamed to Create Task.
+* You can customize your Layout Template once and reflect those customizations in both the Details page and the New Task box.
+* We have added the Duration, Duration Type, and Planned Hours fields to the Assignments section to provide consistency when updating assignments and the time or duration they spend on the task.
 
+For information about the new New Task box, see 
 
-*  A smaller New Task screen is available when you first click on New Task in a project list with a limited number of fields to update to save you time when you quickly want to add tasks to projects. You can access the complete new task form which contains all task fields that we have renamed to Create Task.
-*  You can customize your Layout Template once and reflect those customizations in both the Details page and the New Task box.
-*  We have added the Duration, Duration Type, and Planned Hours fields to the Assignments section to provide consistency when updating assignments and the time or duration they spend on the task.
+<!--
+<a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Create tasks in a project</a>
+-->
 
+[Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-For information about the new New Task box, see [Create tasks in a project](create-tasks-in-project.md).
+`<iframe class="vimeo-player_0" src="assets/532017842?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/532017842/ce691dffdd)
 
-`<iframe class="vimeo-player_0" src="assets/532017842?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/532017842/ce691dffdd) 
-
-
-## Deactivate teams that are no longer in use {#deactivate-teams-that-are-no-longer-in-use}
-
-
+## Deactivate teams that are no longer in use
 
 >[!NOTE]
 >
 >This feature will release to Production on April 15, 2021, prior to the 21.2 release.
 
-
 You can now deactivate teams you no longer use. When you deactivate a team, it no longer shows up in most typeahead, search fields, or common menus within Workfront. However, historical data associated with the team is retained.
 
+For more information, see [Deactivate a team](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
 
-For more information, see [Deactivate a team](deactivate-a-team.md).
+`<iframe class="vimeo-player_0" src="assets/531482223?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
+[View this video in full-screen mode.](https://vimeo.com/531482223/e4dacfe1b6)
 
-`<iframe class="vimeo-player_0" src="assets/531482223?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
-
-[View this video in full-screen mode.](https://vimeo.com/531482223/e4dacfe1b6) 
-
-
-## Update to setting that allows users to delete tasks and issues with logged hours {#update-to-setting-that-allows-users-to-delete-tasks-and-issues-with-logged-hours}
-
-
+## Update to setting that allows users to delete tasks and issues with logged hours
 
 >[!NOTE]
 >
->Available only in *`the new Adobe Workfront experience`*.
+>Available only in *the new Adobe Workfront experience*.
 
-
-To offer you a cohesive experience across all objects, we changed the way the “Allow users to delete tasks & issues with logged hours” setting works in Workfront. Now, when your Workfront or group administrator disables the Task & Issue preference, you can no longer delete projects that contain tasks or issues with logged hours. 
-
+To offer you a cohesive experience across all objects, we changed the way the “Allow users to delete tasks & issues with logged hours” setting works in Workfront. Now, when your Workfront or group administrator disables the Task & Issue preference, you can no longer delete projects that contain tasks or issues with logged hours.
 
 Prior to this change, disabling the setting prevented users just from deleting tasks or issues, not projects.
 
+For more information, see 
 
-For more information, see [Configure system-wide task and issue preferences](set-task-issue-preferences.md).
+<!--
+<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Configure system-wide task and issue preferences</a>
+-->
 
+[Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-`<iframe class="vimeo-player_0" src="assets/532018749?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
-
+`<iframe class="vimeo-player_0" src="assets/532018749?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
 [View this video in full-screen mode.](https://vimeo.com/532018749/1926533b87) 

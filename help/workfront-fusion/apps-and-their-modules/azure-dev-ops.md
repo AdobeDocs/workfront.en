@@ -5,105 +5,148 @@ product: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
+title: Azure DevOps modules
+description: In a Adobe Workfront Fusion scenario, you can connect your Azure DevOps account to multiple third-party applications and services.
 ---
 
+# Azure DevOps modules
 
+In a *Adobe Workfront Fusion* scenario, you can connect your *Azure DevOps* account to multiple third-party applications and services.
 
-# Azure DevOps modules {#azure-devops-modules}
+If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-In a *`Adobe Workfront Fusion`* scenario, you can connect your *`Azure DevOps`* account to multiple third-party applications and services.
+For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
+## Access requirements
 
-If you need instructions on creating a scenario, see [Create a scenario](create-a-scenario.md). 
+You must have the following access to use the functionality in this article:
 
-
-For information about modules, see [Modules in Adobe Workfront Fusion](_modules.md).
-
-
-z
-
-
-## Prerequisites {#prerequisites}
-
-To use Azure DevOps modules, you must have an Azure DevOps account.
-
-
-## Connect Azure DevOps to *`Workfront Fusion`* {#connect-azure-devops-to-workfront-fusion}
-
-
-
-
-1.  Add an Azure DevOps module to your scenario.
-1.  Click `Add`next to the Connection field.
-1.  In the Connection Type field, select **Azure DevOps**.
-
-
-   >[!IMPORTANT] {type="important"}
-   >
-   >The Azure DevOps (Request All Scopes) connection type will be deprecated in the near future. Therefore, we do not recommend using it.
-
-
-
-1.  Fill out the following fields:
-
-
-1.  Click `Continue`to finish setting up the connection and continue creating your scenario.
-
-
-
-
-## Azure DevOps modules and their fields {#azure-devops-modules-and-their-fields}
-
-When you configure *`Azure DevOps`* modules, *`Workfront Fusion`* displays the fields listed below. Along with these, additional *`Azure DevOps`* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
-
-
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](map-information-between-modules.md).
-
-
-![](assets/map-toggle-350x74.png)
-
-
-
-
-
-* [Triggers](#triggers) 
-* [Actions](#actions) 
-* [Searches](#searches) 
-
-
-
-
-### Triggers {#triggers}
-
-
-
-#### Watch for work items {#watch-for-work-items}
-
-This instant trigger module executes a scenario when a record is added, updated, or deleted in Azure DevOps.
-
-
-The module The module returns any standard fields associated with the record`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  or records</MadCap:conditionalText>`, along with any custom fields and values that the connection accesses. You can map *`this information`* in subsequent modules in the scenario.You can map *`this information`* in subsequent modules in the scenario.
-
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <span class="mc-variable Snippet_Variables.Fusion-Apps variable varname">Azure DevOps</span> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Webhook</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Select or add a webhook for the module.</p> <p>For more information on webhooks in trigger modules, see <a href="instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks)</a>.</p> <p>For information on how to create a webhook, see <a href="webhooks-updated.md" class="MCXref xref">Webhooks</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-### Actions {#actions}
+## Prerequisites
 
+To use Azure DevOps modules, you must have an Azure DevOps account.
 
+## Connect Azure DevOps to *Workfront Fusion*
 
+<ol> 
+ <li value="1"> <p>Add an Azure DevOps module to your scenario.</p> </li> 
+ <li value="2"> <p>Click <span class="bold">Add </span>next to the Connection field.</p> </li> 
+ <li value="3"> <p>In the Connection Type field, select <b>Azure DevOps</b>.</p> <note type="important">
+   The Azure DevOps (Request All Scopes) connection type will be deprecated in the near future. Therefore, we do not recommend using it.
+  </note> </li> 
+ <li value="4"> <p>Fill out the following fields:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Connection name</td> 
+     <td>Enter a name for the connection that you are creating.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Organization</td> 
+     <td>Enter the name of the organization under which you created your Azure DevOps application.</td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="5"> <p>Click <span class="bold">Continue </span>to finish setting up the connection and continue creating your scenario.</p> </li> 
+</ol>
+
+## Azure DevOps modules and their fields
+
+When you configure *Azure DevOps* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Azure DevOps* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+![](assets/map-toggle-350x74.png)
+
+* [Triggers](#triggers) 
+* [Actions](#actions) 
+* [Searches](#searches)
+
+### Triggers
+
+#### Watch for work items
+
+This instant trigger module executes a scenario when a record is added, updated, or deleted in Azure DevOps.
+
+The module The module returns any standard fields associated with the record
+
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+or records
+</MadCap:conditionalText>
+-->
+
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  or records</MadCap:conditionalText>`, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.You can map *this information* in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display
+
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+, along with any other available
+<em>Azure DevOps</em> fields, depending on the connection and options you choose
+</MadCap:conditionalText>
+-->
+
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Azure DevOps</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Webhook</td> 
+   <td> <p>Select or add a webhook for the module.</p> <p>For more information on webhooks in trigger modules, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks)</a>.</p> <p>For information on how to create a webhook, see <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Actions
 
 * [Custom API Call](#custom) 
 * [Read record](#read) 
@@ -111,45 +154,58 @@ When you are configuring this module, the following fields display`<MadCap:condi
 * [Update a work item](#update) 
 * [Upload an attachment](#upload) 
 * [Download an attachment](#download) 
-* [Link work items](#link) 
+* [Link work items](#link)
 
+#### Custom API Call
 
+This action module lets you make a custom authenticated call to the *Azure DevOps* API
 
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+without having to think through authentication
+</MadCap:conditionalText>
+-->
 
-#### Custom API Call {#custom-api-call}
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  without having to think through authentication</MadCap:conditionalText>`. This way, you can create a data flow automation that can't be accomplished by the other *Azure DevOps* modules.
 
-This action module lets you make a custom authenticated call to the *`Azure DevOps`* API`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  without having to think through authentication</MadCap:conditionalText>`. This way, you can create a data flow automation that can't be accomplished by the other *`Azure DevOps`* modules. 
+When you are configuring this module, the following fields display
 
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+, along with any other available
+<em>Azure DevOps</em> fields, depending on the connection and options you choose
+</MadCap:conditionalText>
+-->
 
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <span class="mc-variable Snippet_Variables.Fusion-Apps variable varname">Azure DevOps</span> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Azure DevOps</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>For instructions about connecting your Azure DevOps account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">URL</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Type the address on the web server that you want the module to interact with.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>https://dev.azure.com/{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
+  <tr> 
+   <td role="rowheader">URL</td> 
+   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>https://dev.azure.com/{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Method</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Method</td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Headers</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Query String</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+  <tr> 
+   <td role="rowheader">Query String</td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Body</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+  <tr> 
+   <td role="rowheader">Body</td> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -157,68 +213,77 @@ When you are configuring this module, the following fields display`<MadCap:condi
  </tbody> 
 </table>
 
+#### Read record
 
+This action module reads *data from a single record* in *Azure DevOps*.
 
-#### Read record {#read-record}
+You specify the
 
-This action module reads *`data from a single record`* in *`Azure DevOps`*.
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+type and
+</MadCap:conditionalText>
+-->
 
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *record*.
 
-You specify the`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *`record`*.
+The module returns the ID of the *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
 
+When you are configuring this module, the following fields display
 
-The module returns the ID of the *`record`* and any associated fields, along with any custom fields and values that the connection accesses. You can map *`this information`* in subsequent modules in the scenario.
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+, along with any other available
+<em>Azure DevOps</em> fields, depending on the connection and options you choose
+</MadCap:conditionalText>
+-->
 
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Azure DevOps</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
 
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <span class="mc-variable Snippet_Variables.Fusion-Apps variable varname">Azure DevOps</span> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>For instructions about connecting your Azure DevOps account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Record type</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Select whether you want to read a project or a work item</p> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select whether you want to read a project or a work item</p> 
     <ul> 
      <li> <p><span class="bold">Project</span>:Select the project that you want to read..</p> </li> 
      <li> <p><span class="bold">Work item</span>:Select the project that contains the work item you want to read, then select the work item type.</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Outputs</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Select the information you want included in the output bundle for this module. Available fields depend on the work item type.</td> 
+  <tr> 
+   <td role="rowheader">Outputs</td> 
+   <td>Select the information you want included in the output bundle for this module. Available fields depend on the work item type.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">ID</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">Enter or map the ID of the record you want to read.</td> 
+  <tr> 
+   <td role="rowheader">ID</td> 
+   <td>Enter or map the ID of the record you want to read.</td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-#### Create a record {#create-a-record}
+#### Create a record
 
 This action module creates a new project or work item.
 
-
 The module outputs the object ID for the newly created work item, or the URL and status code of a newly created project.
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>For instructions about connecting your Azure DevOps account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Record type</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Select whether you want to create a work item or a project.</p> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select whether you want to create a work item or a project.</p> 
     <ul> 
      <li> <p><span class="bold">Project</span> </p> <p>Fill in the following fields:</p> 
       <ul> 
@@ -239,180 +304,179 @@ The module outputs the object ID for the newly created work item, or the URL and
  </tbody> 
 </table>
 
-
-
-#### Update a work item {#update-a-work-item}
+#### Update a work item
 
 This action module updates an existing work item using its ID.
 
-
 The module returns the ID of the updated work item.
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>For instructions about connecting your Azure DevOps account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Project</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Select the project that contains the work item you want to update.</td> 
+  <tr> 
+   <td role="rowheader">Project</td> 
+   <td>Select the project that contains the work item you want to update.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Work Item Type</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Select the type of work item that you want to update.</p> </td> 
+  <tr> 
+   <td role="rowheader">Work Item Type</td> 
+   <td> <p>Select the type of work item that you want to update.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Other Fields</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">In each of these fields, enter the value that you want the work item to have for a given property. Available fields depend on the work item type.</td> 
+  <tr> 
+   <td role="rowheader">Other Fields</td> 
+   <td>In each of these fields, enter the value that you want the work item to have for a given property. Available fields depend on the work item type.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Work item ID</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Enter or map the ID of the work item that you want to update.</td> 
+  <tr> 
+   <td role="rowheader">Work item ID</td> 
+   <td>Enter or map the ID of the work item that you want to update.</td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-#### Upload an attachment {#upload-an-attachment}
+#### Upload an attachment
 
 This action module uploads a file and attaches it to a work item.
 
-
 The module returns the attachment ID and a download URL for the attachment.
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>For instructions about connecting your Azure DevOps account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Project </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Select the project where you want to upload an attachment.</p> </td> 
+  <tr> 
+   <td role="rowheader">Project </td> 
+   <td> <p>Select the project where you want to upload an attachment.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Work item ID</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Enter or map the ID of the work item where you want to upload an attachment.</p> </td> 
+  <tr> 
+   <td role="rowheader">Work item ID</td> 
+   <td> <p>Enter or map the ID of the work item where you want to upload an attachment.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Comment</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Enter the text of a comment that you want to add to the uploaded attachment.</td> 
+  <tr> 
+   <td role="rowheader">Comment</td> 
+   <td>Enter the text of a comment that you want to add to the uploaded attachment.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Source file </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Select a source file from a previous module, or enter or map the source file's name and content.</td> 
+  <tr> 
+   <td role="rowheader">Source file </td> 
+   <td>Select a source file from a previous module, or enter or map the source file's name and content.</td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-#### Download an attachment {#download-an-attachment}
+#### Download an attachment
 
 This action module downloads an attachment.
 
-
 The module returns the file content of the attachment.
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>For instructions about connecting your Azure DevOps account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Attachment URL</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Enter or map the URL of the attachment that you want to download.</p> </td> 
+  <tr> 
+   <td role="rowheader">Attachment URL</td> 
+   <td> <p>Enter or map the URL of the attachment that you want to download.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-#### Link work items  {#link-work-items}
+#### Link work items
 
 This action module links two work items and defines the relationship between them.
 
-
 The module returns the ID of the main work item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
+When you are configuring this module, the following fields display
 
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <span class="mc-variable Snippet_Variables.Fusion-Apps variable varname">Azure DevOps</span> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+, along with any other available
+<em>Azure DevOps</em> fields, depending on the connection and options you choose
+</MadCap:conditionalText>
+-->
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Azure DevOps</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>For instructions about connecting your Azure DevOps account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Work item ID</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Enter or map the ID&nbsp;of the main work item item that you want to link another work item to.</td> 
+  <tr> 
+   <td role="rowheader">Work item ID</td> 
+   <td>Enter or map the ID&nbsp;of the main work item item that you want to link another work item to.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Linked work item ID</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Enter or map the ID of the work item that you want to link to the main work item.</td> 
+  <tr> 
+   <td role="rowheader">Linked work item ID</td> 
+   <td>Enter or map the ID of the work item that you want to link to the main work item.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Link Type</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Define the relationship between the work items that you want to link.</p> <p>For more information, see <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">Link Type Reference</a> in the Azure DevOps Documentation.</p> </td> 
+  <tr> 
+   <td role="rowheader">Link Type</td> 
+   <td> <p>Define the relationship between the work items that you want to link.</p> <p>For more information, see <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">Link Type Reference</a> in the Azure DevOps Documentation.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Comment</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Enter or map the text of a comment. This is useful for explaining the reasoning or intention of the link.</td> 
+  <tr> 
+   <td role="rowheader">Comment</td> 
+   <td>Enter or map the text of a comment. This is useful for explaining the reasoning or intention of the link.</td> 
   </tr> 
  </tbody> 
 </table>
 
+### Searches
 
-
-### Searches {#searches}
-
-
-
-#### List work items  {#list-work-items}
+#### List work items
 
 This action module retrieves all work items of a specific type in an Azure DevOps project.
 
-
 The module returns the ID of the main work item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
+When you are configuring this module, the following fields display
 
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <span class="mc-variable Snippet_Variables.Fusion-Apps variable varname">Azure DevOps</span> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+, along with any other available
+<em>Azure DevOps</em> fields, depending on the connection and options you choose
+</MadCap:conditionalText>
+-->
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Azure DevOps</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>For instructions about connecting your Azure DevOps account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Project</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Select the project that you want to retrieve work items from.</td> 
+  <tr> 
+   <td role="rowheader">Project</td> 
+   <td>Select the project that you want to retrieve work items from.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Work item type</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Select the type of work item that you want to retrieve.</p> </td> 
+  <tr> 
+   <td role="rowheader">Work item type</td> 
+   <td> <p>Select the type of work item that you want to retrieve.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Outputs</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Select the properties that you want to appear in the module's output. The available fields depend on the type of work item you want to retrieve. You must select at least one property.</td> 
+  <tr> 
+   <td role="rowheader">Outputs</td> 
+   <td>Select the properties that you want to appear in the module's output. The available fields depend on the type of work item you want to retrieve. You must select at least one property.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Limit</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Enter or map the maximum number of work items that <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span> returns during one execution cycle.</td> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td>Enter or map the maximum number of work items that <em>Workfront Fusion</em> returns during one execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>

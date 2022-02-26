@@ -4,290 +4,131 @@ title: Grant access to financial data
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
+title: Grant access to financial data
+description: As an Adobe Workfront administrator, you can define a user’s access to the following through the user's access level, as explained in Access levels overview:
 ---
 
+# Grant access to financial data
 
+As an *Adobe Workfront administrator*, you can define a user’s access to the following through the user's access level, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
-# Grant access to financial data {#grant-access-to-financial-data}
-
-As an *`Adobe Workfront administrator`*, you can define a user’s access to the following through the user's access level, as explained in [Access levels overview](access-levels-overview.md):
-
-
-
-* Financial information on projects in *`Workfront`*
+* Financial information on projects in *Workfront*
 * Resource budgeting information in the Resource Planning tools
 
-
-
-
->[!NOTE]
->
->When someone shares a *`financial data`* with another user, the recipient’s rights on it are determined by a combination of two things:
->
->
->
->* The recipient’s access level setting for *`financial data`*
->* Any permissions that the sharer granted for the *`financial data`* 
->
->
->For information about permissions to financial data when sharing objects, see [Share financial permissions on an object in Adobe Workfront](share-financial-permissions-object.md).
-
-
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Considerations for granting access to financial data
 
+Consider the following when granting users access to financial data in *Workfront*:
 
-## Considerations for granting access to financial data {#considerations-for-granting-access-to-financial-data}
+* A user whose access level doesn't allow access to financial data cannot create a risk for a project. For more information, see [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+* You can also use an access level to determine which Resource Management activities a user can employ to budget or view resource allocation. For information, see [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-Consider the following when granting users access to financial data in *`Workfront`*: 
+## Configure user access to financial data using a custom access level
 
+<ol> 
+ <li value="1"> <p>Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </li> 
+ <li value="2"> <p>Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> or <span class="bold">Edit</span> button to the right of <em>Financial Data</em>, then select the abilities you want to grant under <b>Fine-tune your settings</b>.</p> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/financial-data-fine-tune-nwe-350x85.png" style="width: 350;height: 85;"> </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/financial-data-fine-tune-nwe-350x85.png" style="width: 350;height: 85;"> </p> </li> 
+ <li value="3"> <p>(Optional) In the <span class="bold">Allow administrative access for</span> area, select the following options:<![CDATA[
+]]></p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Exchange rates</td> 
+     <td> <p>Add new currency in <em>Workfront</em>.</p> <p>Without this access, the user can only add an existing currency to a project they create.</p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Expenses</td> 
+     <td> <p>View all expenses on objects in <em>Workfront</em>.<br></p> <p>This does not allow the user to create new Expense Types.<br></p> <p>Without this access, the user can only view the following:</p> 
+      <ul> 
+       <li>Expenses on projects, tasks or issues they manage</li> 
+       <li>Their own expenses</li> 
+       <li>The expenses of their subordinates</li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="4"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="">Grant access to tasks</a> and <a href="#" class="MCXref xref selected" data-mc-variable-override="">Grant access to financial data</a>.</p> </li> 
+ <li value="5"> <p>When you are finished, click <draft-comment>
+    <b data-mc-conditions="QuicksilverOrClassic.Quicksilver">Save</b>
+   </draft-comment><b data-mc-conditions="QuicksilverOrClassic.Quicksilver">Save</b>.</p> <p>After the access level is created, you can assign it to a user. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Edit a user's profile</a>.<br></p> </li> 
+</ol>
 
+## Access to shared financial information
 
+You can share financial information on a project, task, or issue with other users by granting them permissions to it, as explained in [Share financial permissions on an object in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
+When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:
 
-* A user whose access level doesn't allow access to financial data cannot create a risk for a project. For more information, see [Create and edit risks on projects](create-edit-risks-on-projects.md).
-* You can also use an access level to determine which Resource Management activities a user can employ to budget or view resource allocation. For information, see [Grant access to Resource Management](grant-access-resource-management.md).
+* The permissions that you grant to your recipient for the object
+* The recipient’s access level settings for the object's type
 
+## Access to financial information by license type
 
+For information about what users in each access level can do with financial information, see the section [Financial data](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
-
-
-## Configure user access to financial data using a custom access level {#configure-user-access-to-financial-data-using-a-custom-access-level}
-
-
-
-
-1.  Begin creating or editing the access level, as explained in [Create or modify custom access levels](create-modify-access-levels.md).
-1.  Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of *`Financial Data`*, then select the abilities you want to grant under **Fine-tune your settings**.
-
-
-   ![](assets/financial-data-fine-tune-nwe-350x85.png)
-
-
-
-1.  (Optional) In the `Allow administrative access for` area, select the following options:<![CDATA[]]>
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Exchange rates</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Add new currency in <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>.</p> <p>Without this access, the user can only add an existing currency to a project they create.</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Expenses</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>View all expenses on objects in <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>.<br></p> <p>This does not allow the user to create new Expense Types.<br></p> <p>Without this access, the user can only view the following:</p> 
-    <ul> 
-     <li>Expenses on projects, tasks or issues they manage</li> 
-     <li>Their own expenses</li> 
-     <li>The expenses of their subordinates</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-1.  (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](_configure-access.md), such as [Grant access to tasks](grant-access-tasks.md) and [Grant access to financial data](#).
-1.  When you are finished, click **Save**.
-
-
-   After the access level is created, you can assign it to a user. For more information, see [Edit a user's profile](edit-a-users-profile.md).  
-
-
-
-
-
-
-## Financial access by license type {#financial-access-by-license-type}
-
-This table lists what a *`Workfront administrator`* can allow users with each license type to do with *`financial data`*. For information about the *`Workfront`* license types, see [Adobe Workfront licenses overview](wf-licenses.md).
-
-
-Only users with a *`Plan`* license can have full access to *`financial data`*. 
-
-
-The Request and External User license types are not included here because they don't have access to *`financial data`*.
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">&nbsp;</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Plan</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Work</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1">Review</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Manage Billing Records</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Manage/ View Role Billing and Cost Rates</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Manage/ View User Billing and Cost Rates</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Manage Expenses</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">View Finance</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">✓</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>View information by&nbsp;Cost in the Resource Planning tools</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Budget Resources in the Resource Planning tools*</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">View resource allocation in the Resource Planning tools*</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">✓</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray" data-mc-conditions=""> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">View revenue and cost information in the Utilization report</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Create risks on projects</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">View risks on projects</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray">✓</td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Requires additional access to Resource Management.
-
-
-## Financial access by setting {#financial-access-by-setting}
+## Access to financial information by setting
 
 The following information can help you understand how to use the Access level settings to control users' access to financial data.
 
-
-### No access {#no-access}
+### No access
 
 A user with no access to financial data does not have access to the following:
 
+<ul> 
+ <li>Finance section under Project and Task objects</li> 
+ <li>Business case</li> 
+ <li>Billing rates and Billing records</li> 
+ <li> <p>Cost per hour and billing per hour on User preferences </p> <p>You can configure this using the gear icon <img src="assets/gear-icon-settings.png"> on the View button in step 4 above.</p> </li> 
+ <li> <p>Cost per hour and billing per hour on Job Roles</p> <p>You can configure this using the gear icon <img src="assets/gear-icon-settings.png"> on the View button in step 4 above.</p> </li> 
+</ul>
 
-
-* Finance section under Project and Task objects
-* Business case
-* Billing rates and Billing records
-*  Cost per hour and billing per hour on User preferences 
-
-
-  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
-
-*  Cost per hour and billing per hour on Job Roles
-
-
-  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
-
-
-
-
-
-### View access {#view-access}
+### View access
 
 A user with View access to financial data can view (not edit) the following:
 
+<ul> 
+ <li>Finance section under Project and Task objects</li> 
+ <li>Business case</li> 
+ <li>Billing rates and Billing records</li> 
+ <li> <p>Cost per hour and billing per hour on User preferences </p> <p>You can configure this using the gear icon <img src="assets/gear-icon-settings.png"> on the View button in step 4 above.</p> </li> 
+ <li> <p>Cost per hour and billing per hour on Job Roles</p> <p>You can configure this using the gear icon <img src="assets/gear-icon-settings.png"> on the View button in step 4 above.</p> </li> 
+</ul>
 
-
-* Finance section under Project and Task objects
-* Business case
-* Billing rates and Billing records
-*  Cost per hour and billing per hour on User preferences 
-
-
-  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
-
-*  Cost per hour and billing per hour on Job Roles
-
-
-  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
-
-
-
-
-
-### Edit access {#edit-access}
+### Edit access
 
 A user with Edit access to financial data can view and edit the following:
 
-
-
-* Finance section under Project and Task objects
-* Business case
-* Billing rates and Billing records
-*  Cost per hour and billing per hour on User preferences
-
-
-  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
-
-*  Cost per hour and billing per hour on Job Roles
-
-
-  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
-
-
+<ul> 
+ <li>Finance section under Project and Task objects</li> 
+ <li>Business case</li> 
+ <li>Billing rates and Billing records</li> 
+ <li> <p>Cost per hour and billing per hour on User preferences</p> <p>You can configure this using the gear icon <img src="assets/gear-icon-settings.png"> on the Edit button in step 4 above.</p> </li> 
+ <li> <p>Cost per hour and billing per hour on Job Roles</p> <p>You can configure this using the gear icon <img src="assets/gear-icon-settings.png"> on the Edit button in step 4 above.</p> </li> 
+</ul>
 

@@ -2,58 +2,86 @@
 filename: uninstall-zoom-integration
 product-area: workfront-integrations;setup
 navigation-topic: zoom-integration-in-workfront
+title: Uninstall the Zoom integration
+description: As a regular user, you can uninstall the Zoom integration in your own personal instance of Adobe Workfront.
 ---
 
+# Uninstall the Zoom integration
 
+As a regular user, you can uninstall the Zoom integration in your own personal instance of *Adobe Workfront*.
 
-# Uninstall the Zoom integration {#uninstall-the-zoom-integration}
-
-As a regular user, you can uninstall the Zoom integration in your own personal instance of *`Adobe Workfront`*.
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Work, Plan</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Work, Plan</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       Example: Edit access to Documents
+      </MadCap:conditionalText></p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[Insert any access level configurations needed] <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      Example: Edit access to Documents
+     </MadCap:conditionalText></p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       Example: View access or higher on Documents
+      </MadCap:conditionalText></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[Insert permissions needed and specify the object] <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      Example: View access or higher on Documents
+     </MadCap:conditionalText></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Prerequisites
 
-## Prerequisites {#prerequisites}
-
-Your *`Workfront administrator`* must enable the Zoom integration before you can use it.
-
+Your *Workfront administrator* must enable the Zoom integration before you can use it.
 
 You must have installed the Zoom integration before you can uninstall it.
 
-
-## Uninstall the Zoom integration {#uninstall-the-zoom-integration-1}
-
-
-
+## Uninstall the Zoom integration
 
 1. Go to the Zoom App Marketplace and log in with your Zoom account.
 1. Click `Manage` > `Installed Apps`.
 
 1. Locate and select `Workfront for Zoom`, then click `Uninstall`.
 
+For information about this integration, see [Zoom integration overview](../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md).
 
-
-For information about this integration, see [Zoom integration overview](zoom-integration-overview.md).
-
-
-For information about how your *`Workfront administrator`* enables this integration for your organization, see [Install the Zoom integration](enable-zoom-integration.md).
+For information about how your *Workfront administrator* enables this integration for your organization, see [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).

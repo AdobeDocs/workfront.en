@@ -4,23 +4,17 @@ content-type: reference
 product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
+title: Workfront Proof Billing Settings
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# *Workfront Proof* Billing Settings
 
-
-# *`Workfront Proof`* Billing Settings {#workfront-proof-billing-settings}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following subsections:
 
-
-
-* [Manage your billing](_manage-your-billing.md) 
-
+* [Manage your billing](../../workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
 

@@ -1,160 +1,165 @@
 
 
+# MariaDB modules
 
-# MariaDB modules {#mariadb-modules}
+In a *Adobe Workfront Fusion* scenario, you can connect your *MariaDB* account to multiple third-party applications and services.
 
-In a *`Adobe Workfront Fusion`* scenario, you can connect your *`MariaDB`* account to multiple third-party applications and services.
+If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
+For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
-If you need instructions on creating a scenario, see [Create a scenario](create-a-scenario.md). 
-
-
-For information about modules, see [Modules in Adobe Workfront Fusion](_modules.md).
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Prerequisites {#prerequisites}
+## Prerequisites
 
 To use MariaDB modules, you must have a MariaDB account.
 
-
-## Connect MariaDB to *`Workfront Fusion`* {#connect-mariadb-to-workfront-fusion}
+## Connect MariaDB to *Workfront Fusion*
 
 You can create a connection to your MariaDB account directly from inside a MariaDB module.
 
+<ol> 
+ <li value="1"> <p>In any MariaDB module, click <span class="bold">Add </span>next to the Connection field.</p> </li> 
+ <li value="2"> <p>Configure the following fields:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader"> <p>Connection name</p> </td> 
+     <td> <p>Enter a name for the new connection.</p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Host</td> 
+     <td> <p>Enter the IP address or host name of your database instance. This host must be accessible from outside your network.</p> <p>Example: <code>mariadb.hwoh2j5h.us-east-1.rds.amazon.com</code></p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Port</td> 
+     <td>The default port is 3306. If you are using a non-standard port, set this number to your port. </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Database Name</td> 
+     <td>Enter the name of the database you want to interact with.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Username</td> 
+     <td>Enter your username.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Password</td> 
+     <td>Enter your password.</td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="3"> <p>Click <span class="bold">Continue </span>to create the connection and go back to the module.</p> </li> 
+</ol>
 
+## MariaDB Modules and their fields
 
-1.  In any MariaDB module, click `Add`next to the Connection field.
-1.  Configure the following fields:
+When you configure *MariaDB* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *MariaDB* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> <p>Connection name</p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Enter a name for the new connection.</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Host</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Enter the IP address or host name of your database instance. This host must be accessible from outside your network.</p> <p>Example: <code>mariadb.hwoh2j5h.us-east-1.rds.amazon.com</code></p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Port</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">The default port is 3306. If you are using a non-standard port, set this number to your port. </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Database Name</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Enter the name of the database you want to interact with.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Username</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Enter your username.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Password</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">Enter your password.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-1.  Click `Continue`to create the connection and go back to the module.
-
-
-
-
-## MariaDB Modules and their fields {#mariadb-modules-and-their-fields}
-
-When you configure *`MariaDB`* modules, *`Workfront Fusion`* displays the fields listed below. Along with these, additional *`MariaDB`* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
-
-
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](map-information-between-modules.md).
-
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-
-
-
-### Execute a query (advanced) {#execute-a-query-advanced}
+### Execute a query (advanced)
 
 This action module retrieves information from your database, based on a query you supply.
 
-<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions about connecting your MariaDB account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your MariaDB account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Query</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Enter the SQL query that you want the module to use to retrieve data.</p> <p>Important: Variables used in the query are not sanitized. Make sure you sanitize variables properly to prevent SQL injection.</p> </td> 
+  <tr> 
+   <td role="rowheader">Query</td> 
+   <td> <p>Enter the SQL query that you want the module to use to retrieve data.</p> <p>Important: Variables used in the query are not sanitized. Make sure you sanitize variables properly to prevent SQL injection.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-### Select rows from a table (advanced) {#select-rows-from-a-table-advanced}
+### Select rows from a table (advanced)
 
 This module reads record from your database.
 
-<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions about connecting your MariaDB account to <span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions about connecting your MariaDB account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Table</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Select the table that contains the records you want to read.</p> </td> 
+  <tr> 
+   <td role="rowheader">Table</td> 
+   <td> <p>Select the table that contains the records you want to read.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Filter</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Set up the filter by which you want to select rows</p> 
+  <tr> 
+   <td role="rowheader">Filter</td> 
+   <td> <p>Set up the filter by which you want to select rows</p> 
     <ul> 
      <li> <p>Select the field that you want to search by</p> </li> 
      <li> <p>Select the operator that you want to use for your search</p> </li> 
      <li> <p>Enter or map the value that you want to search for.</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Sort </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>For each level that you want your results sorted by, click <span class="bold">Add item</span>, then select the field that you want to sort the results by and whether you want to sort ascending or descending</p> </td> 
+  <tr> 
+   <td role="rowheader">Sort </td> 
+   <td> <p>For each level that you want your results sorted by, click <span class="bold">Add item</span>, then select the field that you want to sort the results by and whether you want to sort ascending or descending</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Limit</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Enter or map the maximum number of <span class="mc-variable Snippet_Variables.Fusion-Record variable varname">record</span>s you want the module to <span class="mc-variable Snippet_Variables.FusionAction variable varname">return</span> during each scenario execution cycle.</p> </td> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

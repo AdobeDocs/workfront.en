@@ -2,29 +2,23 @@
 filename: access-help--workfront-dam
 product-area: documents
 navigation-topic: workfront-dam-within-workfront
+title: Access Help for Adobe Workfront DAM
+description: Adobe Workfront DAM DAM is a native Digital Asset Management (DAM) system within Workfront that allows you to store, organize, find, retrieve, and share digital files.
 ---
 
+# Access Help for *Adobe Workfront DAM*
 
+*Adobe Workfront DAM*&nbsp;DAM is a native Digital Asset Management (DAM) system within *Workfront* that allows you&nbsp;to store, organize, find, retrieve, and share digital files.
 
-# Access Help for *`Adobe Workfront DAM`* {#access-help-for-adobe-workfront-dam}
+You can access support documentation for *Workfront DAM*&nbsp; in the following locations:
 
-*`Adobe Workfront DAM`* DAM is a native Digital Asset Management (DAM) system within *`Workfront`* that allows you&nbsp;to store, organize, find, retrieve, and share digital files.
-
-
-You can access support documentation for *`Workfront DAM`*&nbsp; in the following locations:
-
-
-
-* If you are using the stand-alone *`Workfront DAM`* application (outside of the main *`Workfront`* application),&nbsp;see&nbsp; [damsuccess.com](https://www.damsuccess.com).
-
-* If you are leveraging *`Workfront DAM`* functionality within the main *`Workfront`* application,&nbsp;see [Adobe Workfront DAM within Adobe Workfront](_workfront-dam-in-workfrontt.md)  
-
-
-  >[!NOTE]
-  >
-  >If you need to submit a feature request or log an issue, contact *`Workfront Customer Support`* by phone, email, or the *`Workfront Help site`*. For more information, see [Contact Customer Support](contact-customer-support.md).
-
-
-
-
+<ul> 
+ <li>If you are using the stand-alone <em>Workfront DAM</em> application (outside of the main <em>Workfront</em> application),&nbsp;see&nbsp;<a href="https://www.damsuccess.com">damsuccess.com</a>.</li> 
+ <li>If you are leveraging <em>Workfront DAM</em> functionality within the main <em>Workfront</em> application,&nbsp;see <a href="../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront DAM within Adobe Workfront</a><br><note type="note">
+    If you need to submit a feature request or log an issue, contact 
+   <em>Workfront Customer Support</em> by phone, email, or the 
+   <em>Workfront Help site</em>. For more information, see 
+   <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">Contact Customer Support</a>.
+  </note></li> 
+</ul>
 

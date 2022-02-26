@@ -2,90 +2,75 @@
 filename: export-timesheets
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
+title: Export a list of timesheets
+description: As a people manager or timesheet approver, you might need to download a list of timesheets to quickly view information about the timesheets of the people you are responsible for. You can do this by exporting a list of timesheets.
 ---
 
+# Export a list of timesheets
 
+As a people manager or timesheet approver, you might need to download a list of timesheets to quickly view information about the timesheets of the people you are responsible for. You can do this by exporting a list of timesheets.
 
-# Export timesheets {#export-timesheets}
-
-As a people manager or timesheet approver, you might need to download a list of timesheets to quickly view information about the timesheets of the people you are responsible for. You can do this by exporting a list of timesheets. 
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Review variable varname">Review</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Review</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>View or higher permissions on the timesheets</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on the timesheets</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
 
+## Export a list of timesheets
 
-## Export timesheets {#export-timesheets-1}
-
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*.
-
-1. Click `Timesheets`.
-1. Click `All Timesheets` in the left panel.
-1.  Set the filter options, then click  `Filter`.
-
-
-   For more information, see the section [Filter timesheets](manage-timesheets-for-all-users.md#filtering-timesheets) in the article [Manage timesheets for all users](manage-timesheets-for-all-users.md).
-
-1.  Select the timesheets for export, and click `Export`.  
-
-
-
-   ![](assets/all-timesheets-list-with-export-button-nwe-350x136.png)
-
-
-
-1. Select the type of file that you want to export the list of timesheets to from the following options:
-    
-    
-    * PDF Ladscape
-    * PDF Portrait
-    * PDF&nbsp;Other Sizes
-    * Excel
-    * Excel (xlsx)
-    * Tab&nbsp;Delimited
-    
-    
-   The selected file is downloaded to your computer and includes the following timesheet information:
-
-    
-    
-    * Date Range
-    * Owner name
-    * Total Hours
-    * Overtime amount
-    * Approvers names
-    * Status
-    
-    
-
-
+<ol> <draft-comment>
+  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
+ </draft-comment>
+ <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
+  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li>
+ </draft-comment>
+ <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li> <draft-comment>
+  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Timesheets</span> in the left panel.</li>
+ </draft-comment>
+ <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Timesheets</span> in the left panel.</li> 
+ <li value="4"> <p>Set the filter options, then click&nbsp;<span class="bold">Filter</span>.</p> <p>For more information, see the section <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/manage-timesheets-for-all-users.md#filtering-timesheets" class="MCXref xref">Filter timesheets</a> in the article <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/manage-timesheets-for-all-users.md" class="MCXref xref">Manage timesheets for all users</a>.</p> </li> 
+ <li value="5"> <p>Select the timesheets for export, and click <span class="bold">Export</span>.<br></p> <p> <draft-comment>
+    <img src="assets/all-timesheets-list-with-export-button-nwe-350x136.png" style="width: 350;height: 136;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   </draft-comment><img src="assets/all-timesheets-list-with-export-button-nwe-350x136.png" style="width: 350;height: 136;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+ <li value="6">Select the type of file that you want to export the list of timesheets to from the following options:
+  <ul>
+   <li>PDF Ladscape</li>
+   <li>PDF Portrait</li>
+   <li>PDF&nbsp;Other Sizes</li>
+   <li>Excel</li>
+   <li>Excel (xlsx)</li>
+   <li>Tab&nbsp;Delimited</li>
+  </ul><p>The selected file is downloaded to your computer and includes the following timesheet information:</p>
+  <ul>
+   <li><p>Date Range</p></li>
+   <li><p>Owner name</p></li>
+   <li><p>Total Hours</p></li>
+   <li><p>Overtime amount</p></li>
+   <li><p>Approvers names</p></li>
+   <li><p>Status</p></li>
+  </ul></li> 
+</ol>
 

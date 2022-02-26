@@ -3,41 +3,24 @@ filename: change-cover-image-of-folder
 product: workfront-library
 product-area: documents
 navigation-topic: content-management
+title: Change the cover image on an item in Workfront Library
+description: If you have Manage permissions to a folder or a collection, you can change the image that displays on its cover with an image of an item to which you have access.
 ---
 
-
-
-# Change the cover image on an item in *`Workfront Library`* {#change-the-cover-image-on-an-item-in-workfront-library}
+# Change the cover image on an item in *Workfront Library*
 
 If you have Manage permissions to a folder or a collection, you can change the image that displays on its cover with an image of an item to which you have access.
 
-
 When you change the cover image, it is changed for all users who have access to the folder or collection.
 
-
-
-1.  In *`Workfront`*, click the `Main Menu` icon ![](assets/main-menu-icon.png), then select `Library` to open *`Workfront Library`* in a new browser tab.
-1.  In the upper-left corner of *`Workfront Library`*, click the `Menu` icon.
-1.  Navigate to the folder or collection that you want to change, hover over it and click the `More` icon in the upper-right corner.
-1.  Select `Select cover image` in the drop-down menu.
-
-
-   ![](assets/cover-menu-350x206.png)
-
-
-
-1.  Navigate to the image you want displayed as the cover image.
-
-
-   You can choose any asset thumbnails in your Library, My Content, or Collections areas. You cannot use an expired or hidden item as a cover image. 
-
-1.   Select the image, then click `Save.`
-
-
-   The new image displays on the cover of the folder.
-
-
-   The cover image you select remains as the cover image, even if the asset is updated with a new version or is deleted from *`Workfront Library`*.
-
-
+<ol> 
+ <li value="1"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of <em>Workfront Library</em>, click the <span class="bold">Menu</span> icon.</p> </li> 
+ <li value="3"> <p>Navigate to the folder or collection that you want to change, hover over it and click the <span class="bold">More</span> icon in the upper-right corner.</p> </li> 
+ <li value="4"> <p>Select <span class="bold">Select cover image</span> in the drop-down menu.</p> <p> <img src="assets/cover-menu-350x206.png" style="width: 350;height: 206;"> </p> </li> 
+ <li value="5"> <p>Navigate to the image you want displayed as the cover image.</p> <p>You can choose any asset thumbnails in your Library, My Content, or Collections areas. You cannot use an expired or hidden item as a cover image. </p> </li> 
+ <li value="6"> <p>&nbsp;Select the image, then click <span class="bold">Save.</span></p> <p>The new image displays on the cover of the folder.</p> <p>The cover image you select remains as the cover image, even if the asset is updated with a new version or is deleted from <em>Workfront Library</em>.</p> </li> 
+</ol>
 

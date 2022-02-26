@@ -4,26 +4,26 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
+title: Organizational setup
+description: As a part of organizing your users in Adobe Workfront, you can associate them with job roles or companies.
 ---
 
+# Organizational setup
 
-
-# Organizational setup {#organizational-setup}
-
-As a part of organizing your users in *`Adobe Workfront`*, you can associate them with job roles or companies. 
-
+As a part of organizing your users in *Adobe Workfront*, you can associate them with job roles or companies.
 
 This section contains the following articles:
 
+* [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><a href="../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md" class="MCXref xref" xrefformat="{para}">Manage company memberships</a> </p> </li>
+  -->
 
-*  [Create and edit companies](create-and-edit-companies.md) 
-*  [Manage company memberships](manage-company-memberships.md) 
-*  [Associate projects and templates with companies](associate-projects-templates-with-companies.md) 
-*  [Job role overview](job-role-overview.md) 
-*  [Create and manage job roles](create-manage-job-roles.md) 
-*  [Deactivate job roles](deactivate-job-roles.md) 
-*  [Delete job roles](delete-job-roles.md) 
-*  [Override job role billing rates at the company level](override-job-role-billing-rates-company-level.md) 
-
+* [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md) 
+* [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md) 
+* [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) 
+* [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) 
+* [Delete job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md) 
+* [Override job role billing rates at the company level](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
 

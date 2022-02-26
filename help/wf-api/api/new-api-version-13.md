@@ -1,22 +1,24 @@
+---
+filename: new-api-version-13
+content-type: api
+navigation-topic: api-navigation-topic
+title: What's new in API version 13
+description: Adobe Workfront released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
+---
 
+# What's new in API version 13
 
+*Adobe Workfront* released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
 
-# What's new in API version 13 {#whats-new-in-api-version}
-
-*`Adobe Workfront`* released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
-
-
-## Added resources {#added-resources}
+## Added resources
 
 No resources were added for API version 13.
 
-
-## Removed resources {#removed-resources}
+## Removed resources
 
 No resources were removed for API verson 13.
 
-
-## Modified resources {#modified-resources}
+## Modified resources
 
 The following resources were modified for API version 13.
 
@@ -55,22 +57,23 @@ The following resources were modified for API version 13.
  </tbody> 
 </table>
 
-
-
-### AccessLevel {#accesslevel}
+### AccessLevel
 
 An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
 
+For more information on access levels, see [How access levels work](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-For more information on access levels, see [How access levels work](_access-levels.md).
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
     <ul> 
      <li> <p><b>Description</b> </p> <p>Added the validator MAX_LENGTH, which specifies that the length of the description is no more than 4000 characters.</p> </li> 
     </ul> </td> 
@@ -78,45 +81,51 @@ For more information on access levels, see [How access levels work](_access-leve
  </tbody> 
 </table>
 
-
-
-### BreadCrumb {#breadcrumb}
+### BreadCrumb
 
 A BreadCrumb object represents an element in the parent/child hierarchy of a Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information on breadcrumbs, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a></p>
+-->
 
-For more information on breadcrumbs, see [Breadcrumbs overview in the new Adobe Workfront experience](breadcrumb-overview.md)
+For more information on breadcrumbs, see [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Object codes can be found in the <a href="api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>Object codes can be found in the <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-### BurndownEvent {#burndownevent}
+### BurndownEvent
 
 A BurndownEvent object represents an object that changes the bundown of an iteration.
 
+For more information on burndown, see [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
-For more information on burndown, see [Burndown](_burndown.md).
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following fields removed the flag NOT_GROUPABLE </p> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> <p>The following fields removed the flag NOT_GROUPABLE </p> 
     <ul> 
      <li> <p>applyDate</p> </li> 
      <li> <p>entryDate</p> </li> 
@@ -125,19 +134,21 @@ For more information on burndown, see [Burndown](_burndown.md).
  </tbody> 
 </table>
 
-
-
-### CustomerPreferences {#customerpreferences}
+### CustomerPreferences
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Added possible values:</p> 
       <ul> 
@@ -149,9 +160,9 @@ A CustomerPreferences object represents the set of preferences that a customer h
       </ul> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Actions</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>The following actions were added to the CustomerPreferences resource.</p> 
+  <tr> 
+   <td>Actions</td> 
+   <td> <p>The following actions were added to the CustomerPreferences resource.</p> 
     <ul> 
      <li> <p><b>getTimesheetPreferences</b> </p> </li> 
      <li> <p><b>setTimesheetPreferences</b> </p> <p>Takes the argument:</p> 
@@ -163,22 +174,23 @@ A CustomerPreferences object represents the set of preferences that a customer h
  </tbody> 
 </table>
 
-
-
-### DocumentVersion {#documentversion}
+### DocumentVersion
 
 A DocumentVersion object represents a specific version of a file (such as written material, images, or other forms of information).
 
+For more information about document versions, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
-For more information about document versions, see [Upload a new version of a document](upload-new-document-version.md).
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
     <ul> 
      <li> <p><b>externalIntegrationType</b> </p> <p>Added possible value:</p> 
       <ul> 
@@ -192,22 +204,23 @@ For more information about document versions, see [Upload a new version of a doc
  </tbody> 
 </table>
 
+### Group
 
+A Group object represents a set of users and teams. Groups often represent departmental structure.
 
-### Group  {#group}
+For more information on groups, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
-A Group object represents a set of users and teams. Groups often represent departmental structure. 
-
-
-For more information on groups, see [Groups vs. teams in Adobe Workfront](understanding-differences-and-similarities-between-groups-and-teams.md).
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Actions</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Actions</p> </td> 
+   <td> 
     <ul> 
      <li> <p><b>getParents</b> </p> <p>This action returns an array of the group's parent groups (groups that the given group is a subgroup of).</p> </li> 
     </ul> </td> 
@@ -215,22 +228,23 @@ For more information on groups, see [Groups vs. teams in Adobe Workfront](unders
  </tbody> 
 </table>
 
-
-
-### JournalEntry {#journalentry}
+### JournalEntry
 
 The JournalEntry object can be set up to log information about specific object fields any time those fields are modified. When a field is set up to be logged as a part of the Journal Entry object, a corresponding Journal Entry will be created every time that field is modified.
 
-
 The JournalEntry resource added the flag REPORTABLE.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following fields removed the flag NOT_GROUPABLE:</p> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> <p>The following fields removed the flag NOT_GROUPABLE:</p> 
     <ul> 
      <li> <p><b>changeType</b> </p> </li> 
      <li> <p><b>entryDate</b> </p> </li> 
@@ -247,22 +261,23 @@ The JournalEntry resource added the flag REPORTABLE.
  </tbody> 
 </table>
 
+### LayoutTemplate
 
+*Adobe Workfront administrators* or *group administrators* can create templates to customize the layout elements in *Adobe Workfront*. The LayoutTemplate object is specific to *Adobe Workfront* Classic.
 
-### LayoutTemplate {#layouttemplate}
+For the object that represents layout templates in *the new Adobe Workfront experience*, see [UITemplate](#uitempla)
 
-*`Adobe Workfront administrators`* or *`group administrators`* can create templates to customize the layout elements in *`Adobe Workfront`*. The LayoutTemplate object is specific to *`Adobe Workfront`* Classic.
-
-
-For the object that represents layout templates in *`the new Adobe Workfront experience`*, see [UITemplate](#uitempla)
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
     <ul> 
      <li> <p><b>Description</b> </p> <p>Added the validator MAX_LENGTH, which specifies that the length of the description is no more than 4000 characters.</p> </li> 
     </ul> </td> 
@@ -270,22 +285,23 @@ For the object that represents layout templates in *`the new Adobe Workfront exp
  </tbody> 
 </table>
 
-
-
-### LinkedFolder {#linkedfolder}
+### LinkedFolder
 
 A LinkedFolder object represents a folder linked from an external document provider, such as Google Drive or Dropbox.
 
+For more information on Linked Folders, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-For more information on Linked Folders, see [Link documents from external applications](link-documents-from-external-apps.md).
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
     <ul> 
      <li> <p><b>externalIntegrationType</b> </p> <p>Added possible value:</p> 
       <ul> 
@@ -296,19 +312,21 @@ For more information on Linked Folders, see [Link documents from external applic
  </tbody> 
 </table>
 
-
-
-### OpTask {#optask}
+### OpTask
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Search Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Search Fields</p> </td> 
+   <td> 
     <ul> 
      <li> <p><b>favoritedByUsersMM</b> </p> </li> 
     </ul> </td> 
@@ -316,39 +334,45 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
  </tbody> 
 </table>
 
-
-
-### Project {#project}
+### Project
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
     <ul> 
-     <li> <p><b>convertedOpTaskOriginatorID</b> </p> </li> 
+     <li> <p><b>convertedOpTaskOriginatorID</b> </p> <draft-comment>
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
+      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-### ProofApproval {#proofapproval}
+### ProofApproval
 
 A ProofApproval object represents an approval that is directly connected to a proof.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Direct Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following fields were added to the ProofApproval resource.</p> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> <p>The following fields were added to the ProofApproval resource.</p> 
     <ul> 
      <li> <p><b>approverStage</b> </p> </li> 
      <li> <p><b>DecisionDate</b> </p> </li> 
@@ -358,22 +382,19 @@ A ProofApproval object represents an approval that is directly connected to a pr
  </tbody> 
 </table>
 
-
-
-### QueueDef {#queuedef}
+### QueueDef
 
 A QueueDef object represents a Queue, which is a Project that has been published to the Help Desk area to allow users to submit Issues to it.
 
+For more information on Request Queues, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-For more information on Request Queues, see [Create a Request Queue](create-request-queue.md).
-
-<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+  <tr> 
+   <td role="rowheader">Direct Fields</td> 
+   <td> 
     <ul> 
      <li> <p><b>documentPosition</b> </p> <p>Added. Possible values are:</p> 
       <ul> 
@@ -385,19 +406,21 @@ For more information on Request Queues, see [Create a Request Queue](create-requ
  </tbody> 
 </table>
 
-
-
-### Task {#task}
+### Task
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Search Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Search Fields</p> </td> 
+   <td> 
     <ul> 
      <li> <p><b>favoritedByUsersMM</b> </p> </li> 
     </ul> </td> 
@@ -405,26 +428,28 @@ A Task object represents a work item that must be performed as a step toward ach
  </tbody> 
 </table>
 
-
-
-### Team {#team}
+### Team
 
 A Team object is a collection of Users that can be assigned to a work item.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if an object is active and false if it is not. Objects that are set to Active appear in drop-down menus and type-ahead fields and can be attached to other objects. Objects not set to Active are not visible in drop-down menus and type-ahead fields to attach to other objects. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -432,26 +457,28 @@ A Team object is a collection of Users that can be assigned to a work item.
  </tbody> 
 </table>
 
-
-
-### Timesheet {#timesheet}
+### Timesheet
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li> <p><b>isOvertimeDisabled</b> </p> <p>Added</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Core Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
     <ul> 
      <li> <p><b>objCode</b> </p> <p>Removed</p> </li> 
     </ul> </td> 
@@ -459,26 +486,28 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
  </tbody> 
 </table>
 
-
-
-### TimesheetProfile {#timesheetprofile}
+### TimesheetProfile
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li> <p><b>isOvertimeDisabled</b> </p> <p>Added</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li> <p><b>isOvertimeDisabled</b> </p> <p>Added</p> </li> 
     </ul> </td> 
@@ -486,22 +515,19 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
  </tbody> 
 </table>
 
+### UITemplate
 
+*Adobe Workfront administrators* or *group administrators* can create templates to customize the layout elements in *Adobe Workfront*. The LayoutTemplate object is specific to *the new Adobe Workfront experience*.
 
-### UITemplate {#uitemplate}
+For the object that represents layout templates in *Adobe Workfront Classic*, see [LayoutTemplate](#layoutte).
 
-*`Adobe Workfront administrators`* or *`group administrators`* can create templates to customize the layout elements in *`Adobe Workfront`*. The LayoutTemplate object is specific to *`the new Adobe Workfront experience`*.
-
-
-For the object that represents layout templates in *`Adobe Workfront Classic`*, see [LayoutTemplate](#layoutte).
-
-<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Actions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>The following actions were added to the UITemplate resource.</p> 
+  <tr> 
+   <td role="rowheader">Actions</td> 
+   <td> <p>The following actions were added to the UITemplate resource.</p> 
     <ul> 
      <li> <p><b>migrateCustomersAllLayoutTemplates</b> </p> <p>Takes the argument:</p> 
       <ul> 
@@ -517,30 +543,27 @@ For the object that represents layout templates in *`Adobe Workfront Classic`*, 
  </tbody> 
 </table>
 
-
-
-### UserDelegation {#userdelegation}
+### UserDelegation
 
 A UserDelegation object represents the act of delegating work from one user to another for a specific period of time.
 
-
 The UserDelegation object added the flag REPORTABLE.
 
-<table style="mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');width: 100%;" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>The following fields removed the flag NOT_GROUPABLE</p> 
+  <tr> 
+   <td role="rowheader">Direct Fields</td> 
+   <td> <p>The following fields removed the flag NOT_GROUPABLE</p> 
     <ul> 
      <li> <p><b>endDate</b> </p> </li> 
      <li> <p><b>startDate</b> </p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Default Fields</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>The following fields were added:</p> 
+  <tr> 
+   <td role="rowheader">Default Fields</td> 
+   <td> <p>The following fields were added:</p> 
     <ul> 
      <li> <p><b>endDate</b> </p> </li> 
      <li> <p><b>startDate</b> </p> </li> 
@@ -549,19 +572,21 @@ The UserDelegation object added the flag REPORTABLE.
  </tbody> 
 </table>
 
-
-
-### Work  {#work}
+### Work
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;"> <p>Search Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td> <p>Search Fields</p> </td> 
+   <td> 
     <ul> 
      <li> <p><b>favoritedByUsersMM</b> </p> </li> 
     </ul> </td> 

@@ -3,22 +3,31 @@ filename: _agile
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
+title: Agile
+description: This section contains the following subsections:
 ---
 
-
-
-# Agile {#agile}
+# Agile
 
 This section contains the following subsections:
 
+* [Agile overview](../agile/agile-overview.md)
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../agile/boards-overview.md" class="MCXref xref" xrefformat="{para}">Boards overview</a> </li>
+  -->
 
-* [Agile overview](agile-overview.md) 
-* [Agile in projects](_agile-in-projects.md) 
-* [Get started with agile in Adobe Workfront](_get-started-with-agile.md) 
-* [Kanban in an agile team](_using-kanban-in-an-agile-team.md) 
-* [Scrum in an agile team](_scrum-in-an-agile-team.md) 
-* [Work in an agile environment](_work-in-an-agile-environment.md) 
-* [Tips, tricks, and troubleshooting for agile](_tips-tricks-troubleshooting-agile.md) 
+* [Boards overview](../agile/boards-overview.md) 
+* [Agile in projects](../agile/agile-in-projects/agile-in-projects.md) 
+* [Get started with agile in Adobe Workfront](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../agile/get-started-with-boards/get-started-with-boards.md" class="MCXref xref" xrefformat="{para}">Get started with boards in Adobe Workfront</a> </li>
+  -->
+
+* [Get started with boards in Adobe Workfront](../agile/get-started-with-boards/get-started-with-boards.md) 
+* [Kanban in an agile team](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md) 
+* [Scrum in an agile team](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md) 
+* [Work in an agile environment](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md) 
+* [Tips, tricks, and troubleshooting for agile](../agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
 

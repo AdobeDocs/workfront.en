@@ -2,66 +2,83 @@
 filename: locate-portfolio-optimizer
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
+title: Locate the Portfolio Optimizer
+description: You must have the following access to perform the steps in this article:
 ---
 
+# Locate the Portfolio Optimizer
 
-
-# Locate the Portfolio Optimizer {#locate-the-portfolio-optimizer}
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Business variable varname">Business</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Business</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to Portfolios and Projects</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Portfolios and Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions to the portfolio</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the portfolio</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Locate the Portfolio Optimizer
 
-
-## Locate the Portfolio Optimizer {#locate-the-portfolio-optimizer-1}
-
-
-
-
-1.   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> From the  <span class="bold">Main Menu</span>, click  <span class="bold">Portfolios</span>. </MadCap:conditionalText>`
-
-
-   The portfolios you own display by default.
-
-1.  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> (Optional) From the  <span class="bold">Filter</span> drop-down menu, select to view a different set of portfolios. </MadCap:conditionalText>` 
-1.  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the name of a portfolio to access it. </MadCap:conditionalText>`
-1.   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click  <span class="bold">Portfolio Optimization</span> in the left panel.</MadCap:conditionalText>`
-
-
-   The Portfolio Optimizer displays.
-
-
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
-
-
-
-
+<ol> 
+ <li value="1"> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     From the 
+     <span class="bold">Main Menu</span>, click 
+     <span class="bold">Portfolios</span>. 
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    From the 
+    <span class="bold">Main Menu</span>, click 
+    <span class="bold">Portfolios</span>. 
+   </MadCap:conditionalText></p> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The portfolios you own display by default.</p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The portfolios you own display by default.</p> </li> 
+ <li value="2"> <draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    (Optional) From the 
+    <span class="bold">Filter</span> drop-down menu, select to view a different set of portfolios. 
+   </MadCap:conditionalText>
+  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   (Optional) From the 
+   <span class="bold">Filter</span> drop-down menu, select to view a different set of portfolios. 
+  </MadCap:conditionalText> </li> 
+ <li value="3"> <draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Click the name of a portfolio to access it. 
+   </MadCap:conditionalText>
+  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   Click the name of a portfolio to access it. 
+  </MadCap:conditionalText></li> 
+ <li value="4"> <p> <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Click 
+     <span class="bold">Portfolio Optimization</span> in the left panel.
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Click 
+    <span class="bold">Portfolio Optimization</span> in the left panel.
+   </MadCap:conditionalText></p> <p>The Portfolio Optimizer displays.</p> <p> <draft-comment>
+    <img src="assets/nwe-portfolio-optimizer-350x83.png" style="width: 350;height: 83;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   </draft-comment><img src="assets/nwe-portfolio-optimizer-350x83.png" style="width: 350;height: 83;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+</ol>
 

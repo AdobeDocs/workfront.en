@@ -3,82 +3,99 @@ filename: update-a-workfront-object-in-gsuite
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
+title: Update a Adobe Workfront object from G Suite
+description: Without leaving G Suite, you can post a new update or a reply to an existing update on a Adobe Workfront object.
 ---
 
+# Update a *Adobe Workfront* object from G Suite
 
+Without leaving G Suite, you can post a new update or a reply to an existing update on a *Adobe Workfront* object.
 
-# Update a *`Adobe Workfront`* object from G Suite {#update-a-adobe-workfront-object-from-g-suite}
-
-Without leaving G Suite, you can post a new update or a reply to an existing update on a *`Adobe Workfront`* object.
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Work, Plan</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Work, Plan</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       Example: Edit access to Documents
+      </MadCap:conditionalText></p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[Insert any access level configurations needed] <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      Example: Edit access to Documents
+     </MadCap:conditionalText></p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       Example: View access or higher on Documents
+      </MadCap:conditionalText></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[Insert permissions needed and specify the object] <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      Example: View access or higher on Documents
+     </MadCap:conditionalText></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Prerequisites
 
-## Prerequisites {#prerequisites}
+Before you can update a *Workfront* object in G Suite, you must
 
-Before you can update a *`Workfront`* object in G Suite, you must
+* Install *Workfront* for G suite  
+  For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
+## Update a *Workfront* object in G Suite
 
+1. View the object in G Suite as described in [View and manage Adobe Workfront object details from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
 
-* Install *`Workfront`* for G suite  
-  For instructions, see [Install Adobe Workfront for G Suite](install-workfront-for-gsuite.md).
-
-
-
-
-
-## Update a *`Workfront`* object in G Suite {#update-a-workfront-object-in-g-suite}
-
-
-
-
-1. View the object in G Suite as described in [View and manage Adobe Workfront object details from G Suite](view-manage-work-item-details-in-gsuite.md).
-
-
-
-
-
-1.  Click the `Updates` tab if you are posting a new update.
-1.  Click `Start a new update`, then type a new update.
-
+1. Click the `Updates` tab if you are posting a new update.
+1. Click `Start a new update`, then type a new update.
 
    Or
 
-
    Click `Reply` under an existing update, then type your reply to the update.
-
 
    If you click `Reply`, you can click `View all updates` to go back to the `Updates` tab.
 
 1. (Optional) To tag users or teams:
-    
-    
-    1.  Click `Notify`.
-    1. Click `Search for a user or team`, type the name of the user or team, then click the name when you see it in the list that appears below. 
-    1. Click `Save`.
-    1. Repeat these three steps for any other users or teams you want to notify.
-    
-    
-1. Click `Post`.
 
+  1. Click `Notify`.
+  1. Click `Search for a user or team`, type the name of the user or team, then click the name when you see it in the list that appears below. 
+  1. Click `Save`.
+  1. Repeat these three steps for any other users or teams you want to notify.
+
+1. Click `Post`.
 

@@ -4,35 +4,27 @@ content-type: overview
 product: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
+title: Legacy proofing viewer Overview
+description: The Workfront Proof Viewer contains:
 ---
 
+# Legacy *proofing viewer* Overview
 
-
-
-# Legacy `proofing viewer` Overview {#legacy-proofing-viewer-overview}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->The information in this article refers to functionality that is currently deprecated and will be removed from `Workfront` in 2018.
+>The information in this article refers to functionality that is currently deprecated and will be removed from *Adobe Workfront* in 2018.
 
-
-The `Workfront Proof` Viewer contains:  
-![PV2-_Overview.png](assets/pv2--overview-600x323.png)
-
-
-
-
+The *Workfront Proof* Viewer contains:  
+![PV2-_Overview.png](assets/pv2--overview-350x189.png)
 
 * Proof image (1)
 * Proof name (2)
 * Comment and Decision buttons (3)
-* Compare `proofs` (4)
+* Compare *proofs* (4)
 * Comments counter (5)
 * Comments views (6)
 * Reviewer's initials (visible when you hover over the square) (7)
-* Other Reviewer's initials showing who else is reviewing `proof` at the same time (8)
+* Other Reviewer's initials showing who else is reviewing *proof* at the same time (8)
 * Filtering menu (9)
 * Zoom tool (10)
 * Pan mode (11)&nbsp;
@@ -42,5 +34,4 @@ The `Workfront Proof` Viewer contains:
 * Expandable sidebar (15)
 * Sidebar icons (16)
 * Versions navigation (17)
-
 

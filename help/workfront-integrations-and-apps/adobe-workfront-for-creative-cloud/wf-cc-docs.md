@@ -2,90 +2,71 @@
 filename: wf-cc-docs
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
+title: Upload documents from Adobe Photoshop
+description: You can upload your projects as documents for a quick review and approval or simply to store in Adobe Workfront.
 ---
 
+# Upload documents from Adobe Photoshop
 
+You can upload your projects as documents for a quick review and approval or simply to store in *Adobe Workfront*.
 
-# Upload documents from Adobe Photoshop {#upload-documents-from-adobe-photoshop}
-
-You can upload your projects as documents for a quick review and approval or simply to store in *`Adobe Workfront`*.
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p><em>Work</em> or <em>Plan</em></p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Work</em> or <em>Plan</em></p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray" data-mc-conditions=""> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Work variable varname">Work</span> or <span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span></p> </td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a <em>Workfront</em> license.</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">You must have an Adobe Creative Cloud license in addition to a <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> license.</td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>View access or higher to the object where you want to upload a document.</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access or higher to the object where you want to upload a document.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Prerequisites
 
-## Prerequisites {#prerequisites}
+* You must install the *Workfront* for Adobe Photoshop plugin before you can upload Adobe Photoshop projects to *Workfront*.
 
+  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
+## Upload documents to Adobe Photoshop
 
-
-*  You must install the *`Workfront`* for Adobe Photoshop plugin before you can upload Adobe Photoshop projects to *`Workfront`*.
-
-
-  For instructions, see [Install Workfront for Adobe Photoshop](wf-cc-install.md).
-
-
-
-
-
-## Upload documents to Adobe Photoshop {#upload-documents-to-adobe-photoshop}
-
-
-
-
-1.  Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
-
-
-   ![](assets/go-back-to-work-list-350x498.png)   
-
-
-1. Go to the work item where you want to upload a document. 
-1. Click the `Document` icon ![](assets/documents.png) in the navigation bar. 
-
-1. Click `New File` near the bottom of the plugin.
-1. Choose the `Asset Type` from the drop-down menu.  
-
-
-   >[!NOTE]
-   >
-   >If you add an approver, the image uploads to *`Workfront`* as a simple *`Proof`*.
-
-
-
-1. (Optional) Type a comment in the `Updates` area. 
-1. Click `Upload`.  
-   The document appears in the Documents area in the plugin and the desktop app.
-
-
+<ol> 
+ <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.</p> <p> <img src="assets/go-back-to-work-list-350x314.png" style="width: 350;height: 314;"> <br> </p> </li> 
+ <li value="2">Go to the work item where you want to upload a document. </li> 
+ <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png"> in the navigation bar. </li> 
+ <li value="4">Click <span class="bold">New File</span> near the bottom of the plugin.</li> 
+ <li value="5">Choose the <span class="bold">Asset Type</span> from the drop-down menu.<br><note type="note">
+   If you add an approver, the image uploads to 
+   <em>Workfront</em> as a simple 
+   <em>Proof</em>.
+  </note></li> 
+ <li value="6">(Optional) Type a comment in the <span class="bold">Updates</span> area. </li> 
+ <li value="7">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 
+</ol>
 

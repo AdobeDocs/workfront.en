@@ -1,29 +1,31 @@
 ---
 filename: wf-kb
+title: Workfront knowledge base
+description: .
 ---
 
+# Workfront knowledge base
 
+* [Administration and setup](administration-and-setup/administration-and-setup.md) 
+* [Adobe Workfront basics](workfront-basics/workfront-basics.md) 
+* [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md) 
+* [Manage resources](resource-mgmt/manage-resources.md) 
+* [Agile](agile/agile.md) 
+* [Manage work](manage-work/manage-work.md) 
+* [Review and approve work](review-and-approve-work/review-and-approve-work.md) 
+* [Documents](documents/documents-overview.md) 
+* [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
 
-# Workfront knowledge base {#workfront-knowledge-base}
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
+  -->
 
-
-
-
-* [Administration and setup](_administration-and-setup.md) 
-* [Adobe Workfront basics](_workfront-basics.md) 
-* [People, teams, and groups](_people-teams-and-groups.md) 
-* [Manage resources](_manage-resources.md) 
-* [Agile](_agile.md) 
-* [Manage work](_manage-work.md) 
-* [Review and approve work](_review-and-approve-work.md) 
-* [Documents](_documents-overview.md) 
-* [Reporting](_reports-and-dashboards-overview.md) 
-* [Timesheets](_timesheets-all.md) 
-* [Adobe Workfront integrations](_workfront-integrations.md) 
-* [Adobe Workfront API](workfront-api.md) 
-* [Workfront Library Basics](_basics.md) 
-* [Workfront Proof](_workfront-proof.md) 
-* [Product announcements](_product-announcements.md) 
-
+* Enhanced analytics
+* [Timesheets](timesheets/timesheets-all.md) 
+* [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md) 
+* [Adobe Workfront API](wf-api/workfront-api.md) 
+* [Workfront Library Basics](workfront-library/content-management/basics/basics.md) 
+* [Workfront Proof](workfront-proof/workfront-proof.md) 
+* [Product announcements](product-announcements/product-announcements.md)
 
 .

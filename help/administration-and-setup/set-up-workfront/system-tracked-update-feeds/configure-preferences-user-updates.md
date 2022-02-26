@@ -3,74 +3,52 @@ filename: configure-preferences-user-updates
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
+title: Configure preferences for user updates
+description: You can configure preferences that give users access to certain features when they are adding comments in an object's Updates area.
 ---
 
-
-
-# Configure preferences for user updates {#configure-preferences-for-user-updates}
+# Configure preferences for user updates
 
 You can configure preferences that give users access to certain features when they are adding comments in an object's Updates area.
 
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Allow users to add images in updates
 
-
-## Allow users to add images in updates {#allow-users-to-add-images-in-updates}
-
-By default, users cannot add images in updates. When you enable this preference, users will be able to attach images in updates. The preference applies to all updates in all areas of your *`Workfront`* instance.
-
+By default, users cannot add images in updates. When you enable this preference, users will be able to attach images in updates. The preference applies to all updates in all areas of your *Workfront* instance.
 
 >[!NOTE]
 >
->
->
->
->* Images saved in updates count toward the document storage limit. For information, see [Check document storage limits](check-document-storage.md).
+>* Images saved in updates count toward the document storage limit. For information, see [Check document storage limits](../../../documents/managing-documents/check-document-storage.md).
 >* Images are only accessible through the Updates tab on an object and are not available on the Documents tab.
 >
->
 
-
-
-
-
-
-1.  Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-1.  In the left panel, select `Interface` > `Update Feeds`.
-1.  Select the `Preferences` tab.
-
-
-   ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)
-
-
-
-1.  Select the `Allow users to add images in updates` check box.
-1.  Select `Save`.
-
-
-   When this preference is enabled, you can disable it at any time. Any images already posted in updates will remain in the Updates area on the object.
-
-
+<ol> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
+ <li value="2"> <p>In the left panel, select <span class="bold">Interface</span> > <span class="bold">Update Feeds</span>.</p> </li> 
+ <li value="3"> <p>Select the <span class="bold">Preferences</span> tab.</p> <p> <img src="assets/updatefeeds-preferences-350x137.png" alt="User preferences for update feeds" style="width: 350;height: 137;"> </p> </li> 
+ <li value="4"> <p>Select the <span class="bold">Allow users to add images in updates</span> check box.</p> </li> 
+ <li value="5"> <p>Select <span class="bold">Save</span>.</p> <p>When this preference is enabled, you can disable it at any time. Any images already posted in updates will remain in the Updates area on the object.</p> </li> 
+</ol>
 

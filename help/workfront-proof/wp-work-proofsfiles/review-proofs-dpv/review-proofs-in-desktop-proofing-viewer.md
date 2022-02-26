@@ -4,24 +4,18 @@ content-type: reference
 product: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
+title: Review proofs in the Desktop Proofing Viewer
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Review proofs in the *Desktop Proofing Viewer*
 
-
-# Review proofs in the *`Desktop Proofing Viewer`* {#review-proofs-in-the-desktop-proofing-viewer}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-
-
-* [Understand the Desktop Proofing Viewer](destop-proofing-viewer.md) 
-* [Configure how hyperlinks open in the Desktop Proofing Viewer](configure-how-hyperlinks-open.md) 
-
+* [Understand the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) 
+* [Configure how hyperlinks open in the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
 

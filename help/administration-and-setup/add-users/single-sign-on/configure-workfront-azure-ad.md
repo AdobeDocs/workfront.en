@@ -3,186 +3,104 @@ filename: configure-workfront-azure-ad
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
+title: Configure Adobe Workfront with Azure Active Directory
+description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
 ---
 
+# Configure *Adobe Workfront* with Azure Active Directory
 
-
-# Configure *`Adobe Workfront`* with Azure Active Directory {#configure-adobe-workfront-with-azure-active-directory}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform.
+>The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
 >
+>If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+*Adobe Workfront* single sign-on (SSO) supports the integration with Azure Active Directory. You configure *Workfront* SSO with Azure Active Directory using the Security Assertion Markup Language (SAML) 2.0 option in *Workfront*.
+
+>[!NOTE]
 >
->If your organization has been onboarded to the Adobe Business Platform, Single Sign-On (SSO) is handled automatically as part of that integration. You do not need to configure or enable this functionality.
->
->
->For a list of procedures that differ based on whether your organization is migrated to Adobe IMS, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](actions-in-admin-console.md).
+>This is not available if your organization’s *Workfront* instance uses a custom SSO portal>
+><!-->
+><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+>or is enabled with Adobe IMS>
+></MadCap:conditionalText>>
+>-->
+>`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  or is enabled with Adobe IMS</MadCap:conditionalText>`. See your network or IT administrator if you need more information.
 
+##
 
-
-*`Adobe Workfront`* single sign-on (SSO) supports the integration with Azure Active Directory. You configure *`Workfront`* SSO with Azure Active Directory using the Security Assertion Markup Language (SAML) 2.0 option in *`Workfront`*.
-
-
-##  
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Prerequisites
 
-
-## Prerequisites {#prerequisites}
-
-To configure *`Workfront`* Single Sign-On with Azure Active Directory, you need the following items:
-
-
+To configure *Workfront* Single Sign-On with Azure Active Directory, you need the following items:
 
 * An Azure Active Directory subscription
-* A *`Workfront`* subscription enabled for using Single Sign-On integrations
+* A *Workfront* subscription enabled for using Single Sign-On integrations
 * An Azure Active Directory system administrator
-* A *`Workfront administrator`*
-
-
-
+* A *Workfront administrator*
 
 >[!NOTE]
 >
->*`Workfront`* is not responsible for setting up and troubleshooting your Azure Active Directory configuration. You must have an in-house system administrator that manages that part of the integration, in addition to a *`Workfront administrator`*.
-
-
-
-
-## Add *`Workfront`* from the Azure Gallery {#add-workfront-from-the-azure-gallery}
-
-To configure the integration of *`Workfront`* SSO with Azure Active Directory, you need to add *`Workfront`* from the Azure gallery to your list of managed SaaS apps.
-
-
-
-1. Go to the following URL to access the `Azure Portal`: [https://portal.azure.com/](https://portal.azure.com/) 
-
-1.  In the `Azure Portal`, on the left navigation panel, click the `Azure Active Directory` icon.
-
-
-   ![](assets/active-directory-icon.png)
-
-
-
-1.  Navigate to `Enterprise applications`. Then go to `All applications`.
-
-
-   ![](assets/ad-all-applications-350x347.png)
-
-
-
-1.  To add a new application, click the `New application` button on the top of the dialog.
-
-
-   ![](assets/ad-new-application.png)
-
-
-
-1.  In the search box, type ` *`Workfront`*`.
-
-
-   ![](assets/ad-search-350x61.png)
-
-
-
-1. In the results panel, select ` *`Workfront`*`, and then click `Add` button to add the application.
-
-
-
-
-
-## Configure Azure Active Directory single sign-on {#configure-azure-active-directory-single-sign-on}
-
-
-
-
-1.  In the Azure Portal, on the ` *`Workfront`*` application integration page, click `Single sign-on`.
-1.  On the `Single sign-on` dialog box, select `Mode` as `SAML-based Sign-on` to enable Single Sign-On.
-
-
-   ![](assets/ad-enable-sso-350x44.png)
-
-
-
-1.  In the ` *`Workfront`* Domain and URLs` section, specify the following information:  
-   - `Sign-on URL`: your *`Workfront`* URL using the following pattern: https://<companyname>.my.workfront.com  
-   - `Identifier`: your *`Workfront`* SAML 2.0 URL using the following pattern: https://<companyname>.my.workfront.com/SAML2
-
-
-   ![](assets/tutorial-workfront-url-350x47.png)
-
-
-
-1.  In the `SAML Signing Certificate` section, click `Certificate(Base64)` and then save the Certificate file on your computer.
-
-
-   ![](assets/ad-save-certificate-350x68.png)
-
-
-
-1.  Click `Save`.
-1.  In the ` *`Workfront`* Configuration` section, click `Configure *`Workfront`*` to open `Configure sign-on` window.
-1.  Copy the `Sign-Out URL`and `SAML Single Sign-On Service URL` from the `Quick Reference`section.
-
-
-   ![](assets/ad-quick-reference-350x47.png)
-
-
-
-
-
-
-
-## Configure *`Workfront`* with Azure Active Directory {#configure-workfront-with-azure-active-directory}
-
-
-
-
-1. Log in to *`Workfront`* as a *`Workfront administrator`*.
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).  
-
-1. At the bottom of the left panel, click `System` > `Single Sign-On (SSO)`.
-
-1. Click the `Type` box, then click `SAML 2.0`. 
-
-1.  Select the check box next to `Service Provider ID`, then specify that ID ``using the following format:
-
-
-   https://<companyname>.my.workfront.com/SAML2
-
-1. Paste the `SAML Single Sign-On Service URL` into the `Login Portal URL` field.
-
-1. Paste the `Single Sign-Out URL` into the `Sign-Out URL` field.
-
-1. Specify the `Change Password URL`.
-1. Click `Save`.
-
+>*Workfront* is not responsible for setting up and troubleshooting your Azure Active Directory configuration. You must have an in-house system administrator that manages that part of the integration, in addition to a *Workfront administrator*.
+
+## Add *Workfront* from the Azure Gallery
+
+To configure the integration of *Workfront* SSO with Azure Active Directory, you need to add *Workfront* from the Azure gallery to your list of managed SaaS apps.
+
+<ol class="lf-text-block lf-block" data-lf-anchor-id="87e4e42dcc1f6edc31cda8cbc513637a:0"> 
+ <li value="1">Go to the following URL to access the <span class="bold">Azure Portal</span>: <a href="https://portal.azure.com/">https://portal.azure.com/</a> </li> 
+ <li value="2"> <p>In the <span class="bold">Azure Portal</span>, on the left navigation panel, click the <span class="bold">Azure Active Directory</span> icon.</p> <p> <img src="assets/active-directory-icon.png"> </p> </li> 
+ <li value="3"> <p>Navigate to <span class="bold">Enterprise applications</span>. Then go to <span class="bold">All applications</span>.</p> <p> <img src="assets/ad-all-applications-350x347.png" style="width: 350;height: 347;"> </p> </li> 
+ <li value="4"> <p>To add a new application, click the <span class="bold">New application</span> button on the top of the dialog.</p> <p> <img src="assets/ad-new-application.png"> </p> </li> 
+ <li value="5"> <p>In the search box, type <span class="bold"><em>Workfront</em></span>.</p> <p> <img src="assets/ad-search-350x61.png" style="width: 350;height: 61;"> </p> </li> 
+ <li value="6">In the results panel, select <span class="bold"><em>Workfront</em></span>, and then click <span class="bold">Add</span> button to add the application.</li> 
+</ol>
+
+## Configure Azure Active Directory single sign-on
+
+<ol class="lf-text-block lf-block" data-lf-anchor-id="cda51c033d1f6dff394188dfe1134350:0"> 
+ <li value="1"> <p>In the Azure Portal, on the <span class="bold"><em>Workfront</em></span> application integration page, click <span class="bold">Single sign-on</span>.</p> </li> 
+ <li value="2"> <p>On the <span class="bold">Single sign-on</span> dialog box, select <span class="bold">Mode</span> as <span class="bold">SAML-based Sign-on</span> to enable Single Sign-On.</p> <p> <img src="assets/ad-enable-sso-350x44.png" style="width: 350;height: 44;"> </p> </li> 
+ <li value="3"> <p>In the <span class="bold"><em>Workfront</em> Domain and URLs</span> section, specify the following information:<br>-<span class="bold"> Sign-on URL</span>: your <em>Workfront</em> URL using the following pattern: https://<companyname>.my.workfront.com<br>- <span class="bold">Identifier</span>: your <em>Workfront</em> SAML 2.0 URL using the following pattern: https://<companyname>.my.workfront.com/SAML2</p> <p> <img src="assets/tutorial-workfront-url-350x47.png" style="width: 350;height: 47;"> </p> </li> 
+ <li value="4"> <p>In the <span class="bold">SAML Signing Certificate</span> section, click <span class="bold">Certificate(Base64)</span> and then save the Certificate file on your computer.</p> <p> <img src="assets/ad-save-certificate-350x68.png" style="width: 350;height: 68;"> </p> </li> 
+ <li value="5"> <p>Click <span class="bold">Save</span>.</p> </li> 
+ <li value="6"> <p>In the <span class="bold"><em>Workfront</em> Configuration</span> section, click <span class="bold">Configure <em>Workfront</em></span> to open <span class="bold">Configure sign-on</span> window.</p> </li> 
+ <li value="7"> <p>Copy the <span class="bold">Sign-Out URL</span> and<span class="bold"> SAML Single Sign-On Service URL</span> from the <span class="bold">Quick Reference</span> section.</p> <p> <img src="assets/ad-quick-reference-350x47.png" style="width: 350;height: 47;"> </p> </li> 
+</ol>
+
+## Configure *Workfront* with Azure Active Directory
+
+<ol class="lf-text-block lf-block" data-lf-anchor-id="cda51c033d1f6dff394188dfe1134350:0"> 
+ <li value="1">Log in to <em>Workfront</em> as a <em>Workfront administrator</em>.</li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="3">At the bottom of the left panel, click <span class="bold">System</span> > <span class="bold">Single Sign-On (SSO)</span>.</li> 
+ <li value="4">Click the <span class="bold">Type</span> box, then click <span class="bold">SAML 2.0</span>. </li> 
+ <li value="5"> <p>Select the check box next to <span class="bold">Service Provider ID</span>, then specify that ID using the following format:</p> <p>https://<companyname>.my.workfront.com/SAML2</p> </li> 
+ <li value="6">Paste the <span class="bold">SAML Single Sign-On Service URL</span> into the <span class="bold">Login Portal URL</span> field.</li> 
+ <li value="7">Paste the <span class="bold">Single Sign-Out URL</span> into the <span class="bold">Sign-Out URL</span> field.</li> 
+ <li value="8">Specify the <span class="bold">Change Password URL</span>.</li> 
+ <li value="9">Click <span class="bold">Save</span>.</li> 
+</ol>
 

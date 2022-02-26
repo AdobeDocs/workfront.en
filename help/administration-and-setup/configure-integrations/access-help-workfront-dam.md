@@ -4,24 +4,19 @@ title: Access Help for Workfront DAM
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
+title: Access Help for Adobe Workfront DAM
+description: Adobe Workfront DAM is a native Digital Asset Management (DAM) system within Workfront that allows you to store, organize, find, retrieve, and share digital files.
 ---
 
+# Access Help for *Adobe Workfront DAM*
 
+*Adobe Workfront*&nbsp;DAM is a native Digital Asset Management (DAM) system within *Workfront* that allows you&nbsp;to store, organize, find, retrieve, and share digital files.
 
-# Access Help for *`Adobe Workfront DAM`* {#access-help-for-adobe-workfront-dam}
+You can access support documentation for *Workfront DAM*&nbsp; in the following locations:
 
-*`Adobe Workfront`* DAM is a native Digital Asset Management (DAM) system within *`Workfront`* that allows you&nbsp;to store, organize, find, retrieve, and share digital files.
+* If you are using the stand-alone *Workfront DAM* application (outside of the main *Workfront* application),&nbsp;see the&nbsp;Webdam Help Site.
 
+* If you are leveraging *Workfront DAM* functionality within the main *Workfront* application,&nbsp;see [Adobe Workfront DAM within Adobe Workfront](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 
-You can access support documentation for *`Workfront DAM`*&nbsp; in the following locations:
-
-
-
-* If you are using the stand-alone *`Workfront DAM`* application (outside of the main *`Workfront`* application),&nbsp;see the&nbsp;Webdam Help Site.
-
-* If you are leveraging *`Workfront DAM`* functionality within the main *`Workfront`* application,&nbsp;see [Adobe Workfront DAM within Adobe Workfront](_workfront-dam-in-workfrontt.md)
-
-* NOTE: If you need to submit a feature request or log an issue, contact *`Workfront`* Customer Support by phone, email, or the *`Workfront`* Help site. For more information, see [Contact Customer Support](contact-customer-support.md).
-
-
+* NOTE:&nbsp;If you need to submit a feature request or log an issue, contact *Workfront* Customer Support by phone, email, or the *Workfront* Help site. For more information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 

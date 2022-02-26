@@ -3,97 +3,71 @@ filename: configure-resource-mgmt-preferences
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
+title: Configure Resource Management preferences
+description: As an Adobe Workfront administrator you can configure the Resource Management Preferences for your system.
 ---
 
+# Configure Resource Management preferences
 
+As an *Adobe Workfront administrator* you can configure the Resource Management Preferences for your system.
 
-# Configure Resource Management preferences {#configure-resource-management-preferences}
+The Resource Management preferences determine how user availability and FTE are calculated for the *Workfront* resource scheduling and planning tools.
 
-As an *`Adobe Workfront administrator`* you can configure the Resource Management Preferences for your system. 
+For information about planning and scheduling resources in *Workfront*, see [Get started with Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-
-The Resource Management preferences determine how user availability and FTE are calculated for the *`Workfront`* resource scheduling and planning tools.
-
-
-For information about planning and scheduling resources in *`Workfront`*, see [Get started with Resource Management](get-started-resource-management.md).
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>System Administrator access level</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-## Configure Resource Management preferences {#configure-resource-management-preferences-1}
-
-
+## Configure Resource Management preferences
 
 >[!NOTE]
 >
 >Because this is a global setting, this selection affects all the calculations for the entire system, for all users, in all the resource management tools, and for all Resource Pools.
 
-
-
-
-
-1.  Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-1.  Click `Resource Management`. 
-1.  Select one of the following methods to calculate the availability of users in *`Workfront`*: 
-    
-    
-    * `The Default Schedule`: *`Workfront`* uses the Default Schedule of the system and the individual FTE of the user to calculate the Available Hours of the user in resource management tools.   
-      For more information about schedules, see [Create a schedule](create-schedules.md)For more information about the value of the user FTE, see&nbsp; [Edit a user's profile](edit-a-users-profile.md)  
-      The Available Hours for the user are calculated by this formula:  
-    
-    
-      ```    
-      User Available Hours = Default Schedule Hours * User FTE value
-      ```    
-    
-  
-      For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week.  
-    
-    * `The User's Schedule`: *`Workfront`* uses the Default Schedule of the system and the schedule of the user to calculate the Available FTE value of the user in resource management tools. The value of the FTE of the user is ignored. This is the default setting.  
-      The Available FTE for the user is calculated by this formula:  
-    
-    
-      ```    
-      User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours
-      ```    
-    
-  
-      For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week,&nbsp;the FTE of the user is 0.75.&nbsp;
-    
-    
-      >[!NOTE]
-      >
-      >If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
-    
-    
-    
-    
-    
-
-1.  Click `Save`.  
-
-
+<ol> 
+ <li value="1"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
+ <li value="2"> Click <span class="bold">Resource Management</span>. </li> 
+ <li value="3"> Select one of the following methods to calculate the availability of users in <em>Workfront</em>: 
+  <ul>
+   <li><p><span class="bold">The Default Schedule</span>: <em>Workfront</em> uses the Default Schedule of the system and the individual FTE of the user to calculate the Available Hours of the user in resource management tools. <br>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</p><p>For more information about the value of the user FTE, see&nbsp;<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a><br>The Available Hours for the user are calculated by the following formula:<br><code>User Available Hours = (Default Schedule Hours - Time off hours) * User FTE value</code></p>
+    <div class="example" data-mc-autonum="<b>Example: </b>">
+     <span class="autonumber"><span><b>Example: </b></span></span>
+     <p>For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week, or 4 hours a day in a five-day week. </p>
+     <p>If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:</p>
+     <p><code>User Daily Available Hours = (4-1) * 0.5 = 3.5 Hours</code><br></p>
+    </div></li>
+   <li><p><span class="bold">The User's Schedule</span>: <em>Workfront</em> uses the user's schedule as well as the Default Schedule of the system to calculate the Available FTE value of the user in resource management tools. The Available Hours are calculated according only to the user's schedule. The value of the FTE of the user is ignored. This is the default setting.</p><note type="note">
+     If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
+    </note><p>The Available FTE for the user is calculated by the following formula:</p><p><code>User Available FTE =&nbsp;(Hours from the Schedule of the User - Time off hours) / Default Schedule Hours</code></p>
+    <div class="example" data-mc-autonum="<b>Example: </b>">
+     <span class="autonumber"><span><b>Example: </b></span></span>
+     <p>For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week,&nbsp;the FTE of the user is 0.75.&nbsp;</p>
+     <p>If the user has 2 hours of Time off one day, their Weekly Available FTE will be calculated as follows:</p>
+     <p><code>User Weekly Available FTE = (30-2) / 40 = 0.70</code></p>
+    </div></li>
+  </ul></li> 
+ <li value="4"> Click <span class="bold">Save</span>.<br></li> 
+</ol>
 

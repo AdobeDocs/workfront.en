@@ -4,624 +4,620 @@ content-type: overview
 product: workfront-library
 product-area: documents
 navigation-topic: metadata
+title: Overview of taxonomy field types
+description: Workfront Library supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to Workfront Library, reach out to your customer success manager or account representative.
 ---
 
+# Overview of taxonomy field types
 
+*Workfront Library* supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to *Workfront Library*, reach out to your customer success manager or account representative.
 
-# Overview of taxonomy field types {#overview-of-taxonomy-field-types}
+## EXIF metadata fields
 
-*`Workfront Library`* supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to *`Workfront Library`*, reach out to your customer success manager or account representative.
-
-
-## EXIF metadata fields {#exif-metadata-fields}
-
-*`Workfront Library`* supports known EXIF metadata, as well as a list of additional EXIF metadata. The tables below show each supported EXIF metadata and its field type in *`Workfront Library`*.
-
+*Workfront Library* supports known EXIF metadata, as well as a list of additional EXIF metadata. The tables below show each supported EXIF metadata and its field type in *Workfront Library*.
 
 Known EXIF metadata:
 
-<table style="mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">EXIF metadata</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1">Taxonomy field type in <span class="mc-variable WFVariables.ProdNameWFL variable varname">Workfront Library</span></th> 
+  <tr> 
+   <th>EXIF metadata</th> 
+   <th>Taxonomy field type in <em>Workfront Library</em></th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Artist</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>Artist</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Bits Per Sample</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Bits Per Sample</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Color Space</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Color Space</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Components Configuration</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Components Configuration</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Compressed Bits Per Pixel</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>Compressed Bits Per Pixel</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> Compression</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> Compression</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Contrast</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Contrast</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Copyright</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>Copyright</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p> Custom Rendered </p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p> Custom Rendered </p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Date Time</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Date</td> 
+  <tr> 
+   <td>Date Time</td> 
+   <td>Date</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Date Time Digitized</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Date</td> 
+  <tr> 
+   <td>Date Time Digitized</td> 
+   <td>Date</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> Date Time Original</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Date</td> 
+  <tr> 
+   <td> Date Time Original</td> 
+   <td>Date</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Digital Zoom Ratio</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>Digital Zoom Ratio</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Exif Image Width</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Exif Image Width</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Exif Version</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Exif Version</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Exposure Bias Value</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Exposure Bias Value</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Exposure Mode</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>Exposure Mode</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Exposure Program</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Exposure Program</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Exposure Time</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>Exposure Time</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">File Source</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>File Source</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Flash</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Flash</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> Focal Length</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> Focal Length</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Gain Control</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Gain Control</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Image Description</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>Image Description</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p> Image Width</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p> Image Width</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> Interoperability Index</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> Interoperability Index</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Interoperability Version</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Interoperability Version</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">ISO Speed Ratings</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>ISO Speed Ratings</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Make</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Make</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Max Aperture Value</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Max Aperture Value</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Metering Mode</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Metering Mode</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Model </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Model </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Orientation</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Orientation</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Photometric Interpretation</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>Photometric Interpretation</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> Planar Configuration</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> Planar Configuration</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Primary Chromaticities</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>Primary Chromaticities</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Resolution Unit</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Resolution Unit</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Rows Per Strip</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Rows Per Strip</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Samples Per Pixel</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>Samples Per Pixel</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p> Saturation</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p> Saturation</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Scene Capture Type</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Scene Capture Type</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Sharpness</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Sharpness</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Software</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Software</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Strip Byte Counts</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Strip Byte Counts</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Strip Offsets</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>Strip Offsets</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> Transfer Function</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> Transfer Function</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">User Comment</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>User Comment</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>White Balance</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>White Balance</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">White Point</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>White Point</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">X Resolution</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>X Resolution</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">YCbCr Coefficients</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>YCbCr Coefficients</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>YCbCr Positioning</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>YCbCr Positioning</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">Y Resolution</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Y Resolution</td> 
+   <td>Text</td> 
   </tr> 
  </tbody> 
 </table>
 
 Additional EXIF metadata supported:
 
-<table style="mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">EXIF metadata</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1">Taxonomy field type in <span class="mc-variable WFVariables.ProdNameWFL variable varname">Workfront Library</span></th> 
+  <tr> 
+   <th>EXIF metadata</th> 
+   <th>Taxonomy field type in <em>Workfront Library</em></th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>Exif Image Length</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>Exif Image Length</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Exif Offset</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Exif Offset</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>F Number</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>F Number</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Flashpix Version</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Flashpix Version</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>Image Length</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>Image Length</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Image Unique ID</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Image Unique ID</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>Interoperability Offset</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>Interoperability Offset</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>JPEG Interchange Format</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>JPEG Interchange Format</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>JPEG Interchange Format Length</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>JPEG Interchange Format Length</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Light Source</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Light Source</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>Maker Note</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>Maker Note</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Pixel X Dimension</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Pixel X Dimension</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>Pixel Y Dimension</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>Pixel Y Dimension</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Print Image Matching</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Print Image Matching</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>Reference Black White</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>Reference Black White</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Related SoundFile</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Related SoundFile</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>Sub Sec Time</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>Sub Sec Time</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Sub Sec Time Digitized</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Sub Sec Time Digitized</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <li>Sub Sec Time Original</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <li>Sub Sec Time Original</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <li>Tainted</li> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <li>Tainted</li> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>WinXP-Author</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>WinXP-Author</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>WinXP-Comments</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>WinXP-Comments</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>WinXP-Keywords</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>WinXP-Keywords</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>WinXP-Subject</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>WinXP-Subject</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>WinXP-Title</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>WinXP-Title</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>YCbCr SubSampling</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>YCbCr SubSampling</p> </td> 
+   <td>Text</td> 
   </tr> 
  </tbody> 
 </table>
 
 <![CDATA[ ]]>
 
+## XMP metadata fields
 
-## XMP metadata fields {#xmp-metadata-fields}
-
-*`Workfront Library`* supports both IPTC and XMP metadata. The tables below show each supported XMP metadata and its field type in *`Workfront Library`*.
-
+*Workfront Library* supports both IPTC and XMP metadata. The tables below show each supported XMP metadata and its field type in *Workfront Library*.
 
 IPTC metadata:
 
-<table style="mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">IPTC metadata</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1">Taxonomy field type in <span class="mc-variable WFVariables.ProdNameWFL variable varname">Workfront Library</span></th> 
+  <tr> 
+   <th>IPTC metadata</th> 
+   <th>Taxonomy field type in <em>Workfront Library</em></th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CountryCode</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CountryCode</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:CreatorCity</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorCity</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CreatorContactInfo/CiAdrCity</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorContactInfo/CiAdrCity</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:CreatorContactInfo/CiAdrCtry</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorContactInfo/CiAdrCtry</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CreatorContactInfo/CiAdrExtadr</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorContactInfo/CiAdrExtadr</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:CreatorContactInfo/CiAdrPcode</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorContactInfo/CiAdrPcode</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CreatorContactInfo/CiAdrRegion</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorContactInfo/CiAdrRegion</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:CreatorContactInfo/CiEmailWork</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorContactInfo/CiEmailWork</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CreatorContactInfo/CiTelWork</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorContactInfo/CiTelWork</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:CreatorContactInfo/CiUrlWork</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorContactInfo/CiUrlWork</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CreatorCountry</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorCountry</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:CreatorAddress</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorAddress</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CreatorPostalCode</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorPostalCode</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Iptc4xmpCore:CreatorRegion</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>Iptc4xmpCore:CreatorRegion</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CreatorWorkEmail</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorWorkEmail</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:CreatorWorkTelephone</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorWorkTelephone</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:CreatorWorkURL</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:CreatorWorkURL</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:IntellectualGenre</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:IntellectualGenre</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Iptc4xmpCore:Location</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:Location</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Iptc4xmpCore:Scene</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:Scene</td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">Iptc4xmpCore:SubjectCode</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray">Text</td> 
+  <tr> 
+   <td>Iptc4xmpCore:SubjectCode</td> 
+   <td>Text</td> 
   </tr> 
  </tbody> 
 </table>
 
 XMP:
 
-<table style="mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">XMP metadata</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1">Taxonomy field type in <span class="mc-variable WFVariables.ProdNameWFL variable varname">Workfront Library</span></th> 
+  <tr> 
+   <th>XMP metadata</th> 
+   <th>Taxonomy field type in <em>Workfront Library</em></th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:Advisory</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Advisory</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:Author</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Author</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:BaseURL</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:BaseURL</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:ByLine</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:ByLine</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:Caption</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Caption</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:CreateDate</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Date</td> 
+  <tr> 
+   <td> <p>xmp:CreateDate</p> </td> 
+   <td>Date</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:CreatorTool</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:CreatorTool</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:Description</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Description</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:Format</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Format</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:Identifier</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Identifier</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:Keywords</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Keywords</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:Label</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Label</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:MetadataDate</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Date</td> 
+  <tr> 
+   <td> <p>xmp:MetadataDate</p> </td> 
+   <td>Date</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:ModifyDate</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Date</td> 
+  <tr> 
+   <td> <p>xmp:ModifyDate</p> </td> 
+   <td>Date</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:Nickname</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Nickname</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:PageImage</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageImage</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:PageImageHeight</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageImageHeight</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:PageImagePageNumber</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageImagePageNumber</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:PageImageWidth</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageImageWidth</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:PageImageFormat</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageImageFormat</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:PageInfo/Format</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageInfo/Format</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:PageInfo/Height</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageInfo/Height</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:PageInfo/Image</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageInfo/Image</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:PageInfo/PageNumber</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageInfo/PageNumber</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:PageInfo/Width</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:PageInfo/Width</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:Rating</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Rating</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:Thumbnails/Format</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Thumbnails/Format</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:Thumbnails/Height</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Thumbnails/Height</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:Thumbnails/Image</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Thumbnails/Image</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:Thumbnails/Width</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Thumbnails/Width</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:ThumbnailFormat</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:ThumbnailFormat</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:ThumbnailHeight</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:ThumbnailHeight</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>xmp:ThumbnailImage</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:ThumbnailImage</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>xmp:ThumbnailWidth</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:ThumbnailWidth</p> </td> 
+   <td>Text</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>xmp:Title</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray">Text</td> 
+  <tr> 
+   <td> <p>xmp:Title</p> </td> 
+   <td>Text</td> 
   </tr> 
  </tbody> 
 </table>

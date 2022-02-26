@@ -1,0 +1,159 @@
+
+
+# Configure a column visualization in the *Reporting Canvas*
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">UI isn't complete</p>
+-->
+
+UI isn't complete
+
+A column visualization can help you quickly tell a story about your data by enhancing the narrative and highlighting important information using vertical bars.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><em>Workfront</em> license*</td> 
+   <td> <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to create reports, calendars, and dashboards</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>Manage access to the report</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to the report</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+
+## Prerequisites
+
+Before you begin, you must enroll in the *Reporting Canvas* beta program.
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+For more information, see [link to Beta enrollment info].
+</MadCap:conditionalText>
+-->
+
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  For more information, see [link to Beta enrollment info].</MadCap:conditionalText>`
+
+## Configure a column visualization
+
+Your changes save automatically as you go.
+
+<ol> 
+ <li value="1">Begin adding a visualization to your report, as explained in <a href="../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-visualization.md" class="MCXref xref">Add or edit a visualization in a report in Reporting Canvas</a>, choosing <b>Column</b> as the visualization type.</li> 
+ <li value="2">Click the Edit visualization icon <img src="assets/edit-icon.png"> in the upper-right corner of the visualization, then do any of the following.
+  <ol>
+   <li value="1"><p>On the <b>Settings</b> tab:</p>
+    <table cellspacing="0">
+     <col>
+     <col>
+     <tbody>
+      <tr>
+       <td role="rowheader">Visualization type</td>
+       <td><p>Switch to a different type of visualization. If you do this, the subsequent options on the menu might change.</p><p>The same data is entered automatically for the Vertical axis so that _____.</p></td>
+      </tr>
+      <tr>
+       <td role="rowheader">Vertical axis</td>
+       <td>Select the data that you want to depict along the vertical left edge, as well as how you want it summarized.</td>
+      </tr>
+      <tr>
+       <td role="rowheader">Horizontal axis</td>
+       <td>Select the data that you want to depict along the horizontal bottom edge.</td>
+      </tr>
+     </tbody>
+    </table></li><draft-comment>
+    <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data source</b> tab:</p>
+     <table cellspacing="0">
+      <col>
+      <col>
+      <tbody>
+       <tr>
+        <td role="rowheader">Data source (drop-down menu)</td>
+        <td>Change the data source for the visualization to another table on the report canvas</td>
+       </tr>
+       <tr>
+        <td role="rowheader">Show Data Source</td>
+        <td>On the report canvas, show (enable) or hide (disable) the table that powers the visualization</td>
+       </tr>
+      </tbody>
+     </table></li>
+   </draft-comment>
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data source</b> tab:</p>
+    <table cellspacing="0">
+     <col>
+     <col>
+     <tbody>
+      <tr>
+       <td role="rowheader">Data source (drop-down menu)</td>
+       <td>Change the data source for the visualization to another table on the report canvas</td>
+      </tr>
+      <tr>
+       <td role="rowheader">Show Data Source</td>
+       <td>On the report canvas, show (enable) or hide (disable) the table that powers the visualization</td>
+      </tr>
+     </tbody>
+    </table></li><draft-comment>
+    <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>
+     <table cellspacing="0">
+      <col>
+      <col>
+      <tbody>
+       <tr>
+        <td role="rowheader">&nbsp;</td>
+        <td>&nbsp;</td>
+       </tr>
+       <tr>
+        <td role="rowheader">&nbsp;</td>
+        <td>&nbsp;</td>
+       </tr>
+       <tr>
+        <td role="rowheader">&nbsp;</td>
+        <td>&nbsp;</td>
+       </tr>
+      </tbody>
+     </table></li>
+   </draft-comment>
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>
+    <table cellspacing="0">
+     <col>
+     <col>
+     <tbody>
+      <tr>
+       <td role="rowheader">&nbsp;</td>
+       <td>&nbsp;</td>
+      </tr>
+      <tr>
+       <td role="rowheader">&nbsp;</td>
+       <td>&nbsp;</td>
+      </tr>
+      <tr>
+       <td role="rowheader">&nbsp;</td>
+       <td>&nbsp;</td>
+      </tr>
+     </tbody>
+    </table></li>
+  </ol></li> 
+ <li value="3"> <p>Click anywhere outside the menu of visualizations settings to close it.</p> </li> 
+</ol>
+

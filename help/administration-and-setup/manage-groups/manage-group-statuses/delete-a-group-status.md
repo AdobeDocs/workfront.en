@@ -3,99 +3,69 @@ filename: delete-a-group-status
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
+title: Delete a group status
+description: As a group administrator, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level or for a higher group in the hierarchy.
 ---
 
+# Delete a group status
 
+As a *group administrator*, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level or for a higher group in the hierarchy.
 
-# Delete a group status {#delete-a-group-status}
-
-As a *`group administrator`*, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level or for a higher group in the hierarchy.
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> <p>You must be a <span class="mc-variable WFVariables.AdminGroup variable varname">group administrator</span> of the group or a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> <p>You must be a <em>group administrator</em> of the group or a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your *`Workfront administrator`*.
+&#42;If you need to find out what plan or license type you have, contact your *Workfront administrator*.
 
+## Delete a group status
 
-## Delete a group status {#delete-a-group-status-1}
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2">In the left panel, click <span class="bold">Groups</span>.</li> 
+ <li value="3"> <draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Click the name of the top-level group
+   </MadCap:conditionalText>
+  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   Click the name of the top-level group
+  </MadCap:conditionalText>.</li> <draft-comment>
+  <li value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel click <span class="bold">Statuses</span>.</li>
+ </draft-comment>
+ <li value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel click <span class="bold">Statuses</span>.</li> 
+ <li value="5"> <p>In the list of statuses that displays, hover over the status you want to delete, then click <span class="bold">Delete</span> when it appears to the far right.</p> <p> <img src="assets/hover-click-delete-350x141.jpg" style="width: 350;height: 141;"> </img> </p> </li> 
+ <li value="6"> <p> In the box that displays, select a status to designate a replacement status for objects (projects, tasks, issues, and approval processes) that were using the status that you are deleting.</p> <p>Only statuses that equate with the status you are deleting are available. For example, if you are deleting a status that equates with Current, you can see only statuses that equate with Current.</p> <p>Also, the statuses that display depend on whether the status you are deleting is unlocked or locked:</p> 
+  <ul> 
+   <li> <p><span class="bold">If it's unlocked</span>: Non-hidden locked and unlocked statuses are available.</p> <p>Along with the statuses that were created for the subgroup, statuses inherited from system-level and upper level groups are included.</p> </li> 
+   <li> <p><span class="bold">If it's locked</span>: One of the following is true:</p> 
+    <ul> 
+     <li>If there are other locked, non-hidden statuses, only those are available.</li> 
+     <li> <p>If there is no locked non-hidden status, the default <em>Workfront</em> status is available, even if it’s hidden or unlocked.</p> <p>For information about the default <em>Workfront</em> statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a>, <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref">Access the list of system task statuses</a>, and the information about the 4 required issue statuses in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</p> </li> 
+    </ul> </li> 
+  </ul> </li> 
+ <li value="7"> <p> Click <span class="bold">Delete Status</span>.</p> 
+  <div> 
+   <ul> 
+    <li>If the deleted status was the default status for that type in the group, the replacement status takes its place.</li> 
+    <li>If the deleted status was set as the default project status in project preferences, the preference is now set to the replacement status.</li> 
+   </ul> 
+  </div> </li> 
+</ol>
 
+## When a group is deleted
 
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1. In the left panel, click `Groups`.
-1.  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the name of the top-level group</MadCap:conditionalText>`.
-1. In the left panel click `Statuses`.
-1.  In the list of statuses that displays, hover over the status you want to delete, then click `Delete` when it appears to the far right.
-
-
-   ![](assets/hover-click-delete-350x141.jpg)
-
-
-
-1.   In the box that displays, select a status to designate a replacement status for objects (projects, tasks, issues, and approval processes) that were using the status that you are deleting.
-
-
-   Only statuses that equate with the status you are deleting are available. For example, if you are deleting a status that equates with Current, you can see only statuses that equate with Current.
-
-
-   Also, the statuses that display depend on whether the status you are deleting is unlocked or locked:
-
-    
-    
-    *  `If it's unlocked`: Non-hidden locked and unlocked statuses are available.
-    
-    
-      Along with the statuses that were created for the subgroup, statuses inherited from system-level and upper level groups are included.
-    
-    *  `If it's locked`: One of the following is true:
-    
-        
-        
-        * If there are other locked, non-hidden statuses, only those are available.
-        *  If there is no locked non-hidden status, the default *`Workfront`* status is available, even if it’s hidden or unlocked.
-        
-        
-          For information about the default *`Workfront`* statuses, see [Access the list of system project statuses](project-statuses.md), [Access the list of system task statuses](task-statuses.md), and the information about the 4 required issue statuses in [Issue statuses](issue-statuses.md).
-        
-        
-        
-    
-    
-    
-
-1.   Click `Delete Status`.
-
-
-    
-    
-    * If the deleted status was the default status for that type in the group, the replacement status takes its place.
-    * If the deleted status was set as the default project status in project preferences, the preference is now set to the replacement status.
-    
-    
-
-
-
-
-
-## When a group is deleted {#when-a-group-is-deleted}
-
-When a group is deleted and replaced by another group, any unique statuses that the deleted group had are added to the statuses of the replacement group. For more information, see [Custom statuses in a group that is moved or deleted](custom-statuses-in-group-moved-or-deleted.md).
+When a group is deleted and replaced by another group, any unique statuses that the deleted group had are added to the statuses of the replacement group. For more information, see [Custom statuses in a group that is moved or deleted](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md).

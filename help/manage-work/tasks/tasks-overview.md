@@ -3,23 +3,20 @@ filename: _tasks-overview
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
+title: Tasks
+description: This section contains the following subsections:
 ---
 
-
-
-# Tasks {#tasks}
+# Tasks
 
 This section contains the following subsections:
 
-
-
-* [Task information](_task-information.md) 
-* [Create tasks](_create-tasks-overview.md) 
-* [Assign tasks](_assign-tasks.md) 
-* [Manage tasks](_manage-tasks.md) 
-* [Task Constraints](_task-constraints.md) 
-* [Task Duration and Duration Types](_task-duration-duration-type.md) 
-* [Use task predecessors](_use-task-predecessors.md) 
-* [Tips, tricks, and troubleshooting for tasks](_tips-tricks-troubleshooting-tasks.md) 
-
+* [Task information](../../manage-work/tasks/task-information/task-information.md) 
+* [Create tasks](../../manage-work/tasks/create-tasks/create-tasks-overview.md) 
+* [Assign tasks](../../manage-work/tasks/assign-tasks/assign-tasks.md) 
+* [Manage tasks](../../manage-work/tasks/manage-tasks/manage-tasks.md) 
+* [Task Constraints](../../manage-work/tasks/task-constraints/task-constraints.md) 
+* [Task Duration and Duration Types](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md) 
+* [Use task predecessors](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md) 
+* [Tips, tricks, and troubleshooting for tasks](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
 

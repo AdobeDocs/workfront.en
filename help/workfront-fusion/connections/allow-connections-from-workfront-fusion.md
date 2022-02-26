@@ -1,0 +1,31 @@
+---
+filename: allow-connections-from-workfront-fusion
+product: workfront-fusion
+product-area: workfront-integrations;setup
+navigation-topic: connections-annd-webhooks
+title: Allow connections from Adobe Workfront Fusion
+description: Sam: Exclude until after GA release.
+---
+
+# Allow connections from *Adobe Workfront Fusion*
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Sam:&nbsp;Exclude until after GA release.</p>
+-->
+
+Sam:&nbsp;Exclude until after GA release.
+
+*Adobe Workfront Fusion* makes connections from the following IP range: 
+<pre>82.208.14.110 - 82.208.14.119</pre>
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Our servers are set up with valid PTR records so you can easily restrict access by allowing <code>%.integromat.com</code>.</p>
+-->
+
+Our servers are set up with valid PTR records so you can easily restrict access by allowing 
+
+```
+%.integromat.com
+```
+
+.

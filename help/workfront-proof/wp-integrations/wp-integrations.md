@@ -4,26 +4,20 @@ content-type: reference
 product: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
+title: Workfront Proof integrations
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# *Workfront Proof* integrations
 
-
-# *`Workfront Proof`* integrations {#workfront-proof-integrations}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following subsections:
 
-
-
-* [Workfront Proof API](_wp-api.md) 
-* [Box](_box.md) 
-* [Basecamp](_basecamp.md) 
-* [Basecamp Classic](_basecamp-classic.md) 
-
+* [Workfront Proof API](../../workfront-proof/wp-integrations/api/wp-api.md) 
+* [Box](../../workfront-proof/wp-integrations/box/box.md) 
+* [Basecamp](../../workfront-proof/wp-integrations/basecamp/basecamp.md) 
+* [Basecamp Classic](../../workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
 

@@ -3,194 +3,236 @@ filename: configure-a-users-proofing-access
 user-type: administrator
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
+title: Configure a user's proofing access
+description: The sections in this article shouldn't be lumped together.
 ---
 
+# Configure a user's *proofing* access
 
+<!--
+<p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The sections in this article shouldn't be lumped together. </p>
+-->
 
-# Configure a user's *`proofing`* access {#configure-a-users-proofing-access}
+The sections in this article shouldn't be lumped together.
 
-As a *`Adobe Workfront administrator`* or *`Workfront Proof administrator`*, you can configure a user's access to create and view *`proofs`* in *`Workfront`* and *`Workfront Proof`*.
+<!--
+<p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> -------------Also, need to add a bit of info to the bottom section about how you can view interactive content in screen sizes but not emulated.</p>
+-->
 
+-------------Also, need to add a bit of info to the bottom section about how you can view interactive content in screen sizes but not emulated.
 
-For information about *`proofing`* functionality available for basic and integrated *`proofing`*, see [Access to proofing functionality in Workfront](access-to-proofing-functionality.md).
+As a *Adobe Workfront administrator* or *Workfront Proof administrator*, you can configure a user's access to create and view *proofs* in *Workfront* and *Workfront Proof*.
 
+For information about *proofing* functionality available for basic and integrated *proofing*, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Plan</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> or <span class="mc-variable WFVariables.FullProdNameAdminWFP variable varname">Workfront Proof administrator</span>. For information on <span class="mc-variable WFVariables.AdminWF-plur variable varname">Workfront administrators</span>, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>You must be a <em>Workfront administrator</em> or <em>Workfront Proof administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Enable and disable *proofing* for&nbsp;a user (legacy plans only)
 
-## Enable and disable *`proofing`* for&nbsp;a user (legacy plans only) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
+If your organization is using a legacy Select or Premium Workfront Plan, as a *Workfront administrator*, you can enable and disable *proofing* functionality for the user.
 
-If your organization is using a legacy Select or Premium Workfront Plan, as a *`Workfront administrator`*, you can enable and disable *`proofing`* functionality for the user.
+When you enable *proofing* for a user, *Workfront* enables the option for the user's *proofs* to generate automatically. For more information about this option and how to disable it, see [Configure a user's proofing access](#).&nbsp;
 
+Though you can enable a user as a *proofing* user, he or she must have Administrator permissions in order to navigate directly to the *Workfront Proof* interface from the *Workfront* 
 
-When you enable *`proofing`* for a user, *`Workfront`* enables the option for the user's *`proofs`* to generate automatically. For more information about this option and how to disable it, see [Configure a user's proofing access](#).&nbsp;
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+Main Menu
+</MadCap:conditionalText>
+-->
 
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>`. For information about how you can enable this option for all *proofing* users in your *Workfront* system, see [Configure Workfront Proof access via Workfront Main Menu for all users](#configuring-whether-all-users-can-access-proofhq-directly-from-the-workfront-global-nav).
 
-Though you can enable a user as a *`proofing`* user, he or she must have Administrator permissions in order to navigate directly to the *`Workfront Proof`* interface from the *`Workfront`* `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>`. For information about how you can enable this option for all *`proofing`* users in your *`Workfront`* system, see [Configure Workfront Proof access via Workfront Main Menu for all users](#configuring-whether-all-users-can-access-proofhq-directly-from-the-workfront-global-nav).
-
-
+   <!--
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the <span class="bold">Main Menu</span>, select <span class="bold">Users</span>.</li>
+   -->
 
 1. In the `Main Menu`, select `Users`.
 
-1. Select a user, then click the `Edit`icon.
+   <!--
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select a user, then click the <span class="bold">Edit</span> icon.</li>
+   -->
+
+1. Select a user, then click the `Edit` icon.
 1. In the `Access` section, select or deselect `User can generate proofs`.
 
+## Configure a user's *proof* permission profile
 
+The permission profile you select is granted to the users for each *proof* that exists within your organization.
 
+<ol> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </p> </li> 
+ <li value="2"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select one or more users, then click <span class="bold">Edit</span>.<br></p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select one or more users, then click <span class="bold">Edit</span>.<br></p> </li> 
+ <li value="3"> <p>In the <span class="bold">Access</span> section, click one of the following <em>Workfront Proof</em> permission options in the <span class="bold">Proof Permission Profile</span>&nbsp;drop-down menu:</p> <note type="note">
+   If you are on a legacy Workfront plan, make sure the 
+   <span class="bold">User can generate proofs</span> option is enabled, as explained above in the section 
+   <a href="#enabling-and-disabling-proofing-for-a-user" class="MCXref xref">Enable and disable proofing for&nbsp;a user (legacy plans only)</a>.&nbsp;
+  </note> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader"><span class="bold">Supervisor</span> </td> 
+     <td>Users can manage and view all <em>proofs</em> created on your organization's account. They can also edit reviewers added to these <em>proofs</em>. Users with this permission profile can't manage users or edit <em>Workfront Proof</em> settings.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader"><span class="bold">Manager</span> </td> 
+     <td> <p> Users can manage and view <em>proofs</em> created or owned on your organization's account. They can view other users' <em>proofs</em> only when added as a reviewer. This is a default setting. </p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader"><span class="bold">Administrator</span> </td> 
+     <td> Users are given Administrator permissions in <em>Workfront Proof</em> and can edit account settings. Users can manage and view all <em>proofs</em> created on your organization's account. This includes adding and removing reviewers, <em>proofs</em>, and comments.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader"><span class="bold">Custom</span> </td> 
+     <td> <p>Available only if you have configured a custom permission profile within <em>Workfront Proof</em>.</p> <note type="note"> 
+       <p>Ensure that the permission profile you grant here does not provide higher access than the user's&nbsp;Access Level&nbsp;setting in <em>Workfront</em> (see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). If it does provide higher&nbsp;access, the user can access <em>proofs</em> within <em>Workfront Proof</em> that he or she cannot access within <em>Workfront</em>.</p> 
+       <p>This is especially important if you plan to allow all <em>Workfront</em> users to access <em>Workfront Proof</em> directly from the <em>Workfront</em> as described in&nbsp;<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> 
+       <p>By default, only <em>Workfront</em> administrators have access to a direct link to the <em>Workfront Proof</em> site from the <em>Workfront</em> Global Navigation Bar.</p> 
+      </note> </td> 
+    </tr> 
+   </tbody> 
+  </table> <p>The permission profile you select is granted to the users for each <em>proof</em> that exists within your organization.</p> </li> 
+ <li value="4"> <p>Click <span class="bold">Save Changes</span>&nbsp;to complete the update to the user settings.</p> <note type="note">
+   When you create or update a user in 
+   <em>Workfront</em> and the user's 
+   <em>Workfront</em> email address matches that of a licensed 
+   <em>Workfront Proof</em> user, the system enables 
+   <em>proofing</em> for the user within 
+   <em>Workfront</em>.&nbsp;For more information, see 
+   <a href="../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md" class="MCXref xref">User synchronization between Adobe Workfront and Workfront Proof</a>.
+  </note> </li> 
+</ol>
 
-
-## Configure a user's *`proof`* permission profile {#configure-a-users-proof-permission-profile}
-
-The permission profile you select is granted to the users for each *`proof`* that exists within your organization.
-
-
-
-1.  Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Users` ![](assets/users-icon-in-main-menu.png). 
-1.  Select one or more users, then click `Edit`.  
-
-1.  In the `Access`section, click one of the following *`Workfront Proof`* permission options in the `Proof Permission Profile`&nbsp;drop-down menu:
-
-
-   >[!NOTE]
-   >
-   >If you are on a legacy Workfront plan, make sure the `User can generate proofs` option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enabling-and-disabling-proofing-for-a-user).&nbsp;
-
-
-
-<table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="bold">Supervisor</span> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Users can manage and view all <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span> created on your organization's account. They can also edit reviewers added to these <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>. Users with this permission profile can't manage users or edit <span class="mc-variable WFVariables.ProdNameWFP variable varname">Workfront Proof</span> settings.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="bold">Manager</span> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p> Users can manage and view <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span> created or owned on your organization's account. They can view other users' <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span> only when added as a reviewer. This is a default setting. </p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="bold">Administrator</span> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> Users are given Administrator permissions in <span class="mc-variable WFVariables.ProdNameWFP variable varname">Workfront Proof</span> and can edit account settings. Users can manage and view all <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span> created on your organization's account. This includes adding and removing reviewers, <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span>, and comments.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="bold">Custom</span> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Available only if you have configured a custom permission profile within <span class="mc-variable WFVariables.ProdNameWFP variable varname">Workfront Proof</span>.</p> <p>Note:  <p>Ensure that the permission profile you grant here does not provide higher access than the user's&nbsp;Access Level&nbsp;setting in <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> (see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). If it does provide higher&nbsp;access, the user can access <span class="mc-variable WFVariables.proof-plur-n variable varname">proofs</span> within <span class="mc-variable WFVariables.ProdNameWFP variable varname">Workfront Proof</span> that he or she cannot access within <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>.</p> <p>This is especially important if you plan to allow all <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> users to access <span class="mc-variable WFVariables.ProdNameWFP variable varname">Workfront Proof</span> directly from the <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> as described in&nbsp;<a href="access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> <p>By default, only <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> administrators have access to a direct link to the <span class="mc-variable WFVariables.ProdNameWFP variable varname">Workfront Proof</span> site from the <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> Global Navigation Bar.</p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-   The permission profile you select is granted to the users for each *`proof`* that exists within your organization.
-
-1.  Click `Save Changes`&nbsp;to complete the update to the user settings.
-
-
-   >[!NOTE]
-   >
-   >When you create or update a user in *`Workfront`* and the user's *`Workfront`* email address matches that of a licensed *`Workfront Proof`* user, the system enables *`proofing`* for the user within *`Workfront`*.&nbsp;For more information, see [User synchronization between Adobe Workfront and Workfront Proof](user-sync-proofing.md).
-
-
-
-
-
-
-
-### Considerations {#considerations}
+### Considerations
 
 Consider the following information when setting permissions:
 
+* If you change a user's&nbsp;permission profile to a profile with fewer permissions, the user might lose visibility to existing *proofs* within *Workfront*.&nbsp;This can occur when someone shares a task with a user within *Workfront*, but doesn't share the *proof* attached to the task (see&nbsp; [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)&nbsp;in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
+* You can set *Workfront Proof* permissions from *Workfront*&nbsp;only if your *Workfront* environment is integrated with a *Workfront Proof* Premium account. If you cannot use *proofing* as discussed in this section, contact your *Workfront administrator*.
+* At least one user in your *Workfront* environment must have Administrator permissions for&nbsp;*proofing*. An error message appears if you try to attempt to remove Administrator permissions for *proofing* from all users.
+* When you change a user's *Workfront* Access level to any level other than System Administrator, the user's *Workfront Proof* permission profile defaults to Manager.   
 
+* When you change the *Workfront* Access level to System Administrator, the Proof Permission profile changes to Administrator.
 
-*  If you change a user's permission profile to a profile with fewer permissions, the user might lose visibility to existing *`proofs`* within *`Workfront`*. This can occur when someone shares a task with a user within *`Workfront`*, but doesn't share the *`proof`* attached to the task (see&nbsp; [Share a proof within Adobe Workfront](share-a-proof-in-workfront.md)&nbsp;in [Share a proof within Adobe Workfront](share-a-proof-in-workfront.md)).
-*  You can set *`Workfront Proof`* permissions from *`Workfront`* only if your *`Workfront`* environment is integrated with a *`Workfront Proof`* Premium account. If you cannot use *`proofing`* as discussed in this section, contact your *`Workfront administrator`*.
-*  At least one user in your *`Workfront`* environment must have Administrator permissions for  *`proofing`*. An error message appears if you try to attempt to remove Administrator permissions for *`proofing`* from all users.
-*  When you change a user's *`Workfront`* Access level to any level other than System Administrator, the user's *`Workfront Proof`* permission profile defaults to Manager.   
+## Configure *Workfront Proof* access via *Workfront* 
 
-*  When you change the *`Workfront`* Access level to System Administrator, the Proof Permission profile changes to Administrator.
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+Main Menu
+</MadCap:conditionalText>
+-->
 
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>` for all users
 
+By default, only users with administrative rights within *Workfront* can access *Workfront Proof* as described&nbsp; [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
+You can grant all users access to the *Workfront Proof* button within the *Workfront* 
 
-## Configure *`Workfront Proof`* access via *`Workfront`* `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>` for all users {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+Main Menu
+</MadCap:conditionalText>
+-->
 
-By default, only users with administrative rights within *`Workfront`* can access *`Workfront Proof`* as described&nbsp; [Access Workfront Proof from Adobe Workfront](access-wf-proof-in-workfront.md).
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>` by contacting *Workfront* Support and submitting a request.
 
-
-You can grant all users access to the *`Workfront Proof`* button within the *`Workfront`* `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>` by contacting *`Workfront`* Support and submitting a request.
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->If you plan to allow all *`Workfront`* users to access *`Workfront Proof`* directly from the *`Workfront`* Global Navigation Bar, ensure that the permission profile for each user does not provide more access than the user's access level within *`Workfront`*. This prevents users from accessing *`proofs`* within *`Workfront Proof`* that they cannot access within *`Workfront`*. For more information, see [Enable and disable proofing for a user (legacy plans only)](#enabling-and-disabling-proofing-for-a-user).
+>&nbsp;If you plan to allow all *Workfront* users to access *Workfront Proof* directly from the *Workfront* Global Navigation Bar,&nbsp;ensure that the permission profile for each user does not provide more access than the user's access level within *Workfront*. This prevents users from accessing *proofs* within *Workfront Proof* that they cannot access within *Workfront*. For more information, see [Enable and disable proofing for a user (legacy plans only)](#enabling-and-disabling-proofing-for-a-user).
 
+<!--
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="configuring-whether-users-can-access-the-html5-proofing-viewer"></a>Configure user access to <em>Web Proofing Viewer</em></h2>
+-->
 
+## Configure user access to *Web Proofing Viewer*
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The <em>Web Proofing Viewer</em> launches by default when users in your organization <em>proof</em> video and static content.</p>
+-->
 
-## Configure user access to the *`Desktop Proofing Viewer`* {#configure-user-access-to-the-desktop-proofing-viewer}
+The *Web Proofing Viewer* launches by default when users in your organization *proof* video and static content.
 
-If the users in your organization would prefer to use the *`Desktop Proofing Viewer`* instead of the *`Web Proofing Viewer`* to review interactive content, you can configure the *`Desktop Proofing Viewer`* to launch automatically when users open interactive content proofs. For information about this the *`Desktop Proofing Viewer`* and how it differs from the *`Web Proofing Viewer`*, see [Understand the Desktop Proofing Viewer](destop-proofing-viewer.md) and [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](understand-differences-between-web-viewer.md).
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">As the <em>Workfront administrator</em>, if your organization opted to use the Legacy <em>proofing viewer</em> as the default until it is removed, you can switch the default for your users to the <em>Web Proofing Viewer</em>.&nbsp;</p>
+-->
 
+As the *Workfront administrator*, if your organization opted to use the Legacy *proofing viewer* as the default until it is removed, you can switch the default for your users to the *Web Proofing Viewer*.&nbsp;
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You might not have access to the Legacy <em>proofing viewer</em> because it is supported by Flash, which has been deprecated in most environments.</p>
+-->
 
-1.  From *`Workfront`*, click the *`Workfront Proof`* icon in the Global Navigation Bar to access *`Workfront`* Proof.
+You might not have access to the Legacy *proofing viewer* because it is supported by Flash, which has been deprecated in most environments.
 
+<!--
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1"> <p>From <em>Workfront</em>, click the <em>Workfront Proof</em> icon in the Global Navigation Bar to access <em>Workfront</em> Proof.</p> <p> <img src="assets/proof-access-proofhq-350x39.png" alt="" style="width: 350;height: 39;"> </p> </li>
+<li value="2">Click <span class="bold">Account settings</span> near the upper-right corner of <em>Workfront Proof</em>, then click the <span class="bold">Settings</span> tab.</li>
+<li value="3">Under <span class="bold">Proof Defaults</span>, at the end of the <span class="bold">New Proofing Viewer for video and static proofs</span> row, click <span class="bold">Setup</span>.</li>
+<li value="4">Modify the <em>Web Proofing Viewer</em> settings, as explained under <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#web-proofing-viewer" class="MCXref xref">Web Proofing Viewer</a> in the article <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.</li>
+<li value="5">Click <span class="bold">Save</span>.&nbsp;</li>
+</ol>
+-->
 
-   ![](assets/proof-access-proofhq-350x39.png)
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+ <li value="1"> <p>From <em>Workfront</em>, click the <em>Workfront Proof</em> icon in the Global Navigation Bar to access <em>Workfront</em> Proof.</p> <p> <img src="assets/proof-access-proofhq-350x39.png" alt="" style="width: 350;height: 39;"> </p> </li> 
+ <li value="2">Click <span class="bold">Account settings</span> near the upper-right corner of <em>Workfront Proof</em>, then click the <span class="bold">Settings</span> tab.</li> 
+ <li value="3">Under <span class="bold">Proof Defaults</span>, at the end of the <span class="bold">New Proofing Viewer for video and static proofs</span> row, click <span class="bold">Setup</span>.</li> 
+ <li value="4">Modify the <em>Web Proofing Viewer</em> settings, as explained under <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#web-proofing-viewer" class="MCXref xref">Web Proofing Viewer</a> in the article <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.</li> 
+ <li value="5">Click <span class="bold">Save</span>.&nbsp;</li> 
+</ol>
 
+## Configure user access to the *Desktop Proofing Viewer*
 
+If the users in your organization would prefer to use the *Desktop Proofing Viewer* instead of the *Web Proofing Viewer* to review interactive content, you can configure the *Desktop Proofing Viewer* to launch automatically when users open interactive content proofs.&nbsp;For information about this the *Desktop Proofing Viewer* and how it differs from the *Web Proofing Viewer*, see [Understand the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) and [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
+<ol> 
+ <li value="1"> <p>From <em>Workfront</em>, click the <em>Workfront Proof</em> icon in the Global Navigation Bar to access <em>Workfront</em> Proof.</p> <p> <img src="assets/proof-access-proofhq-350x39.png" alt="" style="width: 350;height: 39;"> </p> </li> 
+</ol>
 
+1. Click `Account settings` near the upper-right corner of *Workfront Proof*, then click the `Settings` tab.
 
+1. Under `Proof Defaults`, at the end of the `*Desktop Proofing Viewer* for Interactive *proofing*` row, click `Setup`.
 
-
-
-1. Click `Account settings` near the upper-right corner of *`Workfront Proof`*, then click the `Settings` tab.
-
-1. Under `Proof Defaults`, at the end of the ` *`Desktop Proofing Viewer`* for Interactive *`proofing`*` row, click `Setup`.
-
-1. Modify the *`Desktop Proofing Viewer`* settings, as described in [Desktop Proofing Viewer](configure-proofing-organization.md#desktop-proofing-viewer) in the article [Configure proof settings for your organization](configure-proofing-organization.md).
+1. Modify the *Desktop Proofing Viewer* settings, as described in [Desktop Proofing Viewer](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer) in the article [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 1. Click `Save`.
 
+## Configure custom devices for interactive proofs
 
+You can&nbsp;add any custom devices to your system, allowing users to review interactive content and simulate how the content appears on a specific device when they are using the *Desktop Proofing Viewer*. (This functionality is not available in the *Web Proofing Viewer*, where users can review&nbsp;interactive content, but only as it appears in various resolutions, not on various devices.)
 
+For more information, see [Change interactive proof resolution in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
-## Configure custom devices for interactive proofs {#configure-custom-devices-for-interactive-proofs}
+1. From *Workfront*, access the *Workfront Proof* interface, as described in [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-You can add any custom devices to your system, allowing users to review interactive content and simulate how the content appears on a specific device when they are using the *`Desktop Proofing Viewer`*. (This functionality is not available in the *`Web Proofing Viewer`*, where users can review&nbsp;interactive content, but only as it appears in various resolutions, not on various devices.) 
-
-
-For more information, see [Change interactive proof resolution in the proofing viewer](view-interactive-content-as-it-appears-in-device.md).
-
-
-
-1. From *`Workfront`*, access the *`Workfront Proof`* interface, as described in [Access Workfront Proof from Adobe Workfront](access-wf-proof-in-workfront.md).
-
-1. Modify the *`Desktop Proofing Viewer`* settings, as described in [Configure custom devices for proofs](configure-proofing-organization.md#custom-devices-for-proofs) in the article [Configure proof settings for your organization](configure-proofing-organization.md). `  
+1. Modify the *Desktop Proofing Viewer* settings, as described in [Configure custom devices for proofs](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) in the article [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md). `  
    `
-
-
 

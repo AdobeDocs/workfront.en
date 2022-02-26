@@ -2,43 +2,185 @@
 filename: new-api-version-11
 content-type: api
 navigation-topic: api-navigation-topic
+title: What's new in API version 11
+description: ReportableBudgedHour has been added to the Adobe Workfront API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour.
 ---
 
-
-
-# What's new in API version 11 {#whats-new-in-api-version}
-
-
-
+# What's new in API version 11
 
 * [Added Resources](#added) 
 * [Removed Resources](#removed) 
-* [Modified Resources](#modified) 
+* [Modified Resources](#modified)
 
+## Added Resources
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginasa" class="MCXref xref">LoginAsAccessRule</a> </li>
+  -->
 
+* [LoginAsAccessRule](#loginasa)
 
-## Added Resources {#added-resources}
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginasa2" class="MCXref xref">LoginAsAdditionalRule</a> </li>
+  -->
 
+* [LoginAsAdditionalRule](#loginasa2)
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginass" class="MCXref xref">LoginAsSettings</a> </li>
+  -->
 
+* [LoginAsSettings](#loginass) 
+* [ReportableBudgetedHour](#reportab)
 
-* [ReportableBudgetedHour](#reportab) 
+<!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="LoginAsA"></a>LoginAsAccessRule</h3>
+-->
 
+### LoginAsAccessRule
 
-
-
-### ReportableBudgetedHour {#reportablebudgetedhour}
-
-ReportableBudgedHour has been added to the *`Adobe Workfront`* API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour. 
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">accessExpirationDate</li> 
+     <li style="font-weight: bold;">accessorID</li> 
+     <li style="font-weight: bold;">customerID</li> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">userID</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">accessor</li> 
+     <li style="font-weight: bold;">customer</li> 
+     <li style="font-weight: bold;">user &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">objCode</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="LoginAsA2"></a>LoginAsAdditionalRule</h3>
+-->
+
+### LoginAsAdditionalRule
+
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">customerID</li> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">loginAsSettingsID</li> 
+     <li style="font-weight: bold;">objID</li> 
+     <li style="font-weight: bold;">objObjCode &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">customer &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">objCode</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="LoginAsS"></a>LoginAsSettings</h3>
+-->
+
+### LoginAsSettings
+
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">customerID</li> 
+     <li style="font-weight: bold;">licenseTypes</li> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">restrictedLoginAs &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">customer &nbsp;</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">additionalRules</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;">ID</li> 
+     <li style="font-weight: bold;">objCode</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### ReportableBudgetedHour
+
+ReportableBudgedHour has been added to the *Adobe Workfront* API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour. 
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li> <p style="font-weight: bold;">allocationDate </p> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner.</p> </li> 
      <li> <p style="font-weight: bold;">budgetedHours </p> <p>Budgeted Hours are hours that the resource manager budgets for the work that resources need to complete on projects</p> </li> 
@@ -49,34 +191,34 @@ ReportableBudgedHour has been added to the *`Adobe Workfront`* API as a resource
      <li> <p style="font-weight: bold;">userID</p> <p>The unique Workfront ID assigned to a specific User.</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
     <ul> 
      <li> <p style="font-weight: bold;">project</p> <p>The Project that a ReportableBudgetedHour is associated with.</p> </li> 
      <li> <p style="font-weight: bold;">role</p> <p>The Job Role that a ReportableBudgetedHour is associated with.</p> </li> 
      <li> <p style="font-weight: bold;">user</p> <p>The User that a ReportableBudgetedHour is associated with.</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Core Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;">ID</li> 
      <li style="font-weight: bold;">name</li> 
      <li style="font-weight: bold;">objCode</li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;">name</li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Operations</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Operations</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;">COUNT</li> 
      <li style="font-weight: bold;">GET</li> 
@@ -87,20 +229,16 @@ ReportableBudgedHour has been added to the *`Adobe Workfront`* API as a resource
  </tbody> 
 </table>
 
-
-
-## Removed Resources {#removed-resources}
+## Removed Resources
 
 No resources were removed for API v11.
 
+## Modified Resources
 
-## Modified Resources {#modified-resources}
-
-
-<table style="width: 100%;"> 
- <col style="width: 33%;"> 
- <col style="width: 33%;"> 
- <col style="width: 33%;"> 
+<table> 
+ <col> 
+ <col> 
+ <col> 
  <tbody> 
   <tr> 
    <td> 
@@ -148,7 +286,10 @@ No resources were removed for API v11.
      <li><a href="#template2" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#template3" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timeshee" class="MCXref xref">Timesheet</a> </li> 
-     <li><a href="#update" class="MCXref xref">Update</a> </li> 
+     <li><a href="#update" class="MCXref xref">Update</a> </li> <draft-comment>
+      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
+     </draft-comment>
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
      <li><a href="#work" class="MCXref xref">Work </a> </li> 
     </ul> </td> 
@@ -158,18 +299,21 @@ No resources were removed for API v11.
 
 &nbsp;
 
-
-### AccessLevelPermissions {#accesslevelpermissions}
+### AccessLevelPermissions
 
 An AccessLevelPermissions object represents a set of permissions. This set of permissions can then be associated with an Access Level.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following fields added the possible value BUDGETING_INFORMATION. This allows users with permission to edit priorities and budget hours in the planner.</p> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> <p>The following fields added the possible value BUDGETING_INFORMATION. This allows users with permission to edit priorities and budget hours in the planner.</p> 
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
@@ -179,19 +323,21 @@ An AccessLevelPermissions object represents a set of permissions. This set of pe
  </tbody> 
 </table>
 
-
-
-### AccessRequest {#accessrequest}
+### AccessRequest
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li> <p style="font-weight: bold;">action</p> <p>Added the possible value BUDGETING_INFORMATION. This allows users with permission to edit priorities and budget hours in the planner. &nbsp;</p> </li> 
     </ul> </td> 
@@ -199,19 +345,21 @@ If a User does not have access to an object in Workfront that they need, they ca
  </tbody> 
 </table>
 
-
-
-### AccessRule {#accessrule}
+### AccessRule
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following fields added the possible value BUDGETING_INFORMATION. This allows users with permission to edit priorities and budget hours in the planner.</p> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> <p>The following fields added the possible value BUDGETING_INFORMATION. This allows users with permission to edit priorities and budget hours in the planner.</p> 
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
@@ -221,18 +369,20 @@ An AccessRule object represents a rule set in custom access levels that determin
  </tbody> 
 </table>
 
-
-
-### Approval {#approval}
+### Approval
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="font-weight: bold;" colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These validators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
+  <tr> 
+   <td colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These validators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
@@ -260,16 +410,16 @@ A given work item, such as a task, document, or timesheet, may require that a su
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">Removed from the Approval object &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Collection Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Added to the Approval object.</p> </li> 
     </ul> </td> 
@@ -277,19 +427,21 @@ A given work item, such as a task, document, or timesheet, may require that a su
  </tbody> 
 </table>
 
-
-
-### ApprovalPath {#approvalpath}
+### ApprovalPath
 
 An ApprovalPath object is a branch within an Approval Process. Approval Paths are based on the status of the object that the Approval Process is associated with.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Added the possible value ET. This value represents the unit of time Elapsed Months, which refers to months without regard to weekends or holidays. &nbsp;</p> </li> 
     </ul> </td> 
@@ -297,26 +449,28 @@ An ApprovalPath object is a branch within an Approval Process. Approval Paths ar
  </tbody> 
 </table>
 
-
-
-### ApprovalProcess {#approvalprocess}
+### ApprovalProcess
 
 An ApprovalProcess object is a multi-step Approval that can be associated with a Project, Task, or Issue.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if an object is active and false if it is not. Objects that are set to Active appear in drop-down menus and type-ahead fields and can be attached to other objects. Objects not set to Active are not visible in drop-down menus and type-ahead fields to attach to other objects. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -324,19 +478,21 @@ An ApprovalProcess object is a multi-step Approval that can be associated with a
  </tbody> 
 </table>
 
-
-
-### Assignment {#assignment}
+### Assignment
 
 An assignment object represents the connection between a work item and the user, team, or group that is assigned to work on it.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">Added the possible value ET. This value represents the unit of time Elapsed Months, which refers to months without regard to weekends or holidays. &nbsp;</p> </li> 
     </ul> </td> 
@@ -344,19 +500,21 @@ An assignment object represents the connection between a work item and the user,
  </tbody> 
 </table>
 
-
-
-### BaselineTask {#baselinetask}
+### BaselineTask
 
 Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values. When you create a baseline, the task information is also captured on the baseline tasks of that baseline.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">Added the possible value ET. This value represents the unit of time Elapsed Months, which refers to months without regard to weekends or holidays. &nbsp;</p> </li> 
     </ul> </td> 
@@ -364,26 +522,28 @@ Baselines are snapshots of what the performance of a project looked like at a gi
  </tbody> 
 </table>
 
-
-
-### Category {#category}
+### Category
 
 A Category object is a custom form. You can build reports for this object and you can show it in other object reports, as well.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if an object is active and false if it is not. Objects that are set to Active appear in drop-down menus and type-ahead fields and can be attached to other objects. Objects not set to Active are not visible in drop-down menus and type-ahead fields to attach to other objects. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -391,26 +551,28 @@ A Category object is a custom form. You can build reports for this object and yo
  </tbody> 
 </table>
 
-
-
-### Company {#company}
+### Company
 
 A Company object represents an organization consisting of a collection of people. Companies are associated with a user or a project.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if an object is active and false if it is not. Objects that are set to Active appear in drop-down menus and type-ahead fields and can be attached to other objects. Objects not set to Active are not visible in drop-down menus and type-ahead fields to attach to other objects. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -418,27 +580,34 @@ A Company object represents an organization consisting of a collection of people
  </tbody> 
 </table>
 
+### CustomEnum
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">A CustomEnum object is an enumeration that is created in Workfront to be used in objects and fields throughout Workfront.</p>
+-->
 
-### CustomEnum {#customenum}
+A CustomEnum object is an enumeration that is created in Workfront to be used in objects and fields throughout Workfront.
 
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Actions</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p style="font-weight: normal;">The following actions were added to the CustomEnum object</p> 
+  <tr> 
+   <td>Actions</td> 
+   <td> <p style="font-weight: normal;">The following actions were added to the CustomEnum object</p> 
     <ul> 
      <li style="font-weight: bold;">getDefaultOpTaskConditionEnum</li> 
      <li style="font-weight: bold;">getDefaultProjectConditionEnum</li> 
      <li style="font-weight: bold;">getDefaultTaskConditionEnum</li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Queries</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>The following queries were added to the CustomEnum object</p> 
+  <tr> 
+   <td>Queries</td> 
+   <td> <p>The following queries were added to the CustomEnum object</p> 
     <ul> 
      <li style="font-weight: bold;">opTaskConditions</li> 
      <li style="font-weight: bold;">projectConditions</li> 
@@ -448,19 +617,34 @@ A Company object represents an organization consisting of a collection of people
  </tbody> 
 </table>
 
-
-
-### Customer {#customer}
+### Customer
 
 A Customer object represents an organization that uses an instance of Workfront.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray" data-mc-conditions=""> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
+ <tbody> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td>Direct Fields</td> 
+    <td> 
+     <ul> 
+      <li style="font-weight: bold;"> <p>customEnumTypes</p> <p style="font-weight: normal;">Added possible values: </p> 
+       <ul> 
+        <li style="font-weight: normal;">CONDITION_PROJ (Project Conditions)</li> 
+        <li style="font-weight: normal;">CONDITION_TASK (Task Conditions)</li> 
+        <li style="font-weight: normal;">CONDITION_OPTASK (Issue Conditions) &nbsp;</li> 
+       </ul> </li> 
+     </ul> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>customEnumTypes</p> <p style="font-weight: normal;">Added possible values: </p> 
       <ul> 
@@ -469,10 +653,25 @@ A Customer object represents an organization that uses an instance of Workfront.
        <li style="font-weight: normal;">CONDITION_OPTASK (Issue Conditions) &nbsp;</li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Reference Fields</td> 
+    <td> 
+     <ul> 
+      <li style="font-weight: bold;"> <p>loginAsSettings</p> <p style="font-weight: normal;">Added. &nbsp;</p> </li> 
+     </ul> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td>Reference Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>loginAsSettings</p> <p style="font-weight: normal;">Added. &nbsp;</p> </li> 
+    </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Actions</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p style="font-weight: normal;">The following actions were added to the Customer object</p> 
+  <tr> 
+   <td>Actions</td> 
+   <td> <p style="font-weight: normal;">The following actions were added to the Customer object</p> 
     <ul> 
      <li style="font-weight: bold;">goalsEnabled</li> 
      <li style="font-weight: bold;">updateLoginAsSettings</li> 
@@ -481,23 +680,50 @@ A Customer object represents an organization that uses an instance of Workfront.
  </tbody> 
 </table>
 
-
-
-### CustomerPreferences {#customerpreferences}
+### CustomerPreferences
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-
-### DocMetadataLinkGroup {#docmetadatalinkgroup}
-
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Actions</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Added possible values:</p> 
+      <ul> 
+       <li style="font-weight: normal;">password:password.eauthPolicy (Password Complexity Requirements)</li> 
+       <li style="font-weight: normal;"> password:password.minimumLength (Minimum Password Length)</li> 
+       <li style="font-weight: normal;">password:mobileSessionTimeout (Mobile Session Time Out)</li> 
+       <li style="font-weight: normal;"> project.mgmt:default.project.usertimeoff (User Time Off)</li> 
+       <li style="font-weight: normal;">timesheet:default.timesheet.manualrole (Manual control role)</li> 
+       <li style="font-weight: normal;">proof:defaultNonRecipientRole (config.proofhq.defaultnonrecipientrole) </li> 
+       <li style="font-weight: normal;">proof:defaultNonRecipientGuestRole (config.proofhq.defaultnonrecipientguestrole) &nbsp;</li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### DocMetadataLinkGroup
+
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td>Actions</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>getMetadataDetailsForDocument</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -505,19 +731,21 @@ A CustomerPreferences object represents the set of preferences that a customer h
  </tbody> 
 </table>
 
-
-
-### Document {#document}
+### Document
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Actions</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following actions were added to the Document object.</p> 
+  <tr> 
+   <td>Actions</td> 
+   <td> <p>The following actions were added to the Document object.</p> 
     <ul> 
      <li style="font-weight: bold;">completeLargeDocument</li> 
      <li style="font-weight: bold;">createLargeDocument</li> 
@@ -531,19 +759,21 @@ A Document object represents a file (such as written material, images, or other 
  </tbody> 
 </table>
 
-
-
-### Iteration {#iteration}
+### Iteration
 
 An Iteration object represents a single Agile Iteration. Iterations are discrete periods of time used to plan and complete Agile stories.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 249px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following fields were added to the Iteration object.</p> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> <p>The following fields were added to the Iteration object.</p> 
     <ul> 
      <li style="font-weight: bold;">originalTotalPoints</li> 
      <li style="font-weight: bold;">points Completed</li> 
@@ -553,26 +783,28 @@ An Iteration object represents a single Agile Iteration. Iterations are discrete
  </tbody> 
 </table>
 
-
-
-### Layout Template {#layout-template}
+### Layout Template
 
 A Layout Template object represents a particular arrangement of layout elements, such as the main menu, navigation panel, or the Home area. Layout templates can be assigned to users, teams, groups, or job roles.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if a Layout Template is set to show timestamps for due dates in the Work List and Calendar, and false if it is set to hide timestamps. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>showHomeTimestamps</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -580,26 +812,28 @@ A Layout Template object represents a particular arrangement of layout elements,
  </tbody> 
 </table>
 
-
-
-### MilestonePath {#milestonepath}
+### MilestonePath
 
 A milestone is a marker on a task indication that it is a key point in the Project. Generally used to denote a significant event such as the completion of a phase of the project or a set of critical activities. A MilestonePath object is a collection of milestones.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if an object is active and false if it is not. Objects that are set to Active appear in drop-down menus and type-ahead fields and can be attached to other objects. Objects not set to Active are not visible in drop-down menus and type-ahead fields to attach to other objects. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -607,26 +841,28 @@ A milestone is a marker on a task indication that it is a key point in the Proje
  </tbody> 
 </table>
 
-
-
-### Note {#note}
+### Note
 
 A Note object is a comment or update made on a Workfront object.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>The following fields were added to the Note object.</p> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> <p>The following fields were added to the Note object.</p> 
     <ul> 
      <li style="font-weight: bold;">proofID &nbsp;</li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Collection Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>likes</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -634,18 +870,20 @@ A Note object is a comment or update made on a Workfront object.
  </tbody> 
 </table>
 
-
-
-### OpTask {#optask}
+### OpTask
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="font-weight: bold;" colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These valdators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
+  <tr> 
+   <td colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These valdators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
@@ -659,30 +897,30 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
      <li style="font-weight: bold;">work &nbsp;</li>
     </ul></td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Collection Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Search Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Search Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>work</p> <p style="font-weight: normal;">Removed</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>percentComplete</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Actions</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following actions were added to the OpTask object</p> 
+  <tr> 
+   <td>Actions</td> 
+   <td> <p>The following actions were added to the OpTask object</p> 
     <ul> 
      <li style="font-weight: bold;">bulkMove</li> 
      <li style="font-weight: bold;">copyIssue</li> 
@@ -691,40 +929,44 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
  </tbody> 
 </table>
 
-
-
-### Parameter {#parameter}
+### Parameter
 
 A Parameter object is a custom field.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Added possible value TYAH (Typeahead).</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">This field was added and refers to the object code of a referenced object. Object codes for all objects can be found in the <a href="api-explorer.md" class="MCXref xref">API Explorer</a>. &nbsp;</p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">This field was added and refers to the object code of a referenced object. Object codes for all objects can be found in the <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-### Portfolio {#portfolio}
+### Portfolio
 
 A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>description</p> <p style="font-weight: normal;">Added the validator MAX_LENGTH, which specifies that the length of the description is no more than 4000 characters.</p> </li> 
     </ul> </td> 
@@ -732,28 +974,30 @@ A Portfolio object is a collection of projects that compete for the same resourc
  </tbody> 
 </table>
 
-
-
-### Program {#program}
+### Program
 
 A Program object is a subset within a portfolio, where similar projects can be grouped together.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>description</p> <p style="font-weight: normal;">Added the validator MAX_LENGTH, which specifies that the length of the description is no more than 4000 characters.</p> </li> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if an object is active and false if it is not. Objects that are set to Active appear in drop-down menus and type-ahead fields and can be attached to other objects. Objects not set to Active are not visible in drop-down menus and type-ahead fields to attach to other objects. &nbsp;</p> </li> 
      <li style="font-weight: bold;"> <p>name </p> <p style="font-weight: normal;">Added the validator MAX_LENGTH, which specifies that the length of the name is no more than 255 characters. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -761,18 +1005,20 @@ A Program object is a subset within a portfolio, where similar projects can be g
  </tbody> 
 </table>
 
-
-
-### Project {#project}
+### Project
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="font-weight: bold;" colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These valdators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
+  <tr> 
+   <td colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These valdators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
@@ -791,9 +1037,9 @@ Projects are work items within Workfront, and are a main building block in the w
      <li style="font-weight: bold;">timelineExceptionInfo</li>
     </ul></td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Collection Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -801,19 +1047,21 @@ Projects are work items within Workfront, and are a main building block in the w
  </tbody> 
 </table>
 
-
-
-### ProofApproval {#proofapproval}
+### ProofApproval
 
 A ProofApproval object represents an approval that is directly connected to a proof.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isAwaitingDecision</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if a proof is awaiting a decision and false if it is not. &nbsp;</p> </li> 
     </ul> </td> 
@@ -821,19 +1069,21 @@ A ProofApproval object represents an approval that is directly connected to a pr
  </tbody> 
 </table>
 
-
-
-### QueueDef {#queuedef}
+### QueueDef
 
 A QueueDef object represents a Queue, which is a Project that has been published to the Help Desk area to allow users to submit Issues to it.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The following fields added the possible value BUDGETING_INFORMATION. This allows users with permission to edit priorities and budget hours in the planner.</p> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> <p>The following fields added the possible value BUDGETING_INFORMATION. This allows users with permission to edit priorities and budget hours in the planner.</p> 
     <ul> 
      <li style="font-weight: bold;">requestorCoreAction</li> 
      <li style="font-weight: bold;">requestorForbiddenActions</li> 
@@ -842,22 +1092,23 @@ A QueueDef object represents a Queue, which is a Project that has been published
  </tbody> 
 </table>
 
-
-
-### ReservedTime {#reservedtime}
+### ReservedTime
 
 A ReservedTime object represents days specified on a User's Personal Time, indicating that the User will not be available for work.
 
-
 The ReservedTime resource added the flag REPORTABLE.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>The following fields removed the flag NOT_GROUPABLE.</p> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> <p>The following fields removed the flag NOT_GROUPABLE.</p> 
     <ul> 
      <li style="font-weight: bold;">endDate</li> 
      <li style="font-weight: bold;">extRefID</li> 
@@ -867,16 +1118,16 @@ The ReservedTime resource added the flag REPORTABLE.
      <li style="font-weight: bold;">taskID</li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>task</p> <p style="font-weight: normal;">Removed &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Operations</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Operations</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>EDIT</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -884,27 +1135,27 @@ The ReservedTime resource added the flag REPORTABLE.
  </tbody> 
 </table>
 
-
-
-### ResourcePlannerFilter {#resourceplannerfilter}
+### ResourcePlannerFilter
 
 A ResourcePlannerFilter object is a set of rules that determine which items will display in the Resource Planner.
 
-
 The ResourcePlannerFilter resource added the flag SHARABLE. There were no other changes to the object.
 
-
-### Risk {#risk}
+### Risk
 
 A Risk object represents a possible event that may prevent a project from finishing on time or within budget. Risks are added to projects in the planning phase to identify potential obstacles prior to the approval of any work.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>The following fields were added to the Risk object:</p> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> <p>The following fields were added to the Risk object:</p> 
     <ul> 
      <li style="font-weight: bold;"> <p>enteredByID</p> <p style="font-weight: normal;">The ID of the user that originally created the object.</p> </li> 
      <li> <p style="font-weight: bold;">entryDate</p> <p>The date an object was submitted by a user in Workfront.</p> </li> 
@@ -912,9 +1163,9 @@ A Risk object represents a possible event that may prevent a project from finish
      <li> <p style="font-weight: bold;">lastUpdatedByID </p> <p>Last Updated By ID is a parameter that will return the User ID of the last User that updated the object. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p style="font-weight: normal;">The following Reference Fields were added to the RIsk object.</p> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> <p style="font-weight: normal;">The following Reference Fields were added to the RIsk object.</p> 
     <ul> 
      <li style="font-weight: bold;">enteredBy</li> 
      <li style="font-weight: bold;">lastUpdatedBy &nbsp;</li> 
@@ -923,19 +1174,21 @@ A Risk object represents a possible event that may prevent a project from finish
  </tbody> 
 </table>
 
-
-
-### ScheduledReport {#scheduledreport}
+### ScheduledReport
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>pageSize</p> <p style="font-weight: normal;">Added the following possible values:</p> 
       <ul> 
@@ -948,19 +1201,21 @@ A ScheduledReport object represents a report that has been configured to be sche
  </tbody> 
 </table>
 
-
-
-### ScoreCardQuestion {#scorecardquestion}
+### ScoreCardQuestion
 
 A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Added possible value TYAH (Typeahead) &nbsp;</p> </li> 
     </ul> </td> 
@@ -968,18 +1223,20 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
  </tbody> 
 </table>
 
-
-
-### Task {#task}
+### Task
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="font-weight: bold;" colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These valdators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
+  <tr> 
+   <td colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These valdators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
@@ -1002,16 +1259,16 @@ A Task object represents a work item that must be performed as a step toward ach
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">Removed &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Collection Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -1019,19 +1276,21 @@ A Task object represents a work item that must be performed as a step toward ach
  </tbody> 
 </table>
 
-
-
-### Team {#team}
+### Team
 
 A Team object is a collection of Users that can be assigned to a work item.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>agileEstimateType </p> <p style="font-weight: normal;">This field was added to the Team object. Agile Estimate Type determines how the work load of a story is estimated. If estimated in hours, then this is the number of Planned Hours that are added to the story. If estimated in points, each point will add a number of Planned Hours to the story based on how the points are set (default is 8 hours). Possible values for Agile Estimate Type are:</p> 
       <ul> 
@@ -1044,33 +1303,35 @@ A Team object is a collection of Users that can be assigned to a work item.
  </tbody> 
 </table>
 
-
-
-### Template {#template}
+### Template
 
 A Template object represents a pattern for a Project. Projects can be created from Templates to save time. A Template contains a Team and Tasks, which will be copied to a Project when the Template is used.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if an object is active and false if it is not. Objects that are set to Active appear in drop-down menus and type-ahead fields and can be attached to other objects. Objects not set to Active are not visible in drop-down menus and type-ahead fields to attach to other objects. &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Collection Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Default Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -1078,18 +1339,25 @@ A Template object represents a pattern for a Project. Projects can be created fr
  </tbody> 
 </table>
 
+### TemplateAssignment
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">A TemplateAssignment object represents the connection between a Template and the User, Team, or Group it is assigned to.</p>
+-->
 
-### TemplateAssignment {#templateassignment}
+A TemplateAssignment object represents the connection between a Template and the User, Team, or Group it is assigned to.
 
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">Added the possible value ET. This value represents the unit of time Elapsed Months, which refers to months without regard to weekends or holidays. &nbsp;</p> </li> 
     </ul> </td> 
@@ -1097,27 +1365,29 @@ A Template object represents a pattern for a Project. Projects can be created fr
  </tbody> 
 </table>
 
-
-
-### TemplateTask {#templatetask}
+### TemplateTask
 
 A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p style="font-weight: normal;">The following fields added the possible value ET. This value represents the unit of time Elapsed Months, which refers to months without regard to weekends or holidays.</p> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> <p style="font-weight: normal;">The following fields added the possible value ET. This value represents the unit of time Elapsed Months, which refers to months without regard to weekends or holidays.</p> 
     <ul> 
      <li style="font-weight: bold;">durationUnit</li> 
      <li style="font-weight: bold;">workUnit</li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Collection Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -1125,19 +1395,21 @@ A TemplateTask object represents a Task that is part of a Template. Template Tas
  </tbody> 
 </table>
 
-
-
-### Timesheet {#timesheet}
+### Timesheet
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Core Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>objCode</p> <p style="font-weight: normal;">Removed</p> </li> 
     </ul> </td> 
@@ -1145,26 +1417,28 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
  </tbody> 
 </table>
 
-
-
-### Update {#update}
+### Update
 
 Work Items in Workfront can be updated to keep users informed of the current status. An Update object represents one of these updates. Updates can be entered by users or created by the Workfront system.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 251px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Direct Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>updateType</p> <p style="font-weight: normal;">Added possible value referenceObjectCustomData (enum.updatetypeenum.referenceobjectcustomdata) &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Queries</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p style="font-weight: normal;">The following queries were added to the Update object.</p> 
+  <tr> 
+   <td>Queries</td> 
+   <td> <p style="font-weight: normal;">The following queries were added to the Update object.</p> 
     <ul> 
      <li style="font-weight: bold;">objectUpdatesMobile</li> 
      <li style="font-weight: bold;">updateThreadMobile</li> 
@@ -1173,26 +1447,72 @@ Work Items in Workfront can be updated to keep users informed of the current sta
  </tbody> 
 </table>
 
+<!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="User"></a>User</h3>
+-->
 
+### User
 
-### UserNote {#usernote}
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
+-->
 
+A User object represents a person with an account in Workfront that can log in and interact with the system.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ </draft-comment>
+ <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Actions</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p style="font-weight: normal;">The following actions were added to the User object.</p> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>loginAsAccessRules</p> <p style="font-weight: normal;">Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Actions</td> 
+   <td> <p style="font-weight: normal;">The following actions were added to the User object.</p> 
+    <ul> 
+     <li style="font-weight: bold;">hasGrantLoginAsAccess</li> 
+     <li style="font-weight: bold;">isUserAdmin</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Queries</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>userAdmins</p> <p style="font-weight: normal;">Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### UserNote
+
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td>Actions</td> 
+   <td> <p style="font-weight: normal;">The following actions were added to the User object.</p> 
     <ul> 
      <li style="font-weight: bold;">acknowledgeMyNotifications</li> 
      <li style="font-weight: bold;">unacknowledgedAllObjectsTypeCount &nbsp;</li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Queries</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
+  <tr> 
+   <td>Queries</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>myAllObjectTypesUnreadNotifications</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 
@@ -1200,18 +1520,20 @@ Work Items in Workfront can be updated to keep users informed of the current sta
  </tbody> 
 </table>
 
-
-
-### Work  {#work}
+### Work
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 250px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" data-mc-conditions=""> 
+<table cellspacing="15"> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> <draft-comment>
+  <col data-mc-conditions="">
+ </draft-comment>
+ <col data-mc-conditions=""> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="font-weight: bold;" colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These valdators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
+  <tr> 
+   <td colspan="2">Direct Fields<p style="font-weight: normal;">The following fields added the validators AT_DATE_BEFORE_YEAR and AT_DATE_AFTER_YEAR. These valdators specify that dates on associated objects can't be set before the year 1900 or after 2200.</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
@@ -1234,16 +1556,16 @@ A Work object is a common interface that both Task and OpTask inherit, and share
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Reference Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> 
+  <tr> 
+   <td>Reference Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">Removed &nbsp;</p> </li> 
     </ul> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">Collection Fields</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> 
+  <tr> 
+   <td>Collection Fields</td> 
+   <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Added</p> </li> 
     </ul> </td> 

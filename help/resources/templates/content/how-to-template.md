@@ -1,66 +1,38 @@
 
 
+# [Task title]
 
+[Introduction]
 
-# Title {#title}
+<!--
+<p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="bold">Delete this box before publishing</span> <br>You can delete any table rows that don't apply.</p>
+-->
 
-(Required) Intro paragraph
+`Delete this box before publishing`   
+You can delete any table rows that don't apply.
+(missing or bad snippet) 
 
+## Prerequisites
 
-## Create a task {#create-a-task}
+Before you begin, you must
 
-Intro
+<!--
+<p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="bold">Delete this box before publishing</span><br>Use a bullet list to describe the prerequisites needed to complete the task or tasks below. If there are no prerequisites, delete the entire section. </p>
+-->
 
+`Delete this box before publishing`  
+Use a bullet list to describe the prerequisites needed to complete the task or tasks below. If there are no prerequisites, delete the entire section.
 
-### Prerequisites {#prerequisites}
+* [List out prerequisites]
 
-Before you can […], you must first […]. 
+## [Task title]
 
+<!--
+<p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="bold">Delete this box before publishing</span><br>Repeat the title of the article if you have only one section. Enter a small intro paragraph if needed; otherwise, proceed with steps. If you have multiple tasks, create a new section for each task. </p>
+-->
 
+`Delete this box before publishing`  
+Repeat the title of the article if you have only one section. Enter a small intro paragraph if needed; otherwise, proceed with steps. If you have multiple tasks, create a new section for each task.
 
-* x
-* y
-* z
+1. &nbsp;
 
-
-For more information, see […].
-
-
-### Access needed {#access-needed}
-
-You need at least [...] access to complete this task. To request more access, see [Requesting Access in the new Workfront experience](request-access.md).
-
-
-### How to {#how-to}
-
-
-
-
-1. Step
-1. Step
-
-
-&nbsp;
-
-
-&nbsp;
-
-
-## Create a task {#create-a-task-1}
-
-
-
-
-* Before you can […], you must first […]. For more information, see […].
-* You need at least [...] access to complete this task. To request more access, see [Requesting Access in the new Workfront experience](request-access.md).
-
-
-To create a task:
-
-
-
-1. Step
-1. Step
-
-
-Delete this text and replace it with your own content.

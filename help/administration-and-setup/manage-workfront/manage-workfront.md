@@ -4,23 +4,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
+title: Manage Adobe Workfront
+description: This section contains the following subsections:
 ---
 
-
-
-# Manage *`Adobe Workfront`* {#manage-adobe-workfront}
+# Manage *Adobe Workfront*
 
 This section contains the following subsections:
 
-
-
-* [Configure proofing functionality](_configuring-proofing-functionality.md) 
-* [Configure reports](_configure-reports.md) 
-* [Emails](_emails.md) 
-* [Security](_security.md) 
-* [Exchange rates](_exchange-rates.md) 
-* [Manage deleted items](_manage-deleted-items.md) 
-* [Diagnostics](_diagnostics.md) 
-* [Kick-Starts](_kick-starts.md) 
-
+* [Configure proofing functionality](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md) 
+* [Configure reports](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md) 
+* [Emails](../../administration-and-setup/manage-workfront/emails/emails.md) 
+* [Security](../../administration-and-setup/manage-workfront/security/security.md) 
+* [Exchange rates](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md) 
+* [Manage deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md) 
+* [Diagnostics](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md) 
+* [Kick-Starts](../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
 

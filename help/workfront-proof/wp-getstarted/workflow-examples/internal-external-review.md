@@ -4,85 +4,62 @@ content-type: reference
 product: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
+title: Internal Then External Review in Workfront Proof
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Internal Then External Review in *Workfront Proof*
 
-
-# Internal Then External Review in *`Workfront Proof`* {#internal-then-external-review-in-workfront-proof}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
+If your organization completes internal reviews before sharing *proofs* with clients, we suggest two ways you can use *Workfront Proof* to enhance your workflow:
 
-If your organization completes internal reviews before sharing *`proofs`* with clients, we suggest two ways you can use *`Workfront Proof`* to enhance your workflow:
-
-
-## Clients See Internal Comments {#clients-see-internal-comments}
+## Clients See Internal Comments
 
 This option illustrates a workflow where clients can see all internal comments.
 
-
-The designer shares the *`proof`* with the Project Manager (and any other colleagues) first. Colleagues review the *`proof`* and, if they approve it, you can use the share function to share the *`proof`* with your clients. For more information, see [Share a Proof in Workfront Proof](share-proof.md).
-
+The designer shares the *proof* with the Project Manager (and any other colleagues) first. Colleagues review the *proof* and, if they approve it, you can use the share function to share the *proof* with your clients. For more information, see [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 ![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
 
+1. `Create a new *proof*` -&nbsp;the designer creates a new *proof* in *Workfront Proof* and shares it will internal reviewers. The designer makes the project manager the owner&nbsp;of the *proof*.
 
+1. `Internal review` - the Project Manager and other colleagues review the *proof*.
 
+1. `Share *proof*` - the Project Manager shares the *proof* with the client.
 
+1. `New *proof* email` - the client receives the New *proof* email with the Go to *proof* link. For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-1. `Create a new *`proof`*` - the designer creates a new *`proof`* in *`Workfront Proof`* and shares it will internal reviewers. The designer makes the project manager the owner of the *`proof`*.
+1. `Review *proof*` - the client reviews the *proof*, adds comments&nbsp;and makes a decision. 
 
-1. `Internal review` - the Project Manager and other colleagues review the *`proof`*.
+1. `Email alert` - the Project Manager receives an email alert (depending on his settings on the *proof*). For more information, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
-1. `Share *`proof`*` - the Project Manager shares the *`proof`* with the client.
+1. `Change request` - the Project Manager lets the designer know about the change requests. This can be done using the print comments function. For more information, see [Print and Export Comments in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 
-1. `New *`proof`* email` - the client receives the New *`proof`* email with the Go to *`proof`* link. For more information, see [New proof email](new-proof-email.md).
+1. `New Version` (if required) - the designer amends the file and uploads it to *Workfront Proof* as a new version. For more information, see .
 
-1. `Review *`proof`*` - the client reviews the *`proof`*, adds comments&nbsp;and makes a decision. See [Create and manage proof comments](create-manage-proof-comments.md) and [Make decisions on a proof](make-decisions-on-proof.md).
+You can repeat this process until the *proof* is approved.
 
-1. `Email alert` - the Project Manager receives an email alert (depending on his settings on the *`proof`*). For more information, see [Configure email notification settings in Workfront Proof](config-email-notification-settings-wp.md).
+## Client Sees Only Their Own Version
 
-1. `Change request` - the Project Manager lets the designer know about the change requests. This can be done using the print comments function. For more information, see [Print and Export Comments in Workfront Proof](print-and-export-comments.md).
-
-1. `New Version` (if required) - the designer amends the file and uploads it to *`Workfront Proof`* as a new version. For more information, see .
-
-
-
-You can repeat this process until the *`proof`* is approved.
-
-
-## Client Sees Only Their Own Version {#client-sees-only-their-own-version}
-
-This option illustrates a workflow where the *`proofing`* process is managed by the Project Manager who creates any new versions (as required) and shares the *`proof`* with the client. The designer does not need to be involved in the review process.)
-
+This option illustrates a workflow where the *proofing* process is managed by the Project Manager who creates any new versions (as required) and shares the *proof* with the client. The designer does not need to be involved in the review process.)
 
 ![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
 
+<ol> 
+ <li value="1"><span class="bold">Create a new <em>proof</em></span> - The designer creates a new <em>proof</em> in <em>Workfront Proof</em> and shares it with internal reviewers. The designer makes the Project Manager the Owner&nbsp;of the <em>proof</em>, or alternatively gives him the role of Author&nbsp;on the <em>proof</em> (see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>).</li> 
+ <li value="2"><span class="bold">Internal review</span> - the Project Manager and other colleagues review the <em>proof</em>. For more information, see <a href="https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer">Reviewing Proofs in the <em>Web Proofing Viewer</em></a> and <a href="https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer">Reviewing Proofs in the <em>Desktop Proofing Viewer</em>.</a></li> 
+ <li value="3"><span class="bold">New version</span> - the Project Manager creates a new version (or a copy) of the <em>proof</em> and shares it with the client. See <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Copying Proofs in Workfront Proof</a> and <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md" class="MCXref xref">Share a Proof in Workfront Proof</a>.</li> 
+ <li value="4"><span class="bold">New <em>proof</em> email </span>- the client receives the New <em>proof</em> email with a Go to <em>proof</em> link.&nbsp;For more information, see <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md" class="MCXref xref">New proof email</a>.</li> 
+ <li value="5"><span class="bold">Review <em>proof</em></span> - the client reviews the <em>proof</em>, adds comments and makes a decision.</li> <note type="note">
+  The client can see only the version of the 
+  <em>proof</em> that has been explicitly shared with them; they will not be able to see the internal version.
+ </note> 
+ <li value="6"><span class="bold">Email alert</span> - the Project Manager receives an email with a summary of the client's review (depending on their settings on the <em>proof</em>).</li> 
+ <li value="7"><span class="bold">Change request</span> - the Project Manager lets the designer know about the change requests. This can be done using the print comments function.&nbsp;For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md" class="MCXref xref">Print and Export Comments in Workfront Proof</a>.</li> 
+ <li value="8"><span class="bold">New version</span> (if required) - the designer amends the file and uploads it to <em>Workfront Proof</em> as a new version. For more information, see .</li> 
+</ol>
 
-
-
-
-1. `Create a new *`proof`*` - The designer creates a new *`proof`* in *`Workfront Proof`* and shares it with internal reviewers. The designer makes the Project Manager the Owner of the *`proof`*, or alternatively gives him the role of Author on the *`proof`* (see [Manage Proof Roles in Workfront Proof](manage-proof-roles.md)).
-
-1. `Internal review` - the Project Manager and other colleagues review the *`proof`*. For more information, see [Reviewing Proofs in the *`Web Proofing Viewer`*](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer) and [Reviewing Proofs in the *`Desktop Proofing Viewer`*.](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)
-
-1. `New version` - the Project Manager creates a new version (or a copy) of the *`proof`* and shares it with the client. See [Copying Proofs in Workfront Proof](copy-proofs.md) and [Share a Proof in Workfront Proof](share-proof.md).
-
-1. `New *`proof`* email`- the client receives the New *`proof`* email with a Go to *`proof`* link.&nbsp;For more information, see [New proof email](new-proof-email.md).
-
-1. `Review *`proof`*` - the client reviews the *`proof`*, adds comments and makes a decision.
-
-1. The client can see only the version of the *`proof`* that has been explicitly shared with them; they will not be able to see the internal version.
-1. `Email alert` - the Project Manager receives an email with a summary of the client's review (depending on their settings on the *`proof`*).
-
-1. `Change request` - the Project Manager lets the designer know about the change requests. This can be done using the print comments function.&nbsp;For more information, see [Print and Export Comments in Workfront Proof](print-and-export-comments.md).
-
-1. `New version` (if required) - the designer amends the file and uploads it to *`Workfront Proof`* as a new version. For more information, see .
-
-
-
-You can repeat this process until the *`proof`* is approved. 
+You can repeat this process until the *proof* is approved. 

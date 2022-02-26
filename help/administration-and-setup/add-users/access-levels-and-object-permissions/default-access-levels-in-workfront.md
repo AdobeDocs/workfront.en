@@ -5,274 +5,398 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
+title: Built-in access levels in Adobe Workfront
+description: All 6 of the built-in access levels are designed for a particular type of user:
 ---
 
-
-
-# Built-in access levels in *`Adobe Workfront`* {#built-in-access-levels-in-adobe-workfront}
+# Built-in access levels in *Adobe Workfront*
 
 All 6 of the built-in access levels are designed for a particular type of user:
 
+* System Administrator
+* Planner
+* Worker
+* Reviewer
+* Requestor
+* External User
 
+For general information about these access levels, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-*  System Administrator
-*  Planner
-*  Worker
-*  Reviewer
-*  Requestor
-*  External User
+Depending on the access level, up to 3 settings are available for most of the *Workfront* object types:
 
+| Edit |Users can create, edit, delete, and share the *Workfront* object |
+|---|---|
+| View |Users can review and share the *Workfront* object |
+| No Access |Users cannot access the *Workfront* object |
 
-For general information about these access levels, see [Access levels overview](access-levels-overview.md).
+If you need a custom Planner, Worker, Requester, or Reviewer access level, you can copy the built-in access level and determine the amount of access you want it to allow for the various *Workfront* object types. For information on creating a custom access level or modifying one of the built-in access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-
-Depending on the access level, up to 3 settings are available for most of the *`Workfront`* object types:
-
-If you need a custom Planner, Worker, Requester, or Reviewer access level, you can copy the built-in access level and determine the amount of access you want it to allow for the various *`Workfront`* object types. For information on creating a custom access level or modifying one of the built-in access levels, see [Create or modify custom access levels](create-modify-access-levels.md).
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
 >We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users.
 
+## System Administrator access level
 
+Attached to the *Plan* license, this built-in access level is designed for a user who is in charge of administering the *Adobe Workfront* system. You cannot modify this built-in access level.
 
+Users with the System Administrator access level can do everything within *Workfront*. They can view and edit all *Workfront* objects and information entered in *Workfront* by all other users.
 
+They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the 
 
-## System Administrator access level {#system-administrator-access-level}
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+Main Menu
+<img src="assets/main-menu-icon.png">
+</MadCap:conditionalText>
+-->
 
-Attached to the *`Plan`* license, this built-in access level is designed for a user who is in charge of administering the *`Adobe Workfront`* system. You cannot modify this built-in access level.
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Main Menu  <img src="assets/main-menu-icon.png"> </MadCap:conditionalText>`.
 
+For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-Users with the System Administrator access level can do everything within *`Workfront`*. They can view and edit all *`Workfront`* objects and information entered in *`Workfront`* by all other users. 
+## Planner access level
 
+Also attached to the *Plan* license, this access level is designed for:
 
-They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu  <img src="assets/main-menu-icon.png"></MadCap:conditionalText>`.
+<ul> 
+ <li>Managers of groups, teams, projects, and resources</li> 
+ <li>Anyone who is responsible for planning, creating, and managing tasks, projects, portfolios, and programs</li> 
+ <li>Anyone who is responsible for assigning work (tasks and issues) to other users</li> 
+ <li>Users who build reports and who approve timesheets, work items, and documents</li> 
+ <li>Users who need access to all areas in the <draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Main Menu 
+    <img src="assets/main-menu-icon.png"> 
+   </MadCap:conditionalText>
+  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Main Menu 
+   <img src="assets/main-menu-icon.png"> 
+  </MadCap:conditionalText><br></li> 
+</ul>
 
-
-For more information, see [Grant a user full administrative access](grant-a-user-full-administrative-access.md).
-
-
-## Planner access level {#planner-access-level}
-
-Also attached to the *`Plan`* license, this access level is designed for:
-
-
-
-* Managers of groups, teams, projects, and resources
-* Anyone who is responsible for planning, creating, and managing tasks, projects, portfolios, and programs
-* Anyone who is responsible for assigning work (tasks and issues) to other users
-* Users who build reports and who approve timesheets, work items, and documents
-* Users who need access to all areas in the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu  <img src="assets/main-menu-icon.png"></MadCap:conditionalText>`  
-
-
-
-You can create a custom version of the *`Planner`* built-in access level and determine the amount of access it allows for the various *`Workfront`* object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
-
+You can create a custom version of the *Planner* built-in access level and determine the amount of access it allows for the various *Workfront* object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
 
 The following are the highest access settings available for objects in the Planner access level:
 
+| *Workfront* object type |No access |View access |Edit access |
+|---|---|---|---|
+| Projects |&nbsp; |&nbsp; |✓ |
+| Tasks |&nbsp; |&nbsp; |✓ |
+| Issues |&nbsp; |&nbsp; |✓ |
+| Portfolios |&nbsp; |&nbsp; |✓ |
+| Programs |&nbsp; |&nbsp; |✓ |
+| Reports (including dashboards and calendar reports) |&nbsp; |&nbsp; |✓ |
+| Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
+| Documents |&nbsp; |&nbsp; |✓ |
+| Users |&nbsp; |&nbsp; |✓ |
+| Templates |&nbsp; |&nbsp; |✓ |
+| Financial data |&nbsp; |&nbsp; |✓ |
+| Resource Management |&nbsp; |&nbsp; |✓ |
+| *Scenario Planner* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| *Scenario Planner* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| *Workfront Goals* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| *Workfront Goals* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 
+## Worker access level
 
-## Worker access level {#worker-access-level}
-
-Attached to the *`Work`* license, this built-in access level is designed for users who for perform the work in *`Workfront`*. They do not plan the work; they complete it.
-
+Attached to the *Work* license, this built-in access level is designed for users who for perform the work in *Workfront*. They do not plan the work; they complete it.
 
 Users with this access level:
 
+<ul> 
+ <li>Are assigned to work items where they can contribute and log time</li> 
+ <li>Can approve work and documents, but not timesheets</li> 
+ <li>Can access and share reports</li> 
+ <li>Can communicate with other users in the system<br></li> 
+ <li>Can access all the areas in the <draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Main Menu 
+    <img src="assets/main-menu-icon.png"> 
+   </MadCap:conditionalText>
+  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Main Menu 
+   <img src="assets/main-menu-icon.png"> 
+  </MadCap:conditionalText>, but their <draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     "Users" 
+   </MadCap:conditionalText>
+  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    "Users" 
+  </MadCap:conditionalText> area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.</li> 
+ <li> <p>Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.</p> </li> 
+</ul>
 
-
-* Are assigned to work items where they can contribute and log time
-* Can approve work and documents, but not timesheets
-* Can access and share reports
-* Can communicate with other users in the system  
-* Can access all the areas in the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu  <img src="assets/main-menu-icon.png"></MadCap:conditionalText>`, but their `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> "Users"</MadCap:conditionalText>` area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
-
-*  Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
-
-
-You can create a custom version of the *`Worker`* built-in access level and determine the amount of access it allows for the various *`Workfront`* object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
-
+You can create a custom version of the *Worker* built-in access level and determine the amount of access it allows for the various *Workfront* object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
 
 The following are the highest access settings available for objects in the Worker access level:
 
+| *Workfront* object type |No access |View access |Edit access |
+|---|---|---|---|
+| Projects |&nbsp; |&nbsp; |✓ (Limited: users can only share the project, create tasks and issues in it, and edit data in custom forms that are already attached to it.) |
+| Tasks |&nbsp; |&nbsp; |✓ |
+| Issues |&nbsp; |&nbsp; |✓ |
+| Portfolios |&nbsp; |✓ (The default setting is No Access.) |&nbsp; |
+| Programs |&nbsp; |✓ (The default setting is No Access.) |&nbsp; |
+| Reports (including dashboards and calendar reports) |&nbsp; |✓ |&nbsp; |
+| Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
+| Documents |&nbsp; |&nbsp; |✓ |
+| Users |&nbsp; |&nbsp; |✓ |
+| Templates |✓ |&nbsp; |&nbsp; |
+| Financial data |&nbsp; |✓ (The default setting is No Access. The View setting allows the user to view only the Finance 
 
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+area
+</MadCap:conditionalText>
+-->
 
-## Reviewer access level {#reviewer-access-level}
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  area </MadCap:conditionalText>`&nbsp;
 
-Attached to the *`Review`* license, this access level is designed for executives who request work from other users and who review and approve work. These are not project owners or team members, but they need access to *`Workfront`* to see the work items that they oversee.
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+in
+</MadCap:conditionalText>
+-->
 
+`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  in </MadCap:conditionalText>` Project Details.) |&nbsp; |
+| Resource Management |&nbsp; |✓ |&nbsp; |
+| *Scenario Planner* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| *Scenario Planner* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| *Workfront Goals* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| *Workfront Goals* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 
-For example, a stakeholder with this access level could log in to *`Workfront`* to participate in an ongoing review of marketing materials, see work updates on work, and review documents, approvals, reports, and calendars.
+## Reviewer access level
 
+Attached to the *Review* license, this access level is designed for executives who request work from other users and who review and approve work. These are not project owners or team members, but they need access to *Workfront* to see the work items that they oversee.
+
+For example, a stakeholder with this access level could log in to *Workfront* to participate in an ongoing review of marketing materials, see work updates on work, and review documents, approvals, reports, and calendars.
 
 Users with the Reviewer access level:
 
+<ul> 
+ <li>Cannot be assigned work items or approve time sheets</li> 
+ <li>Can access requests and documents in the <draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     Main Menu 
+    <img src="assets/main-menu-icon.png"> 
+   </MadCap:conditionalText>
+  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    Main Menu 
+   <img src="assets/main-menu-icon.png"> 
+  </MadCap:conditionalText>.</li> 
+ <li>Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.</li> 
+</ul>
 
-
-* Cannot be assigned work items or approve time sheets
-* Can access requests and documents in the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu  <img src="assets/main-menu-icon.png"></MadCap:conditionalText>`.
-* Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
-
-
-You can create a custom version of the *`Reviewer`* built-in access level and determine the amount of access it allows for the various *`Workfront`* object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
-
+You can create a custom version of the *Reviewer* built-in access level and determine the amount of access it allows for the various *Workfront* object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
 
 More limited for projects and tasks than the Worker access level, the following are the highest access settings available for objects in the Reviewer access level:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> object type</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">No access</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">View access</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1">Edit access</th> 
+  <tr> 
+   <th><em>Workfront</em> object type</th> 
+   <th>No access</th> 
+   <th>View access</th> 
+   <th>Edit access</th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Projects</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>Projects</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Tasks</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
+  <tr> 
+   <td>Tasks</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Issues</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">✓</td> 
+  <tr> 
+   <td>Issues</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Portfolios</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
+  <tr> 
+   <td>Portfolios</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Programs</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓ (The default setting is No Access.)</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>Programs</td> 
+   <td>&nbsp;</td> 
+   <td>✓ (The default setting is No Access.)</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Reports (including dashboards and calendar reports)</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
+  <tr> 
+   <td>Reports (including dashboards and calendar reports)</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Filters, views, and groupings</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">✓</td> 
+  <tr> 
+   <td>Filters, views, and groupings</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Documents</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">✓</td> 
+  <tr> 
+   <td>Documents</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Users</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>Users</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Templates</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
+  <tr> 
+   <td>Templates</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Financial data</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓ (The default setting is No Access. The View setting allows the user to view only the Finance <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      area
-     </MadCap:conditionalText> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      in
+  <tr> 
+   <td>Financial data</td> 
+   <td>&nbsp;</td> 
+   <td> <p>✓ (The default setting is No Access. The View setting allows the user to view only the Finance <draft-comment>
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+        area 
+      </MadCap:conditionalText>
+     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+       area 
+     </MadCap:conditionalText> <draft-comment>
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+        in 
+      </MadCap:conditionalText>
+     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+       in 
      </MadCap:conditionalText> Project Details.)</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Resource Management</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✓</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><span class="mc-variable WFVariables.Scenario_Planner_-_feature_name variable varname">Scenario Planner</span> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">✓ (The default setting is No Access.)</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"><span class="mc-variable WFVariables.Workfront_Align_(Goals) variable varname">Workfront Goals</span> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray">✓ (The default setting is No Access.)</td> 
+  <tr> 
+   <td>Resource Management</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+    <td><em>Scenario Planner</em> </td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>✓ (The default setting is No Access.)</td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td><em>Scenario Planner</em> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓ (The default setting is No Access.)</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+    <td><em>Workfront Goals</em> </td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>✓ (The default setting is No Access.)</td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td><em>Workfront Goals</em> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓ (The default setting is No Access.)</td> 
   </tr> 
  </tbody> 
 </table>
 
+## Requestor access level
 
+Attached to the *Request* license, this built-in access level is designed for users who make and receive simple work requests in *Workfront*. By default, they are limited to the Requests area.
 
-## Requestor access level {#requestor-access-level}
-
-Attached to the *`Request`* license, this built-in access level is designed for users who make and receive simple work requests in *`Workfront`*. By default, they are limited to the Requests area.
-
-
-For example, a user can log issues to your organization’s help desk request queue. 
-
+For example, a user can log issues to your organization’s help desk request queue.
 
 Users with this built-in access level:
 
+<ul> 
+ <li>Can make requests and update those requests</li> 
+ <li>Can upload and approve documents</li> 
+ <li>Can review the status of issues they have submitted</li> 
+ <li>Cannot be assigned to work items<br></li> 
+ <li> <p>Can <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+      access requests only from the Main Menu 
+     <img src="assets/main-menu-icon.png"> 
+    </MadCap:conditionalText>
+   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     access requests only from the Main Menu 
+    <img src="assets/main-menu-icon.png"> 
+   </MadCap:conditionalText>. For more information about request queues, see<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</p> </li> 
+</ul>
 
-
-* Can make requests and update those requests
-* Can upload and approve documents
-* Can review the status of issues they have submitted
-* Cannot be assigned to work items  
-*  Can `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> access requests only from the Main Menu <img src="assets/main-menu-icon.png"></MadCap:conditionalText>`. For more information about request queues, see [Create a Request Queue](create-request-queue.md).
-
-
-You can create a custom version of the *`Requester`* built-in access level and determine the amount of access it allows for the various *`Workfront`* object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
-
+You can create a custom version of the *Requester* built-in access level and determine the amount of access it allows for the various *Workfront* object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
 
 The following are the highest access settings available for objects in the Requestor access level:
 
+| *Workfront* object type |No access |View access |Edit access |
+|---|---|---|---|
+| Project |&nbsp; |✓ (Only the Project Details page) |&nbsp; |
+| Task |&nbsp; |✓(Only the Details page) |&nbsp; |
+| Issue |&nbsp; |&nbsp; |✓ |
+| Portfolios |✓ |&nbsp; |&nbsp; |
+| Programs |✓ |&nbsp; |&nbsp; |
+| Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only the Details page) |&nbsp; |
+| Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
+| Document |&nbsp; |&nbsp; |✓ |
+| User |&nbsp; |✓ |&nbsp; |
+| Template |✓ |&nbsp; |&nbsp; |
+| Financial data |✓ |&nbsp; |&nbsp; |
+| Resource Management |✓ |&nbsp; |&nbsp; |
+| *Scenario Planner* |✓ |&nbsp; |&nbsp; |
+| *Scenario Planner* |✓ |&nbsp; |&nbsp; |
+| *Workfront Goals* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| *Workfront Goals* |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 
+## External User access level
 
-## External User access level {#external-user-access-level}
+This access level is not attached to a paid *Workfront* license. It is the most restrictive access level, designed primarily for collaborators such as external consultants who don't log into *Workfront*, but need to review, download, or view documents occasionally.
 
-This access level is not attached to a paid *`Workfront`* license. It is the most restrictive access level, designed primarily for collaborators such as external consultants who don't log into *`Workfront`*, but need to review, download, or view documents occasionally.
-
-
-*`Workfront`* users can assign tasks to external users even though external users can't log in to the system. But we advise against this because that work would remain unresolved in the system.
-
+*Workfront* users can assign tasks to external users even though external users can't log in to the system. But we advise against this because that work would remain unresolved in the system.
 
 Users with the External User access level:
-
-
 
 * Can view only documents and calendar reports that are shared with them
 * See the users who share documents and calendar reports with them
 * Approve the documents that are shared with them
 
-
 You cannot modify this access level.
 
-
 The following are the highest access settings available for objects in the External User access level.
+
+| *Workfront* object type |No access |View access |Edit access |
+|---|---|---|---|
+| Project |✓ |&nbsp; |&nbsp; |
+| Task |✓ |✓ |&nbsp; |
+| Issue |✓ |&nbsp; |&nbsp; |
+| Portfolios |✓ |&nbsp; |&nbsp; |
+| Programs |✓ |&nbsp; |&nbsp; |
+| Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only for calendar reports; no ability to share reports) |&nbsp; |
+| Filters, views, and groupings |✓ |&nbsp; |&nbsp; |
+| Document |&nbsp; |✓ (without the ability to share documents) |&nbsp; |
+| User |&nbsp; |✓ |&nbsp; |
+| Template |✓ |&nbsp; |&nbsp; |
+| Financial data |✓ |&nbsp; |&nbsp; |
+| Resource Management |✓ |&nbsp; |&nbsp; |
+| *Scenario Planner* |✓ |&nbsp; |&nbsp; |
+| *Scenario Planner* |✓ |&nbsp; |&nbsp; |
+| *Workfront Goals* |✓ |&nbsp; |&nbsp; |
+| *Workfront Goals* |✓ |&nbsp; |&nbsp; |
 

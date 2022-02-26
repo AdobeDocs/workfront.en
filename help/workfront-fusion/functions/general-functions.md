@@ -4,46 +4,68 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
+title: General functions
+description: You must have the following access to use the functionality in this article:
 ---
 
+# General functions
 
-
-# General functions {#general-functions}
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> <p data-mc-conditions="SnippetConditions.HIDE"><span class="mc-variable WFVariables.WFFusionAutomation variable varname">Workfront Fusion for Work Automation</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
+     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
+    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## get (object or array; path) {#get-object-or-array-path}
+## get (object or array; path)
 
 Returns the value path of an object or array. To access nested objects, use dot notation. The first item in an array is index 1.
 
-` `**Examples: **`` 
-
+` `**Examples: **``
 
 * `get(` `array` `;`
 
@@ -81,20 +103,15 @@ Returns the value path of an object or array. To access nested objects, use dot 
   raw_name.sub_raw_name
   ```
 
-  `)` 
+  `)`
 
-
-
-
-
-## if (expression; value1; value2) {#if-expression-value-value}
+## if (expression; value1; value2)
 
 Returns the value 1 if the expression is evaluated to true; otherwise it returns the value 2.
 
-` `**Examples: **`` 
+` `**Examples: **``
 
-
-*  `if(`
+* `if(`
 
   ```
   1
@@ -118,12 +135,11 @@ Returns the value 1 if the expression is evaluated to true; otherwise it returns
   B
   ```
 
-  `)` 
-
+  `)`
 
   Returns A
 
-*  `if(` `=`
+* `if(` `=`
 
   ```
   2
@@ -141,23 +157,17 @@ Returns the value 1 if the expression is evaluated to true; otherwise it returns
   B
   ```
 
-  `)` 
-
+  `)`
 
   Returns B
 
-
-
-
-
-## ifempty (value1; value2) {#ifempty-value-value}
+## ifempty (value1; value2)
 
 Returns the value 1 if this value is not empty; otherwise it returns the value 2.
 
-` `**Examples: **`` 
+` `**Examples: **``
 
-
-*  `ifempty(`
+* `ifempty(`
 
   ```
   A
@@ -171,10 +181,9 @@ Returns the value 1 if this value is not empty; otherwise it returns the value 2
 
   )
 
-
   Returns A
 
-*  `ifempty(`
+* `ifempty(`
 
   ```
   unknown
@@ -188,10 +197,9 @@ Returns the value 1 if this value is not empty; otherwise it returns the value 2
 
   )
 
-
   Returns B
 
-*  `ifempty(`
+* `ifempty(`
 
   ```
   ""
@@ -205,21 +213,15 @@ Returns the value 1 if this value is not empty; otherwise it returns the value 2
 
   )
 
-
   Returns B
 
-
-
-
-
-## switch (expression; value1; result1; [value2; result2; ...]; [else]) {#switch-expression-value-result-value-result-else}
+## switch (expression; value1; result1; [value2; result2; ...]; [else])
 
 Evaluates one value (called the expression) against a list of values; returns the result corresponding to the first matching value.
 
-` `**Examples: **`` 
+` `**Examples: **``
 
-
-*  `switch(`
+* `switch(`
 
   ```
   B
@@ -261,12 +263,11 @@ Evaluates one value (called the expression) against a list of values; returns th
   3
   ```
 
-  `)` 
-
+  `)`
 
   Returns 2
 
-*  `switch(`
+* `switch(`
 
   ```
   C
@@ -310,40 +311,31 @@ Evaluates one value (called the expression) against a list of values; returns th
 
   `)`
 
-
   Returns 3
 
-*  `switch(`
+* `switch(`
 
   ```
   X<span class="function">;</span>A<span class="function">;</span>1<span class="function">;</span>B<span class="function">;</span>2<span class="function">;</span>C<span class="function">;</span>3<span class="function">;</span>4
   ```
 
-  `)` 
-
+  `)`
 
   Returns 4
 
-
-
-
-
-## omit(object; key1; [key2; ...]) {#omit-object-key-key}
+## omit(object; key1; [key2; ...])
 
 Omits the given keys of the object and returns the rest.
 
 ` `**Example: **`` `omit(` `User` `;`password `)`
 
-
 Returns a collection of the user's information, excluding the password.
 
-
-## pick(object; key1; [key2; ...]) {#pick-object-key-key}
+## pick(object; key1; [key2; ...])
 
 Picks only the given keys from the object.
 
 ` `**Example: **`` `pick(` `User` `;`password `;`email `)`
-
 
 Returns a collection of only the user's password and email address.
 &nbsp;

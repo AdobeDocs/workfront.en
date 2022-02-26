@@ -4,25 +4,19 @@ content-type: reference
 product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
+title: System information in Workfront Proof
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# System information in *Workfront Proof*
 
-
-# System information in *`Workfront Proof`* {#system-information-in-workfront-proof}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-
-
-* [Preview Sandbox Testing Environment- Workfront Proof](preview-sandbox.md) 
-* [Language Settings in Workfront Proof](language-settings.md) 
-* [Codecs in Workfront Proof](codecs.md) 
-
+* [Preview Sandbox Testing Environment- Workfront Proof](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md) 
+* [Language Settings in Workfront Proof](../../../workfront-proof/wp-getstarted/system-information/language-settings.md) 
+* [Codecs in Workfront Proof](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
 

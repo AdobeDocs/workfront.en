@@ -2,74 +2,71 @@
 filename: schedule-resources-for-projects
 product-area: projects;resource-management
 navigation-topic: manage-projects
+title: Schedule resources for a project
+description: You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Scheduling tool or the Workload Balancer at the project level.
 ---
 
+# Schedule resources for a project
 
+You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Scheduling tool or the *Workload Balancer* at the project level.
 
-# Schedule resources for a project  {#schedule-resources-for-a-project}
-
-You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Scheduling tool or the *`Workload Balancer`* at the project level.
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to&nbsp;the following:</p> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to&nbsp;the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-
-## Schedule resources for a project {#schedule-resources-for-a-project-1}
+## Schedule resources for a project
 
 To access the Scheduling tool in a project:
 
-
-
-1. Go to the project for which you want to schedule resources.
-1.  Click the `Scheduling` section in the left panel. The Scheduling section might be located under `Show More`. 
-
-
-   For information about scheduling resources using the Scheduling tool in a project, see the [Modify user assignments and allocations](get-started-resource-scheduling.md#modify) section in the article [Get started with Resource Scheduling](get-started-resource-scheduling.md).
-
-1.  (Optional and recommended) Click `Switch to  *`Workload Balancer`*` to schedule resources using the *`Workload Balancer`*. 
-
-
-   >[!TIP] {type="tip"}
-   >
-   >If you have selected *`Workload Balancer`* before, the name of the `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`changes to *`Workload Balancer`*. 
-
-
-   For information about scheduling resources using the *`Workload Balancer`*, see [Overview of the Workload Balancer](overview-workload-balancer.md).
-
-
+<ol> 
+ <li value="1">Go to the project for which you want to schedule resources.</li> 
+ <li value="2"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Scheduling</span> section in the left panel. The Scheduling section might be located under <span class="bold">Show More</span>. </p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Scheduling</span> section in the left panel. The Scheduling section might be located under <span class="bold">Show More</span>. </p> <p>For information about scheduling resources using the Scheduling tool in a project, see the <a href="../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify" class="MCXref xref">Modify user assignments and allocations</a> section in the article <a href="../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</p> </li> 
+ <li value="3"> <p>(Optional and recommended) Click <span class="bold">Switch to&nbsp;<em>Workload Balancer</em></span> to schedule resources using the <em>Workload Balancer</em>. </p> <note type="tip">
+   If you have selected 
+   <em>Workload Balancer</em> before, the name of the 
+   <draft-comment>
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     section 
+    </MadCap:conditionalText>
+   </draft-comment>
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    section 
+   </MadCap:conditionalText>changes to 
+   <em>Workload Balancer</em>. 
+  </note> <p>For information about scheduling resources using the <em>Workload Balancer</em>, see <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a>.</p> </li> 
+</ol>
 
 &nbsp;

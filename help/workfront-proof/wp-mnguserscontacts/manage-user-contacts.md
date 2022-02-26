@@ -3,26 +3,20 @@ filename: manage-user-contacts
 product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: workfront-proof-navigation-topic
+title: Managing users and contacts in Workfront Proof
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Managing users and contacts in *Workfront Proof*
 
-
-# Managing users and contacts in *`Workfront Proof`* {#managing-users-and-contacts-in-workfront-proof}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following subsections:
 
-
-
-* [Users](_users.md) 
-* [Groups](_groups.md) 
-* [Contacts](_contacts.md) 
-* [Tips, tricks, and troubleshooting for Workfront Proof users and contacts](_tips-tricks-troubleshooting-wfproof.md) 
-
+* [Users](../../workfront-proof/wp-mnguserscontacts/users/users.md) 
+* [Groups](../../workfront-proof/wp-mnguserscontacts/groups/groups.md) 
+* [Contacts](../../workfront-proof/wp-mnguserscontacts/contacts/contacts.md) 
+* [Tips, tricks, and troubleshooting for Workfront Proof users and contacts](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
 

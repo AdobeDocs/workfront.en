@@ -4,99 +4,70 @@ title: Disable document integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
+title: Disable document integrations
+description: As anAdobe Workfront administrator, you can disable the connection between Workfront and any of the third-party document providers.
 ---
 
+# Disable document integrations
 
+As an*Adobe Workfront administrator*, you can disable the connection between *Workfront* and any of the third-party document providers.&nbsp;
 
-# Disable document integrations {#disable-document-integrations}
+When you disable the connection between *Workfront* and a document provider, the links to the documents disappear from *Workfront*. Users can no longer see the linked documents, they cannot make any changes to the documents through the *Workfront* links, and they cannot add more documents to that provider.&nbsp;
 
-As an *`Adobe Workfront administrator`*, you can disable the connection between *`Workfront`* and any of the third-party document providers.&nbsp;
-
-
-When you disable the connection between *`Workfront`* and a document provider, the links to the documents disappear from *`Workfront`*. Users can no longer see the linked documents, they cannot make any changes to the documents through the *`Workfront`* links, and they cannot add more documents to that provider.&nbsp;
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For information on <span class="mc-variable WFVariables.AdminWF-plur variable varname">Workfront administrators</span>, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Disable cloud provider integrations
 
-## Disable cloud provider integrations {#disable-cloud-provider-integrations}
+To disable document integrations for *Workfront DAM*, Workfront Library, Box, Dropbox, Google Drive, Microsoft&nbsp;OneDrive, WebDAM:
 
-To disable document integrations for *`Workfront DAM`*, Workfront Library, Box, Dropbox, Google Drive, Microsoft&nbsp;OneDrive, WebDAM:
+<ol> 
+ <li value="1">Log in to <em>Workfront</em> as a <em>Workfront administrator</em>.</li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="3">Click <span class="bold">Documents</span> > <span class="bold">Cloud Providers</span>.</li> 
+ <li value="4">Deselect any of the cloud providers you want to disconnect from <em>Workfront</em>.</li> 
+ <li value="5"> <p>Click <span class="bold">Save</span>.</p> <p>Users are not able to connect to the specific cloud provider you disabled, and they can no longer link documents from that cloud provider to <em>Workfront</em>.</p> </li> 
+</ol>
 
+## Disable the SharePoint integration
 
+<ol> 
+ <li value="1">Log in to <em>Workfront</em> as a <em>Workfront administrator</em>.</li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="3"> <p>Expand <span class="bold">Documents</span>, then click <span class="bold">SharePoint Integration</span>.</p> </li> 
+ <li value="4"> <p>Select the SharePoint integration you want to disable.</p> </li> 
+ <li value="5">Click <span class="bold">Disable</span>.<br>Users are not able to connect to the SharePoint site you disabled, and they can no longer link documents from SharePoint&nbsp;to <em>Workfront</em>.&nbsp;</li> 
+</ol>
 
-1. Log in to *`Workfront`* as a *`Workfront administrator`*.
+## Disable custom integrations
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1. Click `Documents` > `Cloud Providers`.
-
-1. Deselect any of the cloud providers you want to disconnect from *`Workfront`*.
-1.  Click `Save`.
-
-
-   Users are not able to connect to the specific cloud provider you disabled, and they can no longer link documents from that cloud provider to *`Workfront`*.
-
-
-
-
-
-## Disable the SharePoint integration {#disable-the-sharepoint-integration}
-
-
-
-
-1. Log in to *`Workfront`* as a *`Workfront administrator`*.
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1.  Expand `Documents`, then click `SharePoint Integration`.
-1.  Select the SharePoint integration you want to disable.
-1. Click `Disable`.  
-   Users are not able to connect to the SharePoint site you disabled, and they can no longer link documents from SharePoint to *`Workfront`*.&nbsp;
-
-
-
-
-
-## Disable custom integrations {#disable-custom-integrations}
-
-
-
-
-1. Log in to *`Workfront`* as the administrator.
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1.  Click `Documents` > `Custom Integration`.
-1. Select the custom&nbsp;integration you want to disable.
-1.  Click `Disable`.
-
-
-   Users are not able to connect to the third-party document provider you disabled, and they can no longer link documents from that cloud provider to *`Workfront`*.
-
-
+<ol> 
+ <li value="1">Log in to <em>Workfront</em> as the administrator.</li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="3"> <p>Click <span class="bold">Documents</span> > <span class="bold">Custom Integration</span>.</p> </li> 
+ <li value="4">Select the custom&nbsp;integration you want to disable.</li> 
+ <li value="5"> <p>Click <span class="bold">Disable</span>.</p> <p>Users are not able to connect to the third-party document provider you disabled, and they can no longer link documents from that cloud provider to <em>Workfront</em>.</p> </li> 
+</ol>
 

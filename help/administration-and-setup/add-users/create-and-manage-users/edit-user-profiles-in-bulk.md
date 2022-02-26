@@ -3,183 +3,175 @@ filename: edit-user-profiles-in-bulk
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
+title: Edit user profiles in bulk
+description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 ---
 
+# Edit user profiles in bulk
 
-
-# Edit user profiles in bulk {#edit-user-profiles-in-bulk}
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Adobe Business Platform. If your organization has been onboarded to the Adobe Business Platform, you must perform this action through the Adobe Admin Console.
->
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
-
-
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 You can edit user accounts in bulk. When bulk editing users, only the fields you specifically select are updated with the same information for all users selected. All other fields that you leave unselected stay the same for each individual user, even if they are different for each user.
 
-
 >[!NOTE]
->
->
->
 >
 >* You cannot bulk edit the Personal Info section of the users' profiles because that information must be unique for every user.
 >* To ensure accuracy of data and optimal performance, we recommend that you select no more than 2000 users at one time for a bulk edit.
 >
->
 
-
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must have one of the following:</p> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must have one of the following:</p> 
     <ul> 
-     <li> <p>The System Administrator access level. For information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings </b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <span class="mc-variable WFVariables.AdminGroup variable varname">group administrator</span> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     <li> <p>The System Administrator access level. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <em>group administrator</em> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Edit user accounts in bulk
 
-
-## Edit user accounts in bulk {#edit-user-accounts-in-bulk}
-
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Users` ![](assets/users-icon-in-main-menu.png). 
-
-1.  If you are using the Production environment, select more than one user, click then click **Edit**.
-
-
-   OR
-
-
-   If you are using the Preview environment, select more than one user, then click the `Edit icon ![](assets/edit-icon.png)
-
-   `.
-
-1.  In the `Edit`**Person** box that appears, change any of the following options:
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="bold">Preferences </span>section</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
-    <ul> 
-     <li><span class="bold">Time Zone:</span> The users' time zone.</li> 
-     <li><span class="bold">Locale</span>: The users' preferred locale. This affects the format of numbers and dates in the emails that come from <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>.</li> 
-     <li><span class="bold">Show percent complete on update status</span>: Check this option if you want to display a percent complete bar inside the update stream of tasks for all&nbsp;users.</li> 
-     <li><span class="bold">Send work I assign to myself to my Working On tab</span>: Check this option if you want everything that the users assign to themselves to appear directly on their Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="bold">Notifications </span>section</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Select the email notifications which should be enabled for the new user.<p>You can select instant as well as daily digest notifications. All the daily digest notifications are delivered sometime after the same time for all the users selected. For more information, see <a href="configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configure event notifications for everyone in the system</a>.</p></td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="bold">Access</span> section</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
-    <ul> 
-     <li><span class="bold">Is Active:</span> Select this field&nbsp;to indicate whether the users are active. Active users use a <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> license. Deselecting the field&nbsp;deactivates the users.</li> 
-     <li> <p><span class="bold">Access Level:</span> Select the access level to assign to these users. All users selected will have the same access level. <br></p> <p>When you assign an access level to users, you can assign a level equal to or less than&nbsp;your own access level.&nbsp;(For example, if your access level is Planner, you cannot assign the Administrator access level.) However, you cannot&nbsp;assign an access level that by default is less than your own access level if the <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> has enabled non-default permissions on the access level that are not also enabled in your own access level&nbsp;(via the Fine-Tune settings, as&nbsp;described in <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>).</p> <p>For more information&nbsp;about access levels, see <a href="_configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a>.</p> </li> 
-     <li> <p><span class="bold">Layout Template</span>: Choose a layout template for the users. The layout template assigned to the users will take precedence over any layout template assigned to their Home Group, Home Team or primary job role. For more information about the assignment priority of layout template, see <a href="create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> <p>Note:  The list of layout templates you have available in this field depends on your access:
-       <ul>
-        <li>As a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>, you can see all system-level and group-level layout templates.</li>
-        <li>As a <span class="mc-variable WFVariables.AdminGroup variable varname">group administrator</span>, you can see system-level layout templates, as well as those associated with the groups that you manage.</li>
-        <li><p>As a user with a Planner license and access to edit users, you can see only system-level layout templates. </p><p>For information about group-level layout templates, see <a href="create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p></li>
-       </ul></p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="bold">Organization</span> section</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> 
-    <ul> 
-     <li><span class="bold">Company</span>: The company of the users. Users can be associated only with one company. You must create a company before you can associate it with a user. Only active companies display in the list. For information about creating companies, see Understanding and Managing Companies.</li> 
-     <li><span class="bold">Home Team</span>: Specify the home team for the users. Users can only have one home team.&nbsp;</li> 
-     <li><span class="bold">Other Teams</span>: Users can belong to multiple teams.&nbsp;</li> 
-     <li> <p><span class="bold">Home Group:</span> Select an appropriate group to assign the users as their Home Group.&nbsp;This gives the user the ability to access objects that are shared with the group.</p> <p>Note:  This is a required field. You cannot have users not associated with a Home Group.</p> <p>You can assign a group to users only in the following situations:</p> 
+<ol> <draft-comment>
+  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li>
+ </draft-comment>
+ <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li> <draft-comment>
+  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p> <p>Select more than one user, then click the Edit icon <draft-comment>
+      <img src="assets/edit-icon.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+     </draft-comment><img src="assets/edit-icon.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver">.</p> </p> </li>
+ </draft-comment>
+ <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p> <p>Select more than one user, then click the Edit icon <img src="assets/edit-icon.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver">.</p> </p> </li> 
+ <li value="3"> <p>In the <draft-comment>
+    <b data-mc-conditions="QuicksilverOrClassic.Quicksilver">Edit User</b>
+   </draft-comment><b data-mc-conditions="QuicksilverOrClassic.Quicksilver">Edit User</b> box that appears, change any of the following options:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Preferences section</td> 
+     <td> 
       <ul> 
-       <li>You are a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>.</li> 
-       <li>You are the administrator of that group.</li> 
-       <li>The group is public.</li> 
-      </ul> </li> 
-     <li> <p><span class="bold">Other Groups</span>: Users can belong to multiple groups. You can assign a group to a user only &nbsp;in the following situations:</p> 
+       <li><span class="bold">Time Zone:</span> The users' time zone.</li> 
+       <li><span class="bold">Locale</span>: The users' preferred locale. This affects the format of numbers and dates in the emails that come from <em>Workfront</em>.</li> 
+       <li><span class="bold">Show percent complete on update status</span>: Check this option if you want to display a percent complete bar inside the update stream of tasks for all&nbsp;users.</li> 
+       <li><span class="bold">Send work I assign to myself to my Working On tab</span>: Check this option if you want everything that the users assign to themselves to appear directly on their Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Notifications section</td> 
+     <td>Select the email notifications which should be enabled for the new user.<p>You can select instant as well as daily digest notifications. All the daily digest notifications are delivered sometime after the same time for all the users selected. For more information, see <a href="../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configure event notifications for everyone in the system</a>.</p></td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader"><span class="bold">Access</span> section</td> 
+     <td> 
       <ul> 
-       <li>You are a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>.</li> 
-       <li>You are the administrator of that group.</li> 
-       <li> <p>The group is public. </p> <p>For more information about public groups, see <a href="create-a-group.md" class="MCXref xref">Create a group</a>.<br></p> <p>For more information about groups, see <a href="groups.md" class="MCXref xref">Groups overview</a>.</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader"><span class="bold">Resource Planning</span> section</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
-    <ul> 
-     <li><span class="bold">Schedule Deactivation</span>: Check this box if you want to schedule users&nbsp;to be deactivated after a period of time.&nbsp;</li> 
-     <li><span class="bold">Scheduled Deactivation Date</span>: The date after which the users become deactivated. For more information about scheduling users for deactivation, see the section <a href="deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schedule users for deactivation</a> in <a href="deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</li> 
-     <li> <p><span class="bold">Primary Role</span>: This is the primary job role that a user has in <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>. Every task and issue that the users are assigned to is also assigned to this job role, by default. Job roles are essential in resource management. For more information about job roles, see <a href="create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a></p> <p>You can update this field only if you have a Plan license with administrative user access, or if you are a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information about setting up users with administrative user access, see&nbsp;<a href="grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
-     <li>(Conditional) If you selected a <span class="bold">Primary Role</span>, the <span class="bold">Percentage of FTE Availability</span>&nbsp;field displays. Specify what percentage of time of the users' schedules is allocated to this job role. The default value for the Percentage of FTE Availability for the Primary Role is 100%.</li> 
-     <li> <p><span class="bold">Other Roles</span>: Users&nbsp;can have multiple job roles in <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>. Job roles are essential in resource management. There is no limit for how many job roles a user can fulfill. However, we recommend to not assign one user to an excessively large number of job roles, because resource management might become too complex for these users.<br></p> <p>For more information about job roles, see&nbsp;<a href="create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.<br></p> <p>You can update this field only if you have a Plan license with administrative user access, or if you are a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information about setting up users with administrative user access, see&nbsp;<a href="grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
-     <li> <p>(Conditional) If you selected one or multiple&nbsp;<span class="bold">Other Roles</span>, the&nbsp;<span class="bold">Percentage of FTE Availability</span> field displays&nbsp;for each role. Specify what percentage of time of the users' schedules is allocated to each&nbsp;job role. The default value for the Percentage of FTE Availability for the Other Roles is 0%.</p> <p>Note:  
-       <ul> 
-        <li>If Other Roles have a 0% FTE Availability, they do not display in the Resource Planner, unless the users are assigned to tasks in these roles.</li> 
-        <li> <p>The sum of all Percentages of FTE Availability&nbsp;for all roles must equal 100%. Each Percentage of FTE Availability calculates the Available Hours for each role per user in the Resource Planner. The Available Hours for each role per user depends on&nbsp;the available time for the user.</p> <p>The available time for the user is calculated by <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> depending on the method that has been selected by the <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> to calculate the FTE in the&nbsp;Resource Management Preferences.<br></p> <p>For more information about calculating availability for the user, see&nbsp;<a href="calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.</p> <p>For more information about configuring Resource Management preferences, see&nbsp;<a href="configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.<br></p> </li> 
-       </ul> </p> </li> 
-     <li> <p><span class="bold">Schedule</span>: Associate a schedule with the users. The schedule of the users calculates the timeline of the tasks the users are assigned to.</p> <p>A <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> or a <span class="mc-variable WFVariables.AdminGroup variable varname">group administrator</span> must create a schedule before it can be associated with users.<br></p> <p>Select a system-level or a group schedule to assign it to the selected users.<br></p> <p>For more information about&nbsp;system-level and group schedules, see <a href="create-schedules.md" class="MCXref xref">Create a schedule</a>.</p> <p>Important: <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> uses the schedule of a user only when the Calculate Resource Availability Using setting is set to The User's Schedule. For information about how the Calculate Resource Availability Using setting affects which schedule is used for Resource Management, see <a href="configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.</p> </li> 
-     <li> <p><span class="bold">Timesheet Profile</span>: Associate a Timesheet Profile with the users. This ensures that timesheets generate automatically for the users.</p> <p>Note:  
-       <ul> 
-        <li>The list of timesheet profiles you have available in this field depends on your access:
+       <li><span class="bold">Is Active:</span> Select this field to indicate whether the users are active. Active users use a <em>Workfront</em> license. Deselecting the field&nbsp;deactivates the users.</li> 
+       <li> <p><span class="bold">Access Level:</span> Select the access level to assign to these users. All users selected will have the same access level. <br></p> <p>When you assign an access level to users, you can assign a level equal to or less than&nbsp;your own access level.&nbsp;(For example, if your access level is Planner, you cannot assign the Administrator access level.) However, you cannot&nbsp;assign an access level that by default is less than your own access level if the <em>Workfront administrator</em> has enabled non-default permissions on the access level that are not also enabled in your own access level&nbsp;(via the Fine-Tune settings, as&nbsp;described in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>).</p> <draft-comment>
+         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Replace the above paragraph with IMS info when the time comes:</p>
+        </draft-comment><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Replace the above paragraph with IMS info when the time comes:</p> <draft-comment>
+         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">When you assign an access level to a user, ...<br></p>
+        </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">When you assign an access level to a user, ...<br></p> <p>For more information&nbsp;about access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a>.</p> </li> 
+       <li> <p><span class="bold">Layout Template</span>: Choose a layout template for the users. The layout template assigned to the users will take precedence over any layout template assigned to their Home Group, Home Team or primary job role. For more information about the assignment priority of layout template, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> <note type="note">
+          The list of layout templates you have available in this field depends on your access:
          <ul>
-          <li>As a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>, you can see all system-level and group-level timesheet profiles.</li>
-          <li><p>As a <span class="mc-variable WFVariables.AdminGroup variable varname">group administrator</span>, you can see system-level timesheet profiles, as well as those associated with the groups that you manage.</p></li>
-          <li><p>As a user with a Planner license and access to edit users, you can see only system-level timesheet profiles.</p></li>
-         </ul></li> 
-        <li>If you are a <span class="mc-variable WFVariables.AdminGroup variable varname">group administrator</span>, all of the users you are editing must be members of a group that you administer.</li> 
-       </ul> </p> </li> 
-     <li><span class="bold">Default Hour Type</span>: Select the default hour type for the users. This is the hour type that is used by default when the users log time.</li> 
-     <li> <p><span class="bold">Available Hour Types</span>: Select the hour types that should be available to the user. These hour types are visible everywhere in <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> where the users can log time. A user can only see the hour types that are enabled at the project level as well as the user level. <br></p> <p>For more information about what hour types are&nbsp;available to users, see <a href="define-hour-types-and-availability.md" class="MCXref xref">Define hour types and availability for timesheets</a>.</p> </li> 
-     <li> <p><span class="bold">FTE</span>: The number you specify here is taken into account to calculate the&nbsp;availability of the user based on the Default Schedule&nbsp;only when the Resource Management Preferences at the system level are set to <span class="bold">The Default Schedule</span>.<br></p> <p>For example, if the FTE value is 0.5 and the Default Schedule is 40 hours, the user is available to work for 20 hours a week.<br>If the Resource Management Preferences at the system level are set to <span class="bold">The User's Schedule</span>, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. In this case, the FTE of the user for the Resource Planner is calculated by the following formula:<br></p> <p><em>User Available FTE =&nbsp;Hours from the Schedule of the User/ Default Schedule Hours</em> </p> <p>For more information about calculating user FTE, see <a href="calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.<br></p> <p>For more information about creating schedules in <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>, see <a href="create-schedules.md" class="MCXref xref">Create a schedule</a>.<br></p> <p>For more information about configuring Resource Management Preferences, see <a href="configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.</p> </li> 
-     <li> <p><span class="bold">Resource Pools</span>: Associate the users with Resource Pools.</p> <p>Note:  Only the Resource Pools that are common to all the users selected appear in this field. If the users selected have no shared Resource Pools, this field is&nbsp;empty. If this field is empty, the Resource Pools you specify here will overwrite their individual Resource Pools.</p> <p>For more information about Resource Pools, see <a href="work-with-resource-pools.md" class="MCXref xref">Work with Resource Pools </a>.</p> </li> 
-     <li><span class="bold">Cost Per Hour</span>: The amount of cost per hour for the user.&nbsp;</li> 
-     <li><span class="bold">Billing Per Hour</span>: The amount of billing per hour for the user.</li> 
-     <li><span class="bold">Custom Forms</span>:&nbsp;Associate an existing user custom form with the&nbsp;users. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. For information about creating custom forms, see <a href="create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li> 
-     <li><span class="bold">Comment</span>: Enter a comment in the field provided. All users selected will receive an in-app notification as well as an email notification with your comment. The comment shows in the Updates tab of the users' profile.</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-1. (Optional) In the **Custom Forms** section, select the `Recalculate Custom Expressions` option to ensure that all calculated custom fields in custom forms that are attached to the selected users are up to date.
-
-1. Click `Save Changes`.
-
+          <li>As a <em>Workfront administrator</em>, you can see all system-level and group-level layout templates.</li>
+          <li>As a <em>group administrator</em>, you can see system-level layout templates, as well as those associated with the groups that you manage.</li>
+          <li><p>As a user with a Planner license and access to edit users, you can see only system-level layout templates. </p><p>For information about group-level layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p></li>
+         </ul>
+        </note> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader"><span class="bold">Organization</span> section</td> 
+     <td> 
+      <ul> 
+       <li><span class="bold">Company</span>: The company of the users. Users can be associated only with one company. You must create a company before you can associate it with a user. Only active companies display in the list. For information about creating companies, see Understanding and Managing Companies.</li> 
+       <li><span class="bold">Home Team</span>: Specify the home team for the users. Users can only have one home team.&nbsp;</li> 
+       <li><span class="bold">Other Teams</span>: Users can belong to multiple teams.&nbsp;</li> 
+       <li> <p><span class="bold">Home Group:</span> Select an appropriate group to assign the users as their Home Group.&nbsp;This gives the user the ability to access objects that are shared with the group.</p> <note type="note">
+          This is a required field. You cannot have users not associated with a Home Group.
+        </note> <p>You can assign a group to users only in the following situations:</p> 
+        <ul> 
+         <li>You are a <em>Workfront administrator</em>.</li> 
+         <li>You are the administrator of that group.</li> 
+         <li>The group is public.</li> 
+        </ul> </li> 
+       <li> <p><span class="bold">Other Groups</span>: Users can belong to multiple groups. You can assign a group to a user only &nbsp;in the following situations:</p> 
+        <ul> 
+         <li>You are a <em>Workfront administrator</em>.</li> 
+         <li>You are the administrator of that group.</li> 
+         <li> <p>The group is public. </p> <p>For more information about public groups, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>.<br></p> <p>For more information about groups, see <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Groups overview</a>.</p> </li> 
+        </ul> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader"><span class="bold">Resource Planning</span> section</td> 
+     <td> 
+      <ul> 
+       <li><span class="bold">Schedule Deactivation</span>: Check this box if you want to schedule users&nbsp;to be deactivated after a period of time.</li> 
+       <li><span class="bold">Scheduled Deactivation Date</span>: The date after which the users become deactivated. For more information about scheduling users for deactivation, see the section <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schedule users for deactivation</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</li> 
+       <li> <p><span class="bold">Primary Role</span>: This is the primary job role that a user has in <em>Workfront</em>. Every task and issue that the users are assigned to is also assigned to this job role, by default. Job roles are essential in resource management. For more information about job roles, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a></p> <p>You can update this field only if you have a Plan license with administrative user access, or if you are a <em>Workfront administrator</em>. For more information about setting up users with administrative user access, see&nbsp;<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+       <li>(Conditional) If you selected a <span class="bold">Primary Role</span>, the <span class="bold">Percentage of FTE Availability</span>&nbsp;field displays. Specify what percentage of time of the users' schedules is allocated to this job role. The default value for the Percentage of FTE Availability for the Primary Role is 100%.</li> 
+       <li> <p><span class="bold">Other Roles</span>: Users&nbsp;can have multiple job roles in <em>Workfront</em>. Job roles are essential in resource management. There is no limit for how many job roles a user can fulfill. However, we recommend to not assign one user to an excessively large number of job roles, because resource management might become too complex for these users.<br></p> <p>For more information about job roles, see&nbsp;<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.<br></p> <p>You can update this field only if you have a Plan license with administrative user access, or if you are a <em>Workfront administrator</em>. For more information about setting up users with administrative user access, see&nbsp;<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+       <li> <p>(Conditional) If you selected one or multiple&nbsp;<span class="bold">Other Roles</span>, the&nbsp;<span class="bold">Percentage of FTE Availability</span> field displays&nbsp;for each role. Specify what percentage of time of the users' schedules is allocated to each&nbsp;job role. The default value for the Percentage of FTE Availability for the Other Roles is 0%.</p> <note type="note"> 
+         <ul> 
+          <li>If Other Roles have a 0% FTE Availability, they do not display in the Resource Planner, unless the users are assigned to tasks in these roles.</li> 
+          <li> <p>The sum of all Percentages of FTE Availability&nbsp;for all roles must equal 100%. Each Percentage of FTE Availability calculates the Available Hours for each role per user in the Resource Planner. The Available Hours for each role per user depends on&nbsp;the available time for the user.</p> <p>The available time for the user is calculated by <em>Workfront</em> depending on the method that has been selected by the <em>Workfront administrator</em> to calculate the FTE in the&nbsp;Resource Management Preferences.<br></p> <p>For more information about calculating availability for the user, see&nbsp;<a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.</p> <p>For more information about configuring Resource Management preferences, see&nbsp;<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.<br></p> </li> 
+         </ul> 
+        </note> </li> 
+       <li> <p><span class="bold">Schedule</span>: Associate a schedule with the users. The schedule of the users calculates the timeline of the tasks the users are assigned to.</p> <p>A <em>Workfront administrator</em> or a <em>group administrator</em> must create a schedule before it can be associated with users.<br></p> <p>Select a system-level or a group schedule to assign it to the selected users.<br></p> <p>For more information about&nbsp;system-level and group schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</p> <note type="important">
+         <em>Workfront</em> uses the schedule of a user only when the Calculate Resource Availability Using setting is set to The User's Schedule. For information about how the Calculate Resource Availability Using setting affects which schedule is used for Resource Management, see 
+         <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.
+        </note> </li> 
+       <li> <p><span class="bold">Timesheet Profile</span>: Associate a Timesheet Profile with the users. This ensures that timesheets generate automatically for the users.</p> <note type="note"> 
+         <ul> 
+          <li>The list of timesheet profiles you have available in this field depends on your access:
+           <ul>
+            <li>As a <em>Workfront administrator</em>, you can see all system-level and group-level timesheet profiles.</li>
+            <li><p>As a <em>group administrator</em>, you can see system-level timesheet profiles, as well as those associated with the groups that you manage.</p></li>
+            <li><p>As a user with a Planner license and access to edit users, you can see only system-level timesheet profiles.</p></li>
+           </ul></li> 
+          <li>If you are a <em>group administrator</em>, all of the users you are editing must be members of a group that you administer.</li> 
+         </ul> 
+        </note> </li> 
+       <li><span class="bold">Default Hour Type</span>: Select the default hour type for the users. This is the hour type that is used by default when the users log time.</li> 
+       <li> <p><span class="bold">Available Hour Types</span>: Select the hour types that should be available to the user. These hour types are visible everywhere in <em>Workfront</em> where the users can log time. A user can only see the hour types that are enabled at the project level as well as the user level. <br></p> <p>For more information about what hour types are&nbsp;available to users, see <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Define hour types and availability for timesheets</a>.</p> </li> 
+       <li> <p><span class="bold">FTE</span>: The number you specify here is taken into account to calculate the&nbsp;availability of the user based on the Default Schedule&nbsp;only when the Resource Management Preferences at the system level are set to <span class="bold">The Default Schedule</span>.<br></p> <p>For example, if the FTE value is 0.5 and the Default Schedule is 40 hours, the user is available to work for 20 hours a week.<br>If the Resource Management Preferences at the system level are set to <span class="bold">The User's Schedule</span>, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. In this case, the FTE of the user for the Resource Planner is calculated by the following formula:<br></p> <p><em>User Available FTE =&nbsp;Hours from the Schedule of the User/ Default Schedule Hours</em> </p> <p>For more information about calculating user FTE, see <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.<br></p> <p>For more information about creating schedules in <em>Workfront</em>, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.<br></p> <p>For more information about configuring Resource Management Preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.</p> </li> 
+       <li> <p><span class="bold">Resource Pools</span>: Associate the users with resource pools.</p> <note type="note">
+          Only the resource pools that are common to all the users selected appear in this field. If the users selected have no shared resource pools, this field is&nbsp;empty. If this field is empty, the resource pools you specify here will overwrite their individual resource pools.
+        </note> <p>For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.</p> </li> 
+       <li><span class="bold">Cost Per Hour</span>: The amount of cost per hour for the user.&nbsp;</li> 
+       <li><span class="bold">Billing Per Hour</span>: The amount of billing per hour for the user.</li> 
+       <li><span class="bold">Custom Forms</span>:&nbsp;Associate an existing user custom form with the&nbsp;users. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li> 
+       <li><span class="bold">Comment</span>: Enter a comment in the field provided. All users selected will receive an in-app notification as well as an email notification with your comment. The comment shows in the Updates tab of the users' profile.</li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="4">(Optional) In the <b>Custom Forms</b> section, select the <span class="bold">Recalculate Custom Expressions</span> option to ensure that all calculated custom fields in custom forms that are attached to the selected users are up to date.</li> 
+ <li value="5">Click <span class="bold">Save Changes</span>.</li> 
+</ol>
 

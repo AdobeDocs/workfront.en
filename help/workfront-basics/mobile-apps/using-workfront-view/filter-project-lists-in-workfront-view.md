@@ -3,91 +3,74 @@ filename: filter-project-lists-in-workfront-view
 product: mobile
 product-area: projects
 navigation-topic: use-workfront-view
+title: Filter project lists in Adobe Workfront View
+description: By default, Adobe Workfront View displays the All Projects list in Workfront, so all the projects you have access to View are listed, regardless of their status.
 ---
 
+# Filter project lists in *Adobe Workfront* View
 
+By default, *Adobe Workfront* View displays the All Projects list in *Workfront*, so all the projects you have access to View are listed, regardless of their status.&nbsp;
 
-# Filter project lists in *`Adobe Workfront`* View {#filter-project-lists-in-adobe-workfront-view}
+You can filter the list of projects in *Workfront* View to only display projects that are relevant to you.&nbsp;After applying the filters, the project list remains filtered until the next time you login or until&nbsp;they are changed.
 
-By default, *`Adobe Workfront`* View displays the All Projects list in *`Workfront`*, so all the projects you have access to View are listed, regardless of their status.&nbsp;
+## Access requirements
 
+You must have the following access in *Workfront* to perform the steps in this article:
 
-You can filter the list of projects in *`Workfront`* View to only display projects that are relevant to you.&nbsp;After applying the filters, the project list remains filtered until the next time you login or until&nbsp;they are changed.
-
-
-## Access requirements {#access-requirements}
-
-You must have the following access in *`Workfront`* to perform the steps in this article:
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+<table cellspacing="0"> 
+ <col> 
  </col> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <col> 
  </col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Review variable varname">Review</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Review</em> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Filter the projects list in *Workfront* View
 
-## Filter the projects list in *`Workfront`* View {#filter-the-projects-list-in-workfront-view}
-
-
-
-
-1. Go to the list of projects in the *`Workfront`* View mobile app.
-1. Tap the list icon in the upper left of the list.  
-   The list of available filters is displayed.  
-   ![WF_View_filters_050621.jpg](assets/wf-view-filters-050621-350x427.jpg)
-
-
-1. Select from the following filters:
-    
-    
-    * Portfolios: Select specific portfolios whose projects you want to display.
-    * Condition: Select to display only projects with a specific Condition.
-    * Progress: Select to display only projects in a specific Progress Status.
-    * Status: Select to display only projects in specific Statuses.
-    * Planned Start: Select to display only projects with the Planned Start Date in the following time frames:    
-        
-        
-        * Past 3 Months
-        * Past 2 Months
-        * Past Month
-        * Past Two Weeks
-        
-        
-    * Planned Complete: Select to display only projects with the Planned Completion Date in the following upcoming time frames:    
-        
-        
-        * Two Weeks
-        * One Month
-        * Two Months
-        * Three Months
-        
-        
-    * Projected Complete:&nbsp;Select to display only projects with the Projected Completion Date in the following upcoming time frames:    
-        
-        
-        * Two Weeks
-        * One Month
-        * Two Months
-        * Three Months
-        
-        
-    * Owner: Select to display projects that are assigned to specific Owners.
-    * Sponsor: Select to display projects that are assigned to a specific Sponsor.
-    
-    
-1. Tap anywhere on the list of projects to close the list icon.
-
+<ol> 
+ <li value="1">Go to the list of projects in the <em>Workfront</em> View mobile app.</li> 
+ <li value="2">Tap the list icon in the upper left of the list.<br>The list of available filters is displayed.<br><img src="assets/wf-view-filters-050621-350x427.jpg" alt="WF_View_filters_050621.jpg" style="width: 350;height: 427;"></li> 
+ <li value="3">Select from the following filters:
+  <ul>
+   <li>Portfolios: Select specific portfolios whose projects you want to display.</li>
+   <li>Condition: Select to display only projects with a specific Condition.</li>
+   <li>Progress: Select to display only projects in a specific Progress Status.</li>
+   <li>Status: Select to display only projects in specific Statuses.</li>
+   <li>Planned Start: Select to display only projects with the Planned Start Date in the following time frames:
+    <ul>
+     <li>Past 3 Months</li>
+     <li>Past 2 Months</li>
+     <li>Past Month</li>
+     <li>Past Two Weeks</li>
+    </ul></li>
+   <li>Planned Complete: Select to display only projects with the Planned Completion Date in the following upcoming time frames:
+    <ul>
+     <li>Two Weeks</li>
+     <li>One Month</li>
+     <li>Two Months</li>
+     <li>Three Months</li>
+    </ul></li>
+   <li>Projected Complete:&nbsp;Select to display only projects with the Projected Completion Date in the following upcoming time frames:
+    <ul>
+     <li>Two Weeks</li>
+     <li>One Month</li>
+     <li>Two Months</li>
+     <li>Three Months</li>
+    </ul></li>
+   <li>Owner: Select to display projects that are assigned to specific Owners.</li>
+   <li>Sponsor: Select to display projects that are assigned to a specific Sponsor.</li>
+  </ul></li> 
+ <li value="4">Tap anywhere on the list of projects to close the list icon.</li> 
+</ol>
 

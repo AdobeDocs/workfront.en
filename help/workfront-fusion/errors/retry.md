@@ -3,87 +3,90 @@ filename: retry
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
+title: Retry
+description: In some cases it is useful to re-execute a failing module for a couple of times if there is a chance that the reason for the failure might pass over time.
 ---
 
-
-
-# Retry {#retry}
+# Retry
 
 In some cases it is useful to re-execute a failing module for a couple of times if there is a chance that the reason for the failure might pass over time.
 
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> <p data-mc-conditions="SnippetConditions.HIDE"><span class="mc-variable WFVariables.WFFusionAutomation variable varname">Workfront Fusion for Work Automation</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
+     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
+    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Workarounds to the Retry error handling directive {#workarounds-to-the-retry-error-handling-directive}
+## Workarounds to the Retry error handling directive
 
-*`Adobe Workfront Fusion`* currently does not offer the Retry error handling directive, though two workarounds can be employed to mimic its functionality. For more information, see [Directives for error handling](directives-for-error-handling.md).
+*Adobe Workfront Fusion* currently does not offer the Retry error handling directive, though two workarounds can be employed to mimic its functionality. For more information, see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md).
 
+### Use the Break directive
 
-### Use the Break directive {#use-the-break-directive}
+<ol> 
+ <li value="1">In the <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Scenario settings panel</a>, enable the <span class="bold">Allow storing of Incomplete Executions</span> option.</li> 
+ <li value="2">Attach an error handler route to the module, as described in <a href="../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Error handling</a>.</li> 
+ <li value="3"> <p>Link the Break directive to the error handler route (see <a href="../../workfront-fusion/errors/directives-for-error-handling.md" class="MCXref xref">Directives for error handling</a>) and configure it.</p> <p> <img src="assets/break-directive-350x241.png" style="width: 350;height: 241;"> </p> </li> 
+</ol>
 
-
-
-
-1. In the [Scenario settings panel](scenario-settings-panel.md), enable the `Allow storing of Incomplete Executions` option.
-
-1. Attach an error handler route to the module, as described in [Error handling](error-handling.md).
-1.  Link the Break directive to the error handler route (see [Directives for error handling](directives-for-error-handling.md)) and configure it.
-
-
-   ![](assets/break-directive-350x241.png)
-
-
-
-
-
-
-
-#### Drawbacks {#drawbacks}
-
-
-
+#### Drawbacks
 
 * The minimum retry interval is one minute.
-* If the module is processing multiple bundles and the processing of a bundle fails, the partial execution (only the bundle that caused the error) is moved to the [View and resolve incomplete executions](view-and-resolve-incomplete-executions.md) folder and scheduled for retries according to the Break directive settings. However, the current execution continues and the module continues to process the subsequent bundles. At least you can enable the "Sequential processing" option in the Scenario settings to prevent the scenario from executing again until the execution stored in the the Incomplete executions folder has been successfully resolved.
+* If the module is processing multiple bundles and the processing of a bundle fails, the partial execution (only the bundle that caused the error) is moved to the [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder and scheduled for retries according to the Break directive settings. However, the current execution continues and the module continues to process the subsequent bundles. At least you can enable the "Sequential processing" option in the Scenario settings to prevent the scenario from executing again until the execution stored in the the Incomplete executions folder has been successfully resolved.
 
-
-
-
-### Use the Repeater module {#use-the-repeater-module}
-
-
-
+### Use the Repeater module
 
 1. Employ the `Repeater` module and set its Repeats field to the maximum number of attempts.
 1. Link the potentially failing module to the `Repeater` module.
-1. Attach an error handler route to this module (see [Error handling](error-handling.md)).
+1. Attach an error handler route to this module (see [Error handling](../../workfront-fusion/errors/error-handling.md)).
 1. Link the `Tools > Sleep` module to the error handler route and set its `Delay` field to the number of seconds between the attempts.
 
-1. Link the `Ignore` directive after the `Tools > Sleep` module (see [Directives for error handling](directives-for-error-handling.md)).
+1. Link the `Ignore` directive after the `Tools > Sleep` module (see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md)).
 
 1. Link the `Tools > Set variable` module after the the potentially failing module and configure it to store the module's result in a variable named, for example, 
 
@@ -119,16 +122,9 @@ You must have the following access to use the functionality in this article:
 
    variable does not exist.
 
-
-
-
 ` `**Example: **`` Here is a sample scenario where the HTTP > Make a request module represents the potentially failing module:
 
-
 ![](assets/http-make-request-350x116.png)
-
-
-
 
 If the result of the potentially failing module is too complex to be stored in a simple variable, you may employ a data store to store/retrieve the result. The data store would contain just one record. The record's key can be, for example, 
 
@@ -138,10 +134,8 @@ Result
 
 .
 
+For more information on data stores, see [Data Stores](../../workfront-fusion/modules/data-stores.md)
 
-For more information on data stores, see [Data Stores](data-stores.md)
-
-
-#### Drawback {#drawback}
+#### Drawback
 
 This workaround might appear a bit too complex and it is also more demanding in terms of operations.

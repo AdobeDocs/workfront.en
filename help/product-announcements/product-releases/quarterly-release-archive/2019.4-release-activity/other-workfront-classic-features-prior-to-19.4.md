@@ -2,18 +2,17 @@
 filename: other-workfront-classic-features-prior-to-19.4
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
+title: Other Workfront Classic features released to Production prior to the 2019.4 release
+description: The following features were made available to the Workfront Classic Production environment prior to the 2019.4 release to Production.
 ---
 
-
-
-# Other Workfront Classic features released to Production prior to the 2019.4 release {#other-workfront-classic-features-released-to-production-prior-to-the-release}
+# Other Workfront Classic features released to Production prior to the 2019.4 release
 
 The following features were made available to the Workfront Classic Production environment prior to the 2019.4 release to Production.
 
+For information about the release time frame and all functionality available with the 2019.4 release, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md).
 
-For information about the release time frame and all functionality available with the 2019.4 release, see [2019.4 release overview](2019.4-release-activity-overview.md).
-
-<table style="width: 100%;"> 
+<table> 
  <col> 
  <tbody> 
   <tr> 
@@ -38,7 +37,7 @@ For information about the release time frame and all functionality available wit
      <p>For example, if you have created a Checkboxes field, you can change it to a Dropdown field or a Radio Buttons field. These three field display types are interchangeable.</p> 
      <p>Or, if you have created a Single Line Text Field, you can change it to a Paragraph Text field. These two field display types are interchangeable.</p> 
      <p>Previously, to change the display type of a custom field, you had to create a new field and delete the old one. This required transferring data, which was often time consuming.</p> 
-     <p>For more information, see <a href="create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Add a custom field</a> in the article <a href="create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a></p> 
+     <p>For more information, see <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a></p> 
      <div class="workfront_plans"> 
       <p><span class="bold">Available in these environments:</span> </p> 
       <ul> 

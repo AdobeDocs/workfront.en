@@ -3,56 +3,53 @@ filename: configure-how-hours-affected-when-obj-deleted-restored
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
+title: Configure affect on hours when an object is deleted and restored
+description: You can configure what happens to hours when someone deletes a project, task, or issue that the hours are logged against. The option you choose also determines what happens to the hours if the project, task, or issue is restored at a later time. (For more information about restoring items in Workfront, see Restore deleted items.)
 ---
 
+# Configure affect on hours when an object is deleted and restored
 
+You can configure what happens to hours when someone deletes a project, task, or issue that the hours are logged against. The option you choose also determines what happens to the hours if the project, task, or issue is restored at a later time. (For more information about restoring items in *Workfront*, see [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
 
-# Configure affect on hours when an object is deleted and restored {#configure-affect-on-hours-when-an-object-is-deleted-and-restored}
-
-You can configure what happens to hours when someone deletes a project, task, or issue that the hours are logged against. The option you choose also determines what happens to the hours if the project, task, or issue is restored at a later time. (For more information about restoring items in *`Workfront`*, see [Restore deleted items](restore-deleted-items.md).)
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Configure how hours are managed when an item is deleted and restored
 
-
-## Configure how hours are managed when an item is deleted and restored {#configure-how-hours-are-managed-when-an-item-is-deleted-and-restored}
-
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).  
-
-1. Expand  `Timesheets & Hours`, then click `Preferences`.
-
-1. Locate the `Project, Task or Issue Deletion Preferences` section.
-1. (Conditional) To configure how hours are managed when a project is deleted, select one of the following options in the `When deleting projects` section:
-1.  `<li>Keep logged hours already added to timesheets as general hours (If this project is restored at a later time, the hours remain on the timesheet)<br>This option is selected by default.</li>` `<li>Delete any logged hours (If this project is restored at a later time, logged hours are restored to the project)</li>` 
-
-1. (Conditional) To configure how hours are managed when a task or issue is deleted, select one of the following options in the `When deleting tasks or issues`&nbsp;section:
-1.  `<li>Move any logged hours to the project where the task or issue resides (If this task or issue is restored at a later time, the hours remain on the project)<br>This option is selected by default.</li>` `<li>Delete any logged hours (If this task or issue is restored at a later time, logged hours are restored to the task or issue)</li>` 
-
-1. Click `Save`.
-
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="2">Expand&nbsp;<span class="bold">Timesheets & Hours</span>, then click<span class="bold"> Preferences</span>.</li> 
+ <li value="3">Locate the <span class="bold">Project, Task or Issue Deletion Preferences</span> section.</li> 
+ <li value="4">(Conditional) To configure how hours are managed when a project is deleted, select one of the following options in the <span class="bold">When deleting projects</span> section:</li> 
+ <ul> 
+  <li>Keep logged hours already added to timesheets as general hours (If this project is restored at a later time, the hours remain on the timesheet)<br>This option is selected by default.</li> 
+  <li>Delete any logged hours (If this project is restored at a later time, logged hours are restored to the project)</li> 
+ </ul> 
+ <li value="5">(Conditional) To configure how hours are managed when a task or issue&nbsp;is deleted, select one of the following options in the <span class="bold">When deleting tasks or issues</span>&nbsp;section:</li> 
+ <ul> 
+  <li>Move any logged hours to the project where the task or issue resides (If this task or issue is restored at a later time, the hours remain on the project)<br>This option is selected by default.</li> 
+  <li>Delete any logged hours (If this task or issue is restored at a later time, logged hours are restored to the task or issue)</li> 
+ </ul> 
+ <li value="6">Click <span class="bold">Save</span>.</li> 
+</ol>
 

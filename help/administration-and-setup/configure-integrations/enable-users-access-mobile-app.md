@@ -5,58 +5,47 @@ product: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
+title: Enable users to access the mobile application
+description: You can enable or disable access to the Adobe Workfront mobile app.
 ---
 
+# Enable users to access the mobile application
 
+You can enable or disable access to the *Adobe Workfront* mobile app.
 
-# Enable users to access the mobile application {#enable-users-to-access-the-mobile-application}
-
-You can enable or disable access to the *`Adobe Workfront`* mobile app.
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Enable users to access the mobile application
 
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2">Click <span class="bold">Setup,</span> located in the upper-right corner of the page.<br></li> 
+ <li value="3">Expand <span class="bold">System,</span> then click <span class="bold">Preferences.</span></li> 
+ <li value="4">Select the <span class="bold">Let people use <em>Workfront</em>'s mobile applications and the <em>Workfront</em> Outlook Add-In</span> setting to allow users to use <em>Workfront</em> with the <em>Workfront</em> mobile app or to install and use <em>Workfront</em> for Outlook.<br>This option is enabled by default.</li> 
+ <li value="5">Click <span class="bold">Save.</span></li> 
+</ol>
 
-## Enable users to access the mobile application {#enable-users-to-access-the-mobile-application-1}
+For information about how to use the *Workfront* mobile app after it is enabled for the site, see [Use the Adobe Workfront mobile app](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1. Click `Setup,` located in the upper-right corner of the page.  
-
-1. Expand `System,` then click `Preferences.`
-
-1. Select the `Let people use *`Workfront`*'s mobile applications and the *`Workfront`* Outlook Add-In` setting to allow users to use *`Workfront`* with the *`Workfront`* mobile app or to install and use *`Workfront`* for Outlook.  
-   This option is enabled by default.
-
-1. Click `Save.`
-
-
-For information about how to use the *`Workfront`* mobile app after it is enabled for the site, see [Use the Adobe Workfront mobile app](use-the-mobile-app.md).
-
-
-For information about how to use *`Workfront`* for Outlook, see the [Using *`Workfront`* with Outlook](_workfront-for-outlook.md) section. 
+For information about how to use *Workfront* for Outlook, see the [Using *Workfront* with Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) section. 

@@ -2,418 +2,505 @@
 filename: new-api-version-7
 content-type: api
 navigation-topic: api-navigation-topic
+title: What's New in API Version 7
+description: Collections
 ---
 
+# What's New in API Version 7
 
+## New Objects
 
-# What's New in API Version 7 {#whats-new-in-api-version}
+### Proof Bean
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| ID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
+| deadLine |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+### DocMetadataLink
 
-## New Objects {#new-objects}
-
-
-
-### Proof Bean {#proof-bean}
-
-
-
-
-### DocMetadataLink {#docmetadatalink}
-
-
-<table class="TableStyle-TableStyle-HeaderRow" style="width: 760px;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Fields</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">References</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Collections</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Search</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Actions</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Queries</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1">Operations</th> 
+  <tr> 
+   <th>Fields</th> 
+   <th>References</th> 
+   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Collections</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
+   <th>Search</th> 
+   <th>Actions</th> 
+   <th>Queries</th> 
+   <th>Operations</th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">ID</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Add</td> 
+  <tr> 
+   <td>ID</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>Add</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Count&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>Count&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Delete&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>Delete&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">Get &nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>Get &nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Report&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>Report&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray">Search&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>Search&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
 
+### DocMetadataLinkGroup
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| ID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Add |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Count |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Delete |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 
-### DocMetadataLinkGroup {#docmetadatalinkgroup}
+### ProofApproval
 
-
-
-
-### ProofApproval {#proofapproval}
-
-
-&nbsp;
-
-
-### ResourceContour {#resourcecontour}
-
-
-&nbsp;
-
-
-### UserGroups {#usergroups}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| ID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Count |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 
 &nbsp;
 
+### ResourceContour
 
-### TimesheetProfile {#timesheetprofile}
-
-
-&nbsp;
-
-
-### RsrcPool {#rsrcpool}
-
-
-&nbsp;
-
-
-### DocMetadataLinkGroup {#docmetadatalinkgroup-1}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| ID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Add |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Count |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Delete |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Edit |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 
 &nbsp;
 
+### UserGroups
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| groupID |group |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| isOwner&nbsp; |user&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| userID&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
 
+### TimesheetProfile
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| ID |&nbsp; |&nbsp;hourTypes |&nbsp; |&nbsp; |&nbsp; |Add |
+| name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Copy |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Count |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Delete |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Edit |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Replace |
 
 &nbsp;
 
+### RsrcPool
 
-## Updated Objects {#updated-objects}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| ID |customer |users |&nbsp; |&nbsp; |&nbsp; |Add |
+| customerID&nbsp; |enteredBy&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Count |
+| description&nbsp; |lastUpdatedBy&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Delete |
+| enteredByID&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Edit |
+| entryDate&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
+| extRefID&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
+| lastUpdateDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
+| lastUpdateByID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+&nbsp;
+
+### DocMetadataLinkGroup
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| ID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Count |
+| articleName&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Get |
+| pageID&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Report |
+| url&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## Updated Objects
 
 Changes to existing objects: additions are simply listed, removals have strikethrough, changes to existing have an attached&nbsp;note after the table
 
+### UpdateBean
 
-### UpdateBean {#updatebean}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| updateType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 `¹ Changes to possible values`&nbsp;
 
+&nbsp;
+
+### ApprovalServiceObject
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| approvalCompletionDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| approvalStartDate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workPerDayList |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;&nbsp; |
 
 &nbsp;
 
+### AccessRule¹
 
-### ApprovalServiceObject {#approvalserviceobject}
-
-
-&nbsp;
-
-
-### AccessRule¹ {#accessrule}
-
-`¹ Flagged as reportable` 
-
+`¹ Flagged as reportable`
 
 &nbsp;
 
+### Approval Process
 
-### Approval Process {#approval-process}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |`<strike> AttachedApprovalPaths</strike>`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;&nbsp;
 
+### Approval Path¹
 
-### Approval Path¹ {#approval-path}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`<strike> Add</strike>`  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`<strike> Delete</strike>`  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`<strike> Edit</strike>`  |
 
-
-`¹ Reportable Flag Removed` 
-
-
-&nbsp;
-
-
-### Work Service Object {#work-service-object}
-
-
-`¹ Date Validation Added` 
-
-
-`² Not_Filterable Flag Added` 
-
+`¹ Reportable Flag Removed`
 
 &nbsp;
 
+### Work Service Object
 
-### Assignment {#assignment}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| approvalCompletionDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workPerDayList |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
+`¹ Date Validation Added`
 
-`¹ Added field includeIssues` 
-
-
-&nbsp;
-
-
-### Customer&nbsp; {#customer}
-
-
-`¹ Changes to possible values`&nbsp; 
-
+`² Not_Filterable Flag Added`
 
 &nbsp;
 
+### Assignment
 
-### Custom Enum&nbsp; {#custom-enum}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp;workPerDayList |&nbsp; |&nbsp; |&nbsp; |assignUserToRoleOnProjects¹ |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |swapUsersOnProjects¹ |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |unassignUserFromProjects¹ |&nbsp; |&nbsp; |
 
-
-&nbsp;
-
-
-### Document&nbsp; {#document}
-
-
-&nbsp;
-
-
-### DocumentVersion&nbsp; {#documentversion}
-
+`¹ Added field includeIssues`
 
 &nbsp;
 
+### Customer&nbsp;
 
-### Group {#group}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| bizRuleExclusions¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-
-`¹ Changed PRECISION validator for 8 to 9` 
-
-
-&nbsp;
-
-
-### HourType {#hourtype}
-
+`¹ Changes to possible values`&nbsp;
 
 &nbsp;
 
+### Custom Enum&nbsp;
 
-### Journal Entry {#journal-entry}
-
-
-`¹ Changes to possible Values` 
-
-
-&nbsp;
-
-
-### Optask (Issue) {#optask-issue}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| groupID&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
 
+### Document&nbsp;
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| checkOutTimestamp |&nbsp; |&nbsp; |&nbsp; |&nbsp;createProof |&nbsp; |&nbsp; |
 
 &nbsp;
 
+### DocumentVersion&nbsp;
 
-### Project {#project}
-
-
-&nbsp;
-
-
-&nbsp;
-
-
-### QueueDef {#queuedef}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;getProofingTokens |&nbsp; |&nbsp; |
 
 &nbsp;
 
+### Group
 
-### QueueTopic {#queuetopic}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| isPublic |&nbsp;layoutTemplate |userGroups&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| layoutTemplateID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-
-&nbsp;
-
-
-### Recent {#recent}
-
-
-  
-&nbsp;
-
-
-### Task {#task}
-
+`¹ Changed PRECISION validator for 8 to 9`
 
 &nbsp;
 
+### HourType
 
-### TemplateTask {#templatetask}
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |defaultOpTaskHourType |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |defaultProjectHourType |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |defaultTaskHourType&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |globalHourTypes&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectHourTypes&nbsp; |&nbsp; |
 
+&nbsp;
+
+### Journal Entry
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| changeType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+`¹ Changes to possible Values`
+
+&nbsp;
+
+### Optask (Issue)
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| approvalCompletionDate |&nbsp; |&nbsp; |&nbsp; |&nbsp;assignMultiple |&nbsp; |&nbsp; |
+| approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+&nbsp;
+
+&nbsp;
+
+### Project
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| approvalCompletionDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+&nbsp;
+
+&nbsp;
+
+### QueueDef
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| `allowedLegacyQueueTopicIDs`  |  |  |  |  `getQueueDefTree` |&nbsp; |&nbsp; |
+
+&nbsp;
+
+### QueueTopic
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;queueTopicID |&nbsp; |
+
+&nbsp;
+
+### Recent
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;updateLastViewedObject |&nbsp; |&nbsp; |
+
+&nbsp;
+
+### Task
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| approvalCompletionDate |&nbsp; |&nbsp; |&nbsp; |assignMultiple&nbsp; |&nbsp; |&nbsp; |
+| approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workPerDayList |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+&nbsp;
+
+### TemplateTask
+
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 `¹ Type Changed from Int to Double`&nbsp;
 
-
 &nbsp;
 
+### User
 
-### User {#user}
-
-
-<table class="TableStyle-TableStyle-HeaderRow" style="width: 759px;mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Fields</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">References</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Collections</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Search</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Actions</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1">Queries</th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1">Operations</th> 
+  <tr> 
+   <th>Fields</th> 
+   <th>References</th> 
+   <th>Collections</th> 
+   <th>Search</th> 
+   <th>Actions</th> 
+   <th>Queries</th> 
+   <th>Operations</th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">
+  <tr> 
+   <td>
     <strike>
      lastWhatsNew
     </strike> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">
+   <td>&nbsp;</td> 
+   <td>
     <strike>
      roles
     </strike>&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;roles</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">addMobileDevice</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+   <td>&nbsp;roles</td> 
+   <td>addMobileDevice</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;<span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">getAvailableActions</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;<span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
+   <td>&nbsp;</td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
+   <td>&nbsp;</td> 
+   <td>getAvailableActions</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">hasAnyAccess</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>hasAnyAccess</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">isUserTerminologyActive</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>isUserTerminologyActive</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>removeMobileDevice</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td> <p>removeMobileDevice</p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">showShouldProofHQNavButton</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray">&nbsp;&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>showShouldProofHQNavButton</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
 ###    
-User Note {#user-note}
+User Note
 
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| `<strike> acknowledgedmentIDs</strike>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp;unackknowledgeMany |&nbsp; |&nbsp; |
+| ackDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ackType |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
 
-
 &nbsp;
 
+### CustomerPrefObject
 
-### CustomerPrefObject {#customerprefobject}
-
+| Fields |References |Collections |Search |Actions |Queries |Operations |
+|---|---|---|---|---|---|---|
+| &nbsp;name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 `¹ Changes to possible Values` 

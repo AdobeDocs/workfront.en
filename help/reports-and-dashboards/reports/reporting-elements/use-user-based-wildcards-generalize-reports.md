@@ -2,136 +2,98 @@
 filename: use-user-based-wildcards-generalize-reports
 product-area: reporting
 navigation-topic: reporting-elements
+title: Use user-based wildcards to generalize reports
+description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements. For example, if you want to create a report that shows the tasks assigned to a specific user, you can use the user's name in the Assigned To field of the filter. However, if you want to create a report that shows tasks assigned to the logged in user, regardless of who that user is, you can use a wildcard that indicates that when someone views the report it displays information pertaining only to them. This way, you build the report once but because you use a wildcard in the filter it produces different results every time someone else reads it.
 ---
 
-
-
-# Use user-based wildcards to generalize reports {#use-user-based-wildcards-to-generalize-reports}
+# Use user-based wildcards to generalize reports
 
 You can generalize a report by using wildcards instead of specific information when building certain reporting elements. For example, if you want to create a report that shows the tasks assigned to a specific user, you can use the user's name in the Assigned To field of the filter. However, if you want to create a report that shows tasks assigned to the logged in user, regardless of who that user is, you can use a wildcard that indicates that when someone views the report it displays information pertaining only to them. This way, you build the report once but because you use a wildcard in the filter it produces different results every time someone else reads it.
 
-
 You can use user-based wildcards when building the following reporting elements:
-
-
 
 * Filters
 * Custom prompts
 * Views when adding rules for columns
 
-
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions to a report to edit reporting elements in a report</p> <p>Manage permissions to a view or filter to edit them</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a report to edit reporting elements in a report</p> <p>Manage permissions to a view or filter to edit them</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-
-## Prerequisites {#prerequisites}
+## Prerequisites
 
 You must create a report before you can add a wildcard variable to it.
 
+For instructions on creating reports, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-For instructions on creating reports, see [Create a report](create-report.md).
-
-
-## Walk-through {#walk-through}
+## Walk-through
 
 View the following video to learn how you can generalize the information in your reports and adapt them to the user who runs the report by using user-based wildcards.
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">This video was recorded in <em>Adobe Workfront</em> Classic. However, the content also applies to the new Workfront experience.</p>
+-->
 
-This video was recorded in *`Adobe Workfront`* Classic. However, the content also applies to the new Workfront experience.
+This video was recorded in *Adobe Workfront* Classic. However, the content also applies to the new Workfront experience.
 
+[ ![](assets/video-user-based-wildcards-front-350x201.png)](https://workfront-video.wistia.com/medias/jfn0iczd8m)
 
-[ ![](assets/video-user-based-wildcards-front-350x201.png)](https://workfront-video.wistia.com/medias/jfn0iczd8m) 
-
-
-## How-to steps {#how-to-steps}
+## How-to steps
 
 To insert a user-based wildcard in a report:
 
+<ol> 
+ <li value="1">Go to a report for which you want to insert a user-based wildcard.</li> 
+ <li value="2">Click <span class="bold">Report Actions</span>, then <span class="bold">Edit</span>.</li> 
+ <li value="3">Click the <span class="bold">Filters</span> tab.</li> 
+ <li value="4">Click <span class="bold">Add a Filter Rule</span>.</li> 
+ <li value="5"> <p>Start typing the name of the field that you want to filter by.<br>You must type fields that reference the user object or information about users.</p> </li> 
+ <li value="6"> <p>Select <span class="bold">Equal</span> in the drop-down menu for the filter variable.</p> <note type="tip">
+   You must always select the 
+   <span class="bold">Equal</span> filter variable when working with wildcards in 
+   <em>Adobe Workfront</em>.
+  </note> </li> 
+ <li value="7"> <p>In the <span class="bold">Start typing name ...</span> box, type: <code>$$USER.ID</code> or <code>$$USER.name</code> if you want the report to display information about the user who logs in, based on their name. You can insert other wildcards that refer to the logged-in user's Group, Team, Company, or other information.</p> <p>For a complete list of user-based wildcards, see <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a>.</p> <p> <img src="assets/user-based-wildcard-in-project-filter-350x74.png" style="width: 350;height: 74;"> </p> </li> 
+ <li value="8">Click <span class="bold">Save + Close</span>.</li> 
+</ol>
 
-
-1. Go to a report for which you want to insert a user-based wildcard.
-1. Click `Report Actions`, then `Edit`.
-
-1. Click the `Filters` tab.
-1. Click `Add a Filter Rule`.
-1.  Start typing the name of the field that you want to filter by.  
-   You must type fields that reference the user object or information about users.
-1.  Select `Equal` in the drop-down menu for the filter variable.
-
-
-   >[!TIP] {type="tip"}
-   >
-   >You must always select the `Equal` filter variable when working with wildcards in *`Adobe Workfront`*.
-
-
-
-1.  In the `Start typing name ...` box, type: 
-
-   ```
-   $$USER.ID
-   ```
-
-   or 
-
-   ```
-   $$USER.name
-   ```
-
-   if you want the report to display information about the user who logs in, based on their name. You can insert other wildcards that refer to the logged-in user's Group, Team, Company, or other information.
-
-
-   For a complete list of user-based wildcards, see [Wildcard filter variables](understand-wildcard-filter-variables.md).
-
-
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
-
-
-
-1. Click `Save + Close`.
-
-
-
-
-## Additional information {#additional-information}
+## Additional information
 
 See also:
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p> </li>
+  -->
 
-
-*  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
-* [Wildcard filter variables](understand-wildcard-filter-variables.md) 
-* [Create or edit filters in Adobe Workfront](create-filters.md) 
-* [Filters overview in Adobe Workfront](filters-overview.md) 
-* [Add a prompt to a report](add-prompt-report.md) 
-* [Use conditional formatting in Views](use-conditional-formatting-views.md) 
-
+* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
+* [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md) 
+* [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
+* [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+* [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) 
+* [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
 

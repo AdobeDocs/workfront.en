@@ -4,140 +4,104 @@ title: Grant access to documents
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
+title: Grant access to documents
+description: As an Adobe Workfront administrator, you can use an access level to define a user’s access to documents in Workfront, as explained in Access levels overview.
 ---
 
+# Grant access to documents
 
+As an *Adobe Workfront administrator*, you can use an access level to define a user’s access to *documents*
 
-# Grant access to documents {#grant-access-to-documents}
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+in
+<em>Workfront</em>
+</MadCap:conditionalText>
+-->
 
-As an *`Adobe Workfront administrator`*, you can use an access level to define a user’s access to *`documents`*`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span></MadCap:conditionalText>`, as explained in [Access levels overview](access-levels-overview.md).&nbsp;
+`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Workfront</em></MadCap:conditionalText>`, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
+This access also applies to document folders.
 
-The access a user receives for documents in their access levels also applies to document folders.
+For information about using custom access levels to manage users' access to other object types in *Workfront*, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-
->[!NOTE]
->
->When someone shares a *`document`* with another user, the recipient’s rights on it are determined by a combination of two things:
->
->
->
->* The recipient’s access level setting for *`documents`*
->* Any permissions that the sharer granted for the *`document`* 
->
->
->For information about permissions users can grant on a document when sharing it, see [Share a document in Adobe Workfront](document-permissions.md).
-
-
-
-
-
-##  
-
-For information about using custom access levels to manage users' access to objects in *`Workfront`*, including *`documents`*, see&nbsp; [Create or modify custom access levels](create-modify-access-levels.md).
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Configure user access to documents using a custom access level
 
+<ol> 
+ <li value="1">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</li> 
+ <li value="2"> <p>Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> or <span class="bold">Edit</span> button to the right of <em>Documents</em>, then select the abilities you want to grant under <b>Fine-tune your settings</b>.</p> <p> <img src="assets/document-access-350x171.png" alt="document_access.png" style="width: 350;height: 171;"> </p> <p>You can allow users to do the following on projects, tasks, and issues that they have access to:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Create</td> 
+     <td>Upload documents.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Delete</td> 
+     <td> <p>Remove uploaded documents.</p> <p>The <b>Create</b> option is automatically enabled when this option is enabled.</p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Share</td> 
+     <td>Share documents with specific users, job roles, teams.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Share Documents Publicly</td> 
+     <td>Share documents with external users (don't have a <em>Workfront</em> license).</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Share System-wide</td> 
+     <td> <p>Make documents available to everyone in your Workfront instance.</p> <p>Anyone in the system can see a document shared this way if:</p> 
+      <ul> 
+       <li> <p>You send them a link to the Documents page where it's uploaded.</p> </li> 
+       <li> <p>They search for it in <em>Workfront</em></p> </li> 
+      </ul> <p>The <b>Share</b> option is automatically enabled when this option is enabled.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> <note type="note"> 
+   <p>When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting <em>projects</em> in their access level, but this does not restrict them from deleting <em>documents</em>, which are lower-ranking than <em>projects</em>.For more information about the hierarchy of objects, see the section <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref" data-mc-variable-override="">Interdependency and hierarchy of objects</a> in&nbsp;the article <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref" data-mc-variable-override="">Understand objects in Adobe Workfront</a>.</p> 
+  </note> </li> 
+ <li value="3"> <p>(Optional) To restrict inherited permissions for documents from higher ranking objects, click <span class="bold">Set additional restrictions</span>, then select <span class="bold">Never inherit document access from projects, tasks, issues, etc</span>.</p> </li> 
+ <li value="4"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" data-mc-variable-override="">Grant access to financial data</a>.</p> </li> 
+ <li value="5"> <p>When you are finished, click <draft-comment>
+    <b data-mc-conditions="QuicksilverOrClassic.Quicksilver">Save</b>
+   </draft-comment><b data-mc-conditions="QuicksilverOrClassic.Quicksilver">Save</b>.</p> <p>After the access level is created, you can assign it to a user. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Edit a user's profile</a>.</p> </li> 
+</ol>
 
-## Configure user access to documents using a custom access level {#configure-user-access-to-documents-using-a-custom-access-level}
+## Access to documents by license type
 
+For more information about what users in each access level can do with documents, see the section [Documents](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#document) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
+## Access to shared documents
 
+After you upload a document to *Workfront*, you can share it with other users by granting them permissions to it, as explained in [Share a document in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
-1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](create-modify-access-levels.md).
-1.  Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of *`Documents`*, then select the abilities you want to grant under **Fine-tune your settings**.
+When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:
 
+* The permissions that you grant to your recipient for the object
+* The recipient’s access level settings for the object's type
 
-   ![document_access.png](assets/document-access-350x171.png)
-
-
-
-
-   You can allow users to do the following on projects, tasks, and issues that they have access to:
-
-<table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Create</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Upload documents.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Delete</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Remove uploaded documents.</p> <p>The <b>Create</b> option is automatically enabled when this option is enabled.</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Share</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Share documents with specific users, job roles, teams.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Share Documents Publicly</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Share documents with external users (don't have a <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> license).</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Share System-wide</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Make documents available to everyone in your Workfront instance.</p> <p>Anyone in the system can see a document shared this way if:</p> 
-    <ul> 
-     <li> <p>You send them a link to the Documents page where it's uploaded.</p> </li> 
-     <li> <p>They search for it in <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span></p> </li> 
-    </ul> <p>The <b>Share</b> option is automatically enabled when this option is enabled.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-
-   >[!NOTE]
-   >
-   >Users don’t inherit access to objects from higher-ranking objects. For example, you can restrict a user from deleting *`projects`* in their access level, but this does not restrict them from deleting *`documents`*, which are lower-ranking than *`projects`*. For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in&nbsp;the article [Understand objects in Adobe Workfront](understand-objects.md).
-   >
-   >
-   >For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in&nbsp;the article [Understand objects in Adobe Workfront](understand-objects.md).
-
-
-
-
-1.  (Optional) To restrict inherited permissions for documents from higher ranking objects, click `Set additional restrictions`, then select `Never inherit document access from projects, tasks, issues, etc`.
-1.  (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](_configure-access.md), such as [Grant access to tasks](grant-access-tasks.md) and [Grant access to financial data](grant-access-financial.md).
-1.  When you are finished, click **Save**.
-
-
-   After the access level is created, you can assign it to a user. For more information, see [Edit a user's profile](edit-a-users-profile.md).  
-
-
-
-
-
-
-## Document access by license type {#document-access-by-license-type}
-
-This table lists what a *`Workfront administrator`* can allow users with each license type to do with *`documents`*. For information about the *`Workfront`* license types, see [Adobe Workfront licenses overview](wf-licenses.md).
-
-&#42;&#42; This action is shared by both documents and document folders.
-
-
-&#42; This action is available only to document folders.

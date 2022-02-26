@@ -1,0 +1,56 @@
+---
+filename: view-previous-version
+product-area: documents
+navigation-topic: review-a-proof
+title: View previous proof versions in the proofing viewer
+description: You can view a previous version of a proof if one exists. Previous versions are locked by default. You cannot add comments or change a decision on a locked version.
+---
+
+# View previous *proof* versions in the *proofing viewer*
+
+You can view a previous version of a *proof* if one exists. Previous versions are locked by default. You cannot add comments or change a decision on a locked version.
+
+>[!NOTE]
+>
+>The information&nbsp;described in this article is available only with the *Web Proofing Viewer* and only when reviewing video or static *proofs*.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Current plan: <em>Work</em> or <em>Plan</em></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td>Manager or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+
+## View previous *proof* versions in the *proofing viewer*
+
+1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Find the *proof* you need, then click `Open *proof*`.
+
+<ol start="3"> 
+ <li value="3"> <p>In the upper-left corner of the <em>proofing viewer</em>, click the name of the proof.</p> <p> <img src="assets/phq-viewer-version-350x184.png" alt="phq_viewer_version.png" style="width: 350;height: 184;"> </p> </li> 
+ <li value="4"> <p>In the list that appears, click the version you want to view.</p> </li> 
+ <li value="5">(Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the <span class="bold">Unlock</span> icon in the left panel, then click <span class="bold">Yes, unlock</span>. For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md" class="MCXref xref">Lock or unlock a proof</a>.</li> 
+</ol>
+

@@ -4,25 +4,17 @@ content-type: reference
 product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
+title: Codecs in Workfront Proof
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Codecs in *Workfront Proof*
 
-
-# Codecs in *`Workfront Proof`* {#codecs-in-workfront-proof}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-
-
-
-## Supported Codecs {#supported-codecs}
-
-
-
+## Supported Codecs
 
 * 3ivx
 * 4X Movie
@@ -193,13 +185,7 @@ navigation-topic: system-information
 * zdsoft screen recorder
 * Zip Motion Blocks Video
 
-
-
-
-## Unsupported Codecs {#unsupported-codecs}
-
-
-
+## Unsupported Codecs
 
 * Apple Intermediate
 * ProRes 4444 (ProRes 422 Supported)
@@ -208,5 +194,4 @@ navigation-topic: system-information
 * Go2Meeting4 (G2M4)
 * ER AAC LD (Error Resiliant, Low-Delay variant of AAC)
 * REDCODE
-
 

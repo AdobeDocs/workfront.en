@@ -4,53 +4,70 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
+title: Webhooks
+description: A webhook is an HTTP call that is triggered by an event. You can use webhooks to activate instant trigger modules. Any application that is connected to the Internet and allows HTTP requests can send webhooks to Adobe Workfront Fusion.
 ---
 
+# Webhooks
 
+A webhook is an HTTP call that is triggered by an event. You can use webhooks to activate instant trigger modules. Any application that is connected to the Internet and allows HTTP requests can send webhooks to *Adobe Workfront Fusion*.
 
-# Webhooks {#webhooks}
-
-A webhook is an HTTP call that is triggered by an event. You can use webhooks to activate instant trigger modules. Any application that is connected to the Internet and allows HTTP requests can send webhooks to *`Adobe Workfront Fusion`*.
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Use a webhook in *`Workfront Fusion`* {#use-a-webhook-in-workfront-fusion}
-
-
+## Use a webhook in *Workfront Fusion*
 
 >[!NOTE]
 >
->To call a third party webhook (an outgoing webhook) use one of the HTTP modules. For more information, see [HTTP modules](_http-modules.md).
+>To call a third party webhook (an outgoing webhook) use one of the HTTP modules. For more information, see [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md).
 
-
-To use a webhook to connect an app to *`Workfront Fusion`*:
-
-
+To use a webhook to connect an app to *Workfront Fusion*:
 
 1. Add the `Webhooks`> `Custom Webhook` instant trigger module to your scenario.
 
@@ -59,129 +76,85 @@ To use a webhook to connect an app to *`Workfront Fusion`*:
 1. In the `IP restrictions` field, enter a comma-separated list of the IP addresses that the module can accept data from.
 1. Click `Save`
 
-
-After you create a webhook, a unique URL displays. This is the address where the webhook sends data. *`Workfront Fusion`* validates the data sent to this address, then passes it on for processing in the scenario. 
-
+After you create a webhook, a unique URL displays. This is the address where the webhook sends data. *Workfront Fusion* validates the data sent to this address, then passes it on for processing in the scenario.
 
 >[!NOTE]
 >
 >Once you create a webhook, you can use it in more than one scenario at a time.
 
+### Configure the webhook's data structure
 
-
-
-### Configure the webhook's data structure {#configure-the-webhooks-data-structure}
-
-In order to recognize the data structure of the incoming payload, *`Workfront Fusion`* parses sample data that you send to the displayed address. You can supply the sample data by making a change in the service or app that will make that service or app call the webhook. For example, you could remove a file.
-
+In order to recognize the data structure of the incoming payload, *Workfront Fusion* parses sample data that you send to the displayed address. You can supply the sample data by making a change in the service or app that will make that service or app call the webhook. For example, you could remove a file.
 
 Or you can follow the steps below to send the sample data via the HTTP > Make a request module.
 
+<ol> 
+ <li value="1">Create a new scenario with the <span class="bold">HTTP</span> > <span class="bold">Make a request</span> module</li> 
+ <li value="2">Configure the module with the following values: 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader"><p>URL </p></td> 
+     <td>Enter the URL of the webhook. You can find this URL in the Webhooks module that you have used to set up the webhook.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Method </td> 
+     <td><p>POST</p></td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Body type</td> 
+     <td><p> Raw</p></td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Content type</td> 
+     <td><p> JSON (application/json)</p></td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Request content</td> 
+     <td><p>Raw JSON expected in the webhook</p></td> 
+    </tr> 
+   </tbody> 
+  </table><p><img src="assets/new-scenario-set-up-like-this-350x446.png" style="width: 350;height: 446;"></p></li> 
+ <li value="3">Open the scenario with the Webhooks module in a separate browser tab or window.</li> 
+ <li value="4"> <p>In the webhooks module, click <span class="bold">Redetermine data structure</span>. </p> <p>You do not need to unlink other modules from the webhooks module.</p> </li> 
+ <li value="5">Switch to the scenario with the HTTP module and run it.</li> 
+ <li value="6"> <p>Switch back to the scenario with the Webhooks module. </p> <p>A "Successfully determined" message means that the module has successfully determined the data structure.</p> <p> <img src="assets/successfully-determined-350x175.png" style="width: 350;height: 175;"> </p> </li> 
+ <li value="7"> <p>Click <span class="bold">OK</span> to save the data structure.</p> <p>The webhook's items are now available in the mapping panel for use with subsequent modules in the scenario.</p> </li> 
+</ol>
 
-
-1. Create a new scenario with the `HTTP` > `Make a request` module
-
-1. Configure the module with the following values:
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0">
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
- <tbody>
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><p>URL </p></td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Enter the URL of the webhook. You can find this URL in the Webhooks module that you have used to set up the webhook.</td>
-  </tr>
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Method </td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"><p>POST</p></td>
-  </tr>
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Body type</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"><p> Raw</p></td>
-  </tr>
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Content type</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"><p> JSON (application/json)</p></td>
-  </tr>
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Request content</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><p>Raw JSON expected in the webhook</p></td>
-  </tr>
- </tbody>
-</table>
-
-   ![](assets/new-scenario-set-up-like-this-350x446.png)
-
-
-
-1. Open the scenario with the Webhooks module in a separate browser tab or window.
-1.  In the webhooks module, click `Redetermine data structure`. 
-
-
-   You do not need to unlink other modules from the webhooks module.
-
-1. Switch to the scenario with the HTTP module and run it.
-1.  Switch back to the scenario with the Webhooks module. 
-
-
-   A "Successfully determined" message means that the module has successfully determined the data structure.
-
-
-   ![](assets/successfully-determined-350x175.png)
-
-
-
-1.  Click `OK` to save the data structure.
-
-
-   The webhook's items are now available in the mapping panel for use with subsequent modules in the scenario.
-
-
-
-
-
-## Queue {#queue}
+## Queue
 
 If a webhook receives data and there is not an active scenario that is expecting that data, the data is stored in the queue. Once you activate the scenario, it processes all bundles waiting in the queue sequentially.
 
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
 >Webhook queues are shared among scenarios that employ the same webhook. If one of the scenarios is disabled, all incoming data is held in the queue.
 
+## Supported incoming data formats
 
+*Workfront Fusion* supports 3 incoming data formats: Query String, Form Data and JSON.
 
+*Workfront Fusion* validates all incoming data against the selected data structure. Then, depending on the scenario’s settings, the data is either stored in the queue for processing, or it is processed immediately.
 
-## Supported incoming data formats {#supported-incoming-data-formats}
-
-*`Workfront Fusion`* supports 3 incoming data formats: Query String, Form Data and JSON. 
-
-
-*`Workfront Fusion`* validates all incoming data against the selected data structure. Then, depending on the scenario’s settings, the data is either stored in the queue for processing, or it is processed immediately.
-
-
-If any part of the data does not pass the validation, *`Workfront Fusion`* returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, *`Workfront Fusion`* returns a “200 Accepted” status.
-
-
+If any part of the data does not pass the validation, *Workfront Fusion* returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, *Workfront Fusion* returns a “200 Accepted” status.
 
 * [Query String](#query) 
 * [Form Data](#form) 
-* [JSON](#json) 
+* [JSON](#json)
 
+### Query String
 
+<pre>GET https://app.workfrontfusion.com/wh/<yourunique32characterslongstring>?name=<yourname>&job=automate</pre>
 
+### Form Data
 
-### Query String {#query-string}
+<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: application/x-www-form-urlencoded</pre><pre>name=<yourname>&job=automate</pre>
 
-`<pre>GET https://app.workfrontfusion.com/wh/<yourunique32characterslongstring>?name=<yourname>&job=automate</pre>` 
+#### Multipart form data
 
-### Form Data {#form-data}
-
-`<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre>``<pre>Content-Type: application/x-www-form-urlencoded</pre>``<pre>name=<yourname>&job=automate</pre>` 
-
-#### Multipart form data {#multipart-form-data}
-
-`<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre>``<pre>Content-Type: multipart/form-data; boundary=---generatedboundary</pre>``<pre>---generatedboundary</pre>``<pre>Content-Disposition: form-data; name="file"; filename="file.txt"</pre>``<pre>Content-Type: text/plain</pre>``<pre>Content of file.txt</pre>``<pre>---generatedboundary</pre>``<pre>Content-Disposition: form-data; name="name"</pre>``<pre>Workfront Fusion</pre>``<pre>---generatedboundary</pre>` In order to receive files encoded with 
+<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: multipart/form-data; boundary=---generatedboundary</pre><pre>---generatedboundary</pre><pre>Content-Disposition: form-data; name="file"; filename="file.txt"</pre><pre>Content-Type: text/plain</pre><pre>Content of file.txt</pre><pre>---generatedboundary</pre><pre>Content-Disposition: form-data; name="name"</pre><pre>Workfront Fusion</pre><pre>---generatedboundary</pre>In order to receive files encoded with 
 
 ```
 multipart/form-data
@@ -249,34 +222,24 @@ buffer
 
 type and contains binary data for the file being transferred.
 
+For more information on MIME format, see [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md).
 
-For more information on MIME format, see [MIME modules](mime.md).
+### JSON
 
-
-### JSON {#json}
-
-`<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre>``<pre>Content-Type: application/json</pre>``<pre>{"name": "Workfront Fusion", "job": "automate"}</pre>` 
+<pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: application/json</pre><pre>{"name": "Workfront Fusion", "job": "automate"}</pre>
 ` `**Tip: **`` If you want to access the original JSON, enable JSON pass-through when setting up the webhook.
-
-
 
 1. Click `Add`to add a new webhook.
 1. Click `Show advanced settings`.
 1. Click `JSON pass-through`.
 
-
-
-
-## Webhook headers {#webhook-headers}
+## Webhook headers
 
 To access the webhook's headers, enable Get request headers when setting up the webhook.
-
-
 
 1. Click `Add`to add a new webhook.
 1. Click `Show advanced settings`.
 1. Click `Get request headers`.
-
 
 You can extract a particular header value with the combination of 
 
@@ -306,139 +269,69 @@ Headers[]
 
 array. The formula is used in a filter that compares the extracted value with the given text to pass only webhooks if there is a match.
 
-
 ![](assets/set-up-a-filter-350x169.png)
 
+For further information on obtaining an array's element with a given key, see [Map an array's element with a given key](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) in the article [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
+## Responding to webhooks
 
-
-For further information on obtaining an array's element with a given key, see [Map an array's element with a given key](map-information-between-modules.md#mapping) in the article [Map information from one module to another](map-information-between-modules.md).
-
-
-## Responding to webhooks {#responding-to-webhooks}
-
-The default response to a webhook call is the text "Accepted". The response is returned to the app that called the webhook during the execution of the Custom Webhook module. 
-
-
+The default response to a webhook call is the text "Accepted". The response is returned to the app that called the webhook during the execution of the Custom Webhook module.
 
 * [Test the response to a webhook](#test) 
 * [HTML Response example](#html) 
-* [Redirect example](#redirect) 
+* [Redirect example](#redirect)
 
-
-
-
-### Test the response to a webhook {#test-the-response-to-a-webhook}
-
-
-
+### Test the response to a webhook
 
 1. Include the `Custom Webhook` module in your scenario.
 1. Add a new webhook to the module.
 1. Copy the webhook URL to your clipboard.
-1.  Run the scenario. 
-
+1. Run the scenario.
 
    The lightning icon on the Custom Webhook module changes to spinning dots. This shows that the module is now waiting for the webhook call.
 
-1.  Open a new browser window, paste the copied URL in the address bar and press `Enter`.
-
+1. Open a new browser window, paste the copied URL in the address bar and press `Enter`.
 
    The Custom Webhook module is triggered and the browser will display a new page.
 
+If you want to customize the webhook's response, employ the module Webhook Response.
 
+The configuration of the module contains two fields: Status and Body.
 
-If you want to customize the webhook's response, employ the module Webhook Response. 
+<ul> 
+ <li>The Status field contains HTTP response status codes such as 2xx for Success (for example, <code>200</code> for OK), 3xx for Redirection (for example, <code>307</code> for Temporary Redirect), 4xx for Client errors (for example, <code>400</code> for Bad Request), and so on. </li> 
+ <li> <p>The Body field contains anything that will be accepted by the webhook's call. It can be simple text, HTML, XML, JSON, and so on. </p> <note type="tip">
+   We recommend setting the 
+   <code>Content-Type</code> header to the corresponding MIME type: 
+   <code>text/plain</code> for plain text, 
+   <code>text/html</code> for HTML, 
+   <code>application/json</code> for JSON, 
+   <code>application/xml</code> for XML, and so on. For more information on MIME&nbsp;types, see 
+   <a href="../../workfront-fusion/apps-and-their-modules/mime.md" class="MCXref xref">MIME modules</a>.
+  </note> </li> 
+</ul>
 
+Timeout for sending a response is 40 seconds. If the response is not available within that period, *Workfront Fusion* returns a '200 Accepted' status.
 
-The configuration of the module contains two fields: Status and Body. 
-
-
-
-* The Status field contains HTTP response status codes such as 2xx for Success (for example, 
-
-  ```
-  200
-  ```
-
-  for OK), 3xx for Redirection (for example, 
-
-  ```
-  307
-  ```
-
-  for Temporary Redirect), 4xx for Client errors (for example, 
-
-  ```
-  400
-  ```
-
-  for Bad Request), and so on. 
-
-*  The Body field contains anything that will be accepted by the webhook's call. It can be simple text, HTML, XML, JSON, and so on. 
-
-
-  >[!TIP] {type="tip"}
-  >
-  >We recommend setting the   >
-  >
-  >```  >
-  >Content-Type
-  >```  >
-  >
-  >header to the corresponding MIME type:   >
-  >
-  >```  >
-  >text/plain
-  >```  >
-  >
-  >for plain text,   >
-  >
-  >```  >
-  >text/html
-  >```  >
-  >
-  >for HTML,   >
-  >
-  >```  >
-  >application/json
-  >```  >
-  >
-  >for JSON,   >
-  >
-  >```  >
-  >application/xml
-  >```  >
-  >
-  >for XML, and so on. For more information on MIME&nbsp;types, see [MIME modules](mime.md).
-
-
-
-
-
-Timeout for sending a response is 40 seconds. If the response is not available within that period, *`Workfront Fusion`* returns a '200 Accepted' status.
-
-
-### HTML Response example {#html-response-example}
-
+### HTML Response example
 
 ` `**Example: **`` Configure the Webhook Response module as follows:
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Status </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>2xx success HTTP status code, e.g. 200</p> </td> 
+  <tr> 
+   <td role="rowheader">Status </td> 
+   <td> <p>2xx success HTTP status code, e.g. 200</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Body </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>HTML code</p> </td> 
+  <tr> 
+   <td role="rowheader">Body </td> 
+   <td> <p>HTML code</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader"> <p>Custom headers</p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> 
+  <tr> 
+   <td role="rowheader"> <p>Custom headers</p> </td> 
+   <td> 
     <ul> 
      <li><span class="bold">Key</span>: Content-type</li> 
      <li><span class="bold">Value</span>: text/html</li> 
@@ -449,33 +342,25 @@ Timeout for sending a response is 40 seconds. If the response is not available w
 
 ![](assets/custom-headers-350x235.png)
 
-
-
-
 This will produce an HTML response that displays like this in a web browser:
-
 
 ![](assets/html-response-350x70.png)
 
-
-
-
-### Redirect example {#redirect-example}
-
+### Redirect example
 
 ` `**Example: **`` Configure the Webhook Response module as follows:
 
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Status </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>3xx redirection HTTP status code, e.g. 303</p> </td> 
+  <tr> 
+   <td role="rowheader">Status </td> 
+   <td> <p>3xx redirection HTTP status code, e.g. 303</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"> <p>Custom headers</p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> 
+  <tr> 
+   <td role="rowheader"> <p>Custom headers</p> </td> 
+   <td> 
     <ul> 
      <li><span class="bold">Key</span>: Location</li> 
      <li><span class="bold">Value</span>: The URL you would like to redirect to.</li> 
@@ -486,21 +371,12 @@ This will produce an HTML response that displays like this in a web browser:
 
 ![](assets/webhook-response-350x279.png)
 
+## Troubleshooting
 
-
-
-## Troubleshooting {#troubleshooting}
-
-
-
-### Missing items in the mapping panel {#missing-items-in-the-mapping-panel}
+### Missing items in the mapping panel
 
 If some items are missing in the mapping panel in the setup of the modules following the Webhooks > Custom Webhook module, click on the `Webhooks > Custom Webhook` module to open its setup and click `Re-determine data structure`:
 
-
 ![](assets/redetermine-data-structure-btn-350x195.png)
-
-
-
 
 Then follow the steps described in the section [Configure the webhook's data structure](#determin) in this article.

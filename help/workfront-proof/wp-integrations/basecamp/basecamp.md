@@ -4,26 +4,20 @@ content-type: reference
 product: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
+title: Basecamp
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Basecamp
 
-
-# Basecamp {#basecamp}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-
-
-* [Add a Proof to a Basecamp Project](add-proof-to-basecamp-project.md) 
-* [Integrate Workfront Proof with Basecamp](integrate-workfront-proof-with-basecamp.md) 
-* [Review a Proof in Basecamp](review-proof-basecamp.md) 
-* [Understand the Basecamp Integration with Workfront Proof](basecamp-integration-overview.md) 
-
+* [Add a Proof to a Basecamp Project](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md) 
+* [Integrate Workfront Proof with Basecamp](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md) 
+* [Review a Proof in Basecamp](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md) 
+* [Understand the Basecamp Integration with Workfront Proof](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
 

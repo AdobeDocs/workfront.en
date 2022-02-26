@@ -1,35 +1,39 @@
 ---
 filename: apply-quick-filter-list
 navigation-topic: use-lists
+title: Apply the quick filter to a list
+description: You can use the quick filter in a list of objects to help you locate only items that are important to you, so you can quickly review, update, or share them with others.
 ---
 
-
-
-# Apply the quick filter to a list {#apply-the-quick-filter-to-a-list}
+# Apply the quick filter to a list
 
 You can use the quick filter in a list of objects to help you locate only items that are important to you, so you can quickly review, update, or share them with others.
 
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
 >You can find items that contain a search word using quick filters, whether that item has been physically displayed on your screen or will display after you have scrolled to the bottom of the page. When you use your browser's search capabilities, you can only find items that are physically displayed on the screen. If your list has multiple pages, quick filters do not find items that are on pages that do not display.
 
-
 If you want to save a quick filter, we recommend that you build a permanent filter for your list instead.  
-For information about how to build filters in *`Adobe Workfront`*, see the article [Filters overview in Adobe Workfront](filters-overview.md).
+For information about how to build filters in *Adobe Workfront*, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+<p>You can use temporary quick filters in all lists, except the following:</p>
+<ul>
+<li>The Setup area</li>
+<li>The Reports area</li>
+<li>Document lists and reports</li>
+</ul>
+</div>
+-->
 
 You can use temporary quick filters in all lists, except the following:
-
-
 
 * The Setup area
 * The Reports area
 * Document lists and reports
 
-
 Consider the following when applying quick filters to a list:
-
-
 
 * You can use keywords to filter for any field that displays in the view of the list. This includes custom fields, or complex fields like Predecessors, Assignments, Assignment and Status, Approver and Status, etc.
 * If your list has collapsed groupings, they are automatically expanded when you use quick filters. When you remove the quick filter, groupings are collapsed again.
@@ -39,107 +43,65 @@ Consider the following when applying quick filters to a list:
 * If you have more than one grouping in the list and the quick filter finds items in just one grouping, only that grouping displays with the found items. All other groupings are hidden.
 * In a task or subtask list, the task hierarchy is removed when the results of the quick filter display.
 
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Request variable varname">Request</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Request</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>View access to the area the list is in</p> <p>For example, to apply a quick filter to a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level.<br>For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can change your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access to the area the list is in</p> <p>For example, to apply a quick filter to a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level.<br>For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>View</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Apply a quick filter to a list
 
-## Apply a quick filter to a list {#apply-a-quick-filter-to-a-list}
-
-
-
-
-1.  Go to a list or report that supports quick filters, then click the `Quick Filter icon` ![](assets/qs-quick-filter-icon.png) in the toolbar.
-
-   Or 
-
-
-   Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of commands to launch the quick filter:
-
-    
-    
-    * ALT+F for Windows computers
-    * ALT+Shift+F for Internet Explorer on Windows computers
-    *  ALT/ Option+F for Mac computers
-    
-    
-      >[!TIP] {type="tip"}
-      >
-      >If you press CTRL+F or CMD+F, a tooltip displays next to the quick filter to remind you about these commands. The commands also display inside the quick filter search box.
-    
-    
-    
-    
-    
-
-1.  In the `Filter page` box, enter the keyword that you want to filter by.
-
-
-   You can use any word that currently displays in the view of the list.
-
-
-   >[!NOTE]
-   >
-   >If you use a word that might display on another page of the list, the quick filter does not find any results.
-
-
-   A list of items that match the search criteria display in the list dynamically as you type and all other items are hidden. The keyword you used in your search is highlighted in yellow in all standalone and complex fields. Some examples of complex fields are shared columns, or any of the following: Assignments, Assignments and Status, Percent Complete, Predecessors, Approvers and Status, Resource Managers, Categories, Condition, Condition Update, etc.
-
-1. (Optional) To bulk edit the items found by the quick filter:  
-
-    
-    
-    1. Select all or several of the items in the list, then click `Edit` to bulk edit the items.
-    1. After you complete your edits, click `Save Changes`.
-    
-    
-
-1.  (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click `Export`.
-
-
-   ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
-
-
-
-
-   >[!NOTE]
-   >
-   >Only the items you found in the quick filter search export to the file you selected. If you don't select any items before exporting the list, the complete, unfiltered list is exported.  
-   >For more information, see [Export a list](export-lists.md).
-
-
-
-1. (Optional) To clear the filtered results, click the `Quick Filter` icon in the top right corner of the window.  
-   Or  
-   Refresh the page.
-
-
+<ol> 
+ <li value="1"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a list or report that supports quick filters, then click the <span class="bold">Quick Filter icon</span><img src="assets/qs-quick-filter-icon.png"> in the toolbar.</p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a list or report that supports quick filters, then click the <span class="bold">Quick Filter icon</span><img src="assets/qs-quick-filter-icon.png"> in the toolbar.</p> 
+  <div> 
+   <p>Or </p> 
+   <p>Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of commands to launch the quick filter:</p> 
+   <ul> 
+    <li>ALT+F for Windows computers</li> 
+    <li>ALT+Shift+F for Internet Explorer on Windows computers</li> 
+    <li> <p>ALT/ Option+F for Mac computers</p> <note type="tip">
+      If you press CTRL+F or CMD+F, a tooltip displays next to the quick filter to remind you about these commands. The commands also display inside the quick filter search box.
+     </note> </li> 
+   </ul> 
+  </div> </li> 
+ <li value="2"> <p>In the <span class="bold">Filter page</span> box, enter the keyword that you want to filter by.</p> <p>You can use any word that currently displays in the view of the list.</p> <note type="note">
+   If you use a word that might display on another page of the list, the quick filter does not find any results.
+  </note> <p>A list of items that match the search criteria display in the list dynamically as you type and all other items are hidden. The keyword you used in your search is highlighted in yellow in all standalone and complex fields. Some examples of complex fields are shared columns, or any of the following: Assignments, Assignments and Status, Percent Complete, Predecessors, Approvers and Status, Resource Managers, Categories, Condition, Condition Update, etc.</p> </li> 
+ <li value="3">(Optional) To bulk edit the items found by the quick filter:<br>
+  <ol>
+   <li value="1">Select all or several of the items in the list, then click <span class="bold">Edit</span> to bulk edit the items.</li>
+   <li value="2">After you complete your edits, click <span class="bold">Save Changes</span>.</li>
+  </ol></li> 
+ <li value="4"> <p>(Optional) To export the items found by the quick filter, select all or several of the items in the list, then click <span class="bold">Export</span>.</p> <p> <img src="assets/select-all-projects-with-highlight--1--350x173.png" alt="select_all_projects_with_highlight__1_.png" style="width: 350;height: 173;"> </p> <note type="note">
+   Only the items you found in the quick filter search export to the file you selected. If you don't select any items before exporting the list, the complete, unfiltered list is exported.
+   <br>For more information, see 
+   <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Export a list</a>.
+  </note> </li> 
+ <li value="5">(Optional) To clear the filtered results, click the <span class="bold">Quick Filter</span> icon in the top right corner of the window.<br>Or<br>Refresh the page.</li> 
+</ol>
 

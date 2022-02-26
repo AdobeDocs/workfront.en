@@ -3,86 +3,91 @@ filename: view-and-manage-documents-in-gsuite
 product-area: workfront-integrations;documents
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
+title: View and manage documents from G Suite
+description: You can view and manage documents associated with a Adobe Workfront object without leaving G Suite.
 ---
 
+# View and manage documents from G&nbsp;Suite
 
+You can view and manage documents associated with a *Adobe Workfront* object without leaving G Suite.
 
-# View and manage documents from G&nbsp;Suite {#view-and-manage-documents-from-g-suite}
-
-You can view and manage documents associated with a *`Adobe Workfront`* object without leaving G Suite. 
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Work, Plan</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Work, Plan</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         Example: Edit access to Documents 
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents 
+      </MadCap:conditionalText></p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[Insert any access level configurations needed] <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       Example: Edit access to Documents 
+     </MadCap:conditionalText></p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         Example: View access or higher on Documents 
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents 
+      </MadCap:conditionalText></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[Insert permissions needed and specify the object] <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       Example: View access or higher on Documents 
+     </MadCap:conditionalText></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Prerequisites
 
-## Prerequisites {#prerequisites}
+Before you can view or manage *Workfront* documents in G Suite, you must
 
-Before you can view or manage *`Workfront`* documents in G Suite, you must
+* Install *Workfront* for G suite  
+  For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
+## View and manage *Workfront* documents in G Suite
 
+<ol> 
+ <li value="1">If the <em>Workfront for G Suite</em> panel is not displayed, click the&nbsp;<em>Workfront</em> icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page. </li> 
+ <li value="2"> <p>Go to the <em>Workfront</em> task or issue within G Suite, as described in <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md" class="MCXref xref">Access Adobe Workfront Home content from G Suite</a>.</p> </li> 
+ <li value="3"> <p>Click <span class="bold">Documents</span>.</p> <p>The number indicates how many documents have been uploaded to the task or issue, both as attached files and as shared files stored in the cloud. </p> <p>Folders and documents uploaded to the task and issue appear in a list. You can click any folder to list the documents inside.</p> </li> 
+ <li value="4"> <p>(Optional) Click the name of a document to view information about it.</p> <p>When you are viewing information about a document, the information at the top of <em>Workfront for G Suite</em> displays the parent object of the document and the name of the document. Below, you can view additional information about the document, such as the owner, the date when it was added to the object, and its size. </p> </li> 
+ <li value="5"> <p>(Optional) Click <span class="bold">Updates</span> to view or post any updates about the document, then click <span class="bold">Details</span> to return to viewing information about the document. </p> <p>If you need information about posting updates or replies, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md" class="MCXref xref">Update a Adobe Workfront object from G Suite</a>.</p> </li> 
+ <li value="6"> <p>(Optional) Click the <span class="bold">Download</span> icon <img src="assets/download-icon.png"> to download a document in the list.</p> <p>Or</p> <p>If the document is saved on a cloud drive, click the <span class="bold">Open</span> icon <img src="assets/open-icon.png"> .</p> </li> 
+ <li value="7"> <p>Click <span class="bold">View in Workfront</span>&nbsp;to go to the Document Details page for the document in <em>Workfront</em>.</p> </li> 
+</ol>
 
-* Install *`Workfront`* for G suite  
-  For instructions, see [Install Adobe Workfront for G Suite](install-workfront-for-gsuite.md).
-
-
-
-
-
-## View and manage *`Workfront`* documents in G Suite {#view-and-manage-workfront-documents-in-g-suite}
-
-
-
-
-1. If the *`Workfront for G Suite`* panel is not displayed, click the  *`Workfront`* icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
-
-1.  Go to the *`Workfront`* task or issue within G Suite, as described in [Access Adobe Workfront Home content from G Suite](access-wf-home-content-from-g-suite.md).
-1.  Click `Documents`.
-
-
-   The number indicates how many documents have been uploaded to the task or issue, both as attached files and as shared files stored in the cloud. 
-
-
-   Folders and documents uploaded to the task and issue appear in a list. You can click any folder to list the documents inside.
-
-1.  (Optional) Click the name of a document to view information about it.
-
-
-   When you are viewing information about a document, the information at the top of *`Workfront for G Suite`* displays the parent object of the document and the name of the document. Below, you can view additional information about the document, such as the owner, the date when it was added to the object, and its size. 
-
-1.  (Optional) Click `Updates` to view or post any updates about the document, then click `Details` to return to viewing information about the document. 
-
-
-   If you need information about posting updates or replies, see [Update a Adobe Workfront object from G Suite](update-a-workfront-object-in-gsuite.md).
-
-1.  (Optional) Click the `Download` icon ![](assets/download-icon.png) to download a document in the list.
-
-
-   Or
-
-
-   If the document is saved on a cloud drive, click the `Open` icon ![](assets/open-icon.png) .
-
-1.  Click `View in Workfront` to go to the Document Details page for the document in *`Workfront`*.
-
-
-You can also view and manage documents (and other details) associated with a *`Workfront`* object in G Suite when you receive a *`Workfront`* notification email about the object. For more information, see [Manage Adobe Workfront notification details from G Suite](manage-wf-email-notification-details-in-gsuite.md).
-`<li>For information about using the Details tab in <span class="mc-variable WFVariables.Integration-GS variable varname">Workfront for G Suite</span>, see <a href="view-manage-work-item-details-in-gsuite.md" class="MCXref xref">View and manage Adobe Workfront object details from G Suite</a>.</li>` `<li>For information about using the Updates tab in <span class="mc-variable WFVariables.Integration-GS variable varname">Workfront for G Suite</span>, see <a href="update-a-workfront-object-in-gsuite.md" class="MCXref xref">Update a Adobe Workfront object from G Suite</a>.</li>` &nbsp;
+You can also view and manage documents (and other details) associated with a *Workfront* object in G Suite when you receive a *Workfront* notification email about the object. For more information, see [Manage Adobe Workfront notification details from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
+`<li>For information about using the Details tab in <em>Workfront for G Suite</em>, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md" class="MCXref xref">View and manage Adobe Workfront object details from G Suite</a>.</li>` `<li>For information about using the Updates tab in <em>Workfront for G Suite</em>, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md" class="MCXref xref">Update a Adobe Workfront object from G Suite</a>.</li>` &nbsp;

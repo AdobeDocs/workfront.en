@@ -3,127 +3,60 @@ filename: upload-new-content
 product: workfront-library
 product-area: documents
 navigation-topic: content-management
+title: Upload content to Workfront Library
+description: If you have Manager or higher access to Workfront Library, you can upload new content.
 ---
 
+# Upload content to *Workfront Library*
 
+If you have Manager or higher access to *Workfront Library*, you can upload new content.
 
-# Upload content to *`Workfront Library`* {#upload-content-to-workfront-library}
+## Understand uploading content to *Workfront Library*
 
-If you have Manager or higher access to *`Workfront Library`*, you can upload new content.
+When you upload new content, *Workfront Library* designates you as the owner of that content and uploads it to your My Content area. Initially, only you and users with Admin access to *Workfront Library* can access the content. You can give others access to the content by sharing it with them. For information on sharing items, see [ [Share a Workfront Library item with other users](../../workfront-library/content-management/share-an-asset-with-users.md).](../../workfront-library/content-management/share-an-asset-with-users.md)
 
+You can upload a single file or a batch of files.&nbsp;While there is no limit&nbsp;on the number of files you can batch upload, performance is significantly affected when you upload 10 or more files.
 
-## Understand uploading content to *`Workfront Library`* {#understand-uploading-content-to-workfront-library}
+Before being uploaded, each file is processed to extract any Exif and XMP metadata embedded on the file. For information about metadata, see [Overview of metadata in Workfront Library](../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
-When you upload new content, *`Workfront Library`* designates you as the owner of that content and uploads it to your My Content area. Initially, only you and users with Admin access to *`Workfront Library`* can access the content. You can give others access to the content by sharing it with them. For information on sharing items, see [ [Share a Workfront Library item with other users](share-an-asset-with-users.md).](share-an-asset-with-users.md)
+You can enter additional metadata for each file individually or for multiple files. Before a file can be uploaded to *Workfront Library*, all the required metadata fields must be filled in.
 
+You can also add documents that are uploaded to projects, tasks, or issues in *Workfront* to *Workfront Library*. For information on adding documents from *Workfront*, see [Send documents from Workfront to Workfront Library](../../workfront-library/content-management/send-documents-from-wf-to-library.md).
 
-You can upload a single file or a batch of files.&nbsp;While there is no limit&nbsp;on the number of files you can batch upload, performance is significantly affected when you upload 10 or more files. 
+There is no restriction on the file size or types of files that can be uploaded to *Workfront Library*.
 
-
-Before being uploaded, each file is processed to extract any Exif and XMP metadata embedded on the file. For information about metadata, see [Overview of metadata in Workfront Library](metadata-overview.md). 
-
-
-You can enter additional metadata for each file individually or for multiple files. Before a file can be uploaded to *`Workfront Library`*, all the required metadata fields must be filled in. 
-
-
-You can also add documents that are uploaded to projects, tasks, or issues in *`Workfront`* to *`Workfront Library`*. For information on adding documents from *`Workfront`*, see [Send documents from Workfront to Workfront Library](send-documents-from-wf-to-library.md).
-
-
-There is no restriction on the file size or types of files that can be uploaded to *`Workfront Library`*. 
-
-
-You cannot upload a file using third-party applications such as Google Drive and SharePoint. 
-
+You cannot upload a file using third-party applications such as Google Drive and SharePoint.
 
 >[!NOTE]
 >
->*`Workfront Library`* does not prevent duplicate filenames. If you upload a file that has the same filename of a file already in *`Workfront Library`*, you will have two files with the same filename. 
+>*Workfront Library* does not prevent duplicate filenames. If you upload a file that has the same filename of a file already in *Workfront Library*, you will have two files with the same filename.
 
+## Upload content to *Workfront Library*
 
-
-
-## Upload content to *`Workfront Library`* {#upload-content-to-workfront-library-1}
-
-
-
-
-1.  In *`Workfront`*, click the `Main Menu` icon ![](assets/main-menu-icon.png), then select `Library` to open *`Workfront Library`* in a new browser tab.
-1.  In the upper-left corner of *`Workfront Library`*, click the `Menu` icon ![](assets/library-menu-icon.png).
-1.  Select `My Content` in the left panel.
-1. (Optional) To upload content to a folder, navigate to and open the desired folder. 
-1.  Click the `Add New` icon ![](assets/add-icon---library.png)in the upper-right corner, then select `Upload File`.
-
-
-   The file uploading area displays
-
-
-   ![](assets/uploadnew-350x164.png)
-
-
-
-1.  Select the files you want to upload.
-
-    
-    
-    *  To drag and drop files located on your workstation, select the file or files you want to upload, then drag and drop the files into the file uploading area. 
-    
-    
-      >[!NOTE]
-      >
-      >If you are using Internet Explorer as your browser application, you cannot use the drag-and-drop functionality. 
-    
-    
-    
-    * To browse for files, click the `Browse` link, browse to and select the file or files you want to upload, then click `Open`. 
-    
-    
-    
-   The Upload new asset area opens 
-
-
-   A list the files you are uploading display on the left. Before the files are uploaded, *`Workfront Library`* processes the files, identifies whether there is embedded metadata for each file, and creates thumbnails. 
-
-
-   In the Metadata panel on the right, you can view pre-filled metadata for each file and enter additional metadata information for the items you are uploading.
-
-1.  Add metadata to the processed files.
-
-    
-    
-    *  To add metadata to an individual file: Select the file to which you want to add metadata, then add the metadata information to the fields in the Metadata panel.
-    *  To bulk-add metadata to multiple files: Select the files to which you want to add metadata, then add metadata information to the fields in the Metadata panel.
-    
-    
-      The metadata is added to the selected files. 
-    
-    
-    
-
-
-   >[!NOTE]
-   >
-   >Before the files can be uploaded to *`Workfront Library`*, all required metadata fields must be completed for all the content being uploaded. 
-
-
-
-1.  Click the `Keywords` drop-down arrow, select the applicable keywords.
-
-
-   Or
-
-
-   Begin typing the desired keyword, then select it when it displays in the drop-down list.
-
-
-   A drop-down arrow displays next to keywords with child keywords. You can view and select child keywords by clicking the drop-down arrow.
-
-1.  Click `Upload`.
-
-
-   The files upload to *`Workfront Library`*. You can now share the uploaded items with others. 
-
-
-   For information on giving others access to the item, see [Share a Workfront Library item with other users](share-an-asset-with-users.md).
-
-
+<ol> 
+ <li value="1"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of <em>Workfront Library</em>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="3"> <p>Select <span class="bold">My Content</span> in the left panel.</p> </li> 
+ <li value="4">(Optional) To upload content to a folder, navigate to and open the desired folder. </li> 
+ <li value="5"> <p>Click the <span class="bold">Add New</span> icon <img src="assets/add-icon---library.png">in the upper-right corner, then select <span class="bold">Upload File</span>.</p> <p>The file uploading area displays</p> <p> <img src="assets/uploadnew-350x164.png" style="width: 350;height: 164;"> </p> </li> 
+ <li value="6"> <p>Select the files you want to upload.</p> 
+  <ul> 
+   <li> <p>To drag and drop files located on your workstation, select the file or files you want to upload, then drag and drop the files into the file uploading area. </p> <note type="note">
+     If you are using Internet Explorer as your browser application, you cannot use the drag-and-drop functionality. 
+    </note> </li> 
+   <li>To browse for files, click the <span class="bold">Browse</span> link, browse to and select the file or files you want to upload, then click <span class="bold">Open</span>. </li> 
+  </ul> <p>The Upload new asset area opens </p> <p>A list the files you are uploading display on the left. Before the files are uploaded, <em>Workfront Library</em> processes the files, identifies whether there is embedded metadata for each file, and creates thumbnails. </p> <p> In the Metadata panel on the right, you can view pre-filled metadata for each file and enter additional metadata information for the items you are uploading.</p> </li> 
+ <li value="7"> <p>Add metadata to the processed files.</p> 
+  <ul> 
+   <li> <p>To add metadata to an individual file: Select the file to which you want to add metadata, then add the metadata information to the fields in the Metadata panel.</p> </li> 
+   <li> <p>To bulk-add metadata to multiple files: Select the files to which you want to add metadata, then add metadata information to the fields in the Metadata panel.</p> <p>The metadata is added to the selected files. </p> </li> 
+  </ul> <note type="note">
+   Before the files can be uploaded to 
+   <em>Workfront Library</em>, all required metadata fields must be completed for all the content being uploaded. 
+  </note> </li> 
+ <li value="8"> <p>Click the <span class="bold">Keywords</span> drop-down arrow, select the applicable keywords.</p> <p>Or</p> <p>Begin typing the desired keyword, then select it when it displays in the drop-down list.</p> <p>A drop-down arrow displays next to keywords with child keywords. You can view and select child keywords by clicking the drop-down arrow.</p> </li> 
+ <li value="9"> <p>Click <span class="bold">Upload</span>.</p> <p>The files upload to <em>Workfront Library</em>. You can now share the uploaded items with others. </p> <p>For information on giving others access to the item, see <a href="../../workfront-library/content-management/share-an-asset-with-users.md" class="MCXref xref">Share a Workfront Library item with other users</a>.</p> </li> 
+</ol>
 

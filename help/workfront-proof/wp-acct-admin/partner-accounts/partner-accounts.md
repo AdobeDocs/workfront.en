@@ -4,24 +4,18 @@ content-type: reference
 product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
+title: Partner accounts in Workfront Proof
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Partner accounts in *Workfront Proof*
 
-
-# Partner accounts in *`Workfront Proof`* {#partner-accounts-in-workfront-proof}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-
-
-* [Manage a partner relationship between Workfront Proof accounts](manage-partner-relationship-between-wp-accts.md) 
-* [Share items with a partner in Workfront Proof](share-items-partner-in-wp.md) 
-
+* [Manage a partner relationship between Workfront Proof accounts](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md) 
+* [Share items with a partner in Workfront Proof](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
 

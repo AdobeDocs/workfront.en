@@ -2,143 +2,133 @@
 filename: edit-report-settings
 product-area: reporting
 navigation-topic: create-and-manage-reports
+title: Edit report settings
+description: You can edit the settings of a report to define how it displays for other users, or what kind of information can users prompt for before they run the report.
 ---
 
+# Edit report settings
 
+You can edit the settings of a report to define how it displays for other users, or what kind of information can users prompt for before they run the report.
 
-# Edit report settings {#edit-report-settings}
-
-You can edit the settings of a report to define how it displays for other users, or what kind of information can users prompt for before they run the report. 
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Access level configurations*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Object permissions</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-
-## Walk-through {#walk-through}
+## Walk-through
 
 View the following video to learn how to edit report settings.
 
+This video was recorded in *Adobe Workfront*Classic. However, the content also applies to the new *Adobe Workfront* experience.
 
-This video was recorded in *`Adobe Workfront`*Classic. However, the content also applies to the new *`Adobe Workfront`* experience.
+[ ![](assets/video-report-settings-350x197.png)](https://workfront-video.wistia.com/medias/8ie4xzc5id)
 
+## How-to steps
 
-[ ![](assets/video-report-settings-350x197.png)](https://workfront-video.wistia.com/medias/8ie4xzc5id) 
+<ol> 
+ <li value="1"> <draft-comment>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Start creating a report by going to the <span class="bold">Main menu</span> > <span class="bold">Reports</span>, then select the object of your report.</p>
+  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Start creating a report by going to the <span class="bold">Main menu</span> > <span class="bold">Reports</span>, then select the object of your report.</p> <p>Or</p> <p>Open an existing report, then click <span class="bold">Report Actions</span> > <span class="bold">Edit</span>.</p> </li> 
+ <li value="2"> <p>Click <span class="bold">Report Settings</span> in the upper-right corner of the report builder.</p> </li> 
+ <li value="3"> <p>Configure the following report settings:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Report Title</td> 
+     <td>Specify a title for the report.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Description</td> 
+     <td>Specify a statement describing the purpose and uses of the report.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Run this report with the Access Rights of</td> 
+     <td>Select the user whose access rights you want this report to use when displaying for other users. For more information about running a report with the access rights of another user, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">When the Report loads, show the</td> 
+     <td>Select the default tab that is displayed for all users when the report loads.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">When the report loads on a dashboard, show ... items</td> 
+     <td>Specify the number of items that are displayed for all users when the report loads on a dashboard. The default is 15 items and the maximum number of items is 200.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Show the Resource Grid view on the Details tab</td> 
+     <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <note type="note">
+        When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. 
+       <draft-comment>
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         For more information about using the Resource Grid, see the article Overview of the Resource Grid .
+        </MadCap:conditionalText>
+       </draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        For more information about using the Resource Grid, see the article Overview of the Resource Grid .
+       </MadCap:conditionalText>
+      </note> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Show a special view on the Details tab</td> 
+     <td>(Project Report Only) Specify the type of view users will see when they access this information on the Details tab. For example, you can select a Milestone or Gantt view.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Show this report in a Gantt view by default</td> 
+     <td>(Project Report and Task Report Only) Select this option to have the Gantt view automatically enabled when users view the Details tab in this report.<br>For more information about viewing the Gantt chart in project reports and task reports, see the section "View task information in the project list Gantt Chart" in the article <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">View information in the Gantt Chart </a>.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Allow View to be changed on the report</td> 
+     <td>Select this option to allow users to change the View when running the report.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Allow Group to be changed on the report</td> 
+     <td>Select this option to allow users to change the Group when running the report.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Allow Filter to be changed on the report</td> 
+     <td>Select this option to allow users to change the Filter when running the report.</td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="4">Click <span class="bold">Report Prompts</span> to set up any prompts for the report.<br>For more information about adding prompts to a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</li> 
+ <li value="5">Click<span class="bold"> Done,</span> then click <span class="bold">Save + Close</span>.</li> 
+</ol>
 
-
-## How-to steps {#how-to-steps}
-
-
-
-
-1.  Start creating a report by going to the `Main menu` > `Reports`, then select the object of your report.
-
-
-   Or
-
-
-   Open an existing report, then click `Report Actions` > `Edit`.
-
-1.  Click `Report Settings` in the upper-right corner of the report builder.
-1.  Configure the following report settings:
-
-<table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Report Title</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Specify a title for the report.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Description</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Specify a statement describing the purpose and uses of the report.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Run this report with the Access Rights of</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Select the user whose access rights you want this report to use when displaying for other users. For more information about running a report with the access rights of another user, see the article <a href="run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">When the Report loads, show the</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Select the default tab that is displayed for all users when the report loads.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">When the report loads on a dashboard, show ... items</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Specify the number of items that are displayed for all users when the report loads on a dashboard. The default is 15 items and the maximum number of items is 200.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Show the Resource Grid view on the Details tab</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <p>Note:  When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. </p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Show a special view on the Details tab</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">(Project Report Only) Specify the type of view users will see when they access this information on the Details tab. For example, you can select a Milestone or Gantt view.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Show this report in a Gantt view by default</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">(Project Report and Task Report Only) Select this option to have the Gantt view automatically enabled when users view the Details tab in this report.<br>For more information about viewing the Gantt chart in project reports and task reports, see the section "View task information in the project list Gantt Chart" in the article <a href="view-info-in-gantt.md" class="MCXref xref">View information in the Gantt Chart </a>.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Allow View to be changed on the report</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Select this option to allow users to change the View when running the report.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Allow Group to be changed on the report</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Select this option to allow users to change the Group when running the report.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Allow Filter to be changed on the report</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Select this option to allow users to change the Filter when running the report.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-1. Click `Report Prompts` to set up any prompts for the report.  
-   For more information about adding prompts to a report, see the article [Add a prompt to a report](add-prompt-report.md).
-
-1. Click `Done,`then click `Save + Close`.
-
-
-
-
-
-## Additional information {#additional-information}
+## Additional information
 
 See also:
 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p> </li>
+  -->
 
-
-*  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
-* [Get started with reports in Adobe Workfront](get-started-reports-workfront.md) 
-* [Use Adobe Workfront built-in reports](use-workfront-built-in-reports.md) 
-* [Create a custom report](create-custom-report.md) 
-
+* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
+* [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) 
+* [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) 
+* [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
 

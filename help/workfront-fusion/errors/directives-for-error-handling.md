@@ -4,109 +4,116 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
+title: Directives for error handling
+description: You must have the following access to use the functionality in this article:
 ---
 
+# Directives for error handling
 
-
-# Directives for error handling {#directives-for-error-handling}
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> <p data-mc-conditions="SnippetConditions.HIDE"><span class="mc-variable WFVariables.WFFusionAutomation variable varname">Workfront Fusion for Work Automation</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
+     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
+    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Directives for error handling {#directives-for-error-handling-1}
+## Directives for error handling
 
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> <p>Rollback</p> <p> <img src="assets/rollback.png"> </p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Scenario execution is stopped immediately and a <a href="scenario-execution-cycles-phases.md#rollback" class="MCXref xref">Rollback</a> phase is started on all the modules in an attempt to revert them all to their initial state. The subsequent modules are not processed.</p> <p>Barring a few error types, the scenario is deactivated after the number of consecutive errors specified under Scenario settings. For more information, see <a href="scenario-settings-panel.md#number" class="MCXref xref">Number of consecutive errors</a>.</p> <p>The scenario execution status is marked as "error."</p> <p>Note: This is the default behavior if no error handler route is attached to the module and the <a href="scenario-settings-panel.md#allow" class="MCXref xref">Allow storing incomplete executions</a> setting under Scenario settings is not checked.</p> </td> 
+  <tr> 
+   <td role="rowheader"> <p>Rollback</p> <p> <img src="assets/rollback.png"> </p> </td> 
+   <td> <p>Scenario execution is stopped immediately and a <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback" class="MCXref xref">Rollback</a> phase is started on all the modules in an attempt to revert them all to their initial state. The subsequent modules are not processed.</p> <p>Barring a few error types, the scenario is deactivated after the number of consecutive errors specified under Scenario settings. For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#number" class="MCXref xref">Number of consecutive errors</a>.</p> <p>The scenario execution status is marked as "error."</p> <p>Note: This is the default behavior if no error handler route is attached to the module and the <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">Allow storing incomplete executions</a> setting under Scenario settings is not checked.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"> <p>Commit</p> <p> <img src="assets/commit.png"> </p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Scenario execution is stopped immediately and a commit phase is started on all modules. The subsequent modules are not processed.</p> <p>All unprocessed bundles are ignored.</p> <p>The scenario execution status is marked as "success." For information about commit phases, see <a href="scenario-execution-cycles-phases.md#commit" class="MCXref xref">Commit</a> in the article <a href="scenario-execution-cycles-phases.md" class="MCXref xref">Scenario execution, cycles, and phases</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"> <p>Commit</p> <p> <img src="assets/commit.png"> </p> </td> 
+   <td> <p>Scenario execution is stopped immediately and a commit phase is started on all modules. The subsequent modules are not processed.</p> <p>All unprocessed bundles are ignored.</p> <p>The scenario execution status is marked as "success." For information about commit phases, see <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit" class="MCXref xref">Commit</a> in the article <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Scenario execution, cycles, and phases</a>.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" style="font-weight: normal;" role="rowheader"> <p>Resume</p> <p> <img src="assets/resume.png"> </p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>A substitute output is specified and supplied to the module that encounters an error.</p> <p>The subsequent modules are processed.</p> <p>The scenario execution status is marked as "success."</p> </td> 
+  <tr> 
+   <td role="rowheader"> <p>Resume</p> <p> <img src="assets/resume.png"> </p> </td> 
+   <td> <p>A substitute output is specified and supplied to the module that encounters an error.</p> <p>The subsequent modules are processed.</p> <p>The scenario execution status is marked as "success."</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"> <p>Ignore</p> <p> <img src="assets/ignore.png"> </p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>The error is ignored and the subsequent modules are not processed.</p> <p>If there are unprocessed bundles, the scenario execution continues normally.</p> <p>The scenario execution status is marked as "success."</p> </td> 
+  <tr> 
+   <td role="rowheader"> <p>Ignore</p> <p> <img src="assets/ignore.png"> </p> </td> 
+   <td> <p>The error is ignored and the subsequent modules are not processed.</p> <p>If there are unprocessed bundles, the scenario execution continues normally.</p> <p>The scenario execution status is marked as "success."</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> <p>Break</p> <p> <img src="assets/break.png"> </p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>The state of the scenario execution is stored in the queue of incomplete executions where the error can be resolved manually. For more information, see <a href="view-and-resolve-incomplete-executions.md" class="MCXref xref">View and resolve incomplete executions</a>. </p> <p>There are, however, some exceptions. For more information, see <a href="scenario-settings-panel.md#allow" class="MCXref xref">Allow storing incomplete executions</a> in the article <a href="scenario-settings-panel.md" class="MCXref xref">Scenario settings panel</a>.</p> <p>The subsequent modules are not processed.</p> <p>If there are unprocessed bundles, the scenario execution continues normally.</p> <p>The scenario execution status is marked as "warning" when the Automatically complete execution option is disabled.</p> <p>See the <a href="#break" class="MCXref xref">Break</a> section below for further information.</p> </td> 
+  <tr> 
+   <td role="rowheader"> <p>Break</p> <p> <img src="assets/break.png"> </p> </td> 
+   <td> <p>The state of the scenario execution is stored in the queue of incomplete executions where the error can be resolved manually. For more information, see <a href="../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">View and resolve incomplete executions</a>. </p> <p>There are, however, some exceptions. For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">Allow storing incomplete executions</a> in the article <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Scenario settings panel</a>.</p> <p>The subsequent modules are not processed.</p> <p>If there are unprocessed bundles, the scenario execution continues normally.</p> <p>The scenario execution status is marked as "warning" when the Automatically complete execution option is disabled.</p> <p>See the <a href="#break" class="MCXref xref">Break</a> section below for further information.</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"> <p>Retry</p> <p> <img src="assets/retry.png"> </p> </td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>In some cases it could be useful to re-execute a failing module for a couple of times when there is a chance that the reason for the failure might pass over time.</p> <p><span class="mc-variable WFVariables.ProdNameWFF variable varname">Workfront Fusion</span> currently does not offer the Retry directive, though several workarounds can be employed to mimic its functionality. For more information, see <a href="retry.md" class="MCXref xref">Retry</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"> <p>Retry</p> <p> <img src="assets/retry.png"> </p> </td> 
+   <td> <p>In some cases it could be useful to re-execute a failing module for a couple of times when there is a chance that the reason for the failure might pass over time.</p> <p><em>Workfront Fusion</em> currently does not offer the Retry directive, though several workarounds can be employed to mimic its functionality. For more information, see <a href="../../workfront-fusion/errors/retry.md" class="MCXref xref">Retry</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-
 
 >[!NOTE]
 >
->Currently the error handling directives cannot be used out of the scope of an error handling route and *`Workfront Fusion`* currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality. For more information, see [Error handler route](error-handling.md#error) in the article [Error handling](error-handling.md). Also see [Workaround for Throw](throw.md#workarou) in the article [Throw](throw.md).
+>Currently the error handling directives cannot be used out of the scope of an error handling route and *Workfront Fusion* currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality. For more information, see [Error handler route](../../workfront-fusion/errors/error-handling.md#error) in the article [Error handling](../../workfront-fusion/errors/error-handling.md). Also see [Workaround for Throw](../../workfront-fusion/errors/throw.md#workarou) in the article [Throw](../../workfront-fusion/errors/throw.md).
 
+## Break
 
+When an error is handled by the Break directive, a record is created in the [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder which stores the state of the scenario execution along with data from the prior modules. For each bundle of data that causes the error, a separate record is created.
 
-
-## Break {#break}
-
-When an error is handled by the Break directive, a record is created in the [View and resolve incomplete executions](view-and-resolve-incomplete-executions.md) folder which stores the state of the scenario execution along with data from the prior modules. For each bundle of data that causes the error, a separate record is created.
-
-
-The record references the module where the error originated and contains information regarding what data was received by the module as input. For more information, see [View and resolve incomplete executions](view-and-resolve-incomplete-executions.md).
-
+The record references the module where the error originated and contains information regarding what data was received by the module as input. For more information, see [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 Here, you may resolve the error manually by updating the scenario (if needed) and running it once.
 
-
 On the other hand, by enabling the Automatically complete execution option under the Break directive settings, it can be configured to automatically process an incomplete execution by re-executing the scenario after the specified number of minutes.
-
 
 With this option enabled, when an error takes place, the incomplete execution is retrieved (after the time specified in the Interval between attempts field) and executed with the original input data. This will repeat until the execution of the module completes without an error or until the Number of attempts specified is reached.
 
-
-When "Automatically complete execution" is turned on, the scenario run is marked as "Success" because the Break error handler's auto-retry is handling the issue automatically. In this case, users do not receive an email about the failed run. 
-
+When "Automatically complete execution" is turned on, the scenario run is marked as "Success" because the Break error handler's auto-retry is handling the issue automatically. In this case, users do not receive an email about the failed run.
 
 When "Automatically complete execution" is turned off, the run is marked as "Warning". ![](assets/break-directive-350x241.png)
 
+However, there are some exceptions to executions being stored under Incomplete Executions and with some error types, the auto-retry of a scenario execution is not possible. For more information, see [Allow storing incomplete executions](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) in the article [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
-
-
-However, there are some exceptions to executions being stored under Incomplete Executions and with some error types, the auto-retry of a scenario execution is not possible. For more information, see [Allow storing incomplete executions](scenario-settings-panel.md#allow) in the article [Scenario settings panel](scenario-settings-panel.md).
-
-
-For additional information, see [Advanced error handling](advanced-error-handling.md).
+For additional information, see [Advanced error handling](../../workfront-fusion/errors/advanced-error-handling.md).

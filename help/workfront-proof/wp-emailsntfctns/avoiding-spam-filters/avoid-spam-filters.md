@@ -4,25 +4,19 @@ content-type: reference
 product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
+title: Avoid spam filters
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Avoid spam filters
 
-
-# Avoid spam filters {#avoid-spam-filters}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-
-
-* [Configure Workfront Proof emails to avoid spam filters](configure-wp-emails-avoid-spam-filters.md) 
-* [Configure spam settings for common email clients](configure-spam-settings-clients.md) 
-* [Workfront Proof SPF records](wp-spf-records.md) 
-
+* [Configure Workfront Proof emails to avoid spam filters](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md) 
+* [Configure spam settings for common email clients](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md) 
+* [Workfront Proof SPF records](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
 

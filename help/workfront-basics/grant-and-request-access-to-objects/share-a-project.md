@@ -3,365 +3,422 @@ filename: share-a-project
 title: Share a project
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
+title: Share a project in Adobe Workfront
+description: Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see Grant access to projects.
 ---
 
+# Share a project in *Adobe Workfront*
 
+Your *Adobe Workfront administrator* can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-# Share a project in *`Adobe Workfront`* {#share-a-project-in-adobe-workfront}
+Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific projects that you have access to share.
 
-Your *`Adobe Workfront administrator`* can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](grant-access-projects.md).
+Permissions are specific to one item in *Workfront* and define what actions one can take on that item.
 
+## Considerations about sharing projects
 
-Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific projects that you have access to share. 
+In addition to the considerations below, also see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
+<ul> 
+ <li> <p>By default, the creator of a project has permissions to manage the project and is also designated as the Project Owner. If the project is assigned to another owner, that user also has permissions to manage the project. When the project creator (or owner) shares the project with other users, they grant certain permissions to those users to control what they can do as they work on the project.</p> <p>However, if a project owner does not have a Planner license, they do not have full access to manage the project. Only a user with a Plan license can have permissions to manage a project. For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md" class="MCXref xref">How access levels and permissions work together</a>.</p> </li> 
+ <li>You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in <em>Workfront</em>, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
+ <li> You can grant the following permissions to a project:&nbsp; 
+  <ul>
+   <li>View</li>
+   <li>Manage</li>
+   <li><p> Contribute</p><p><img src="assets/view-on-projects-190x207.png" style="width: 190;height: 207;"><img src="assets/contribute-on-projects-159x243.png" style="width: 159;height: 243;"><img src="assets/manage-on-projects-178x230.png" style="width: 178;height: 230;"><br></p></li>
+  </ul></li> 
+</ul>
 
-Permissions are specific to one item in *`Workfront`* and define what actions one can take on that item. 
+* When you share a project, all the tasks, issues, and documents inherit the same permissions, unless otherwise specified.
 
+  For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the 
 
+  <!--
+  <a href="../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></a>
+  -->
 
+  [](../../manage-work/projects/manage-projects/edit-projects.md#access) section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
+  The *Workfront administrator* can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-## Considerations about sharing projects {#considerations-about-sharing-projects}
+* You can remove inherited permissions from a project so that the children objects will not inherit them.&nbsp;For more information about removing inherited permissions from objects, see&nbsp; [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-In addition to the considerations below, also see [Overview of sharing permissions on objects in Adobe Workfront](sharing-permissions-on-objects-overview.md). 
-
-
-
-*  By default, the creator of a project has permissions to manage the project and is also designated as the Project Owner. If the project is assigned to another owner, that user also has permissions to manage the project. When the project creator (or owner) shares the project with other users, they grant certain permissions to those users to control what they can do as they work on the project.
-
-
-  However, if a project owner does not have a Planner license, they do not have full access to manage the project. Only a user with a Plan license can have permissions to manage a project. For more information, see [How access levels and permissions work together](how-access-levels-permissions-work-together.md).
-
-* You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in *`Workfront`*, see [Share an object in Adobe Workfront](share-an-object.md). 
-
-*  You can grant the following permissions to a project:&nbsp; 
-    
-    
-    * View
-    * Manage
-    *  Contribute
-    
-    
-      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)  
-
-    
-    
-    
-
-
-
-
-
-*  When you share a project, all the tasks, issues, and documents inherit the same permissions, unless otherwise specified. 
-
-
-  For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the [](edit-projects.md#access) section in the article [Edit projects](edit-projects.md). 
-
-
-  The *`Workfront administrator`* can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](create-modify-access-levels.md).
-
-*  You can remove inherited permissions from a project so that the children objects will not inherit them.&nbsp;For more information about removing inherited permissions from objects, see&nbsp; [Remove permissions from objects in Adobe Workfront](remove-permissions-from-objects.md). 
-
-
-
-
-
-## Ways to share a project {#ways-to-share-a-project}
+## Ways to share a project
 
 You can share a project in the following ways:
 
+* Manually by doing one of the following:
 
+  * Adding users to the project team. When you add users to the project team, they automatically obtain View permissions to the project.   
+    For more information about adding users to a project team, see the "Adding Users to a Project Team" section in [Project Team overview](../../manage-work/projects/planning-a-project/project-team-overview.md). 
+  * Individually or bulk-sharing the projects when using the `Sharing` option.
 
-*  Manually by doing one of the following:
+    Sharing a project is similar to sharing all other objects in *Adobe Workfront*.
 
-    
-    
-    *  Adding users to the project team. When you add users to the project team, they automatically obtain View permissions to the project.   
-      For more information about adding users to a project team, see the "Adding Users to a Project Team" section in [Project Team overview](project-team-overview.md). 
-    *  Individually or bulk-sharing the projects when using the `Sharing` option.
-    
-    
-      Sharing a project is similar to sharing all other objects in *`Adobe Workfront`*.
-    
-    
-      For information about sharing objects in *`Workfront`*, see [Share an object in Adobe Workfront](share-an-object.md). 
-    
-    
-    
+    For information about sharing objects in *Workfront*, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
+<ul> 
+ <li> <p>Automatically, by doing one of the following: </p> 
+  <ul> 
+   <li> <p>Place a project in a <span class="bold">Portfolio</span> or <span class="bold">Program</span> that is already shared with others. Users gain the same permissions to the project that they have for the portfolio or program. <br>For information about adding a project to a <span class="bold">Portfolio</span>, see <a href="../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md" class="MCXref xref">Add projects to a portfolio</a>.<br>For information about adding a project to a <span class="bold">Program</span>, see <a href="../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md" class="MCXref xref">Add a project to a program </a>.</p> <p>For information about viewing inherited permissions on an object, see <a href="../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md" class="MCXref xref">View inherited permissions on objects in Adobe Workfront</a>. </p> </li> 
+  </ul> 
+  <ul> 
+   <li> <p>Add entities to Project Sharing on a template used to create the project. For information about sharing projects from templates, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>. </p> </li> 
+   <li> <p>Define the project access template.</p> <p>To define the project access template, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </p> <note type="tip">
+     When attaching or saving a template, you can clear the Template Project Sharing rules.
+    </note> </li> 
+   <li> <p>Edit a project and defining the <b>When someone is given access to this project</b> setting.&nbsp;For more information, see <a href="../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> </li> 
+  </ul> </li> 
+</ul>
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>To view what users have inherited the access on the project from a portfolio or a program, do the following:</p>
+<ol style="list-style-type: lower-alpha;">
+<li value="1">Go to a project whose sharing permissions you want to view. </li>
+<li value="2"> <draft-comment>
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+Click the
+<span class="bold">More</span> menu
+<img src="assets/more-icon.png">, then click
+<span class="bold">Sharing</span>.
+</MadCap:conditionalText>
+</draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+Click the
+<span class="bold">More</span> menu
+<img src="assets/more-icon.png">, then click
+<span class="bold">Sharing</span>.
+</MadCap:conditionalText> </li>
+<li value="3"> <p>Expand the <span class="bold">Inherited Permissions</span> list. </p> <p>This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project. </p> <p> <img src="assets/screen-shot-2014-01-22-at-10.13.10-am-350x284.png" style="width: 350;height: 284;"> </p> </li>
+</ol>
+</div>
+-->
 
+To view what users have inherited the access on the project from a portfolio or a program, do the following:
 
+<ol style="list-style-type: lower-alpha;"> 
+ <li value="1">Go to a project whose sharing permissions you want to view. </li> 
+ <li value="2"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   Click the 
+   <span class="bold">More</span> menu 
+   <img src="assets/more-icon.png">, then click 
+   <span class="bold">Sharing</span>.
+  </MadCap:conditionalText> </li> 
+ <li value="3"> <p>Expand the <span class="bold">Inherited Permissions</span> list. </p> <p>This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project. </p> <p> <img src="assets/screen-shot-2014-01-22-at-10.13.10-am-350x284.png" style="width: 350;height: 284;"> </p> </li> 
+</ol>
 
+<!--
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch.</li>
+<li value="2"> <draft-comment>
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+Click the More menu, then click
+<span class="bold">Sharing</span>.
+</MadCap:conditionalText>
+</draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+Click the More menu, then click
+<span class="bold">Sharing</span>.
+</MadCap:conditionalText> </li>
+<li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <span class="bold">Set as my project access template</span>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the <em>Workfront administrator</em> in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li>
+<li value="4">Click <span class="bold">Save</span>.</li>
+</ol>
+-->
 
-*  Automatically, by doing one of the following: 
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+ <li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch.</li> 
+ <li value="2"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+   Click the More menu, then click 
+   <span class="bold">Sharing</span>.
+  </MadCap:conditionalText> </li> 
+ <li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <span class="bold">Set as my project access template</span>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the <em>Workfront administrator</em> in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li> 
+ <li value="4">Click <span class="bold">Save</span>.</li> 
+</ol>
 
-    
-    
-    *  Place a project in a `Portfolio` or `Program` that is already shared with others. Users gain the same permissions to the project that they have for the portfolio or program.   
-      For information about adding a project to a `Portfolio`, see [Add projects to a portfolio](add-projects-to-portfolios.md).  
-      For information about adding a project to a `Program`, see [Add a project to a program](add-project-to-program.md).
-    
-    
-      For information about viewing inherited permissions on an object, see [View inherited permissions on objects in Adobe Workfront](view-inherited-permissions-on-objects.md). 
-    
-    
-    
+## Limitations for different license types
 
-    
-    
-    *  Add entities to Project Sharing on a template used to create the project. For information about sharing projects from templates, see [Share a template overview](share-a-template.md). 
-    *  Define the project access template.
-    
-    
-      To define the project access template, see [Share an object in Adobe Workfront](share-an-object.md). 
-    
-    
-      >[!TIP] {type="tip"}
-      >
-      >When attaching or saving a template, you can clear the Template Project Sharing rules.
-    
-    
-    
-    *  Edit a project and defining the **When someone is given access to this project** setting.&nbsp;For more information, see [Edit projects](edit-projects.md). 
-    
-    
+* Users with a Worker license don't have&nbsp;permissions to manage projects. For Workers, the highest sharing permission is Contribute. 
+* Users with a Request license can view project information, but they have limited project access. 
+* An exception to changing the status of a project occurs when a user with View or Contribute permissions is also included in an approval process. They can approve the project, which changes the status of the project, but the status is the predefined status for approval or for rejection. 
+* To be able to copy a project, a user must also have access to create projects in their Access Level.
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="Configuring_Default_Permissions_for_Access_Levels_in_a_Project"></a>Configure default permissions for a project</h2>
+<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#sharing-a-project" class="MCXref xref">Ways to share a project</a>. </p>
+<p>To configure the default permissions that are included with each access level:</p>
+<ol>
+<li value="1">Go to the project where you want to set the default permissions.</li>
+<li value="2"> <p>Click <draft-comment>
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+the More menu
+<img src="assets/more-icon.png">, then click
+<span class="bold">Edit</span>.
+<img src="assets/edit-icon.png">
+</MadCap:conditionalText>
+</draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+the More menu
+<img src="assets/more-icon.png">, then click
+<span class="bold">Edit</span>.
+<img src="assets/edit-icon.png">
+</MadCap:conditionalText></p> <draft-comment>
+<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p>
+</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p> </li>
+<li value="3">Click <span class="bold">Access</span> in the list on the left.</li>
+<li value="4"> <p>In the <span class="bold">When someone is given access to this PROJECT</span> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#understanding-project-permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
+The
+<span class="bold">Delete</span> access in the
+<span class="bold">Manage</span> permission level determines whether users can&nbsp;delete the project itself. Users with
+<span class="bold">Manage</span> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have
+<span class="bold">Manage</span> permissions to the tasks and issues.&nbsp;
+</note> </li>
+<li value="5">Click <span class="bold">Save Changes</span>.</li>
+</ol>
+</div>
+-->
 
+## Configure default permissions for a project
 
+As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in [Ways to share a project](#sharing-a-project).
 
+To configure the default permissions that are included with each access level:
 
+<ol> 
+ <li value="1">Go to the project where you want to set the default permissions.</li> 
+ <li value="2"> <p>Click <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+    the More menu 
+    <img src="assets/more-icon.png">, then click 
+    <span class="bold">Edit</span>. 
+    <img src="assets/edit-icon.png">
+   </MadCap:conditionalText></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p> </li> 
+ <li value="3">Click <span class="bold">Access</span> in the list on the left.</li> 
+ <li value="4"> <p>In the <span class="bold">When someone is given access to this PROJECT</span> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#understanding-project-permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
+    The 
+   <span class="bold">Delete</span> access in the 
+   <span class="bold">Manage</span> permission level determines whether users can&nbsp;delete the project itself. Users with 
+   <span class="bold">Manage</span> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have 
+   <span class="bold">Manage</span> permissions to the tasks and issues.&nbsp;
+  </note> </li> 
+ <li value="5">Click <span class="bold">Save Changes</span>.</li> 
+</ol>
 
-## Limitations for different license types  {#limitations-for-different-license-types}
+## Project permission options
 
+The following table lists the permissions that users can grant when sharing a project. For more information about the access users get based on their license, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-
-
-*  Users with a Worker license don't have&nbsp;permissions to manage projects. For Workers, the highest sharing permission is Contribute. 
-*  Users with a Request license can view project information, but they have limited project access. 
-*  An exception to changing the status of a project occurs when a user with View or Contribute permissions is also included in an approval process. They can approve the project, which changes the status of the project, but the status is the predefined status for approval or for rejection. 
-*  To be able to copy a project, a user must also have access to create projects in their Access Level.
-
-
-
-
-## Project permission options {#project-permission-options}
-
-The following table lists the permissions that users can grant when sharing a project. For more information about the access users get based on their license, see [Grant access to projects](grant-access-projects.md).
-
-<table border="1" cellspacing="15" cellpadding="1" style="mc-table-style: url('../../Resources/TableStyles/TableStyle-HeaderRow.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-TableStyle-HeaderRow"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 566px;"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table border="1" cellspacing="15" cellpadding="1"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Actions</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Manage</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Contribute</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">View</span> </p> </th> 
+  <tr> 
+   <th> <p><span class="bold">Actions</span> </p> </th> 
+   <th> <p><span class="bold">Manage</span> </p> </th> 
+   <th> <p><span class="bold">Contribute</span> </p> </th> 
+   <th> <p><span class="bold">View</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Add Custom Form</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Add Custom Form</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Update Custom Fields</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Update Custom Fields</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Add An Approval Process</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Add An Approval Process</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Approve a Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>Approve a Project</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Approve hours</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Approve hours</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Create A Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Create A Project</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Add Document(s)</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>Add Document(s)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Add Issue(s)</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>Add Issue(s)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Add Task(s)</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Add Task(s)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Copy Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Copy Project</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Delete Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Delete Project</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Modify Planned Dates</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Modify Planned Dates</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Share Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>Share Project</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Share System-wide</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>Share System-wide</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>View Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>View Project</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Updates/ comments</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>Updates/ comments</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Change Status</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Change Status</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Log Hours</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Log Hours</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Edit Assignments</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Edit Assignments</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Manage Baseline</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Manage Baseline</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Manage Risks*</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Manage Risks*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Manage Finance*</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Manage Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Add/ Edit Expenses*</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Add/ Edit Expenses*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>View Finance*</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>View Finance*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Attach Template</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Attach Template</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Save As Template</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>Save As Template</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Add/ Edit Business Case</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Add/ Edit Business Case</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Edit Project Details</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Edit Project Details</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Edit Staffing</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Edit Staffing</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Export to MS Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>✓</p> </td> 
+  <tr> 
+   <td> <p>Export to MS Project</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Recalculate Finance/ Timeline*</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Recalculate Finance/ Timeline*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Set Queue Properties</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>&nbsp;</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>&nbsp;&nbsp;</p> </td> 
+  <tr> 
+   <td> <p>Set Queue Properties</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td> <p>&nbsp;&nbsp;</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>Edit Project in Bulk in a List</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>✓</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td> <p>Edit Project in Bulk in a List</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Users without access to financial data cannot manage risks and finances for projects, even if they have Edit access to projects. For information about access to financial data, see [Grant access to financial data](grant-access-financial.md).
+&#42;Users without access to financial data cannot manage risks and finances for projects, even if they have Edit access to projects. For information about access to financial data, see [Grant access to financial data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

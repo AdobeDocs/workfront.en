@@ -4,33 +4,23 @@ content-type: overview
 product: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
+title: The Dashboard in Workfront Proof
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# The Dashboard in *Workfront Proof*
 
-
-# The Dashboard in *`Workfront Proof`* {#the-dashboard-in-workfront-proof}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
+The Dashboard is the first page you see when you log in to your *Workfront Proof* account. It summarizes the activity in your *Workfront Proof* account and provides quick links to other sections and functions within *Workfront Proof*.
 
-The Dashboard is the first page you see when you log in to your *`Workfront Proof`* account. It summarizes the activity in your *`Workfront Proof`* account and provides quick links to other sections and functions within *`Workfront Proof`*. 
+The dashboard contains the following:
 
-
-The dashboard contains the following: 
-
-
-
-*  Organization logo (1) 
+* Organization logo (1) 
 * Top Navigation (2) 
 * Search (3)
-
-
-
-
 
 * Header menu (4) 
 * New Menu (5) 
@@ -38,202 +28,126 @@ The dashboard contains the following:
 * Welcome section (7) 
 * Overview (8) 
 * Recently accessed items (9) 
-* Recent activity (10) 
-
-
-
+* Recent activity (10)
 
 >[!NOTE]
 >
->The menus and links you are able to see and use on your Dashboard will depend on your user profile and permissions. 
-
-
+>The menus and links you are able to see and use on your Dashboard will depend on your user profile and permissions.
 
 ![](assets/dashboard-350x495.png)
 
-You can brand your account to show your own organization's logo, colors, custom links, and more. For more information, see [Brand the Workfront Proof site](brand-wp-site.md)." 
+You can brand your account to show your own organization's logo, colors, custom links, and more. For more information, see [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)."
 
+If you don't brand your account, the *Workfront Proof* logo and standard colors appear.
 
-If you don't brand your account, the *`Workfront Proof`* logo and standard colors appear. 
-
-
-## Header menu  {#header-menu}
+## Header menu
 
 ![](assets/header-menu-350x150.png) 
 
-### The user name  {#the-user-name}
+### The user name
 
-The user name (2) you've chosen will appear here. It can be changed in Personal settings. 
+The user name (2) you've chosen will appear here. It can be changed in Personal settings.
 
+### Settings
 
-### Settings  {#settings}
-
-Here (3) you can access your: 
-
-
+Here (3) you can access your:
 
 * Personal settings 
 * Account settings.
-*  Billing 
-
-
-
+* Billing
 
 >[!NOTE]
 >
 >The visibility of the above menus depends on your profile. Please see User profiles and permissions for more information.
 
+###  Help
 
-
-
-###  Help {#help}
-
-Here (4) you can access: 
-
-
+Here (4) you can access:
 
 * Help Articles
-*  Demo movies 
-
-
-
+* Demo movies
 
 >[!NOTE]
 >
->With our Select and Premium plans you can configure the Help options to point your users to your own content. Please see our Advanced branding options for more details. 
+>With our Select and Premium plans you can configure the Help options to point your users to your own content. Please see our Advanced branding options for more details.
 
-
-
-
-###  Logout  {#logout}
+###  Logout
 
 Click here to log out of your account.
 
+##  The new menu
 
-##  The new menu  {#the-new-menu}
+To open the New menu,
 
-To open the New menu, 
+1. Click the dropdown arrow (7).
 
+   The `New` menu has the following options:
 
-
-1.  Click the dropdown arrow (7). 
-
-
-   The `New` menu has the following options: 
-
-    
-    
-    * New Proof (8) 
-    * Upload file (9) 
-    * New folder (10) 
-    * New guest (11) 
-    * New user (12) 
-    * New group (13) 
-    
-    
-
-
+  * New Proof (8) 
+  * Upload file (9) 
+  * New folder (10) 
+  * New guest (11) 
+  * New user (12) 
+  * New group (13)
 
 ![](assets/new-proof-350x256.png)
 
+## The Dashboard menu
 
-
-
-## The Dashboard menu  {#the-dashboard-menu}
-
-The Dashboard menu contains the following menus: 
-
-
+The Dashboard menu contains the following menus:
 
 * Edit tags
 * Move to
 * More actions
 * Delete
 
+## Edit tags
 
-
-
-## Edit tags  {#edit-tags}
-
-The Edit tags menu (1) lets you: 
-
-
+The Edit tags menu (1) lets you:
 
 * Apply a tag to an item or items 
 * Create new tags 
-* Manage tags (2) 
-
+* Manage tags (2)
 
 ![](assets/edit-tags-350x204.png)
 
+## Move to
 
+This function lets you move *proofs* and files to one of your folders. To do this:
 
+<ol> 
+ <li value="1">Select the tick box for the relevant item(s).</li> 
+ <li value="2">Click <span class="bold">Move to</span> (3) and choose the relevant folder (4).</li> 
+ <li value="3"> <p>Click <span class="bold">Save</span> (5).</p> <p> <img src="assets/move-to-350x297.png" style="width: 350;height: 297;"> </p> </li> 
+</ol>
 
-## Move to  {#move-to}
+### More actions
 
-This function lets you move *`proofs`* and files to one of your folders. To do this: 
+In the More actions menu (6) you can perform the following actions:
 
-
-
-1. Select the tick box for the relevant item(s).
-1. Click `Move to` (3) and choose the relevant folder (4).
-1.  Click `Save` (5).
-
-
-   ![](assets/move-to-350x297.png)
-
-
-
-
-
-
-
-### More actions  {#more-actions}
-
-In the More actions menu (6) you can perform the following actions: 
-
-
-
-* Lock ( *`proofs`* only) 
+* Lock (*proofs* only) 
 * Activate 
-* Archive ( *`proofs`* only) 
-* Unarchive ( *`proofs`* only) 
-* Change owner 
-
+* Archive (*proofs* only) 
+* Unarchive (*proofs* only) 
+* Change owner
 
 ![](assets/more-actions-350x303.png)
 
-
-
-
-### Delete  {#delete}
+### Delete
 
 To delete items:
 
-
-
-1. Select the tick box to the left of the item(s) and click `Delete` (7). 
-
+1. Select the tick box to the left of the item(s) and click `Delete` (7).
 
 ![](assets/delete-350x109.png)
 
-
-
-
-
 1. In the confirmation screen that appears, check the details and confirm by clicking `Yes` (8).
-
 
 ![](assets/deleteing-items-350x237.png)
 
+### The Sidebar
 
-
-
-### The Sidebar  {#the-sidebar}
-
-The sidebar has links to the following pages: 
-
-
+The sidebar has links to the following pages:
 
 * Dashboard (1) 
 * Views (2) 
@@ -245,153 +159,98 @@ The sidebar has links to the following pages:
 * Trash (8) 
 * My folders (9) (you can also access each individual folder from the sidebar)&#42;&#42; 
 * Other Organizations' folders (10) (where you can find items that other organizations shared with you)&#42;&#42; 
-* Tags (11) 
-
+* Tags (11)
 
 ![](assets/sidebar-350x426.png)
 
+The Sidebar is described in more detail on the Sidebar help page.
 
+###  Welcome section
 
-
-The Sidebar is described in more detail on the Sidebar help page. 
-
-
-###  Welcome section  {#welcome-section}
-
-The Welcome section has the following useful links: 
-
-
+The Welcome section has the following useful links:
 
 * Watch our demo movies (1) 
 * Help pages (2) 
 * Support contact details (3) 
-* "Don't show me the Welcome section again" link (4) 
-
+* "Don't show me the Welcome section again" link (4)
 
 ![](assets/welcome-350x73.png)
 
+### Overview
 
+In this section you'll find the quick links to:
 
-
-### Overview  {#overview}
-
-In this section you'll find the quick links to: 
-
-
-
-* Create a new *`proof`* Upload a file 
+* Create a new *proof* Upload a file 
 * Create a new folder 
 * Add a new user 
-* Change your password 
+* Change your password
 
+The overview section also displays pre-filtered information. These are:
 
-The overview section also displays pre-filtered information. These are: 
+<ul> 
+ <li>Proofs to manage - total number of active <em>proofs</em> owned by you and delegated to you </li> 
+ <li> <p>Proofs awaiting decision - total number of active <em>proofs</em> that require your decisions </p> <p> <img src="assets/dashboard-overview-350x169.png" style="width: 350;height: 169;"> </p> </li> 
+</ul>
 
-
-
-* Proofs to manage - total number of active *`proofs`* owned by you and delegated to you 
-*  Proofs awaiting decision - total number of active *`proofs`* that require your decisions 
-
-
-  ![](assets/dashboard-overview-350x169.png)
-
-
-
-
-
-Here you can see right away how many *`proofs`* require immediate action from you or from your reviewers: 
-
-
+Here you can see right away how many *proofs* require immediate action from you or from your reviewers:
 
 * Total 
-* On time - *`proofs`* that have no deadline or there is more than 24 hours until the deadline 
-* At risk - *`proofs`* with the deadline less than 24 hours 
-* Late - *`proofs`* with not all actions completed and passed deadline 
-
-
-
+* On time - *proofs* that have no deadline or there is more than 24 hours until the deadline 
+* At risk - *proofs* with the deadline less than 24 hours 
+* Late - *proofs* with not all actions completed and passed deadline
 
 >[!NOTE]
 >
->The charts values are clickable - you can easily Go to the detailed list of the items. 
+>The charts values are clickable - you can easily Go to the detailed list of the items.
 
+### Recently accessed items
 
+The Recently accessed items section shows you the items that have been recently accessed by you. This includes the items you own, the items you have permissions to see as per your profile permissions and the items that were shared with you. This section will include only the items that you yourself have opened (either via the *Workfront Proof* Viewer or via the Proof details page).
 
-
-### Recently accessed items  {#recently-accessed-items}
-
-The Recently accessed items section shows you the items that have been recently accessed by you. This includes the items you own, the items you have permissions to see as per your profile permissions and the items that were shared with you. This section will include only the items that you yourself have opened (either via the *`Workfront Proof`* Viewer or via the Proof details page).
-
-
-The Recently accessed items section shows you the following information about recent *`proofs`* and files: 
-
-
+The Recently accessed items section shows you the following information about recent *proofs* and files:
 
 * Name 
 * Progress 
 * Status 
 * Decision 
-* Owner 
+* Owner
 
+Summary (this information will be collapsed by default - click the expand/collapse button to the left of the relevant *proof* to open the *proof* summary)
 
-Summary (this information will be collapsed by default - click the expand/collapse button to the left of the relevant *`proof`* to open the *`proof`* summary) 
+Actions menu
 
-
-Actions menu 
-
-
-See Page layouts for the different layout options available for this section. 
-
+See Page layouts for the different layout options available for this section.
 
 >[!NOTE]
 >
->Clicking on the *`proof`* name in Recently accessed items section will take you straight to the *`proof`* in the Proof Viewer. 
+>Clicking on the *proof* name in Recently accessed items section will take you straight to the *proof* in the Proof Viewer.
 
+To access the Proof details page:
 
-To access the Proof details page: 
+1. Click on the `Actions` menu (1) available to the right of the *proof* name.
 
-
-
-1.  Click on the `Actions` menu (1) available to the right of the *`proof`* name.
-
-1. Select `View proof details` (2) from the menu. 
-
+1. Select `View proof details` (2) from the menu.
 
 ![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
+### Recent activity
 
-
-
-### Recent activity  {#recent-activity}
-
-This section shows you the following details about recent activity in your account: 
-
-
+This section shows you the following details about recent activity in your account:
 
 * Date and time Proof/File name 
 * Action 
-* Details 
+* Details
 
-
-You can also go to an item's Details page by clicking opening the item's Actions menu and choosing to View details. To see more information about activity in your account, see Activity audit trail. 
-
+You can also go to an item's Details page by clicking opening the item's Actions menu and choosing to View details. To see more information about activity in your account, see Activity audit trail.
 
 >[!NOTE]
 >
->Clicking on the name of the *`proof`* in the Recent Activity section will open the *`proof`* in the Proof Viewer. 
+>Clicking on the name of the *proof* in the Recent Activity section will open the *proof* in the Proof Viewer.
 
+To go to the Proof details page of that *proof*:
 
-To go to the Proof details page of that *`proof`*: 
-
-
-
-1. Click on the `Actions` menu (1). 
-1.  Select `View proof details` (2) from the dropdown menu.
-
-
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
-
-
-
-
+<ol> 
+ <li value="1">Click on the <span class="bold">Actions</span> menu (1). </li> 
+ <li value="2"> <p>Select <span class="bold">View proof details</span> (2) from the dropdown menu.</p> <p> <img src="assets/accessing-the-proof-details-page-recent-activity-350x51.png" style="width: 350;height: 51;"> </p> </li> 
+</ol>
 

@@ -2,189 +2,137 @@
 filename: migrate-resource-scheduling-to-workload-balancer
 product-area: resource-management
 navigation-topic: resource-management-overview
+title: Migrate from Resource Scheduling to the Workload Balancer
+description: Important: The information in this article applies to you only if you have managed the scheduling of your resources in the Resource Scheduling areas of Adobe Workfront. Workfront started the deprecation of the Resource Scheduling tools in November 2020 and plans to replace them with the Workload Balancer. For information about the deprecation plan for the Resource Scheduling tools and the timeline for their replacement with the Workload Balancer, see Deprecation of Resource Scheduling tools in Adobe Workfront.
 ---
 
+# Migrate from Resource Scheduling to the *Workload Balancer*
 
-
-# Migrate from Resource Scheduling to the *`Workload Balancer`* {#migrate-from-resource-scheduling-to-the-workload-balancer}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->The information in this article applies to you only if you have managed the scheduling of your resources in the Resource Scheduling areas of *`Adobe Workfront`*. *`Workfront`* started the deprecation of the Resource Scheduling tools in November 2020 and plans to replace them with the *`Workload Balancer`*.   
->For information about the deprecation plan for the Resource Scheduling tools and the timeline for their replacement with the *`Workload Balancer`*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](deprecate-resource-scheduling.md).   
+>The information in this article applies to you only if you have managed the scheduling of your resources in the Resource Scheduling areas of *Adobe Workfront*. *Workfront* started the deprecation of the Resource Scheduling tools in November 2020 and plans to replace them with the *Workload Balancer*.   
+>For information about the deprecation plan for the Resource Scheduling tools and the timeline for their replacement with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
+We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the *Workload Balancer*.
 
+##  Locate the Resource Scheduling tools
 
-We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the *`Workload Balancer`*.
+You and your teams may be using some of the Resource Scheduling tools in the following areas of *Adobe Workfront*:
 
+* The Scheduling 
 
-##  Locate the Resource Scheduling tools {#locate-the-resource-scheduling-tools}
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+  section in the Resourcing area
+  </MadCap:conditionalText>
+  -->
 
-You and your teams may be using some of the Resource Scheduling tools in the following areas of *`Adobe Workfront`*: 
+  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section in the Resourcing area</MadCap:conditionalText>`
+* The 
 
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+  Scheduling section
+  </MadCap:conditionalText>
+  -->
 
+  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Scheduling section</MadCap:conditionalText>` of a project
+* The 
 
-*  The Scheduling `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section in the Resourcing area</MadCap:conditionalText>`
-*  The `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Scheduling section</MadCap:conditionalText>` of a project
-*  The `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Schedule section</MadCap:conditionalText>` of a team
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+  Schedule section
+  </MadCap:conditionalText>
+  -->
 
+  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Schedule section</MadCap:conditionalText>` of a team
 
-With this deprecation, these Resource Scheduling will eventually be replaced by the *`Workload Balancer`*. 
+With this deprecation, these Resource Scheduling will eventually be replaced by the *Workload Balancer*.
 
+##  Step 1: Get your teams trained
 
-##  Step 1: Get your teams trained {#step-get-your-teams-trained}
+If you use *the new Adobe Workfront experience*, take the training [Resource Management Program for *the new Adobe Workfront experience*](https://one.workfront.com/s/resource-management-program-nwe) (75 minutes) on Workfront One.
 
-If you use *`the new Adobe Workfront experience`*, take the training [Resource Management Program for *`the new Adobe Workfront experience`*](https://one.workfront.com/s/resource-management-program-nwe) (75 minutes) on Workfront One.
+If you use *Adobe Workfront Classic*, take the training [Resource Manager Training Program](https://customer-sso.workfront.com/training?SAMLRequest=fVJdb9swDPwrftOT448ZqyPEAYIEAwJ0Q5B2fdjLwMh0K1SWNJFes38%2FKW22DOjyJIA8nu6OXBCMxsvVxE92jz8mJM5WRBhYO7t2lqYRwx2Gn1rh1%2F1tJ56YPcmiUBOxi738xYXnITjLs0PQ%2FSOC9zPlxgIiZZHYCwXGHEA9i2wT6bWFxP0OE5Gb%2FWVLHBxAW20fRbbddOK76ufz9jBv83YYPuYN1nU%2B76HJq1q10H6o2rq%2FiVCiCbeWGCx3oi7rMq%2BqvGzu60qWN7JpvonsAQOdRNSzUmTH0ViSSWsnpmClA9IkLYxIkpW8W32%2BlREo4RzM5Yi%2FPuODY6ecEctFQsuTurBM5qP3fyJbFJeIxetmvkTG7WbnjFa%2FspUx7mUdEBg7wWFCkX1yYQS%2BriFVdJ8PJ6j0yTsxWhbF%2BZe31WN%2FOoS4d8YjZ2s3egiaUlB4BMVnE5eotYmx7HFYXk1OSZVwsbyLT9xyv4vBoIpf3gew5F3gN%2F%2Fvkr%2F2%2FiP0T%2FfyjJe%2FAQ%3D%3D) (120 minutes) in&nbsp;Workfront Ascent. You must sign in to Workfront Ascent to access the course.
 
+If you experience difficulty logging in or accessing the courses, contact our Customer Support.&nbsp;For information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-If you use *`Adobe Workfront Classic`*, take the training [Resource Manager Training Program](https://customer-sso.workfront.com/training?SAMLRequest=fVJdb9swDPwrftOT448ZqyPEAYIEAwJ0Q5B2fdjLwMh0K1SWNJFes38%2FKW22DOjyJIA8nu6OXBCMxsvVxE92jz8mJM5WRBhYO7t2lqYRwx2Gn1rh1%2F1tJ56YPcmiUBOxi738xYXnITjLs0PQ%2FSOC9zPlxgIiZZHYCwXGHEA9i2wT6bWFxP0OE5Gb%2FWVLHBxAW20fRbbddOK76ufz9jBv83YYPuYN1nU%2B76HJq1q10H6o2rq%2FiVCiCbeWGCx3oi7rMq%2BqvGzu60qWN7JpvonsAQOdRNSzUmTH0ViSSWsnpmClA9IkLYxIkpW8W32%2BlREo4RzM5Yi%2FPuODY6ecEctFQsuTurBM5qP3fyJbFJeIxetmvkTG7WbnjFa%2FspUx7mUdEBg7wWFCkX1yYQS%2BriFVdJ8PJ6j0yTsxWhbF%2BZe31WN%2FOoS4d8YjZ2s3egiaUlB4BMVnE5eotYmx7HFYXk1OSZVwsbyLT9xyv4vBoIpf3gew5F3gN%2F%2Fvkr%2F2%2FiP0T%2FfyjJe%2FAQ%3D%3D) (120 minutes) in&nbsp;Workfront Ascent. You must sign in to Workfront Ascent to access the course. 
+##  Step 2: Determine the best time to migrate
 
+Follow the steps below to determine when the best time to migrate is for you:
 
-If you experience difficulty logging in or accessing the courses, contact our Customer Support.&nbsp;For information, see [Contact Customer Support](contact-customer-support.md). 
-
-
-##  Step 2: Determine the best time to migrate {#step-determine-the-best-time-to-migrate}
-
-Follow the steps below to determine when the best time to migrate is for you: 
-
-
-
-1.  Determine which features in the Resource Scheduling tools your team uses most and make sure those features are available in the *`Workload Balancer`*. For information about which features are currently available in the *`Workload Balancer`*, see the "Feature availability" section in the article [Deprecation of Resource Scheduling tools in Adobe Workfront](deprecate-resource-scheduling.md). 
-
+1. Determine which features in the Resource Scheduling tools your team uses most and make sure those features are available in the *Workload Balancer*.&nbsp;For information about which features are currently available in the *Workload Balancer*, see the "Feature availability" section in the article [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
    If the features you need are not available yet, you might want to wait to migrate (see Step 3a below).
 
-1.  Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the “Modify user allocations” section of the article [Manage user allocations in the Scheduling areas](manage-allocations-scheduling-areas.md).
-1.  Using the information gathered from Steps 1 and Step 2, decide which version of Step 3 you should continue with based on the needs of your organization.
+1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the “Modify user allocations” section of the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+1. Using the information gathered from Steps 1 and Step 2, decide which version of Step 3 you should continue with based on the needs of your organization.
 
-
-
-
-##  Step 3: Migrate to the *`Workload Balancer`* {#step-migrate-to-the-workload-balancer}
+##  Step 3: Migrate to the *Workload Balancer*
 
 We have identified the following versions for this step, depending on your findings in Step 2:
 
+* [Step 3a: You and your teams are waiting for the Workload Balancer to have all the features you need in Production](#step) 
+* [Step 2: Determine the best time to migrate](#step2) 
+* [Step 3: Migrate to the Workload Balancer](#step3)
 
-
-*  [Step 3a: You and your teams are waiting for the Workload Balancer to have all the features you need in Production](#step) 
-*  [Step 2: Determine the best time to migrate](#step2) 
-*  [Step 3: Migrate to the Workload Balancer](#step3) 
-
-
-
-
-### Step 3a: You and your teams are waiting for the *`Workload Balancer`* to have all the features you need in Production {#step-a-you-and-your-teams-are-waiting-for-the-workload-balancer-to-have-all-the-features-you-need-in-production}
+### Step 3a: You and your teams are waiting for the *Workload Balancer* to have all the features you need in Production
 
 Do the following:
 
+* Bookmark the deprecation plan page to understand when all features will be available in&nbsp;Production. For information on the deprecation timeline and available features, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md). 
+* Follow the Announcement Center messages from *Workfront*. We will send updates when we reach milestones in the deprecation and replacement process. 
+* After all the features you need are available, then continue with Steps 3b or 3c below.
 
+### Step 3b: You or your teams use the Scheduling tools, but do not modify user allocation
 
-*  Bookmark the deprecation plan page to understand when all features will be available in&nbsp;Production. For information on the deprecation timeline and available features, see [Deprecation of Resource Scheduling tools in Adobe Workfront](deprecate-resource-scheduling.md). 
-*  Follow the Announcement Center messages from *`Workfront`*. We will send updates when we reach milestones in the deprecation and replacement process. 
-*  After all the features you need are available, then continue with Steps 3b or 3c below. 
+If you or your teams do not modify the daily hour allocations on work assignments, then you are ready to switch scheduling resources to the *Workload Balancer*.
 
-
-
-
-### Step 3b: You or your teams use the Scheduling tools, but do not modify user allocation {#step-b-you-or-your-teams-use-the-scheduling-tools-but-do-not-modify-user-allocation}
-
-If you or your teams do not modify the daily hour allocations on work assignments, then you are ready to switch scheduling resources to the *`Workload Balancer`*. 
-
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-workload-balancer-global-350x125.png" style="width: 350;height: 125;"> </p>
+-->
 
 ![](assets/nwe-workload-balancer-global-350x125.png)
 
+Do the following:
 
+<ul> 
+ <li> <p>Pick a transition date. </p> <note type="tip">
+   Give your team 2-4 weeks to get through the training prior to the transition date. For information about which training is right for you, see the section 
+   <a href="#step4" class="MCXref xref">Migrate from Resource Scheduling to the Workload Balancer</a> in this article. 
+  </note> </li> 
+ <li> <p>Follow these guidelines to assist your teams:</p> 
+  <ul> 
+   <li> <p>Encourage your teams to visit the <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a> page and all the pages linked from there to dig deeper into how the <em>Workload Balancer</em> works. </p> </li> 
+   <li> <p>Host FAQ meetings for your teams to answer questions the week before the transition, make the switch, and then hold another FAQ meeting to answer follow-up questions.</p> </li> 
+   <li> <p>Submit feedback to <em>Workfront</em> using the Feedback button in the top toolbar. Our product developers are always interested in hearing your use cases for how we can make the <em>Workload Balancer</em> provide more value. </p> </li> 
+  </ul> </li> 
+</ul>
 
+### Step 3c: You or your teams manage user allocations in the Scheduling tools
 
-Do the following: 
+If your workflow matches this scenario, you should be more strategic in your transition plan. The daily allocations that appear in the Scheduling tools are stored in a different database than the daily allocations that display in the *Workload Balancer*. This means that the adjustments of daily allocations that you do in the Resource Scheduling tools do not transfer to the daily allocations in the *Workload Balancer*.
 
+Consider the following when making the transition to the *Workload Balancer* when you use this scheduling functionality:
 
+<ul> 
+ <li> <p>Decide whether it is possible to put a hold on managing allocations for 1-2 weeks as your resource managers make the switch. To do this: </p> 
+  <ul> 
+   <li> <p>Find out the average duration of tasks in your current projects and take that into consideration when determining how long you need to put a hold on managing the user allocations. </p> <note type="tip">
+     You need to only look at your current or planning projects, which are those for which your teams are actively making assignments and managing daily allocations. 
+    </note> </li> 
+  </ul> 
+  <ul> 
+   <li> <p>Create a task report and add the task Duration field in the view and group it by Project Name. Summarize the Duration column in the View by the Average, then save your report. </p> <p>For information about creating a report, see <a href="../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a> . </p> </li> 
+   <li> <p>Analyze your task report. For example, if your average task duration is 3 days, then a one week transition might be best. Have the team stop managing user allocations for a week. The following week, transition the team to the <em>Workload Balancer</em> and begin managing user allocations that following week.</p> <p> <img src="assets/timeline-stop-using-resource-scheduler-callouts-350x178.png" style="width: 350;height: 178;"> </p> <note type="tip">
+     You can continue to make task and issue assignments during the transition period. Assignments made will be reflected in both the Resource Scheduler and Workload Balancer.
+    </note> </li> 
+  </ul> </li> 
+ <li> <p>If you are a larger organization with teams managing resources for hundreds of projects, you may consider transitioning from the Resource Scheduler to the <em>Workload Balancer</em> one portfolio at a time. Consider a phased roll-out by creating customized filters in the <em>Workload Balancer</em> to look at one specific portfolio at a time.</p> </li> 
+</ul>
 
-*  Pick a transition date. 
+* Allow your resource managers to team up: have one person review assignments made in the Resource Scheduling tools and one making appropriate adjustments in the *Workload Balancer*. Once that team of two reconciles both tools, have them shift their workflows to the *Workload Balancer*.
 
+## Need more assistance
 
-  >[!TIP] {type="tip"}
-  >
-  >Give your team 2-4 weeks to get through the training prior to the transition date. For information about which training is right for you, see the section [Migrate from Resource Scheduling to the Workload Balancer](#step4) in this article. 
-
-
-
-*  Follow these guidelines to assist your teams:
-
-    
-    
-    *  Encourage your teams to visit the [Overview of the Workload Balancer](overview-workload-balancer.md) page and all the pages linked from there to dig deeper into how the *`Workload Balancer`* works. 
-    *  Host FAQ meetings for your teams to answer questions the week before the transition, make the switch, and then hold another FAQ meeting to answer follow-up questions.
-    *  Submit feedback to *`Workfront`* using the Feedback button in the top toolbar. Our product developers are always interested in hearing your use cases for how we can make the *`Workload Balancer`* provide more value. 
-    
-    
-
-
-
-
-
-### Step 3c: You or your teams manage user allocations in the Scheduling tools {#step-c-you-or-your-teams-manage-user-allocations-in-the-scheduling-tools}
-
-If your workflow matches this scenario, you should be more strategic in your transition plan. The daily allocations that appear in the Scheduling tools are stored in a different database than the daily allocations that display in the *`Workload Balancer`*. This means that the adjustments of daily allocations that you do in the Resource Scheduling tools do not transfer to the daily allocations in the *`Workload Balancer`*.
-
-
-Consider the following when making the transition to the *`Workload Balancer`* when you use this scheduling functionality: 
-
-
-
-*  Decide whether it is possible to put a hold on managing allocations for 1-2 weeks as your resource managers make the switch. To do this: 
-
-    
-    
-    *  Find out the average duration of tasks in your current projects and take that into consideration when determining how long you need to put a hold on managing the user allocations. 
-    
-    
-      >[!TIP] {type="tip"}
-      >
-      >You need to only look at your current or planning projects, which are those for which your teams are actively making assignments and managing daily allocations. 
-    
-    
-    
-    
-    
-
-    
-    
-    *  Create a task report and add the task Duration field in the view and group it by Project Name. Summarize the Duration column in the View by the Average, then save your report. 
-    
-    
-      For information about creating a report, see [Create a custom report](create-custom-report.md) . 
-    
-    *  Analyze your task report. For example, if your average task duration is 3 days, then a one week transition might be best. Have the team stop managing user allocations for a week. The following week, transition the team to the *`Workload Balancer`* and begin managing user allocations that following week.
-    
-    
-      ![](assets/timeline-stop-using-resource-scheduler-callouts-350x178.png)    
-    
-
-    
-    
-      >[!TIP] {type="tip"}
-      >
-      >You can continue to make task and issue assignments during the transition period. Assignments made will be reflected in both the Resource Scheduler and Workload Balancer.
-    
-    
-    
-    
-    
-
-*  If you are a larger organization with teams managing resources for hundreds of projects, you may consider transitioning from the Resource Scheduler to the *`Workload Balancer`* one portfolio at a time. Consider a phased roll-out by creating customized filters in the *`Workload Balancer`* to look at one specific portfolio at a time.
-
-
-
-
-
-*  Allow your resource managers to team up: have one person review assignments made in the Resource Scheduling tools and one making appropriate adjustments in the *`Workload Balancer`*. Once that team of two reconciles both tools, have them shift their workflows to the *`Workload Balancer`*.
-
-
-
-
-## Need more assistance {#need-more-assistance}
-
-If you need additional information with this migration, contact Custom Support. For information about contacting Support, see [Contact Customer Support](contact-customer-support.md) . 
+If you need additional information with this migration, contact Custom Support. For information about contacting Support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) . 

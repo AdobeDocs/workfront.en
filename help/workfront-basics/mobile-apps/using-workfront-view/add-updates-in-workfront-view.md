@@ -3,62 +3,47 @@ filename: add-updates-in-workfront-view
 product: mobile
 product-area: projects
 navigation-topic: use-workfront-view
+title: Add updates in Adobe Workfront View
+description: You can review and add updates to projects you are reviewing in the Adobe Workfront View app.
 ---
 
+# Add updates in *Adobe Workfront* View
 
+You can review and add updates to projects you are reviewing in the *Adobe Workfront* View app.
 
-# Add updates in *`Adobe Workfront`* View {#add-updates-in-adobe-workfront-view}
+You cannot add updates to tasks or issues in *Workfront* View.
 
-You can review and add updates to projects you are reviewing in the *`Adobe Workfront`* View app.
+## Access requirements
 
+You must have the following access in *Workfront* to perform the steps in this article:
 
-You cannot add updates to tasks or issues in *`Workfront`* View.
-
-
-## Access requirements {#access-requirements}
-
-You must have the following access in *`Workfront`* to perform the steps in this article:
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
+<table cellspacing="0"> 
+ <col> 
  </col> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+ <col> 
  </col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Review variable varname">Review</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Review</em> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Add updates to a project in *Workfront* View
 
-## Add updates to a project in *`Workfront`* View {#add-updates-to-a-project-in-workfront-view}
-
-
-
-
-1. From the home page of *`Workfront`* View, tap a project to access it.
-1. (Optional) Add the `Updates` widget to your view.  
-   For more information about adding widgets to your project view, see [Update widgets in the Project Details view](update-widgets-in-workfront-view.md).
-
-1. Tap the `Updates` icon (bottom right) or (conditional) the `[+]` icon on an update in the `Updates` widget.  
-   ![workfront_view_updates_icon.png](assets/workfront-view-updates-icon-315x196.png)
-
-
-1. Type in an update.
-1. (Optional) Include others in the update by tapping the people icon and specifying the name of another user.  
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
-
-
-1. Tap `Post`.  
-   The update appears on the project, in the `Updates` widget.
-
-
+<ol> 
+ <li value="1">From the home page of <em>Workfront</em> View, tap a project to access it.</li> 
+ <li value="2">(Optional) Add the <span class="bold">Updates</span> widget to your view.<br>For more information about adding widgets to your project view, see <a href="../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md" class="MCXref xref">Update widgets in the Project Details view</a>.</li> 
+ <li value="3">Tap the <span class="bold">Updates</span> icon (bottom right) or (conditional) the <span class="bold">[+]</span> icon on an update in the <span class="bold">Updates</span> widget.<br><img src="assets/workfront-view-updates-icon-315x196.png" alt="workfront_view_updates_icon.png" style="width: 315;height: 196;"></li> 
+ <li value="4">Type in an update.</li> 
+ <li value="5">(Optional) Include others in the update by tapping the people icon and specifying the name of another user.<br><img src="assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png" alt="" style="width: 350;height: 222;"></li> 
+ <li value="6">Tap <span class="bold">Post</span>.<br>The update appears on the project, in the <span class="bold">Updates</span> widget.</li> 
+</ol>
 

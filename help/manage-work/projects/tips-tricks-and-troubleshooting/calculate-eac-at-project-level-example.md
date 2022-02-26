@@ -3,89 +3,68 @@ filename: calculate-eac-at-project-level-example
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
+title: Calculation example - calculate EAC at the Project Level
+description: PIM = Hour-Based
 ---
 
+# Calculation example - calculate EAC at the Project Level
 
-
-# Calculation example - calculate EAC at the Project Level  {#calculation-example-calculate-eac-at-the-project-level}
-
-
-
-## EAC method: Calculate at the project level {#eac-method-calculate-at-the-project-level}
-
-
-
+## EAC method: Calculate at the project level
 
 * [PIM = Hour-Based](#hour-based-section2) 
-* [PIM= Cost-Based](#cost-based-section2) 
+* [PIM= Cost-Based](#cost-based-section2)
 
-
-
-
-### PIM = Hour-Based {#pim-hour-based}
-
-
-
+### PIM = Hour-Based
 
 * [Simple example: project has no children tasks](#simple) 
-* [Complicated example: project has children tasks](#complica) 
+* [Complicated example: project has children tasks](#complica)
 
+#### `Simple example: project has no children tasks`
 
-
-
-#### `Simple example: project has no children tasks`  {#simple-example-project-has-no-children-tasks}
-
-PIM = Hour-Based 
-
+PIM = Hour-Based
 
 EAC Method = Calculate at project level ``
 
+<ol> 
+ <li value="1"> Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. </li> 
+ <li value="2"> Add Planned and Actual hours to each task and % Complete according to the table below: 
+  <table cellspacing="15">
+   <col>
+   <col>
+   <col>
+   <col>
+   <thead>
+    <tr>
+     <th><br><p><span class="bold">Task</span></p></th>
+     <th><br><p><span class="bold">Pln Hrs</span></p></th>
+     <th><br><p><span class="bold">Act Hrs</span></p></th>
+     <th><p><span class="bold">% Complete</span></p></th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td><p>Task 1</p></td>
+     <td><p>5 hrs</p></td>
+     <td><p>25 hrs</p></td>
+     <td><p>20%</p></td>
+    </tr>
+    <tr>
+     <td><p>Task 2</p></td>
+     <td><p>10 hrs</p></td>
+     <td><p>25 hrs</p></td>
+     <td><p>30%</p></td>
+    </tr>
+    <tr>
+     <td><p>Task 3</p></td>
+     <td><p>15 hrs</p></td>
+     <td><p>25 hrs</p></td>
+     <td><p>40%</p></td>
+    </tr>
+   </tbody>
+  </table></li> 
+</ol>
 
-
-1.  Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
-1.  Add Planned and Actual hours to each task and % Complete according to the table below: 
-
-<table style="height: 214px;width: 595;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15">
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1">
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1">
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1">
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1">
- <thead>
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1">
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><br><p><span class="bold">Task</span></p></th>
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><br><p><span class="bold">Pln Hrs</span></p></th>
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><br><p><span class="bold">Act Hrs</span></p></th>
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"><p><span class="bold">% Complete</span></p></th>
-  </tr>
- </thead>
- <tbody>
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><p>Task 1</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><p>5 hrs</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><p>25 hrs</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"><p>20%</p></td>
-  </tr>
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><p>Task 2</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><p>10 hrs</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><p>25 hrs</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"><p>30%</p></td>
-  </tr>
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"><p>Task 3</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"><p>15 hrs</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"><p>25 hrs</p></td>
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"><p>40%</p></td>
-  </tr>
- </tbody>
-</table>
-
-
-
-
-
-
-1.  Recalculate Finance on the project. 
+1. Recalculate Finance on the project. 
 1. `CPI for Task 1` = .04 calculated as follows:  
    `CPI for Task 1` = *IF* Actual Hours > 0 *THEN* CPI = TotalBudgetedCostWorkPerformed/Actual Hours  
    &nbsp; &nbsp;*ELSE* CPI = 1  
@@ -98,7 +77,7 @@ EAC Method = Calculate at project level ``
    `EAC for Task 1` = 5 / .04  
    `EAC for Task 1` = 125 hrs ``
 
-1.  CPI / EAC for Tasks 2 and 3 are:  
+1. CPI / EAC for Tasks 2 and 3 are:  
    Task &nbsp;2 = .12 / 83.33 &nbsp;hrs  
    Task 3 = .24 / 62.5 hrs
 
@@ -114,97 +93,74 @@ EAC Method = Calculate at project level ``
    `EAC for Project` = 30 / .13333  
    `EAC for Project` = 225 hrs
 
+#### `Complicated example: project has children tasks`
 
+PIM = Hour-Based
 
+EAC Method = Calculate at project level
 
+<ol> 
+ <li value="1"> Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:<br>Task 1<br>&nbsp; &nbsp;Task 2<br>&nbsp; &nbsp;Task 3<br>&nbsp; &nbsp; &nbsp; Task 4<br>&nbsp; &nbsp; &nbsp; Task 5<br>Task 6</li> 
+ <li value="2"> Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. </li> 
+ <li value="3"> <p> Add planned/ actual hours each task and % Complete according to the table below.</p> <note type="note">
+   For Tasks 1 and 3, you are only adding actual hours. 
+  </note> </li> 
+</ol>
 
-#### `Complicated example: project has children tasks`  {#complicated-example-project-has-children-tasks}
-
-PIM = Hour-Based 
-
-
-EAC Method = Calculate at project level 
-
-
-
-1.  Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:  
-   Task 1  
-   &nbsp; &nbsp;Task 2  
-   &nbsp; &nbsp;Task 3  
-   &nbsp; &nbsp; &nbsp; Task 4  
-   &nbsp; &nbsp; &nbsp; Task 5  
-   Task 6
-
-1.  Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. 
-1.   Add planned/ actual hours each task and % Complete according to the table below.
-
-
-   >[!NOTE]
-   >
-   >For Tasks 1 and 3, you are only adding actual hours. 
-
-
-
-
-
-
-<table style="height: 376px;width: 641;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Task</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Pln Hrs</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Act Hrs</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">% Complete</span> </p> </th> 
+  <tr> 
+   <th> <br> <p><span class="bold">Task</span> </p> </th> 
+   <th> <br> <p><span class="bold">Pln Hrs</span> </p> </th> 
+   <th> <br> <p><span class="bold">Act Hrs</span> </p> </th> 
+   <th> <p><span class="bold">% Complete</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td>&nbsp;</td> 
+   <td> <p>10 hrs</p> </td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>5 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>20%</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>5 hrs</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>10 Hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td> <p>Task 3</p> </td> 
+   <td>&nbsp;</td> 
+   <td> <p>10 Hrs</p> </td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 4</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>40%</p> </td> 
+  <tr> 
+   <td> <p>Task 4</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>40%</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 5</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>15 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>50%</p> </td> 
+  <tr> 
+   <td> <p>Task 5</p> </td> 
+   <td> <p>15 hrs</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>50%</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>Task 6</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>20 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>60%</p> </td> 
+  <tr> 
+   <td> <p>Task 6</p> </td> 
+   <td> <p>20 hrs</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>60%</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-
-1.  Add 50 hours directly to the project (More>Hours>Log Hours). 
+1. Add 50 hours directly to the project (More>Hours>Log Hours). 
 1. `CPI for Task 2` = .1 calculated as follows:  
    `CPI for Task 2` = *IF* Actual Hours > 0 *THEN* CPI = TotalBudgetedCostWorkPerformed/Actual Hours  
    &nbsp; &nbsp;&nbsp;*ELSE* CPI = 1  
@@ -217,7 +173,7 @@ EAC Method = Calculate at project level
    `EAC for Task 2` = 5 / .1  
    `EAC for Task 2` = 50 hrs
 
-1.  The CPI / EAC for Tasks 4, 5, and 6 are as follows:  
+1. The CPI / EAC for Tasks 4, 5, and 6 are as follows:  
    Task 4: .4 / 25 hrs  
    Task 5: .75 / 20 hrs  
    Task 6: 1.2 / 16.67 hrs
@@ -259,212 +215,179 @@ EAC Method = Calculate at project level
    `EAC for Project` = &nbsp;50 / .22272  
    `EAC for Project` = 224.49 hrs
 
-
-
-
-
-### PIM= Cost-Based {#pim-cost-based}
-
-
-
+### PIM= Cost-Based
 
 * [Simple example: project has no children tasks](#simple2) 
-* [Complicated example: project has children tasks](#complica2) 
+* [Complicated example: project has children tasks](#complica2)
 
+#### `Simple example: project has no children tasks`
 
+PIM = Cost-Based
 
+EAC Method = Calculate at project level
 
-#### `Simple example: project has no children tasks`  {#simple-example-project-has-no-children-tasks-1}
+1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
+1. Add planned/ actual hours to each task and % Complete according to the table below:
 
-PIM = Cost-Based 
-
-
-EAC Method = Calculate at project level 
-
-
-
-1.  Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
-1.  Add planned/ actual hours to each task and % Complete according to the table below: 
-
-
-
-<table style="height: 236px;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 165px;"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 165px;"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 165px;"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 165px;"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 165px;"> 
- <col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 175px;"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Task</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Pln Hrs</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Pln Lbr Cost</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Act Hrs</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Act Lbr Cost</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">% Complete</span> </p> </th> 
+  <tr> 
+   <th> <br> <p><span class="bold">Task</span> </p> </th> 
+   <th> <br> <p><span class="bold">Pln Hrs</span> </p> </th> 
+   <th> <br> <p><span class="bold">Pln Lbr Cost</span> </p> </th> 
+   <th> <br> <p><span class="bold">Act Hrs</span> </p> </th> 
+   <th> <br> <p><span class="bold">Act Lbr Cost</span> </p> </th> 
+   <th> <p><span class="bold">% Complete</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>5 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>25 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$2,500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>20%</p> </td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td> <p>5 hrs</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>25 hrs</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>25 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$2,500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>30%</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>25 hrs</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>30%</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>Task 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>15 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>$1,500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>25 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>$2,500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>40%</p> </td> 
+  <tr> 
+   <td> <p>Task 3</p> </td> 
+   <td> <p>15 hrs</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
+   <td> <p>25 hrs</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>40%</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+1. Add expenses to each task according to the table below:
 
-
-
-1.  Add expenses to each task according to the table below: 
-
-
-
-<table style="height: 264px;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Task</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Expense</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Planned Amount</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">Actual Amount</span> </p> </th> 
+  <tr> 
+   <th> <p><span class="bold">Task</span> </p> </th> 
+   <th> <p><span class="bold">Expense</span> </p> </th> 
+   <th> <p><span class="bold">Planned Amount</span> </p> </th> 
+   <th> <p><span class="bold">Actual Amount</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1 Exp 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$300.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$400.00</p> </td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td> <p>Task 1 Exp 1</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 1 Exp 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$0.00</p> </td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td> <p>Task 1 Exp 2</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 2 Exp</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$200.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$100.00</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>Task 2 Exp</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>Task 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>Task 3 Exp</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>$800.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>$700.00</p> </td> 
+  <tr> 
+   <td> <p>Task 3</p> </td> 
+   <td> <p>Task 3 Exp</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-
-
-1.  Add two expenses to the project (i.e. not tied to a task) as follows: 
-
-
-
-<table style="height: 193px;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Expense</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Planned Amount</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">Actual Amount</span> </p> </th> 
+  <tr> 
+   <th> <p><span class="bold">Expense</span> </p> </th> 
+   <th> <p><span class="bold">Planned Amount</span> </p> </th> 
+   <th> <p><span class="bold">Actual Amount</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Project Exp 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$1,500.00</p> </td> 
+  <tr> 
+   <td> <p>Project Exp 1</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>Task 1 Exp 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>$2,500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>$0.00</p> </td> 
+  <tr> 
+   <td> <p>Task 1 Exp 2</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+1. Based on the above values, the Incurred/ Not Incurred Costs are determined as follows:
 
-
-
-1.  Based on the above values, the Incurred/ Not Incurred Costs are determined as follows: 
-
-
-
-<table style="height: 271px;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 185px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 523px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 350px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 417px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Task</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Not Incurred Planned Expense</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Incurred Planned Expense</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">Incurred Actual Expense</span> </p> </th> 
+  <tr> 
+   <th> <p><span class="bold">Task</span> </p> </th> 
+   <th> <p><span class="bold">Not Incurred Planned Expense</span> </p> </th> 
+   <th> <p><span class="bold">Incurred Planned Expense</span> </p> </th> 
+   <th> <p><span class="bold">Incurred Actual Expense</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$300.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$400.00</p> </td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$0.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$200.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$100.00</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$0.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$800.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$700.00</p> </td> 
+  <tr> 
+   <td> <p>Task 3</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>$3,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>$2,300.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p> $2,700.00 <span class="bold">&nbsp;</span></p> </td> 
+  <tr> 
+   <td> <p>Project</p> </td> 
+   <td> <p>$3,000.00</p> </td> 
+   <td> <p>$2,300.00</p> </td> 
+   <td> <p> $2,700.00 <span class="bold">&nbsp;</span></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-
-1.  From Project Actions, run Recalculate Finance 
+1. From Project Actions, run Recalculate Finance 
 1. `CPI for Task 1` = .14 
 1. `CPI` `for Task 1` = .14 calculated as follows:  
    `CPI`   `for Task 1` = *IF* Actual Labor Cost + IncurredActualExpenseCost &nbsp;<> 0 *THEN* 
@@ -473,35 +396,33 @@ EAC Method = Calculate at project level
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-  
    *&nbsp; &nbsp; ELSE* CPI = CPI_Labor  
    `CPI` `for Task 1` = (100+300) / (2500+400)  
    `CPI`   `for Task 1` = 400 / 2900  
    `CPI`   `for Task 1`  = .14 ``
 
 1. `EAC` `for Task 1` = $13,400.00  
-   `CPI Labor`   `for Task 1`= IF Actual Labor Cost <> 0 THEN 
+   `CPI Labor`   `for Task 1` = IF Actual Labor Cost <> 0 THEN 
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
-  
    &nbsp; &nbsp;ELSE CPI_Labor = 1  
-   `CPI Labor`   `for Task 1`= 100/2500  
-   `CPI Labor`   `for Task 1`= .04 `&nbsp;  
+   `CPI Labor`   `for Task 1` = 100/2500  
+   `CPI Labor`   `for Task 1` = .04 `&nbsp;  
    ` `EAC Labor` `for Task 1` = *IF* CPI_Labor <> 0 *THEN* EAC Labor = Planned Labor Cost/CPI_Labor  
    *&nbsp; &nbsp; ELSE* EAC &nbsp;Labor = Planned Labor Cost + Actual Labor Cost  
    `EAC Labor` `for Task 1` = 500.00/.04  
    `EAC Labor` `for Task 1` = $12,500.00  
-   `EAC Expense` `for Task 1`= IncurredActualExpenseCost + NotIncurredPlannedExpense  
-   `EAC Expense` `for Task 1`= $400.00 + $500.00  
-   `EAC Expense` `for Task 1`= $900.00  
+   `EAC Expense` `for Task 1` = IncurredActualExpenseCost + NotIncurredPlannedExpense  
+   `EAC Expense` `for Task 1` = $400.00 + $500.00  
+   `EAC Expense` `for Task 1` = $900.00  
    `EAC` `for Task 1` = EAC Labor + EAC Expense  
    `EAC` `for Task 1` &nbsp;= $12,500.00 + $900.00  
    `EAC` `for Task 1` &nbsp;= $13,400.00
 
-1.  Here are the CPI / EAC values for Task 2 and Task 3:  
+1. Here are the CPI / EAC values for Task 2 and Task 3:  
    Task 2 = .19 / $8,433.33  
    Task 3 = .44 / $6,950.00
 
@@ -512,10 +433,9 @@ EAC Method = Calculate at project level
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-  
    *&nbsp; &nbsp;ELSE* CPI = CPI_Labor  
    `CPI` `for Project` = (1000 + 2300) / (7500 + 2700)  
-   `CPI` `for Project`= 3300 / 10200  
+   `CPI` `for Project` = 3300 / 10200  
    `CPI` `for Project` = .32
 
 1. `EAC for Project` = $28,200.00 calculated as follows:  
@@ -525,7 +445,6 @@ EAC Method = Calculate at project level
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
-  
    &nbsp; &nbsp;ELSE CPI_Labor = 1  
    `CPI Labor` `for Project` = 1000 / 7500  
    `CPI Labor` `for Project` = .13333  
@@ -537,7 +456,6 @@ EAC Method = Calculate at project level
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
-  
    *&nbsp; &nbsp;ELSE* EAC &nbsp;Labor = Planned Labor Cost + Actual Labor Cost  
    `EAC Labor` `for Project` = 3000/ .13333  
    `EAC Labor` `for Project` = $22,500.00  
@@ -548,7 +466,6 @@ EAC Method = Calculate at project level
    IncurredActualExpenseCost + NotIncurredPlannedExpense
    ```
 
-  
    `EAC Expense` `Project` = $3000.00 + 2,700.00  
    `EAC Expense` `Project` = $5,700.00  
   
@@ -556,362 +473,324 @@ EAC Method = Calculate at project level
    `EAC` `Project` &nbsp;= $22,500.00 + $5,700.00  
    `EAC` `Project` &nbsp;= $28,200.00
 
+#### `Complicated example: project has children tasks`
 
+PIM = Cost-Based
 
+EAC Method = Calculate at project level
 
+<ol> 
+ <li value="1"> Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:<br>Task 1<br>&nbsp; &nbsp;Task 2<br>&nbsp; &nbsp;Task 3<br>&nbsp; &nbsp; &nbsp; Task 4<br>&nbsp; &nbsp; &nbsp; Task 5<br>Task 6</li> 
+ <li value="2"> Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. </li> 
+ <li value="3"> <p> Add planned/actual hours each task and % Complete according to the table below.</p> <note type="note">
+    For Tasks 1 and 3, you are only adding actual hours. 
+  </note> </li> 
+</ol>
 
-#### `Complicated example: project has children tasks`  {#complicated-example-project-has-children-tasks-1}
-
-PIM = Cost-Based 
-
-
-EAC Method = Calculate at project level 
-
-
-
-1.  Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:  
-   Task 1  
-   &nbsp; &nbsp;Task 2  
-   &nbsp; &nbsp;Task 3  
-   &nbsp; &nbsp; &nbsp; Task 4  
-   &nbsp; &nbsp; &nbsp; Task 5  
-   Task 6
-
-1.  Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. 
-1.   Add planned/actual hours each task and % Complete according to the table below.
-
-
-   >[!NOTE]
-   >
-   >For Tasks 1 and 3, you are only adding actual hours. 
-
-
-
-
-
-
-<table style="height: 391px;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Task</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Pln Hrs</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Pln Lbr Cost</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Act Hrs</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <br> <p><span class="bold">Act Lbr Cost</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">% Complete</span> </p> </th> 
+  <tr> 
+   <th> <br> <p><span class="bold">Task</span> </p> </th> 
+   <th> <br> <p><span class="bold">Pln Hrs</span> </p> </th> 
+   <th> <br> <p><span class="bold">Pln Lbr Cost</span> </p> </th> 
+   <th> <br> <p><span class="bold">Act Hrs</span> </p> </th> 
+   <th> <br> <p><span class="bold">Act Lbr Cost</span> </p> </th> 
+   <th> <p><span class="bold">% Complete</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>5 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>20%</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>5 hrs</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>10 Hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td> <p>Task 3</p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td> <p>10 Hrs</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 4</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>40%</p> </td> 
+  <tr> 
+   <td> <p>Task 4</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>40%</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 5</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>15 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$1,500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>50%</p> </td> 
+  <tr> 
+   <td> <p>Task 5</p> </td> 
+   <td> <p>15 hrs</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>50%</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>Task 6</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>20 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>$2,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>10 hrs</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>60%</p> </td> 
+  <tr> 
+   <td> <p>Task 6</p> </td> 
+   <td> <p>20 hrs</p> </td> 
+   <td> <p>$2,000.00</p> </td> 
+   <td> <p>10 hrs</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>60%</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+1. Add 50 hours directly to the project (More>Hours>Log Hours) so that there is $5,000.00 of actual labor cost recorded directly to the project. ``
+1. Add expenses to each task according to the table below (I’ve added a blank row in between each task to make it easier to read):
 
-
-
-1.  Add 50 hours directly to the project (More>Hours>Log Hours) so that there is $5,000.00 of actual labor cost recorded directly to the project. ``
-1.  Add expenses to each task according to the table below (I’ve added a blank row in between each task to make it easier to read): 
-
-
-
-<table style="height: 989px;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Task</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Expense</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Planned Amount</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">Actual Amount</span> </p> </th> 
+  <tr> 
+   <th> <p><span class="bold">Task</span> </p> </th> 
+   <th> <p><span class="bold">Expense</span> </p> </th> 
+   <th> <p><span class="bold">Planned Amount</span> </p> </th> 
+   <th> <p><span class="bold">Actual Amount</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1 Exp 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$300.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>-$400.00</p> </td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td> <p>Task 1 Exp 1</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>-$400.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 1 Exp 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>-$500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$800.00</p> </td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td> <p>Task 1 Exp 2</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1 Exp 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$400.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$0.00</p> </td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td> <p>Task 1 Exp 3</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 2 Exp 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$700.00</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>Task 2 Exp 1</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2 Exp 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>-$400.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$0.00</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>Task 2 Exp 2</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 2 Exp 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>-$200.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$600.00</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>Task 2 Exp 3</p> </td> 
+   <td> <p>-$200.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2 Exp 4</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$700.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>-$200.00</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>Task 2 Exp 4</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 3 Exp</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$0.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$1,000.00</p> </td> 
+  <tr> 
+   <td> <p>Task 3</p> </td> 
+   <td> <p>Task 3 Exp</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 4</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 4 Exp 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$800.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$0.00</p> </td> 
+  <tr> 
+   <td> <p>Task 4</p> </td> 
+   <td> <p>Task 4 Exp 1</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 4</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 4 Exp 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>-$100.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$300.00</p> </td> 
+  <tr> 
+   <td> <p>Task 4</p> </td> 
+   <td> <p>Task 4 Exp 2</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 4 </p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 4 Exp 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>-200.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$0.00</p> </td> 
+  <tr> 
+   <td> <p>Task 4 </p> </td> 
+   <td> <p>Task 4 Exp 3</p> </td> 
+   <td> <p>-200.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 5</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 5 Exp 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$700.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$800.00</p> </td> 
+  <tr> 
+   <td> <p>Task 5</p> </td> 
+   <td> <p>Task 5 Exp 1</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 5</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 5 Exp 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>-$100.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$300.00</p> </td> 
+  <tr> 
+   <td> <p>Task 5</p> </td> 
+   <td> <p>Task 5 Exp 2</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 5</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 5 Exp 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>-$400.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>-$200.00</p> </td> 
+  <tr> 
+   <td> <p>Task 5</p> </td> 
+   <td> <p>Task 5 Exp 3</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  <tr> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 6</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 6 Exp 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$600.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$700.00</p> </td> 
+  <tr> 
+   <td> <p>Task 6</p> </td> 
+   <td> <p>Task 6 Exp 1</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>Task 6</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>Task 6 Exp 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>$500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>-$300.0</p> </td> 
+  <tr> 
+   <td> <p>Task 6</p> </td> 
+   <td> <p>Task 6 Exp 2</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>-$300.0</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
-
-
-1.  Add two expenses to the project (i.e. not tied to a task) as follows: 
-
-
-
-<table style="height: 162px;mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Expense</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Planned Amount</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">Actual Amount</span> </p> </th> 
+  <tr> 
+   <th> <p><span class="bold">Expense</span> </p> </th> 
+   <th> <p><span class="bold">Planned Amount</span> </p> </th> 
+   <th> <p><span class="bold">Actual Amount</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Project Exp 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$1,000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$1,500.00</p> </td> 
+  <tr> 
+   <td> <p>Project Exp 1</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>Task 1 Exp 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray"> <p>$2,500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p> $0.00 <span class="bold">&nbsp;</span></p> </td> 
+  <tr> 
+   <td> <p>Task 1 Exp 2</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p> $0.00 <span class="bold">&nbsp;</span></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+1. Based on the above values, the Incurred/Not Incurred Costs are determined as follows:
 
-
-
-1.  Based on the above values, the Incurred/Not Incurred Costs are determined as follows: 
-
-
-
-<table style="mc-table-style: url('../../../Resources/TableStyles/TableStyle-HeaderRow.css');" class="TableStyle-TableStyle-HeaderRow" cellspacing="15"> 
- <col style="width: 165px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 259px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 336px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
- <col style="width: 240px;" class="TableStyle-TableStyle-HeaderRow-Column-Column1"> 
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <thead> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1"> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Task</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Not Incurred Planned Expense</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"> <p><span class="bold">Incurred Planned Expense</span> </p> </th> 
-   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"> <p><span class="bold">Incurred Actual Expense</span> </p> </th> 
+  <tr> 
+   <th> <p><span class="bold">Task</span> </p> </th> 
+   <th> <p><span class="bold">Not Incurred Planned Expense</span> </p> </th> 
+   <th> <p><span class="bold">Incurred Planned Expense</span> </p> </th> 
+   <th> <p><span class="bold">Incurred Actual Expense</span> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 1</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$400.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>-$500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$800.00</p> </td> 
+  <tr> 
+   <td> <p>Task 1</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 2</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>-$400.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$300.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$1,300.00</p> </td> 
+  <tr> 
+   <td> <p>Task 2</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$1,300.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 3</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$0.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$0.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$1,000.00</p> </td> 
+  <tr> 
+   <td> <p>Task 3</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 4</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$600.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>-$100.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$300.00</p> </td> 
+  <tr> 
+   <td> <p>Task 4</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Task 5</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$0.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>$600.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>$1,100.00</p> </td> 
+  <tr> 
+   <td> <p>Task 5</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$1,100.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Task 6</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$0.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>$600.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>$700.00</p> </td> 
+  <tr> 
+   <td> <p>Task 6</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>Project</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>$2,500.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> <p>$1000.00</p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>$1,500.00</p> </td> 
+  <tr> 
+   <td> <p>Project</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$1000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-
-
-
-1.  From Project Actions, run Recalculate Finance 
+1. From Project Actions, run Recalculate Finance 
 1. `CPI` for Task 2 = .17 calculated as follows:  
    `CPI Task 2` = *IF* Actual Labor Cost + IncurredActualExpenseCost &nbsp;<> 0 *THEN* CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)  
    *&nbsp; &nbsp;ELSE* CPI = CPI_Labor  
@@ -931,7 +810,6 @@ EAC Method = Calculate at project level
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
-  
    *&nbsp; &nbsp;ELSE* EAC &nbsp;Labor = Planned Labor Cost + Actual Labor Cost  
    `EAC Labor` `Task 2` = 500.00/.1  
    `EAC Labor` `Task 2` = $5,000.00 `&nbsp;  
@@ -944,19 +822,18 @@ EAC Method = Calculate at project level
    `EAC` `Task 2` &nbsp;= $5,000.00 + $900.00  
    `EAC` `Task 2` &nbsp;= $5,900.00
 
-1.  The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I’ll just provide those values below:  
+1. The CPI/EAC for Tasks 4, 5, and 6 are determined the same way so I’ll just provide those values below:  
    Task 4: .23 / $3,400.00  
    Task 5: .64 / $3,100.00  
    Task 6: 1.06 / $2,366.67
 
-1.  CPI for Task 3 = .31 calculated as follows:  
+1. CPI for Task 3 = .31 calculated as follows:  
    `CPI` `Task 3` = *IF* Actual Labor Cost + IncurredActualExpenseCost &nbsp;<> 0 *THEN* 
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-  
    *&nbsp; &nbsp;ELSE* CPI = CPI_Labor  
    `CPI` `Task 3` &nbsp;= (1,150 + 500) / (3000 + 2400)  
    `CPI` `Task 3` &nbsp;= &nbsp;1650 / 5400  
@@ -969,7 +846,6 @@ EAC Method = Calculate at project level
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-  
    &nbsp; &nbsp;ELSE CPI_Labor = 1  
    `CPI Labor` `Task 3` = 1150/3000  
    `CPI Labor` `Task 3` = .383333  
@@ -981,7 +857,6 @@ EAC Method = Calculate at project level
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-  
    *&nbsp; &nbsp;ELSE* EAC &nbsp;Labor = Planned Labor Cost + Actual Labor Cost  
    `EAC Labor` `Task 3` = $2,500.00 / .383333  
    `EAC Labor` `Task 3` = $6,521.74  
@@ -994,27 +869,25 @@ EAC Method = Calculate at project level
    `EAC` `Task 3` &nbsp;= $6,521.74 + $3,000.00  
    `EAC` `Task 3` &nbsp;= $9,521.74
 
-1.  CPI for Task 1 = .16 calculated as follows:  
+1. CPI for Task 1 = .16 calculated as follows:  
    `CPI` `Task 1` = *IF* Actual Labor Cost + IncurredActualExpenseCost &nbsp;<> 0 *THEN* 
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-  
    *&nbsp; &nbsp;ELSE* CPI = CPI_Labor  
    `CPI` `Task 1` &nbsp;= (1250 + 300) / (5000 + 4500)  
    `CPI` `Task 1` &nbsp;= &nbsp;1550 / 9500=  
    `CPI` `Task 1` &nbsp;= .16
 
-1.  EAC for Task 1 is $17,100.00 calculated as follows:  
+1. EAC for Task 1 is $17,100.00 calculated as follows:  
    `CPI Labor` `Task 1` = IF Actual Labor Cost <> 0 THEN 
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-  
    &nbsp; &nbsp;ELSE CPI_Labor = 1  
    `CPI Labor` `Task 1` = 1250 / 5000  
    `CPI Labor` `Task 1` = .25  
@@ -1032,14 +905,13 @@ EAC Method = Calculate at project level
    `EAC` `Task 1` &nbsp;= $12,000.00 + 5,100.00  
    `EAC` `Task 1` &nbsp;= $17,100.00
 
-1.  CPI for Project is .25  
+1. CPI for Project is .25  
    `CPI` `for Project` = *IF* Actual Labor Cost + IncurredActualExpenseCost &nbsp;<> 0 *THEN* 
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-  
    *&nbsp; &nbsp;ELSE* CPI = CPI_Labor  
   
    `CPI` `for Project` = (2450 + 1900) / (11000 + 6700)  
@@ -1053,7 +925,6 @@ EAC Method = Calculate at project level
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-  
    &nbsp; &nbsp;ELSE CPI_Labor = 1  
    `CPI Labor` `for Project` = 2450 / 11000  
    `CPI Labor` `for Project` = .22272  
@@ -1065,7 +936,6 @@ EAC Method = Calculate at project level
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-  
    *&nbsp; &nbsp;ELSE* EAC &nbsp;Labor = Planned Labor Cost + Actual Labor Cost  
    `EAC Labor` `for Project` = $5,000.00 / .22272  
    `EAC Labor` `for Project` = $22,448.97959  
@@ -1078,6 +948,4 @@ EAC Method = Calculate at project level
    `EAC` `Project` = EAC Labor + EAC Expense  
    `EAC` `Project` &nbsp;= $22,448.98 + 9,800.00  
    `EAC` `Project` &nbsp;= $32,248.98
-
-
 

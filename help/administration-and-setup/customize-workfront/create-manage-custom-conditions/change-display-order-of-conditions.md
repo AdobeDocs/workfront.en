@@ -4,81 +4,52 @@ title: Change display order of Conditions
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
+title: Change the display order of conditions
+description: You can change the order in which Conditions display in projects, tasks and issues:
 ---
 
-
-
-# Change the display order of conditions {#change-the-display-order-of-conditions}
+# Change the display order of conditions
 
 You can change the order in which Conditions display in projects, tasks and issues:
 
+<ul> 
+ <li> <p>When a user is editing a project</p> <p> <img src="assets/change-condition-edit-project-350x96.png" style="width: 350;height: 96;"> </p> </li> 
+</ul>
 
+<ul> 
+ <li> <p>When a user is changing the condition for a task or issue</p> <p> <img src="assets/change-conditions-list-drop-down-only-350x172.png" style="width: 350;height: 172;"> </p> </li> 
+</ul>
 
-*  When a user is editing a project
-
-
-  ![](assets/change-condition-edit-project-350x96.png)
-
-
-
-
-
-
-
-
-*  When a user is changing the condition for a task or issue
-
-
-  ![](assets/change-conditions-list-drop-down-only-350x172.png)
-
-
-
-
-
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Change the display order of conditions
 
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Conditions</span>.<br></li> 
+ <li value="3">Select the <span class="bold">Projects</span>,<span class="bold">Tasks</span>, or <span class="bold">Issues</span> tab.</li> 
+ <li value="4"> <p>Drag <img src="assets/move-icon---dots.png"> Conditions to change their order.<br></p> <p>The new order saves automatically.</p> </li> 
+</ol>
 
-## Change the display order of conditions {#change-the-display-order-of-conditions-1}
-
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1. Click `Project Preferences` > `Conditions`.  
-
-1. Select the `Projects`, `Tasks`, or `Issues` tab.
-
-1.  Drag ![](assets/move-icon---dots.png) Conditions to change their order.  
-
-
-
-   The new order saves automatically.
-
-
-
-For more information about customizing Conditions, see [Custom conditions](_custom-conditions.md).
+For more information about customizing Conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

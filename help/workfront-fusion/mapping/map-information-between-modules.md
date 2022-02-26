@@ -3,61 +3,83 @@ filename: map-information-between-modules
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
+title: Map information from one module to another
+description: Mapping is the process of assigning a module's outputs, structured into items, to another module's input fields.
 ---
 
-
-
-# Map information from one module to another {#map-information-from-one-module-to-another}
+# Map information from one module to another
 
 Mapping is the process of assigning a module's outputs, structured into items, to another module's input fields.
 
-
 The mapping panel displays when you click a field where you want to insert a value outputted from a preceding module in a scenario. Within a module, in any field that is available for mapping, you can create a formula using any combination of functions and mapped items from the mapping panel with static text that you type. These elements can be nested inside each other.
 
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p>Plan, Work</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> license**</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFFusionIntegration variable varname">Workfront Fusion for Work Automation and Integration</span> </p> <p data-mc-conditions="SnippetConditions.HIDE"><span class="mc-variable WFVariables.WFFusionAutomation variable varname">Workfront Fusion for Work Automation</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
+   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
+     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
+    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Your organization must purchase <span class="mc-variable WFVariables.FullProdNameWFF variable varname">Adobe Workfront Fusion</span> as well as <span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> to use functionality described in this article.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
+     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Bundles and items {#bundles-and-items}
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.</p>
+-->
+
+&#42;&#42; Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
+
+## Bundles and items
 
 The operation of a module produces zero, one, or more bundles as its output. A bundle consists of one or more items.
 
-
 To explore the output of a module:
 
-
-
 1. Click `Run once` to execute the module.
-1.  Click the bubble above the module.
-
+1. Click the bubble above the module.
 
    A log containing all of the module's phases displays. You can find the bundle or bundles outputted by a module's operation phase under the `Output` heading. Each bundle contains its items and each item's values.
-
-
-
 
 ` `**Example: **`` This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as 
 
@@ -79,136 +101,101 @@ size
 
 , and so on.
 
-
 ![](assets/watch-emails-350x298.png)
-
-
-
 
 >[!NOTE]
 >
 >The outputs from modules wrapped between an Iterator and Aggregator are not accessible beyond the Aggregator module.
 
+## Map an item
 
-
-
-## Map an item {#map-an-item}
-
-After you have created a sequence of modules by linking two or more of them, each module can process values of items outputted by the modules that precede it. 
-
+After you have created a sequence of modules by linking two or more of them, each module can process values of items outputted by the modules that precede it.
 
 To assign the items to a module's input fields:
 
-
-
 1. Click on the module that should process the output of the preceding module or modules. 
-1.  In the Module settings panel that displays, click a field where you want to use the value of an item outputted from the preceding module(s).
-
+1. In the Module settings panel that displays, click a field where you want to use the value of an item outputted from the preceding module(s).
 
    The mapping panel opens.
 
-1.  Click an item from the mapping panel to insert it into the field.
-1.  (Optional) To search for a particular field in the mapping panel, click the mapping panel search bar and type in the term you want to search for. Click the field when it appears in the list.
-
+1. Click an item from the mapping panel to insert it into the field.
+1. (Optional) To search for a particular field in the mapping panel, click the mapping panel search bar and type in the term you want to search for. Click the field when it appears in the list.
 
    Search results contain the search term and are not case sensitive.
 
+For more information, see [Configure a module's settings](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
-
-For more information, see [Configure a module's settings](configure-a-modules-settings.md).
-
-
-## Formulas {#formulas}
+## Formulas
 
 You can map multiple items into a field, combine them with literals (fixed values), and employ Operators and Functions to build complex formulas:
 
-
 ![](assets/operators-and-functions-350x187.png)
-
-
-
 
 You can find the functions and operators in the mapping panel under one of its tabs.
 
-
 ![](assets/functions-toolbar-350x189.png)
-
-
-
 
 The first tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (shown upon opening the panel) displays the items that you can map from other modules.
 
-
 The other tabs contain the following types of functions:
 
+<ul> 
+ <li><span class="bold">General functions</span> <img src="assets/toolbar-icon-general-function.png"> - See <a href="../../workfront-fusion/functions/general-functions.md" class="MCXref xref">General functions</a> for more information.</li> 
+ <li><span class="bold">Math functions</span> <img src="assets/toolbar-icon-math-functions.png"> - See <a href="../../workfront-fusion/functions/math-functions.md" class="MCXref xref">Math functions</a> for more information.</li> 
+ <li><span class="bold">Text and binary functions</span> <img src="assets/toolbar-icon-text&binary-functions.png"> - See <a href="../../workfront-fusion/functions/string-functions.md" class="MCXref xref">String functions</a> for more information.</li> 
+ <li><span class="bold">Date and time</span> <img src="assets/toolbar-icon-date&time-functions.png"> - See <a href="../../workfront-fusion/functions/date-and-time-functions.md" class="MCXref xref">Date and time functions</a> and the articles below for more information.
+  <ul>
+   <li><a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting</a></li>
+   <li><a href="../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md" class="MCXref xref">Tokens for date and time parsing</a></li>
+  </ul></li> 
+ <li><span class="bold">Functions for working with arrays</span> <img src="assets/toolbar-icon-functions-for-arrays.png"> - See <a href="../../workfront-fusion/functions/array-functions.md" class="MCXref xref">Array functions</a> for more information.</li> 
+</ul>
 
-
-* `General functions` ![](assets/toolbar-icon-general-function.png) - See [General functions](general-functions.md) for more information.
-
-* `Math functions` ![](assets/toolbar-icon-math-functions.png) - See [Math functions](math-functions.md) for more information.
-
-* `Text and binary functions` ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions](string-functions.md) for more information.
-
-* `Date and time` ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](date-and-time-functions.md) and the articles below for more information.
-    
-    
-    * [Tokens for date and time formatting](tokens-for-date-and-time-formatting.md)
-    * [Tokens for date and time parsing](tokens-for-date-and-time-parsing.md)
-    
-    
-
-* `Functions for working with arrays` ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](array-functions.md) for more information.
-
-
-
-
-
->[!TIP] {type="tip"}
+>[!TIP]
 >
 >When you create a complex formula that you want to reuse it in another field, you can click the field that contains the combination, use Command-A or Ctrl-A to select it, then copy and paste it into the other field.
 
+For more information on mapping items using functions, see [Map items using functions](../../workfront-fusion/functions/map-using-functions.md).
 
-For more information on mapping items using functions, see [Map items using functions](map-using-functions.md).
+<!--
+<div class="examples" data-mc-autonum="<b>Examples: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<span class="autonumber"><span><b>Examples: </b></span></span>
+<p>Consider these common examples of formulas created using the mapping panel:</p>
+<p> <img src="assets/formula-examples-350x138.png" style="width: 350;height: 138;"><draft-comment>
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redo this so this it is bigger. Come back to training (Fusion 2.0 Enablement Training (Part 1) - Beyond Basic Mapping) 1:53 in video to see if I should type out how he explained a couple of these</span>
+</draft-comment><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redo this so this it is bigger. Come back to training (Fusion 2.0 Enablement Training (Part 1) - Beyond Basic Mapping) 1:53 in video to see if I should type out how he explained a couple of these</span> </p>
+</div>
+-->
 
+` `**Examples: **`` Consider these common examples of formulas created using the mapping panel:
 
-## Collections {#collections}
+![](assets/formula-examples-350x138.png) `Redo this so this it is bigger. Come back to training (Fusion 2.0 Enablement Training (Part 1) - Beyond Basic Mapping) 1:53 in video to see if I should type out how he explained a couple of these`
 
-Some items can contain multiple values of various types. These are collection type items. 
+## Collections
 
+Some items can contain multiple values of various types. These are collection type items.
 
 You can identify a collection type item by the small black rectangle displayed to the right of the item's label and its automatically expanded list of sub-items:
 
-
 ![](assets/collection.png)
-
-
-
 
 >[!NOTE]
 >
 >In most cases, you map the collection's sub-items rather than the item representing the whole collection.
 
+For more information about collections, see [Item data types](../../workfront-fusion/mapping/item-data-types.md)
 
-For more information about collections, see [Item data types](item-data-types.md)
+## Arrays
 
-
-## Arrays {#arrays}
-
-Some items can contain multiple elements of the same type. These are array type items. 
-
+Some items can contain multiple elements of the same type. These are array type items.
 
 You can identify an array type item by the square brackets at the end of the item's label. Click the small black rectangle to the right of the item's label to reveal the element's items:
 
-
 ![](assets/array.png)
 
+For more information about arrays, see [Item data types](../../workfront-fusion/mapping/item-data-types.md)
 
-
-
-For more information about arrays, see [Item data types](item-data-types.md)
-
-
-### Map an array's first element {#map-an-arrays-first-element}
+### Map an array's first element
 
 If you map an array's 
 
@@ -218,48 +205,29 @@ Recipient name
 
 item, it displays in the field like this:
 
-
 ![](assets/map-array's-1st-element.png)
-
-
-
 
 The number in the square brackets is an index that determines which element of the array will be used. It is set to 1 by default.
 
-
-### Map an array's n-th element {#map-an-arrays-n-th-element}
+### Map an array's n-th element
 
 If you want to access another element, click on the square brackets and edit the index value:
 
-
 ![](assets/access-another-element.png)
 
-
-
-
-### Map an array's element with a given key {#map-an-arrays-element-with-a-given-key}
+### Map an array's element with a given key
 
 Some arrays contain several collections with key and value items. These are typically various metadata, attributes, and so on.
 
-
 The following example shows the output of the Jira App.
-
 
 ![](assets/output-of-jira-app-350x100.png)
 
-
-
-
 In this example, we get a file name from an array of attachments for the specific attachment with an ID of 10108.
-
 
 The output from Jira looks like this:
 
-
 ![](assets/output-from-jira-350x261.png)
-
-
-
 
 The typical requirement is to look up an element by its given key value and obtain the corresponding value from the value item. This can be achieved with a formula employing a combination of the 
 
@@ -275,41 +243,16 @@ get()
 
 functions.
 
-
 The following is a detailed breakdown of the formula:
 
-
-
-1. The first parameter of the 
-
-   ```
-   map()
-   ```
-
-   function is the whole array item. 
-1.  The second parameter is the raw name of the value item. To obtain the raw name, hover over the item in the mapping panel:
-
-
-   ![](assets/obtain-raw-name-350x124.png)
-
-
-
-
-   >[!NOTE]
-   >
-   >All parameters are case sensitive. Even though in this particular example the item's label differs from its raw name only in capitalization, it is necessary to use the raw name, which is all lowercase value in contrast to the label Value.
-
-
-
-1.  The 3rd parameter is the raw name of the key item:
-
-
-   ![](assets/3rd-parameter-350x166.png)
-
-
-
-1.  The 4th parameter is the given key value.
-
+<ol> 
+ <li value="1">The first parameter of the <code>map()</code> function is the whole array item. </li> 
+ <li value="2"> <p>The second parameter is the raw name of the value item. To obtain the raw name, hover over the item in the mapping panel:</p> <p> <img src="assets/obtain-raw-name-350x124.png" style="width: 350;height: 124;"> </p> <note type="note">
+   All parameters are case sensitive. Even though in this particular example the item's label differs from its raw name only in capitalization, it is necessary to use the raw name, which is all lowercase value in contrast to the label Value.
+  </note> </li> 
+ <li value="3"> <p>The 3rd parameter is the raw name of the key item:</p> <p> <img src="assets/3rd-parameter-350x166.png" style="width: 350;height: 166;"></p> </li> 
+ <li value="4"> <p>The 4th parameter is the given key value.</p> </li> 
+</ol>
 
 Because the 
 
@@ -324,8 +267,6 @@ get()
 ```
 
 function to get its first element:
-
-
 
 * The 1st parameter of the 
 
@@ -343,110 +284,73 @@ function to get its first element:
 
 * The 2nd parameter is the element's index - one.
 
-
 For more information about the 
 
 ```
 map()
 ```
 
-function, see [Array functions](array-functions.md). For more information about the 
+function, see [Array functions](../../workfront-fusion/functions/array-functions.md). For more information about the 
 
 ```
 get()
 ```
 
-function, see [General functions](general-functions.md).
+function, see [General functions](../../workfront-fusion/functions/general-functions.md).
 
+## Converting elements to a series of bundles
 
-## Converting elements to a series of bundles {#converting-elements-to-a-series-of-bundles}
-
-Arrays can be converted to a series of bundles using the Iterator module. For more information, see [Iterator module](iterator-module.md).
-
+Arrays can be converted to a series of bundles using the Iterator module. For more information, see [Iterator module](../../workfront-fusion/modules/iterator-module.md).
 
 ![](assets/series-of-bundles-350x169.png)
 
+## Troubleshooting
 
+### Missing items in the mapping panel
 
+For each module, the mapping panel displays all output items, listed by the author of the module. In some cases, this list might be incomplete for various reasons, and some items might be missing. *Workfront Fusion* can auto-discover the missing output items when you run the module in the scenario editor. The exact procedure differs slightly depending on the module's type:
 
-## Troubleshooting {#troubleshooting}
+#### Instant trigger
 
-
-
-### Missing items in the mapping panel {#missing-items-in-the-mapping-panel}
-
-For each module, the mapping panel displays all output items, listed by the author of the module. In some cases, this list might be incomplete for various reasons, and some items might be missing. *`Workfront Fusion`* can auto-discover the missing output items when you run the module in the scenario editor. The exact procedure differs slightly depending on the module's type:
-
-
-#### Instant trigger {#instant-trigger}
-
-
-
-
-1.  Right-click the module, then click `Run this module only` in the menu that displays.
-
+1. Right-click the module, then click `Run this module only` in the menu that displays.
 
    If there are no queued webhooks, the module waits for a new webhook to process.
 
-1.  Generate a webhook.
-
+1. Generate a webhook.
 
    For example, the webhook module `Slack > Listen for new events` (which watches for new channel messages in a channel) sends a message to the channel.
 
-1.  When the module finishes running, click the bubble above the module to explore its full output.
-
+1. When the module finishes running, click the bubble above the module to explore its full output.
 
    The mapping panel will contains all the items that were discovered in the module's output.
 
-
-
-
-
-#### Polling trigger {#polling-trigger}
-
-
-
+#### Polling trigger
 
 1. Right-click the module, then click `Run this module only` in the menu that displays.
-1.  If there is no output, click `Choose where to start` and adjust the settings. 
-1.  If there is no event to be processed, create one and go back to step 2. 
-
+1. If there is no output, click `Choose where to start` and adjust the settings. 
+1. If there is no event to be processed, create one and go back to step 2.
 
    For example, the webhook module `Gmail > Watch emails` sends an email to the folder that the module is watching.
 
-1.  When the module finishes running, click the bubble above the module to explore its full output.
-
+1. When the module finishes running, click the bubble above the module to explore its full output.
 
    The mapping panel now contains all of the items that were discovered in the module's output.
 
-
-
-
-
-#### Other modules {#other-modules}
+#### Other modules
 
 You may choose to execute:
 
-
-
-*  The whole scenario (or just the part containing the module) 
-
+* The whole scenario (or just the part containing the module)
 
   If your scenario starts with a trigger, refer to the [Instant trigger](#instant) or [Polling trigger](#polling) section above.
 
 * Just the single module
 
-
 If you choose to execute just the single module:
-
-
 
 1. Right-click the module, then click `Run this module only` in the menu that displays..
 1. Provide sample values for the input items, then click `OK` .
-1.  When the module finishes running, click the bubble above the module to explore its full output.
-
+1. When the module finishes running, click the bubble above the module to explore its full output.
 
    The mapping panel now contains all of the items that were discovered in the module's output.
-
-
 

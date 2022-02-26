@@ -4,89 +4,249 @@ title: Disable document integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
+title: Create OAuth2 applications for Workfront integrations
+description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
+# Create OAuth2 applications for *Workfront* integrations
 
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-# Create OAuth2 applications for *`Workfront`* integrations {#create-oauth-applications-for-workfront-integrations}
+As an *Adobe Workfront administrator*, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access *Workfront*. Your users can then give permission to those other applications to access their *Workfront* data. In this way, you can integrate *Workfront* with applications of your choice, including your own in-house applications.
 
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
-
-As an *`Adobe Workfront administrator`*, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access *`Workfront`*. Your users can then give permission to those other applications to access their *`Workfront`* data. In this way, you can integrate *`Workfront`* with applications of your choice, including your own in-house applications.
-
+When you create an OAuth2 application, you generate a Client ID and Client Secret. Your users can then use the Client ID in API calls to integrate with the application you have created.
 
 >[!NOTE]
 >
->In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as *`Workfront`*. 
+>In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as *Workfront*.
 
+* For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
+* For instructions on configuring and using the OAuth2 application using server authentication (JWT flow), see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md).
 
+## Access requirements
 
+You must have the following access to perform the steps in this article:
 
-## OAuth2 overview {#oauth-overview}
-
-Imagine that an application needs to pull some specific information from *`Workfront`*. An application that requests information is called a client. For this example, the client name is ClientApp. ClientApp needs access to a particular user's information, and therefore needs to access *`Workfront`* as that user. If your user gives ClientApp their username and password, ClientApp could access all of the data that the user can access. This is a security risk, because ClientApp only needs a small, specific set of information. 
-
-
-When you create an OAuth2 app for ClientApp, you are essentially telling *`Workfront`* that ClientApp is allowed to access *`Workfront`*, but it can access only a specific set of information you select, and only if the user whose account ClientApp is accessing gives permission for the access. 
-
-
-## Create an OAuth2 application {#create-an-oauth-application}
-
-
-
-
-1.  Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-1.  In the left navigation panel, click **System**, then select **OAuth Applications**.
-1.  Click **Create new app**.
-1.  Enter a name for the new OAuth2 application, such as "Workfront for ClientApp."
-1.  Click **Create**.
-1.  Fill in the fields for the new app.
-
-<table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Client ID</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>This field is automatically generated.</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Client secret</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>This field is automatically generated</p> <p>Important:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Plan</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Redirect URLs</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Users will be redirected to this path after they have authenticated with <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span>. The path will be appended with the authorization code for access, and must have a protocol.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Logo</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">You can add a logo to make this app more identifiable. </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Name</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">This is the same name that you gave the app. This field cannot be empty.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Description</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Enter a description for the integration.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">App Description URL</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">This can be a link to an "About us" page or a page with more information about the integration.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Status</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">This is the current status of the integration.</td> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <draft-comment>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. </p>
+    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. </p> <draft-comment>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
-1.  Click **Save**.
+## OAuth2 overview
 
+Imagine that an application needs to pull some specific information from *Workfront*. An application that requests information is called a client. For this example, the client name is ClientApp. ClientApp needs access to a particular user's information, and therefore needs to access *Workfront* as that user. If your user gives ClientApp their username and password, ClientApp could access all of the data that the user can access. This is a security risk, because ClientApp only needs a small, specific set of information.
 
-&nbsp;
+When you create an OAuth2 app for ClientApp, you are essentially telling *Workfront* that ClientApp is allowed to access *Workfront*, but only if the user whose account ClientApp is accessing gives permission for the access.
 
+## Create an OAuth2 application
+
+### Create an OAuth2 application using server authentication (JWT flow)
+
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
+ <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
+ <li value="4"> <p>In the window that appears, select <b>Server Authentication</b>.</p> </li> 
+ <li value="5"> <p>Enter a name for the new application, such as "Workfront for ClientApp."</p> </li> 
+ <li value="6"> <p>Click <b>Create</b>.</p> </li> 
+ <li value="7"> <p>Fill in the fields for the new app.</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Client ID</td> 
+     <td> <p>This field is automatically generated.</p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Client secret</td> 
+     <td> <p>This field is automatically generated</p> <note type="important"> 
+       <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> 
+       <p>If you lose this key, delete it and create a new Client Secret.</p> 
+       <ol> 
+        <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
+        <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
+       </ol> 
+      </note> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Public Keys</td> 
+     <td> <p>Server to server apps use public and private keys for authentication. Do one of the following:</p> 
+      <ul> 
+       <li> <p>Click <b>Add a public key</b> and enter the public key from the other application.</p> </li> 
+       <li> <p>Click <b>Generate a public/private keypair</b>, then share the public key with the other application.</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Name</td> 
+     <td>This is the same name that you gave the app. This field cannot be empty.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Description</td> 
+     <td>Enter a description for the integration.</td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="8"> <p>Click <b>Save</b>.</p> </li> 
+</ol>
+
+### Create an OAuth2 application using user credentials (Authorization code flow)
+
+<ol> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
+ <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
+ <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
+ <li value="4"> <p>In the window that apears, select <b>User Authentication</b>.</p> </li> 
+ <li value="5"> <p>Enter a name for the new OAuth2 application, such as "Workfront for ClientApp."</p> </li> 
+ <li value="6"> <p>Click <b>Create</b>.</p> </li> 
+ <li value="7"> <p>Fill in the fields for the new app.</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Client ID</td> 
+     <td> <p>This field is automatically generated.</p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Client secret</td> 
+     <td> <p>This field is automatically generated</p> <note type="important"> 
+       <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> 
+       <p>If you lose this key, delete it and create a new Client Secret.</p> 
+       <ol> 
+        <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
+        <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
+       </ol> 
+      </note> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Redirect URLs</td> 
+     <td>Users will be redirected to this path after they have authenticated with <em>Workfront</em>. <draft-comment>
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        The path will be appended with the authorization code for access, and must have a protocol.
+       </MadCap:conditionalText>
+      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       The path will be appended with the authorization code for access, and must have a protocol.
+      </MadCap:conditionalText></td> 
+    </tr> <draft-comment>
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Absolute refresh token expiration</td> 
+      <td> <p>Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire.</p> </td> 
+     </tr>
+    </draft-comment>
+    <tr data-mc-conditions=""> 
+     <td role="rowheader">Absolute refresh token expiration</td> 
+     <td> <p>Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire.</p> </td> 
+    </tr> <draft-comment>
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Inactivity refresh token expiration</td> 
+      <td> <p>Select the amount of time after which, if the user has not been active in your system, their refresh token expires. </p> <p>For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer.</p> </td> 
+     </tr>
+    </draft-comment>
+    <tr data-mc-conditions=""> 
+     <td role="rowheader">Inactivity refresh token expiration</td> 
+     <td> <p>Select the amount of time after which, if the user has not been active in your system, their refresh token expires. </p> <p>For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer.</p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Logo</td> 
+     <td>You can add a logo to make this app more identifiable. </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Name</td> 
+     <td>This is the same name that you gave the app. This field cannot be empty.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Description</td> 
+     <td>Enter a description for the integration.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">App Description URL</td> 
+     <td>This can be a link to an "About us" page or a page with more information about the integration.</td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="8"> <p>Click <b>Save</b>.</p> </li> 
+</ol>
+
+For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
+
+## Configure and use the created OAuth2 application
+
+Further configuration and use of the created OAuth2 application requires some technical knowledge, including API calls.
+
+* For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
+* For instructions on configuring and using the OAuth2 application using server authentication (JWT flow), see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md).
+
+## OAuth2 processes for authorization code flow
+
+>[!NOTE]
+>
+>Your users access the OAuth2 application through the API. This section describes the functionality in general terms, and is provided for information only.
+>
+>For specific instructions on using the OAuth2 application, including specific API calls, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
+
+#### Authorizing with an authorization code and access token
+
+1. ClientApp needs some information from *Workfront*, so it sends a request to the Workfront API 
+
+   ```
+   /authorize
+   ```
+
+   endpoint. The request includes the response_type 
+
+   ```
+   code
+   ```
+
+   , which indicates that the request should return an authorization code.
+1. This triggers *Workfront* to send an authentication prompt to the user. The user can enter their credentials into the prompt, which gives Workfront permission to communicate with ClientApp. If the user is already logged into Workfront, this step may be skipped.
+1. The Workfront API sends an authorization code to ClientApp.
+1. ClientApp sends the following information in a request to the *Workfront* API 
+
+   ```
+   /token
+   ```
+
+   endpoint:
+
+  * The authorization code sent to ClientApp in step 3. This identifies the specific instance of user permission.
+  * The Client Secret that was generated when you set up the ClientApp OAuth2 app in Workfront. This allows *Workfront* to know that the request is coming from ClientApp.
+
+1. If the authorization code and the client secret are correct, *Workfront* sends an access token to ClientApp. This access token is sent directly from *Workfront* to ClientApp, and cannot be viewed, copied, or used by any other user or client application. 
+1. ClientApp sends the access token to *Workfront* along with the specific request for information.
+1. Because the access token is correct, *Workfront* sends the information to ClientApp.
+
+#### Refreshing access tokens
+
+For security, access tokens expire after a short amount of time. To get new access tokens without having to enter credentials every time, OAuth2 uses refresh tokens. Refresh tokens are stored by the client.
+
+The process for acquiring a refresh token is the same as the procedure discussed in the section [Authorizing with an authorization code and access token](#authoriz). The request for the authorization code includes the scope 
+
+```
+offline_access
+```
+
+, which indicated that the request should return a request token along with the authorization code.
 
 &nbsp;

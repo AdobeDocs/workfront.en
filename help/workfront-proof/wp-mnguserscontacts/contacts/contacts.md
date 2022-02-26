@@ -4,25 +4,19 @@ content-type: reference
 product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
+title: Contacts
+description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
 ---
 
+# Contacts
 
-
-# Contacts {#contacts}
-
-
-
->[!IMPORTANT] {type="important"}
+>[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *`Workfront Proof`*. For information on proofing inside *`Adobe Workfront`*, see [Proofing](_proofing.md).
-
+>This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-
-
-* [Add a Guest to Workfront Proof](add-guest.md) 
-* [Manage Your Contacts in Workfront Proof](manage-contacts.md) 
-* [Understand Users, Members, and Guests in Workfront Proof](use-members-guests.md) 
-
+* [Add a Guest to Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md) 
+* [Manage Your Contacts in Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) 
+* [Understand Users, Members, and Guests in Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
 

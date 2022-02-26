@@ -2,121 +2,86 @@
 filename: installl-wf-adobe-cc
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-adobe-creative-cloud
+title: Install Adobe Workfront for Adobe Creative Cloud
+description: The following sections describe how to download and install Adobe Workfront for Adobe Creative Cloud. For information about how to use the extension, see Use Adobe Workfront for Adobe Creative Cloud.
 ---
 
+# Install *Adobe Workfront* for Adobe Creative Cloud
 
-
-# Install *`Adobe Workfront`* for Adobe Creative Cloud {#install-adobe-workfront-for-adobe-creative-cloud}
-
-The following sections describe how to download and install *`Adobe Workfront`* for Adobe Creative Cloud. For information about how to use the extension, see [Use Adobe Workfront for Adobe Creative Cloud](use-wf-adobe-cc.md).
-
+The following sections describe how to download and install *Adobe Workfront* for Adobe Creative Cloud. For information about how to use the extension, see [Use Adobe Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
 
 ![Adobe__workfront_extension_panel_and_open_file.PNG](assets/adobe--workfront-extension-panel-and-open-file-350x215.png)
 
+## Supported applications
 
-
-
-## Supported applications {#supported-applications}
-
-The *`Workfront`* extension is supported for the 2017 versions (and newer) of the following Adobe Creative Cloud applications:
-
-
+The *Workfront* extension is supported for the 2017 versions (and newer) of the following Adobe Creative Cloud applications:
 
 * InDesign
 * Illustrator
 * Photoshop
 
+The extension is supported for both Adobe Cloud and desktop applications.
 
-The extension is supported for both Adobe Cloud and desktop applications. 
-
-
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p><span class="mc-variable WFVariables.WFPlan-Pro variable varname">Pro</span> or higher</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td> <p><em>Pro</em> or higher</p> </td> 
+  </tr> <draft-comment>
+   <tr data-mc-conditions=""> 
+    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+    <td> <p><em>Work</em> or higher</p> </td> 
+   </tr>
+  </draft-comment>
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td> <p><em>Work</em> or higher</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray" data-mc-conditions=""> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license*</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Work variable varname">Work</span> or higher</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Product</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">You must have an Adobe Creative Cloud license in addition to a <span class="mc-variable WFVariables.ProdNameWF variable varname">Workfront</span> license.</td> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a <em>Workfront</em> license.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *`Workfront administrator`*.
+&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
 
+## Install *Workfront* for Adobe Creative Cloud
 
-## Install *`Workfront`* for Adobe Creative Cloud {#install-workfront-for-adobe-creative-cloud}
+<ol> 
+ <li value="1">Open your Adobe Creative Cloud application and make sure that your apps are up to date.</li> 
+ <li value="2"> <p>In the preferences for your Adobe Creative Cloud application, make sure that syncing is enabled (this is the default).<br></p> </li> 
+ <li value="3">In a web browser, log in to your Adobe account, then go to the Adobe Exchange Creative Cloud website.</li> 
+ <li value="4"> <p>In the <span class="bold">Search Marketplace</span> box (near the bottom of the screen), search for <span class="bold"><em>Workfront</em></span>.<br></p> </li> 
+ <li value="5"> <p>In the box that appears below the search box, click <span class="bold"><em>Workfront</em> Extension</span>.</p> <p> <img src="assets/adobe-workfront-search-in-the-exchange-350x240.png" alt="adobe_workfront_search_in_the_exchange.png" style="width: 350;height: 240;"> </p> </li> 
+ <li value="6">Click <span class="bold">Install</span>.</li> 
+ <li value="7"> <p>When the installation completes, restart your computer and <em>Workfront</em> for Adobe Creative Cloud is added to your list of extensions for the supported applications. </p> <p>For information about verifying that the extension is installed, see the <a href="#ensuring-the-addon-installed-successfully" class="MCXref xref">Ensure Workfront for Adobe Creative Cloud installed successfully</a> section in this article.</p> </li> 
+</ol>
 
+## Ensure *Workfront* for Adobe Creative Cloud installed successfully
 
+1. Open one of the following supported applications on your computer:
 
+  * Adobe Illustrator
+  * Adobe InDesign
+  * Adobe Photoshop
 
-1. Open your Adobe Creative Cloud application and make sure that your apps are up to date.
-1.  In the preferences for your Adobe Creative Cloud application, make sure that syncing is enabled (this is the default).  
+1. Click `Window` > `Extensions` > *Workfront*.
 
-1. In a web browser, log in to your Adobe account, then go to the Adobe Exchange Creative Cloud website.
-1.  In the `Search Marketplace` box (near the bottom of the screen), search for ` *`Workfront`*`.  
+   If you don't see the *Workfront* extension, make sure that syncing is enabled in Adobe Creative Cloud. See Adobe Help documentation if you need help
 
-1.  In the box that appears below the search box, click ` *`Workfront`* Extension`.
+## Troubleshooting *Workfront* for Adobe Creative Cloud installation
 
-
-   ![adobe_workfront_search_in_the_exchange.png](assets/adobe-workfront-search-in-the-exchange-350x240.png)
-
-
-
-1. Click `Install`.
-1.  When the installation completes, restart your computer and *`Workfront`* for Adobe Creative Cloud is added to your list of extensions for the supported applications. 
-
-
-   For information about verifying that the extension is installed, see the [Ensure Workfront for Adobe Creative Cloud installed successfully](#ensuring-the-addon-installed-successfully) section in this article.
-
-
-
-
-
-## Ensure *`Workfront`* for Adobe Creative Cloud installed successfully {#ensure-workfront-for-adobe-creative-cloud-installed-successfully}
-
-
-
-
-1. Open one of the following supported applications on your computer: 
-    
-    
-    * Adobe Illustrator
-    * Adobe InDesign
-    * Adobe Photoshop
-    
-    
-1.  Click `Window` > `Extensions` > *`Workfront`*.
-
-
-   If you don't see the *`Workfront`* extension, make sure that syncing is enabled in Adobe Creative Cloud. See Adobe Help documentation if you need help
-
-
-
-
-
-## Troubleshooting *`Workfront`* for Adobe Creative Cloud installation {#troubleshooting-workfront-for-adobe-creative-cloud-installation}
-
-
-
-### Problem: Workfront extension shows "Not Compatible" message {#problem-workfront-extension-shows-not-compatible-message}
+### Problem: Workfront extension shows "Not Compatible" message
 
 ![](assets/acc-wf-not-compatible-error-message-350x109.png)
 
+#### Solution:
 
-
-
-#### Solution:  {#solution}
-
-You may have an existing, older version of the *`Workfront`* extension for Adobe Creative Cloud. Locate and uninstall the existing *`Workfront`* extension, then install the new Workfront extension as described in [Install Workfront for Adobe Creative Cloud](#downloading-and-configuring-the-workfront-extension) in this article.
+You may have an existing, older version of the *Workfront* extension for Adobe Creative Cloud. Locate and uninstall the existing *Workfront* extension, then install the new Workfront extension as described in [Install Workfront for Adobe Creative Cloud](#downloading-and-configuring-the-workfront-extension) in this article.

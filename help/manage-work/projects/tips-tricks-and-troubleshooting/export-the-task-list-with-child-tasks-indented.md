@@ -3,24 +3,19 @@ filename: export-the-task-list-with-child-tasks-indented
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
+title: Export the Task List with Child Tasks Indented
+description: I cannot identify parent - child relationships in an exported task list.
 ---
 
+# Export the Task List with Child Tasks Indented
 
-
-# Export the Task List with Child Tasks Indented  {#export-the-task-list-with-child-tasks-indented}
-
-
-
-## Problem {#problem}
+## Problem
 
 I cannot identify&nbsp;parent - child relationships in an exported task list.&nbsp;
 
-
-## Solution {#solution}
+## Solution
 
 You can maintain the distinction of parent - child relationships in an exported task list by adding a custom view to the task list and ensuring this view is selected before you export the list. &nbsp;
-
-
 
 1. Go to the project with the task list you'd like to export.
 1. Click the `View` drop-down menu, and select `New View`.
@@ -41,5 +36,4 @@ You can maintain the distinction of parent - child relationships in an exported 
 
 1. Click `Save`.
 1. Click `Save View`.
-
 

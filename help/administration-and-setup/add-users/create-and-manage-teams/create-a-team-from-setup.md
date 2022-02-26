@@ -4,121 +4,115 @@ title: Grant administrator access
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
+title: Create a team from the Setup area
+description: As an Adobe Workfront administrator, you can create a team from the Setup area. For information about teams, see Teams overview.
 ---
 
+# Create a team from the Setup area
 
-
-# Create a team from the Setup area {#create-a-team-from-the-setup-area}
-
-As an *`Adobe Workfront administrator`*, you can create a team from the Setup area. For information about teams, see [Teams overview](teams-overview.md).
-
+As an *Adobe Workfront administrator*, you can create a team from the Setup area. For information about teams, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
+>* A *group administrator* can create a team for a group they administer from the Setup area. For more information, see [Create and modify a group’s teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
 >
+>* A user with a *Plan* license can also create a team from the People area. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 >
->
->* A *`group administrator`* can create a team for a group they administer from the Setup area. For more information, see [Create and modify a group’s teams](create-and-modify-a-groups-teams.md).
->
->* A user with a *`Plan`* license can also create a team from the People area. For more information, see [Create a team](create-a-team.md).
->
->
->
-
-
-
-
 
 ##  
 
-## Access requirements {#access-requirements}
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
+<table cellspacing="0"> 
+ <col> 
+ <col> 
  <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> plan</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Any</p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><span class="mc-variable WFVariables.FullProdNameWF variable varname">Adobe Workfront</span> license</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="mc-variable WFVariables.WFLicense-Plan variable varname">Plan</span> </p> </td> 
+  <tr> 
+   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td> <p><em>Plan</em> </p> </td> 
   </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Access level configurations</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>You must be a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span>. For more information, see <a href="grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span class="mc-variable WFVariables.AdminWF variable varname">Workfront administrator</span> can modify your access level, see <a href="create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-{#access-requirements-you-must-have-the-following-to-perform-the-steps-in-this-article-adobe-workfront-plan-any-adobe-workfront-license-plan-access-level-configurations-you-must-be-a-workfront-administrator-for-more-information-see-grant-a-user-full-administrative-access-note-if-you-still-dont-have-access-ask-your-workfront-administrator-if-they-set-additional-restrictions-in-your-access-level-for-information-on-how-a-workfront-administrator-can-modify-your-access-level-see-create-or-modify-custom-access-levels}
+## Create a team
 
+<ol> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2">Click <span class="bold">Teams</span>, then click <span class="bold">New Team</span>.</li> 
+ <li value="3"> <p>In the <b>New Team</b> box that displays, specify the following information:</p> 
+  <table cellspacing="0"> 
+   <col> 
+   <col> 
+   <tbody> 
+    <tr> 
+     <td role="rowheader">Team Name</td> 
+     <td>Type a name for the team.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Group</td> 
+     <td> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> <draft-comment>
+       <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.<draft-comment>
+         <MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+           Depending on the details configured for the group, you might also see its Business Leader and description.
+         </MadCap:conditionalText>
+        </draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+          Depending on the details configured for the group, you might also see its Business Leader and description.
+        </MadCap:conditionalText></p>
+      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
+         Depending on the details configured for the group, you might also see its Business Leader and description.
+       </MadCap:conditionalText></p> <note type="note">
+       When a team is assigned to a group or subgroup, any 
+       <em>group administrators</em> of that group or subgroup can manage the team without being a member of it. 
+       <em>Group administrators</em> can go to the Teams area from the Main Menu and click the Switch Teams arrow 
+       <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.
+      </note> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Team Members</td> 
+     <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Description</td> 
+     <td>Type a description for the team.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Calendar</td> 
+     <td>Choose which calendar tab will appear for this team.</td> 
+    </tr> <draft-comment>
+     <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
+      <td role="rowheader">This is an Agile Team</td> 
+      <td>Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
+     </tr>
+    </draft-comment>
+    <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
+     <td role="rowheader">This is an Agile Team</td> 
+     <td>Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Work On It</td> 
+     <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
+    </tr> 
+    <tr> 
+     <td role="rowheader">Done Button</td> 
+     <td>Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
+    </tr> 
+   </tbody> 
+  </table> </li> 
+ <li value="4">Click&nbsp;<span class="bold">Create Team</span>.</li> 
+</ol>
 
-
-## Create a team {#create-a-team}
-
-
-
-
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of *`Adobe Workfront`*, then click `Setup` ![](assets/gear-icon-settings.png).
-
-1. Click  `Teams`, then click  `New Team`.
-
-1.  In the `New Team` box that displays, specify the following information:
-
-<table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/TableStyle-List-options-in-steps.css');" class="TableStyle-TableStyle-List-options-in-steps" cellspacing="0"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1"> 
- <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2"> 
- <tbody> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Team Name</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Type a name for the team.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Group</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-       Depending on the details configured for the group, you might also see its Business Leader and description.
-     </MadCap:conditionalText></p> <p>Note: When a team is assigned to a group or subgroup, any <span class="mc-variable WFVariables.AdminGroup-plur variable varname">group administrators</span> of that group or subgroup can manage the team without being a member of it. <span class="mc-variable WFVariables.AdminGroupInitCapPlur variable varname">Group administrators</span> can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Team Members</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Description</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Type a description for the team.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Calendar</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Choose which calendar tab will appear for this team.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray" data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">This is an Agile Team</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Work On It</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
-  </tr> 
-  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Done Button</td> 
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-1. Click  `Create Team`.
-
-
-
-
-## Team owners {#team-owners}
+## Team owners
 
 When you create a team you become the team owner, by default.
 
-
-You can view team owners for all the teams when you create a report for teams and include the Owner Name field in your report. (For more information about creating a report, see [Create a custom report](create-custom-report.md).)
+You can view team owners for all the teams when you create a report for teams and include the Owner Name field in your report. (For more information about creating a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
