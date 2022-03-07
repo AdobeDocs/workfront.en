@@ -7,2425 +7,4705 @@ user-guide: null
 
 # Table of Contents {#table-of-contents}
 
-+ [Search](search.md)
-+ [Workfront knowledge base](wf-kb.md)
-  + [Administration and setup](administration-and-setup/administration-and-setup.md)
-    + [Add users](administration-and-setup/add-users/add-users.md)
-      + [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-      + [Access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-      + [Access to objects and areas by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-      + [Configurable access to functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-      + [Built-in access levels in Adobe Workfront](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-      + [Functionality available for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-      + [How access levels and permissions work together](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-      + [List your users’ access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-      + [Permissions for shared objects](administration-and-setup/add-users/access-levels-and-object-permissions/permissions-for-shared-objects.md)
-      + [Adobe Workfront licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-      + [Configure access to Adobe Workfront](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
-      + [Create or modify custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
-      + [Deleting soon-need temporarily for access level revamp](administration-and-setup/add-users/configure-and-grant-access/deleting-soon-need-temporarily-for-access-level-revamp.md)
-      + [Grant a user full administrative access](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
-      + [Grant access to documents](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-      + [Grant access to financial data](administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-      + [Grant access to filters, views, and groupings](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-      + [Grant access to Adobe Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      + [Grant access to issues](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
-      + [Grant access to users](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-      + [Grant access to portfolios](administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-      + [Grant access to programs](administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-      + [Grant access to projects](administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
-      + [Grant access to reports, dashboards, and calendars](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
-      + [Grant access to Resource Management](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
-      + [Grant access to Scenario Planner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
-      + [Grant access to tasks](administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-      + [Grant access to teams](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
-      + [Grant access to templates](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
-      + [Grant users administrative access to certain areas](administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
-      + [Create a team from the Setup area](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
-      + [Create and manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
-      + [Edit a team’s settings from the Setup area](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
-      + [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
-      + [Manage users in the Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      + [Audit logs](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-      + [Change a username](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
-      + [Change the password for an auto-provisioned user](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
-      + [Create and manage users](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
-      + [Create direct reports](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
-      + [Deactivate a user](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
-      + [Delete users](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-      + [Edit a user's profile](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
-      + [Edit user profiles in bulk](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
-      + [Enroll users in the new Adobe Workfront experience](administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md)
-      + [Import users](administration-and-setup/add-users/create-and-manage-users/import-users.md)
-      + [Log in as another user](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
-      + [Map user attributes and auto-provision new users](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
-      + [Reset a user's preferences](administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
-      + [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
-      + [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-      + [Configure filter rules](administration-and-setup/add-users/single-sign-on/configure-filter-rules-for-table.md)
-      + [Configure Adobe Workfront with Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-ad.md)
-      + [Configure Adobe Workfront with Azure Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-azure-ad.md)
-      + [Configure Adobe Workfront with LDAP](administration-and-setup/add-users/single-sign-on/configure-workfront-ldap.md)
-      + [Configure Adobe Workfront with SAML 1.1](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md)
-      + [Configure Adobe Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      + [Configure Adobe Workfront with SAML 2.0 using ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      + [Deactivate single sign-on in Adobe Workfront](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-      + [Enable Outlook for use with Workfront and SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      + [Group rows in a table](administration-and-setup/add-users/single-sign-on/group-rows-in-table.md)
-      + [Single sign-on in Adobe Workfront](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      + [Overview of single sign-on in Adobe Workfront](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      + [Update SAML 2.0 metadata in your identity provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      + [Update SAML 2.0 metadata in your IDP when using enhanced authentication](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
-      + [Update users for single sign-on](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-    + [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
-    + [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
-    + [Migrating to another cluster](administration-and-setup/administrator-faqs/migrate-to-another-cluster.md)
-    + [Actions to take after installing a blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
-    + [Blueprints](administration-and-setup/blueprints/blueprints.md)
-    + [Install a blueprint](administration-and-setup/blueprints/blueprints-install.md)
-    + [Blueprints overview](administration-and-setup/blueprints/blueprints-overview.md)
-    + [Configure a blueprint](administration-and-setup/blueprints/configure-template-package.md)
-    + [Access Help for Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
-    + [Configure document integrations](administration-and-setup/configure-integrations/configure-document-integrations.md)
-    + [Configure the SharePoint integration](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
-    + [Configure Workfront with Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
-    + [Create OAuth2 applications for Workfront integrations](administration-and-setup/configure-integrations/create-oauth-application.md)
-    + [Disable document integrations](administration-and-setup/configure-integrations/disable-document-integrations.md)
-    + [Enable users to access the mobile application](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
-    + [Enable Adobe Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
-    + [Install the Zoom integration](administration-and-setup/configure-integrations/enable-zoom-integration.md)
-    + [Legacy Workfront Fusion service outages](administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
-    + [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
-    + [Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-workfront-fusion.md)
-    + [View and manage custom OAuth2 applications](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
-    + [Set up metadata mapping](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-    + [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
-    + [Customize Adobe Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-      + [Custom branding in Adobe Workfront](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-      + [Brand your Adobe Workfront instance](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-      + [Configure a custom help URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
-      + [Approval processes and milestone paths](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
-      + [Create an approval process for work items](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-      + [Create a milestone path](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
-      + [Edit an approval process](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
-      + [Configure global approval settings](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
-      + [How group and approval process changes affect assigned approval processes](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
-      + [Change the display order of conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
-      + [Create or edit a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
-      + [Custom conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
-      + [Delete a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
-      + [Set a custom condition as the default for projects](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
-      + [Set a custom condition as the default for tasks and issues](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
-      + [Access for a shared custom field you want to use](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
-      + [Add a custom field to a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-      + [Add calculated data to a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-      + [Add an image or edit its properties in a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md)
-      + [Configure sharing for a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-      + [Copy a custom form to create a new one](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-      + [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
-      + [Create or edit a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-      + [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-      + [Delete a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-      + [Delete object types on a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
-      + [Delete or deactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
-      + [Display logic and skip logic on a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-      + [Edit a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-      + [Edit custom forms and custom fields in a list](administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
-      + [Position fields in a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-      + [Preview and complete a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-      + [Referencing custom forms in a report](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
-      + [Rich text field storage in the API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-      + [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-      + [Transfer custom form data to a larger work item](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-      + [Using an existing calculated custom field on a new custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-      + [View all custom forms that use a particular custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
-      + [View all reports that use a particular custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
-      + [Statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
-      + [Create and customize issue severities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
-      + [Create and customize priorities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md)
-      + [Create or edit a status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
-      + [Delete a custom status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
-      + [Access the list of system issue statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
-      + [Locking or unlocking a custom system-level status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
-      + [Access the list of system project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-      + [Reorder system-level and group statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
-      + [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
-      + [System project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
-      + [System task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
-      + [Access the list of system task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
-      + [Use custom statuses as default statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
-      + [About the default Adobe Workfront layout](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-      + [Assign users to a layout template](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
-      + [Brand Adobe Workfront using a layout template](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
-      + [Copy a layout template](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-      + [Create and manage layout templates](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
-      + [Customize the Details view using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-      + [Customize Filters, Views, and Groupings using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-      + [Customize Home and Summary using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-      + [Customize the landing page using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-      + [Customize the left panel using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-      + [Customize the Main Menu using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-      + [Customize pinned pages using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-      + [Customize user interface terminology using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
-      + [Grant administrative access for a layout template](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
-      + [Migrate your layout templates to the new Adobe Workfront experience](administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md)
-      + [Testing a new layout template](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-      + [Layout templates](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
-    + [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-    + [Configure basic information for your system](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
-    + [Configure your email allowlist](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
-    + [Configure your firewall's allowlist](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-    + [Defining objectives for your Adobe Workfront implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
-    + [Firewall overview](administration-and-setup/get-started-wf-administration/firewall-overview.md)
-    + [Get started with Adobe Workfront administration](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-    + [Manage available licenses in your system](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
-    + [Send announcements](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
-    + [Browser requirements for Workfront](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
-    + [Manage groups](administration-and-setup/manage-groups/manage-groups.md)
-      + [Configure project preferences for a group](administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-      + [Configure task and issue preferences for a group](administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
-      + [Configure timesheet and hour preferences for a group](administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
-      + [Create a group](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
-      + [Create and manage groups](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
-      + [Delete a group](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
-      + [Export a list of groups](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
-      + [Lock or unlock a project, task, or issue preference for subgroups](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
-      + [Lock or unlock a group timesheet and hour preference](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
-      + [Manage a group](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
-      + [Move a group](administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
-      + [View and configure event notifications for a group](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
-      + [View and manage a group’s details](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
-      + [View and manage a group’s memberships](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
-      + [View the number of licenses allocated and used in a group in the new Adobe Workfront experience](administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
-      + [Create a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
-      + [Create and manage subgroups](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
-      + [Manage a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
-      + [View and manage subgroup members](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
-      + [Assign a user as a group administrator](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
-      + [Business Leader overview](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
-      + [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
-      + [Group administrators](administration-and-setup/manage-groups/group-roles/group-administrators.md)
-      + [Group roles](administration-and-setup/manage-groups/group-roles/group-roles.md)
-      + [Groups overview](administration-and-setup/manage-groups/groups-overview/groups.md)
-      + [Groups overview](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-      + [Home Groups overview](administration-and-setup/manage-groups/groups-overview/home-groups.md)
-      + [Subgroups overview](administration-and-setup/manage-groups/groups-overview/subgroups.md)
-      + [Create or edit a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
-      + [Custom statuses in a group that is moved or deleted](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
-      + [Custom statuses on a task or issue that is moved or copied](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-      + [Delete a group status](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
-      + [How groups inherit statuses](administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)
-      + [Locking or unlocking a custom group status](administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
-      + [Manage group statuses](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
-      + [Reorder group statuses](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
-      + [Use a custom status as a default status for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
-      + [Create and modify a group’s companies](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
-      + [Create and modify a group’s layout templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-      + [Create and modify a group’s projects](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
-      + [Create, modify, and view a group’s programs](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
-      + [Create and modify a group’s projects](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)
-      + [Create and modify a group’s schedules](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)
-      + [Create and modify a group’s teams](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
-      + [Create and modify a group’s project templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
-      + [Create and manage a group’s timesheet profiles](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
-      + [Group-level approval processes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)
-      + [View and manage a group's recently deleted items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
-      + [View and manage a group's recently restored items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
-      + [Work with a group’s objects](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
-    + [Manage Adobe Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-      + [Access to proofing functionality in Workfront](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
-      + [Configure a user's proofing access](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
-      + [Configure default proof email notification settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
-      + [Configure default proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)
-      + [Configure default proofing roles](administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
-      + [Configure whether proofs are automatically generated](administration-and-setup/manage-workfront/configure-proofing/configure-if-proofs-autogenerate.md)
-      + [configure-proof-branding](administration-and-setup/manage-workfront/configure-proofing/configure-proof-branding.md)
-      + [Configure proof settings for your organization](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
-      + [Configure sharing settings for your users](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
-      + [Configure proofing functionality](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-      + [Create and manage Automated Workflow templates](administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
-      + [Install the Desktop Proofing Viewer for your organization](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
-      + [Standalone Workfront Proof to Integrated Proofing in Workfront overview](administration-and-setup/manage-workfront/configure-proofing/move-to-proofing-in-workfront.md)
-      + [User synchronization between Adobe Workfront and Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
-      + [Configure reports](administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
-      + [Edit list controls: filters, views, and groupings](administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md)
-      + [Hide built-in reports](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
-      + [Allowing emails from the Adobe Workfront application](administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
-      + [Configure email templates](administration-and-setup/manage-workfront/emails/configure-email-templates.md)
-      + [Configure event notifications for everyone in the system](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-      + [Customize email subjects for event notifications](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-      + [Email Notifications page](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
-      + [Emails](administration-and-setup/manage-workfront/emails/emails.md)
-      + [Event notifications available in Adobe Workfront](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
-      + [Manage email invitations to new users](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
-      + [Modify email notification settings in users’ profiles](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
-      + [Set up reminder notifications](administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
-      + [Set up automatic reminders](administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
-      + [Unlock or lock configuration of event notifications for all groups](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
-      + [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
-      + [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-      + [Configure affect on hours when an object is deleted and restored](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
-      + [Manage deleted items](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
-      + [Restore deleted items](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-      + [Restoring individual child objects](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-      + [View restored items](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-      + [Diagnostics](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
-      + [Use Diagnostics to trigger automated processes](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
-      + [Change your Adobe Workfront domain](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
-      + [Configure password policies for authentication](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-      + [Configure system security preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
-      + [File encryption](administration-and-setup/manage-workfront/security/file-encryption.md)
-      + [Enhanced Authentication overview](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      + [Manage API keys](administration-and-setup/manage-workfront/security/manage-api-keys.md)
-      + [Prevent duplicate users](administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
-      + [Removal of various single sign-on options](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
-      + [Renew the Adobe Workfront SAML 2.0 metadata certificate](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
-      + [Restrict access to Adobe Workfront by IP address](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
-      + [Security](administration-and-setup/manage-workfront/security/security.md)
-      + [Set up Azure Active Directory with Enhanced Authentication](administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)
-      + [Adobe Workfront Privacy Policy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
-      + [Export data from Adobe Workfront via Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
-      + [Frequently asked questions about Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
-      + [Import data into Adobe Workfront via a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
-      + [Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
-      + [Kick-Starts data importer](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
-      + [Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
-      + [Kick-Starts scenario: simple project and task import preparation](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
-    + [Set up Adobe Workfront](administration-and-setup/set-up-workfront/set-up-workfront.md)
-      + [Configure request types](administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
-      + [Configure Resource Management preferences](administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
-      + [Configure system defaults](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
-      + [Configure timeline recalculations for projects](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      + [Create, edit, and share default filters, views, and groupings](administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-      + [Create custom expense types](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
-      + [Create a scorecard](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
-      + [Customize default issue types](administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
-      + [Edit and create risk types](administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
-      + [Enable custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-      + [Lock or unlock project preferences for all groups in the system](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
-      + [Configure system-wide project preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
-      + [Configure system-wide task and issue preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
-      + [Assign a schedule to a user or project](administration-and-setup/set-up-workfront/configure-timesheets-schedules/assign-schedule-to-user-or-project.md)
-      + [Configure timesheets and schedules](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
-      + [Configure users to log time in hours or days](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
-      + [Create a schedule](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-      + [Manage hour types](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
-      + [Overview of locking system-level timesheet and hour preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/lock-or-unlock-timesheet-hour-preference.md)
-      + [Manage timesheets for all users](administration-and-setup/set-up-workfront/configure-timesheets-schedules/manage-timesheets-for-all-users.md)
-      + [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
-      + [Configure timesheet and hour preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-      + [Associate projects and templates with companies](administration-and-setup/set-up-workfront/organizational-setup/associate-projects-templates-with-companies.md)
-      + [Create and edit companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
-      + [Create and manage job roles](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
-      + [Deactivate a company](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
-      + [Deactivate job roles](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
-      + [Delete job roles](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
-      + [Job role overview](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
-      + [Manage company memberships](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
-      + [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-      + [Override job role billing rates at the company level](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-      + [Restrict request queue to users in the associated company](administration-and-setup/set-up-workfront/organizational-setup/restrict-request-q-to-users-in-company.md)
-      + [Configure preferences for user updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
-      + [Configure system updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
-      + [System-tracked updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
-      + [System-tracked updates feeds](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-      + [The Adobe Workfront Custom Refresh Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-      + [The Adobe Workfront Preview Sandbox Environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-      + [Adobe Workfront testing environments](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
-    + [Prepare to move your organization to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/admin-prep-for-nwe.md)
-    + [Discover the features available only with the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md)
-    + [Feature comparison of Workfront Classic and the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/improved-design.md)
-    + [In development in the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/known-issues.md)
-    + [The new Adobe Workfront experience Beta Preview](administration-and-setup/the-new-workfront-experience/nwe-beta-preview.md)
-    + [The new Adobe Workfront experience: Beta release activity](administration-and-setup/the-new-workfront-experience/nwe-beta-preview-release-activity.md)
-    + [The new Adobe Workfront experience Beta release activity 2019](administration-and-setup/the-new-workfront-experience/nwe-beta-release-activity-2019.md)
-    + [The new Adobe Workfront experience FAQ](administration-and-setup/the-new-workfront-experience/nwe-faq.md)
-    + [Opt in to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
-    + [New Adobe Workfront experience release activity](administration-and-setup/the-new-workfront-experience/what's-new-in-the-new-design.md)
-    + [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
-    + [ADFS logout URL doesn't work](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
-    + [Administration and setup FAQs](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
-    + [Allow Adobe Workfront to run flash on Google Chrome](administration-and-setup/tips-tricks-and-troubleshooting/allow-wf-run-flash-chrome.md)
-    + [Automatic reminders vs. reminder notifications](administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
-    + [Configure POP in Microsoft Exchange](administration-and-setup/tips-tricks-and-troubleshooting/configure-pop-ms-exchange.md)
-    + [Error: Active Directory User Cannot Log In](administration-and-setup/tips-tricks-and-troubleshooting/error-active-directory-user-cannot-log-in.md)
-    + [Error: Auto-provisioned user can't log in](administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md)
-    + [Error message: Couldn't validate XML digital signature](administration-and-setup/tips-tricks-and-troubleshooting/error-message-couldnt-validate-xml-digital-signature.md)
-    + [Error saving custom field: "There is a slight problem. [That field] is used in a multi-form configuration ..."](administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md)
-    + [Error message: Invalid Parameter: conversion value](administration-and-setup/tips-tricks-and-troubleshooting/error-message-invalid-parameter-conversion-value.md)
-    + [Error message: SAML 2.0 Authentication Failed: User Identifier Not Found](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md)
-    + [Error message: SAML 2.0 error: Primary StatusCode](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-primary-statuscode.md)
-    + [Error Message: SAML 2.0 Error: User Identifier Not Found](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md)
-    + [Error saving custom field: "There is a slight problem. [That field] is used in a multi-form configuration ..."](administration-and-setup/tips-tricks-and-troubleshooting/error-saving-field-multi-form-configuration.md)
-    + [Error: SSO Users are Unable to Log In to Adobe Workfront Due to Various Errors](administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
-    + [External user license type missing from access levels](administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
-    + [Flash feature groupings](administration-and-setup/tips-tricks-and-troubleshooting/flash-feature-groupings.md)
-    + [Retrieving historical data from Adobe Workfront: pros and cons](administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
-    + [Login Error: The following fields are invalid: emailAddr cannot be null](administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
-    + [Prevent spoofing and add Adobe Workfront SPF records](administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
-    + [Save an email header file](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
-    + [Sharing shows more than one permission](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
-    + [Tips, tricks, and troubleshooting for administration and setup](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
-    + [Unauthenticated email is not accepted due to domain's DMARC policy](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-    + [Adobe Workfront user credentials vs. SAML user credentials](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-  + [Agile](agile/agile.md)
-  + [Agile overview](agile/agile-overview.md)
-  + [Boards overview](agile/boards-overview.md)
-    + [Agile in projects](agile/agile-in-projects/agile-in-projects.md)
-    + [Agile Project](agile/agile-in-projects/use-agile-on-a-project.md)
-    + [Configure Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-    + [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-    + [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-    + [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-    + [Add a card to a board](agile/get-started-with-boards/add-card-to-board.md)
-    + [Add checklist items to a card](agile/get-started-with-boards/add-checklist-to-card.md)
-    + [Add or remove members from a board](agile/get-started-with-boards/add-members-to-board.md)
-    + [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
-    + [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
-    + [Filter in a board](agile/get-started-with-boards/filter-search-in-board.md)
-    + [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
-    + [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
-    + [Move cards between columns](agile/get-started-with-boards/move-board-items.md)
-    + [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
-    + [Custom statuses not showing up on the agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
-    + [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
-    + [Add a subtask to an existing story on the Kanban board](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
-    + [Add existing tasks or issues to the Kanban board](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
-    + [Add stories and issues from the Kanban board](agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)
-    + [Assign users to a story on the Kanban board](agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
-    + [Delete story from Kanban board](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-    + [Edit story information](agile/use-kanban-in-an-agile-team/edit-story-information.md)
-    + [Filter by user on the Kanban board](agile/use-kanban-in-an-agile-team/filter-by-user.md)
-    + [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
-    + [Reorder stories on the Kanban board](agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
-    + [Update the status of stories on the Kanban board](agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
-    + [Use flags on stories on the Kanban board](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
-    + [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
-    + [Add the backlog to the Kanban board](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
-    + [Manage the work in progress (WIP) limit on the Kanban board](agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
-    + [Scrum in an agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      + [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
-      + [Agile burndown chart overview](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
-      + [Iteration completion status overview](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
-      + [Resize and collapse the burndown chart](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
-      + [Synchronize data in the burndown chart](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-      + [Use an alternate team schedule for burndown charts](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
-      + [Add stories to an existing iteration](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
-      + [Create an agile story in an iteration](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
-      + [Create an iteration](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-      + [Delete an iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-      + [Iterations](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
-      + [Iterations overview](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
-      + [View an iteration](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
-      + [Add a subtask to an existing story on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
-      + [Add stories and issues from the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
-      + [Assign users to a story on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
-      + [Categorize stories by color on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
-      + [Change the order of stories on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
-      + [Filter by user on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
-      + [Manage stories and issues on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
-      + [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
-      + [Scrum board overview](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
-      + [Update the status of stories and subtasks on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
-      + [View and edit story information on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
-    + [Create an agile story](agile/work-in-an-agile-environment/create-an-agile-story.md)
-    + [Manage the agile backlog](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-    + [Move an agile story](agile/work-in-an-agile-environment/move-an-agile-story.md)
-    + [Work in an agile environment](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
-  + [Documents](documents/documents-overview.md)
-    + [Add documents to Adobe Workfront from your file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
-    + [Add new documents to Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
-    + [Link documents from external applications](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
-    + [Remove links between Adobe Workfront and external document storage providers](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
-    + [Request a Document](documents/adding-documents-to-workfront/request-a-document.md)
-    + [Link documents between Quip and Adobe Workfront](documents/adding-documents-to-workfront/sf-only-link-quip-documents.md)
-    + [Adobe Experience Manager asset integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-    + [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
-    + [Proof a linked asset for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-    + [Send a Document to Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
-    + [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-    + [View or download a linked asset from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-    + [Adobe Workfront for Experience Manager Assets Essentials overview](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-assets-essentials-overview.md)
-    + [Adobe Workfront for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-    + [Add or edit a custom form to a document](documents/managing-documents/add-custom-form-documents.md)
-    + [Add an update to a document](documents/managing-documents/add-update-documents.md)
-    + [Check document storage limits](documents/managing-documents/check-document-storage.md)
-    + [Check out documents](documents/managing-documents/check-out-documents.md)
-    + [Delete Documents](documents/managing-documents/delete-documents.md)
-    + [Document approvals and proofing](documents/managing-documents/document-approvals-and-proofing.md)
-    + [Document Details overview](documents/managing-documents/document-details-overview.md)
-    + [The Documents area](documents/managing-documents/documents-area.md)
-    + [Download Documents](documents/managing-documents/download-documents.md)
-    + [Manage document versions](documents/managing-documents/manage-document-versions.md)
-    + [Manage documents](documents/managing-documents/manage-documents.md)
-    + [Move documents](documents/managing-documents/move-documents.md)
-    + [Paste images from the Clipboard](documents/managing-documents/paste-image-clipboard.md)
-    + [Preview documents](documents/managing-documents/preview-documents.md)
-    + [Summary for documents overview](documents/managing-documents/summary-for-documents.md)
-    + [Upload a new version of a document](documents/managing-documents/upload-new-document-version.md)
-    + [Create document folders](documents/organizing-documents/create-documents-folder.md)
-    + [Create and Manage Smart Folders](documents/organizing-documents/create-manage-smart-folders.md)
-    + [Organize documents](documents/organizing-documents/organize-documents.md)
-    + [Get started with Experience Manager Assets integrations](documents/workfront-and-experience-manager-integrations/get-started.md)
-    + [Workfront and Experience Manager Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-      + [Map metadata to AEM folders](documents/workfront-and-experience-manager-integrations/native-integration/map-folder-metadata.md)
-      + [Overview](documents/workfront-and-experience-manager-integrations/native-integration/overview.md)
-      + [Sync Asset Metadata](documents/workfront-and-experience-manager-integrations/native-integration/sync-asset-metadata.md)
-      + [workfront-native-integration-config](documents/workfront-and-experience-manager-integrations/native-integration/workfront-native-integration-config.md)
-      + [Workfront for Experience Manager enhanced connector best practices](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-best-practices.md)
-      + [Link assets and folders from Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
-      + [Workfront for Experience Manager enhanced connector metadata overview](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
-      + [Proof a linked asset for Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
-      + [Send a Document to Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
-      + [Sync comments between Workfront and Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-sync-comments.md)
-      + [View or download a linked asset from Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      + [Workfront for Experience Manager enhanced connector overview](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-      + [Use the Workfront for Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
-    + [Access Help for Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
-    + [Adobe Workfront licensing role types vs. Adobe Workfront DAM role types](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-    + [Enabling Adobe Workfront DAM](documents/workfront-dam-within-workfront/enable-wf-dam.md)
-    + [Managing Documents with Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-    + [Adobe Workfront DAM within Adobe Workfront](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-    + [Install Adobe Workfront for Adobe Creative Cloud](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)
-    + [Use Adobe Workfront for Adobe Creative Cloud](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
-    + [Use Adobe Workfront for Adobe Creative Cloud with Workfront Library](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc-wf-library.md)
-    + [Adobe Workfront for Adobe Creative Cloud](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
-  + [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
-  + [View the Burndown visualization in Enhanced analytics](enhanced-analytics/burndown-overview.md)
-  + [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
-  + [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
-  + [View the Flight plan visualization in Enhanced analytics](enhanced-analytics/flight-plan-overview.md)
-  + [View the Project activity visualization in Enhanced analytics](enhanced-analytics/project-activity-overview.md)
-  + [View the Project treemap visualization in Enhanced analytics](enhanced-analytics/project-treemap-overview.md)
-  + [View the Resource capacity visualization in Enhanced analytics](enhanced-analytics/resource-capacity-overview.md)
-  + [View the Tasks in flight visualization in Enhanced analytics](enhanced-analytics/tasks-in-flight-overview.md)
-  + [View the Team capacity visualization in Enhanced analytics](enhanced-analytics/team-capacity-overview.md)
-  + [Trend views overview](enhanced-analytics/trend-views-overview.md)
-  + [Understand Enhanced analytics KPIs](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-  + [Apply filters in Enhanced analytics](enhanced-analytics/use-enhanced-analytics-filters.md)
-  + [View Enhanced analytics visualizations by duration](enhanced-analytics/view-enhanced-analytics-charts-duration.md)
-  + [Manage work](manage-work/manage-work.md)
-    + [Delegate work](manage-work/delegate-work/delegate-work.md)
-    + [Delegate work overview](manage-work/delegate-work/delegate-work-overview.md)
-    + [Delegate work](manage-work/delegate-work/how-to-delegate-work.md)
-    + [The Gantt Chart](manage-work/gantt-chart/the-gantt-chart.md)
-      + [Configure how information displays on the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
-      + [Export the Gantt Chart to PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
-      + [Gantt Chart overview](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
-      + [Get started with the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
-      + [Level Resources in the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
-      + [Update information in the task list Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
-      + [View information in the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
-    + [Issues](manage-work/issues/issues-overview.md)
-      + [Convert an issue to a project in Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-project.md)
-      + [Convert an issue to a task in Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-task.md)
-      + [Overview of converting issues in Adobe Workfront](manage-work/issues/convert-issues/convert-issues.md)
-      + [Convert issues](manage-work/issues/convert-issues/convert-issues-overview.md)
-      + [Manually tie the resolution of an issue to other issues, tasks, or projects](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
-      + [Overview of Resolving and Resolvable Objects](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
-      + [Unlink issues from their Resolving Objects](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
-      + [Issue Duration overview](manage-work/issues/issue-information/issue-duration.md)
-      + [Issue information](manage-work/issues/issue-information/issue-info-overview.md)
-      + [Overview of the issue Planned Completion Date](manage-work/issues/issue-information/issue-planned-completion-date.md)
-      + [Update issue Priority](manage-work/issues/issue-information/update-issue-priority.md)
-      + [Update issue severity](manage-work/issues/issue-information/update-issue-severity.md)
-      + [Use "opTask" and "issue" when referencing issues](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
-      + [Assign issues](manage-work/issues/manage-issues/assign-issues.md)
-      + [Copy issues](manage-work/issues/manage-issues/copy-issues.md)
-      + [Create issues](manage-work/issues/manage-issues/create-issues.md)
-      + [Delete issues](manage-work/issues/manage-issues/delete-issues.md)
-      + [Edit user assignments for multiple issues](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
-      + [Edit issues](manage-work/issues/manage-issues/edit-issues.md)
-      + [Edit issues in a list](manage-work/issues/manage-issues/edit-issues-in-a-list.md)
-      + [Manage issues](manage-work/issues/manage-issues/manage-issues-overview.md)
-      + [Modify issue assignments overview](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
-      + [Move issues](manage-work/issues/manage-issues/move-issues.md)
-      + [Automatically update issue statuses from Awaiting Feedback to In Progress](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-      + [View issues](manage-work/issues/manage-issues/view-issues.md)
-    + [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
-      + [Add projects to a portfolio](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-      + [Create and manage portfolios](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
-      + [Create a portfolio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-      + [Delete and deactivate portfolios](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
-      + [Edit portfolios](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
-      + [Remove a project from a portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
-      + [Review Requested Projects](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
-      + [Add a project to a program](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
-      + [Create and manage programs](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
-      + [Create a program](manage-work/portfolios/create-and-manage-programs/create-program.md)
-      + [Edit programs](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
-      + [Add an existing program to a portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
-      + [Remove a project from a program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      + [Calculate the Risk to Net Value in a portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-      + [Locate the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
-      + [Manage projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
-      + [Optimize projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
-      + [Portfolio Optimizer overview](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-      + [Overview of the Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-      + [Prioritize projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
-      + [Risk to Net Value (Draft - Alina) in the new Adobe Workfront experience](manage-work/portfolios/portfolio-optimizer/risk-to-net-value-d.md)
-      + [Navigate within a portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
-      + [Portfolio Management overview](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-      + [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
-    + [Projects](manage-work/projects/projects-overview.md)
-      + [Attach a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
-      + [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
-      + [Copy a project template](manage-work/projects/create-and-manage-templates/copy-template.md)
-      + [Create and manage project templates](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
-      + [Create a project template](manage-work/projects/create-and-manage-templates/create-template.md)
-      + [Create template from project](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
-      + [Create project templates from examples](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
-      + [Delete project templates](manage-work/projects/create-and-manage-templates/delete-templates.md)
-      + [Edit a template task](manage-work/projects/create-and-manage-templates/edit-template-task.md)
-      + [Edit project templates](manage-work/projects/create-and-manage-templates/edit-templates.md)
-      + [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
-      + [Project template overview](manage-work/projects/create-and-manage-templates/project-template-overview.md)
-      + [Remove template information from a project](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
-      + [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
-      + [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
-      + [Create a project](manage-work/projects/create-projects/create-project.md)
-      + [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
-      + [Create projects](manage-work/projects/create-projects/create-projects-overview.md)
-      + [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
-      + [Request a project](manage-work/projects/create-projects/request-project.md)
-      + [Apply a scorecard to a project and generate an Alignment Score](manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)
-      + [Approve a Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
-      + [Overview of the Areas of the Business Case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
-      + [Attach a Custom Form to a Business Case](manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
-      + [Budget resources in the Business Case](manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
-      + [Budget resources in the Business Case using the Adobe Workfront Resource Planner](manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
-      + [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)
-      + [Overview of Business Case financial fields](manage-work/projects/define-a-business-case/business-case-finances.md)
-      + [Create a Business Case for a project in Adobe Workfront](manage-work/projects/define-a-business-case/create-business-case.md)
-      + [Create Business Case goals](manage-work/projects/define-a-business-case/create-business-case-goals.md)
-      + [Create and edit risks on projects](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
-      + [Define a Business Case](manage-work/projects/define-a-business-case/define-business-case.md)
-      + [Export the Business Case of a project in Adobe Workfront](manage-work/projects/define-a-business-case/export-business-case.md)
-      + [Change the status of a project](manage-work/projects/manage-projects/change-project-status.md)
-      + [Communicate with Project Team members](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-      + [Copy a project](manage-work/projects/manage-projects/copy-project.md)
-      + [Delete projects](manage-work/projects/manage-projects/delete-projects.md)
-      + [Edit projects](manage-work/projects/manage-projects/edit-projects.md)
-      + [Export a project to Microsoft Project](manage-work/projects/manage-projects/export-project-to-ms-project.md)
-      + [Manage a project in the Agile View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
-      + [Manage projects](manage-work/projects/manage-projects/manage-projects-overview.md)
-      + [Map Microsoft Project fields to Adobe Workfront](manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
-      + [Overview of Project Condition and Condition Type](manage-work/projects/manage-projects/project-condition-and-condition-type.md)
-      + [Overview of project metrics](manage-work/projects/manage-projects/project-metrics.md)
-      + [Recalculate project timelines](manage-work/projects/manage-projects/recalculate-project-timeline.md)
-      + [Recover a deleted project](manage-work/projects/manage-projects/recover-project.md)
-      + [Remove users from projects](manage-work/projects/manage-projects/remove-users-from-projects.md)
-      + [Require time to be approved for a project](manage-work/projects/manage-projects/require-time-approval-for-projects.md)
-      + [Save a project as a template](manage-work/projects/manage-projects/save-project-as-template.md)
-      + [Schedule resources for a project](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
-      + [Select the project Update Type](manage-work/projects/manage-projects/select-project-update-type.md)
-      + [Set the Condition Type of a project](manage-work/projects/manage-projects/set-condition-type-for-project.md)
-      + [Manage information in the project Overview area](manage-work/projects/manage-projects/understand-project-overview-area.md)
-      + [Budget and schedule project resources](manage-work/projects/planning-a-project/budget-and-schedule-project-resources.md)
-      + [Designate Resource Managers for a project or template](manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md)
-      + [Determine Work Breakdown Structure in a project](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
-      + [Manage the Project Team](manage-work/projects/planning-a-project/manage-project-team.md)
-      + [Plan a project overview](manage-work/projects/planning-a-project/plan-project.md)
-      + [Plan a project](manage-work/projects/planning-a-project/plan-project-overview.md)
-      + [Overview of the project Actual Completion Date](manage-work/projects/planning-a-project/project-actual-completion-date.md)
-      + [Overview of the project Actual Start Date](manage-work/projects/planning-a-project/project-actual-start-date.md)
-      + [Overview of project Duration](manage-work/projects/planning-a-project/project-duration.md)
-      + [Overview of project owners and sponsors](manage-work/projects/planning-a-project/project-owners-and-sponsors.md)
-      + [Set the project Planned Completion Date](manage-work/projects/planning-a-project/project-planned-completion-date.md)
-      + [Overview of the project Planned Start Date](manage-work/projects/planning-a-project/project-planned-start-date.md)
-      + [Understand and update project priorities](manage-work/projects/planning-a-project/project-priority.md)
-      + [Project Progress Status overview](manage-work/projects/planning-a-project/project-progress-status.md)
-      + [Overview of the Projected Completion Date for projects, tasks, and issues](manage-work/projects/planning-a-project/project-projected-completion-date.md)
-      + [Overview of the project Projected Start Date](manage-work/projects/planning-a-project/project-projected-start-date.md)
-      + [Project Team overview](manage-work/projects/planning-a-project/project-team-overview.md)
-      + [Project Update Type overview](manage-work/projects/planning-a-project/project-update-type-overview.md)
-      + [Update project owners and sponsors](manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md)
-      + [View project Planned Hours in the Role Allocation panel](manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md)
-      + [Overview of Billing and Revenue](manage-work/projects/project-finances/billing-and-revenue-overview.md)
-      + [Calculate Budgeted Cost](manage-work/projects/project-finances/budgeted-cost.md)
-      + [Understand Budgeted Labor Cost and Budgeted Hours for projects](manage-work/projects/project-finances/budgeted-labor-cost.md)
-      + [Calculate Budgeted Cost of Work Performed (BCWP)](manage-work/projects/project-finances/calculate-bcwp.md)
-      + [Calculate Budgeted Cost of Work Scheduled (BCWS)](manage-work/projects/project-finances/calculate-bcws.md)
-      + [Calculate Cost Performance Index (CPI)](manage-work/projects/project-finances/calculate-cpi.md)
-      + [Calculate Cost Schedule Performance Index (CSI)](manage-work/projects/project-finances/calculate-csi.md)
-      + [Calculate Estimate At Completion (EAC)](manage-work/projects/project-finances/calculate-eac.md)
-      + [Calculate Net Value](manage-work/projects/project-finances/calculate-net-value.md)
-      + [Calculate Return On Investment (ROI)](manage-work/projects/project-finances/calculate-roi.md)
-      + [Calculate Schedule Performance Index (SPI)](manage-work/projects/project-finances/calculate-spi.md)
-      + [Change the project currency](manage-work/projects/project-finances/change-project-currency.md)
-      + [Create billing records](manage-work/projects/project-finances/create-billing-records.md)
-      + [Export billing record details as a PDF file](manage-work/projects/project-finances/export-billing-record-details.md)
-      + [How Adobe Workfront calculates finances](manage-work/projects/project-finances/how-workfront-calculates-finances.md)
-      + [Manage project expenses](manage-work/projects/project-finances/manage-project-expenses.md)
-      + [Manage information in the project Finance area](manage-work/projects/project-finances/manage-project-finance-area.md)
-      + [Override Job Role Billing Rates at the project level](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
-      + [Override Project-Level Billing Rates with Company-Level Billing Rates](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
-      + [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
-      + [Calculate Planned Labor Cost](manage-work/projects/project-finances/planned-labor-cost.md)
-      + [Calculate Potential Risk Cost](manage-work/projects/project-finances/potential-risk-cost.md)
-      + [Project finances included in project baselines](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
-      + [Project finances overview](manage-work/projects/project-finances/project-finances-overview.md)
-      + [Overview of project Planned Benefit](manage-work/projects/project-finances/project-planned-benefit.md)
-      + [Recalculate project finances](manage-work/projects/project-finances/recalculate-project-finances.md)
-      + [Set the Performance Index Method (PIM)](manage-work/projects/project-finances/set-pim.md)
-      + [Track costs](manage-work/projects/project-finances/track-costs.md)
-      + [Calculation example - calculate EAC at the Project Level](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
-      + [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
-      + [Error Message: A Dependency Loop Was Detected](manage-work/projects/tips-tricks-and-troubleshooting/error-message-a-dependency-loop-was-detected.md)
-      + [Export the Task List with Child Tasks Indented](manage-work/projects/tips-tricks-and-troubleshooting/export-the-task-list-with-child-tasks-indented.md)
-      + [How Financial Recalculation is Triggered](manage-work/projects/tips-tricks-and-troubleshooting/how-financial-recalculation-is-triggered.md)
-      + [How Adobe Workfront calculates finances](manage-work/projects/tips-tricks-and-troubleshooting/how-workfront-calculates-finances.md)
-      + [Project limits overview](manage-work/projects/tips-tricks-and-troubleshooting/project-maximums.md)
-      + [Project Owner cannot share a project or any of its tasks with a team](manage-work/projects/tips-tricks-and-troubleshooting/project-owner-cannot-share-project-or-tasks.md)
-      + [Project status will not change from Complete to Current](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
-      + [Projects FAQs](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
-      + [Tips, tricks, and troubleshooting for projects](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
-      + [Work with templates scheduled from Completion](manage-work/projects/tips-tricks-and-troubleshooting/work-with-templates-from-completion.md)
-      + [Duration Types in Adobe Workfront and Microsoft Project](manage-work/projects/tips-tricks-and-troubleshooting/workfront-ms-project-duration-types.md)
-      + [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
-      + [Interactions between the Commit Date and the Planned Completion Date](manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
-      + [Commit Date overview](manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-      + [Update Commit Dates on tasks and issues](manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
-      + [Update Condition for tasks and issues](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
-      + [Update Condition for a project](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-      + [Update issue status](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
-      + [Update task status](manage-work/projects/updating-work-in-a-project/update-task-status.md)
-      + [Update work on a project](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
-      + [View and update Percent Complete for tasks](manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)
-    + [Requests](manage-work/requests/requests-overview.md)
-      + [Create and manage Request Queues](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
-      + [Create Queue Topics](manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
-      + [Create a Request Queue](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-      + [Create Routing Rules](manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
-      + [Create Topic Groups](manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-      + [Define Request Types for a project in Adobe Workfront](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-      + [Provide access to request queues](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
-      + [Overview of the Queue Details tab in a project](manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md)
-      + [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
-      + [Create requests](manage-work/requests/create-requests/create-requests.md)
-      + [Create requests from drafts](manage-work/requests/create-requests/create-requests-from-drafts.md)
-      + [Create and submit Adobe Workfront requests](manage-work/requests/create-requests/create-submit-requests.md)
-      + [Delete a request draft](manage-work/requests/create-requests/delete-request-draft.md)
-      + [Enable users to email an issue into a Request Queue project](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-      + [Locate submitted requests](manage-work/requests/create-requests/locate-submitted-requests.md)
-      + [Share a link to a request queue](manage-work/requests/create-requests/share-link-to-request-queue.md)
-      + [Overview of Requests in Adobe Workfront](manage-work/requests/requests/overview-workfront-requests.md)
-    + [Tasks](manage-work/tasks/tasks-overview.md)
-      + [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks.md)
-      + [Create advanced assignments](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      + [Make smart assignments](manage-work/tasks/assign-tasks/make-smart-assignments.md)
-      + [Manage allocation hours on tasks](manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
-      + [Manage allocation percentage on tasks](manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)
-      + [Modify multiple user assignments in a task list](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-      + [Overview of modifying task assignments](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
-      + [Smart assignments overview](manage-work/tasks/assign-tasks/smart-assignments.md)
-      + [Create recurring tasks](manage-work/tasks/create-tasks/create-recurring-tasks.md)
-      + [Create subtasks](manage-work/tasks/create-tasks/create-subtasks.md)
-      + [Create tasks in a project](manage-work/tasks/create-tasks/create-tasks-in-project.md)
-      + [Create tasks overview](manage-work/tasks/create-tasks/create-tasks-overview.md)
-      + [Associate milestones with tasks](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
-      + [Convert a task to a project](manage-work/tasks/manage-tasks/convert-task-to-project.md)
-      + [Copy and duplicate tasks](manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
-      + [Overview of the project Critical Path](manage-work/tasks/manage-tasks/critical-path.md)
-      + [Delete tasks](manage-work/tasks/manage-tasks/delete-tasks.md)
-      + [Edit tasks](manage-work/tasks/manage-tasks/edit-tasks.md)
-      + [Edit tasks in a list](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
-      + [Manage task details, custom forms, and finances](manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md)
-      + [Manage tasks](manage-work/tasks/manage-tasks/manage-tasks.md)
-      + [Move tasks](manage-work/tasks/manage-tasks/move-tasks.md)
-      + [Recurring tasks overview](manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
-      + [Overview of saving concurrent changes within a task list](manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
-      + [Manage task finances in the Task Details section](manage-work/tasks/manage-tasks/task-finances-in-details.md)
-      + [Manage task information in the Task Details Overview area](manage-work/tasks/manage-tasks/task-information-in-overview.md)
-      + [Task Constraint overview: As Late As Possible](manage-work/tasks/task-constraints/as-late-as-possible.md)
-      + [Task Constraint overview: As Soon As Possible](manage-work/tasks/task-constraints/as-soon-as-possible.md)
-      + [Task Constraint overview: Earliest Available Time](manage-work/tasks/task-constraints/earliest-available-time.md)
-      + [Task Constraint overview: Finish No Earlier Than](manage-work/tasks/task-constraints/finish-no-earlier-than.md)
-      + [Task Constraint overview: Finish No Later Than](manage-work/tasks/task-constraints/finish-no-later-than.md)
-      + [Task Constraint overview: Fixed Dates](manage-work/tasks/task-constraints/fixed-dates.md)
-      + [Task Constraint overview: Latest Available Time](manage-work/tasks/task-constraints/latest-available-time.md)
-      + [Task Constraint overview: Must Finish On](manage-work/tasks/task-constraints/must-finish-on.md)
-      + [Task Constraint overview: Must Start On](manage-work/tasks/task-constraints/must-start-on.md)
-      + [Task Constraint overview: Start No Earlier Than](manage-work/tasks/task-constraints/start-no-earlier-than.md)
-      + [Task Constraint overview: Start No Later Than](manage-work/tasks/task-constraints/start-no-later-than.md)
-      + [Task Constraint overview](manage-work/tasks/task-constraints/task-constraint-overview.md)
-      + [Task Constraints](manage-work/tasks/task-constraints/task-constraints.md)
-      + [Update the Task Constraint of a task](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
-      + [View Actual Hours](manage-work/tasks/task-information/actual-hours.md)
-      + ["Can Start" overview for tasks](manage-work/tasks/task-information/can-start-task-overview.md)
-      + [Differentiate between Projected and Estimated Dates](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
-      + [Task Handoff Date overview](manage-work/tasks/task-information/handoff-task-date.md)
-      + [Difference between Planned Duration and Duration for tasks](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-      + [Planned Hours overview](manage-work/tasks/task-information/planned-hours.md)
-      + [Project Percent Complete overview](manage-work/tasks/task-information/project-percent-complete.md)
-      + [Overview of project, task, and issue dates](manage-work/tasks/task-information/project-task-issue-dates.md)
-      + [Set Tracking Mode for tasks](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
-      + [Task information](manage-work/tasks/task-information/task-information.md)
-      + [Update task Leveling Delay](manage-work/tasks/task-information/task-leveling-delay.md)
-      + [Overview of task Original Duration and Original Planned Hours](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
-      + [Overview of the task Planned Completion Date](manage-work/tasks/task-information/task-planned-completion-date.md)
-      + [Overview of the task Planned Start Date](manage-work/tasks/task-information/task-planned-start-date.md)
-      + [Update Task Priority](manage-work/tasks/task-information/task-priority.md)
-      + [Task Progress Status overview](manage-work/tasks/task-information/task-progress-status.md)
-      + [Task Slack Date overview](manage-work/tasks/task-information/task-slack-date.md)
-      + [Task Tracking Mode overview](manage-work/tasks/task-information/task-tracking-mode.md)
-      + [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
-      + [Update task Cost Type](manage-work/tasks/task-information/update-task-cost-type.md)
-      + [Work Effort overview](manage-work/tasks/task-information/work-effort.md)
-      + [Duration Type overview: Calculated Assignment](manage-work/tasks/taskdurtn/calculated-assignment.md)
-      + [Duration Type overview: Calculated Work](manage-work/tasks/taskdurtn/calculated-work.md)
-      + [Duration Type overview: Effort Driven](manage-work/tasks/taskdurtn/effort-driven.md)
-      + [Duration Type overview: Simple](manage-work/tasks/taskdurtn/simple-duration-type.md)
-      + [Overview of Task Duration and Duration Type](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-      + [Task Duration and Duration Types](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
-      + [Update the Duration Type of a task](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
-      + [Update the Planned Hours and Duration of a task with a Simple Duration Type](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
-      + [Projected Duration does not match Planned Duration](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
-      + [Tasks not showing as Done with multiple user assignees](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-dont-show-as-done.md)
-      + [Tasks FAQs](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
-      + [Tips, tricks, and troubleshooting for tasks](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
-      + [Create predecessor relationships by chaining tasks](manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
-      + [Create a predecessor relationship using the Predecessors area](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
-      + [Create a predecessor relationship on the task list](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
-      + [Create cross-project predecessors](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
-      + [Task dependency loop overview](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-      + [Enforce predecessors](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-      + [Overview of Lag Types](manage-work/tasks/use-prdcssrs/lag-types.md)
-      + [Overview of task predecessors](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
-      + [Overview of task dependency types](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
-      + [Use task predecessors](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
-  + [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
-    + [Configure the Done button for issues](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-    + [Configure the Done button for tasks](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-    + [Create a team](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
-    + [Create and manage Agile teams](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
-    + [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
-    + [Deactivate a team](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
-    + [Edit team settings](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
-    + [Manage what your team is working on](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-    + [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
-    + [Replace the Work On It button with a Start button](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
-    + [Configure the Done button for issues if no team is assigned](people-teams-and-groups/tips-tricks-and-troubleshooting/issue-status.md)
-    + [Tips, Tricks, and Troubleshooting for People, Teams, and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
-    + [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-    + [Send direct messages to other users](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
-    + [View the organizational chart](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
-    + [Work directly with others](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
-    + [Groups vs. teams in Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
-    + [Work with groups and teams](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-    + [Manage work and team requests](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-    + [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
-    + [Work with team requests](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
-  + [Product announcements](product-announcements/product-announcements.md)
-    + [Announcements](product-announcements/announcements/announcements.md)
-    + [API and developer documentation announcements](product-announcements/announcements/api-dev-doc-announcements.md)
-    + [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](product-announcements/announcements/clusters-1-3-update-whitelist.md)
-    + [Email spoofing and POP reply removal](product-announcements/announcements/email-spoofing-pop-reply-message.md)
-    + [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
-    + [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
-    + [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
-    + [New IP addresses for Adobe Workfront email with the 21.1 release](product-announcements/announcements/new-email-ip-21.1.md)
-    + [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](product-announcements/announcements/pop-removal-request-queue.md)
-    + [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
-    + [Remove custom SMTP as an outgoing email option](product-announcements/announcements/remove-custom-smtp.md)
-    + [Replacement of Flash-based tools in Adobe Workfront](product-announcements/announcements/replace-flash-tools.md)
-    + [TLS 1.2 to be required in Adobe Workfront](product-announcements/announcements/tls-1-disabled.md)
-    + [Unsubscribe from Announcement Center Messagesin the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-    + [Updated Mobile App for iOS and Android (Early August, 2017)](product-announcements/announcements/updated-mobile-app.md)
-    + [View documentation resources for the new Adobe Workfront experience](product-announcements/announcements/view-nwe-documentation.md)
-    + [Android Beta Program for Submitting Requests](product-announcements/betas/android-beta-for-submitting-requests.md)
-    + [Android Search Beta Program](product-announcements/betas/android-search-beta.md)
-    + [Beta programs](product-announcements/betas/betas.md)
-    + [Currently available beta programs](product-announcements/betas/currently-available-betas.md)
-    + [Oracle Eloqua Workfront Proof Add-In Beta](product-announcements/betas/eloqua-workfront-proof-add-in-beta.md)
-    + [There Are Currently No Open Beta Programs](product-announcements/betas/no-current-open-beta-programs.md)
-    + [Resource Planner performance beta](product-announcements/betas/resource-planner-performance-beta.md)
-    + [Team scheduling beta](product-announcements/betas/team-scheduling-beta.md)
-    + [Test the Resource Scheduling tools (Beta)](product-announcements/betas/testing-resource-scheduling-beta.md)
-    + [Testing task list beta](product-announcements/betas/testing-tasks-lists-beta.md)
-    + [Workfront Add-On for Jira Beta](product-announcements/betas/workfront-add-on-for-jira-beta.md)
-    + [January - March 2018 documentation updates](product-announcements/documentation-updates-archive/january-march-2018-documentation-updates.md)
-    + [Outlook 365 Add-In](product-announcements/outlook-365-add-in/outlook-365-add-in.md)
-    + [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
-      + [20.3 Agile enhancements](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
-      + [20.3 Analytics enhancements](product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md)
-      + [20.3 Integration and mobile enhancements](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
-      + [20.3 other enhancements](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
-      + [20.3 Project Management enhancements](product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md)
-      + [20.3 Proof enhancements](product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md)
-      + [20.3 Resource Management enhancements](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
-      + [20.3 release activity: Week of May 25, 2020](product-announcements/product-releases/20.3-release-activity/20.3-beta-2.md)
-      + [20.3 release activity: Week of June 1, 2020](product-announcements/product-releases/20.3-release-activity/20.3-beta-3.md)
-      + [20.3 release activity: Week of June 15, 2020](product-announcements/product-releases/20.3-release-activity/20.3-beta-4.md)
-      + [20.3 release activity: Week of June 29, 2020](product-announcements/product-releases/20.3-release-activity/20.3-beta-5.md)
-      + [20.3 release activity: Week of July 6, 2020](product-announcements/product-releases/20.3-release-activity/20.3-beta-6.md)
-      + [20.3 release activity: Week of July 13, 2020](product-announcements/product-releases/20.3-release-activity/20.3-jul-16.md)
-      + [20.3 release activity May 22, 20202](product-announcements/product-releases/20.3-release-activity/20.3-may-22.md)
-      + [20.3 release overview](product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md)
-      + [20. 4 Analytics enhancements](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
-      + [20.4 release activity: Week of August 17, 2020](product-announcements/product-releases/20.4-release-activity/20-4-aug-17.md)
-      + [20.4 release activity: Week of August 24, 2020](product-announcements/product-releases/20.4-release-activity/20-4-aug-24.md)
-      + [20.4 Mobile and integration enhancements](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
-      + [20.4 release activity: Week of October 12, 2020](product-announcements/product-releases/20.4-release-activity/20-4-oct-12.md)
-      + [20.4 release activity: Week of October 5, 2020](product-announcements/product-releases/20.4-release-activity/20-4-oct-5.md)
-      + [20.4 Other enhancements](product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md)
-      + [20.4 Project management enhancements](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-      + [20.4 Proof enhancements](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
-      + [20.4 release overview](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
-      + [20.4 Resource Management enhancements](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
-      + [20.4 release activity: Week of Sept 14, 2020](product-announcements/product-releases/20.4-release-activity/20-4-sept-14.md)
-      + [20.4 release activity: Week of September 21, 2020](product-announcements/product-releases/20.4-release-activity/20-4-sept-21.md)
-      + [20.4 release activity: Week of September 7](product-announcements/product-releases/20.4-release-activity/20-4-sept-7.md)
-      + [test-drop-down-text](product-announcements/product-releases/20.4-release-activity/test-drop-down-text.md)
-      + [2020.1 List enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-list-enhancements.md)
-      + [2020.1 Mobile enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-mobile-enhancements.md)
-      + [2020.1 Other enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-other-enhancements.md)
-      + [2020.1 Project enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-project-enhancements.md)
-      + [2020.1 Proofing enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-proofing-enhancements.md)
-      + [2020.1 release overview](product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md)
-      + [2020.1 Resource Management enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-resource-management-enhancements.md)
-      + [Other Workfront Classic features released to Production prior to the 2020.1 release](product-announcements/product-releases/2020.1-release-activity/prior-to-2020.1.md)
-      + [2020.2 mobile enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-      + [2020.2 other enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-      + [2020.2 Project enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-      + [2020.2 Proofing enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-      + [2020.2 release overview](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-      + [2020.2 Resource Management enhancements: The Workload Balancer](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
-      + [21.1 Administrator enhancements](product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md)
-      + [21.1 release activity: Week of December 14, 2020](product-announcements/product-releases/21.1-release-activity/21-1-dec-14.md)
-      + [21.1 release activity: Week of December 7, 2020](product-announcements/product-releases/21.1-release-activity/21-1-dec-7.md)
-      + [21.1 Enhanced analytics improvements](product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md)
-      + [21.1 Integration enhancements](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
-      + [21.1 release activity: Week of January 11, 2021](product-announcements/product-releases/21.1-release-activity/21-1-jan-12.md)
-      + [21.1 release activity: Week of January 18, 2021](product-announcements/product-releases/21.1-release-activity/21-1-jan-18.md)
-      + [21.1 release activity: Week of January 4, 2021](product-announcements/product-releases/21.1-release-activity/21-1-jan-4.md)
-      + [21.1 Mobile enhancements](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
-      + [21.1 release activity: Week of November 16, 2020](product-announcements/product-releases/21.1-release-activity/21-1-nov-16.md)
-      + [21.1 release activity: Week of November 30, 2020](product-announcements/product-releases/21.1-release-activity/21-1-nov-30.md)
-      + [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
-      + [21.1 Project Management enhancements](product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md)
-      + [21.1 release overview](product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)
-      + [21.1 Resource Management enhancements](product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md)
-      + [21.2 Administrator enhancements](product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md)
-      + [21.2 release activity: Week of April 12, 2021](product-announcements/product-releases/21.2-release-activity/21-2-apr-12.md)
-      + [21.2 release activity: Week of April 19, 2021](product-announcements/product-releases/21.2-release-activity/21-2-apr-19.md)
-      + [21.2 release activity: Week of April 5, 2021](product-announcements/product-releases/21.2-release-activity/21-2-apr-5.md)
-      + [21.2 release activity: Week of February 15, 2021](product-announcements/product-releases/21.2-release-activity/21-2-feb-15.md)
-      + [21.2 release activity: Week of February 22, 2021](product-announcements/product-releases/21.2-release-activity/21-2-feb-22.md)
-      + [21.2 Integration enhancements](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
-      + [21.2 release activity: Week of March 15, 2021](product-announcements/product-releases/21.2-release-activity/21-2-mar-15.md)
-      + [21.2 release activity: Week of March 22, 2021](product-announcements/product-releases/21.2-release-activity/21-2-mar-22.md)
-      + [21.2 release activity: Week of March 29, 2021](product-announcements/product-releases/21.2-release-activity/21-2-mar-29.md)
-      + [21.2 release activity: Week of March 8, 2021](product-announcements/product-releases/21.2-release-activity/21-2-mar-8.md)
-      + [21.2 Mobile enhancements](product-announcements/product-releases/21.2-release-activity/21-2-mobile-enhancements.md)
-      + [21.2 Other enhancements](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
-      + [21.2 Project enhancements](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
-      + [21.2 Proofing enhancements](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
-      + [21.2 Release overview](product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)
-      + [21. 2 Reporting enhancements](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
-      + [21.2 Requests enhancements](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
-      + [21.2 Resource Management enhancements](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-      + [21.3 Administrator enhancements](product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md)
-      + [21.3 release activity: Week of May 17, 2021](product-announcements/product-releases/21.3-release-activity/21-3-may-17.md)
-      + [21.3 release activity: Week of May 24, 2021](product-announcements/product-releases/21.3-release-activity/21-3-may-24.md)
-      + [21.3 release activity: Week of May 31, 2021](product-announcements/product-releases/21.3-release-activity/21-3-may-31.md)
-      + [21.3 Other enhancements](product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md)
-      + [21.3 Project enhancements](product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md)
-      + [21.3 Proofing enhancements](product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md)
-      + [21.3 Release overview](product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)
-      + [21.3 Requests enhancements](product-announcements/product-releases/21.3-release-activity/21-3-requests-enhancements.md)
-      + [21.3 Resource Management enhancements](product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md)
-      + [21.4 Administrator enhancements](product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md)
-      + [21.4 Agile enhancements](product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md)
-      + [21.4 release activity: Week of August 23, 2021](product-announcements/product-releases/21.4-release-activity/21-4-aug-23.md)
-      + [21.4 Integration enhancements](product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md)
-      + [21.4 Mobile enhancements](product-announcements/product-releases/21.4-release-activity/21-4-mobile-enhancements.md)
-      + [21.4 Other enhancements](product-announcements/product-releases/21.4-release-activity/21-4-other-enhancements.md)
-      + [21.4 Project enhancements](product-announcements/product-releases/21.4-release-activity/21-4-project-enhancements.md)
-      + [21.4 Proofing enhancements](product-announcements/product-releases/21.4-release-activity/21-4-proofing-enhancements.md)
-      + [21.4 Reporting enhancements](product-announcements/product-releases/21.4-release-activity/21-4-reporting-enhancements.md)
-      + [21.4 Requests enhancements](product-announcements/product-releases/21.4-release-activity/21-4-requests-enhancements.md)
-      + [21.4 Resource Management enhancements](product-announcements/product-releases/21.4-release-activity/21-4-resource-management-enhancements.md)
-      + [21.4 release activity: Week of September 6, 2021](product-announcements/product-releases/21.4-release-activity/21-4-sept-6.md)
-      + [21.4 release activity: Week of August 16, 2021](product-announcements/product-releases/21.4-release-activity/21.4-aug-16.md)
-      + [21.4 release activity: Week of August 2, 2021](product-announcements/product-releases/21.4-release-activity/21.4-aug-2.md)
-      + [21.4 release activity: Week of August 9, 2021](product-announcements/product-releases/21.4-release-activity/21.4-aug-9.md)
-      + [21.4 release activity: Week of July 12, 2021](product-announcements/product-releases/21.4-release-activity/21.4-july-12.md)
-      + [21.4 release activity: Week of July 19, 2021](product-announcements/product-releases/21.4-release-activity/21.4-july-19.md)
-      + [21.4 release activity: Week of July 26, 2021](product-announcements/product-releases/21.4-release-activity/21.4-july-26.md)
-      + [21.4 release activity: Week of June 28, 2021](product-announcements/product-releases/21.4-release-activity/21.4-jun-28.md)
-      + [21.4 Release overview](product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md)
-      + [22.1 Administrator enhancements](product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md)
-      + [22.1 Mobile enhancements](product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md)
-      + [22.1 release activity: Week of November 1, 2021](product-announcements/product-releases/22.1-release-activity/22-1-nov-1.md)
-      + [22.1 release activity: Week of November 15, 2021](product-announcements/product-releases/22.1-release-activity/22-1-nov-15.md)
-      + [22.1 release activity: Week of November 29, 2021](product-announcements/product-releases/22.1-release-activity/22-1-nov-29.md)
-      + [22.1 release activity: Week of November 8, 2021](product-announcements/product-releases/22.1-release-activity/22-1-nov-8.md)
-      + [22.1 release activity: Week of October 11, 2021](product-announcements/product-releases/22.1-release-activity/22-1-oct-11.md)
-      + [22.1 release activity: Week of October 18, 2021](product-announcements/product-releases/22.1-release-activity/22-1-oct-18.md)
-      + [22.1 Other enhancements](product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md)
-      + [22.1 Project enhancements](product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md)
-      + [22.1 Proofing enhancements](product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md)
-      + [22.1 Release overview](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
-      + [22.1 Requests enhancements](product-announcements/product-releases/22.1-release-activity/22-1-requests-enhancements.md)
-      + [22.1 Resource Management enhancements](product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md)
-      + [22.2 release activity: Week of February 14, 2022](product-announcements/product-releases/22.2-release-activity/22-2-feb-14.md)
-      + [22.2 release activity: Week of February 7, 2022](product-announcements/product-releases/22.2-release-activity/22-2-feb-7.md)
-      + [22.2 release activity: Week of January 23, 2022](product-announcements/product-releases/22.2-release-activity/22-2-jan-23.md)
-      + [Look-and-feel updates during the 22.2 release timeframe](product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md)
-      + [22.2 Release overview](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
-    + [Product releases](product-announcements/product-releases/product-releases.md)
-    + [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
-      + [Workfront Fusion release activity: Week of April 12, 2021](product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)
-      + [Workfront Fusion release activity: Week of April 19, 2021](product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
-      + [Workfront Fusion release activity: Week of April 26, 2021](product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
-      + [Workfront Fusion release activity: Week of August 2, 2021](product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
-      + [Workfront Fusion release activity: Week of August 23, 2021](product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
-      + [Workfront Fusion release activity: Week of August 30, 2021](product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
-      + [Workfront Fusion release activity: Week of February 1, 2021](product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
-      + [Workfront Fusion release activity: Week of February 14, 2022](product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
-      + [Workfront Fusion release activity: Week of February 15, 2021](product-announcements/product-releases/fusion-release-activity/fusion-feb-15.md)
-      + [Workfront Fusion release activity: Week of February 7, 2022](product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
-      + [Workfront Fusion release activity: Week of January 11, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
-      + [Workfront Fusion release activity: Week of January 18, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
-      + [Workfront Fusion release activity: Week of January 25, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
-      + [Workfront Fusion release activity: Week of January 3, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
-      + [Workfront Fusion release activity: Week of January 4, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
-      + [Workfront Fusion release activity: Week of July 26, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jul-26.md)
-      + [Workfront Fusion release activity: Week of June 21, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jun-21.md)
-      + [Workfront Fusion release activity: Week of June 28, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jun-28.md)
-      + [Workfront Fusion release activity: Week of March 8, 2021](product-announcements/product-releases/fusion-release-activity/fusion-mar-8.md)
-      + [Workfront Fusion release activity: Week of May 10, 2021](product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
-      + [Workfront Fusion release activity: Week of May 17, 2021](product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
-      + [Workfront Fusion release activity: Week of May 3, 2021](product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
-      + [Workfront Fusion release activity: Week of November 15, 2021](product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
-      + [Workfront Fusion release activity: Week of November 29, 2021](product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
-      + [Workfront Fusion release activity: Week of November 8, 2021](product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
-      + [Workfront Fusion release activity: Week of October 4, 2021](product-announcements/product-releases/fusion-release-activity/fusion-oct-4-21.md)
-      + [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-      + [Workfront Fusion release activity: Week of September 13, 2021](product-announcements/product-releases/fusion-release-activity/fusion-sept-13-21.md)
-          + [Workfront Fusion release activity: Week of August 17, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
-          + [Workfront Fusion release activity: Week of August 24, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
-          + [Workfront Fusion release activity: Week of December 7, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
-          + [Workfront Fusion release activity: Week of November 16, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
-          + [Workfront Fusion release activity: Week of November 2, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
-          + [Workfront Fusion release activity: Week of November 30, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
-          + [Workfront Fusion release activity: Week of September 21, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
-      + [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
-      + [Workfront Goals with the 20.3 release - August 14, 2020](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
-      + [Adobe Workfront Goals with the 21.1 release](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
-      + [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-        + [Adobe Workfront Goals 21.1 release activity: Week of December 14, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
-        + [Adobe Workfront Goals 21.1 release activity: Week of January 11, 2021](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
-        + [Adobe Workfront Goals 21.1 release activity: Week of November 16, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
-        + [Adobe Workfront Goals 21.1 release activity: Week of November 30, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-30.md)
-        + [Adobe Workfront Goals 21.2 release activity: Week of April 19, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
-        + [Adobe Workfront Goals 21.2 release activity: Week of April 5, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
-        + [Adobe Workfront Goals 21.2 release activity: Week of February 15, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
-        + [Adobe Workfront Goals with the 21.2 release](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
-      + [Workfront Library release activity - April 18, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-apr-18-2019.md)
-      + [Workfront Library release activity - August 15, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-aug-15-2019.md)
-      + [Workfront Library release activity - February 13, 2020](product-announcements/product-releases/library-release-activity/library-release-activity-feb-13-2020.md)
-      + [Workfront Library release activity - January 29, 2020](product-announcements/product-releases/library-release-activity/library-release-activity-jan-29-2020.md)
-      + [Workfront Library release activity - June 19, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-jun-19-2019.md)
-      + [Workfront Library release activity - May 3, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-may-3-2019.md)
-      + [Workfront Library release activity - October 11, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-oct-11-2019.md)
-      + [Workfront Library release activity](product-announcements/product-releases/library-release-activity/workfront-library-release-activity.md)
-      + [Now available in Preview](product-announcements/product-releases/new-in-preview/now-available-in-preview.md)
-      + [Now available in Production](product-announcements/product-releases/new-in-preview/now-available-in-production.md)
-        + [2017.2 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-beta-1-release-activity.md)
-        + [2017.2 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-beta-2-release-activity.md)
-        + [2017.2 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-beta-3-release-activity.md)
-        + [2017.2 Beta Final](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-beta-final.md)
-        + [2017.2 release activity](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity.md)
-        + [2017.2 release activity overview](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity-overview.md)
-        + [2017.2 release webinars](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-webinars.md)
-        + [2017.3 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-1-release-activity.md)
-        + [2017.3 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-2-release-activity.md)
-        + [2017.3 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-3-release-activity.md)
-        + [2017.3 Beta 4 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-4-release-activity.md)
-        + [2017.3 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-final-release-activity.md)
-        + [2017.3 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity.md)
-        + [2017.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity-overview.md)
-        + [2017.3 release webinars](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-webinars.md)
-        + [2018.1 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-1-release-activity.md)
-        + [2018.1 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-2-release-activity.md)
-        + [2018.1 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-3-release-activity.md)
-        + [2018.1 Beta 4 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-4-release-activity.md)
-        + [2018.1 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-final-release-activity.md)
-        + [2018.1 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity.md)
-        + [2018.1 release activity overview](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity-overview.md)
-        + [2018.2 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-1-release-activity.md)
-        + [2018.2 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-2-release-activity.md)
-        + [2018.2 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-3-release-activity.md)
-        + [2018.2 Beta 4 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-4-release-activity.md)
-        + [2018.2 Beta 5 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-5-release-activity.md)
-        + [2018.2 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-final-release-activity.md)
-        + [2018.2 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity.md)
-        + [2018.2 release activity overview](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity-overview.md)
-        + [2018.3 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-1-release-activity.md)
-        + [2018.3 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-2-release-activity.md)
-        + [2018.3 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-3-release-activity.md)
-        + [2018.3 Beta 4 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-4-release-activity.md)
-        + [2018.3 Beta 5 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-5-release-activity.md)
-        + [2018.3 Beta Final](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-final.md)
-        + [2018.3 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity.md)
-        + [2018.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity-overview.md)
-        + [2019.1 Mobile and integration enhancements](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-mbl-intgrtn-enhncmnts.md)
-        + [2019.1 Project enhancements](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-project-enhancements.md)
-        + [2019.1 Proofing enhancements](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-proofing-enhancements.md)
-        + [2019.1 release activity](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md)
-        + [2019.1 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity-overview.md)
-        + [2019.1 Resource Management enhancements](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-rsrc-mngmnt-enhncmnts.md)
-        + [2019.2 administrator enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-administrator-enhancements.md)
-        + [2019.2 Agile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-agile-enhancements.md)
-        + [2019.2 Integration and Mobile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-integration-enhancements.md)
-        + [2019.2 Project enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-project-enhancements.md)
-        + [2019.2 Proofing enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-proofing-enhancements.md)
-        + [2019.2 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md)
-        + [2019.2 Resource Management enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-resource-management-enhancements.md)
-        + [2019.3 Home enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-home-enhancements.md)
-        + [2019.3 Integration and mobile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-integration-mobile-enhancements.md)
-        + [2019.3 Project enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-project-enhancements.md)
-        + [2019.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md)
-        + [2019.3 Resource Planning enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-resource-planning-enhancements.md)
-        + [2019.4 List enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-        + [2019.4 Mobile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-        + [2019.4 other enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-        + [2019.4 release overview](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-        + [2019.4 Resource Management enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-        + [Other Workfront Classic features released to Production prior to the 2019.4 release](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
-      + [Quarterly release archive](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
-        + [Functionality made available in Preview in 2016](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
-        + [R1 Final](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
-        + [R1 Preview 1 and 2](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
-        + [R1 Preview 3](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
-        + [R1 Preview 4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
-        + [R1 Preview 5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
-        + [R1 release activity overview](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
-        + [R1 release webinars](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-        + [The Workfront R1 release](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
-      + [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
-      + [Workfront Scenario Planner with the 20.4 release - October 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md)
-      + [Adobe Workfront Scenario Planner with the 21.1 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
-      + [Adobe Workfront Scenario Planner with the 21.2 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
-      + [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
-      + [Adobe Workfront Scenario Planner with the 21.4 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-4.md)
-      + [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
-      + [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      + [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
-  + [ProofHQ API](proofhq-api/proofhq-api.md)
-    + [Code Samples](proofhq-api/general/code-samples.md)
-    + [General](proofhq-api/general/general.md)
-    + [Overview](proofhq-api/general/overview.md)
-    + [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
-  + [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
-    + [Dashboards](reports-and-dashboards/dashboards/dashboards-overview.md)
-      + [Add a report to a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
-      + [Copy a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
-      + [Create and manage dashboards](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
-      + [Create a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
-      + [Delete a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
-      + [Edit a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
-      + [Embed an external web page in a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
-      + [Embed a request queue in a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
-      + [Export a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
-      + [Print a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
-      + [Remove an External Page from a dashboard in Adobe Workfront](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
-      + [Share a dashboard in Adobe Workfront](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-      + [Get started with dashboards](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
-      + [Understand dashboards](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
-      + [Understand how reports display on a dashboard](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-    + [Connect to Snowflake](reports-and-dashboards/data-access/connect-to-snowflake.md)
-    + [Data Access overview](reports-and-dashboards/data-access/data-access-overview.md)
-    + [Add or edit a report table in Reporting Canvas](reports-and-dashboards/new-reporting-experience/add-or-edit-report-table.md)
-    + [Add or edit a visualization in a report in Reporting Canvas](reports-and-dashboards/new-reporting-experience/add-or-edit-report-visualization.md)
-    + [Build a report in Reporting Canvas](reports-and-dashboards/new-reporting-experience/build-report.md)
-    + [Configure a bar visualization in the Reporting Canvas](reports-and-dashboards/new-reporting-experience/configure-bar-visualization.md)
-    + [Configure a bubble visualization in the Reporting Canvas](reports-and-dashboards/new-reporting-experience/configure-bubble-visualization.md)
-    + [Configure a column visualization in the Reporting Canvas](reports-and-dashboards/new-reporting-experience/configure-column-visualization.md)
-    + [Configure filter rules in Reporting Canvas](reports-and-dashboards/new-reporting-experience/configure-filter-rules-for-table.md)
-    + [Configure a KPI visualization in the Reporting Canvas](reports-and-dashboards/new-reporting-experience/configure-kpi-visualization.md)
-    + [Configure a line visualization in the Reporting Canvas](reports-and-dashboards/new-reporting-experience/configure-line-visualization.md)
-    + [Configure pie visualization in the Reporting Canvas](reports-and-dashboards/new-reporting-experience/configure-pie-visualization.md)
-    + [Create a formula field in Reporting Canvas](reports-and-dashboards/new-reporting-experience/create-formula-field.md)
-    + [Export report information in the Reporting Canvas](reports-and-dashboards/new-reporting-experience/export-report.md)
-    + [Get started with Reporting Canvas](reports-and-dashboards/new-reporting-experience/get-started-reports.md)
-    + [Group rows in a table in Reporting Canvas](reports-and-dashboards/new-reporting-experience/group-rows-in-table.md)
-    + [List your reports in Reporting Canvas](reports-and-dashboards/new-reporting-experience/list-your-reports.md)
-    + [Modify table columns in Reporting Canvas](reports-and-dashboards/new-reporting-experience/modify-columns-table.md)
-    + [Reporting Canvas](reports-and-dashboards/new-reporting-experience/reports.md)
-    + [Send a report in Reporting Canvas](reports-and-dashboards/new-reporting-experience/send-report.md)
-    + [View a report in the Reporting Canvas](reports-and-dashboards/new-reporting-experience/view-report.md)
-    + [Reports](reports-and-dashboards/reports/reports-overview.md)
-      + [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-      + [Calculated custom fields vs. calculated columns](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
-      + [Calculated data expressions](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
-      + [Calculated custom field example: display a field's edit history](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
-      + [Condition operators in calculated custom expressions](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-      + [Calculated custom field example: display the manager of an issue's creator on the issue custom form](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
-      + [Calculated custom field example: display a Status timestamp in a Custom Form](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-      + ["IF" statements overview](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
-      + [Add ad-hoc events to a calendar report](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
-      + [Calendar reports overview](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
-      + [Calendars](reports-and-dashboards/reports/calendars/calendars.md)
-      + [Copy a calendar report](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
-      + [Delete a calendar report](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
-      + [Edit an existing calendar report](reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
-      + [Share a calendar report](reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
-      + [Use custom date fields in a calendar report](reports-and-dashboards/reports/calendars/use-custom-dates.md)
-      + [Use Planned Dates in a calendar report](reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      + [Use Projected Dates in a calendar report](reports-and-dashboards/reports/calendars/use-projected-dates.md)
-      + [View calendar reports and event details](reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
-      + [Add a chart to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
-      + [Add a prompt to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
-      + [Change the owner of a report](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-      + [Create a copy of a report](reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-      + [Create a custom report](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
-      + [Create financial data reports with unique exchange rates](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
-      + [Report on the Updates area](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
-      + [Create and manage reports](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
-      + [Create a matrix report](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
-      + [Create a report](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
-      + [Create a User Delegation report](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
-      + [Edit report settings](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
-      + [Export data](reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)
-      + [Filter reports by time frames](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
-      + [Reference a custom form in a report](reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md)
-      + [Run and deliver a report with the access rights of another user](reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)
-      + [Run a report](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
-      + [Send a report in the Preview Sandbox environment](reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md)
-      + [Schedule an automatic report delivery](reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)
-      + [Report delivery overview](reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
-      + [Share a report in Adobe Workfront](reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-      + [View: show name of parent tasks as all caps](reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
-      + [Custom View, Filter, and Grouping samples](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-      + [Reports or lists: display users associated with an object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
-      + [Filter: cross-project predecessors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
-      + [Filter: cross-project successors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
-      + [Filter: current projects pending approval](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
-      + [Filter: display only items in an approval status](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
-      + [Filter: eliminate items in a list by comparing two fields](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
-      + [Filter: parent task filters](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
-      + [Filter Proof Approval report to omit previous proof versions](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
-      + [Filter: create multiple filter rules that reference the same field ("AND" statements)](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-      + [Filter: report delivery filter](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
-      + [Filter: display items by same-name statuses when the statuses are associated with different groups](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
-      + [Group and chart a report by a multi-select custom field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/group-chart-report-multi-select-custom-field.md)
-      + [Grouping: 4-level task Grouping for Portfolio Owner, Program Owner, Project Owner, and Project Status](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
-      + [Grouping: add a fourth grouping to a list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-      + [Grouping: organize list results by a calculated value common to all objects in the grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
-      + [Grouping: display the result of aggregating multiple calculated values in a grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
-      + [Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
-      + [Grouping: Home Group of Project Owner in a list of hours](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-      + [Grouping: project percent breakdown 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
-      + [Grouping: project percent breakdown 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
-      + [Grouping: Project Sponsor for hours](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
-      + [Grouping: Project Sponsor for a task list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
-      + [Grouping: projects by Entry Date](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
-      + [Grouping: edit the display name in a grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-      + [Grouping: task percent breakdown 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
-      + [Grouping: task percent breakdown 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
-      + [Grouping: tasks by portfolio, program, and project](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
-      + [Report: Budgeted Hour](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
-      + [Report: combined task and issue View and Grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
-      + [View: Actual Hours over Planned Hours in task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
-      + [View: assigned user's Company and Home Group](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
-      + [View: baseline variance for Duration and Planned Work in a task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
-      + [View: calculate overtime cost in a Timesheet View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
-      + [View: calculate time and date differences](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
-      + [View: display the result of a calculation between two fields in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-      + [View: add a list of task successors in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-      + [View and grouping: display project Actual Duration aggregated by the average in a Grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
-      + [View: combined task and issue details in an Hour list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
-      + [View: display an image instead of a string in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-      + [View: display objects that are not included in the standard interface](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-      + [View: display original issue information on task and project list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-      + [View: display Program and Portfolio information in a task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
-      + [View: display task indentations in a task list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-      + [View: document report with link to a proof](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
-      + [View: permanently edit the width of a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
-      + [View: expanded user details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
-      + [View: hide the content of a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
-      + [View: hours with parent task information](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
-      + [View: issues with approval information](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
-      + [View: issues with the company name of the originator](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
-      + [View: issues with resolving object details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
-      + [View: merge information from multiple columns in one shared column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
-      + [View: multi-row project View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
-      + [View: originating issue details for tasks and projects](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
-      + [View: Planned Hours vs. Actual Hours per assignment in task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-      + [View: predecessor details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
-      + [View: project with all project team users and roles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
-      + [View: list of project users with job roles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
-      + [View: remove link to an object in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
-      + [View: report delivery details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md)
-      + [View: reporting elements used in reports](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
-      + [View: Resolvable Objects in a task or project report](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
-      + [View: Resource Pool quick links](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md)
-      + [View: show parent tasks up to 4 levels deep](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
-      + [View: submission path for issues](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
-      + [View: task with All Dates variance](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
-      + [View: tasks impacted by schedule exceptions](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
-      + [View: external URL using custom data field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
-      + [View: user Job Role percentage of FTE availability](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
-      + [View: user personal time off](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
-      + [View: username](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md)
-      + [Access and organize reports](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
-      + [Create a report on reporting activities](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
-      + [Report usage overview](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
-      + [Understand how to organize reports on a dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
-      + [View report usage](reports-and-dashboards/reports/report-usage/view-report-usage.md)
-      + [Advanced Filter and condition qualifiers](reports-and-dashboards/reports/reporting-elements/advanced-filter-condition-qualifiers.md)
-      + [Create and edit views](reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-      + [Create or edit filters in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-filters.md)
-      + [Create groupings](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
-      + [Delete filters](reports-and-dashboards/reports/reporting-elements/delete-filters.md)
-      + [Edit existing groupings](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-      + [Filter and condition modifiers](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
-      + [Filters overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-      + [Filters overview in Adobe Workfront (draft)](reports-and-dashboards/reports/reporting-elements/filters-overview-draft.md)
-      + [Groupings overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-      + [Groupings overview in Adobe Workfront (draft)](reports-and-dashboards/reports/reporting-elements/groupings-overview-draft.md)
-      + [Modify column width and order](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
-      + [Remove filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-      + [Reporting elements: filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-      + [Reporting elements overview](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
-      + [Share a filter, view, or grouping in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-      + [Wildcard filter variables](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-      + [Use conditional formatting in Views](reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-      + [Use date-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
-      + [Use the Milestone view](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
-      + [Use user-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
-      + [Views overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/views-overview.md)
-      + [Views overview in Adobe Workfront (draft)](reports-and-dashboards/reports/reporting-elements/views-overview-draft.md)
-      + [Get started with reports in Adobe Workfront](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-      + [Reporting basics](reports-and-dashboards/reports/reporting/reporting-basics.md)
-      + [Save default reports as new reports](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
-      + [Fields in lists and reports](reports-and-dashboards/reports/reporting/understand-fields-lists-reports.md)
-      + [Compare fields in conditional formatting](reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
-      + [Create complex Text Mode filters using EXISTS statements](reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-      + [Create "OR" statements in text mode filters](reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
-      + [Edit a filter using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-      + [Edit text mode in a grouping](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
-      + [Edit a view using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-      + [Format dates in text mode reports](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
-      + [Format numbers, currency and percentage values in text mode reports](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
-      + [Reference collections in a report](reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-      + [Text Mode resources](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-      + [Text mode syntax overview](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-      + [Overview of common uses for Text Mode](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-      + [Text Mode overview](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-      + [Use conditional formatting in Text Mode](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
-      + [Assignments in a deleted object appear unexpectedly in assignee reports](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/assignments-in-deleted-object-appear-unexpectedly-in-assignee-reports.md)
-      + [Inline editing dates shifts calendar display outside of box](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
-      + [Error message on calendar: "This calendar has the view rights of a deactivated user."](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
-      + [Error message when running a report: "You are not currently logged in."](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
-      + [Reports FAQs](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
-      + [Data from shared columns not displayed in dashboard reports](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
-      + [Tips, tricks, and troubleshooting for reports](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
-      + [Built-in Status Icons in Views](reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
-      + [Overview of the Resource Utilization report](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-      + [Use built-in reports](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
-      + [Use Adobe Workfront built-in reports](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
-  + [Manage resources](resource-mgmt/manage-resources.md)
-    + [Deprecation of Resource Scheduling tools in Adobe Workfront](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-    + [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-    + [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management-d.md)
-    + [Difference between Legacy Resource Planning and Planning](resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md)
-    + [Migrate from Legacy Resource Estimates to Resource Budgeting](resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md)
-    + [Migrate from Resource Scheduling to the Workload Balancer](resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
-    + [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-    + [Access needed to budget resources](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
-    + [Adjust budgeting dates in the Resource Planner](resource-mgmt/resource-planning/adjust-budgeting-dates.md)
-    + [Budget resources by project in the Resource Planner](resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)
-    + [Budget resources by role in the Resource Planner](resource-mgmt/resource-planning/budget-by-role-resource-planner-d.md)
-    + [Budget resources in the Resource Planner using the Project and Role views](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
-    + [Calculate costs in the Resource Planner](resource-mgmt/resource-planning/calculate-costs-resource-planner.md)
-    + [Overview of calculating hours and FTE for users and roles in the Resource Planner](resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)
-    + [Export information from the Resource Planner](resource-mgmt/resource-planning/export-resource-planner.md)
-    + [Filter information in the Resource Planner](resource-mgmt/resource-planning/filter-resource-planner.md)
-    + [Resource Planner overview](resource-mgmt/resource-planning/get-started-resource-planner.md)
-    + [Get started with Resource Planning](resource-mgmt/resource-planning/get-started-resource-planning.md)
-    + [Locate the Resource Planner in Adobe Workfront](resource-mgmt/resource-planning/locate-resource-planner.md)
-    + [Manage resources in the Resource Planner](resource-mgmt/resource-planning/manage-resource-planner-d.md)
-    + [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
-    + [Prioritize projects in the Resource Planner](resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)
-    + [Report on Resource Planner Budgeted Hours](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
-    + [Review resource availability and allocation using the Resource Planner](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
-    + [Resource Planner display limitations](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-    + [Resource Planner navigation overview](resource-mgmt/resource-planning/resource-planner-navigation.md)
-    + [Overview of the areas of the Resource Planner](resource-mgmt/resource-planning/resource-planner-overview-d.md)
-    + [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
-    + [Share the Resource Planner user view with a link](resource-mgmt/resource-planning/share-resource-planner-with-link.md)
-    + [Track User Utilization information](resource-mgmt/resource-planning/track-user-utilization.md)
-    + [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
-    + [View projects, roles, and users using the Resource Planner](resource-mgmt/resource-planning/view-projects-roles-users-resource-planner.md)
-      + [Associate resource pools with projects and templates in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-      + [Associate resource pools with users in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-      + [Create resource pools in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-      + [Remove users from resource pools in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
-      + [Resource Pools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
-      + [Resource pools overview in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
-    + [Allow user assignments regardless of role and group membership in the Scheduling areas](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-    + [Automatically assign unassigned tasks and issues in the Scheduling areas](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-    + [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-    + [Configure settings in the Scheduling areas](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-    + [Filter information in the Scheduling area](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-    + [Get started with Resource Scheduling](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-    + [Manage user allocations in the Scheduling areas](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-    + [Manually assign unassigned tasks and issues in the Scheduling areas](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-    + [Modify multiple users assignments to tasks in the Scheduling areas](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
-    + [Overview of the Scheduling areas](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-    + [Resource Scheduling](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-    + [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
-    + [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
-    + [Access needed to manage resources in the Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
-    + [Add a custom section to display the Workload Balancer](resource-mgmt/workload-balancer/add-custom-section-for-balancer.md)
-    + [Overview of assigning work in the Adobe Workfront Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
-    + [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
-    + [Assign work in bulk using the Adobe Workfront Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)
-    + [Assign work manually using the Adobe Workfront Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)
-    + [Manage filters in the Workload Balancer](resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
-    + [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
-    + [Manage user allocations in the Workload Balancer](resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-    + [Navigate the Workload Balancer](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
-    + [Overview of the Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)
-    + [Share the Workload Balancer with a link](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
-    + [Unassign work in the Adobe Workfront Workload Balancer](resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
-    + [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
-    + [Perform 'what-if' scenarios in the Workload Balancer](resource-mgmt/workload-balancer/what-if-scenarios-balancer.md)
-    + [The Workload Balancer](resource-mgmt/workload-balancer/workload-balancer.md)
-      + [View and manage work item details in G Suite in the new Adobe Workfront experience](resources/snippets/integrations/view-mng-work-item-details-in-gsuite.md)
-      + [Workfront Fusion 2.0](resources/snippets/wf-fusion/workfront-fusion-2.0.md)
-    + [[Task title]](resources/templates/how-to-template.md)
-      + [[Task title]](resources/templates/content/how-to-template.md)
-    + [TEST](resources/testing/test.md)
-    + [Do what you need to here but keep it drafted always!](resources/testing/testing-topic.md)
-    + [Create Workfront users and administrators](resources/testing/testing-topic-2-caroline.md)
-    + [Group-level actions allowed for different types of administrators](resources/testing/testing-topic-3-caroline.md)
-    + [testing-topic-caroline](resources/testing/testing-topic-caroline.md)
-  + [Review and approve work](review-and-approve-work/review-and-approve-work.md)
-    + [Add additional approvers to submitted document approvals](review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
-    + [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-    + [Approving work in Adobe Workfront](review-and-approve-work/manage-approvals/approving-work.md)
-    + [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
-    + [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
-    + [Manage approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
-    + [Recalling Submitted Approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-    + [Reminding Approvers about Submitted Approvals](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
-    + [Request document approvals](review-and-approve-work/manage-approvals/request-document-approvals.md)
-    + [View approvals in Adobe Workfront](review-and-approve-work/manage-approvals/view-approvals.md)
-    + [Viewing submitted proof approvals](review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
-    + [Proofing](review-and-approve-work/proofing/proofing.md)
-      + [Create an advanced proof with a Basic workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-      + [Configure a proof](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md)
-      + [Create an advanced proof with an Automated workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-      + [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
-      + [Create proofs](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
-      + [Create a simple proof from an existing document](review-and-approve-work/proofing/creating-proofs-within-workfront/create-simple-proof.md)
-      + [Create an interactive proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-      + [Generate a proof](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md)
-      + [Create a proof for a document](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
-      + [Create a proof for interactive content in a ZIP file](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
-      + [Create a static proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
-      + [Configure personal proofing defaults](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
-      + [Access Workfront Proof from Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
-      + [Add stages and users to an Automated Workflow on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
-      + [Administer proofing within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/administer-proofing-in-workfront.md)
-      + [Configure access and subscription settings for a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
-      + [Convert a basic workflow to an Automated Workflow on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
-      + [Create or edit an Automated Workflow for an existing proof](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
-      + [Create a new version of a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
-      + [Edit proof settings](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
-      + [Edit proof stages and reviewers](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
-      + [Manage proof versions](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions.md)
-      + [Manage proofs within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-      + [Print a proof summary within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
-      + [Use the proof approval report](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-      + [Delete a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
-      + [Restore an archived proof](review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
-      + [Send email messages to reviewers on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
-      + [Manage deadlines for a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/set-deadlines-proof.md)
-      + [Share a proof within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-      + [View active stages on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-      + [View activity on a proof within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
-      + [View Automated Workflow stages on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
-        + [Manage automated proofs](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
-        + [Add, edit, or delete a deadline for a stage](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
-        + [Manage proof deadlines](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
-        + [Remove individual reviewer deadlines](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
-        + [Set a deadline for an existing basic proof](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
-        + [Set individual reviewer deadlines](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
-        + [Manage proof notifications](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
-        + [Manage proof reviewers](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
-        + [Manage proof versions](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
-        + [Manage proofs](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
-      + [Automated Workflow overview](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
-      + [Document reprocessing for proofing overview](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
-      + [Interactive content proofs overview](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
-      + [Notifications for proof comments and decisions overview](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
-      + [Proof Permission Profile overview](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
-      + [Proof Roles overview](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
-      + [Proof security overview](review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
-      + [Proofing overview](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
-      + [Automated Workflow Stages overview](review-and-approve-work/proofing/proofing-overview/stages.md)
-      + [Supported proofing file types and size limits overview](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
-      + [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
-      + [Proof progress and status overview](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
-      + [Configure proofing viewer settings](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
-      + [Create and manage proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/create-manage-proof-comments.md)
-      + [Manage notifications for proof comments and decisions](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
-      + [Review a static proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-static-proof.md)
-      + [Review a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-video-proof-in-proofing-viewer.md)
-      + [Review an interactive proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-and-managing-interactive-proofs.md)
-      + [Reviewing a Proof in the Legacy Proofing Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proof-in-legacy-proofing-viewer.md)
-      + [Review proofs within Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-      + [View the Adobe Workfront object associated with a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/view-wf-object-associated-with-proof.md)
-        + [Comment on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
-        + [Delete proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
-        + [Edit proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/edit-a-proof-comment.md)
-        + [Resolve proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)
-        + [Search, filter, and sort proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
-        + [Tag users to share a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
-        + [Use actions on proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
-        + [View and reply to proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
-        + [Approve a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
-        + [Change an existing decision on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
-        + [Make a decision on the document with an approval process](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-document-approval.md)
-        + [Make a decision on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
-        + [Make a decision on a proof in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
-        + [Change the unit of measurement of the timeline in a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
-        + [Compare proofs](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
-        + [Control playback in a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
-        + [Downloading a Proof in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
-        + [Enable loop in a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
-        + [Set up interactive content proofing in Web Proofing Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
-        + [Keyboard shortcuts in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
-        + [Lock or unlock a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
-        + [Measure an area within a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
-        + [Review a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
-        + [Search content within a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
-        + [Share a proof from the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
-        + [View content in a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
-        + [Change interactive proof resolution in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
-        + [View previous proof versions in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
-      + [Proofing collaboration limitations with people outside of your organization](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)
-      + [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
-      + [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
-      + [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
-      + [List users with a proofing license in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
-      + [Tips, tricks, and troubleshooting for Proofing within Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
-      + [Troubleshoot proof creation failures](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/troubleshooting-proof-creation-failures.md)
-      + [Configure Desktop Proofing Viewer settings](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/configure-dpv-settings.md)
-      + [FAQ - Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
-      + [Install the Desktop Proofing Viewer with Automatic Updates](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
-      + [Open proofs in the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
-      + [Review non-interactive content in the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
-      + [Update the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
-      + [Use the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
-  + [Access needed to use the Adobe Workfront Scenario Planner](scenario-planner/access-needed-to-use-sp.md)
-  + [Copy initiatives in the Adobe Workfront Scenario Planner](scenario-planner/copy-initiatives.md)
-  + [Create and compare plan scenarios in the Adobe Workfront Scenario Planner](scenario-planner/create-and-compare-scenarios-for-a-plan.md)
-  + [Create and edit initiatives in the Adobe Workfront Scenario Planner](scenario-planner/create-and-edit-initiatives.md)
-  + [Create and edit plans in the Adobe Workfront Scenario Planner](scenario-planner/create-and-edit-plans.md)
-  + [Delete initiatives in the Adobe Workfront Scenario Planner](scenario-planner/delete-initiatives.md)
-  + [Delete plans in the Adobe Workfront Scenario Planner](scenario-planner/delete-plans.md)
-  + [Get started with the Adobe Workfront Scenario Planner](scenario-planner/get-started-with-scenario-planning.md)
-  + [Import projects to plans in the Adobe Workfront Scenario Planner](scenario-planner/import-projects-to-plans.md)
-  + [Initiatives overview in the Adobe Workfront Scenario Planner](scenario-planner/initiatives-overview.md)
-  + [Overview of reconciling resource allocations between projects and initiatives](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-  + [Plans overview in the Adobe Workfront Scenario Planner](scenario-planner/plans-overview.md)
-  + [Update initiative priorities in the Adobe Workfront Scenario Planner](scenario-planner/prioritize-initiatives.md)
-  + [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](scenario-planner/publish-scenarios-update-projects.md)
-  + [Request access to a plan in the Adobe Workfront Scenario Planner](scenario-planner/request-access-to-plan.md)
-  + [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](scenario-planner/resolve-conflicts-in-sp.md)
-  + [The Adobe Workfront Scenario Planner overview](scenario-planner/scenario-planner-overview.md)
-  + [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
-  + [Share a plan in the Adobe Workfront Scenario Planner](scenario-planner/share-a-plan.md)
-  + [Show role allocation for projects and initiatives in the task list](scenario-planner/show-role-allocation-task-list-nwe.md)
-  + [Show role allocation for projects and initiatives in the Workload Balancer](scenario-planner/show-role-allocation-workload-balancer.md)
-  + [Timesheets](timesheets/timesheets-all.md)
-    + [Configure whether time is logged in hours or days](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-    + [Configure timesheet preferences](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
-    + [Create and manage timesheets](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-    + [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-    + [Create a single-use timesheet](timesheets/create-and-manage-timesheets/create-tmshts.md)
-    + [Define hour types and availability for timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
-    + [Delete timesheet profiles](timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
-    + [Delete generated timesheets](timesheets/create-and-manage-timesheets/delete-timesheets.md)
-    + [Export a list of timesheets](timesheets/create-and-manage-timesheets/export-timesheets.md)
-    + [Log time](timesheets/create-and-manage-timesheets/log-time.md)
-    + [Manually generate timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
-    + [Submit a timesheet for approval](timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
-    + [Approve a timesheet](timesheets/create-and-manage-timesheets/timesheet-approvals.md)
-    + [View and manage comments on a timesheet](timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
-    + [View total hours on the timesheet](timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
-    + [Understand the Timesheet layout](timesheets/timesheets/timesheet-layout.md)
-    + [Timesheets](timesheets/timesheets/timesheets.md)
-    + [Timesheets overview](timesheets/timesheets/timesheets-overview.md)
-    + [Correct the start day of the work week for Timesheets](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-    + [Prevent the Recalculate Finances action from affecting historic hours when rates change](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-    + [Tips, Tricks, and Troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
-    + [Track Hour Records with the Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
-    + [Unable to Log Time for Future Dates](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
-  + [Adobe Workfront API](wf-api/workfront-api.md)
-    + [Access Project Allocation Information via the API](wf-api/api/access-proj-allocation-info-api.md)
-    + [API](wf-api/api/api.md)
-    + [Core API changes: Status search responses](wf-api/api/api-changes-search.md)
-    + [API versioning and support schedule](wf-api/api/api-version-support-schedule.md)
-    + [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
-    + [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
-    + [Escaped characters in API Responses](wf-api/api/escaped-characters-api.md)
-    + [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
-    + [Event subscription retries](wf-api/api/event-sub-retries.md)
-    + [Event Subscriptions](wf-api/api/event-subscriptions.md)
-    + [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
-    + [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
-    + [What's New in API Version 10](wf-api/api/new-api-version-10.md)
-    + [What's new in API version 11](wf-api/api/new-api-version-11.md)
-    + [What's new in API version 12](wf-api/api/new-api-version-12.md)
-    + [What's new in API version 13](wf-api/api/new-api-version-13.md)
-    + [What's new in API version 14](wf-api/api/new-api-version-14.md)
-    + [What's New in API Version 6](wf-api/api/new-api-version-6.md)
-    + [What's New in API Version 7](wf-api/api/new-api-version-7.md)
-    + [What's New in API Version 8](wf-api/api/new-api-version-8.md)
-    + [Updates to API Version 8](wf-api/api/new-api-version-8-updates.md)
-    + [What's New in API Version 9](wf-api/api/new-api-version-9.md)
-    + [What's New in API Version 9 (continued)](wf-api/api/new-api-version-9-continue.md)
-    + [Updates to API Version 9](wf-api/api/new-api-version-9-updates.md)
-    + [Configure and use your organization's custom OAuth 2 applications using authorization code flow](wf-api/api/oauth-app-code-token-flow.md)
-    + [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
-    + [Specify an API Version in your integrations](wf-api/api/specify-api-version-integrations.md)
-    + [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
-    + [Uploading files via the API](wf-api/api/uploading-files-api.md)
-    + [Adobe Workfront User Unification Management Initiative FAQ (Draft)](wf-api/api/user-unification-manage-faq.md)
-    + [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
-    + [Create a Folder with Document Webhooks](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-    + [Delete a document or folder (Not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
-    + [Document Webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
-    + [Search via Document Webhooks](wf-api/doc-wbhks-api/docu-webhook-search.md)
-    + [Document Webhooks Error Handling](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-    + [Document Webhooks API](wf-api/doc-wbhks-api/document-webhooks-api.md)
-    + [File upload via Document Webhooks](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
-    + [Get document content via Webhooks](wf-api/doc-wbhks-api/get-docu-content-webhook.md)
-    + [Get item list of folder contents](wf-api/doc-wbhks-api/get-list-folder-contents.md)
-    + [Get metadata for a file or folder](wf-api/doc-wbhks-api/get-metadata-file-folder.md)
-    + [Get OAuth2 Tokens](wf-api/doc-wbhks-api/get-oath-token-webhooks.md)
-    + [Get information about the service (not yet implemented)](wf-api/doc-wbhks-api/get-service-info-webhook.md)
-    + [Get a thumbnail for a document](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
-    + [Perform a custom action (not yet implemented)](wf-api/doc-wbhks-api/perform-custom-action.md)
-    + [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
-    + [Rename a document or folder (not yet implemented)](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
-    + [Test Webhook connections](wf-api/doc-wbhks-api/test-webhook-connections.md)
-    + [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
-    + [API basics](wf-api/general/api-basics.md)
-    + [Adobe Workfront API Developer forum](wf-api/general/api-developer-forum.md)
-    + [API example scripts](wf-api/general/api-example-scripts.md)
-    + [API Explorer](wf-api/general/api-explorer.md)
-    + [API General](wf-api/general/api-general.md)
-    + [Using the API to sync data for programs and services](wf-api/general/api-sync-data.md)
-    + [Deactivate a User via the API](wf-api/general/deactivate-user-api.md)
-    + [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
-    + [Event Subscription API](wf-api/general/event-subs-api.md)
-    + [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
-    + [nwe-classic-endpoints](wf-api/general/nwe-classic-endpoints.md)
-    + [Projects API](wf-api/general/projects-api.md)
-    + [Rich text fields in the Adobe Workfront API](wf-api/general/rich-text-field-api.md)
-    + [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
-    + [Using the API Explorer](wf-api/general/using-api-explorer.md)
-    + [Add advanced proofing options when creating a proof through the Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
-    + [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
-    + [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
-    + [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
-    + [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-    + [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
-    + [Category](wf-api/wf-objects/category.md)
-    + [Adobe Workfront Objects](wf-api/wf-objects/workfront-objects.md)
-  + [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
-  + [Adobe Workfront basics](workfront-basics/workfront-basics.md)
-  + [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
-    + [Share a document in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
-    + [Grant access to objects in the Home area](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
-    + [Grant and request permissions to objects](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
-    + [Share reports, dashboards, and calendars in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
-    + [Remove permissions from objects in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-    + [Request access to objects in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/request-access.md)
-    + [Share a document folder](workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
-    + [Share a portfolio in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)
-    + [Share a program in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
-    + [Share a project in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
-    + [Share a task in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
-    + [Sharing a template](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
-    + [Share an issue in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
-    + [Share an object in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-    + [Share financial permissions on an object in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
-    + [Overview of sharing permissions on objects in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
-    + [View inherited permissions on objects in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
-    + [Manage your account and profile](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-      + [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-      + [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
-      + [Create custom tabs or sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
-      + [Personal time overview](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      + [Log personal time off and delegate your work](workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md)
-      + [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
-      + [Log out of Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-      + [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
-      + [Receive email invitations and create a password for Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-      + [Reset a user's password with Enhanced Authentication](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
-      + [Reset your password](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
-    + [Mobile Apps](workfront-basics/mobile-apps/mobile-apps.md)
-      + [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-      + [Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
-      + [Be an Android beta tester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
-      + [Approvals in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-      + [Comment on proofs in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-mobile.md)
-      + [Workfront mobile app virtual assistant commands](workfront-basics/mobile-apps/using-the-workfront-mobile-app/full-va-command-list.md)
-      + [Home area widgets](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
-      + [Be an iOS beta tester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
-      + [My Work section in the mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
-      + [Share and download proofs in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-      + [Use the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
-      + [Adobe Workfront for Mobile Device Management (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-      + [Adobe Workfront mobile app virtual assistant](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
-      + [Configure Adobe Workfront for MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-      + [Review and make decisions on proofs in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
-      + [Adobe Workfront for Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-      + [Adobe Workfront for iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-      + [Add updates in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
-      + [Display projects in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
-      + [Filter project lists in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
-      + [Get started with Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
-      + [Update widgets in the Project Details view](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
-      + [Use Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-    + [Navigate Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
-      + [Recents and favorites in Adobe Workfront](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
-      + [View and manage favorites](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
-      + [View recent items](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
-      + [Use the reference number of objects](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
-      + [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
-      + [Search Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
-      + [Apply the quick filter to a list](workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
-      + [Export a list](workfront-basics/navigate-workfront/use-lists/export-lists.md)
-      + [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
-      + [Lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/lists.md)
-      + [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
-      + [Get started with lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
-      + [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-      + [Customize the Main Menu in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md)
-      + [Workfront terminology glossary for ad hoc](workfront-basics/navigate-workfront/workfront-navigation/glossary-ad-hoc.md)
-      + [Glossary of Workfront terms](workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md)
-      + [Glossary of Workfront terms (A-C)](workfront-basics/navigate-workfront/workfront-navigation/glossary-workfront-terms-a-c.md)
-      + [Glossary of Workfront terms (D-F)](workfront-basics/navigate-workfront/workfront-navigation/glossary-workfront-terms-d-f.md)
-      + [Glossary of Workfront terms (G-I)](workfront-basics/navigate-workfront/workfront-navigation/glossary-workfront-terms-g-i.md)
-      + [Glossary of Workfront terms (J-L)](workfront-basics/navigate-workfront/workfront-navigation/glossary-workfront-terms-j-l.md)
-      + [Glossary of Workfront terms (M-O)](workfront-basics/navigate-workfront/workfront-navigation/glossary-workfront-terms-m-o.md)
-      + [Glossary of Workfront terms (P-R)](workfront-basics/navigate-workfront/workfront-navigation/glossary-workfront-terms-p-r.md)
-      + [Glossary of Workfront terms (S-U)](workfront-basics/navigate-workfront/workfront-navigation/glossary-workfront-terms-s-u.md)
-      + [Glossary of Workfront terms (V-Z)](workfront-basics/navigate-workfront/workfront-navigation/glossary-workfront-terms-v-z.md)
-      + [Understand a Reviewer's Main Menu in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      + [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-      + [Understand a Worker's Main Menu in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
-      + [Adobe Workfront navigation](workfront-basics/navigate-workfront/workfront-navigation/workfront-navigation.md)
-      + [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-    + [Breadcrumbs overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-    + [Edit object details in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/combined-pages-object-details.md)
-    + [Top navigation bar overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
-    + [New Edit Object box](workfront-basics/the-new-workfront-experience/new-edit-object-box.md)
-    + [New Layout Templates area in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-layout-templates.md)
-    + [New object actions area](workfront-basics/the-new-workfront-experience/new-object-actions-area.md)
-    + [New object headers](workfront-basics/the-new-workfront-experience/new-object-headers.md)
-    + [Toolbar for lists in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md)
-    + [Pin pages to customize your workspace in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/pin-pages.md)
-    + [Redesigned functionality in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md)
-    + [Simplified left navigation in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
-    + [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/subtabs-removed.md)
-    + [Summary overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/summary-overview.md)
-    + [Change the date format in Adobe Workfront when using Chrome](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-    + [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
-    + [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/definitions-pti-dates.md)
-    + [Duplicate approval processes showing in the Home Work List](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
-    + [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
-    + [The Innovation Lab](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
-    + [Projects I'm On and Projects I Own filter buttons do not appear on the Projects page header](workfront-basics/tips-tricks-and-troubleshooting/projects-filter-buttons-not-appearing.md)
-    + [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
-    + [The Adobe Workfront Status site](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
-    + [The Adobe Workfront Community](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-    + [Workfront Proof Manager permissions troubleshooting](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-    + [Character limits in fields](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
-    + [Reply to email notifications](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-    + [Reply to updates](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
-    + [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
-    + [Update work](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-    + [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
-    + [Updates tab overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
-    + [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
-    + [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-    + [Home](workfront-basics/using-home/home.md)
-      + [Configure your Home Calendar view settings](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-      + [Create work items from the Home area](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
-      + [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-      + [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
-      + [Home Calendar view](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-      + [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-      + [Log time on a work item from the Home area](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
-      + [Manage work and team requests in the Home area](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
-      + [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-      + [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-      + [Prioritize work in the Home Area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
-      + [Update or edit a work item in the Home area](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-      + [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-      + [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-      + [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
-    + [Activate or deactivate your own event notifications](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-    + [Attach a reminder notification to an object](workfront-basics/using-notifications/attach-reminder-notification-object.md)
-    + [Enable delivery of emails from the Preview Sandbox environment](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
-    + [Event notifications](workfront-basics/using-notifications/event-notifications.md)
-    + [In-app notifications overview](workfront-basics/using-notifications/in-app-notifications-overview.md)
-    + [Notifications: Action needed](workfront-basics/using-notifications/notifications-action-needed.md)
-    + [Notifications: Approval information](workfront-basics/using-notifications/notifications-approval-information.md)
-    + [Notifications: Communication](workfront-basics/using-notifications/notifications-communication.md)
-    + [Notifications: Goals](workfront-basics/using-notifications/notifications-goals.md)
-    + [Notifications: Information about projects I own](workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
-    + [Notifications: Information about projects I sponsor](workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
-    + [Notifications: Information about projects I'm on](workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)
-    + [Notifications: Information about work assigned to me](workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
-    + [Notifications: Miscellaneous information](workfront-basics/using-notifications/notifications-misc-information.md)
-    + [Notifications: Requests I have made](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
-    + [Opt out of email notifications](workfront-basics/using-notifications/opt-out-of-email-notifications.md)
-    + [Subscribe to items in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
-    + [Use notifications](workfront-basics/using-notifications/use-notifications.md)
-    + [View and manage in-app notifications](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
-    + [Adobe Workfront notifications](workfront-basics/using-notifications/wf-notifications.md)
-    + [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
-    + [Edit information in custom form fields in Adobe Workfront](workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-    + [Export custom forms and object details in Adobe Workfront](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
-    + [Manage custom forms attached to objects in Adobe Workfront](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
-    + [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
-  + [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
-    + [ActiveCampaign modules](workfront-fusion/apps-and-their-modules/active-campaign-modules.md)
-    + [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
-    + [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
-    + [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
-    + [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
-    + [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
-    + [Archive modules](workfront-fusion/apps-and-their-modules/archive-modules.md)
-    + [AWS S3 modules](workfront-fusion/apps-and-their-modules/aws-s3-modules.md)
-    + [Azure Active Directory modules](workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
-    + [Azure DevOps modules](workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
-    + [Barcodes](workfront-fusion/apps-and-their-modules/barcodes.md)
-    + [Box modules](workfront-fusion/apps-and-their-modules/box-modules.md)
-    + [Bynder modules](workfront-fusion/apps-and-their-modules/bynder-modules.md)
-    + [CloudConvert modules](workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
-    + [Converter](workfront-fusion/apps-and-their-modules/converter-modules.md)
-    + [CSV](workfront-fusion/apps-and-their-modules/csv.md)
-    + [Cvent modules](workfront-fusion/apps-and-their-modules/cvent-modules.md)
-    + [Data store modules](workfront-fusion/apps-and-their-modules/data-store-modules.md)
-    + [Datadog modules](workfront-fusion/apps-and-their-modules/datadog-modules.md)
-    + [DocuSign modules](workfront-fusion/apps-and-their-modules/docusign-modules.md)
-    + [Dropbox modules](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
-    + [Egnyte modules](workfront-fusion/apps-and-their-modules/egnyte-modules.md)
-    + [Email](workfront-fusion/apps-and-their-modules/email.md)
-    + [Email modules](workfront-fusion/apps-and-their-modules/email-modules.md)
-    + [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
-    + [Flow control](workfront-fusion/apps-and-their-modules/flow-control.md)
-    + [Frame.io modules](workfront-fusion/apps-and-their-modules/frame-io-modules.md)
-    + [FTP modules](workfront-fusion/apps-and-their-modules/ftp-modules.md)
-    + [GitHub modules](workfront-fusion/apps-and-their-modules/github.md)
-    + [GitLab modules](workfront-fusion/apps-and-their-modules/gitlab-modules.md)
-    + [Gmail modules](workfront-fusion/apps-and-their-modules/gmail-modules.md)
-    + [Google Calendar modules](workfront-fusion/apps-and-their-modules/google-calendar-modules.md)
-    + [Google Docs modules](workfront-fusion/apps-and-their-modules/google-docs-modules.md)
-    + [Google Drive modules](workfront-fusion/apps-and-their-modules/google-drive-modules.md)
-    + [Google Forms modules](workfront-fusion/apps-and-their-modules/google-forms-modules.md)
-    + [Google Sheets modules](workfront-fusion/apps-and-their-modules/google-sheets-modules.md)
-    + [Google Slides modules](workfront-fusion/apps-and-their-modules/google-slides-modules.md)
-    + [Google Team Drive modules](workfront-fusion/apps-and-their-modules/google-team-drive-modules.md)
-    + [HubSpot CRM modules](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
-    + [Image modules](workfront-fusion/apps-and-their-modules/image-module.md)
-    + [Intacct modules](workfront-fusion/apps-and-their-modules/intacct-modules.md)
-    + [ISO modules](workfront-fusion/apps-and-their-modules/iso-modules.md)
-    + [Jira Software modules](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
-    + [JSON modules](workfront-fusion/apps-and-their-modules/json-modules.md)
-    + [MariaDB modules](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
-    + [Markdown modules](workfront-fusion/apps-and-their-modules/markdown-modules.md)
-    + [Marketo modules](workfront-fusion/apps-and-their-modules/marketo-modules.md)
-    + [Math](workfront-fusion/apps-and-their-modules/math-module.md)
-    + [Microsoft Office 365 Calendar](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
-    + [Microsoft Office 365 Email](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
-    + [Microsoft Office 365 Excel modules](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
-    + [Microsoft Dynamics 365 modules](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
-    + [Microsoft OneDrive for Business](workfront-fusion/apps-and-their-modules/microsoft-onedrive-for-business-modules.md)
-    + [Microsoft OneDrive modules](workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md)
-    + [Microsoft SQL Server modules](workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md)
-    + [Microsoft Word Template modules](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
-    + [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
-    + [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
-    + [Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
-    + [Power BI Modules](workfront-fusion/apps-and-their-modules/powerbi-modules.md)
-    + [Qualtrics modules](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
-    + [Quickbase modules](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
-    + [Salesforce modules](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
-    + [SDL Managed Translation modules](workfront-fusion/apps-and-their-modules/sdl-managed-translation-modules.md)
-    + [ServiceNow modules](workfront-fusion/apps-and-their-modules/servicenow-modules.md)
-    + [SFTP modules](workfront-fusion/apps-and-their-modules/sftp.md)
-    + [SharePoint modules](workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
-    + [Slack modules](workfront-fusion/apps-and-their-modules/slack-modules.md)
-    + [SOAP module](workfront-fusion/apps-and-their-modules/soap-module.md)
-    + [Split.io modules](workfront-fusion/apps-and-their-modules/split-io-modules.md)
-    + [Text parser](workfront-fusion/apps-and-their-modules/text-parser.md)
-    + [Tools](workfront-fusion/apps-and-their-modules/tools-modules.md)
-    + [Trello modules](workfront-fusion/apps-and-their-modules/trello-modules.md)
-    + [Webhooks](workfront-fusion/apps-and-their-modules/webhooks.md)
-    + [Webhooks](workfront-fusion/apps-and-their-modules/webhooks-updated.md)
-    + [Widen modules](workfront-fusion/apps-and-their-modules/widen-modules.md)
-    + [Workday modules](workfront-fusion/apps-and-their-modules/workday-modules.md)
-    + [Adobe Workfront modules](workfront-fusion/apps-and-their-modules/workfront-modules.md)
-    + [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
-    + [XML](workfront-fusion/apps-and-their-modules/xml-modules.md)
-      + [HTTP > Make a Basic Authorization request module](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-      + [HTTP > Make a Client Certificate Authorization request module](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
-      + [HTTP > Make a request module](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
-      + [HTTP > Make an API Key Authorization request](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
-      + [HTTP > Make an OAuth 2.0 request module](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-      + [HTTP > Other modules](workfront-fusion/apps-and-their-modules/http-modules/http-modules.md)
-      + [HTTP modules](workfront-fusion/apps-and-their-modules/http-modules/http-updated.md)
-      + [Use Mutual TLS in HTTP modules](workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md)
-    + [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
-    + [Allow connections from Adobe Workfront Fusion](workfront-fusion/connections/allow-connections-from-workfront-fusion.md)
-    + [Call the MS Graph REST API via the HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
-    + [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-    + [Create a connection to Workfront Fusion - Basic instructions](workfront-fusion/connections/connect-to-fusion-general.md)
-    + [Connect Adobe Workfront Fusion to Google Services with updated security measures](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
-    + [Connect Adobe Workfront Fusion to any web service](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
-    + [Connect Adobe Workfront Fusion to a web service that uses API token authorization](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
-    + [Create connections in Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
-    + [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
-    + [Keys in Adobe Workfront Fusion](workfront-fusion/connections/keys.md)
-    + [Receive a webhook from a web service](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
-    + [Advanced error handling](workfront-fusion/errors/advanced-error-handling.md)
-    + [Directives for error handling](workfront-fusion/errors/directives-for-error-handling.md)
-    + [Error handling](workfront-fusion/errors/error-handling.md)
-    + [Error processing](workfront-fusion/errors/error-processing.md)
-    + [Errors in Adobe Workfront Fusion](workfront-fusion/errors/errors.md)
-    + [Retry](workfront-fusion/errors/retry.md)
-    + [Throw](workfront-fusion/errors/throw.md)
-    + [Array functions](workfront-fusion/functions/array-functions.md)
-    + [Date and time functions](workfront-fusion/functions/date-and-time-functions.md)
-    + [Functions in Adobe Workfront Fusion](workfront-fusion/functions/functions.md)
-    + [General functions](workfront-fusion/functions/general-functions.md)
-    + [Map items using functions](workfront-fusion/functions/map-using-functions.md)
-    + [Math functions](workfront-fusion/functions/math-functions.md)
-    + [Math variables](workfront-fusion/functions/math-variables.md)
-    + [String functions](workfront-fusion/functions/string-functions.md)
-    + [Tokens for date and time formatting](workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-    + [Tokens for date and time parsing](workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
-    + [Basic terms](workfront-fusion/get-started/basic-terms.md)
-    + [Create a practice automation scenario](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
-    + [Create a practice integration scenario](workfront-fusion/get-started/create-a-practice-scenario.md)
-    + [Get started creating a scenario: Exercise 2](workfront-fusion/get-started/create-a-practice-scenario-2.md)
-    + [Adobe Workfront Fusion performance guardrails](workfront-fusion/get-started/fusion-performance-guardrails.md)
-    + [Adobe Workfront Fusion Security Standards](workfront-fusion/get-started/fusion-security-standards.md)
-    + [Get started with Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
-    + [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
-    + [Legal Terms and Conditions](workfront-fusion/get-started/legal-terms-and-conditions.md)
-    + [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
-    + [Adobe Workfront Fusion overview](workfront-fusion/get-started/workfront-fusion-overview.md)
-    + [About mapping files](workfront-fusion/mapping/about-mapping-files.md)
-    + [Item data types](workfront-fusion/mapping/item-data-types.md)
-    + [Map an array](workfront-fusion/mapping/map-an-array.md)
-    + [Map information from one module to another](workfront-fusion/mapping/map-information-between-modules.md)
-    + [Mapping in Adobe Workfront Fusion](workfront-fusion/mapping/mapping.md)
-    + [The mapping panel](workfront-fusion/mapping/the-mapping-panel.md)
-    + [Type coercion](workfront-fusion/mapping/type-coercion.md)
-    + [Aggregator module](workfront-fusion/modules/aggregator-module.md)
-    + [Choose where a trigger module starts](workfront-fusion/modules/choose-where-trigger-module-starts.md)
-    + [Configure a module's settings](workfront-fusion/modules/configure-a-modules-settings.md)
-    + [Converger module](workfront-fusion/modules/converger-module.md)
-    + [Data Stores](workfront-fusion/modules/data-stores.md)
-    + [Data structures](workfront-fusion/modules/data-structures.md)
-    + [HTTP request methods](workfront-fusion/modules/http-request-methods.md)
-    + [Iterator module](workfront-fusion/modules/iterator-module.md)
-    + [Types of modules](workfront-fusion/modules/module-types.md)
-    + [Modules in Adobe Workfront Fusion](workfront-fusion/modules/modules.md)
-    + [Router module](workfront-fusion/modules/router-module.md)
-    + [Text parser troubleshooting](workfront-fusion/modules/text-parser-troubleshooting.md)
-    + [Add a user to an organization](workfront-fusion/organizations/add-user-to-an-organization.md)
-    + [Organization roles](workfront-fusion/organizations/organization-roles.md)
-    + [Organizations in Adobe Workfront Fusion](workfront-fusion/organizations/organizations.md)
-    + [Adobe Workfront Fusion organizations and teams](workfront-fusion/organizations/organizations-and-teams.md)
-    + [Activate or deactivate a scenario](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
-    + [Add a filter to a scenario](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
-    + [Basic scenario settings](workfront-fusion/scenarios/basic-scenario-settings.md)
-    + [connect-modules-app-or-webservice-fusion](workfront-fusion/scenarios/connect-modules-app-or-webservice-fusion.md)
-    + [Copy modules or scenarios](workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-    + [Create a scenario](workfront-fusion/scenarios/create-a-scenario.md)
-    + [Cycles](workfront-fusion/scenarios/cycles.md)
-    + [Debug scenarios with the Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
-    + [Scenario example: Connect email, Text Parser, and Google Sheets](workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
-    + [Restore a scenario version](workfront-fusion/scenarios/restore-a-scenario-version.md)
-    + [Scenario detail](workfront-fusion/scenarios/scenario-detail.md)
-    + [Scenario editor](workfront-fusion/scenarios/scenario-editor.md)
-    + [Scenario execution, cycles, and phases](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
-    + [Scenario execution flow](workfront-fusion/scenarios/scenario-execution-flow.md)
-    + [Adobe Workfront Fusion scenario overview](workfront-fusion/scenarios/scenario-overview.md)
-    + [Scenario settings panel](workfront-fusion/scenarios/scenario-settings-panel.md)
-    + [Scenarios](workfront-fusion/scenarios/scenarios.md)
-    + [Schedule a scenario](workfront-fusion/scenarios/schedule-a-scenario.md)
-    + [View and resolve incomplete executions](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
-    + [View a scenario's execution history](workfront-fusion/scenarios/view-scenario-execution-history.md)
-      + [Create new templates in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-      + [Create scenarios with Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
-      + [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
-      + [Adobe Workfront Fusion Templates administration](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
-      + [Adobe Workfront Fusion templates FAQs](workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
-      + [Publish and share Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
-      + [View, edit, and delete Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
-    + [Connect to any web service that uses OAuth2](workfront-fusion/tutorials/connect-any-service-uses-oauth2.md)
-    + [Example of a Default route configured for a router](workfront-fusion/tutorials/example-default-route-configured-router.md)
-    + [Extract an item or its value from a collection array](workfront-fusion/tutorials/extract-item-value-collection-array.md)
-    + [Make an HTTP request with an API Key](workfront-fusion/tutorials/make-an-http-request-with-an-api-key.md)
-    + [Sync Airtable and Google contacts](workfront-fusion/tutorials/sync-airtable-google-contacts.md)
-    + [Tutorials](workfront-fusion/tutorials/tutorials.md)
-    + [Create a custom mailhook](workfront-fusion/webhooks/custom-mailhook.md)
-    + [Instant triggers (webhooks)](workfront-fusion/webhooks/instant-triggers-webhooks.md)
-    + [Webhooks](workfront-fusion/webhooks/webhooks.md)
-    + [Change profile settings](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
-    + [Change your email address in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-your-email-address.md)
-    + [Delete an account](workfront-fusion/workfront-fusion-basics/delete-an-account.md)
-    + [Delete user data](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
-    + [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
-    + [Adobe Workfront Fusion basics](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
-  + [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
-    + [Align goals by connecting them in Adobe Workfront Goals](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-    + [Align goals by converting results and activities to goals](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
-    + [Goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment.md)
-    + [Goal alignment overview in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment-overview.md)
-    + [Navigate the Goal Alignment section in Adobe Workfront Goals](workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
-    + [Remove goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/remove-goal-alignment.md)
-    + [Access and open goals in Adobe Workfront Goals](workfront-goals/goal-management/access-goals-in-wf-goals.md)
-    + [Requirements to use Adobe Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
-    + [Activate goals in Adobe Workfront Goals](workfront-goals/goal-management/activate-goals.md)
-    + [Calculate goal progress in Adobe Workfront Goals](workfront-goals/goal-management/calculate-goal-progress.md)
-    + [Close and reopen goals in Adobe Workfront Goals](workfront-goals/goal-management/close-and-reopen-goals.md)
-    + [Copy goals in Adobe Workfront Goals](workfront-goals/goal-management/copy-goals.md)
-    + [Create goals in Adobe Workfront Goals](workfront-goals/goal-management/create-goals.md)
-    + [Delete and deactivate goals in Adobe Workfront Goals](workfront-goals/goal-management/delete-and-deactivate-goals.md)
-    + [Edit goals in Adobe Workfront Goals](workfront-goals/goal-management/edit-goals.md)
-    + [Filter information in Adobe Workfront Goals](workfront-goals/goal-management/filter-information-wf-goals.md)
-    + [Get started with Adobe Workfront Goals](workfront-goals/goal-management/getting-started-with-wf-goals.md)
-    + [Goal management in Adobe Workfront Goals](workfront-goals/goal-management/goal-management.md)
-    + [Goal status overview in Adobe Workfront Goals](workfront-goals/goal-management/goal-status-overview.md)
-    + [Manage goal comments in Adobe Workfront Goals](workfront-goals/goal-management/manage-goal-comments.md)
-    + [Move goals from one time period to another in Adobe Workfront Goals](workfront-goals/goal-management/move-goals-to-another-period.md)
-    + [Print the Goal List in Adobe Workfront Goals](workfront-goals/goal-management/print-the-goal-list.md)
-    + [Update goals in the Goal Details panel in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
-    + [Review in-trouble goals in Adobe Workfront Goals](workfront-goals/goal-management/view-in-trouble-goals.md)
-    + [Adobe Workfront Goals overview](workfront-goals/goal-management/wf-goals-overview.md)
-    + [Check in on goals in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-    + [Goal review and the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
-    + [Manage goals in the Goal List of Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
-    + [Overview of the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-    + [Review graphs to understand goal progress trends in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-    + [Review goals in the Adobe Workfront Goals Pulse section](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
-    + [Align goals to other goals](workfront-goals/old-wf-goals-articles-aw/align-goals-to-other-goals.md)
-    + [Associate goals with activities](workfront-goals/old-wf-goals-articles-aw/associate-goals-with-activities.md)
-    + [Associate goals with results in the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/associate-goals-with-results.md)
-    + [Create goals in the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/create-goals-for-various--types-of-users.md)
-    + [Deactivate and delete results in the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/deactivate-and-delete-results.md)
-    + [Define goals in The new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/define-goals.md)
-    + [Delete and deactivate goals in the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/delete-and-deactivate-goals.md)
-    + [Filter information in Workfront Goals using the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/filter-information-in-workfront-goals.md)
-    + [Goals overview in the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/goals-overview.md)
-    + [Key results overview](workfront-goals/old-wf-goals-articles-aw/key-results-overview.md)
-    + [Get started with goal alignment in Workfront Goals](workfront-goals/old-wf-goals-articles-aw/old-get-started-with-goal-alignment.md)
-    + [Get started with Workfront Goals](workfront-goals/old-wf-goals-articles-aw/old-get-started-with-wf-align.md)
-    + [Recommendations for goal management](workfront-goals/old-wf-goals-articles-aw/old-recommendations-goal-management.md)
-    + [Overview of goal statuses in the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/overview-of-goal-statuses.md)
-    + [Score your goals in the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/score-your-goals.md)
-    + [Update goals](workfront-goals/old-wf-goals-articles-aw/update-goals.md)
-    + [Use social icons for goals in the new Adobe Workfront experience](workfront-goals/old-wf-goals-articles-aw/use-social-icons-for-goals.md)
-    + [Add activities to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-activities-to-goals.md)
-    + [Add results to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-results-to-goals.md)
-    + [Overview of connecting projects to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
-    + [Edit results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/edit-results-and-activities.md)
-    + [Get started with results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-    + [Remove results, activities, and projects from goals in Adobe Workfront Goals](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
-    + [Results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/results-and-activities.md)
-    + [Examples of goals in Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/examples-of-goals.md)
-    + [Frequently asked questions about Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/frequently-asked-questions-about-goals.md)
-    + [Tips, tricks, and troubleshooting for Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/tips-tricks-and-troubleshooting-for-workfront-goals.md)
-    + [Customize Adobe Workfront Goals terminology](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
-    + [Share a goal in Adobe Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
-    + [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-    + [Adobe Workfront Goals settings](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
-  + [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
-  + [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-  + [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
-    + [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-    + [Mark work items complete in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-    + [Upload documents from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs.md)
-    + [Find your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-    + [Install Workfront for Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
-    + [Log time in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-    + [Upload proofs from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs.md)
-    + [Update your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-    + [View work item information in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-    + [Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md)
-    + [Mark work items complete in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-complete.md)
-    + [Upload XD art boards as documents to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-docs.md)
-    + [Find your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-find-work.md)
-    + [Install Workfront for Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md)
-    + [Upload XD art boards as proofs to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-proofs.md)
-    + [Update your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-update.md)
-    + [View work item information in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-view-work-info.md)
-    + [Log time in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-xd-log-time.md)
-    + [Integrate with Anaplan using Adobe Workfront Fusion](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-using-fusion.md)
-    + [Configure Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
-    + [Install Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
-    + [Link items between Adobe Workfront and Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
-    + [Update linked items between Jira and Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
-    + [View the Jira Activity Log](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-    + [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
-    + [Access Adobe Workfront from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
-    + [Create Adobe Workfront tasks from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
-    + [Install Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
-    + [Manage Workfront notifications in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-all-workfront-notifications-in-ms-teams.md)
-    + [Manage Adobe Workfront notifications in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
-    + [Search for and share Adobe Workfront items in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
-    + [Submit Adobe Workfront requests from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
-    + [Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
-    + [Adobe Workfront for Microsoft Teams Overview](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
-    + [Add an Outlook email as a task to your work list](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
-    + [Add an Outlook email to a project as a task or an issue](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
-    + [Create an Adobe Workfront request from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
-    + [Enable Outlook for Office for use with Adobe Workfront and SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-    + [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
-    + [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-    + [Update an existing object from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
-    + [View additional information about Adobe Workfront for Outlook and log out](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-    + [Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-    + [Configure the Adobe Workfront section for Salesforce users](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
-    + [Create Adobe Workfront projects from Salesforce objects](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
-    + [Install Adobe Workfront for Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
-    + [Submit Adobe Workfront requests from Salesforce objects](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
-    + [Adobe Workfront for Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
-    + [Adobe Workfront for Salesforce overview](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
-    + [Access your favorites and recent items from Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-    + [Access Adobe Workfront objects from a shared link in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
-    + [Access Adobe Workfront from Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-    + [Configure Adobe Workfront for Slack](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
-    + [Create tasks and issues from Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
-    + [Manage your work and approvals from Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
-    + [Post a Slack comment as an update](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
-    + [Receive Adobe Workfront notifications in Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
-    + [Search for Adobe Workfront items from Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
-    + [Adobe Workfront for Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
-    + [Access Adobe Workfront Home content from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
-    + [Create a Adobe Workfront issue in G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-    + [Create a Adobe Workfront task in G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
-    + [Install Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
-    + [Log in and out of Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
-    + [Manage Adobe Workfront notification details from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-    + [Reply to a Adobe Workfront update notification from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
-    + [Turn G Suite emails into Adobe Workfront objects and updates](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
-    + [Update a Adobe Workfront object from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-    + [Update a Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
-    + [View and manage documents from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-    + [View and manage Adobe Workfront object details from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-    + [View Adobe Workfront object updates from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
-    + [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
-    + [Workfront Tools for AEM User Guide : Assign Issues & Tasks](workfront-integrations-and-apps/workfront-integration-for-aem/assign-tasks-issues.md)
-    + [Workfront Tools for AEM User Guide : Attach Custom Forms](workfront-integrations-and-apps/workfront-integration-for-aem/attach-custom-forms.md)
-    + [Workfront Tools for AEM User Guide : Auto Publish Assets](workfront-integrations-and-apps/workfront-integration-for-aem/auto-publish-assets.md)
-    + [Workfront Tools for AEM User Guide : Basic Operations](workfront-integrations-and-apps/workfront-integration-for-aem/basic-operations.md)
-    + [Workfront Tools for AEM User Guide : Comments Sync](workfront-integrations-and-apps/workfront-integration-for-aem/comments-sync.md)
-    + [Workfront Tools for AEM User Guide : Configure Event Subscriptions](workfront-integrations-and-apps/workfront-integration-for-aem/configure-event-subscriptions.md)
-    + [Workfront Tools for AEM User Guide : Configure Linked Folders](workfront-integrations-and-apps/workfront-integration-for-aem/configure-linked-folders.md)
-    + [Workfront Tools for AEM User Guide : Content Fragments](workfront-integrations-and-apps/workfront-integration-for-aem/content-fragments.md)
-    + [Workfront Tools for AEM User Guide : Create Issues & Tasks](workfront-integrations-and-apps/workfront-integration-for-aem/create-issues-and-tasks.md)
-    + [Workfront Tools for AEM User Guide : Installation Guide 1.x.x](workfront-integrations-and-apps/workfront-integration-for-aem/installation-guide.md)
-    + [Workfront Tools for AEM User Guide : Map Property](workfront-integrations-and-apps/workfront-integration-for-aem/map-property.md)
-    + [Workfront Tools for AEM User Guide : Metadata Schema Mapping](workfront-integrations-and-apps/workfront-integration-for-aem/metadata-schema-mapping.md)
-    + [Workfront Tools for AEM User Guide : Set Status](workfront-integrations-and-apps/workfront-integration-for-aem/set-status.md)
-    + [Workfront Tools for AEM User Guide : Versioning](workfront-integrations-and-apps/workfront-integration-for-aem/versioning.md)
-      + [Set up the AEM cloud connector](workfront-integrations-and-apps/workfront-integration-for-aem/archived-ensemble/aem-cloud-connector-setup.md)
-      + [AEM as a Cloud Service Connector overview](workfront-integrations-and-apps/workfront-integration-for-aem/archived-ensemble/aem-cloud-service-connector-overview.md)
-    + [Authorize the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/authorize-zoom-integration.md)
-    + [Uninstall the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/uninstall-zoom-integration.md)
-    + [Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration.md)
-    + [Zoom integration overview](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md)
-  + [Workfront Library](workfront-library/workfront-library.md)
-    + [Administration and setup of Workfront Library](workfront-library/administration-and-setup/administration-and-setup-library.md)
-      + [Manage assets](workfront-library/administration-and-setup/manage-assets/manage-assets.md)
-      + [Manage assets for other users](workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md)
-      + [Transfer ownership assets to another user](workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md)
-      + [Add keywords to metadata in Workfront Library](workfront-library/administration-and-setup/metadata/add-keywords-to-metadata.md)
-      + [Delete a taxonomy field in Workfront Library](workfront-library/administration-and-setup/metadata/delete-a-taxonomy-field-in-workfront-library.md)
-      + [Delete a keyword from the picklist in Workfront Library](workfront-library/administration-and-setup/metadata/delete-keyword-from-metadata.md)
-      + [Determine the display order of taxonomy fields in Workfront Library](workfront-library/administration-and-setup/metadata/determine-display-order-of-taxonomy-fields.md)
-      + [Rename a keyword in Workfront Library](workfront-library/administration-and-setup/metadata/edit-keyword-pick-list.md)
-      + [Edit a taxonomy metadata field in Workfront Library](workfront-library/administration-and-setup/metadata/edit-the-taxonomy.md)
-      + [Format your CSV file for metadata import in Workfront Library](workfront-library/administration-and-setup/metadata/format-your-csv-file-for-metadata-import.md)
-      + [Use Workfront Library's import tool to add metadata to content](workfront-library/administration-and-setup/metadata/import-metadata-for-content.md)
-      + [Overview of keyword metadata in Workfront Library](workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
-      + [Metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata.md)
-      + [Overview of metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata-overview.md)
-      + [Set up taxonomy metadata for Workfront Library](workfront-library/administration-and-setup/metadata/set-up-taxonomy-metadata.md)
-      + [Overview of taxonomy field types](workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md)
-      + [Overview of taxonomy metadata in Workfront Library](workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md)
-      + [Change a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/change-user-access.md)
-      + [Give users access to a Workfront Library portal](workfront-library/administration-and-setup/user-access/give-users-access-portal.md)
-      + [Give users access to Workfront Library](workfront-library/administration-and-setup/user-access/give-users-access-to-library.md)
-      + [Permissions in Workfront Library](workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md)
-      + [Remove a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/remove-a-users-access-library.md)
-      + [User access in Workfront Library](workfront-library/administration-and-setup/user-access/user-access.md)
-      + [Overview of user access to Workfront Library](workfront-library/administration-and-setup/user-access/user-access-overview.md)
-      + [Required configuration to authenticate to Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/required-configuration-to-authenticate-to-library.md)
-      + [Set up a portal in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md)
-      + [Set up content expiration in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md)
-      + [Workfront Library Setup](workfront-library/administration-and-setup/workfront-library-setup/workfront-library-setup.md)
-    + [Add a Workfront Library asset to Workfront](workfront-library/content-management/add-a-wf-library-asset.md)
-    + [Bulk edit metadata in Workfront Library](workfront-library/content-management/bulk-edit-metadata.md)
-    + [Change the cover image on an item in Workfront Library](workfront-library/content-management/change-cover-image-of-folder.md)
-    + [Content management in Workfront Library](workfront-library/content-management/content-management.md)
-    + [Create and manage views in Workfront Library](workfront-library/content-management/create-and-manage-views.md)
-    + [Delete items from Workfront Library](workfront-library/content-management/delete-items.md)
-    + [Export asset metadata from Workfront Library](workfront-library/content-management/export-asset-metadata.md)
-    + [Hide and unhide content in Workfront Library](workfront-library/content-management/hide-and-unhide-content.md)
-    + [Relocate assets in Workfront Library](workfront-library/content-management/relocate-assets.md)
-    + [Rename items in Workfront Library](workfront-library/content-management/rename-items.md)
-    + [Send documents from Workfront to Workfront Library](workfront-library/content-management/send-documents-from-wf-to-library.md)
-    + [Share a Workfront Library item with other users](workfront-library/content-management/share-an-asset-with-users.md)
-    + [Upload content to Workfront Library](workfront-library/content-management/upload-new-content.md)
-      + [Access content in Workfront Library](workfront-library/content-management/basics/access-content.md)
-      + [Workfront Library Basics](workfront-library/content-management/basics/basics.md)
-      + [Create a request in Workfront Library](workfront-library/content-management/basics/create-a-request-in-wf-library.md)
-      + [Download items from Workfront Library](workfront-library/content-management/basics/download-content-from-library.md)
-      + [Filter content displayed in Workfront Library](workfront-library/content-management/basics/filter-content-displayed.md)
-      + [Get started with Workfront Library](workfront-library/content-management/basics/get-started-with-library.md)
-      + [Open a Workfront Library portal](workfront-library/content-management/basics/open-a-portal.md)
-      + [Open items in Workfront Library](workfront-library/content-management/basics/open-items-in-library.md)
-      + [Remove an asset from a folder](workfront-library/content-management/basics/remove-asset-from-folder.md)
-      + [Search for items in Workfront Library](workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
-      + [Sort content in Workfront Library](workfront-library/content-management/basics/sort-content-in-library.md)
-      + [View Workfront Library work requests](workfront-library/content-management/basics/view-work-requests-in-library.md)
-      + [Add items to a collection in Workfront Library](workfront-library/content-management/collections/add-items-to-a-collection.md)
-      + [Collections in Workfront Library](workfront-library/content-management/collections/collections.md)
-      + [Overview of collections in Workfront Library](workfront-library/content-management/collections/collections-overview.md)
-      + [Create a collection in Workfront Library](workfront-library/content-management/collections/create-a-collection.md)
-      + [Edit a Workfront Library collection](workfront-library/content-management/collections/edit-a-collection.md)
-      + [Open a collection in Workfront Library](workfront-library/content-management/collections/open-a-collection.md)
-      + [Remove items from a collection in Workfront Library](workfront-library/content-management/collections/remove-items-from-a-collection.md)
-      + [Content Versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning.md)
-      + [Overview of content versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning-overview.md)
-      + [Upload a new version of content in Workfront Library](workfront-library/content-management/content-versioning/upload-new-version-of-content.md)
-      + [Access older versions of content in Workfront Library](workfront-library/content-management/content-versioning/view-older-versions-of-content-library.md)
-      + [Filter for expired content in Workfront Library](workfront-library/content-management/filters/filter-for-expired-content.md)
-      + [Filter for hidden content in Workfront Library](workfront-library/content-management/filters/filter-hidden-content.md)
-      + [Filters in Workfront Library](workfront-library/content-management/filters/filters.md)
-      + [Add items to a folder in Workfront Library](workfront-library/content-management/folders/add-items-to-a-folder-library.md)
-      + [Create a folder in Workfront Library](workfront-library/content-management/folders/create-a-folder-library.md)
-      + [Folders in Workfront Library](workfront-library/content-management/folders/folders.md)
-      + [Overview of folders in Workfront Library](workfront-library/content-management/folders/folders-overview-library.md)
-      + [Remove items from a folder in Workfront Library](workfront-library/content-management/folders/remove-items-from-a-folder.md)
-      + [Manage portals](workfront-library/content-management/portals/portals.md)
-      + [Overview of Workfront Library portals](workfront-library/content-management/portals/portals-overview.md)
-  + [Workfront Proof](workfront-proof/workfront-proof.md)
-    + [Accounts merge process](workfront-proof/wp-acct-admin/accounts-merge-process.md)
-    + [Workfront Proof account administration](workfront-proof/wp-acct-admin/wp-account-admin.md)
-      + [Account settings in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
-      + [Check your Workfront Proof storage](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
-      + [Configure a user's Proof Permission Profile in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
-      + [Configure approval decision options in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
-      + [Configure custom profiles in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-      + [Configure the dropzone in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
-      + [Configure Single Sign-On for Workfront Proof users](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
-      + [Create and manage custom fields in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
-      + [Account setup for integrations in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/integrations-account-setup.md)
-      + [Manage Workfront Proof users](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
-      + [Proof Permissions Profiles in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
-      + [Request a new data backup in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
-      + [Single Sign-On in Workfront Proof: AD FS configuration](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
-      + [View authentication logs in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
-      + [View and edit your organization's Workfront Proof account details](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
-      + [View your organization's Workfront Proof administrator account history](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
-      + [Brand the Workfront Proof site](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
-      + [Brand the Workfront Proof site - advanced](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-      + [Branding Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
-      + [Configure a branded domain in Workfront Proof](workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md)
-      + [Understanding electronic signatures in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
-      + [Manage security](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-      + [Proof security in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
-      + [Single Sign-On in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
-      + [Manage a partner relationship between Workfront Proof accounts](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-      + [Partner accounts in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-      + [Share items with a partner in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
-      + [Configure a satellite account in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
-      + [Manage a satellite account in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-      + [Satellite accounts in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
-      + [Satellite accounts in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
-      + [FAQ: Workfront Proof - US to EMEA migration](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-      + [Tips, tricks, and troubleshooting for Workfront Proof account administration](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
-    + [Workfront Proof Billing Settings](workfront-proof/wp-billingsettings/wp-billing-settings.md)
-      + [Account Payment in Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md)
-      + [Choosing Your Payment Method in Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-      + [Close your Workfront Proof account](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-      + [Downloading Your Workfront Proof Invoice](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-      + [Manage your billing](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
-      + [The Workfront Proof Billing Page](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
-    + [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
-      + [Avoid spam filters](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
-      + [Configure spam settings for common email clients](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
-      + [Configure Workfront Proof emails to avoid spam filters](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
-      + [Workfront Proof SPF records](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
-      + [Change email alert settings for a proof in Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
-      + [Configure email notification settings in Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
-      + [Email alerts](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
-      + [Remind a reviewer about assignments in Workfront Proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
-      + [Send messages to reviewers](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
-      + [Send a reminder message to the reviewers on a proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
-      + [Late proof email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
-      + [New proof email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
-      + [The New Version email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
-      + [The Proof Made email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-      + [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
-    + [Getting started with Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-      + [FAQ - Create and share proofs and files](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
-      + [FAQ - Review proofs](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-      + [FAQ - Workfront Proof account](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
-      + [Workfront Proof - frequently asked questions](workfront-proof/wp-getstarted/faqs/faqs.md)
-      + [Logging in and changing your password and email for Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
-      + [Opening a Workfront Proof basic trial account](workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md)
-      + [Setting time zones in Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
-      + [Designating Temporary Proof Owners in Workfront Proof](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
-      + [Integrations - User Setup](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
-      + [Personal settings in Workfront Proof](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
-      + [Review and submit a decision in Workfront Proof - Reviewer's Guide](workfront-proof/wp-getstarted/reviewer's-guide/review-and-submit-a-decision.md)
-      + [Codecs in Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
-      + [Language Settings in Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
-      + [Preview Sandbox Testing Environment- Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-      + [System information in Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
-      + [Basic Proofing Process in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-      + [Internal Then External Review in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
-      + [Working with Designers and Project Managers in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
-      + [Working with Freelancers in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
-      + [Workflow examples](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-    + [Workfront Proof integrations](workfront-proof/wp-integrations/wp-integrations.md)
-      + [The Workfront Proof API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      + [Workfront Proof API](workfront-proof/wp-integrations/api/wp-api.md)
-      + [Add a Proof to a Basecamp Classic Project](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
-      + [Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
-      + [Integrate Workfront Proof with Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
-      + [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-      + [Add a Proof to a Basecamp Project](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-      + [Basecamp](workfront-proof/wp-integrations/basecamp/basecamp.md)
-      + [Understand the Basecamp Integration with Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
-      + [Integrate Workfront Proof with Basecamp](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-      + [Review a Proof in Basecamp](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-      + [Box](workfront-proof/wp-integrations/box/box.md)
-      + [Create a Proof via Your Box Account](workfront-proof/wp-integrations/box/create-proof-box-account.md)
-      + [Introduction to the Workfront Proof and Box integration](workfront-proof/wp-integrations/box/introduction-to-box.md)
-      + [Sync Box Folders With Workfront Proof](workfront-proof/wp-integrations/box/sycn-box-folder.md)
-      + [View a Proof's Original File in Box](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
-    + [Managing users and contacts in Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-      + [Add a Guest to Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-      + [Contacts](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-      + [Manage Your Contacts in Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
-      + [Understand Users, Members, and Guests in Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
-      + [Add Groups to a Proof](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
-      + [Create Proofing Groups using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
-      + [Groups](workfront-proof/wp-mnguserscontacts/groups/groups.md)
-      + [Make Groups Private using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-      + [Manage Groups using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
-      + [Bulk edit user's Other Groups](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
-      + [Tips, tricks, and troubleshooting for Workfront Proof users and contacts](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
-      + [Configure User Information using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-      + [Create and Manage Custom Profiles using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-      + [Create Users using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-users.md)
-      + [Move Users Between Accounts using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
-      + [Users](workfront-proof/wp-mnguserscontacts/users/users.md)
-    + [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
-      + [Tips, tricks, and troubleshooting for the Workfront Proof mobile app](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
-      + [Unable to Log In to the Workfront Proof Mobile App](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
-      + [Workfront Proof mobile app](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-      + [Workfront Proof mobile app for tablets](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
-      + [Workfront Proof mobile apps](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-    + [Workfront Proof tech corner](workfront-proof/wp-tech-corner/tech-corner.md)
-      + [Create a Static Website Proof using Workfront Proof](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-      + [Proof types](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
-      + [Troubleshooting - corrupted interface font in proofing viewer on Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
-      + [Understand How Cache and Cookies Affect Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-      + [Troubleshooting - Workfront Proof proofing viewer](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-      + [Speed issues in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-      + [Troubleshooting in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
-      + [Problems With Viewing Proofs - Flash Shared Objects Explained](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
-    + [Work with proofs and files in Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
-      + [Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-      + [Manage a proof configured with an Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
-      + [Set up a proof with an Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-      + [Understanding the Workfront Proof Activity Audit Trail](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
-      + [Basic features in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
-      + [The Dashboard in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
-      + [Page Layout on the Views Tab in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
-      + [Searching Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-      + [Copying Proofs in Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
-      + [Create proofs and files](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
-      + [The Dropzone](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
-      + [Generate Proofs in Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
-      + [Upload Files and Web Content to Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
-      + [Configure Proof Settings in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
-      + [Create and Manage Custom Views in Workfront Proof Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
-      + [Delete a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
-      + [Download Files Stored in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
-      + [Manage Files in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
-      + [Manage Items on the Views Page in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
-      + [Manage Proof Details in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
-      + [Managing Proof Versions in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
-      + [Manage your work](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
-      + [Understand Proof State in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
-      + [Restore and Empty the Trash in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
-      + [Run Reports in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
-      + [View the Progress and Status of a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
-      + [Archive in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-      + [Back Up Your Workfront Proof Data](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
-      + [Create and Manage Tags in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
-      + [Create Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
-      + [Understand Folder Permissions in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
-      + [Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
-      + [Manage Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
-      + [Manage Folders and their Contents in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)
-      + [Organize your work](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
-      + [Print and Export Comments in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-      + [Share Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
-      + [Configure how hyperlinks open in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-      + [Understand the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
-      + [Review proofs in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
-      + [Configure Pop-up Messages in Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-lpv/configure-pop-up-messages.md)
-      + [Legacy proofing viewer Overview](workfront-proof/wp-work-proofsfiles/review-proofs-lpv/legacy-proofing-viewer.md)
-      + [Legacy proofing viewer removed in 2018.3](workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md)
-      + [Navigate the Legacy proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-lpv/navigate-lpv.md)
-      + [Review proofs in the Legacy Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-lpv/review-proofs-in-the-lpv.md)
-      + [Review a Workflow in the Legacy proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-lpv/review-workflow-lpv.md)
-      + [View Interactive Proofs in Alternate Resolutions in the Legacy proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-lpv/view-interactive-proofs.md)
-      + [Compare proofs in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
-      + [Downloading a Proof in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-      + [Keyboard shortcuts in the Workfront Proof proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
-      + [Legacy proofing viewer Removed](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-      + [Opening a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
-      + [Review a proof simultaneously with multiple reviewers](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
-      + [Review proofs in the Web Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-      + [Review a Workflow in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
-      + [View activity on a proof in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
-      + [View previous proof versions in the Web Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
-      + [Work with multiple proofs in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
-      + [Access a proof shared with you](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
-      + [Create a Mini proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
-      + [Embed a Mini proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
-      + [Manage Proof Roles in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
-      + [Share Files in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
-      + [Share a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
-      + [Share proof links in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
-      + [Share proofs and files](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
-      + [Share the Public URL in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
-      + [Subscribe to a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
+* [Product announcements](product-announcements/product-announcements.md)
+
+  * [Product releases](product-announcements/product-releases/product-releases.md)
+
+  * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
+
+    * [22.2 Release overview](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)
+
+    * [22.2 release activity: Week of February 7, 2022](product-announcements/product-releases/22.2-release-activity/22-2-feb-7.md)
+
+    * [22.2 release activity: Week of January 23, 2022](product-announcements/product-releases/22.2-release-activity/22-2-jan-23.md)
+
+    * [Look-and-feel updates during the 22.2 release timeframe](product-announcements/product-releases/22.2-release-activity/22-2-look-and-feel-updates.md)
+
+    * [22.1 Release overview](product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md)
+
+    * [22.1 Administrator enhancements](product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md)
+
+    * [22.1 Project enhancements](product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md)
+
+    * [22.1 Resource Management enhancements](product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md)
+
+    * [22.1 Requests enhancements](product-announcements/product-releases/22.1-release-activity/22-1-requests-enhancements.md)
+
+    * [22.1 Proofing enhancements](product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md)
+
+    * [22.1 Other enhancements](product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md)
+
+    * [22.1 Mobile enhancements](product-announcements/product-releases/22.1-release-activity/22-1-mobile-enhancements.md)
+
+    * [21.4 Release overview](product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md)
+
+    * [21.4 Administrator enhancements](product-announcements/product-releases/21.4-release-activity/21-4-admin-enhancements.md)
+
+    * [21.4 Agile enhancements](product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md)
+
+    * [21.4 Project enhancements](product-announcements/product-releases/21.4-release-activity/21-4-project-enhancements.md)
+
+    * [21.4 Resource Management enhancements](product-announcements/product-releases/21.4-release-activity/21-4-resource-management-enhancements.md)
+
+    * [21.4 Reporting enhancements](product-announcements/product-releases/21.4-release-activity/21-4-reporting-enhancements.md)
+
+    * [21.4 Requests enhancements](product-announcements/product-releases/21.4-release-activity/21-4-requests-enhancements.md)
+
+    * [21.4 Proofing enhancements](product-announcements/product-releases/21.4-release-activity/21-4-proofing-enhancements.md)
+
+    * [21.4 Integration enhancements](product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md)
+
+    * [21.4 Mobile enhancements](product-announcements/product-releases/21.4-release-activity/21-4-mobile-enhancements.md)
+
+    * [21.4 Other enhancements](product-announcements/product-releases/21.4-release-activity/21-4-other-enhancements.md)
+
+    * [21.3 Release overview](product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md)
+
+    * [21.3 Administrator enhancements](product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md)
+
+    * [21.3 Project enhancements](product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md)
+
+    * [21.3 Resource Management enhancements](product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md)
+
+    * [21.3 Requests enhancements](product-announcements/product-releases/21.3-release-activity/21-3-requests-enhancements.md)
+
+    * [21.3 Proofing enhancements](product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md)
+
+    * [21.3 Other enhancements](product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md)
+
+    * [21.2 Release overview](product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)
+
+    * [21.2 Administrator enhancements](product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md)
+
+    * [21.2 Project enhancements](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
+
+    * [21.2 Requests enhancements](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
+
+    * [21.2 Resource Management enhancements](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
+
+    * [21. 2 Reporting enhancements](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+
+    * [21.2 Proofing enhancements](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
+
+    * [21.2 Integration enhancements](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
+
+    * [21.2 Other enhancements](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
+
+    * [21.2 Mobile enhancements](product-announcements/product-releases/21.2-release-activity/21-2-mobile-enhancements.md)
+
+    * [21.2 release activity: Week of April 19, 2021](product-announcements/product-releases/21.2-release-activity/21-2-apr-19.md)
+
+    * [21.2 release activity: Week of April 12, 2021](product-announcements/product-releases/21.2-release-activity/21-2-apr-12.md)
+
+    * [21.2 release activity: Week of April 5, 2021](product-announcements/product-releases/21.2-release-activity/21-2-apr-5.md)
+
+    * [21.2 release activity: Week of March 29, 2021](product-announcements/product-releases/21.2-release-activity/21-2-mar-29.md)
+
+    * [21.2 release activity: Week of March 22, 2021](product-announcements/product-releases/21.2-release-activity/21-2-mar-22.md)
+
+    * [21.2 release activity: Week of March 15, 2021](product-announcements/product-releases/21.2-release-activity/21-2-mar-15.md)
+
+    * [21.2 release activity: Week of March 8, 2021](product-announcements/product-releases/21.2-release-activity/21-2-mar-8.md)
+
+    * [21.2 release activity: Week of February 22, 2021](product-announcements/product-releases/21.2-release-activity/21-2-feb-22.md)
+
+    * [21.2 release activity: Week of February 15, 2021](product-announcements/product-releases/21.2-release-activity/21-2-feb-15.md)
+
+    * [21.1 release overview](product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)
+
+    * [21.1 Administrator enhancements](product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md)
+
+    * [21.1 Resource Management enhancements](product-announcements/product-releases/21.1-release-activity/21-1-resource-mgt-enhancements.md)
+
+    * [21.1 Project Management enhancements](product-announcements/product-releases/21.1-release-activity/21-1-project-mgt-enhancements.md)
+
+    * [21.1 Enhanced analytics improvements](product-announcements/product-releases/21.1-release-activity/21-1-enhanced-analytics-improvements.md)
+
+    * [21.1 Integration enhancements](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
+
+    * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
+
+    * [21.1 release activity: Week of January 18, 2021](product-announcements/product-releases/21.1-release-activity/21-1-jan-18.md)
+
+    * [21.1 release activity: Week of January 11, 2021](product-announcements/product-releases/21.1-release-activity/21-1-jan-12.md)
+
+    * [21.1 release activity: Week of January 4, 2021](product-announcements/product-releases/21.1-release-activity/21-1-jan-4.md)
+
+    * [21.1 release activity: Week of December 14, 2020](product-announcements/product-releases/21.1-release-activity/21-1-dec-14.md)
+
+    * [21.1 release activity: Week of December 7, 2020](product-announcements/product-releases/21.1-release-activity/21-1-dec-7.md)
+
+    * [21.1 release activity: Week of November 30, 2020](product-announcements/product-releases/21.1-release-activity/21-1-nov-30.md)
+
+    * [21.1 release activity: Week of November 16, 2020](product-announcements/product-releases/21.1-release-activity/21-1-nov-16.md)
+
+    * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+
+    * [Workfront Fusion release activity: Week of February 14, 2022](product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
+
+    * [Workfront Fusion release activity: Week of February 7, 2022](product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
+
+    * [Workfront Fusion release activity: Week of January 3, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+
+    * [Workfront Fusion release activity: Week of November 29, 2021](product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
+
+    * [Workfront Fusion release activity: Week of November 15, 2021](product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
+
+    * [Workfront Fusion release activity: Week of November 8, 2021](product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
+
+    * [Workfront Fusion release activity: Week of October 4, 2021](product-announcements/product-releases/fusion-release-activity/fusion-oct-4-21.md)
+
+    * [Workfront Fusion release activity: Week of September 13, 2021](product-announcements/product-releases/fusion-release-activity/fusion-sept-13-21.md)
+
+    * [Workfront Fusion release activity: Week of August 30, 2021](product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
+
+    * [Workfront Fusion release activity: Week of August 23, 2021](product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
+
+    * [Workfront Fusion release activity: Week of August 2, 2021](product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
+
+    * [Workfront Fusion release activity: Week of July 26, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jul-26.md)
+
+    * [Workfront Fusion release activity: Week of June 28, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jun-28.md)
+
+    * [Workfront Fusion release activity: Week of June 21, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jun-21.md)
+
+    * [Workfront Fusion release activity: Week of May 17, 2021](product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
+
+    * [Workfront Fusion release activity: Week of May 10, 2021](product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
+
+    * [Workfront Fusion release activity: Week of May 3, 2021](product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
+
+    * [Workfront Fusion release activity: Week of April 26, 2021](product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
+
+    * [Workfront Fusion release activity: Week of April 19, 2021](product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
+
+    * [Workfront Fusion release activity: Week of March 8, 2021](product-announcements/product-releases/fusion-release-activity/fusion-mar-8.md)
+
+    * [Workfront Fusion release activity: Week of February 15, 2021](product-announcements/product-releases/fusion-release-activity/fusion-feb-15.md)
+
+    * [Workfront Fusion release activity: Week of February 1, 2021](product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
+
+    * [Workfront Fusion release activity: Week of January 25, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
+
+    * [Workfront Fusion release activity: Week of January 18, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
+
+    * [Workfront Fusion release activity: Week of January 11, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
+
+    * [Workfront Fusion release activity: Week of January 4, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
+
+        * [Workfront Fusion release activity: Week of August 17, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+
+        * [Workfront Fusion release activity: Week of August 24, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
+
+        * [Workfront Fusion release activity: Week of December 7, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
+
+        * [Workfront Fusion release activity: Week of November 2, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
+
+        * [Workfront Fusion release activity: Week of November 16, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
+
+        * [Workfront Fusion release activity: Week of November 30, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
+
+        * [Workfront Fusion release activity: Week of September 21, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+
+    * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
+
+    * [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
+
+    * [Adobe Workfront Scenario Planner with the 21.2 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
+
+    * [Adobe Workfront Scenario Planner with the 21.1 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
+
+    * [Workfront Scenario Planner with the 20.4 release - October 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md)
+
+    * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
+
+    * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+
+      * [Adobe Workfront Goals with the 21.2 release](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
+
+      * [Adobe Workfront Goals 21.2 release activity: Week of April 19, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
+
+      * [Adobe Workfront Goals 21.2 release activity: Week of April 5, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
+
+      * [Adobe Workfront Goals 21.2 release activity: Week of February 15, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
+
+    * [Adobe Workfront Goals with the 21.1 release](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
+
+    * [Adobe Workfront Goals with the 21.1 release](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
+
+      * [Adobe Workfront Goals 21.1 release activity: Week of December 14, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
+
+      * [Adobe Workfront Goals 21.1 release activity: Week of November 30, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-30.md)
+
+      * [Adobe Workfront Goals 21.1 release activity: Week of November 16, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
+
+    * [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
+
+    * [Workfront Goals with the 20.3 release - August 14, 2020](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
+
+    * [Workfront Library release activity](product-announcements/product-releases/library-release-activity/workfront-library-release-activity.md)
+
+    * [Workfront Library release activity - April 18, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-apr-18-2019.md)
+
+    * [Workfront Library release activity - August 15, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-aug-15-2019.md)
+
+    * [Workfront Library release activity - February 13, 2020](product-announcements/product-releases/library-release-activity/library-release-activity-feb-13-2020.md)
+
+    * [Workfront Library release activity - January 29, 2020](product-announcements/product-releases/library-release-activity/library-release-activity-jan-29-2020.md)
+
+    * [Workfront Library release activity - June 19, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-jun-19-2019.md)
+
+    * [Workfront Library release activity - May 3, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-may-3-2019.md)
+
+    * [Workfront Library release activity - October 11, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-oct-11-2019.md)
+
+    * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
+
+    * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+
+    * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
+
+    * [Quarterly release archive](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
+
+    * [20.4 release overview](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
+
+    * [20.4 release activity: Week of October 5, 2020](product-announcements/product-releases/20.4-release-activity/20-4-oct-5.md)
+
+    * [20.4 Project management enhancements](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
+
+    * [20. 4 Analytics enhancements](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+
+    * [20.4 Resource Management enhancements](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
+
+    * [20.4 Proof enhancements](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
+
+    * [20.4 Mobile and integration enhancements](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
+
+    * [20.4 Other enhancements](product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md)
+
+    * [test-drop-down-text](product-announcements/product-releases/20.4-release-activity/test-drop-down-text.md)
+
+    * [20.3 release overview](product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md)
+
+    * [20.3 Resource Management enhancements](product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md)
+
+    * [20.3 Analytics enhancements](product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md)
+
+    * [20.3 Project Management enhancements](product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md)
+
+    * [20.3 Proof enhancements](product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md)
+
+    * [20.3 Agile enhancements](product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md)
+
+    * [20.3 Integration and mobile enhancements](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
+
+    * [20.3 other enhancements](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
+
+    * [2020.2 release overview](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
+
+    * [2020.2 release overview](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
+
+    * [2020.2 mobile enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
+
+    * [2020.2 other enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
+
+    * [2020.2 Project enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
+
+    * [2020.2 Proofing enhancements](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
+
+    * [2020.2 Resource Management enhancements: The Workload Balancer](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+
+    * [2020.1 release overview](product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md)
+
+    * [2020.1 release overview](product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md)
+
+    * [2020.1 List enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-list-enhancements.md)
+
+    * [2020.1 Mobile enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-mobile-enhancements.md)
+
+    * [2020.1 Other enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-other-enhancements.md)
+
+    * [2020.1 Project enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-project-enhancements.md)
+
+    * [2020.1 Proofing enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-proofing-enhancements.md)
+
+    * [2020.1 Resource Management enhancements](product-announcements/product-releases/2020.1-release-activity/2020.1-resource-management-enhancements.md)
+
+    * [Other Workfront Classic features released to Production prior to the 2020.1 release](product-announcements/product-releases/2020.1-release-activity/prior-to-2020.1.md)
+
+      * [2019.4 release overview](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
+
+      * [2019.4 release overview](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
+
+      * [2019.4 List enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
+
+      * [2019.4 Mobile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
+
+      * [2019.4 other enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
+
+      * [2019.4 Resource Management enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
+
+      * [Other Workfront Classic features released to Production prior to the 2019.4 release](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+
+      * [2019.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md)
+
+      * [2019.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md)
+
+      * [2019.3 Resource Planning enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-resource-planning-enhancements.md)
+
+      * [2019.3 Home enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-home-enhancements.md)
+
+      * [2019.3 Integration and mobile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-integration-mobile-enhancements.md)
+
+      * [2019.3 Project enhancements](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-project-enhancements.md)
+
+      * [2019.2 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md)
+
+      * [2019.2 administrator enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-administrator-enhancements.md)
+
+      * [2019.2 Agile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-agile-enhancements.md)
+
+      * [2019.2 Integration and Mobile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-integration-enhancements.md)
+
+      * [2019.2 Project enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-project-enhancements.md)
+
+      * [2019.2 Proofing enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-proofing-enhancements.md)
+
+      * [2019.2 Resource Management enhancements](product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-resource-management-enhancements.md)
+
+      * [2019.1 release activity](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md)
+
+      * [2019.1 release activity overview](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity-overview.md)
+
+      * [2019.1 Mobile and integration enhancements](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-mbl-intgrtn-enhncmnts.md)
+
+      * [2019.1 Project enhancements](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-project-enhancements.md)
+
+      * [2019.1 Proofing enhancements](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-proofing-enhancements.md)
+
+      * [2019.1 Resource Management enhancements](product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-rsrc-mngmnt-enhncmnts.md)
+
+      * [2018.3 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity.md)
+
+      * [2018.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-release-activity-overview.md)
+
+      * [2018.3 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-1-release-activity.md)
+
+      * [2018.3 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-2-release-activity.md)
+
+      * [2018.3 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-3-release-activity.md)
+
+      * [2018.3 Beta 4 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-4-release-activity.md)
+
+      * [2018.3 Beta 5 release activity](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-5-release-activity.md)
+
+      * [2018.3 Beta Final](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018.3-beta-final.md)
+
+      * [2018.2 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity.md)
+
+      * [2018.2 release activity overview](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-release-activity-overview.md)
+
+      * [2018.2 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-1-release-activity.md)
+
+      * [2018.2 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-2-release-activity.md)
+
+      * [2018.2 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-3-release-activity.md)
+
+      * [2018.2 Beta 4 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-4-release-activity.md)
+
+      * [2018.2 Beta 5 release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-5-release-activity.md)
+
+      * [2018.2 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-final-release-activity.md)
+
+      * [2018.1 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity.md)
+
+      * [2018.1 release activity overview](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-release-activity-overview.md)
+
+      * [2018.1 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-1-release-activity.md)
+
+      * [2018.1 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-2-release-activity.md)
+
+      * [2018.1 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-3-release-activity.md)
+
+      * [2018.1 Beta 4 release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-4-release-activity.md)
+
+      * [2018.1 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018.1-beta-final-release-activity.md)
+
+      * [2017.3 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity.md)
+
+      * [2017.3 release activity overview](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity-overview.md)
+
+      * [2017.3 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-1-release-activity.md)
+
+      * [2017.3 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-2-release-activity.md)
+
+      * [2017.3 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-3-release-activity.md)
+
+      * [2017.3 Beta 4 release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-4-release-activity.md)
+
+      * [2017.3 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-beta-final-release-activity.md)
+
+      * [2017.3 release webinars](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-webinars.md)
+
+      * [2017.2 release activity](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity.md)
+
+      * [2017.2 release activity overview](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-activity-overview.md)
+
+      * [2017.2 Beta 1 release activity](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-beta-1-release-activity.md)
+
+      * [2017.2 Beta 2 release activity](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-beta-2-release-activity.md)
+
+      * [2017.2 Beta 3 release activity](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-beta-3-release-activity.md)
+
+      * [2017.2 Beta Final](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-beta-final.md)
+
+      * [2017.2 release webinars](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017.2-release-webinars.md)
+
+      * [The Workfront R1 release](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
+
+      * [R1 release activity overview](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
+
+      * [Functionality made available in Preview in 2016](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+
+      * [R1 Final](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
+
+      * [R1 Preview 1 and 2](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
+
+      * [R1 Preview 3](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
+
+      * [R1 Preview 4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
+
+      * [R1 Preview 5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
+
+      * [R1 release webinars](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
+
+      * [The Workfront R1 release](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md)
+
+  * [Announcements](product-announcements/announcements/announcements.md)
+
+  * [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
+
+  * [View documentation resources for the new Adobe Workfront experience](product-announcements/announcements/view-nwe-documentation.md)
+
+  * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
+
+  * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/remove-custom-smtp.md)
+
+  * [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](product-announcements/announcements/clusters-1-3-update-whitelist.md)
+
+  * [Email spoofing and POP reply removal](product-announcements/announcements/email-spoofing-pop-reply-message.md)
+
+  * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
+
+  * [New IP addresses for Adobe Workfront email with the 21.1 release](product-announcements/announcements/new-email-ip-21.1.md)
+
+  * [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](product-announcements/announcements/pop-removal-request-queue.md)
+
+  * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
+
+  * [Replacement of Flash-based tools in Adobe Workfront](product-announcements/announcements/replace-flash-tools.md)
+
+  * [TLS 1.2 to be required in Adobe Workfront](product-announcements/announcements/tls-1-disabled.md)
+
+  * [Unsubscribe from Announcement Center Messagesin the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+
+  * [Updated Mobile App for iOS and Android (Early August, 2017)](product-announcements/announcements/updated-mobile-app.md)
+
+  * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
+
+  * [Beta programs](product-announcements/betas/betas.md)
+
+  * [Android Beta Program for Submitting Requests](product-announcements/betas/android-beta-for-submitting-requests.md)
+
+  * [Android Search Beta Program](product-announcements/betas/android-search-beta.md)
+
+  * [Currently available beta programs](product-announcements/betas/currently-available-betas.md)
+
+  * [Oracle Eloqua Workfront Proof Add-In Beta](product-announcements/betas/eloqua-workfront-proof-add-in-beta.md)
+
+  * [There Are Currently No Open Beta Programs](product-announcements/betas/no-current-open-beta-programs.md)
+
+  * [Resource Planner performance beta](product-announcements/betas/resource-planner-performance-beta.md)
+
+  * [Team scheduling beta](product-announcements/betas/team-scheduling-beta.md)
+
+  * [Test the Resource Scheduling tools (Beta)](product-announcements/betas/testing-resource-scheduling-beta.md)
+
+  * [Testing task list beta](product-announcements/betas/testing-tasks-lists-beta.md)
+
+  * [Workfront Add-On for Jira Beta](product-announcements/betas/workfront-add-on-for-jira-beta.md)
+
+* [Administration and setup](administration-and-setup/administration-and-setup.md)
+
+  * [Get started with Adobe Workfront administration](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
+
+  * [Defining objectives for your Adobe Workfront implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+
+  * [Manage available licenses in your system](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+
+  * [Configure basic information for your system](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
+
+  * [Firewall overview](administration-and-setup/get-started-wf-administration/firewall-overview.md)
+
+  * [Configure your firewall's allowlist](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+
+  * [Configure your email allowlist](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+
+  * [Send announcements](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+
+  * [Browser requirements for Workfront](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
+
+  * [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+
+  * [Set up Adobe Workfront](administration-and-setup/set-up-workfront/set-up-workfront.md)
+
+    * [Configure system defaults](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+
+    * [Configure system-wide project preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
+
+    * [Configure system-wide task and issue preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
+
+    * [Lock or unlock project preferences for all groups in the system](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
+
+    * [Configure request types](administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
+
+    * [Customize default issue types](administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
+
+    * [Create, edit, and share default filters, views, and groupings](administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
+
+    * [Configure Resource Management preferences](administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+
+    * [Edit and create risk types](administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
+
+    * [Create custom expense types](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
+
+    * [Create a scorecard](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
+
+    * [Configure timeline recalculations for projects](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
+
+    * [Enable custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+
+    * [Configure timesheets and schedules](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
+
+    * [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
+
+    * [Assign a schedule to a user or project](administration-and-setup/set-up-workfront/configure-timesheets-schedules/assign-schedule-to-user-or-project.md)
+
+    * [Configure users to log time in hours or days](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
+
+    * [Configure timesheet and hour preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+    * [Manage hour types](administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md)
+
+    * [Manage timesheets for all users](administration-and-setup/set-up-workfront/configure-timesheets-schedules/manage-timesheets-for-all-users.md)
+
+    * [Create a schedule](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+
+    * [Overview of locking system-level timesheet and hour preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/lock-or-unlock-timesheet-hour-preference.md)
+
+    * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
+
+    * [Create and edit companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+
+    * [Associate projects and templates with companies](administration-and-setup/set-up-workfront/organizational-setup/associate-projects-templates-with-companies.md)
+
+    * [Deactivate a company](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
+
+    * [Restrict request queue to users in the associated company](administration-and-setup/set-up-workfront/organizational-setup/restrict-request-q-to-users-in-company.md)
+
+    * [Manage company memberships](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
+
+    * [Job role overview](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
+
+    * [Create and manage job roles](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+
+    * [Delete job roles](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
+
+    * [Deactivate job roles](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
+
+    * [Override job role billing rates at the company level](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
+
+    * [System-tracked updates feeds](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+
+    * [System-tracked updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+
+    * [Configure system updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
+
+    * [Configure preferences for user updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
+
+    * [Adobe Workfront testing environments](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
+
+    * [The Adobe Workfront Preview Sandbox Environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+
+    * [The Adobe Workfront Custom Refresh Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+
+  * [Add users](administration-and-setup/add-users/add-users.md)
+
+    * [Create and manage users](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+
+    * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+    * [Import users](administration-and-setup/add-users/create-and-manage-users/import-users.md)
+
+    * [Enroll users in the new Adobe Workfront experience](administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md)
+
+    * [Edit a user's profile](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+
+    * [Edit user profiles in bulk](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
+
+    * [Create direct reports](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
+
+    * [Log in as another user](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
+
+    * [Reset a user's preferences](administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
+
+    * [Change a username](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
+
+    * [Change the password for an auto-provisioned user](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
+
+    * [Map user attributes and auto-provision new users](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
+
+    * [Deactivate a user](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
+
+    * [Delete users](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
+
+    * [Audit logs](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+
+    * [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+
+    * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
+
+    * [Manage users in the Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+
+    * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+
+    * [Access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+
+    * [Adobe Workfront licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+
+    * [How access levels and permissions work together](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+
+    * [Access to objects and areas by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+
+    * [Functionality available for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
+    * [Configurable access to functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+
+    * [Built-in access levels in Adobe Workfront](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+
+    * [List your users’ access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+
+    * [Configure access to Adobe Workfront](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
+
+    * [Create or modify custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
+
+    * [Grant a user full administrative access](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
+
+    * [Grant users administrative access to certain areas](administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+
+    * [Grant access to projects](administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+
+    * [Grant access to tasks](administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
+
+    * [Grant access to issues](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+
+    * [Grant access to documents](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
+
+    * [Grant access to users](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+
+    * [Grant access to templates](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
+
+    * [Grant access to reports, dashboards, and calendars](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+
+    * [Grant access to portfolios](administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
+
+    * [Grant access to programs](administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+
+    * [Grant access to financial data](administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
+
+    * [Grant access to filters, views, and groupings](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
+
+    * [Grant access to Scenario Planner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+
+    * [Grant access to Resource Management](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+
+    * [Grant access to Adobe Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+
+    * [Single sign-on in Adobe Workfront](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+
+    * [Overview of single sign-on in Adobe Workfront](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+
+    * [Update users for single sign-on](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+
+    * [Configure Adobe Workfront with Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-ad.md)
+
+    * [Configure Adobe Workfront with LDAP](administration-and-setup/add-users/single-sign-on/configure-workfront-ldap.md)
+
+    * [Configure Adobe Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+
+    * [Update SAML 2.0 metadata in your IDP when using enhanced authentication](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+
+    * [Update SAML 2.0 metadata in your identity provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+
+    * [Configure Adobe Workfront with SAML 2.0 using ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+
+    * [Configure Adobe Workfront with SAML 1.1](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md)
+
+    * [Configure Adobe Workfront with Azure Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-azure-ad.md)
+
+    * [Enable Outlook for use with Workfront and SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+
+    * [Deactivate single sign-on in Adobe Workfront](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+
+    * [Create and manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
+
+    * [Create a team from the Setup area](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
+
+    * [Edit a team’s settings from the Setup area](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
+
+  * [Opt in to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
+
+  * [Discover the features available only with the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md)
+
+  * [Prepare to move your organization to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/admin-prep-for-nwe.md)
+
+  * [Customize Adobe Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
+
+    * [Custom branding in Adobe Workfront](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
+
+    * [Brand your Adobe Workfront instance](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
+
+    * [Configure a custom help URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+
+    * [Layout templates](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
+
+    * [About the default Adobe Workfront layout](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
+
+    * [Create and manage layout templates](administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+
+    * [Customize the Main Menu using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+
+    * [Customize the left panel using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+
+    * [Customize the Details view using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+
+    * [Customize Home and Summary using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+
+    * [Customize pinned pages using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+
+    * [Customize Filters, Views, and Groupings using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+
+    * [Customize user interface terminology using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+    * [Customize the landing page using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+
+    * [Brand Adobe Workfront using a layout template](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+
+    * [Testing a new layout template](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+
+    * [Grant administrative access for a layout template](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+
+    * [Assign users to a layout template](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+
+    * [Copy a layout template](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+
+    * [Migrate your layout templates to the new Adobe Workfront experience](administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md)
+
+    * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+
+    * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+
+    * [Create or edit a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+
+    * [Copy a custom form to create a new one](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+
+    * [Add a custom field to a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+
+    * [Access for a shared custom field you want to use](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+
+    * [Add calculated data to a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+
+    * [Using an existing calculated custom field on a new custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+
+    * [Position fields in a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+
+    * [Configure sharing for a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+
+    * [Add an image or edit its properties in a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md)
+
+    * [Display logic and skip logic on a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+
+    * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+
+    * [Preview and complete a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+
+    * [Referencing custom forms in a report](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
+
+    * [View all reports that use a particular custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
+
+    * [View all custom forms that use a particular custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
+
+    * [Transfer custom form data to a larger work item](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+
+    * [Delete or deactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+
+    * [Edit a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+
+    * [Delete a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+
+    * [Rich text field storage in the API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
+
+    * [Delete object types on a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+
+    * [Statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
+
+    * [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
+
+    * [Access the list of system project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+
+    * [System project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+
+    * [Access the list of system task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+
+    * [System task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
+
+    * [Access the list of system issue statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
+
+    * [Create or edit a status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
+
+    * [Reorder system-level and group statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
+
+    * [Locking or unlocking a custom system-level status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
+
+    * [Use custom statuses as default statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
+
+    * [Delete a custom status](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
+
+    * [Create and customize priorities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md)
+
+    * [Create and customize issue severities](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
+
+    * [Approval processes and milestone paths](administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
+
+    * [Create an approval process for work items](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+
+    * [Edit an approval process](administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)
+
+    * [Configure global approval settings](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+
+    * [How group and approval process changes affect assigned approval processes](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
+
+    * [Create a milestone path](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
+
+    * [Custom conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+
+    * [Create or edit a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
+
+    * [Change the display order of conditions](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
+
+    * [Set a custom condition as the default for projects](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
+
+    * [Set a custom condition as the default for tasks and issues](administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
+
+    * [Delete a custom condition](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
+
+  * [Manage Adobe Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
+
+    * [Configure proofing functionality](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+
+    * [Configure proof settings for your organization](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+
+    * [User synchronization between Adobe Workfront and Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
+
+    * [Access to proofing functionality in Workfront](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
+
+    * [Install the Desktop Proofing Viewer for your organization](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
+
+    * [Configure default proofing roles](administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
+
+    * [Configure default proof email notification settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
+
+    * [Configure default proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)
+
+    * [Configure whether proofs are automatically generated](administration-and-setup/manage-workfront/configure-proofing/configure-if-proofs-autogenerate.md)
+
+    * [Configure a user's proofing access](administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
+
+    * [Configure sharing settings for your users](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
+
+    * [Create and manage Automated Workflow templates](administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
+
+    * [Standalone Workfront Proof to Integrated Proofing in Workfront overview](administration-and-setup/manage-workfront/configure-proofing/move-to-proofing-in-workfront.md)
+
+    * [Configure default proof settings](administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)
+
+    * [Configure reports](administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
+
+    * [Hide built-in reports](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
+
+    * [Edit list controls: filters, views, and groupings](administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md)
+
+    * [Emails](administration-and-setup/manage-workfront/emails/emails.md)
+
+    * [Email Notifications page](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+
+    * [Configure event notifications for everyone in the system](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+
+    * [Event notifications available in Adobe Workfront](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+    * [Unlock or lock configuration of event notifications for all groups](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+
+    * [Customize email subjects for event notifications](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
+
+    * [Modify email notification settings in users’ profiles](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+
+    * [Set up reminder notifications](administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
+
+    * [Set up automatic reminders](administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
+
+    * [Configure email templates](administration-and-setup/manage-workfront/emails/configure-email-templates.md)
+
+    * [Allowing emails from the Adobe Workfront application](administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
+
+    * [Manage email invitations to new users](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
+
+    * [Security](administration-and-setup/manage-workfront/security/security.md)
+
+    * [Configure system security preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+
+    * [Enhanced Authentication overview](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
+
+    * [Configure password policies for authentication](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+
+    * [Removal of various single sign-on options](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+
+    * [Renew the Adobe Workfront SAML 2.0 metadata certificate](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
+
+    * [Prevent duplicate users](administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
+
+    * [Restrict access to Adobe Workfront by IP address](administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
+
+    * [File encryption](administration-and-setup/manage-workfront/security/file-encryption.md)
+
+    * [Change your Adobe Workfront domain](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
+
+    * [Manage API keys](administration-and-setup/manage-workfront/security/manage-api-keys.md)
+
+    * [Set up Azure Active Directory with Enhanced Authentication](administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)
+
+    * [Adobe Workfront Privacy Policy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
+
+    * [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
+
+    * [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
+
+    * [Manage deleted items](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
+
+    * [Restore deleted items](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
+
+    * [View restored items](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+
+    * [Configure affect on hours when an object is deleted and restored](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+
+    * [Restoring individual child objects](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
+
+    * [Diagnostics](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
+
+    * [Use Diagnostics to trigger automated processes](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
+
+    * [Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
+
+    * [Export data from Adobe Workfront via Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+
+    * [Import data into Adobe Workfront via a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
+
+    * [Kick-Starts data importer](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
+
+    * [Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+
+    * [Kick-Starts scenario: simple project and task import preparation](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
+
+    * [Frequently asked questions about Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
+
+  * [Manage groups](administration-and-setup/manage-groups/manage-groups.md)
+
+    * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+
+    * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups.md)
+
+    * [Subgroups overview](administration-and-setup/manage-groups/groups-overview/subgroups.md)
+
+    * [Home Groups overview](administration-and-setup/manage-groups/groups-overview/home-groups.md)
+
+    * [Create and manage groups](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
+
+    * [Create a group](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+
+    * [Manage a group](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
+
+    * [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+    * [View and configure event notifications for a group](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
+
+    * [View and manage a group’s details](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+
+    * [View and manage a group’s memberships](administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
+
+    * [View the number of licenses allocated and used in a group in the new Adobe Workfront experience](administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
+
+    * [Configure project preferences for a group](administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+
+    * [Configure task and issue preferences for a group](administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+
+    * [Lock or unlock a project, task, or issue preference for subgroups](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
+
+    * [Configure timesheet and hour preferences for a group](administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
+
+    * [Lock or unlock a group timesheet and hour preference](administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
+
+    * [View and configure event notifications for a group](administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
+
+    * [Move a group](administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
+
+    * [Delete a group](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+
+    * [Export a list of groups](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
+
+    * [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+    * [Create and manage subgroups](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
+
+    * [Create a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
+
+    * [Manage a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
+
+    * [View and manage subgroup members](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
+
+    * [Group roles](administration-and-setup/manage-groups/group-roles/group-roles.md)
+
+    * [Group administrators](administration-and-setup/manage-groups/group-roles/group-administrators.md)
+
+    * [Assign a user as a group administrator](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
+
+    * [Business Leader overview](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
+
+    * [Manage group statuses](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
+
+    * [Create or edit a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
+
+    * [Reorder group statuses](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
+
+    * [Use a custom status as a default status for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
+
+    * [Locking or unlocking a custom group status](administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
+
+    * [How groups inherit statuses](administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md)
+
+    * [Delete a group status](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
+
+    * [Custom statuses in a group that is moved or deleted](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
+
+    * [Custom statuses on a task or issue that is moved or copied](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
+
+    * [Work with a group’s objects](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
+
+    * [Create and modify a group’s companies](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
+
+    * [Create and modify a group’s layout templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
+
+    * [Create and modify a group’s projects](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+
+    * [Create, modify, and view a group’s programs](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
+
+    * [Create and modify a group’s teams](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
+
+    * [Group-level approval processes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)
+
+    * [Create and modify a group’s schedules](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)
+
+    * [Create and manage a group’s timesheet profiles](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
+
+    * [Create and modify a group’s projects](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)
+
+    * [Create and modify a group’s project templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
+
+    * [View and manage a group's recently deleted items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
+
+    * [View and manage a group's recently restored items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
+
+  * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
+
+  * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
+
+  * [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
+
+  * [Configure Workfront with Adobe Experience Manager](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+
+  * [Enable users to access the mobile application](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
+
+  * [Enable Adobe Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
+
+  * [Configure document integrations](administration-and-setup/configure-integrations/configure-document-integrations.md)
+
+  * [Disable document integrations](administration-and-setup/configure-integrations/disable-document-integrations.md)
+
+  * [Install the Zoom integration](administration-and-setup/configure-integrations/enable-zoom-integration.md)
+
+  * [Configure the SharePoint integration](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
+
+  * [Set up metadata mapping](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+
+  * [Create OAuth2 applications for Workfront integrations](administration-and-setup/configure-integrations/create-oauth-application.md)
+
+  * [View and manage custom OAuth2 applications](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
+
+  * [Access Help for Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
+
+  * [Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-workfront-fusion.md)
+
+  * [Legacy Workfront Fusion service outages](administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
+
+  * [Blueprints](administration-and-setup/blueprints/blueprints.md)
+
+  * [Blueprints overview](administration-and-setup/blueprints/blueprints-overview.md)
+
+  * [Install a blueprint](administration-and-setup/blueprints/blueprints-install.md)
+
+  * [Configure a blueprint](administration-and-setup/blueprints/configure-template-package.md)
+
+  * [Actions to take after installing a blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
+
+  * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
+
+  * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
+
+  * [Migrating to another cluster](administration-and-setup/administrator-faqs/migrate-to-another-cluster.md)
+
+  * [Tips, tricks, and troubleshooting for administration and setup](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
+
+  * [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
+
+  * [ADFS logout URL doesn't work](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
+
+  * [Administration and setup FAQs](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
+
+  * [Allow Adobe Workfront to run flash on Google Chrome](administration-and-setup/tips-tricks-and-troubleshooting/allow-wf-run-flash-chrome.md)
+
+  * [Automatic reminders vs. reminder notifications](administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
+
+  * [Configure POP in Microsoft Exchange](administration-and-setup/tips-tricks-and-troubleshooting/configure-pop-ms-exchange.md)
+
+  * [Error: Active Directory User Cannot Log In](administration-and-setup/tips-tricks-and-troubleshooting/error-active-directory-user-cannot-log-in.md)
+
+  * [Error: Auto-provisioned user can't log in](administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md)
+
+  * [Error message: Couldn't validate XML digital signature](administration-and-setup/tips-tricks-and-troubleshooting/error-message-couldnt-validate-xml-digital-signature.md)
+
+  * [Error message: Invalid Parameter: conversion value](administration-and-setup/tips-tricks-and-troubleshooting/error-message-invalid-parameter-conversion-value.md)
+
+  * [Error message: SAML 2.0 Authentication Failed: User Identifier Not Found](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md)
+
+  * [Error message: SAML 2.0 error: Primary StatusCode](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-primary-statuscode.md)
+
+  * [Error Message: SAML 2.0 Error: User Identifier Not Found](administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md)
+
+  * [Error saving custom field: "There is a slight problem. [That field] is used in a multi-form configuration ..."](administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md)
+
+  * [Error: SSO Users are Unable to Log In to Adobe Workfront Due to Various Errors](administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md)
+
+  * [External user license type missing from access levels](administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
+
+  * [Flash feature groupings](administration-and-setup/tips-tricks-and-troubleshooting/flash-feature-groupings.md)
+
+  * [Retrieving historical data from Adobe Workfront: pros and cons](administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md)
+
+  * [Login Error: The following fields are invalid: emailAddr cannot be null](administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md)
+
+  * [Prevent spoofing and add Adobe Workfront SPF records](administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
+
+  * [Save an email header file](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
+
+  * [Sharing shows more than one permission](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
+
+  * [Unauthenticated email is not accepted due to domain's DMARC policy](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+
+  * [Adobe Workfront user credentials vs. SAML user credentials](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
+
+* [Adobe Workfront basics](workfront-basics/workfront-basics.md)
+
+    * [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+
+* [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
+
+* [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+
+  * [Navigate Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+
+    * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
+
+    * [Search Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
+
+    * [Use the reference number of objects](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
+
+    * [Recents and favorites in Adobe Workfront](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
+
+    * [View and manage favorites](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
+
+    * [View recent items](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
+
+    * [Lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/lists.md)
+
+    * [Get started with lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+
+    * [Apply the quick filter to a list](workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
+
+    * [Export a list](workfront-basics/navigate-workfront/use-lists/export-lists.md)
+
+    * [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
+
+    * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+
+    * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
+
+    * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+
+    * [Customize the Main Menu in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md)
+
+    * [Understand a Worker's Main Menu in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
+
+    * [Understand a Reviewer's Main Menu in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
+
+  * [Home](workfront-basics/using-home/home.md)
+
+    * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+
+    * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+
+    * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+
+    * [Prioritize work in the Home Area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
+
+    * [Manage work and team requests in the Home area](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
+
+    * [Update or edit a work item in the Home area](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
+
+    * [Create work items from the Home area](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+
+    * [Log time on a work item from the Home area](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
+
+    * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
+
+    * [Home Calendar view](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
+
+    * [Configure your Home Calendar view settings](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
+
+    * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
+
+    * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
+
+    * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
+
+    * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+
+  * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+
+  * [Updates tab overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+
+  * [Update work](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+
+  * [Character limits in fields](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+
+  * [Reply to updates](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
+
+  * [Reply to email notifications](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
+
+  * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+
+  * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
+
+  * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+
+  * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
+
+  * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
+
+  * [Edit information in custom form fields in Adobe Workfront](workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+
+  * [Export custom forms and object details in Adobe Workfront](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
+
+  * [Manage custom forms attached to objects in Adobe Workfront](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
+
+  * [Use notifications](workfront-basics/using-notifications/use-notifications.md)
+
+  * [Adobe Workfront notifications](workfront-basics/using-notifications/wf-notifications.md)
+
+  * [Activate or deactivate your own event notifications](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+
+  * [Subscribe to items in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+
+  * [In-app notifications overview](workfront-basics/using-notifications/in-app-notifications-overview.md)
+
+  * [View and manage in-app notifications](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
+
+  * [Enable delivery of emails from the Preview Sandbox environment](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
+
+  * [Event notifications](workfront-basics/using-notifications/event-notifications.md)
+
+  * [Attach a reminder notification to an object](workfront-basics/using-notifications/attach-reminder-notification-object.md)
+
+  * [Notifications: Action needed](workfront-basics/using-notifications/notifications-action-needed.md)
+
+  * [Notifications: Approval information](workfront-basics/using-notifications/notifications-approval-information.md)
+
+  * [Notifications: Communication](workfront-basics/using-notifications/notifications-communication.md)
+
+  * [Notifications: Goals](workfront-basics/using-notifications/notifications-goals.md)
+
+  * [Notifications: Information about projects I own](workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
+
+  * [Notifications: Information about projects I sponsor](workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
+
+  * [Notifications: Information about projects I'm on](workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)
+
+  * [Notifications: Information about work assigned to me](workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
+
+  * [Notifications: Miscellaneous information](workfront-basics/using-notifications/notifications-misc-information.md)
+
+  * [Notifications: Requests I have made](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
+
+  * [Opt out of email notifications](workfront-basics/using-notifications/opt-out-of-email-notifications.md)
+
+  * [Grant and request permissions to objects](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+
+  * [Overview of sharing permissions on objects in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+
+  * [Grant access to objects in the Home area](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
+
+  * [Request access to objects in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/request-access.md)
+
+  * [View inherited permissions on objects in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
+
+  * [Share an object in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
+
+  * [Share a project in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+
+  * [Share a task in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
+
+  * [Share an issue in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+
+  * [Sharing a template](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
+
+  * [Share financial permissions on an object in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
+
+  * [Share a portfolio in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)
+
+  * [Share a program in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
+
+  * [Share a document in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
+
+  * [Share a document folder](workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
+
+  * [Share reports, dashboards, and calendars in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
+
+  * [Remove permissions from objects in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+
+  * [Manage your account and profile](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
+
+    * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
+
+    * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
+
+    * [Personal time overview](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+
+    * [Create custom tabs or sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+
+    * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+
+    * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
+
+    * [Log out of Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
+
+    * [Receive email invitations and create a password for Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+
+    * [Reset a user's password with Enhanced Authentication](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+
+    * [Reset your password](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
+
+  * [Mobile Apps](workfront-basics/mobile-apps/mobile-apps.md)
+
+    * [Use the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
+
+    * [Adobe Workfront for Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+
+    * [Be an Android beta tester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+
+    * [Adobe Workfront for iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+
+    * [Be an iOS beta tester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+
+    * [Home area widgets](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
+
+    * [My Work section in the mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
+
+    * [Review and make decisions on proofs in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+
+    * [Share and download proofs in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
+
+    * [Comment on proofs in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-mobile.md)
+
+    * [Adobe Workfront for Mobile Device Management (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
+
+    * [Configure Adobe Workfront for MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
+
+    * [Adobe Workfront mobile app virtual assistant](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+
+    * [Approvals in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
+
+    * [Use Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
+
+    * [Get started with Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
+
+    * [Display projects in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
+
+    * [Filter project lists in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
+
+    * [Update widgets in the Project Details view](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
+
+    * [Add updates in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
+
+    * [Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+
+    * [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+
+  * [Redesigned functionality in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md)
+
+  * [Top navigation bar overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
+
+  * [Simplified left navigation in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
+
+  * [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/subtabs-removed.md)
+
+  * [Summary overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/summary-overview.md)
+
+  * [Breadcrumbs overview in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+
+  * [Edit object details in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/combined-pages-object-details.md)
+
+  * [New object headers](workfront-basics/the-new-workfront-experience/new-object-headers.md)
+
+  * [New object actions area](workfront-basics/the-new-workfront-experience/new-object-actions-area.md)
+
+  * [Toolbar for lists in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md)
+
+  * [Pin pages to customize your workspace in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/pin-pages.md)
+
+  * [New Layout Templates area in the new Adobe Workfront experience](workfront-basics/the-new-workfront-experience/new-layout-templates.md)
+
+  * [New Edit Object box](workfront-basics/the-new-workfront-experience/new-edit-object-box.md)
+
+  * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+
+  * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
+
+  * [Change the date format in Adobe Workfront when using Chrome](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
+
+  * [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
+
+  * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/definitions-pti-dates.md)
+
+  * [The Adobe Workfront Community](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
+
+  * [The Adobe Workfront Status site](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+
+  * [The Innovation Lab](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
+
+  * [Workfront Proof Manager permissions troubleshooting](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
+
+  * [Duplicate approval processes showing in the Home Work List](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
+
+  * [Projects I'm On and Projects I Own filter buttons do not appear on the Projects page header](workfront-basics/tips-tricks-and-troubleshooting/projects-filter-buttons-not-appearing.md)
+
+* [Agile](agile/agile.md)
+
+* [Agile overview](agile/agile-overview.md)
+
+* [Boards overview](agile/boards-overview.md)
+
+  * [Agile in projects](agile/agile-in-projects/agile-in-projects.md)
+
+  * [Agile Project](agile/agile-in-projects/use-agile-on-a-project.md)
+
+  * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+
+  * [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+
+  * [Configure Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+
+  * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
+
+  * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+
+  * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
+
+  * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
+
+  * [Add or remove members from a board](agile/get-started-with-boards/add-members-to-board.md)
+
+  * [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
+
+  * [Add a card to a board](agile/get-started-with-boards/add-card-to-board.md)
+
+  * [Add checklist items to a card](agile/get-started-with-boards/add-checklist-to-card.md)
+
+  * [Move cards between columns](agile/get-started-with-boards/move-board-items.md)
+
+  * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
+
+  * [Filter in a board](agile/get-started-with-boards/filter-search-in-board.md)
+
+  * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+
+  * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
+
+  * [Add a subtask to an existing story on the Kanban board](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
+
+  * [Add existing tasks or issues to the Kanban board](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
+
+  * [Assign users to a story on the Kanban board](agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+
+  * [Edit story information](agile/use-kanban-in-an-agile-team/edit-story-information.md)
+
+  * [Filter by user on the Kanban board](agile/use-kanban-in-an-agile-team/filter-by-user.md)
+
+  * [Add stories and issues from the Kanban board](agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)
+
+  * [Manage the work in progress (WIP) limit on the Kanban board](agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
+
+  * [Reorder stories on the Kanban board](agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
+
+  * [Update the status of stories on the Kanban board](agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
+
+  * [Use flags on stories on the Kanban board](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
+
+  * [Add the backlog to the Kanban board](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
+
+  * [Delete story from Kanban board](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
+
+  * [Scrum in an agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+
+    * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
+
+    * [Agile burndown chart overview](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
+
+    * [Iteration completion status overview](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
+
+    * [Resize and collapse the burndown chart](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
+
+    * [Synchronize data in the burndown chart](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
+
+    * [Use an alternate team schedule for burndown charts](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+
+    * [Iterations](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
+
+    * [Iterations overview](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
+
+    * [Create an iteration](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
+
+    * [Create an agile story in an iteration](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+
+    * [Add stories to an existing iteration](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
+
+    * [View an iteration](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
+
+    * [Delete an iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
+
+    * [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
+
+    * [Scrum board overview](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
+
+    * [Add a subtask to an existing story on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
+
+    * [Assign users to a story on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+
+    * [Categorize stories by color on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
+
+    * [Change the order of stories on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
+
+    * [Filter by user on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
+
+    * [Add stories and issues from the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
+
+    * [Manage stories and issues on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
+
+    * [Update the status of stories and subtasks on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
+
+    * [View and edit story information on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
+
+  * [Work in an agile environment](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
+
+  * [Create an agile story](agile/work-in-an-agile-environment/create-an-agile-story.md)
+
+  * [Manage the agile backlog](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+
+  * [Move an agile story](agile/work-in-an-agile-environment/move-an-agile-story.md)
+
+  * [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
+
+  * [Custom statuses not showing up on the agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+
+* [Documents](documents/documents-overview.md)
+
+  * [Add new documents to Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+
+  * [Add documents to Adobe Workfront from your file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+
+  * [Link documents from external applications](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
+
+  * [Remove links between Adobe Workfront and external document storage providers](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
+
+  * [Request a Document](documents/adding-documents-to-workfront/request-a-document.md)
+
+  * [Link documents between Quip and Adobe Workfront](documents/adding-documents-to-workfront/sf-only-link-quip-documents.md)
+
+  * [Manage documents](documents/managing-documents/manage-documents.md)
+
+  * [The Documents area](documents/managing-documents/documents-area.md)
+
+  * [Document Details overview](documents/managing-documents/document-details-overview.md)
+
+  * [Summary for documents overview](documents/managing-documents/summary-for-documents.md)
+
+  * [Preview documents](documents/managing-documents/preview-documents.md)
+
+  * [Document approvals and proofing](documents/managing-documents/document-approvals-and-proofing.md)
+
+  * [Add an update to a document](documents/managing-documents/add-update-documents.md)
+
+  * [Add or edit a custom form to a document](documents/managing-documents/add-custom-form-documents.md)
+
+  * [Upload a new version of a document](documents/managing-documents/upload-new-document-version.md)
+
+  * [Manage document versions](documents/managing-documents/manage-document-versions.md)
+
+  * [Check out documents](documents/managing-documents/check-out-documents.md)
+
+  * [Download Documents](documents/managing-documents/download-documents.md)
+
+  * [Move documents](documents/managing-documents/move-documents.md)
+
+  * [Check document storage limits](documents/managing-documents/check-document-storage.md)
+
+  * [Delete Documents](documents/managing-documents/delete-documents.md)
+
+  * [Paste images from the Clipboard](documents/managing-documents/paste-image-clipboard.md)
+
+  * [Organize documents](documents/organizing-documents/organize-documents.md)
+
+  * [Create document folders](documents/organizing-documents/create-documents-folder.md)
+
+  * [Create and Manage Smart Folders](documents/organizing-documents/create-manage-smart-folders.md)
+
+  * [Adobe Workfront DAM within Adobe Workfront](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+
+  * [Enabling Adobe Workfront DAM](documents/workfront-dam-within-workfront/enable-wf-dam.md)
+
+  * [Managing Documents with Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
+
+  * [Adobe Workfront licensing role types vs. Adobe Workfront DAM role types](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
+
+  * [Access Help for Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+
+  * [Adobe Workfront for Adobe Creative Cloud](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
+
+  * [Install Adobe Workfront for Adobe Creative Cloud](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)
+
+  * [Use Adobe Workfront for Adobe Creative Cloud](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
+
+  * [Use Adobe Workfront for Adobe Creative Cloud with Workfront Library](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc-wf-library.md)
+
+  * [Workfront and Experience Manager Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+
+    * [Use the Workfront for Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
+
+    * [Workfront for Experience Manager enhanced connector overview](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
+
+    * [Workfront for Experience Manager enhanced connector metadata overview](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+
+    * [Link assets and folders from Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
+
+    * [Send a Document to Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
+
+    * [Proof a linked asset for Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+
+    * [View or download a linked asset from Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
+
+    * [Sync comments between Workfront and Experience Manager Assets](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-sync-comments.md)
+
+    * [Workfront for Experience Manager enhanced connector best practices](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-best-practices.md)
+
+  * [Adobe Workfront for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+
+  * [Adobe Experience Manager asset integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+
+  * [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+
+  * [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+
+  * [View or download a linked asset from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+
+  * [Send a Document to Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+
+  * [Proof a linked asset for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+
+* [Manage work](manage-work/manage-work.md)
+
+  * [Projects](manage-work/projects/projects-overview.md)
+
+    * [Plan a project](manage-work/projects/planning-a-project/plan-project-overview.md)
+
+    * [Plan a project overview](manage-work/projects/planning-a-project/plan-project.md)
+
+    * [Determine Work Breakdown Structure in a project](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+
+    * [Project Team overview](manage-work/projects/planning-a-project/project-team-overview.md)
+
+    * [Manage the Project Team](manage-work/projects/planning-a-project/manage-project-team.md)
+
+    * [Budget and schedule project resources](manage-work/projects/planning-a-project/budget-and-schedule-project-resources.md)
+
+    * [View project Planned Hours in the Role Allocation panel](manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md)
+
+    * [Overview of project owners and sponsors](manage-work/projects/planning-a-project/project-owners-and-sponsors.md)
+
+    * [Update project owners and sponsors](manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md)
+
+    * [Designate Resource Managers for a project or template](manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md)
+
+    * [Overview of the project Actual Completion Date](manage-work/projects/planning-a-project/project-actual-completion-date.md)
+
+    * [Overview of the project Actual Start Date](manage-work/projects/planning-a-project/project-actual-start-date.md)
+
+    * [Overview of project Duration](manage-work/projects/planning-a-project/project-duration.md)
+
+    * [Project Update Type overview](manage-work/projects/planning-a-project/project-update-type-overview.md)
+
+    * [Understand and update project priorities](manage-work/projects/planning-a-project/project-priority.md)
+
+    * [Set the project Planned Completion Date](manage-work/projects/planning-a-project/project-planned-completion-date.md)
+
+    * [Overview of the project Planned Start Date](manage-work/projects/planning-a-project/project-planned-start-date.md)
+
+    * [Overview of the Projected Completion Date for projects, tasks, and issues](manage-work/projects/planning-a-project/project-projected-completion-date.md)
+
+    * [Project Progress Status overview](manage-work/projects/planning-a-project/project-progress-status.md)
+
+    * [Overview of the project Projected Start Date](manage-work/projects/planning-a-project/project-projected-start-date.md)
+
+    * [Create projects](manage-work/projects/create-projects/create-projects-overview.md)
+
+    * [Create a project](manage-work/projects/create-projects/create-project.md)
+
+    * [Request a project](manage-work/projects/create-projects/request-project.md)
+
+    * [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
+
+    * [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
+
+    * [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
+
+    * [Update work on a project](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+
+    * [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
+
+    * [Update task status](manage-work/projects/updating-work-in-a-project/update-task-status.md)
+
+    * [Update issue status](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
+
+    * [View and update Percent Complete for tasks](manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)
+
+    * [Commit Date overview](manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+
+    * [Update Commit Dates on tasks and issues](manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
+
+    * [Interactions between the Commit Date and the Planned Completion Date](manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
+
+    * [Update Condition for tasks and issues](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
+
+    * [Update Condition for a project](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+
+    * [Manage projects](manage-work/projects/manage-projects/manage-projects-overview.md)
+
+    * [Edit projects](manage-work/projects/manage-projects/edit-projects.md)
+
+    * [Copy a project](manage-work/projects/manage-projects/copy-project.md)
+
+    * [Save a project as a template](manage-work/projects/manage-projects/save-project-as-template.md)
+
+    * [Delete projects](manage-work/projects/manage-projects/delete-projects.md)
+
+    * [Recover a deleted project](manage-work/projects/manage-projects/recover-project.md)
+
+    * [Export a project to Microsoft Project](manage-work/projects/manage-projects/export-project-to-ms-project.md)
+
+    * [Map Microsoft Project fields to Adobe Workfront](manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
+
+    * [Recalculate project timelines](manage-work/projects/manage-projects/recalculate-project-timeline.md)
+
+    * [Change the status of a project](manage-work/projects/manage-projects/change-project-status.md)
+
+    * [Select the project Update Type](manage-work/projects/manage-projects/select-project-update-type.md)
+
+    * [Require time to be approved for a project](manage-work/projects/manage-projects/require-time-approval-for-projects.md)
+
+    * [Manage information in the project Overview area](manage-work/projects/manage-projects/understand-project-overview-area.md)
+
+    * [Overview of Project Condition and Condition Type](manage-work/projects/manage-projects/project-condition-and-condition-type.md)
+
+    * [Set the Condition Type of a project](manage-work/projects/manage-projects/set-condition-type-for-project.md)
+
+    * [Remove users from projects](manage-work/projects/manage-projects/remove-users-from-projects.md)
+
+    * [Schedule resources for a project](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
+
+    * [Communicate with Project Team members](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
+
+    * [Manage a project in the Agile View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+
+    * [Overview of project metrics](manage-work/projects/manage-projects/project-metrics.md)
+
+    * [Project limits overview](manage-work/projects/tips-tricks-and-troubleshooting/project-maximums.md)
+
+    * [Create and manage project templates](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+
+    * [Project template overview](manage-work/projects/create-and-manage-templates/project-template-overview.md)
+
+    * [Create a project template](manage-work/projects/create-and-manage-templates/create-template.md)
+
+    * [Create project templates from examples](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
+
+    * [Copy a project template](manage-work/projects/create-and-manage-templates/copy-template.md)
+
+    * [Attach a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+
+    * [Edit project templates](manage-work/projects/create-and-manage-templates/edit-templates.md)
+
+    * [Edit a template task](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+
+    * [Create template from project](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
+
+    * [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
+
+    * [Delete project templates](manage-work/projects/create-and-manage-templates/delete-templates.md)
+
+    * [Remove template information from a project](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+
+    * [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
+
+    * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
+
+    * [Define a Business Case](manage-work/projects/define-a-business-case/define-business-case.md)
+
+    * [Overview of the Areas of the Business Case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+
+    * [Create a Business Case for a project in Adobe Workfront](manage-work/projects/define-a-business-case/create-business-case.md)
+
+    * [Approve a Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
+
+    * [Overview of Business Case financial fields](manage-work/projects/define-a-business-case/business-case-finances.md)
+
+    * [Create Business Case goals](manage-work/projects/define-a-business-case/create-business-case-goals.md)
+
+    * [Budget resources in the Business Case](manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
+
+    * [Budget resources in the Business Case using the Adobe Workfront Resource Planner](manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
+
+    * [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)
+
+    * [Apply a scorecard to a project and generate an Alignment Score](manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)
+
+    * [Attach a Custom Form to a Business Case](manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
+
+    * [Create and edit risks on projects](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
+
+    * [Export the Business Case of a project in Adobe Workfront](manage-work/projects/define-a-business-case/export-business-case.md)
+
+    * [Project finances overview](manage-work/projects/project-finances/project-finances-overview.md)
+
+    * [Project finances overview](manage-work/projects/project-finances/project-finances-overview.md)
+
+    * [How Adobe Workfront calculates finances](manage-work/projects/project-finances/how-workfront-calculates-finances.md)
+
+    * [Recalculate project finances](manage-work/projects/project-finances/recalculate-project-finances.md)
+
+    * [Project finances included in project baselines](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
+
+    * [Manage information in the project Finance area](manage-work/projects/project-finances/manage-project-finance-area.md)
+
+    * [Change the project currency](manage-work/projects/project-finances/change-project-currency.md)
+
+    * [Track costs](manage-work/projects/project-finances/track-costs.md)
+
+    * [Manage project expenses](manage-work/projects/project-finances/manage-project-expenses.md)
+
+    * [Overview of Billing and Revenue](manage-work/projects/project-finances/billing-and-revenue-overview.md)
+
+    * [Create billing records](manage-work/projects/project-finances/create-billing-records.md)
+
+    * [Override Project-Level Billing Rates with Company-Level Billing Rates](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
+
+    * [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+
+    * [Override Job Role Billing Rates at the project level](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+
+    * [Overview of project Planned Benefit](manage-work/projects/project-finances/project-planned-benefit.md)
+
+    * [Set the Performance Index Method (PIM)](manage-work/projects/project-finances/set-pim.md)
+
+    * [Calculate Return On Investment (ROI)](manage-work/projects/project-finances/calculate-roi.md)
+
+    * [Calculate Schedule Performance Index (SPI)](manage-work/projects/project-finances/calculate-spi.md)
+
+    * [Calculate Estimate At Completion (EAC)](manage-work/projects/project-finances/calculate-eac.md)
+
+    * [Calculate Potential Risk Cost](manage-work/projects/project-finances/potential-risk-cost.md)
+
+    * [Calculate Net Value](manage-work/projects/project-finances/calculate-net-value.md)
+
+    * [Calculate Cost Schedule Performance Index (CSI)](manage-work/projects/project-finances/calculate-csi.md)
+
+    * [Calculate Cost Performance Index (CPI)](manage-work/projects/project-finances/calculate-cpi.md)
+
+    * [Calculate Budgeted Cost](manage-work/projects/project-finances/budgeted-cost.md)
+
+    * [Calculate Budgeted Cost of Work Performed (BCWP)](manage-work/projects/project-finances/calculate-bcwp.md)
+
+    * [Calculate Budgeted Cost of Work Scheduled (BCWS)](manage-work/projects/project-finances/calculate-bcws.md)
+
+    * [Export billing record details as a PDF file](manage-work/projects/project-finances/export-billing-record-details.md)
+
+    * [Understand Budgeted Labor Cost and Budgeted Hours for projects](manage-work/projects/project-finances/budgeted-labor-cost.md)
+
+    * [Calculate Planned Labor Cost](manage-work/projects/project-finances/planned-labor-cost.md)
+
+    * [Tips, tricks, and troubleshooting for projects](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+
+    * [Projects FAQs](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
+
+    * [Work with templates scheduled from Completion](manage-work/projects/tips-tricks-and-troubleshooting/work-with-templates-from-completion.md)
+
+    * [How Adobe Workfront calculates finances](manage-work/projects/tips-tricks-and-troubleshooting/how-workfront-calculates-finances.md)
+
+    * [Export the Task List with Child Tasks Indented](manage-work/projects/tips-tricks-and-troubleshooting/export-the-task-list-with-child-tasks-indented.md)
+
+    * [Project status will not change from Complete to Current](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
+
+    * [Project Owner cannot share a project or any of its tasks with a team](manage-work/projects/tips-tricks-and-troubleshooting/project-owner-cannot-share-project-or-tasks.md)
+
+    * [Project limits overview](manage-work/projects/tips-tricks-and-troubleshooting/project-maximums.md)
+
+    * [Duration Types in Adobe Workfront and Microsoft Project](manage-work/projects/tips-tricks-and-troubleshooting/workfront-ms-project-duration-types.md)
+
+    * [How Financial Recalculation is Triggered](manage-work/projects/tips-tricks-and-troubleshooting/how-financial-recalculation-is-triggered.md)
+
+    * [Error Message: A Dependency Loop Was Detected](manage-work/projects/tips-tricks-and-troubleshooting/error-message-a-dependency-loop-was-detected.md)
+
+    * [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
+
+    * [Calculation example - calculate EAC at the Project Level](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
+
+  * [Tasks](manage-work/tasks/tasks-overview.md)
+
+    * [Task information](manage-work/tasks/task-information/task-information.md)
+
+    * [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
+
+    * [View Actual Hours](manage-work/tasks/task-information/actual-hours.md)
+
+    * [Task Tracking Mode overview](manage-work/tasks/task-information/task-tracking-mode.md)
+
+    * [Update Task Priority](manage-work/tasks/task-information/task-priority.md)
+
+    * [Project Percent Complete overview](manage-work/tasks/task-information/project-percent-complete.md)
+
+    * [Planned Hours overview](manage-work/tasks/task-information/planned-hours.md)
+
+    * [Work Effort overview](manage-work/tasks/task-information/work-effort.md)
+
+    * [Task Progress Status overview](manage-work/tasks/task-information/task-progress-status.md)
+
+    * [Overview of the task Planned Start Date](manage-work/tasks/task-information/task-planned-start-date.md)
+
+    * [Overview of the task Planned Completion Date](manage-work/tasks/task-information/task-planned-completion-date.md)
+
+    * [Task Handoff Date overview](manage-work/tasks/task-information/handoff-task-date.md)
+
+    * [Task Slack Date overview](manage-work/tasks/task-information/task-slack-date.md)
+
+    * ["Can Start" overview for tasks](manage-work/tasks/task-information/can-start-task-overview.md)
+
+    * [Set Tracking Mode for tasks](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
+
+    * [Update task Leveling Delay](manage-work/tasks/task-information/task-leveling-delay.md)
+
+    * [Update task Cost Type](manage-work/tasks/task-information/update-task-cost-type.md)
+
+    * [Differentiate between Projected and Estimated Dates](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+
+    * [Overview of task Original Duration and Original Planned Hours](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
+
+    * [Difference between Planned Duration and Duration for tasks](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
+
+    * [Overview of project, task, and issue dates](manage-work/tasks/task-information/project-task-issue-dates.md)
+
+    * [Create tasks overview](manage-work/tasks/create-tasks/create-tasks-overview.md)
+
+    * [Create tasks overview](manage-work/tasks/create-tasks/create-tasks-overview.md)
+
+    * [Create tasks in a project](manage-work/tasks/create-tasks/create-tasks-in-project.md)
+
+    * [Create subtasks](manage-work/tasks/create-tasks/create-subtasks.md)
+
+    * [Create recurring tasks](manage-work/tasks/create-tasks/create-recurring-tasks.md)
+
+    * [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks.md)
+
+    * [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks.md)
+
+    * [Create advanced assignments](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+
+    * [Smart assignments overview](manage-work/tasks/assign-tasks/smart-assignments.md)
+
+    * [Overview of modifying task assignments](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+
+    * [Modify multiple user assignments in a task list](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+
+    * [Manage allocation percentage on tasks](manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)
+
+    * [Manage allocation hours on tasks](manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
+
+    * [Make smart assignments](manage-work/tasks/assign-tasks/make-smart-assignments.md)
+
+    * [Manage tasks](manage-work/tasks/manage-tasks/manage-tasks.md)
+
+    * [Edit tasks](manage-work/tasks/manage-tasks/edit-tasks.md)
+
+    * [Edit tasks in a list](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+
+    * [Overview of saving concurrent changes within a task list](manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
+
+    * [Manage task details, custom forms, and finances](manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md)
+
+    * [Manage task information in the Task Details Overview area](manage-work/tasks/manage-tasks/task-information-in-overview.md)
+
+    * [Manage task finances in the Task Details section](manage-work/tasks/manage-tasks/task-finances-in-details.md)
+
+    * [Copy and duplicate tasks](manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
+
+    * [Move tasks](manage-work/tasks/manage-tasks/move-tasks.md)
+
+    * [Delete tasks](manage-work/tasks/manage-tasks/delete-tasks.md)
+
+    * [Recurring tasks overview](manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
+
+    * [Overview of the project Critical Path](manage-work/tasks/manage-tasks/critical-path.md)
+
+    * [Associate milestones with tasks](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
+
+    * [Convert a task to a project](manage-work/tasks/manage-tasks/convert-task-to-project.md)
+
+    * [Task Constraints](manage-work/tasks/task-constraints/task-constraints.md)
+
+    * [Task Constraint overview](manage-work/tasks/task-constraints/task-constraint-overview.md)
+
+    * [Task Constraint overview: Start No Later Than](manage-work/tasks/task-constraints/start-no-later-than.md)
+
+    * [Task Constraint overview: Start No Earlier Than](manage-work/tasks/task-constraints/start-no-earlier-than.md)
+
+    * [Task Constraint overview: Must Start On](manage-work/tasks/task-constraints/must-start-on.md)
+
+    * [Task Constraint overview: Must Finish On](manage-work/tasks/task-constraints/must-finish-on.md)
+
+    * [Task Constraint overview: Latest Available Time](manage-work/tasks/task-constraints/latest-available-time.md)
+
+    * [Task Constraint overview: Fixed Dates](manage-work/tasks/task-constraints/fixed-dates.md)
+
+    * [Task Constraint overview: Finish No Later Than](manage-work/tasks/task-constraints/finish-no-later-than.md)
+
+    * [Task Constraint overview: Finish No Earlier Than](manage-work/tasks/task-constraints/finish-no-earlier-than.md)
+
+    * [Task Constraint overview: Earliest Available Time](manage-work/tasks/task-constraints/earliest-available-time.md)
+
+    * [Task Constraint overview: As Soon As Possible](manage-work/tasks/task-constraints/as-soon-as-possible.md)
+
+    * [Task Constraint overview: As Late As Possible](manage-work/tasks/task-constraints/as-late-as-possible.md)
+
+    * [Update the Task Constraint of a task](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
+
+    * [Task Duration and Duration Types](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+
+    * [Overview of Task Duration and Duration Type](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+
+    * [Duration Type overview: Calculated Assignment](manage-work/tasks/taskdurtn/calculated-assignment.md)
+
+    * [Duration Type overview: Effort Driven](manage-work/tasks/taskdurtn/effort-driven.md)
+
+    * [Duration Type overview: Calculated Work](manage-work/tasks/taskdurtn/calculated-work.md)
+
+    * [Duration Type overview: Simple](manage-work/tasks/taskdurtn/simple-duration-type.md)
+
+    * [Update the Duration Type of a task](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
+
+    * [Update the Planned Hours and Duration of a task with a Simple Duration Type](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
+
+    * [Use task predecessors](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+
+    * [Overview of task predecessors](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
+
+    * [Create a predecessor relationship on the task list](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
+
+    * [Create a predecessor relationship using the Predecessors area](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
+
+    * [Create predecessor relationships by chaining tasks](manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
+
+    * [Create cross-project predecessors](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
+
+    * [Overview of task dependency types](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+
+    * [Enforce predecessors](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
+
+    * [Overview of Lag Types](manage-work/tasks/use-prdcssrs/lag-types.md)
+
+    * [Task dependency loop overview](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
+
+    * [Tips, tricks, and troubleshooting for tasks](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
+
+    * [Tasks FAQs](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
+
+    * [Projected Duration does not match Planned Duration](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
+
+    * [Tasks not showing as Done with multiple user assignees](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-dont-show-as-done.md)
+
+  * [Issues](manage-work/issues/issues-overview.md)
+
+    * [Convert issues](manage-work/issues/convert-issues/convert-issues-overview.md)
+
+    * [Overview of converting issues in Adobe Workfront](manage-work/issues/convert-issues/convert-issues.md)
+
+    * [Convert an issue to a project in Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-project.md)
+
+    * [Convert an issue to a task in Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-task.md)
+
+    * [Overview of Resolving and Resolvable Objects](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
+
+    * [Unlink issues from their Resolving Objects](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
+
+    * [Manually tie the resolution of an issue to other issues, tasks, or projects](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
+
+    * [Issue information](manage-work/issues/issue-information/issue-info-overview.md)
+
+    * [Issue Duration overview](manage-work/issues/issue-information/issue-duration.md)
+
+    * [Update issue Priority](manage-work/issues/issue-information/update-issue-priority.md)
+
+    * [Update issue severity](manage-work/issues/issue-information/update-issue-severity.md)
+
+    * [Overview of the issue Planned Completion Date](manage-work/issues/issue-information/issue-planned-completion-date.md)
+
+    * [Use "opTask" and "issue" when referencing issues](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
+
+    * [Manage issues](manage-work/issues/manage-issues/manage-issues-overview.md)
+
+    * [Create issues](manage-work/issues/manage-issues/create-issues.md)
+
+    * [Assign issues](manage-work/issues/manage-issues/assign-issues.md)
+
+    * [View issues](manage-work/issues/manage-issues/view-issues.md)
+
+    * [Edit issues](manage-work/issues/manage-issues/edit-issues.md)
+
+    * [Edit issues in a list](manage-work/issues/manage-issues/edit-issues-in-a-list.md)
+
+    * [Copy issues](manage-work/issues/manage-issues/copy-issues.md)
+
+    * [Move issues](manage-work/issues/manage-issues/move-issues.md)
+
+    * [Delete issues](manage-work/issues/manage-issues/delete-issues.md)
+
+    * [Modify issue assignments overview](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+
+    * [Edit user assignments for multiple issues](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
+
+    * [Automatically update issue statuses from Awaiting Feedback to In Progress](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
+
+  * [The Gantt Chart](manage-work/gantt-chart/the-gantt-chart.md)
+
+    * [Gantt Chart overview](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
+
+    * [Get started with the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
+
+    * [Configure how information displays on the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
+
+    * [View information in the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
+
+    * [Update information in the task list Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+
+    * [Level Resources in the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)
+
+    * [Export the Gantt Chart to PDF](manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)
+
+  * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
+
+    * [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+
+    * [Navigate within a portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
+
+    * [Portfolio Management overview](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
+
+    * [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+
+    * [Create and manage portfolios](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+
+    * [Create a portfolio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+
+    * [Delete and deactivate portfolios](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
+
+    * [Edit portfolios](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
+
+    * [Add projects to a portfolio](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+
+    * [Remove a project from a portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
+
+    * [Review Requested Projects](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
+
+    * [Create and manage programs](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+
+    * [Create a program](manage-work/portfolios/create-and-manage-programs/create-program.md)
+
+    * [Edit programs](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
+
+    * [Add an existing program to a portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
+
+    * [Add a project to a program](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+    * [Remove a project from a program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+
+    * [Manage projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+
+    * [Portfolio Optimizer overview](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+
+    * [Locate the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+
+    * [Overview of the Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
+
+    * [Prioritize projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+
+    * [Optimize projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
+
+    * [Calculate the Risk to Net Value in a portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
+
+    * [Risk to Net Value (Draft - Alina) in the new Adobe Workfront experience](manage-work/portfolios/portfolio-optimizer/risk-to-net-value-d.md)
+
+  * [Requests](manage-work/requests/requests-overview.md)
+
+    * [Create and manage Request Queues](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+
+    * [Create a Request Queue](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+
+    * [Provide access to request queues](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+
+    * [Create Topic Groups](manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+
+    * [Create Queue Topics](manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+
+    * [Create Routing Rules](manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+
+    * [Overview of the Queue Details tab in a project](manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md)
+
+    * [Define Request Types for a project in Adobe Workfront](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
+
+    * [Create requests](manage-work/requests/create-requests/create-requests.md)
+
+    * [Create and submit Adobe Workfront requests](manage-work/requests/create-requests/create-submit-requests.md)
+
+    * [Create requests from drafts](manage-work/requests/create-requests/create-requests-from-drafts.md)
+
+    * [Enable users to email an issue into a Request Queue project](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
+
+    * [Locate submitted requests](manage-work/requests/create-requests/locate-submitted-requests.md)
+
+    * [Share a link to a request queue](manage-work/requests/create-requests/share-link-to-request-queue.md)
+
+    * [Delete a request draft](manage-work/requests/create-requests/delete-request-draft.md)
+
+    * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
+
+* [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
+
+  * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
+
+  * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+
+  * [Create a team](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
+
+  * [Create and manage Agile teams](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
+
+  * [Edit team settings](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
+
+  * [Manage what your team is working on](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
+
+  * [Deactivate a team](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+
+  * [Configure the Done button for tasks](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+
+  * [Configure the Done button for issues](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+
+  * [Replace the Work On It button with a Start button](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+
+  * [Work directly with others](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
+
+  * [Send direct messages to other users](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+
+  * [View the organizational chart](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
+
+  * [Work with groups and teams](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
+
+  * [Groups vs. teams in Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+
+  * [Work with team requests](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
+
+  * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
+
+  * [Manage work and team requests](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
+
+  * [Tips, Tricks, and Troubleshooting for People, Teams, and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
+
+  * [Configure the Done button for issues if no team is assigned](people-teams-and-groups/tips-tricks-and-troubleshooting/issue-status.md)
+
+  * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
+
+* [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
+
+  * [Reports](reports-and-dashboards/reports/reports-overview.md)
+
+    * [Reporting basics](reports-and-dashboards/reports/reporting/reporting-basics.md)
+
+    * [Get started with reports in Adobe Workfront](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+
+    * [Save default reports as new reports](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
+
+    * [Fields in lists and reports](reports-and-dashboards/reports/reporting/understand-fields-lists-reports.md)
+
+    * [Reporting elements overview](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
+
+    * [Reporting elements: filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+
+    * [Filters overview in Adobe Workfront (draft)](reports-and-dashboards/reports/reporting-elements/filters-overview-draft.md)
+
+    * [Filters overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+
+    * [Create or edit filters in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-filters.md)
+
+    * [Filter and condition modifiers](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+
+    * [Views overview in Adobe Workfront (draft)](reports-and-dashboards/reports/reporting-elements/views-overview-draft.md)
+
+    * [Views overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/views-overview.md)
+
+    * [Create and edit views](reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+
+    * [Use conditional formatting in Views](reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
+
+    * [Groupings overview in Adobe Workfront (draft)](reports-and-dashboards/reports/reporting-elements/groupings-overview-draft.md)
+
+    * [Groupings overview in Adobe Workfront (draft)](reports-and-dashboards/reports/reporting-elements/groupings-overview-draft.md)
+
+    * [Groupings overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+
+    * [Create groupings](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+
+    * [Edit existing groupings](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
+
+    * [Wildcard filter variables](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+
+    * [Advanced Filter and condition qualifiers](reports-and-dashboards/reports/reporting-elements/advanced-filter-condition-qualifiers.md)
+
+    * [Use date-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
+
+    * [Use user-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
+
+    * [Share a filter, view, or grouping in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+
+    * [Remove filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+
+    * [Delete filters](reports-and-dashboards/reports/reporting-elements/delete-filters.md)
+
+    * [Use the Milestone view](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
+
+    * [Modify column width and order](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+
+    * [Use built-in reports](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
+
+    * [Built-in Status Icons in Views](reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
+
+    * [Use Adobe Workfront built-in reports](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+
+    * [Overview of the Resource Utilization report](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
+
+    * [Create and manage reports](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+
+    * [Create a report](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
+
+    * [Create a custom report](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
+
+    * [Run a report](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
+
+    * [Create a matrix report](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
+
+    * [Create a copy of a report](reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
+
+    * [Filter reports by time frames](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+
+    * [Add a prompt to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+
+    * [Add a chart to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
+
+    * [Report delivery overview](reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
+
+    * [Schedule an automatic report delivery](reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)
+
+    * [Share a report in Adobe Workfront](reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+
+    * [Run and deliver a report with the access rights of another user](reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)
+
+    * [Send a report in the Preview Sandbox environment](reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md)
+
+    * [Reference a custom form in a report](reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md)
+
+    * [Export data](reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)
+
+    * [Create financial data reports with unique exchange rates](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
+
+    * [Edit report settings](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
+
+    * [Change the owner of a report](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
+
+    * [Report on the Updates area](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+
+    * [Create a User Delegation report](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
+
+    * [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+
+    * [Calculated data expressions](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+
+    * [Calculated custom fields vs. calculated columns](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
+
+    * [Condition operators in calculated custom expressions](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
+
+    * ["IF" statements overview](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+
+    * [Calculated custom field example: display the manager of an issue's creator on the issue custom form](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
+
+    * [Calculated custom field example: display a Status timestamp in a Custom Form](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
+
+    * [Calculated custom field example: display a field's edit history](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+
+    * [Custom View, Filter, and Grouping samples](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+
+    * [Reports or lists: display users associated with an object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+
+    * [Filter: cross-project predecessors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+
+    * [Filter: cross-project successors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+
+    * [Filter: current projects pending approval](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
+
+    * [Filter: display only items in an approval status](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
+
+    * [Filter: eliminate items in a list by comparing two fields](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+
+    * [Filter: parent task filters](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
+
+    * [Filter Proof Approval report to omit previous proof versions](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+
+    * [Filter: create multiple filter rules that reference the same field ("AND" statements)](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+
+    * [Filter: report delivery filter](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
+
+    * [Filter: display items by same-name statuses when the statuses are associated with different groups](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+
+    * [Group and chart a report by a multi-select custom field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/group-chart-report-multi-select-custom-field.md)
+
+    * [Grouping: 4-level task Grouping for Portfolio Owner, Program Owner, Project Owner, and Project Status](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+
+    * [Grouping: add a fourth grouping to a list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+
+    * [Grouping: organize list results by a calculated value common to all objects in the grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+
+    * [Grouping: display the result of aggregating multiple calculated values in a grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
+
+    * [Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+
+    * [Grouping: project percent breakdown 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
+
+    * [Grouping: project percent breakdown 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
+
+    * [Grouping: projects by Entry Date](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
+
+    * [Grouping: Project Sponsor for hours](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+
+    * [Grouping: Project Sponsor for a task list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
+
+    * [Grouping: edit the display name in a grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+
+    * [Grouping: Home Group of Project Owner in a list of hours](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+
+    * [Grouping: task percent breakdown 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
+
+    * [Grouping: task percent breakdown 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
+
+    * [Grouping: tasks by portfolio, program, and project](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
+
+    * [Report: Budgeted Hour](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
+
+    * [Report: combined task and issue View and Grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
+
+    * [View: show name of parent tasks as all caps](reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
+
+    * [View: Actual Hours over Planned Hours in task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
+
+    * [View: assigned user's Company and Home Group](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
+
+    * [View: baseline variance for Duration and Planned Work in a task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+
+    * [View: calculate overtime cost in a Timesheet View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
+
+    * [View: calculate time and date differences](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+
+    * [View: display the result of a calculation between two fields in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+
+    * [View: add a list of task successors in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
+
+    * [View and grouping: display project Actual Duration aggregated by the average in a Grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+
+    * [View: combined task and issue details in an Hour list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+
+    * [View: display an image instead of a string in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+
+    * [View: display objects that are not included in the standard interface](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+
+    * [View: display original issue information on task and project list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+
+    * [View: display Program and Portfolio information in a task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+
+    * [View: display task indentations in a task list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+
+    * [View: document report with link to a proof](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
+
+    * [View: permanently edit the width of a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+
+    * [View: expanded user details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
+
+    * [View: hide the content of a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+
+    * [View: hours with parent task information](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
+
+    * [View: issues with approval information](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
+
+    * [View: issues with the company name of the originator](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
+
+    * [View: issues with resolving object details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
+
+    * [View: merge information from multiple columns in one shared column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
+
+    * [View: multi-row project View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
+
+    * [View: originating issue details for tasks and projects](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
+
+    * [View: Planned Hours vs. Actual Hours per assignment in task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
+
+    * [View: predecessor details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+
+    * [View: project with all project team users and roles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
+
+    * [View: list of project users with job roles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
+
+    * [View: remove link to an object in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+
+    * [View: report delivery details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md)
+
+    * [View: reporting elements used in reports](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
+
+    * [View: Resolvable Objects in a task or project report](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
+
+    * [View: Resource Pool quick links](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md)
+
+    * [View: show parent tasks up to 4 levels deep](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+
+    * [View: submission path for issues](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
+
+    * [View: task with All Dates variance](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
+
+    * [View: tasks impacted by schedule exceptions](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
+
+    * [View: external URL using custom data field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
+
+    * [View: user Job Role percentage of FTE availability](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
+
+    * [View: user personal time off](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
+
+    * [View: username](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md)
+
+    * [Custom View, Filter, and Grouping samples](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+
+    * [Text Mode resources](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+
+    * [Text Mode overview](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+
+    * [Overview of common uses for Text Mode](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+
+    * [Text mode syntax overview](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+
+    * [Edit a view using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+
+    * [Edit a filter using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+
+    * [Edit text mode in a grouping](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+
+    * [Custom View, Filter, and Grouping samples](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+
+    * [View: show name of parent tasks as all caps](reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
+
+    * [Reports or lists: display users associated with an object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+
+    * [Filter: cross-project predecessors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+
+    * [Filter: cross-project successors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+
+    * [Filter: current projects pending approval](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
+
+    * [Filter: display only items in an approval status](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
+
+    * [Filter: eliminate items in a list by comparing two fields](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+
+    * [Filter: parent task filters](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
+
+    * [Filter Proof Approval report to omit previous proof versions](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+
+    * [Filter: create multiple filter rules that reference the same field ("AND" statements)](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+
+    * [Filter: report delivery filter](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
+
+    * [Filter: display items by same-name statuses when the statuses are associated with different groups](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+
+    * [Group and chart a report by a multi-select custom field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/group-chart-report-multi-select-custom-field.md)
+
+    * [Grouping: 4-level task Grouping for Portfolio Owner, Program Owner, Project Owner, and Project Status](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+
+    * [Grouping: add a fourth grouping to a list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+
+    * [Grouping: organize list results by a calculated value common to all objects in the grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+
+    * [Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+
+    * [Grouping: project percent breakdown 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
+
+    * [Grouping: project percent breakdown 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
+
+    * [Grouping: Project Sponsor for hours](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+
+    * [Grouping: Project Sponsor for a task list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
+
+    * [Grouping: edit the display name in a grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+
+    * [Grouping: projects by Entry Date](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
+
+    * [Grouping: task percent breakdown 1](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
+
+    * [Grouping: task percent breakdown 2](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
+
+    * [Grouping: tasks by portfolio, program, and project](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
+
+    * [Grouping: Home Group of Project Owner in a list of hours](reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
+
+    * [Report: Budgeted Hour](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
+
+    * [Report: combined task and issue View and Grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
+
+    * [View: Actual Hours over Planned Hours in task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
+
+    * [View: assigned user's Company and Home Group](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
+
+    * [View: baseline variance for Duration and Planned Work in a task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+
+    * [View: calculate overtime cost in a Timesheet View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
+
+    * [View: calculate time and date differences](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+
+    * [View: display the result of a calculation between two fields in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+
+    * [View: add a list of task successors in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
+
+    * [View and grouping: display project Actual Duration aggregated by the average in a Grouping](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+
+    * [View: combined task and issue details in an Hour list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+
+    * [View: display an image instead of a string in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+
+    * [View: display objects that are not included in the standard interface](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+
+    * [View: display original issue information on task and project list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+
+    * [View: display Program and Portfolio information in a task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+
+    * [View: display task indentations in a task list](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+
+    * [View: document report with link to a proof](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
+
+    * [View: permanently edit the width of a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+
+    * [View: expanded user details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
+
+    * [View: hide the content of a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+
+    * [View: hours with parent task information](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
+
+    * [View: issues with approval information](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
+
+    * [View: issues with the company name of the originator](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
+
+    * [View: issues with resolving object details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
+
+    * [View: merge information from multiple columns in one shared column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
+
+    * [View: multi-row project View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
+
+    * [View: originating issue details for tasks and projects](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
+
+    * [View: Planned Hours vs. Actual Hours per assignment in task View](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
+
+    * [View: predecessor details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+
+    * [View: project with all project team users and roles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
+
+    * [View: list of project users with job roles](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
+
+    * [View: remove link to an object in a column](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+
+    * [View: report delivery details](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md)
+
+    * [View: reporting elements used in reports](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
+
+    * [View: Resolvable Objects in a task or project report](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
+
+    * [View: Resource Pool quick links](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md)
+
+    * [View: show parent tasks up to 4 levels deep](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+
+    * [View: submission path for issues](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
+
+    * [View: task with All Dates variance](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
+
+    * [View: tasks impacted by schedule exceptions](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
+
+    * [View: external URL using custom data field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
+
+    * [View: user Job Role percentage of FTE availability](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
+
+    * [View: user personal time off](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
+
+    * [View: username](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md)
+
+    * [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+
+    * [Calculated data expressions](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+
+    * [Calculated custom fields vs. calculated columns](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
+
+    * [Condition operators in calculated custom expressions](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
+
+    * ["IF" statements overview](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+
+    * [Calculated custom field example: display the manager of an issue's creator on the issue custom form](reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
+
+    * [Calculated custom field example: display a Status timestamp in a Custom Form](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
+
+    * [Calculated custom field example: display a field's edit history](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+
+    * [Use conditional formatting in Text Mode](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
+
+    * [Format dates in text mode reports](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
+
+    * [Format numbers, currency and percentage values in text mode reports](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
+
+    * [Compare fields in conditional formatting](reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
+
+    * [Reference collections in a report](reports-and-dashboards/reports/text-mode/reference-collections-report.md)
+
+    * [Create "OR" statements in text mode filters](reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
+
+    * [Create complex Text Mode filters using EXISTS statements](reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+
+    * [Report usage overview](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+
+    * [Access and organize reports](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+
+    * [Create a report on reporting activities](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
+
+    * [Understand how to organize reports on a dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
+
+    * [View report usage](reports-and-dashboards/reports/report-usage/view-report-usage.md)
+
+    * [Calendars](reports-and-dashboards/reports/calendars/calendars.md)
+
+    * [Calendar reports overview](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
+
+    * [Use custom date fields in a calendar report](reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+    * [Use Planned Dates in a calendar report](reports-and-dashboards/reports/calendars/use-planned-dates.md)
+
+    * [Use Projected Dates in a calendar report](reports-and-dashboards/reports/calendars/use-projected-dates.md)
+
+    * [View calendar reports and event details](reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
+
+    * [Share a calendar report](reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+
+    * [Edit an existing calendar report](reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
+
+    * [Delete a calendar report](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
+
+    * [Copy a calendar report](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
+
+    * [Add ad-hoc events to a calendar report](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
+
+    * [Tips, tricks, and troubleshooting for reports](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
+
+    * [Reports FAQs](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
+
+    * [Error message on calendar: "This calendar has the view rights of a deactivated user."](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
+
+    * [Error message when running a report: "You are not currently logged in."](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md)
+
+    * [Inline editing dates shifts calendar display outside of box](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/date-edits-shift-calendar.md)
+
+    * [Data from shared columns not displayed in dashboard reports](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/shared-columns-not-displayed-in-report-dashboard.md)
+
+  * [Dashboards](reports-and-dashboards/dashboards/dashboards-overview.md)
+
+    * [Understand dashboards](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
+
+    * [Get started with dashboards](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
+
+    * [Understand how reports display on a dashboard](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
+
+    * [Create and manage dashboards](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
+
+    * [Create a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+
+    * [Add a report to a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+
+    * [Copy a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
+
+    * [Delete a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
+
+    * [Edit a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
+
+    * [Embed an external web page in a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
+
+    * [Embed a request queue in a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
+
+    * [Export a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
+
+    * [Print a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
+
+    * [Share a dashboard in Adobe Workfront](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+
+    * [Remove an External Page from a dashboard in Adobe Workfront](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+
+* [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
+
+* [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
+
+* [Apply filters in Enhanced analytics](enhanced-analytics/use-enhanced-analytics-filters.md)
+
+* [Understand Enhanced analytics KPIs](enhanced-analytics/understand-enhanced-analytics-kpis.md)
+
+* [View the Flight plan visualization in Enhanced analytics](enhanced-analytics/flight-plan-overview.md)
+
+* [View the Burndown visualization in Enhanced analytics](enhanced-analytics/burndown-overview.md)
+
+* [View the Tasks in flight visualization in Enhanced analytics](enhanced-analytics/tasks-in-flight-overview.md)
+
+* [View the Project activity visualization in Enhanced analytics](enhanced-analytics/project-activity-overview.md)
+
+* [View the Project treemap visualization in Enhanced analytics](enhanced-analytics/project-treemap-overview.md)
+
+* [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
+
+* [View the Resource capacity visualization in Enhanced analytics](enhanced-analytics/resource-capacity-overview.md)
+
+* [View the Team capacity visualization in Enhanced analytics](enhanced-analytics/team-capacity-overview.md)
+
+* [View Enhanced analytics visualizations by duration](enhanced-analytics/view-enhanced-analytics-charts-duration.md)
+
+* [Trend views overview](enhanced-analytics/trend-views-overview.md)
+
+* [Manage resources](resource-mgmt/manage-resources.md)
+
+  * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+
+  * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
+
+  * [Migrate from Legacy Resource Estimates to Resource Budgeting](resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md)
+
+  * [Deprecation of Resource Scheduling tools in Adobe Workfront](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
+
+  * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
+
+    * [Resource Pools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
+
+    * [Resource pools overview in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+
+    * [Create resource pools in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+
+    * [Associate resource pools with projects and templates in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+
+    * [Associate resource pools with users in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+
+    * [Remove users from resource pools in Adobe Workfront](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+
+  * [Get started with Resource Planning](resource-mgmt/resource-planning/get-started-resource-planning.md)
+
+  * [Access needed to budget resources](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+
+  * [Resource Planner overview](resource-mgmt/resource-planning/get-started-resource-planner.md)
+
+  * [Locate the Resource Planner in Adobe Workfront](resource-mgmt/resource-planning/locate-resource-planner.md)
+
+  * [Resource Planner navigation overview](resource-mgmt/resource-planning/resource-planner-navigation.md)
+
+  * [Review resource availability and allocation using the Resource Planner](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
+
+  * [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+
+  * [Budget resources in the Resource Planner using the Project and Role views](resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+
+  * [Adjust budgeting dates in the Resource Planner](resource-mgmt/resource-planning/adjust-budgeting-dates.md)
+
+  * [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+
+  * [Overview of calculating hours and FTE for users and roles in the Resource Planner](resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)
+
+  * [Calculate costs in the Resource Planner](resource-mgmt/resource-planning/calculate-costs-resource-planner.md)
+
+  * [Prioritize projects in the Resource Planner](resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)
+
+  * [Share the Resource Planner user view with a link](resource-mgmt/resource-planning/share-resource-planner-with-link.md)
+
+  * [Filter information in the Resource Planner](resource-mgmt/resource-planning/filter-resource-planner.md)
+
+  * [Export information from the Resource Planner](resource-mgmt/resource-planning/export-resource-planner.md)
+
+  * [Report on Resource Planner Budgeted Hours](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
+
+  * [Resource Planner display limitations](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+
+  * [Resource Scheduling](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
+
+  * [Get started with Resource Scheduling](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+
+  * [Overview of the Scheduling areas](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
+
+  * [Configure settings in the Scheduling areas](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
+
+  * [Allow user assignments regardless of role and group membership in the Scheduling areas](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
+
+  * [Automatically assign unassigned tasks and issues in the Scheduling areas](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
+
+  * [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
+
+  * [Filter information in the Scheduling area](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+
+  * [Manage user allocations in the Scheduling areas](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+
+  * [Manually assign unassigned tasks and issues in the Scheduling areas](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+
+  * [Modify multiple users assignments to tasks in the Scheduling areas](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
+
+  * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
+
+  * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
+
+  * [The Workload Balancer](resource-mgmt/workload-balancer/workload-balancer.md)
+
+  * [Overview of the Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+
+  * [Access needed to manage resources in the Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
+
+  * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
+
+  * [Add a custom section to display the Workload Balancer](resource-mgmt/workload-balancer/add-custom-section-for-balancer.md)
+
+  * [Overview of assigning work in the Adobe Workfront Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+
+  * [Unassign work in the Adobe Workfront Workload Balancer](resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
+
+  * [Manage filters in the Workload Balancer](resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+
+  * [Assign work in bulk using the Adobe Workfront Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)
+
+  * [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
+
+  * [Assign work manually using the Adobe Workfront Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)
+
+  * [Manage user allocations in the Workload Balancer](resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+
+  * [Navigate the Workload Balancer](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+
+  * [Share the Workload Balancer with a link](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+
+  * [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+
+  * [Perform 'what-if' scenarios in the Workload Balancer](resource-mgmt/workload-balancer/what-if-scenarios-balancer.md)
+
+* [Review and approve work](review-and-approve-work/review-and-approve-work.md)
+
+  * [Manage approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
+
+  * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
+
+  * [Request document approvals](review-and-approve-work/manage-approvals/request-document-approvals.md)
+
+  * [Approving work in Adobe Workfront](review-and-approve-work/manage-approvals/approving-work.md)
+
+  * [View approvals in Adobe Workfront](review-and-approve-work/manage-approvals/view-approvals.md)
+
+  * [Reminding Approvers about Submitted Approvals](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
+
+  * [Add additional approvers to submitted document approvals](review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
+
+  * [Viewing submitted proof approvals](review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
+
+  * [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
+
+  * [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+
+  * [Recalling Submitted Approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+
+  * [Proofing](review-and-approve-work/proofing/proofing.md)
+
+    * [Proofing overview](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+
+    * [Proof Permission Profile overview](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
+
+    * [Proof Roles overview](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+
+    * [Automated Workflow overview](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+
+    * [Automated Workflow Stages overview](review-and-approve-work/proofing/proofing-overview/stages.md)
+
+    * [Notifications for proof comments and decisions overview](review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+
+    * [Interactive content proofs overview](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
+
+    * [Document reprocessing for proofing overview](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
+
+    * [Supported proofing file types and size limits overview](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
+
+    * [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+
+    * [Proof security overview](review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
+
+    * [Proof progress and status overview](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
+
+    * [Create proofs](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+
+    * [Generate a proof](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md)
+
+    * [Configure a proof](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md)
+
+    * [Configure personal proofing defaults](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
+
+    * [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
+
+    * [Create an interactive proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
+
+    * [Create a proof for interactive content in a ZIP file](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+
+    * [Create a static proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
+
+    * [Create a proof for a document](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
+
+    * [Create an advanced proof with a Basic workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+
+    * [Create an advanced proof with an Automated workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+
+    * [Manage proofs within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+
+    * [Share a proof within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+
+    * [Edit proof stages and reviewers](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
+
+    * [Manage deadlines for a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/set-deadlines-proof.md)
+
+    * [Send email messages to reviewers on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
+
+    * [Configure access and subscription settings for a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+
+    * [Convert a basic workflow to an Automated Workflow on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
+
+    * [Add stages and users to an Automated Workflow on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
+
+    * [View Automated Workflow stages on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+
+    * [View active stages on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
+
+    * [View activity on a proof within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
+
+    * [Print a proof summary within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+
+    * [Access Workfront Proof from Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+
+    * [Delete a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
+
+    * [Restore an archived proof](review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
+
+    * [Administer proofing within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/administer-proofing-in-workfront.md)
+
+    * [Create or edit an Automated Workflow for an existing proof](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+
+    * [Create a new version of a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
+
+    * [Manage proof versions](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions.md)
+
+    * [Use the proof approval report](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
+
+    * [Edit proof settings](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
+
+    * [Use the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+
+    * [Install the Desktop Proofing Viewer with Automatic Updates](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
+
+    * [Update the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
+
+    * [Open proofs in the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
+
+    * [Review non-interactive content in the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
+
+    * [FAQ - Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
+
+    * [Review proofs within Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+
+      * [Review a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+
+      * [View content in a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
+
+      * [Measure an area within a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
+
+      * [Change the unit of measurement of the timeline in a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
+
+      * [Control playback in a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
+
+      * [Enable loop in a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
+
+      * [Lock or unlock a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
+
+      * [Search content within a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
+
+      * [Compare proofs](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
+
+      * [Downloading a Proof in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/download-a-proof-in-viewer.md)
+
+      * [Keyboard shortcuts in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)
+
+      * [View previous proof versions in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
+
+      * [Comment on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+
+      * [Comment on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+
+      * [View and reply to proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
+
+      * [Search, filter, and sort proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
+
+      * [Edit proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/edit-a-proof-comment.md)
+
+      * [Resolve proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)
+
+      * [Delete proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
+
+      * [Use actions on proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
+
+      * [Tag users to share a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
+
+      * [Make a decision on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+
+      * [Approve a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
+
+      * [Make a decision on a proof in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+
+      * [Change an existing decision on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
+
+      * [Make a decision on the document with an approval process](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-document-approval.md)
+
+    * [Review a static proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-static-proof.md)
+
+    * [Review a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-video-proof-in-proofing-viewer.md)
+
+    * [Review an interactive proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-and-managing-interactive-proofs.md)
+
+    * [View the Adobe Workfront object associated with a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/view-wf-object-associated-with-proof.md)
+
+      * [Share a proof from the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+
+    * [Create and manage proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/create-manage-proof-comments.md)
+
+    * [Manage notifications for proof comments and decisions](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+
+      * [Change interactive proof resolution in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
+
+    * [Review non-interactive content in the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
+
+    * [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+
+    * [Configure proofing viewer settings](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+
+      * [Make a decision on a proof in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+
+    * [Open proofs in the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
+
+    * [Reviewing a Proof in the Legacy Proofing Viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proof-in-legacy-proofing-viewer.md)
+
+    * [Tips, tricks, and troubleshooting for Proofing within Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+
+    * [List users with a proofing license in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
+
+    * [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
+
+    * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
+
+    * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+
+    * [List users with a proofing license in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
+
+* [Timesheets](timesheets/timesheets-all.md)
+
+  * [Timesheets](timesheets/timesheets/timesheets.md)
+
+  * [Timesheets overview](timesheets/timesheets/timesheets-overview.md)
+
+  * [Understand the Timesheet layout](timesheets/timesheets/timesheet-layout.md)
+
+  * [Create and manage timesheets](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+
+  * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+
+  * [Define hour types and availability for timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+
+  * [Create a single-use timesheet](timesheets/create-and-manage-timesheets/create-tmshts.md)
+
+  * [Log time](timesheets/create-and-manage-timesheets/log-time.md)
+
+  * [Submit a timesheet for approval](timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
+
+  * [Approve a timesheet](timesheets/create-and-manage-timesheets/timesheet-approvals.md)
+
+  * [View total hours on the timesheet](timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
+
+  * [View and manage comments on a timesheet](timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
+
+  * [Delete timesheet profiles](timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
+
+  * [Delete generated timesheets](timesheets/create-and-manage-timesheets/delete-timesheets.md)
+
+  * [Manually generate timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+
+  * [Export a list of timesheets](timesheets/create-and-manage-timesheets/export-timesheets.md)
+
+  * [Configure timesheet preferences](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+
+  * [Configure whether time is logged in hours or days](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
+
+  * [Tips, Tricks, and Troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+
+  * [Correct the start day of the work week for Timesheets](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
+
+  * [Prevent the Recalculate Finances action from affecting historic hours when rates change](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
+
+  * [Track Hour Records with the Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+
+  * [Unable to Log Time for Future Dates](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
+
+* [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
+
+* [Get started with the Adobe Workfront Scenario Planner](scenario-planner/get-started-with-scenario-planning.md)
+
+* [The Adobe Workfront Scenario Planner overview](scenario-planner/scenario-planner-overview.md)
+
+* [Access needed to use the Adobe Workfront Scenario Planner](scenario-planner/access-needed-to-use-sp.md)
+
+* [Copy initiatives in the Adobe Workfront Scenario Planner](scenario-planner/copy-initiatives.md)
+
+* [Create and compare plan scenarios in the Adobe Workfront Scenario Planner](scenario-planner/create-and-compare-scenarios-for-a-plan.md)
+
+* [Create and edit initiatives in the Adobe Workfront Scenario Planner](scenario-planner/create-and-edit-initiatives.md)
+
+* [Create and edit plans in the Adobe Workfront Scenario Planner](scenario-planner/create-and-edit-plans.md)
+
+* [Delete initiatives in the Adobe Workfront Scenario Planner](scenario-planner/delete-initiatives.md)
+
+* [Delete plans in the Adobe Workfront Scenario Planner](scenario-planner/delete-plans.md)
+
+* [Import projects to plans in the Adobe Workfront Scenario Planner](scenario-planner/import-projects-to-plans.md)
+
+* [Initiatives overview in the Adobe Workfront Scenario Planner](scenario-planner/initiatives-overview.md)
+
+* [Plans overview in the Adobe Workfront Scenario Planner](scenario-planner/plans-overview.md)
+
+* [Update initiative priorities in the Adobe Workfront Scenario Planner](scenario-planner/prioritize-initiatives.md)
+
+* [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](scenario-planner/publish-scenarios-update-projects.md)
+
+* [Overview of reconciling resource allocations between projects and initiatives](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
+
+* [Request access to a plan in the Adobe Workfront Scenario Planner](scenario-planner/request-access-to-plan.md)
+
+* [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](scenario-planner/resolve-conflicts-in-sp.md)
+
+* [Share a plan in the Adobe Workfront Scenario Planner](scenario-planner/share-a-plan.md)
+
+* [Show role allocation for projects and initiatives in the task list](scenario-planner/show-role-allocation-task-list-nwe.md)
+
+* [Show role allocation for projects and initiatives in the Workload Balancer](scenario-planner/show-role-allocation-workload-balancer.md)
+
+* [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+
+  * [Adobe Workfront Goals overview](workfront-goals/goal-management/wf-goals-overview.md)
+
+  * [Goal management in Adobe Workfront Goals](workfront-goals/goal-management/goal-management.md)
+
+  * [Access and open goals in Adobe Workfront Goals](workfront-goals/goal-management/access-goals-in-wf-goals.md)
+
+  * [Requirements to use Adobe Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
+
+  * [Activate goals in Adobe Workfront Goals](workfront-goals/goal-management/activate-goals.md)
+
+  * [Calculate goal progress in Adobe Workfront Goals](workfront-goals/goal-management/calculate-goal-progress.md)
+
+  * [Close and reopen goals in Adobe Workfront Goals](workfront-goals/goal-management/close-and-reopen-goals.md)
+
+  * [Copy goals in Adobe Workfront Goals](workfront-goals/goal-management/copy-goals.md)
+
+  * [Create goals in Adobe Workfront Goals](workfront-goals/goal-management/create-goals.md)
+
+  * [Delete and deactivate goals in Adobe Workfront Goals](workfront-goals/goal-management/delete-and-deactivate-goals.md)
+
+  * [Edit goals in Adobe Workfront Goals](workfront-goals/goal-management/edit-goals.md)
+
+  * [Filter information in Adobe Workfront Goals](workfront-goals/goal-management/filter-information-wf-goals.md)
+
+  * [Goal status overview in Adobe Workfront Goals](workfront-goals/goal-management/goal-status-overview.md)
+
+  * [Manage goal comments in Adobe Workfront Goals](workfront-goals/goal-management/manage-goal-comments.md)
+
+  * [Move goals from one time period to another in Adobe Workfront Goals](workfront-goals/goal-management/move-goals-to-another-period.md)
+
+  * [Print the Goal List in Adobe Workfront Goals](workfront-goals/goal-management/print-the-goal-list.md)
+
+  * [Update goals in the Goal Details panel in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
+
+  * [Review in-trouble goals in Adobe Workfront Goals](workfront-goals/goal-management/view-in-trouble-goals.md)
+
+  * [Goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment.md)
+
+  * [Align goals by connecting them in Adobe Workfront Goals](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+
+  * [Align goals by converting results and activities to goals](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+
+  * [Goal alignment overview in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment-overview.md)
+
+  * [Navigate the Goal Alignment section in Adobe Workfront Goals](workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
+
+  * [Remove goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/remove-goal-alignment.md)
+
+  * [Goal review and the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+
+  * [Overview of the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
+
+  * [Check in on goals in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+
+  * [Manage goals in the Goal List of Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
+
+  * [Review graphs to understand goal progress trends in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
+
+  * [Review goals in the Adobe Workfront Goals Pulse section](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
+
+  * [Results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/results-and-activities.md)
+
+  * [Add activities to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-activities-to-goals.md)
+
+  * [Add results to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-results-to-goals.md)
+
+  * [Overview of connecting projects to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+
+  * [Edit results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/edit-results-and-activities.md)
+
+  * [Get started with results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+
+  * [Remove results, activities, and projects from goals in Adobe Workfront Goals](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+
+  * [Adobe Workfront Goals settings](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
+
+  * [Customize Adobe Workfront Goals terminology](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
+
+  * [Share a goal in Adobe Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
+
+  * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+
+  * [Tips, tricks, and troubleshooting for Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/tips-tricks-and-troubleshooting-for-workfront-goals.md)
+
+  * [Examples of goals in Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/examples-of-goals.md)
+
+  * [Frequently asked questions about Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/frequently-asked-questions-about-goals.md)
+
+  * [Tips, tricks, and troubleshooting for Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/tips-tricks-and-troubleshooting-for-workfront-goals.md)
+
+* [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
+
+  * [Get started with Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
+
+  * [Adobe Workfront Fusion overview](workfront-fusion/get-started/workfront-fusion-overview.md)
+
+  * [Basic terms](workfront-fusion/get-started/basic-terms.md)
+
+  * [Create a practice automation scenario](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
+
+  * [Create a practice integration scenario](workfront-fusion/get-started/create-a-practice-scenario.md)
+
+  * [Adobe Workfront Fusion performance guardrails](workfront-fusion/get-started/fusion-performance-guardrails.md)
+
+  * [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
+
+  * [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
+
+  * [Adobe Workfront Fusion basics](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
+
+  * [Change profile settings](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+
+  * [Change your email address in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-your-email-address.md)
+
+  * [Delete an account](workfront-fusion/workfront-fusion-basics/delete-an-account.md)
+
+  * [Delete user data](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+
+  * [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
+
+  * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
+
+  * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+
+  * [Allow connections from Adobe Workfront Fusion](workfront-fusion/connections/allow-connections-from-workfront-fusion.md)
+
+  * [Create connections in Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
+
+  * [Create a connection to Workfront Fusion - Basic instructions](workfront-fusion/connections/connect-to-fusion-general.md)
+
+  * [Connect Adobe Workfront Fusion to any web service](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
+
+  * [Connect Adobe Workfront Fusion to a web service that uses API token authorization](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
+
+  * [Connect Adobe Workfront Fusion to Google Services with updated security measures](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
+
+  * [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
+
+  * [Call the MS Graph REST API via the HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+
+  * [Keys in Adobe Workfront Fusion](workfront-fusion/connections/keys.md)
+
+  * [Receive a webhook from a web service](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
+
+  * [Errors in Adobe Workfront Fusion](workfront-fusion/errors/errors.md)
+
+  * [Error processing](workfront-fusion/errors/error-processing.md)
+
+  * [Error handling](workfront-fusion/errors/error-handling.md)
+
+  * [Directives for error handling](workfront-fusion/errors/directives-for-error-handling.md)
+
+  * [Retry](workfront-fusion/errors/retry.md)
+
+  * [Throw](workfront-fusion/errors/throw.md)
+
+  * [Advanced error handling](workfront-fusion/errors/advanced-error-handling.md)
+
+  * [Functions in Adobe Workfront Fusion](workfront-fusion/functions/functions.md)
+
+  * [General functions](workfront-fusion/functions/general-functions.md)
+
+  * [Map items using functions](workfront-fusion/functions/map-using-functions.md)
+
+  * [Date and time functions](workfront-fusion/functions/date-and-time-functions.md)
+
+  * [String functions](workfront-fusion/functions/string-functions.md)
+
+  * [Math functions](workfront-fusion/functions/math-functions.md)
+
+  * [Math variables](workfront-fusion/functions/math-variables.md)
+
+  * [Array functions](workfront-fusion/functions/array-functions.md)
+
+  * [Tokens for date and time formatting](workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+
+  * [Tokens for date and time parsing](workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+
+  * [Mapping in Adobe Workfront Fusion](workfront-fusion/mapping/mapping.md)
+
+  * [Map information from one module to another](workfront-fusion/mapping/map-information-between-modules.md)
+
+  * [About mapping files](workfront-fusion/mapping/about-mapping-files.md)
+
+  * [Item data types](workfront-fusion/mapping/item-data-types.md)
+
+  * [Map an array](workfront-fusion/mapping/map-an-array.md)
+
+  * [Type coercion](workfront-fusion/mapping/type-coercion.md)
+
+  * [Modules in Adobe Workfront Fusion](workfront-fusion/modules/modules.md)
+
+  * [Types of modules](workfront-fusion/modules/module-types.md)
+
+  * [Configure a module's settings](workfront-fusion/modules/configure-a-modules-settings.md)
+
+  * [Choose where a trigger module starts](workfront-fusion/modules/choose-where-trigger-module-starts.md)
+
+  * [Data Stores](workfront-fusion/modules/data-stores.md)
+
+  * [Data structures](workfront-fusion/modules/data-structures.md)
+
+  * [Aggregator module](workfront-fusion/modules/aggregator-module.md)
+
+  * [Router module](workfront-fusion/modules/router-module.md)
+
+  * [Iterator module](workfront-fusion/modules/iterator-module.md)
+
+  * [Converger module](workfront-fusion/modules/converger-module.md)
+
+  * [HTTP request methods](workfront-fusion/modules/http-request-methods.md)
+
+  * [Text parser troubleshooting](workfront-fusion/modules/text-parser-troubleshooting.md)
+
+  * [Organizations in Adobe Workfront Fusion](workfront-fusion/organizations/organizations.md)
+
+  * [Adobe Workfront Fusion organizations and teams](workfront-fusion/organizations/organizations-and-teams.md)
+
+  * [Add a user to an organization](workfront-fusion/organizations/add-user-to-an-organization.md)
+
+  * [Organization roles](workfront-fusion/organizations/organization-roles.md)
+
+  * [Scenarios](workfront-fusion/scenarios/scenarios.md)
+
+  * [Adobe Workfront Fusion scenario overview](workfront-fusion/scenarios/scenario-overview.md)
+
+  * [Create a scenario](workfront-fusion/scenarios/create-a-scenario.md)
+
+  * [Scenario editor](workfront-fusion/scenarios/scenario-editor.md)
+
+  * [Basic scenario settings](workfront-fusion/scenarios/basic-scenario-settings.md)
+
+  * [Scenario settings panel](workfront-fusion/scenarios/scenario-settings-panel.md)
+
+  * [Scenario detail](workfront-fusion/scenarios/scenario-detail.md)
+
+  * [Scenario execution flow](workfront-fusion/scenarios/scenario-execution-flow.md)
+
+  * [Scenario execution, cycles, and phases](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
+
+  * [View a scenario's execution history](workfront-fusion/scenarios/view-scenario-execution-history.md)
+
+  * [View and resolve incomplete executions](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+
+  * [Schedule a scenario](workfront-fusion/scenarios/schedule-a-scenario.md)
+
+  * [Activate or deactivate a scenario](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
+
+  * [Add a filter to a scenario](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
+
+  * [Cycles](workfront-fusion/scenarios/cycles.md)
+
+  * [Debug scenarios with the Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
+
+    * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
+
+    * [Create new templates in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+
+    * [Publish and share Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+
+    * [Create scenarios with Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
+
+    * [View, edit, and delete Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
+
+    * [Adobe Workfront Fusion Templates administration](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
+
+    * [Adobe Workfront Fusion templates FAQs](workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+
+  * [Scenario example: Connect email, Text Parser, and Google Sheets](workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
+
+  * [Restore a scenario version](workfront-fusion/scenarios/restore-a-scenario-version.md)
+
+  * [Copy modules or scenarios](workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+
+  * [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
+
+  * [Adobe Workfront modules](workfront-fusion/apps-and-their-modules/workfront-modules.md)
+
+  * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+
+  * [Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+
+  * [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+
+  * [ActiveCampaign modules](workfront-fusion/apps-and-their-modules/active-campaign-modules.md)
+
+  * [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
+
+  * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
+
+  * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
+
+  * [Archive modules](workfront-fusion/apps-and-their-modules/archive-modules.md)
+
+  * [AWS S3 modules](workfront-fusion/apps-and-their-modules/aws-s3-modules.md)
+
+  * [Azure Active Directory modules](workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
+
+  * [Azure DevOps modules](workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
+
+  * [Barcodes](workfront-fusion/apps-and-their-modules/barcodes.md)
+
+  * [Box modules](workfront-fusion/apps-and-their-modules/box-modules.md)
+
+  * [Bynder modules](workfront-fusion/apps-and-their-modules/bynder-modules.md)
+
+  * [CloudConvert modules](workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
+
+  * [Converter](workfront-fusion/apps-and-their-modules/converter-modules.md)
+
+  * [CSV](workfront-fusion/apps-and-their-modules/csv.md)
+
+  * [Cvent modules](workfront-fusion/apps-and-their-modules/cvent-modules.md)
+
+  * [Datadog modules](workfront-fusion/apps-and-their-modules/datadog-modules.md)
+
+  * [Data store modules](workfront-fusion/apps-and-their-modules/data-store-modules.md)
+
+  * [DocuSign modules](workfront-fusion/apps-and-their-modules/docusign-modules.md)
+
+  * [Dropbox modules](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
+
+  * [Egnyte modules](workfront-fusion/apps-and-their-modules/egnyte-modules.md)
+
+  * [Email](workfront-fusion/apps-and-their-modules/email.md)
+
+  * [Email modules](workfront-fusion/apps-and-their-modules/email-modules.md)
+
+  * [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
+
+  * [Flow control](workfront-fusion/apps-and-their-modules/flow-control.md)
+
+  * [Frame.io modules](workfront-fusion/apps-and-their-modules/frame-io-modules.md)
+
+  * [FTP modules](workfront-fusion/apps-and-their-modules/ftp-modules.md)
+
+  * [GitHub modules](workfront-fusion/apps-and-their-modules/github.md)
+
+  * [GitLab modules](workfront-fusion/apps-and-their-modules/gitlab-modules.md)
+
+  * [Gmail modules](workfront-fusion/apps-and-their-modules/gmail-modules.md)
+
+  * [Google Calendar modules](workfront-fusion/apps-and-their-modules/google-calendar-modules.md)
+
+  * [Google Docs modules](workfront-fusion/apps-and-their-modules/google-docs-modules.md)
+
+  * [Google Drive modules](workfront-fusion/apps-and-their-modules/google-drive-modules.md)
+
+  * [Google Forms modules](workfront-fusion/apps-and-their-modules/google-forms-modules.md)
+
+  * [Google Sheets modules](workfront-fusion/apps-and-their-modules/google-sheets-modules.md)
+
+  * [Google Slides modules](workfront-fusion/apps-and-their-modules/google-slides-modules.md)
+
+  * [Google Team Drive modules](workfront-fusion/apps-and-their-modules/google-team-drive-modules.md)
+
+    * [HTTP > Other modules](workfront-fusion/apps-and-their-modules/http-modules/http-modules.md)
+
+    * [HTTP > Make a request module](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+
+    * [HTTP > Make a Basic Authorization request module](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+
+    * [HTTP > Make an OAuth 2.0 request module](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+
+    * [HTTP > Make a Client Certificate Authorization request module](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+
+    * [HTTP > Make an API Key Authorization request](workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
+
+    * [HTTP > Other modules](workfront-fusion/apps-and-their-modules/http-modules/http-modules.md)
+
+    * [Use Mutual TLS in HTTP modules](workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md)
+
+  * [HubSpot CRM modules](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
+
+  * [Image modules](workfront-fusion/apps-and-their-modules/image-module.md)
+
+  * [Intacct modules](workfront-fusion/apps-and-their-modules/intacct-modules.md)
+
+  * [ISO modules](workfront-fusion/apps-and-their-modules/iso-modules.md)
+
+  * [Jira Software modules](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
+
+  * [JSON modules](workfront-fusion/apps-and-their-modules/json-modules.md)
+
+  * [MariaDB modules](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
+
+  * [Markdown modules](workfront-fusion/apps-and-their-modules/markdown-modules.md)
+
+  * [Marketo modules](workfront-fusion/apps-and-their-modules/marketo-modules.md)
+
+  * [Math](workfront-fusion/apps-and-their-modules/math-module.md)
+
+  * [Microsoft Dynamics 365 modules](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+
+  * [Microsoft Office 365 Calendar](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
+
+  * [Microsoft Office 365 Email](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
+
+  * [Microsoft Office 365 Excel modules](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
+
+  * [Microsoft OneDrive for Business](workfront-fusion/apps-and-their-modules/microsoft-onedrive-for-business-modules.md)
+
+  * [Microsoft OneDrive modules](workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md)
+
+  * [Microsoft SQL Server modules](workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md)
+
+  * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
+
+  * [Microsoft Word Template modules](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
+
+  * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
+
+  * [Power BI Modules](workfront-fusion/apps-and-their-modules/powerbi-modules.md)
+
+  * [Qualtrics modules](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
+
+  * [Quickbase modules](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
+
+  * [Salesforce modules](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
+
+  * [SDL Managed Translation modules](workfront-fusion/apps-and-their-modules/sdl-managed-translation-modules.md)
+
+  * [ServiceNow modules](workfront-fusion/apps-and-their-modules/servicenow-modules.md)
+
+  * [SFTP modules](workfront-fusion/apps-and-their-modules/sftp.md)
+
+  * [SharePoint modules](workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
+
+  * [Slack modules](workfront-fusion/apps-and-their-modules/slack-modules.md)
+
+  * [SOAP module](workfront-fusion/apps-and-their-modules/soap-module.md)
+
+  * [Split.io modules](workfront-fusion/apps-and-their-modules/split-io-modules.md)
+
+  * [Text parser](workfront-fusion/apps-and-their-modules/text-parser.md)
+
+  * [Tools](workfront-fusion/apps-and-their-modules/tools-modules.md)
+
+  * [Trello modules](workfront-fusion/apps-and-their-modules/trello-modules.md)
+
+  * [Webhooks](workfront-fusion/apps-and-their-modules/webhooks-updated.md)
+
+  * [Widen modules](workfront-fusion/apps-and-their-modules/widen-modules.md)
+
+  * [Workday modules](workfront-fusion/apps-and-their-modules/workday-modules.md)
+
+  * [XML](workfront-fusion/apps-and-their-modules/xml-modules.md)
+
+  * [Tutorials](workfront-fusion/tutorials/tutorials.md)
+
+  * [Connect to any web service that uses OAuth2](workfront-fusion/tutorials/connect-any-service-uses-oauth2.md)
+
+  * [Example of a Default route configured for a router](workfront-fusion/tutorials/example-default-route-configured-router.md)
+
+  * [Extract an item or its value from a collection array](workfront-fusion/tutorials/extract-item-value-collection-array.md)
+
+  * [Make an HTTP request with an API Key](workfront-fusion/tutorials/make-an-http-request-with-an-api-key.md)
+
+  * [Sync Airtable and Google contacts](workfront-fusion/tutorials/sync-airtable-google-contacts.md)
+
+  * [Webhooks](workfront-fusion/webhooks/webhooks.md)
+
+  * [Instant triggers (webhooks)](workfront-fusion/webhooks/instant-triggers-webhooks.md)
+
+  * [Create a custom mailhook](workfront-fusion/webhooks/custom-mailhook.md)
+
+* [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
+
+* [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
+
+* [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
+
+  * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+
+  * [Install Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
+
+  * [Configure Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
+
+  * [Link items between Adobe Workfront and Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
+
+  * [Update linked items between Jira and Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
+
+  * [View the Jira Activity Log](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
+
+  * [Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md)
+
+  * [Install Workfront for Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md)
+
+  * [Find your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-find-work.md)
+
+  * [View work item information in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-view-work-info.md)
+
+  * [Upload XD art boards as proofs to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-proofs.md)
+
+  * [Upload XD art boards as documents to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-docs.md)
+
+  * [Update your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-update.md)
+
+  * [Mark work items complete in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-complete.md)
+
+  * [Log time in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-xd-log-time.md)
+
+  * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
+
+  * [Install Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+
+  * [Log in and out of Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
+
+  * [Access Adobe Workfront Home content from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+
+  * [Update a Adobe Workfront object from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+
+  * [View and manage documents from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+
+  * [View and manage Adobe Workfront object details from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+
+  * [View Adobe Workfront object updates from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+
+  * [Manage Adobe Workfront notification details from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
+
+  * [Reply to a Adobe Workfront update notification from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+
+  * [Turn G Suite emails into Adobe Workfront objects and updates](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
+
+  * [Create a Adobe Workfront task in G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
+
+  * [Create a Adobe Workfront issue in G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+
+  * [Update a Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+
+  * [Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+
+  * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
+
+  * [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
+
+  * [Update an existing object from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
+
+  * [Add an Outlook email to a project as a task or an issue](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
+
+  * [Create an Adobe Workfront request from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
+
+  * [Add an Outlook email as a task to your work list](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
+
+  * [View additional information about Adobe Workfront for Outlook and log out](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
+
+  * [Enable Outlook for Office for use with Adobe Workfront and SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+
+  * [Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
+
+  * [Adobe Workfront for Microsoft Teams Overview](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
+
+  * [Install Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
+
+  * [Access Adobe Workfront from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
+
+  * [Search for and share Adobe Workfront items in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
+
+  * [Create Adobe Workfront tasks from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
+
+  * [Submit Adobe Workfront requests from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)
+
+  * [Manage Workfront notifications in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-all-workfront-notifications-in-ms-teams.md)
+
+  * [Manage Adobe Workfront notifications in Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)
+
+  * [Adobe Workfront for Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
+
+  * [Adobe Workfront for Salesforce overview](workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
+
+  * [Install Adobe Workfront for Salesforce](workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+
+  * [Configure the Adobe Workfront section for Salesforce users](workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
+
+  * [Submit Adobe Workfront requests from Salesforce objects](workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
+
+  * [Create Adobe Workfront projects from Salesforce objects](workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
+
+  * [Adobe Workfront for Slack](workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
+
+  * [Configure Adobe Workfront for Slack](workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
+
+  * [Access your favorites and recent items from Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
+
+  * [Manage your work and approvals from Slack](workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+
+  * [Create tasks and issues from Slack](workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
+
+  * [Search for Adobe Workfront items from Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+
+  * [Access Adobe Workfront objects from a shared link in Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
+
+  * [Access Adobe Workfront from Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+
+  * [Post a Slack comment as an update](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+
+  * [Receive Adobe Workfront notifications in Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
+
+  * [Integrate with Anaplan using Adobe Workfront Fusion](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-using-fusion.md)
+
+  * [Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration.md)
+
+  * [Zoom integration overview](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md)
+
+  * [Authorize the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/authorize-zoom-integration.md)
+
+  * [Uninstall the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/uninstall-zoom-integration.md)
+
+    * [Set up the AEM cloud connector](workfront-integrations-and-apps/workfront-integration-for-aem/archived-ensemble/aem-cloud-connector-setup.md)
+
+    * [Set up the AEM cloud connector](workfront-integrations-and-apps/workfront-integration-for-aem/archived-ensemble/aem-cloud-connector-setup.md)
+
+  * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
+
+  * [Install Workfront for Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
+
+  * [Find your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+
+  * [View work item information in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+
+  * [Update your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+
+  * [Upload proofs from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs.md)
+
+  * [Upload documents from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs.md)
+
+  * [Mark work items complete in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+
+  * [Log time in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+
+* [Workfront Library](workfront-library/workfront-library.md)
+
+  * [Administration and setup of Workfront Library](workfront-library/administration-and-setup/administration-and-setup-library.md)
+
+    * [Workfront Library Setup](workfront-library/administration-and-setup/workfront-library-setup/workfront-library-setup.md)
+
+    * [Required configuration to authenticate to Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/required-configuration-to-authenticate-to-library.md)
+
+    * [Set up a portal in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md)
+
+    * [Set up content expiration in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md)
+
+    * [User access in Workfront Library](workfront-library/administration-and-setup/user-access/user-access.md)
+
+    * [Overview of user access to Workfront Library](workfront-library/administration-and-setup/user-access/user-access-overview.md)
+
+    * [Give users access to Workfront Library](workfront-library/administration-and-setup/user-access/give-users-access-to-library.md)
+
+    * [Change a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/change-user-access.md)
+
+    * [Remove a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/remove-a-users-access-library.md)
+
+    * [Give users access to a Workfront Library portal](workfront-library/administration-and-setup/user-access/give-users-access-portal.md)
+
+    * [Permissions in Workfront Library](workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md)
+
+    * [Metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata.md)
+
+    * [Overview of metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata-overview.md)
+
+    * [Overview of taxonomy metadata in Workfront Library](workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md)
+
+    * [Overview of taxonomy field types](workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md)
+
+    * [Set up taxonomy metadata for Workfront Library](workfront-library/administration-and-setup/metadata/set-up-taxonomy-metadata.md)
+
+    * [Edit a taxonomy metadata field in Workfront Library](workfront-library/administration-and-setup/metadata/edit-the-taxonomy.md)
+
+    * [Determine the display order of taxonomy fields in Workfront Library](workfront-library/administration-and-setup/metadata/determine-display-order-of-taxonomy-fields.md)
+
+    * [Delete a taxonomy field in Workfront Library](workfront-library/administration-and-setup/metadata/delete-a-taxonomy-field-in-workfront-library.md)
+
+    * [Overview of keyword metadata in Workfront Library](workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
+
+    * [Add keywords to metadata in Workfront Library](workfront-library/administration-and-setup/metadata/add-keywords-to-metadata.md)
+
+    * [Rename a keyword in Workfront Library](workfront-library/administration-and-setup/metadata/edit-keyword-pick-list.md)
+
+    * [Delete a keyword from the picklist in Workfront Library](workfront-library/administration-and-setup/metadata/delete-keyword-from-metadata.md)
+
+    * [Format your CSV file for metadata import in Workfront Library](workfront-library/administration-and-setup/metadata/format-your-csv-file-for-metadata-import.md)
+
+    * [Use Workfront Library's import tool to add metadata to content](workfront-library/administration-and-setup/metadata/import-metadata-for-content.md)
+
+    * [Manage assets](workfront-library/administration-and-setup/manage-assets/manage-assets.md)
+
+    * [Manage assets for other users](workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md)
+
+    * [Transfer ownership assets to another user](workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md)
+
+  * [Content management in Workfront Library](workfront-library/content-management/content-management.md)
+
+    * [Workfront Library Basics](workfront-library/content-management/basics/basics.md)
+
+    * [Get started with Workfront Library](workfront-library/content-management/basics/get-started-with-library.md)
+
+    * [Access content in Workfront Library](workfront-library/content-management/basics/access-content.md)
+
+    * [Open items in Workfront Library](workfront-library/content-management/basics/open-items-in-library.md)
+
+    * [Search for items in Workfront Library](workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
+
+    * [Sort content in Workfront Library](workfront-library/content-management/basics/sort-content-in-library.md)
+
+    * [Filter content displayed in Workfront Library](workfront-library/content-management/basics/filter-content-displayed.md)
+
+    * [Download items from Workfront Library](workfront-library/content-management/basics/download-content-from-library.md)
+
+    * [Create a request in Workfront Library](workfront-library/content-management/basics/create-a-request-in-wf-library.md)
+
+    * [View Workfront Library work requests](workfront-library/content-management/basics/view-work-requests-in-library.md)
+
+    * [Open a Workfront Library portal](workfront-library/content-management/basics/open-a-portal.md)
+
+    * [Remove an asset from a folder](workfront-library/content-management/basics/remove-asset-from-folder.md)
+
+    * [Collections in Workfront Library](workfront-library/content-management/collections/collections.md)
+
+    * [Overview of collections in Workfront Library](workfront-library/content-management/collections/collections-overview.md)
+
+    * [Create a collection in Workfront Library](workfront-library/content-management/collections/create-a-collection.md)
+
+    * [Add items to a collection in Workfront Library](workfront-library/content-management/collections/add-items-to-a-collection.md)
+
+    * [Edit a Workfront Library collection](workfront-library/content-management/collections/edit-a-collection.md)
+
+    * [Open a collection in Workfront Library](workfront-library/content-management/collections/open-a-collection.md)
+
+    * [Remove items from a collection in Workfront Library](workfront-library/content-management/collections/remove-items-from-a-collection.md)
+
+    * [Folders in Workfront Library](workfront-library/content-management/folders/folders.md)
+
+    * [Overview of folders in Workfront Library](workfront-library/content-management/folders/folders-overview-library.md)
+
+    * [Create a folder in Workfront Library](workfront-library/content-management/folders/create-a-folder-library.md)
+
+    * [Add items to a folder in Workfront Library](workfront-library/content-management/folders/add-items-to-a-folder-library.md)
+
+    * [Remove items from a folder in Workfront Library](workfront-library/content-management/folders/remove-items-from-a-folder.md)
+
+  * [Upload content to Workfront Library](workfront-library/content-management/upload-new-content.md)
+
+  * [Send documents from Workfront to Workfront Library](workfront-library/content-management/send-documents-from-wf-to-library.md)
+
+  * [Add a Workfront Library asset to Workfront](workfront-library/content-management/add-a-wf-library-asset.md)
+
+  * [Share a Workfront Library item with other users](workfront-library/content-management/share-an-asset-with-users.md)
+
+  * [Rename items in Workfront Library](workfront-library/content-management/rename-items.md)
+
+  * [Change the cover image on an item in Workfront Library](workfront-library/content-management/change-cover-image-of-folder.md)
+
+  * [Bulk edit metadata in Workfront Library](workfront-library/content-management/bulk-edit-metadata.md)
+
+  * [Create and manage views in Workfront Library](workfront-library/content-management/create-and-manage-views.md)
+
+  * [Hide and unhide content in Workfront Library](workfront-library/content-management/hide-and-unhide-content.md)
+
+  * [Delete items from Workfront Library](workfront-library/content-management/delete-items.md)
+
+  * [Relocate assets in Workfront Library](workfront-library/content-management/relocate-assets.md)
+
+    * [Content Versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning.md)
+
+    * [Overview of content versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning-overview.md)
+
+    * [Upload a new version of content in Workfront Library](workfront-library/content-management/content-versioning/upload-new-version-of-content.md)
+
+    * [Access older versions of content in Workfront Library](workfront-library/content-management/content-versioning/view-older-versions-of-content-library.md)
+
+    * [Filters in Workfront Library](workfront-library/content-management/filters/filters.md)
+
+    * [Filter for expired content in Workfront Library](workfront-library/content-management/filters/filter-for-expired-content.md)
+
+    * [Filter for hidden content in Workfront Library](workfront-library/content-management/filters/filter-hidden-content.md)
+
+    * [Manage portals](workfront-library/content-management/portals/portals.md)
+
+    * [Overview of Workfront Library portals](workfront-library/content-management/portals/portals-overview.md)
+
+  * [Export asset metadata from Workfront Library](workfront-library/content-management/export-asset-metadata.md)
+
+* [Workfront Proof](workfront-proof/workfront-proof.md)
+
+  * [Getting started with Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+
+    * [Review and submit a decision in Workfront Proof - Reviewer's Guide](workfront-proof/wp-getstarted/reviewer's-guide/review-and-submit-a-decision.md)
+
+    * [Review and submit a decision in Workfront Proof - Reviewer's Guide](workfront-proof/wp-getstarted/reviewer's-guide/review-and-submit-a-decision.md)
+
+    * [Workflow examples](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
+
+    * [Basic Proofing Process in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+
+    * [Internal Then External Review in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+
+    * [Working with Designers and Project Managers in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
+
+    * [Working with Freelancers in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+
+    * [Personal settings in Workfront Proof](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+
+    * [Designating Temporary Proof Owners in Workfront Proof](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
+
+    * [Integrations - User Setup](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
+
+    * [System information in Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
+
+    * [Preview Sandbox Testing Environment- Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
+
+    * [Language Settings in Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
+
+    * [Codecs in Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
+
+    * [System information in Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
+
+    * [Workfront Proof - frequently asked questions](workfront-proof/wp-getstarted/faqs/faqs.md)
+
+    * [FAQ - Create and share proofs and files](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
+
+    * [FAQ - Review proofs](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
+
+    * [FAQ - Workfront Proof account](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+
+    * [Logging in and changing your password and email for Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
+
+    * [Opening a Workfront Proof basic trial account](workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md)
+
+    * [Setting time zones in Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
+
+  * [Work with proofs and files in Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
+
+    * [Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+
+    * [Set up a proof with an Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+
+    * [Manage a proof configured with an Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
+
+    * [Basic features in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+
+    * [The Dashboard in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+
+    * [Page Layout on the Views Tab in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
+
+    * [Searching Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
+
+    * [Understanding the Workfront Proof Activity Audit Trail](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+
+    * [Create proofs and files](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
+
+    * [Upload Files and Web Content to Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
+
+    * [Generate Proofs in Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
+    * [Copying Proofs in Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
+
+    * [The Dropzone](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
+
+    * [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
+
+    * [Manage your work](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
+
+    * [Manage Files in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
+
+    * [Manage Items on the Views Page in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
+
+    * [Managing Proof Versions in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
+
+    * [Configure Proof Settings in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
+
+    * [Create and Manage Custom Views in Workfront Proof Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
+
+    * [Download Files Stored in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
+
+    * [Manage Proof Details in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+
+    * [View the Progress and Status of a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
+
+    * [Understand Proof State in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
+
+    * [Delete a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
+
+    * [Restore and Empty the Trash in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
+
+    * [Run Reports in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
+
+    * [Organize your work](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
+
+    * [Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
+
+    * [Create Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
+
+    * [Manage Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
+
+    * [Manage Folders and their Contents in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)
+
+    * [Share Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)
+
+    * [Understand Folder Permissions in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
+
+    * [Create and Manage Tags in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
+
+    * [Archive in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
+
+    * [Back Up Your Workfront Proof Data](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+
+    * [Print and Export Comments in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
+
+    * [Review proofs in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+
+    * [Understand the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+
+    * [Configure how hyperlinks open in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
+
+    * [Review proofs in the Web Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+
+    * [Opening a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+
+    * [Review a Workflow in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
+
+    * [Review a proof simultaneously with multiple reviewers](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
+
+    * [View activity on a proof in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
+
+    * [Work with multiple proofs in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
+
+    * [Compare proofs in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
+
+    * [View previous proof versions in the Web Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
+
+    * [Downloading a Proof in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
+
+    * [Keyboard shortcuts in the Workfront Proof proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+
+    * [Legacy proofing viewer Removed](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
+
+    * [Share proofs and files](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
+
+    * [Share a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
+
+    * [Share proof links in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
+
+    * [Share the Public URL in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+
+    * [Share Files in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
+
+    * [Access a proof shared with you](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
+
+    * [Subscribe to a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
+
+    * [Create a Mini proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
+
+    * [Embed a Mini proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
+
+    * [Manage Proof Roles in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+
+  * [Workfront Proof account administration](workfront-proof/wp-acct-admin/wp-account-admin.md)
+
+    * [Account settings in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
+
+    * [Manage Workfront Proof users](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
+
+    * [Configure a user's Proof Permission Profile in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
+
+    * [Configure custom profiles in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
+
+    * [Configure sharing settings for your users](administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
+
+    * [Configure Single Sign-On for Workfront Proof users](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+
+    * [Single Sign-On in Workfront Proof: AD FS configuration](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
+
+    * [Proof Permissions Profiles in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
+
+    * [Configure approval decision options in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
+
+    * [Create and manage custom fields in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
+
+    * [Configure the dropzone in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
+
+    * [Account setup for integrations in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/integrations-account-setup.md)
+
+    * [View authentication logs in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
+
+    * [View and edit your organization's Workfront Proof account details](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
+
+    * [View your organization's Workfront Proof administrator account history](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
+
+    * [Check your Workfront Proof storage](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
+
+    * [Request a new data backup in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
+
+    * [Branding Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
+
+    * [Brand the Workfront Proof site](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+
+    * [Brand the Workfront Proof site - advanced](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+
+    * [Configure a branded domain in Workfront Proof](workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md)
+
+    * [Manage security](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
+
+    * [Proof security in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
+
+    * [Single Sign-On in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
+
+    * [Understanding electronic signatures in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+
+    * [Partner accounts in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
+
+    * [Manage a partner relationship between Workfront Proof accounts](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+
+    * [Share items with a partner in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+
+    * [Satellite accounts in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
+
+    * [Satellite accounts in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
+
+    * [Configure a satellite account in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
+
+    * [Manage a satellite account in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
+
+    * [Tips, tricks, and troubleshooting for Workfront Proof account administration](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+
+    * [FAQ: Workfront Proof - US to EMEA migration](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+
+  * [Accounts merge process](workfront-proof/wp-acct-admin/accounts-merge-process.md)
+
+  * [Workfront Proof Billing Settings](workfront-proof/wp-billingsettings/wp-billing-settings.md)
+
+    * [Manage your billing](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
+
+    * [The Workfront Proof Billing Page](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+
+    * [Account Payment in Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md)
+
+    * [Choosing Your Payment Method in Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+
+    * [Downloading Your Workfront Proof Invoice](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+
+    * [Close your Workfront Proof account](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+
+  * [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
+
+    * [Avoid spam filters](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
+
+    * [Configure spam settings for common email clients](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
+
+    * [Configure Workfront Proof emails to avoid spam filters](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
+
+    * [Workfront Proof SPF records](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+
+    * [Send messages to reviewers](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
+
+    * [Remind a reviewer about assignments in Workfront Proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
+
+    * [Send a reminder message to the reviewers on a proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
+
+    * [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
+
+    * [Late proof email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
+
+    * [New proof email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
+
+    * [The New Version email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
+
+    * [The Proof Made email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+
+    * [Email alerts](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
+
+    * [Configure email notification settings in Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
+
+    * [Change email alert settings for a proof in Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
+
+  * [Managing users and contacts in Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
+
+    * [Users](workfront-proof/wp-mnguserscontacts/users/users.md)
+
+    * [Create Users using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-users.md)
+
+    * [Configure User Information using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+
+    * [Create and Manage Custom Profiles using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+
+    * [Move Users Between Accounts using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+
+    * [Groups](workfront-proof/wp-mnguserscontacts/groups/groups.md)
+
+    * [Add Groups to a Proof](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
+
+    * [Create Proofing Groups using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
+
+    * [Make Groups Private using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+
+    * [Manage Groups using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
+
+    * [Contacts](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
+
+    * [Add a Guest to Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+
+    * [Manage Your Contacts in Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+
+    * [Understand Users, Members, and Guests in Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
+
+    * [Tips, tricks, and troubleshooting for Workfront Proof users and contacts](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
+
+    * [Bulk edit user's Other Groups](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
+
+  * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
+
+    * [Workfront Proof mobile apps](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+
+    * [Workfront Proof mobile app](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+
+    * [Workfront Proof mobile app for tablets](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+
+    * [Tips, tricks, and troubleshooting for the Workfront Proof mobile app](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+
+    * [Unable to Log In to the Workfront Proof Mobile App](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+
+  * [Workfront Proof tech corner](workfront-proof/wp-tech-corner/tech-corner.md)
+
+    * [Proof types](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
+
+    * [Create a Static Website Proof using Workfront Proof](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+
+    * [Troubleshooting in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
+
+    * [Troubleshooting - corrupted interface font in proofing viewer on Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
+
+    * [Understand How Cache and Cookies Affect Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
+
+    * [Speed issues in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+
+    * [Problems With Viewing Proofs - Flash Shared Objects Explained](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
+
+    * [Troubleshooting - Workfront Proof proofing viewer](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+
+  * [Workfront Proof integrations](workfront-proof/wp-integrations/wp-integrations.md)
+
+    * [Workfront Proof API](workfront-proof/wp-integrations/api/wp-api.md)
+
+    * [The Workfront Proof API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
+
+    * [Box](workfront-proof/wp-integrations/box/box.md)
+
+    * [Introduction to the Workfront Proof and Box integration](workfront-proof/wp-integrations/box/introduction-to-box.md)
+
+    * [Create a Proof via Your Box Account](workfront-proof/wp-integrations/box/create-proof-box-account.md)
+
+    * [Sync Box Folders With Workfront Proof](workfront-proof/wp-integrations/box/sycn-box-folder.md)
+
+    * [View a Proof's Original File in Box](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+
+    * [Basecamp](workfront-proof/wp-integrations/basecamp/basecamp.md)
+
+    * [Add a Proof to a Basecamp Project](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+
+    * [Integrate Workfront Proof with Basecamp](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+
+    * [Review a Proof in Basecamp](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+
+    * [Understand the Basecamp Integration with Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+
+    * [Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
+
+    * [Add a Proof to a Basecamp Classic Project](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
+
+    * [Integrate Workfront Proof with Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
+
+    * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
+
+* [Adobe Workfront API](wf-api/workfront-api.md)
+
+  * [API](wf-api/api/api.md)
+
+  * [Uploading files via the API](wf-api/api/uploading-files-api.md)
+
+  * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
+
+  * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
+
+  * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
+  * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
+
+  * [Specify an API Version in your integrations](wf-api/api/specify-api-version-integrations.md)
+
+  * [Access Project Allocation Information via the API](wf-api/api/access-proj-allocation-info-api.md)
+
+  * [Core API changes: Status search responses](wf-api/api/api-changes-search.md)
+
+  * [API versioning and support schedule](wf-api/api/api-version-support-schedule.md)
+
+  * [Escaped characters in API Responses](wf-api/api/escaped-characters-api.md)
+
+  * [Adobe Workfront User Unification Management Initiative FAQ (Draft)](wf-api/api/user-unification-manage-faq.md)
+
+  * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](wf-api/api/oauth-app-code-token-flow.md)
+
+  * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
+
+  * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+
+  * [What's new in API version 14](wf-api/api/new-api-version-14.md)
+
+  * [What's new in API version 13](wf-api/api/new-api-version-13.md)
+
+  * [What's new in API version 12](wf-api/api/new-api-version-12.md)
+
+  * [What's new in API version 11](wf-api/api/new-api-version-11.md)
+
+  * [What's New in API Version 10](wf-api/api/new-api-version-10.md)
+
+  * [What's New in API Version 9](wf-api/api/new-api-version-9.md)
+
+  * [What's New in API Version 9 (continued)](wf-api/api/new-api-version-9-continue.md)
+
+  * [Updates to API Version 9](wf-api/api/new-api-version-9-updates.md)
+
+  * [What's New in API Version 8](wf-api/api/new-api-version-8.md)
+
+  * [Updates to API Version 8](wf-api/api/new-api-version-8-updates.md)
+
+  * [What's New in API Version 7](wf-api/api/new-api-version-7.md)
+
+  * [What's New in API Version 6](wf-api/api/new-api-version-6.md)
+
+  * [API General](wf-api/general/api-general.md)
+
+  * [API basics](wf-api/general/api-basics.md)
+
+  * [API Explorer](wf-api/general/api-explorer.md)
+
+  * [Using the API Explorer](wf-api/general/using-api-explorer.md)
+
+  * [Rich text fields in the Adobe Workfront API](wf-api/general/rich-text-field-api.md)
+
+  * [Adobe Workfront API Developer forum](wf-api/general/api-developer-forum.md)
+
+  * [API example scripts](wf-api/general/api-example-scripts.md)
+
+  * [Using the API to sync data for programs and services](wf-api/general/api-sync-data.md)
+
+  * [Deactivate a User via the API](wf-api/general/deactivate-user-api.md)
+
+  * [Projects API](wf-api/general/projects-api.md)
+
+  * [Event Subscriptions](wf-api/api/event-subscriptions.md)
+
+  * [Event Subscription API](wf-api/general/event-subs-api.md)
+
+  * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
+
+  * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
+
+  * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
+
+  * [Event subscription retries](wf-api/api/event-sub-retries.md)
+
+  * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
+  * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
+
+  * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
+
+  * [Document Webhooks API](wf-api/doc-wbhks-api/document-webhooks-api.md)
+
+  * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
+
+  * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
+
+  * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
+
+  * [Get OAuth2 Tokens](wf-api/doc-wbhks-api/get-oath-token-webhooks.md)
+
+  * [Get metadata for a file or folder](wf-api/doc-wbhks-api/get-metadata-file-folder.md)
+
+  * [Get item list of folder contents](wf-api/doc-wbhks-api/get-list-folder-contents.md)
+
+  * [Search via Document Webhooks](wf-api/doc-wbhks-api/docu-webhook-search.md)
+
+  * [Get document content via Webhooks](wf-api/doc-wbhks-api/get-docu-content-webhook.md)
+
+  * [Get a thumbnail for a document](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
+
+  * [File upload via Document Webhooks](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
+
+  * [Create a Folder with Document Webhooks](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
+
+  * [Delete a document or folder (Not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+
+  * [Get information about the service (not yet implemented)](wf-api/doc-wbhks-api/get-service-info-webhook.md)
+
+  * [Rename a document or folder (not yet implemented)](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
+
+  * [Perform a custom action (not yet implemented)](wf-api/doc-wbhks-api/perform-custom-action.md)
+
+  * [Document Webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
+
+  * [Test Webhook connections](wf-api/doc-wbhks-api/test-webhook-connections.md)
+
+  * [Document Webhooks Error Handling](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
+
+  * [Adobe Workfront Objects](wf-api/wf-objects/workfront-objects.md)
+
+  * [Category](wf-api/wf-objects/category.md)
+
+  * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+
+  * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+
+  * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
+
+  * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
+
+  * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
+
+  * [Add advanced proofing options when creating a proof through the Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+
+* [ProofHQ API](proofhq-api/proofhq-api.md)
+
+  * [General](proofhq-api/general/general.md)
+
+  * [Overview](proofhq-api/general/overview.md)
+
+  * [Code Samples](proofhq-api/general/code-samples.md)
+
+  * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
+
