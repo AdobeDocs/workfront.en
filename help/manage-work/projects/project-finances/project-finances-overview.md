@@ -11,11 +11,11 @@ description: Keeping track of project finances is critical to managing your proj
 
 Keeping track of project finances is critical to managing your projects.
 
-As the project manager, you can manually update some financial fields. Other financial data is calculated automatically by `Adobe Workfront`.
+As the project manager, you can manually update some financial fields. Other financial data is calculated automatically by Adobe Workfront.
 
-You can keep track of financial fields at the project and task level in `Workfront`. You can keep track of limited financial fields for issues.
+You can keep track of financial fields at the project and task level in Workfront. You can keep track of limited financial fields for issues.
 
-The following table shows some of the finances that you can keep track of in `Workfront` and for which object:
+The following table shows some of the finances that you can keep track of in Workfront and for which object:
 
 <table cellspacing="3"> 
  <col> 
@@ -98,7 +98,7 @@ The following table shows some of the finances that you can keep track of in `Wo
   </tr> 
   <tr> 
    <td>Performance Metrics</td> 
-   <td> <p>Performance metrics show how your projects or tasks are performing at a given time. Performance metrics are automatic calculations performed by <span>Workfront</span> for tasks and projects. The performance metrics that you can calculate in <span>Workfront</span> are listed in the following rows. The calculations of the performance metrics vary depending on what type of Performance Index Method you are using. </p> <p>For more information about selecting which PIM to use for your system, see <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a>.</p> </td> 
+   <td> <p>Performance metrics show how your projects or tasks are performing at a given time. Performance metrics are automatic calculations performed by Workfront for tasks and projects. The performance metrics that you can calculate in Workfront are listed in the following rows. The calculations of the performance metrics vary depending on what type of Performance Index Method you are using. </p> <p>For more information about selecting which PIM to use for your system, see <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>&nbsp;</td> 

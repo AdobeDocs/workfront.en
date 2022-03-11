@@ -11,7 +11,7 @@ description: You can use the same calculated custom field on custom forms that b
 
 You can use the same calculated custom field on custom forms that belong to different objects. For example, you can use the Profit calculated field that you created for the project custom form on a task custom form.
 
-For information about adding a calculated custom field to a `custom form`, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+For information about adding a calculated custom field to a custom form, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 When using an existing calculated custom field, the calculation does not transfer to the new form. You must add the calculation again, on the same field, on the new custom form.
 

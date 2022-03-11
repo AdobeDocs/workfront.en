@@ -8,7 +8,7 @@ description: You can deactivate teams you no longer use while retaining the asso
 
 # Deactivate a team
 
-You can deactivate teams you no longer use while retaining the associated historical data. `Adobe Workfront administrators` can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas:
+You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas:
 
 <table> 
  <col> 
@@ -44,17 +44,17 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Deactivate a team
 

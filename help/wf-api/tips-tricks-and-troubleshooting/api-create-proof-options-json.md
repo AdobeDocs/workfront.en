@@ -6,7 +6,7 @@ title: Add advanced proofing options when creating a proof through the Adobe Wor
 description: You can create proofs through the Workfront API by using the Document createProof action. This action accepts the advancedProofingOptions parameter, which has the value type of string. To include advanced proofing options in your createProof action, you must input the options in the advancedProofingOptions parameter in JSON format.
 ---
 
-# Add advanced proofing options when creating a proof through the `Adobe Workfront` API
+# Add advanced proofing options when creating a proof through the Adobe Workfront API
 
 You can create proofs through the Workfront API by using the 
 

@@ -22,7 +22,7 @@ description: [Test]I received the following bounce back email:
 
 ## Solution
 
-DMARC is configured in your company's email system and is not part of `Adobe Workfront`. If you receive&nbsp;this email, you need to contact your email administrator.
+DMARC is configured in your company's email system and is not part of Adobe Workfront. If you receive&nbsp;this email, you need to contact your email administrator.
 
 Your email administrator should configure your email system to allow/trust email from noreply@workfront.com or preferably all email from workfront.com.
 

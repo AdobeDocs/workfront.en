@@ -10,7 +10,7 @@ description: The table below tells you the highest level of access (Edit or View
 
 # Access to objects and areas by license type
 
-The table below tells you the highest level of access (Edit or View) that each of the `Adobe Workfront` licenses allow for the objects and areas in `Workfront`.
+The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
 <ul> 
  <li> <p><span class="bold">View</span>: The user can review and share items.</p> </li> 
@@ -36,7 +36,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 | Financial data |Edit |View (only the Finance areain Project Details) |View |No access |No access |
 | Resource Management |Edit |View |View |No access |No access |
 | Scenario Planner |Edit |Edit |Edit |No access |No access |
-| `Workfront Goals`  |Edit |Edit |Edit |Edit |No access |
+| Workfront Goals  |Edit |Edit |Edit |Edit |No access |
 
 &#42; Users with a Request license can view only reports, dashboards, and calendars that are shared with them.
 
@@ -44,7 +44,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 >
 >Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
->External users cannot search for items in `Workfront`. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
+>External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
 
 You can find detailed information about what the access levels allow for each object and area in the following articles:
 

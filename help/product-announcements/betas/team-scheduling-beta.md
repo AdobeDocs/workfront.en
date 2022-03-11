@@ -10,13 +10,13 @@ description: The Team Scheduling area (formerly known as Team Builder) is being 
 
 The Team Scheduling area (formerly known as Team Builder)&nbsp;is being updated&nbsp;with a new look and feel, updated&nbsp;architecture for better performance, and support for new functionality.
 
-Use the following information to begin testing the new Team Scheduling area in `Workfront`:
+Use the following information to begin testing the new Team Scheduling area in Workfront:
 
 ## Supported environments
 
-The Team Scheduling beta is available to test in the `Workfront` Preview environment by invitation only.
+The Team Scheduling&nbsp;beta is available to test in the Workfront Preview environment by invitation only.
 
-For more information about the `Workfront` Preview environment, see&nbsp; [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+For more information about the Workfront Preview environment, see&nbsp; [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Team Scheduling&nbsp;improvements
 
@@ -52,4 +52,4 @@ To submit feedback during the beta process:
 
 ## Known issues and limitations
 
-The following are known issues or limitations associated with the `proofing` viewer beta:
+The following are known issues or limitations associated with the proofing viewer beta:

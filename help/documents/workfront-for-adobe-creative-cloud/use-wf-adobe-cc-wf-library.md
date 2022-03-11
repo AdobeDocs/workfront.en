@@ -6,38 +6,38 @@ title: Use Adobe Workfront for Adobe Creative Cloud with Workfront Library
 description: You must purchase a Workfront Library license to be able to access Workfront Library from the Workfront for Adobe Creative Cloud extension.
 ---
 
-# Use `Adobe Workfront` for Adobe Creative Cloud with `Workfront Library`
+# Use Adobe Workfront for Adobe Creative Cloud with Workfront Library
 
-You must purchase a `Workfront Library` license to be able to access `Workfront Library` from the `Workfront` for Adobe Creative Cloud extension.
+You must purchase a Workfront Library license to be able to access Workfront Library from the Workfront for Adobe Creative Cloud extension.
 
-For information about `Workfront Library`, see our [Workfront Library](../../workfront-library/workfront-library.md) section.
+For information about Workfront Library, see our [Workfront Library](../../workfront-library/workfront-library.md) section.
 
-For information about installing the `Workfront` for Adobe Creative Cloud extension, see [Installing `Workfront` for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md).
+For information about installing the Workfront for Adobe Creative Cloud extension, see [Installing Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md).
 
-After you have purchased a license for `Workfront Library`, you can access and edit the content stored in the `Workfront Library` from the following supported Adobe applications:
+After you have purchased a license for Workfront Library, you can access and edit the content stored in the Workfront Library from the following supported Adobe applications:
 
 * InDesign
 * Illustrator
 * Photoshop
 
-You can do the following in  `Workfront Library`using the `Workfront` for Adobe Creative Cloud extension:
+You can do the following in&nbsp;Workfront Libraryusing the Workfront for Adobe Creative Cloud extension:
 
-* [Access `Workfront Library` Content from Adobe Creative Cloud applications](#top)
+* [Access Workfront Library Content from Adobe Creative Cloud applications](#top)
 
-## Access `Workfront Library` content from Adobe Creative Cloud applications
+## Access Workfront Library content from Adobe Creative Cloud applications
 
-Consider the following when accessing `Workfront Library` content from the `Workfront` for Adobe Creative Cloud extension:
+Consider the following when accessing Workfront Library content from the Workfront for Adobe Creative Cloud extension:
 
 * You can view only assets that you have created, or that have been shared with you.
 * 100 folders and single items display at one time, starting with folders.  
   If there are no folders, and the thumbnails of items display, only 25 items with their thumbnails display at a time by default.
 
-To access `Workfront Library` folders and single items from the `Workfront` extension for Adobe Creative Cloud:
+To accessWorkfront Library folders and single items from the Workfront extension for Adobe Creative Cloud:
 
 <ol> 
  <li value="1">Open a supported Adobe Creative Cloud application.</li> 
- <li value="2"> <p>On the <span class="bold">Window</span> menu, click <span class="bold">Extensions</span>, then select <span>Workfront</span>.</p> </li> 
- <li value="3"> <p>The <span>Workfront</span> panel that opens. <br>Log in to <span>Workfront</span>.</p> <p>For information about logging in to <span>Workfront</span>, see the <a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#logging-in">Logging in to <span>Workfront</span> from Adobe Creative Cloud Applications</a> section in the <a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md">Using <span>Workfront</span> for Adobe Creative Cloud</a> article.</p> </li> 
+ <li value="2"> <p>On the <span class="bold">Window</span> menu, click <span class="bold">Extensions</span>, then select Workfront.</p> </li> 
+ <li value="3"> <p>The Workfront panel that opens. <br>Log in to Workfront.</p> <p>For information about logging in to Workfront, see the <a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#logging-in">Logging in to Workfront from Adobe Creative Cloud Applications</a> section in the <a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md">Using Workfront for Adobe Creative Cloud</a> article.</p> </li> 
  <li value="4"> <p>Select the <span class="bold">Library</span> tab.</p> <p> <img src="assets/adobe-cc-library-tab-350x517.png" style="width: 350;height: 517;"> </p> </li> 
  <li value="5"> <p>Do one of the following:</p> 
   <ol> 
@@ -50,20 +50,20 @@ To access `Workfront Library` folders and single items from the `Workfront` exte
      <li value="1">Select from the following options:</li> 
     </ol> 
     <ul> 
-     <li>Click <span class="bold">Library</span> to access the content you have access to view in the <span>Workfront Library</span>.</li> 
-     <li>Click <span class="bold">My Content</span> to access the content that you have uploaded in the <span>Workfront Library</span>.</li> 
-     <li>Click <span class="bold">Collections</span> to access a <span>Workfront Library</span> Collection.</li> 
+     <li>Click <span class="bold">Library</span> to access the content you have access to view in the Workfront Library.</li> 
+     <li>Click <span class="bold">My Content</span> to access the content that you have uploaded in the Workfront Library.</li> 
+     <li>Click <span class="bold">Collections</span> to access a Workfront Library Collection.</li> 
     </ul> </li> 
   </ol> </li> 
- <li value="6"> <p>(Optional) To decrease the amount of items that you display in the <span>Workfront</span> extension, click the <span class="bold">Options</span> icon.</p> <p> <img src="assets/aobe-cc-library-options-icon-with-blue-dot.png"> </p> <p>When at least one criteria is selected, the Options icon displays a blue dot in the top right.</p> </li> 
- <li value="7"> <p>Select from the following types of information about the content stored in <span>Workfront Library</span> to display only items meeting that criteria:</p> 
+ <li value="6"> <p>(Optional) To decrease the amount of items that you display in the Workfront extension, click the <span class="bold">Options</span> icon.</p> <p> <img src="assets/aobe-cc-library-options-icon-with-blue-dot.png"> </p> <p>When at least one criteria is selected, the Options icon displays a blue dot in the top right.</p> </li> 
+ <li value="7"> <p>Select from the following types of information about the content stored in Workfront Library to display only items meeting that criteria:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
      <td role="rowheader"><span style="font-weight: bold;">Branding</span> </td> 
-     <td> Select from one of the custom Branding categories displayed. Branding information must be configured in <span>Workfront Library</span> and associated with items before it is available in <span>Workfront</span> for Adobe Creative Cloud.</td> 
+     <td> Select from one of the custom Branding categories displayed. Branding information must be configured in Workfront Library and associated with items before it is available in Workfront for Adobe Creative Cloud.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Created Date</td> 
@@ -78,7 +78,7 @@ To access `Workfront Library` folders and single items from the `Workfront` exte
     </tr> 
     <tr> 
      <td role="rowheader">Product</td> 
-     <td> <p>Select from one of the custom Product categories displayed. Products must be configured in <span>Workfront Library</span> and associated with content before they are available in <span>Workfront</span> for Adobe Creative Cloud.</p> </td> 
+     <td> <p>Select from one of the custom Product categories displayed. Products must be configured in Workfront Library and associated with content before they are available in Workfront for Adobe Creative Cloud.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Modified Date</td> 
@@ -108,7 +108,7 @@ To access `Workfront Library` folders and single items from the `Workfront` exte
     </tr> 
     <tr> 
      <td role="rowheader">Region</td> 
-     <td>Select from one of the custom Regions displayed. Regions must be configured in <span>Workfront Library</span> and associated with content before they are available in the <span>Workfront</span> extension.</td> 
+     <td>Select from one of the custom Regions displayed. Regions must be configured in Workfront Library and associated with content before they are available in the Workfront extension.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Date Time</td> 

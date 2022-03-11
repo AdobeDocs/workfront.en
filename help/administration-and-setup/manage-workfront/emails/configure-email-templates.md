@@ -9,12 +9,12 @@ description: As an Adobe Workfront administrator, you can configure email templa
 
 # Configure email templates
 
-As an `Adobe Workfront administrator`, you can configure email templates to support reminder notifications.
+As an Adobe Workfront administrator, you can configure email templates to support reminder notifications.
 
 Email templates contain the message sent to users when a reminder notification is initiated.  
 Without an email template, the reminder notification will be delivered as&nbsp;empty content in the body of the email.
 
-Email templates can be associated with reminder notifications for issues, tasks, projects, and timesheets. When creating email templates, your `Workfront administrator` can provide content for the email and a subject line.
+Email templates can be associated with reminder notifications for issues, tasks, projects, and timesheets. When creating email templates, your Workfront administrator can provide content for the email and a subject line.
 
 ## Access requirements
 
@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 ## Create a new email template
 
 <ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the panel on the left, click <span class="bold">Email</span>&nbsp;> <span class="bold">Notifications</span>.</li> 
  <li value="3"> <p>Click the <span class="bold">Email Templates</span> tab, then click <span class="bold">New Email Template</span>.<br></p> </li> 
  <li value="4"> <p>In the <span class="bold">New Email Template</span> box that appears, specify the following information:</p> 
@@ -86,9 +86,9 @@ Begin creating the email template as described in [Create a new email template](
 * [Link to custom fields with HTML](#link) 
 * [HTML email examples](#html-example)
 
-### Link to `Workfront` objects
+### Link to Workfront objects
 
-`You can include links to `Workfront` fields by using the` `$$` wildcard to tell the email generator to look for values from the database associated with a specific object.
+`You can include links to Workfront fields by using the` `$$` wildcard to tell the email generator to look for values from the database associated with a specific object.
 
 For example, the body of the email for a notification alerting the assignee of the task that the task is about to start can follow this structure:
 <pre>
@@ -112,7 +112,7 @@ To add custom fields using the same formatting, you can add this in your email n
 
 For example, this is an email template which includes a reference to a custom field named Delivery Date, and it's assuming that the field Delivery Date belongs to a task.
 
-Replace *<your domain>* with your company's `Workfront` domain, without the brackets:
+Replace *<your domain>* with your company's Workfront domain, without the brackets:
 <pre><html><br><p>$$assignedTo:firstName$$</p><br><p>You are assigned to work on <b><a href="https://<em><your domain></em>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which has a Delivery Date of <span class="bold">$$DE:Task:Delivery Date$$</span>.</p><br><table width="350" style="font-size:12px;"><br><tr><br><td><b>Project Name:</b></td><br><td>$$project:name$$</td><br></tr><br><tr><br><td><b>Description:</b></td><br><td>$$description$$</td><br><tr><br><td><b>Estimated Effort:</b></td><br><td>$$work$$ hours</td><br></tr><br><tr><br><td><b>Planned Completion Date:</b></td><br><td>$$plannedCompletionDate$$</td><br><span class="bold"><td><b>Delivery Date:</b></td></span><br><span class="bold"><td>$$DE:Task:Delivery Date$$</td></span><br></tr><br></table><br></html></pre>
 
 >[!NOTE]
@@ -128,7 +128,7 @@ Replace *<your domain>* with your company's `Workfront` domain, without the brac
 
 To edit an email template for a late project reminder, consider this information for the Subject and Content fields.
 
-Replace *<your domain>* with your company's `Workfront` domain, without the brackets.&nbsp;
+Replace *<your domain>* with your company's Workfront domain, without the brackets.&nbsp;
 
 `Subject:`
 
@@ -144,7 +144,7 @@ A Project You Manage Has Become Late
 You might&nbsp;also want to create a reminder notification for an upcoming task or issue.
 
 The following code can be included in an email template to be used for task and issue reminder notifications that are sent any number of days before the planned start date of the task or issue.  
-Replace *<your domain>* with your company's `Workfront` domain, without the brackets.  
+Replace *<your domain>* with your company's Workfront domain, without the brackets.  
 To use this for an Issue email, change the `/*task/view**. *`value in the link to the work item to ` /*issue/view*`.
 
 `Subject:`

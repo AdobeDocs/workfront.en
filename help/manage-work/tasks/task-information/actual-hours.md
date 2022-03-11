@@ -9,13 +9,13 @@ description: The hours you log on your work items in Adobe Workfront are conside
 
 # View Actual Hours
 
-The hours you log on your work items in `Adobe Workfront` are considered Actual Hours.
+The hours you log on your work items in Adobe Workfront are considered Actual Hours.
 
 Actual Hours represent the actual time that it took you to complete a task, issue, or a project.
 
 We recommend that hours should be logged on work items, which are tasks and issues.
 
-However, as a `Workfront administrator`, you can allow users to log time on projects, as well, depending on what the workflows are in your organization.
+However, as a Workfront administrator, you can allow users to log time on projects, as well, depending on what the workflows are in your organization.
 
 For more information about how to set up your system to allow users to log time on projects, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -28,16 +28,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
@@ -131,5 +131,5 @@ If you want to see the progress of the work your users are doing on their assign
 
 You can log time on tasks, issues, and projects in multiple ways.
 
-For more information about logging time in `Workfront`, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).   
+For more information about logging time in Workfront, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).   
 

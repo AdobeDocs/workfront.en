@@ -9,7 +9,7 @@ description: Many services provide webhooks to deliver instant notifications whe
 
 # Instant triggers (webhooks)
 
-Many services provide webhooks to deliver instant notifications whenever a certain change occurs in the service. To process these notifications, we recommend that you use instant triggers. You can recognize these easily in `Adobe Workfront Fusion` because of their tag:
+Many services provide webhooks to deliver instant notifications whenever a certain change occurs in the service. To process these notifications, we recommend that you use instant triggers. You can recognize these easily in Adobe Workfront Fusion because of their tag:
 
 ![](assets/instant-350x256.png)
 
@@ -24,25 +24,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## View a webhook's queue
 
@@ -63,7 +63,7 @@ If your scenario contains an instant trigger, you can schedule the scenario to r
 
 ![](assets/schedule-setting-350x185.png)
 
-In this case your scenario will run immediately when `Workfront Fusion` receives new data from the service. After the scenario executes, the total amount of pending webhooks waiting in the queue is counted and the scenario performs as many cycles as there are pending webhooks, processing one webhook per cycle. For more information, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+In this case your scenario will run immediately whenWorkfront Fusion receives new data from the service. After the scenario executes, the total amount of pending webhooks waiting in the queue is counted and the scenario performs as many cycles as there are pending webhooks, processing one webhook per cycle. For more information, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 >[!NOTE]
 >

@@ -11,17 +11,17 @@ description: A Workfront administrator can create groups of users that coincide 
 
 # Groups overview
 
-A `Workfront administrator` can create groups of users that coincide with your departmental structure. Groups are similar to but distinct from teams and companies.
+A Workfront administrator can create groups of users that coincide with your departmental structure. Groups are similar to but distinct from teams and companies.
 
-The `Workfront administrator` grants groups the access to the `Workfront` areas where they need to work and communicate. Each group can then keep their `Workfront` information such as users, templates, and custom forms, and projects separate from those of other departments.
+The Workfront administrator grants groups the access to the Workfront areas where they need to work and communicate. Each group can then keep their Workfront information such as users, templates, and custom forms, and projects separate from those of other departments.
 
-At least one `group administrator` is required for every group. `Group administrators` can use the Groups page to manage their groups in one place. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+At least one group administrator is required for every group. Group administrators can use the Groups page to manage their groups in one place. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 You can create up to 14 levels of subgroups under one group. For more information, see [Subgroups overview](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md) and [Create a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
 ## Using groups to organize users
 
-As a `Workfront administrator` or `group administrator`, you can associate users to groups and subgroups. If you make a group public, users with a Planner license can associate users with it. For more information about `group administrators` and public groups, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+As a Workfront administrator or group administrator, you can associate users to groups and subgroups. If you make a group public, users with a Planner license can associate users with it. For more information about group administrators and public groups, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 When you create a user, we recommend that you add that user to the appropriate Home Group and other groups that the user should work in. A user can have only one Home Group, but can be in multiple other groups.
 
@@ -37,15 +37,15 @@ For more information about creating new users, see [Add users](../../../administ
 
 ## Granting a group access to objects
 
-When you share an object with a group, all members of that group (including members of any subgroups) have access to the object. For more information about sharing in `Workfront`, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+When you share an object with a group, all members of that group (including members of any subgroups) have access to the object. For more information about sharing in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Associating a group with an object
 
-When you are creating or editing one of the following `Workfront` objects, you can associate it with a group:
+When you are creating or editing one of the following Workfront objects, you can associate it with a group:
 
 <ul> 
  <li> <p><span class="bold">Project</span>: You can associate a single group with a project in order to indicate ownership of the project.</p> <p>This does not implicitly grant each member of the group rights to the project. In order to have rights to the project users must receive rights by sharing the project with them.</p> <p>While users can be members of multiple groups, a project can have a single group associated with it. Users from other groups can still work on the same project, if the projects has been shared with them or their groups. The group associated with the project is usually either the group responsible for completing the project, or the group for whom the project is delivered.</p> <p>For instructions on associating a project with a group, see <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref" xrefformat="{para}">Manage information in the project Overview area</a>.</p> </li> 
- <li> <p><span class="bold">Portfolio, program, or company</span>: When you are creating or editing a portfolio, program, or company, you can assign a single group to it to indicate that the group owns or has responsibility for it. With this association made, administrators and users can easily identify which portfolios, programs, and companies their groups are working on.</p> <p>For example, a <span>group administrator</span> can list all of the portfolios in the organization using a list or report and note in the Group column which portfolios are assigned his or her group.</p> <note type="note">
+ <li> <p><span class="bold">Portfolio, program, or company</span>: When you are creating or editing a portfolio, program, or company, you can assign a single group to it to indicate that the group owns or has responsibility for it. With this association made, administrators and users can easily identify which portfolios, programs, and companies their groups are working on.</p> <p>For example, a group administrator can list all of the portfolios in the organization using a list or report and note in the Group column which portfolios are assigned his or her group.</p> <note type="note">
    Assigning a group to a portfolio, program, or company with a group does not automatically mean that information in that the group has access to its data. You need to manually share access to the data with the group before they can see it.
   </note> <p>For instructions, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref" xrefformat="{para}">Create a portfolio</a>, <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref" xrefformat="{para}">Create a program</a>, and <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref" xrefformat="{para}">Create and edit companies</a>.</p> </li> 
  <li> <p><span class="bold">Approval Process</span>: You can make an approval process available for projects, tasks, and issues belonging to a certain group. For more information, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref" xrefformat="{para}">Create an approval process for work items</a>.</p> </li> 

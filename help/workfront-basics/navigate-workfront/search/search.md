@@ -6,7 +6,7 @@ title: Adobe Workfront Search
 description: This section contains the following articles:
 ---
 
-# `Adobe Workfront` Search
+# Adobe Workfront Search
 
 This section contains the following articles:
 

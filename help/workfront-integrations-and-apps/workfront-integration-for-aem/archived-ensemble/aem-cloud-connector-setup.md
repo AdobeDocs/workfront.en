@@ -123,23 +123,21 @@ A package that contains these nodes is also available should you need it to add 
 
 ## Section 5: Integrate Workfront with AEM
 
-After you add the connector to your existing project structure and configure the connector in AEM as described in sections 1 and 2 in this document, you must configure `Workfront` to link documents between  `Workfront` and AEM.
+After you add the connector to your existing project structure and configure the connector in AEM as described in sections 1 and 2 in this document, you must configure Workfront to link documents between&nbsp;Workfront and AEM.
 
 <ol> 
- <li value="1"> <p>Log in to <span>Workfront</span> as a <span>Workfront administrator</span>. </p> <note type="tip">
-   <span>Workfront</span> recommends creating a 
-   <span>Workfront administrator</span> dedicated solely to your AEM integration. For more information about assigning the 
-   <span>Workfront administrator</span> access level to a user, see 
+ <li value="1"> <p>Log in to Workfront as a Workfront administrator. </p> <note type="tip">
+   Workfront recommends creating a Workfront administrator dedicated solely to your AEM integration. For more information about assigning the Workfront administrator access level to a user, see 
    <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.
   </note> </li> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
  <li value="3">Click&nbsp;<span class="bold">Documents&nbsp;</span>>&nbsp;<span class="bold">Custom Integration.</span></li> 
  <li value="4">Click <span class="bold">Add Custom Integration</span>.</li> 
- <li value="5"> <p>In the&nbsp;<span class="bold">Name</span> box, specify the name of the custom integration.</p> <p>This is the name users see when using the integration within <span>Workfront</span>; for example, you could enter <em>"AEM Assets"</em> for the name.&nbsp;</p> </li> 
+ <li value="5"> <p>In the&nbsp;<span class="bold">Name</span> box, specify the name of the custom integration.</p> <p>This is the name users see when using the integration within Workfront; for example, you could enter <em>"AEM Assets"</em> for the name.&nbsp;</p> </li> 
  <li value="6"> <p>In the&nbsp;<span class="bold">Base API URL</span> box, specify the URL for your AEM instance.</p> <p>The base API URL consists of the URL for your AEM instance followed by the path: /bin/webhooks/api/</p> <p> <img src="assets/mceclip3-350x130.png" alt="mceclip3.png" style="width: 350;height: 130;"> </p> </li> 
  <li value="7">In the&nbsp;<span class="bold">Authentication Type</span> drop-down menu,&nbsp;select <span class="bold">ApiKey.</span></li> 
  <li value="8">In the<span class="bold"> API Key</span> box, paste the AEM API Key you copied when you configured AEM Assets.</li> 
  <li value="9">Click <span class="bold">Save</span>.</li> 
- <li value="10"> <p>(Optional) Ensure the integration is marked Active.<br><img src="assets/aem-custom-integration-active-350x81.png" alt="aem_custom_integration_active.png" style="width: 350;height: 81;"></p> <p><span>Workfront</span> is now configured to work with AEM Assets.</p> <p>In order to access assets in AEM, each <span>Workfront</span> user who needs to use the connector must be set up as a user in AEM. For information on creating users, see&nbsp;<a href="#setting" class="MCXref xref">Set up the AEM cloud connector</a>.</p> </li> 
+ <li value="10"> <p>(Optional) Ensure the integration is marked Active.<br><img src="assets/aem-custom-integration-active-350x81.png" alt="aem_custom_integration_active.png" style="width: 350;height: 81;"></p> <p>Workfront is now configured to work with AEM Assets.</p> <p>In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see&nbsp;<a href="#setting" class="MCXref xref">Set up the AEM cloud connector</a>.</p> </li> 
 </ol>
 
 ## Section 6: Map metadata

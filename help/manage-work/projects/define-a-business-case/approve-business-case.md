@@ -7,7 +7,7 @@ description: After you complete and submit the Business Case for a project reque
 
 # Approve a Business Case
 
-After you complete and submit the Business Case for a project request, the Business Case must be approved. This depends on the workflow in your organization. A project can start without the Business Case having to be approved, but your `Adobe Workfront administrator` and project owners might not consider it ideal to do so.&nbsp;
+After you complete and submit the Business Case for a project request, the Business Case must be approved. This depends on the workflow in your organization. A project can start without the Business Case having to be approved, but your Adobe Workfront administrator and project owners might not consider it ideal to do so.&nbsp;
 
 For more information about completing and submitting a Business Case, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
      You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
     --> <!--
      You must be a group administrator. For more information on group administrators, see Group administrators.
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Overview of Business Case approval
 
@@ -50,7 +50,7 @@ Consider the following when approving a Business Case of a project:
 
 * You must have Manage permissions to a project to approve the Business Case for it.&nbsp;
 * You will not be able to see the projects which are waiting for the Business Case to be approved under your Approvals in Home.
-* You must manually go to the individual projects that need Business Case approval to see that they are pending approval. There is no `Workfront` notification mechanism that alerts someone that they must approve the Business Case of a project. 
+* You must manually go to the individual projects that need Business Case approval to see that they are pending approval. There is no Workfront notification mechanism that alerts someone that they must approve the Business Case of a project. 
 * You can find the projects waiting for the approval of the Business Case either by building a project report, or by accessing the portfolio they are associated with.&nbsp;
 
   For more information about Portfolios, see the article [Portfolio overview in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).

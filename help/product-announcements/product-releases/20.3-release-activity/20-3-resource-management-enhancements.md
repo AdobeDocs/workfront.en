@@ -8,9 +8,9 @@ description: This page describes all Resource Management enhancements made with 
 
 # 20.3 Resource Management enhancements
 
-This page describes all `Resource Management` enhancements made with the `20.3` release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+This page describes all Resource Management enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 
-For a list of all changes available with the `20.3` release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
 ## Include hours from issues in the Assigned Work area of the Workload Balancer
 
@@ -88,8 +88,8 @@ For information about managing allocations in the Workload Balancer, see [Manage
 
 `Available in these environments:`
 
-* `Adobe Workfront Classic` 
-* `The new Adobe Workfront experience`
+* Adobe Workfront Classic 
+* The new Adobe Workfront experience
 
 `<iframe class="vimeo-player_0" src="assets/405985254?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -107,8 +107,8 @@ For information about managing allocations in the Workload Balancer, see [Manage
 
 For information about granting access to Resource Management, see [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-### A more convenient way to update allocations in the `Workload Balancer`
+### A more convenient way to update allocations in the Workload Balancer
 
-To make it more convenient to manage a user's allocations to a work item in the `Workload Balancer`, you can now double-click the work item. You can also still use the existing Edit allocations menu option. In addition, you are no longer required to enable displaying allocations to be able to update them.
+To make it more convenient to manage a user's allocations to a work item in the Workload Balancer, you can now double-click the work item. You can also still use the existing Edit allocations menu option. In addition, you are no longer required to enable displaying allocations to be able to update them.
 
 For information about managing allocations in the Workload Balancer, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

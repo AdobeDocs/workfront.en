@@ -7,15 +7,15 @@ title: Filter project lists in Adobe Workfront View
 description: By default, Adobe Workfront View displays the All Projects list in Workfront, so all the projects you have access to View are listed, regardless of their status.
 ---
 
-# Filter project lists in `Adobe Workfront` View
+# Filter project lists in Adobe Workfront View
 
-By default, `Adobe Workfront` View displays the All Projects list in `Workfront`, so all the projects you have access to View are listed, regardless of their status.&nbsp;
+By default, Adobe Workfront View displays the All Projects list in Workfront, so all the projects you have access to View are listed, regardless of their status.&nbsp;
 
-You can filter the list of projects in `Workfront` View to only display projects that are relevant to you.&nbsp;After applying the filters, the project list remains filtered until the next time you login or until&nbsp;they are changed.
+You can filter the list of projects in Workfront View to only display projects that are relevant to you.&nbsp;After applying the filters, the project list remains filtered until the next time you login or until&nbsp;they are changed.
 
 ## Access requirements
 
-You must have the following access in `Workfront` to perform the steps in this article:
+You must have the following access in Workfront to perform the steps in this article:
 
 <table cellspacing="0"> 
  <col> 
@@ -24,22 +24,22 @@ You must have the following access in `Workfront` to perform the steps in this a
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Filter the projects list in `Workfront` View
+## Filter the projects list in Workfront View
 
 <ol> 
- <li value="1">Go to the list of projects in the <span>Workfront</span> View mobile app.</li> 
+ <li value="1">Go to the list of projects in the Workfront View mobile app.</li> 
  <li value="2">Tap the list icon in the upper left of the list.<br>The list of available filters is displayed.<br><img src="assets/wf-view-filters-050621-350x427.jpg" alt="WF_View_filters_050621.jpg" style="width: 350;height: 427;"></li> 
  <li value="3">Select from the following filters:
   <ul>

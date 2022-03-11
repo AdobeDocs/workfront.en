@@ -6,14 +6,14 @@ title: Request access to objects in Adobe Workfront
 description: Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
 ---
 
-# Request access to objects in `Adobe Workfront`
+# Request access to objects in Adobe Workfront
 
-Your visibility to objects in  `Adobe Workfront` depends on your access to that type of object as well as your permissions on an individual object. 
+Your visibility to objects in&nbsp;Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object. 
 Note: This article describes how you can request permissions to all objects except for plans in the Adobe Workfront Scenario Planner. For information about requesting access to plans, see Request access to a plan in the Adobe Workfront Scenario Planner. This requires an additional license. 
 
-Your `Workfront administrator` configures your access to a type of object in your access level.&nbsp;For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Your Workfront administrator configures your access to a type of object in your access level.&nbsp;For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-If you need permissions to specific objects within `Workfront`, you can request access to them. Rather than sending an email to the  `Workfront administrator` or object owner to explain your needs, you can request additional access (or permissions) within `Workfront`.
+If you need permissions to specific objects within Workfront, you can request access to them. Rather than sending&nbsp;an email to the&nbsp;Workfront administrator or&nbsp;object owner to explain your needs, you can request&nbsp;additional access (or permissions) within Workfront.
 
 You can request initial access to objects if someone shares a link to the object with you, or you can request additional access to objects you cat at least view.
 
@@ -28,25 +28,25 @@ You must have the following to share objects:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to the objects you request permissions to</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Understand standard&nbsp;sharing rules
 
-The following standard sharing rules take effect automatically, as they are set up as default options in your `Workfront` system.&nbsp;
+The following standard sharing rules take effect&nbsp;automatically, as they are set up as default options in your Workfront system.&nbsp;
 
 * Users assigned to a task have Contribute access on the task.&nbsp;
 * Users assigned to an issue have Contribute access on the issue.&nbsp;
@@ -78,7 +78,7 @@ To request initial access to an object:
  <li value="6">Click <span class="bold">Request Access</span>.<br><img src="assets/request-access-dialog-350x340.png" style="width: 350;height: 340;"><br></li> 
 </ol>
 
-If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the `Workfront administrator`.&nbsp;
+If you do not have access level rights to an object&nbsp;and you try to access that object from a link,&nbsp;a screen is displayed informing you&nbsp;to contact the Workfront administrator.&nbsp;
 
 For example,&nbsp;if you do not&nbsp;have portfolio&nbsp;access, but you were&nbsp;given a link to a portfolio, you&nbsp;would see the following&nbsp;message:  
 ![](assets/permission-request-initial2-350x156.png)
@@ -105,16 +105,16 @@ To request additional access to an object that you already have limited access t
 
 ### Understand the hierarchy of users listed in the Request Access and&nbsp;Request More Access drop-down menus
 
-When populating the "Request Access" or "Request More Access" lists on objects, `Workfront` selects a&nbsp;list of up to ten users that fulfill various roles in the sharing of the object as described below. These users can grant access to the object to the user requesting it.  
+When populating the "Request Access" or "Request More Access" lists on objects, Workfront selects a&nbsp;list of up to ten users that fulfill various roles in the sharing of the object as described below. These users can grant access to the object to the user requesting it.  
 The resulting list is then is sorted by their name in ascending alphabetical order.   
-`Workfront` displays up to 10 users in the "Request Access" and the "Request More Access" lists.&nbsp;
+Workfront displays up to 10 users in the "Request Access" and the "Request More Access" lists.&nbsp;
 
 The order of the users in the "Request Access" or "Request More Access" drop-down menus is dictated by the following rules:&nbsp;
 
 * The first user&nbsp;in the list is the object "owner", as described in [Understand the owner of an object](#understanding-the-owner-of-an-object).&nbsp;
 * Then the list is populated with users with whom the object&nbsp;is shared individually. They are listed in alphabetical order.
 * Then the list is further populated with users who get the required access through sharing with their teams, groups, or companies. They are listed in alphabetical order.
-* If the list is empty, the `Workfront administrator`s are added so that there is always someone to request access from. They are listed in alphabetical order.&nbsp;
+* If the list is empty, the Workfront administrators are added so that there is always someone to request access from. They are listed in alphabetical order.&nbsp;
 * Each of the users in the list must have the requested access to the object and access to share the object.&nbsp;
 
 ### Understand the owner of an object

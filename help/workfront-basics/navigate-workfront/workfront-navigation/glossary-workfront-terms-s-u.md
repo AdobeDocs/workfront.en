@@ -10,11 +10,11 @@ description: For the full glossary, see Glossary of Workfront terms.
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the `Adobe Workfront` application or in the `Workfront` documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;&nbsp;
+The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
 
 ## S-U
 
@@ -78,7 +78,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td>Sharing</td> 
-   <td>The action of allowing other Users to view or edit a specific item in <span>Workfront</span>.</td> 
+   <td>The action of allowing other Users to view or edit a specific item in Workfront.</td> 
   </tr> 
   <tr> 
    <td>Slack&nbsp;Date</td> 
@@ -86,7 +86,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td>Smart Assignments</td> 
-   <td> <p>When assigning Tassks or Issues to Users, <span>Workfront</span> makes recommendations (Smart Assignments) about who the best users are to complete the work, based on the time they have available to complete it and their relationship to the project.</p> <p>For more information , see <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Smart assignments overview</a>.</p> </td> 
+   <td> <p>When assigning Tassks or Issues to Users, Workfront makes recommendations (Smart Assignments) about who the best users are to complete the work, based on the time they have available to complete it and their relationship to the project.</p> <p>For more information , see <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Smart assignments overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Source</p> </td> 
@@ -94,7 +94,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td> <p>Start Date</p> </td> 
-   <td> <p>The Date when the work on an item is set to start. There are several Start Dates in <span>Workfront</span>: </p> 
+   <td> <p>The Date when the work on an item is set to start. There are several Start Dates in Workfront: </p> 
     <ul> 
      <li>Planned</li> 
      <li>Actual</li> 
@@ -286,11 +286,11 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td>User Interface</td> 
-   <td>All visual and interactive aspects of the <span>Workfront</span> application.</td> 
+   <td>All visual and interactive aspects of the Workfront application.</td> 
   </tr> 
   <tr> 
    <td>User Interface Preferences</td> 
-   <td>User Interface Setup. <span>Workfront</span> administrators can change these settings to customize aspects of the user interface.</td> 
+   <td>User Interface Setup. Workfront administrators can change these settings to customize aspects of the user interface.</td> 
   </tr> <!--
    Utilization The availability for a user or role based on the assigned schedule, PTO, and current workload.
   --> 

@@ -8,7 +8,7 @@ title: View the Tasks in flight visualization in Enhanced analytics
 description: The Tasks in flight visualization shows how many tasks (within the applied filter criteria) are in progress for a project, the percentage of work completed for each task, and how on schedule the tasks are.
 ---
 
-# View the Tasks in flight visualization in `Enhanced analytics`
+# View the Tasks in flight visualization in Enhanced analytics
 
 The Tasks in flight visualization shows how many tasks (within the applied filter criteria) are in progress for a project, the percentage of work completed for each task, and how on schedule the tasks are.
 
@@ -40,7 +40,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects</p> <p>View access to Tasks (To update tasks, you need Edit access to Tasks.)</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level.<br>For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects</p> <p>View access to Tasks (To update tasks, you need Edit access to Tasks.)</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can modify your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -58,7 +58,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -69,7 +69,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 <ol> 
  <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> </li> 
  <li value="2"> <p>(Optional) To use a different date range, select new start and end dates from the date range filter.</p> <p> <img src="assets/filters-select-date-range-350x344.png" style="width: 350;height: 344;"> </img> </p> <p>For information on using the date range filter, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> </li> 
- <li value="3"> <p>(Conditional) If you need to limit the project data set, select and apply the filters that you want to use.</p> <p>For more information on adding filters in <span>Enhanced analytics</span>, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of <span>Workfront</span>.</p> </li> 
+ <li value="3"> <p>(Conditional) If you need to limit the project data set, select and apply the filters that you want to use.</p> <p>For more information on adding filters in Enhanced analytics, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.</p> </li> 
  <li value="4"> <p>On the Flight plan or Project treemap visualization, click a project to view more information.</p> <p>The Burndown and Tasks in flight visualizations display.</p> <note type="note"> 
    <p>To learn more about these other visualizations, see:</p> 
    <ul> 
@@ -96,6 +96,6 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## Video walk-through
 
-View the following video to learn more about the Tasks in flight visualization. This video was recorded in `the new Workfront experience`. However, the content also applies to `Workfront Classic`.
+View the following video to learn more about the Tasks in flight visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
 
 [ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441153099/45304dcf9c) 

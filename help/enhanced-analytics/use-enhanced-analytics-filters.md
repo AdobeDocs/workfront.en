@@ -7,15 +7,15 @@ title: Apply filters in Enhanced analytics
 description: The filters in the Enhanced analytics area help you focus on specific projects or specific types of data. The types of filters that you use can give you insight on:
 ---
 
-# Apply filters in `Enhanced analytics`
+# Apply filters in Enhanced analytics
 
-The filters in the `Enhanced analytics` area help you focus on specific projects or specific types of data. The types of filters that you use can give you insight on:
+The filters in the Enhanced analytics area help you focus on specific projects or specific types of data. The types of filters that you use can give you insight on:
 
 * Projects you own
 * Specific portfolio or program views
 * Key performance indicators for a specific time frame (week, quarter, fiscal year)
 
-You can add and remove filters as needed and `Adobe Workfront` retains the filters that you apply even if you log out.
+You can add and remove filters as needed and Adobe Workfront retains the filters that you apply even if you log out.
 
 ## Access requirements
 
@@ -23,7 +23,7 @@ To complete this task, you must have the following:
 
 <table cellspacing="15"> 
  <caption style="text-align: left;">
-  *To find out what plan, license type, or access you have, contact your <span>Workfront administrator</span>.
+  *To find out what plan, license type, or access you have, contact your Workfront administrator.
  </caption> 
  <col> 
  <col> 
@@ -38,7 +38,7 @@ To complete this task, you must have the following:
   </tr> 
   <tr> 
    <td><b>Access level*</b> </td> 
-   <td> <p>View access to Projects</p> <p>You must also have View access to Tasks, Portfolios, and Users to see specific project field filter options.</p> <p>Note: If restrictions are selected in the Set additional restrictions section of the Edit Access Level dialog, you may not see all information in the filters or on the <span>Enhanced analytics</span> page after the filter is applied. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects</p> <p>You must also have View access to Tasks, Portfolios, and Users to see specific project field filter options.</p> <p>Note: If restrictions are selected in the Set additional restrictions section of the Edit Access Level dialog, you may not see all information in the filters or on the Enhanced analytics page after the filter is applied. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>Object permissions</b> </p> </td> 
@@ -53,7 +53,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## Video walk-through
 
-View the following video to learn more about the filters in the `Enhanced analytics` area:
+View the following video to learn more about the filters in the Enhanced analytics area:
 
 `<iframe class="vimeo-player_0" src="assets/441153490?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -61,7 +61,7 @@ View the following video to learn more about the filters in the `Enhanced analyt
 
 ## Change the date range filter
 
-By default, the visualizations in the `Enhanced analytics` area show data for the last 60 days and the next 15 days. You can select a new date range and apply it to all visualizations in the `Enhanced analytics` area. If you navigate away from the page, the default date range is applied the next time you navigate back.
+By default, the visualizations in the Enhanced analytics area show data for the last 60 days and the next 15 days. You can select a new date range and apply it to all visualizations in the Enhanced analytics area. If you navigate away from the page, the default date range is applied the next time you navigate back.
 
 >[!TIP]
 >
@@ -75,7 +75,7 @@ To select a new date range:
  <li value="2"> <p>In the top-right corner of the screen, click the date range field to open the calendar view.</p> </li> 
  <li value="3"> <p>Use the arrows above the calendar to locate the month of your start date, then select the start date.</p> <p> <img src="assets/filters-select-date-range-350x344.png" style="width: 350;height: 344;"> </p> </li> 
  <li value="4"> <p>Use the arrows above the calendar to locate the month of your end date, then select the end date.</p> </li> 
- <li value="5"> <p>(Optional) To zoom in on a smaller date range, drag the mouse from one specific date to another on one of the visualizations.</p> <p>All visualizations on the screen update to match the selected timeframe and a Timeframe filter appears next to any existing filters. This filter is not retained if you log out or navigate away from the <span>Enhanced analytics</span> area.</p> <p> <img src="assets/timeframe-filter-350x220.png" style="width: 350;height: 220;"> </p> </li> 
+ <li value="5"> <p>(Optional) To zoom in on a smaller date range, drag the mouse from one specific date to another on one of the visualizations.</p> <p>All visualizations on the screen update to match the selected timeframe and a Timeframe filter appears next to any existing filters. This filter is not retained if you log out or navigate away from the Enhanced analytics area.</p> <p> <img src="assets/timeframe-filter-350x220.png" style="width: 350;height: 220;"> </p> </li> 
 </ol>
 
 ## Add a filter
@@ -134,7 +134,7 @@ To add a project field filter:
 
 ### Add a project Custom Form filter
 
-The Custom Form filter type allows you to filter data for projects and tasks based on the values entered in Custom Form fields on projects. Unlike with other `Enhanced analytics` filter types, you can add more than one Custom Form filter. Each Custom Form filter contains values entered only within the selected field on a specific custom form.
+The Custom Form filter type allows you to filter data for projects and tasks based on the values entered in Custom Form fields on projects. Unlike with other Enhanced analytics filter types, you can add more than one Custom Form filter. Each Custom Form filter contains values entered only within the selected field on a specific custom form.
 
 To add a Custom Form filter:
 
@@ -143,8 +143,7 @@ To add a Custom Form filter:
  <li value="2"> <p>In the top-left corner of the screen, click <b>Add Filter</b>, then select <b>Custom form</b>.</p> <p> <img src="assets/select-custom-form-filter-350x271.png" style="width: 350;height: 271;"> </p> </li> 
  <li value="3"> <p>Locate the Custom Form you want by entering at least 3 characters of text in the <b>Search</b> field, then select the custom form.</p> </li> 
  <li value="4"> <p>Select the field you want, then complete one of the following actions based on the type of field you are adding to the filter:</p> <note type="note">
-   Not all Custom Form field types can be added to a filter. Currently, 
-   <span>Enhanced analytics</span> supports only the field types listed above.
+   Not all Custom Form field types can be added to a filter. Currently, Enhanced analytics supports only the field types listed above.
    <br>
   </note> 
   <ul> 
@@ -179,7 +178,7 @@ Add a Job roles filter Click the Main Menu icon , thenselect Analytics. In the l
 
 ## Remove a filter
 
-You can remove a filter at any time. If you remove a filter, it doesn't display the next time you visit the `Enhanced analytics` area.
+You can remove a filter at any time. If you remove a filter, it doesn't display the next time you visit the Enhanced analytics area.
 
 >[!TIP]
 >

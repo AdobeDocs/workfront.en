@@ -21,7 +21,7 @@ You can copy issues from the following objects:
 
 >[!TIP]
 >
->"Issues" and "requests" are used interchangeably in `Workfront`. You can record issues on both projects and tasks to indicate unforeseen work that needs to be addressed. You can also submit requests which are recorded as issues on a project designated as a Request Queue.
+>"Issues" and "requests" are used interchangeably in Workfront. You can record issues on both projects and tasks to indicate unforeseen work that needs to be addressed. You can also submit requests which are recorded as issues on a project designated as a Request Queue.
 
 ## Access requirements
 
@@ -32,16 +32,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p><span>Review</span> or higher license to copy an issue in the Issues sectionof a project.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to copy an issue in the Issues sectionof a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -50,15 +50,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations for issues associated with documents or request queues
 
 Consider the following when copying issues that contain documents or are associated with a request queue:
 
 * `When an issue is associated with a request queue:` When you copy&nbsp;an issue to another object&nbsp;and the issue&nbsp;is associated with a request queue, the copied issue is no longer associated with the original queue&nbsp;the first issue originated from.
-* `When a document is attached to the issue:` When you copy an issue to another object and the issue has a document attached to it, the document and its versions also move to the new issue. Any `proofs` or approvals associated with the document do&nbsp;not move.
-
+* `When a document is attached to the issue:`&nbsp;When you copy&nbsp;an issue to another object&nbsp;and the issue has a document attached to it, the document and its versions also move to the new&nbsp;issue. Any proofs or approvals associated with the document do&nbsp;not move.
 * `When an issue is linked to a document or a folder:`&nbsp;When you copy an issue which has documents or folders linked to a third party service like Google Drive, the&nbsp;links to the documents transfer to the copied issue.&nbsp;
 
 ## Copy issues in a list
@@ -92,7 +91,7 @@ Copying issues differs depending on what environment you use. Copy a single issu
   </note><br>
   <ul>
    <li><span class="bold">Clear Progress</span></li>
-   <li><span class="bold">Clear Documents</span>:&nbsp;<span style="line-height: 1.5;">Removes everything in the documents tab, including document versions, linked documents, and folders.</span><br>By default, document <span>proofs</span> and approvals cannot be copied to another issue.</li>
+   <li><span class="bold">Clear Documents</span>:&nbsp;<span style="line-height: 1.5;">Removes everything in the documents tab, including document versions, linked documents, and folders.</span><br>By default, document proofs and approvals cannot be copied to another issue.</li>
    <li><span class="bold">Clear Assignments</span></li>
    <li><span class="bold">Clear Updates</span>: This is checked by default.&nbsp;</li>
    <li><span class="bold">Clear Permissions</span></li>

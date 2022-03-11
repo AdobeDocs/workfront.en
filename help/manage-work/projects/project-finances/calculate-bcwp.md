@@ -13,17 +13,17 @@ description: Also known as the Earned Value, the Budgeted Cost of Work Performed
 
 Also known as the Earned Value, the Budgeted Cost of Work Performed (BCWP) is a project performance metric that represents the amount of the task that has actually completed at the time when this metric is calculated.
 
-`Adobe Workfront` calculates the Budgeted Cost of Work Performed (BCWP) for both projects and tasks.
+Adobe Workfront calculates the Budgeted Cost of Work Performed (BCWP) for both projects and tasks.
 
 Consider the following when reviewing the values for the BCWP on a task or project:
 
-* `Workfront` calculates the BCWP for a task based on your configuration for the Performance Index Method (PMI) of the project.
+* Workfront calculates the BCWP for a task based on your configuration for the Performance Index Method (PMI) of the project.
 
   You can configure your project to calculate the PMI using hours or cost and the BCWP is also calculated using the same values.
 
   For information about configuring how the BCWP is calculated, see the section [Configure how BCWP is calculated](#configur) in this article.
 
-* `Workfront` calculates the BCWP for a project by adding all the BCWP values from all the parent tasks and individual tasks on the project.
+* Workfront calculates the BCWP for a project by adding all the BCWP values from all the parent tasks and individual tasks on the project.
 
   The values from children tasks are not added to the BCWP of the project.
 
@@ -36,16 +36,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Configure how BCWP is calculated
 
@@ -70,11 +70,11 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
    <tbody> 
     <tr> 
      <td role="rowheader">Hour-Based</td> 
-     <td><span>Workfront</span> calculates the BCWP using the Planned Hours of the tasks.</td> 
+     <td>Workfront calculates the BCWP using the Planned Hours of the tasks.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Cost-Based</td> 
-     <td><span>Workfront</span> calculates the BCWP using the Planned Cost of the tasks.</td> 
+     <td>Workfront calculates the BCWP using the Planned Cost of the tasks.</td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -83,7 +83,7 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
 
 ## Calculate BCWP
 
-`Workfront` calculates the Budgeted Cost of Work Performed (BCWP) for a task or project using the following formulas:
+Workfront calculates the Budgeted Cost of Work Performed (BCWP) for a task or project using the following formulas:
 
 * 
 
@@ -99,7 +99,7 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
 
 The following values are used in these calculation:
 
-| Actual Percent Complete |This is the actual percent complete of the task as it appears in `Workfront`. |
+| Actual Percent Complete |This is the actual percent complete of the task as it appears in Workfront. |
 |---|---|
 | Task Budget |This is the value for the Planned Hours or Planned Cost of the task. |
 

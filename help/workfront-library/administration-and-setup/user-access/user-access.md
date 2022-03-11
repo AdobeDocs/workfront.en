@@ -8,7 +8,7 @@ title: User access in Workfront Library
 description: This section contains the following articles:
 ---
 
-# User access in `Workfront Library`
+# User access in Workfront Library
 
 This section contains the following articles:
 

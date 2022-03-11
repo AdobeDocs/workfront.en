@@ -20,13 +20,13 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## Reuse an existing field
 
@@ -86,7 +86,7 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Typeahead </td> 
-     <td> <p>Allows users to type the name of an object that exists in <span>Workfront</span>. A list of suggestions appears when the user starts typing. </p> </td> 
+     <td> <p>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. </p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Calculated</td> 
@@ -106,7 +106,7 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Descriptive Text</td> 
-     <td>Allows you to include instructions and link to pages outside <span>Workfront</span>.</td> 
+     <td>Allows you to include instructions and link to pages outside Workfront.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Section Break</td> 
@@ -114,7 +114,7 @@ You must have the following to perform the steps in this article:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="4"> <p>On the <span class="bold">Field Settings</span> tab, change any of the following options available for the type of field you are adding:</p> <p>(Required) Type a descriptive label for the <span>custom field</span>. It displays above the <span>custom field</span> when users view the field on a custom form added to an object.</p> <p>You can change the label at any time.</p> <note type="important">
+ <li value="4"> <p>On the <span class="bold">Field Settings</span> tab, change any of the following options available for the type of field you are adding:</p> <p>(Required) Type a descriptive label for the custom field. It displays above the custom field when users view the field on a custom form added to an object.</p> <p>You can change the label at any time.</p> <note type="important">
    Avoid using special characters in this label. They don't display correctly in reports.
   </note> 
   <table cellspacing="0"> 
@@ -125,23 +125,23 @@ You must have the following to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Required) Type a descriptive label for the <span>custom field</span>. It displays above the <span>custom field</span> when users view the field on a custom form added to an object.</p> <p>You can change the label at any time.</p> <note type="important">
+     <td> <p>(Required) Type a descriptive label for the custom field. It displays above the custom field when users view the field on a custom form added to an object.</p> <p>You can change the label at any time.</p> <note type="important">
        Avoid using special characters in this label. They don't display correctly in reports.
       </note> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Name</td> 
-     <td> <p>(Required) This name is how the system identifies the <span>custom field</span> when you add it to various areas throughout <span>Workfront</span>, such as reports, Home, and API interactions.</p> <p>When you are configuring the <span>custom field</span> for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <note type="important">  
+     <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <note type="important">  
        <ul> 
-        <li> <p><span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in <span>Workfront</span>. If you do, the system will no longer recognize the <span>custom field</span> where it might now be referenced in other areas of <span>Workfront</span>.</span> </p> <p><span>For example, if you add the <span>custom field</span> to a report and later change the <span>custom field</span>'s name, <span>Workfront</span> doesn't recognize the <span>custom field</span> in the report and <span>custom field</span> will stop functioning correctly there unless you re-add it to the report using the new name.</span> </p> </li>  
+        <li> <p><span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.</span> </p> <p><span>For example, if you add the custom field to a report and later change the custom field's name, Workfront doesn't recognize the custom field in the report and custom field will stop functioning correctly there unless you re-add it to the report using the new name.</span> </p> </li>  
        </ul> 
-      </note> <p>Each <span>custom field</span> name must be unique in your organization's <span>Workfront</span> instance. This way, you can reuse a <span>custom field</span> already created for another custom form. For more information, see <a href="#add" class="MCXref xref" data-mc-variable-override="">Reuse an existing field</a> in this article.<!--
+      </note> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse a custom field already created for another custom form. For more information, see <a href="#add" class="MCXref xref" data-mc-variable-override="">Reuse an existing field</a> in this article.<!--
         [may need to say "existing field or widget" throughout that section; asked gevorg and he says they're still figuring this out]
        --></p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Instructions</td> 
-     <td> <p>Type any additional information about the <span>custom field</span>. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> <p> <img src="assets/custom-field-tooltip-350x83.png" alt="custom_field_tooltip.png" style="width: 350;height: 83;"> </img> </p> </td> 
+     <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> <p> <img src="assets/custom-field-tooltip-350x83.png" alt="custom_field_tooltip.png" style="width: 350;height: 83;"> </img> </p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Format</td> 
@@ -164,7 +164,7 @@ You must have the following to perform the steps in this article:
      <td role="rowheader">Referenced Object Type</td> 
      <td> <p>(Typeahead fields only) Select the object type that you want to associate with the field.</p> <p>Once you have clicked Apply or Save+Close, you cannot change the object type for the field.</p> <note type="note">  
        <ul> 
-        <li>If your <span>Workfront administrator</span> customized the name for Portfolios, Programs, or Projects in the <span>Workfront</span> user interface, the default <span>Workfront</span> name for the object appears in this drop-down list, not the customized name. See your <span>Workfront administrator</span> if you need help with this.<br></li> 
+        <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
         <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
        </ul> 
       </note> </td> 
@@ -220,7 +220,7 @@ You must have the following to perform the steps in this article:
       <ul> 
        <li><span class="bold">View</span>: The user needs View permissions to the object to be able to view this section.</li> 
        <li><span class="bold">Manage</span>: The user needs Manage permissions to the object to be able to view this section.</li> 
-       <li><span class="bold">Admin only</span>: Only the <span>Workfront administrator</span> can see this section.</li> 
+       <li><span class="bold">Admin only</span>: Only the Workfront administrator can see this section.</li> 
       </ul> <note type="note">
        Users who don't have the permissions you specify here cannot see the values of the fields in the section. This is also true if you display the values in reports or use them in calculated fields in text mode reporting.
       </note> </td> 
@@ -230,7 +230,7 @@ You must have the following to perform the steps in this article:
      <td> <p>(Section Break only) Select the permissions users need on the object associated with the form in order to edit information in this section:</p> 
       <ul> 
        <li><span class="bold">Manage</span>: The user needs Manage permissions to the object to be able to edit this section.</li> 
-       <li> <p><span class="bold">Admin only</span>: Only <span>Workfront administrators</span> can edit this section.</p> </li> 
+       <li> <p><span class="bold">Admin only</span>: Only Workfront administrators can edit this section.</p> </li> 
       </ul> <note type="note">  
        <ul> 
         <li>The access you are setting here is related to the permissions the user has to the object associated with the custom form. It's not related to the permissions the user has to the custom form itself.</li> 
@@ -247,8 +247,8 @@ You must have the following to perform the steps in this article:
   </ul> <p>For example, if you have created a Checkboxes field, you can change it to a Dropdown field or a Radio Buttons field. Or, if you have created a Single Line Text Field, you can change it to a Paragraph Text field.</p> <note type="note">  
    <p>Consider the following when you want to change a field's display type from a checkbox field or a multi-select dropdown field (a dropdown allowing more than one option to be selected) to a single-select field type:</p> 
    <ul> 
-    <li>If you change to Radio Buttons, <span>Workfront</span> retains any multi-select values that a user may have entered in the field until the user changes and saves data in any part of the form. At this point, any values that were selected using the multi-select-type field are replaced by the selected Radio Button value.</li> 
-    <li>If you change to a single-select Dropdown, <span>Workfront</span> retains any multi-select values that a user may have entered in the field until the user changes and saves the values in the field. At this point, any values that were selected using the multi-select-type field are replaced by the selected Dropdown value.</li> 
+    <li>If you change to Radio Buttons, Workfront retains any multi-select values that a user may have entered in the field until the user changes and saves data in any part of the form. At this point, any values that were selected using the multi-select-type field are replaced by the selected Radio Button value.</li> 
+    <li>If you change to a single-select Dropdown, Workfront retains any multi-select values that a user may have entered in the field until the user changes and saves the values in the field. At this point, any values that were selected using the multi-select-type field are replaced by the selected Dropdown value.</li> 
    </ul> 
   </note> </li> 
  <li value="6"> <p>(Optional) Repeat steps 2-6 to add other custom fields.</p> <p>Or</p> <p>Add fields that have already been created for your organization, as explained in <a href="#add" class="MCXref xref">Reuse an existing field</a>.</p> <note type="note">

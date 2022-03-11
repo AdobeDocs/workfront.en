@@ -11,23 +11,23 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-When using the resource scheduling functionality in `Adobe Workfront` you can more easily assign tasks and issues to the appropriate users. You can determine which users are capable of completing the task or issue, taking into consideration both the job role and the availability of the user.
+When using the resource scheduling functionality in Adobe Workfront you can more easily assign tasks and issues to the appropriate users. You can determine which users are capable of completing the task or issue, taking into consideration both the job role and the availability of the user.
 
-The following sections provide more detail about using the Scheduling areas in `Workfront`.
+The following sections provide more detail about using the Scheduling areas in Workfront.
 
-## Prerequisites for using the scheduling tools in `Workfront`
+## Prerequisites for using the scheduling tools in Workfront
 
 >[!IMPORTANT]
 >
->The prerequisites documented in this article apply only to the Scheduling areas of `Workfront`. For information about best practices for using the `Workload Balancer`, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>The prerequisites documented in this article apply only to the Scheduling areas of Workfront. For information about best practices for using the Workload Balancer, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-To successfully use resource scheduling functionality in `Workfront`, you must first ensure that you, your projects, and your tasks and issues meet the following prerequisites:
+To successfully use resource scheduling functionality in Workfront, you must first ensure that you, your projects, and your tasks and issues meet the following prerequisites:
 
 * [User prerequisites](#user-prerequisites) 
 * [Project prerequisites](#project-prerequisites) 
@@ -75,7 +75,7 @@ For more information about project statuses, see the article [Create or edit a s
 
 ### Task and issue prerequisites
 
-In order to be most effective when using the resource scheduling tools in `Workfront`, ensure that tasks and issues in your system have the following criteria defined:
+In order to be most effective when using the resource scheduling tools in Workfront, ensure that tasks and issues in your system have the following criteria defined:
 
 <ul> 
  <li>Durations</li> 
@@ -94,7 +94,7 @@ In order to be most effective when using the resource scheduling tools in `Workf
 
 ### Locate and view information in the Scheduling areas
 
-Depending on where you want to schedule resources, you can access the Scheduling timeline in the following areas of `Workfront`:
+Depending on where you want to schedule resources, you can access the Scheduling timeline in the following areas of Workfront:
 
 * For multiple projects, in the Scheduling area
 * For a project in the Scheduling section 

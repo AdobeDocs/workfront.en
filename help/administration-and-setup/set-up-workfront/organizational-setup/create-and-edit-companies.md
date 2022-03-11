@@ -11,44 +11,44 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-A company is an organizational unit in `Adobe Workfront` that can represent your organization, a department within the organization, or a client you work with. You can add companies to `Workfront` and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
+A company is an organizational unit in Adobe Workfront that can represent your organization, a department within the organization, or a client you work with. You can add companies to Workfront and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 
 ## Access requirements
 
-You must have the following in order to manage companies in `Workfront`:
+You must have the following in order to manage companies in Workfront:
 
 <table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Workfront plan*</p> </td> 
-   <td><span>Team</span> or higher</td> 
+   <td>Team or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span>Adobe Workfront</span> license*</p> </td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* One of the following: The System Administrator access level, which allows you to edit any company in the system. For more information, see Grant a user full administrative access. Administrative access to manage companies, which allows you to edit any company in the system. For more information, see Grant users administrative access to certain areas. Note: You can also manage companies associated with any group where you are assigned as a group administrator. In order to add to and remove users from the Workfront system, you must have one of the following: The System Administrator access level. For information about this access level, see Grant a user full administrative access. In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings , the Create option and at least one of the two User Admin options must be enabled. If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member. For information about the Users setting in an access level, see Grant access to users. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## Benefits of adding users to a company
 
 * You can build a company's organization chart by associating users with direct reports. Only users from the same company can be added as direct reports of another user from that company.
 * As a project manager, you can identify available resources within the same company.
 * You can keep information private between companies by choosing one or all of the following settings:
-* `<li> <p>Users from the same company can see each others’ requests.</p> <p>For more information about how a <span>Workfront administrator</span> can give similar access to requests based on users' company, see the section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences" class="MCXref xref">Configure task and issues preferences for everyone in Workfront</a> in the article <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</p> <p>For more information about how a <span>group administrator</span> can give similar access to requests based on users' company, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md" class="MCXref xref">Configure task and issue preferences for a group</a>.</p> </li>` `<li>Users can see only request queues that are associated with their companies. For more information about restricting visibility of a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md" class="MCXref xref">Provide access to request queues</a>.</li>` `<li>You can restrict users to only see users in their company or their company and the primary company. For information about the primary company functionality regarding user privacy, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</li>` `<li>Users can restrict updates they make on items to be visible by their company users only. For more information about making an update private to a company, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</li>`
+* `<li> <p>Users from the same company can see each others’ requests.</p> <p>For more information about how a Workfront administrator can give similar access to requests based on users' company, see the section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences" class="MCXref xref">Configure task and issues preferences for everyone in Workfront</a> in the article <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</p> <p>For more information about how a group administrator can give similar access to requests based on users' company, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md" class="MCXref xref">Configure task and issue preferences for a group</a>.</p> </li>` `<li>Users can see only request queues that are associated with their companies. For more information about restricting visibility of a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md" class="MCXref xref">Provide access to request queues</a>.</li>` `<li>You can restrict users to only see users in their company or their company and the primary company. For information about the primary company functionality regarding user privacy, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</li>` `<li>Users can restrict updates they make on items to be visible by their company users only. For more information about making an update private to a company, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</li>`
 
-## Create or edit a company in `Workfront`
+## Create or edit a company in Workfront
 
 There is no limit to the number of companies you can add. However, we recommend that limit the number of companies you use because of problems that can occur with object permissions—too much fragmentation might interfere with users' visibility to work items.
 
-By default, the company associated with your instance of `Workfront` is already created in your `Workfront` system and is the Primary Company for your organization. It has the same name as your customer name. For more information about your customer information in `Workfront`, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+By default, the company associated with your instance of Workfront is already created in your Workfront system and is the Primary Company for your organization. It has the same name as your customer name. For more information about your customer information in Workfront, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 To add or edit a company:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> Click <span class="bold">Companies</span>.</li> 
  <li value="3"> <p> If you are adding a company, click <span class="bold">New Company</span>.</p> <p>Or</p> <p>If you are editing an existing company, select the company, then click <span class="bold">Edit</span>.</p> </li> 
  <li value="4"> <p>Use the options that display to configure the following information:</p> 
@@ -61,13 +61,13 @@ To add or edit a company:
      <td> 
       <ul> 
        <li> <p><b>Company Name</b>: Type a name for the company.</p> </li> 
-       <li> <p><b>Is Active</b>: When this option is enabled, users can find the <span>company</span> and attach it to projects that they create and edit. An inactive <span>company</span> cannot be attached to projects. This option is enabled by default.</p> </li> 
-       <li> <p><b>This is the Primary Company</b>: Assigns the company as your organization's primary company. The primary company typically represents your <span>Workfront</span> account where most of your users work.</p> <p>By modifying their access levels, you can restrict users to see other users:</p> 
+       <li> <p><b>Is Active</b>: When this option is enabled, users can find the company and attach it to projects that they create and edit. An inactive company cannot be attached to projects. This option is enabled by default.</p> </li> 
+       <li> <p><b>This is the Primary Company</b>: Assigns the company as your organization's primary company. The primary company typically represents your Workfront account where most of your users work.</p> <p>By modifying their access levels, you can restrict users to see other users:</p> 
         <ul> 
          <li>Only in their primary company</li> 
          <li> <p>In their associated company and the primary company<br></p> <p>For information about the primary company functionality within users' access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p>You can have only one or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
         </ul> </li> 
-       <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for <span>group administrators</span> who need to report on and manage all the companies that their groups do business with.</p> Important: If you don’t associate the group that will be working with this company, administrators for the group can’t access unless they have administrative access to companies in their access level. For information about how this access is granted, see Grant users administrative access to certain areas. Start typing the name of the group, then press Enter when it appears. When you assign a group to a company, the group administrators for the group gain Manage access to the company. For more information, see Group administrators and companies in this article. </li> 
+       <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> Important: If you don’t associate the group that will be working with this company, administrators for the group can’t access unless they have administrative access to companies in their access level. For information about how this access is granted, see Grant users administrative access to certain areas. Start typing the name of the group, then press Enter when it appears. When you assign a group to a company, the group administrators for the group gain Manage access to the company. For more information, see Group administrators and companies in this article. </li> 
        <li> <p><b>Company Members</b>: Add existing users to the company. By doing this, you are associating these users with this company.</p> <p>There is no limit to how many users you associate with one company, but a user cannot be associated with more than one company.</p> </li> 
       </ul> </td> 
     </tr> 
@@ -77,7 +77,7 @@ To add or edit a company:
     </tr> 
     <tr> 
      <td role="rowheader">Custom Forms section</td> 
-     <td> <p>If there are fields that you want to add to your company that are not available in <span>Workfront</span>, you can build a Custom Form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating Custom Forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>. </p> </td> 
+     <td> <p>If there are fields that you want to add to your company that are not available in Workfront, you can build a Custom Form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating Custom Forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>. </p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -90,17 +90,17 @@ Manage company memberships For information about managing memberships for an exi
 
 ## About sharing objects with companies
 
-Certain permissions are available to users who are associated with a company, as explained in the section [Benefits of adding users to a company](#benefits) in the article [Create and edit companies](#). In addition to these permissions, you can allow users permissions to view, contribute, or edit objects in `Workfront` by sharing the object with their company.
+Certain permissions are available to users who are associated with a company, as explained in the section [Benefits of adding users to a company](#benefits) in the article [Create and edit companies](#). In addition to these permissions, you can allow users permissions to view, contribute, or edit objects in Workfront by sharing the object with their company.
 
 Rather than sharing an object with one individual user at a time, you can share it with their entire company. Each user in the company has the same permissions on that object.
 
 For more information about sharing objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-## `Group administrators` and companies
+## Group administrators and companies
 
-When a `Workfront administrator` assigns a group to a company, the `group administrators` for the group gain Manage access to the company in Setup. This includes access to the Companies page in Setup, where they can see and manage the company associated with their group.
+When a Workfront administrator assigns a group to a company, the group administrators for the group gain Manage access to the company in Setup. This includes access to the Companies page in Setup, where they can see and manage the company associated with their group.
 
-With this access to the Companies page, a `group administrator` can assign a group to a company, but it must be a company that the `group administrator` created. If the `group administrator`‘s access level is not configured with administrative access to companies, the Group field is required when the `group administrator` creates the company—it’s bolded title indicates this:
+With this access to the Companies page, a group administrator can assign a group to a company, but it must be a company that the group administrator created. If the group administrator‘s access level is not configured with administrative access to companies, the Group field is required when the group administrator creates the company—it’s bolded title indicates this:
 
 ![](assets/manage-company-group-field-req-350x273.jpg)
 

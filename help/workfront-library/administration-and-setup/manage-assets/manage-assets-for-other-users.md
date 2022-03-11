@@ -21,7 +21,7 @@ The All Content area contains content belonging to all users. You can filter by 
 ### Enable the Owner facet
 
 <ol> 
- <li value="1">Click the Menu icon.In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</li> 
+ <li value="1">Click the Menu icon.In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</li> 
  <li value="2">To the left of the screen, select <span class="bold">All Content</span>.</li> 
  <li value="3">Select <span class="bold">Setup</span>, then <span class="bold">Taxonomy</span>.</li> 
  <li value="4">Click <span class="bold">Add Field</span>.</li> 

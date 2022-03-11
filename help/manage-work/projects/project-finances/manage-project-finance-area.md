@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects and Financial Data</p> <p>Edit access to Projects and&nbsp;Financial&nbsp;Data to edit financial information on the project</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects and Financial Data</p> <p>Edit access to Projects and&nbsp;Financial&nbsp;Data to edit financial information on the project</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 Overview of the Finance area 
 
 Consider the following when viewing or editing information in the Finance area:
@@ -59,7 +59,7 @@ Consider the following when viewing or editing information in the Finance area:
    <tbody> 
     <tr> 
      <td role="rowheader">Performance Index Method</td> 
-     <td> Controls the method <span>Workfront</span> uses to calculate Earned Value metrics. It can be hours-based, or cost-based. <br>For more information about the PIM, see the article <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a></td> 
+     <td> Controls the method Workfront uses to calculate Earned Value metrics. It can be hours-based, or cost-based. <br>For more information about the PIM, see the article <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a></td> 
     </tr> 
     <tr> 
      <td role="rowheader">CPI/SPI/CSI</td> 
@@ -131,8 +131,7 @@ To edit information on the Project Finance subtab:
  <li value="2"> Click Project Details in the left panel. </li> 
  <li value="3"> Click the Edit icon in the upper-right corner of the Details section, then click Finance . This opens the Finance area for editing. </li> 
  <li value="4"> <p> Edit any field that is available for editing, by single-clicking the field or click <span class="bold">+Add</span> to add information to an empty field.</p> <note type="tip">
-   Fields are not available for editing if they are automatically calculated by 
-   <span>Workfront</span> or if you don't have editing permissions on them.
+   Fields are not available for editing if they are automatically calculated by Workfront or if you don't have editing permissions on them.
   </note>  </li> 
  <li value="5"> <p>Update any of the fields below. </p> Note: Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project Details section might be different in your environment. For information, see Customize the Details view using a layout template. 
   <table cellspacing="0"> 
@@ -141,10 +140,10 @@ To edit information on the Project Finance subtab:
    <tbody> 
     <tr> 
      <td role="rowheader">Performance Index Method</td> 
-     <td> <p>Controls the method <span>Workfront</span> uses to calculate project performance metrics. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
+     <td> <p>Controls the method Workfront uses to calculate project performance metrics. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
       <ul> 
-       <li><span class="bold">Hour-Based:</span><span>Workfront</span> uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </li> 
-       <li><span class="bold">Cost-Based:</span><span>Workfront</span> uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</li> 
+       <li><span class="bold">Hour-Based:</span>Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </li> 
+       <li><span class="bold">Cost-Based:</span>Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -169,7 +168,7 @@ To edit information on the Project Finance subtab:
     </tr> 
     <tr> 
      <td role="rowheader">Project Currency</td> 
-     <td> <p>Specify a currency for this project, if it is different from the default currency in your system. The default currency in your system is defined by your <span>Workfront administrator</span>. For more information about setting up exchange rates in <span>Workfront</span>, see the article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> </td> 
+     <td> <p>Specify a currency for this project, if it is different from the default currency in your system. The default currency in your system is defined by your Workfront administrator. For more information about setting up exchange rates in Workfront, see the article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">&nbsp;</td> 

@@ -7,11 +7,11 @@ title: Create and Manage Custom Profiles using Workfront Proof
 description: Billing Administrators and Administrators can create and manage custom profiles to specify what users can do in your organization's account and in Account settings.
 ---
 
-# Create and Manage Custom Profiles using `Workfront Proof`
+# Create and Manage Custom Profiles using Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Billing Administrators and Administrators can create and manage custom profiles to specify what users can do in your organization's account and in Account settings.&nbsp;
 
@@ -135,8 +135,8 @@ You can grant the following permissions:
  <li value="2">Select the profile you want to enable or disable. <br>Or<br>To enable or disable multiple profiles simultaneously, select the profiles manually, or select&nbsp;<span class="bold">Name&nbsp;</span>to select all custom profiles.<br><img src="assets/screenshot-2018-04-06-12-31-53.png" alt="Screenshot_2018-04-06_12-31-53.png"></li> 
  <li value="3">Click the <span class="bold">More&nbsp;</span>drop-down menu, then click either of the following options, depending on whether you want to enable or disable the profile:&nbsp;&nbsp; 
   <ul>
-   <li><span class="bold">Enable profiles: </span>The profile becomes active and visible in the <span>Workfront Proof</span> menus.</li>
-   <li><p><span class="bold">Disable profiles:</span> A&nbsp;confirmation box appears. Select&nbsp;<span class="bold">Yes&nbsp;</span>to confirm. The profile becomes inactive and is removed from the <span>Workfront Proof</span> menus.</p><note type="note">
+   <li><span class="bold">Enable profiles: </span>The profile becomes active and visible in the Workfront Proof menus.</li>
+   <li><p><span class="bold">Disable profiles:</span> A&nbsp;confirmation box appears. Select&nbsp;<span class="bold">Yes&nbsp;</span>to confirm. The profile becomes inactive and is removed from the Workfront Proof menus.</p><note type="note">
      A disabled profile can no longer be assigned to users in the account. If users with that profile exist in the account, select a different profile for them before the profile is disabled.
     </note><p><img src="assets/screenshot-2018-04-06-12-30-07.png" alt="Screenshot_2018-04-06_12-30-07.png"></p></li>
   </ul></li> 
@@ -165,7 +165,7 @@ If you edit a profile, updates are applied to all users who this profile is curr
 
 >[!NOTE]
 >
->Default `Workfront Proof` profiles are visible in the list of profiles but cannot be modified.
+>&nbsp;Default Workfront Proof profiles are visible in the list of profiles but cannot be modified.
 
 ## Deleting a Profile
 

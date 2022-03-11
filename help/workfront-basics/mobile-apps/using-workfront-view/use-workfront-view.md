@@ -7,7 +7,7 @@ title: Use Adobe Workfront View
 description: This section contains the following articles:
 ---
 
-# Use `Adobe Workfront` View
+# Use Adobe Workfront View
 
 This section contains the following articles:
 

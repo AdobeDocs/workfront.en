@@ -97,7 +97,7 @@ For example, when you add an update to a task, the update appears on the Updates
 >
 >Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
 
-For informatics about the object hierarchy in `Adobe Workfront`, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For informatics about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Limitations of the Updates tab
 
@@ -116,9 +116,9 @@ If you want to see all the updates made on a user or a team, beyond the 90-day l
 
 ### Limitations when entering comments on behalf of another user
 
-`Adobe Workfront administrators` and `group administrators` can log in as other users and perform actions in `Workfront` such as entering comments. (For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Any comments made on behalf of another user are indicated on the comment.
+Adobe Workfront administrators and group administrators can log in as other users and perform actions in Workfront such as entering comments. (For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Any comments made on behalf of another user are indicated on the comment.
 
-A `group administrator` can comment on behalf of another person but cannot delete that comment. Only an `Adobe Workfront administrator` can delete a comment that they made on behalf of another user.
+A group administrator can comment on behalf of another person but cannot delete that comment. Only an Adobe Workfront administrator can delete a comment that they made on behalf of another user.
 
 ## View system updates on work items with the Journal Entry report
 

@@ -7,42 +7,42 @@ title: Plans overview in the Adobe Workfront Scenario Planner
 description: This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview.
 ---
 
-# Plans overview in the `Adobe Workfront Scenario Planner`
+# Plans overview in the Adobe Workfront Scenario Planner
 
-This is available only in `the new Adobe Workfront experience` and requires an additional license. For information about the `Workfront Scenario Planner`, see [The Adobe Workfront Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
+This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
 
 ##  
 
-As a business manager, you can use the `Adobe Workfront Scenario Planner` to outline the strategy for your organization's near and long-term future by outlining its one-, three-, or five-year plans.
+As a business manager, you can use the Adobe Workfront Scenario Planner to outline the strategy for your organization's near and long-term future by outlining its one-, three-, or five-year plans.
 
 ## Access requirements
 
-To use the `Adobe Workfront Scenario Planner` you must have the following access:
+To use the Adobe Workfront Scenario Planner you must have the following access:
 
 <table cellspacing="0"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a>*</p> </td> 
-   <td><span>Business</span> or higher</td> 
+   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</p> </td> 
+   <td>Business or higher</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>License type*</p> </td> 
-   <td> <p><span>Review</span> or higher. For more information, see <a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td> <p>Review or higher. For more information, see <a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Scenario Planner</span> to access functionality described in this article.</p> <p>For information about obtaining the <span>Workfront Scenario Planner</span>, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
   </tr> Access level* View access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions View permissions or higher for a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Plans overview
 
-You can identify each high-level organizational outcome and add it as a plan to the `Workfront Scenario Planner`. A plan is the largest work item in the `Scenario Planner`. To make it easier to achieve the plan, you can divide it in several initiatives, to indicate what steps individual organizational units need to take towards its completion. You can then connect initiatives with real projects to indicate how real work factors into actually completing the plan. This article provides general information about plans. For information about initiatives, see [Initiatives overview in the Adobe Workfront Scenario Planner](../scenario-planner/initiatives-overview.md).
+You can identify each high-level organizational outcome and add it as a plan to the Workfront Scenario Planner. A plan is the largest work item in the Scenario Planner. To make it easier to achieve the plan, you can divide it in several initiatives, to indicate what steps individual organizational units need to take towards its completion. You can then connect initiatives with real projects to indicate how real work factors into actually completing the plan. This article provides general information about plans. For information about initiatives, see [Initiatives overview in the Adobe Workfront Scenario Planner](../scenario-planner/initiatives-overview.md).
 
 You can define the labor and financial resources needed to complete the work identified on the plan. You can also view the labor and financial resources required by the initiatives in the plan in order for them to complete.
 
@@ -68,7 +68,7 @@ Consider the following when creating plans:
 * You cannot do actual work on a plan. You can roughly estimate whether you have the resources and the budget required to start planning work. For example, if your company wants to expand and acquire a new office in a new location, the steps required to accomplish that can be outlined first in a plan at the upper-management level. 
 * You can create multiple scenarios of the same plan. When your original plan has too many conflicting initiatives, you will want to create several scenarios where you can edit initiatives or budgets and costs to see what is the ideal situation for accomplishing the plan. Initiatives can conflict with one another when they try to use the same resources during the same time frame. You can then compare scenarios to see what makes the most sense and which one your company should adopt, before they start adding the actual work to accomplish it. For information about creating scenarios, see the article [Create and compare plan scenarios in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 * You can add multiple initiatives to a plan to indicate how smaller planning units will contribute to the completion of the plan. For example, when you plan to expand into a specific market, you can have multiple initiatives at the department level that ultimately contribute to accomplishing the expansion at all levels of the organization. For information about creating initiatives, see the article [Create and edit initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-initiatives.md). 
-* When you create a plan you are the only person who can view it. You must the plan with other users and they can access it if they have at least View access to `Scenario Planner` in their access level.
+* When you create a plan you are the only person who can view it. You must the plan with other users and they can access it if they have at least View access to Scenario Planner in their access level.
 
 ## Job role information for plans
 
@@ -101,19 +101,19 @@ You can view the following in the Financial and&nbsp;Summary boxes on the plan:
  <tbody> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Budget </p> <p role="rowheader">&nbsp;</p> </td> 
-   <td>This is the monetary amount that your company decides that is available for executing the plan. <span>Workfront</span> distributes the budget evenly for each month within the duration of the plan. Budgets are typically set for a year, but it could also be set for a 3 or 5 year period. The currency in the parentheses to the left of the Financial box title indicates the currency of your system. </td> 
+   <td>This is the monetary amount that your company decides that is available for executing the plan. Workfront distributes the budget evenly for each month within the duration of the plan. Budgets are typically set for a year, but it could also be set for a 3 or 5 year period. The currency in the parentheses to the left of the Financial box title indicates the currency of your system. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Costs</td> 
-   <td> <p>This is the total amount of costs that come from all initiatives on the plan. <span>Workfront</span> calculates the plan's Costs using the following formula:</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>For information about how Initiative&nbsp;Costs are calculated, see <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>This is the total amount of costs that come from all initiatives on the plan. Workfront calculates the plan's Costs using the following formula:</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>For information about how Initiative&nbsp;Costs are calculated, see <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Adobe Workfront Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">UTIL (Budget utilization percentage)</td> 
-   <td> <p>This is a calculated percentage between the costs associated with initiatives and the budget defined for the plan. </p> <p><span>Workfront</span> calculates the budget utilization percentage for a plan using the following formula: </p> <p><code>Utilization percentage = (Plan Costs* 100))/ Plan Budget</code> </p> <p>Costs are calculated using the following formula:</p> <p><code>Plan&nbsp;Costs = SUM(Initiatives People Costs, Initiatives Fixed Costs)</code> </p> <p>Tip: The Utilization percentage is rounded and has one decimal. </p> </td> 
+   <td> <p>This is a calculated percentage between the costs associated with initiatives and the budget defined for the plan. </p> <p>Workfront calculates the budget utilization percentage for a plan using the following formula: </p> <p><code>Utilization percentage = (Plan Costs* 100))/ Plan Budget</code> </p> <p>Costs are calculated using the following formula:</p> <p><code>Plan&nbsp;Costs = SUM(Initiatives People Costs, Initiatives Fixed Costs)</code> </p> <p>Tip: The Utilization percentage is rounded and has one decimal. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Net Value area <span>in the Summary box</span></p> <p role="rowheader">&nbsp;</p> </td> 
-   <td> <p>This is a calculation of all Net Values of all initiatives in the plan. </p> <p><span>Workfront</span> calculates the Net Value for the plan using the following formula: </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>Or</p> <p><code>Plan Net Value = SUM(Initiative&nbsp;Net Value)</code> </p> <p>For information about the Initiatives Net Values, see the article <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+   <td> <p>This is a calculation of all Net Values of all initiatives in the plan. </p> <p>Workfront calculates the Net Value for the plan using the following formula: </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>Or</p> <p><code>Plan Net Value = SUM(Initiative&nbsp;Net Value)</code> </p> <p>For information about the Initiatives Net Values, see the article <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -11,7 +11,7 @@ description: You can keep track of expenses on projects and tasks. Expenses are 
 
 You can keep track of expenses on projects and tasks. Expenses are non-labor costs and can be associated with tasks or projects.
 
-As the `Adobe Workfront administrator`, you can create custom expense types, to define the expenses associated with your tasks and projects. Some expense types are already in `Workfront` by default.
+As the Adobe Workfront administrator, you can create custom expense types, to define the expenses associated with your tasks and projects. Some expense types are already in Workfront by default.
 
 You can edit or delete any expense types that you create. You cannot delete or edit default expense types.
 
@@ -24,23 +24,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Default Expense Types
 
-The Expense Types that are in `Workfront` by default cannot be deleted or edited include the following:
+The Expense Types that are in Workfront by default cannot be deleted or edited include the following:
 
 * Advertising
 * Consulting

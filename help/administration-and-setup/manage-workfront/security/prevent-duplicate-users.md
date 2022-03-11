@@ -9,7 +9,7 @@ description: When creating a new user in Adobe Workfront, you can no longer use 
 
 # Prevent duplicate users
 
-When creating a new user in `Adobe Workfront`, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a `Workfront` instance.
+When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.
 
 ## Access requirements
 
@@ -20,16 +20,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,13 +42,13 @@ You must have the following to perform the steps in this article:
 
 ## Create users with unique email addresses
 
-Beginning with the 2019.4 release, when creating a new user in `Workfront`, you can no longer use an email address that is already being used by another user, even if the email address varies by case. For example, you cannot create one user with the email address of JohnDoe@example.com if another user has the email address of johndoe@example.com.
+Beginning with the 2019.4 release, when creating a new user in Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case. For example, you cannot create one user with the email address of JohnDoe@example.com if another user has the email address of johndoe@example.com.
 
 ## Update email addresses of existing users in your Workfront instance
 
-As the `Workfront administrator`, you must update existing users who have matching email addresses that differ only by case. This is required for the future enhancements described in [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
+As the Workfront administrator, you must update existing users who have matching email addresses that differ only by case. This is required for the future enhancements described in [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
 
-To fix duplicate email addresses within a `Workfront` instance:
+To fix duplicate email addresses within a Workfront instance:
 
 <ol> 
  <li value="1">&nbsp;Examine any duplicate users and decide which user is no longer needed.
@@ -89,4 +89,4 @@ To fix duplicate email addresses within a `Workfront` instance:
   </ul></li> 
 </ol>
 
-If you have users in a `Workfront` instance with matching email addresses that differ only by case, `Workfront` will contact you with additional information and a timeline when these need to be updated.
+If you have users in a Workfront instance with matching email addresses that differ only by case, Workfront will contact you with additional information and a timeline when these need to be updated.

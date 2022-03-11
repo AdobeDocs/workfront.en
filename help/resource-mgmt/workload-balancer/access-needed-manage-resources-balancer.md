@@ -6,54 +6,54 @@ title: Access needed to manage resources in the Workload Balancer
 description: Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancerr.
 ---
 
-# Access needed to manage resources in the `Workload Balancer`
+# Access needed to manage resources in the Workload Balancer
 
-Without correct access or permissions, you may not be able to view or manage your work assignments in the `Workload Balancer`r.
+Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancerr.
 
-You must have access to view the users whose workload you want to view or manage in the `Workload Balancer`. In addition to this, you must have the correct access level and the correct permissions on the projects the work is associated with.
+You must have access to view the users whose workload you want to view or manage in the Workload Balancer. In addition to this, you must have the correct access level and the correct permissions on the projects the work is associated with.
 
-## `Adobe Workfront` plan needed to use the `Workload Balancer` for different areas
+## Adobe Workfront plan needed to use the Workload Balancer for different areas
 
-The following table illustrates the connection between the `Workfront` plan your company has and where in the system you can use the `Workload Balancer`: 
+The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer: 
 
 <table cellspacing="0"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> Plan</td> 
-   <td> <p>Areas where you can access the <span>Workload Balancer</span></p> </td> 
+   <td role="rowheader">Workfront Plan</td> 
+   <td> <p>Areas where you can access the Workload Balancer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Team</span> or higher </td> 
-   <td><span>Workload Balancer</span> for a team or a project</td> 
+   <td role="rowheader">Team or higher </td> 
+   <td>Workload Balancer for a team or a project</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Pro</span> or higher</td> 
-   <td><span>Workload Balancer</span> for multiple projects, at the system level</td> 
+   <td role="rowheader">Pro or higher</td> 
+   <td>Workload Balancer for multiple projects, at the system level</td> 
   </tr> 
  </tbody> 
 </table>
 
-For information about the `Workfront` plans, see [Our Plans](https://www.workfront.com/plans).
+For information about the Workfront plans, see [Our Plans](https://www.workfront.com/plans).
 
-For information about where you can locate the `Workload Balancer` in `Workfront`, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-## Access needed to view the `Workload Balancer`
+## Access needed to view the Workload Balancer
 
-You must have the following access to view the `Workload Balancer`: 
+You must have the following access to view the Workload Balancer: 
 
 <table cellspacing="0"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Resource Management</p> <p>For information about the Resource Management access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Grant access to Resource Management</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Resource Management</p> <p>For information about the Resource Management access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Grant access to Resource Management</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -62,19 +62,19 @@ You must have the following access to view the `Workload Balancer`:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Access needed to manage assignments in the `Workload Balancer`
+## Access needed to manage assignments in the Workload Balancer
 
-You must have the following access to manage the `Workload Balancer`: 
+You must have the following access to manage the Workload Balancer: 
 
 <table cellspacing="0"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -82,7 +82,7 @@ You must have the following access to manage the `Workload Balancer`:
      View or higher access to Financial Data, if you want to view information by cost
     --> <p>For information about the Resource Management access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Grant access to Resource Management</a>.</p> <!--
      For information about the Financial Data access level, see the articleGrant access to financial data.
-    --> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    --> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -91,4 +91,4 @@ You must have the following access to manage the `Workload Balancer`:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.

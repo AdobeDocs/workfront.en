@@ -14,7 +14,7 @@ A Home Group is assigned in the user's profile. All users are required to have a
 
 Although any existing group in the system can be assigned as a user's Home Group, we recommend creating and assigning new groups that represent larger organizational units.
 
-When establishing Home Groups, consider how your organization divides your `Adobe Workfront` users. Here are a few suggestions to determine what type of groups should be used as a Home Group:
+When establishing Home Groups, consider how your organization divides your Adobe Workfront users. Here are a few suggestions to determine what type of groups should be used as a Home Group:
 
 * Groups that represent departments, such as IT or Marketing
 * Groups governed by different budgets
@@ -40,8 +40,8 @@ For more information, see [Create and manage layout templates](../../../administ
 
 Each user can be assigned to only one Home Group, which makes it easier to manage license counts.
 
-`Workfront administrators` have the option to set maximum license counts for the Home Groups.
+Workfront administrators have the option to set maximum license counts for the Home Groups.
 
-Setting a max license count allows `Workfront administrators` to prevent a business unit from using `Workfront` licenses purchased for other business units.
+Setting a max license count allows Workfront administrators to prevent a business unit from using Workfront licenses purchased for other business units.
 
 For more information, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

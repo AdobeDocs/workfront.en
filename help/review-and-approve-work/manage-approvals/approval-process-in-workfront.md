@@ -11,7 +11,7 @@ description: You can create an approval process and attach it to an object to ma
 
 You can create an approval process and attach it to an object to make sure that designated users review certain changes before the object progresses.
 
-This is available for the following types of objects in  `Adobe Workfront`:
+This is available for the following types of objects in&nbsp;Adobe Workfront:
 
 * Work item (project, task or issue, template, template task)
 * Document
@@ -23,7 +23,7 @@ This article contains general information about approval processes associated wi
 
 ## Types of approval processes
 
-If you are an `Adobe Workfront administrator`, or a user with administrative access to approval processes, you can associate the following approval processes with projects, tasks, and issues:
+If you are an Adobe Workfront administrator, or a user with administrative access to approval processes, you can associate the following approval processes with projects, tasks, and issues:
 
 * `A system-level global approval process`: Users can attach these to any of the following:
 
@@ -56,7 +56,7 @@ For information about creating a system-level approval process or a group-level 
 * You must create the project, task, issue, template, or template task before the approval process can be associated with them.
 * An approval process is always associated with two essential things:
 
-  * Each approval process corresponds to a certain work item status in the `Workfront` system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.
+  * Each approval process corresponds to a certain work item status in the Workfront system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.
   
     ` `**Tips: **``
 
@@ -69,7 +69,7 @@ For information about creating a system-level approval process or a group-level 
 
 <ul> 
  <li>When you create a work item, it does not automatically have an approval process attached. You must attach one manually if you want to use one. For information about attaching an approval process to an item, see <a href="../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref" xrefformat="{para}">Associate a new or existing approval process with work</a>. </li> 
- <li> <p>The <span>Workfront administrator</span> or a user with administrative access to approval processes can create a system-level global approval processes for use throughout the system. A <span>group administrator</span> with administrative access to approval processes can create a group-level global approval process for use only by a certain group that they manage.</p> </li> 
+ <li> <p>The Workfront administrator or a user with administrative access to approval processes can create a system-level global approval processes for use throughout the system. A group administrator with administrative access to approval processes can create a group-level global approval process for use only by a certain group that they manage.</p> </li> 
  <li> <p>If you don't want to use a predefined system-level or group-level global approval process for a work item, you can create and attach a single-use approval process to it when you have Manage permissions to the object for which you want to attach the approval process.</p> <note type="note">
    You can use a single-use approval process only once for the specific item for which it was created. You can associate global statuses as well as group-level statuses for single-use approval processes for projects, tasks, issues, templates, and template tasks.
   </note> </li> 
@@ -96,10 +96,10 @@ For more information about statuses for work items, see the following articles:
 
 ### How a typical workflow uses an approval process
 
-The following scenario illustrates how an approval process helps users approve work as a `Workfront` object progresses through a workflow of several steps in this order:
+The following scenario illustrates how an approval process helps users approve work as a Workfront object progresses through a workflow of several steps in this order:
 
 <ol> 
- <li value="1"> <p>The <span>Workfront administrator</span> or a user with administrative access to Approval Processes creates an approval process for a project, task, or issue.</p> <note type="note">
+ <li value="1"> <p>The Workfront administrator or a user with administrative access to Approval Processes creates an approval process for a project, task, or issue.</p> <note type="note">
    You can attach project approval processes to a template, and task approval processes to a template task. After you do this, when someone uses the template to create a project, the approval process becomes a project or task approval process respectively. A single-use approval process attached to a template or template task remains a single-use approval process for projects and tasks.
    <br>
   </note> </li> 
@@ -118,20 +118,20 @@ A brochure project owner attaches the Designer/ Copywriter Signoff approval proc
 
 When someone on the project changes the status to Ready for Printing, the copywriter and designer receive notifications asking them to approve or reject it. During the approval process, when they are deliberating whether to approve it or not, the status of the projects displays as Ready for Printing - Pending Approval.
 
-After they both approve the brochure in `Workfront`, the project status changes to Ready for Printing.
+After they both approve the brochure in Workfront, the project status changes to Ready for Printing.
 
 ## Document approval processes
 
 Document approvals are used for a more general approval. Feedback is captured in chat format on the Updates tab. You can use the approval buttons to approve, reject, or approve with changes.
 
-To add approvers to a document after it's been uploaded to `Workfront`, see [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+To add approvers to a document after it's been uploaded to Workfront, see [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
 ## Proof approval processes
 
 Proof approvals are used for a deeper review and generally include more complicated workflows. Feedback is captured with markup tools in the proofing viewer. You can use the approval buttons to approve, reject, or approve with changes.
 
-To add an Automated Workflow to a document `proof` and designate certain users in the workflow as approvers of the `proof`, see [Create an advanced proof with an Automated workflow](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+To add an Automated Workflow to a document proof and designate certain users in the workflow as approvers of the proof, see [Create an advanced proof with an Automated workflow](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Configuring settings for work-item approval processes
 
-As a `Workfront administrator`, you can configure global settings for work-item approval processes in your system. These settings determine various rules for approval processes, like how long an approval decision should be allowed to stay open or how you manage approval delegation in your system. For more information about approval process settings, see [Configure global approval settings](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+As a Workfront administrator, you can configure global settings for work-item approval processes in your system. These settings determine various rules for approval processes, like how long an approval decision should be allowed to stay open or how you manage approval delegation in your system. For more information about approval process settings, see [Configure global approval settings](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).

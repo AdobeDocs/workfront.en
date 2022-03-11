@@ -6,7 +6,7 @@ title: Remove users from resource pools in Adobe Workfront
 description: Although there is no limit to how many users you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 ---
 
-# Remove users from resource pools in  `Adobe Workfront`
+# Remove users from resource pools in&nbsp;Adobe Workfront
 
 Although there is no limit to how many users you can have in a&nbsp;resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 
@@ -23,23 +23,23 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> and higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro and higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> <!--
    Object permissions Manage permissions for the projects, templates, and users you associate the Resource Pools with For information on requesting additional access, see Request access to objects in Adobe Workfront.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Remove users from a Resource Pool
 
@@ -48,7 +48,7 @@ You can remove users from a Resource Pool when those users are no longer needed 
 To remove a user from a Resource Pool:
 
 <ol> 
- <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.</li> 
+ <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
  <li value="2"> Click Resourcing. </li> 
  <li value="3"> Click Resource Pools in the left panel. </li> 
  <li value="4">Select a Resource Pool and click <span class="bold">Edit.<br></span>Or<br>Click the name of a Resource Pool. </li> 

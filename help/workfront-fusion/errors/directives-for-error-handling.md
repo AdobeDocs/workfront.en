@@ -19,25 +19,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Directives for error handling
 
@@ -67,14 +67,14 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Retry</p> <p> <img src="assets/retry.png"> </p> </td> 
-   <td> <p>In some cases it could be useful to re-execute a failing module for a couple of times when there is a chance that the reason for the failure might pass over time.</p> <p><span>Workfront Fusion</span> currently does not offer the Retry directive, though several workarounds can be employed to mimic its functionality. For more information, see <a href="../../workfront-fusion/errors/retry.md" class="MCXref xref">Retry</a>.</p> </td> 
+   <td> <p>In some cases it could be useful to re-execute a failing module for a couple of times when there is a chance that the reason for the failure might pass over time.</p> <p>Workfront Fusion currently does not offer the Retry directive, though several workarounds can be employed to mimic its functionality. For more information, see <a href="../../workfront-fusion/errors/retry.md" class="MCXref xref">Retry</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Currently the error handling directives cannot be used out of the scope of an error handling route and `Workfront Fusion` currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality. For more information, see [Error handler route](../../workfront-fusion/errors/error-handling.md#error) in the article [Error handling](../../workfront-fusion/errors/error-handling.md). Also see [Workaround for Throw](../../workfront-fusion/errors/throw.md#workarou) in the article [Throw](../../workfront-fusion/errors/throw.md).
+>Currently the error handling directives cannot be used out of the scope of an error handling route and Workfront Fusion currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality. For more information, see [Error handler route](../../workfront-fusion/errors/error-handling.md#error) in the article [Error handling](../../workfront-fusion/errors/error-handling.md). Also see [Workaround for Throw](../../workfront-fusion/errors/throw.md#workarou) in the article [Throw](../../workfront-fusion/errors/throw.md).
 
 ## Break
 

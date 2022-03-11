@@ -7,11 +7,11 @@ title: Print and Export Comments in Workfront Proof
 description: The Comments summary can be accessed directly from the following areas:
 ---
 
-# Print and Export Comments in `Workfront Proof`
+# Print and Export Comments in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Printing Comments
 
@@ -23,19 +23,19 @@ The Comments summary can be accessed directly from the following areas:
 
 ### The Proof Viewer
 
-You can print the `proof`'s Comments summary, including the thumbnails or full-view image of the `proof`, by clicking on the `Print` icon in the Proof Viewer. (1)
+You can print the proof's Comments summary, including the thumbnails or full-view image of the proof, by clicking on the `Print` icon in the Proof Viewer. (1)
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png) 
 
 ### The Proof Details Page
 
-You can print the `proof`'s Comment summary by clicking on the `Print` icon on the Proof details page. (2)
+You can print the proof's Comment summary by clicking on the `Print` icon on the Proof details page. (2)
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png) 
 
 ### The Proof Actions Menu
 
-You can print the `proof`'s Comment summary by clicking on the `Print` icon in the Proof actions menu.
+You can print the proof's Comment summary by clicking on the `Print` icon in the Proof actions menu.
 
 To access the Comments Summary page from a list view:
 
@@ -48,8 +48,8 @@ On the Comments summary page you have the following print options to choose from
 * Thumbnail view (1)
 * Full page view (2)
 * Print the page (3)
-* Export the `proof` with comments to a PDF file (4)
-* Export the `proof` comments to an Excel file (5)
+* Export the proof with comments to a PDF file (4)
+* Export the proof comments to an Excel file (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png) 
 
@@ -77,7 +77,7 @@ To print the full page view, click the `Printer` icon at the top-right corner of
 To download the excel summary:
 
 <ol> 
- <li value="1">Open the <span>proof</span>'s actions menu to the right of the <span>proof</span>, then click <span class="bold">Excel summary</span>.&nbsp;(1)<br><img src="assets/excel-summary-350x450.png" alt="Excel_summary.png" style="width: 350;height: 450;"></li> 
+ <li value="1">Open the proof's actions menu to the right of the proof, then click <span class="bold">Excel summary</span>.&nbsp;(1)<br><img src="assets/excel-summary-350x450.png" alt="Excel_summary.png" style="width: 350;height: 450;"></li> 
 </ol>
 
 To download the excel summary from the Proof details page: 
@@ -89,10 +89,10 @@ To download the excel summary from the Proof details page:
 
 ## Exporting to PDF
 
-To export a `proof` to PDF, together with all markups and comments, follow these steps:
+To export a proof to PDF, together with all markups and comments, follow these steps:
 
 1. Go to `Views` on the left side of the screen.
-1. Click the `More` icon inline with a `proof`, then click `Print comments`.
+1. Click the `More` icon inline with a proof, then click `Print comments`.
 
 1. Click the Export to PDF icon in the top-right corner of the page.
 

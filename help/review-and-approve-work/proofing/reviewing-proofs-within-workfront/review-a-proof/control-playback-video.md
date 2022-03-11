@@ -6,7 +6,7 @@ title: Control playback in a video proof
 description: You must have the following access to perform the steps in this article:
 ---
 
-# Control playback in a video `proof`
+# Control playback in a video proof
 
 ## Access requirements
 
@@ -17,15 +17,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
+   <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -35,30 +35,30 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
 ## Adjust video playback speed
 
-You can adjust the playback speed of the video `proof`. You can select to view the video between a quarter speed, to double speed.
+You can adjust the playback speed of the video proof. You can select to view the video between a quarter speed, to double speed.
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the `proof` you need, then click `Open `proof``.
+1. Find the proof you need, then click `Open proof`.
 
 <ol start="3"> 
- <li value="3"> <p>In the lower-right corner of the <span>proofing viewer</span>, click the <span class="bold">Settings</span> icon.</p> <p> <img src="assets/phq-viewer-video-playbackspeed--2-.png" alt="phq_viewer_video_playbackspeed__2_.png"> <br> </p> </li> 
+ <li value="3"> <p>In the lower-right corner of the proofing viewer, click the <span class="bold">Settings</span> icon.</p> <p> <img src="assets/phq-viewer-video-playbackspeed--2-.png" alt="phq_viewer_video_playbackspeed__2_.png"> <br> </p> </li> 
  <li value="4">Click the current speed, then select a new playback speed.<br></li> 
  <li value="5">Click the <span class="bold">Play</span> button on the video to test the new speed.</li> 
 </ol>
 
 ## View video frame-by-frame
 
-For a more detailed look at the video `proof`, you can manually review&nbsp;the video frame-by-frame.
+For a more detailed look at the video proof, you can manually review&nbsp;the video frame-by-frame.
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the `proof` you need, then click `Open `proof``.
+1. Find the proof you need, then click `Open proof`.
 
 <ol start="3"> 
- <li value="3"> <p>At the bottom of the <span>proofing viewer</span>, click the <span class="bold">Forward</span>&nbsp;and <span class="bold">Back</span> arrows to review the video frame-by-frame.</p> <p> <img src="assets/frame-.png"> </p> </li> 
+ <li value="3"> <p>At the bottom of the proofing viewer, click the <span class="bold">Forward</span>&nbsp;and <span class="bold">Back</span> arrows to review the video frame-by-frame.</p> <p> <img src="assets/frame-.png"> </p> </li> 
 </ol>
 
 ## Change playback volume
@@ -66,9 +66,9 @@ For a more detailed look at the video `proof`, you can manually review&nbsp;the 
 You can control the volume in the video playback.
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the `proof` you need, then click `Open `proof``.
+1. Find the proof you need, then click `Open proof`.
 
 <ol start="3"> 
- <li value="3"> <p>In the lower-right corner of the <span>proofing viewer</span>, mouse over the <span class="bold">Volume</span> icon, then drag the slider to select a new volume.</p> <p> <img src="assets/phq-viewer-volume.png"> </p> <p>Or</p> <p> Click the <span class="bold">Volume</span> icon to mute and unmute the volume.<br></p> </li> 
+ <li value="3"> <p>In the lower-right corner of the proofing viewer, mouse over the <span class="bold">Volume</span> icon, then drag the slider to select a new volume.</p> <p> <img src="assets/phq-viewer-volume.png"> </p> <p>Or</p> <p> Click the <span class="bold">Volume</span> icon to mute and unmute the volume.<br></p> </li> 
 </ol>
 

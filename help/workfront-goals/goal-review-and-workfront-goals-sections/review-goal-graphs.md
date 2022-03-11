@@ -6,13 +6,13 @@ title: Review graphs to understand goal progress trends in Adobe Workfront Goals
 description: You can view the overall health of your goals and their progress trend in time in the Graphs section of Adobe Workfront Goals. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
 ---
 
-# Review graphs to understand goal progress trends in `Adobe Workfront Goals`
+# Review graphs to understand goal progress trends in Adobe Workfront Goals
 
-You can view the overall health of your goals and their progress trend in time in the Graphs section of `Adobe Workfront Goals`. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
+You can view the overall health of your goals and their progress trend in time in the Graphs section of Adobe Workfront Goals. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
 
 >[!IMPORTANT]
 >
->You can see a total count for your goals in the Graphs section for a selected period of time. However, `Workfront Goals` takes into account only goals with a status of Active and Closed when calculating the overall goal progress status and percent complete.
+>You can see a total count for your goals in the Graphs section for a selected period of time.&nbsp;However, Workfront Goals takes into account only goals with a status of Active and Closed when calculating the overall goal progress status and percent complete.
 
 ## Access requirements
 
@@ -23,20 +23,20 @@ You must have the following access to perform the actions described in this arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
+   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -45,7 +45,7 @@ You must have the following access to perform the actions described in this arti
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -53,9 +53,9 @@ You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main&nbsp;Menu.
 
-## Types of graphs in `Workfront Goals`
+## Types of graphs in Workfront Goals
 
-The following charts are available in the Graphs section or `Workfront Goals`: 
+The following charts are available in the Graphs section or Workfront Goals: 
 
 <table cellspacing="0"> 
  <col> 
@@ -67,7 +67,7 @@ The following charts are available in the Graphs section or `Workfront Goals`:
     <ul> 
      <li>A total number of goals for the selected period of time. Goals with any status are taken into account. </li> 
      <li>The progress status of goals with a status of Active and Closed.</li> 
-    </ul> <p>For information about how <span>Workfront Goals</span> calculates progress status, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>.</p> </td> 
+    </ul> <p>For information about how Workfront Goals calculates progress status, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">The Goal Progress Chart</td> 
@@ -83,7 +83,7 @@ The following charts are available in the Graphs section or `Workfront Goals`:
 ## Review goal progress in graphs
 
 <ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <span>Workfront Goals</span> area. </p> </p> </li> 
+ <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the Workfront Goals area. </p> </p> </li> 
  <li value="2"> <p>Click <span class="bold">Graphs</span> in the left panel. </p> <p> <img src="assets/graphs-in-left-panel.png"> </p> <p>The Graphs section displays. </p> <p>By default, the goals displayed in the Graphs section are limited by the following criteria:&nbsp;</p> 
   <ul> 
    <li>The filters applied to the Graphs area. </li> 

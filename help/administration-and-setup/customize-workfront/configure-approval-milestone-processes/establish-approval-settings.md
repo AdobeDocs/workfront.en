@@ -12,7 +12,7 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-As an `Adobe Workfront administrator`, you can determine the global settings for approval processes in `Workfront`. These settings impact all work item approval processes in your system.
+As an Adobe Workfront administrator, you can determine the global settings for approval processes in Workfront. These settings impact all work item approval processes in your system.
 
 ## Access requirements
 
@@ -23,7 +23,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a> </td> 
    <td> <p>Any plan</p> </td> 
   </tr> 
   <tr> 
@@ -36,8 +36,8 @@ You must have the following:
 ## Configure global approval settings
 
 <ol> 
- <li value="1">Log in to <span>Workfront</span> as a <span>Workfront administrator</span> . </li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Log in to Workfront as a Workfront administrator . </li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="3"> <p>Click <span class="bold">Processes</span> > <span class="bold">Approvals</span> and Reviews.<br></p> </li> 
  <li value="4"> Click the Settings icon next to the Approvals and Reviews area name. </li> 
  <li value="5"> <p>In the <span class="bold">Approval Settings</span> box that appears, specify the following information:</p> 
@@ -60,7 +60,7 @@ You must have the following:
     </tr> 
     <tr> 
      <td role="rowheader">Disable approval delegation</td> 
-     <td> <p>Select this option to disable the functionality for users in your system to delegate approvals to another user. When this option is selected, the option to delegate approvals is removed from <span>Workfront</span>, and any existing approval delegations are stopped.</p> <p>For more information about delegating approvals in <span>Workfront</span>, see<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a> .</p> </td> 
+     <td> <p>Select this option to disable the functionality for users in your system to delegate approvals to another user. When this option is selected, the option to delegate approvals is removed from Workfront, and any existing approval delegations are stopped.</p> <p>For more information about delegating approvals in Workfront, see<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a> .</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Allow Editing the custom form when the project, task, or issue is in pending approval status</td> 

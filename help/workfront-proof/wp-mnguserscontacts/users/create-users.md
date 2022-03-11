@@ -7,13 +7,13 @@ title: Create Users using Workfront Proof
 description: As a Workfront Proof administrator, you can create new users.
 ---
 
-# Create Users using `Workfront Proof`
+# Create Users using Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a `Workfront Proof administrator`, you can create new users.
+As a Workfront Proof administrator, you can create new users.
 
 For information about administrator rights, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
@@ -27,7 +27,7 @@ You can create a user from scratch or you can convert a Guest to a licensed user
 
 1. Do any of the following to begin creating a user:
 
-  * Click the drop-down menu arrow next to  `New `proof``, then click  `New user`.
+  * Click the drop-down menu arrow next to  `New proof`, then click  `New user`.
   
   * Click `Settings` > `Account Settings`, then click `+New User`.
   
@@ -40,7 +40,7 @@ You can create a user from scratch or you can convert a Guest to a licensed user
 
 ## Converting a Guest to a User
 
-Guests are users who do not have a licensed `Workfront Proof` account. If a Guest upgrades to a licensed user account, you need to manually convert a Guest account into a licensed user.&nbsp;
+Guests are users who do not have a licensed Workfront Proof account. If a Guest upgrades to a licensed user account, you need to manually convert a Guest account into a licensed user.&nbsp;
 
 For more information on Guests and users, see [Understand Users, Members, and Guests in Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md).&nbsp;
 

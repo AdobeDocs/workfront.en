@@ -11,19 +11,19 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Airtable modules
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
-In a `Adobe Workfront Fusion` scenario, you can connect your `Airtable` account to multiple third-party applications and services.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+In a Adobe Workfront Fusion scenario, you can connect your Airtable account to multiple third-party applications and services.
 
 <!--
 For more information, see the tutorial Sync Airtable and Google contacts.
 -->
 
-## Connect Airtable to `Workfront Fusion`
+## Connect Airtable to Workfront Fusion
 
 <ol> 
  <li value="1">Log in to your Airtable account.</li> 
  <li value="2"> <p>Open your account overview and generate the API key.</p> </li> 
- <li value="3">Open <span>Workfront Fusion</span> and the <span class="bold">Create a connection</span> dialog of the desired module.</li> 
+ <li value="3">Open Workfront Fusion and the <span class="bold">Create a connection</span> dialog of the desired module.</li> 
  <li value="4"> <p>Enter the generated API key in the <span class="bold">API</span> token field.</p> <p> <img src="assets/airtable-create-a-connection-350x263.png" style="width: 350;height: 263;"> </p> </li> 
  <li value="5">Click the <span class="bold">Continue</span> button. The connection is now established.</li> 
 </ol>
@@ -41,11 +41,11 @@ For more information, see the tutorial Sync Airtable and Google contacts.
 
 #### Create a Record
 
-This action module `creates a new record`.
+This action module creates a new record.
 
 You specify the data you want in the record and where you want it to be stored.
 
-The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -55,7 +55,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p style="font-weight: bold;">Record</p> </td> 
@@ -93,11 +93,11 @@ When you are configuring this module, the following fields display.
 
 #### Delete a Record
 
-This action module `deletes a particular record`.
+This action module deletes a particular record.
 
 You specify the ID and locates of the record.
 
-The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -107,7 +107,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -115,7 +115,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Record ID</td> 
-   <td> <p><![CDATA[	]]>Enter or map the unique <span>Airtable</span> ID of the <span>record</span> that you want the module to <span>delete</span>. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
+   <td> <p><![CDATA[	]]>Enter or map the unique Airtable ID of the record that you want the module to delete. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,7 +130,7 @@ This action module retrieves record details.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -149,9 +149,9 @@ This action module retrieves record details.
 
 #### Search Records
 
-This search module looks for `records in an object` in `Airtable` that match the search query you specify.
+This search module looks for records in an object in Airtable that match the search query you specify.
 
-You can map `this information` in subsequent modules in the scenario.
+You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -161,7 +161,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -181,18 +181,18 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Max Records</td> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p><![CDATA[	]]>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Update a Record
 
-This action module `updates a particular record`.
+This action module updates a particular record.
 
 You specify the ID of the record and the new data you want it to contain.
 
-The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -206,7 +206,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Record ID </td> 
-   <td> <p>Enter or map the unique <span>Airtable</span> ID of the <span>record</span> that you want the module to <span>update</span>. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
+   <td> <p>Enter or map the unique Airtable ID of the record that you want the module to update. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
   </tr> 
   <tr> 
    <td> <p style="font-weight: bold;">Record</p> </td> 
@@ -246,7 +246,7 @@ When you are configuring this module, the following fields display.
 
 #### Watch Records
 
-This trigger module executes a scenario when `a new record is added or updated in the table`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+This trigger module executes a scenario when a new record is added or updated in the table. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 >[!NOTE]
 >
@@ -258,7 +258,7 @@ This trigger module executes a scenario when `a new record is added or updated i
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -274,7 +274,7 @@ This trigger module executes a scenario when `a new record is added or updated i
   </tr> 
   <tr> 
    <td>Max Records</td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>watch</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

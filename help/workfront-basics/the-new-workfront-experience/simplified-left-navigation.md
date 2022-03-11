@@ -6,11 +6,11 @@ title: Simplified left navigation in the new Adobe Workfront experience
 description: In the current version of Adobe Workfront the multi-level tabs make it sometimes difficult to navigate and require time-consuming clicks.
 ---
 
-# Simplified left navigation in `the new Adobe Workfront experience`
+# Simplified left navigation in the new Adobe Workfront experience
 
-In the current version of `Adobe Workfront` the multi-level tabs make it sometimes difficult to navigate and require time-consuming clicks.
+In the current version of Adobe Workfront the multi-level tabs make it sometimes difficult to navigate and require time-consuming clicks.
 
-We made several changes in the way information displays in `the new Adobe Workfront experience`. Some of the former tabs have been removed and some of them have been moved to a simpler, less-intrusive left navigation panel for several areas and objects.
+We made several changes in the way information displays in the new Adobe Workfront experience. Some of the former tabs have been removed and some of them have been moved to a simpler, less-intrusive left navigation panel for several areas and objects.
 
 For information about tabs that have been removed, see the article [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
 
@@ -19,7 +19,7 @@ For information about tabs that have been removed, see the article [Subtabs repl
 Consider the following benefits of the new left panel navigation:
 
 * It is less intrusive and a better management of screen space.
-* Your `Workfront administrator` can hide any section in the left panel except for the object's Details using Layout Templates.
+* Your Workfront administrator can hide any section in the left panel except for the object's Details using Layout Templates.
 
   For information about using Layout Templates, see the article [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -29,11 +29,11 @@ Consider the following benefits of the new left panel navigation:
 
 ## Left navigation panel replaced most tabs
 
-Currently, the information about an object displays in tabs under the object name in `Workfront`.
+Currently, the information about an object displays in tabs under the object name in Workfront.
 
 ![](assets/classic-tabs-on-projects-highlighted-350x145.png)
 
-In `the new Adobe Workfront experience`, this information displays under sections listed in a navigation panel to the left of the object.
+In the new Adobe Workfront experience, this information displays under sections listed in a navigation panel to the left of the object.
 
 ![](assets/nwe-left-navigation-350x321.png)
 
@@ -48,21 +48,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Default sections in the left navigation panel
 
-You can access more information about objects or areas from the left panel for various objects or areas in `the new Adobe Workfront experience`.
+You can access more information about objects or areas from the left panel for various objects or areas in the new Adobe Workfront experience.
 
 The left panel is available for the following objects:
 
@@ -77,8 +77,8 @@ The left panel is available for the following objects:
 
 >[!IMPORTANT]
 >
->If the left panel displays only one section by default—such as `All Projects` in the `Projects` area—a `Workfront administrator` must add at least one custom section to this area when building a Layout Template and assign you to that template before the left panel displays in that area.  
->For information about how a `Workfront administrator` customizes the left panel in a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>If the left panel displays only one section by default—such as `All Projects` in the `Projects` area—a Workfront administrator must add at least one custom section to this area when building a Layout Template and assign you to that template before the left panel displays in that area.  
+>For information about how a Workfront administrator customizes the left panel in a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Depending on the object or the area you've navigated to, the sections that appear in the left panel are different.
 
@@ -124,7 +124,7 @@ To learn how to use the left panel in the Dashboards area, see [Use the new left
 | New |Displays the new request queue area where you can submit new requests. |
 |---|---|
 | Submitted |Displays requests that you or other users have submitted, and which you have permissions to at least View. Use the filters in the upper-right corner of the request list to view your requests or requests others have submitted and you have access to view.  |
-| Drafts |Displays requests that you have started but you have not submitted them yet. `Workfront` automatically saves any new request in the Drafts folder, after you have selected your queue topic.  |
+| Drafts |Displays requests that you have started but you have not submitted them yet. Workfront automatically saves any new request in the Drafts folder, after you have selected your queue topic.  |
 
 To learn how to use the left panel in the Requests area, see [Use the new left navigation panel](#examples).
 
@@ -150,7 +150,7 @@ The following sections display in the left panel for the `Resourcing` area:
   </tr> 
   <tr> 
    <td role="rowheader">Resource Pools</td> 
-   <td>Displays all Resource Pools in <span>Workfront</span>. For information about Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.</td> 
+   <td>Displays all Resource Pools in Workfront. For information about Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -163,7 +163,7 @@ The following sections display in the left panel for the `Projects` area:
 
 | All Projects |Displays all projects that you have access to view. Use the Filter drop-down menu to change what projects you want to view |
 |---|---|
-| Custom sections |You can view all the custom sections that your `Workfront administrator` has added to the left panel for the Projects area in your Layout Template. Custom sections have names that have been customized for your environment. |
+| Custom sections |You can view all the custom sections that your Workfront administrator has added to the left panel for the Projects area in your Layout Template. Custom sections have names that have been customized for your environment. |
 
 To learn how to use the left panel in the Projects area, see [Use the new left navigation panel](#examples).
 
@@ -205,9 +205,7 @@ To learn what sections are available for specific areas, see [Default sections i
   </ol> </li> 
  <li value="6"> <p>(Optional) To change the order of a section in the left panel, click the <span class="bold">Drag</span> icon <img src="assets/drag-icon.png"> to the left of a section and drag it up or down.</p> <p> <img src="assets/drag-section-350x301.png" style="width: 350;height: 301;"> </p> </li> 
  <li value="7"> <p>(Optional) To close the left panel, click the <span class="bold">Collapse</span> icon <img src="assets/left-panel-collapse-icon.png">.</p> <note type="note">
-   When you collapse the left panel, 
-   <span>Workfront</span> retains your preference even when you navigate to another 
-   <span>Workfront</span> object. To expand the left panel again, click the 
+   When you collapse the left panel, Workfront retains your preference even when you navigate to another Workfront object. To expand the left panel again, click the 
    <span class="bold">Expand</span> icon 
    <img src="assets/left-panel-expand-icon.png">.
   </note> </li> 

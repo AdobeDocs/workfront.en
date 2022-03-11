@@ -10,24 +10,24 @@ description: Because Adobe Workfront communicates with your organization's netwo
 
 # Firewall overview
 
-Because `Adobe Workfront` communicates with your organization's network, your organization's firewall must be configured to allow that communication. Firewalls are highly effective security measures that function by separating an organization's network from the internet. They ensure that only selected data and network traffic can move into or out of the organization's network. The firewall allows or blocks data based on the site that is sending or receiving the data. As an `Adobe Workfront administrator`, you must ensure that data sent to or from `Workfront` can pass through your organization's firewall.
+Because Adobe Workfront communicates with your organization's network, your organization's firewall must be configured to allow that communication. Firewalls are highly effective security measures that function by separating an organization's network from the internet. They ensure that only selected data and network traffic can move into or out of the organization's network. The firewall allows or blocks data based on the site that is sending or receiving the data. As an Adobe Workfront administrator, you must ensure that data sent to or from Workfront can pass through your organization's firewall.
 
 This is accomplished through an allowlist, which is essentially a "list" of sites that are "allowed" to send or receive data through the firewall. Sites can be identified in one of two ways:
 
 * **IP address**: a series of numbers such as 52.31.132.175
 * **Domain**: part of a URL, such as "thisdomain" in www.thisdomain.com
 
-`Workfront` uses specific IP addresses and domains for web communication. These must be added to your organization's allowlist before you can use `Workfront` in your organization.
+Workfront uses specific IP addresses and domains for web communication. These must be added to your organization's allowlist before you can use Workfront in your organization.
 
 Generally, an allowlist is configured by a network administrator. Work with your organization's network administrator to ensure that your firewall allows these IP addresses. If you do not know who your network administrator is, your organization's IT department can point you in the right direction.
 
 >[!IMPORTANT]
 >
->As a `Workfront administrator`, you must ensure that these IP addresses and domains are added to your organization's allowlist. This is true even if you do not add them yourself. `Workfront` cannot configure your organization's allowlist.
+>As a Workfront administrator, you must ensure that these IP addresses and domains are added to your organization's allowlist. This is true even if you do not add them yourself. Workfront cannot configure your organization's allowlist.
 
 ## Collect information for configuring your firewall
 
-To configure your firewall for `Workfront`, your network administrator needs to know which IP addresses and domains to add. Some of this information is available only to a `Workfront` administrator. As the Workfront administrator, you must locate this information and provide it to your network administrator.
+To configure your firewall for Workfront, your network administrator needs to know which IP addresses and domains to add. Some of this information is available only to a Workfront administrator. As the Workfront administrator, you must locate this information and provide it to your network administrator.
 
 >[!NOTE]
 >
@@ -48,44 +48,44 @@ Provide your network administrator with the following information:
    <td>To locate your organization's cluster, see <a href="#locate" class="MCXref xref">View your organization's cluster and Workfront plan</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Your <span>Workfront</span> Plan</td> 
+   <td role="rowheader">Your Workfront Plan</td> 
    <td> <p>Your organization's plan is one of the following:</p> 
     <ul> 
-     <li> <p><span>Enterprise</span> </p> </li> 
-     <li> <p><span>Business</span> </p> </li> 
-     <li> <p><span>Pro</span> </p> </li> 
-     <li> <p><span>Team</span> </p> </li> 
+     <li> <p>Enterprise </p> </li> 
+     <li> <p>Business </p> </li> 
+     <li> <p>Pro </p> </li> 
+     <li> <p>Team </p> </li> 
     </ul> <p>To locate your plan, see <a href="#locate" class="MCXref xref">View your organization's cluster and Workfront plan</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your domain</td> 
-   <td> <p>To locate your domain, look at the web address that you use to connect to <span>Workfront</span>.</p> <p>Example: in the web address <code>greatcompany.my.workfront.com</code>, the domain is "greatcompany"</p> </td> 
+   <td> <p>To locate your domain, look at the web address that you use to connect to Workfront.</p> <p>Example: in the web address <code>greatcompany.my.workfront.com</code>, the domain is "greatcompany"</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Other Adobe Workfront products</td> 
    <td> <p>Inform your network administrator if you have licenses for either of the following:</p> 
     <ul> 
-     <li> <p><span>Adobe Workfront</span> <span>Proof</span></p> </li> 
-     <li> <p><span>Adobe Workfront Fusion</span> </p> </li> 
+     <li> <p>Adobe Workfront Proof</p> </li> 
+     <li> <p>Adobe Workfront Fusion </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront integrations</td> 
    <td>Inform your network administrator if you use any of the following:
     <ul>
-     <li><p><p><span>Workfront</span> for Jira</p></p></li>
-     <li><p><span>Workfront</span> for G Suite</p></li>
-     <li><p><span>Workfront</span> for Microsoft Teams</p></li>
-     <li><p><span>Workfront</span> for Outlook</p></li>
-     <li><p><span>Workfront</span> for Salesforce</p></li>
+     <li><p><p>Workfront for Jira</p></p></li>
+     <li><p>Workfront for G Suite</p></li>
+     <li><p>Workfront for Microsoft Teams</p></li>
+     <li><p>Workfront for Outlook</p></li>
+     <li><p>Workfront for Salesforce</p></li>
     </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Additional Functionality</td> 
    <td> <p>Inform your network administrator if you use either of the following:</p> 
     <ul> 
-     <li> <p>A <span>Workfront</span> test drive</p> </li> 
-     <li> <p><span>Workfront</span> Ascent</p> </li> 
+     <li> <p>A Workfront test drive</p> </li> 
+     <li> <p>Workfront Ascent</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -95,12 +95,12 @@ Provide your network administrator with the following information:
 >
 >If you add any of these products, integrations, or functionalities at a later date, you must contact your network administrator so they can adjust the allowlist.
 
-### View your organization's cluster and `Workfront` plan
+### View your organization's cluster and Workfront plan
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <b>System</b> in the left panel</li> 
  <li value="3"> <p>To view your cluster, Select <b>Customer Info</b>. </p> <p>Your cluster displays near the upper-right of the <b>Basic Info</b> section.</p>  </li> 
- <li value="4"> <p>To view your <span>Workfront</span> plan, select <b>Licenses</b>.</p> <p>Your plan displays near the bottom of the page.</p>  </li> 
+ <li value="4"> <p>To view your Workfront plan, select <b>Licenses</b>.</p> <p>Your plan displays near the bottom of the page.</p>  </li> 
 </ol>
 

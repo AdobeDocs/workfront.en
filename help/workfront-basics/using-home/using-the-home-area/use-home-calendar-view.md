@@ -14,9 +14,8 @@ You can use the Calendar view in the Home area to manage your work day and work 
 
 >[!NOTE]
 >
->* This is different from a `Adobe Workfront` Calendar report, which is a dynamic report that provides a visual representation of your work. For information about the `Workfront` Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
->
->* Due to a temporary problem, your `Workfront` Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;
+>* This is different from a Adobe Workfront Calendar report, which is a&nbsp;dynamic report that provides a visual representation of your work. For information about the Workfront Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+>* Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;
 >
 
 ## Access requirements
@@ -30,16 +29,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -48,7 +47,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Schedule work items in your Home Calendar
 
@@ -58,7 +57,7 @@ You can use the Home Calendar to schedule work items for your week.
 >
 >&nbsp;Placing a&nbsp;work item on your Home Calendar does not change the existing dates associated with the work item.
 
-To add a `Workfront` work item to your calendar:
+To add a Workfront work item to your calendar:
 
 1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
@@ -150,7 +149,7 @@ To update the integrated calendar events in your Home Calendar:
     </tr> 
     <tr> 
      <td role="rowheader">Approvals</td> 
-     <td> <p>Work items that require your approval.</p> <p>For more detailed information about managing approvals in <span>Workfront</span>, see <a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a><br></p> </td> 
+     <td> <p>Work items that require your approval.</p> <p>For more detailed information about managing approvals in Workfront, see <a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a><br></p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Personal</td> 

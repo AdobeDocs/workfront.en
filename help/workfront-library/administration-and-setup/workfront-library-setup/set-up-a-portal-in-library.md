@@ -7,27 +7,27 @@ title: Set up a portal in Workfront Library
 description: Depending on the amount of content your organization stores in Workfront Library, your users might find it beneficial to assemble all the items they need in one place.
 ---
 
-# Set up a portal in `Workfront Library`
+# Set up a portal in Workfront Library
 
-Depending on the amount of content your organization stores in `Workfront Library`, your users might find it beneficial to assemble all the items they need in one place.
+Depending on the amount of content your organization stores in Workfront Library, your users might find it beneficial to assemble all the items they need in one place.
 
-## `Workfront Library` portals overview
+## Workfront Library portals overview
 
-As a `Workfront Library administrator` you can use a portal to gather related content and make it available to internal and external users.
+As a Workfront Library administrator you can use a portal to gather related content and make it available to internal and external users.
 
 Users with Manager access or higher to a portal can add or remove users from the portal. For more information on managing portal users, see [Give users access to a Workfront Library portal](../../../workfront-library/administration-and-setup/user-access/give-users-access-portal.md).
 
-There is no limit on the number of `Workfront Library` portals your organization can have. Your `Workfront Library` package includes 10 portals. To purchase additional portals, contact your sales representative.
+There is no limit on the number of Workfront Library portals your organization can have. Your Workfront Library package includes 10 portals. To purchase additional portals, contact your sales representative.
 
 >[!IMPORTANT]
 >
->You must contact Customer Success Manager or `Workfront` Support to create a portal.
+>You must contact Customer Success Manager or Workfront Support to create a portal.
 
 ## Set up a portal
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>In the left panel, click <span class="bold">Portals</span>.</p> <p> <img src="assets/portals-red-square-350x224.png" style="width: 350;height: 224;"> </p> </li> 
  <li value="4">Select the portal you want to configure.</li> 
  <li value="5"> <p>Click the <span class="bold">Menu</span> icon in the upper-left corner of the portal, then click <span class="bold">Setup</span>.</p> <p>You can continue with the portal set up in the following ways:</p> 
@@ -52,11 +52,10 @@ You can brand a portal with your company logo or another image.
    <li>GIF</li> 
    <li>PNG</li> 
   </ul> <note type="tip">
-   If the image you want to use for your branding is in 
-   <span>Workfront Library</span>, but it doesn't meet the formatting requirements, you can download the image with a different file size and format. You can then upload the image and use it for branding the portal. For more information on downloading a file, see the "Download a single content file" section in the article 
+   If the image you want to use for your branding is in Workfront Library, but it doesn't meet the formatting requirements, you can download the image with a different file size and format. You can then upload the image and use it for branding the portal. For more information on downloading a file, see the "Download a single content file" section in the article 
    <a href="../../../workfront-library/content-management/basics/download-content-from-library.md" class="MCXref xref">Download items from Workfront Library</a>
   </note> </li> 
- <li value="5"> <p>Click <span class="bold">Save New Logo</span>.</p> <p>Refresh the browser page where you have <span>Workfront Library</span> to see the new logo.</p> </li> 
+ <li value="5"> <p>Click <span class="bold">Save New Logo</span>.</p> <p>Refresh the browser page where you have Workfront Library to see the new logo.</p> </li> 
 </ol>
 
 ### Select taxonomy for content in the portal

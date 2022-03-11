@@ -10,7 +10,7 @@ description: After you connect projects and initiatives, you can manage their re
 
 >[!IMPORTANT]
 >
->Your organization must purchase an additional license for the `Adobe Workfront Scenario Planner` so that you can view initiative information on a project. For information about obtaining the `Workfront Scenario Planner`, see [Access needed to use the Adobe Workfront Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
+>Your organization must purchase an additional license for the Adobe Workfront Scenario Planner so that you can view initiative information on a project. For information about obtaining the Workfront Scenario Planner, see [Access needed to use the Adobe Workfront Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
 
 After you connect projects and initiatives, you can manage their resource allocation side-by-side to ensure they match. This avoids overallocating or underutilizing them.
 
@@ -27,25 +27,25 @@ You need to following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> plan*</b> </p> </td> 
-   <td><span>Business</span> or higher</td> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Business or higher</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> license*</b> </p> </td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Scenario Planner</span> to access functionality described in this article.</p> <p>For information about obtaining the <span>Workfront Scenario Planner</span>, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
   </tr> Access level configurations* View or higher access to Projects Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions View or higher permissions to the project For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. For information about requesting additional access to a project, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Show role allocation for projects and initiatives in the task list
 
-If your company has purchased a `Workfront Scenario Planner` license, you can reconcile the resource allocations between the initiative and the project linked to it in the Tasks section of the project.
+If your company has purchased a Workfront Scenario Planner license, you can reconcile the resource allocations between the initiative and the project linked to it in the Tasks section of the project.
 
 <ol> 
  <li value="1"> <p>(Conditional) Connect a project with an initiative using one of the methods described in the <a href="#connect" class="MCXref xref">Show role allocation for projects and initiatives in the task list</a> of this article. </p> <note type="important">
@@ -78,7 +78,7 @@ If your company has purchased a `Workfront Scenario Planner` license, you can re
     </tr> 
     <tr> 
      <td role="rowheader">Variance</td> 
-     <td> <p>The difference between the hours required on the initiative and the planned hours associated with work on the project.&nbsp;<span>Workfront</span> calculates the Variance using this formula:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>When resources are planned for more hours than required on the initiative, the Variance is negative and it displays in red. This means your resources are overallocated. </p> </td> 
+     <td> <p>The difference between the hours required on the initiative and the planned hours associated with work on the project.&nbsp;Workfront calculates the Variance using this formula:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>When resources are planned for more hours than required on the initiative, the Variance is negative and it displays in red. This means your resources are overallocated. </p> </td> 
     </tr> 
    </tbody> 
   </table> 
@@ -99,7 +99,7 @@ If your company has purchased a `Workfront Scenario Planner` license, you can re
     </ul> <note type="note">
      You must have additional access and permissions to edit tasks and issues.
     </note> </li> 
-   <li> <p>Increase the number of required hours for role that shows the overallocation on the initiative. For more information, see<a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fcreate-and-edit-initiatives.htm&_LANG=enus" target="_top"> Create and edit initiatives in the <span>Adobe Workfront</span> <span>Scenario Planner</span></a>. </p> <note type="note">
+   <li> <p>Increase the number of required hours for role that shows the overallocation on the initiative. For more information, see<a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fcreate-and-edit-initiatives.htm&_LANG=enus" target="_top"> Create and edit initiatives in the Adobe Workfront Scenario Planner</a>. </p> <note type="note">
      You must have additional access and permissions to edit plans. 
     </note> </li> 
   </ul> </li> 

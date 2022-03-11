@@ -8,7 +8,7 @@ description: This article describes changes that were made to the Workfront docu
 
 # January - March 2018 documentation updates
 
-This article describes changes that were made to the `Workfront` documentation between January - March 2018 based on features that are generally available (available to all `Workfront` customers).
+This article describes changes that were made to the Workfront documentation between January - March 2018 based on features that are generally available (available to all Workfront customers).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -32,13 +32,13 @@ This article describes changes that were made to the `Workfront` documentation b
   </tr> 
   <tr> 
    <td><a href="../../administration-and-setup/configure-integrations/workfront-integrations.md" class="MCXref xref">Adobe Workfront integrations</a> </td> 
-   <td>Updated the section "Included Integrations (No Additional Cost)" to include the <span>Workfront</span> Adobe Connector.</td> 
+   <td>Updated the section "Included Integrations (No Additional Cost)" to include the Workfront Adobe Connector.</td> 
    <td>Updated</td> 
    <td>March 16, 2018</td> 
   </tr> 
   <tr> 
    <td><a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md" class="MCXref xref">Make a decision on a proof in the proofing viewer</a> </td> 
-   <td>New article explaining how to make a decision on a <span>proof</span> and the various decisions you can make.</td> 
+   <td>New article explaining how to make a decision on a proof and the various decisions you can make.</td> 
    <td>New</td> 
    <td>March 15, 2018</td> 
   </tr> 
@@ -56,7 +56,7 @@ This article describes changes that were made to the `Workfront` documentation b
   </tr> 
   <tr> 
    <td> </td> 
-   <td>Updated information about the time limit of a <span>Workfront</span> mobile session based on how you log in to the mobile app.</td> 
+   <td>Updated information about the time limit of a Workfront mobile session based on how you log in to the mobile app.</td> 
    <td>Updated</td> 
    <td>March 7, 2018</td> 
   </tr> 
@@ -80,7 +80,7 @@ This article describes changes that were made to the `Workfront` documentation b
   </tr> 
   <tr> 
    <td><a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref">Use Adobe Workfront for Adobe Creative Cloud</a> </td> 
-   <td>Updated the versions of Adobe Creative Cloud applications that are supported by the <span>Workfront</span> extension.</td> 
+   <td>Updated the versions of Adobe Creative Cloud applications that are supported by the Workfront extension.</td> 
    <td>Updated</td> 
    <td>Feb 26, 2018</td> 
   </tr> 
@@ -92,7 +92,7 @@ This article describes changes that were made to the `Workfront` documentation b
   </tr> 
   <tr> 
    <td><a href="../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md" class="MCXref xref">View user login information</a> </td> 
-   <td>New article that documents how to find out how often users log in to <span>Workfront</span>. </td> 
+   <td>New article that documents how to find out how often users log in to Workfront. </td> 
    <td>New </td> 
    <td>Feb 21, 2018</td> 
   </tr> 
@@ -140,7 +140,7 @@ This article describes changes that were made to the `Workfront` documentation b
   </tr> 
   <tr> 
    <td><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md" class="MCXref xref">How access levels and permissions work together</a> </td> 
-   <td>Updated the differences between access and permissions in the <span>Workfront</span> Access Model.</td> 
+   <td>Updated the differences between access and permissions in the Workfront Access Model.</td> 
    <td>Updated</td> 
    <td>Feb 8, 2018 </td> 
   </tr> 
@@ -152,7 +152,7 @@ This article describes changes that were made to the `Workfront` documentation b
   </tr> 
   <tr> 
    <td><a href="../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Overview of single sign-on in Adobe Workfront</a> </td> 
-   <td>New article that documents how to disable Single Sign-On in <span>Workfront</span>.</td> 
+   <td>New article that documents how to disable Single Sign-On in Workfront.</td> 
    <td>New</td> 
    <td>Jan 25, 2018</td> 
   </tr> 
@@ -176,7 +176,7 @@ This article describes changes that were made to the `Workfront` documentation b
   </tr> 
   <tr> 
    <td><a href="../../wf-api/api/escaped-characters-api.md" class="MCXref xref">Escaped characters in API Responses</a> </td> 
-   <td>New article listing the escape sequences encoded in <span>Workfront</span> API responses.</td> 
+   <td>New article listing the escape sequences encoded in Workfront API responses.</td> 
    <td>New</td> 
    <td>Jan 22, 2018</td> 
   </tr> 

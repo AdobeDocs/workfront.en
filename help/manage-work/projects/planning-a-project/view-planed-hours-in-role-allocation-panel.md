@@ -12,12 +12,12 @@ You can view role allocation for all job roles assigned to work items in a proje
 
 >[!NOTE]
 >
->This article refers to viewing the job roles associated with tasks and issues on a project and their allocated Planned Hours in the Role Allocation panel of a project. For information about reconciling Planned Hours with initiatives hours using the Role Allocation Panel when using the `Adobe Workfront Scenario Planner`, see the following:
+>This article refers to viewing the job roles associated with tasks and issues on a project and their allocated Planned Hours in the Role Allocation panel of a project.&nbsp;For information about reconciling Planned Hours with initiatives hours using the Role Allocation Panel when using the Adobe Workfront Scenario Planner, see the following:
 >
 >* Show role allocation for projects and initiatives in the task list 
 >* [Show role allocation for projects and initiatives in the Workload Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md) 
 >
->  You must have a `Scenario Planner` license in order to see initiative hours in the Role Allocation panel. For information about the `Scenario Planner`, see Get started with the Adobe Workfront Scenario Planner . 
+>  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel.&nbsp;For information about the Scenario Planner, see Get started with the Adobe Workfront Scenario Planner . 
 >
 
 ## Access requirements
@@ -29,16 +29,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -47,7 +47,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 

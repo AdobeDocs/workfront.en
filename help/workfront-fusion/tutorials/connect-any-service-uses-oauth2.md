@@ -17,13 +17,13 @@ Example used throughout - unsupported app DeviantArt. Recreate this with an app 
 Should the title not specify just the OAuth2 authorization type, since there are also 2 others--Basic Authorization and API key?
 -->
 
-One of the many great features of `Workfront Fusion` is the ability to connect almost any web service to a scenario. In the following guide, we will show you with the help of a real example, that you can manage communication with an API without writing a single line of code.
+One of the many great features of Workfront Fusion is the ability to connect almost any web service to a scenario. In the following guide, we will show you with the help of a real example, that you can manage communication with an API without writing a single line of code.
 
 <!--
 This article users the DeviantArt service to show how Workfront Fusion can integrate with any web service. Our goal is to get a list of the latest deviations. Before we can configure this scenario though, we first have to find out some basic information about the service. Our first step will be to go through the Development section and find out what method DeviantArt uses for user authentication, and which API is appropriate to perform the desired function.
 -->
 
-`Workfront Fusion` supports the following authorization types:
+Workfront Fusion supports the following authorization types:
 
 * OAuth2
 * Basic Authorization
@@ -43,7 +43,7 @@ Next follows the Application settings section in which you need to fill out the 
 https://www.workfront.com/oauth/cb/oauth2
 ```
 
-. This is the URL, that a user is redirected to after they authorize `Workfront Fusion` to access the given service. This way, `Workfront Fusion` learns that the authorization has been successful, and creates a new connection with the service.
+. This is the URL, that a user is redirected to after they authorize Workfront Fusion to access the given service. This way, Workfront Fusion learns that the authorization has been successful, and creates a new connection with the service.
 
 Screenshot
 
@@ -97,11 +97,11 @@ Screenshot
 
 ## Creating a scenario
 
-Now, go to `Workfront Fusion` and create a new scenario.
+Now, go to Workfront Fusion and create a new scenario.
 
 >[!NOTE]
 >
->Before you start setting up your scenario in `Workfront Fusion`, we recommend that you go through all APIs that you plan to call and get a list of all scopes that are needed. This way you can aquire all the necessary scopes at once and avoid the hassle of expanding the scopes in the future.
+>Before you start setting up your scenario in Workfront Fusion, we recommend that you go through all APIs that you plan to call and get a list of all scopes that are needed. This way you can aquire all the necessary scopes at once and avoid the hassle of expanding the scopes in the future.
 
 Choose the OAuth 2.0 HTTP(S) request and response processing module from the HTTP app and add it to your scenario. In the open configuration window, click the `Add` button. This will bring up a window that allows you to add a new OAuth2 connection. In this step, enter the information that you have found in the documentation:
 
@@ -110,13 +110,13 @@ Choose the OAuth 2.0 HTTP(S) request and response processing module from the HTT
 | Connection name |Enter any name you would like to identify as the connection. |
 | Authorize URI |the Authorize URL specified in the Authentication section of the DeviantArt documentation. |
 | Token URI |the Access Token URL indicated in the Authentication section of the DeviantArt documentation. |
-| Scope  |Specify the list of access scope that you want to grant to `Workfront Fusion` and associate with this connection. In our case, it is enough to select the browse value. |
+| Scope  |Specify the list of access scope that you want to grant to Workfront Fusion and associate with this connection. In our case, it is enough to select the browse value. |
 | Client ID |the client ID you were given once you had created the application. |
 | Client Secret |the secret key you were given once you had created the application. |
 
 Screenshot
 
-After you click the Create a connection button, `Workfront Fusion` will try to establish the connection. If you have filled in the correct information, a window will pop up after a few seconds, in which you can authorize `Workfront Fusion` to access the given service via the application you have created.
+After you click the Create a connection button, Workfront Fusion will try to establish the connection. If you have filled in the correct information, a window will pop up after a few seconds, in which you can authorize Workfront Fusion to access the given service via the application you have created.
 
 Screenshot
 
@@ -130,7 +130,7 @@ https://www.deviantart.com/api/v1/oauth2/browse/newest
 
 ## Testing
 
-The integration is now ready and you can run the scenario. The execution results show that the call has ended with a 200 status, which means that the run completed successfully. The response details contain complete JSON data that is available for further use. In order to use this data in your scenario, you first need to parse it. That’s what the Parse JSON module from the JSON app is for. Before you add this module to your scenario, copy the whole JSON response to the system clipboard - you’ll need it in order to generate a data structure. Thanks to the data structures, `Workfront Fusion` knows exactly what structure the received data has.
+The integration is now ready and you can run the scenario. The execution results show that the call has ended with a 200 status, which means that the run completed successfully. The response details contain complete JSON data that is available for further use. In order to use this data in your scenario, you first need to parse it. That’s what the Parse JSON module from the JSON app is for. Before you add this module to your scenario, copy the whole JSON response to the system clipboard - you’ll need it in order to generate a data structure. Thanks to the data structures, Workfront Fusion knows exactly what structure the received data has.
 
 Screenshot
 

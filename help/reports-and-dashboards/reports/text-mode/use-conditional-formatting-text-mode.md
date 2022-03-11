@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit views in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit views in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Conditional formatting in Text Mode
 
@@ -54,7 +54,7 @@ You can also use text mode to format views in reports and lists.&nbsp;Using cond
 
 >[!NOTE]
 >
->Using CSS styling to customize conditional formatting is not supported. Instead, you must use the predesigned formatting options that are available in `Adobe Workfront`.
+>&nbsp;Using CSS styling to customize&nbsp;conditional formatting is not supported. Instead, you must use the predesigned formatting options that are&nbsp;available in Adobe Workfront.
 
 ## Add conditional formatting to Views
 
@@ -276,7 +276,7 @@ If you would like to apply a condition to the entire row, use the following code
 
 #### Apply images
 
-Similarly to formatting with text, images can be used to display information in reports. `Workfront` has a number of built-in images to convey visual information in a report setting. To use images in the conditional formatting setting the following statement is needed:
+Similarly to formatting with text, images can be used to display information in reports. Workfront has a number of built-in images to convey visual information in a report setting. To use images in the conditional formatting setting the following statement is needed:
 <pre>image.case.0.comparison.leftmethod= [field name]<br>image.case.0.comparison.lefttext= [field name]<br>image.case.0.comparison.righttext= [field value]<br>image.case.0.comparison.operator= [qualifier]<br>image.case.0.comparison.operatortype= [data type]<br>image.case.0.comparison.icon=true<br>image.case.0.comparison.truetext=</pre>For example, on a project report, you want to build a column where you would show a frown face for every Planned Completion Date that does&nbsp;not equal to today's date. Use the following text mode code to add the icon to your column:
 <pre>image.case.0.comparison.leftmethod=plannedCompletionDate<br>image.case.0.comparison.lefttext=plannedCompletionDate<br>image.case.0.comparison.righttext=2013-04-10T13:00:00:000&nbsp;<br>image.case.0.comparison.operator=ne&nbsp;<br>image.case.0.comparison.operatortype=date<br>image.case.0.comparison.icon=true<br>image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif</pre>
 

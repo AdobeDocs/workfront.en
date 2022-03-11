@@ -1237,4 +1237,4 @@ The following table lists the fields available for event subscription resources:
  </tbody> 
 </table>
 
-&#42;A parameterValue is a custom field value associated with various `Workfront` resources (or objects). An event subscription outbound message includes a complete list of populated parameterValues (custom fields).
+&#42;A parameterValue is a custom field value associated with various Workfront resources (or objects). An event subscription outbound message includes a complete list of populated parameterValues (custom fields).

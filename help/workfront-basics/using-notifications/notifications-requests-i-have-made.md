@@ -8,7 +8,7 @@ description: The following notifications let you know about requests you have ma
 
 # Notifications: Requests I have made
 
-The following notifications let you know about requests you have made in `Adobe Workfront`.
+The following notifications let you know about requests you have made in Adobe Workfront.
 
 For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 

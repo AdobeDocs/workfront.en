@@ -15,7 +15,7 @@ This article describes how you can associate approval processes with work items.
 * [Create an advanced proof with an Automated workflow](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) 
 * [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-You can associate a global or single-use approval process with a work item in  `Adobe Workfront`. The following scenarios exist:
+You can associate a global or single-use approval process with a work item in&nbsp;Adobe Workfront. The following scenarios exist:
 
 * Associate an existing global approval process with a project, task, issue, template, or template task. Some global approval processes are available to all groups in the system. Group-level global approval processes are available only to certain groups.
 * Create a single-use approval process and associate it with an existing project, task, issue, template, or template task.
@@ -39,16 +39,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access or higher to Projects, Tasks, Issues, or Templates</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access or higher to Projects, Tasks, Issues, or Templates</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,11 +57,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations about associating approval processes with work items
 
-In addition to the considerations described below, we recommend that you revisit the general considerations about approval processes in  `Workfront`. For more information, see [Approval process overview](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+In addition to the considerations described below, we recommend that you revisit the general considerations about approval processes in&nbsp;Workfront. For more information, see [Approval process overview](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 <ul> <!--
   Approvals can only be associated with the status of a project, task, or issue in Workfront.
@@ -71,8 +71,7 @@ In addition to the considerations described below, we recommend that you revisit
  <li>You must create the project, task, issue, template, or template task before the approval process can be associated with them.</li> 
  <li> <p>When you attach an approval process to an item for a status that has passed and in which the item currently is, the approval process will not be triggered and no notifications are sent to the approvers.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If a task is in the status of&nbsp;Complete and you attach an approval process associated with the&nbsp;Complete status, the approval does not trigger. </p> </li> 
  <li> <p>When you attach an approval process to the first status of an item (by using a template for tasks and projects, using the Queue Setup settings for issues, or defining the Task Settings of a project for new tasks), the approval processes are bypassed if the submitted approval is recalled. In this case, the approvers do not receive any notifications.</p> <p>For more information about recalling approvals, see <a href="../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a>.</p> <note type="tip">
-   The first status for a task or issue is New. The first status for a project is the status selected by your 
-   <span>Workfront administrator</span> in the Project&nbsp;Preferences in your system. For information, see 
+   The first status for a task or issue is New. The first status for a project is the status selected by your Workfront administrator in the Project&nbsp;Preferences in your system. For information, see 
    <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.
   </note> </li> 
  <li> <p>The association of approval processes with an object is not recorded in the Updates area for the object.</p> </li> 
@@ -92,7 +91,7 @@ The global approval process must be available to the group associated with the w
 >
 >You can attach project approval processes to a template, and task approval processes to a template task. After you do this, when someone uses the template to create a project, the approval process becomes a project or task approval process respectively. A single-use approval process attached to a template or template task remains a single-use approval process for projects and tasks.
 
-For information about how `Workfront administrators` can configure a global approval process for all groups in the system, and how `group administrators` can create approvals for a group, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+For information about how Workfront administrators can configure a global approval process for all groups in the system, and how group administrators can create approvals for a group, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 >[!NOTE]
 >
@@ -110,7 +109,7 @@ To associate an existing global approval process with a project, task, issue, te
 
 ## Modify a global approval process for use on a specific object
 
-Your `Workfront administrator` or `group administrator` creates global approval processes for you to use, as described in [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). You can modify a global approval process to suit any specific needs of the project, task, or issue where you are associating it.
+Your Workfront administrator or group administrator creates global approval processes for you to use, as described in [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). You can modify a global approval process to suit any specific needs of the project, task, or issue where you are associating it.
 
 >[!IMPORTANT]
 >
@@ -142,7 +141,7 @@ You can also associate a single-use approval process with a template or template
 
 >[!NOTE]
 >
->You can associate a single-use approval process with any system-level or `group-level status` for a project, task, issue, `template, or template task`. For information about `Workfront` statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>You can associate a single-use approval process with any system-level or `group-level status` for a project, task, issue, `template, or template task`. For information about Workfront statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 Creating an approval process in this way enables you to create a custom approval process to meet your needs. However, the approval process cannot be associated with other work items in the future.
 

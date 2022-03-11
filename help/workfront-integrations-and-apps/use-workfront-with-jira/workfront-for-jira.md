@@ -7,7 +7,7 @@ title: Adobe Workfront for Jira
 description: This section contains the following articles:
 ---
 
-# `Adobe Workfront` for Jira
+# Adobe Workfront for Jira
 
 This section contains the following articles:
 

@@ -9,7 +9,7 @@ description: The Percent Complete value of a project is calculated based on eith
 
 # Project Percent Complete overview
 
-The Percent Complete value of a project is calculated based on either the Planned Duration or Planned Hours of tasks in the project. Your `Adobe Workfront administrator` `or a `group administrator`` defines which value is taken into account when calculating percent complete in your system when they configure information in the Project Preferences area. For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+The Percent Complete value of a project is calculated based on either the Planned Duration or Planned Hours of tasks in the project. Your Adobe Workfront administrator `or a group administrator` defines which value is taken into account when calculating percent complete in your system when they configure information in the Project Preferences area. For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 The Percent Complete of a task is based on the Planned Duration or Planned Hours of each of the subtasks.
 
@@ -19,7 +19,7 @@ Similarly, the Percent Complete of a project is based on the planned durations o
 >
 >Main tasks are not indented in a project plan.
 
-## How `Workfront` calculates Percent Complete
+## How Workfront calculates Percent Complete
 
 * [Update the Percent Complete on a task](#percent-complete-on-task) 
 * [How Workfront calculates Percent Complete on a parent task](#percent-complete-on-parent) 
@@ -29,13 +29,13 @@ Similarly, the Percent Complete of a project is based on the planned durations o
 
 You can modify the percent complete of a task manually. This is not a calculation.
 
-`Workfront` uses the percent complete of an individual task to calculate the percent complete of its parent task or the percent complete of the project.
+Workfront uses the percent complete of an individual task to calculate the percent complete of its parent task or the percent complete of the project.
 
 For information about updating the percent complete of a task, see [View and update Percent Complete for tasks](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
-### How `Workfront` calculates Percent Complete on a parent task
+### How Workfront calculates Percent Complete on a parent task
 
-Depending on what your `Workfront administrator` selected in the Project Preferences at the system level, the percent complete for a parent task is calculated either based on the Planned Duration or the Planned Hours of tasks.
+Depending on what your Workfront administrator selected in the Project Preferences at the system level, the percent complete for a parent task is calculated either based on the Planned Duration or the Planned Hours of tasks.
 
 Consider the following scenarios:
 
@@ -51,9 +51,9 @@ Consider the following scenarios:
   Parent Task Percent Complete = (Task 1 Duration * Task 1 Percent Complete + Task 2 Duration * Task 2 Percent Complete)/ Total Duration of Parent*100
   ```
 
-### How `Workfront` calculates Percent Complete on a project
+### How Workfront calculates Percent Complete on a project
 
-Depending on what your `Workfront administrator` selected in the Project Preferences at the system level, the percent complete for a project is calculated either based on the Planned Duration or the Planned Hours of the main tasks on the project.
+Depending on what your Workfront administrator selected in the Project Preferences at the system level, the percent complete for a project is calculated either based on the Planned Duration or the Planned Hours of the main tasks on the project.
 
 <ul> 
  <li> <p> If the system calculates the percent complete based on Planned Hours, the project percent complete is calculated using the following formula:</p> <p><code>Project Percent Complete =((Task 1 Planned Hours * Task 1 Percent Complete + Task 2 Planned Hours * Task 2 Percent Complete)/Total Planned Hours of Parent)*100</code> </p> <note type="note">

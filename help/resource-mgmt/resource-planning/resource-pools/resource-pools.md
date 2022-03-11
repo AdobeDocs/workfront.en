@@ -8,9 +8,9 @@ description: Resource pools are collections of users what help you manage resour
 
 # Resource Pools
 
-Resource pools are collections of users what help you manage resources in `Adobe Workfront`.
+Resource pools are collections of users what help you manage resources in Adobe Workfront.
 
-The following articles describe the functionality when using resource pools to manage your projects in `Adobe Workfront`.
+The following articles describe the functionality when using resource pools to manage your projects in Adobe Workfront.
 
 * [Resource pools overview in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) 
 * [Create resource pools in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) 

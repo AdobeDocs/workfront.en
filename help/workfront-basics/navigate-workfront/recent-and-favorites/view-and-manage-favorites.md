@@ -21,23 +21,23 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## View a favorite
 
 To view an item that you have previously added as a favorite:
 
-1. Click the `Favorites` icon  in the upper-right corner of any `Adobe Workfront` page.  
+1. Click the `Favorites` icon  in the upper-right corner of any Adobe Workfront page.  
 
 1. In the Favorites list, click the item you want to view.
 
@@ -55,14 +55,14 @@ Click the Favorites icon in the upper-right corner of any Workfront page, then s
 ### Add the current item as a favorite
 
 1. Go to the page that you want to add as a favorite.
-1. Click the `Favorites` icon  in the upper-right corner of any `Workfront` page, then click `Add Current Page`.
+1. Click the `Favorites` icon  in the upper-right corner of any Workfront page, then click `Add Current Page`.
 
    Or
    Click the Favorites icon to the right of the object name. Note: If you click the Favorites icon on an object that you have already added as a favorite, the object will be removed from the Favorites menu.
 
 ## Remove an item from the Favorites menu
 
-1. Click the `Favorites` icon  in the upper-right corner of any `Workfront` page.  
+1. Click the `Favorites` icon  in the upper-right corner of any Workfront page.  
 
 1. Mouse over the item that you want to remove as a favorite, then click the `X`.
 

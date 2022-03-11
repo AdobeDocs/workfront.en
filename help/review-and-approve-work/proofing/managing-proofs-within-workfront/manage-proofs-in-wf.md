@@ -7,7 +7,7 @@ title: Manage proofs within Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Manage proofs within `Adobe Workfront`
+# Manage proofs within Adobe Workfront
 
 This section contains the following articles:
 

@@ -8,17 +8,17 @@ title: Create OAuth2 applications for Workfront integrations
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Create OAuth2 applications for `Workfront` integrations
+# Create OAuth2 applications for Workfront integrations
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-As an `Adobe Workfront administrator`, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access `Workfront`. Your users can then give permission to those other applications to access their `Workfront` data. In this way, you can integrate `Workfront` with applications of your choice, including your own in-house applications.
+As an Adobe Workfront administrator, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
 
 When you create an OAuth2 application, you generate a Client ID and Client Secret. Your users can then use the Client ID in API calls to integrate with the application you have created.
 
 >[!NOTE]
 >
->In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as `Workfront`.
+>In the context of OAuth2, "creating an app" refers to the process of creating this sort of access link between an app and a server such as Workfront.
 
 * For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
 * For instructions on configuring and using the OAuth2 application using server authentication (JWT flow), see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md).
@@ -32,12 +32,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -50,20 +50,20 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## OAuth2 overview
 
-Imagine that an application needs to pull some specific information from `Workfront`. An application that requests information is called a client. For this example, the client name is ClientApp. ClientApp needs access to a particular user's information, and therefore needs to access `Workfront` as that user. If your user gives ClientApp their username and password, ClientApp could access all of the data that the user can access. This is a security risk, because ClientApp only needs a small, specific set of information.
+Imagine that an application needs to pull some specific information from Workfront. An application that requests information is called a client. For this example, the client name is ClientApp. ClientApp needs access to a particular user's information, and therefore needs to access Workfront as that user. If your user gives ClientApp their username and password, ClientApp could access all of the data that the user can access. This is a security risk, because ClientApp only needs a small, specific set of information.
 
-When you create an OAuth2 app for ClientApp, you are essentially telling `Workfront` that ClientApp is allowed to access `Workfront`, but only if the user whose account ClientApp is accessing gives permission for the access.
+When you create an OAuth2 app for ClientApp, you are essentially telling Workfront that ClientApp is allowed to access Workfront, but only if the user whose account ClientApp is accessing gives permission for the access.
 
 ## Create an OAuth2 application
 
 ### Create an OAuth2 application using server authentication (JWT flow)
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
  <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
  <li value="4"> <p>In the window that appears, select <b>Server Authentication</b>.</p> </li> 
@@ -113,7 +113,7 @@ When you create an OAuth2 app for ClientApp, you are essentially telling `Workfr
 ### Create an OAuth2 application using user credentials (Authorization code flow)
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
  <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
  <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
  <li value="4"> <p>In the window that apears, select <b>User Authentication</b>.</p> </li> 
@@ -141,7 +141,7 @@ When you create an OAuth2 app for ClientApp, you are essentially telling `Workfr
     </tr> 
     <tr> 
      <td role="rowheader">Redirect URLs</td> 
-     <td>Users will be redirected to this path after they have authenticated with <span>Workfront</span>. <!--
+     <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
        The path will be appended with the authorization code for access, and must have a protocol.
       --></td> 
     </tr> Absolute refresh token expiration Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire. Inactivity refresh token expiration Select the amount of time after which, if the user has not been active in your system, their refresh token expires. For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer. 
@@ -185,7 +185,7 @@ Further configuration and use of the created OAuth2 application requires some te
 
 #### Authorizing with an authorization code and access token
 
-1. ClientApp needs some information from `Workfront`, so it sends a request to the Workfront API 
+1. ClientApp needs some information from Workfront, so it sends a request to the Workfront API 
 
    ```
    /authorize
@@ -198,9 +198,9 @@ Further configuration and use of the created OAuth2 application requires some te
    ```
 
    , which indicates that the request should return an authorization code.
-1. This triggers `Workfront` to send an authentication prompt to the user. The user can enter their credentials into the prompt, which gives Workfront permission to communicate with ClientApp. If the user is already logged into Workfront, this step may be skipped.
+1. This triggers Workfront to send an authentication prompt to the user. The user can enter their credentials into the prompt, which gives Workfront permission to communicate with ClientApp. If the user is already logged into Workfront, this step may be skipped.
 1. The Workfront API sends an authorization code to ClientApp.
-1. ClientApp sends the following information in a request to the `Workfront` API 
+1. ClientApp sends the following information in a request to the Workfront API 
 
    ```
    /token
@@ -209,11 +209,11 @@ Further configuration and use of the created OAuth2 application requires some te
    endpoint:
 
   * The authorization code sent to ClientApp in step 3. This identifies the specific instance of user permission.
-  * The Client Secret that was generated when you set up the ClientApp OAuth2 app in Workfront. This allows `Workfront` to know that the request is coming from ClientApp.
+  * The Client Secret that was generated when you set up the ClientApp OAuth2 app in Workfront. This allows Workfront to know that the request is coming from ClientApp.
 
-1. If the authorization code and the client secret are correct, `Workfront` sends an access token to ClientApp. This access token is sent directly from `Workfront` to ClientApp, and cannot be viewed, copied, or used by any other user or client application. 
-1. ClientApp sends the access token to `Workfront` along with the specific request for information.
-1. Because the access token is correct, `Workfront` sends the information to ClientApp.
+1. If the authorization code and the client secret are correct, Workfront sends an access token to ClientApp. This access token is sent directly from Workfront to ClientApp, and cannot be viewed, copied, or used by any other user or client application. 
+1. ClientApp sends the access token to Workfront along with the specific request for information.
+1. Because the access token is correct, Workfront sends the information to ClientApp.
 
 #### Refreshing access tokens
 

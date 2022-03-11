@@ -8,7 +8,7 @@ description: You can use the proof approval report to view information about pro
 
 # Use the proof approval report
 
-You can use the `proof` approval report to view information about proofs in your environment.
+You can use the proof approval report to view information about proofs in your environment.
 
 ## Access requirements
 
@@ -29,7 +29,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Use the proof approval report
 

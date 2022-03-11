@@ -7,7 +7,7 @@ title: Adobe Workfront release schedule and process
 description: The Preview environment is updated once a week with new features. These features are communicated in the release notes for the upcoming quarterly release.
 ---
 
-# `Adobe Workfront` release schedule and process
+# Adobe Workfront release schedule and process
 
 ## Update schedule for Preview
 
@@ -21,7 +21,7 @@ Usually, features in Preview are made available in the Production environment wi
 
 ### Maintenance updates
 
-Issue fixes to the `Adobe Workfront` product are made available in the Production environment each week. See the [ `Workfront` maintenance updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page to see what's been fixed recently.
+Issue fixes to the Adobe Workfront product are made available in the Production environment each week. See the [Workfront maintenance updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page to see what's been fixed recently.
 
 ## Features removed from a quarterly release
 
@@ -32,8 +32,8 @@ All features associated with a given quarterly release are available to test in 
 If features are removed from the quarterly release after all features are available to test in Preview, the following actions are taken to inform customers:
 
 * The release notes for the quarterly release (found from the [Product releases](../../product-announcements/product-releases/product-releases.md) page) are updated to indicate that the feature was removed. 
-* A post is added to the `Workfront Community` stating that the feature was removed.
-* A message is sent to all customers via the Announcement Center stating that the feature was removed. (The Announcement Center is `Workfront`'s in-app notification center. For more information, see [Send announcements](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+* A post is added to the Workfront Community stating that the feature was removed.
+* A message is sent to all customers via the Announcement Center stating that the feature was removed. (The Announcement Center is Workfront's in-app notification center. For more information, see [Send announcements](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
 ## Release notes
 
@@ -45,7 +45,7 @@ The release notes provide a table with a list of features in the left column, wi
 
 * Preview release date
 * Production release date
-* Availability in `the new Adobe Workfront experience` and/or `Adobe Workfront Classic`
+* Availability in the new Adobe Workfront experience and/or Adobe Workfront Classic
 
 For example:
 

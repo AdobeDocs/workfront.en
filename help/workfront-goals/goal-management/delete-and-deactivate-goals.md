@@ -6,7 +6,7 @@ title: Delete and deactivate goals in Adobe Workfront Goals
 description: When you start working on a goal and it becomes irrelevant in your organization, we recommend deactivating it, instead of deleting it. Deactivating a goal keeps its historical information and gives you a chance to reactivate it at a later time. There are times, however, when deleting a goal might make sense, to keep your goal list accurate.
 ---
 
-# Delete and deactivate goals in `Adobe Workfront Goals`
+# Delete and deactivate goals in Adobe Workfront Goals
 
 When you start working on a goal and it becomes irrelevant in your organization, we recommend deactivating it, instead of deleting it. Deactivating a goal keeps its historical information and gives you a chance to reactivate it at a later time. There are times, however, when deleting a goal might make sense, to keep your goal list accurate.
 
@@ -19,20 +19,20 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -41,7 +41,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -64,11 +64,11 @@ Remember the following when deactivating goals:
  <li> <p>You can only deactivate goals in an Active status. For information about activating a goal, see <a href="../../workfront-goals/goal-management/activate-goals.md" class="MCXref xref">Activate goals in Adobe Workfront Goals</a>.</p> <note type="tip">
    You cannot deactivate goals in a Draft status. 
   </note> </li> 
- <li><span>Workfront</span> stops calculating the progress of deactivated goals. </li> 
- <li>Inactive goals no longer display on or are taken into account in the following areas of <span>Workfront Goals</span>:
+ <li>Workfront stops calculating the progress of deactivated goals. </li> 
+ <li>Inactive goals no longer display on or are taken into account in the following areas of Workfront Goals:
   <ul>
-   <li>The <span>Check-in</span> section. For information about the Check-in page, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Check in on goals in Adobe Workfront Goals</a>. </li>
-   <li>The Graphs section. For information about <span>Workfront Goals</span> graphs, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md" class="MCXref xref">Review graphs to understand goal progress trends in Adobe Workfront Goals</a>.</li>
+   <li>The Check-in section. For information about the Check-in page, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Check in on goals in Adobe Workfront Goals</a>. </li>
+   <li>The Graphs section. For information about Workfront Goals graphs, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md" class="MCXref xref">Review graphs to understand goal progress trends in Adobe Workfront Goals</a>.</li>
   </ul></li> 
  <li>You can no longer make updates on deactivated goals. </li> 
  <li>You can edit information about the goal and its alignment. </li> 
@@ -78,9 +78,8 @@ Remember the following when deactivating goals:
 ### Deactivate goals
 
 <ol> 
- <li value="1"> <p>Go to the goal that you want to deactivate. </p> <p>For example, go to the <span>Goal List</span> and click the name of a goal. </p> <p>The Goal Details panel opens on the right. </p> <note type="tip">
-   You can open goals from any sections of 
-   <span>Workfront Goals</span>.
+ <li value="1"> <p>Go to the goal that you want to deactivate. </p> <p>For example, go to the Goal List and click the name of a goal. </p> <p>The Goal Details panel opens on the right. </p> <note type="tip">
+   You can open goals from any sections of Workfront Goals.
   </note> </li> 
  <li value="2"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png"> , </span>then click <span class="bold">Deactivate</span>. </p> <p> <img src="assets/deactivate-goal-highlighted.png"> </p> <p>The goal status changes to Inactive. </p> </li> 
  <li value="3">Click the <span class="bold">X</span> icon in the upper-right to close Goal Details. </li> 
@@ -97,14 +96,14 @@ You can delete goals that are no longer or might never be relevant.
 
 * You can delete goals in any status, including closed goals. 
 * You cannot recover deleted goals. 
-* Results and `Manual progress bar` activities attached to the goal are also deleted. 
+* Results and Manual progress bar activities attached to the goal are also deleted. 
 * Projects associated with goals are not deleted, but their association with the goal is removed.
 
 ### Delete goals
 
 <ol> 
- <li value="1"> <p>Go to the goal that you want to delete. </p> <p>For example, go to the <span>Goal List</span> and click a goal. </p> <p>The Goal Details panel opens on the right. </p> </li> 
+ <li value="1"> <p>Go to the goal that you want to delete. </p> <p>For example, go to the Goal List and click a goal. </p> <p>The Goal Details panel opens on the right. </p> </li> 
  <li value="2"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png">, </span>then click <span class="bold">Delete</span>. </p> <p> <img src="assets/delete-goal-highlighted.png" class="preview"> </p> </li> 
- <li value="3"> <p>Click <span class="bold">Yes, delete</span>.</p> <p>The goal is removed from the <span>Goal List</span> and cannot be recovered. </p> </li> 
+ <li value="3"> <p>Click <span class="bold">Yes, delete</span>.</p> <p>The goal is removed from the Goal List and cannot be recovered. </p> </li> 
 </ol>
 

@@ -29,16 +29,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -74,8 +74,7 @@ To insert a date-based wildcard in a report:
  <li value="5"> <p>Start typing the name of the field that you want to filter by.<br>You must type fields that reference a date.</p> </li> 
  <li value="6"> <p>Select <span class="bold">Equal</span> in the drop-down menu for the filter variable.</p> <note type="tip">
    You must always select the 
-   <span class="bold">Equal</span> filter variable when working with wildcards in 
-   <span>Adobe Workfront</span>.
+   <span class="bold">Equal</span> filter variable when working with wildcards in Adobe Workfront.
   </note> </li> 
  <li value="7"> <p>In the <span class="bold">Start typing name ...</span> box, type: <code>$$TODAY</code> if you want to display information about something that occurs the same day that the report is run.</p> <p>Or</p> <p>Type <code>$$NOW</code> if you want to display information about something that occurs at the same date and time that the report is run.</p> <p>This date is always different, as it changes with the date the report is actually viewed by a user. so the information in the report is different from day to day.</p> </li> 
  <li value="8"> <p>(Optional) If you want to display information that occurs within a timeframe after the date when the report is run, type<code> $$TODAY+1w</code> to display information in the following week, or <code>$$TODAY+2m</code> to display information in the next two months. You can also indicate timeframes for quarters, hours, days, or years.</p> </li> 

@@ -23,12 +23,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -58,7 +58,7 @@ You can install your package in any of the following environments:
 ## Install the blueprint
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="uitext">Blueprints</span>.</p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="uitext">Blueprints</span>.</p> </li> 
  <li value="2"> <p>Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type on the right-hand side.</p> </li> 
  <li value="3"> <p>(Optional) Click <span class="bold">Details</span> to learn how the blueprint works.</p> </li> 
  <li value="4"> <p>Click <span class="bold">Install</span>.</p> </li> 

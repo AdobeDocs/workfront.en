@@ -8,7 +8,7 @@
 
 &nbsp;
 
-| ` `Workfront` Area/Object`  | ` `Workfront`List`  |
+| `Workfront Area/Object`  | `WorkfrontList`  |
 |---|---|
 | Projects |List of projects |
 |  Portfolios  |List of portfolios |

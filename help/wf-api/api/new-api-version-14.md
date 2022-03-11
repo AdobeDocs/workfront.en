@@ -8,7 +8,7 @@ description: Adobe Workfront released API version 14 on September 9, 2021. API v
 
 # What's new in API version 14
 
-`Adobe Workfront` released API version 14 on September 9, 2021. API version 14 features the following changes from version 14.
+Adobe Workfront released API version 14 on September 9, 2021. API version 14 features the following changes from version 14.
 
 ## Added resources
 
@@ -167,7 +167,7 @@ For more information about document versions, see [Upload a new version of a doc
    <td role="rowheader">Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><b>lastCallbackDate</b> </p> <p>Added. This field records the date and time of the last callback from <span>Workfront Proof</span>, if the version is associated to a proof.</p> </li> 
+     <li> <p><b>lastCallbackDate</b> </p> <p>Added. This field records the date and time of the last callback from Workfront Proof, if the version is associated to a proof.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

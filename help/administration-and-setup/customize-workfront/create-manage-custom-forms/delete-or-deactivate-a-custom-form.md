@@ -22,18 +22,18 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## Delete a custom form
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <span class="bold">Custom Forms.</span></li> 
  <li value="3">Select the custom form, then click <span class="bold">Delete</span>.</li> 
  <li value="4"> <p>If you are sure you want to permanently delete the custom form and all associated data on objects where it was attached, click <span class="bold">Yes, Delete It</span>. </p> </li> 
@@ -50,7 +50,7 @@ If you re-activeate a custom form, it retains the settings it had before and use
 To deactivate a custom form:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click the name of the custom form you want to deactivate.</li> 
  <li value="3">Click the <span class="bold">Form Settings</span> tab.</li> 
  <li value="4">Disable the <span class="bold">Is Active</span> option.</li> 

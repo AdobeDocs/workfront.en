@@ -1,12 +1,12 @@
 
 
-# Share a portfolio in `Adobe Workfront`
+# Share a portfolio in Adobe Workfront
 
-Your `Adobe Workfront administrator` can grant you access to view or edit portfolios when assigning your access level. You must have a Plan license to have access to edit a portfolio. For more information, see [Grant access to portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
+Your Adobe Workfront administrator can grant you access to view or edit portfolios when assigning your access level. You must have a Plan license to have access to edit a portfolio. For more information, see [Grant access to portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
 Along with the access level that you are granted, you can also receive permissions to view or manage specific portfolios from users who can share them with you. For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Permissions are specific to one item in `Workfront` and define which actions users can take on that item.
+Permissions are specific to one item in Workfront and define which actions users can take on that item.
 
 ## Considerations about sharing portfolios
 
@@ -14,14 +14,14 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 >[!NOTE]
 >
->A `Workfront administrator` can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
 * The creator of a portfolio has Manage permissions to it, by default.
-* You can share a portfolio individually or you can share several portfolios at the same time. Sharing a portfolio is identical to sharing other objects in `Workfront`. For information, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* You&nbsp;can share a portfolio individually or you can share several portfolios at the same time. Sharing a portfolio is identical to sharing other objects in Workfront. For information, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 <ul> 
  <li> <p>You can only grant View or Manage permissions on Portfolios.<br></p> <p> <img src="assets/screen-shot-2014-01-23-at-12.45.15-pm.png" alt="">&nbsp; &nbsp;<img src="assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png" alt="" style="width: 190;height: 167;"></p> </li> 
- <li> <p>When you share a portfolio, users inherit the same permissions to all the children objects associated with the portfolio, by default.<br></p> <p>For more information about the hierarchy of objects in <span>Workfront</span>, see <a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.<br></p> </li> 
+ <li> <p>When you share a portfolio, users inherit the same permissions to all the children objects associated with the portfolio, by default.<br></p> <p>For more information about the hierarchy of objects in Workfront, see <a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.<br></p> </li> 
  <li>You can remove inherited permissions from the Portfolio. For more information about removing permissions from objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md" class="MCXref xref">Remove permissions from objects in Adobe Workfront</a>. </li> 
 </ul>
 

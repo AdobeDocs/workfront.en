@@ -28,16 +28,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
 When to modify user assignments on issues You might want to modify the user assignments for multiple issues for a variety of reasons, including the following: Users join or leave your team A user takes a vacation that extends beyond the issue due dates A specific role or user is set as the assignee for multiple issues and you want to quickly modify all items to be assigned to a different user or role
@@ -99,8 +99,8 @@ When to modify user assignments on issues You might want to modify the user assi
   </ol></li> 
  <li value="6"> <p>(Optional) Modify any of the following options for the assignees you selected to associate with the issues:</p> 
   <ul> 
-   <li><span class="bold">Issue Owner:</span>&nbsp;Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, <span>Adobe Workfront</span> designates the first assignee as the Issue Owner. This is not available for team assignments. </li> 
-   <li><span class="bold">Assignee's Role</span>: Select a role from the drop-down list. If left unselected, <span>Workfront</span> automatically selects the Primary Role of the user. </li> 
+   <li><span class="bold">Issue Owner:</span>&nbsp;Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. </li> 
+   <li><span class="bold">Assignee's Role</span>: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user. </li> 
   </ul> </li> 
  <li value="7">Click <span class="bold">Save Changes</span>.</li> 
 </ol>

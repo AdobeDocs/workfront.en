@@ -13,8 +13,8 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> <!--
    Adobe Workfront license* Plan or higher
   --> 
@@ -27,7 +27,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
 1. Event Subscriptions configuration
 
   1. Go to the `Event Subscriptions` tab in the cloud services.
-  1. Select the `custom integration` you created in `Workfront`.
+  1. Select the `custom integration` you created in Workfront.
   1. Click `Enable Workfront Event Subscriptions`.
 
 1. Linked folder structure configuration
@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
 ## Linked folder creation
 
 <ol> 
- <li value="1"> <p>Go to <span class="uitext">Projects </span>in <span>Workfront</span> and click on <span class="uitext">+ New Project</span>. Enter a name for your project.</p> </li> 
+ <li value="1"> <p>Go to <span class="uitext">Projects </span>in Workfront and click on <span class="uitext">+ New Project</span>. Enter a name for your project.</p> </li> 
  <li value="2"> <p>At this point, if you reload the cloud services page, you'll see that there are now 3 active subscriptions:</p> 
   <ol> 
    <li value="1"> <p>For the creation of new projects.</p> </li> 
@@ -78,7 +78,7 @@ You must have the following access to perform the steps in this article:
  <li value="7"> <p>Change the project status to whatever you selected in the configuration.</p> </li> 
  <li value="8"> <p>At this point, if you reload the cloud services page, you'll see that <span class="uitext">update </span>and <span class="uitext">delete </span>events are no longer there for your project. These events subscriptions are deleted once they are no longer useful</p> </li> 
  <li value="9"> <p>In your Workfront project, if you go to the <span class="uitext">Documents </span>tab, you'll see the linked folder with name <span class="uitext"><Portfolio>-<Program>-<Project Name>-Deliverables</span> or just <span class="uitext">Deliverables </span>(depending on the option for the checkbox in the cloud services).</p> </li> 
- <li value="10"> <p>You can try uploading documents into this folder or its sub-folder and check that the folder together with its content exists in AEM. Also check that the assets in AEM are identified with a small <span>Workfront</span> icon.</p> </li> 
+ <li value="10"> <p>You can try uploading documents into this folder or its sub-folder and check that the folder together with its content exists in AEM. Also check that the assets in AEM are identified with a small Workfront icon.</p> </li> 
  <li value="11"> <p>You should also check that the linked folder and the assets that were sent have project metadata in their properties.</p> <p> <img src="assets/project-linked-folders-350x257.png" style="width: 350;height: 257;"> </p> </li> 
 </ol>
 

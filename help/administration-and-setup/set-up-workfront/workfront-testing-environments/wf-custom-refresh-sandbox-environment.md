@@ -8,13 +8,13 @@ title: The Adobe Workfront Custom Refresh Sandbox environment
 description: The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It’s also ideal for running trainings and determining setup functionality.
 ---
 
-# The `Adobe Workfront` Custom Refresh Sandbox environment
+# The Adobe Workfront Custom Refresh Sandbox environment
 
 The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It’s also ideal for running trainings and determining setup functionality.
 
 >[!NOTE]
 >
->This is different from the Preview Sandbox, which is also a testing environment that replicates your `Workfront` production environment.
+>This is different from the Preview Sandbox, which is also a testing environment that replicates your Workfront production environment.
 >
 >* New features are introduced to the Preview Sandbox before they become available in Production.
 >* New features are not introduced to the Custom Refresh Sandbox before they become available in Production.
@@ -33,12 +33,12 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> plan</td> 
-   <td> <p><span>Business</span> or higher</p> </td> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader"><span>Workfront</span> license</p> </td> 
-   <td> <p><span>Plan</span> </p> <p>You must be a <span>Workfront administrator</span>. For information on <span>Workfront administrators</span>, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Workfront license</p> </td> 
+   <td> <p>Plan </p> <p>You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Support package</td> 
@@ -54,7 +54,7 @@ The Custom Refresh Sandbox contains your actual production data, it does not ref
 >[!NOTE]
 >
 >* You cannot schedule a refresh for the current day. For example, if today is June 1, the earliest day when you can schedule a refresh is June 2.
->* Your Custom Refresh Sandbox always has the same product features as your production environment. However, when you refresh your Custom Refresh Sandbox, it preserves branding only for the login screen background color. The login screen and navigation bar logos are reset to `Workfront` defaults, and any branding images you modified prior to the refresh do not display.
+>* Your Custom Refresh Sandbox always has the same product features as your production environment. However, when you refresh your Custom Refresh Sandbox, it preserves branding only for the login screen background color. The login screen and navigation bar logos are reset to Workfront defaults, and any branding images you modified prior to the refresh do not display.
 >
 
 <!--
@@ -63,7 +63,7 @@ Important: If you are a Workfront Goals customer, Workfront Goals data does not 
 
 ## Access the Custom Refresh Sandbox from your Production environment
 
-As a `Workfront administrator`, you can access your Custom Refresh Sandbox from your production environment.
+As a Workfront administrator, you can access your Custom Refresh Sandbox from your production environment.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ As a `Workfront administrator`, you can access your Custom Refresh Sandbox from 
 To access your Custom Refresh Sandbox:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <span class="bold">System</span> ><span class="bold">Preferences</span>.<br></li> 
  <li value="3"> <p>In the <span class="bold">Test Environment</span> section, click <span class="bold">Sandbox 1</span> or <span class="bold">Sandbox 2</span>.</p> <p>Your support package specifies whether you have access to one or two Custom Refresh Sandboxes.</p> </li> 
  <li value="4"> <p>Log in using your Custom Refresh Sandbox credentials.</p> <p>Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since you last refreshed your Custom Refresh Sandbox. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.<br></p> <p>The Custom Refresh Sandbox&nbsp;shows the version as well as the last refresh date in the banner at the top of the screen. All information from production is available and ready to work with after a&nbsp;refresh completes.</p> </li> 
@@ -104,7 +104,7 @@ To access your Custom Refresh Sandbox using a URL:
 
 ### `Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)`
 
-If your `Workfront` account is on Cluster 4 (EMEA cluster), you can access your Custom Refresh Sandbox only using a URL. To&nbsp;find out what cluster your account is on, contact our Customer Support team.&nbsp;
+If your Workfront account is on Cluster 4 (EMEA cluster), you can access your Custom Refresh Sandbox only using a URL. To&nbsp;find out what cluster your account is on, contact our Customer Support team.&nbsp;
 
 Depending on your Support package, you should have access to one or two Custom Refresh Sandboxes.
 
@@ -130,7 +130,7 @@ To access your Custom Refresh Sandbox using a URL:
 
 >[!IMPORTANT]
 >
->The duration of the refresh depends on the size of the data being refreshed. During the refresh process, it is critical that your custom refresh sandbox environment is not being used in any way (including API calls and integrations) as this will prevent the sandbox refresh from successfully finishing. `Workfront` will disable the custom refresh sandbox environment before it begins but you must end any active sessions to ensure that your sandbox refresh is successful.
+>The duration of the refresh depends on the size of the data being refreshed. During the refresh process, it is critical that your custom refresh sandbox environment is not being used in any way (including API calls and integrations) as this will prevent the sandbox refresh from successfully finishing. Workfront will disable the custom refresh sandbox environment before it begins but you must end any active sessions to ensure that your sandbox refresh is successful.
 
 After you schedule a refresh of your Custom Refresh Sandbox, you can cancel it by clicking Cancel at the top of the page. You can also reschedule it for a later time.
 
@@ -156,11 +156,11 @@ To schedule a refresh of your Customer Refresh Sandbox:
 
 ## Receive emails from the Custom Refresh Sandbox
 
-`Workfront` disables all email communication from the Custom Refresh&nbsp;Sandbox environment. If you want to receive email notifications from the Custom Refresh Sandbox environment, you must enable this functionality in your user settings. For more information about enabling email notifications in the Custom Refresh Sandbox environment, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Workfront disables all email communication from the Custom Refresh&nbsp;Sandbox environment. If you want to receive email notifications from the Custom Refresh Sandbox environment, you must enable this functionality in your user settings. For more information about enabling email notifications in the Custom Refresh Sandbox environment, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->Report delivery and push notifications on the mobile app are always disabled for the Custom Refresh Sandbox environment. Neither you nor the `Workfront administrator` can enable report delivery or push notifications for the mobile app when you access the Custom Refresh&nbsp;Sandbox environment.  
+>Report delivery and push notifications on the mobile app are always disabled for the Custom Refresh&nbsp;Sandbox environment. Neither you nor the Workfront administrator can enable report delivery or push notifications for the mobile app when you access the Custom Refresh&nbsp;Sandbox environment.  
 >For more information about report deliveries for the production environment, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).For more information about push notifications on the mobile app for the production environment, see the section in .
 
 ## Configure Single Sign-On in the Custom Refresh Sandbox
@@ -169,14 +169,14 @@ If you want to configure your Custom Refresh Sandbox to work with a Single Sign-
 When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
 
 The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.  
-For more information about configuring `Workfront` with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+For more information about configuring Workfront with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->This is not available if your organization’s `Workfront` instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Intended use and availability
 
-`Workfront` Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
+Workfront Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
 
-`Workfront` Custom Refresh Sandbox environments are intended to be always available. Any outage to a `Workfront` Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a `Workfront` Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
+Workfront Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.

@@ -12,7 +12,7 @@ description: FTP modules let you monitor file changes in a selected folder, uplo
 
 FTP modules let you monitor file changes in a selected folder, upload new files to the desired folder, and modify or delete existing files that are already in a folder.
 
-In order to use `[Fusion App]` with `Workfront Fusion`, it is necessary to have an FTP account (such as GoDaddy web hosting).
+In order to use [Fusion App] with Workfront Fusion, it is necessary to have an FTP account (such as GoDaddy web hosting).
 
 * [Creating the FTP Connection](#creating) 
 * [Triggers](#triggers) 
@@ -60,7 +60,7 @@ In order to use `[Fusion App]` with `Workfront Fusion`, it is necessary to have 
   </tr> 
   <tr> 
    <td> <p>Self-signed certificate</p> </td> 
-   <td> <p>Click the Extract button to open the upload dialog.</p> <p>Upload the certificate to use the TLS with your self-signed certificate. <span>Workfront Fusion</span> does not retain or store any data (files, passwords) you provide. File and password are only used to extract the certificate.</p> </td> 
+   <td> <p>Click the Extract button to open the upload dialog.</p> <p>Upload the certificate to use the TLS with your self-signed certificate. Workfront Fusion does not retain or store any data (files, passwords) you provide. File and password are only used to extract the certificate.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ Watch files is the only trigger module for FTP. It monitors the file content of 
   </tr> 
   <tr> 
    <td>Maximum number of returned files </td> 
-   <td> <p>Set the maximum number of results that <span>Workfront Fusion</span> will work with during one cycle. If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). <span>Workfront Fusion</span> has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
+   <td> <p>Set the maximum number of results that Workfront Fusion will work with during one cycle. If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). Workfront Fusion has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Choose where to start</p> </td> 
@@ -268,16 +268,15 @@ Change permissions
 
 If you are experiencing issues with the FTP app either during the connection creation or during a module's operation, try to use one of the popular FTP clients, such as [WinSCP](https://winscp.net/eng/download.php), and try to perform the same action (for example, create a connection or list files in a folder). with the FTP client. If you are experiencing the same issues also with the FTP client, the reason might be a misconfiguration of the FTP server.
 
-There are two FTP modes: active and passive. As the `Workfront Fusion` FTP app requests the passive mode, the FTP server must support the passive mode in order for an FTP session to be established.
+There are two FTP modes: active and passive. As the Workfront Fusion FTP app requests the passive mode, the FTP server must support the passive mode in order for an FTP session to be established.
 
-1. The `Workfront Fusion` server sends the 
+1. The Workfront Fusion server sends the 
 
    ```
    PASV
    ```
 
    command to the FTP server on port 21 (or 990 if Use a secure connection (TLS): "Implicit encryption" option has been chosen in the connection setup). This port must be open on the FTP server's firewall.
-
 1. The FTP server should send 
 
    ```
@@ -286,13 +285,13 @@ There are two FTP modes: active and passive. As the `Workfront Fusion` FTP app r
 
    in response. The response specifies:
 
-  * The IP address (h1, h2, h3, h4) the `Workfront Fusion` server should connect to. When the FTP server is behind a NAT, the FTP server needs to provide its external IP address. It is common that the FTP server is not configured properly and provides its internal IP address instead that cannot be connected to from the `Workfront Fusion` server, e.g.:
+  * The IP address (h1, h2, h3, h4) the Workfront Fusion server should connect to. When the FTP server is behind a NAT, the FTP server needs to provide its external IP address. It is common that the FTP server is not configured properly and provides its internal IP address instead that cannot be connected to from the Workfront Fusion server, e.g.:
 
     Screenshot
   
-  * A random, high-numbered (ephemeral) port (p1, p2) that the `Workfront Fusion` server can connect to. This port must be open on the FTP server's firewall.
+  * A random, high-numbered (ephemeral) port (p1, p2) that the Workfront Fusion server can connect to. This port must be open on the FTP server's firewall.
 
-1. The `Workfront Fusion` server initiates a connection to the IP address and port specified in the response.
+1. The Workfront Fusion server initiates a connection to the IP address and port specified in the response.
 1. The FTP server responds with an 
 
    ```

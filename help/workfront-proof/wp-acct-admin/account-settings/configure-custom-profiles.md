@@ -7,13 +7,13 @@ title: Configure custom profiles in Workfront Proof
 description: As a Workfront Proof Billing Administrator or Workfront Proof Administrator, you can configure custom profiles for other users.
 ---
 
-# Configure custom profiles in `Workfront Proof`
+# Configure custom profiles in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a `Workfront Proof` Billing Administrator or `Workfront Proof` Administrator, you can configure custom profiles for other users.
+As a Workfront Proof Billing Administrator or Workfront Proof Administrator, you can configure custom profiles for other users.
 
 Custom profiles allow you to assign granular permissions to users in your account and define the level of access and rights they have over the items in your account. For more information about custom profiles, see [Create and Manage Custom Profiles using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 

@@ -1,12 +1,12 @@
 
 
-# Feature comparison of Workfront Classic and `the new Adobe Workfront experience`
+# Feature comparison of Workfront Classic and the new Adobe Workfront experience
 
-`Adobe Workfront` now has an updated design, providing a more intuitive experience to help your users do their best work.
+Adobe Workfront now has an updated design, providing a more intuitive experience to help your users do their best work.
 
-As a `Workfront administrator`, you determine who in your organization has access to `the new Adobe Workfront experience`. For information about how to enroll your users in `the new Adobe Workfront experience`, see [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
+As a Workfront administrator, you determine who in your organization has access to the new Adobe Workfront experience. For information about how to enroll your users in the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 
-The Alpha version of `the new Adobe Workfront experience` is currently available for select customers. Following are details about the updates included with the Alpha version, and the differences between the Workfront Classic and `the new Adobe Workfront experience`. 
+The Alpha version of the new Adobe Workfront experience is currently available for select customers. Following are details about the updates included with the Alpha version, and the differences between the Workfront Classic and the new Adobe Workfront experience. 
 
 <table cellspacing="15"> 
  <col> 

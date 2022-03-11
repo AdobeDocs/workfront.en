@@ -7,7 +7,7 @@ title: Event notifications available in Adobe Workfront
 description: Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in Event notifications.
 ---
 
-# Event notifications available in `Adobe Workfront`
+# Event notifications available in Adobe Workfront
 
 Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -18,7 +18,7 @@ These notifications can be configured at the system and group level:
 
 Individual users can also activate and deactivate their individual event notifications in their individual profile. For more information, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-The following tables list all of the `Adobe Workfront` event notifications, a brief description of the event, and whether the event is active or inactive by default.
+The following tables list all of the Adobe Workfront event notifications, a brief description of the event, and whether the event is active or inactive by default.
 
 ## Action needed
 
@@ -59,7 +59,7 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Assignment to Issue Assigned To</p> </td> 
-   <td> <p>I'm assigned to an issue.</p> <p>The issue assignee receives an email notification only if the status of the project is Current and the status of the issue is not Closed or something that equates with Closed.</p> <p>Users with a <span>Review</span> or <span>Request</span> license do not receive a notification.</p> </td> 
+   <td> <p>I'm assigned to an issue.</p> <p>The issue assignee receives an email notification only if the status of the project is Current and the status of the issue is not Closed or something that equates with Closed.</p> <p>Users with a Review or Request license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -247,7 +247,7 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Comment on Document to Document Owner</p> </td> 
-   <td> <p>A comment is added on my document.</p> <p>The owner of a document in <span>Workfront</span> receives an email notification when a comment is posted on the document, unless the user who posted the comment is also the document owner.</p> <p>Any users who are directly included in the comment also receive an email notification.</p> <p>A notification is sent only if the project status is Current. </p> <p>The subject of the instant notification email is: <em>Comment on &lt;Request Name&gt; on &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)</em></p> <p> The subject of the daily digest notification is:<em> Digest of Communication &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p>A comment is added on my document.</p> <p>The owner of a document in Workfront receives an email notification when a comment is posted on the document, unless the user who posted the comment is also the document owner.</p> <p>Any users who are directly included in the comment also receive an email notification.</p> <p>A notification is sent only if the project status is Current. </p> <p>The subject of the instant notification email is: <em>Comment on &lt;Request Name&gt; on &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)</em></p> <p> The subject of the daily digest notification is:<em> Digest of Communication &lt;Date of daily digest&gt;</em></p> </td> 
    <td> <p>Active </p> </td> 
   </tr> 
   <tr> 
@@ -727,7 +727,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
   <tr> 
    <td> </td> 
    <td> <p>Error Notification</p> </td> 
-   <td> <p>An error was found that needs your attention.</p> <p>An email notification is generated after <span>Workfront</span> tries and fails to connect to a POP account. After 25 tries, <span>Workfront</span> disables the connection to the POP account in order to preserve resources and it sends out a notification. </p> <p>The email notification is sent to the Project Owner, if the POP email is associated with a request queue, or to the <span>Workfront administrator</span>s, if the POP account is associated with the "Incoming Mail" feature in Email Setup.<!--
+   <td> <p>An error was found that needs your attention.</p> <p>An email notification is generated after Workfront tries and fails to connect to a POP account. After 25 tries, Workfront disables the connection to the POP account in order to preserve resources and it sends out a notification. </p> <p>The email notification is sent to the Project Owner, if the POP email is associated with a request queue, or to the Workfront administrators, if the POP account is associated with the "Incoming Mail" feature in Email Setup.<!--
       For more information on how to associate a request queue with a POP account, see Overview of the Queue Details tab in a project.
      --><br><!--
       For more information on how to enable a POP account for incoming mail, see .
@@ -743,7 +743,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
   <tr> 
    <td> <p>User</p> </td> 
    <td> <p>New User to User</p> </td> 
-   <td> <p>When a new user is created in <span>Workfront</span>, email the user.</p> <p>After the new user is created, the user receives an email invitation, notifying them that a <span>Workfront</span> account has been created and prompting them to set their password.</p> <p>When creating a new user, users can select the option "Send an invite email to this person" (as described in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a><span style="font-weight: 400;">). However, when the "New User to User" option is enabled globally, all new users receive the email invitation regardless of whether the 'Send an invite email to this person' option is selected.</span></p> </td> 
+   <td> <p>When a new user is created in Workfront, email the user.</p> <p>After the new user is created, the user receives an email invitation, notifying them that a Workfront account has been created and prompting them to set their password.</p> <p>When creating a new user, users can select the option "Send an invite email to this person" (as described in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a><span style="font-weight: 400;">). However, when the "New User to User" option is enabled globally, all new users receive the email invitation regardless of whether the 'Send an invite email to this person' option is selected.</span></p> </td> 
    <td> Inactive </td> 
   </tr> 
   <tr> 

@@ -2,15 +2,15 @@
 
 # 21.3 Project enhancements
 
-This page describes all `Project` enhancements made with the `21.3` release to the Preview environment. These enhancements were made available in the Production environment the week of July 21, 2021.
+This page describes all Project enhancements made with the 21.3 release to the Preview environment. These enhancements were made available in the Production environment the week of July 21, 2021.
 
-For a list of all changes available with the `21.3` release, see [21.3 Release overview](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+For a list of all changes available with the 21.3 release, see [21.3 Release overview](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Associate a template with a group
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 To help you streamline the project creation process —and to help you more easily identify and report on which groups own which project templates—we’ve added the ability to assign a group to a project template.
 
@@ -26,7 +26,7 @@ Also, you can attach a group approval process to a template and its template tas
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 The following improvements allow you to more easily edit information in the Details section of any object:
 
@@ -57,7 +57,7 @@ For more information about handoff dates, see [Task Handoff Date overview](../..
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 You can now add an existing story or issue directly from the Scrum board. This makes it easier to add existing stories to your current iteration without having to go to the backlog page.
 
@@ -67,7 +67,7 @@ For more information, see [Add stories and issues from the Scrum board](../../..
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 You can now create a new story or issue directly from the Scrum board. This makes it easier to quickly add a new story to your current iteration.
 
@@ -81,7 +81,7 @@ For more information, see [Add stories and issues from the Scrum board](../../..
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 You can now delete a story or issue directly from your Kanban board by clicking the More icon on a story or issue card and selecting Delete. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator.
 
@@ -91,7 +91,7 @@ For more information, see [Delete stories or issues from the Kanban board](../..
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 On Kanban and Scrum boards, the following enhancements are now available:
 
@@ -119,7 +119,7 @@ For more information, see the following articles:
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 You can now use external email addresses to assign approvers to a document in the new Workfront experience.
 
@@ -139,7 +139,7 @@ For more information, see [Request document approvals](../../../review-and-appro
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 You can now export to a .pdf file information from the Details section of portfolios and programs. Prior to this enhancement, you could export information from the Details section only from projects, tasks and issues.
 
@@ -153,7 +153,7 @@ For information about exporting custom forms from an object, see [Export custom 
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 To facilitate easy access, convenience as well as accuracy, we have added the option to select a timestamp in the Planned Completion Date of the header of projects, tasks, or issues.
 
@@ -169,7 +169,7 @@ For information about the object headers in the new Workfront experience, see [N
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 We have made it easier to add a custom form that someone else will fill out—or that you will fill out later—to an object. The form no longer goes into editing mode automatically when you add it. You can simply save the empty form to the object.
 

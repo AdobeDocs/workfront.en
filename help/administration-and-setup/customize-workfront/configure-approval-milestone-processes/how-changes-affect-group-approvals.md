@@ -11,14 +11,14 @@ description: This article explains what happens when an approval process is alre
 
 # How group and approval process changes affect assigned approval processes
 
-This article explains what happens when an approval process is already associated with tasks, issues, projects, templates, or template tasks and a `Workfront administrator` (or a user with administrative access to approval processes) does one of the following:
+This article explains what happens when an approval process is already associated with tasks, issues, projects, templates, or template tasks and a Workfront administrator (or a user with administrative access to approval processes) does one of the following:
 
 * Changes the approval process (group-level) from one group to another
 * Changes the group associated with the project
 * Changes the approval process from group-level to system-level
 * Changes the approval process from system-level to group-level
 
-For information about the 3 types of approval processes you can use in `Workfront`, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+For information about the 3 types of approval processes you can use in Workfront, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 ## Changing a group-specific approval process from one group to another
 

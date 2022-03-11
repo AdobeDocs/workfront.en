@@ -13,7 +13,7 @@ The following calculated field displays the date when the object status is marke
 
 >[!NOTE]
 >
->If the status of the object changes to INP, then it changes to another status, then back to INP, `Adobe Workfront` captures only the timestamp of the first change to INP.
+>If the status of the object changes to INP, then it changes to another status, then back to INP, Adobe Workfront captures only the timestamp of the first change to INP.
 
 ## Access requirements
 
@@ -21,7 +21,7 @@ You must have the following:
 
 <table cellspacing="15"> 
  <caption style="text-align: left;"> 
-  <p>*To find out what plan, license type, or access you have, contact your <span>Workfront administrator</span>.</p> 
+  <p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p> 
  </caption> 
  <col> 
  </col> 
@@ -29,16 +29,16 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span> plan*</p> </td> 
+   <td> <p>Adobe Workfront plan*</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span> license*</p> </td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Access level configurations*</span> </td> 
-   <td> <p>Edit access to Create Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Create Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="bold">Object permissions</span> </p> </td> 

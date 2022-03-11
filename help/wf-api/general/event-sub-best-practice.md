@@ -8,7 +8,7 @@ description: Adobe Workfront Event Subscription messages automatically send from
 
 # Event subscription best practices
 
-`Adobe Workfront` Event Subscription messages automatically send from `Workfront` after you have correctly configured your service and created an Event Subscription to trigger those message deliveries. To learn more about properly setting up Event Subscriptions, see [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md).
+Adobe Workfront Event Subscription messages automatically send from Workfront after you have correctly configured your service and created an Event Subscription to trigger those message deliveries. To learn more about properly setting up Event Subscriptions, see [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md).
 
 Listed below are a few best practices to help you effectively create Event Subscriptions.
 
@@ -34,7 +34,7 @@ In order to receive event subscriptions payloads through your firewall, you must
 
 ## Have the right access level and an API key
 
-To create, query, or delete an Event Subscription, your `Workfront` user needs:
+To create, query, or delete an Event Subscription, your Workfront user needs:
 
 * An access level of `System Administrator`  
   To learn more, see [Grant a user full administrative access](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) or [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).

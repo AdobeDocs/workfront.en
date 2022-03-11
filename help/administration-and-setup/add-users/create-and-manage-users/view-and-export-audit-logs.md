@@ -25,12 +25,12 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> <p>You must be a <span>Workfront administrator</span>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -38,7 +38,7 @@ You must have the following to perform the steps in this article:
 ## View audit logs
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> In the left panel, click <span class="bold">System > Audit Logs</span>.</li> 
  <li value="3"> <p> In the <span class="bold">Log Type</span> drop-down menu, select the type of audit log you want to view.<br></p> <p><span class="bold">All Log Types</span> is selected by default. </p> <p>For a list of all the audit log types you can view and the information they include, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md" class="MCXref xref">Audit logs</a>.</p> </li> 
  <li value="4"> <p> (Optional) Set any of the available filters.</p> <note type="note">
@@ -51,12 +51,11 @@ You must have the following to perform the steps in this article:
 ## Export audit logs
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
  <li value="2"> In the left panel, click <span class="bold">System > Audit Logs</span>.<br></li> 
  <li value="3"> <p> In the <span class="bold">Log Type</span> drop-down menu, select an audit log.</p> <p><span class="bold">All Log Types</span> is selected by default.</p> </li> 
  <li value="4"> <p> Set any of the available filters, then click <span class="bold">Apply</span>.</p> <note type="important">
-   You can’t export more than 50,000 logs at one time. 
-   <span>Workfront</span> exports logs based on the filters you set, not the number of logs showing on the page. You can view the total number of filtered logs in the bottom-right corner of the page.
+   You can’t export more than 50,000 logs at one time. Workfront exports logs based on the filters you set, not the number of logs showing on the page. You can view the total number of filtered logs in the bottom-right corner of the page.
   </note> </li> 
  <li value="5"> <p>Click <span class="bold">Export</span>.</p> </li> 
 </ol>

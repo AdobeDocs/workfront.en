@@ -10,7 +10,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Basic terms
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
 <table cellspacing="0"> 
  <col> 
@@ -26,7 +26,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
   </tr> 
   <tr> 
    <td role="rowheader">API Key</td> 
-   <td>A unique code that identifies the user, developer, or program that is calling a software's API, used for authentication. Since <span>Adobe Workfront Fusion</span> modules work by connecting APIs, API keys are sometimes necessary. API keys are distributed by the app that requires them. For example, if you need an API key for ActiveCampaign, you would request it though your ActiveCampaign account.</td> 
+   <td>A unique code that identifies the user, developer, or program that is calling a software's API, used for authentication. Since Adobe Workfront Fusion modules work by connecting APIs, API keys are sometimes necessary. API keys are distributed by the app that requires them. For example, if you need an API key for ActiveCampaign, you would request it though your ActiveCampaign account.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">App or service</td> 
@@ -42,7 +42,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>When adding an app or service to a scenario, most likely you will have to first create a connection between <span>Workfront Fusion</span> and the app or service in order to retrieve or send the selected data. For more information, see <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">About connecting Adobe Workfront Fusion to an app or service</a>.</p> </td> 
+   <td> <p>When adding an app or service to a scenario, most likely you will have to first create a connection between Workfront Fusion and the app or service in order to retrieve or send the selected data. For more information, see <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">About connecting Adobe Workfront Fusion to an app or service</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cycle</p> </td> 
@@ -94,7 +94,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transactions</p> </td> 
-   <td> <p><span>Workfront Fusion</span> uses transactional processing to capture the scenario lifecycle. A transaction consists of several phases during which data is transformed from one consistent state into another consistent state. There are 4 phases: initalization, operation (reading or writing), commit/rollback, and finalization.</p> </td> 
+   <td> <p>Workfront Fusion uses transactional processing to capture the scenario lifecycle. A transaction consists of several phases during which data is transformed from one consistent state into another consistent state. There are 4 phases: initalization, operation (reading or writing), commit/rollback, and finalization.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Trigger</p> </td> 

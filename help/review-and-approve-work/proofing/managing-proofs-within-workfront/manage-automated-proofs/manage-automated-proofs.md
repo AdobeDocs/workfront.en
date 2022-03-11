@@ -1,6 +1,6 @@
 
 
-# Manage automated `proofs`
+# Manage automated proofs
 
 * [View Automated Workflow stages on a proof](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md) 
 * [View active stages on a proof](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md) 

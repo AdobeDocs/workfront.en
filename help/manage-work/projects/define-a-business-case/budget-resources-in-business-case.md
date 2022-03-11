@@ -13,14 +13,14 @@ As part of resource planning, you can budget the job roles necessary for complet
 
 >[!NOTE]
 >
->Budgeting resources is not the same as scheduling resources for a project. When you budget resources you estimate the roles that might be necessary to complete the work on a project. For actually scheduling or assigning users to the work on a project, see [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). For information about resource planning in `Adobe Workfront`, see [Get started with Resource Planning](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>Budgeting resources is not the same as scheduling resources for a project. When you budget resources you estimate the roles that might be necessary to complete the work on a project. For actually scheduling or assigning users to the work on a project, see [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). For information about resource planning in Adobe Workfront, see [Get started with Resource Planning](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 You must associate job roles with the project before you can budget the resources for it. The following are ways of allocating job roles to a project:
 
 <ul> 
- <li> <p>Use the <span>Resource Planner</span> to apply Resource Pools to the project and budget job roles. </p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Resource Planner</a>. </p> </li> 
- <li class="preview"> <p>Use the <span>Scenario Planner</span> to create initiatives with required job roles and link them to the project. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Scenario Planner</a>. </p> <note type="note"> 
-   <p>This is available only in <span>the new Adobe Workfront experience</span> and requires an additional license. For information about the <span>Workfront Scenario Planner</span>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> 
+ <li> <p>Use the Resource Planner to apply Resource Pools to the project and budget job roles. </p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Resource Planner</a>. </p> </li> 
+ <li class="preview"> <p>Use the Scenario Planner to create initiatives with required job roles and link them to the project. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Scenario Planner</a>. </p> <note type="note"> 
+   <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> 
   </note> </li> 
 </ul>
 

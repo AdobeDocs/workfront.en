@@ -8,13 +8,13 @@ title: Account setup for integrations in Workfront Proof
 description: As a Workfront Proof administrator, you can configure Workfront Proof to integrate with Basecamp, Basecamp Classic, NetSuite, and Workfront.
 ---
 
-# Account setup for integrations in `Workfront Proof`
+# Account setup for integrations in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a `Workfront Proof administrator`, you can configure `Workfront Proof` to integrate with Basecamp, Basecamp Classic, NetSuite, and `Workfront`.
+As a Workfront Proof administrator, you can configure Workfront Proof to integrate with Basecamp, Basecamp Classic, NetSuite, and Workfront.
 
 After you establish the&nbsp;general connections for integration, each user can set up&nbsp;their own personal connections via the Integrations tab available on the Personal Settings page.
 

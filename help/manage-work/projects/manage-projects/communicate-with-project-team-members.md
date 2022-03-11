@@ -8,7 +8,7 @@ description: You can easily communicate with the members of your project team th
 
 # Communicate with Project Team members
 
-You can easily communicate with the members of your project team through `Adobe Workfront`.
+You can easily communicate with the members of your project team through Adobe Workfront.
 
 All the users associated with a project form the Project&nbsp;Team.&nbsp;For information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Send an email to a Project Team member
 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
 
 ## Send updates to Project Team members and others
 
-You can send project updates to team members and to other users that might not be part of the project team. All users must have an active `Workfront` account. The update is sent as a notification in `Workfront`.
+You can send project updates to team members and to other users that might not be part of the project team. All users must have an active Workfront account. The update is&nbsp;sent as a notification in Workfront.
 
 1. Go to a project from which you want to send updates to other users.
 1. (Optional and conditional) If the users you want to send updates to are not on the project team, add them to the project team.

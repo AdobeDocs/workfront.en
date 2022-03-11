@@ -22,16 +22,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,14 +41,14 @@ You must have the following to perform the steps in this article:
 For information about editing the system statuses or creating new custom statuses, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
- <li value="3"> <p>Click the <span class="bold">Tasks</span> tab.</p> <p>The tasks statuses available in <span>Workfront</span> are listed on this tab.</p> <p> <img src="assets/task-status-350x133.png" style="width: 350;height: 133;"> </p> <p>For details about each of the built-in system task statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md" class="MCXref xref">System task statuses</a>.</p> </li> 
+ <li value="3"> <p>Click the <span class="bold">Tasks</span> tab.</p> <p>The tasks statuses available in Workfront are listed on this tab.</p> <p> <img src="assets/task-status-350x133.png" style="width: 350;height: 133;"> </p> <p>For details about each of the built-in system task statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md" class="MCXref xref">System task statuses</a>.</p> </li> 
 </ol>
 
 ## About creating custom task statuses
 
-As a `Workfront administrator` you can add custom system task statuses to `Workfront`.
+As a Workfront administrator you can add custom system task statuses to Workfront.
 
 As a group owner, you can add custom task statuses for your group.
 

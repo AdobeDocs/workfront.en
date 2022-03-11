@@ -8,13 +8,13 @@ title: The Adobe Workfront Preview Sandbox Environment
 description: There are two testing environments for Workfront that are replicas of your Workfront production environment:
 ---
 
-# The `Adobe Workfront` Preview Sandbox Environment
+# The Adobe Workfront Preview Sandbox Environment
 
-There are two testing environments for `Workfront` that are replicas of your `Workfront` production environment:
+There are two testing environments for Workfront that are replicas of your Workfront production environment:
 
 * The Preview Sandbox
 
-  The Preview Sandbox is a testing environment that serves as a replica of your live environment and is refreshed each weekend by `Workfront`. For example, data added to your live environment on Friday appears in your Preview Sandbox by the following Monday.  
+  The Preview Sandbox is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. For example, data added to your live environment on Friday appears in your Preview Sandbox by the following Monday.  
   All support packages have access to the Preview Sandbox.
 
 * The Custom Refresh Sandbox
@@ -52,9 +52,9 @@ The Preview Sandbox serves as an environment where users in your organization ca
 
 The Preview Sandbox contains your actual production data; however, it refreshes every weekend so the data can be up to one week behind the production environment. Items created since the last refresh time are in the Preview Sandbox environment until the following refresh.
 
-Data flows uni-directionally, from Production to Preview, and not in reverse. A refresh of the Preview environment is always scheduled by `Workfront` each weekend. For more information on the specific day and time of the refresh, go to [status.adobe.com](https://status.adobe.com/).
+Data flows uni-directionally, from Production to Preview, and not in reverse. A refresh of the Preview environment is always scheduled by Workfront each weekend. For more information on the specific day and time of the refresh, go to [status.adobe.com](https://status.adobe.com/).
 
-Preview Sandbox also allows `Workfront` to deploy new features in a safe environment, before they are ready to be deployed to Production. You can test the new features and give `Workfront` feedback on their functionality by accessing the Preview Sandbox. For this reason, the code of the Preview Sandbox is always ahead of the Production code, although your data is refreshed weekly.
+Preview Sandbox also allows Workfront to deploy new features in a safe environment, before they are ready to be deployed to Production. You can test the new features and give Workfront feedback on their functionality by accessing the Preview Sandbox. For this reason, the code of the Preview Sandbox is always ahead of the Production code, although your data is refreshed weekly.
 
 The preview environment is ideal for running trainings, testing out new features, and determining setup functionality.
 
@@ -66,19 +66,19 @@ The preview environment is ideal for running trainings, testing out new features
 
 ## Accessing the Preview Sandbox
 
-By default, as a `Workfront administrator`, you have access to the Preview Sandbox environment. If you cannot access the Preview Sandbox environment as described in this section, contact your `Workfront administrator` or our Customer Support team.
+By default, as a Workfront administrator, you have access to the Preview Sandbox environment. If you cannot access the Preview Sandbox environment as described in this section, contact your Workfront administrator or our Customer Support team.
 
 * [Accessing the Preview Sandbox from the Workfront Interface](#accessing-the-preview-sandbox-from-the-workfront-interface) 
 * [Accessing the Preview Sandbox Using a URL](#accessing-the-preview-sandbox-with-a-url)
 
-### Accessing the Preview Sandbox from the `Workfront` Interface
+### Accessing the Preview Sandbox from the Workfront Interface
 
-As a `Workfront administrator`, you can access the Preview Sandbox via the `Workfront` interface.
+As a Workfront administrator, you can access the Preview Sandbox via the Workfront interface.
 
 To access the Preview Sandbox:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <span class="bold">System</span> > <span class="bold">Preferences</span>.</li> 
  <li value="3"> In the <span class="bold">Test Environments</span> section, click <span class="bold">Sandbox Preview</span>.</li> 
  <li value="4"> <p> Log in with your Preview credentials.</p> <p>These should be the same as your production credentials, unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically. </p> </li> 
@@ -124,11 +124,11 @@ To log into the Preview Sandbox using a URL:
 
 ## Receiving Emails from the Preview Sandbox
 
-`Workfront` disables all email communication from the Preview Sandbox environment. If you want to receive email notifications from the Preview Sandbox environment, you must enable this functionality in your user settings. For more information about enabling email notifications in the Preview Sandbox environment, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Workfront disables all email communication from the Preview Sandbox environment. If you want to receive email notifications from the Preview Sandbox environment, you must enable this functionality in your user settings. For more information about enabling email notifications in the Preview Sandbox environment, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->Report delivery and push notifications on the mobile app are always disabled for the Preview Sandbox environment. Neither you nor the `Workfront administrator` can enable report delivery or push notifications for the mobile app when you access the Preview Sandbox environment.
+>Report delivery and push notifications on the mobile app are always disabled for the Preview Sandbox environment. Neither you nor the Workfront administrator can enable report delivery or push notifications for the mobile app when you access the Preview Sandbox environment.
 >
 >For more information about report deliveries for the production environment, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 >
@@ -136,7 +136,7 @@ To log into the Preview Sandbox using a URL:
 
 ## Single Sign-On (SSO)
 
-If you are using SSO, work with our Customer Support team to ensure it is properly configured so that you can use your SSO credentials to log in to the Preview Sandbox. If your initial login fails, please contact your regular support contact or `Workfront administrator` for assistance.
+If you are using SSO, work with our Customer Support team to ensure it is properly configured so that you can use your SSO credentials to log in to the Preview Sandbox. If your initial login fails, please contact your regular support contact or Workfront administrator for assistance.
 
 For more information about Single Sign-On, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 
@@ -147,14 +147,14 @@ If you want to configure your Preview Sandbox to work with a Single Sign-On solu
 When your Preview Sandbox refreshes (every weekend), the SSO information is not copied from your Production environment to overwrite the Preview Sandbox configuration.
 
 The steps for configuring single sign-on in the Preview Sandbox are similar to those for configuring it in the Production environment.  
-For more information about configuring `Workfront` with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+For more information about configuring Workfront with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Preview environment performance and availability
 
-`Workfront` Preview environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
+Workfront Preview environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
 
-`Workfront` Preview environments are intended to be always available.
+Workfront Preview environments are intended to be always available.
 
-Any outage to a `Workfront` Preview environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist.
+Any outage to a Workfront Preview environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist.
 
-Any outage to a `Workfront` Preview environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
+Any outage to a Workfront Preview environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.

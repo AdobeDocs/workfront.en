@@ -6,11 +6,11 @@ title: Use actions on proof comments
 description: You can use actions to keep track of what needs to happen on each comment thread on a proof. An action is a word or phrase such as "To do," "Done," or "In progress" that your Adobe Workfront administrator configures in the system for your organization. Reviewers can add an action to a comment to provide information about what has been done or what still needs to be done in response to the comment.
 ---
 
-# Use actions on `proof` comments
+# Use actions on proof comments
 
-You can use actions to keep track of what needs to happen on each comment thread on a `proof`. An action is a word or phrase such as "To do," "Done," or "In progress" that your `Adobe Workfront administrator` configures in the system for your organization. Reviewers can add an action to a comment to provide information about what has been done or what still needs to be done in response to the comment.
+You can use actions to keep track of what needs to happen on each comment thread on a proof. An action is a word or phrase such as "To do," "Done," or "In progress" that your Adobe Workfront administrator configures in the system for your organization. Reviewers can add an action to a comment to provide information about what has been done or what still needs to be done in response to the comment.
 
-For information about how your `Workfront administrator` enables and configures actions, see&nbsp; [Configure proof settings for your organization](../../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+For information about how your Workfront administrator enables and configures actions, see&nbsp; [Configure proof settings for your organization](../../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Access requirements
 
@@ -21,15 +21,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
+   <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -43,14 +43,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
 ## Use actions on comments
 
-To apply an action to an existing comment in the `proofing viewer`:
+To apply an action to an existing comment in the proofing viewer:
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the `proof` you need, then click `Open `proof``.
+1. Find the proof you need, then click `Open proof`.
 
 <ol start="3"> 
  <li value="3">Do one of the following: 

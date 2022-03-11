@@ -8,7 +8,7 @@ description: Projects represent a large amount of work that needs to be done in 
 
 # Create a project
 
-Projects represent a large amount of work that needs to be done in `Adobe Workfront`.
+Projects represent a large amount of work that needs to be done in Adobe Workfront.
 
 ## Access requirements
 
@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span>plan*</td> 
+   <td role="rowheader">Workfrontplan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,17 +37,17 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## New project default settings
 
-When you create a project, `Workfront` applies a set of default settings to it. For example, the Status, Group, or Schedule Mode are preset when you create the project.
+When you create a project, Workfront applies a set of default settings to it. For example, the Status, Group, or Schedule Mode are preset when you create the project.
 
 Consider the following:
 
-* As a `Workfront administrator` `or a `group administrator``, you can configure the default settings for a new project when configuring Project Preferences.
-* `Workfront` applies the settings of the group, if there are any, before it applies those set by the `Workfront administrator`. 
-* If you create a project using a template, the settings from the template take precedence over the settings established by the `Workfront` or `group administrator`.
+* As a Workfront administrator `or a group administrator`, you can configure the default settings for a new project when configuring Project Preferences.
+* Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
+* If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ For more information about setting up the default status and other default setti
 
 ## Ways to create projects
 
-You can create a project in `Workfront` by using one of the following methods:
+You can create a project in Workfront by using one of the following methods:
 
 * Create a project from scratch. This article describes how to create a project from scratch. 
 * Copy an existing project.  
@@ -71,13 +71,13 @@ You can create a project in `Workfront` by using one of the following methods:
 
 * Import a project using kick-starts.
 
-  As a `Workfront administrator`, you can import projects using a kick-start.
+  As a Workfront administrator, you can import projects using a kick-start.
 
-  For information about importing data using kick-starts in `Workfront`, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md) .
+  For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md) .
 
   For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
 
-* Publish an initiative from a scenario in the `Adobe Workfront Scenario Planner`. This is available only in `the new Adobe Workfront experience` and requires an additional license. For information about the `Workfront Scenario Planner`, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner .
+* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner .
 
 ## Create a project from scratch
 

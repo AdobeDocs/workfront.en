@@ -8,18 +8,18 @@ description: There are two sets of hour types in Adobe Workfront:
 
 # Define hour types and availability for timesheets
 
-There are two sets of hour types in `Adobe Workfront`:
+There are two sets of hour types in Adobe Workfront:
 
 * `General hours:` Hours that are not associated with a project, such as sick time or administration. You can log general hours only on the timesheet.
 * `Project-specific hours:` Hours logged on projects, tasks, and issues. You can log project-specific hours from any&nbsp;locations where you can log time.
 
-When logging time in `Workfront`, the project-specific hour types that are available depend on configuration options set at the system, project, and user levels. (The following default project-specific hour types are always available: Project Time, Task Time, and Issue Time.)
+When logging&nbsp;time in Workfront, the project-specific hour types that are available depend on configuration options set at the system, project, and user levels. (The following default project-specific hour types are always available: Project Time, Task Time, and Issue Time.)
 
 An Hour Type is a label that allows you&nbsp;to categorize time entry. Depending on the reporting requirements of your organization for hours, this can&nbsp;be an essential part of logging time.
 
 The hour types that are available to select when logging time (on projects, tasks, and issues) are determined first by the hour types made available system-wide by the system administrator, and then by the hour types&nbsp;selected at the project and user levels.
 
-After the appropriate hour types have been configured, you can log time from multiple locations in `Workfront`, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+After the appropriate hour types have been configured, you can log time from multiple locations in Workfront, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Access requirements
 
@@ -32,12 +32,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Define availability&nbsp;at the system level
 
@@ -85,8 +85,7 @@ If you make an hour type available at the user level as described in this sectio
 To define the hour types that are available to a user:
 
 <ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click your user avatar in the upper-left corner. Click the More menu next to the user name, then click Edit. <note type="note">
-  Only a system administrator can edit other users. If you have a 
-  <span>Plan</span> license, you can edit the hour types on your own profile.
+  Only a system administrator can edit other users. If you have a Plan license, you can edit the hour types on your own profile.
  </note> 
  <li value="4"> <p>In the <span class="bold">Resource Planning</span> section, in the <span class="bold">Available Hour Types</span> drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:</p> 
   <ul> 

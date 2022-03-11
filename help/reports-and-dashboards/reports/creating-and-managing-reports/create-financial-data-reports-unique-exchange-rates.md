@@ -10,7 +10,7 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-If multiple exchange rates have been configured in `Adobe Workfront`, you can set financial values in reports and lists to display in a currency other than the default currency.
+If multiple exchange rates have been configured in Adobe Workfront, you can set financial values in reports and lists to display in a currency other than the default currency.
 
 >[!IMPORTANT]
 >
@@ -29,16 +29,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -47,11 +47,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-Before you can view alternate currencies as described in this section, the `Workfront administrator` must first enable and configure multiple currencies in the Setup area of `Workfront`. For information, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Before you can view alternate currencies as described in this section, the Workfront administrator must first enable and configure multiple currencies in the Setup area of Workfront. For information, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Apply financial values to a report
 
@@ -74,9 +74,9 @@ To convert financial values between currencies when working with reports:
 
 When you customize the currency at the project level and you want to display information from all the projects in the same report, the following scenarios exist:
 
-* If you create a report that brings financial information from two or more projects that have different currencies applied, by default the grouping summary reflects the system's default currency as selected by the `Workfront administrator`.
+* If you create a report that brings financial information from two or more projects that have different currencies applied, by default the grouping summary reflects the system's default currency as selected by the Workfront administrator.
 * If you create a report for two or more projects that have the same currency, but they differ from that of the system's default currency, then the sums in the groupings are displayed using the system default currency.
-* If you create a report for two or more projects that have job role assignments associated with an currency override, `Workfront` converts the financial information from the job role's overridden currency rates to either the currency of the project (when you select Project's Original Currency in the view), or to any different currency you select when viewing the report. For information about overriding the currency of a job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* If you create a report for two or more projects that have job role assignments associated with an currency override, Workfront converts the financial information from the job role's overridden currency rates to either the currency of the project (when you select Project's Original Currency in the view), or to any different currency you select when viewing the report. For information about overriding the currency of a job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 To display two projects with custom currencies in a report:
 

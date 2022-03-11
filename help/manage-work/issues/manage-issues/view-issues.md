@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p><span>Review</span> or higher license to view issues in the Issues sectionof a project.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to view issues in the Issues sectionof a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>View access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## View issues based on&nbsp;Status
 
@@ -77,9 +77,9 @@ To access an issue and view information about it:&nbsp;
     * Comment on the issue, or reply to an existing comment.&nbsp;
     * Log time.
     * Change the status of the issue.  
-      For more information about updating work in `Workfront`, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      For more information about updating work in Workfront, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-  * `Documents`: Attach documents to the issue. For more information about adding documents to `Workfront`, see [Add documents to Adobe Workfront from your file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+  * `Documents`: Attach documents to the issue. For more information about adding documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
   
   * `Issue Details`: Expand this link to display the Overview and Custom Forms areas.  
     If you have manage permissions to the issue and edit rights on the custom form, you can edit some of the information here.  
@@ -127,7 +127,7 @@ You can add icons in the view of a project or task report or list to show whethe
 To add icons that display whether a project has issues in a project report:
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.</p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</p> </li> 
  <li value="2"> <p> Click Reporting>New Report>Project Report. </p> </li> 
  <li value="3">In the <span class="bold">Show in this column</span> field, start typing <span class="bold">Status Icons</span>, then select it when it appears in the list.</li> 
  <li value="4"> <p>Click <span class="bold">Save + Close</span> .</p> <p>The issue icons display on the projects that have issues in the <span class="bold">Status Icons</span> column.</p> <p> <img src="assets/project-list-with-issue-icon-350x42.png" alt="project_list_with_issue_icon.png" style="width: 350;height: 42;"> </p> </li> 

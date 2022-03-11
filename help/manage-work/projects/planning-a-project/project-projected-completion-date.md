@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> <p>You must have a <span>Plan</span> license to create reports</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> <p>You must have a Plan license to create reports</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Projects</p> <p>You must have Edit access to&nbsp;Reports, Dashboards,&nbsp;Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Projects</p> <p>You must have Edit access to&nbsp;Reports, Dashboards,&nbsp;Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,9 +40,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## How `Adobe Workfront` determines the Projected Completion Date
+## How Adobe Workfront determines the Projected Completion Date
 
 The Projected Completion Date is a calculated field, and cannot be manually changed.
 
@@ -57,7 +57,7 @@ The criteria used to determine&nbsp;the Projected Completion Date differs, depen
    <li><p><span class="bold">Predecessors:</span> If there are no delays on the predecessor tasks, the Projected Completion Date should match the&nbsp;Planned Completion Date. As delays occur, dependent tasks show a Projected Completion Date greater than the Planned Completion Date.</p><p>For more information about the Planned Completion Date of tasks, see <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task Planned Completion Date</a>.</p></li>
   </ul><note type="important">
    <p>When the predecessor of a task has an Actual Completion Date, the dependent tasks receive a Projected Completion Date as described in the following scenario: </p>
-   <p>If the project has Task A, Task B, and Task C, and Task B is the successor of Task A, Task C is the successor of Task B and an Actual Completion Date is added to Task A, the Projected Completion Date is automatically recalculated for Task B (provided the <span class="bold">Update Type</span> of the project is set to Automatic and On Change), but it will not be recalculated for Task C. Currently, <span>Workfront</span> calculates the Projected Completion Date for tasks that are one level up or down from the updated Task, for performance reasons.&nbsp;</p>
+   <p>If the project has Task A, Task B, and Task C, and Task B is the successor of Task A, Task C is the successor of Task B and an Actual Completion Date is added to Task A, the Projected Completion Date is automatically recalculated for Task B (provided the <span class="bold">Update Type</span> of the project is set to Automatic and On Change), but it will not be recalculated for Task C. Currently, Workfront calculates the Projected Completion Date for tasks that are one level up or down from the updated Task, for performance reasons.&nbsp;</p>
   </note></li> 
 </ul>
 
@@ -69,7 +69,7 @@ The criteria used to determine&nbsp;the Projected Completion Date differs, depen
 
 ## View the Projected Completion Date
 
-You can view the Projected Completion Date of projects, tasks, and issues in reports. You can view the Projected Completion Date of projects and tasks in other areas of `Workfront`.&nbsp;
+You can view the Projected Completion Date of projects, tasks, and issues in reports. You can view the Projected Completion Date of projects and tasks in other areas of Workfront.&nbsp;
 
 * [View the Projected Completion Date of a project](#viewing-the-projected-completion-date-of-a-project) 
 * [View the Projected Completion Date of a task](#viewing-the-projected-completion-date-of-a-task) 

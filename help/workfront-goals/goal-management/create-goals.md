@@ -6,9 +6,9 @@ title: Create goals in Adobe Workfront Goals
 description: Whether you are a CEO, a manager, or an individual contributor, you can create goals in Adobe Workfront Goals to align your work with your goals and the goals that outline the strategy of your organization.
 ---
 
-# Create goals in `Adobe Workfront Goals`
+# Create goals in Adobe Workfront Goals
 
-Whether you are a CEO, a manager, or an individual contributor, you can create goals in `Adobe Workfront Goals` to align your work with your goals and the goals that outline the strategy of your organization.
+Whether you are a CEO, a manager, or an individual contributor, you can create goals in Adobe Workfront Goals to align your work with your goals and the goals that outline the strategy of your organization.
 
 ## Access requirements
 
@@ -19,20 +19,20 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -41,7 +41,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -51,11 +51,11 @@ You must have the following before you can start:
 
 ## Guidelines for creating goals
 
-Before starting with `Workfront Goals`, we recommend that you read about our best practice recommendations and guidelines for managing goals effectively. For more information about guidelines for creating and managing goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md).
+Before starting with Workfront Goals, we recommend that you read about our best practice recommendations and guidelines for managing goals effectively. For more information about guidelines for creating and managing goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Create goals
 
-This article describes how you create a goal in `Workfront Goals`.
+This article describes how you create a goal in Workfront Goals.
 
 You can create a new goal in one of the following ways:
 
@@ -66,10 +66,9 @@ You can create a new goal in one of the following ways:
 ### Create a goal from scratch
 
 <ol> 
- <li value="1"> <p> Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner. </p> <p> <img src="assets/main-menu-align-icon-highlighted-350x463.png" style="width: 350;height: 463;"> </p> <p>The <span>Goal List</span> displays by default and you can view all the goals in the system. </p> </li> 
- <li value="2"> <p>(Conditional) Click <span>Goal List</span>, <span class="bold">Graphs</span>, <span>Pulse</span>,or <span>Check-in</span> in the left pane, then click&nbsp;<span class="bold">Add Goal</span> in the upper-right corner of the page. The Add Goal box displays. </p> <p> <img src="assets/add-goal-box-350x235.png" style="width: 350;height: 235;"> </p> <note type="tip">
-   You can add a goal from any section in 
-   <span>Workfront Goals</span>. The process for creating a goal is identical regardless of the section you choose to add the goal from. 
+ <li value="1"> <p> Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner. </p> <p> <img src="assets/main-menu-align-icon-highlighted-350x463.png" style="width: 350;height: 463;"> </p> <p>The Goal List displays by default and you can view all the goals in the system. </p> </li> 
+ <li value="2"> <p>(Conditional) Click Goal List, <span class="bold">Graphs</span>, Pulse,or Check-in in the left pane, then click&nbsp;<span class="bold">Add Goal</span> in the upper-right corner of the page. The Add Goal box displays. </p> <p> <img src="assets/add-goal-box-350x235.png" style="width: 350;height: 235;"> </p> <note type="tip">
+   You can add a goal from any section in Workfront Goals. The process for creating a goal is identical regardless of the section you choose to add the goal from. 
   </note> </li> 
  <li value="3">Start typing what you want to achieve in the <span class="bold">Goal</span> field. This is the name of the goal and a required field. </li> 
  <li value="4"> <p>Select a time period when the goal should be executed in the <span class="bold">Period</span> drop-down menu. This is a pre-filled field. The default is the current quarter. </p> <p>Select from the following predefined options:</p> 

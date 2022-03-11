@@ -8,14 +8,13 @@ description: The Done button can automatically set the status of a task or an is
 
 # Configure the Done button for tasks
 
-The Done button can automatically set the status of a task or an issue. By default, `Adobe Workfront`&nbsp;marks a task as Completed when an assignee clicks Done on their work item.
+The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront&nbsp;marks a task as Completed when an assignee clicks Done on their work item.
 
 ## Overview
 
 &nbsp;Users with certain permissions can configure the Done button to reflect certain statuses in the system. There are two different ways the Done button works for tasks in Workfront:
 
-* If the user has an assigned Home Team, a `Workfront administrator` or a user with a Plan license can configure the Done button to reflect certain statuses for team members. See [Configure the Done button for a Team](#configur) in this article.
-
+* If the user has an assigned Home Team, a Workfront administrator or a user with a Plan license can configure the Done button to reflect certain statuses for team members. See [Configure the Done button for a Team](#configur) in this article.
 * If the user does not have a Home Team assigned, the Done button for tasks is tied to a complete status. There are no configuration options available in this scenario. The Done button automatically defaults to this status.
 
 ## Access requirements
@@ -29,17 +28,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Configure the Done button for a Team
 

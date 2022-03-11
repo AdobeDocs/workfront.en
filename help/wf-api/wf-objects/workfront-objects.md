@@ -6,7 +6,7 @@ title: Adobe Workfront Objects
 description: This section contains the following articles:
 ---
 
-# `Adobe Workfront` Objects
+# Adobe Workfront Objects
 
 This section contains the following articles:
 

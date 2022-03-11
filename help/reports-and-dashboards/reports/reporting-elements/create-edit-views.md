@@ -8,7 +8,7 @@ description: You can customize the type of information you display on the screen
 
 # Create and edit views
 
-You can customize the type of information you display on the screen using views. You can use several types of views in  `Adobe Workfront`.
+You can customize the type of information you display on the screen using views. You can use several types of views in&nbsp;Adobe Workfront.
 
 This article describes how to create and edit standard views for lists and reports, and how to create Agile views. For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a view in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a view in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create or customize a view
 
@@ -54,7 +54,7 @@ You can create a new standard view, or you can customize an existing standard vi
 
 <ol> 
  <li value="1">Click the<span class="bold"> View</span> drop-down menu on any list where you want to create or customize a view.</li> 
- <li value="2">(Optional) To customize an existing view, select the standard View you want to customize.<br>Standard Views are available on any type of list in <span>Workfront</span>, such as a report, project list, or task list.</li> 
+ <li value="2">(Optional) To customize an existing view, select the standard View you want to customize.<br>Standard Views are available on any type of list in Workfront, such as a report, project list, or task list.</li> 
  <li value="3">Click the <span class="bold">View</span> drop-down menu, then click <span class="bold">Customize View</span> or<span class="bold"> New View</span>.<br>The <span class="bold">Customize View</span> dialog box displays.<br></li> 
  <li value="4"> <p>In the <span class="bold">Column Preview</span> section, do any of the following:</p> 
   <ul> 
@@ -115,8 +115,7 @@ You can create a new standard view, or you can customize an existing standard vi
  <li value="5">(Conditional) If you clicked <span class="bold">Advanced Options</span>, click <span class="bold">Done</span>.</li> 
  <li value="6"> <p>Click <span class="bold">Save View</span> to create a new View or to replace the current View with your changes.<br>Or<br>Click <span class="bold">Save as New View</span> to save your changes as a new View.</p> <note type="tip">
    The 
-   <span class="bold">Save as New View</span> is the only option available when you customize a built-in 
-   <span>Workfront</span> view.
+   <span class="bold">Save as New View</span> is the only option available when you customize a built-in Workfront view.
   </note> <p>Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.</p> </li> 
 </ol>
 
@@ -142,7 +141,7 @@ To create or customize an Agile view:
  </ol> 
  <li value="4">(Conditional) To create a new Agile view, click <span class="bold">New View</span>.<br>The <span class="bold">Customize Agile View</span> dialog box displays.<br></li> 
  <li value="5">In the <span class="bold">Customize Agile View</span> dialog box, specify a name for the Agile view.<br>We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.<br>This name is displayed in the <span class="bold">View</span> drop-down menu when selecting a view.</li> 
- <li value="6"> <p>Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the <span>Workfront administrator</span>, as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.</p> <p>Users can move stories among these status columns on the Agile story board.<br>When defining status columns, you can do the following:</p> <p> 
+ <li value="6"> <p>Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.</p> <p>Users can move stories among these status columns on the Agile story board.<br>When defining status columns, you can do the following:</p> <p> 
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -192,7 +191,7 @@ To create or customize an Agile view:
        <ul> 
         <li>High = Red</li> 
         <li>Medium = Yellow</li> 
-        <li>Low = Green<br>If your <span>Workfront administrator</span> has configured custom priorities for your <span>Workfront</span> system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
+        <li>Low = Green<br>If your Workfront administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
        </ul> </td> 
      </tr> 
      <tr> 

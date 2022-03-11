@@ -7,9 +7,9 @@ title: Access content in Workfront Library
 description: Depending on your access level, you can access content in the following areas of Workfront Library:
 ---
 
-# Access content in `Workfront Library`
+# Access content in Workfront Library
 
-Depending on your access level, you can access content in the following areas of `Workfront Library`:
+Depending on your access level, you can access content in the following areas of Workfront Library:
 
 <table cellspacing="0"> 
  <col> 
@@ -21,7 +21,7 @@ Depending on your access level, you can access content in the following areas of
   </tr> 
   <tr> 
    <td role="rowheader">My Content</td> 
-   <td>Contains content that you upload to <span>Workfront Library</span>. Users with Manager or higher access to <span>Workfront Library</span> can upload content. Users with Viewer access do not have a My Content area. For information on uploading content, see <a href="../../../workfront-library/content-management/upload-new-content.md" class="MCXref xref">Upload content to Workfront Library</a>.</td> 
+   <td>Contains content that you upload to Workfront Library. Users with Manager or higher access to Workfront Library can upload content. Users with Viewer access do not have a My Content area. For information on uploading content, see <a href="../../../workfront-library/content-management/upload-new-content.md" class="MCXref xref">Upload content to Workfront Library</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collections</td> 
@@ -34,14 +34,14 @@ Depending on your access level, you can access content in the following areas of
  </tbody> 
 </table>
 
-For more information on the areas in `Workfront Library`, see [Get started with Workfront Library](../../../workfront-library/content-management/basics/get-started-with-library.md).
+For more information on the areas in Workfront Library, see [Get started with Workfront Library](../../../workfront-library/content-management/basics/get-started-with-library.md).
 
 <ol> 
- <li value="1"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> <p> <img src="assets/library-left-panel---new-350x217.png" style="width: 350;height: 217;"> </p> </li> 
+ <li value="1"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> <p> <img src="assets/library-left-panel---new-350x217.png" style="width: 350;height: 217;"> </p> </li> 
  <li value="2">In the left panel, select the area you want to access.</li> 
 </ol>
 
-Each `Workfront Library` area displays only the content that you have access to. Your `Workfront Library` access level and the permissions that you have to each item determine what you can do with the content available to you. For more information on access, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
+Each Workfront Library area displays only the content that you have access to. Your Workfront Library access level and the permissions that you have to each item determine what you can do with the content available to you. For more information on access, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 
 You can sort and filter the items that display in the area, and you can search for specific content within the active area. For more information, see the following:
 

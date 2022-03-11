@@ -15,9 +15,9 @@ When you convert an issue to a task or a project, the issue becomes the Resolvab
 You can also manually link an issue to a Resolving Object, which can be a task, project, or issue.&nbsp;For information, see [Manually tie the resolution of an issue to other issues, tasks, or projects](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).   
 The original issue becomes the Resolvable Object of the task, project, or issue, in this scenario.
 
-## Set up `Adobe Workfront` to handle Resolvable Objects
+## Set up Adobe Workfront to handle Resolvable Objects
 
-As a `Workfront administrator` ` or `group administrator``, you can decide how you want to handle the Resolvable Objects in your system `or for your group.`
+As a Workfront administrator `or group administrator`, you can decide how you want to handle the Resolvable Objects in your system `or for your group.`
 
 You can select to keep the Resolvable Object as you are converting it to a task or a project, or to delete it once the task or project are created. You can select to allow these settings to be changed in the process of converting issues, which will allow the user converting the issues to select whether to keep or to delete the issue as they are converting it.
 
@@ -33,15 +33,15 @@ To establish the system default for what happens to the issue as it is being con
 
 ## Handle the Resolvable Object during the conversion to a project or a task
 
-Depending on the way the `Workfront` or `group administrator` configured the system or group level issue preferences, you might be able to handle the resolvable object during the conversion of an issue to a project or a task.   
+Depending on the way the Workfront or group administrator configured the system or group level issue preferences, you might be able to handle the resolvable object during the conversion of an issue to a project or a task.   
 The following scenarios exist:
 
 <ul> 
- <li> <p>If the <span>Workfront</span> <span>or <span>group administrator</span></span> has the <span class="bold">Keep the original issue and tie its resolution to the task</span> and the <span class="bold">Keep the original issue and tie its resolution to the project</span> selected and the <span class="bold">Allow these settings to be changed during conversion</span> unselected, you will not be able to change these settings as you are converting issues to tasks or projects.<br><img src="assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png" style="width: 350;height: 217;"><br></p> </li> 
+ <li> <p>If the Workfront <span>or group administrator</span> has the <span class="bold">Keep the original issue and tie its resolution to the task</span> and the <span class="bold">Keep the original issue and tie its resolution to the project</span> selected and the <span class="bold">Allow these settings to be changed during conversion</span> unselected, you will not be able to change these settings as you are converting issues to tasks or projects.<br><img src="assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png" style="width: 350;height: 217;"><br></p> </li> 
 </ul>
 
 <ul> 
- <li> <p>If the <span>Workfront</span> or <span>group administrator</span> has the <span class="bold">Keep the original issue and tie its resolution to the task</span> and the <span class="bold">Keep the original issue and tie its resolution to the project</span> either selected or unselected and the <span class="bold">Allow these settings to be changed during conversion</span> selected, you will be able to change these settings as you are converting issues to tasks or projects.<br><img src="assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png" style="width: 350;height: 113;"><br></p> </li> 
+ <li> <p>If the Workfront or group administrator has the <span class="bold">Keep the original issue and tie its resolution to the task</span> and the <span class="bold">Keep the original issue and tie its resolution to the project</span> either selected or unselected and the <span class="bold">Allow these settings to be changed during conversion</span> selected, you will be able to change these settings as you are converting issues to tasks or projects.<br><img src="assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png" style="width: 350;height: 113;"><br></p> </li> 
 </ul>
 
 For more information about converting issues to tasks and projects, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).

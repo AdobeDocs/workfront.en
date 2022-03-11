@@ -7,7 +7,7 @@ title: Edit information in custom form fields in Adobe Workfront
 description: You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see Add a custom form to an object.
 ---
 
-# Edit information in custom form fields in `Adobe Workfront`
+# Edit information in custom form fields in Adobe Workfront
 
 You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -20,17 +20,17 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><span>Adobe Workfront</span> plan*</p> </td> 
-   <td><span>Team</span> or higher</td> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Team or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span>Adobe Workfront</span> licenses*</p> </td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront licenses*</p> </td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> Access level* Edit access to the object for which you want to edit the custom form Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Contribute or higher permissions on the object for which you want to edit the custom form View permissions on the fields you want to edit. For information about sharing permissions for custom fields, see Configure sharing for a custom field. Edit permissions for the sections on the form where the fields you want to edit are located For information on requesting additional access for objects, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 

@@ -7,13 +7,13 @@ title: Search for items in Workfront Library
 description: If your Workfront Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see Overview of metadata in Workfront Library.
 ---
 
-# Search for items in `Workfront Library`
+# Search for items in Workfront Library
 
-If your `Workfront Library administrator` set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
+If your Workfront Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
 ## Understand searching for content
 
-You can search `Workfront Library` and the entire Workfront platform for items to which you have permissions. Portal users can search only for items in the portal.
+You can search Workfront Library and the entire Workfront platform for items to which you have permissions. Portal users can search only for items in the portal.
 
 You can search for the following items:
 
@@ -25,22 +25,22 @@ When you search for items, you can query for different types of metadata, such a
 
 >[!NOTE]
 >
->If your `Workfront Library administrator` has not configure metadata for content in `Workfront Library`, then `Workfront Library` searches only for asset names, folder names, and collection names.
+>If your Workfront Library administrator has not configure metadata for content in Workfront Library, then Workfront Library searches only for asset names, folder names, and collection names.
 
 If you are searching for content that has multiple versions, you can search only for the metadata associated with the active (or current) version of the content. Metadata for older versions is not searchable. For more information about content versions, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
 
-Users with Viewer access to `Workfront Library` or to a portal can search for:
+Users with Viewer access to Workfront Library or to a portal can search for:
 
 * Content shared with them
 
-Users with Manager access to `Workfront Library` or to a portal can search for:
+Users with Manager access to Workfront Library or to a portal can search for:
 
 * Content shared with them
 * Content that they uploaded
 * With the Show Expired filter enabled, expired content that they have permissions to
 * With the Show Hidden filter enabled, hidden content that they have permissions to
 
-`Workfront Library` looks for matches based on the following relevance order:&nbsp;
+Workfront Library looks for matches based on the following relevance order:&nbsp;
 
 1. File names: Because the file name is searched for first, we recommend that your organization use a consistent file naming convention.&nbsp; 
 1. Keywords: For more information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md).
@@ -58,7 +58,7 @@ Content with metadata that contain "maps" (plural) are not included in the searc
 
 ## Use search operators to refine a search
 
-You can expand or refine your search in `Workfront Library` or in a portal by using search operators.
+You can expand or refine your search in Workfront Library or in a portal by using search operators.
 
 The following table lists the available search operators.
 
@@ -95,15 +95,15 @@ The following table lists the available search operators.
  </tbody> 
 </table>
 
-## Search for items in `Workfront Library`
+## Search for items in Workfront Library
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="3"> <p>Select the area where you want to search.</p> <p>Depending on your access level to <span>Workfront Library</span>, you might be able to search from the following areas:</p> 
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="3"> <p>Select the area where you want to search.</p> <p>Depending on your access level to Workfront Library, you might be able to search from the following areas:</p> 
   <ul> 
    <li><span class="bold">Library</span>: Search for items shared with you</li> 
-   <li><span class="bold">My Content</span>: Search for items that you uploaded to <span>Workfront Library</span></li> 
+   <li><span class="bold">My Content</span>: Search for items that you uploaded to Workfront Library</li> 
    <li><span class="bold">Collections</span>: Search for items in collections that you created or that were shared with you</li> 
   </ul> <p>Workfront searches through all the files, folders, and sub-folders in the area you select for the search.</p> </li> 
  <li value="4">(Optional) To search within a folder or collection, navigate to and open the folder or collection.</li> 

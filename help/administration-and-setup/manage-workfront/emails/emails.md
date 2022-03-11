@@ -10,9 +10,9 @@ description: Email in Adobe Workfront consists of notifications, reminders, and 
 
 # Emails
 
-Email in `Adobe Workfront` consists of notifications, reminders, and user invitations. System Administrators are responsible for establishing many of the email settings; however, other users (depending on access level) can benefit from using email features to manage their own communication surrounding work.
+Email in Adobe Workfront consists of notifications, reminders, and user invitations. System Administrators are responsible for establishing many of the email settings; however, other users (depending on access level) can benefit from using email features to manage their own communication surrounding work.
 
-Email in `Workfront` (both internal and external) is diverse and dynamic. Automatic communications can be sent to users notifying them when tasks are late. Notifications can be set for a specific work item to remind a user when a task is approaching a due date. Invitations can be set up to allow users to establish their own passwords, rather than having the System Administrator manage passwords.
+Email in Workfront (both internal and external) is diverse and dynamic. Automatic communications can be sent to users notifying them when tasks are late. Notifications can be set for a specific work item to remind a user when a task is approaching a due date. Invitations can be set up to allow users to establish their own passwords, rather than having the System Administrator manage passwords.
 
 With all of the options available to set and define how users will receive and view communication in Workfront, establishing and using email will support your organization's work management and provide 360 degree visibility of work.
 

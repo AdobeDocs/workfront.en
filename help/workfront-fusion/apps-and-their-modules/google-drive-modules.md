@@ -13,7 +13,7 @@ description: The Google Drive modules enable you to monitor, search, create, upd
 
 The Google Drive modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your Google Drive.
 
-In a `Adobe Workfront Fusion` scenario, you can connect your Google Drive account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your Google Drive account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -28,39 +28,39 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 &nbsp;
 
-## Connecting Google Drive to `Workfront Fusion`
+## Connecting Google Drive to Workfront Fusion
 
 If you are @gmail.com or @googlemail.com user you need to create an OAuth client on the [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) in order to obtain Client ID and Client Secret.
 
 For step-by-step instructions on how to create the OAuth client (and obtain Client ID and Client Secret), see [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-For instructions about connecting your `Google Drive` account to `Workfront Fusion`, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+For instructions about connecting your Google Drive account to Workfront Fusion, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## Google Drive modules and their fields
 
-When you configure `Google Drive` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Google Drive` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Google Drive modules, Workfront Fusion displays the fields listed below. Along with these, additional Google Drive fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -91,7 +91,7 @@ Retrieves file details when a file is added or modified in the specified folder.
   <tr> <!--
     Connection
    --> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> <!--
     Select the folder to be watched
@@ -160,7 +160,7 @@ Retrieves file details when a file in your Google Drive is added or modified.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>What files to watch</td> 
@@ -210,7 +210,7 @@ Triggers when a new file is shared to you, or an existing shared file is updated
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Select the folder to be watched</td> 
@@ -264,7 +264,7 @@ Triggers when a comment is added or modified on the selected file.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File</td> 
@@ -303,7 +303,7 @@ Uploads a file to your Google Drive.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -350,7 +350,7 @@ Updates a file's metadata or content.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -401,7 +401,7 @@ Copies a file to the new location.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -436,7 +436,7 @@ Permanently deletes a file or folder.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 
@@ -455,7 +455,7 @@ Moves a file or folder to the trash.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 
@@ -474,7 +474,7 @@ Retrieves the file with the ID specified.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Convert Google Documents files to format</td> 
@@ -509,7 +509,7 @@ Searches for files or folders based on search criteria.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -568,7 +568,7 @@ Creates a folder in the specified location.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -603,7 +603,7 @@ Retrieves the share link for a file in Google Drive.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 

@@ -8,15 +8,15 @@ title: Retrieving historical data from Adobe Workfront: pros and cons
 description: This article explains the pros and cons of 4 options you can use to retrieve your historical data from Workfront.
 ---
 
-# Retrieving historical data from `Adobe Workfront`: pros and cons
+# Retrieving historical data from Adobe Workfront: pros and cons
 
-This article explains the pros and cons of 4 options you can use to retrieve your historical data from `Workfront`.
+This article explains the pros and cons of 4 options you can use to retrieve your historical data from Workfront.
 
 ## Use one of our partners
 
-AtAppStore, a `Workfront` certified partner, has an easy-to-use app that allows you to download your data. This app also includes a viewer that allows you to easily view your data.
+AtAppStore, a Workfront certified partner, has an easy-to-use app that allows you to download your data. This app also includes a viewer that allows you to easily view your data.
 
-* `Pros:` All your `Workfront` objects are exported, including the custom fields. The interface of the Viewer is easy to use and read, and it’s easily importable in a MS Access Database.  
+* `Pros:`&nbsp;All your Workfront objects are exported, including the custom fields. The interface of the Viewer is easy to use and read, and it’s easily importable in a MS Access Database.  
 
 * `Cons:`&nbsp;Documents are not exported. You will have to download them separately. For more information, go to&nbsp; [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
 
@@ -43,7 +43,7 @@ Whether you have remote consulting hours or not, you can use one of our consulta
 
 ## Use our open API
 
-if you have the right resources in your organization, they can build a custom API to retrieve all your data from `Workfront`:
+if you have the right resources in your organization, they can build a custom API to retrieve all your data from Workfront:
 
 * `Pros`:&nbsp;You are in control of what exports from the system.  
 

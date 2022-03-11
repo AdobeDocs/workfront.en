@@ -8,7 +8,7 @@ title: Workfront Library
 description: This section contains the following subsections:
 ---
 
-# `Workfront Library`
+# Workfront Library
 
 This section contains the following subsections:
 

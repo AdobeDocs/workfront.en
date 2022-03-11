@@ -9,15 +9,15 @@ description: As an Adobe Workfront administrator, you can set up currency exchan
 
 # Set up exchange rates
 
-As an `Adobe Workfront administrator`, you can set up currency exchange rates in `Workfront`. This includes the following:
+As an Adobe Workfront administrator, you can set up currency exchange&nbsp;rates in Workfront. This includes the following:
 
-* Setting the default currency for the `Workfront`&nbsp;system
-* Updating exchange rates in `Workfront` to match current exchange rates
+* Setting the default currency for the Workfront&nbsp;system
+* Updating exchange rates in Workfront to match current exchange rates
 * Configuring the exchange rates for&nbsp;multiple currencies (doing so enables&nbsp;users to choose a default currency for individual projects)
 
-Exchange rates impact all financial elements in `Workfront`. The Base Currency is the default currency for all projects throughout the system, unless it is overridden for a given project `or job role`. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+Exchange rates impact all financial elements in Workfront. The Base Currency is the default currency for all projects throughout the system, unless it is overridden for a given project `or job role`. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-For more information about overriding the Base Currency in  `Workfront` for projects `and job roles`, see the following articles:
+For more information about overriding the Base Currency in Workfront for projects `and job roles`, see the following articles:
 
 * [Change the project currency](../../../manage-work/projects/project-finances/change-project-currency.md) 
 * 
@@ -27,7 +27,7 @@ The way that you set up exchange rates affects whether users can modify exchange
 
 >[!IMPORTANT]
 >
->Exchange rates in `Workfront`&nbsp;are not dynamic; the value that you set must&nbsp;be updated when changes in exchange&nbsp;rates occur.&nbsp;
+>Exchange rates in Workfront&nbsp;are not dynamic; the value that you set must&nbsp;be updated when changes in exchange&nbsp;rates occur.&nbsp;
 
 ## Access requirements
 
@@ -38,16 +38,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,12 +55,12 @@ You must have the following to perform the steps in this article:
 ## Set up exchange rates
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
  <li value="2">Click <span class="bold">Project Preferences</span>&nbsp;> <span class="bold">Exchange Rates.</span><br></li> 
  <li value="3">Click<span class="bold">&nbsp;Add Currency.</span></li> 
  <li value="4"> <p>Begin typing the name of the currency, then click it when it appears in the drop-down list.<br></p> </li> 
  <li value="5">In the provided field, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.</li> 
- <li value="6"> <p>(Optional) Set the currency&nbsp;as the base (default) currency for <span>Workfront</span>. </p> <p>This is the currency that is used as the default for all projects and reports throughout the system.</p> </li> 
+ <li value="6"> <p>(Optional) Set the currency&nbsp;as the base (default) currency for Workfront. </p> <p>This is the currency that is used as the default for all projects and reports throughout the system.</p> </li> 
  <li value="7">Click<span class="bold">&nbsp;Save</span>&nbsp;to save your changes.&nbsp;</li> 
 </ol>
 
@@ -72,7 +72,7 @@ Users can modify the default currency for a project when the following condition
 
   For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* More than one currency is enabled on the `Workfront` system.
+* More than one currency is enabled on the Workfront system.
 
 For information about how users can change the default currency on a given project, see [Change the project currency](../../../manage-work/projects/project-finances/change-project-currency.md).
 
@@ -84,6 +84,6 @@ Users can modify the currency for a job role when the following conditions are m
 
   For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* More than one currency is enabled in the `Workfront` system.
+* More than one currency is enabled in the Workfront system.
 
 For information about how users can change the default currency on a given job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

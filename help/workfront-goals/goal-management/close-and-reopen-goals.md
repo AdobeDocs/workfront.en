@@ -6,7 +6,7 @@ title: Close and reopen goals in Adobe Workfront Goals
 description: You can close a goal when you want to indicate the following:
 ---
 
-# Close and reopen goals in `Adobe Workfront Goals`
+# Close and reopen goals in Adobe Workfront Goals
 
 You can close a goal when you want to indicate the following:
 
@@ -22,20 +22,20 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -44,7 +44,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -61,7 +61,7 @@ You must have the following before you can start:
 
   ` `**Warning: **``When closing a goal that has active contributing goals, its progress changes after closing to indicate the progress of the contributing active goals. For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* Closing a goal removes it from your `Check-in` page, as you will no longer be responsible for updating the progress.
+* Closing a goal removes it from your Check-in page, as you will no longer be responsible for updating the progress.
 * Check in on your goal to update its progress indicators before you close the goal to ensure the goal closes with an accurate progress value. If all progress indicators have been achieved then the goal percent complete should be 100% and your goal has been achieved. For information about checking in on your goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 * Leave any final comments as an update to the goals that you close.&nbsp;For information about adding comments to goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 * You can no longer update the progress of results and activities on a goal you close. 
@@ -71,8 +71,8 @@ You must have the following before you can start:
 ## Close goals
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of <span>Workfront</span>.</p> <p>The <span>Goal List</span> opens. </p> </li> 
- <li value="2"> <p>(Optional) Modify your filters to display only goals that are active. </p> <p>For information about filtering information in <span>Workfront Goals</span>, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of Workfront.</p> <p>The Goal List opens. </p> </li> 
+ <li value="2"> <p>(Optional) Modify your filters to display only goals that are active. </p> <p>For information about filtering information in Workfront Goals, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> </li> 
  <li value="3"> <p>Click an active goal.</p> <p>The Goal Details panel displays on the right. </p> </li> 
  <li value="4">(Optional and recommended) Click the <span class="bold">Updates</span> tab and add an update in the <span class="bold">Comment here</span> field about the reason you are closing the goal, then click <span class="bold">Post</span>. </li> 
  <li value="5"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png"></span> to the right of the goal name, then click <span class="bold">Close</span> > <span class="bold">Close Goal</span>. </p> <p>This closes the goal and saves the current progress on the goal and its results and activities. </p> <note type="important"> 
@@ -91,8 +91,8 @@ You can reopen closed goals if you decided that they have become relevant again 
 >`You can reopen closed goals from a past period.`
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of <span>Workfront</span>.</p> <p>The <span>Goal List</span> opens. </p> </li> 
- <li value="2"> <p>(Optional) Modify your filters to display only goals that are closed. </p> <p>For information about filtering information in <span>Workfront Goals</span>, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> <p>Only closed goals display in the <span>Goal List</span>. </p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of Workfront.</p> <p>The Goal List opens. </p> </li> 
+ <li value="2"> <p>(Optional) Modify your filters to display only goals that are closed. </p> <p>For information about filtering information in Workfront Goals, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> <p>Only closed goals display in the Goal List. </p> </li> 
  <li value="3"> <p>Click a closed goal.</p> <p>This opens the Goal Details panel. </p> </li> 
  <li value="4"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png"></span> to the right of the goal name, then click <span class="bold">Reopen</span>><span class="bold">Reopen</span>.</p> <p>This reopens the goal in a status of Active. The progress of the goal is recalculated starting with the current date. </p> </li> 
  <li value="5">(Optional) Modify your filters again to display only active goals. The goals you opened display on the screen. </li> 

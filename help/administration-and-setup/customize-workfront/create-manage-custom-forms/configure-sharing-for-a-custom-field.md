@@ -20,18 +20,18 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## Configure sharing for a custom field
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Custom Forms</span>.</li> 
  <li value="3"> <p> If you are configuring sharing for a custom field in your organization's list of fields, do the following:</p> 
   <ol> 
@@ -88,7 +88,7 @@ You can find out who has inherited access to a field and you can remove access t
 ### Find out who has access to a field because it was on a form that was shared
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Custom Forms</span>.</li> 
  <li value="3">Click the <span class="bold">Fields</span> tab, then select the custom field.</li> 
  <li value="4"> <p>In the <span class="bold">Custom Field Access</span> box that displays, click <span class="bold">Inherited Permissions</span> and view the names that display.</p> </li> 

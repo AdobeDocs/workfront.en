@@ -8,23 +8,23 @@ description: There are several elements that make a list or a report possible in
 
 # Reporting elements: filters, views, and groupings
 
-There are several elements that make a list or a report possible in `Adobe Workfront`. The main elements that every list and report must have are a filter, a view, and a grouping. Each element provides different information within any report.
+There are several elements that make a list or a report possible in Adobe Workfront. The main elements that every list and report must have are a filter, a view, and a grouping. Each element provides different information within any report.
 
 ## Considerations about reporting elements
 
 Consider the following when working with filters, views, and groupings:
 
 * Reporting elements function as the building blocks of reporting. They define the look and feel of a report or a list, as well as the information contained in the report or list.
-* Reports in `Workfront` are specific to one object. You must define your main object for a report before you can build the report. Thus, all the reporting elements are object specific.
-* Your `Workfront administrator` must grant you access to filters, views, and groupings in your access level to be able to view or edit them in lists and reports.
+* Reports in Workfront are specific to one object. You must define your main object for a report before you can build the report. Thus, all the reporting elements are object specific.
+* Your Workfront administrator must grant you access to filters, views, and groupings in your access level to be able to view or edit them in lists and reports.
 
   For information about granting access to filters, views, and groupings see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Your `Workfront administrator` must grant you access to reports, dashboards, and calendars in your access level to be able to view or edit reports.
+* Your Workfront administrator must grant you access to reports, dashboards, and calendars in your access level to be able to view or edit reports.
 
   For information about granting access to reports, dashboards, and calendars, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* If you select a filter, view, or grouping on a report or list, `Workfront` retains this selection for that object's lists even after you log out or close your browser. For example, if you select a specific view for a task report, that selection appears for other task lists, such as the list of tasks on a project.
+* If you select a filter, view, or grouping on a report or list, Workfront retains this selection for that object's lists even after you log out or close your browser. For example, if you select a specific view for a task report, that selection appears for other task lists, such as the list of tasks on a project.
 
 ## Filters
 
@@ -33,7 +33,7 @@ For example, if you only want to see tasks that are assigned to the logged-in us
 
 Some attributes of filters are:
 
-* `Workfront` provides a number of filters for various objects by default.
+* Workfront provides a number of filters for various objects by default.
 * You can customize filters that you own or manage.  
   For more information about filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -44,7 +44,7 @@ For example, a view for a task report could show Due Dates, include key financia
 
 Some attributes of views are:
 
-* You can use a default `Workfront` view, or you can create your own. 
+* You can use a default Workfront view, or you can create your own. 
 * You can apply additional views from the View drop-down field after running a report.
 * Additional views temporarily replace the view that is defined when creating the report; however, the default view is displayed the next time you return to the report.
 
@@ -65,7 +65,7 @@ Some attributes of groupings are:
   For more information about matrix reports, see the article [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * Groupings help build the Summary tab of a report, providing the aggregated values of the report.
-* `Workfront` provides a number of groupings for different objects by default.
+* Workfront provides a number of groupings for different objects by default.
 * You can customize groupings that you own or manage.
 
   For more information about groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).

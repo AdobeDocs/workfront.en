@@ -38,21 +38,21 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> Object permissions View access to an object For information on requesting additional access, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Share a folder
 
@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
  <li value="2"> <p>Select the folder, then click the Share icon <img src="assets/share-icon.png"> in the toolbar.</p> <p>The folder <!--
     must be in the top five levels of a folder hierarchy on an object, and
    -->cannot be a smart folder.</p> </li> 
- <li value="3"> <p>In the box that displays, under <span class="bold">Give <span>folder</span> access to</span>, start typing the name of the user, team, job role, group, or company you want to share the <span>folder</span> with, then press <span class="bold">Enter</span> when the name displays.</p> </li> 
+ <li value="3"> <p>In the box that displays, under <span class="bold">Give folder access to</span>, start typing the name of the user, team, job role, group, or company you want to share the folder with, then press <span class="bold">Enter</span> when the name displays.</p> </li> 
  <li value="4"> <p>To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:</p> 
   <table cellspacing="0"> 
    <col> 

@@ -6,17 +6,17 @@ title: Share a dashboard in Adobe Workfront
 description: Your Adobe Workfront administrator grants users access to view or edit dashboards when they assign access levels. For more information about granting access to issues, see Grant access to reports, dashboards, and calendars.
 ---
 
-# Share a dashboard in `Adobe Workfront`
+# Share a dashboard in Adobe Workfront
 
-Your `Adobe Workfront administrator` grants users access to view or edit dashboards when they assign access levels. For more information about granting access to issues, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Your Adobe Workfront administrator grants users access to view or edit dashboards when they assign access levels. For more information about granting access to issues, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View or Manage specific dashboards that you have access to share. For more information about access levels and permissions, see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Permissions are specific to one item in `Workfront` and define what actions one can take on that item.
+Permissions are specific to one item in Workfront and define what actions one can take on that item.
 
 >[!NOTE]
 >
->A `Workfront administrator` can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
 ## Access requirements
 
@@ -27,16 +27,16 @@ You must have the following to share objects:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to&nbsp;Reports,&nbsp;Dashboards, Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to&nbsp;Reports,&nbsp;Dashboards, Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +45,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -64,7 +64,7 @@ In addition to the considerations below, also see [Share reports, dashboards, an
 * You can share an individual dashboard, or you can share multiple dashboards from a list. 
 * When you share a dashboard, users inherit View permissions to all the reports objects on the dashboard, by default.
 
-  For more information about the hierarchy of objects in `Workfront`, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  For more information about the hierarchy of objects in Workfront, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   For information about viewing inherited permissions, see [View inherited permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 

@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations about editing tasks in a list
 
@@ -64,11 +64,10 @@ Consider the following when editing tasks in a list:
    <li>The Tasks section of the project</li> 
    <li>The Subtasks section of the project</li> 
    <li><p>A task report</p><note type="note">
-     By default, 
-     <span>Workfront</span> automatically saves your changes to tasks in the Subtasks sectionor in a task report. 
+     By default, Workfront automatically saves your changes to tasks in the Subtasks sectionor in a task report. 
     </note></li> 
   </ul></li> 
- <li> <p>You can control when <span>Workfront</span> saves the changes you make to the tasks in a list. Your changes can be saved automatically or you can manually save them. </p> <p>For information about configuring when <span>Workfront</span> saves changes you make to tasks in a list, see the <a href="#selectin" class="MCXref xref">Select a save option when editing tasks in a list</a> section in this article. </p> </li> 
+ <li> <p>You can control when Workfront saves the changes you make to the tasks in a list. Your changes can be saved automatically or you can manually save them. </p> <p>For information about configuring when Workfront saves changes you make to tasks in a list, see the <a href="#selectin" class="MCXref xref">Select a save option when editing tasks in a list</a> section in this article. </p> </li> 
 </ul>
 
 ## Select a save option when editing tasks in a list
@@ -77,13 +76,13 @@ You can decide where the changes you make to tasks in a list are saved automatic
 
 >[!IMPORTANT]
 >
->Depending on whether you save the tasks automatically or manually, you might overwrite someone else's information as you are editing tasks in a list. For information about how `Workfront` saves changes on tasks that you make concurrently with other users, see [Overview of saving concurrent changes within a task list](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
+>Depending on whether you save the tasks automatically or manually, you might overwrite someone else's information as you are editing tasks in a list. For information about how Workfront saves changes on tasks that you make concurrently with other users, see [Overview of saving concurrent changes within a task list](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md).
 
-When you save your changes in a list for a project that has either Automatic or Automatic and On Change selected as the Update Type, `Workfront` updates the project timeline, along with all in-project and cross-project dependencies. Timeline calculations can take a long time if the project is large or if there are a lot of dependencies. Some methods of editing a task list can be faster than others, depending on the method you select to save your changes.
+When you save your changes in a list for a project that has either Automatic or Automatic and On Change selected as the Update Type, Workfront updates the project timeline, along with all in-project and cross-project dependencies. Timeline calculations can take a long time if the project is large or if there are a lot of dependencies. Some methods of editing a task list can be faster than others, depending on the method you select to save your changes.
 
-You can control when `Workfront` saves the changes you make to the tasks in a list. The following scenarios exist:&nbsp;
+You can control when Workfront saves the changes you make to the tasks in a list. The following scenarios exist:&nbsp;
 
-* You can have `Workfront` automatically save the changes, after each update.
+* You can have Workfront automatically save the changes, after each update.
 
   For information, see the section [Edit tasks in a list and automatically save changes](#autosave) in this article. 
 
@@ -101,7 +100,7 @@ Consider the following when saving your task list changes automatically:
 
 * You can apply a custom view to the task list and edit any task-related fields that you have access to update. 
 * You cannot reverse auto-saved changes. This is the default setting. 
-* `Workfront` recalculates the timeline of the project and all the in-project and cross-projects dependencies automatically after every change, when the project Update Type is Automatic or Automatic and On Change. For information about the project Update Type, see [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Workfront recalculates the timeline of the project and all the in-project and cross-projects dependencies automatically after every change, when the project Update Type is Automatic or Automatic and On Change. For information about the project Update Type, see [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 To edit tasks in a list and save changes automatically:
 
@@ -174,7 +173,7 @@ Consider the following when saving changes in a task list manually:
 * In order to save task list changes manually, you need permissions to Manage both the tasks and the project. 
 * You cannot edit the project. The option to edit the project is disabled. 
 * dit the tasks in bulk. The Edit icon is disabled when selecting multiple tasks. 
-* `Workfront` triggers notifications about the changes you make to the tasks only after you save your changes.
+* Workfront triggers notifications about the changes you make to the tasks only after you save your changes.
 
 There are two ways to manually save changes to tasks in a list. These two ways are described below.
 
@@ -189,7 +188,7 @@ Save changes in a task list manually when you select the Manual save Standard op
 Consider the following when updating tasks in a list after selecting the Manual save Standard option:
 
 * You can apply a custom view to the task list and edit any task-related fields that you have permissions to Manage in that view.
-* `Workfront` calculates the timeline of the project and all the in-project and cross-project dependencies after you click Save, when the project Update Type is Automatic or Automatic and On Change. For information about the project Update Type, see [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Workfront calculates the timeline of the project and all the in-project and cross-project dependencies after you click Save, when the project Update Type is Automatic or Automatic and On Change. For information about the project Update Type, see [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 To edit tasks in a list when selecting the Manual save Standard option: 
 
@@ -236,7 +235,7 @@ To edit tasks in a list when selecting the Manual save Standard option:
     </tr> 
    </tbody> 
   </table> </li> 
- <p><span>Workfront</span> updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. </p> 
+ <p>Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. </p> 
  <li value="9"> <p>Click <span class="bold">Save</span> when you want to keep your task changes permanently and save the timeline of the project. </p> </li> 
 </ol>
 
@@ -258,8 +257,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 <ol> 
  <li value="1">Go to a project, then click the <span class="bold">Tasks</span> section. </li> 
  <li value="2"> Click the Plan mode menu at the top of the list and select Manual save, then click Timeline Planning> Apply. This option is dimmed for projects with more than 2000 tasks. <note type="tip">
-   When you navigate away from this page, 
-   <span>Workfront</span> re-enables the Autosave option.
+   When you navigate away from this page, Workfront re-enables the Autosave option.
   </note> <p>Notice the following changes in the list:</p> 
   <ul> 
    <li>The View, Grouping, and Filter drop-down menus are removed and the view is replaced by the following fields:<p> 
@@ -318,7 +316,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
     </tr> 
    </tbody> 
   </table> </li> 
- <p><span>Workfront</span> updates all in-project and cross-project dependencies when you change the timeline of a task. </p> 
+ <p>Workfront updates all in-project and cross-project dependencies when you change the timeline of a task. </p> 
  <li value="9"> <p>Click <span class="bold">Save</span> when you want to keep your task changes permanently and save the timeline of the project. </p> </li> 
 </ol>
 

@@ -7,9 +7,9 @@ title: Reply to a Adobe Workfront update notification from G Suite
 description: When you receive a notification about an update in Adobe Workfront, you can quickly post a reply from Workfront for G Suite.
 ---
 
-# Reply to a `Adobe Workfront` update notification from G Suite
+# Reply to a Adobe Workfront update notification from G Suite
 
-When you receive a notification about an update in `Adobe Workfront`, you can quickly post a reply from `Workfront for G Suite`.
+When you receive a notification about an update in Adobe Workfront, you can quickly post a reply from Workfront for G Suite.
 
 ## Access requirements
 
@@ -20,11 +20,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
    Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
@@ -34,21 +34,21 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-Before you can create a `Workfront` task in G Suite, you must
+Before you can create a Workfront task in G Suite, you must
 
-* Install `Workfront` for G suite  
+* Install Workfront for G suite  
   For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## Reply to an update notification from G Suite
 
 <ol> 
- <li value="1">If the <span>Workfront for G Suite</span> panel is not displayed, click the&nbsp;<span>Workfront</span> icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page. </li> 
- <li value="2">Open the <span>Workfront</span> email notification that contains the update.&nbsp;</li> 
- <li value="3"> <p>Near the bottom of the <span>Workfront for G Suite</span> panel, click <span class="bold">Post a comment</span>, then type your reply.</p> </li> 
+ <li value="1">If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page. </li> 
+ <li value="2">Open the Workfront email notification that contains the update.&nbsp;</li> 
+ <li value="3"> <p>Near the bottom of the Workfront for G Suite panel, click <span class="bold">Post a comment</span>, then type your reply.</p> </li> 
  <li value="4"> <p> (Optional) To notify particular users about your reply, click&nbsp;<span class="bold">Notify people and teams</span>, begin typing a name, then click the name when it appears in the drop-down list. </p> <p>You can repeat this step for any other names you want to add.</p> </li> 
  <li value="5">Click <span class="bold">Post</span>.</li> 
 </ol>

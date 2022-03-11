@@ -1,6 +1,6 @@
 
 
-# Tips, tricks, and troubleshooting for Proofing within `Adobe Workfront`
+# Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
 
 This section contains the following articles:
 

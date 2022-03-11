@@ -9,7 +9,7 @@ description: All Adobe Workfront reports are a combination of 3 essential elemen
 
 # Reporting elements overview
 
-All `Adobe Workfront` reports are a combination of 3 essential elements:
+All Adobe Workfront reports are a combination of 3 essential elements:
 
 * A view
 * A filter

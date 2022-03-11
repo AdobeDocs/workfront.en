@@ -13,18 +13,18 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## List the reports that use a particular custom field
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>In the left panel, click <span class="bold">Custom Forms</span>.</p> </li> 
  <li value="3"> <p>Click the <span class="bold">Fields</span> tab to display a report listing all of your custom fields.</p> <p> <img src="assets/fields-tab-350x221.png" style="width: 350;height: 221;"> </p> </li> 
  <li value="4"> <p>Click the <span class="bold">View</span> drop down menu in the header at the top of the list, then check for any custom views in the list that include the <span class="bold">Reports</span> column (which is not a default column on this tab).</p> <p>The Reports column is where you can see which reports are using each custom field. It’s possible that someone has already created a view that includes the <span class="bold">Reports</span> column.</p> </li> 
@@ -38,7 +38,7 @@ You must have the following to perform the steps in this article:
    <li value="6">Click <span class="bold">Done</span>, then click <span class="bold">Save View</span>.</li>
   </ol></li> 
  <li value="6"> Click the <span class="bold">View</span> drop down menu, then click the name of the custom view you just created.</li> 
- <li value="7"> <p>In the <span class="bold">Name</span> column, find the custom field you plan to edit or delete, then look at the <span class="bold">Reports</span> column on that row to see which reports use the custom field, if any.</p> <p>To find the information for this column, <span>Workfront</span> searches for the custom field in all report filters, views, groupings.</p> <p>If you see a plus sign, you can click that line of text to display a box listing all additional reports that use the custom field.</p> <note type="note">
+ <li value="7"> <p>In the <span class="bold">Name</span> column, find the custom field you plan to edit or delete, then look at the <span class="bold">Reports</span> column on that row to see which reports use the custom field, if any.</p> <p>To find the information for this column, Workfront searches for the custom field in all report filters, views, groupings.</p> <p>If you see a plus sign, you can click that line of text to display a box listing all additional reports that use the custom field.</p> <note type="note">
    The initial load time for this tool can take anywhere from 10 seconds to 2.5 minutes, depending on the amount of data in your system.
   </note> 
   <div class="tips" data-mc-autonum="<b>Tips: </b>">

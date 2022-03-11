@@ -10,16 +10,16 @@ description: Important: This article requires a thorough understanding of the Ad
 
 >[!IMPORTANT]
 >
->This article requires a thorough understanding of the `Adobe Workfront` API and of the text mode reporting interface. For information about the `Workfront` API, see [API basics](../../../wf-api/general/api-basics.md).   
+>This article requires a thorough understanding of the Adobe Workfront API and of the text mode reporting interface. For information about the Workfront API, see [API basics](../../../wf-api/general/api-basics.md).   
 >For information about using text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-## Overview of object relationships in `Workfront`
+## Overview of object relationships in Workfront
 
-All objects are linked to other objects in the `Workfront` database.
+All objects are linked to other objects in the Workfront database.
 
 Understanding the hierarchy and interdependency of objects helps you find out what objects can be referenced in reports.
 
-For information about what objects are in `Workfront` and about their hierarchy and interdependency, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about what objects are in Workfront and about their hierarchy and interdependency, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 When building filters, you can reference other objects that are connected to the object of the filter within up to 2 levels of relationship using the standard reporting interface.
 
@@ -29,7 +29,7 @@ However, you cannot reference the Portfolio Owner in an issue filter using the s
 
 ![issue_to_portfolio_owner_sraight_line_icons.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
-For a complete list of objects in `Workfront`, see the [API Explorer](../../../wf-api/general/api-explorer.md).
+For a complete list of objects in Workfront, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 For information about how to navigate the API Explorer and find objects, see [Using the API Explorer](../../../wf-api/general/using-api-explorer.md).
 
@@ -80,16 +80,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit filters in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit filters in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -98,7 +98,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create complex text mode filters that span multiple levels in the object hierarchy
 
@@ -123,7 +123,7 @@ To create a filter that spans over multiple levels in the object hierarchy:
 
 ## Create complex text mode filters for missing objects
 
-You can build a filter that references objects that are missing. For example, you can build a user filter that shows which users have not logged hours in `Workfront`.
+You can build a filter that references objects that are missing. For example, you can build a user filter that shows which users have not logged hours in Workfront.
 
 You must always use an *EXISTS* statement and the text mode interface to build this filter.
 
@@ -182,7 +182,7 @@ Using the text mode interface, you can build a filter to view Custom Fields (Par
 
 >[!IMPORTANT]
 >
->A Parameter is a field as it exists in the Field Library referenced in a Custom Form. A Category Parameter is the version of a field that appears on a specific form. For example, if the same field appears on 5 forms there will be 1 Parameter and 5 Category Parameters in the `Workfront` Database.
+>A Parameter is a field as it exists in the Field Library referenced in a Custom Form. A Category Parameter is the version of a field that appears on a specific form. For example, if the same field appears on 5 forms there will be 1 Parameter and 5 Category Parameters in the Workfront Database.
 
 To filter for Custom Fields that are not associated with a Custom Form:
 
@@ -217,7 +217,7 @@ To filter for users who did not log time during last week:
    <ul> 
     <li>The Original Object is the object of the report: User.</li> 
     <li>The Target Object is Hour.</li> 
-    <li>You do not need a Linking Object in this example because Users and Hours are directly connected in the <span>Workfront</span> database.</li> 
+    <li>You do not need a Linking Object in this example because Users and Hours are directly connected in the Workfront database.</li> 
     <li>Because there is no Linking Object, you must use the Object Code of the Target Object: HOUR.</li> 
     <li>The Linking Field to the Target Object is ownerID (which displays on the Original Object; the Linking Object is missing).</li> 
     <li>The Linking Field displayed on the Original Object is ID (of the Hour) (which displays on the Target Object; the Linking Object is missing.)</li> 

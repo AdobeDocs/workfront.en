@@ -8,7 +8,7 @@ title: Modules in Adobe Workfront Fusion
 description: This section contains the following articles:
 ---
 
-# Modules in `Adobe Workfront Fusion`
+# Modules in Adobe Workfront Fusion
 
 This section contains the following articles:
 

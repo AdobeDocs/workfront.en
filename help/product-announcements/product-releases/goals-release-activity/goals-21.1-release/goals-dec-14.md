@@ -7,13 +7,13 @@ title: Adobe Workfront Goals 21.1 release activity: Week of December 14, 2020
 description: This page describes all enhancements made with the 21.1 release for Adobe Workfront Goals to the Preview environment the week of December 14, 2020. These enhancements will be made available in the Production environment in the first quarter of 21.1.
 ---
 
-# `Adobe Workfront Goals` 21.1 release activity:&nbsp;Week of December 14, 2020
+# Adobe Workfront Goals 21.1 release activity:&nbsp;Week of December 14, 2020
 
-This page describes all enhancements made with the `21.1` release for `Adobe Workfront Goals` to the Preview environment the week of `December 14, 2020`. These enhancements will be made available in the Production environment in the first quarter of `21.1`.
+This page describes all enhancements made with the 21.1 release for Adobe Workfront Goals to the Preview environment the week of December 14, 2020. These enhancements will be made available in the Production environment in the first quarter of 21.1.
 
-For a list of all changes available for `Workfront Goals` at this point in the `21.1` release cycle, see [Adobe Workfront Goals with the 21.1 release](../../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
+For a list of all changes available for Workfront Goals at this point in the 21.1 release cycle, see [Adobe Workfront Goals with the 21.1 release](../../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
 
-For a list of all changes available for all areas of `Workfront` at this point in the `21.1` release cycle, see [21.1 release overview](../../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+For a list of all changes available for all areas of Workfront at this point in the 21.1 release cycle, see [21.1 release overview](../../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## New workflow for aligning goals
 

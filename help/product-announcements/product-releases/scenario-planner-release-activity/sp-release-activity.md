@@ -8,6 +8,6 @@ title: Adobe Workfront Scenario Planner release activity
 description: The following releases were made available for Workfront Scenario Planner:
 ---
 
-# `Adobe Workfront Scenario Planner` release activity
+# Adobe Workfront Scenario Planner release activity
 
 The following releases were made available for Workfront Scenario Planner: Adobe Workfront Scenario Planner with the 21.4 release Adobe Workfront Scenario Planner with the 21.3 release Adobe Workfront Scenario Planner with the 21.2 release Adobe Workfront Scenario Planner with the 21.1 release Workfront Scenario Planner with the 20.4 release - October 14, 2020 Workfront Scenario Planner with the 20.3 release - August 14, 2020  

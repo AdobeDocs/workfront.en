@@ -30,12 +30,12 @@ The algorithm used is RS256&nbsp;(RSA Signature with SHA-256). This is an asymme
 
 To generate the public key, do **one** of the following.
 
-* Open your MacOS/Linux terminal and execute the following command, then upload `certificate_pub.crt` using the **Add public key** button in the OAuth2 application setup in `Workfront`.
+* Open your MacOS/Linux terminal and execute the following command, then upload `certificate_pub.crt` using the **Add public key** button in the OAuth2 application setup in Workfront.
 
   [Copy](javascript:void(0);) 
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* Use the **Generate a public/private keypair** button in the OAuth2 application setup in `Workfront` to generate the RSA.
+* Use the **Generate a public/private keypair** button in the OAuth2 application setup in Workfront to generate the RSA.
 
 ## Create a JSON Web Token
 

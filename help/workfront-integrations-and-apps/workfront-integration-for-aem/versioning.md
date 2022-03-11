@@ -13,8 +13,8 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> <!--
    Adobe Workfront license* Work or higher
   --> 
@@ -25,7 +25,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -52,7 +52,7 @@ When an asset has been sent from Workfront to AEM the version history of the ass
 
 ## Current Limitations of Versioning
 
-* `Workfront` document versioning is currently unsupported within linked folders.
+* Workfront document versioning is currently unsupported within linked folders.
 
-  * When creating a `Workfront` `Proof` with a document inside a linked folder you will lose your previous version’s comments and annotations.
+  * When creating a Workfront Proof with a document inside a linked folder you will lose your previous version’s comments and annotations.
 

@@ -12,7 +12,7 @@ The My Work section of the Home area displays your tasks, issues, projects, appr
 
 >[!NOTE]
 >
->My Work in the mobile app is separate from My Work on the desktop version of `Adobe Workfront`.
+>My Work in the mobile app is separate from My Work on the desktop version of Adobe Workfront.
 
 ![](assets/home-myworksection-338x379.png)
 

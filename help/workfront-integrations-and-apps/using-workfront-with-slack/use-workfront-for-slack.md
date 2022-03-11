@@ -7,7 +7,7 @@ title: Adobe Workfront for Slack
 description: This section contains the following articles:
 ---
 
-# `Adobe Workfront` for Slack
+# Adobe Workfront for Slack
 
 This section contains the following articles:
 

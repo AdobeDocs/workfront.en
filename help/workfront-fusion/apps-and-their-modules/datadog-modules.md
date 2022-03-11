@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Datadog 
 
 # Datadog modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `Datadog` account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your Datadog account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,35 +26,35 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use Datadog modules, you must have a Datadog account.
 
-## Connect Datadog to `Workfront Fusion`
+## Connect Datadog to Workfront Fusion
 
 ### Retrieve your API key and application key
 
-To connect your Datadog account to `Workfront Fusion` you need to retrieve an API Key and an application key from your Datadog account.
+To connect your Datadog account to Workfront Fusion you need to retrieve an API Key and an application key from your Datadog account.
 
 1. Log in to your Datadog account.
 1. In the left navigation panel, click `Integrations`, then click `APIs`.
@@ -65,7 +65,7 @@ To connect your Datadog account to `Workfront Fusion` you need to retrieve an AP
 1. Hover over the purple bar to reveal the application key.
 1. Copy the application key to a secure location.
 
-### Create a connection to Datadog in `Workfront Fusion`
+### Create a connection to Datadog in Workfront Fusion
 
 You can create a connection to your Datadog account directly from inside a Datadog module.
 
@@ -103,7 +103,7 @@ You can create a connection to your Datadog account directly from inside a Datad
 
 ## Datadog modules and their fields
 
-When you configure `Datadog` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Datadog` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Datadog modules, Workfront Fusion displays the fields listed below. Along with these, additional Datadog fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -126,7 +126,7 @@ The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Datadog account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Series</td> 
@@ -152,7 +152,7 @@ This action module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Datadog account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -164,7 +164,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 

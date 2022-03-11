@@ -12,7 +12,7 @@ description: The Late Proof email is sent to recipients when a proof is close to
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 The Late Proof email is sent to recipients when a proof is close to deadline or reaching deadline. These types of emails are not possible to disable on a proof level, but are configurable on account and user personal settings level.
 
@@ -36,7 +36,7 @@ The people who will be notified are:
 Consider the following about proof notifications:
 
 <ul> 
- <li>Your <span>Workfront administrator</span> or <span>Workfront Proof administrator</span> can include your organization's logo in your email notifications, as explained in <a href="../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md" class="MCXref xref" xrefformat="{para}">Brand the Workfront Proof site</a>. </li> 
+ <li>Your Workfront administrator or Workfront Proof administrator can include your organization's logo in your email notifications, as explained in <a href="../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md" class="MCXref xref" xrefformat="{para}">Brand the Workfront Proof site</a>. </li> 
  <li> <p>If you need to share multiple proofs with the same reviewers and you don't want them to get multiple emails, you can upload them at the same time. All of the reviewers receive one email detailing all the proofs and including a personal URL for each proof. </p> <note type="note">
    The Creator of the proofs receives a separate Proof made email for each of the proofs created. For more information, see 
    <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref" xrefformat="{para}">The Proof Made email</a>.

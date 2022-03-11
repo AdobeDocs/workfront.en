@@ -7,7 +7,7 @@ title: Views overview in Adobe Workfront (draft)
 description: Your Adobe Workfront administrator must grant you access to Edit Filters, Views, and Groupings to be able to create views.
 ---
 
-# Views overview in  `Adobe Workfront` 
+# Views overview in&nbsp;Adobe Workfront 
 
 <!--
 (draft)
@@ -16,7 +16,7 @@ description: Your Adobe Workfront administrator must grant you access to Edit Fi
 ## Considerations about views
 
 * You can customize existing views. All users who can view the views can also see your changes.
-* Your `Adobe Workfront administrator` must grant you access to Edit Filters, Views, and Groupings to be able to create views.
+* Your Adobe Workfront administrator must grant you access to Edit Filters, Views, and Groupings to be able to create views.
 
   For information about granting access to Edit Filters, Views, and Groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
@@ -38,7 +38,7 @@ You can create a new standard view, or you can customize an existing standard vi
 
 <ol> 
  <li value="1">Click the<span class="bold"> View</span> drop-down menu on any list where you want to create or customize a view.</li> 
- <li value="2">(Optional) To customize an existing view, select the standard View you want to customize.<br>Standard Views are available on any type of list in <span>Workfront</span>, such as a report, project list, or task list.</li> 
+ <li value="2">(Optional) To customize an existing view, select the standard View you want to customize.<br>Standard Views are available on any type of list in Workfront, such as a report, project list, or task list.</li> 
  <li value="3">Click the <span class="bold">View</span> drop-down menu, then click <span class="bold">Customize View</span> or<span class="bold"> New View</span>.<br>The <span class="bold">Customize View</span> dialog box displays.<br></li> 
  <li value="4"> <p>In the <span class="bold">Column Preview</span> section, do any of the following:</p> 
   <ul> 
@@ -99,8 +99,7 @@ You can create a new standard view, or you can customize an existing standard vi
  <li value="5">(Conditional) If you clicked <span class="bold">Advanced Options</span>, click <span class="bold">Done</span>.</li> 
  <li value="6"> <p>Click <span class="bold">Save View</span> to create a new View or to replace the current View with your changes.<br>Or<br>Click <span class="bold">Save as New View</span> to save your changes as a new View.</p> <note type="tip">
    The 
-   <span class="bold">Save as New View</span> is the only option available when you customize a built-in 
-   <span>Workfront</span> view.
+   <span class="bold">Save as New View</span> is the only option available when you customize a built-in Workfront view.
   </note> <p>Your access dictates how the View is saved. If you created the View originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the View impact users with whom the View has been shared.</p> </li> 
 </ol>
 
@@ -126,7 +125,7 @@ To create or customize an Agile view:
  </ol> 
  <li value="4">(Conditional) To create a new Agile view, click <span class="bold">New View</span>.<br>The <span class="bold">Customize Agile View</span> dialog box displays.<br></li> 
  <li value="5">In the <span class="bold">Customize Agile View</span> dialog box, specify a name for the Agile view.<br>We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.<br>This name is displayed in the <span class="bold">View</span> drop-down menu when selecting a view.</li> 
- <li value="6"> <p>Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the <span>Workfront administrator</span>, as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.</p> <p>Users can move stories among these status columns on the Agile story board.<br>When defining status columns, you can do the following:</p> <p> 
+ <li value="6"> <p>Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.</p> <p>Users can move stories among these status columns on the Agile story board.<br>When defining status columns, you can do the following:</p> <p> 
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -176,7 +175,7 @@ To create or customize an Agile view:
        <ul> 
         <li>High = Red</li> 
         <li>Medium = Yellow</li> 
-        <li>Low = Green<br>If your <span>Workfront administrator</span> has configured custom priorities for your <span>Workfront</span> system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
+        <li>Low = Green<br>If your Workfront administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -205,8 +204,7 @@ For information about how to share a view, see [Share a filter, view, or groupin
 
 The ability to remove a view functions differently depending on whether you initially created the view, or the view was shared with you. You cannot remove a default view.
 
-* `If you created the view and you remove it`, the view is removed from the `Workfront` system. The view is no longer available to any users who you previously shared it with.
-
+* `If you created the view and you remove it`, the view is removed from the Workfront system. The view is no longer available to any users who you previously shared it with.
 * `If the view was shared with you and you remove it`, the view is removed only for you. The user who originally created it and any other users it has been shared with still have access to the view.
 
 To remove a view:

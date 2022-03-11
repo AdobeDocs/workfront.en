@@ -8,11 +8,11 @@ title: Adobe Workfront Fusion release activity
 description: Adobe Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
 ---
 
-# `Adobe Workfront Fusion` release activity
+# Adobe Workfront Fusion release activity
 
-`Adobe Workfront Fusion` connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
+Adobe Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
 
-For information about how to use `Workfront Fusion`, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Recent releases
 

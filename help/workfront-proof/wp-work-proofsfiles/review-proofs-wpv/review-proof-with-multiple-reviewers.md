@@ -7,18 +7,18 @@ title: Review a proof simultaneously with multiple reviewers
 description: Multiple reviewers can review a proof at the same time. When you are reviewing a proof, you can see who else is currently reviewing the same proof.
 ---
 
-# Review a `proof` simultaneously with multiple reviewers
+# Review a proof simultaneously with multiple reviewers
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Multiple reviewers can review a `proof` at the same time. When you are reviewing a `proof`, you can see who else is currently reviewing the same `proof`.&nbsp;
+Multiple reviewers can review a proof at the same time.&nbsp;When you are reviewing a proof, you can see who else is currently reviewing the same proof.&nbsp;
 
-You can see presence indicators when other reviewers have the same `proof` open, whether or not they add comments to the `proof`. If they do add comments, the comments appear while you are reviewing the `proof`; you don't have to refresh the `proofing viewer` to see them.
+You can see presence indicators when other reviewers have the same proof open, whether or not they add comments to the proof. If they do add comments, the comments appear while you are reviewing the proof; you don't have to refresh the proofing viewer to see them.
 
 <ol> 
- <li value="1"> <p>View the presence indicators in the upper-right corner of the <span>proofing viewer</span>.</p> <p>If you are using <span>Workfront Proof</span> (not the proofing functionality integrated with <span>Workfront</span>_, presence indicators contain the user's <span>Workfront Proof</span> profile picture or, if there is no profile picture, the first and last initial if the user. </p> <p>Profile pictures in <span>Workfront</span> do not appear in the <span>proofing viewer</span>.<br></p> </li> 
+ <li value="1"> <p>View the presence indicators in the upper-right corner of the proofing viewer.</p> <p>If you are using Workfront Proof (not the proofing functionality integrated with Workfront_, presence indicators contain the user's Workfront Proof profile picture or, if there is no profile picture, the first and last initial if the user. </p> <p>Profile pictures in Workfront do not appear in the proofing viewer.<br></p> </li> 
  <li value="2"> <p>(Optional) Mouse over a presence indicator to view the name of the user.</p> <p> <img src="assets/proof-presence.png"> <br> </p> </li> 
 </ol>
 

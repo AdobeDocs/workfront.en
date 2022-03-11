@@ -22,13 +22,13 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## Preview and finish creating a custom form
 
@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
    Note: If the form is already attached to a lot of objects, it might take a few minutes for your changes to apply to all of them. This happens in the background, so you can work on other tasks in Workfront while you wait.
    -->
 
-1. (Optional) Add the form to the `Workfront` object where you want to use it, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Optional) Add the form to the Workfront object where you want to use it, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Regular users can also do this if they have manage rights to the object.
 

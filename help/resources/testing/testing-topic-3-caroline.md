@@ -4,14 +4,13 @@
 
 This table lists the group-level activities available for:
 
-* An `Adobe Workfront administrator` managing the `Workfront` system
+* An Adobe Workfront administrator managing the Workfront system
+* A group administrator managing a top-level group
+* A group administrator managing a subgroup
 
-* A `group administrator` managing a top-level group
-* A `group administrator` managing a subgroup
+Workfront administrators can perform any action for any group.
 
-`Workfront administrators` can perform any action for any group.
-
-`Group administrators` and sub `group administrators` can perform an action for a group only if they are marked as a designated administrator for that group. For information on how a user is designated as a `group administrator`, see [View and manage a group’s details](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+Group administrators and subgroup administrators can perform an action for a group only if they are marked as a designated administrator for that group. For information on how a user is designated as a group administrator, see [View and manage a group’s details](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
 <table cellspacing="15"> 
  <col> 
@@ -21,14 +20,14 @@ This table lists the group-level activities available for:
  <thead> 
   <tr> 
    <th>&nbsp;</th> 
-   <th><span>Workfront administrator</span> </th> 
-   <th><span>Group administrator</span> </th> 
-   <th>Sub<span>group administrator</span></th> 
+   <th>Workfront administrator </th> 
+   <th>Group administrator </th> 
+   <th>Subgroup administrator</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Enroll group members in <span>the new Adobe Workfront experience</span></td> 
+   <td>Enroll group members in the new Adobe Workfront experience</td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
@@ -330,6 +329,6 @@ This table lists the group-level activities available for:
  </tbody> 
 </table>
 
-&#42; In the `group administrator`’s access level, `Edit` must be selected for the `Users` setting, with `User Admin (Group Users)` selected under `Fine-tune your settings` ![](assets/gear-icon-in-access-levels.png). For more information, see the section [Configure users’ access to edit users using a custom access level](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in the article [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; In the group administrator’s access level, `Edit` must be selected for the `Users` setting, with `User Admin (Group Users)` selected under `Fine-tune your settings` ![](assets/gear-icon-in-access-levels.png). For more information, see the section [Configure users’ access to edit users using a custom access level](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in the article [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-&#42;&#42; In the `group administrator`'s access level, access to this action must be enabled. For more information, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42; In the group administrator's access level, access to this action must be enabled. For more information, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).

@@ -7,19 +7,19 @@ title: Goal alignment in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article:
 ---
 
-# Goal alignment in `Adobe Workfront Goals`
+# Goal alignment in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
 
-* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
-* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
+* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+* An Adobe Workfront Goals license in addition to a Workfront license.
 
-  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
+  Contact your Workfront account manager to learn about a Workfront Goals license.
 
-  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
+  Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
-Review the following articles to understand how to align goals in  `Workfront Goals`:
+For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
+Review the following articles to understand how to align goals in&nbsp;Workfront Goals:
 
 * [Goal alignment overview in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md) 
 * [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) 

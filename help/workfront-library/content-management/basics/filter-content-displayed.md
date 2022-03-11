@@ -7,7 +7,7 @@ title: Filter content displayed in Workfront Library
 description: You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see Search for items in Workfront Library.
 ---
 
-# Filter content displayed in `Workfront Library`
+# Filter content displayed in Workfront Library
 
 You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md).
 
@@ -21,10 +21,10 @@ If your organization allows you to add keywords to uploaded content, you can enh
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>Select the area you want to filter.</p> 
   <ul> 
-   <li>If you have Manager or higher access to <span>Workfront Library</span>, you can filter the My Content and Library areas. </li> 
+   <li>If you have Manager or higher access to Workfront Library, you can filter the My Content and Library areas. </li> 
    <li>Users with Viewer access can filter only the Library area.</li> 
   </ul> </li> 
  <li value="4"> <p>Click the <span class="bold">Filter</span> icon.</p> <p> <img src="assets/filter-icon-location-350x102.png" style="width: 350;height: 102;"> </p> <p>The Filter panel opens and displays the filters you can use.</p> <p> <img src="assets/filters-closed-350x157.png" style="width: 350;height: 157;"> </p> </li> 

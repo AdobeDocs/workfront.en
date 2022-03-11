@@ -7,11 +7,11 @@ title: Single Sign-On in Workfront Proof: AD FS configuration
 description: If you are an administrator on your AD server, you can install and configure AD FS.
 ---
 
-# Single Sign-On in `Workfront Proof`: AD FS configuration
+# Single Sign-On in Workfront Proof: AD FS configuration
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 If you are an administrator on your AD server, you can install and configure AD FS.
 
@@ -33,9 +33,9 @@ If you are an administrator on your AD server, you can install and configure AD 
  <li value="9">Continue with the configuration, and click <span class="bold">Close</span> once it is complete.</li> 
 </ol>
 
-## Configuring `Workfront Proof` Single Sign-On
+## Configuring Workfront Proof Single Sign-On
 
-If you are a `Workfront Proof administrator`, you can configure Single Sign-On on the `Workfront Proof` side.&nbsp;For more information, see [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
+If you are a Workfront Proof administrator, you can configure Single Sign-On on the Workfront Proof side.&nbsp;For more information, see [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 
 <ol> 
  <li value="1">Click <span class="bold">Settings</span> > <span class="bold">Account Settings</span>, then open the&nbsp;<span class="bold">Single sign-on</span> tab.</li> 
@@ -61,7 +61,7 @@ If you are a `Workfront Proof administrator`, you can configure Single Sign-On o
    <li value="3">In the <span class="bold">Certificate fingerprint</span> box, enter the data from your certificate.</li>
    <li value="4">Go to your&nbsp;ADFS 2.0 snap-in&nbsp;navigate to Service > Certificates > Token-signing.</li>
    <li value="5">Right-click on this entry to view the certificate.</li>
-   <li value="6">From the Certificate Details tab copy the Thumbprint, and paste it in the <span class="bold"><span>Workfront Proof</span> Single Sign-On</span> configuration tab.<br></li><note type="note">
+   <li value="6">From the Certificate Details tab copy the Thumbprint, and paste it in the <span class="bold">Workfront Proof Single Sign-On</span> configuration tab.<br></li><note type="note">
     &nbsp;The fingerprint characters can be separated with colons or spaces, but we do recommend removing these. If you have any troubles with your Single Sign-On configuration, please contact the Customer Support team.
    </note>
   </ol></li> 
@@ -76,7 +76,7 @@ Once configuration is complete, you need to work in the&nbsp;Relying Party Trust
  <li value="2">Select your data source.<br>All metadata for your ProofHQ account is located under a link like this:<br>https://<i><yoursubdomain</i>>.proofhq.com/saml/module.php/saml/sp/metadata.php/phq<br>This will configures most of the Relying Party Trust.<br><note type="note">
    <ul>
     <li>If you're having any troubles with establishing the connection from the URL, save the metadata as a file and choose to import data from a file.</li>
-    <li>When you have a full Custom domain (e.g., www.your-<span>proofing</span>.com) configured on your ProofHQ account replace the whole "{yoursubdomain}.proofhq.com" part with your own domain to create your ProofHQ metadata link.</li>
+    <li>When you have a full Custom domain (e.g., www.your-proofing.com) configured on your ProofHQ account replace the whole "{yoursubdomain}.proofhq.com" part with your own domain to create your ProofHQ metadata link.</li>
    </ul>
   </note></li> 
 </ol>

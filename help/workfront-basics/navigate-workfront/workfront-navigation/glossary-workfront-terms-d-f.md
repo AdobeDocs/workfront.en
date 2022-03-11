@@ -10,11 +10,11 @@ description: For the full glossary, see Glossary of Workfront terms.
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the `Adobe Workfront` application or in the `Workfront` documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;&nbsp;
+The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
 
 ## D-F
 
@@ -58,7 +58,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td>Document</td> 
-   <td>Any file that is attached to an object within <span>Workfront</span>.</td> 
+   <td>Any file that is attached to an object within Workfront.</td> 
   </tr> 
   <tr> 
    <td>Document Version</td> 
@@ -68,9 +68,9 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
    <td> <p>Duration</p> </td> 
    <td> <p>The window of time allocated for completion of a task issue, or project (as determined by the number of days between the Planned Start and the Planned Completion). </p> 
     <ul> 
-     <li>For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by <span>Workfront</span>.&nbsp;</li> 
+     <li>For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by Workfront.&nbsp;</li> 
      <li>For issues, the Duration is always an editable field and it should represent an estimate of a number of days that would require the issue to be resolved.&nbsp;</li> 
-     <li>For projects, the Duration is a calculation performed by <span>Workfront</span> and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project.&nbsp;</li> 
+     <li>For projects, the Duration is a calculation performed by Workfront and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project.&nbsp;</li> 
     </ul> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   --> 
   <tr> 
    <td>External</td> 
-   <td> <p>Typically, an access level that allows people who don’t have <span>Workfront</span>, to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a>.</p> </td> 
+   <td> <p>Typically, an access level that allows people who don’t have Workfront, to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a>.</p> </td> 
   </tr> <!--
    External System Any services or software that is stored and governed outside the designated system of record.
   --> 

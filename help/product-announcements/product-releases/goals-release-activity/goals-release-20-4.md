@@ -1,12 +1,12 @@
 
 
-# `Workfront Goals` with the 20.4 release
+# Workfront Goals with the 20.4 release
 
-This page provides information about functionality for `Workfront Goals` in `the new Adobe Workfront experience` that is releasing to the Production environment with the 20.4 release.
+This page provides information about functionality for Workfront Goals in the new Adobe Workfront experience that is releasing to the Production environment with the 20.4 release.
 
-## Usability improvements for `Workfront Goals`
+## Usability improvements for Workfront Goals
 
-We continue to make improvements to the way you use `Workfront Goals` based on the feedback we receive from you. We added the following usability improvements:
+We continue to make improvements to the way you use Workfront Goals based on the feedback we receive from you. We added the following usability improvements:
 
 * Updated the experience of printing a list of goals with a more intuitive Print link in the Goal List section.
 
@@ -30,13 +30,13 @@ We continue to make improvements to the way you use `Workfront Goals` based on t
 >
 >`Production availability:`&nbsp;With the 20.4 release
 
-This feature is now included in the [ `Workfront Goals` learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
 
-## Access Controls for `Workfront Goals`
+## Access Controls for Workfront Goals
 
-You can now limit access to `Workfront Goals` in the access levels. You can give users No Access, or access to View or Edit information in `Workfront Goals`. This access is available for all license types except for External. Prior to this improvement, all users had edit access to all goals.
+You can now limit access to Workfront Goals in the access levels. You can give users No Access, or access to View or Edit information in Workfront Goals. This access is available for all license types except for External. Prior to this improvement, all users had edit access to all goals.
 
-For information about granting access to `Workfront Goals`, see [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+For information about granting access to Workfront Goals, see [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <!--
 
@@ -52,9 +52,9 @@ View this video in full-screen mode.
 >
 >`Production availability:`&nbsp;With the 20.4 release
 
-This feature is now included in the [ `Workfront Goals` learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
 
-## `Workfront Goals` usability improvements
+## Workfront Goals usability improvements
 
 Based on the feedback we have received so far, we have made the following improvements in the Add Goal and the Goal Details panels:
 
@@ -81,4 +81,4 @@ View this video in full-screen mode.
 >
 >`Production availability:`&nbsp;With the 20.4 release
 
-This feature is now included in the [ `Workfront Goals` learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.

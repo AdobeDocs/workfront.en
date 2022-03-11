@@ -25,7 +25,7 @@ During the life of a project, the Projected and Estimated Dates are more in line
 
 Consider the following when working with Projected and Estimated Dates on tasks:
 
-* You cannot manually modify either the Estimated nor the Projected Dates of tasks. They are both calculated by `Adobe Workfront`.
+* You cannot manually modify either the Estimated nor the Projected Dates of tasks. They are both calculated by Adobe Workfront.
 * When you create a task, the Projected and the Estimated dates should be identical and they should illustrate the actual times when the tasks can start or end.  
   Certain updates that you make to tasks directly affect the values of the Projected and Estimated Dates.&nbsp;
 

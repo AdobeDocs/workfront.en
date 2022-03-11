@@ -6,7 +6,7 @@ title: Resolve initiative conflicts in the Adobe Workfront Scenario Planner
 description: When initiatives conflict with one another they are competing for the same resources. The resources you have available for a scenario are not enough to cover all of the resources required by all initiatives in the scenario.
 ---
 
-# Resolve initiative conflicts in the `Adobe Workfront Scenario Planner`
+# Resolve initiative conflicts in the Adobe Workfront Scenario Planner
 
 When initiatives conflict with one another they are competing for the same resources. The resources you have available for a scenario are not enough to cover all of the resources required by all initiatives in the scenario.
 
@@ -24,33 +24,33 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> plan*</b> </p> </td> 
-   <td><span>Business</span> or higher</td> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Business or higher</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> license*</b> </p> </td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Scenario Planner</span> to access functionality described in this article.</p> <p>For information about obtaining the <span>Workfront Scenario Planner</span>, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
   </tr> Access level configurations* Edit or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions to a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Resolve conflicts overview
 
 * A conflict is also understood as an overallocation of the job roles or the budget of a scenario. 
-* When  `Workfront` detects a conflict, the bar corresponding to the conflicting month during the initiative's duration displays in red. This can happen in any of the following cases:
+* When&nbsp;Workfront detects a conflict, the bar corresponding to the conflicting month during the initiative's duration displays in red. This can happen in any of the following cases:
 
   * The number of job roles required monthly for an initiative is larger than the number of roles budgeted for the plan after all previous initiatives have used the resources budgeted for the plan.
   * The monthly costs of the initiative are larger than the budget available for the plan after all previous initiatives have used the plan's budget to cover their costs.
 
-` `**Tip: **`` By default, the `Scenario Planner` assumes that you have budgeted for 0 job roles and $0 or the equivalent of $0 in your system's currency for a scenario, unless you specified otherwise. The number of job roles indicates the number of FTEs (Full Time Equivalents) `or hours` budgeted for the job role .
+` `**Tip: **`` By default, the Scenario Planner assumes that you have budgeted for 0 job roles and $0 or the equivalent of $0 in your system's currency for a scenario, unless you specified otherwise. The number of job roles indicates the number of FTEs (Full Time Equivalents) `or hours` budgeted for the job role .
 
-For all calculations in the `Scenario Planner`, `Workfront` uses the following value: 1 FTE = 8 Hours.
+For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours.
 
 For information about updating the available roles for a plan and a budget see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 
@@ -64,8 +64,7 @@ For information about updating the available roles for a plan and a budget see [
 <ol> 
  <li value="1"> <p>Go to a plan for which you want to resolve conflicts.</p> <p>For information about creating plans, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>.</p> <p>For information about creating initiatives, see <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Adobe Workfront Scenario Planner</a>. </p> </li> 
  <li value="2"> <p>(Optional)&nbsp;From the <span class="bold">Initial scenario</span> drop-down menu, select the scenario you want to review. </p> <note type="tip">
-   A plan may have several scenarios. When looking at the plan's conflicts,&nbsp;
-   <span>Workfront</span> is referring to the resources currently available on the selected scenario and those required on that scenario's initiatives. For information about scenarios, see 
+   A plan may have several scenarios. When looking at the plan's conflicts,&nbsp;Workfront is referring to the resources currently available on the selected scenario and those required on that scenario's initiatives. For information about scenarios, see 
    <a href="../scenario-planner/create-and-compare-scenarios-for-a-plan.md" class="MCXref xref">Create and compare plan scenarios in the Adobe Workfront Scenario Planner</a>. 
   </note> </li> 
  <li value="3"> <p>Ensure that <span class="bold">Show conflicts</span> is enabled. It is enabled by default. </p> <p> <img src="assets/show-scenarios-toggle-on.png"> </p> <p>The first conflicting initiative displays the months that have conflicts in red and a warning icon displays next to the initiative name. </p> <p>The background of all initiatives starting with the first conflicting one displays in red on the plan's chart. </p> <p>When an initiative displays a conflict, it means that the number of job role for at least one specific role, the costs incurred, or both exceed the number of job roles or the budget defined for the plan for a specific month. </p> <p> <img src="assets/initiatives-on-plan-with-conflicts-350x126.png" style="width: 350;height: 126;"> </p> </li> 
@@ -107,8 +106,7 @@ For information about updating the available roles for a plan and a budget see [
          <li> <p><span class="bold">Required</span>: The number of each job role required for the initiative for the selected month.</p> </li> 
          <li> <p style="font-weight: normal;"><span class="bold">Overallocated: </span>The difference between the number required on the initiative and the number available from the scenario. </p> </li> 
         </ul> <note type="tip">
-         Sometimes, the number of Available roles matches or is higher than the number of Required roles, but the 
-         <span>Scenario Planner</span> still shows an overallocation.&nbsp;This means that there are higher-ranking initiatives that already used the job roles available on the plan for the same month. 
+         Sometimes, the number of Available roles matches or is higher than the number of Required roles, but the Scenario Planner still shows an overallocation.&nbsp;This means that there are higher-ranking initiatives that already used the job roles available on the plan for the same month. 
         </note> </td> 
       </tr> 
       <tr> 
@@ -119,8 +117,7 @@ For information about updating the available roles for a plan and a budget see [
          <li> <p><span class="bold">Required</span>: The costs associated with this initiative for the selected month.</p> </li> 
          <li> <p style="font-weight: normal;"><span class="bold">Overallocated: </span>The difference between the costs of the initiative and the budget available from the plan. </p> </li> 
         </ul> <note type="tip">
-         Sometimes, the Available costs match or are higher than the Required cost of the initiative for the selected month and the 
-         <span>Scenario Planner</span> still shows an overallocation of cost.&nbsp;This means that there are higher-ranking initiatives that already use the available budget on the plan for the same month. 
+         Sometimes, the Available costs match or are higher than the Required cost of the initiative for the selected month and the Scenario Planner still shows an overallocation of cost.&nbsp;This means that there are higher-ranking initiatives that already use the available budget on the plan for the same month. 
         </note> </td> 
       </tr> 
      </tbody> 
@@ -151,7 +148,7 @@ For information about updating the available roles for a plan and a budget see [
     </tr> 
     <tr> 
      <td role="rowheader">Overallocated</td> 
-     <td> <p>The difference between the number of required job roles on the initiative and the number available from the plan after higher-ranking initiatives also used some of the roles. <span>Workfront</span> calculates the number of Overallocated job roles using the following formula:</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
+     <td> <p>The difference between the number of required job roles on the initiative and the number available from the plan after higher-ranking initiatives also used some of the roles. Workfront calculates the number of Overallocated job roles using the following formula:</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
     </tr> 
    </tbody> 
   </table> <note type="tip">
@@ -184,14 +181,13 @@ For information about updating the available roles for a plan and a budget see [
     </tr> 
     <tr> 
      <td role="rowheader">Overallocated</td> 
-     <td> <p>The monthly difference between the costs needed for the initiative and the amount of money available from the plan's budget after higher-ranking initiatives also used some of the available budget. <span>Workfront</span> calculates the number of Overallocated costs using the following formula:</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p><span>Workfront</span> calculates the Required costs for the current initiative for each month using the following formula:</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
+     <td> <p>The monthly difference between the costs needed for the initiative and the amount of money available from the plan's budget after higher-ranking initiatives also used some of the available budget. Workfront calculates the number of Overallocated costs using the following formula:</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p>Workfront calculates the Required costs for the current initiative for each month using the following formula:</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
     </tr> 
    </tbody> 
   </table> <note type="tip">
    On the plan's chart, the months where the costs are insufficient display the name and the number of roles still needed for the initiative. You must select the Month view to view the cost amounts. 
   </note> <p> <img src="assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png" style="width: 350;height: 139;"> </p> <note type="note">
-   If you disabled the Include people cost setting for the plan's Budget box when you created the plan, the People Costs line does not display for any initiative in any scenario. In this case, 
-   <span>Workfront</span> does not take People Costs into calculations to determine cost conflicts. For information about creating a plan, see 
+   If you disabled the Include people cost setting for the plan's Budget box when you created the plan, the People Costs line does not display for any initiative in any scenario. In this case, Workfront does not take People Costs into calculations to determine cost conflicts. For information about creating a plan, see 
    <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. 
   </note> </li> 
  <li value="14"> <p>Do one of the following to resolve costs conflicts:</p> 

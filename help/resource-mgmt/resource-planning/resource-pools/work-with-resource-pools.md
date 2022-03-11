@@ -6,13 +6,13 @@ title: Resource pools overview in Adobe Workfront
 description: As a resource manager, you can manage your resources by adding users to resource pools.
 ---
 
-#  Resource pools overview in `Adobe Workfront`
+#  Resource pools overview in Adobe Workfront
 
 As a resource manager, you can manage your resources by adding users to resource pools.
 
 Efficient resource management cannot happen without populating your Resource Pools with users and attaching them to projects. This a prerequisite for using the Resource Planning functionality.
 
-For more information about the prerequisites needed before you can start using Resource Planning, see the "Prerequisites for working in the `Resource Planner`" section in [Resource Planner overview](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+For more information about the prerequisites needed before you can start using Resource Planning, see the "Prerequisites for working in the Resource Planner" section in [Resource Planner overview](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 For information about creating and managing resource pools, see the following articles:
 

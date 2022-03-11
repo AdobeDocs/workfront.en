@@ -20,29 +20,29 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Using Microsoft SQL Server modules
 
-You can execute your custom logic directly on your database server through stored procedures. `Adobe Workfront Fusion` loads interface of input/output parameters and recordset dynamically so each parameter or value can be mapped individually. Before you start configuring your scenario, make sure the account you're using to connect to your database has read access to 
+You can execute your custom logic directly on your database server through stored procedures. Adobe Workfront Fusion loads interface of input/output parameters and recordset dynamically so each parameter or value can be mapped individually. Before you start configuring your scenario, make sure the account you're using to connect to your database has read access to 
 
 ```
 INFORMATION_SCHEMA.ROUTINES
@@ -58,13 +58,13 @@ views.
 
 When Fusion establishes the connection to the SQL server destination, the Fusion user identifies the Host (the domain name or IP address where the server is hosted) and the port. Fusion can connect to any available host and port.
 
-For information about specific IP addresses used by `Workfront Fusion`, see [IP Addresses for accessing Adobe Workfront Fusion](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+For information about specific IP&nbsp;addresses used by Workfront Fusion, see [IP Addresses for accessing Adobe Workfront Fusion](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
 To learn more about creating a stored procedure, see the Microsoft SQL Server documentation.
 
 >[!NOTE]
 >
->`Workfront Fusion` doesn't support multiple recordsets. Only the first one is processed.
+>Workfront Fusion doesn't support multiple recordsets. Only the first one is processed.
 
 ## Troubleshooting error ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction
 

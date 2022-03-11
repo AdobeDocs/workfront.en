@@ -16,7 +16,7 @@ A data store, similar to a database or a simple table, can store data from scena
 For more information on scenarios, see Create a scenario
 -->
 
-The data store modules enable you to take the following actions on records in your `Adobe Workfront Fusion` data store:
+The data store modules enable you to take the following actions on records in your Adobe Workfront Fusion data store:
 
 * Add
 * Replace
@@ -37,34 +37,34 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Create a data store in `Workfront Fusion`
+## Create a data store in Workfront Fusion
 
 * [Set up the data store](#set) 
 * [Set up the data structure](#setting)
 
 ### Set up the data store
 
-Before you can use a data store in a module, you must create the data store in `Workfront Fusion`.
+Before you can use a data store in a module, you must create the data store in Workfront Fusion.
 
 >[!NOTE]
 >
@@ -73,10 +73,10 @@ Before you can use a data store in a module, you must create the data store in `
 >For more information, see [Maximum stores reached error](#maximum) in this article.
 
 <ol> 
- <li value="1">Log in to your <span>Workfront Fusion</span> account.</li> 
+ <li value="1">Log in to your Workfront Fusion account.</li> 
  <li value="2">Click <span class="bold">Data stores</span> in the left navigation panel.</li> 
  <li value="3">Click <span class="bold">Add data store</span> in the upper-right corner of the screen.</li> 
- <li value="4"> <p>Enter settings for the new data store.</p> <p>A bolded title on a field in a <span>Workfront Fusion</span> module indicates a required setting.</p> 
+ <li value="4"> <p>Enter settings for the new data store.</p> <p>A bolded title on a field in a Workfront Fusion module indicates a required setting.</p> 
   <table cellspacing="15"> 
    <col> 
    <col> 
@@ -138,7 +138,7 @@ Before you can use a data store in a module, you must create the data store in `
          <p><code>}</code> </p> 
          <p>The empty columns in the data store view:</p> 
          <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
-         <p>You can then add values to the data store manually or by using the <span>Workfront Fusion</span> data store modules.</p> 
+         <p>You can then add values to the data store manually or by using the Workfront Fusion data store modules.</p> 
         </div> </li> 
       </ul> </td> 
     </tr> 
@@ -152,7 +152,7 @@ Before you can use a data store in a module, you must create the data store in `
 
 ## Edit an existing data store
 
-You can edit the properties and contents of an existing Data Store in the Data Store area of `Workfront Fusion`.
+You can edit the properties and contents of an existing Data Store in the Data Store area of Workfront Fusion.
 
 * [Edit the properties of a data store](#edit) 
 * [Edit the contents of a data store](#edit2)

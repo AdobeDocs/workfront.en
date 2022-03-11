@@ -2,9 +2,9 @@
 
 # 21.3 Other enhancements
 
-This page describes all `Other` enhancements made with the `21.3` release to the Preview environment. These enhancements were made available in the Production environment the week of July 21, 2021.
+This page describes all Other enhancements made with the 21.3 release to the Preview environment. These enhancements were made available in the Production environment the week of July 21, 2021.
 
-For a list of all changes available with the `21.3` release, see [21.3 Release overview](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+For a list of all changes available with the 21.3 release, see [21.3 Release overview](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Home area redesign for mobile app
 

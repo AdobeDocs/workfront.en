@@ -6,9 +6,9 @@ title: Make a decision on a proof in the proofing viewer
 description: You can make a decision on a proof directly in the proofing viewer.
 ---
 
-# Make a decision on a `proof` in the `proofing viewer`
+# Make a decision on a proof in the proofing viewer
 
-You can make a decision on a proof directly in the `proofing viewer`.
+You can make a decision on a proof directly in the proofing viewer.
 
 ## Access requirements
 
@@ -19,19 +19,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
+   <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof</span> role</td> 
+   <td role="rowheader">Proof role</td> 
    <td>Approver, Reviewer &amp; Approver, Author, Moderator</td> 
   </tr> 
   <tr> 
@@ -41,15 +41,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
-## Make a decision on a `proof` in the `proofing viewer`
+## Make a decision on a proof in the proofing viewer
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the `proof` you need, then click `Open `proof``.
+1. Find the proof you need, then click `Open proof`.
 
 <ol start="3"> 
- <li value="3"> <p>Click <span class="bold">Make Decision</span> at the top-center of the <span>proofing</span> viewer.</p> <p> <br> </p> </li> 
+ <li value="3"> <p>Click <span class="bold">Make Decision</span> at the top-center of the proofing viewer.</p> <p> <br> </p> </li> 
  <li value="4"> <p>In the <span class="bold">Proof decision</span> box that appears, click one of the following decisions:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -57,27 +57,27 @@ You must have the following access to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">Approved</td> 
-     <td>The <span>proof</span> is ready to move to the next stage of the Automated Workflow.</td> 
+     <td>The proof is ready to move to the next stage of the Automated Workflow.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Approved with changes</td> 
-     <td>The <span>proof</span> requires some changes, but you do not need to see the revision before it moves to the next stage of the Automated Workflow.</td> 
+     <td>The proof requires some changes, but you do not need to see the revision before it moves to the next stage of the Automated Workflow.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Changes required</td> 
-     <td>The <span>proof</span> requires changes and you need to see another revision before it moves to the next stage of the Automated Workflow.</td> 
+     <td>The proof requires changes and you need to see another revision before it moves to the next stage of the Automated Workflow.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Not relevant</td> 
-     <td>The <span>proof</span> is not relevant to you and you do not need to make a decision.</td> 
+     <td>The proof is not relevant to you and you do not need to make a decision.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Custom decision</td> 
-     <td> <p>On Select and Premium plans, the <span>Workfront administrator</span> or <span>Workfront Proof administrator</span> can rename, reorder, and hide decisions.&nbsp;For more information,&nbsp;see&nbsp;<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p> </td> 
+     <td> <p>On Select and Premium plans, the Workfront administrator or Workfront Proof administrator can rename, reorder, and hide decisions.&nbsp;For more information,&nbsp;see&nbsp;<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="5"> <p>(Conditional) If the <span>Adobe Workfront administrator</span> or <span>Workfront Proof administrator</span> has added a Reasons section, select any applicable reasons for your decision. For more information about how administrators can configure decision reasons, see&nbsp;<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p> </li> 
+ <li value="5"> <p>(Conditional) If the Adobe Workfront administrator or Workfront Proof administrator has added a Reasons section, select any applicable reasons for your decision. For more information about how administrators can configure decision reasons, see&nbsp;<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p> </li> 
  <li value="6">(Optional) Select <span class="bold">Send me an email confirmation</span>&nbsp;to receive an email confirmation of your decision.</li> 
  <li value="7">Click <span class="bold">Make Decision</span>.</li> 
 </ol>

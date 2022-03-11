@@ -24,11 +24,11 @@ One of the following three things might be missing from the Kick-Start file:
 1. ​The file needs to have one empty&nbsp;row before the headers of your data start.
 1. ​The Excel sheet(s) need(s) to have the correct name(s).
 
-When working with Kick-Starts, we recommend to first download the Kick-start Template, manually populate it with the correct data and then import it back into `Adobe Workfront`.
+When working with Kick-Starts, we recommend to first download the Kick-start Template, manually populate it with the correct data and then import it back into Adobe Workfront.
 
-For more information about correctly importing data in `Workfront` using Kick-Starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+For more information about correctly importing data in Workfront using Kick-Starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-## Why am I receiving this error when trying to import hours into `Workfront` using a Kick-Start file: "User with primary key value(s) "null" not found?"
+## Why am I receiving this error when trying to import hours into Workfront using a Kick-Start file: "User with primary key value(s) "null" not found?"
 
 ### Answer
 

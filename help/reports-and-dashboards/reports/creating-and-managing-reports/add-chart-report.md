@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Add a chart to a report
 
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 1. Select the `Chart` tab.
 1. Click a chart type to select it.  
-1. You can add the following types of charts to a `Adobe Workfront` report:
+1. You can add the following types of charts to a Adobe Workfront report:
 
   * [Column chart](#column-chart) 
   * [Bar chart](#bar-chart) 
@@ -236,7 +236,7 @@ To export a chart:
 
 ## Customize chart colors
 
-You can let `Workfront` select the colors of the elements in your chart, or you can customize them while you are adding a chart to your reports.If your chart contains a single Grouping that represents one metric—such as a task report that shows the amount of tasks grouped by Actual Completion Date—each result in the Grouping is displayed in the same color.
+You can let Workfront select the colors of the elements in your chart, or you can customize them while you are adding a chart to your reports.If your chart contains a single Grouping that represents one metric—such as a task report that shows the amount of tasks grouped by Actual Completion Date—each result in the Grouping is displayed in the same color.
 
 You can only choose one color for fields displayed in the View of the report. You can choose several colors—one for each option—for fields displayed in the Grouping of the report.
 

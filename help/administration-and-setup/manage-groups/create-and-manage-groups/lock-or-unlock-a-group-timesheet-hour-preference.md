@@ -9,15 +9,15 @@ description: If you are a group administrator, you can configure and then lock a
 
 # Lock or unlock a group timesheet and hour preference
 
-If you are a `group administrator`, you can configure and then lock a timesheet and hour preference for your group after a `Workfront administrator` unlocks it at the system level.
+If you are a group administrator, you can configure and then lock a timesheet and hour preference for your group after a Workfront administrator unlocks it at the system level.
 
-Locking an `Adobe Workfront` preferenceat the group level ensures that everyonein your group and in its subgroups is using the same setting for that preference. Though you can still reconfigure a preference that you lock, `group administrators` can’t do so for lower subgroups.
+Locking an Adobe Workfront preferenceat the group level ensures that everyonein your group and in its subgroups is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can’t do so for lower subgroups.
 
-Conversely, unlocking a preferenceat the group level allows sub `group administrators` more flexibility to manage the way their groups work with those items. When a grouppreference is unlocked, `group administrators`of lower subgroups can reconfigure it for those subgroups.
+Conversely, unlocking a preferenceat the group level allows subgroup administrators more flexibility to manage the way their groups work with those items. When a grouppreference is unlocked, group administratorsof lower subgroups can reconfigure it for those subgroups.
 
-This is parallel to the ability that a `Workfront administrator` has to lock or unlock a preference for everyone in the system.
+This is parallel to the ability that a Workfront administrator has to lock or unlock a preference for everyone in the system.
 
-For information about how a `Workfront administrator` can lock or unlock a timesheet and hour preference for all groups in the system, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+For information about how a Workfront administrator can lock or unlock a timesheet and hour preference for all groups in the system, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 For information about configuring a timesheet and hour preference for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
@@ -30,7 +30,7 @@ For information about configuring a timesheet and hour preference for a group, s
 >* If you move a group under a group that has a locked preference, the moved group inherits that preference and it is locked for the moved group. 
 >* If you move a group under a group that has an unlocked preference, the moved group is not affected by that preference.
 >
->  If the preference in the moved group is locked at the time of the move, it remains locked, but the `group administrator` can unlock it now because it is unlocked for the parent group.
+>  If the preference in the moved group is locked at the time of the move, it remains locked, but the group administrator can unlock it now because it is unlocked for the parent group.
 >
 
 ## Access requirements
@@ -42,26 +42,26 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> plan*</td> 
+   <td role="rowheader">Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
 ## Lock or unlock a group timesheet and hour preference
 
 >[!TIP]
 >
->If you are a `Workfront administrator`, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
+>If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Groups</span>.</li> 
  <li value="3">Click the name of the group where you want to lock or unlock a timesheets and hours preference.</li> 
  <li value="4">In the left panel, click <span class="bold">Timesheets and Hour</span><span class="bold">s Preferences</span>.</li> 
@@ -69,8 +69,7 @@ You must have the following to perform the steps in this article:
   <ul> 
    <li> <p>If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it <img src="assets/unlock-toggle-button.png">.</p> </li> 
    <li> <p>If you want all groups below yours to use your configuration for a preference, make sure that it is locked <img src="assets/lock-toggle-button.png"> (this is the default).</p> <note type="important">
-     It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that 
-     <span>group administrators</span> in lower subgroups might have made.
+     It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators in lower subgroups might have made.
     </note> </li> 
   </ul> </li> 
  <li value="6">Click <span class="bold">Save</span>.</li> 

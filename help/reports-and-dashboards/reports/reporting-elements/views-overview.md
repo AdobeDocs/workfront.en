@@ -7,14 +7,14 @@ title: Views overview in Adobe Workfront
 description: You can customize the type of information you display in a list or report by managing the view of the list or report. You can display objects and their attributes in a view. For information about the objects of Adobe Workfront, see Understand objects in Adobe Workfront.
 ---
 
-# Views overview in `Adobe Workfront`
+# Views overview in Adobe Workfront
 
-You can customize the type of information you display in a list or report by managing the view of the list or report. You can display objects and their attributes in a view. For information about the objects of `Adobe Workfront`, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+You can customize the type of information you display in a list or report by managing the view of the list or report. You can display objects and their attributes in a view. For information about the objects of Adobe Workfront, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Considerations about views
 
 * You can customize existing views. All users who can view the views can also see your changes.
-* Your `Adobe Workfront administrator` must grant you access to edit filters, views, and groupings to be able to create views.
+* Your Adobe Workfront administrator must grant you access to edit filters, views, and groupings to be able to create views.
 
   For information about granting edit access, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
@@ -23,9 +23,9 @@ You can customize the type of information you display in a list or report by man
 
 You can customize existing views, create new views based on existing views, or create new views from scratch.
 
-## Types of views in `Workfront`
+## Types of views in Workfront
 
-The following are types of views that you can apply in lists or reports in  `Workfront`: 
+The following are types of views that you can apply in lists or reports in&nbsp;Workfront: 
 
 | Standard views |You can apply them to any list or report of objects.&nbsp;Standard views are highly customizable. You can customize and share a standard view with others. For information see, [Create and edit views](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).  |
 |---|---|

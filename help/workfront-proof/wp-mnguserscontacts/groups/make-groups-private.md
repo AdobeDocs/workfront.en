@@ -7,11 +7,11 @@ title: Make Groups Private using Workfront Proof
 description: Making your group private means that only you will be able to view, use, edit or delete the group. If the group is not private, then all users in your account can see and use the group.
 ---
 
-# Make Groups Private using `Workfront Proof`
+# Make Groups Private using Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Making your group private means that only you will be able to view, use, edit or delete the group. If the group is not private, then all users in your account can see and use the group.
 

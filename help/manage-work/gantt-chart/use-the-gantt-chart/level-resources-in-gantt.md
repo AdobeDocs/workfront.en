@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Overview of Resource Leveling
 
@@ -49,8 +49,8 @@ If the same resource is assigned to two different tasks, you can use resource le
 Consider the following when leveling resources on a project:
 
 <ul> 
- <li> <p>Resource leveling only applies to one project, so <span>Adobe Workfront</span> does not level resources across more than one project at a time.</p> </li> 
- <li> <p>If <span class="bold">Effort Driven</span> is selected as a <span class="bold">Duration Type</span>, <span>Workfront</span> will not level the resources.</p> </li> 
+ <li> <p>Resource leveling only applies to one project, so Adobe Workfront does not level resources across more than one project at a time.</p> </li> 
+ <li> <p>If <span class="bold">Effort Driven</span> is selected as a <span class="bold">Duration Type</span>, Workfront will not level the resources.</p> </li> 
  <li> <p>When multiple users are assigned to the same task, leveling will be canceled.</p> </li> 
  <li> <p>Conditions for the type of <span class="bold">Task Constraint</span>&nbsp;will take precedence over the leveling of resources. For example,&nbsp;if <span class="bold">Fixed Dates</span> is selected as the Task Constraint, resource leveling will not change the task dates.</p> </li> 
  <li> <p>Predecessor relationships will take precedence over resource leveling.</p> </li> 

@@ -8,11 +8,11 @@ title: Deprecation of Resource Scheduling tools in Adobe Workfront
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Deprecation of Resource Scheduling tools in `Adobe Workfront`
+# Deprecation of Resource Scheduling tools in Adobe Workfront
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-We are currently in the process of deprecating all Scheduling tools from `Adobe Workfront` and replacing them with the `Workload Balancer`.
+We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
 >
@@ -20,19 +20,19 @@ We are currently in the process of deprecating all Scheduling tools from `Adobe 
 
 ![](assets/resource-scheduler-global-350x127.png)
 
-If you currently use Scheduling tools you may now consider discontinuing them and start using the `Workload Balancer`. A large part of functionality is already available in the `Workload Balancer`. For information, see the section [Feature availability](#understanding-legacy-tools-and-their-replacements) in this article.
+If you currently use Scheduling tools you may now consider discontinuing them and start using the Workload Balancer. A large part of functionality is already available in the Workload Balancer. For information, see the section [Feature availability](#understanding-legacy-tools-and-their-replacements) in this article.
 
 ![](assets/workload-balancer-pti-350x111.png)
 
-Over time, you can continue using the `Workload Balancer` for all your scheduling needs, as more capabilities become available in the near future.
+Over time, you can continue using the Workload Balancer for all your scheduling needs, as more capabilities become available in the near future.
 
 >[!IMPORTANT]
 >
->You cannot use both Scheduling and the `Workload Balancer` at the same time to adjust user allocations. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the `Workload Balancer`. Similarly, if you have adjusted user allocations in the `Workload Balancer`, they do not transfer to the Scheduling tools. You must choose one tool to manage daily or weekly user allocations.
+>You cannot use both Scheduling and the Workload Balancer at the same time to adjust user allocations. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the Workload Balancer. Similarly, if you have adjusted user allocations in the Workload Balancer, they do not transfer to the Scheduling tools. You must choose one tool to manage daily or weekly user allocations.
 
-This article describes the deprecation timeline and it outlines the functionality you are now using in the Scheduling tools in comparison to what is currently available in the `Workload Balancer` and what will become available soon. A more exact timeline will be announced through the Announcement Center and this article will be updated as this process continues during the following months.
+This article describes the deprecation timeline and it outlines the functionality you are now using in the Scheduling tools in comparison to what is currently available in the Workload Balancer and what will become available soon. A more exact timeline will be announced through the Announcement Center and this article will be updated as this process continues during the following months.
 
-For information about building up a plan to migrate to the `Workload Balancer`, see [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md).
+For information about building up a plan to migrate to the Workload Balancer, see [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md).
 
 >[!NOTE]
 >
@@ -57,38 +57,38 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 
 * New feature functionality is no longer implemented for the Scheduling solution
 * Only High and Critical severity defects will be prioritized for a fix
-* New `Workload Balancer` capabilities added to `Workfront`
+* New Workload Balancer capabilities added to Workfront
 
 ### 2021.4 release (October 2021)
 
-* Workload Balancer is set as default for any first-time user of `Workfront`
+* Workload Balancer is set as default for any first-time user of Workfront
 * Enhanced filters that can be shared and include additional fields
 
 ### Milestone 1 (date to be determined)
 
 * All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
-* New `Workload Balancer` capabilities added to  `Workfront`
+* New Workload Balancer capabilities added to&nbsp;Workfront
 
 ### Milestone 2 (date to be determined)
 
 * All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
-* New `Workload Balancer` capabilities added to `Workfront`
+* New Workload Balancer capabilities added to Workfront
 
 ### Milestone 3 (date to be determined)
 
 * All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
-* All new `Workload Balancer` features will be added only to `The new Adobe Workfront experience`
+* All new Workload Balancer features will be added only to The new Adobe Workfront experience
 
 ### Milestone 4 (after the first half of 2022)
 
 * All Resource Scheduling tools will be disabled for all customers 
-* The `Workload Balancer` remains as the only tool to schedule resources in `Workfront`.
+* The Workload Balancer remains as the only tool to schedule resources in Workfront.
 
 ## Feature availability
 
-Unless otherwise specified, all Resource Scheduling features have been or will be available in the `Workload Balancer`. For information about the `Workload Balancer`, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Unless otherwise specified, all Resource Scheduling features have been or will be available in the Workload Balancer. For information about the Workload Balancer, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-In addition to existing features, the `Workload Balancer` has or will have new functionality that did not exist in the Resource Scheduling tools, as shown in the following table: 
+In addition to existing features, the Workload Balancer has or will have new functionality that did not exist in the Resource Scheduling tools, as shown in the following table: 
 
 <table cellspacing="3"> 
  <col> 
@@ -100,7 +100,7 @@ In addition to existing features, the `Workload Balancer` has or will have new f
   <tr> 
    <td rowspan="2"><span style="font-weight: normal;">Features</span> </td> 
    <td rowspan="2"> <span class="bold">Resource Scheduling tools feature availability</span></td> 
-   <td colspan="3"><span>Workload Balancer</span> feature availability</td> 
+   <td colspan="3">Workload Balancer feature availability</td> 
   </tr> 
   <tr> 
    <td>Available now</td> 
@@ -220,7 +220,7 @@ In addition to existing features, the `Workload Balancer` has or will have new f
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Share the <span>Workload Balancer</span> with users with no access to the Resourcingarea</td> 
+   <td>Share the Workload Balancer with users with no access to the Resourcingarea</td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
@@ -294,6 +294,6 @@ In addition to existing features, the `Workload Balancer` has or will have new f
  </tbody> 
 </table>
 
-&#42; These features are available only in `the new Adobe Workfront experience`.
+&#42; These features are available only in the new Adobe Workfront experience.
 
 &nbsp;

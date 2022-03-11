@@ -27,16 +27,16 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +45,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations about removing filters, views, and groupings
 
@@ -53,8 +53,7 @@ How you remove a reporting element depends on whether you initially created it, 
 
 The following scenarios exist when you remove a grouping:
 
-* `If you created the grouping and you remove it`, the grouping is removed from the `Workfront` system. The grouping is no longer available to any users who you previously shared it with.
-
+* `If you created the grouping and you remove it`, the grouping is removed from the Workfront system. The grouping is no longer available to any users who you previously shared it with.
 * `If the grouping was shared with you and you remove it`, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
 
 ## Remove a filter, view, or grouping 
@@ -67,7 +66,7 @@ using the standard builder
 You can remove a filter, view, or a grouping for all lists of objects using the standard builder interface.
 -->
 
-Removing filters, views, or groupings in `Workfront` is identical.
+Removing filters, views, or groupings in Workfront is identical.
 
 1. Go to a list of objects or a report.
 1. (Conditional) From a report, click the `Grouping`, `Filter`, or `View` drop-down menu and select `Remove Grouping`, `Remove Filter`, or `Remove View`.
@@ -77,7 +76,7 @@ Removing filters, views, or groupings in `Workfront` is identical.
    All reporting elements that you have rights to remove are available to remove. Other reporting elements are displayed as dimmed.
 
 1. Click the `x` icon next to any reporting element that you want to remove. 
-1. (Conditional) Click `Yes, Delete it` if you selected to delete a filter, view, or grouping that you created and later shared with others. This deletes the filter, view, or grouping from the `Workfront` system.
+1. (Conditional) Click `Yes, Delete it` if you selected to delete a filter, view, or grouping that you created and later shared with others.&nbsp;This deletes the filter, view, or grouping from the Workfront system.
 
    ` `**Tip: **`` 
    Removing a filter, view, or grouping that you created without sharing it with others removes it from the system without asking for a confirmation. 

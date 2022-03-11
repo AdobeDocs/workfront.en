@@ -9,12 +9,12 @@ description: Calculated Assignment is a Duration Type that you can set for a tas
 
 # Duration Type overview: Calculated Assignment
 
-Calculated Assignment is a Duration Type that you can set for a task in `Adobe Workfront`. For general information about Duration Types in `Workfront`, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Calculated Assignment is a Duration Type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overview of the Calculated Assignment Duration Type
 
-* When you use a Calculated Assignment Duration Type, you must specify both a Duration and a number of Planned Hours for the task. `Workfront` then divides the amount of Planned Hours by the amount of hours in the Duration, then by the number of resources assigned to the task to calculate the allocation percentage (calculates the assignment) for each resource. Each resource will equally have the same value for their allocation percentage. In this case, you cannot modify the allocation values for each resource.
-* Your `Workfront` `or a `group administrator`` can set the default Duration&nbsp;Type of your system or group as Calculated Assignment.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* When you use a Calculated Assignment Duration Type, you must specify both a Duration and a number of Planned Hours for the task. Workfront then divides the amount of Planned Hours by the amount of hours in the Duration, then by the number of resources assigned to the task to calculate the allocation percentage (calculates the assignment) for each resource. Each resource will equally have the same value for their allocation percentage. In this case, you cannot modify the allocation values for each resource.
+* Your Workfront `or a group administrator` can set the default Duration&nbsp;Type of your system or group as Calculated Assignment.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   In this case, the task has a default of a one-day Duration and a default of 0 hours of Planned Hours. Unless the project manager sets a more accurate Duration and populates the Planned Hours field with a realistic estimate, then resources appear underallocated.
 

@@ -9,11 +9,11 @@ description: Projects, tasks, and issues have an Actual Completion Date in Adobe
 
 # Overview of the project Actual Completion Date
 
-Projects, tasks, and issues have an Actual Completion Date in `Adobe Workfront`. This is the date when the project, task, or issue were marked as completed.
+Projects, tasks, and issues have an&nbsp;Actual&nbsp;Completion&nbsp;Date in Adobe Workfront. This is the date when the project, task, or issue were marked as completed.
 
 ## Actual&nbsp;Completion&nbsp;Dates
 
-The Actual Completion Date represents the real date and time when the work is completed. When an item is marked as Done or Complete `Workfront` automatically sets the Actual Completion Date as the date of the change in status of the item. If that date is not an accurate reflection of when the item was actually completed, then you&nbsp;can edit the Actual Completion Date.
+The Actual Completion Date represents the real date and time when the work is completed. When an item is marked as Done or Complete Workfront automatically sets the Actual Completion Date as the date of the change in status of the item. If that date is not an accurate reflection of when the item was actually completed, then you&nbsp;can edit the Actual Completion Date.
 
 The Actual Completion&nbsp;Date of a project is set in the following ways:
 
@@ -24,7 +24,7 @@ The Actual Completion&nbsp;Date of a project is set in the following ways:
 
 >[!NOTE]
 >
->The `Workfront administrator` or a `group administrator` determines whether `Workfront` uses today's date or the Planned Completion Date of a task or an issue when these are set to Complete or Closed. For information about setting task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+>The Workfront administrator or a group administrator determines whether Workfront uses today's date or the Planned Completion Date of a task or an issue when these are set to Complete or Closed. For information about setting task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 The value for the Actual Completion Date is always what is considered the current date and time.
 
@@ -34,7 +34,7 @@ The value for the Actual Completion Date is always what is considered the curren
 
 ## Locate Actual&nbsp;Completion&nbsp;Dates
 
-The Actual Completion Date is located within the following areas of `Workfront`:
+The Actual Completion Date is located within the following areas of Workfront:
 
 * Project, Task, and Issue Details areas
 * Edit Project,&nbsp;Task, and Issue boxes

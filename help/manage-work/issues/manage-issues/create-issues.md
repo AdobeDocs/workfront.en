@@ -8,13 +8,13 @@ description: While working on a project, you might discover that unexpected even
 
 # Create issues
 
-While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or of a task. Users with the appropriate access can view and monitor the status of issues as the project or the task progresses to completion, eliminating the need for lengthy email chains or status meetings. Unlike tasks, which are planned events, issues represent unplanned work items in `Adobe Workfront`.
+While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or of a task. Users with the appropriate access can view and monitor the status of issues as the project or the task progresses to completion, eliminating the need for lengthy email chains or status meetings. Unlike tasks, which are planned events, issues represent unplanned work items in Adobe Workfront.
 
 You can also add issues to projects as requests.&nbsp;For information, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!TIP]
 >
->"Issues" and "requests" are used interchangeably in `Workfront`. You can record issues on both projects and tasks to indicate unforeseen work that needs to be addressed. You can also submit requests which are recorded as issues on a project designated as a Request Queue.
+>"Issues" and "requests" are used interchangeably in Workfront. You can record issues on both projects and tasks to indicate unforeseen work that needs to be addressed. You can also submit requests which are recorded as issues on a project designated as a Request Queue.
 
 ## Access requirements
 
@@ -25,16 +25,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher to add issues to a project or task</p> <p><span>Request</span> or higher to add issues as requests, using a Request Queue. </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher to add issues to a project or task</p> <p>Request or higher to add issues as requests, using a Request Queue. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,19 +43,18 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Limitations in creating issues
 
 When you have the correct access and permissions you can create issues on a project or task. However, the following are cases when you might not be able to create issues:
 
-* Your `Workfront administrator` or a `group administrator` must enable adding issues to a project that is in a Complete or Dead status in your Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
+* Your Workfront administrator or a group administrator must enable adding issues to a project that is in a Complete or Dead status in your Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * You cannot add issues to a project that is in Pending Approval.
 
 ## Prepare the New Issue form
 
-Your organization should have a well-defined process in place for when and how to record an issue. When you configure this process, the first step is to create the form necessary for submitting an issue. Whether you will allow for issues to be added to tasks and projects directly, or if you have request queues where issues are submitted, you can define what `Workfront` fields as well as what custom fields are available for users when they submit new issues and must be completed. The New Issue form can contain important information that will be helpful in resolving the issue quickly.
+Your organization should have a well-defined process in place for when and how to record an issue. When you configure this process, the first step is to create the form necessary for submitting an issue. Whether you will allow for issues to be added to tasks and projects directly, or if you have request queues where issues are submitted, you can define what Workfront fields as well as what custom fields are available for users when they submit new issues and must be completed. The New Issue form can contain important information that will be helpful in resolving the issue quickly.
 
 The fields for the new issues on a project are defined in the Queue Details section of the project where the issues will be logged. For information about configuring the Queue Details section of the project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -82,10 +81,10 @@ To create an issue on a task or a project:
    <li>Bug Report</li> 
    <li>Change Order</li> 
    <li>Issue</li> 
-   <li>Request<br>Depending on how your <span>Workfront administrator</span> has configured your Project Preferences, the names of the issue types might be different for you.</li> 
+   <li>Request<br>Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you.</li> 
   </ul> </li> 
  <li value="7"> <p>Specify any of the fields available in the <span class="bold">New Issue</span> form. For more information about defining fields as you enter a new issue, see <a href="../../../manage-work/issues/manage-issues/edit-issues.md" class="MCXref xref">Edit issues</a>.</p> <p> <img src="assets/new-issue-form--no-topic--queue--no-form--default-fields-350x557.png" alt="" style="width: 350;height: 557;"> </p> </li> 
- <li value="8">(Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the <span class="bold">New Issue</span> form.<br>Or<br>If the project is associated with an issue custom form through the Queue Details area, the form displays in the <span class="bold">New Issue</span> form, under the default <span>Workfront</span> fields.<br><!--
+ <li value="8">(Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the <span class="bold">New Issue</span> form.<br>Or<br>If the project is associated with an issue custom form through the Queue Details area, the form displays in the <span class="bold">New Issue</span> form, under the default Workfront fields.<br><!--
    For more information about defining the Queue Details tab of a project, see Overview of the Queue Details tab in a project.
   --></li> 
  <li value="9"> <p>Click <span class="bold">Save New Issue.</span></p> </li> 
@@ -99,7 +98,7 @@ Important: The project owner must enable Allow users to add issues inline when d
 
 >[!NOTE]
 >
->When you add issues inline, `Workfront` does not apply the New Issue form to the new issues. We don't recommend adding issues inline if you want users to provide certain information when entering issues. This can have a negative impact on issue reporting and later on the ability of the user assigned to the issue to have all the information necessary to resolve the issue.
+>When you add issues inline, Workfront does not apply the New Issue form to the new issues. We don't recommend adding issues inline if you want users to provide certain information when entering issues. This can have a negative impact on issue reporting and later on the ability of the user assigned to the issue to have all the information necessary to resolve the issue.
 
 To create issues inline:
 
@@ -120,16 +119,16 @@ To create issues inline:
 
     * Fields that belong to another object
     * Fields that you don't have access to edit them
-    * Fields that are calculations and which are automatically updated by `Workfront`.
+    * Fields that are calculations and which are automatically updated by Workfront.
 
 1. Click Enter to finish inline editing, and add the issue to the project or task.
 
 ## Create issues by entering a new request
 
-You can designate projects to be receptacles for receiving issues. These type of projects are called Request Queues in `Workfront`. You can access Request Queues through your Requests area in the Main Menu.
+You can designate projects to be receptacles for receiving issues. These type of projects are called Request Queues in Workfront. You can access Request Queues through your Requests area in the Main Menu.
 
 >[!TIP]
 >
->The terms "issue" and "request" are interchangeable in `Workfront`.
+>The terms "issue" and "request" are interchangeable in Workfront.
 
 For more information about how to set up projects as Request Queues to receive issues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). For information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md). 

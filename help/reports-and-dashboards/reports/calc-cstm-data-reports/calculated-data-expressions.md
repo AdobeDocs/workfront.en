@@ -9,13 +9,13 @@ description: You can use data expressions to define calculated custom data field
 
 # Calculated data expressions
 
-You can use data expressions to define calculated custom data fields in `Adobe Workfront`. They connect existing `Workfront` fields in statements that generate a new field.
+You can use data expressions to define calculated custom data fields in Adobe Workfront. They connect existing Workfront fields in statements that generate a new field.
 
 You can use calculated data expressions in:
 
 * A custom form
 
-  For more information about creating calculated custom data fields on custom forms in `Workfront`, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  For more information about creating calculated custom data fields on custom forms in Workfront, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * A calculated custom column in a report or list, when you use text mode
 
@@ -45,8 +45,8 @@ The differences between the two syntaxes are:
    <td>Calculated custom reporting element</td> 
   </tr> 
   <tr> 
-   <td> <p>Use the name of the fields as they appear in&nbsp;the <span>Workfront</span> interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field:&nbsp;<code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Use the name of the objects or fields as they appear in the <span>Workfront</span> database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all&nbsp;<span>Workfront</span> objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element:&nbsp;<code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Use the name of the fields as they appear in&nbsp;the Workfront interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field:&nbsp;<code>Planned Completion Date</code>.</p> </td> 
+   <td> <p>Use the name of the objects or fields as they appear in the Workfront database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all&nbsp;Workfront objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element:&nbsp;<code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Do not enclose field names in parentheses or curly brackets.</td> 
@@ -63,7 +63,7 @@ For more information about the syntax you must use in a calculated custom column
 
 ## Data expressions you can use
 
-The lists below define the available expressions you can use when you are building one of the 3 different types of calculated custom fields in `Workfront`:
+The lists below define the available expressions you can use when you are building one of the 3 different types of calculated custom fields in Workfront:
 
 * [Date & time calculated custom field](#date) 
 * [Mathematical calculated custom field](#mathemat) 

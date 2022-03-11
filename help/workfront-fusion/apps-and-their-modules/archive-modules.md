@@ -10,7 +10,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect an archive, s
 
 # Archive modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services.
 
 <!--
 For example, you can configure a scenario that
@@ -20,7 +20,7 @@ If you need instructions on creating a scenario, see [Create a scenario](../../w
 
 ## Archive modules and their fields
 
-When you configure `Archive` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Archive` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Archive modules, Workfront Fusion displays the fields listed below. Along with these, additional Archive fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -33,9 +33,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 ## Extract an archive
 
-This action module `extracts a file you identify from an archive`.
+This action module extracts a file you identify from an archive.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 

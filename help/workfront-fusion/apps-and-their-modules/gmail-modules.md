@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Gmail ac
 
 # Gmail modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `Gmail` account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your Gmail account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -24,40 +24,40 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use Gmail modules, you must have a Gmail account.
 
-## Connect Gmail to `Workfront Fusion`
+## Connect Gmail to Workfront Fusion
 
 * [Connect Gmail to Workfront Fusion using G Suite](#connect) 
 * [Connect Gmail to Workfront Fusion using gmail.com or googlemail.com](#connect2)
 
-### Connect Gmail to `Workfront Fusion` using G Suite
+### Connect Gmail to Workfront Fusion using G Suite
 
-For instructions about connecting your G Suite account to `Workfront Fusion`, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+For instructions about connecting your G Suite account to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-### Connect Gmail to `Workfront Fusion` using gmail.com or googlemail.com
+### Connect Gmail to Workfront Fusion using gmail.com or googlemail.com
 
 If you are @gmail.com or @googlemail.com user you must create an OAuth client on the [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) in order to obtain a Client ID and Client Secret.
 
@@ -65,7 +65,7 @@ For step-by-step instructions on how to create the OAuth client and obtain a Cli
 
 ## Gmail modules and their fields
 
-When you configure `Gmail` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Gmail` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Gmail modules, Workfront Fusion displays the fields listed below. Along with these, additional Gmail fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -79,9 +79,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Watch emails
 
-This trigger module executes a scenario when `a new email is received to be processed`.
+This trigger module executes a scenario when a new email is received to be processed.
 
-The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -91,7 +91,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -127,7 +127,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Maximum number of results</td> 
-   <td> <p> Set the maximum number of results that <span>Workfront Fusion</span> will work with during one cycle.</p> </td> 
+   <td> <p> Set the maximum number of results that Workfront Fusion will work with during one cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -145,11 +145,11 @@ When you are configuring this module, the following fields display.
 
 #### Send an email
 
-This action module `sends a new email`.
+This action module sends a new email.
 
 You specify the recipient of the email.
 
-The module returns the ID of the `email` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -159,7 +159,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>From</td> 
@@ -194,11 +194,11 @@ When you are configuring this module, the following fields display.
 
 #### Create a draft
 
-This action module `creates a new email draft and adds it to a folder you specify`.
+This action module creates a new email draft and adds it to a folder you specify.
 
 You specify the folder where you want to create a draft.
 
-The module returns the ID of the `email draft` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the email draft and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -208,7 +208,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -243,11 +243,11 @@ When you are configuring this module, the following fields display.
 
 #### Mark an email as read
 
-This action module `marks an email as read`.
+This action module marks an email as read.
 
 You specify the ID of the email and its folder.
 
-The module returns the ID of the  `email` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 
@@ -255,7 +255,7 @@ The module returns the ID of the  `email` and any associated fields, along with 
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -270,11 +270,11 @@ The module returns the ID of the  `email` and any associated fields, along with 
 
 #### Mark an email as unread
 
-This action module `marks an email or an email draft as unread`.
+This action module marks an email or an email draft as unread.
 
 You specify the ID of the email and its folder.
 
-The module returns the ID of the  `email` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 
@@ -282,7 +282,7 @@ The module returns the ID of the  `email` and any associated fields, along with 
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -297,11 +297,11 @@ The module returns the ID of the  `email` and any associated fields, along with 
 
 #### Move an email
 
-This action module `moves an email or an email draft to a folder you specify`.
+This action module moves an email or an email draft to a folder you specify.
 
 You specify the folder, the destination folder, and the ID of the email..
 
-The module returns the ID of the  `email` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 
@@ -309,7 +309,7 @@ The module returns the ID of the  `email` and any associated fields, along with 
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -328,11 +328,11 @@ The module returns the ID of the  `email` and any associated fields, along with 
 
 #### Copy an email
 
-This action module `copies an email or email draft into a folder you specify`.
+This action module copies an email or email draft into a folder you specify.
 
 You specify the folder, the destination folder, and the ID of the email..
 
-The module returns the ID of the email and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 
@@ -340,7 +340,7 @@ The module returns the ID of the email and any associated fields, along with any
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -359,9 +359,9 @@ The module returns the ID of the email and any associated fields, along with any
 
 #### Delete an email
 
-This action module `removes an email or an email draft from a folder you specify`.
+This action module removes an email or an email draft from a folder you specify.
 
-The module returns the ID of the  `email` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -371,7 +371,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gmail Message ID</p> </td> 
@@ -386,9 +386,9 @@ When you are configuring this module, the following fields display.
 
 #### Modify email labels
 
-This action module `modifies the label on an email message you specify`.
+This action module modifies the label on an email message you specify.
 
-The module returns the ID of the  `email` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  email and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -398,7 +398,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to <span>Workfront Fusion</span>, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Gmail Message ID</td> 

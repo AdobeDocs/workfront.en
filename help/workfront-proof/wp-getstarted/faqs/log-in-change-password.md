@@ -8,11 +8,11 @@ title: Logging in and changing your password and email for Workfront Proof
 description: The Workfront Proof administrator can set up personalized branding for the Login page. See Brand the Workfront Proof site. Or, if you are using an Enterprise or Unlimited edition plan, see Brand the Workfront Proof site - advanced .
 ---
 
-# Logging in and changing your password and email for `Workfront Proof`
+# Logging in and changing your password and email for Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Logging In
 
@@ -25,19 +25,19 @@ description: The Workfront Proof administrator can set up personalized branding 
 1. If you'd like to stay logged in (without your session timing-out after 30 minutes of inactivity), select  `Keep me logged in`.
 1. Click `Login`.
 
-The `Workfront Proof administrator` can set up personalized branding for the Login page. See [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Or, if you are using an Enterprise or Unlimited edition plan, see&nbsp; [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+The Workfront Proof administrator can set up personalized branding for the Login page. See [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Or, if you are using an Enterprise or Unlimited edition plan, see&nbsp; [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-For Enterprise and Unlimited plans, we offer Single Sign-On (SSO) capability, which allows your users to to log in to `Workfront Proof` using their username and password for your organization. See [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).&nbsp;for more information.
+For Enterprise and Unlimited plans, we offer Single Sign-On (SSO) capability, which allows your users to to log in to Workfront Proof using their username and password for your organization. See [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).&nbsp;for more information.
 
 ## Logging Out
 
-1. Click `Logout` in the upper-right corner of `Workfront Proof`.   
+1. Click `Logout`&nbsp;in the upper-right corner of Workfront Proof.   
    A message appears to confirm that you are logged out. You can click `Back to login page` to log in again if you want.   
-   The `Workfront Proof administrator` can set up personalized branding for this message. See [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Or, if&nbsp;and you are using an Enterprise or Unlimited edition plan, see&nbsp; [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+   The Workfront Proof administrator can set up personalized branding for this message. See [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Or, if&nbsp;and you are using an Enterprise or Unlimited edition plan, see&nbsp; [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## When You Forget Your Password
 
-If you forget your password, you can have `Workfront Proof` email you a reset email message.
+If you forget your password, you can have Workfront Proof email you a reset email message.
 
 1. Go to [the login page](http://www.proofhq.com/login) (or to our website at&nbsp; [www.proofhq.com](http://www.proofhq.com/)).
 
@@ -47,26 +47,25 @@ If you forget your password, you can have `Workfront Proof` email you a reset em
 ## Changing Your Password
 
 <ol> 
- <li value="1">On the Dashboard, click <span class="bold">Change password</span>.<br><img src="assets/change-passowrd-350x95.png" alt="Change_passowrd.png" style="width: 350;height: 95;"><br>If your <span>Workfront Proof administrator</span> has set up any specific password requirements, they are listed at the top of the reset page.</li> 
+ <li value="1">On the Dashboard, click <span class="bold">Change password</span>.<br><img src="assets/change-passowrd-350x95.png" alt="Change_passowrd.png" style="width: 350;height: 95;"><br>If your Workfront Proof administrator has set up any specific password requirements, they are listed at the top of the reset page.</li> 
 </ol>
 
 ## About Advanced Password Settings
 
-If you use a Select or Premium plan, your `Workfront Proof administrator` can set specific password requirements to comply with IT and security policies in your organization and enhance the security of your data. For more information, see&nbsp;"Advanced Password Settings" in the article&nbsp; [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+If you use a Select or Premium plan, your Workfront Proof administrator can set specific password requirements to comply with IT and security policies in your organization and enhance the security of your data. For more information, see&nbsp;"Advanced Password Settings" in the article&nbsp; [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Adding an Email Address to Your Account
 
-You can add multiple email addresses to your `Workfront Proof` account. Your primary email address is the email to which `Workfront Proof` sends `proof` notifications. You also use it to log in to `Workfront Proof`. You can change your primary email address.
+You can add multiple email addresses to your Workfront Proof account. Your primary email address is the email to which Workfront Proof sends proof notifications. You also use it to log in to Workfront Proof. You can change your primary email address.
 
 1. Click `Settings` > `Personal settings`.
 
 1. Under `User email aliases`, click `New email address`.
 
 1. In the `Email alias` box that appears, type the email address you want to add, then press `Enter`.   
-   `Workfront Proof` sends a validation email to the new email address.
+   Workfront Proof sends a validation email to the new email address.
 
 1. In the validation email you receive, click the confirmation link.  
-   The email change is saved in your profile. You may need to refresh the browser where you are viewing `Workfront Proof` Personal settings page to see that it is confirmed as an alias email.
-
-1. (Optional) To make the new email address your primary email address in `Workfront Proof`, click the More (three dot) button to the far-right of the address, then click `Make primary email` in the menu that appears.
+   The email change is saved in your profile. You may need to refresh the browser where you are viewing Workfront Proof Personal settings page to see that it is confirmed as an alias email.
+1. (Optional) To make the new email address your primary email address in Workfront Proof, click the More (three dot) button to the far-right of the address, then click `Make primary email` in the menu that appears.
 

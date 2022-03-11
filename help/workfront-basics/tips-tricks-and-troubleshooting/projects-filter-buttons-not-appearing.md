@@ -21,12 +21,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
 
 ## Solution
 
-The project filter buttons are not included in the default layout template. The `Workfront administrator` must assign a layout template that includes the buttons.
+The project filter buttons are not included in the default layout template. The Workfront administrator must assign a layout template that includes the buttons.
 
 1. Verify that the layout template displays the filter buttons:
 

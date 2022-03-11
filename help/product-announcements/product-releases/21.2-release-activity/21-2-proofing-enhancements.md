@@ -9,13 +9,13 @@ description: This page describes all Proofing enhancements made with the 21.2 re
 
 # 21.2 Proofing enhancements
 
-This page describes all `Proofing` enhancements made with the `21.2` release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the `21.2` release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+This page describes all Proofing enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Proof decision now visible in the Documents list
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 The overall proof decision is now visible on the default document list view.
 

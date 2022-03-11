@@ -9,12 +9,12 @@ description: Workfront Library allows you to select the view you want to use, so
 
 # Create and manage views in Workfront Library
 
-## Views in `Workfront Library`
+## Views in Workfront Library
 
 Workfront Library allows you to select the view you want to use, so that the information you need is readily available. There are two types of views:
 
 <ul> 
- <li><span class="bold">Grid view</span><span class="bold">:</span> The default view, which shows thumbnails of your <span>Workfront Library</span> assets. To switch to grid view, click the <span class="bold">Show grid view</span> icon <img src="assets/grid-view-icon.png">.</li> 
+ <li><span class="bold">Grid view</span><span class="bold">:</span> The default view, which shows thumbnails of your Workfront Library assets. To switch to grid view, click the <span class="bold">Show grid view</span> icon <img src="assets/grid-view-icon.png">.</li> 
  <li><span class="bold">List view</span><span class="bold">:</span> Allows you to see more details about your library assets at a glance. You can save customized list views, as well as export asset metadata from the list view. To switch to the list view, click the <span class="bold">Show list view</span> icon <img src="assets/list-view-icon.png">.</li> 
 </ul>
 
@@ -25,7 +25,7 @@ You can customize a list view to show the metadata you choose and save it for la
 To create a custom list view:
 
 <ol> 
- <li value="1"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="1"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="2"> <p>Select the area where the assets you want to view are located.</p> <p> <img src="assets/grid-view-match-list-view-350x220.png" style="width: 350;height: 220;"> </p> </li> 
  <li value="3"> <p>(Conditional) If you are in the grid view, click the <span class="bold">Show List View</span> icon <img src="assets/list-view-icon.png"> to switch to list view.</p> <p> <img src="assets/list-view-350x121.png" style="width: 350;height: 121;"> </p> </li> 
  <li value="4">Do any of the following:

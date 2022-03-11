@@ -18,11 +18,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ When creating a new user, a Whoops error is displayed stating that the username 
 
 ## Solution
 
-This can occur either because the username or email address is not unique in the current `Adobe Workfront` instance. Users can have the same username or email address in separate instances. For example, User A could have the following email addresses associated with a Workfront account: usera@company1.com and usera@company2.com.
+This can occur either because the username or email address is not unique in the current Adobe Workfront instance. Users can have the same username or email address in separate instances. For example, User A could have the following email addresses associated with a Workfront account: usera@company1.com and usera@company2.com.
 
 >[!NOTE]
 >
@@ -48,9 +48,9 @@ This can occur either because the username or email address is not unique in the
 
 ### Check if your username is unique in your instance
 
-Ensure that the username and email address is unique in the current `Workfront` instance:
+Ensure that the username and email address is unique in the current Workfront instance:
 
-1. As the `Workfront administrator`, go to the `People` tab, then click the `People` subtab.
+1. As the Workfront administrator, go to the `People` tab, then click the `People` subtab.
 
 1. In the list of people, look in the `Email` column to ensure there are no duplicate emails.
 1. Add a column for username to the view.

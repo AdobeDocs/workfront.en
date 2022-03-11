@@ -6,7 +6,7 @@ title: Define goals in The new Adobe Workfront experience
 description: IS THIS ARTICLE NEEDED? OR IS THE GETTING STARTED (NEW) ONE COVERING THIS INFO?? or the article about creating goals in the Guidelines section???
 ---
 
-# Define goals in `The new Adobe Workfront experience`
+# Define goals in The new Adobe Workfront experience
 
 <!--
 IS THIS ARTICLE NEEDED? OR IS THE GETTING STARTED (NEW) ONE COVERING THIS INFO?? or the article about creating goals in the Guidelines section???

@@ -9,11 +9,11 @@ description: As a group administrator, you can create custom statuses for a grou
 
 # Create or edit a group status
 
-As a `group administrator`, you can create custom statuses for a group that you manage. This helps to eliminate the need for dozens of company-wide custom statuses and allows more autonomy in your group hierarchies.
+As a group administrator, you can create custom statuses for a group that you manage. This helps to eliminate the need for dozens of company-wide custom statuses and allows more autonomy in your group hierarchies.
 
-You can also edit a system-level status for a group you manage if a `Workfront administrator` has unlocked the status. For more information, see [Locking or unlocking a custom system-level status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+You can also edit a system-level status for a group you manage if a Workfront administrator has unlocked the status. For more information, see [Locking or unlocking a custom system-level status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
-If there are any groups above your group, their administrators can also do these things for your group. The same is true for `Workfront administrators` (for any group).
+If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
 >[!NOTE]
 >
@@ -30,22 +30,22 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> plan*</td> 
+   <td role="rowheader">Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
 ## Create or edit a status for a group
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> In the left panel, click Groups. 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> In the left panel, click Groups. 
  <li value="3"> Click the name of the group where you want to create or customize statuses.</li> 
  <li value="4"> <p>In the left panel, click Statuses. </p> 
   <div> 
@@ -67,8 +67,8 @@ You must have the following to perform the steps in this article:
     <li>You can edit a status for your group only if:
      <ul>
       <li>You manage the group that the status was created for</li>
-      <li>A <span>Workfront administrator</span> unlocked the status at the system level</li>
-      <li>A <span>group administrator</span> of a group above your group unlocked the status</li>
+      <li>A Workfront administrator unlocked the status at the system level</li>
+      <li>A group administrator of a group above your group unlocked the status</li>
      </ul></li> 
     <li>When you are editing an existing status, you can change only its name, description, and color.</li> 
     <li> <p>When you edit a locked status, your changes affect all subgroups that inherited the status from your group.</p> <p>Conversely, editing an unlocked status does not affect the subgroups that inherited the status from your group.<br></p> </li> 
@@ -81,7 +81,7 @@ You must have the following to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">Status Name</td> 
-     <td> <p>Type a name for the status. This is a required field.</p> <p>When you create a status name, be aware that others in the system can create a status with the same name. We recommend using a unique name to avoid confusion when selecting statuses in <span>Workfront</span>.</p> </td> 
+     <td> <p>Type a name for the status. This is a required field.</p> <p>When you create a status name, be aware that others in the system can create a status with the same name. We recommend using a unique name to avoid confusion when selecting statuses in Workfront.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Description</td> 
@@ -89,7 +89,7 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Color</td> 
-     <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of <span>Workfront</span> when a user views the object.</p>  </td> 
+     <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p>  </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Equates With</td> 
@@ -97,7 +97,7 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Key</td> 
-     <td> <p>If you are creating a new status, type a code or abbreviation for the status or use the one generated for you. This key must be unique in <span>Workfront</span> because it can be used for reporting purposes. If you attempt to specify a key that is already in use in the system, the field turns red.</p> <p>It might be useful to use an abbreviation that is recognizable to those who will use it.</p> <p>This option cannot be modified after the status is created.</p> <p>You cannot change the key code for Planning, Current, and Complete statuses. This is important if you are building a report in text mode.<br></p> </td> 
+     <td> <p>If you are creating a new status, type a code or abbreviation for the status or use the one generated for you. This key must be unique in Workfront because it can be used for reporting purposes. If you attempt to specify a key that is already in use in the system, the field turns red.</p> <p>It might be useful to use an abbreviation that is recognizable to those who will use it.</p> <p>This option cannot be modified after the status is created.</p> <p>You cannot change the key code for Planning, Current, and Complete statuses. This is important if you are building a report in text mode.<br></p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Hide Status</td> 
@@ -118,12 +118,12 @@ You must have the following to perform the steps in this article:
 
 ## Create a custom status for multiple groups
 
-If you are a `Workfront administrator`, you can create a custom status for multiple groups by creating a system-wide status, then hiding that status from any groups that don’t need it.
+If you are a Workfront administrator, you can create a custom status for multiple groups by creating a system-wide status, then hiding that status from any groups that don’t need it.
 
-If you are a `group administrator` (or a `Workfront administrator`), you can create a custom status for multiple subgroups within a group hierarchy you manage by creating a status for a higher level group, then hiding that status from any lower subgroups that don’t need it.
+If you are a group administrator (or a Workfront administrator), you can create a custom status for multiple subgroups within a group hierarchy you manage by creating a status for a higher level group, then hiding that status from any lower subgroups that don’t need it.
 
 <ol> 
- <li value="1"> <p> If you are a <span>Workfront administrator</span>, create a system-wide unlocked status as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Or</p> <p>If you are a <span>group administrator</span> (or <span>Workfront administrator</span>), create an unlocked group status as described in <a href="#" class="MCXref xref" xrefformat="{para}">Create or edit a group status</a>.</p> </li> 
+ <li value="1"> <p> If you are a Workfront administrator, create a system-wide unlocked status as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Or</p> <p>If you are a group administrator (or Workfront administrator), create an unlocked group status as described in <a href="#" class="MCXref xref" xrefformat="{para}">Create or edit a group status</a>.</p> </li> 
  <li value="2"> <p>In the box in the upper-right corner, delete <span class="bold">System Statuses</span>, begin typing the name of a group where you want to hide the status, then click the name when it appears.</p> </li> 
  <li value="3"> <p>Hover over the status you want to hide from the group, then click <span class="bold">Edit</span> when it appears.</p> <p> <img src="assets/hover-click-edit-350x148.jpg" style="width: 350;height: 148;"> </p> </li> 
  <li value="4"> <p>Enable the <span class="bold">Hide Status</span> option that appears. </p> <p> <img src="assets/hide-group-status-350x114.png" style="width: 350;height: 114;"> </p> </li> 

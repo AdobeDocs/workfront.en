@@ -8,7 +8,7 @@ description: You can add an image file to Adobe Workfront by copying it and past
 
 # Paste images from the Clipboard
 
-You can add an image file to `Adobe Workfront` by copying it and pasting it from the system clipboard on your workstation.&nbsp;
+You can add an image file to Adobe Workfront by copying it and pasting it from the system clipboard on your workstation.&nbsp;
 
 ## Browser requirements for pasting from the Clipboard
 
@@ -30,16 +30,16 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -48,18 +48,17 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Paste from the Clipboard
 
-To add an image or screenshot to `Workfront` via the clipboard:
+To add an image or screenshot&nbsp;to Workfront via the clipboard:
 
 1. On your workstation, copy an image or screen shot to the system clipboard.
 
    For example, right-click on a browser image and select `Copy Image`, or copy an image from an image application such as Photoshop or SnagIt.
 
-1. In `Workfront`, Go to the `Documents`&nbsp;area where you want to add the image.
-
+1. In Workfront, Go to the `Documents`&nbsp;area where you want to add the image.
 1. Click Add New > Paste from Clipboard. If you are using the Internet Explorer or Safari browser, Paste from Clipboard is not supported, and displays as dimmed in the Add Document drop-down menu.
 1. In the `Paste from Clipboard` box that appears, do either of the following, depending on your operating system:
 

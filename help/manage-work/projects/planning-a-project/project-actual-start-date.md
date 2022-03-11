@@ -9,7 +9,7 @@ description: Projects, tasks, and issues have an Actual Start Date in Adobe Work
 
 # Overview of the project Actual Start Date
 
-Projects, tasks, and issues have an Actual Start Date in  `Adobe Workfront`. For tasks, and issues, this is the date when they have been marked as In Progress. For projects, this is the date when the first task on the project is marked as In Progress or has been completed.
+Projects, tasks, and issues have an&nbsp;Actual Start&nbsp;Date in&nbsp;Adobe Workfront. For tasks, and issues, this is the date when they have been marked as In Progress. For projects, this is the date when the first task on the project is marked as In Progress or has been completed.
 
 ## Access requirements
 
@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,9 +38,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Considerations about Actual Start Dates in  `Workfront`
+## Considerations about Actual&nbsp;Start&nbsp;Dates in&nbsp;Workfront
 
 * The Actual Start Date is located in the Details section of projects, tasks, and issues.&nbsp;
 * The Actual&nbsp;Start Date of a project, task, or issue is not populated when these items are created. 
@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
 ## Considerations about Actual Start&nbsp;Dates for projects
 
 <ul> 
- <li><span>Workfront</span> automatically sets the Actual&nbsp;Date of a project when any of the following occur:
+ <li>Workfront automatically sets the Actual&nbsp;Date of a project when any of the following occur:
   <ul>
    <li>A task assignee changes the status of a task from <i>New</i> to any other status that does not equate <i>New</i>.</li>
    <li><p>A task assignee changes the Percent Complete of a task.</p><note type="important">

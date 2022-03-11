@@ -8,9 +8,9 @@ description: Your Adobe Workfront administrator configures which event notificat
 
 # Activate or deactivate your own event notifications
 
-Your `Adobe Workfront administrator` configures which event notifications users receive when events occur in `Workfront` (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-Your `group administrator` can also configure which event notifications are activated for you and the users in your Home Group. If your Home Group is a subgroup, you receive the event notifications activated for the top-level group above your group.
+Your group administrator can also configure which event notifications are activated for you and the users in your Home Group. If your Home Group is a subgroup, you receive the event notifications activated for the top-level group above your group.
 
 You can customize this further by configuring which notifications you receive. You can also choose whether you want to receive notifications as events happen or in one daily digest email.
 
@@ -19,7 +19,7 @@ For information about email notifications, see [Adobe Workfront notifications](.
 >[!NOTE]
 >
 >* If you activate a notification type and then find that you are not receiving notifications of that type, it may be because that type does not apply for your role.
->* The `Workfront administrator` or a `group administrator` cannot configure notifications for `Workfront Goals`. For more information about what notifications the `Workfront administrator` can configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). For information about configuring individual notifications for `Workfront Goals` continue to read this article. 
+>* The Workfront administrator or a group administrator cannot configure notifications for Workfront Goals. For more information about what notifications the Workfront administrator can configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). For information about configuring individual notifications for Workfront Goals continue to read this article. 
 >
 
 ## Access requirements
@@ -33,17 +33,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## View and modify your email notification settings
 

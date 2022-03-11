@@ -8,7 +8,7 @@ title: Filters in Workfront Library
 description: This section contains the following articles:
 ---
 
-# Filters in `Workfront Library`
+# Filters in Workfront Library
 
 This section contains the following articles:
 

@@ -8,9 +8,9 @@ description: This page describes all other enhancements made with the 20.3 relea
 
 # 20.3 other enhancements
 
-This page describes all `other` enhancements made with the `20.3` release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+This page describes all other enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 
-For a list of all changes available with the `20.3` release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
 ## Share a calendar with a private link
 
@@ -38,7 +38,7 @@ For more information about creating requests, see [Create and submit Workfront r
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 To help you easily manage timesheets with several items, you can now expand or collapse all items with the click of a button.
 
@@ -113,7 +113,7 @@ For more information, see [Enroll users in the new Adobe Workfront experience](.
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 Now you can use a Layout Template to change the logos in the top navigation area and on the Main Menu for specific groups, teams, job roles, and users who have their own branding.
 
@@ -167,7 +167,7 @@ For more information, see [Groups overview](../../../administration-and-setup/ma
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 The left sidebar in Setup is now faster and easier to use and leverages the basic layout and functionality you already know. Along with a more modern look and feel, here’s what else is new:
 

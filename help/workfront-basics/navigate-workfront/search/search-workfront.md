@@ -5,11 +5,11 @@ title: Search Adobe Workfront
 description: You can easily locate items in Adobe Workfront by searching for them when you cannot remember their exact location.
 ---
 
-# Search `Adobe Workfront`
+# Search Adobe Workfront
 
-You can easily locate items in `Adobe Workfront` by searching for them when you cannot remember their exact location.
+You can easily locate items in Adobe Workfront by searching for them when you cannot remember their exact location.
 
-You can see the Search box in the upper-right corner of any page within `Workfront`.
+You can see the Search box in the upper-right corner of any page within Workfront.
 
 You must have permissions to View an object before you can find it in a search. For this reason, search results vary from user to user.
 
@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to the type of object </p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+   <td> <p>View access to the type of object </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
      You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
     --> <!--
      You must be a group administrator. For more information on group administrators, see Group administrators.
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Understand Search
 
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ### Objects available for search
 
-You can search for the following objects in `Workfront`:
+You can search for the following objects in Workfront:
 
 * Projects
 * Tasks
@@ -72,7 +72,7 @@ You can search for the following objects in `Workfront`:
 
 The fields available for search are based on the type of search: Basic or Advanced Search.
 
-* **Basic Search**: When searching for objects in a basic search, `Workfront` looks for text that might contain your keywords in the following fields:
+* **Basic Search**: When searching for objects in a basic search, Workfront looks for text that might contain your keywords in the following fields:
 
   * Object names
   * Descriptions
@@ -80,7 +80,7 @@ The fields available for search are based on the type of search: Basic or Advanc
   * Updates
   * Document names (in specific document searches and in a basic search)
 
-  For more information about basic searching in `Workfront`, see [Basic Search](#basic) in this article.
+  For more information about basic searching in Workfront, see [Basic Search](#basic) in this article.
 
 * **Advanced Search**: In an Advanced Search, you can set up filters to search fields not available in basic search. Therefore, Advanced Search allows you to search any field in the object.
 
@@ -90,14 +90,14 @@ The fields available for search are based on the type of search: Basic or Advanc
 >
 >To perform an Advanced Search, you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
 
-## Understand limitations of `Workfront` searches
+## Understand limitations of Workfront searches
 
-Consider the following limitations when using Search in `Workfront`:
+Consider the following limitations when using Search in Workfront:
 
 * Searches are not case-sensitive
-* `Workfront` does not correct or understand typos
-* Searching in `Workfront` does not support Wildcards
-* Searching in `Workfront` supports partial word searches, but does not support substring searches.  
+* Workfront does not correct or understand typos
+* Searching in Workfront does not support Wildcards
+* Searching in Workfront supports partial word searches, but does not support substring searches.  
   For example, the search keyword "stand" would return results including the word "standard" but would not return results including the word "understand."
 
 ## Search for multiple words
@@ -149,16 +149,16 @@ However, you can do the following in the Search box to adjust the search results
  </tbody> 
 </table>
 
-## Use Search in `Workfront`
+## Use Search in Workfront
 
-`Workfront` features two types of searches: Basic and advanced. Use basic search if you want to find keywords in common object fields such as name or description. Use Advanced Search if you want to use filters to search other object fields.
+Workfront features two types of searches: Basic and advanced. Use basic search if you want to find keywords in common object fields such as name or description. Use Advanced Search if you want to use filters to search other object fields.
 
 * [Basic Search](#basic) 
 * [Advanced Search](#advanced)
 
 ### Basic Search
 
-A basic search allows you to search for keywords across all objects in the system or on just one object at a time (such as projects). `Workfront` then searches for those keywords in a few specific fields. You can then refine your search results based on other object-specific fields selected by `Workfront`.
+A basic search allows you to search for keywords across all objects in the system or on just one object at a time (such as projects). Workfront then searches for those keywords in a few specific fields. You can then refine your search results based on other object-specific fields selected by Workfront.
 
 For a list of the specific fields searched in basic search, see [Fields available for search](#fields) in this article.
 
@@ -181,8 +181,8 @@ To perform a basic search:
 <ol> 
  <li value="1"> Click the magnifying glass in the upper-right corner of the page. You can also type ALT + / or Option + / to open the Search menu.  </li> 
  <li value="2"> <p>(Optional) To search for a specific object, click the All drop-down menu and select the object you want to search for.</p> <p>  </p> </li> 
- <li value="3">In the <span class="bold">Search</span> box, start typing the information you are searching for.<br>For information about what fields are searched in <span>Workfront</span>, see <a href="#understanding-search" class="MCXref xref">Understand Search</a>.<br><br>As you begin typing in the search bar, <span>Workfront</span> makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.</li> 
- <li value="4"> <p>If the item you are looking for displays in the typeahead menu, click it.</p> <p>Or</p> <p>Press <span class="bold">Enter</span> to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.</p> The Search Results page slides open from the left and covers most of the previous page. <p>If you performed a general search, <span>Workfront</span> returns results for any object that matches the search term in any of the fields searched, as described in <a href="#understanding-search" class="MCXref xref">Understand Search</a>. The objects that match your search display in a list.</p> <note type="note">
+ <li value="3">In the <span class="bold">Search</span> box, start typing the information you are searching for.<br>For information about what fields are searched in Workfront, see <a href="#understanding-search" class="MCXref xref">Understand Search</a>.<br><br>As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.</li> 
+ <li value="4"> <p>If the item you are looking for displays in the typeahead menu, click it.</p> <p>Or</p> <p>Press <span class="bold">Enter</span> to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.</p> The Search Results page slides open from the left and covers most of the previous page. <p>If you performed a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in <a href="#understanding-search" class="MCXref xref">Understand Search</a>. The objects that match your search display in a list.</p> <note type="note">
    Sometimes, variations of a word display in the list of found items.
    <br>For example, searching for "marketing" displays objects that contain either "marketing" or "market" in the name.
   </note> </li> 
@@ -225,8 +225,7 @@ This type of search is helpful when you cannot remember a keyword associated wit
 
 To perform an advanced search:
 
-1. In the upper-right corner of any page in `Workfront`, click the Search icon . The Search menu displays.  
-
+1. In the upper-right corner of any page in Workfront, click the Search icon . The Search menu displays.  
 1. At the bottom of the Search menu, click `Advanced Search`.  
   
    The Advanced Search page slides open from the right and covers most of the previous page.  

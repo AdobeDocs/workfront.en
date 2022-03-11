@@ -31,7 +31,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><span class="bold">A message is sent to the Announcement Center</span> </p> <p>You receive an email notification when a new message has been sent to the Announcement Center. </p> <p>The subject of the instant notification email is: <em><span>Adobe Workfront</span> Announcement: &lt;Subject of the Announcement&gt;</em></p> </td> 
+   <td> <p><span class="bold">A message is sent to the Announcement Center</span> </p> <p>You receive an email notification when a new message has been sent to the Announcement Center. </p> <p>The subject of the instant notification email is: <em>Adobe Workfront Announcement: &lt;Subject of the Announcement&gt;</em></p> </td> 
    <td> Subject of the Announcement<br>Text of the message included in the Announcement<br>Attached Document(s)<br>Name of the user who sent the Announcement<br>Date and Time when the Announcement was sent </td> 
    <td><span class="bold">Instant</span> </td> 
   </tr> 

@@ -6,9 +6,9 @@ title: Add stages and users to an Automated Workflow on a proof
 description: If you are the proof owner, you can add stages to an existing Automated Workflow.
 ---
 
-# Add stages and users to an Automated Workflow on a `proof`
+# Add stages and users to an Automated Workflow on a proof
 
-If you are the `proof` owner, you can add stages to an existing Automated Workflow.
+If you are the proof owner, you can add stages to an existing Automated Workflow.
 
 ## Access requirements
 
@@ -19,31 +19,31 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
+   <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
 ## Add stages and users to an Automated Workflow
 
 <ol> 
  <li value="1">In the documents list, hover over the document, then click <span class="bold">Proofing Workflow</span> when it displays.</li> 
- <li value="2">Near the upper-right corner of <span>Adobe Workfront</span>, click <span class="bold">New stage</span>.</li> 
+ <li value="2">Near the upper-right corner of Adobe Workfront, click <span class="bold">New stage</span>.</li> 
  <li value="3"> <p>Specify the following:</p> 
   <table cellspacing="0"> 
    <col> 

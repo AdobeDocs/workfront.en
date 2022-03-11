@@ -28,7 +28,7 @@ The following project financial fields display in the Business Case:
   </tr> 
   <tr> 
    <td>Budgeted Cost</td> 
-   <td> <p>The total cost estimated to be associated with the project when the project launches.</p> <p>The Budgeted Cost for the project is calculated by the following formula:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p><span>Adobe Workfront</span> uses the Budgeted Hours from the&nbsp;<span>Resource Planner</span> to calculate the Budgeted Labor Cost.<br>For more information about calculating Budgeted Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>.&nbsp;</p> <p>This field displays in the Business Case Summary area.</p> </td> 
+   <td> <p>The total cost estimated to be associated with the project when the project launches.</p> <p>The Budgeted Cost for the project is calculated by the following formula:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront uses the Budgeted Hours from the&nbsp;Resource Planner to calculate the Budgeted Labor Cost.<br>For more information about calculating Budgeted Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>.&nbsp;</p> <p>This field displays in the Business Case Summary area.</p> </td> 
   </tr> 
   <tr> 
    <td>Budgeted Expense Cost</td> 
@@ -36,7 +36,7 @@ The following project financial fields display in the Business Case:
   </tr> 
   <tr> 
    <td>Budgeted Labor Cost</td> 
-   <td> <p>The cost associated with the resources assigned to complete the work on the project.</p> <p>The Budgeted Labor Cost for the project is calculated by the following formula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><![CDATA[                            ]]><br></p> <p><span>Workfront</span> uses the Budgeted Hours from the&nbsp;<span>Resource Planner</span> to calculate the Budgeted Labor Cost.<br>For more information about calculating Budgeted Labor Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> <p>This field displays in the Resource Budgeting area of the Business Case.&nbsp;</p> </td> 
+   <td> <p>The cost associated with the resources assigned to complete the work on the project.</p> <p>The Budgeted Labor Cost for the project is calculated by the following formula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><![CDATA[                            ]]><br></p> <p>Workfront uses the Budgeted Hours from the&nbsp;Resource Planner to calculate the Budgeted Labor Cost.<br>For more information about calculating Budgeted Labor Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> <p>This field displays in the Resource Budgeting area of the Business Case.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Expenses Planned Cost</td> 

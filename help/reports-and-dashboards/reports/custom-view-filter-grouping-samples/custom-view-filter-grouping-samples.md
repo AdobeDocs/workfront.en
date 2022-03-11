@@ -9,9 +9,9 @@ description: This section provides examples of custom views, filters, and groupi
 
 # Custom View, Filter, and Grouping samples
 
-This section provides examples of custom views, filters, and groupings that you can use in your `Adobe Workfront` account. Unless otherwise specified, these examples cannot be built just by using the standard mode interface and can be built only by using the text mode interface. For more information about text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+This section provides examples of custom views, filters, and groupings that you can use in your Adobe Workfront account. Unless otherwise specified, these examples cannot be built just by using the standard mode interface and can be built only by using the text mode interface. For more information about text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-For additional real-life text mode examples that other `Workfront` customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in  `Adobe Workfront One` or join the [ `Workfront Community`](https://one.workfront.com/s/community) (requires logging in). &nbsp;
+For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
 
 ## Samples of custom Views
 

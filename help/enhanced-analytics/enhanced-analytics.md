@@ -8,7 +8,7 @@ title: Enhanced analytics
 description: This section contains the following articles:
 ---
 
-# `Enhanced analytics`
+# Enhanced analytics
 
 This section contains the following articles:
 
@@ -29,4 +29,4 @@ This section contains the following articles:
   Trend views overview
   -->
 
-For in-depth training on `Enhanced analytics`, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).
+For in-depth training on Enhanced analytics, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).

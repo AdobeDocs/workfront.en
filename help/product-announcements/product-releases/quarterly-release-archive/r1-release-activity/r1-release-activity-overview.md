@@ -12,7 +12,7 @@ This page provides information about the functionality included in the R1 releas
 
 The R1 release is currently available to test in Preview; R1 releases to the Production environment in a phased rollout on the evenings of April 26 and 27, 2017 (MDT).
 
-The R1 release enables users, knowledge workers, and administrators to better manage their work. With R1, adminstrators can customize `Workfront` to better match the organization's terminology; knowledge workers can leverage utilization reports to better understand how projects are tracking against planned and budgeted hours; users can engage in `Workfront` directly from Outlook 365 and be more productive when using the `Workfront` mobile app; and much more.
+The R1 release enables users, knowledge workers, and administrators to better manage their work. With R1, adminstrators&nbsp;can customize Workfront to better match the&nbsp;organization's terminology; knowledge workers can leverage utilization reports to better understand how projects are tracking against planned and budgeted hours; users can engage in Workfront directly from Outlook 365 and be more productive when using the Workfront mobile app; and much more.
 
 See the following sections for a complete list of improvements available in R1:
 
@@ -100,9 +100,9 @@ The following functionality is not currently available in Preview or Beta, but i
 
 Proofing enhancements are not available in the Preview environment; these enhancements will be available in Production with R1.
 
-### Proofing Enhancements within `Workfront`
+### Proofing Enhancements within Workfront
 
-The following enhancements are releasing to the `Workfront` application with R1:
+The following enhancements are releasing to the Workfront application with R1:
 
 * [Make Approval Decisions for Proofs from the My Work Area (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#make-approval-decisions-for-proofs-from-the-my-work-area) 
 * [Report on Proofing Approvals within the My Work Area (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#report-on-proofing-approvals) 
@@ -115,7 +115,7 @@ The following enhancements are releasing to the ProofHQ application with R1:
 
 * [Search in PDF Documents (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents) 
 * [Updated Global Navigation Bar (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar):
-* `<li>New user profile picture</li>` `<li>New link to the <span>Workfront</span> application (when the ProofHQ account is integrated with a <span>Workfront</span> account)</li>` `<li>Updated look and feel</li>` 
+* `<li>New user profile picture</li>` `<li>New link to the Workfront application (when the ProofHQ account is integrated with a Workfront account)</li>` `<li>Updated look and feel</li>` 
 
 * [Include Additional Information in Custom Views (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views) 
 * [Improvements to Proofing Reports (Formerly Analytics) (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports) 
@@ -147,4 +147,4 @@ To view webinar recordings for the R1 Release, see [R1 release webinars](../../.
 
 ## Maintenance Updates
 
-For a comprehensive list of recent maintenance updates made to the `Workfront` system, see .
+For a comprehensive list of recent maintenance updates made to the Workfront system, see .

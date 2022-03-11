@@ -8,13 +8,13 @@ description: When using the Adobe Workfront Core API, the API Explorer is a lega
 
 # Using the API Explorer
 
-When using the `Adobe Workfront` Core API, the API Explorer is a legacy reference tool that catalogs the relationships between supported resources, parameters, and variables.
+When using the Adobe Workfront Core API, the API Explorer is a legacy reference tool that catalogs the relationships between supported resources, parameters, and variables.
 
 ## Access the API Explorer:
 
 <ol> 
  <li value="1">Use a web browser to navigate to the <a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> <br><img src="assets/mceclip1-350x149.png" style="width: 350;height: 149;"></li> 
- <li value="2">In the upper right of the API Explorer, select the desired<span>Workfront</span> <span class="bold">API Version</span>, by default the most current version is automatically selected</li> 
+ <li value="2">In the upper right of the API Explorer, select the desiredWorkfront <span class="bold">API Version</span>, by default the most current version is automatically selected</li> 
  <li value="3"> The <span class="bold">Filter</span> field, can be used to filter the objects listed by name and will truncate the list of objects displayed accordingly:<p><br><img src="assets/mceclip2-350x147.png" style="width: 350;height: 147;"></p>
   <ul>
    <li><span class="bold">Fields</span>: Available fields within the specified object.</li>
@@ -36,7 +36,7 @@ When using the `Adobe Workfront` Core API, the API Explorer is a legacy referenc
    <tbody>
     <tr>
      <td>Field Name</td>
-     <td>The name of a field used in an operation within the <span>Workfront</span> API.</td>
+     <td>The name of a field used in an operation within the Workfront API.</td>
     </tr>
     <tr>
      <td>Field Type</td>
@@ -56,11 +56,11 @@ When using the `Adobe Workfront` Core API, the API Explorer is a legacy referenc
     </tr>
     <tr>
      <td>URL</td>
-     <td>The entry path that allows your app to communicate with the <span>Workfront</span> API.</td>
+     <td>The entry path that allows your app to communicate with the Workfront API.</td>
     </tr>
     <tr>
      <td>Arguments</td>
-     <td>The object's variables that can be passed between your application and <span>Workfront</span>.</td>
+     <td>The object's variables that can be passed between your application and Workfront.</td>
     </tr>
     <tr>
      <td>Result Type</td>

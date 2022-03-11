@@ -2,9 +2,9 @@
 
 # 20.4 Proof enhancements
 
-This page describes all `proof` enhancements made with the `20.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
+This page describes all proof enhancements made with the 20.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
 
-For a list of all changes available with the `20.4` release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+For a list of all changes available with the 20.4 release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Carry over the existing proof workflow when generating a new version
 
@@ -20,7 +20,7 @@ For more information, see [Create a new version of a proof](../../../review-and-
 
 ## Document approval buttons available in the Proofing Viewer
 
-To align with the proofing experience in Classic, the document approval buttons are now available in the Proofing Viewer in `the new Adobe Workfront experience`.
+To align with the proofing experience in Classic, the document approval buttons are now available in the Proofing Viewer in the new Adobe Workfront experience.
 
 Previously, you could approve a document only from the Document Details area.
 

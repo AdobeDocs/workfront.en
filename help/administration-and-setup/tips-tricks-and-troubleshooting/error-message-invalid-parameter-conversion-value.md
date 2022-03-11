@@ -19,7 +19,7 @@ You receive the following error message when attempting to change the Format of 
 
 This message occurs in the following scenario:
 
-For example, you have a Custom Field formatted as Text.  Now, you want to change the Format of the Custom Field to Currency. Somewhere in your `Adobe Workfront` instance, this field is already attached to an object and it has information already specified in it. The existing information in at least one such field is already formatted as Text. Therefore, the Format of the field cannot be changed to Currency.
+For example, you have a Custom Field formatted as Text.&nbsp; Now, you want to change the Format of the Custom Field to Currency. Somewhere in your Adobe Workfront instance, this field is already attached to an object and it has information already specified in it. The existing information in at least one such field is already formatted as Text. Therefore, the Format of the field cannot be changed to Currency.
 
 <table cellspacing="0"> 
  <col> 
@@ -31,7 +31,7 @@ For example, you have a Custom Field formatted as Text.  Now, you want to change
   </tr> 
   <tr> 
    <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</p> </td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level* Edit access to: Create Reports, Dashboards, and Calendars Create Filters, Views, and Groupings Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. 
  </tbody> 
 </table>

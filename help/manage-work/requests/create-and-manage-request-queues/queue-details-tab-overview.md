@@ -41,7 +41,7 @@ When configuring the Queue Details &nbsp;section in a project, consider the foll
 
 `Publish as Help Request Queue:`
 
-Selecting this field identifies this project as a Request Queue and all incoming issues are considered Requests. When this field is not selected, the project behaves like a standard project in `Adobe Workfront` and all incoming issues are added on the Issues tab of the project.
+Selecting this field identifies this project as a Request Queue and all incoming issues are considered Requests. When this field is not selected, the project behaves like a standard project in Adobe Workfront and all incoming issues are added on the Issues tab of the project.
 
 `Who can add requests to this Queue?`
 
@@ -54,21 +54,21 @@ This indicates who has access to the Request Queue.&nbsp;
 
 `Share with These Links:`
 
-If the `Publish as Help Request Queue` option is selected, a `Direct Access URL` and `Embed Code` become available for the Request Queue. To use either option, a person must be a `Workfront` user.
+If the `Publish as Help Request Queue` option is selected, a `Direct Access URL` and `Embed Code` become available for the Request Queue. To use either option, a person must be a Workfront user.
 
-The following options enable you to provide direct access to the Request Queue and Request Queue forms to users outside of `Workfront`.&nbsp;Users must already have access rights to the Request Queue in order to gain direct access. Using either option&nbsp;described here does&nbsp;not automatically grant access to users:
+The following options enable you to provide direct access to the Request Queue and Request Queue forms to users&nbsp;outside of Workfront.&nbsp;Users must already have access rights to the Request Queue in order to gain direct access. Using either option&nbsp;described here does&nbsp;not automatically grant access to users:
 
-* `Direct Access URL:` When a user accesses this URL from a browser, the user is taken directly to the request queue within `Workfront`. Users must first log in to `Workfront` before gaining access to the request queue.  
+* `Direct Access URL:` When a user accesses this URL from&nbsp;a browser, the user is taken directly to the request queue within Workfront. Users must first log in to Workfront before gaining access to the request queue.  
   To provide users with a direct URL to a queue topic or topic group, Go to the request queue and select the queue topic&nbsp;or topic group&nbsp;that you want users to access. The URL in the browser updates accordingly. Copy the&nbsp;URL from the browser&nbsp;and distribute it to users.
 
 * `Embed Code:`&nbsp;Use this HTML&nbsp;code to embed the request queue form as an iframe within any HTML&nbsp;page.  
-  If users are not already authenticated to `Workfront` when they view the page where the code is embedded, the `Workfront` login dialog box is displayed. After users log in, the Request Queue form is displayed.
+  If users are not already authenticated to Workfront&nbsp;when they view the page where the code is embedded, the Workfront login dialog box is displayed. After users log in, the Request Queue form is displayed.
 
 >[!NOTE]
 >
 >When displaying a Request Queue in an iframe, only the form is displayed. Navigation components and logos are not displayed.
 
-In order for the request queue form to be displayed when using this embed code, you must enable the `Allow embedding of `Workfront` in an iframe` setting in your system setup. For more information about enabling embedding of `Workfront` in an iframe, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).&nbsp;If this setting is not enabled, the iframe is displayed as blank.  
+In order for the request queue form to be displayed when using this embed code, you must enable the `Allow embedding of Workfront in an iframe` setting in your system setup. For more information about enabling embedding of Workfront in an iframe, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).&nbsp;If this setting is not enabled, the iframe is displayed as blank.  
 You can adjust various aspects of how the embedded&nbsp;form is displayed, as follows:
 
 <table border="1" cellspacing="15"> 
@@ -108,7 +108,7 @@ Consider the following settings in the Queue&nbsp;Properties area:
 
 `Request Types`
 
-The following are the four global issue types in `Workfront`:
+The following&nbsp;are the four global issue types in Workfront:
 
 * Bug Report
 * Change Order
@@ -121,7 +121,7 @@ These types can&nbsp;only be renamed by a system administrator when issue status
 
 The default duration is the length of time it typically takes to complete an issue. This becomes the default for all incoming issues&nbsp;and can be modified manually.&nbsp;Duration is generally set in hours, days, or weeks. The Default Duration of an issue is the same as the Planned Hours on the issue. The Planned Completion Date of the issue calculates based on this field.
 
-The default for the issue Duration is 1 day or 8 hours. If your `Workfront administrator` set the Typical Hours per&nbsp;Work Day as less than 8 hours, the Default Duration for issues is still 8 hours. For example, if the Typical Hours per Work Day is set to 7 hours, the Default Duration for issues is 1.14 Days or 8 hours. For more information about how to set up the system Typical Hours per Work Day, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+The default for the issue Duration is 1 day or 8 hours. If your Workfront administrator set the Typical Hours per&nbsp;Work Day as less than 8 hours, the Default Duration for issues is still 8 hours. For example, if the Typical Hours per Work Day is set to 7 hours, the Default Duration for issues is 1.14 Days or 8 hours. For more information about how to set up the system Typical Hours per Work Day, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 `People from the same company will inherit the same permissions for all requests.`
 
@@ -162,16 +162,16 @@ You can give the following sets of users access to view the fields you selected:
 
 `Custom` `Forms`
 
-The drop-down list for the custom forms displays all available custom forms for projects and issues.  You must create a custom form before you can select it in this list. If there are no custom forms in `Workfront`, nothing displays in the drop-down list. To learn how to create custom forms, please refer to [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).  
+The drop-down list for the custom&nbsp;forms displays all available custom forms for projects and issues.&nbsp; You must create a custom form before you can select it in this list. If there are no custom forms in Workfront, nothing displays in the drop-down list. To learn how to create custom forms, please refer to [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).  
 ![](assets/queueproperties-details2-350x174.png)
 
 ### Email Settings
 
-You can allow issues to be added via email. This enables anyone with a valid `Workfront` account to send requests using email.
+You&nbsp;can allow issues to be added via email.&nbsp;This enables&nbsp;anyone with a valid Workfront account to send requests using email.
 
-You can allow issues to be emailed into a `Workfront` project only if you designate the project as a Request Queue.
+You can allow issues to be emailed into a Workfront project only if you designate the project as a Request Queue.
 
-For more information about setting up an email account to allow users to send issues to a project in `Workfront`, see [Enable users to email an issue into a Request Queue project](enable-email-issues-into-projects.md).
+For more information about setting up an email account to allow users to send issues to a project in Workfront, see [Enable users to email an issue into a Request Queue project](enable-email-issues-into-projects.md).
 
 To set up the email account associated with a Request Queue, specify the following information in the `Email Settings` area:
 

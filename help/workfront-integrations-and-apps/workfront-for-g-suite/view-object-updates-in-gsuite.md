@@ -7,9 +7,9 @@ title: View Adobe Workfront object updates from G Suite
 description: Without leaving G Suite, you can view updates and replies to updates on a Adobe Workfront object.
 ---
 
-# View `Adobe Workfront` object updates from G&nbsp;Suite
+# View Adobe Workfront object updates from G&nbsp;Suite
 
-Without leaving G Suite, you can view updates and replies to updates on a `Adobe Workfront` object.
+Without leaving G Suite, you can view updates and replies to updates on a Adobe Workfront object.
 
 ## Access requirements
 
@@ -20,11 +20,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
    Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
@@ -34,13 +34,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 Before you can view object updates in G Suite, you must
 
-* Install `Workfront` for G suite  
+* Install Workfront for G suite  
   For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## View object updates in G Suite

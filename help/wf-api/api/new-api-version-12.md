@@ -19,7 +19,7 @@ The following resources are new in Workfront API version 12.
 
 ### BreadCrumb
 
-A BreadCrumb object represents an element in the parent/child hierarchy of an `Adobe Workfront` work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
+A BreadCrumb object represents an element in the parent/child hierarchy of an Adobe Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
 For more information on Breadcrumbs in Workfront, see Breadcrumbs overview in the new Adobe Workfront experience 
 
 <table cellspacing="15"> <!--
@@ -38,7 +38,7 @@ For more information on Breadcrumbs in Workfront, see Breadcrumbs overview in th
 
 ### RichTextParameterValue
 
-Rich text fields are now available on more objects. The RichTextParameterValue object was added to `Workfront` to support this availability.
+Rich text fields are now available on more objects. The RichTextParameterValue object was added to Workfront to support this availability.
 
 For more information, see [Rich text fields in the Adobe Workfront API](../../wf-api/general/rich-text-field-api.md).
 
@@ -873,7 +873,7 @@ A User object represents a person with an account in Workfront that can log in a
    <td> <p>The following fields were added to the User resource:</p> 
     <ul> 
      <li> <p><span class="bold">actualDeactivationDate</span> </p> <p>This represents the date and time that a user was deactivated.</p> <p>For more information on deactivated Users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
-     <li> <p><span class="bold">alignAccessType</span> </p> <p>This field shows the user's access to <span>Workfront Goals</span>. Possible values are:</p> 
+     <li> <p><span class="bold">alignAccessType</span> </p> <p>This field shows the user's access to Workfront Goals. Possible values are:</p> 
       <ul> 
        <li> <p>No access</p> </li> 
        <li> <p>View</p> </li> 

@@ -8,16 +8,16 @@ description: The following are guidelines about how column widths work in Adobe 
 
 # Modify column width and order
 
-The following are guidelines about how column widths work in `Adobe Workfront`:
+The following are guidelines about how column widths work in Adobe Workfront:
 
 <ul> 
- <li><span>Workfront</span> defines the width of columns in lists and reports, by default.</li> 
- <li> <p><span>Workfront</span> automatically adjusts the width of the columns according to the <code>valueformat </code>information in the all the lists and reports, unless otherwise specified in the text mode of the column.</p> <note type="note">
-   <span>Workfront</span> does not adjust the width of the columns according to the 
+ <li>Workfront defines the width of columns in lists and reports, by default.</li> 
+ <li> <p>Workfront automatically adjusts the width of the columns according to the <code>valueformat </code>information in the all the lists and reports, unless otherwise specified in the text mode of the column.</p> <note type="note">
+   Workfront does not adjust the width of the columns according to the 
    <code>valueformat </code>information in the lists available in the Setup and Reports areas.
   </note> <p>The <code>valueformat</code> value defines what kind of information displays in the column. For example, columns that display a number are narrower than columns that display the Description field.</p> </li> 
- <li> <p>You can customize the width of the columns in your <span>Workfront</span> lists and reports to match your needs, depending on what kind of information you want to display in columns.</p> <p>You can modify the width of columns temporarily, while viewing a list or report, or permanently, by adjusting the width of the column in the view builder. For information about modifying the width of columns temporarily, see the <a href="#consider" class="MCXref xref">Considerations when temporarily modifying the width and order of columns</a> section in this article.</p> </li> 
- <li> <p>Columns that appear in built-in views have widths previously defined by <span>Workfront</span> that are hard coded. To modify these widths, you must manually update the width of these columns using text mode in the view builder.</p> <p>For information about modifying the column in text mode, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md" class="MCXref xref">View: permanently edit the width of a column</a>.</p> </li> 
+ <li> <p>You can customize the width of the columns in your Workfront lists and reports to match your needs, depending on what kind of information you want to display in columns.</p> <p>You can modify the width of columns temporarily, while viewing a list or report, or permanently, by adjusting the width of the column in the view builder. For information about modifying the width of columns temporarily, see the <a href="#consider" class="MCXref xref">Considerations when temporarily modifying the width and order of columns</a> section in this article.</p> </li> 
+ <li> <p>Columns that appear in built-in views have widths previously defined by Workfront that are hard coded. To modify these widths, you must manually update the width of these columns using text mode in the view builder.</p> <p>For information about modifying the column in text mode, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md" class="MCXref xref">View: permanently edit the width of a column</a>.</p> </li> 
 </ul>
 
 ## Access requirements
@@ -29,16 +29,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit the view in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit the view in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Modify column width and order
 
@@ -58,9 +58,9 @@ You can modify the width and order of the columns in your reports in the followi
 
 ### Modify width and order of columns temporarily
 
-You can drag column borders to resize columns and drag and drop columns to temporarily reorder them in most lists throughout the `Workfront` site. This includes reports, views, reports on dashboards, and the Gantt view.
+You can drag column borders to resize columns and drag and drop columns to temporarily reorder them in most lists throughout the Workfront site. This includes reports, views, reports on dashboards, and the Gantt view.
 
-For more information about `Workfront` lists, see the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+For more information about Workfront lists, see the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 * [Considerations when temporarily modifying the width and order of columns](#consider) 
 * [Resize columns temporarily](#resizing-columns) 

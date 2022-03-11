@@ -9,19 +9,19 @@ description: Calculated Work is a Duration Type that you can set for a task in A
 
 # Duration Type overview: Calculated Work
 
-Calculated Work is a Duration Type that you can set for a task in `Adobe Workfront`. For general information about Duration Types in `Workfront`, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Calculated Work is a Duration Type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overview of the Calculated Work Duration Type
 
 Calculated Work determines the amount of effort (Planned Hours) needed for the task to be completed. We recommend that you use the Calculated Work Duration Type when the resources assigned to the task are allocated for the entire duration of the task.
 
-Your `Workfront` `or a `group administrator`` can set the default Duration&nbsp;Type of your system or group as Calculated Work.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Your Workfront `or a group administrator` can set the default Duration&nbsp;Type of your system or group as Calculated Work.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 As resources are added to a task, a project manager can expect to see the planned effort increase. To illustrate, a one-hour planning meeting with three resources represents three total hours of work required, and a one-hour planning meeting with ten resources represents ten hours of work required. This assumes that each resource is allocated to the task with 100% allocation.
 
 ## Review the formula for calculating the Work Required when using the Calculated Work Duration Type
 
-When you use the Calculated Work Duration Type on a task, `Workfront` calculates the amount of Work for each task using the following two formulas. The formulas differ depending on what percentage of time each resource is allocated to the task and how many resources you have assigned to each task:
+When you use the Calculated Work Duration Type on a task, Workfront calculates the amount of Work for each task using the following two formulas. The formulas differ depending on what percentage of time each resource is allocated to the task and how many resources you have assigned to each task:
 
 * Simplified formula: Assuming you have one resource assigned to the task and they are allocated to the task for 100% of their available time, the Work Required value for each task is calculated using the following formula:
 

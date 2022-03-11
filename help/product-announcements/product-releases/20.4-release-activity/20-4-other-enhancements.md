@@ -2,9 +2,9 @@
 
 # 20.4 Other enhancements
 
-This page describes all `other` enhancements made with the `20.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
+This page describes all other enhancements made with the 20.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
 
-For a list of all changes available with the `20.4` release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+For a list of all changes available with the 20.4 release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## New for administrators:&nbsp;Switch Workfront environment option available
 
@@ -22,7 +22,7 @@ For more information, see [Enroll users in the new Adobe Workfront experience](.
 
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
-## Improved encryption for `Workfront Proof`
+## Improved encryption for Workfront Proof
 
 We are making some changes to improve the strength of data-in-motion encryption of the Workfront Proofing Application. The weak TLS ciphers will be deprecated on November 11, 2020.
 

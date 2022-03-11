@@ -9,11 +9,11 @@ description: Effort Driven is a duration type that you can set for a task in Ado
 
 # Duration Type overview: Effort Driven
 
-Effort Driven is a duration type that you can set for a task in `Adobe Workfront`. For general information about Duration Types in `Workfront`, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Effort Driven is a duration type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overview of the Effort Driven Duration Type
 
-Your `Workfront` `or a `group administrator`` can set the default Duration&nbsp;Type of your system or group as Effort Driven.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Your Workfront `or a group administrator` can set the default Duration&nbsp;Type of your system or group as Effort Driven.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 In this scenario, there is a risk of arbitrarily shortening the project plan, unless you, as the project manager, take the time to consider whether the task is actually an Effort Driven task.
 
@@ -27,11 +27,11 @@ Use Effort Driven to:
 
   As resources are added, the Planned Duration of the task decreases. (The principle of "many hands make light work" illustrates the effect that this `Duration Type has on the Planned Duration of a task.`)
 
-The following sections provide more detailed information about how `Workfront` calculates the Planned Duration of an Effort Driven task and the effect that adding resources has to the task with this Duration Type.
+The following sections provide more detailed information about how Workfront calculates the Planned Duration of an Effort Driven task and the effect that adding resources has to the task with this Duration Type.
 
 ## Overview of the Effort Driven Duration Type formula
 
-The formula for calculation the Planned Duration for a task with a Duration Type of Effort Driven depends on the allocation percentage of each resource assigned to the task. In the case of an Effort Driven task, `Workfront` calculates the Planned Hours of the task and they are always the same as the Duration of the task:
+The formula for calculation the Planned Duration for a task with a Duration Type of Effort Driven depends on the allocation percentage of each resource assigned to the task. In the case of an Effort Driven task, Workfront calculates the Planned Hours of the task and they are always the same as the Duration of the task:
 
 ```
 Planned Hours (in hours) = Duration (in days)
@@ -39,11 +39,11 @@ Planned Hours (in hours) = Duration (in days)
 
 You can manually adjust the Duration of the task.
 
-`Workfront` assumes that there are 8 working hours in a working day. Your `Workfront` or `group administrator` defines the hours per workday with the Typical Hours per Work Day setting in the Project Preferences in Setup. For more information about changing your task and issue preferences as part of your system-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront assumes that there are 8 working hours in a working day. Your Workfront or group administrator defines the hours per workday with the Typical Hours per Work Day setting in the Project Preferences in Setup. For more information about changing your task and issue preferences as part of your system-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!TIP]
 >
->`Workfront` considers the Schedule for each resource assigned to the task to determine the percent of allocation for each resource for the task. For information about creating and assigning schedules to users, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Workfront considers the Schedule for each resource assigned to the task to determine the percent of allocation for each resource for the task. For information about creating and assigning schedules to users, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Consider the following scenarios:
 

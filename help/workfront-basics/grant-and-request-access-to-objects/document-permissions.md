@@ -8,15 +8,15 @@ title: Share a document in Adobe Workfront
 description: Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in Grant access to documents.
 ---
 
-# Share a document in `Adobe Workfront`
+# Share a document in Adobe Workfront
 
-Your `Adobe Workfront administrator` grants users access to view or edit documents when they assign access levels, as explained in [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
-The access level that the `Workfront administrator` grants to users allows them to either view or edit documents. In addition to this, other users can also grant others permissions to view or manage specific documents that they uploaded themselves or that they have access to share.
+The access level that the Workfront administrator grants to users allows them to either view or edit documents. In addition to this, other users can also grant others permissions to view or manage specific documents that they uploaded themselves or that they have access to share.
 
-Permissions are specific to one item in `Workfront` and define what actions one can take on that item. For information about object permissions, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Permissions are specific to one item in Workfront and define what actions one can take on that item. For information about object permissions, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-The user who uploads a document to `Workfront` has Manage permissions to it, by default.
+The user who uploads a document to Workfront has Manage permissions to it, by default.
 
 For information about sharing an entire document folder, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
@@ -26,9 +26,9 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 >[!NOTE]
 >
->A `Workfront administrator` can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
-* Sharing a document is similar to sharing any other object in `Workfront`. For information about how to share documents in `Workfront`, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Sharing a document is similar to sharing any other object in Workfront. For information about how to share documents in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * You can grant the following permissions to documents:
 
   * View
@@ -36,13 +36,13 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * You can also share a document publicly or system-wide.
 
-  ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a `Workfront` user or part of your organization. 
+  ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
 
 * You can share a document with someone who does not have a Workfront account, by adding their email address in the Give document access to field.
-* When you share a document, users have the same access to all the document versions and all the document `proofs`.  
-  For more information about `proofing` in `Workfront`, see the [Proofing](../../review-and-approve-work/proofing/proofing.md) section.
+* When you share a document, users have the same access to all the document versions and all the document proofs.  
+  For more information about proofing in Workfront, see the [Proofing](../../review-and-approve-work/proofing/proofing.md) section.
 
-* You can inherit permissions to documents from the objects they are associated with. Your `Workfront administrator` can restrict the inheritance of permissions for documents in your access level.
+* You can inherit permissions to documents from the objects they are associated with. Your Workfront administrator can restrict the inheritance of permissions for documents in your access level.
 
   For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -206,4 +206,4 @@ The following table displays what permissions you can grant users when allowing 
 
 &#42; Action is shared by both Documents and Document Folders.
 
-&#42;&#42; You must have a separate `proofing` license associated with your `Workfront` account to be able to `proof` documents. Contact your account manager about acquiring a `proofing` license. For more information about `proofing` in `Workfront`, see [Proofing](../../review-and-approve-work/proofing/proofing.md). 
+&#42;&#42; You must have a separate proofing license associated with your Workfront account to be able to proof documents. Contact your account manager about acquiring a proofing license. For more information about proofing in Workfront, see [Proofing](../../review-and-approve-work/proofing/proofing.md). 

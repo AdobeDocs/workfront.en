@@ -7,21 +7,21 @@ title: Create and manage custom fields in Workfront Proof
 description: A Select or Premium Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
 ---
 
-# Create and manage custom fields in `Workfront Proof`
+# Create and manage custom fields in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-A Select or Premium `Workfront` Plan is required to use this feature. For more information about the various plans available, see [ `Workfront` Plans.](https://www.workfront.com/plans)
+A Select or Premium Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
 
-Custom fields allow you to capture additional data when creating a new `proof`, a new user, or a new guest.
+Custom fields allow you to capture additional data when creating a new proof, a new user, or a new guest.
 
-For example, users creating a new `proof` may want to include an additional section that will allow them to capture a Job Number, Department Code, or Supplier Reference.
+For example, users creating a new proof may want to include an additional section that will allow them to capture a Job Number, Department Code, or Supplier Reference.
 
 >[!NOTE]
 >
->`<li>Capturing this type of information on the New <span>proof</span> page via Custom fields will also let you reduce the length of your <span>proof</span> name, as these details will not&nbsp;have to be included in the name. For information about the New <span>proof</span> page, see <em>"Creating Proofs in <span>Workfront Proof</span>."</em></li>` `<li>Once a Custom field has been used on a <span>proof</span>, user, or contact, you will not be able to delete it or edit the field type. However, you will be able to hide it (via the Custom field Settings page) so that it is not used for new items.<em>&nbsp;</em></li>` `<li><em style="font-style: normal;">If you make a Custom field Section hidden, all the fields within the section will also be hidden even if the individual fields are set as visible.</em> </li>`
+>`<li>Capturing this type of information on the New proof page via Custom fields will also let you reduce the length of your proof name, as these details will not&nbsp;have to be included in the name. For information about the New proof page, see <em>"Creating Proofs in Workfront Proof."</em></li>` `<li>Once a Custom field has been used on a proof, user, or contact, you will not be able to delete it or edit the field type. However, you will be able to hide it (via the Custom field Settings page) so that it is not used for new items.<em>&nbsp;</em></li>` `<li><em style="font-style: normal;">If you make a Custom field Section hidden, all the fields within the section will also be hidden even if the individual fields are set as visible.</em> </li>`
 
 This article explains how to do the following:
 
@@ -43,7 +43,7 @@ First, you need to set up the Custom Field section to which you will add custom 
    <tbody> 
     <tr> 
      <td role="rowheader"><span class="bold">Mandatory</span> </td> 
-     <td><span>Workfront</span> requires users to complete the field.</td> 
+     <td>Workfront requires users to complete the field.</td> 
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Searchable</span> </td> 
@@ -51,7 +51,7 @@ First, you need to set up the Custom Field section to which you will add custom 
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Hidden</span> </td> 
-     <td>Hides the custom field on the New <span>proof</span>, New guest, and New user pages</td> 
+     <td>Hides the custom field on the New proof, New guest, and New user pages</td> 
     </tr> 
    </tbody> 
   </table> </li> 

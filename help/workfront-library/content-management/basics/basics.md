@@ -8,7 +8,7 @@ title: Workfront Library Basics
 description: This section contains the following articles:
 ---
 
-# `Workfront Library` Basics
+# Workfront Library Basics
 
 This section contains the following articles:
 

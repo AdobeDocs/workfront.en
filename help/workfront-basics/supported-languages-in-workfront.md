@@ -6,13 +6,13 @@ title: Supported languages in Adobe Workfront
 description: You can change the language in which you display Adobe Workfront and emails coming from Workfront, by adjusting the language preferences on your browser and your default Locale within Workfront.
 ---
 
-# Supported languages in `Adobe Workfront`
+# Supported languages in Adobe Workfront
 
-You can change the language in which you display `Adobe Workfront` and emails coming from `Workfront`, by adjusting the language preferences on your browser and your default Locale within `Workfront`.
+You can change the language in which you display Adobe Workfront and emails coming from Workfront, by adjusting the language preferences on your browser and your default Locale within Workfront.
 
-`Workfront` terminology is updated for the supported languages with every `Workfront` update.
+Workfront terminology is updated for the supported languages with every Workfront update.
 
-`Workfront` supports the following languages:
+Workfront supports the following languages:
 
 * Chinese - Simplified (zh-CN)
 * Chinese - Traditional (zh-TW)
@@ -24,13 +24,13 @@ You can change the language in which you display `Adobe Workfront` and emails co
 * Portuguese (pt-BR)
 * Spanish - Latin America
 
-The language used to view `Workfront` in your browser is controlled by your browser language settings. Ensure you select a language for your browser which is listed in the supported languages list.
+The language used to view Workfront in your browser is controlled by your browser language settings. Ensure you select a language for your browser which is listed in the supported languages list.
 
-To display outgoing emails in any of the supported languages, modify your User Locale or Customer Info settings in `Workfront`.  
-You must be a `Workfront administrator` to modify the Customer Info settings.  
+To display outgoing emails in any of the supported languages, modify your User Locale or Customer Info settings in Workfront.  
+You must be a Workfront administrator to modify the Customer Info settings.  
 For more information about changing the Customer Info and User Locale, see [Change the Workfront and User Locales](#changing-the-locale).
 
-You can contract a third party to have the `Workfront` interface and the outgoing emails from `Workfront` translated in other languages. These translations are not supported by `Workfront` and any language outside of the ones listed above are unsupported.
+You can contract a third party to have the Workfront interface and the outgoing emails from Workfront translated in other languages. These translations are not supported by Workfront and any language outside of the ones listed above are unsupported.
 
 >[!NOTE]
 >
@@ -58,70 +58,70 @@ You can contract a third party to have the `Workfront` interface and the outgoin
 
 ## Supported language discrepancies when using proofing
 
-The `Web Proofing Viewer` within `Workfront` supports most languages that are supported in `Workfront`.
+The Web Proofing Viewer within Workfront supports most languages that are supported in Workfront.
 
-The following languages are not supported in the `proofing` tool:
+The following languages are not supported in the proofing tool:
 
 * Chinese - Simplified (zh-CN)
 * Chinese - Traditional (zh-TW)
 * Portuguese (pt-BR)
 
-Your company must purchase a `proofing` license for you to access the `Web Proofing Viewer`.
+Your company must purchase a proofing license for you to access the Web Proofing Viewer.
 
-For more information about `proofing`, see [Proofing](../review-and-approve-work/proofing/proofing.md).
+For more information about proofing, see [Proofing](../review-and-approve-work/proofing/proofing.md).
 
-When viewing `Workfront` in a language not supported in the `proofing` tool, the `Web Proofing Viewer` displays in English.
+When viewing Workfront in a language not supported in the proofing tool, the Web Proofing Viewer displays in English.
 
-If you use `Workfront Proof` (the standalone `proofing` tool) in a language that is not supported in `Workfront`, the `Web Proofing Viewer` within `Workfront` displays in English.  
-For more information about the languages supported in `Workfront Proof`, see [Language Settings in Workfront Proof](../workfront-proof/wp-getstarted/system-information/language-settings.md).
+If you use Workfront Proof (the standalone proofing tool) in a language that is not supported in Workfront, the Web Proofing Viewer within Workfront displays in English.  
+For more information about the languages supported in Workfront Proof, see [Language Settings in Workfront Proof](../workfront-proof/wp-getstarted/system-information/language-settings.md).
 
-## Supported language in `Adobe Workfront Fusion`
+## Supported language in Adobe Workfront Fusion
 
-Currently, `Workfront Fusion` supports only English.
+Currently, Workfront Fusion supports only English.
 
-* All content in `Workfront Fusion`, as well as any help content related to `Workfront Fusion`, displays in English.
-* `Workfront Fusion` does not support the use of non-English text characters in user-entered fields.
+* All content in Workfront Fusion, as well as any help content related to Workfront Fusion, displays in English.
+* Workfront Fusion does not support the use of non-English text characters in user-entered fields.
 
-Your company must purchase a `Workfront Fusion` license for you to access `Workfront Fusion`.   
-For more information about `Workfront Fusion`, see [Adobe Workfront Fusion overview](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Your company must purchase a Workfront Fusion license for you to access Workfront Fusion.   
+For more information about Workfront Fusion, see [Adobe Workfront Fusion overview](../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 ## Change the language
 
-You can change the language in which you view `Workfront` and the language of the outgoing emails by modifying the following settings:
+You can change the language in which you view Workfront and the language of the outgoing emails by modifying the following settings:
 
 * The language on your browser
-* The Customer Info and User Locale settings in your `Workfront` account.
+* The Customer Info and User Locale settings in your Workfront account.
 
-In order to see all available translations for your chosen language, both the `Workfront` locale and browser locale should be set to the same language.
+In order to see all available translations for your chosen language, both the Workfront locale and browser locale should be set to the same language.
 
 * [Change the browser language](#changing-browser-language) 
 * [Change the Workfront and User Locales](#changing-the-locale)
 
 ### Change the browser language
 
-When you change the browser language, your `Workfront` interface displays in that language.   
-For more information about what languages are supported by `Workfront`, see [Supported languages in Adobe Workfront](#supported-languages).
+When you change the browser language, your Workfront interface displays in that language.   
+For more information about what languages are supported by Workfront, see [Supported languages in Adobe Workfront](#supported-languages).
 
 The browser language must be changed on an individual user basis.
 
 See the "Help" menu for your browser for specific information about how to change the language of your browser.
 
-### Change the `Workfront` and User Locales
+### Change the Workfront and User Locales
 
 * [Change the Workfront Locale](#changing) 
 * [Change the User Locale](#changing-user-locale)
 
-### Change the `Workfront` Locale
+### Change the Workfront Locale
 
-When changing the `Workfront` Locale, you modify the language, date, and number format used in outgoing messages for all `Workfront` users. These settings become the default for every new user you create.
+When changing the Workfront Locale, you modify the language, date, and number format used in outgoing messages for all Workfront users. These settings become the default for every new user you create.
 
-To change the `Workfront` Locale:
+To change the Workfront Locale:
 
 <ol> 
- <li value="1">Log in to <span>Workfront</span> as the <span>Workfront administrator</span>.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Log in to Workfront as the Workfront administrator.</li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="3">Click <span class="bold">System</span> > <span class="bold">Customer Info.</span></li> 
- <li value="4">In the <span class="bold">Basic Info</span> section, click the <span class="bold">Locale</span> drop-down list to select the language that you want <span>Workfront</span> emails to display in.</li> 
+ <li value="4">In the <span class="bold">Basic Info</span> section, click the <span class="bold">Locale</span> drop-down list to select the language that you want Workfront emails to display in.</li> 
  <li value="5">Click <span class="bold">Save</span>.</li> 
 </ol>
 
@@ -131,7 +131,7 @@ When changing your User Locale, you modify the language, date, and number format
 
 To change your User Locale:
 
-1. In the `Preferences` section, click the `Locale` drop-down list to select the language that you want `Workfront` emails to display in.
+1. In the `Preferences` section, click the `Locale` drop-down list to select the language that you want Workfront emails to display in.
 
 1. Click `Save Changes`.
 

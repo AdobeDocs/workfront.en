@@ -21,7 +21,7 @@ The New Task button does not show in the subtask sectionwhen there is an Approva
 
 ### Answer
 
-The New Task button does not show because `Adobe Workfront` does not allow a task with an Approval to become a parent task.
+The New Task button does not show because Adobe Workfront does not allow a task with an Approval to become a parent task.
 
 ## What is the Allocation Date?
 

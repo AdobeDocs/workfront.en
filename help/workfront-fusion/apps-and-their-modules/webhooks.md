@@ -2,7 +2,7 @@
 
 # Webhooks
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
 ## Creating Custom Webhooks
 
@@ -10,7 +10,7 @@
 >
 >To call a third party webhook (outgoing webhooks) use one of the [HTTP](http-modules.md) modules.
 
-Any application that is connected to the Internet and allows the sending of HTTP requests can send webhooks to `Adobe Workfront Fusion`. To connect such an app to `Workfront Fusion`, add the `Webhooks > Custom Webhook` instant trigger module to your scenario. When setting this trigger, click the `Add` button next to the Webhook field and enter a name for the new webhook.
+Any application that is connected to the Internet and allows the sending of HTTP requests can send webhooks to Adobe Workfront Fusion. To connect such an app to Workfront Fusion, add the `Webhooks > Custom Webhook` instant trigger module to your scenario. When setting this trigger, click the `Add` button next to the Webhook field and enter a name for the new webhook.
 
 ![](assets/custom-webhook-350x143.jpeg)
 
@@ -20,7 +20,7 @@ Any application that is connected to the Internet and allows the sending of HTTP
 
 ## Determine the webhook's data structure
 
-Once you create a webhook, you will see a unique URL that `Workfront Fusion` will listen for. The data sent to this address is first validated and then passed on for processing in the scenario. To enable the option to map items outputted from the webhook, `Workfront Fusion` needs to determine the data structure of the incoming payload so the other modules know what to expect from the webhook. That's why `Workfront Fusion` will ask you to send sample data to the displayed address.
+Once you create a webhook, you will see a unique URL that Workfront Fusion will listen for. The data sent to this address is first validated and then passed on for processing in the scenario. To enable the option to map items outputted from the webhook, Workfront Fusion needs to determine the data structure of the incoming payload so the other modules know what to expect from the webhook. That's why Workfront Fusion will ask you to send sample data to the displayed address.
 
 There are two ways to supply the sample data:
 
@@ -57,7 +57,7 @@ To use the second option:
     </tr> 
    </tbody> 
   </table> <p> <img src="assets/new-scenario-set-up-like-this-350x446.png" style="width: 350;height: 446;"> </p> </li> 
- <li value="2"> <p>Have both scenarios (the one with the HTTP module and the one with the Webhooks module) open in separate browser tabs/windows. Open the scenario with the Webhooks module and click <span class="bold">Redetermine data structure</span> button to make <span>Workfront Fusion</span> listen for the data (you don't have to unlink other modules, the data won't be used anywhere).</p> <p> <img src="assets/redetermine-data-structure-350x264.png" style="width: 350;height: 264;"> </p> </li> 
+ <li value="2"> <p>Have both scenarios (the one with the HTTP module and the one with the Webhooks module) open in separate browser tabs/windows. Open the scenario with the Webhooks module and click <span class="bold">Redetermine data structure</span> button to make Workfront Fusion listen for the data (you don't have to unlink other modules, the data won't be used anywhere).</p> <p> <img src="assets/redetermine-data-structure-350x264.png" style="width: 350;height: 264;"> </p> </li> 
  <li value="3">Switch to the scenario with the HTTP module and run it.</li> 
  <li value="4"> <p>Switch back to the scenario with the Webhooks module. </p> <p>The data structure of the webhook should be determined and you should see a "Successfully determined" message .</p> <p> <img src="assets/successfully-determined-350x175.png" style="width: 350;height: 175;"> </p> </li> 
  <li value="5"> <p>Click <span class="bold">OK</span> to save the data structure.</p> <p>The webhook's items should be now available in the mapping panel for mapping to fields in the configuration of modules connected after the Webhooks module.</p> <p> <img src="assets/mapping-panel-350x244.png" style="width: 350;height: 244;"> </p> </li> 
@@ -71,9 +71,9 @@ At the moment of delivering a webhook notification, there must be at least one s
 
 ## Supported Incoming Data Formats
 
-`Workfront Fusion` supports 3 formats of incoming data - Query String, Form Data and JSON. `Workfront Fusion` validates all incoming data against the selected data structure and then depending on the settings of the scenario, the data is either stored in the queue for processing or processed immediately.
+Workfront Fusion supports 3 formats of incoming data - Query String, Form Data and JSON. Workfront Fusion validates all incoming data against the selected data structure and then depending on the settings of the scenario, the data is either stored in the queue for processing or processed immediately.
 
-If any part of the data does not pass the validation, `Workfront Fusion` returns a 400 HTTP status code and specifies in the body of the HTTP response the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, `Workfront Fusion` returns a 200 Accepted' status in response.
+If any part of the data does not pass the validation, Workfront Fusion returns a 400 HTTP status code and specifies in the body of the HTTP response the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, Workfront Fusion returns a 200 Accepted' status in response.
 
 <!--
 Query String
@@ -267,7 +267,7 @@ The default response to a webhook call contains just a simple text, "Accepted" a
 
    for XML, and so on.
 
-   Timeout for sending a response is 40 seconds. If the response is not available within that period, `Workfront Fusion` returns a '200 Accepted' status.
+   Timeout for sending a response is 40 seconds. If the response is not available within that period, Workfront Fusion returns a '200 Accepted' status.
 
 ### HTML Response example
 

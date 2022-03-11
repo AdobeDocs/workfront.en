@@ -21,28 +21,28 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a></p> <p>Or, if you are working on timesheet profiles for a group, you must be a <span>group administrator</span> (or <span>Workfront administrator</span>). For more information, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a></p> <p>Or, if you are working on timesheet profiles for a group, you must be a group administrator (or Workfront administrator). For more information, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations about manually generated timesheets
 
 When you manually generate timesheets:
 
 * They are generated according to the timesheet profiles that are associated with your users. Users who do not have timesheet profiles associated with them do not receive timesheets.&nbsp;
-* Only the current timesheet and the one to follow are generated. `Workfront` does not generate two timesheets for the same period. If you already have a timesheet for a specific time frame, another one will not generate when you are using the manual process to generate timesheets.
+* Only the current timesheet and the one to follow are generated. Workfront does not generate two timesheets for the same period. If you already have a timesheet for a specific time frame, another one will not generate when you are using the manual process to generate timesheets.
 
 ## Manually generate timesheets from the Timesheets area
 

@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Delete an account
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
 1. Click your name in the bottom-left corner of the page, then click `Profile`.
 1. Click `Options` in the top-right corner.

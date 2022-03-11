@@ -10,9 +10,9 @@ description: You can use the My Updates area to quickly review the approvals wai
 
 You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.<![CDATA[  ]]>
 
-As a user with a Review license, you can find the My Updates area in the Main Menu by default. The My Updates area replaces Home as the landing page for Review users, unless they are assigned to a layout template where another landing area is defined. For information about `Adobe Workfront` licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+As a user with a Review license, you can find the My Updates area in the Main Menu by default. The My Updates area replaces Home as the landing page for Review users, unless they are assigned to a layout template where another landing area is defined. For information about Adobe Workfront licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-If you have a license type different than Review, the `Workfront` or `Group administrator` must add the My Updates area to your layout template to display it in the Main Menu. For information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+If you have a license type different than Review, the Workfront or Group administrator must add the My Updates area to your layout template to display it in the Main Menu. For information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Access requirements
 
@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects,&nbsp;Tasks, Issues,&nbsp;Documents)</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects,&nbsp;Tasks, Issues,&nbsp;Documents)</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,13 +41,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 You must have the following before you begin:
 
-* If you have a `Workfront` license other than Review, your `Workfront` or `Group administrator` must add the My&nbsp;Updates area to the Main&nbsp;Menu using a layout template and assign you to that template.
+* If you have a Workfront license other than Review, your Workfront or Group administrator must add the My&nbsp;Updates area to the Main&nbsp;Menu using a layout template and assign you to that template.
 
   Review-license users can view the My Updates area in their Main Menu by default.
 

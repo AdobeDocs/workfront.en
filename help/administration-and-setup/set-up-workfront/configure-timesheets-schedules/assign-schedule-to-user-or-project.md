@@ -13,7 +13,7 @@ description: Click the Main Menu icon in the upper-right corner of Workfront, th
 ## Assign a schedule to users
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li> 
  <li value="2">Select the user who you want to associate with a schedule.</li> 
  <li value="3">Click <span class="bold">Edit</span>.</li> 
  <li value="4">Click <span class="bold">Resource Planning</span>.</li> 

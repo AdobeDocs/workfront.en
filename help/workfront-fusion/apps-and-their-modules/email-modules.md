@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Email ac
 
 # Email modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
+In a Adobe Workfront Fusion scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
 
 ## Access requirements
 
@@ -22,27 +22,27 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Connect your email to `Workfront Fusion`
+## Connect your email to Workfront Fusion
 
 * [Connect to Google](#connecti4) 
 * [Connect to other email services (SMAP)](#connect)
@@ -73,7 +73,7 @@ SMAP connection allows you to access your mailbox remotely and read or manipulat
 
 ## Email modules and their fields
 
-When you configure email modules, `Workfront Fusion` displays the fields listed below. Along with these, additional email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure email modules, Workfront Fusion displays the fields listed below. Along with these, additional email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 Some of the email fields might already contain data because you used them in another module in the scenario. See the email help documentation if you need information about them.
 
@@ -101,7 +101,7 @@ Triggers when a new email is received for processing according to specified crit
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder </td> 
@@ -134,7 +134,7 @@ Triggers when a new email is received for processing according to specified crit
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of results</td> 
-   <td> <p> The maximum number of emails <span>Workfront Fusion</span> should return during one scenario execution cycle.</p> </td> 
+   <td> <p> The maximum number of emails Workfront Fusion should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -161,7 +161,7 @@ Sends a new email.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Save Message after Sending</td> 
@@ -250,7 +250,7 @@ Creates and adds a new draft to a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -298,7 +298,7 @@ Marks an email or a draft in a selected folder as read by setting the Read flag.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -321,7 +321,7 @@ Marks an email or a draft in a selected folder as unread by setting the Unread f
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -344,7 +344,7 @@ Moves a chosen email or a draft to a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source Folder</td> 
@@ -371,7 +371,7 @@ Copies an email or a draft into a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source Folder</td> 
@@ -398,7 +398,7 @@ Removes an email or a draft from the selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -425,7 +425,7 @@ Returns emails that match the specified criteria.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder </td> 
@@ -466,11 +466,11 @@ Returns emails that match the specified criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Email ID (UID)</td> 
-   <td> <p> Enter the Email ID (UID) of the email whose details you want to retrieve.</p> <p>You can get the UID of the email by using <span>Workfront Fusion</span>'s Watch Email module or Search Email module.</p> </td> 
+   <td> <p> Enter the Email ID (UID) of the email whose details you want to retrieve.</p> <p>You can get the UID of the email by using Workfront Fusion's Watch Email module or Search Email module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of results</td> 
-   <td> <p> The maximum number of emails <span>Workfront Fusion</span> should return during one scenario execution cycle.</p> </td> 
+   <td> <p> The maximum number of emails Workfront Fusion should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Continue the execution of the route even if the module returns no results</td> 

@@ -8,7 +8,7 @@ description: Some of the reasons to export data are:
 
 # Export data
 
-You can export `Adobe Workfront` data from various lists, reports, dashboards, and searches. 
+You can export Adobe Workfront data from various lists, reports, dashboards, and searches. 
 The information in this article does not apply to the following exports:
 
 * Exporting information from chart reports.  
@@ -22,12 +22,12 @@ The information in this article does not apply to the following exports:
 
 Some of the reasons to export data are:
 
-* You want to provide a hard copy of your data to someone outside of `Workfront`.
+* You want to provide a hard copy of your data to someone outside of Workfront.
 * You want to send the results of a report as an attachment to an external user.
-* You want to create an external back-up of your `Workfront` data.
-* There is a limit to display only 2,000 results on one page inside the `Workfront` web application. If your report produces more than 2,000, you can export the report to any of the&nbsp;below-mentioned formats and get view all the results in the report in one list.
+* You want to create an external back-up of your Workfront data.
+* There is a limit to display only 2,000 results on one page inside the Workfront web application. If your report produces more than 2,000, you can export the report to any of the&nbsp;below-mentioned formats and get view all the results in the report in one list.
 
-You can either export a report manually, from the `Workfront` interface, or you can schedule a delivery for a report and that report will be sent to you at a later time. For more information on scheduling delivered reports, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+You can either export a report manually, from the Workfront interface, or you can schedule a delivery for a report and that report will be sent to you at a later time. For more information on scheduling delivered reports, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Access requirements
 
@@ -40,16 +40,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to export reports</p> <p>View or higher access to the objects you view in a list to export the list</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to export reports</p> <p>View or higher access to the objects you view in a list to export the list</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -84,7 +84,7 @@ Information can be exported in the following formats:
 
 ### Export limits
 
-There are several limitations around the way reports display in `Workfront` as well as the way they export through a manual export, a delivered report, or through the API.
+There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
 
 <ul> 
  <li><span class="bold">50,000 rows:</span> The number of rows of data allowed in a report export for .pdf and Tab Delimited files.<br>For Excel .xls files, this limit is <span class="bold">65,000 rows</span>.<br>For Excel .xlsx files, this limit is <span class="bold">100,000 rows</span>.<br>These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.<br><note type="note">
@@ -109,7 +109,7 @@ If you attempt to export data beyond the limit, you might not receive all of the
 
 Additionally, reports that take longer than 60 minutes to run will be halted.
 
-If you have concerns or issues regarding your limit, please contact `Workfront` Technical Support.
+If you have concerns or issues regarding your limit, please contact Workfront Technical Support.
 
 ## Export data
 
@@ -124,7 +124,7 @@ If you have concerns or issues regarding your limit, please contact `Workfront` 
  <li value="3"> <p>Click <span class="bold">Export</span>, then select a format.</p> <note type="note">
    To export a Dashboard report, you must have a Plan license.
    <br>
-  </note> Or Click the Export icon , then select a format. <p>The options available to you for PDF export depend on the locale settings in your <span>Workfront</span> user settings:</p> 
+  </note> Or Click the Export icon , then select a format. <p>The options available to you for PDF export depend on the locale settings in your Workfront user settings:</p> 
   <ul> 
    <li>North America - letter (default), legal, ledger, A4<br><!--
     --></li> 
@@ -214,7 +214,7 @@ For example, the title may be:
 
 A report which is exported to a PDF file will have a title.
 
-If the report is exported to Excel, Excel (.xlsx) or Tab delimited formats, the exported report will not have a title. The title of the exported file is the name of the report as it appears in the `Workfront` web application.
+If the report is exported to Excel, Excel (.xlsx) or Tab delimited formats, the exported report will not have a title. The title of the exported file is the name of the report as it appears in the Workfront web application.
 
 If the report has a description, it will be included in the exported file.
 
@@ -249,7 +249,7 @@ For more information on how to customize formatting in a report, see [Use condit
 
 ### Links
 
-Links can point to any object in `Workfront` that supports linking. When you export a list in `Workfront` to .pdf, any supported links that exist in the original document remain live in the exported document.
+Links can point to any object in Workfront that supports linking. When you export a list in Workfront to .pdf, any supported links that exist in the original document remain live in the exported document.
 
 >[!TIP]
 >
@@ -268,8 +268,8 @@ When you export to an Excel format, only links to objects within Workfront are i
 
 ## Branding
 
-If your `Workfront administrator` has added customized branding to your `Workfront` instance for the Global Navigation Bar, the exported .pdf files also include your personalized logo.
+If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported .pdf files also include your personalized logo.
 
 Data which is exported in any other formats cannot be personalized with your logo.
 
-For more information about branding your `Workfront` instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).

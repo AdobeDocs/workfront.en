@@ -26,7 +26,7 @@ Prompts act as a customizable filter on reports which can be updated right befor
 
 You would build three prompts where the conditions are the criteria required and the report would look different every time you run it, according to which information you choose for your prompts.
 
-A filter can tell `Adobe Workfront` to show only those hours entered between June and August of this year. However, with a prompt, you can use a different time frame each time you run the report (for example, between January and February or October and December).
+A filter can tell Adobe Workfront to show only those hours entered between June and August of this year. However, with a prompt, you can use a different time frame each time you run the report (for example, between January and February or October and December).
 
 ## Access requirements
 
@@ -37,16 +37,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -104,14 +104,13 @@ To run a report with a prompt:
 
 ## Limitations of sharing prompted reports
 
-` `**Warning: **``When you share a prompted report outside `Workfront`, the user viewing the report must be logged in to `Workfront` to run the report using the prompt. If the user viewing the report is not logged in, all the results of the report display without applying the prompt.
+` `**Warning: **``When you share a prompted report outside Workfront, the user viewing the report must be logged in to Workfront to run the report using the prompt. If the user viewing the report is not logged in, all the results of the report display without applying the prompt.
 
-The following are limitations in sharing prompted reports from `Workfront`:
+The following are limitations in sharing prompted reports from Workfront:
 
-* When you share a report publicly users cannot run the report by applying the prompt, unless they have `Workfront` credentials and log in first to view the report in `Workfront`.
+* When you share a report publicly users cannot run the report by applying the prompt, unless they have Workfront credentials and log in first to view the report in Workfront.
 
   For more information about sharing reports, see the article [Share a report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
-
 * When you schedule a prompted report for delivery the report in the email attachment includes the data of the report umprompted. When the user clicks the link in the email to access the report, they must log in first to view the report and run the prompt themselves.
 
   For information about scheduling a delivered report, see [Schedule an automatic report delivery](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

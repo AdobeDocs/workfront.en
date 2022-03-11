@@ -9,7 +9,7 @@ description: Returns metadata for the files and folders returned from a search. 
 
 # Search via Document Webhooks
 
-Returns metadata for the files and folders returned from a search. This can be implemented as a full-text search or as a regular database query. `Adobe Workfront` calls the /search endpoint when the user performs a search from the external file browser.
+Returns metadata for the files and folders returned from a search. This can be implemented as a full-text search or as a regular database query. Adobe Workfront calls the /search endpoint when the user performs a search from the external file browser.
 
 ## URL
 
@@ -33,7 +33,7 @@ GET /search
   </tr> 
   <tr> 
    <td>parentId</td> 
-   <td> <p>(optional) The folder ID from which the search executed. Note: This is a placeholder for a future feature in <span>Workfront</span>. Currently, workfront does not pass this parameter.&nbsp;</p> </td> 
+   <td> <p>(optional) The folder ID from which the search executed. Note: This is a placeholder for a future feature in Workfront. Currently, workfront does not pass this parameter.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>max</td> 

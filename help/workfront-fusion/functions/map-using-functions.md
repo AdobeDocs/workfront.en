@@ -11,7 +11,7 @@ description: When you map items, you can use functions to create simple or compl
 
 When you map items, you can use functions to create simple or complex formulas.
 
-The functions available in `Adobe Workfront Fusion` are similar to functions in Excel and in some programming languages. They evaluate general logic, math, text, dates, and arrays. They let you perform conditional logic and transformations of item values, such as converting a text to uppercase, trimming text, converting a date into a different format, and more. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+The functions available in Adobe Workfront Fusion are similar to functions in Excel and in some programming languages. They evaluate general logic, math, text, dates, and arrays. They let you perform conditional logic and transformations of item values, such as converting a text to uppercase, trimming text, converting a date into a different format, and more. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ## Access requirements
 
@@ -22,25 +22,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Insert functions into fields
 
@@ -88,7 +88,7 @@ If Workfront Fusion does not feature a function you want to use, but it is featu
 
 <ol> 
  <li value="1">In Google Sheets, create a new empty spreadsheet.</li> 
- <li value="2">In <span>Workfront Fusion</span>, open your scenario.</li> 
+ <li value="2">In Workfront Fusion, open your scenario.</li> 
  <li value="3"> <p>Add the <span class="bold">Google Sheets </span>><span class="bold"> Update a cell</span> module to the scenario.</p> <p>For instructions on adding a module, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#add" class="MCXref xref">Add a module in a scenario</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </li> 
  <li value="4"> <p>Configure the module:<br></p> 
   <ol> 

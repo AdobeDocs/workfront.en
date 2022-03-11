@@ -8,7 +8,7 @@ description: You can schedule reports to be automatically delivered to users on 
 
 # Report delivery overview
 
-You can schedule reports to be automatically delivered to users on a defined schedule, or you can send reports on one-time basis, manually. When you send a report from `Adobe Workfront`, the user receives an email with the `Workfront` report in a separate attachment.
+You can schedule&nbsp;reports to&nbsp;be automatically delivered to users on a defined schedule, or you can send reports on one-time basis, manually. When you send a report from Adobe Workfront, the user receives an email with the Workfront report in a separate attachment.
 
 For information about setting up a report for delivery, see the article [Schedule an automatic report delivery](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
@@ -24,7 +24,7 @@ Consider the following when scheduling reports for delivery:
 
 ## Export limits
 
-There are several size limits that affect how reports display in `Workfront` and how they export through a manual export, a delivered report, or through the API:
+There are several size limits that affect how reports display in Workfront and how they export through a manual export, a delivered report, or through the API:
 
 * `5MB file size:`&nbsp;File size limit for any exported report scheduled for delivery.&nbsp;If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.&nbsp;
 
@@ -47,21 +47,21 @@ If you&nbsp;attempt to export data beyond the limit, you might&nbsp;not receive 
 
 Additionally, reports that take longer than 60 minutes to run will be halted.
 
-If you have concerns or issues regarding your limit, please contact `Workfront` Technical Support.
+If you have concerns or issues regarding your limit, please contact Workfront Technical Support.
 
 ## Understand time stamps on delivered reports
 
-When receiving a report in an email, the time stamp and time format on the report might not match those in `Workfront`, if you were to view the report in `Workfront` at the same time that it was delivered.&nbsp;
+When receiving a report in an email, the time stamp and time format on the report might not match those in Workfront, if you were to view the report in Workfront at the same time that it was delivered.&nbsp;
 
 Consider the following:&nbsp;
 
 * When viewing a report in the browser, the time stamp and format on the report matches the&nbsp;locale and the time zone of your browser, as defined in the settings of your browser.
-* When the report is delivered in an email, the report is delivered with the time stamp and format that matches the User Locale and Time Zone as they are specified in your `Workfront` profile.   
-  For more information about the User Locale and Time Zone in `Workfront`, see the article [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* When the report is delivered in an email, the report is delivered with the time stamp and format that matches the User Locale and Time Zone as they are specified in your Workfront profile.   
+  For more information about the User Locale and Time Zone in Workfront, see the article [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Reports with a special view
 
-When you apply a special view to a report, the special view displays in of the Details tab of the report in  `Workfront`.
+When you apply a special view to a report, the special view displays in of the Details tab of the report in&nbsp;Workfront.
 
 When you schedule the delivery of a report that has a special view, the default Details tab is delivered in the attachment of the sent email, instead of the special view.
 
@@ -79,7 +79,7 @@ For more information about how to apply a special view to a report, see the arti
 
 ## Use the delivered file
 
-When you send a report from `Workfront`, the user receives an email with the report in a separate attachment.&nbsp;
+&nbsp;When you send a report from Workfront, the user receives an email with the report in a separate attachment.&nbsp;
 
 * [Subject line, attachment name, and report title](#file-names-and-titles) 
 * [Timestamps](#timestamps) 
@@ -115,11 +115,11 @@ The timestamp includes:
 
 ### Branding
 
-If your `Workfront administrator` has added customized branding to your `Workfront` instance, the reports sent in .pdf format also include your personalized logo.
+If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
 Reports sent in all other formats cannot be personalized with your logo.
 
-For more information about branding your `Workfront` instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Formatting
 
@@ -134,7 +134,7 @@ For more information about selecting the default tab of a report and about speci
 
 ### Links
 
-When you send a report from `Workfront` to PDF or Excel format, any working links that exist in the original document remain live in the sent file. Links can point to any object in `Workfront` that supports linking.
+When you send a report from Workfront to&nbsp;PDF or Excel format, any working&nbsp;links that exist in the original document remain live in the sent file. Links can point to any object in Workfront that supports linking.
 
 The name of the report in the email message is also a link.
 

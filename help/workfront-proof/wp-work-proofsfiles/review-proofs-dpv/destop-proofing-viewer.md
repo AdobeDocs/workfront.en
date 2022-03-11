@@ -8,64 +8,64 @@ title: Understand the Desktop Proofing Viewer
 description: The Desktop Proofing Viewer is designed for proofing interactive content, but you can also use it to proof static and video content.
 ---
 
-# Understand the `Desktop Proofing Viewer`
+# Understand the Desktop Proofing Viewer
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-The `Desktop Proofing Viewer` is designed for `proofing` interactive content, but you can also use it to `proof` static and video content.&nbsp;
+The Desktop Proofing Viewer is designed for proofing interactive content, but you can also use it to proof static and video content.&nbsp;
 
-Unlike the `Web Proofing Viewer`, the `Desktop Proofing Viewer` is an application that runs on your workstation. However, you access it from `Workfront` or from `Workfront Proof` when you launch `proofs`, rather than running it as a standalone application (for more informationabout installing the `Desktop Proofing Viewer`, see [Install the Desktop Proofing Viewer with Automatic Updates](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).&nbsp;
+Unlike the Web Proofing Viewer, the Desktop Proofing Viewer is an application that runs on your workstation.&nbsp;However, you access it from Workfront or from Workfront Proof when you launch proofs, rather than running it as a standalone application (for more informationabout installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer with Automatic Updates](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).&nbsp;
 
-## Comparing the `Desktop Proofing Viewer` to Other Proofing Viewers
+## Comparing the Desktop Proofing Viewer to Other Proofing Viewers
 
 * [Desktop Proofing Viewer vs. Web Proofing Viewer](#desktop-proofing-viewer-vs-web-proofing-viewer) 
 * [Desktop Proofing Viewer vs. Legacy proofing viewer](#desktop-proofing-viewer-vs-legacy-proofing-viewer)
 
-### `Desktop Proofing Viewer` vs. `Web Proofing Viewer`
+### Desktop Proofing Viewer vs. Web Proofing Viewer
 
-Two main characteristics distinguish the `Desktop Proofing Viewer` from the `Web Proofing Viewer`:
+Two main characteristics distinguish the Desktop Proofing Viewer from the Web Proofing Viewer:
 
 <ul> 
- <li>The <span>Desktop Proofing Viewer</span> lets you review interactive content such as a website, a streaming video, or an interactive banner; the <span>Web Proofing Viewer</span> lets you review only static and video <span>proofs</span>. </li> 
- <li> <p>The <span>Desktop Proofing Viewer</span> runs on your local computer as an application; the <span>Web Proofing Viewer</span> runs in your browser.</p> <note type="note">  
+ <li>The Desktop Proofing Viewer lets you review interactive content such as a website, a streaming video, or an interactive banner; the Web Proofing Viewer lets you review only static and video proofs. </li> 
+ <li> <p>The Desktop Proofing Viewer runs on your local computer as an application; the Web Proofing Viewer runs in your browser.</p> <note type="note">  
    <ul> 
-    <li> If your organization cannot use the <span>Desktop Proofing Viewer</span> app for security reasons, your <span>Workfront administrator</span> can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the <span>Web Proofing Viewer</span>.</li> 
-    <li>Proof management tasks such as creating and browsing through <span>proofs</span> occur in <span>Workfront</span> or <span>Workfront Proof</span>. The <span>Desktop Proofing Viewer</span> is only for reviewing <span>proofs</span>.</li> 
+    <li> If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer.</li> 
+    <li>Proof management tasks such as creating and browsing through proofs occur in Workfront or Workfront Proof. The Desktop Proofing Viewer is only for reviewing proofs.</li> 
    </ul> 
   </note> </li> 
 </ul>
 
-For more information about the capabilities of the various `proofing` viewers,&nbsp;see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+For more information about the capabilities of the various proofing viewers,&nbsp;see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
-### `Desktop Proofing Viewer` vs. Legacy `proofing viewer`
+### Desktop Proofing Viewer vs. Legacy proofing viewer
 
-You might not have access to the Legacy `proofing viewer` because it is supported by Flash, which has been deprecated in most environments.
+You might not have access to the Legacy proofing viewer because it is supported by Flash, which has been deprecated in most environments.
 
-The `Desktop Proofing Viewer` includes the following enhancements over the Legacy `proofing viewer`:
+The Desktop Proofing Viewer includes the following enhancements over the Legacy proofing viewer:
 
 * Review unsecured (HTTP) sites, not just secure (HTTPS) sites.
 * Review iFrame-protected sites&nbsp;(sites that cannot be&nbsp;viewed within an iFrame). 
 * View content with preconfigured resolutions for various devices.   
   For example, you can see how content displays on various standard desktop resolutions, or on individual devices such as an iPhone 8.
 
-The Legacy `proofing viewer` will be removed from `Workfront` with the 2018.3 release at the end of the 2018 calendar year
+The Legacy proofing viewer will be removed from Workfront with the 2018.3 release at the end of the 2018 calendar year
 
 <!--
 (see Legacy proofing viewer removed in 2018.3)
 -->
 
-. The Legacy `proofing viewer` is not included for customers acquiring `Workfront` after the 2018.2 release in July 2018.
+. The Legacy proofing viewer is not included for customers acquiring Workfront after the 2018.2 release in July 2018.
 
-## User Setting for Opening Non-Interactive Proofs in the `Desktop Proofing Viewer`
+## User Setting for Opening Non-Interactive Proofs in the Desktop Proofing Viewer
 
-Though the main purpose of the `Desktop Proofing Viewer` is `proofing` interactive content, you can also use it to `proof` static and video `proofs`.
+Though the main purpose of the Desktop Proofing Viewer is proofing interactive content, you can also use it to proof static and video proofs.
 
-Users can configure the `Desktop Proofing Viewer` to launch automatically when they open `proofs` of all kinds, including static and video `proofs`. For more information, see [Configure proofing viewer settings](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Users can configure the Desktop Proofing Viewer to launch automatically when they open proofs of all kinds, including static and video proofs. For more information, see [Configure proofing viewer settings](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ## Entering a Proof URL
 
-If you launch the `Desktop Proofing Viewer` directly from your workstation, you can open a `proof` by specifying the `proof` URL. To do this, you must have `proof` URL of the `proof` you want to view.
+If you launch the Desktop Proofing Viewer directly from your workstation, you can open a proof by specifying the proof URL. To do this, you must have proof URL of the proof you want to view.
 
-We recommend that you open `proofs` directly from `Workfront`. For more information, see [Review a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+We recommend that you open proofs directly from Workfront. For more information, see [Review a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).

@@ -11,7 +11,7 @@ description: The 21.2 release was made available in the Production environment t
 
 The 21.2 release was made available in the Production environment the week of May 10, 2021.
 
-This page provides information about functionality for both `Adobe Workfront Classic` and `the new Adobe Workfront experience` that is included in the 21.2 release to help you unlock productivity and collaboration.
+This page provides information about functionality for both Adobe Workfront Classic and the new Adobe Workfront experience that is included in the 21.2 release to help you unlock productivity and collaboration.
 
 <!--
 [Marketing one-liner for the release]
@@ -31,7 +31,7 @@ These enhancements are currently available in the Preview environment and will b
 For specific release dates and times for each cluster, see the Workfront Status Site.
 -->
 
-## `Adobe Workfront` enhancements
+## Adobe Workfront enhancements
 
 * [Branding changes - Adobe Workfront](#branding) 
 * [Administrator enhancements](#administ) 
@@ -176,11 +176,11 @@ For specific release dates and times for each cluster, see the Workfront Status 
 
 &nbsp;
 
-## `Workfront Goals` enhancements
+## Workfront Goals enhancements
 
-Most new features coming to `Workfront Goals` release with the 21.2 release. For information about these new features now available in Preview, see Adobe Workfront Goals with the 21.2 release.
+Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see Adobe Workfront Goals with the 21.2 release.
 
-## `Workfront` `Scenario Planner` enhancements
+## Workfront Scenario Planner enhancements
 
 <!--
 There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.
@@ -188,9 +188,9 @@ There are no Scenario Planner updates at this point in the release. This area wi
 
 New features coming to Workfront Scenario Planner release with the 21.2 release. For information about these new features now available in Preview, see Adobe Workfront Scenario Planner with the 21.2 release.
 
-## `Workfront Fusion` enhancements
+## Workfront Fusion enhancements
 
-New features in `Workfront Fusion` are available in Production at a cadence outside of the 21.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+New features in Workfront Fusion are available in Production at a cadence outside of the 21.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
 ## API version 13
 

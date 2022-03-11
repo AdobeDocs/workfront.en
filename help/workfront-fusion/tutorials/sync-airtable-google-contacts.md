@@ -9,7 +9,7 @@ description: One of the many great features of Workfront Fusion is the ability t
 
 # Sync Airtable and Google contacts
 
-One of the many great features of `Workfront Fusion` is the ability to interconnect services. For example, you can use the steps below to connect Airtable to Google Contacts and synchronize a list of contacts between these services.
+One of the many great features of Workfront Fusion is the ability to interconnect services. For example, you can use the steps below to connect Airtable to Google Contacts and synchronize a list of contacts between these services.
 
 ## First: Add Google contacts
 
@@ -18,7 +18,7 @@ One of the many great features of `Workfront Fusion` is the ability to interconn
  <li value="2">Add the Google Contacts Watch contacts module. </li> 
  <li value="3"> <p>In this module, to the right of the Connection field, click <span class="bold">Add</span>.</p> <p>When you are prompted to name your connection, you can enter whatever name you want. We recommend using a name, such as your Google email, that reminds you which Google account is associated with the connection.</p> <p> <img src="assets/create-new-scenario-350x154.png" style="width: 350;height: 154;"> </p> </li> 
  <li value="4">Click <span class="bold">Save</span>.</li> 
- <li value="5">In the window that displays, select the Google account you want to use and approve access for <span>Workfront Fusion</span>.</li> 
+ <li value="5">In the window that displays, select the Google account you want to use and approve access for Workfront Fusion.</li> 
 </ol>
 
 ## Second: Add Airtable
@@ -33,7 +33,7 @@ One of the many great features of `Workfront Fusion` is the ability to interconn
 
 ## Third: Configure the scenario
 
-After the account has been linked to `Workfront Fusion`, you can continue setting up your scenario.
+After the account has been linked to Workfront Fusion, you can continue setting up your scenario.
 
 1. Select a table that will store your contacts.
 1. In the fields that display, click an option to fill them.

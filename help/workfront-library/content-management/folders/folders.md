@@ -1,6 +1,6 @@
 
 
-# Folders in `Workfront Library`
+# Folders in Workfront Library
 
 This section contains the following articles:
 

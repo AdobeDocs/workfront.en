@@ -50,7 +50,7 @@ Now when you restore a task or subtask after it is deleted, the task or subtask 
 
 Prior to this change, tasks and subtasks that were restored were always restored as the last task&nbsp;(either in the task list or beneath the parent task), regardless of the order they appeared prior to being deleted.
 
-For more information about restoring objects in `Workfront`, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+For more information about restoring objects in Workfront, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 `<iframe class="mt-media" src="assets/206629042?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`
 

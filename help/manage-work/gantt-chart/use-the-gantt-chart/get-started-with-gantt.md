@@ -8,7 +8,7 @@ description: In Adobe Workfront, there are two Gantt charts with similar functio
 
 # Get started with the Gantt Chart
 
-In `Adobe Workfront`, there are two Gantt charts with similar functionality:
+In Adobe Workfront, there are two Gantt charts with similar functionality:
 
 * The task list Gantt Chart: displays information about tasks at the project level and is editable.
 * The project list Gantt Chart: displays information about projects and is not editable.
@@ -17,7 +17,7 @@ Although they look and feel similar, the functionality of each one is different.
 
 ## Access the Gantt Chart
 
-The Gantt charts in `Workfront`provide a visual representation of a list of tasks or projects. You can view the task list Gantt Chart directly from the task list on a project or from a task report. You can view the project list Gantt Chart in a project list or a project report.
+The Gantt charts in Workfrontprovide a visual representation of a list of tasks or projects. You can view the task list Gantt Chart directly from the task list on a project or from a task report. You can view the project list Gantt Chart in a project list or a project report.
 
 * [Task list Gantt Chart](#project-gantt-chart-1) 
 * [Project list Gantt Chart](#project-list-gantt-chart-1)

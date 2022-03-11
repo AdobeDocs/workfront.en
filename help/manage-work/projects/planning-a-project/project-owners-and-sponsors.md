@@ -29,7 +29,7 @@ The following are possible using the Project Owner field:&nbsp;
  <li> <p>You can designate only one user as the Project&nbsp;Owner. </p> </li> 
  <li>You can designate Project Owners as the hours approver for the project.</li> 
  <li> <p>You can designate the Project Owner as a generic approver when defining project, task, or issue approvals processes. For information about approvals, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md" class="MCXref xref" xrefformat="{para}">Edit an approval process</a>. </p> <note type="important"> 
-   <p>When you assign an approval to the Project Owner and no one is designated as the owner of a project, the approval is reassigned to the main <span>Workfront administrator</span> as indicated in the Customer Info section in the Setup area. For information, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref" xrefformat="{para}">Configure basic information for your system</a>.</p> 
+   <p>When you assign an approval to the Project Owner and no one is designated as the owner of a project, the approval is reassigned to the main Workfront administrator as indicated in the Customer Info section in the Setup area. For information, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref" xrefformat="{para}">Configure basic information for your system</a>.</p> 
    <p>&nbsp;</p> 
    <p>&nbsp;</p> 
    <p> <br> </p> 
@@ -53,8 +53,7 @@ Consider the following when assigning a Project Sponsor:
 <ul> 
  <li> <p>You can designate only one Project Sponsor.</p> </li> 
  <li> <p>You can designate the Project Sponsor as a generic approver when defining project, task, or issue approvals processes. For information about approvals, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md" class="MCXref xref" xrefformat="{para}">Edit an approval process</a>. </p> <note type="important">
-   When you assign an approval to the Project Sponsor and no one is designated as the sponsor of a project, the approval is reassigned to the Project Owner. If no one is designated as the owner of the project, the approval is assigned to the 
-   <span>Workfront administrator</span>. 
+   When you assign an approval to the Project Sponsor and no one is designated as the sponsor of a project, the approval is reassigned to the Project Owner. If no one is designated as the owner of the project, the approval is assigned to the Workfront administrator. 
    <br>
   </note> </li> 
  <li> <p>You can display the Project&nbsp;Sponsor field in a report or list.</p> <p>You can also display the Project Sponsor field in a view, grouping, or prompt.</p> <p>For example, you can copy the following text mode expression into a filter to display projects sponsored by the logged in user:&nbsp;<code>sponsorID=$$USER.ID</code>&nbsp;</p> <p>For more information about creating reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref" xrefformat="{para}">Create a custom report</a>.</p> </li> 

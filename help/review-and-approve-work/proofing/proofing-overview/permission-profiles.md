@@ -8,9 +8,9 @@ title: Proof Permission Profile overview
 description: Proof Permission Profiles determine what overall permissions users have over all proofs in your account. Proof Permission Profiles are assigned to users in their User Profile. Proof Permission Profiles are different from proof roles. For more information about proof roles, see Proof Roles overview.
 ---
 
-# `Proof Permission Profile` overview
+# Proof Permission Profile overview
 
-`Proof Permission Profiles` determine what overall permissions users have over all `proofs` in your account. `Proof Permission Profiles` are assigned to users in their User Profile. `Proof Permission Profiles` are different from `proof` roles. For more information about proof roles, see [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Proof Permission Profiles determine what overall permissions users have over all proofs in your account. Proof Permission Profiles are assigned to users in their User Profile. Proof Permission Profiles are different from proof roles. For more information about proof roles, see [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -24,9 +24,9 @@ Consider the following about roles and permissions:
 Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the account settings and billing of those accounts from the hub account level. Billing Administrators and Administrators can delete users. This can only be done in Account settings. When Billing Administrators and Administrators view proofs that are owned by other users in their account, they view them with the role of a Reviewer. Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them.
 -->
 
-## `Proof Permission Profiles`
+## Proof Permission Profiles
 
-The following table displays the permissions available with each `Proof Permission Profile`.
+The following table displays the permissions available with each Proof Permission Profile.
 
 | `Own Items`  | `Other Users' Items`  | `Admin`  | `Billing`  |
 |---|---|---|---|
@@ -89,21 +89,21 @@ Administrators have access to&nbsp; [Account settings](https://support.workfront
    <td> 
     <ul> 
      <li> <p>Create proofs, upload files, and create folders</p> </li> 
-     <li> <p>View, edit, and delete <span>proofs</span> and files they created</p> </li> 
-     <li> <p>View, edit, and delete <span>proofs</span> and files created by all users in the organization</p> </li> 
+     <li> <p>View, edit, and delete proofs and files they created</p> </li> 
+     <li> <p>View, edit, and delete proofs and files created by all users in the organization</p> </li> 
      <li> <p>Delete the public&nbsp;folders of other Users</p> </li> 
-     <li> <p>Edit all <span>proofs</span> created in the account</p> </li> 
+     <li> <p>Edit all proofs created in the account</p> </li> 
      <li> <p>Be set as the Dropzone owner*</p> </li> 
      <li> <p>Access the&nbsp;Account Settings page and edit the account details</p> </li> 
      <li> <p>Empty the&nbsp;trash</p> </li> 
      <li> <p>Add, edit, and delete users</p> </li> 
      <li> <p>Create groups and add new contacts</p> </li> 
      <li> <p>Delete contacts</p> </li> 
-     <li> <p>Edit <span>proofs</span>&nbsp;if there are no replies on them</p> </li> 
+     <li> <p>Edit proofs&nbsp;if there are no replies on them</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Edit <span>proof</span> replies.</p> </li> 
+     <li> <p>Edit proof replies.</p> </li> 
      <li> <p>Delete the private&nbsp;folders of other Users</p> </li> 
      <li> <p>Access the&nbsp;Billing page or edit the billing details</p> </li> 
     </ul> </td> 
@@ -111,7 +111,7 @@ Administrators have access to&nbsp; [Account settings](https://support.workfront
  </tbody> 
 </table>
 
-&#42;Available only in the `Workfront Proof` standalone product.
+&#42;Available only in the Workfront Proof standalone product.
 
 ### Supervisor
 
@@ -129,17 +129,17 @@ Supervisors have the following permissions:
    <td> 
     <ul> 
      <li> <p>Create proofs, upload files, and create folders</p> </li> 
-     <li> <p>View, edit, and delete <span>proofs</span> and files they created</p> </li> 
-     <li> <p>View, edit, and delete <span>proofs</span> and files created by all users in the organization</p> </li> 
+     <li> <p>View, edit, and delete proofs and files they created</p> </li> 
+     <li> <p>View, edit, and delete proofs and files created by all users in the organization</p> </li> 
      <li> <p>Delete the public&nbsp;folders of other Users</p> </li> 
-     <li> <p>Edit all <span>proofs</span> created in the account</p> </li> 
+     <li> <p>Edit all proofs created in the account</p> </li> 
      <li> <p>Create groups and add new contacts</p> </li> 
      <li> <p>Delete contacts</p> </li> 
-     <li> <p>Edit <span>proofs</span>&nbsp;if there are no replies on them</p> </li> 
+     <li> <p>Edit proofs&nbsp;if there are no replies on them</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Edit <span>proof</span> replies.</p> </li> 
+     <li> <p>Edit proof replies.</p> </li> 
      <li> <p>Delete the private&nbsp;folders of other Users</p> </li> 
      <li> <p>Access the&nbsp;Billing page or edit the billing details</p> </li> 
      <li> <p>Add, edit, or delete users</p> </li> 
@@ -165,14 +165,14 @@ Managers have the following permissions:
    <td> 
     <ul> 
      <li> <p>Create proofs, upload files, and create folders</p> </li> 
-     <li> <p>View, edit, and delete <span>proofs</span> and files they created</p> </li> 
-     <li> <p>See, review, and approve <span>proofs</span> of other users that are explicitly shared with them (Read-only rights to everything in a shared folder)</p> </li> 
-     <li> <p>Edit all <span>proofs</span> created in the account</p> </li> 
+     <li> <p>View, edit, and delete proofs and files they created</p> </li> 
+     <li> <p>See, review, and approve proofs of other users that are explicitly shared with them (Read-only rights to everything in a shared folder)</p> </li> 
+     <li> <p>Edit all proofs created in the account</p> </li> 
      <li> <p>Create groups and add new contacts</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>View, edit, or delete <span>proofs</span> and files created by other users in the organization.&nbsp;</p> <p>Edit <span>proof</span> replies.</p> </li> 
+     <li> <p>View, edit, or delete proofs and files created by other users in the organization.&nbsp;</p> <p>Edit proof replies.</p> </li> 
      <li> <p>Delete the private&nbsp;or public folders of other Users</p> </li> 
      <li> <p>Access the&nbsp;Billing page or edit the billing details</p> </li> 
      <li> <p>Add, edit, or delete users</p> </li> 

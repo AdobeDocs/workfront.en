@@ -6,9 +6,9 @@ title: Keyboard shortcuts in the proofing viewer
 description: The keyboard shortcuts described in this article are available in both the Web Proofing Viewer and the Desktop Proofing Viewer.
 ---
 
-# Keyboard shortcuts in the `proofing viewer`
+# Keyboard shortcuts in the proofing viewer
 
-The keyboard shortcuts described in this article are available in both the `Web Proofing Viewer` and the `Desktop Proofing Viewer`.&nbsp;
+The keyboard shortcuts described in this article are available in both the Web Proofing Viewer and the Desktop Proofing Viewer.&nbsp;
 
 <table cellspacing="15"> 
  <tbody> 

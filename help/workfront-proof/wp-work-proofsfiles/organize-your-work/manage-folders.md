@@ -7,17 +7,17 @@ title: Manage Folders in Workfront Proof
 description: All of your folders are allocated in the left navigation sidebar on in the Folders tab. If a user from a different Workfront Proof account shares a folder with you (or shares proofs that are in a folder), the folder is also listed on the Folders tab.
 ---
 
-# Manage Folders in `Workfront Proof`
+# Manage Folders in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-All of your folders are allocated in the left navigation sidebar on in the Folders tab. If a user from a different `Workfront Proof` account shares a folder with you (or shares `proofs` that are in a folder), the folder is also listed on the Folders tab.&nbsp;
+All of your folders are allocated in the left navigation sidebar on in the Folders tab. If a user from a different Workfront Proof account shares a folder with you (or shares proofs that are in a folder), the folder is also listed on the Folders tab.&nbsp;
 
 ## Managing Folders From the Account Folders Page
 
-The Account folders page shows you all folders in your account (including folders that have been shared with you by users in other `Workfront Proof` accounts) and allows you to manage them with ease.
+The Account folders page shows you all folders in your account (including folders that have been shared with you by users in other Workfront Proof accounts) and allows you to manage them with ease.
 
 <ol> 
  <li value="1">Click <span class="bold">[Your account name] folders</span>&nbsp;in the left navigation sidebar.<br>This page shows the following information for each folder: 
@@ -47,18 +47,18 @@ The Account folders page shows you all folders in your account (including folder
  <li value="4">Select the checkbox for a single folder, then click the <span class="bold">More</span> (three dot) menu to the right to see the following additional options (depending on your level of access): 
   <ul>
    <li><span class="bold">View folder details</span>: Displays the Folder details page for that folder.</li>
-   <li><span class="bold">New <span>proof</span></span>: Displays the new <span>proof</span> page with the folder field automatically populated with the name of the selected folder.</li>
+   <li><span class="bold">New proof</span>: Displays the new proof page with the folder field automatically populated with the name of the selected folder.</li>
    <li><span class="bold">Upload file</span>: Displays the new file page, the folder field will be automatically populated with the name of the selected folder.</li>
    <li><span class="bold">New sub-folder</span>: Allows you to create a folder nested within the selected folder.</li>
    <li><span class="bold">Share</span>: Lets you add new people to the folder.</li>
-   <li><span class="bold">Excel summary</span>: Lets you download an Excel summary of the <span>proofs</span> in the folder.</li>
+   <li><span class="bold">Excel summary</span>: Lets you download an Excel summary of the proofs in the folder.</li>
    <li><span class="bold">Delete</span>: Moves the folder to the Trash.</li>
   </ul></li> 
 </ol>
 
 >[!NOTE]
 >
->When you delete a parent folder, all sub-folders, `proofs` and files within the folder are also deleted.
+>When you delete a parent folder, all sub-folders, proofs and files within the folder are also deleted.
 
 ## Managing a Folder from the Folder Details Page
 
@@ -72,7 +72,7 @@ The Account folders page shows you all folders in your account (including folder
   
   * Share the folder with other users.&nbsp;
   * Create a new subfolder.&nbsp;
-  * Request an Excel summary of the `proofs` in the folder.&nbsp;
+  * Request an Excel summary of the proofs in the folder.&nbsp;
   * Delete the folder.&nbsp;&nbsp;
 
 ## Renaming a Folder
@@ -82,7 +82,7 @@ The Account folders page shows you all folders in your account (including folder
 
 1. Click the folder name at the top of the page.&nbsp;
 1. Edit the name, then click outside of the box.   
-   `Workfront Proof` saves your changes automatically.
+   Workfront Proof saves your changes automatically.
 
 ## Changing a Public Folder to a Private Folder
 
@@ -99,7 +99,7 @@ You can delete a folder from the following locations:
 
 >[!NOTE]
 >
->When you delete a parent folder, all sub-folders, `proofs` and files within the folder move to the&nbsp; [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+>&nbsp;When you delete a parent folder, all sub-folders, proofs and files within the folder move to the&nbsp; [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 ### Deleting a Folder from the Account Folders Page
 

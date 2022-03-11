@@ -16,9 +16,8 @@ Sometimes, conflicts may appear if two users are making changes on the same task
 
 Consider the following when editing tasks in a task list:
 
-* `Adobe Workfront` saves the changes you make to tasks immediately when you select to save your changes automatically if the project Update Type is Automatic or Automatic or On Change. For information about the project Update Type, see [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
-
-* `Workfront` updates the information on the list you are working on every minute with changes that other users might make anywhere else in the system. This ensures that you always get the latest information on the tasks.
+* Adobe Workfront saves the changes you make to tasks immediately when you select to save your changes automatically if the project Update Type is Automatic or Automatic or On Change. For information about the project Update Type, see [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Workfront updates the information on the list you are working on every minute with changes that other users might make anywhere else in the system. This ensures that you always get the latest information on the tasks.
 
 The following scenarios exist when multiple users are editing the same tasks:
 
@@ -28,7 +27,7 @@ The following scenarios exist when multiple users are editing the same tasks:
 >
 >When you select to discard the changes you made, this applies to all the changes and not just to those that have conflicts with the edits made by another user.
 
-* `Several users are saving the changes in a task list manually`: If several users that are making changes to tasks in a list are saving manually at the same time, `Workfront` saves the changes made by the user who saves first. Saving these changes should not encounter any conflicts. `Workfront`then compares the changes made by all the other users with the information that it already saved and displays a warning about the conflicting changes to the other users before they can save their information.
+* `Several users are saving the changes in a task list manually`: If several users that are making changes to tasks in a list are saving manually at the same time, Workfront saves the changes made by the user who saves first. Saving these changes should not encounter any conflicts. Workfrontthen compares the changes made by all the other users with the information that it already saved and displays a warning about the conflicting changes to the other users before they can save their information.
 
 >[!IMPORTANT]
 >

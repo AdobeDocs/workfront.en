@@ -7,9 +7,9 @@ title: Compare proofs
 description: You can use the proofing viewer to compare two different proofs or two versions of the same proof.
 ---
 
-# Compare `proofs`
+# Compare proofs
 
-You can use the `proofing viewer` to compare two different `proofs` or two versions of the same `proof`.
+You can use the proofing viewer to compare two different proofs or two versions of the same proof.
 
 ## Access requirements
 
@@ -20,15 +20,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p>Current plan: <span>Review</span></p> <p>Legacy plan: <span>Review</span></p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current plan: Review</p> <p>Legacy plan: Review</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
+   <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -38,20 +38,19 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
-## Compare two different `proofs`
+## Compare two different proofs
 
-You can compare two `proofs` within any single document list, such as within the Documents tab in a project, task, issue, portfolio, or within the main Documents area .&nbsp;
+You can compare two proofs within any single document list, such as within the Documents tab in a project, task, issue, portfolio, or within the main Documents area .&nbsp;
 
 <ol> 
  <li value="1">Go to the document list that contains the two proofed documents you want to compare.</li> 
  <li value="2"> <p>Select the first document that you want to compare, then press and hold the Command key (on Mac) or the Ctrl key (on Windows) and select the second document that you want to compare.</p> <note type="note">
-   A 
-   <span>proof</span> must already be generated for each document that you select for comparison.
+   A proof must already be generated for each document that you select for comparison.
   </note> </li> 
  <li value="3"> <p>Click <span class="bold">Compare Proofs</span>.</p> <!--
    If this button is not visible, ensure that two proofed documents are selected.
-  -->  <p>Both <span>proofs</span> are displayed in the <span>proofing viewer</span> in a side-by-side view. You can review each document while comparing them.</p> <p>Separate breadcrumbs above each <span>proof</span> allow you to view and go to the work item associated with the <span>proof</span>:</p> <p> <img src="assets/compare-proofs-breadcrumbs-350x148.jpg" style="width: 350;height: 148;"> </p> <p>For information about the tools you can use to compare the two <span>proofs</span>, see&nbsp;<a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools" class="MCXref xref">Use the compare tools</a> in <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md" class="MCXref xref">Compare proofs in the proofing viewer</a>.</p> <h2><a name="Compare"></a>Compare two versions of the same <span>proof</span></h2> <p>For information about comparing two versions of the same <span>proof</span>, see <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions" class="MCXref xref">Compare proof versions</a> in <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md" class="MCXref xref">Compare proofs in the proofing viewer</a>.</p> </li> 
+  -->  <p>Both proofs are displayed in the proofing viewer in a side-by-side view. You can review each document while comparing them.</p> <p>Separate breadcrumbs above each proof allow you to view and go to the work item associated with the proof:</p> <p> <img src="assets/compare-proofs-breadcrumbs-350x148.jpg" style="width: 350;height: 148;"> </p> <p>For information about the tools you can use to compare the two proofs, see&nbsp;<a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools" class="MCXref xref">Use the compare tools</a> in <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md" class="MCXref xref">Compare proofs in the proofing viewer</a>.</p> <h2><a name="Compare"></a>Compare two versions of the same proof</h2> <p>For information about comparing two versions of the same proof, see <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions" class="MCXref xref">Compare proof versions</a> in <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md" class="MCXref xref">Compare proofs in the proofing viewer</a>.</p> </li> 
 </ol>
 

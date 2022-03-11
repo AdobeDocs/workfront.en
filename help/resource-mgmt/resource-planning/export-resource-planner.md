@@ -6,13 +6,13 @@ title: Export information from the Resource Planner
 description: You can export information from any view of the Resource Planner to an Excel (.xlsx) file which is saved on your computer.
 ---
 
-# Export information from the `Resource Planner`
+# Export information from the Resource Planner
 
-You can export information from any view of the `Resource Planner` to an Excel (.xlsx) file which is saved on your computer.
+You can export information from any view of the Resource Planner to an Excel (.xlsx) file which is saved on your computer.
 
 >[!IMPORTANT]
 >
->There are limitations in what information displays and what information you can export from the `Resource Planner`. For information on these limitations, see [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+>There are limitations in what information displays and what information you can export from the Resource Planner. For information on these limitations, see [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 ## Access requirements
 
@@ -23,16 +23,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> and higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro and higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Projects, Users, and Resource Management</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Projects, Users, and Resource Management</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,9 +41,9 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Export information from the `Resource Planner`<![CDATA[		]]>
+## Export information from the Resource Planner<![CDATA[		]]>
 
 <ol> 
  <li value="1"><![CDATA[
@@ -92,8 +92,8 @@ You must have the following:
    <li><span class="bold">Raw</span>: Select to display the availability and allocation information ungrouped by the objects it belongs to in the Excel file. (this is the default option)</li>
    <li><span class="bold">Grouped</span>: Select to display the availability and allocation information grouped by the objects it belongs to. This displays the exported information as it appears on the screen.</li>
   </ul>A sample of how the information looks in the exported file is shown in the Export Options dialog box.</li> 
- <li value="6"> Click <span class="bold">Export</span> to export the information from the <span>Resource Planner</span>.<br>Only the information that you saved is exported.<br></li> 
- <li value="7"> (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click <span class="bold">Save and Continue.</span> <br>An Excel (.xlsx) file is downloaded to your computer.<br>Exporting from the <span>Resource Planner</span> is unavailable while the file is prepared for downloading.<br>(Conditional) If you export a large amount of data, you receive an email with a link where you can download the file.<br><img src="assets/rp-eamil-with-exported-planner-attached-350x116.png" alt="RP_eamil_with_exported_planner_attached.png" style="width: 350;height: 116;"></li> 
- <li value="8">(Conditional) When you receive the email with the exported file, click <span class="bold">Download</span> to download the file.<br>This takes you back to <span>Workfront</span> where you can download the file. <br>You must be logged into <span>Workfront</span> for the download to complete.<br>If you do not download the file when it is delivered, the Download link remains active for 7 days after you initiate the export.</li> 
+ <li value="6"> Click <span class="bold">Export</span> to export the information from the Resource Planner.<br>Only the information that you saved is exported.<br></li> 
+ <li value="7"> (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click <span class="bold">Save and Continue.</span> <br>An Excel (.xlsx) file is downloaded to your computer.<br>Exporting from the Resource Planner is unavailable while the file is prepared for downloading.<br>(Conditional) If you export a large amount of data, you receive an email with a link where you can download the file.<br><img src="assets/rp-eamil-with-exported-planner-attached-350x116.png" alt="RP_eamil_with_exported_planner_attached.png" style="width: 350;height: 116;"></li> 
+ <li value="8">(Conditional) When you receive the email with the exported file, click <span class="bold">Download</span> to download the file.<br>This takes you back to Workfront where you can download the file. <br>You must be logged into Workfront for the download to complete.<br>If you do not download the file when it is delivered, the Download link remains active for 7 days after you initiate the export.</li> 
 </ol>
 

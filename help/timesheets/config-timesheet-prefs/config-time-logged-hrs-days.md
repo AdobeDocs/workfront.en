@@ -8,7 +8,7 @@ description: As a user with a Planner license, you can configure whether you log
 
 # Configure whether time is logged in hours or days
 
-As a user with a Planner license, you can configure whether you log time in `Adobe Workfront` in hours or days. System administrators can configure this setting for individual users or for multiple users in their organization. By default, users log time in hours. For information about how to log time in `Workfront`, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+As a user with a Planner license, you can configure&nbsp;whether you log time in Adobe Workfront in hours or days. System administrators can configure this setting for individual users or for multiple users in their organization. By default, users log time in hours. For information about how to&nbsp;log time in Workfront, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!NOTE]
 >
@@ -25,17 +25,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Planners can configure time for themselves. Only a Workfront administrator can configure time for other users. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <ol> 
  <li value="1">Do either of the following, depending on your objective and your access level in the system: 
@@ -52,18 +52,18 @@ You must have the following access to perform the steps in this article:
    <tbody>
     <tr>
      <td role="rowheader"><span class="bold">Hours:</span></td>
-     <td>Users specify hours when logging time in <span>Workfront</span>.</td>
+     <td>Users specify hours when logging time in Workfront.</td>
     </tr>
     <tr>
      <td role="rowheader"><span class="bold">Days:</span></td>
-     <td> Users specify days when logging time in <span>Workfront</span>.</td>
+     <td> Users specify days when logging time in Workfront.</td>
     </tr>
    </tbody>
   </table></li> 
  <li value="5"> <p>(Conditional) If you selected to log time in days, in the <span class="bold">Equivalent Hours for Full Workday</span> field, type the number of hours that equal a full day. One day on a user's timesheet is the equivalent of the number of hours you enter here.</p> <p>Consider the following when configuring this setting: </p> 
   <ul> 
    <li>This option is not available when configuring to log time in hours.</li> 
-   <li>This option is used only for the purpose of logging time. This option is not related to the <span class="bold">Schedule</span> option that is also available when editing a user. The <span class="bold">Schedule</span> option is used when calculating timelines and in other areas of <span>Workfront</span>. (For more information about using the <span class="bold">Schedule</span> option, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.)&nbsp;</li> 
+   <li>This option is used only for the purpose of logging time. This option is not related to the <span class="bold">Schedule</span> option that is also available when editing a user. The <span class="bold">Schedule</span> option is used when calculating timelines and in other areas of Workfront. (For more information about using the <span class="bold">Schedule</span> option, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.)&nbsp;</li> 
   </ul> </li> 
  <li value="6">Click <span class="bold">Save Changes</span>.</li> 
 </ol>

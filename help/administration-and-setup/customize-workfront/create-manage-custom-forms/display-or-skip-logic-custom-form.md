@@ -21,13 +21,13 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## Considerations for using display logic and skip logic
 
@@ -53,7 +53,7 @@ You must have the following to perform the steps in this article:
 ## Create a sample custom form that has display logic
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
  <li value="2"> In the left panel, click <span class="bold">Custom Forms</span> <img src="assets/custom-forms-icon.png">. </li> 
  <li value="3">Create the sample custom form:
   <ol>
@@ -81,7 +81,7 @@ To learn about skip logic on custom forms, continue working on the sample custom
 
 <ol> 
  <li value="1"><![CDATA[
-          ]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+          ]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
  <li value="2"> Click <span class="bold">Custom Forms</span>. </li> 
  <li value="3">Select the form <span class="bold">Sample custom form - Learning display logic and skip logic</span> that you created in the steps above, then click <b>Edit</b>. </li> 
  <li value="4"> Select the drop-down field you created named "Issue field." </li> 

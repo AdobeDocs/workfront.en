@@ -6,7 +6,7 @@ title: Perform 'what-if' scenarios in the Workload Balancer
 description: This is a long-term goal; functionality not mapped yet. This is a placeholder for now.
 ---
 
-# Perform 'what-if' scenarios in the `Workload Balancer`
+# Perform 'what-if' scenarios in the Workload Balancer
 
 This is a long-term goal; functionality not mapped yet. This is a placeholder for now.
 

@@ -9,7 +9,7 @@ description: The Scrum agile story board displays together with the completion s
 
 # Scrum board overview
 
-The Scrum agile story board displays together with the completion status and the burndown chart. These agile components are available in the following situations in `Adobe Workfront`:
+The Scrum agile story board displays together&nbsp;with the completion status and the burndown chart. These agile components are available in the following situations in Adobe Workfront:
 
 * On agile iterations. For more details about using the agile story board, burndown chart, and completion status in a pure agile environment (with backlogs and an iteration), see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 * When viewing a project in an agile view. For information about how you can leverage the agile story board, burndown chart, and completion status&nbsp;within an existing project, see [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

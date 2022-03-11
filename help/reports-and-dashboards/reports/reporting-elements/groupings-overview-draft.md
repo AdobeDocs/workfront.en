@@ -7,7 +7,7 @@ title: Groupings overview in Adobe Workfront (draft)
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Groupings overview in  `Adobe Workfront` 
+# Groupings overview in&nbsp;Adobe Workfront 
 
 <!--
 (draft)
@@ -27,7 +27,7 @@ You can create a grouping using the standard builder or beta builder interface i
 
 For information about creating a grouping using the builder interface, see [Create groupings](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-## Understand groupings in `Adobe Workfront`
+## Understand groupings in Adobe Workfront
 
 By default, the grouping name appears highlighted in&nbsp;your report or list. The results of the report or list are listed under their individual grouping, with no highlight.
 
@@ -38,7 +38,7 @@ In a grouping, the first grouping is darker gray and the second and third groupi
 Consider the following when working with groupings:
 
 * You can customize the information in existing groupings. All users who can view the groupings can also see your changes.
-* Your `Workfront administrator` must grant you access to edit filters, views, and groupings to create groupings.
+* Your Workfront administrator must grant you access to edit filters, views, and groupings to create groupings.
 
   For information about granting access, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
@@ -76,8 +76,7 @@ Groupings cannot be sorted. Views can be sorted. In order to sort&nbsp;a list by
 
 How you remove a grouping&nbsp;depends on whether you initially created the grouping,&nbsp;or the grouping&nbsp;was shared with you.&nbsp;You cannot remove&nbsp;a default grouping.
 
-* `If you created the grouping and you remove it`, the grouping is removed from the `Workfront` system. The grouping&nbsp;is no longer available to any users who you previously shared it with.
-
+* `If you created the grouping and you remove it`, the grouping&nbsp;is removed from the Workfront system. The grouping&nbsp;is no longer available to any users who you previously shared it with.
 * `If the grouping was shared with you and you remove it`, the grouping&nbsp;is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
 
 For information about removing a grouping, see the article [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

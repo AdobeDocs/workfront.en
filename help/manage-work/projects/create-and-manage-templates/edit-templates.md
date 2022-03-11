@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Templates</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to templates, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Templates</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to templates, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Edit a template
 
@@ -100,16 +100,16 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader"><span class="bold">Schedule From</span></td> 
       <td><p>Specify whether the project using this template is scheduled from the <span class="bold">Start Date</span>, or from the <span class="bold">Completion Date</span>. This selection determines the planned dates of the future tasks on the project using this template. </p><p>Select from the following: </p> 
        <ul> 
-        <li><p><span class="bold">Schedule From Start Date</span>: The Start Date of the template is actually the Start Day. When you schedule a template from Start Date, <span>Adobe Workfront</span> calculates the Completion Day of the template based on the Duration of all the template tasks. The Start Day of the template becomes the Planned Start Date of the future project.</p></li> 
-        <li><p><span class="bold">Schedule from Completion Date</span>: The Completion Date of the template is actually the Completion Day. When you schedule a template from Completion Date, <span>Workfront</span> calculates the Start Day of the template based on the Duration of all the template tasks. The Completion Day of the template becomes the Planned Completion Date of the future project. </p></li> 
-       </ul><p>For more information about the Start and Completion Days of template tasks, see <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Overview of Start and Completion Days in a template</a>. </p><p>The Schedule From setting for templates is similar to that of projects. Your <span>Workfront administrator</span> selects the default Schedule From setting for the projects in your system. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></td> 
+        <li><p><span class="bold">Schedule From Start Date</span>: The Start Date of the template is actually the Start Day. When you schedule a template from Start Date, Adobe Workfront calculates the Completion Day of the template based on the Duration of all the template tasks. The Start Day of the template becomes the Planned Start Date of the future project.</p></li> 
+        <li><p><span class="bold">Schedule from Completion Date</span>: The Completion Date of the template is actually the Completion Day. When you schedule a template from Completion Date, Workfront calculates the Start Day of the template based on the Duration of all the template tasks. The Completion Day of the template becomes the Planned Completion Date of the future project. </p></li> 
+       </ul><p>For more information about the Start and Completion Days of template tasks, see <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Overview of Start and Completion Days in a template</a>. </p><p>The Schedule From setting for templates is similar to that of projects. Your Workfront administrator selects the default Schedule From setting for the projects in your system. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Condition Type</span></td> 
       <td><p>Select between the following Condition Types:</p> 
        <ul> 
         <li><span class="bold">Manual:</span> The project owner sets the Condition of the project on the project manually. <span class="bold"><br></span></li> 
-        <li><span class="bold">Progress Status:</span> <span>Workfront</span> automatically sets the Condition of the future project based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
+        <li><span class="bold">Progress Status:</span> Workfront automatically sets the Condition of the future project based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
        </ul></td> 
      </tr> 
      <tr> 
@@ -121,11 +121,11 @@ You must have the following access to perform the steps in this article:
         <li><p><span class="bold">Normal</span></p></li> 
         <li><p><span class="bold">High</span></p></li> 
         <li><p><span class="bold">Urgent</span></p></li> 
-       </ul><p><p>Depending on the Project Preferences selected by your <span>Workfront administrator</span>, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
+       </ul><p><p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Template Owner</span></td> 
-      <td><p>The user who is designated as the Template Owner must be a <span>Workfront</span> active user. </p><p>Consider the following about the user designated as the Template Owner: </p> 
+      <td><p>The user who is designated as the Template Owner must be a Workfront active user. </p><p>Consider the following about the user designated as the Template Owner: </p> 
        <ul> 
         <li>They are automatically given Manage permissions to the template. </li> 
         <li>They are added to the project team and are automatically given Manage permissions to the project created from the template. </li> 
@@ -134,7 +134,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Template Sponsor</span></td> 
-      <td><p>The user specified in this field becomes the Project Sponsor, when the template is added to the project. This user is added to the project team and is automatically given view permissions to the project. The user who is designated as the Template Sponsor must be a <span>Workfront</span> active user. </p></td> 
+      <td><p>The user specified in this field becomes the Project Sponsor, when the template is added to the project. This user is added to the project team and is automatically given view permissions to the project. The user who is designated as the Template Sponsor must be a Workfront active user. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Resource Manager</span></td> 
@@ -287,7 +287,7 @@ You must have the following access to perform the steps in this article:
      <td> <p>Select from the following options:<br></p> 
       <ul> 
        <li> <p><span class="bold">Manual</span>: you must manually level your resources on the project created from this template (this is the default setting)</p> </li> 
-       <li> <p><span class="bold">Automatic:</span> <span>Workfront</span> levels the resources on the future project. <br>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>. </p> </li> 
+       <li> <p><span class="bold">Automatic:</span> Workfront levels the resources on the future project. <br>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>. </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -309,7 +309,7 @@ You must have the following access to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Approval Process</span> </td> 
-     <td> <p>Select the approval process you want to associate with the template. Your <span>Workfront administrator</span> or a user with administrative access to Approval Processes must define system-level or group-level project approval processes before you can associate them with a template. For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
+     <td> <p>Select the approval process you want to associate with the template. Your Workfront administrator or a user with administrative access to Approval Processes must define system-level or group-level project approval processes before you can associate them with a template. For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
       <ul> 
        <li>Only active approval processes display in the list. </li> 
        <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the template does not display in the list.</p> <note type="important">
@@ -410,8 +410,8 @@ For information about how these settings affect creating new tasks, see [Create 
  <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Tasks</span>.</p>  </li> 
  <li value="3"> <p>In the <span class="bold">Task Default Approval Process</span> box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Creating Approval Processes</a>.</p> </li> 
  <li value="4"> <p>In the <span class="bold">Task Default Custom Forms</span> box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md">Creating Custom Forms</a>. You can associate up to ten custom forms with a task.</p> </li> 
- <li value="5"> <p>(Optional) <b>Select Use Work Effort to automatically calculate task Planned Hours</b> if you want to enable managing task effort by using&nbsp;<span>Work Effort</span> instead of Planned Hours in the project created from the template.</p> </li> 
- <li value="6"> <p>(Conditional and optional) If you selected Use <span>Work Effort</span> to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of <span>Work Effort</span>. The following percentage values are the defaults:</p> 
+ <li value="5"> <p>(Optional) <b>Select Use Work Effort to automatically calculate task Planned Hours</b> if you want to enable managing task effort by using&nbsp;Work Effort instead of Planned Hours in the project created from the template.</p> </li> 
+ <li value="6"> <p>(Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -429,7 +429,7 @@ For information about how these settings affect creating new tasks, see [Create 
      <td>75%</td> 
     </tr> 
    </tbody> 
-  </table> <p>For information about using <span>Work Effort</span> to manage the effort on tasks on projects, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>.</p> </li> 
+  </table> <p>For information about using Work Effort to manage the effort on tasks on projects, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>.</p> </li> 
  <li value="7"> <p>(Optional) Continue editing the following section, depending on the information you want to modify.</p> <p>Or</p> <p>Click <span class="bold">Save Changes</span>.</p> </li> 
 </ol>
 

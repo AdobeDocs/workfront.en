@@ -8,7 +8,7 @@ description: As a regular user, you can uninstall the Zoom integration in your o
 
 # Uninstall the Zoom integration
 
-As a regular user, you can uninstall the Zoom integration in your own personal instance of `Adobe Workfront`.
+As a regular user, you can uninstall the Zoom integration in your own personal instance of Adobe Workfront.
 
 ## Access requirements
 
@@ -19,11 +19,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
    Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
@@ -33,11 +33,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-Your `Workfront administrator` must enable the Zoom integration before you can use it.
+Your Workfront administrator must enable the Zoom integration before you can use it.
 
 You must have installed the Zoom integration before you can uninstall it.
 
@@ -50,4 +50,4 @@ You must have installed the Zoom integration before you can uninstall it.
 
 For information about this integration, see [Zoom integration overview](../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md).
 
-For information about how your `Workfront administrator` enables this integration for your organization, see [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).
+For information about how your Workfront administrator enables this integration for your organization, see [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).

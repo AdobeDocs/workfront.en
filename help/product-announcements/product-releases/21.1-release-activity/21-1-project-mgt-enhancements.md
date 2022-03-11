@@ -9,9 +9,9 @@ description: This page describes all Project Management enhancements made with t
 
 # 21.1 Project Management enhancements
 
-This page describes all `Project Management` enhancements made with the `21.1` release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
+This page describes all Project Management enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 
-For a list of all changes available with the `21.1` release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+For a list of all changes available with the 21.1 release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Export now available in Metrics section on a project
 

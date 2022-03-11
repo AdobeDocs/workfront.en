@@ -19,11 +19,10 @@ For instructions on how to view and manage these notifications, see [View and ma
 
 `<li>Announcements come in one of two ways:</li>`
 
-* `Workfront` sends a message to the Announcement page of your organization's `Workfront administrators`  
+* Workfront sends a message to the Announcement page of your organization's Workfront administrators  
+* A Workfront administrator sends a message to users from the Announcement page
 
-* A `Workfront administrator` sends a message to users from the Announcement page
-
-In both cases, when the administrator or user clicks the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of `Workfront` to open their list of notifications, the subject line of the message displays with a megaphone icon ![](assets/announcement.png) and the word "Announcement."
+In both cases, when the administrator or user clicks the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open their list of notifications, the subject line of the message displays with a megaphone icon ![](assets/announcement.png) and the word "Announcement."
 
 ![](assets/notification-list-announcement-350x408.jpg)
 
@@ -31,13 +30,13 @@ For information about the Announcements page, see [View and manage in-app notifi
 
 ## Work item notifications
 
-When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of `Workfront` to open your list of notifications, the subject line of the work item message displays with an icon and brief description to identify what it's about. The icon and description types are listed below.
+When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications, the subject line of the work item message displays with an icon and brief description to identify what it's about. The icon and description types are listed below.
 
 ![](assets/notification-list-work-items-350x263.jpg)
 
 >[!NOTE]
 >
->In-app notifications for work activities are not tied to email notifications in `Workfront`. For more information, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
+>In-app notifications for work activities&nbsp;are not tied to email notifications in Workfront. For more information, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * [Approvals](#approval) 
 * [Requests](#requests) 

@@ -12,10 +12,7 @@ In order to understand how extensively reports are used in your system you can v
 
 <ul> 
  <li>Last 10 users who viewed the report</li> 
- <li>View count within a specified time frame<br><note type="note"> 
-   <span>Adobe Workfront</span> counts one view per user per day. If you access the same report several times a day 
-   <span>Workfront</span> counts this as one view for that report for you. If the same report is accessed by another user in the same day, 
-   <span>Workfront</span> counts this as a new view for the second user.
+ <li>View count within a specified time frame<br><note type="note"> Adobe Workfront counts one view per user per day. If you access the same report several times a day Workfront counts this as one view for that report for you. If the same report is accessed by another user in the same day, Workfront counts this as a new view for the second user.
   </note></li> 
  <li>Last Viewed Date</li> 
  <li>Last Viewed By User</li> 
@@ -35,16 +32,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -53,7 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Display report usage information in the View of a report list
 
@@ -117,14 +114,14 @@ You must have the following access to perform the steps in this article:
 The following are some exceptions to be aware of when working with report usage information:
 
 * Every time a report is displayed on a dashboard or a custom tab, it is counted as one view. The user who is displaying that report on their dashboard is displayed as the Last View By: Name user, and the date on which the dashboard was displayed is displayed as the Last Viewed On date.
-* `Workfront` does not collect usage information for built-in reports.  
-  For more information about `Workfront` built-in reports, see the article [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+* Workfront does not collect usage information for built-in reports.  
+  For more information about Workfront built-in reports, see the article [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
-* `Workfront` does not collect usage information on delivered reports. A delivered report does not count as one view.  
+* Workfront does not collect usage information on delivered reports. A delivered report does not count as one view.  
   For more information about delivered reports, see the article [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 * When a system or group administrator logs in as another user, the views are counted for and associated with the system or group administrator.
-* `Workfront` does not collect usage information for reports by custom quarters. Only the standard built-in quarters are referenced in the report usage fields.
-* `Workfront` does not collect usage information for reports that are shared and viewed publicly. When a public report is viewed by someone without logging into `Workfront`, the report views are not counted.  
+* Workfront does not collect usage information for reports by custom quarters. Only the standard built-in quarters are referenced in the report usage fields.
+* Workfront does not collect usage information for reports that are shared and viewed publicly. When a public report is viewed by someone without logging into Workfront, the report views are not counted.  
   For more information about sharing reports, see the article [Share a report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 

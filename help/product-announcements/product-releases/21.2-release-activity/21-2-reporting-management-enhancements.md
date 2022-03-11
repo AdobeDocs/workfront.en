@@ -9,7 +9,7 @@ description: This page describes all Reporting enhancements made with the 21.2 r
 
 # 21. 2 Reporting enhancements
 
-This page describes all `Reporting` enhancements made with the `21.2` release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the `21.2` release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+This page describes all Reporting enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Restrict hour editing in projects and reports
 
@@ -23,7 +23,7 @@ For more information, see [Configure timesheet and hour preferences](../../../ad
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 To match the modern look of other areas in the new Workfront experience, the styling has changed for the Assignments field in updated lists and reports. This redesign includes:
 
@@ -46,7 +46,7 @@ For more information on assignments in lists, see Assign tasks or Assign issues.
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 To match the modern look of other areas in the new Workfront experience, the styling has changed for typeahead fields in updated lists and reports. These changes include:
 

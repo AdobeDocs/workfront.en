@@ -7,7 +7,7 @@ title: Create goals in the new Adobe Workfront experience
 description: IS THIS STILL NEEDED OR IS THE CREATE AND ACTIVATE (NEW) ARTICLE ENOUGH??
 ---
 
-# Create goals in `the new Adobe Workfront experience`
+# Create goals in the new Adobe Workfront experience
 
 <!--
 IS THIS STILL NEEDED OR IS THE CREATE AND ACTIVATE (NEW) ARTICLE ENOUGH??

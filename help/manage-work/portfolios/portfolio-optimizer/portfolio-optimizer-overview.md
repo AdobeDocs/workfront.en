@@ -61,7 +61,7 @@ The following financial fields display in the Portfolio Optimizer:
 
 #### `Portfolio header`
 
-`Adobe Workfront` calculates the financial fields in the portfolio header using information from projects with statuses that equate only with Approved or Current.
+Adobe Workfront calculates the financial fields in the portfolio header using information from projects with statuses that equate only with Approved or Current.
 
 <table cellspacing="15"> 
  <col> 

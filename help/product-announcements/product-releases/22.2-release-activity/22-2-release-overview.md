@@ -2,7 +2,7 @@
 
 # 22.2 Release overview
 
-This page provides information about functionality that is included in the 22.2 release. All features listed are available in `the new Adobe Workfront experience`. Some features are also available in `Adobe Workfront Classic`; however, [Workfront Classic will be discontinued in March 2022](https://one.workfront.com/s/new-workfront-experience), followed shortly by the end-of-life date for Workfront Classic in July 2022.
+This page provides information about functionality that is included in the 22.2 release. All features listed are available in the new Adobe Workfront experience. Some features are also available in Adobe Workfront Classic; however, [Workfront Classic will be discontinued in March 2022](https://one.workfront.com/s/new-workfront-experience), followed shortly by the end-of-life date for Workfront Classic in July 2022.
 
 <!--
 to help you unlock productivity and collaboration.
@@ -32,7 +32,7 @@ These enhancements have been made available in the Production environment the we
 These enhancements are currently available in the Preview environment and will be made available in the Production environment later this year. the week of January 17, 2022, unless otherwise specifiedthe week of May 10, 2021. For specific release dates and times for each cluster, see the Adobe Workfront status page on status.adobe.com. You must log in to see specific release times.
 -->
 
-## `Adobe Workfront` enhancements
+## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administ) 
 * [Project enhancements](#project) 
@@ -91,29 +91,29 @@ These enhancements are currently available in the Preview environment and will b
  </tbody> 
 </table>
 
-## `Workfront Fusion` enhancements
+## Workfront Fusion enhancements
 
-New features in `Workfront Fusion` are available in Production at a cadence outside of the 22.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the 22.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-## `Workfront` `Scenario Planner` enhancements
+## WorkfrontScenario Planner enhancements
 
-There are no `Scenario Planner` updates at this point in the release. This area will be updated when updates are available.
+There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.
 
 <!--
 New features are coming to Workfront Scenario Planner release with the 21.4 release. For information about these new features now available in Preview, see Adobe Workfront Scenario Planner release activity.
 -->
 
-## `Workfront Proof` enhancements
+## Workfront Proof enhancements
 
-There are no `Workfront Proof` updates at this point in the release. This area will be updated when updates are available.
+There are no Workfront Proof updates at this point in the release. This area will be updated when updates are available.
 
 <!--
 New features in Workfront Proof are now available. For more information, see Workfront Proof release activity: Week of November 29, 2021.
 -->
 
-## `Workfront Goals` enhancements
+## Workfront Goals enhancements
 
-There are no `Workfront Goals` updates at this point in the release. This area will be updated when updates are available.
+There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
 
 <!--
 Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see Adobe Workfront Goals with the 21.2 release.
@@ -133,7 +133,7 @@ For information about the maintenance updates made during the 22.2 release, see 
 
 ## 22.1 Release Webinar
 
-The `Workfront` 22.2 Release Webinar has not yet been scheduled. This area will be updated as more information becomes available. 
+The Workfront 22.2 Release Webinar has not yet been scheduled. This area will be updated as more information becomes available. 
 
 <!--
 was presented on January 12, 2022. You can view the webinar recording on the Events page on Workfront One.
@@ -145,7 +145,7 @@ Functionality being removed from Production Feature rollback: Carry over the exi
 
 ## Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each `Adobe Workfront` product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
 
 ## Functionality no longer supported
 

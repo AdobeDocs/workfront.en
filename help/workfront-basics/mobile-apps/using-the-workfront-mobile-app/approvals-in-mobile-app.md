@@ -6,9 +6,9 @@ title: Approvals in the Adobe Workfront mobile app
 description: You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app. From the approvals area, you can approve:
 ---
 
-# Approvals in the `Adobe Workfront` mobile app
+# Approvals in the Adobe Workfront mobile app
 
-You can manage approvals assigned or delegated to you from the Approvals area in the `Adobe Workfront` mobile app. From the approvals area, you can approve:
+You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app. From the approvals area, you can approve:
 
 <table> 
  <col> 
@@ -19,7 +19,7 @@ You can manage approvals assigned or delegated to you from the Approvals area in
     <ul> 
      <li>Work (Tasks and Issues)</li> 
      <li>Documents</li> 
-     <li><span>Proofs</span> </li> 
+     <li>Proofs </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -30,7 +30,7 @@ You can manage approvals assigned or delegated to you from the Approvals area in
  </tbody> 
 </table>
 
-`Proofs` follow a separate approval process. You cannot approve a proof from a work item or document approval. For information on reviewing and approving `proofs`, see [Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Proofs follow a separate approval process. You cannot approve a proof from a work item or document approval. For information on reviewing and approving proofs, see [Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Review an approval
 

@@ -8,7 +8,7 @@ title: Adobe Workfront testing environments
 description: This section contains the following articles:
 ---
 
-# `Adobe Workfront` testing environments
+# Adobe Workfront testing environments
 
 This section contains the following articles:
 

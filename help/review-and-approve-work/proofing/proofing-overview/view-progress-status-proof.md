@@ -6,13 +6,13 @@ title: Proof progress and status overview
 description: You can view information about how a proof is progressing through the review process and see an overall summary of the proof's decision status from the Documents area.
 ---
 
-# `Proof` progress and status overview
+# Proof progress and status overview
 
-You can view information about how a `proof` is progressing through the review process and see an overall summary of the proof's decision status from the Documents area.
+You can view information about how a proof is progressing through the review process and see an overall summary of the proof's decision status from the Documents area.
 
-## `Proof` progress overview
+## Proof progress overview
 
-Proof progress indicates the work done on a `proof` from the time you send the `proof` to recipients to the time they make a decision on the `proof`. The progress icons, S, O, C, and D, appear next to the `proof` name and provide information about the proof's progress.
+Proof progress indicates the work done on a proof from the time you send the proof to recipients to the time they make a decision on the proof. The progress icons, S, O, C, and D, appear next to the proof name and provide information about the proof's progress.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -28,24 +28,24 @@ Proof progress indicates the work done on a `proof` from the time you send the `
  <tbody> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><span class="bold">Sent</span> </p> </td> 
-   <td> <p>The <span>proof</span> has been sent to assigned recipients.</p> </td> 
+   <td> <p>The proof has been sent to assigned recipients.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="bold"><img src="assets/proof-progress-opened-icon.png" alt=""></span> </p> <p><span class="bold">Opened&nbsp;</span> </p> </td> 
-   <td> <p>All assigned recipients open&nbsp;the <span>proof</span> or Proof details page.</p> </td> 
+   <td> <p>All assigned recipients open&nbsp;the proof or Proof details page.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="bold"><img src="assets/proof-progress-comment-icon.png" alt=""></span> </p> <p><span class="bold">Comments made</span> </p> </td> 
-   <td> <p>All assigned recipients make at least one comment on the <span>proof</span>.</p> <p>If there are no reviewers&nbsp;assigned to the <span>proof</span>, the <span class="bold">C</span>&nbsp;icon does not appear in the progress bar.</p> </td> 
+   <td> <p>All assigned recipients make at least one comment on the proof.</p> <p>If there are no reviewers&nbsp;assigned to the proof, the <span class="bold">C</span>&nbsp;icon does not appear in the progress bar.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><span class="bold">Decision made</span> </p> </td> 
-   <td> <p>All assigned approvers make a decision on the <span>proof</span>, All assigned approvers make a decision on the proof, unless the proof creator specifies only one decision is needed.</p> <p>If there are no approvers (decision makers) designated for&nbsp;the <span>proof</span>,&nbsp;the <span class="bold">D</span>&nbsp;icon does not appear in the progress bar.&nbsp;</p> </td> 
+   <td> <p>All assigned approvers make a decision on the proof, All assigned approvers make a decision on the proof, unless the proof creator specifies only one decision is needed.</p> <p>If there are no approvers (decision makers) designated for&nbsp;the proof,&nbsp;the <span class="bold">D</span>&nbsp;icon does not appear in the progress bar.&nbsp;</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-The progress icons can appear in the following colors to indicate certain information about the `proof`'s progress:
+The progress icons can appear in the following colors to indicate certain information about the proof's progress:
 
 * `Green`: Complete.
 * `White`: Not complete.
@@ -86,7 +86,7 @@ Similarly, if the Only One Decision Required setting is selected on a proof and 
 
 ## Proof status overview
 
-The `proof` status displays the status of decisions that are required for the `proof`. The status of the `proof` is driven by the “worst case” participant. For example, suppose there are three decisions on the `proof`: two have the status of `Accepted` and one has the status of `Rejected`. The "worst case" decision of `Rejected` over-rules the other decisions and the overall status of the `proof` is shown as `Rejected`.&nbsp;
+The proof status displays the status of decisions that are required for the proof. The status of the proof is driven by the “worst case” participant. For example, suppose there are three decisions on the proof: two have the status of `Accepted` and one has the status of `Rejected`. The "worst case" decision of `Rejected` over-rules the other decisions and the overall status of the proof is shown as `Rejected`.&nbsp;
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 

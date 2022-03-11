@@ -6,13 +6,13 @@ title: Share an issue in Adobe Workfront
 description: Your Adobe Workfront administrator grants users access to view or edit issues when they assign access levels. For more information about granting access to issues, see Grant access to issues.
 ---
 
-# Share an issue in `Adobe Workfront`
+# Share an issue in Adobe Workfront
 
-Your `Adobe Workfront administrator` grants users access to view or edit issues when they assign access levels. For more information about granting access to issues, see [Grant access to issues](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+Your Adobe Workfront administrator grants users access to view or edit issues when they assign access levels. For more information about granting access to issues, see [Grant access to issues](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific issues that you have access to share. For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Permissions are specific to one item in `Workfront` and define what actions one can take on that item.
+Permissions are specific to one item in Workfront and define what actions one can take on that item.
 
 ## Considerations about sharing issues
 
@@ -20,11 +20,11 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 >[!NOTE]
 >
->A `Workfront administrator` can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
 <ul> 
  <li>The creator of an issue has Manage permissions to it, by default.</li> 
- <li>You can share issues individually, or you can share several of them at a time. Sharing issues is identical to sharing other items in <span>Workfront</span>. For more information about sharing items in <span>Workfront</span>, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
+ <li>You can share issues individually, or you can share several of them at a time. Sharing issues is identical to sharing other items in Workfront. For more information about sharing items in Workfront, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
  <li> You can grant the following permissions to an issue:&nbsp; 
   <ul>
    <li><p>View</p><p><img src="assets/view-on-issue-221x216.png" alt="view_on_issue.png" style="width: 221;height: 216;"></p></li>
@@ -35,14 +35,14 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * When you share an issue, all the documents attached to the issue inherit the same permissions.
 
-  The `Workfront administrator` can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  The Workfront administrator can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * You can remove inherited permissions from an issue. For more information, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Ways to share an issue
 
 <ul> 
- <li> <p>Manually, which is similar to sharing any other object in <span>Workfront</span>.&nbsp;For more information about how to share objects in <span>Workfront</span>, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </p> </li> 
+ <li> <p>Manually, which is similar to sharing any other object in Workfront.&nbsp;For more information about how to share objects in Workfront, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </p> </li> 
  <li> <p>Automatically, by doing one of the following:</p> 
   <ul> 
    <li> <p>Specify the permissions on any of the parent objects of the issue: project, program, or portfolio. Issues inherit the permissions from their parent objects. For information about viewing inherited permissions on objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md" class="MCXref xref">View inherited permissions on objects in Adobe Workfront</a>. </p> </li> 

@@ -7,9 +7,9 @@ title: Delete a keyword from the picklist in Workfront Library
 description: As a Workfront Library administrator you can remove keywords from the keyword picklist. For information about keywords, see Overview of keyword metadata in Workfront Library
 ---
 
-# Delete a keyword from the picklist in `Workfront Library`
+# Delete a keyword from the picklist in Workfront Library
 
-As a `Workfront Library administrator` you can remove keywords from the keyword picklist. For information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
+As a Workfront Library administrator you can remove keywords from the keyword picklist. For information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 
 When you delete a keyword from the picklist, the keyword is also removed from all assets tagged with the keyword. A search using a deleted keyword returns no results.
 
@@ -19,7 +19,7 @@ When you delete a keyword from the picklist, the keyword is also removed from al
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>In the left panel, click <span class="bold">Setup&nbsp;</span>> <span class="bold">Keywords</span>.</p> </li> 
  <li value="4"> <p>Hover over the keyword you want to delete, and click the <span class="bold">trash can</span> icon. </p> <p>The Delete Keyword dialog box displays and specifies the number of assets tagged with the keyword you want to delete.</p> </li> 
  <li value="5"> <p>(Optional) To view all the assets tagged with the keyword, click <span class="bold">See all affected assets.</span></p> <p>The tagged assets display in a new browser tab. Close the tab to return to the Delete keywords box.</p> <note type="note"> 

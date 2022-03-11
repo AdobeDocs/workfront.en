@@ -185,7 +185,7 @@ You can avert a retry by&nbsp; `separating the time-consuming parts of the proce
         Type listType = new TypeToken<List<Map<String, Object>>>(){}.getType();
         projects = new GsonBuilder().create().fromJson(reader, listType);
     } catch (IOException e) {
-        logger.log("An IOException was thrown while executing a request to <span>Workfront</span> for projects matching the group ID " + DESIRED_GROUP_ID);
+        logger.log("An IOException was thrown while executing a request to Workfront for projects matching the group ID " + DESIRED_GROUP_ID);
     }
     return projects;
 }

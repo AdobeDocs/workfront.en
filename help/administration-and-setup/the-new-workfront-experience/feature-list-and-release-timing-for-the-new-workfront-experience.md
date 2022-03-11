@@ -8,26 +8,26 @@ title: Discover the features available only with the new Adobe Workfront experie
 description: Welcome to the new Workfront experience—a modern and streamlined interface designed to help individuals, teams, and organizations get work done faster.
 ---
 
-# Discover the features available only with `the new Adobe Workfront experience`
+# Discover the features available only with the new Adobe Workfront experience
 
 >[!IMPORTANT]
 >
->This page provides a high-level overview of `the new Adobe Workfront experience` release functionality at the time it was made generally available. Updates to `the new Adobe Workfront experience` after the general availability release are communicated with the quarterly release (see [Product releases](../../product-announcements/product-releases/product-releases.md) for details about features that were released to `the new Adobe Workfront experience` for each release).
+>This page provides a high-level overview of the new Adobe Workfront experience release functionality at the time it was made generally available. Updates to the new Adobe Workfront experience after the general availability release are communicated with the quarterly release (see [Product releases](../../product-announcements/product-releases/product-releases.md) for details about features that were released to the new Adobe Workfront experience for each release).
 
 Welcome to the new Workfront experience—a modern and streamlined interface designed to help individuals, teams, and organizations get work done faster.
 
-`The new Adobe Workfront experience` helps you and your users to:
+The new Adobe Workfront experience helps you and your users to:
 
 * `Focus:` Pinpoint what needs to happen next and work with ease.
 * `Contribute:` Connect to the big picture and do work that matters.
 * `Engage:` Work across teams in a modern, intuitive system designed for you, by you.
 
-Discover the key features that are available only in `the new Adobe Workfront experience`, and what’s been removed.
+Discover the key features that are available only in the new Adobe Workfront experience, and what’s been removed.
 
 * [New features available with the new Adobe Workfront experience](#feature) 
 * [Functionality removed from the new Adobe Workfront experience](#function)
 
-## New features available with `the new Adobe Workfront experience`
+## New features available with the new Adobe Workfront experience
 
 <table cellspacing="15"> 
  <col> 
@@ -45,7 +45,7 @@ Discover the key features that are available only in `the new Adobe Workfront ex
   </tr> 
   <tr> 
    <td> <p><span class="bold">Personalized workspaces</span> </p> <p>Create a dynamic place to work the way you want, and pin it for easy access.</p> </td> 
-   <td> <p><span class="bold">The new Workfront experience</span> </p> <p>Personalize your workspace by pinning pages for easy access.</p> <p>For more information about this feature in <span>the new Adobe Workfront experience</span>, see <a href="../../workfront-basics/the-new-workfront-experience/pin-pages.md" class="MCXref xref">Pin pages to customize your workspace in the new Adobe Workfront experience</a>.</p> <p><span class="bold">Classic experience</span> </p> <p>3 levels of tabs that can be difficult to navigate and require unnecessary clicks. Customization can be done only to second-level tabs.</p> </td> 
+   <td> <p><span class="bold">The new Workfront experience</span> </p> <p>Personalize your workspace by pinning pages for easy access.</p> <p>For more information about this feature in the new Adobe Workfront experience, see <a href="../../workfront-basics/the-new-workfront-experience/pin-pages.md" class="MCXref xref">Pin pages to customize your workspace in the new Adobe Workfront experience</a>.</p> <p><span class="bold">Classic experience</span> </p> <p>3 levels of tabs that can be difficult to navigate and require unnecessary clicks. Customization can be done only to second-level tabs.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="bold">More complete breadcrumb navigation</span> </p> <p>Connection to strategy</p> </td> 
@@ -69,7 +69,7 @@ Discover the key features that are available only in `the new Adobe Workfront ex
   </tr> 
   <tr> 
    <td> <p><span class="bold">Layout Templates</span> </p> <p>Elevate your critical data and customize your users’ navigation with new layout templates.</p> </td> 
-   <td> <p><span class="bold">The new Workfront experience</span> </p> <p> New Layout Template functionality helps <span>Workfront administrators</span> customize the new Workfront experience for their users:</p> 
+   <td> <p><span class="bold">The new Workfront experience</span> </p> <p> New Layout Template functionality helps Workfront administrators customize the new Workfront experience for their users:</p> 
     <ul> 
      <li>Select secondary navigation in projects, tasks, and issues</li> 
      <li>Choose what populates in the Main Menu</li> 
@@ -95,24 +95,24 @@ Discover the key features that are available only in `the new Adobe Workfront ex
   </tr> 
   <tr> 
    <td> <p><span class="bold">New toolbar on lists</span> </p> <p>&nbsp;</p> </td> 
-   <td> <p><span class="bold">The new Workfront experience</span> </p> <p>The top toolbar of select lists has been redesigned to match the more modern look and feel and to make Filters, Views, and Groupings more consistent throughout the Workfront application.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md" class="MCXref xref">Toolbar for lists in the new Adobe Workfront experience</a>.</p> <p><span class="bold">Classic experience</span> </p> <p>Various implementations of Filters, Views, and Groupings throughout <span>Workfront</span>.</p> </td> 
+   <td> <p><span class="bold">The new Workfront experience</span> </p> <p>The top toolbar of select lists has been redesigned to match the more modern look and feel and to make Filters, Views, and Groupings more consistent throughout the Workfront application.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/new-toolbar-for-lists.md" class="MCXref xref">Toolbar for lists in the new Adobe Workfront experience</a>.</p> <p><span class="bold">Classic experience</span> </p> <p>Various implementations of Filters, Views, and Groupings throughout Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td><span>Scenario Planner</span> </td> 
-   <td><span>The new Adobe Workfront experience</span> <p>You can use the Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.</p> <p>For more information, see The Adobe Workfront Scenario Planner overview.</p> <p><span class="bold">Classic experience</span> </p> <p>This functionality is not available.</p> </td> 
+   <td>Scenario Planner </td> 
+   <td>The new Adobe Workfront experience <p>You can use the Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.</p> <p>For more information, see The Adobe Workfront Scenario Planner overview.</p> <p><span class="bold">Classic experience</span> </p> <p>This functionality is not available.</p> </td> 
   </tr> 
   <tr> 
-   <td><span>Workfront Goals</span> </td> 
-   <td><span>The new Adobe Workfront experience</span> <p>Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.</p> <p>For more information, see Adobe Workfront Goals overview.</p> <p><span class="bold">Classic experience</span> </p> <p>This functionality is not available.</p> </td> 
+   <td>Workfront Goals </td> 
+   <td>The new Adobe Workfront experience <p>Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.</p> <p>For more information, see Adobe Workfront Goals overview.</p> <p><span class="bold">Classic experience</span> </p> <p>This functionality is not available.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Project Metrics</span> </td> 
-   <td><span>The new Adobe Workfront experience</span> <p>Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project.</p> <p>For more information, see Overview of project metrics.</p> <p><span class="bold">Classic experience</span> </p> <p>This functionality is not available.</p> </td> 
+   <td>The new Adobe Workfront experience <p>Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project.</p> <p>For more information, see Overview of project metrics.</p> <p><span class="bold">Classic experience</span> </p> <p>This functionality is not available.</p> </td> 
   </tr> Mobile app The new design and features correlate with the new Workfront experience, making it a natural fit to make approvals or see updates on the go. For more information, see Adobe Workfront for iOS and Adobe Workfront for Android. 
  </tbody> 
 </table>
 
-## Functionality removed from `the new Adobe Workfront experience`
+## Functionality removed from the new Adobe Workfront experience
 
 ### My Work
 

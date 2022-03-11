@@ -9,15 +9,15 @@ description: As an Adobe Workfront administrator, if your organization’s conte
 
 # Create and manage Automated Workflow templates
 
-As an `Adobe Workfront administrator`, if your organization’s content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with `proof` roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
+As an Adobe Workfront administrator, if your organization’s content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
 
-Automated Workflow templates make it easy to create a `proof` with an Automated Workflow. When a user creates a `proof`, they simply choose the template they need.
+Automated Workflow templates make it easy to create a proof with an Automated Workflow. When a user creates a proof, they simply choose the template they need.
 
-You can easily change any Automated Workflow template, adding or removing reviewers and stages, at any time. And `proof` creators who use the template can add or remove reviewers for the `proof`.
+You can easily change any Automated Workflow template, adding or removing reviewers and stages, at any time. And proof creators who use the template can add or remove reviewers for the proof.
 
 Consider the following when you use an Automated Workflow template:
 
-1. `<li style="font-style: normal;">An Automated Workflow template's settings determine&nbsp;what you can do with the Automated Workflow for a <span>proof</span>. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the <span>proof</span>. </li>` `<li style="font-style: normal;">When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the <span>proof</span>, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. </li>` `<li style="font-style: normal;">Your ability to modify an Automated Workflow template depends on the template settings configured by the <span>Workfront administrator</span>, as described in <a href="#" class="MCXref xref selected">Create and manage Automated Workflow templates</a>. If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.</li>`
+1. `<li style="font-style: normal;">An Automated Workflow template's settings determine&nbsp;what you can do with the Automated Workflow for a proof. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the proof. </li>` `<li style="font-style: normal;">When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. </li>` `<li style="font-style: normal;">Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in <a href="#" class="MCXref xref selected">Create and manage Automated Workflow templates</a>. If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.</li>`
 
 For information about Automated Workflows, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
@@ -30,7 +30,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a> </td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
@@ -39,12 +39,12 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access configurations</td> 
-   <td> <p>You must have Administrator selected in your <span>Proof</span> Permission Profile. For more information, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</p> </td> 
+   <td> <p>You must have Administrator selected in your Proof Permission Profile. For more information, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create an Automated Workflow template
 
@@ -63,7 +63,7 @@ You must have the following:
     </tr> 
     <tr> 
      <td role="rowheader">Template owner</td> 
-     <td>You can select the <span>Workfront administrator</span> or <span>Workfront Proof administrator</span> who will manage the template.</td> 
+     <td>You can select the Workfront administrator or Workfront Proof administrator who will manage the template.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Template group</td> 
@@ -71,7 +71,7 @@ You must have the following:
     </tr> Template timezone The default timezone for the template is the one you are working in. If the timezone of the proof creators and reviewers who will be using the template is different, you can change it here to ensure that stage deadlines are set at the right times for those users. 
     <tr> 
      <td role="rowheader">Allow</td> 
-     <td> <p>You can select the stage activities you want available to the person creates <span>proofs</span> using the template.</p> <!--
+     <td> <p>You can select the stage activities you want available to the person creates proofs using the template.</p> <!--
        Warning: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. Test this. Andrzej thinks it's wrong info or a bug.
       --> </td> 
     </tr> 
@@ -94,8 +94,8 @@ You must have the following:
      <td role="rowheader">Deadline calculated from</td> 
      <td> <p>Specify how you want the deadline to be calculated:</p> 
       <ul> 
-       <li> <p><span class="bold">Proof creation</span>: In the drop-down list under <span class="bold">Deadline (+ business days)</span>, select the number of business days you want to add to the <span>proof</span> creation date to automatically set a deadline on the <span>proof</span>.</p> </li> 
-       <li><span class="bold">When stage starts</span>: In the drop-down list under <span class="bold">Deadline (+ business days)</span>, select the number of business days you want to add to the stage activation date to automatically set a deadline on the <span>proof</span>.</li> 
+       <li> <p><span class="bold">Proof creation</span>: In the drop-down list under <span class="bold">Deadline (+ business days)</span>, select the number of business days you want to add to the proof creation date to automatically set a deadline on the proof.</p> </li> 
+       <li><span class="bold">When stage starts</span>: In the drop-down list under <span class="bold">Deadline (+ business days)</span>, select the number of business days you want to add to the stage activation date to automatically set a deadline on the proof.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -112,7 +112,7 @@ You must have the following:
     </tr> 
     <tr> 
      <td role="rowheader">Private stage</td> 
-     <td>Hides comments and decisions from to people who are not added to the stage or who are not <span>Workfront administrators</span><!--
+     <td>Hides comments and decisions from to people who are not added to the stage or who are not Workfront administrators<!--
        Supervisors and above
       -->. For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</td> 
     </tr> 
@@ -122,7 +122,7 @@ You must have the following:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="6"> <p>If the <span>proofs</span> that will use this template are always sent to the same people in the stage, add them here so that users don't have to add them every time they create a <span>proof</span>..</p> <p> Choose each person's <span class="bold">Role</span> on the <span>proofs</span> that will use this template and the <span class="bold">Email alerts</span> you want the user to receive when working on <span>proofs</span> that use this template. </p> <p>For information about roles on a <span>proof</span>, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configure default proofing roles</a>. For information about <span>proof</span> email alerts, see the section <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configure proof defaults for a user</a> in the article&nbsp;<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configure email notification settings in Workfront Proof</a>.</p> <p>Each user can be added to only one stage. You can add as many users as you want to a stage.</p> <note type="tip">
+ <li value="6"> <p>If the proofs that will use this template are always sent to the same people in the stage, add them here so that users don't have to add them every time they create a proof..</p> <p> Choose each person's <span class="bold">Role</span> on the proofs that will use this template and the <span class="bold">Email alerts</span> you want the user to receive when working on proofs that use this template. </p> <p>For information about roles on a proof, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configure default proofing roles</a>. For information about proof email alerts, see the section <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configure proof defaults for a user</a> in the article&nbsp;<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configure email notification settings in Workfront Proof</a>.</p> <p>Each user can be added to only one stage. You can add as many users as you want to a stage.</p> <note type="tip">
    You can drag and drop reviewers names between stages on the stages diagram. Available stages are highlighted in blue.
   </note> </li> 
  <li value="7"> <p>Repeat the two previous steps for any other stages you want to add to the template.</p> <p>At the top of the <span class="bold">Workflow</span> section, you can see a diagram of the Automated Workflow you are setting up. As you continue to add stages, they appear on the diagram with lines showing the dependencies between them. You can click on a stage in the diagram to view the settings for that stage.</p> <p>If you don't need to see the diagram, you can click <span class="bold">Hide Diagram</span>.</p> </li> 
@@ -132,7 +132,7 @@ You must have the following:
 
 ## Modify an Automated Workflow template
 
-As a `Workfront Proof administrator`, you can modify an Automated Workflow template. Your changes are saved automatically as you make them.
+As a Workfront Proof administrator, you can modify an Automated Workflow template. Your changes are saved automatically as you make them.
 
 <ol> 
  <li value="1"> <p> From Workfront, click the Main Menu , then click Proofing to access Workfront Proof. </p> </li> 
@@ -149,7 +149,7 @@ As a `Workfront Proof administrator`, you can modify an Automated Workflow templ
     </tr> 
     <tr> 
      <td role="rowheader">Template owner</td> 
-     <td>You can select the <span>Workfront administrator</span> or <span>Workfront Proof administrator</span> who will manage the template.</td> 
+     <td>You can select the Workfront administrator or Workfront Proof administrator who will manage the template.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Template group</td> 
@@ -157,7 +157,7 @@ As a `Workfront Proof administrator`, you can modify an Automated Workflow templ
     </tr> Template timezone The default timezone for the template is the one you are working in. If the timezone of the proof creators and reviewers who will be using the template is different, you can change it here to ensure that stage deadlines are set at the right times for those users. 
     <tr> 
      <td role="rowheader">Allow</td> 
-     <td> <p>Select the stage activities you want available to those who create <span>proofs</span> using the template. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any <span>proof</span> using this template will be able to add a stage or share the <span>proof</span>.<br></p> </td> 
+     <td> <p>Select the stage activities you want available to those who create proofs using the template. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof.<br></p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -170,8 +170,8 @@ As a `Workfront Proof administrator`, you can modify an Automated Workflow templ
      <td role="rowheader">Deadline calculated from</td> 
      <td> <p>Specify how you want the deadline to be calculated:</p> 
       <ul> 
-       <li> <p><span class="bold">Deadline calculated from proof creation</span>: In the <span class="bold">Set the stage deadline</span> drop-down list, select the number of business days you want to add to the <span>proof</span> creation date to automatically set a deadline on the <span>proof</span>.</p> </li> 
-       <li><span class="bold">Deadline calculated from stage activation</span>: In the <span class="bold">Set the stage deadline</span> drop-down list, select the number of business days you want to add to the stage activation date to automatically set a deadline on the <span>proof</span>.</li> 
+       <li> <p><span class="bold">Deadline calculated from proof creation</span>: In the <span class="bold">Set the stage deadline</span> drop-down list, select the number of business days you want to add to the proof creation date to automatically set a deadline on the proof.</p> </li> 
+       <li><span class="bold">Deadline calculated from stage activation</span>: In the <span class="bold">Set the stage deadline</span> drop-down list, select the number of business days you want to add to the stage activation date to automatically set a deadline on the proof.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -196,7 +196,7 @@ As a `Workfront Proof administrator`, you can modify an Automated Workflow templ
     </tr> 
     <tr> 
      <td role="rowheader">More <img src="assets/more-icon.png"></td> 
-     <td>Add reviewers to the stage or delete the stage.<p>If each of your <span>proofs</span> is sent to the same people in a particular stage, you can specify their names here name so that you don't have to add them every time you create a <span>proof</span>. Type and select the name of a user you want to add to the stage, then add their <span class="bold">Role</span> on the <span>proof</span> and <span class="bold">Email alerts</span> settings you want for the user. For information about <span>proofing</span> roles, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configure default proofing roles</a>. For information about <span>proof</span> email alerts, see the section <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configure proof defaults for a user</a> in the article&nbsp;<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configure email notification settings in Workfront Proof</a>.</p><p>You can add as many users as you want to a stage</p><note type="tip">
+     <td>Add reviewers to the stage or delete the stage.<p>If each of your proofs is sent to the same people in a particular stage, you can specify their names here name so that you don't have to add them every time you create a proof. Type and select the name of a user you want to add to the stage, then add their <span class="bold">Role</span> on the proof and <span class="bold">Email alerts</span> settings you want for the user. For information about proofing roles, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configure default proofing roles</a>. For information about proof email alerts, see the section <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur" class="MCXref xref">Configure proof defaults for a user</a> in the article&nbsp;<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configure email notification settings in Workfront Proof</a>.</p><p>You can add as many users as you want to a stage</p><note type="tip">
        You can drag and drop reviewers names between stages on the stages diagram. Available stages are highlighted in blue.
       </note></td> 
     </tr> 
@@ -208,7 +208,7 @@ As a `Workfront Proof administrator`, you can modify an Automated Workflow templ
 
 ## Create Automated Workflow template groups
 
-As a `Workfront administrator`, you can view and manage all of the Automated Workflow templates in your organization's account. It can be helpful to organize templates into groups.
+As a Workfront administrator, you can view and manage all of the Automated Workflow templates in your organization's account. It can be helpful to organize templates into groups.
 
 To create an Automated Workflow template group:
 
@@ -222,8 +222,7 @@ You can move the templates between groups by dragging and dropping.
 ## Manage Automated Workflow templates
 
 1. From Workfront, click the Main Menu , then click Proofing to access Workfront Proof. 
-1. In the left panel in `Workfront Proof`, click `Workflows`.
-
+1. In the left panel in Workfront Proof, click `Workflows`.
 1. On the `Workflows` page that appears, do any of the following:
 
   * Add a new template

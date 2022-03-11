@@ -1,16 +1,16 @@
 
 
-# `Data Access` overview
+# Data Access overview
 
-`Data Access` gives you direct access to an analytics-optimized view of your `Adobe Workfront` data through Snowflake. Using the Snowflake connection, you can then put this data into the business intelligence (BI) tool of your choice to perform advanced reporting and visualizations without having to host, maintain, or transform the data.
+Data Access gives you direct access to an analytics-optimized view of your Adobe Workfront data through Snowflake. Using the Snowflake connection, you can then put this data into the business intelligence (BI) tool of your choice to perform advanced reporting and visualizations without having to host, maintain, or transform the data.
 
 For information on tools that connect to Snowflake, see Snowflake's [Connecting to Snowflake](https://docs.snowflake.com/en/user-guide-connecting.html) documentation.
 
-With the curated `Data Access` view, you can:
+With the curated Data Access view, you can:
 
 * See time series or historical change data to make predictions into the future and learn from the past through retrospective analysis
 * Perform cross-object reporting and view work data in the context of other related objects
-* Integrate `Workfront` data with other data sources to connect strategy and execution metrics to performance
+* Integrate Workfront data with other data sources to connect strategy and execution metrics to performance
 
 Star schemas (facts, dimensions, etc.)
 

@@ -6,7 +6,7 @@ title: Adobe Workfront basics
 description: This section contains the following subsections:
 ---
 
-# `Adobe Workfront` basics
+# Adobe Workfront basics
 
 This section contains the following subsections:
 

@@ -8,9 +8,9 @@ title: Adobe Workfront Fusion basics
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-# `Adobe Workfront Fusion` basics
+# Adobe Workfront Fusion basics
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 This section contains the following articles:
 
 * [Change profile settings](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) 

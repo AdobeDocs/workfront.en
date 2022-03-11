@@ -12,14 +12,14 @@ Following are links to the release notes for current and past releases.
 
 For release information in addition to product documentation about current releases, see the [Product Releases page](https://one.workfront.com/s/product-releases).
 
-For information about the `Adobe Workfront` release schedule, see [Adobe Workfront release schedule and process](../../product-announcements/product-releases/workfront-release-schedule.md).
+For information about the Adobe Workfront release schedule, see [Adobe Workfront release schedule and process](../../product-announcements/product-releases/workfront-release-schedule.md).
 
 <table> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><span>Workfront</span> releases</td> 
+   <td>Workfront releases</td> 
    <td>Other product releases</td> 
   </tr> Releases in 2022 22.2 Release overview 22.1 Release overview 
   <tr> 

@@ -12,7 +12,7 @@ description: A task is a work item inside of a project. It represents a finite a
 A task is a work item inside of a project. It represents a finite amount of work smaller than the project.
 
 Tasks can be assigned to users to be completed. When all the tasks in a project are completed, the project Status can be marked Complete.  
-For more information about projects in `Adobe Workfront`, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
+For more information about projects in Adobe Workfront, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
 The following are types of tasks in a project:
 

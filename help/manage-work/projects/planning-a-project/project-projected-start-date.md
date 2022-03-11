@@ -19,21 +19,20 @@ Changes in the Projected Start Date of the first task on the project trigger cha
 
 ## Modify the Projected Start Date of a task
 
-The Projected Start Date for a project or a task is a calculation done by `Adobe Workfront`, and it cannot be manually modified.&nbsp;
+The Projected Start Date for a project or a task is a calculation done by Adobe Workfront, and it cannot be manually modified.&nbsp;
 
 The following events can trigger a modification in the Projected Start Date of a task:
 
 * When you start working on a task, the Actual Start Date of the task becomes its Projected Start Date.
 * If the Planned Start Date of a task passes, the Projected Start Date moves into the future, indicating the soonest date available for the task to start.  
-  `Workfront` takes into account the amount of Planned Hours on the task, as well as the schedule of the project or of the user assigned to the task when calculating the earliest available date for the task to start.&nbsp;
-
+  Workfront takes into account the amount of Planned Hours on the task, as well as the schedule of the project or of the user assigned to the task when calculating the earliest available date for the task to start.&nbsp;
 * Predecessor tasks that are running behind have an impact on the Projected Start Date of their dependent tasks. The Projected Start Date of the dependent tasks moves according to the Dependency Type of the predecessor relationship and according to the Projected Dates of the predecessors.&nbsp;
 
 If any of these tasks is the first task on a project, the Projected Start Date of the project changes to match the Projected Start Date of this task.&nbsp;
 
 ## Locate the Projected Start Date of a project or task
 
-You can locate the Projected Start Date of a project or a task in the following areas of `Workfront`:
+You can locate the Projected Start Date of a project or a task in the following areas of Workfront:
 
 * You can add it to a project or a task report or view.
 

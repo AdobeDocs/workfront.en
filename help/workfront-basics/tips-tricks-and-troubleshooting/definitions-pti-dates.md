@@ -1,8 +1,8 @@
 
 
-# Overview of the Project, Task, and Issue dates in `Adobe Workfront`
+# Overview of the Project, Task, and Issue dates in Adobe Workfront
 
-This article provides definitions to the most common dates associated with projects, tasks, and issues in `Workfront`. The images included here are examples of where the dates display in  `Workfront` and they are not exhaustive. There are other areas that display the dates.&nbsp;All dates are also visible in project, task, and issue reports and lists.
+This article provides definitions to the most common dates associated with projects, tasks, and issues in Workfront. The images included here are examples of where the dates display in&nbsp;Workfront and they are not exhaustive. There are other areas that display the dates.&nbsp;All dates are also visible in project, task, and issue reports and lists.
 
 For information about reports and lists, see the following articles:
 
@@ -23,7 +23,7 @@ The Planned Completion Date or the Due On date is the date when a project, task,
 
 Depending on the Task Constraint, you might not be able to edit the Planned Completion Date of a task. Depending on the Schedule Mode of the project, you might not be able to edit the Planned Completion Date of a project.
 
-The Planned Completion Date displays as the Due On date in some areas of `Workfront`.
+The Planned Completion Date displays as the Due On date in some areas of Workfront.
 
 For more information, see the following articles:
 
@@ -33,7 +33,7 @@ For more information, see the following articles:
 
 ## Entry Date
 
-The Entry Date is the date when a project, task, or issue was created in  `Workfront`.
+The Entry Date is the date when a project, task, or issue was created in&nbsp;Workfront.
 
 The Entry Date does not influence the timeline of projects, tasks, or issues, but it is important for tracking and reporting purposes.
 

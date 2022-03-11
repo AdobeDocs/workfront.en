@@ -1,8 +1,8 @@
 
 
-# Integrate with Anaplan using `Adobe Workfront Fusion`
+# Integrate with Anaplan using Adobe Workfront Fusion
 
-`Adobe Workfront Fusion` allows you to integrate Workfront with your Anaplan account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to Anaplan to review campaign performance.
+Adobe Workfront Fusion allows you to integrate Workfront with your Anaplan account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to Anaplan to review campaign performance.
 
 Campaign in this article refers to the Anaplan object. Campaigns in Anaplan are in no way related to the Campaign object in Workfront, nor are they related to the Fusion connector for Adobe Campaign.
 
@@ -15,25 +15,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -82,14 +82,14 @@ Line Items
 | Line item name |Format |Formula |Summary |Notes |
 |---|---|---|---|---|
 | Campaign Name  |Text |&nbsp; |None  |&nbsp; |
-| Brand + Campaign Name  |Text |'Sub Region M4'.Display Name[LOOKUP: 'Sub-Region'] & ": " & Campaign Name  |None |In the demo model there are duplicate campaigns for different regions so we concatenate the name to make them easier to compare in `Workfront`. |
+| Brand + Campaign Name  |Text |'Sub Region M4'.Display Name[LOOKUP: 'Sub-Region'] & ": " & Campaign Name  |None |In the demo model there are duplicate campaigns for different regions so we concatenate the name to make them easier to compare in Workfront. |
 | ITEM: Campaigns  |Campaigns  |ITEM('Campaigns')  |None |&nbsp; |
 | NAME: Campaigns  |Text |NAME('ITEM: Campaigns')  |None  |&nbsp; |
 | Create Code Staging  |Text |RIGHT('NAME: Campaigns', LENGTH('NAME: Campaigns') - 1)  |None  |&nbsp; |
 | Campaign Code  |Text  |C & RIGHT("000000" & 'Create Code Staging', 6)  |None  |This is an example of creating a code using the numbered list number  |
-| Send to `Adobe Workfront`?  |Boolean |Submit Budget Request? AND CMO Approved? = 'Approve/Reject'.APPROVED AND Regional Review Complete? = 'Approve/Reject'.APPROVED AND NOT Already Sent to Adobe?  |ANY  |Use the approval criteria that is necessary for your business to send projects to `Workfront` |
-| Already Sent to `Adobe Workfront`?  |Boolean  |&nbsp; |None  |&nbsp; |
-| `Workfront` GUID  |Text |&nbsp; |None |&nbsp; |
+| Send to Adobe Workfront?  |Boolean |Submit Budget Request? AND CMO Approved? = 'Approve/Reject'.APPROVED AND Regional Review Complete? = 'Approve/Reject'.APPROVED AND NOT Already Sent to Adobe?  |ANY  |Use the approval criteria that is necessary for your business to send projects to Workfront |
+| Already Sent to Adobe Workfront?  |Boolean  |&nbsp; |None  |&nbsp; |
+| Workfront GUID  |Text |&nbsp; |None |&nbsp; |
 
 ##### Create views
 
@@ -197,7 +197,7 @@ Line items
 | MONTH: Effective Date  |Month  |Period(Effective Date)  |None  |Used to sum amount to a monthly module view  |
 | MONTH: Planned Date  |Month  |Period(Planned Date)  |None  |Used to sum amount to a monthly module view  |
 
-#### `Workfront` integration: Campaign detail
+#### Workfront integration: Campaign detail
 
 This module is used to load data from Workfront to Anaplan to hold project level (campaign) details.
 
@@ -227,7 +227,7 @@ Line items
 
 ### Anaplan Actions for Workfront
 
-#### (Import) `Workfront` integration: Add Roles
+#### (Import) Workfront integration: Add Roles
 
 Add items to a Roles list before loading hours by Role.
 
@@ -239,9 +239,9 @@ Source Object: WorkfrontUpdateLinkedProjects_HoursRoles.csv
 Screenshot
 -->
 
-#### (Import) `Workfront` integration: Campaign Hours by Role and Month
+#### (Import) Workfront integration: Campaign Hours by Role and Month
 
-Loads data from a flat file form `Workfront` to see Hours by Campaign, Role, and Month.
+Loads data from a flat file form Workfront to see Hours by Campaign, Role, and Month.
 
 Target Object: Workfront Integration - Campaign Data by Role by Month
 
@@ -255,9 +255,9 @@ Screenshot
 Screenshot
 -->
 
-#### (Import) `Workfront` integration: Campaign Expense Actuals List
+#### (Import) Workfront integration: Campaign Expense Actuals List
 
-Loads the `Workfront` expense GUID to a list that roles up to campaigns
+Loads the Workfront expense GUID to a list that roles up to campaigns
 
 Target Object: Campaign Expenses C2 List
 
@@ -267,9 +267,9 @@ Source Object: WorkfrontUpdateLinkedProjects_ActExpenses.csv
 Screenshot
 -->
 
-#### (Import) `Workfront` integration: Campaign Expense Actuals
+#### (Import) Workfront integration: Campaign Expense Actuals
 
-Loads the data for Campaign Expense Actuals data from Workfront to Anaplan based on the `Work` Expense GUID.
+Loads the data for Campaign Expense Actuals data from Workfront to Anaplan based on the Work Expense GUID.
 
 Target Object: Workfront Integration - Campaign Expense Data Module
 
@@ -283,7 +283,7 @@ Screenshot
 Screenshot
 -->
 
-#### (Import) `Workfront` integration: Campaign Expense Planned
+#### (Import) Workfront integration: Campaign Expense Planned
 
 Loads the data for Campaign Expense Planned data from Workfront to Anaplan based on the Workfront Expense GUID.
 
@@ -303,9 +303,9 @@ Screenshot
 Screenshot
 -->
 
-(Import) `Workfront` integration: Update Campaign Details
+(Import) Workfront integration: Update Campaign Details
 
-Loads the data for Campaign Details from `Workfront` to Anaplan based on the Mapped Anaplan ItemID to Workfront Project GUID.
+Loads the data for Campaign Details from Workfront to Anaplan based on the Mapped Anaplan ItemID to Workfront Project GUID.
 
 Target Object: Workfront Integration - Campaign Details
 
@@ -319,24 +319,24 @@ Screenshot
 Screenshot
 -->
 
-### Anaplan processes for `Workfront`
+### Anaplan processes for Workfront
 
-#### (Process) `Workfront` integration - Load Project Hours by Role
-
-Include the following import actions:
-
-* (Process) `Workfront` integration - Add Roles
-* (Process) `Workfront` integration - Campaign Hours by Role and Month
-
-#### (Process) `Workfront` integration - Load Project Expenses
+#### (Process) Workfront integration - Load Project Hours by Role
 
 Include the following import actions:
 
-* `Workfront` integration - Campaign Expense Actuals List
-* `Workfront` integration - Campaign Expense Actuals
-* `Workfront` integration - Campaign Expense Planned
+* (Process) Workfront integration - Add Roles
+* (Process) Workfront integration - Campaign Hours by Role and Month
 
-#### (Process) `Workfront` integration - Update Campaign Details
+#### (Process) Workfront integration - Load Project Expenses
+
+Include the following import actions:
+
+* Workfront integration - Campaign Expense Actuals List
+* Workfront integration - Campaign Expense Actuals
+* Workfront integration - Campaign Expense Planned
+
+#### (Process) Workfront integration - Update Campaign Details
 
 Include the following import actions:
 

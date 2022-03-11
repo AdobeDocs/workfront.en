@@ -8,7 +8,7 @@ description: Adobe Workfront's default configuration includes a Work On It butto
 
 # Replace the Work On It button with a Start button
 
-`Adobe Workfront`'s default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to. When you click Work On It on items assigned to you, you signal to other users that you received the work and acknowledge that you'll work on it. However, the Work On It button doesn't update the task or issue status to signal that work has actually started.
+Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to. When you click Work On It on items assigned to you, you signal to other users that you received the work and acknowledge that you'll work on it. However, the Work On It button doesn't update the task or issue status to signal that work has actually started.
 
 You can replace the Work On It button with a Start button for a team you belong to. In this case, you click the Start button instead of Work On It, which automatically updates the status and the Actual Start Date of the work item, signaling that you started work. For information about the setting of which team might affect your changes in the Work On It button, see the section [Configure the Start button](#configur) in this article.
 
@@ -27,17 +27,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Configure the Start button
 

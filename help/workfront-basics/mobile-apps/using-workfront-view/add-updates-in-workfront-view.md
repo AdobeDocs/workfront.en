@@ -7,15 +7,15 @@ title: Add updates in Adobe Workfront View
 description: You can review and add updates to projects you are reviewing in the Adobe Workfront View app.
 ---
 
-# Add updates in `Adobe Workfront` View
+# Add updates in Adobe Workfront View
 
-You can review and add updates to projects you are reviewing in the `Adobe Workfront` View app.
+You can review and add updates to projects you are reviewing in the Adobe Workfront View app.
 
-You cannot add updates to tasks or issues in `Workfront` View.
+You cannot add updates to tasks or issues in Workfront View.
 
 ## Access requirements
 
-You must have the following access in `Workfront` to perform the steps in this article:
+You must have the following access in Workfront to perform the steps in this article:
 
 <table cellspacing="0"> 
  <col> 
@@ -24,22 +24,22 @@ You must have the following access in `Workfront` to perform the steps in this a
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Add updates to a project in `Workfront` View
+## Add updates to a project in Workfront View
 
 <ol> 
- <li value="1">From the home page of <span>Workfront</span> View, tap a project to access it.</li> 
+ <li value="1">From the home page of Workfront View, tap a project to access it.</li> 
  <li value="2">(Optional) Add the <span class="bold">Updates</span> widget to your view.<br>For more information about adding widgets to your project view, see <a href="../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md" class="MCXref xref">Update widgets in the Project Details view</a>.</li> 
  <li value="3">Tap the <span class="bold">Updates</span> icon (bottom right) or (conditional) the <span class="bold">[+]</span> icon on an update in the <span class="bold">Updates</span> widget.<br><img src="assets/workfront-view-updates-icon-315x196.png" alt="workfront_view_updates_icon.png" style="width: 315;height: 196;"></li> 
  <li value="4">Type in an update.</li> 

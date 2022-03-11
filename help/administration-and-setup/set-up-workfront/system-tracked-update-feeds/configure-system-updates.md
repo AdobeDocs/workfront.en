@@ -9,16 +9,16 @@ description: Adobe Workfront generates automatic system updates in an object's U
 
 # Configure system updates
 
-`Adobe Workfront` generates automatic system updates in an object's Updates area to record the following events:
+Adobe Workfront generates automatic system updates in an object's Updates area to record the following events:
 
 * Changes users make in an object field
 * Actions users perform on an object
 
 These system updates include the change that was made, the name of the user who made the change, and the time and date of the change.
 
-As a `Workfront administrator`, you can configure which object fields and actions `Workfront` tracks to record system updates.
+As a Workfront administrator, you can configure which object fields and actions Workfront tracks to record system updates.
 
-For example, you could have `Workfront` track all changes users make to the names of issues throughout the system. Any issue name change then appears as a system update on the issue's Updates area.
+For example, you could have Workfront track all changes users make to the names of issues throughout the system. Any issue name change then appears as a system update on the issue's Updates area.
 
 ## Access requirements
 
@@ -29,36 +29,36 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Determine which fields `Workfront` tracks for an object type
+## Determine which fields Workfront tracks for an object type
 
-You can determine what information `Workfront` tracks when users change information associated with a certain object type throughout the entire `Workfront` interface. You do this by adding or removing the fields you want `Workfront` to track for that object type.
+You can determine what information Workfront tracks when users change information associated with a certain object type throughout the entire Workfront interface. You do this by adding or removing the fields you want Workfront to track for that object type.
 
 >[!NOTE]
 >
->* `Workfront` cannot track and record updates about calculated custom fields.
->* You can customize the system update for projects, tasks, issues, portfolios, programs, and users. You cannot customize the system update for templates, documents or timesheets, but `Workfront` does record system updates for these objects.
+>* Workfront cannot track and record updates about calculated custom fields.
+>* You can customize the system update for projects, tasks, issues, portfolios, programs, and users. You cannot customize the system update for templates, documents or timesheets, but Workfront does record system updates for these objects.
 >
 
 * [Add fields you want Workfront to track](#adding-fields-to-the-update-feeds) 
 * [Remove fields that you don't want tracked](#removing-fields-from-the-update-feeds)
 
-### Add fields you want `Workfront` to track
+### Add fields you want Workfront to track
 
-You can add fields you want `Workfront` to track for a particular type of object throughout the `Workfront` interface. When users change information in that field, `Workfront` records information about the change as a system update in the Updates area for the object.
+You can add fields you want Workfront to track for a particular type of object throughout the Workfront interface. When users change information in that field, Workfront records information about the change as a system update in the Updates area for the object.
 
 >[!NOTE]
 >
@@ -70,9 +70,9 @@ You can add fields you want `Workfront` to track for a particular type of object
 
 1. In theUpdate Feeds box that appears, start typing either a built-in (standard) field or a custom field for the object, then click to select it when it appears in the list.
 
-   If `Workfront` is already tracking the field, you cannot add it a second time from the list.
+   If Workfront is already tracking the field, you cannot add it a second time from the list.
 
-1. After adding all the fields you want `Workfront` to track, click `Add Fields`.
+1. After adding all the fields you want Workfront to track, click `Add Fields`.
 
    The built-in fields that you added show under the `Built-in Fields` sub-tab.
 
@@ -82,7 +82,7 @@ You can add fields you want `Workfront` to track for a particular type of object
 
 ### Remove fields that you don't want tracked
 
-You can remove fields you do not want the system to track for a particular type of object throughout the `Workfront` interface.
+You can remove fields you do not want the system to track for a particular type of object throughout the Workfront interface.
 
 1. Click `Interface` > `Update Feeds`.  
 
@@ -96,11 +96,11 @@ You can remove fields you do not want the system to track for a particular type 
 
 Any updates about the previously-tracked fields are preserved in the Updates area where they were recorded.
 
-## Determine which actions `Workfront` tracks for an object type
+## Determine which actions Workfront tracks for an object type
 
-You can have `Workfront` track the following actions that users can perform on objects throughout the `Workfront` interface.
+You can have Workfront track the following actions that users can perform on objects throughout the Workfront interface.
 
-For example, you can have `Workfront` record an update every time a user changes an assignment to a task or issue. The change then appears as a system update in the Updates area for the task or issue.
+For example, you can have Workfront record an update every time a user changes an assignment to a task or issue. The change then appears as a system update in the Updates area for the task or issue.
 
 <table cellspacing="15"> 
  <col> 
@@ -167,7 +167,7 @@ For example, you can have `Workfront` record an update every time a user changes
  </tbody> 
 </table>
 
-To configure which actions you want `Workfront` to track:
+To configure which actions you want Workfront to track:
 
 1. Click `Interface` > `Update Feeds`.  
 

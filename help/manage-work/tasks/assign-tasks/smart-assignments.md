@@ -9,7 +9,7 @@ description: When managing task and issues assignments, you can use smart assign
 
 # Smart assignments overview
 
-When managing task and issues assignments, you can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions that `Adobe Workfront` presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job.
+When managing task and issues assignments, you can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ This article contains general information about smart assignments.&nbsp;For info
 
 Consider the following when working with smart assignments:
 
-* The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because `Workfront` builds the lists according to criteria pertaining to issues and tasks separately. 
+* The algorithm works independently for tasks and issues.&nbsp;This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. 
 * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. 
 * The suggested assignments are always active users. 
 * The user listed first should be the best match for the task.
@@ -33,7 +33,7 @@ You can view smart assignments in the following areas where you can assign tasks
 <ul> 
  <li> <p>A task or issue list or report </p> <p>  </p> </li> A task or issue header The task or issue Summary panel The Assignments field for an item listed in the Home area 
  <li> <p>Resource Scheduling</p> <p> <img src="assets/smart-assignments-scheduling-350x219.png" style="width: 350;height: 219;"> </p> </li> 
- <li> <p><span>Workload Balancer</span> </p> <p> <img src="assets/smart-assignments-wb-nwe-350x359.png" style="width: 350;height: 359;"> </p> </li> 
+ <li> <p>Workload Balancer </p> <p> <img src="assets/smart-assignments-wb-nwe-350x359.png" style="width: 350;height: 359;"> </p> </li> 
 </ul>
 
 ## Smart assignments criteria
@@ -47,8 +47,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
   <ul> 
    <li>Users whose Home Team is the team assigned to the work item. </li> 
    <li> <p>Users whose Primary Role is the role assigned to the work item. </p> <note type="tip">
-      If you’re not part of any team and there is no role or team assigned on the task or issue, 
-     <span>Workfront</span> displays all the users assigned for the last 30 days, up to 50 users.
+      If you’re not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
     </note> </li> 
   </ul> </li> 
 </ul>

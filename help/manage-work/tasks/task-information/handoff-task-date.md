@@ -17,7 +17,7 @@ The Handoff Date is the date a task becomes available for work. This typically m
 >
 >Handoff Dates do not exist for issues and projects.
 
-## How `Adobe Workfront` calculates the Handoff Date
+## How Adobe Workfront calculates the Handoff Date
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ The Handoff Date is the date a task becomes available for work. This typically m
 >* Dead
 >
 
-`Workfront` uses the following rules for calculating the Handoff Date of a task:
+Workfront uses the following rules for calculating the Handoff Date of a task:
 
 * <![CDATA[				]]>**When the task has an incomplete predecessor**: The Handoff Date for the task is null. 
 * <![CDATA[				]]>**When the task has a complete predecessor**: The Handoff Date is the same as the Actual Completion Date of the predecessor task. 

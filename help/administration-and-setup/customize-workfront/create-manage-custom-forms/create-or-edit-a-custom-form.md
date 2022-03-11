@@ -23,18 +23,18 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## Start creating a custom form
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>Click <span class="bold">Custom Forms</span> in the left panel.</p> <p>In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it.</p> </li> 
  <li value="3"> <p>Click <span class="bold">New Custom Form</span>, then click the object type in the drop-down list that you want to associate with the custom form.</p> <p>The object type that you select is the only type that you can associate with the form. </p> </li> Click New Custom Form, then do one of the following: [MAKE PREVIOUS STEP CLASSIC ONLY AND UNDRAFT THIS ONE AS NWE-ONLY WHEN THE STORY GOES TO PREVIEW. Later, on Prod release day, delete the first bullet.] If you are using the Production environment, click the object type in the drop-down list that you want to associate with the custom form. The object type that you select is the only type that you can associate with the form. If you are using the Preview environment, click at least one object type that you want to associate with the custom form, then click Accept. SCREENSHOT You can click the X on an object type to delete it from the custom form. For information about deleting object types from an existing (already saved) custom form, see Delete object types on a custom form. 
  <li value="5">On the <span class="bold">Form Settings</span> tab that opens, type a <span class="bold">Form Title</span> and (optional) a <span class="bold">Description</span> for the custom form.</li> (Optional) If you want to associate more object types with the form, click the plus sign after Object types, then click the object types you want. check these clicks against a test environment and again against the released preview env. 
@@ -61,7 +61,7 @@ You can edit a custom form any time after it has been created.
 In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>Click <span class="bold">Custom Forms</span> in the left panel.</p> <p>In the view that appears, you can review all custom forms that have been created for your organization. You can also see who created each form, which object type it works with, and whether it is active.<br></p> </li> 
  <li value="3"> <p>Select the custom form you want to edit, then click <span class="bold">Edit</span>.</p> </li> 
  <li value="4">(Optional) To change the title and description of the custom form, click the <span class="bold">Form Settings</span> tab, then type a <span class="bold">Form Title</span> and <span class="bold">Description</span>.<br></li> 

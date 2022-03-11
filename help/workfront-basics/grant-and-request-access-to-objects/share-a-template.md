@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator, you can grant users access to 
 
 # Sharing a template
 
-As an `Adobe Workfront administrator`, you can grant users access to view or edit templates when you assign their access level. A user must have a Plan license to have access to Edit templates.
+As an Adobe Workfront administrator, you can grant users access to view or edit templates when you assign their access level. A user must have a Plan license to have access to Edit templates.
 
 For more information about granting access to templates, see [Grant access to templates](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -19,7 +19,7 @@ Along with the access level that you grant, a user can also receive permissions 
 >
 >Permission levels work within Access levels. For example, a user cannot receive permissions to Manage a template, if their access level only allows them to View templates.
 
-Permissions are specific to one item in `Workfront` and define what actions one can take on that item.
+Permissions are specific to one item in Workfront and define what actions one can take on that item.
 
 ## Considerations when sharing a template
 
@@ -35,9 +35,9 @@ Permissions are specific to one item in `Workfront` and define what actions one 
     </ul> </li> 
    <li> <p>The future projects which are created using the template. You can give the same levels of permissions to projects created from a template as you would an individual project.&nbsp;</p> <p>For information about how to share a project from a template at the template level, see <a href="../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Share project templates</a>. </p> </li> 
   </ul> </li> 
- <li> <p>When you share a template or a project which is created from the template, users inherit the same permissions to all the children objects associated with the template or the project, by default.</p> <p>For more information about the hierarchy of objects in <span>Workfront</span>, see&nbsp;<a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> </li> 
+ <li> <p>When you share a template or a project which is created from the template, users inherit the same permissions to all the children objects associated with the template or the project, by default.</p> <p>For more information about the hierarchy of objects in Workfront, see&nbsp;<a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> </li> 
  <li> <p>When you share a template, all the template tasks and documents, as well as the issues on the future project created from the template inherit the same permissions, unless otherwise specified.</p> <p>For information about managing the access to template tasks and issues on the project based on a user's permissions to the project, see the <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md#access" class="MCXref xref">Access</a> section in the article <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a>.</p> </li> 
- <p>The <span>Workfront administrator</span> can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> 
+ <p>The Workfront administrator can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> 
 </ul>
 
 <!--

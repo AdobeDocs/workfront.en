@@ -2,9 +2,9 @@
 
 # 21.4 Resource Management enhancements
 
-This page describes all `Resource Management` enhancements made with the `21.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
+This page describes all Resource Management enhancements made with the 21.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the `21.4` release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
 ## Make fast assignments in the Workload Balancer
 
@@ -20,7 +20,7 @@ For information about assigning work items in the Workload Balancer, see [Overvi
 
 ## New default option for Workload Balancer
 
-As part of our effort to deprecate scheduling and make the Workload Balancer Workfront’s main resource assignment tool, we have made the Workfront Balancer the default option for all new users. Currently, Scheduling is the default option. This change applies to all areas where you can access Scheduling from which include the Resourcing area (in `the new Adobe Workfront experience`) or in the People area (in `Adobe Workfront Classic`), as well as at the project and team level.
+As part of our effort to deprecate scheduling and make the Workload Balancer Workfront’s main resource assignment tool, we have made the Workfront Balancer the default option for all new users. Currently, Scheduling is the default option. This change applies to all areas where you can access Scheduling from which include the Resourcing area (in the new Adobe Workfront experience) or in the People area (in Adobe Workfront Classic), as well as at the project and team level.
 
 For information about deprecating Scheduling, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
@@ -41,7 +41,7 @@ For more information, see [Manage filters in the Workload Balancer](../../../res
 
 >[!NOTE]
 >
->With the filter updates, we have eliminated the **All work items** and **This project's work items** built-in filters in the `Workload Balancer` of a project.
+>With the filter updates, we have eliminated the **All work items** and **This project's work items** built-in filters in the Workload Balancer of a project.
 
 `<iframe class="vimeo-player_0" src="assets/600531468?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 

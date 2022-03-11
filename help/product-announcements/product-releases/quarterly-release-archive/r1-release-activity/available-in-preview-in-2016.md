@@ -50,7 +50,7 @@ If you choose, you can configure the legacy calendar to be&nbsp;displayed in the
 
 When using the legacy calendar in the My Work area, only work you have committed to is displayed.
 
-To configure `Workfront` to display the new&nbsp;calendar in the My Work area when a layout template is applied, configure the layout template to show the Planned Completion&nbsp;Date on&nbsp;tasks and issues, then assign that layout template to the appropriate users.
+To configure Workfront to display the new&nbsp;calendar in the My Work area when a layout template is applied, configure the layout template to show the Planned Completion&nbsp;Date on&nbsp;tasks and issues, then assign that layout template to the appropriate users.
 
 For more information about configuring the layout template, see [Create and manage layout templates](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Create and manage layout templates](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -58,7 +58,7 @@ For more information about configuring the layout template, see [Create and mana
 
 `Beta: TBD; Public Availability: TBD`
 
-You can use `Workfront` from Outlook for Office 365, as described in the following sections:
+You can use Workfront from Outlook for Office 365, as described in the following sections:
 
 * [Set up Adobe Workfront for Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md) 
 * "Updating an Existing Item from an Email with Outlook 365"
@@ -97,6 +97,6 @@ For more information, see [Create or edit a custom form](../../../../administrat
 
 `Add-On available for download: April 2016`
 
-The `Workfront` Extension for Adobe Creative Cloud is designed to allow you to save and export assets you create in the Creative Cloud to `Workfront`, thereby&nbsp;speeding up the approval and review process.
+The Workfront Extension for&nbsp;Adobe Creative Cloud is designed to allow you to save and&nbsp;export assets you create&nbsp;in the Creative Cloud to Workfront, thereby&nbsp;speeding up the approval and review process.
 
-For more information, see [ `Workfront` Extension for&nbsp;Adobe Creative Cloud.](../../../../documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)&nbsp;
+For more information, see [Workfront Extension for Adobe Creative Cloud.](../../../../documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)&nbsp;

@@ -1,6 +1,6 @@
 
 
-# Tips, Tricks, and Troubleshooting for `Adobe Workfront` Basics
+# Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
 
 This section contains the following articles:
 

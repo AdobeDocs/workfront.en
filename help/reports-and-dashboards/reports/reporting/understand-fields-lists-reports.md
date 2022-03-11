@@ -11,13 +11,13 @@ description: Workfront fields are available to be configured in the following re
 
 >[!NOTE]
 >
->The information in this article has been added to the `Adobe Workfront` glossary. This article will be deleted in the near future. For the `Workfront` glossary, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>The information in this article has been added to the Adobe Workfront glossary. This article will be deleted in the near future. For the Workfront glossary, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 <!--
 Important: This article should be used as a reference to understand the fields that are visible through the report builder in Workfront. The fields available in the report builder are listed in the following table in alphabetical order. We are currently updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.
 -->
 
-`Workfront` fields are available to be configured in the following reporting elements:
+Workfront fields are available to be configured in the following reporting elements:
 
 * Views
 * Filters

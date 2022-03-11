@@ -7,7 +7,7 @@ title: Upload a new version of content in Workfront Library
 description: If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see Overview of content versioning in Workfront Library .
 ---
 
-# Upload a new version of content in `Workfront Library`
+# Upload a new version of content in Workfront Library
 
 If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md) .
 
@@ -15,7 +15,7 @@ You cannot upload new versions of content in bulk. Each version must be uploaded
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>Select the area where the active (or current) version is located.</p> <p>You can choose Library, My Content , or Collections.</p> <p> <img src="assets/library-left-panel---new-350x217.png" style="width: 350;height: 217;"> </p> </li> 
  <li value="4"> <p>(Conditional) If you are in the list view, click the <span class="bold">Show grid view</span> icon <img src="assets/grid-view-icon.png"> to switch to the grid view.</p> </li> 
  <li value="5">Navigate to the thumbnail for the active content.</li> 

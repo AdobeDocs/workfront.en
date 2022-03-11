@@ -9,7 +9,7 @@ description: You can organize and manage documents in Workfront in the Documents
 
 # Manage documents
 
-You can organize and manage documents in `Workfront` in the Documents area.
+You can organize and manage documents in Workfront in the Documents area.
 
 This section contains the following articles:​
 

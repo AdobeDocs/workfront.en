@@ -7,7 +7,7 @@ title: Adobe Workfront Scenario Planner
 description: This section contains the following articles:
 ---
 
-# `Adobe Workfront Scenario Planner`
+# Adobe Workfront Scenario Planner
 
 This section contains the following articles:
 

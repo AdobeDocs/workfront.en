@@ -11,7 +11,7 @@ description: A scorecard is used to measure how well a project aligns with the p
 
 A scorecard is used to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization’s mission, values, and strategic goals.
 
-Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An `Adobe Workfront administrator` builds the scorecards based on the recommendations from portfolio managers.
+Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An Adobe Workfront administrator builds the scorecards based on the recommendations from portfolio managers.
 
 The questions and answers chosen for a scorecard must be quantifiable in order to provide an alignment value to compare different projects.
 
@@ -24,12 +24,12 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
-   <td> <p><span>Business</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,7 +37,7 @@ You must have the following to perform the steps in this article:
 ## Create a scorecard
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>Click <span class="bold">Scorecards</span>, then click <span class="bold">New Scorecard</span> to create a new scorecard and launch the scorecard builder.</p> <p> <img src="assets/new-scorecard-350x173.png" alt="new_scorecard.png" style="width: 350;height: 173;"> </p> </li> 
  <li value="3"> <p>Specify the following information for the new scorecard:</p> 
   <table cellspacing="0"> 
@@ -69,7 +69,7 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Negative Points</td> 
-     <td>Select this option&nbsp;to indicate that <span>Workfront</span> should subtract from the total possible points. Negative scores cannot be added to the maximum possible points of a scorecard.</td> 
+     <td>Select this option&nbsp;to indicate that Workfront should subtract from the total possible points. Negative scores cannot be added to the maximum possible points of a scorecard.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Display Type</td> 
@@ -113,7 +113,7 @@ You must have the following to perform the steps in this article:
 
 ## Apply a scorecard to a project
 
-A user with manage permissions to a project can apply a scorecard to a project, after the scorecard has been created by the `Workfront administrator`.  
+A user with manage permissions to a project can apply a scorecard to a project, after the scorecard has been created by the Workfront administrator.  
 For more information about&nbsp;creating scorecards, see [Create a scorecard](#creating-a-scorecard).  
 For more information about project permissions, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 

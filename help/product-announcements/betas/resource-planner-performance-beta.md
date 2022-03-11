@@ -8,7 +8,7 @@ description: The new Workfront Resource Planner enables you to ensure that your 
 
 # Resource Planner performance beta
 
-The new `Workfront` Resource Planner enables you to ensure that your people are working on the right work, at a right time, and helps to prevent burnout. You can manage demand by job role or user, providing visibility into the availability of the team members, as well as prioritizing strategic work to ensure the top priority work is assigned the resources it needs to be successful. Additionally, the Resource Planner can help you:
+The new Workfront Resource Planner enables you to ensure that your people are working on the right work, at a right time, and helps to prevent burnout. You can manage demand by job role or user, providing visibility into the availability of the team members, as well as prioritizing strategic work to ensure the top priority work is assigned the resources it needs to be successful. Additionally, the Resource Planner can help you:
 
 * budget your resources by job role or user both system-wide and for an individual project;
 * view the data by Hours, FTE or Costs;
@@ -42,7 +42,7 @@ The following improvements have been released to the Preview environment since t
   * New limits for how many users, projects, roles, and tasks display have been introduced.
   * Users lazy load (they display slowly, as you scroll down the page, instead of displaying all the results at once).&nbsp;
   * You have control over how many projects, roles, tasks, and issues you display for one user at one time.&nbsp;
-  * Filters pull information after polling the entire `Workfront` database, instead of limiting the results on the screen.  
+  * Filters pull information after polling the entire Workfront database, instead of limiting the results on the screen.  
     For more information about how filters work in the Resource Planner, see the "Understanding How Information is Filtered in the Resource Planner" section in [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
   
   * We have added the option to see the Resource Planner in full screen.&nbsp;

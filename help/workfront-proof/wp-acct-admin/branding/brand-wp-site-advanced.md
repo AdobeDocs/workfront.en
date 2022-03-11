@@ -7,15 +7,15 @@ title: Brand the Workfront Proof site - advanced
 description: Advanced branding is available on Select and Premium plans and is included in the cost of the plan.
 ---
 
-# Brand the `Workfront Proof` site - advanced
+# Brand the Workfront Proof site - advanced
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Advanced branding is available on Select and Premium plans and is included in the cost of the plan.
 
-For information about basic branding, which includes the login page, email notifications, and `proofs`, see&nbsp; [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+For information about basic branding, which includes the login page, email notifications, and proofs, see&nbsp; [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Advanced branding options include customization of the following areas:
 
@@ -39,7 +39,7 @@ Please see the section below for more detailed information on how to configure t
 
 ## Advanced Branding Configuration
 
-You can brand the following areas of `Workfront Proof`:
+You can brand the following areas of Workfront Proof:
 
 * [Web Application](#web-application) 
 * [Header](#header) 
@@ -56,7 +56,7 @@ You have a choice of three branding options for the web application header (2):
 
 * Branding image in the header
 * Your account name in the header
-* If you disable branding the `Workfront Proof` logo will remain in the header of the web app
+* If you disable branding the Workfront Proof logo will remain in the header of the web app
 
 Branding image - resizes to a maximum size of&nbsp;550x90px. You can use JPGs, GIFs or PNGs, and the transparent backgrounds are supported.
 
@@ -91,7 +91,7 @@ Choose colors for the Menu bar (5) and Menu font (6) to customize your Sidebar
 >
 >&nbsp;Hover color adjusts automatically by adding a constant Hex&nbsp;value to your selected Menu bar color.
 
-The New `proof` button color cannot be customized.
+The New proof button color cannot be customized.
 
 ### Welcome Box
 
@@ -114,12 +114,12 @@ In this field (10) of Branding configuration&nbsp;you can compose a footer that 
 
 `Favicon and Page title`
 
-You can customize how your `Workfront Proof` pages are presented in the browsers by setting your own favicon image (.ICO file) (11) and Page title (12) - these will be displayed&nbsp;in the browsers' tabs/windows headers for all the account pages.  
+You can customize how your Workfront Proof pages are presented in the browsers by setting your own favicon image (.ICO file) (11) and Page title (12) - these will be displayed&nbsp;in the browsers' tabs/windows headers for all the account pages.  
 ![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]
 >
->Your favicon will be displayed also in the headers of the `Workfront Proof` Viewer windows for all the `proofs` created on your account.
+>&nbsp;Your favicon will be displayed also in&nbsp;the headers of the Workfront Proof Viewer windows for all the proofs created on your account.
 
 `Help links`
 
@@ -127,7 +127,7 @@ You can customize your own help links to point your users and reviewers to your 
 
 <ul> 
  <li>in the Header menu under the Help link<br><img src="assets/help-links1-350x170.png" alt="Help_links1.png" style="width: 350;height: 170;"></li> 
- <li>in the Help panel of the <span>Workfront Proof</span> Viewer sidebar<br><img src="assets/help-links2-350x532.png" alt="Help_links2.png" style="width: 350;height: 532;"></li> 
+ <li>in the Help panel of the Workfront Proof Viewer sidebar<br><img src="assets/help-links2-350x532.png" alt="Help_links2.png" style="width: 350;height: 532;"></li> 
 </ul>
 
 For an additional charge, customers on Enterprise plans also have the option to fully customize the following:

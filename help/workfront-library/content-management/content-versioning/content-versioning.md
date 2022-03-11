@@ -8,7 +8,7 @@ title: Content Versioning in Workfront Library
 description: This section contains the following articles:
 ---
 
-# Content Versioning in `Workfront Library`
+# Content Versioning in Workfront Library
 
 This section contains the following articles:
 

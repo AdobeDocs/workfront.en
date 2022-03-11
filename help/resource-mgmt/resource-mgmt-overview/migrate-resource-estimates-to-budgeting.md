@@ -10,7 +10,7 @@ description: Currently, you can manage the allocation of your resources on a pro
 
 >[!IMPORTANT]
 >
->The information in this article applies only for those customers that have managed their resources in the Legacy Resource Planning areas of `Adobe Workfront`. All information about the legacy resource management tools mentioned in this article refers only to `Adobe Workfront Classic`. Legacy Resource Management is a deprecated feature and will be removed from `Workfront`.
+>The information in this article applies only for those customers that have managed their resources in the Legacy Resource Planning areas of Adobe Workfront. All information about the legacy resource management tools mentioned in this article refers only to Adobe Workfront Classic. Legacy&nbsp;Resource Management is a deprecated feature and will be removed from Workfront.
 
 ## Deprecation of the legacy resource management tools
 
@@ -21,7 +21,7 @@ Currently, you can manage the allocation of your resources on a project in two s
 
 For more information about the differences in functionality between the two sections, see [Difference between Legacy Resource Planning and Planning](../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md)
 
-The Legacy Resource Estimates section of the Business Case and all the features available at the system level in the Legacy Resource Planning tab are currently deprecated, and will soon be removed from `Adobe Workfront`.
+The Legacy Resource Estimates section of the Business Case and all the features available at the system level in the Legacy Resource Planning tab are currently deprecated, and will soon be removed from Adobe Workfront.
 
 For this reason, we recommend using the Resource Budgeting section of the Business Case to manage your resources for the project and the Resource Planner to manage your resources system-wide.
 
@@ -62,7 +62,7 @@ Note: We are working on automating the migration of your existing data, and we w
 
 You must complete the following steps to manually duplicate the resource budgeting information from the Legacy Resource Estimates section to the new Resource Budgeting section on the Business Case of a project.
 
-When you complete this workflow, you should be ready to use the new Resource Management tools in `Workfront` going forward:
+When you complete this workflow, you should be ready to use the new Resource Management tools in Workfront going forward:
 
 <ol> 
  <li value="1"><span class="bold">Align Roles.</span> Ensure that the roles associated with the Legacy Resource Pools are also associated with the users in the new Resource Pools. &nbsp;For information about comparing the roles between the Legacy Resource Pools and the ones associated with the users in the new Resource Pools see the&nbsp;<a href="#matching-job-roles" class="MCXref xref">Match job roles between Legacy Resource Pools and Resource Pools</a>&nbsp; section in this article. </li> 
@@ -129,7 +129,7 @@ To budget your resources in the new Resource Management tools, do either of the 
 
 1. If all the fields in step #1 match, your `Legacy Resource Estimates` information is now duplicated in the `Resource Budgeting` section of the Business Case. 
 
-1. You are now ready to use the `Resource Budgeting` section of the Business Case and the `Resource Planner` as your Resource Management tools in `Workfront`. 
+1. You are now ready to use the `Resource Budgeting` section of the Business Case and the `Resource Planner` as your Resource Management tools in Workfront. 
 
 1. Repeat the process described in this article for all the projects whose resources you want to budget using the new tools. 
 1. If some of the fields do not match, start the process from the beginning and ensure all your prerequisites are met for managing your resources in the Resource Budgeting section.

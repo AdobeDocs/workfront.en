@@ -17,7 +17,7 @@ The Must Finish On constraint schedules a task to finish exactly at the time and
 
 Consider the following when scheduling a task with a Must Finish On constraint:
 
-* Predecessor relationships do not force the task to be rescheduled. `Adobe Workfront` essentially ignores the predecessor relationships.
+* Predecessor relationships do not force the task to be rescheduled. Adobe Workfront essentially ignores the predecessor relationships.
 * The task shows as `At Risk` if the predecessors begin to run behind or are late.
 
 * When you move or copy a task with a MFO constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:

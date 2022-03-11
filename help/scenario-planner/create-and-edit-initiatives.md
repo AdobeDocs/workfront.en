@@ -6,9 +6,9 @@ title: Create and edit initiatives in the Adobe Workfront Scenario Planner
 description: When using the Adobe Workfront Scenario Planner, you can create initiatives in a plan that you created or that was shared with you. By creating initiatives you can show how smaller organizational units contribute to the completion of the plan. For example, if your organization has a plan for the next three years to expand into a new market, you can create initiatives within this plan for each department to estimate each department's need for people and budget to accomplish this plan.
 ---
 
-# Create and edit initiatives in the `Adobe Workfront Scenario Planner`
+# Create and edit initiatives in the Adobe Workfront Scenario Planner
 
-When using the `Adobe Workfront Scenario Planner`, you can create initiatives in a plan that you created or that was shared with you. By creating initiatives you can show how smaller organizational units contribute to the completion of the plan. For example, if your organization has a plan for the next three years to expand into a new market, you can create initiatives within this plan for each department to estimate each department's need for people and budget to accomplish this plan.
+When using the Adobe Workfront Scenario Planner, you can create initiatives in a plan that you created or that was shared with you. By creating initiatives you can show how smaller organizational units contribute to the completion of the plan. For example, if your organization has a plan for the next three years to expand into a new market, you can create initiatives within this plan for each department to estimate each department's need for people and budget to accomplish this plan.
 
 ## Access requirements
 
@@ -19,21 +19,21 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> plan*</b> </p> </td> 
-   <td><span>Business</span> or higher</td> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Business or higher</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> license*</b> </p> </td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Scenario Planner</span> to access functionality described in this article. </p> <p>For information about obtaining the <span>Workfront Scenario Planner</span>, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article. </p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
   </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions to a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -57,7 +57,7 @@ You can create initiatives in the following ways:
 To create initiatives from scratch:
 
 <ol> 
- <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then click&nbsp;<span>Scenarios</span>. </li> 
+ <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then click&nbsp;Scenarios. </li> 
  <li value="2">Click the name of the plan for which you want to create an initiative.</li> 
  <li value="3"> <p>Click the <span class="bold">+&nbsp;icon</span> to the left of <span class="bold">New initiative</span></p> <p>Or </p> <p>Click the <span class="bold">New initiative</span> drop-down menu and select either <span class="bold">New initiative </span>or<span class="bold"> Import Projects. </span></p> </li> 
  <li value="4"> <p>Type a name for your initiative in the <span class="bold">Untitled Initiative</span> field, then press Enter or click anywhere else on the page. </p> <p>The initiative displays on the timeline of the plan, as a blue bar. By default, the duration of an initiative is one month and it always starts on the first month of the plan. </p> </li> 
@@ -102,13 +102,13 @@ To create initiatives from scratch:
         <li> <p><span>Use the Tab key to move to the next month.</span> </p> </li> 
         <li> <p> All <span>active</span> job roles in the system are listed when you click this field. </p> </li> 
         <li> <p>The job roles that have already been added to the Available job roles of the plan display first. For information about adding available job roles to a plan, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
-        <li> <p><span>Workfront</span> considers that a full-time equivalent is 160 hours for a month. </p> </li> 
+        <li> <p>Workfront considers that a full-time equivalent is 160 hours for a month. </p> </li> 
        </ul> 
-      </div> <p>You can enter a number lower than 1 FTE or decimal numbers for FTE <span>or </span><span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">hours</span>. For example, a 0.5 Consultant job role would mean that a consultant would dedicate half of his FTE (typically, 4 hours, where 8 hours is 1 FTE) to working on this initiative. </p> <p>For all calculations in the <span>Scenario Planner</span>, <span>Workfront</span> uses the following value: 1 FTE = 8 Hours. </p> </td> 
+      </div> <p>You can enter a number lower than 1 FTE or decimal numbers for FTE <span>or </span><span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">hours</span>. For example, a 0.5 Consultant job role would mean that a consultant would dedicate half of his FTE (typically, 4 hours, where 8 hours is 1 FTE) to working on this initiative. </p> <p>For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. </p> </td> 
     </tr> 
     <tr> 
      <td rowspan="3" role="rowheader">Costs section</td> 
-     <td> <p>The total costs of the initiative display to the right of the Costs section. <span>Workfront</span> calculates an initiative's costs using the following formula:</p> <p><code>Initiative Costs = Fixed Costs + People Costs</code> </p> </td> 
+     <td> <p>The total costs of the initiative display to the right of the Costs section. Workfront calculates an initiative's costs using the following formula:</p> <p><code>Initiative Costs = Fixed Costs + People Costs</code> </p> </td> 
     </tr> 
     <tr> 
      <td> <p>In the <span class="bold">Fixed Costs</span> field, manually enter a rough estimate amount of what you believe it will cost to complete this initiative. This should not include costs associated with the job roles estimated for the initiative.</p> <p><span>Enter an amount for each month of the initiative by moving from one month to the next as you use the Tab key. </span> </p> </td> 
@@ -116,7 +116,7 @@ To create initiatives from scratch:
     <tr> 
      <td> 
       <div> 
-       <p>Depending on whether the plan is set up to use FTEs or hours, <span>Workfront</span> uses the following formulas to calculate People Cost:</p> 
+       <p>Depending on whether the plan is set up to use FTEs or hours, Workfront uses the following formulas to calculate People Cost:</p> 
        <ul> 
         <li> <p>When using FTEs: </p> <p><code>People Costs = SUM(Job role hourly rate * Number of months in the Duration * 160 * Number of FTEs)</code>, where 160 is the total number of working hours in a month. </p> </li> 
         <li> <p style="font-weight: normal;">When using hours:&nbsp;</p> <p style="font-weight: normal;"><code>Monthly People Costs = SUM(Job role hourly rate * Number of hours estimated for an initiative)</code> </p> <p style="font-weight: normal;">For information about setting up the plan to use hours or FTE, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>.</p> </li> 
@@ -128,7 +128,7 @@ To create initiatives from scratch:
     <tr> 
      <td colspan="2" role="rowheader"> <p style="font-weight: normal;">After you defined the required job role and cost values for your initiative and you modify the duration of the initiative, one the following scenarios may occur:</p> 
       <ul> 
-       <li> <p style="font-weight: normal;">If you shorten the initiative, <span>Workfront</span> removes the Required amount of resources and the costs associated with the time removed from the Plan. The job roles remain on the plan, but they have no Required FTE <span>or </span><span data-mc-edit-date="2021-04-19T13:46:01.5004065-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:58.7938344-04:00">hours</span>. The Available resources for the plan and the Budget remain unchanged.<br>For updating information on the plan, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
+       <li> <p style="font-weight: normal;">If you shorten the initiative, Workfront removes the Required amount of resources and the costs associated with the time removed from the Plan. The job roles remain on the plan, but they have no Required FTE <span>or </span><span data-mc-edit-date="2021-04-19T13:46:01.5004065-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:58.7938344-04:00">hours</span>. The Available resources for the plan and the Budget remain unchanged.<br>For updating information on the plan, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
        <li> <p style="font-weight: normal;">If you make the initiative longer, you must specify the amount of job roles and costs for the newly added months on the initiative. </p> </li> 
       </ul> </td> 
     </tr> 
@@ -138,9 +138,7 @@ To create initiatives from scratch:
     </tr> 
    </tbody> 
   </table> <note type="note">
-    If you have already defined the number of job roles and the budget for your plan and the number of job role and the costs of the initiative you are editing and of all the initiatives above it and they all exceed the amounts you specified for the plan, 
-   <span>Workfront</span> might find that you do have not have enough resources to finish the initiative. 
-   <span>Workfront</span> marks this as a conflict when trying to achieve this initiative and it displays it as a red bar. All the initiatives that follow the conflicted initiative display in a red background.&nbsp;You might need to adjust some of the needs of your initiatives starting with the first one that has insufficient resources.&nbsp;For information about adjusting conflicting initiatives, see 
+    If you have already defined the number of job roles and the budget for your plan and the number of job role and the costs of the initiative you are editing and of all the initiatives above it and they all exceed the amounts you specified for the plan, Workfront might find that you do have not have enough resources to finish the initiative. Workfront marks this as a conflict when trying to achieve this initiative and it displays it as a red bar. All the initiatives that follow the conflicted initiative display in a red background.&nbsp;You might need to adjust some of the needs of your initiatives starting with the first one that has insufficient resources.&nbsp;For information about adjusting conflicting initiatives, see 
    <a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">Resolve initiative conflicts in the Adobe Workfront Scenario Planner</a>.
   </note> </li> 
  <li value="11">(Optional) Hover over the name of a job role, then click the <span class="bold">trash can icon</span> <img src="assets/delete.png"> to remove it from the initiative. </li> 

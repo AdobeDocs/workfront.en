@@ -13,7 +13,7 @@ description: Note: The release date for this feature is yet to be determined.
 >
 >The release date for this feature is yet to be determined.
 
-Returns information about the service, such as features and capabilities. `Adobe Workfront` will use this information to customize the user interface in `Workfront`. For example, if the webhook implementation contains some custom actions, the JSON should list those operations in the JSON. Users would then be able to invoke these actions from `Workfront`.
+Returns information about the service, such as features and capabilities. Adobe Workfront will use this information to customize the user interface in Workfront. For example, if the webhook implementation contains some custom actions, the JSON should list those operations in the JSON. Users would then be able to invoke these actions from Workfront.
 
 ## URL
 
@@ -57,12 +57,12 @@ JSON containing information about this service
   <tr> 
    <td>availableEndpoints</td> 
    <td>String&nbsp;</td> 
-   <td>A list containing the API Endpoints implemented by this service. This may be used to ensure that the user interface in <span>Workfront</span> reflect the capabilities offered by the webhook provider. Each item in the list must include the name of the endpoint (such as “search”).</td> 
+   <td>A list containing the API Endpoints implemented by this service. This may be used to ensure that the user interface in Workfront reflect the capabilities offered by the webhook provider. Each item in the list must include the name of the endpoint (such as “search”).</td> 
   </tr> 
   <tr> 
    <td>customActions&nbsp;</td> 
    <td>String</td> 
-   <td>&nbsp; <p>A list containing the custom operations implemented by this webhook. Each list item includes a name and display name. The display name will appear in the “Document Actions” dropdown in <span>Workfront</span>. Clicking on the item in the dropdown will invoke the action in the webhook by calling the /customAction endpoint.</p></td> 
+   <td>&nbsp; <p>A list containing the custom operations implemented by this webhook. Each list item includes a name and display name. The display name will appear in the “Document Actions” dropdown in Workfront. Clicking on the item in the dropdown will invoke the action in the webhook by calling the /customAction endpoint.</p></td> 
   </tr> 
  </tbody> 
 </table>

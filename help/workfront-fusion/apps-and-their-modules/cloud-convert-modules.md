@@ -2,23 +2,23 @@
 
 # CloudConvert modules
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
-In a `Adobe Workfront Fusion` scenario, you can connect your `CloudConvert` account to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+In a Adobe Workfront Fusion scenario, you can connect your CloudConvert account to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
 
 * [Connect CloudConvert to Workfront Fusion](#connect) 
 * [CloudConvert modules and their fields](#cloudcon) 
 * [Troubleshooting](#troubles)
 
-## Connect CloudConvert to `Workfront Fusion`
+## Connect CloudConvert to Workfront Fusion
 
-To connect your CloudConvert account to `Workfront Fusion`, you need to obtain the API Key from your CloudConvert account.
+To connect your CloudConvert account to Workfront Fusion, you need to obtain the API Key from your CloudConvert account.
 
 1. Log in to your CloudConvert account and open your Dashboard.
 1. Open the `Authorization > API Keys` section.
 1. Click `Create New API key`.
 1. Enter the name for the API key, enable the scopes you want to use, then click `Create`.
 1. Copy the provided token and store it in a safe place.
-1. In `Workfront Fusion`, start creating a scenario open the CloudConvert module's `Create a connection` dialog.
+1. In Workfront Fusion, start creating a scenario open the CloudConvert module's `Create a connection` dialog.
 
    For instructions, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,7 +26,7 @@ To connect your CloudConvert account to `Workfront Fusion`, you need to obtain t
 
 ## CloudConvert modules and their fields
 
-When you configure `CloudConvert` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `CloudConvert` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure CloudConvert modules, Workfront Fusion displays the fields listed below. Along with these, additional CloudConvert fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -47,11 +47,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Capture a Website
 
-This action module `captures a specified website and saves it in PDF, JPG, or PNG format`.
+This action module captures a specified website and saves it in PDF, JPG, or PNG format.
 
 You specify the URL of the website and other information, such as where you want the information stored.
 
-The module returns the ID of the `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="0"> 
  <col> 
@@ -59,7 +59,7 @@ The module returns the ID of the `file` and any associated fields, along with an
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -99,11 +99,11 @@ Converts a file into a selected output format.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Input file</td> 
-   <td>Select whether you want to upload a file using <span>Workfront Fusion</span> or provide the URL the file will be uploaded from.</td> 
+   <td>Select whether you want to upload a file using Workfront Fusion or provide the URL the file will be uploaded from.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Upload a file</td> 
@@ -136,7 +136,7 @@ Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Input Files</p> </td> 
@@ -179,7 +179,7 @@ Merges at least two files into one PDF. If input files are not PDFs, they are au
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Input Files</p> </td> 
@@ -214,11 +214,11 @@ Merges at least two files into one PDF. If input files are not PDFs, they are au
 
 #### Optimize a File
 
-This action module `optimizes and compresses a file in PDF, PNG, or JPG format`.
+This action module optimizes and compresses a file in PDF, PNG, or JPG format.
 
 You specify the file and the parameters for optimizing and storing it.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -228,11 +228,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Input File</td> 
-   <td>Select whether you want to upload a file using <span>Workfront Fusion</span> or provide the URL from which the file will be uploaded.</td> 
+   <td>Select whether you want to upload a file using Workfront Fusion or provide the URL from which the file will be uploaded.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Upload a File</p> </td> 
@@ -325,11 +325,11 @@ For further processing of the finished job created with the Create a Job module,
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Input Files</td> 
-   <td> <p>Select whether you want to upload a file using <span>Workfront Fusion</span>, or provide the URL from which the file will be uploaded.</p> </td> 
+   <td> <p>Select whether you want to upload a file using Workfront Fusion, or provide the URL from which the file will be uploaded.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Upload a File</td> 
@@ -379,7 +379,7 @@ This module deletes a job, including all tasks and data.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Job ID</td> 
@@ -398,7 +398,7 @@ This module retrieves job details.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Job ID</td> 
@@ -417,7 +417,7 @@ This module retrieves all jobs that have been run in your account.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Status </td> 
@@ -450,7 +450,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Format </td> 
@@ -489,7 +489,7 @@ This module cancels a task that has a status of waiting or processing.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -512,7 +512,7 @@ Delete a task, including all data.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -531,7 +531,7 @@ This module retrieves file name and file data from the specified task.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -550,7 +550,7 @@ This module retrieves task details.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -569,7 +569,7 @@ This module retrieves all tasks in your account based on filter settings.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Status </td> 
@@ -585,7 +585,7 @@ This module retrieves all tasks in your account based on filter settings.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -600,7 +600,7 @@ This module creates a new task, based on the settings (payload) of another task.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -628,7 +628,7 @@ Allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>[Fusion App]</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 

@@ -8,13 +8,13 @@ description: After you have installed Adobe Workfront for Slack, you can do the 
 
 # Manage your work and approvals from Slack
 
-After you have installed `Adobe Workfront` for Slack, you can do the following:
+After you have installed Adobe Workfront for Slack, you can do the following:
 
 * Access lists of your Home items from Slack
 * Review and accept to work on tasks and issues from Slack
 * Review and make decisions on approvals from Slack
 
-For more information about configuring `Workfront` with Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+For more information about configuring Workfront with Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Access requirements
 
@@ -25,7 +25,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
    Adobe Workfront licenses overview* Plan
@@ -33,19 +33,19 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.\
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.\
 
 ## Prerequisites
 
 Before you can manage your work and approvals from Slack, you must
 
-* Configure `Workfront` for Slack  
-  For instructions on configuring `Workfront` for Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+* Configure Workfront for Slack  
+  For instructions on configuring Workfront for Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Manage your work from Slack
 
 <ol> 
- <li value="1"> Log in to your Slack instance and log in to <span>Workfront</span> from Slack.<br>For more information about logging in to <span>Workfront</span> from Slack, see the "Logging In to <span>Workfront</span> from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
+ <li value="1"> Log in to your Slack instance and log in to Workfront from Slack.<br>For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
  <li value="2"> <p>From any channel, start typing the following command in the message field:&nbsp;<br><code>/workfront home</code></p> <note type="note"> 
    <ul> 
     <li>Commands are case sensitive. </li> 
@@ -60,7 +60,7 @@ Before you can manage your work and approvals from Slack, you must
 ## Manage your tasks from Slack
 
 <ol> 
- <li value="1"> Log in to your Slack instance and log in to <span>Workfront</span> from Slack.<br>For information about logging in to <span>Workfront</span> from Slack, see the "Logging In to <span>Workfront</span> from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
+ <li value="1"> Log in to your Slack instance and log in to Workfront from Slack.<br>For information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
  <li value="2"> <p>From any channel, start typing either of the following commands in the message field:&nbsp;<br><em><code>/workfront home</code>,&nbsp;</em>then click <span class="bold">Tasks</span></p> <p>Or</p> <p><code>/workfront tasks</code> </p> <note type="note"> 
    <ul> 
     <li>Commands are case sensitive.</li> 
@@ -76,7 +76,7 @@ Before you can manage your work and approvals from Slack, you must
    <li><span class="bold">Assigned By Name</span>: this is the name of the user who assigned the task to you.</li> 
    <li><span class="bold">Status</span> </li> 
   </ul> </li> 
- <li value="5"> <p>(Optional) Click the name of an item to open it in <span>Workfront</span> in a separate browser tab.</p> </li> 
+ <li value="5"> <p>(Optional) Click the name of an item to open it in Workfront in a separate browser tab.</p> </li> 
  <li value="6"> <p>(Optional) In the <span class="bold">Status</span> field, select a new Status.</p> </li> 
  <li value="7"> <p>(Optional) Click <span class="bold">Log Time</span>, then select an <span class="bold">Hour Type</span> and an hour amount to log time on the item.</p> <note type="note"> 
    <ul> 
@@ -90,7 +90,7 @@ Before you can manage your work and approvals from Slack, you must
 ## Manage your issues from Slack
 
 <ol> 
- <li value="1"> Log in to your Slack instance and log in to <span>Workfront</span> from Slack.<br>For more information about logging in to <span>Workfront</span> from Slack, see the <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront">Logging In to <span>Workfront</span> from Slack</a> section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
+ <li value="1"> Log in to your Slack instance and log in to Workfront from Slack.<br>For more information about logging in to Workfront from Slack, see the <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront">Logging In to Workfront from Slack</a> section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
  <li value="2">From any channel, start typing either of the following commands in the message field:&nbsp;<br><em><code>/workfront home</code>,&nbsp;</em>then click <span class="bold">Issues</span> <br>Or<br><code>/workfront issues</code><br><note type="note">
    Commands are case sensitive. You can start your command with 
    <code>/wf</code> instead of 
@@ -105,14 +105,14 @@ Before you can manage your work and approvals from Slack, you must
    <li><span class="bold">Due on</span> Date: This is the Planned Completion Date of the work item.</li>
    <li><span class="bold">Requested by</span> Name: This is the Primary Contact (for issues) or the user who made the assignment (for tasks).&nbsp;</li>
   </ul></li> 
- <li value="5">(Optional) Click the name of the issue to open it in <span>Workfront</span> in a separate browser tab.</li> 
+ <li value="5">(Optional) Click the name of the issue to open it in Workfront in a separate browser tab.</li> 
  <li value="6"> <p>(Optional) Click <span class="bold">Work on it</span> to start working on issues you have not accepted yet.</p> <p>The Work on it button disappears.</p> </li> 
 </ol>
 
 ## Manage your approvals from Slack
 
 <ol> 
- <li value="1"> Log in to your Slack instance and log in to <span>Workfront</span> from Slack.<br>For more information about logging in to <span>Workfront</span> from Slack, see the "Logging In to <span>Workfront</span> from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
+ <li value="1"> Log in to your Slack instance and log in to Workfront from Slack.<br>For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
  <li value="2"> <p>From any channel, start typing either of the following commands in the message field:&nbsp;<br><em><code>/workfront home</code>,&nbsp;</em>then click <span class="bold">Approvals</span>&nbsp;<br>Or<br><code>/workfront approvals</code></p> <note type="note"> 
    <ul> 
     <li>Commands are case sensitive. </li> 
@@ -127,9 +127,9 @@ Before you can manage your work and approvals from Slack, you must
    <li><span class="bold">Tasks</span><br>Click <span class="bold">Approve</span> or <span class="bold">Reject</span> to accept or reject the status change of a task.</li>
    <li><span class="bold">Issues</span><br>Click <span class="bold">Approve</span> or <span class="bold">Reject</span> to accept or reject the status change of an issue.</li>
    <li><span class="bold">Documents</span><br>Click <span class="bold">Approve</span> to approve a document, <span class="bold">Reject</span> to reject it, or <span class="bold">Changes</span> to indicate that you approve it, but that the document needs additional changes.<br>(Optional) Mouse over the document thumbnail to click the magnifying glass and preview the document.&nbsp;</li>
-   <li><span class="bold">Proofs<br></span>Click the <span>proof</span> name to open it in <span>Workfront</span> in a separate tab and manage the approval.&nbsp;</li>
+   <li><span class="bold">Proofs<br></span>Click the proof name to open it in Workfront in a separate tab and manage the approval.&nbsp;</li>
    <li><span class="bold">Access Requests</span><br>Click <span class="bold">Grant Access</span> to give enhanced permissions to the requested object, or <span class="bold">Ignore</span> to ignore the request for more access.</li>
   </ul></li> 
- <li value="5">(Optional) Click the name of the object submitted for approval to open it in <span>Workfront</span> in a new browser tab.&nbsp;</li> 
+ <li value="5">(Optional) Click the name of the object submitted for approval to open it in Workfront in a new browser tab.&nbsp;</li> 
 </ol>
 

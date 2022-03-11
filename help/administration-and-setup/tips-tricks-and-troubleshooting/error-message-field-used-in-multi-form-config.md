@@ -12,7 +12,7 @@ description: When you change a calculation on a calculated custom field on a cus
 
 ##  Problem
 
-When you change a calculation on a calculated custom field on a custom form, `Adobe Workfront` might display the following warning:
+When you change a calculation on a calculated custom field on a custom form, Adobe Workfront might display the following warning:
 
 There's a slight problem
 
@@ -20,7 +20,7 @@ There's a slight problem
 
 ## Cause
 
-This means that somewhere in your `Workfront` environment you have an object that has at least two different custom forms attached to it and both forms contain the field you are trying to change
+This means that somewhere in your Workfront environment you have an object that has at least two different custom forms attached to it and both forms contain the field you are trying to change
 
 In this case, you cannot change the calculation for the custom field in&nbsp;Form 1 because it would conflict with the formula in the same field on Form 2.
 
@@ -44,8 +44,8 @@ To resolve this conflict you must find the object that has the two forms in it a
  <li value="13"> <p>Open each of the objects found in Step 12 and remove one of the two forms, then save the object. </p> <note type="note">
    You might need to edit the custom form that remains attached to the object to add the fields from the form you are removing from the object. This way, you can preserve the custom data information on the object.
   </note> </li> 
- <li value="14"> <p>Now, go back to your custom form and edit the calculation for the custom field you were originally trying to update. This time, <span>Workfront</span> should not encounter any more conflicts when saving the new calculation. </p> </li> 
- <li value="15"> <p>(Optional) Remove the Checkbox fields from the forms</p> <p>Or</p> <p>Delete the Checkbox fields from <span>Workfront</span>. </p> </li> 
+ <li value="14"> <p>Now, go back to your custom form and edit the calculation for the custom field you were originally trying to update. This time, Workfront should not encounter any more conflicts when saving the new calculation. </p> </li> 
+ <li value="15"> <p>(Optional) Remove the Checkbox fields from the forms</p> <p>Or</p> <p>Delete the Checkbox fields from Workfront. </p> </li> 
 </ol>
 
 <!--

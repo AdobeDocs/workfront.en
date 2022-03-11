@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Azure De
 
 # Azure DevOps modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `Azure DevOps` account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your Azure DevOps account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,31 +26,31 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use Azure DevOps modules, you must have an Azure DevOps account.
 
-## Connect Azure DevOps to `Workfront Fusion`
+## Connect Azure DevOps to Workfront Fusion
 
 <ol> 
  <li value="1"> <p>Add an Azure DevOps module to your scenario.</p> </li> 
@@ -78,7 +78,7 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
 
 ## Azure DevOps modules and their fields
 
-When you configure `Azure DevOps` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Azure DevOps` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Azure DevOps modules, Workfront Fusion displays the fields listed below. Along with these, additional Azure DevOps fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -94,7 +94,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This instant trigger module executes a scenario when a record is added, updated, or deleted in Azure DevOps.
 
-The module The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.You can map `this information` in subsequent modules in the scenario.
+The module The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -121,7 +121,7 @@ When you are configuring this module, the following fields display.
 
 #### Custom API Call
 
-This action module lets you make a custom authenticated call to the `Azure DevOps` API. This way, you can create a data flow automation that can't be accomplished by the other `Azure DevOps` modules.
+This action module lets you make a custom authenticated call to the Azure DevOps API. This way, you can create a data flow automation that can't be accomplished by the other Azure DevOps modules.
 
 When you are configuring this module, the following fields display.
 
@@ -131,7 +131,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -161,11 +161,11 @@ When you are configuring this module, the following fields display.
 
 #### Read record
 
-This action module reads `data from a single record` in `Azure DevOps`.
+This action module reads data from a single record in Azure DevOps.
 
-You specify the ID of the `record`.
+You specify the ID of the record.
 
-The module returns the ID of the `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -175,7 +175,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -208,7 +208,7 @@ The module outputs the object ID for the newly created work item, or the URL and
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -245,7 +245,7 @@ The module returns the ID of the updated work item.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
@@ -278,7 +278,7 @@ The module returns the attachment ID and a download URL for the attachment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project </td> 
@@ -311,7 +311,7 @@ The module returns the file content of the attachment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Attachment URL</td> 
@@ -334,7 +334,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Work item ID</td> 
@@ -371,7 +371,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
@@ -387,7 +387,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Enter or map the maximum number of work items that <span>Workfront Fusion</span> returns during one execution cycle.</td> 
+   <td>Enter or map the maximum number of work items that Workfront Fusion returns during one execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>

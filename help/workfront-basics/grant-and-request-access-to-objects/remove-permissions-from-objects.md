@@ -6,7 +6,7 @@ title: Remove permissions from objects in Adobe Workfront
 description: You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.
 ---
 
-# Remove permissions from objects in `Adobe Workfront`
+# Remove permissions from objects in Adobe Workfront
 
 You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.&nbsp;
 
@@ -21,16 +21,16 @@ You must have the following to share objects:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you want to share</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to the objects you want to share</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,7 +39,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Remove entities from the sharing list of an object
 
@@ -51,7 +51,7 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 
 1. Click the `x` next to the name of a user, team, group, company, job role to remove them in the object access box.
 
-1. In the `<User Name>'s `Workfront` access will be removed from this` drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.  
+1. In the `<User Name>'s Workfront access will be removed from this` drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.  
    The following scenarios exist:
 
   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
@@ -72,7 +72,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
  <li value="2"> <p>Select several objects in the list, then click the Share iconat the top of the list. </p> </li> 
  <li value="3"> <p>Type the name of the user, role, team, group, or company for which you want to remove the access in the <span class="bold">Edit <Object Name> access to</span> field. </p> </li> 
  <li value="4"> <p>From the access drop-down menu, select <span class="bold">No Access</span>. </p> <p> <img src="assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png" style="width: 350;height: 166;"> </p> </li> 
- <li value="5">In the <span class="bold"><User Name>'s <span>Workfront</span> access will be removed from this</span> drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.<br>The following scenarios exist: 
+ <li value="5">In the <span class="bold"><User Name>'s Workfront access will be removed from this</span> drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.<br>The following scenarios exist: 
   <ul>
    <li>If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;</li>
    <li>If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.</li>
@@ -119,7 +119,6 @@ To make an object private:
 1. Click `Report Actions`, then `Sharing`.
 
 1. Click `Remove public access` to remove the access of external users to viewing the report.
-1. Click `Remove system-wide access` to stop sharing it with all `Workfront` users.&nbsp;
-
+1. Click `Remove system-wide access` to stop sharing it with all Workfront users.&nbsp;
 1. Click `Save`.
 

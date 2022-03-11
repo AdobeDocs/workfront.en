@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion is a transactional system, similar to relati
 
 # Scenario execution, cycles, and phases
 
-`Adobe Workfront Fusion` is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase:
+Adobe Workfront Fusion is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase:
 `<blockquote>  <p>initialization</p>  <p>cycle #1<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>cycle #2<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>...</p>  <p>cycle #N<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>finalization</p> </blockquote>` 
 
 ## Access requirements
@@ -21,25 +21,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Initialization
 
@@ -60,7 +60,7 @@ During the operation phase reading and/or writing operation is performed:
 
 ## Commit
 
-If the operation phase is successful for all modules, the commit phase begins during which all operations performed by the modules are committed. This means that `Workfront Fusion` sends information to all the services involved in the operation phase about its success.
+If the operation phase is successful for all modules, the commit phase begins during which all operations performed by the modules are committed. This means that Workfront Fusion sends information to all the services involved in the operation phase about its success.
 
 ## Rollback
 
@@ -72,7 +72,7 @@ During the finalization phase, open connections (for example, FTP connections, d
 
 ## ACID modules
 
-All `Workfront Fusion` modules that support rollback (also known as transactionality) are marked with the ACID tag.
+All Workfront Fusion modules that support rollback (also known as transactionality) are marked with the ACID tag.
 
 ![](assets/acid-modules-350x189.png)
 

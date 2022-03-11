@@ -7,26 +7,26 @@ title: Share the Public URL in Workfront Proof
 description: You can share a proof by providing the desired recipient with the Public proof URL.
 ---
 
-# Share the Public URL in `Workfront Proof`
+# Share the Public URL in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-You can share a `proof` by providing the desired recipient with the Public `proof`&nbsp;URL.
+You can share a proof by providing the desired recipient with the Public proof&nbsp;URL.
 
-A Public URL is a URL that opens the `proof` but does not log reviewers in automatically. Public URLs can be used when information about a `proof` is being sent to a group of people. When they access a `proof` from the Public URL, they will view it with read-only access. For information about access levels, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+A Public&nbsp;URL is a URL that opens the proof but does not log reviewers in automatically. Public&nbsp;URLs can be used when information about a proof is being sent to a group of people. When they access a proof from the Public URL, they will view it with read-only access. For information about access levels, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-An option to sign is also provided, so people who were specifically added to the review will be able to sign in with their email address and make comments and decisions on the `proof`.
+An option to sign is also provided, so people who were specifically added to the review will be able to sign in with their email address and make comments and decisions&nbsp;on the proof.
 
 * You need to manually copy and paste the Public&nbsp;URL into an email and send this to the relevant person.
 * The people you give the Public&nbsp;URL to will NOT appear in the Workflow section of the Proof details page.
 
-If subscriptions are enabled on the `proof`, anyone who has access to the Proof URL will be able to subscribe themselves to the `proof` (so add themselves to the review cycle with the default role specified by the owner of the `proof`).
+If subscriptions are enabled on the proof, anyone who has access to the Proof URL will be able to subscribe themselves to the proof (so add themselves to the review cycle with the default role specified by the owner of the proof).
 
 See [Subscribe to a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) for more information.
 
-To use a `proof`'s Public&nbsp;URL:
+To use a proof's Public&nbsp;URL:
 
 1. Go to the Proof defails page, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 1. Open the `More sharing options` section.
@@ -36,26 +36,25 @@ To use a `proof`'s Public&nbsp;URL:
 
 ## Accessing a Proof From a Public URL
 
-The Public URL does not identify reviewers when the `proof` opens. Instead, the `proof` opens in read-only&nbsp;mode.
+The Public&nbsp;URL does not identify reviewers when the proof opens. Instead, the proof opens in read-only&nbsp;mode.
 
-If a person wants to add a comment they need to identify themselves by signing in. If they are already a reviewer on the `proof` they will be prompted to enter their login details.
+If a person wants to add a comment&nbsp;they need to identify themselves by signing in. If they are already a reviewer on the proof they will be prompted to enter their login details.
 
-If they are not already a reviewer on the `proof`, they will need to subscribe.
+If they are not already a reviewer on the proof, they will need to subscribe.
 
 >[!NOTE]
 >
->Subscriptions can be disabled, in which case they will not be able to subscribe to the `proof`.
+>&nbsp;Subscriptions can be disabled, in which case they will not be able to subscribe to the proof.
 
 See [Subscribe to a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) for more information.
 
-To access the `proof` from a Public&nbsp;URL:
+To access the proof from a Public&nbsp;URL:
 
 <ul> 
- <li>Users open the <span>proof</span> by using their login details which include their registered email and password for <span>Workfront Proof</span>.</li> 
- <li>Non-users open the <span>proof</span> by entering an email address and display name.</li> <note type="note">
+ <li>Users open the proof by using their login details which include their registered email and password for Workfront Proof.</li> 
+ <li>Non-users open the proof by entering an email address and display name.</li> <note type="note">
   In either case, select 
-  <span class="bold">Remember me</span> so that you will have to enter your details this one time (for this 
-  <span>proof</span>).
+  <span class="bold">Remember me</span> so that you will have to enter your details this one time (for this proof).
  </note> 
 </ul>
 

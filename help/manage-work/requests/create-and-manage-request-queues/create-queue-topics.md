@@ -21,16 +21,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,7 +39,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator
 
 ## Create a Queue Topic
 
@@ -77,7 +77,7 @@ You must have the following:
     </tr> 
     <tr> 
      <td role="rowheader">Default Approval</td> 
-     <td> <p>Associate an approval process with this queue topic. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this Approval Process. Your <span>Adobe Workfront administrator</span> must define system-level Approval Processes before you can associate them with queue topics. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.<br></p> 
+     <td> <p>Associate an approval process with this queue topic. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this Approval Process. Your Adobe Workfront administrator must define system-level Approval Processes before you can associate them with queue topics. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.<br></p> 
       <div> <note type="important">
         If the group of the project changes, the group-specific approval process attached to existing issues becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see 
         <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>.
@@ -108,11 +108,11 @@ You must have the following:
        <li>Change Order</li> 
        <li>Issue</li> 
        <li>Request</li> 
-      </ul> <p>Your <span>Workfront administrator</span> might have renamed some of these options. </p> </td> 
+      </ul> <p>Your Workfront administrator might have renamed some of these options. </p> </td> 
     </tr> 
    </tbody> 
   </table> </p> 
  <p> <img src="assets/screen-shot-2016-09-07-at-10.20.51-am-350x258.png" alt="" style="width: 350;height: 258;"> </p> 
- <li value="6">Click<span class="bold"> Save</span>. <br>The Queue Topic is now available to use and is visible in the Requests area of <span>Workfront</span>, after a Request Queue and a Topic Group are selected.</li> 
+ <li value="6">Click<span class="bold"> Save</span>. <br>The Queue Topic is now available to use and is visible in the Requests area of Workfront, after a Request Queue and a Topic Group are selected.</li> 
 </ol>
 

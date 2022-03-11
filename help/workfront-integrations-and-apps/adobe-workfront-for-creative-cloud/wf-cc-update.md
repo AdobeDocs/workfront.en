@@ -41,12 +41,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Work or Plan 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a <span>Workfront</span> license.</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -55,11 +55,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-* You must install the `Workfront` for Adobe Photoshop plugin before you can mark work items complete in Adobe Photoshop.
+* You must install the Workfront for Adobe Photoshop plugin before you can mark work items complete in Adobe Photoshop.
 
   For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
 
@@ -72,6 +72,6 @@ You must have the following access to perform the steps in this article:
  <li value="4">Click <span class="bold">New Update</span>.</li> 
  <li value="5">Type your update.</li> 
  <li value="6">(Optional) To tag a user, type the @ symbol and the user's name, then choose their name from the drop-down menu.</li> 
- <li value="7">Click <span class="bold">Submit</span>. Updates are synced with the <span>Adobe Workfront</span> web application in real time.</li> 
+ <li value="7">Click <span class="bold">Submit</span>. Updates are synced with the Adobe Workfront web application in real time.</li> 
 </ol>
 

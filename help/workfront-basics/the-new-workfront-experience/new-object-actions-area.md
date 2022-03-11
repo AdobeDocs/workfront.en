@@ -8,7 +8,7 @@ description: As part of the redesign in the new Adobe Workfront experience, we h
 
 # New object actions area
 
-As part of the redesign in `the new Adobe Workfront experience`, we have added new actions areas for several objects.
+As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects.
 
 <!--
 The actions area—located in the object header—contains links to edit, share, move, or delete an object.
@@ -66,23 +66,23 @@ Most objects that you can access individually in Adobe Workfront have an actions
   Plans
   -->
 
-For information about `Workfront` objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about Workfront objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-In `Workfront` classic, the actions area is located in the upper-right corner of the object page.
+In Workfront classic, the actions area is located in the upper-right corner of the object page.
 
 ![](assets/actions-area-highlight-on-project-classic-350x100.png)
 
-In `the new Adobe Workfront experience`, the actions area is located next to the name of the object.
+In the new Adobe Workfront experience, the actions area is located next to the name of the object.
 
 ![](assets/nwe-project-more-menu-expanded-350x274.png)
 
 >[!NOTE]
 >
->The actions area of some objects—such as reports or dashboards—display in the same locations in `the new Adobe Workfront experience` as in `Adobe Workfront Classic`.
+>The actions area of some objects—such as reports or dashboards—display in the same locations in the new Adobe Workfront experience as in Adobe Workfront Classic.
 
 ## Benefits of the new actions area
 
-Consider the following when using the new actions areas in `the new Adobe Workfront experience`:
+Consider the following when using the new actions areas in the new Adobe Workfront experience:
 
 <ul> 
  <li> The area remains highly visible in the upper-left corner of the object page.</li> 
@@ -99,16 +99,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the object whose actions area you want to access</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to the object whose actions area you want to access</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -117,11 +117,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Access the actions area for `Workfront` objects
+## Access the actions area for Workfront objects
 
-Accessing the new actions area for `Workfront` objects is similar for all objects, but the options available in the actions area differ depending on the object you are viewing.
+Accessing the new actions area for Workfront objects is similar for all objects, but the options available in the actions area differ depending on the object you are viewing.
 
 For information on what options are available for an object, see [Actions areas for objects in the new Adobe Workfront experience](#examples).
 
@@ -137,13 +137,13 @@ To access the actions area:
  <li value="4"> <p>(Conditional) If you want to see a different version of a document, click the version drop-down menu <img src="assets/nwe-document-version-60x38.png" style="width: 60;height: 38;">, then select the version that you want to see.</p> </li> 
 </ol>
 
-## Actions areas for objects in `the new Adobe Workfront experience`
+## Actions areas for objects in the new Adobe Workfront experience
 
 <!--
 As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects. The actions area generally includes the Favorites icon and the More menu. The options available in the More menu vary depending on the object.
 -->
 
-The following are examples of redesigned actions areas in `the new Adobe Workfront experience`:
+The following are examples of redesigned actions areas in the new Adobe Workfront experience:
 
 <table cellspacing="15"> 
  <col> 

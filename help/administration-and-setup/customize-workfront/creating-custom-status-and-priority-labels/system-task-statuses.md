@@ -10,13 +10,13 @@ description: There are 3 built-in system task statuses in Workfront. All 3 are r
 
 # System task statuses
 
-There are 3 built-in system task statuses in `Workfront`. All 3 are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them.
+There are 3 built-in system task statuses in Workfront. All 3 are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them.
 
 You can also add new system task statuses to match the needs in your organization.
 
 Changing the status of a task is typically a manual process. However, there are times outlined in the following list when the status of a task is changed automatically, depending on other factors that are happening in the system.
 
-The following task statuses are provided with your `Workfront` instance:
+The following task statuses are provided with your Workfront instance:
 
 <table cellspacing="15"> 
  <col> 

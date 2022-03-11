@@ -7,16 +7,16 @@ title: Create Folders in Workfront Proof
 description: You can create sub-folders in either of the following ways:
 ---
 
-# Create Folders in `Workfront Proof`
+# Create Folders in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Creating a new top-level folder
 
 <ol> 
- <li value="1">In the sidebar, click the drop-down arrow (1) next to the green <span class="bold">New <span>proof</span></span> button.</li> 
+ <li value="1">In the sidebar, click the drop-down arrow (1) next to the green <span class="bold">New proof</span> button.</li> 
  <li value="2">Select <span class="bold">New folder</span>.&nbsp;(2)<br>The New folder page is displayed.</li> 
  <li value="3">Continue with <a href="#configuring-the-new-folder" class="MCXref xref">Configuring the new folder</a>.<br><img src="assets/new-top-folder.png" alt="New_top_folder.png"></li> 
 </ol>
@@ -87,7 +87,7 @@ In this section you can add (and check) the following information to the folder 
 * Folder name - this field is mandatory (1)
 * Clicking on the See the list link (2) will bring up a pop up with a list of people with whom this folder is shared - this information is particularly useful when you are creating sub-folders, as sub-folders will automatically be shared with the same people as the parent folder
 * Description (3) - here you can add a brief description of the folder, this will be visible on the Folder details page
-* Make the folder private (4) - ticking the box will make this folder private (so visible only to the people you explicitly share the folder with and the users in your account with the profiles of [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) or [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ). Please see [Understand Folder Permissions in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) to find out more about private and public folders in `Workfront Proof`.
+* Make the folder private (4) - ticking the box will make this folder private (so visible only to the people you explicitly share the folder with and the users in your account with the profiles of [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) or [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ). Please see [Understand Folder Permissions in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) to find out more about private and public folders in Workfront Proof.
 
 ![New_folder_page_-_folder_details.png](assets/new-folder-page---folder-details-350x133.png)
 
@@ -105,8 +105,7 @@ In this section you can fill out the details of your client - this will allow yo
 In the Share section you can:
 
 * Assign a new owner of the folder (1) - the creator of the folder will remain listed on the folder and cannot be removed, however you can make another user in your account the owner which will give them edit rights on the folder.
-* Share the folder with other `Workfront Proof` users by typing in their email address (2) - note that folders can only be shared with people who have their own `Workfront` Proof logins.
-
+* Share the folder with other Workfront Proof users by typing in their email address (2) - note that folders can only be shared with people who have their own Workfront Proof logins.
 * Set the permissions for the people you share the folder with (3). This is useful for sharing private folders with users from your account - you can decide if users with the [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) profile should be allowed to create, edit and delete items in the folder.
 * Remove a user from the folder share list by clicking on the trash icon (4) to the right of the user's name.
 * Remove everyone from the folder share list by clicking the topmost trash icon (5) - note that you will not be able to remove the creator or owner of the folder.

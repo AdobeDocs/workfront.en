@@ -17,7 +17,7 @@ You can assign users to a project team either manually or automatically. For mor
 
 ## Notifications to Project Team members
 
-Depending on what email notifications your `Adobe Workfront administrator` enables, users on a project team are notified of various actions on a project. For more information about enabling email notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Depending on what email notifications your Adobe Workfront administrator enables, users on a project team are notified of various actions on a project. For more information about enabling email notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 >[!NOTE]
 >

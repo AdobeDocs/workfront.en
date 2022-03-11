@@ -8,7 +8,7 @@ description: You can manage multiple versions of a document in Workfront.
 
 # Manage document versions
 
-You can manage multiple versions of a document in `Workfront`.
+You can manage multiple versions of a document in Workfront.
 
 ## Access requirements
 
@@ -19,16 +19,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,13 +37,13 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 * This article assumes that the document has multiple versions.
 
-  If you need information about uploading new versions of a document to `Workfront`, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
+  If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Manage document versions
 
@@ -54,7 +54,7 @@ If you need information about uploading new versions of a document to Workfront,
 View and manage details for a previous document version 
 
 <ol> 
- <li value="1"> <p>Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.</p> <p> <img src="assets/version-drop-dn-doc-dtls-nwe-350x93.png" style="width: 350;height: 93;"> </p> <p>Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and <span>proofing</span> settings (if it's a document <span>proof</span>). </p> </li> 
+ <li value="1"> <p>Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.</p> <p> <img src="assets/version-drop-dn-doc-dtls-nwe-350x93.png" style="width: 350;height: 93;"> </p> <p>Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof). </p> </li> 
 </ol>
 
 Download a single document version In the Summary, under Versions, click the click the More menu to the right of the version, then click Download in the drop-down list that appears. 

@@ -6,9 +6,9 @@ title: Top navigation bar overview in the new Adobe Workfront experience
 description: The top navigation bar—which appears at the top of your screen in the new Adobe Workfront experience—allows you to easily find and navigate to other areas of the platform.
 ---
 
-# Top navigation bar overview in `the new Adobe Workfront experience`
+# Top navigation bar overview in the new Adobe Workfront experience
 
-The top navigation bar—which appears at the top of your screen in `the new Adobe Workfront experience`—allows you to easily find and navigate to other areas of the platform.
+The top navigation bar—which appears at the top of your screen in the new Adobe Workfront experience—allows you to easily find and navigate to other areas of the platform.
 
 ![](assets/global-navigation-bar-350x13.png)
 
@@ -16,7 +16,7 @@ The top navigation bar—which appears at the top of your screen in `the new Ado
 
 The `Home` icon ![](assets/home-icon.png) takes you to the Home page, which is the default landing page. To learn more about Home, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-An `Adobe Workfront administrator` can customize the Home icon to match your company's brand. For more information, see [Brand your Adobe Workfront instance](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+An Adobe Workfront administrator can customize the Home icon to match your company's brand. For more information, see [Brand your Adobe Workfront instance](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Pinned pages
 
@@ -24,7 +24,7 @@ You can pin pages that you visit frequently so that they display within the top 
 
 ## Help menu
 
-The `Help` menu allows you to search for help with a specific task, find more information on using `the new Adobe Workfront experience`, view content related to the page you are currently on, or submit feedback about your experience.
+The `Help` menu allows you to search for help with a specific task, find more information on using the new Adobe Workfront experience, view content related to the page you are currently on, or submit feedback about your experience.
 
 To learn more about the Help menu, see [Access Adobe Workfront help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
@@ -42,11 +42,11 @@ To learn more about notifications, see [View and manage in-app notifications](..
 
 ## Main Menu
 
-The `Main Menu` icon ![](assets/main-menu-icon-16x12.png) opens the Main Menu, which allows you to navigate to a different area of `Workfront`.
+The `Main Menu` icon ![](assets/main-menu-icon-16x12.png) opens the Main Menu, which allows you to navigate to a different area of Workfront.
 
 The options that are available in the Main Menu are dependent on:
 
-* `Layout template configurations`: To learn how a `Workfront administrator` can modify the Main Menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* `Layout template configurations`: To learn how a Workfront administrator can modify the Main Menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 * `License type`: To learn the default configurations for different license types, see [Understand a Reviewer's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand a Worker's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
@@ -54,7 +54,7 @@ The options that are available in the Main Menu are dependent on:
 
 ![](assets/main-menu-options-350x568.png)
 
-Each icon takes you to a different area of `the new Adobe Workfront experience`. To learn more about each area, see:
+Each icon takes you to a different area of the new Adobe Workfront experience. To learn more about each area, see:
 
 <table> 
  <col> 
@@ -97,7 +97,7 @@ Below these options in the Main Menu, you can access:
  <tbody> 
   <tr> 
    <td> <p class="bold">Setup</p> </td> 
-   <td> <p>Clicking <b>Setup</b> takes you to the Setup area where you can configure different aspects of your <span>Workfront</span> account. Depending on your access settings, what you can configure may be limited.</p> <p>For more information on the Setup area, see <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration and setup</a>.</p> </td> 
+   <td> <p>Clicking <b>Setup</b> takes you to the Setup area where you can configure different aspects of your Workfront account. Depending on your access settings, what you can configure may be limited.</p> <p>For more information on the Setup area, see <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration and setup</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">Help</p> </td> 
@@ -105,17 +105,17 @@ Below these options in the Main Menu, you can access:
   </tr> 
   <tr> 
    <td> <p class="bold">Switch to Classic</p> </td> 
-   <td> <p>Clicking <b>Switch to Classic</b>—which is only available for&nbsp;<span>Adobe Workfront administrators</span> and <span>group administrators</span>—takes you to the <span>Adobe Workfront Classic</span> environment.</p> <p>For more information on switching to <span>Adobe Workfront Classic</span>, see the section "Switch your admin account to <span>Adobe Workfront Classic</span>" in <a href="../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref">Enroll users in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>Clicking <b>Switch to Classic</b>—which is only available for&nbsp;Adobe Workfront administrators and group administrators—takes you to the Adobe Workfront Classic environment.</p> <p>For more information on switching to Adobe Workfront Classic, see the section "Switch your admin account to Adobe Workfront Classic" in <a href="../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref">Enroll users in the new Adobe Workfront experience</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">Logout</p> </td> 
-   <td>Clicking <b>Logout</b> logs you out of <span>Workfront</span>.</td> 
+   <td>Clicking <b>Logout</b> logs you out of Workfront.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Search menu
 
-The `Search` icon ![](assets/search-icon.png) in the top-right corner of `Workfront` allows you to perform a basic search, restrict your search to a specific object, or use Advanced Search to search for a keyword for a specific object and use filters to limit your search to specific fields.
+The `Search` icon ![](assets/search-icon.png) in the top-right corner of Workfront allows you to perform a basic search, restrict your search to a specific object, or use Advanced Search to search for a keyword for a specific object and use filters to limit your search to specific fields.
 
 To learn more about search, see [Search Adobe Workfront](../../workfront-basics/navigate-workfront/search/search-workfront.md).

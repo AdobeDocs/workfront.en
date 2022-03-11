@@ -6,18 +6,18 @@ title: Add documents to Adobe Workfront from your file system
 description: You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 ---
 
-# Add documents to `Adobe Workfront` from your file system
+# Add documents to Adobe Workfront from your file system
 
-You can add documents to projects, tasks, or issues in the following areas in `Adobe Workfront`:
+You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 
 * The global Documents area 
-* The Documents area for a `Workfront` object
+* The Documents area for a Workfront object
 
 You can also upload new versions of documents and add links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive. For information about adding new versions of documents, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). For information about adding documents from third-party cloud vendors, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-There are no restrictions on the types and sizes of files that you can upload to `Workfront`. However, in order to be successful, the upload must be completed within five minutes and you must have adequate storage space available.
+There are no restrictions on the types and sizes of files that you can upload to Workfront. However, in order to be successful, the upload must be completed within five minutes and you must have adequate storage space available.
 
-If you need information about uploading new versions of a document to `Workfront`, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
+If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Access requirements
 
@@ -28,25 +28,25 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Add documents to `Workfront`
+## Add documents to Workfront
 
-You can add new documents to `Workfront` from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
+You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
 
 <ol> 
  <li value="1">Go to the project, task, or issue where you want to add a new document.</li> 
@@ -74,7 +74,7 @@ You can add new documents to `Workfront` from the file system on your workstatio
       </ol> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">Request a document from another <span>Workfront</span> user</td> 
+     <td role="rowheader">Request a document from another Workfront user</td> 
      <td> 
       <ol> 
        <li value="1">From the <span class="bold">Add New</span> drop-down menu, select&nbsp;<span class="bold">Request a Document</span>.</li> 
@@ -89,17 +89,17 @@ You can add new documents to `Workfront` from the file system on your workstatio
 
 ## Document security
 
-The `Workfront` site prevents viruses and other malicious content from entering the site via documents&nbsp;in the following ways:
+The Workfront site prevents viruses and other malicious content from entering the site via documents&nbsp;in the following ways:
 
 * [How Workfront detects corrupted files](#understanding-how-workfront-detects-corrupted-files) 
 * [File name restrictions](#understanding-file-name-restrictions)
 
-### How `Workfront` detects corrupted files
+### How Workfront detects corrupted files
 
-`Workfront` scans for viruses when a document is uploaded. If you attempt to upload a corrupted document, `Workfront` discontinues the upload process and a message appears indicating the file is corrupt. You also receive an email notification when `Workfront` detects potentially malicious content and the file is slated for removal.  
-All corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, `Workfront` tracks this action as an update. If you allow `Workfront` to remove it, then no updates are recorded.
+Workfront scans for viruses when a document is uploaded. If you attempt to upload a corrupted document, Workfront discontinues the upload process and a message appears&nbsp;indicating the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.  
+All corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
 
 ### File name restrictions
 
-Files that are uploaded to `Workfront` cannot contain certain&nbsp;characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded:
+Files that are uploaded to Workfront cannot contain certain&nbsp;characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded:
 <pre>< > { }</pre>

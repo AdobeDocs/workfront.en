@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher for issues and documents; <span>Review</span> or higher for all other objects</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Requestor or higher for issues and documents; Reviewer or higher for all other objects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Requestor or higher for issues and documents; Reviewer or higher for all other objects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Reply to an update or a reply
 
@@ -62,7 +62,7 @@ The following is an example of an email notification triggered as a result of an
 
 ![email.png](assets/email-350x202.png)
 
-From the email, you can easily add a reply directly to the communications thread of the object in `Workfront`. You can also add a reply without logging in to `Workfront`, on an email that is generated from comments made to the following objects:
+From the email, you can easily add a reply directly to the communications thread of the object in Workfront. You can also add a reply without logging in to Workfront, on an email that is generated from comments made to the following objects:
 
 * Project
 * Task
@@ -76,11 +76,11 @@ From the email, you can easily add a reply directly to the communications thread
 
 ### Reply to an update from an email notification
 
-When you receive an email notification, you can quickly open the associated `Workfront` object and add a reply directly to the communication thread.
+When you receive an email notification, you can quickly open the associated Workfront object and add a reply directly to the communication thread.
 
 1. Click `Comment` on the email notification.
 
-   The Details page for the object opens in `Workfront`.
+   The Details page for the object opens in Workfront.
 
 1. Go to the update to which you want to add a reply.
 
@@ -88,13 +88,13 @@ When you receive an email notification, you can quickly open the associated `Wor
 
 1. Click `Reply,`enter your reply, then click `Reply`.
 
-### Add an update to an object outside of `Workfront`
+### Add an update to an object outside of Workfront
 
-When you receive a `Workfront` email notification, you can quickly add an update to the communication thread without logging in to `Workfront`.
+When you receive a Workfront email notification, you can quickly add an update to the communication thread without logging in to Workfront.
 
-To add an update to a `Workfront` email:
+To add an update to a Workfront email:
 
-1. From your email application, open the `Workfront` email to which you want to respond, then open a reply email window.
+1. From your email application, open the Workfront email to which you want to respond, then open a reply email window.
 1. Type your update.  
    Attachments are not permitted, and any Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.
 1. Click `Send`.

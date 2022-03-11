@@ -9,9 +9,9 @@ description: This page describes all Administrator enhancements made with the 21
 
 # 21.1 Administrator enhancements
 
-This page describes all `Administrator` enhancements made with the `21.1` release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
+This page describes all Administrator enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 
-For a list of all changes available with the `21.1` release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+For a list of all changes available with the 21.1 release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Introduce new Access Level setting for copying projects
 
@@ -63,7 +63,7 @@ For more information, see Edit information in custom form fields in Adobe Workfr
 >
 >Until June 24, 2021, this was available as part of a phased rollout only for customers who have the ability to unlock project preferences for groups. Now it is available for all customers.
 
-`Adobe Workfront administrators` can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group’s unique needs and internal processes.
+Adobe Workfront administrators can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group’s unique needs and internal processes.
 
 For more information, see Configure task and issue preferences for a group.
 

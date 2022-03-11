@@ -19,31 +19,31 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Item data types
 
 You can contain the types of items listed below in a bundle.
 
-For information on which types of items `Workfront Fusion` allows for conversion between one other, see [Type coercion](../../workfront-fusion/mapping/type-coercion.md).
+For information on which types of items Workfront Fusion allows for conversion between one other, see [Type coercion](../../workfront-fusion/mapping/type-coercion.md).
 
 <table cellspacing="0"> 
  <col> 
@@ -51,11 +51,11 @@ For information on which types of items `Workfront Fusion` allows for conversion
  <tbody> 
   <tr> 
    <td role="rowheader"> <p><a name="Text"></a>Text</p> </td> 
-   <td> <p>The most common item type. For some text items, <span>Adobe Workfront Fusion</span> checks whether the maximum or minimum allowed length is met or whether the item performs format validation (email, URL or file name).</p> </td> 
+   <td> <p>The most common item type. For some text items, Adobe Workfront Fusion checks whether the maximum or minimum allowed length is met or whether the item performs format validation (email, URL or file name).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Number</p> </td> 
-   <td> <p>For some numerical items, <span>Workfront Fusion</span> may validate the input for a specified range (the minimum or maximum allowed value).</p> </td> 
+   <td> <p>For some numerical items, Workfront Fusion may validate the input for a specified range (the minimum or maximum allowed value).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Boolean (Yes/No)</p> </td> 
@@ -71,7 +71,7 @@ For information on which types of items `Workfront Fusion` allows for conversion
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Buffer (binary data)</p> </td> 
-   <td> <p>File content is usually sent as Buffer type content (image content, video file, and others). In some cases, text data is included in this type (for example, a text file). <span>Workfront Fusion</span> is able to automatically convert text data in binary code to text and text to text data in binary code. For more information, see <a href="../../workfront-fusion/mapping/about-mapping-files.md" class="MCXref xref">About mapping files</a>.</p> </td> 
+   <td> <p>File content is usually sent as Buffer type content (image content, video file, and others). In some cases, text data is included in this type (for example, a text file). Workfront Fusion is able to automatically convert text data in binary code to text and text to text data in binary code. For more information, see <a href="../../workfront-fusion/mapping/about-mapping-files.md" class="MCXref xref">About mapping files</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Collection</p> </td> 
@@ -87,7 +87,7 @@ For information on which types of items `Workfront Fusion` allows for conversion
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Validation</p> </td> 
-   <td> <p><span>Workfront Fusion</span> might perform validation on each type of item. If an item does not pass the validation, the module will stop processing because of a data error. For more information, see <a href="../../workfront-fusion/errors/error-processing.md" class="MCXref xref">Error processing</a>. </p> </td> 
+   <td> <p>Workfront Fusion might perform validation on each type of item. If an item does not pass the validation, the module will stop processing because of a data error. For more information, see <a href="../../workfront-fusion/errors/error-processing.md" class="MCXref xref">Error processing</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

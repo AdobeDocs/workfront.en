@@ -7,11 +7,11 @@ title: Share a plan in the Adobe Workfront Scenario Planner
 description: You can share a plan that you created in the Adobe Workfront Scenario Planner with other users.
 ---
 
-# Share a plan in the `Adobe Workfront Scenario Planner`
+# Share a plan in the Adobe Workfront Scenario Planner
 
 ##  
 
-You can share a plan that you created in the `Adobe Workfront Scenario Planner` with other users.
+You can share a plan that you created in the Adobe Workfront Scenario Planner with other users.
 
 >[!TIP]
 >
@@ -26,26 +26,26 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> plan*</b> </p> </td> 
-   <td><span>Business</span> or higher</td> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Business or higher</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> license*</b> </p> </td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Scenario Planner</span> to access functionality described in this article.</p> <p>For information about obtaining the <span>Workfront Scenario Planner</span>, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
   </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions You must be the creator of the plan. Plan creators have Manage permissions to the plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 * You must be the creator of the plan to be able to share it with another user and grant permissions for what that user can do with the plan.
-* The users given the access to the plan must have access to the `Scenario Planner` area in their Access Levels, as granted by your `Workfront administrator` in order to receive permissions to a plan.
+* The users given the access to the plan must have access to the Scenario Planner area in their Access Levels, as granted by your Workfront administrator in order to receive permissions to a plan.
 
   For example, Requestors cannot view, create, or edit plans. You should keep this in mind when sharing a plan with a user who has a Requestor license.
 
@@ -75,7 +75,7 @@ For more information about access to the Scenario Planner for various license ty
 >You can share the plan by clicking the avatars of users with whom the plan is shared from the plan header.
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Workfront</span>, then click <span class="bold">Scenarios</span>.</p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Workfront, then click <span class="bold">Scenarios</span>.</p> </li> 
  <li value="2"> <p>Click the name of a plan to open it</p> <p>Or</p> <p>Select several plans to share them in bulk. </p> </li> 
  <li value="3"> <p>(Conditional) If you opened a plan, click the <span class="bold">More</span> icon <img src="assets/more-icon.png"> to the right of the Plan name, then click Share</p> <p>Or</p> <p>If you selected several plans to share them in bulk, click the <span class="bold">Share</span> icon <img src="assets/share-icon-26x26.png" style="width: 26;height: 26;"> at the top of the list of plans to open the Plan access box. </p> 
   <div class="tips" data-mc-autonum="<b>Tips: </b>">

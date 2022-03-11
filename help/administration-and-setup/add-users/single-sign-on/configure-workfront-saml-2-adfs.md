@@ -7,7 +7,7 @@ title: Configure Adobe Workfront with SAML 2.0 using ADFS
 description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
 ---
 
-# Configure `Adobe Workfront` with SAML 2.0 using ADFS
+# Configure Adobe Workfront with SAML 2.0 using ADFS
 
 >[!IMPORTANT]
 >
@@ -15,13 +15,13 @@ description: The procedure described on this page applies only to organizations 
 >
 >If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-As an `Adobe Workfront administrator`, you can integrate `Workfront` with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
+As an Adobe Workfront administrator, you can integrate Workfront with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on while using Active Directory Federation Services (ADFS).
 
 This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
 
 >[!NOTE]
 >
->This is not available if your organization’s `Workfront` instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 ## Access requirements
 
@@ -32,33 +32,33 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Enable authentication to `Workfront` with SAML 2.0
+## Enable authentication to Workfront with SAML 2.0
 
-To enable authentication to the `Workfront` web application and the `Workfront` mobile application with SAML 2.0, complete the following sections:
+To enable authentication to the Workfront web application and the Workfront mobile application with SAML 2.0, complete the following sections:
 
 * [Retrieve the Workfront SSO metadata file](#retrieving-workfront-metatdata) 
 * [Configure Relying Party Trusts](#configuring-relying-party-trusts) 
 * [Configure Claim Rules](#configuring-claim-rules) 
 * [Upload the metadata file and test the connection](#uploading-metadata-file)
 
-### Retrieve the `Workfront` SSO metadata file
+### Retrieve the Workfront SSO metadata file
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">System</span> > <span class="bold">Single Sign-On (SSO)</span>.</li> 
  <li value="3"> <p>In the <span class="bold">Type</span> drop-down menu, click <span class="bold">SAML 2.0</span> to display additional information and options.<br></p> </li> 
  <li value="4">Copy the URL that displays after <span class="bold">Metadata URL</span>. </li> 
@@ -75,7 +75,7 @@ To enable authentication to the `Workfront` web application and the `Workfront` 
  <li value="5">Select <span class="bold">ADFS</span> and expand <span class="bold">Trust Relationships</span>.</li> 
  <li value="6"> <p>Right-click <span class="bold">Relying Party Trusts</span>, then select <span class="bold">Add Relying Party Trust</span> to launch the Add Relying Party Trust Wizard.</p> <p> <img src="assets/screen-shot-2014-10-22-at-2.48.12-pm-1-350x153.png" alt="" style="width: 350;height: 153;"> </p> </li> 
  <li value="7"> <p>From the <span class="bold">Welcome Page</span>, select <span class="bold">Start</span>. </p> </li> 
- <li value="8">In the <span class="bold">Select Date Source</span> section, paste the metadata URL from <span>Workfront</span>.</li> 
+ <li value="8">In the <span class="bold">Select Date Source</span> section, paste the metadata URL from Workfront.</li> 
  <li value="9"> <p>Click <span class="bold">Next</span>.</p> </li> 
  <li value="10"> <p>Click <span class="bold">OK</span> to acknowledge the warning message. </p> <p>This opens the <span class="bold">Specify Display Name</span> section.</p> </li> 
  <li value="11"> <p>Add a <span class="bold">Display Name</span> and <span class="bold">Notes</span> to distinguish the Trust, then click <span class="bold">Next</span>.<br></p> <p> <img src="assets/screen-shot-2014-10-22-at-2.50.58-pm-350x282.png" alt="" style="width: 350;height: 282;"> </p> </li> 
@@ -94,7 +94,7 @@ To enable authentication to the `Workfront` web application and the `Workfront` 
     <tbody> 
      <tr> 
       <td role="rowheader"><span class="bold">Claim rule name:</span> </td> 
-      <td>Specify a name for the claim rule. For example, "<span>Workfront</span>."</td> 
+      <td>Specify a name for the claim rule. For example, "Workfront."</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Attribute store</td> 
@@ -119,7 +119,7 @@ To enable authentication to the `Workfront` web application and the `Workfront` 
 
 >[!NOTE]
 >
->What you select under Secure Hash Algorithm here must match the Secure Hash Algorithm field in `Workfront` under Setup > System > Single Sign-ON (SSO).
+>What you select under Secure Hash Algorithm here must match the Secure Hash Algorithm field in Workfront under Setup > System > Single Sign-ON (SSO).
 
 ![](assets/screen-shot-2014-10-22-at-3.04.55-pm-350x232.png)
 
@@ -135,7 +135,7 @@ To enable authentication to the `Workfront` web application and the `Workfront` 
    If you want to set up attribute mapping, ensure that you copy the attributes from the Test Connection into the Directory Attribute. For more information, see Mapping User Attributes.
    <br>
   </note> </li> 
- <li value="5"> <p>Select <span class="bold">Admin Exemption</span> to allow <span>Workfront administrators</span> to log in using <span>Workfront</span> credentials with the bypass url. </p> <p>Bookmarks pointing to <i><yourdomain></i>.my.workfront.com/login bypass the redirect.</p> </li> 
+ <li value="5"> <p>Select <span class="bold">Admin Exemption</span> to allow Workfront administrators to log in using Workfront credentials with the bypass url. </p> <p>Bookmarks pointing to <i><yourdomain></i>.my.workfront.com/login bypass the redirect.</p> </li> 
  <li value="6">Select the <span class="bold">Enable</span> box to enable the configuration.</li> 
  <li value="7">Click <span class="bold">Save</span>.</li> 
 </ol>
@@ -144,11 +144,11 @@ To enable authentication to the `Workfront` web application and the `Workfront` 
 
 Following this guide, the `SSO Username` will be their `Active Directory Username`.
 
-As a `Workfront administrator`, you can bulk update users for SSO. For more information about updating users for SSO, see [Update users for single sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+As a Workfront administrator, you can bulk update users for SSO. For more information about updating users for SSO, see [Update users for single sign-on](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
 
-As a `Workfront administrator`, you can also manually assign a Federation ID editing the user's profile and completing the Federation ID field. For more information about editing a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+As a Workfront administrator, you can also manually assign a Federation ID editing the user's profile and completing the Federation ID field. For more information about editing a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 >[!NOTE]
 >
->When editing users' profiles to include a Federation ID, selecting `Only Allow SAML 2.0 Authentication` removes the ability to log in to `Workfront` using the bypass url (*<yourdomain>*.my.workfront.com/login).
+>When editing users' profiles to include a Federation ID, selecting `Only Allow SAML 2.0 Authentication` removes the ability to log in to Workfront using the bypass url (*<yourdomain>*.my.workfront.com/login).
 

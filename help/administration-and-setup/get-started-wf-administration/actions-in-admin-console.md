@@ -9,12 +9,12 @@ description: If your organization has been onboarded to the Adobe Business Platf
 
 # Platform-based administration differences (Adobe Workfront/Adobe Business Platform)
 
-If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access `Adobe Workfront`. This means that:
+If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:
 
 * User management is largely done through the Adobe Admin Console
-* Single Sign-On (SSO) in handled through the Adobe Business Platform rather than through `Workfront`
+* Single Sign-On (SSO) in handled through the Adobe Business Platform rather than through Workfront
 
-As an `Adobe Workfront administrator`, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This articles lists the procedures that must be handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
+As an Adobe Workfront administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This articles lists the procedures that must be handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
 
 ## Users
 

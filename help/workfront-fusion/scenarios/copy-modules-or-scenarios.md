@@ -9,7 +9,7 @@ description:
 
 # Copy modules or scenarios
 
-You can copy modules, groups of modules, or entire scenarios in `Adobe Workfront Fusion`. This ability allows you to reuse scenarios or parts of scenarios without having to build them again
+You can copy modules, groups of modules, or entire scenarios in Adobe Workfront Fusion. This ability allows you to reuse scenarios or parts of scenarios without having to build them again
 
 ## Access requirements
 
@@ -20,25 +20,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -97,7 +97,7 @@ A scenario blueprint represents the entire scenario. If you want to copy only ce
 
 >[!NOTE]
 >
->For information on blueprints in the context of `Adobe Workfront`, see [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md).
+>For information on blueprints in the context of Adobe Workfront, see [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ### Export a scenario blueprint
 
@@ -123,6 +123,6 @@ A scenario blueprint represents the entire scenario. If you want to copy only ce
 
 ## Copy and reuse scenarios by using templates
 
-You can create templates as a starting point for your `Workfront Fusion` scenarios. When you create a scenario from a template, you can modify the scenario without modifying the template. Field values are not saved in templates.
+You can create templates as a starting point for your Workfront Fusion scenarios. When you create a scenario from a template, you can modify the scenario without modifying the template. Field values are not saved in templates.
 
 For more information on creating and using templates, see [Scenario Templates](../../workfront-fusion/scenarios/templates/fusion-templates.md).

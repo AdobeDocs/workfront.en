@@ -1,6 +1,6 @@
 
 
-# Use social icons for goals in `the new Adobe Workfront experience`
+# Use social icons for goals in the new Adobe Workfront experience
 
 <!--
 IS THIS FUNCTIONALITY COMING TO WF GOALS???

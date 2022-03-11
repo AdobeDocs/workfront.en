@@ -8,7 +8,7 @@ description: A project is a large work item in Adobe Workfront. You can break do
 
 # Plan a project overview
 
-A project is a large work item in `Adobe Workfront`. You can break down a project into tasks which are smaller work items. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.&nbsp;
+A project is a large work item in Adobe Workfront. You can break down a project into tasks which are smaller work items. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.&nbsp;
 
 In addition to planning your tasks in a project, a lot of other details go into planning projects. From determining the economic impacts to considering resource availability, there are many elements of projects that need attention.&nbsp;
 
@@ -16,7 +16,7 @@ In addition to planning your tasks in a project, a lot of other details go into 
 
 Project planning means determining exactly what major objectives you need to accomplish in order to complete the project.
 
-In the initial phases of a project, you may not have yet determined if you should actually do the project. It may not be cost effective, or you may not have the resources. In this stage of planning, you can create a project in `Workfront` without adding any tasks and set the status to planning.&nbsp;
+In the initial phases of a project, you may not have yet determined if you should actually do the project.&nbsp;It may not be cost effective, or you may not have the resources. In this stage of planning, you can create a project in Workfront without adding any tasks and set the status to planning.&nbsp;
 
 For more information about creating a project, see the article [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
@@ -67,10 +67,10 @@ When planning a project, there is additional information that must be set up bef
 Consider asking the following questions:
 
 * Is there a regulation that mandates that you keep a record of events and processes? If so, what are you required to track?  
-  `Workfront` lets you record edits, scope changes, status changes, and actions so you can comply with the regulations specific to your industry.  
-  For more information about defining what updates to track in `Workfront`, see the article [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Workfront lets you record edits, scope changes, status changes, and actions so you can comply with the regulations specific to your industry.  
+  For more information about defining what updates to track in Workfront, see the article [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-* Is there any information that you are required to track that does not have a field in `Workfront` to store it in?! If yes, create Custom Forms for projects or tasks where you can store this information.  
+* Is there any information that you are required to track that does not have a field in Workfront to store it in?! If yes, create Custom Forms for projects or tasks where you can store this information.  
   For more information about creating custom forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * Are there any approval check points that must be granted before the work on a project can continue?&nbsp;If yes, create Approval Processes for projects or tasks that you can use as you're building your project.  

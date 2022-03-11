@@ -9,7 +9,7 @@ description: Use the following documentation to understand the usage of the Text
 
 # Text Mode resources
 
-Use the following documentation to understand the usage of the Text Mode interface in `Adobe Workfront`. You can expand the use of reports by using Text Mode and customizing reports even further than what the report builder allows.
+Use the following documentation to understand the usage of the Text Mode interface in Adobe Workfront. You can expand the use of reports by using Text Mode and customizing reports even further than what the report builder allows.
 
 This section contains the following articles:
 

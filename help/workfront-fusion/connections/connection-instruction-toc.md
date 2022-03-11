@@ -9,9 +9,9 @@ title: Create connections in Adobe Workfront Fusion
 description: A connection must adhere to the requirements set by the API of the app or web service it connects to. For this reason, instructions for setting up a connection vary based on the app or web service. This article can help you identify and locate the instructions for connecting Adobe Workfront Fusion to your chosen app or web service.
 ---
 
-# Create connections in `Adobe Workfront Fusion`
+# Create connections in Adobe Workfront Fusion
 
-A connection must adhere to the requirements set by the API of the app or web service it connects to. For this reason, instructions for setting up a connection vary based on the app or web service. This article can help you identify and locate the instructions for connecting `Adobe Workfront Fusion` to your chosen app or web service.
+A connection must adhere to the requirements set by the API of the app or web service it connects to.&nbsp;For this reason, instructions for setting up a connection vary based on the app or web service. This article can help you identify and locate the instructions for connecting Adobe Workfront Fusion to your chosen app or web service.
 
 ## Access requirements
 
@@ -22,41 +22,41 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Connect `Adobe Workfront` to `Workfront Fusion`
+## Connect Adobe Workfront to Workfront Fusion
 
-`Workfront` and `Workfront Fusion` are designed to work together. The connection you create determines the account that `Workfront Fusion` uses to perform actions in `Workfront`.
+Workfront and Workfront Fusion are designed to work together. The connection you create determines the account that Workfront Fusion uses to perform actions in Workfront.
 
 For instructions, see [Connect Workfront to Workfront Fusion](../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect) in [Adobe Workfront modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Connect to an app or web service that does not require configuration
 
-In most cases, you can use the module to create a connection with little or no extra information. `Workfront Fusion` handles the authentication automatically.
+In most cases, you can use the module to create a connection with little or no extra information. Workfront Fusion handles the authentication automatically.
 
 For instructions on creating a connection with no special considerations, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md).
 
 ## Connect to a Microsoft app or web service
 
-Most of the Microsoft apps in `Workfront Fusion` allow you to create a connection with no extra information.
+Most of the Microsoft apps in Workfront Fusion allow you to create a connection with no extra information.
 
 The following circumstances do require extra steps in creating a connection:
 
@@ -70,7 +70,7 @@ The following circumstances do require extra steps in creating a connection:
 
 ## Connect to a Google app or web service
 
-The process for connecting to Google apps may differ based on what kind of Google account you are using. In addition, Google security measures may require extra configuration when you are connecting to `Workfront Fusion`.
+The process for connecting to Google apps may differ based on what kind of Google account you are using. In addition, Google security measures may require extra configuration when you are connecting to Workfront Fusion.
 
 For more information see:
 
@@ -79,7 +79,7 @@ For more information see:
 
 ## Other apps that require additional configuration
 
-The following apps do not follow the basic configuration for `Workfront Fusion` connections. You can find instructions for connecting these apps in the article for that app.
+The following apps do not follow the basic configuration for Workfront Fusion connections. You can find instructions for connecting these apps in the article for that app.
 
 <table cellspacing="0"> 
  <col> 

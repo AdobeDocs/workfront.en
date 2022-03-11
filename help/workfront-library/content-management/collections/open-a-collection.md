@@ -7,13 +7,13 @@ title: Open a collection in Workfront Library
 description: The Collections area in Workfront Library allows you to view and open all the collections that you have access to.
 ---
 
-# Open a collection in `Workfront Library`
+# Open a collection in Workfront Library
 
-The Collections area in `Workfront Library` allows you to view and open all the collections that you have access to.
+The Collections area in Workfront Library allows you to view and open all the collections that you have access to.
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>Select <span class="bold">Collections</span>.</p> <p>The Collections area opens.</p> <p> <img src="assets/collections-2-350x120.png" style="width: 350;height: 120;"> </p> <p>Depending on the collections you have access to, you might see the following collection categories:</p> 
   <ul> 
    <li><span class="bold">My Collections:</span> Contains collections that you have created. For information on creating a collection, see <a href="../../../workfront-library/content-management/collections/create-a-collection.md" class="MCXref xref">Create a collection in Workfront Library</a>.</li> 

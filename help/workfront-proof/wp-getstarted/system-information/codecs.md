@@ -8,11 +8,11 @@ title: Codecs in Workfront Proof
 description: Codecs in Workfront Proof
 ---
 
-# Codecs in `Workfront Proof`
+# Codecs in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Supported Codecs
 

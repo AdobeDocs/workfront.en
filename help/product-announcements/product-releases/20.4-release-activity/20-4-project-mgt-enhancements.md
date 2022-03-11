@@ -2,9 +2,9 @@
 
 # 20.4 Project management enhancements
 
-This page describes all `project management` enhancements made with the `20.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
+This page describes all project management enhancements made with the 20.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
 
-For a list of all changes available with the `20.4` release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+For a list of all changes available with the 20.4 release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## New for administrators: Control how a custom field is shared
 

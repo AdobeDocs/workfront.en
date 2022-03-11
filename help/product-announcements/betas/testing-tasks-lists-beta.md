@@ -12,7 +12,7 @@ Some information on this page refers to functionality not yet generally availabl
 
 ## The task list testing beta program
 
-We are currently working on improving the performance around lists in `Workfront`. We have already implemented new functionality that improves the performance around a list of dashboards. We are&nbsp;now extending this functionality to a list of tasks.&nbsp;
+We are currently working on improving the performance around lists in Workfront. We have already implemented new functionality that improves the performance around a list of dashboards. We are&nbsp;now extending this functionality to a list of tasks.&nbsp;
 
 This feature focuses primarily on improving the performance of large lists of tasks. The interface of tasks lists has been updated, but delivers the same functionality as the existing tasks list.&nbsp;
 
@@ -26,7 +26,7 @@ If you would like to be part of this beta program and have this functionality en
 >
 >Signup is now closed.&nbsp;
 
-To sign up for the tasks list beta program, please fill out the [ `Workfront` Task List Beta Testing](https://docs.google.com/forms/d/e/1FAIpQLScPMRQBQDW5YNGFTx5UCYRoT2SPfTOu1s8KocSx_ZYbI6YQEQ/viewform?c=0&w=1) form.
+To sign up for the tasks list beta program, please fill out the [Workfront Task List Beta Testing](https://docs.google.com/forms/d/e/1FAIpQLScPMRQBQDW5YNGFTx5UCYRoT2SPfTOu1s8KocSx_ZYbI6YQEQ/viewform?c=0&w=1) form.
 
 When you volunteer to sign up for the beta program to test the new tasks list functionality, please keep in mind the list of actions we would like you to focus on as you are testing this feature. For more information about the actions we are targeting with this research, see&nbsp; [The task list testing beta program](#task-list-beta-program).
 

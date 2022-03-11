@@ -9,7 +9,7 @@ title: Custom branding in Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Custom branding in `Adobe Workfront`
+# Custom branding in Adobe Workfront
 
 This section contains the following articles:
 

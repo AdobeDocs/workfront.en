@@ -7,15 +7,15 @@ title: Manage a partner relationship between Workfront Proof accounts
 description: If you are collaborating with another organization who also uses a Workfront Proof (for example, another department in your company or a client), you can set up a partner relationship between the two accounts. Setting up a partner relationship between your account and another organization will allow you to share proofs, files, folders, as well as contact details with your partners.
 ---
 
-# Manage a partner relationship between `Workfront Proof` accounts
+# Manage a partner relationship between Workfront Proof accounts
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-If you are collaborating with another organization who also uses a `Workfront Proof` (for example, another department in your company or a client), you can set up a partner relationship between the two accounts. Setting up a partner relationship between your account and another organization will allow you to share `proofs`, files, folders, as well as contact details with your partners.
+If you are collaborating with another organization who also uses a Workfront Proof (for example, another department in your company or a client), you can set up a partner relationship between the two accounts.&nbsp;Setting up a partner relationship between your account and another organization will allow you to share proofs, files, folders, as well as contact details with your partners.
 
-The partner relationship is established between two organizations rather than between two users and both organizations must have a `Workfront Proof` account.
+The partner relationship is established between two organizations rather than between two users and both organizations must have a Workfront Proof account.
 
 >[!NOTE]
 >

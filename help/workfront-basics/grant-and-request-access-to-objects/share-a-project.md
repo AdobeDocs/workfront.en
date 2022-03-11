@@ -7,13 +7,13 @@ title: Share a project in Adobe Workfront
 description: Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see Grant access to projects.
 ---
 
-# Share a project in `Adobe Workfront`
+# Share a project in Adobe Workfront
 
-Your `Adobe Workfront administrator` can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific projects that you have access to share.
 
-Permissions are specific to one item in `Workfront` and define what actions one can take on that item.
+Permissions are specific to one item in Workfront and define what actions one can take on that item.
 
 ## Considerations about sharing projects
 
@@ -21,7 +21,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 <ul> 
  <li> <p>By default, the creator of a project has permissions to manage the project and is also designated as the Project Owner. If the project is assigned to another owner, that user also has permissions to manage the project. When the project creator (or owner) shares the project with other users, they grant certain permissions to those users to control what they can do as they work on the project.</p> <p>However, if a project owner does not have a Planner license, they do not have full access to manage the project. Only a user with a Plan license can have permissions to manage a project. For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md" class="MCXref xref">How access levels and permissions work together</a>.</p> </li> 
- <li>You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in <span>Workfront</span>, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
+ <li>You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in Workfront, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
  <li> You can grant the following permissions to a project:&nbsp; 
   <ul>
    <li>View</li>
@@ -34,7 +34,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the  section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
-  The `Workfront administrator` can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  The Workfront administrator can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * You can remove inherited permissions from a project so that the children objects will not inherit them.&nbsp;For more information about removing inherited permissions from objects, see&nbsp; [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -48,9 +48,9 @@ You can share a project in the following ways:
     For more information about adding users to a project team, see the "Adding Users to a Project Team" section in [Project Team overview](../../manage-work/projects/planning-a-project/project-team-overview.md). 
   * Individually or bulk-sharing the projects when using the `Sharing` option.
 
-    Sharing a project is similar to sharing all other objects in `Adobe Workfront`.
+    Sharing a project is similar to sharing all other objects in Adobe Workfront.
 
-    For information about sharing objects in `Workfront`, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+    For information about sharing objects in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 <ul> 
  <li> <p>Automatically, by doing one of the following: </p> 

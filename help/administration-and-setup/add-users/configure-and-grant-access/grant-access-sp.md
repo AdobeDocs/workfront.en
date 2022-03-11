@@ -1,10 +1,10 @@
 
 
-# Grant access to `Scenario Planner`
+# Grant access to Scenario Planner
 
-As an `Adobe Workfront administrator`, you can use an access level to define a user’s access to `Scenario Planner`, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
+As an Adobe Workfront administrator, you can use an access level to define a user’s access to Scenario Planner, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
-In addition to access to `Scenario Planner`, a user with a non-System Administrator access level must also have access to financial data in order to see any financial information contained in a plan, such as budgets, costs, and job role rates. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+In addition to access to Scenario Planner, a user with a non-System Administrator access level must also have access to financial data in order to see any financial information contained in a plan, such as budgets, costs, and job role rates. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Access requirements
 
@@ -15,45 +15,44 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><span>Adobe Workfront</span> plan*</p> </td> 
-   <td><span>Business</span> or higher</td> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Business or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Scenario Planner</span> to access functionality described in this article.</p> <p>For information about obtaining the <span>Workfront Scenario Planner</span>, see <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View access or higher to the <span>Scenario Planner</span></p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> Object permissions View permissions or higher for a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Configure user access to `Scenario Planner` using a custom access level
+## Configure user access to Scenario Planner using a custom access level
 
 <ol> 
  <li value="1">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</li> 
  <li value="2"> <p>Click the option to the right of <span class="bold">Scenario Planner</span> that you want to use for this access level.</p> <note type="note">
-   The Request or External license type do not allow View or Edit access to 
-   <span>Scenario Planner</span>.
+   The Request or External license type do not allow View or Edit access to Scenario Planner.
   </note> </li> 
  <li value="3"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" data-mc-variable-override="">Grant access to financial data</a>.</p> </li> 
  <li value="4"> <p>When you are finished, click Save.</p> </li> 
 </ol>
 
-## Access to `Scenario Planner` by license type
+## Access to Scenario Planner by license type
 
 For information about what users in each access level can do with the Scenario Planner, see the section [Scenario Planner area](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
-## `Scenario Planner` access by access level setting
+## Scenario Planner access by access level setting
 
-The following information can help you understand how to use the Access level settings to control users' access to information in the `Workfront Scenario Planner`.
+The following information can help you understand how to use the Access level settings to control users' access to information in the Workfront Scenario Planner.
 
 * [No access](#no) 
 * [View access](#view) 
@@ -61,23 +60,23 @@ The following information can help you understand how to use the Access level se
 
 ### No access
 
-A user with no access to `Scenario Planner` can neither see the `Scenarios` icon in the Main Menu when it is added to their layout template, nor view plans and initiatives that are shared with them. If the link to a plan is shared with a user who has no access to `Scenario Planner`, the user cannot view or edit the plan.
+A user with no access to Scenario Planner can neither see the Scenarios icon in the Main Menu when it is added to their layout template, nor view plans and initiatives that are shared with them. If the link to a plan is shared with a user who has no access to Scenario Planner, the user cannot view or edit the plan.
 
 ### View access
 
-Users with View access to `Scenario Planner` can do the following:
+Users with View access to Scenario Planner can do the following:
 
 <ul> 
- <li>See the <span>Scenarios</span> icon in the Main Menu <img src="assets/esp-icon-in-main-menu.png">, though the Plans area is empty unless the user clicks a plan link shared by another user. </li> 
+ <li>See the Scenarios icon in the Main Menu <img src="assets/esp-icon-in-main-menu.png">, though the Plans area is empty unless the user clicks a plan link shared by another user. </li> 
  <li> <p>View a plan when another user shares the link to it.</p> <p>This includes any job role information in the plan.</p> <p>It also includes job role rates and cost information on the plan if the recipient user also has access to financial data. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 
 </ul>
 
 ### Edit access
 
-Users with Edit access to `Scenario Planner` can do the following:
+Users with Edit access to Scenario Planner can do the following:
 
 <ul> 
- <li>See the <span>Scenarios</span> icon in the Main Menu <img src="assets/esp-icon-in-main-menu.png"> and use it to access plan data.</li> 
+ <li>See the Scenarios icon in the Main Menu <img src="assets/esp-icon-in-main-menu.png"> and use it to access plan data.</li> 
  <li>Create plans.</li> 
  <li>View, edit, and delete plans that they create.</li> 
  <li> <p>View, edit, and delete other users' plans that they access using a shared link.</p> <p>This includes any job role information in a plan.</p> <p>It also includes job role rates and cost information on the plan if the recipient user has access to financial data. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 

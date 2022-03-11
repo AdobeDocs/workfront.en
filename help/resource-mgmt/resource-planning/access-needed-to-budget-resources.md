@@ -9,7 +9,7 @@ description: You can view resource budgeting information for the projects that y
 
 # Access needed to budget resources
 
-You can view resource budgeting information for the projects that you have access to view when your company has purchased an  `Adobe Workfront` license that includes Resource Planning.
+You can view resource budgeting information for the projects that you have access to view when your company has purchased an&nbsp;Adobe Workfront license that includes Resource Planning.
 
 In order to budget resources, manage Resource Pools, and see Cost information in the Resource Planning tools, your company and you must have the following access:&nbsp;
 
@@ -18,12 +18,12 @@ In order to budget resources, manage Resource Pools, and see Cost information in
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -36,7 +36,7 @@ In order to budget resources, manage Resource Pools, and see Cost information in
       </ul> <p>For information about the Resource Management access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Grant access to Resource Management</a>.</p> </li> 
      <li> <p>Edit access to Projects and Users. </p> </li> 
      <li> <p> Edit access to Financial Data in your Access Level, if you need to view or manage information by&nbsp;Cost.</p> <p>For more information about the Financial Data access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,4 +45,4 @@ In order to budget resources, manage Resource Pools, and see Cost information in
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.

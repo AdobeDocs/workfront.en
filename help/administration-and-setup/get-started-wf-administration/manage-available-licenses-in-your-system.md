@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator, you can access information abo
 
 # Manage available licenses in your system
 
-As an `Adobe Workfront administrator`, you can access information about your `Workfront` account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
+As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
 
 ## Access requirements
 
@@ -20,40 +20,38 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## View your organization’s licenses
 
-The number of used licenses in use updates automatically as you assign access levels to users you add to `Workfront`. For more information, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+The number of used licenses in use updates automatically as you assign access levels to users you add to Workfront. For more information, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 To view license information in your system:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>At the bottom of the left panel, click <span class="bold">System</span> > <span class="bold">Licenses</span>.</p> <p>For more information about the licenses listed on this page, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> <note type="note">
-    Proof licenses are available only to customers who have purchased the paid 
-   <span>Workfront Proof</span> add-on in addition to their 
-   <span>Workfront</span> license. For information about this add-on, see 
+    Proof licenses are available only to customers who have purchased the paid Workfront Proof add-on in addition to their Workfront license. For information about this add-on, see 
    <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a>.
   </note> </li> 
  <li value="3">(Conditional) If you see the message <span class="bold">To set a maximum, you must add a Home Group</span>, add a Home Groups in your system as explained in the section <a href="#managing-the-group-list" class="MCXref xref">Add or remove a Home Group to the Licenses page</a> in this article.</li> 
 </ol>
 
-## Viewing information about licenses for `Workfront` addons
+## Viewing information about licenses for Workfront addons
 
-In the screen shot below, `5 of 10 Proof licenses` indicates that this organization has the paid `Workfront Proof` add-on and is currently using 5 of the 10 `Workfront Proof` licenses they purchased.
+In the screen shot below, `5 of 10 Proof licenses` indicates that this organization has the paid Workfront Proof add-on and is currently using 5 of the 10 Workfront Proof licenses they purchased.
 
 ![](assets/license-count-paid-add-on-350x233.png)
 
@@ -72,9 +70,9 @@ To learn more about creating a report, see [Create a custom report](../../report
 
 ## Add or remove a Home Group to the Licenses page
 
-A Business or Enterprise `Workfront` Plan is required to use this feature. For more information about the various plans available, see [ `Workfront` Plans.](https://www.workfront.com/plans)
+A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
 
-Each user can be assigned to only one Home Group. `Workfront` provides a group-oriented license count by calculating how many licenses are allocated and currently used in each Home Group.
+Each user can be assigned to only one Home Group. Workfront provides a group-oriented license count by calculating how many licenses are allocated and currently used in each Home Group.
 
 If you see the message `To set a maximum, you must add a Home Group` on the Licenses page, you need to add at least one Home Group to the Licenses page.
 
@@ -87,7 +85,7 @@ If you see the message `To set a maximum, you must add a Home Group` on the Lice
 To add or remove a Home Group to the Licenses page:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">At the bottom of the left panel, click <span class="bold">System</span> > <span class="bold">Licenses</span>.</li> 
  <li value="3">Click <span class="bold">Manage Group List</span>.</li> 
  <li value="4"> Start typing the top-level group’s name in the <span class="bold">Home Groups</span> box.</li> 
@@ -95,11 +93,11 @@ To add or remove a Home Group to the Licenses page:
  <li value="6">Click <span class="bold">Save</span>.</li> 
 </ol>
 
-As a `Workfront administrator`, you can set maximum license counts for the Home Groups to prevent a business unit from using Workfront licenses purchased for other business units. For instructions, see [Set the maximum license count for a Home Group](#set) in this article.
+As a Workfront administrator, you can set maximum license counts for the Home Groups to prevent a business unit from using Workfront licenses purchased for other business units. For instructions, see [Set the maximum license count for a Home Group](#set) in this article.
 
 ## Set the maximum license count for a Home Group
 
-As a `Workfront administrator`, you can set maximum license counts for the top-level Home Groups in your system. This allows you to prevent a business unit from using `Workfront` licenses purchased for other business units within your organization.
+As a Workfront administrator, you can set maximum license counts for the top-level Home Groups in your system. This allows you to prevent a business unit from using Workfront licenses purchased for other business units within your organization.
 
 By default, the max license count is set to N/A, which means there is no limit.
 group administrators can view the number of licenses allocated and used in a Home Group they manage. For more information, see View the number of licenses allocated and used in a group in the new Adobe Workfront experience. 
@@ -107,7 +105,7 @@ group administrators can view the number of licenses allocated and used in a Hom
 To set the maximum license count for a Home group:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">At the bottom of the left panel, click <span class="bold">System</span> > <span class="bold">Licenses</span>.</li> 
  <li value="3">Locate the Home Group in the list.</li> 
  <li value="4">In the <span class="bold">Max</span> column of the group, click the value that you want to set a maximum for.</li> 

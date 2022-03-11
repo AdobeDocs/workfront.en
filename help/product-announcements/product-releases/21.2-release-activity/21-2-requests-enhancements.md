@@ -9,13 +9,13 @@ description: This page describes all Requests enhancements made with the 21.2 re
 
 # 21.2 Requests enhancements
 
-This page describes all `Requests` enhancements made with the `21.2` release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the `21.2` release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+This page describes all Requests enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Control what type of assignments you make on a new request
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 We have changed the way the Assignments field functions when creating a new request to provide consistency and always show the same field regardless of what types of assignments users can enter.
 
@@ -36,7 +36,7 @@ For more information, see the following articles:
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 As we continue to incorporate your feedback about creating requests in the new Workfront experience, we made several improvements to the new requests workflow. These include:
 
@@ -56,9 +56,9 @@ This feature is now included in the [Collaborator Fundamentals for the new Workf
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
-As we continue to listen to and incorporate your feedback, we have added several improvements to the new requests workflow to make your interaction with `Adobe Workfront` easier and more intuitive. These improvements are:
+As we continue to listen to and incorporate your feedback, we have added several improvements to the new requests workflow to make your interaction with Adobe Workfront easier and more intuitive. These improvements are:
 
 * You can select where to place the Documents section for uploading files when creating a request queue as you are defining the Queue Setup. You can place this section either before or after the custom fields of the request form. For more information, see Create a Request Queue.
 * Sorting the Submitted requests list by one of the columns is now preserved when you navigate away from the page. For more information, see Locate submitted requests.
@@ -74,9 +74,9 @@ This feature is now included in the [Collaborator Fundamentals for the new Workf
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
-To make your experience consistent across all areas of `Adobe Workfront`, we have added the Open Summary icon to the Submitted section of the Requests area. Now, you can open the Summary panel for submitted issues and see more information about the issues, assign them, or add a document or a comment.
+To make your experience consistent across all areas of Adobe Workfront, we have added the Open Summary icon to the Submitted section of the Requests area. Now, you can open the Summary panel for submitted issues and see more information about the issues, assign them, or add a document or a comment.
 
 For information about the submitted requests, see Locate submitted requests.
 
@@ -90,7 +90,7 @@ This feature is now included in the [Collaborator Fundamentals for the new Workf
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 With the redesign of the New Request form that launched with the previous release, we had prevented several fields from the New Issue Fields area of the project Queue Details section to display when submitting a new request. After incorporating your feedback, we have decided to bring the fields back so they can all display on the New Request form.
 

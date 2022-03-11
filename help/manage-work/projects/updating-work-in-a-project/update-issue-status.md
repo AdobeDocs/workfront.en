@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,11 +37,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Issue statuses
 
-The following are the default statuses for issues in `Workfront`:
+The following are the default statuses for issues in Workfront:
 
 * New
 * In Progress
@@ -52,14 +52,14 @@ The following are the default statuses for issues in `Workfront`:
 * Closed
 * Resolved
 
-Your `Adobe Workfront administrator` can add custom statuses for issues for your organization. They can also make statuses available depending on the issue type.
+Your Adobe Workfront administrator can add custom statuses for issues for your organization. They can also make statuses available depending on the issue type.
 
 For more information about custom statuses and issue types, see the following articles:
 
 * [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) 
 * [Create issues](../../../manage-work/issues/manage-issues/create-issues.md)
 
-You can manually update issue statuses or you can let `Workfront` automatically update them when certain actions take place.
+You can manually update issue statuses or you can let Workfront automatically update them when certain actions take place.
 
 ## Manually update issue status
 
@@ -82,11 +82,11 @@ When you are updating an issue status, you can also add an explanation about the
 
 ## Automatically update issue status
 
-`Workfront` automatically updates the existing status of an issue to a different status when the actions listed in the table below occur.
+Workfront automatically updates the existing status of an issue to a different status when the actions listed in the table below occur.
 
 >[!NOTE]
 >
->The statuses in the following table are default system statuses. Your `Workfront administrator` or a `group administrator` can rename the statuses in your instance of `Workfront`. For information about creating and managing statuses in `Workfront`, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>The statuses in the following table are default system statuses. Your Workfront administrator or a group administrator can rename the statuses in your instance of Workfront. For information about creating and managing statuses in Workfront, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 <table cellspacing="15"> 
  <col> 

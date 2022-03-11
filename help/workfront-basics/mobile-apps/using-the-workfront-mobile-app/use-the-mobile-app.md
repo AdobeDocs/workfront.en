@@ -6,7 +6,7 @@ title: Use the Adobe Workfront mobile app
 description: This section contains the following articles:
 ---
 
-# Use the `Adobe Workfront` mobile app
+# Use the Adobe Workfront mobile app
 
 This section contains the following articles:
 

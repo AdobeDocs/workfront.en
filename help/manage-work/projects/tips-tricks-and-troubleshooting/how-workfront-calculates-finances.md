@@ -7,11 +7,11 @@ title: How Adobe Workfront calculates finances
 description: You can track your finances with a number of fields that capture budget, cost, and revenue in Adobe Workfront.
 ---
 
-# How `Adobe Workfront` calculates finances
+# How Adobe Workfront calculates finances
 
-You can track your finances with a number of fields that capture budget, cost, and revenue in  `Adobe Workfront`.
+You can track your finances with a number of fields that capture budget, cost, and revenue in&nbsp;Adobe Workfront.
 
-The following table contains some of the most common financial fields or references you might encounter when reviewing `Workfront` documentation or speaking with other customers.
+The following table contains some of the most common financial fields or references you might encounter when reviewing Workfront documentation or speaking with other customers.
 
 For more information, also see the following articles:
 

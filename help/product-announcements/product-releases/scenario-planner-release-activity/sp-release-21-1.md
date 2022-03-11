@@ -8,9 +8,9 @@ title: Adobe Workfront Scenario Planner with the 21.1 release
 description: Adobe Workfront Scenario Planner is available only with the new Adobe Workfront experience.
 ---
 
-# `Adobe Workfront Scenario Planner` with the 21.1 release
+# Adobe Workfront Scenario Planner with the 21.1 release
 
-`Adobe Workfront Scenario Planner` is available only with `the new Adobe Workfront experience`.
+Adobe Workfront Scenario Planner is available only with the new Adobe Workfront experience.
 
 The following features are included in the 21.1 release:
 

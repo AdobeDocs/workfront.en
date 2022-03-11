@@ -7,7 +7,7 @@ title: View Enhanced analytics visualizations by duration
 description: If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations:
 ---
 
-# View `Enhanced analytics` visualizations by duration
+# View Enhanced analytics visualizations by duration
 
 If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations:
 
@@ -17,14 +17,13 @@ If your teams do not use planned hours, you can select a duration view of the pr
 * Project treemap  
   To learn more about the Project treemap visualization, see [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md).
 
-In `Enhanced analytics`, the duration of a project is calculated by the following formulas:
+In Enhanced analytics, the duration of a project is calculated by the following formulas:
 
 <ul> 
  <li> <p>Planned Timeframe: <code>Planned Completion Date of the project - Start Date of the project</code></p> </li> 
  <li> <p>Days Worked: <code>Planned Duration for tasks completed in the selected date range / Typical hours per work day</code></p> <note type="note">
    8 hours is the default number for 
-   <b>Typical hours per work day</b>. An 
-   <span>Adobe Workfront administrator</span> can update the 
+   <b>Typical hours per work day</b>. An Adobe Workfront administrator can update the 
    <b>Typical hours per work day</b> setting under 
    <b>Setup</b> > 
    <b>Project Preferences</b> > 
@@ -46,7 +45,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Workfront</span> plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</td> 
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +54,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -64,7 +63,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 

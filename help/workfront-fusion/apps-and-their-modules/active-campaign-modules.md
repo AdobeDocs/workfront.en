@@ -11,18 +11,18 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # ActiveCampaign modules
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
-In a `Adobe Workfront Fusion` scenario, you can connect your `ActiveCampaign` account to multiple third-party applications and services. You can create, update, list, and delete automations, campaigns, calendar feeds, contacts, deals, messages, notes, organizations, tags, and tasks in your ActiveCampaign account.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+In a Adobe Workfront Fusion scenario, you can connect your ActiveCampaign account to multiple third-party applications and services. You can create, update, list, and delete automations, campaigns, calendar feeds, contacts, deals, messages, notes, organizations, tags, and tasks in your ActiveCampaign account.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
-## Connect Active Campaign to `Workfront Fusion`
+## Connect Active Campaign to Workfront Fusion
 
 1. Log in to your ActiveCampaign account.
 1. From the left menu, click `Settings` > `Developer`.
 
 1. Copy the API `Key` to the clipboard.
-1. Go to `Workfront Fusion`, add an ActiveCampaign module to a scenario, and open the `Create a Connection` box,
+1. Go to Workfront Fusion, add an ActiveCampaign module to a scenario, and open the `Create a Connection` box,
 
    XsCCPEaX9L.gif
 
@@ -63,11 +63,11 @@ If you need instructions on creating a scenario, see [Create a scenario](../../w
 
 ### Create a Contact
 
-This action module `creates a new contact`.
+This action module creates a new contact.
 
 You specify the person's contact information.
 
-The module returns the ID of the  `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  contact and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -77,7 +77,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><span class="bold">Email </span> </td> 
@@ -100,11 +100,11 @@ When you are configuring this module, the following fields display.
 
 ### Create/Update a Contact
 
-This action module `creates a new contact or updates an existing contact`.
+This action module creates a new contact or updates an existing contact.
 
 You specify the contact information.
 
-The module returns the ID of the  `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  contact and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -114,7 +114,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Email </span> </td> 
@@ -137,11 +137,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete a Contact
 
-This action module `deletes an existing contact`.
+This action module deletes an existing contact.
 
-You specify the ID of the `contact`.
+You specify the ID of the contact.
 
-The module returns the ID of the  `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  contact and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -151,22 +151,22 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">ID </span> </td> 
-   <td> <p>Enter or map the unique <span>ActiveCampaign</span> ID of the <span>contact</span> that you want the module to <span>delete</span>.</p> </td> 
+   <td> <p>Enter or map the unique ActiveCampaign ID of the contact that you want the module to delete.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Get a Contact
 
-This action module `retrieves a contact`.
+This action module retrieves a contact.
 
-You specify the ID of the `contact`.
+You specify the ID of the contact.
 
-The module returns the ID of the `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the contact and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -176,18 +176,18 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">ID </span> </td> 
-   <td> <p>Select the type of <span>[Fusion app]</span> record from which you want the module to retrieve details.</p> </td> 
+   <td> <p>Select the type of [Fusion app] record from which you want the module to retrieve details.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Create/Update a Contact's Custom Field Value
 
-This action module `creates or updates a custom field value for the given contact`.
+This action module creates or updates a custom field value for the given contact.
 
 When you are configuring this module, the following fields display.
 
@@ -197,7 +197,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Contact ID</span> </td> 
@@ -205,7 +205,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td><span class="bold">Field ID</span> </td> 
-   <td> <p><![CDATA[	]]>Enter the unique <span>[Fusion app]</span> ID of the <span>record</span> that you want the module to update.</p> </td> 
+   <td> <p><![CDATA[	]]>Enter the unique [Fusion app] ID of the record that you want the module to update.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Field Value</span> </td> 
@@ -220,11 +220,11 @@ When you are configuring this module, the following fields display.
 
 ### Update Contact's List Status
 
-This action module `updates the list status for a contact`.
+This action module updates the list status for a contact.
 
 You specify the contact ID, list ID, and status.
 
-The module returns the ID of the  `status` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  status and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -234,7 +234,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Contact ID</span> </td> 
@@ -258,11 +258,11 @@ When you are configuring this module, the following fields display.
 
 ### Add a Tag to a Contact
 
-This action module `adds a tag to a contact`.
+This action module adds a tag to a contact.
 
 You specify the IDs of the contact and of the tag.
 
-The module returns the ID of the  `tag and contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  tag and contact and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -272,7 +272,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Contact ID</span> </td> 
@@ -287,11 +287,11 @@ When you are configuring this module, the following fields display.
 
 ### Remove a Tag from a Contact
 
-This action module `removes a tag from a contact`.
+This action module removes a tag from a contact.
 
-You specify the ID of the `contact`.
+You specify the ID of the contact.
 
-The module returns the ID of the  `contact tag` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  contact tag and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -301,7 +301,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Contact's Tag ID</span><![CDATA[	]]></td> 
@@ -312,7 +312,7 @@ When you are configuring this module, the following fields display.
 
 ### List Contacts
 
-This action module `retrieves a list of contacts`.
+This action module retrieves a list of contacts.
 
 When you are configuring this module, the following fields display.
 
@@ -322,7 +322,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Limit </span> </td> 
@@ -401,7 +401,7 @@ When you are configuring this module, the following fields display.
 
 ### Get Info About Logged-in User
 
-This action module `gets information about the logged-in users`.
+This action module gets information about the logged-in users.
 
 When you are configuring this module, the following fields display.
 
@@ -411,14 +411,14 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Watch Contacts
 
-This trigger module executes a scenario when `a new contact is created`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+This trigger module executes a scenario when a new contact is created. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -428,7 +428,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Limit </span> </td> 
@@ -500,11 +500,11 @@ When you are configuring this module, the following fields display.
 
 ### Create a Deal
 
-This action module `creates a new deal`.
+This action module creates a new deal.
 
 You specify information about the deal.
 
-The module returns the ID of the `deal` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the deal and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -514,7 +514,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Title </span> </td> 
@@ -573,11 +573,11 @@ When you are configuring this module, the following fields display.
 
 ### Update a Deal
 
-This action module `updates an existing deal`.
+This action module updates an existing deal.
 
 You specify the new information about the deal.
 
-The module returns the ID of the  `deal` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  deal and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -587,7 +587,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Deal ID</span> </td> 
@@ -643,11 +643,11 @@ When you are configuring this module, the following fields display.
 
 ### Get a Deal
 
-This action module `returns a deal`.
+This action module returns a deal.
 
-You specify the ID of the `deal`.
+You specify the ID of the deal.
 
-The module returns the ID of the `deal` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the deal and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -657,7 +657,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">ID </span> </td> 
@@ -668,11 +668,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete a Deal
 
-This action module `deletes an existing deal`.
+This action module deletes an existing deal.
 
-You specify the ID of the `deal`.
+You specify the ID of the deal.
 
-The module returns the ID of the  `deal` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  deal and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -682,7 +682,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">ID </span> </td> 
@@ -693,11 +693,11 @@ When you are configuring this module, the following fields display.
 
 ### Move Details to Another Deal Stage
 
-This action module `moves all deals in one stage to another stage`.
+This action module moves all deals in one stage to another stage.
 
 You specify the IDs of the stage and of the target stage.
 
-The module returns the ID of the  `stage` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  stage and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -707,7 +707,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Stage ID</span> </td> 
@@ -722,7 +722,7 @@ When you are configuring this module, the following fields display.
 
 ### List Deals
 
-This action module `retrieves a list of deals`.
+This action module retrieves a list of deals.
 
 When you are configuring this module, the following fields display.
 
@@ -732,7 +732,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Limit </span> </td> 
@@ -791,7 +791,7 @@ When you are configuring this module, the following fields display.
 
 ### Watch Deals
 
-This trigger module executes a scenario when `a deal is created`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+This trigger module executes a scenario when a deal is created. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -801,7 +801,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Limit </span> </td> 
@@ -870,11 +870,11 @@ When you are configuring this module, the following fields display.
 
 ### Get a Campaign
 
-This action module `retrieves a campaign`.
+This action module retrieves a campaign.
 
-You specify the ID of the `campaign`.
+You specify the ID of the campaign.
 
-The module returns the ID of the `campaign` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the campaign and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -884,7 +884,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -895,11 +895,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete a Campaign
 
-This action module `deletes an existing campaign`.
+This action module deletes an existing campaign.
 
-You specify the ID of the `campaign`.
+You specify the ID of the campaign.
 
-The module returns the ID of the  `campaign` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  campaign and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -909,22 +909,22 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
-   <td> <p>Enter or map the unique <span>ActiveCampaign</span> ID of the <span>campaign</span> that you want the module to <span>delete</span>.</p> </td> 
+   <td> <p>Enter or map the unique ActiveCampaign ID of the campaign that you want the module to delete.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### List Campaigns
 
-This action module `retrieves a list of campaigns`.
+This action module retrieves a list of campaigns.
 
 You specify the highest number of records you want the module to list during each scenario execution cycle.
 
-The module returns the ID of the `list` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the list and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -934,11 +934,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>list</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to list during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -951,11 +951,11 @@ When you are configuring this module, the following fields display.
 
 ### Create/Update a Task
 
-This action module `creates a new task or updates an existing task`.
+This action module creates a new task or updates an existing task.
 
 You specify information about the task.
 
-The module returns the ID of the  `task` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  task and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -965,7 +965,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Owner type</td> 
@@ -1014,11 +1014,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete a Task
 
-This action module `deletes an existing task`.
+This action module deletes an existing task.
 
-You specify the ID of the `task`.
+You specify the ID of the task.
 
-The module returns the ID of the  `task` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  task and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1028,7 +1028,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -1039,7 +1039,7 @@ When you are configuring this module, the following fields display.
 
 ### Watch Tasks
 
-This trigger module executes a scenario when `a new task is assigned to a deal`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+This trigger module executes a scenario when a new task is assigned to a deal. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1049,7 +1049,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
@@ -1095,11 +1095,11 @@ When you are configuring this module, the following fields display.
 
 ### Create a Note
 
-This action module `adds a note to an activity, a deal, a deal task, or to a subscriber`.
+This action module adds a note to an activity, a deal, a deal task, or to a subscriber.
 
 You specify the note and the object.
 
-The module returns the ID of the  `note` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  note and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1109,7 +1109,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Note</td> 
@@ -1128,11 +1128,11 @@ When you are configuring this module, the following fields display.
 
 ### Create a Deal Note
 
-This action module `creates a new note for a deal`.
+This action module creates a new note for a deal.
 
 You specify the note and the ID of the deal.
 
-The module returns the ID of the  `note` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  note and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1142,7 +1142,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -1190,7 +1190,7 @@ Webhook Name Enter the webhook name. Connection For instructions about connectin
 
 ### List Automations
 
-This action module `retrieves a list of automations`.
+This action module retrieves a list of automations.
 
 You specify the highest number of records you want the module to list during each scenario execution cycle.
 
@@ -1202,18 +1202,18 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>[action]</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### List Organizations
 
-This action module `retrieves a list of organizations`.
+This action module retrieves a list of organizations.
 
 When you are configuring this module, the following fields display.
 
@@ -1223,7 +1223,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
@@ -1236,7 +1236,7 @@ When you are configuring this module, the following fields display.
 
 ### Add a Contact to an Automation
 
-This action module `adds a contact to an automation`.
+This action module adds a contact to an automation.
 
 You specify the IDs of the contact and of the automation.
 
@@ -1248,7 +1248,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p style="font-weight: bold;">Contact ID</p> </td> 
@@ -1263,11 +1263,11 @@ When you are configuring this module, the following fields display.
 
 ### Get an Automation a Contact Is In
 
-This action module `retrieves an automation that contains a contact`.
+This action module retrieves an automation that contains a contact.
 
-You specify the ID of the `contact`.
+You specify the ID of the contact.
 
-The module returns the ID of the `automation` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the automation and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1277,7 +1277,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -1288,11 +1288,11 @@ When you are configuring this module, the following fields display.
 
 ### Remove a Contact from an Automation
 
-This action module `removes a contact from an automation`.
+This action module removes a contact from an automation.
 
-You specify the ID of the `contact`.
+You specify the ID of the contact.
 
-The module returns the ID of the  `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  contact and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1302,7 +1302,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -1313,7 +1313,7 @@ When you are configuring this module, the following fields display.
 
 ### List All Automations a Contacts Is In
 
-This action module `retrieves a list of automations that contain a contact`.
+This action module retrieves a list of automations that contain a contact.
 
 You specify the maximum number of automations you want to list.
 
@@ -1325,7 +1325,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
@@ -1338,11 +1338,11 @@ When you are configuring this module, the following fields display.
 
 ### Create a Message
 
-This action module `creates a message`.
+This action module creates a message.
 
 You specify the information for the message.
 
-The module returns the ID of the  `message` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  message and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1352,7 +1352,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>From Name</td> 
@@ -1385,11 +1385,11 @@ When you are configuring this module, the following fields display.
 
 ### Create/Update a Calendar Feed
 
-This action module `creates or updates a calendar feed`.
+This action module creates or updates a calendar feed.
 
 You specify information about the feed.
 
-The module returns the ID of the  `feed` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  feed and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1399,7 +1399,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Title </td> 
@@ -1433,11 +1433,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete a Calendar Feed
 
-This action module `deletes a calendar feed`.
+This action module deletes a calendar feed.
 
-You specify the ID of the `record`.
+You specify the ID of the record.
 
-The module returns the ID of the  `calendar feed` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  calendar feed and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -1447,7 +1447,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -1458,9 +1458,9 @@ When you are configuring this module, the following fields display.
 
 ### Watch Calendar Feeds
 
-This trigger module executes a scenario when `a new calendar feed is created or updated`.
+This trigger module executes a scenario when a new calendar feed is created or updated.
 
-The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 You specify the maximum number of calendar feeds that you want listed.
 
@@ -1472,7 +1472,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
@@ -1518,7 +1518,7 @@ These steps seem really wonky in Alloy article. Test!
    <tbody> 
     <tr> 
      <td>Connection </td> 
-     <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+     <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
     </tr> 
     <tr> 
      <td>Custom Webhook Name</td> 
@@ -1542,10 +1542,10 @@ These steps seem really wonky in Alloy article. Test!
  <li value="6"> <p>In the Webhook settings fields, click <span class="bold">Edit</span> to open the webhook settings in the ActiveCampaign.</p> <!--
    screenshot
   --> </li> 
- <li value="7"> <p>In the Webhook settings section, in the <span class="bold">List</span> dropdown menu, select the list that you want to work with the <span>Workfront Fusion</span> webhook.</p> <!--
+ <li value="7"> <p>In the Webhook settings section, in the <span class="bold">List</span> dropdown menu, select the list that you want to work with the Workfront Fusion webhook.</p> <!--
    screenshot
   --> </li> 
- <li value="8">Run your scenario in <span>Workfront Fusion</span> and then <span class="bold">send sample Data</span> so that you can confirm if the webhook catches the correct data.</li> 
+ <li value="8">Run your scenario in Workfront Fusion and then <span class="bold">send sample Data</span> so that you can confirm if the webhook catches the correct data.</li> 
  <li value="9"> <p> <span class="bold">Update</span> to save your work.</p> <p class="PinkDraftNote">Screenshot</p> </li> 
 </ol>
 

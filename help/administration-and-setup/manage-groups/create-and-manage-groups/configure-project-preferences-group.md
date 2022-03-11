@@ -10,23 +10,22 @@ description: If you are a group administrator and an Adobe Workfront administrat
 
 # Configure project preferences for a group
 
-If you are a `group administrator` and an `Adobe Workfront administrator` unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
+If you are a group administrator and an Adobe Workfront administrator unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
 
-If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for `Workfront administrators` (for any group).
+If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
 >[!NOTE]
 >
->* Typically, an unlocked preference remains unlocked indefinitely. If the `Workfront administrator` re-locks it, the system setting takes effect again and settings for the preference made by the `group administrators` are lost.
->
+>* Typically, an unlocked preference remains unlocked indefinitely. If the Workfront administrator re-locks it, the system setting takes effect again and settings for the preference made by the group administrators are lost.
 >* The preferences set for the group that is associated with a project take precedence over the preferences set for the Home Group of the user who creates the project.
 >* Some group-level preferences affect project templates that you create for the group. For more information, see the section [View, work with, and create templates for your group from the Groups area](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view,) in the article [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* After a `Workfront administrator` unlocks a preference at the system level, you can configure it and then lock it to ensure that everyone in your group and in its subgroups is using the same configuration. This is parallel to the ability that a `Workfront administrator` has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* After a Workfront administrator unlocks a preference at the system level, you can configure it and then lock it to ensure that everyone in your group and in its subgroups is using the same configuration. This is parallel to the ability that a Workfront administrator has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
 Group-level configuration is also possible for task and issue preferences and for timesheet and hour preferences. For information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) and [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-For information about how a `Workfront administrator` unlocks a project preference, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+For information about how a Workfront administrator unlocks a project preference, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 ## Access requirements
 
@@ -37,32 +36,31 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> plan*</td> 
+   <td role="rowheader">Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
 ## Configure an unlocked project preference for a group
 
 >[!TIP]
 >
->If you are a `Workfront administrator`, you can bypass steps 1-4 by going to Setup > Project Preferences > Projects, then searching for the group’s name in the box at the top of the page.
+>If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Project Preferences > Projects, then searching for the group’s name in the box at the top of the page.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
  <li value="3"> Click the name of the group whose project preferences you want to configure.</li> 
  <li value="4"> In the left panel, click Project Preferences. </li> 
  <li value="5"> <p>On the page that appears, continue with one of the 4 sections listed below to configure preferences for Project Status, Timelines, Business Cases, and Life after Death.</p> <note type="tip">
-   If you hover over a preference and a tool tip displays to tell you that it is locked, you can ask your 
-   <span>Workfront administrator</span> to unlock it for all groups in the organization.
+   If you hover over a preference and a tool tip displays to tell you that it is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
   </note> </li> 
 </ol>
 
@@ -70,7 +68,7 @@ You must have the following to perform the steps in this article:
 
 ### Project Status
 
-Configure any of the following preferences for newly created projects `associated with the group`:
+Configure any of the following preferences for newly created projects associated with the group:
 
 <table cellspacing="0"> 
  <col> 
@@ -80,7 +78,7 @@ Configure any of the following preferences for newly created projects `associate
    <td role="rowheader">Set new project's status to</td> 
    <td> <p>Determine the status of new projects.</p> <p>Note:  
      <ul> 
-      <li>If you or another <span>Workfront administrator</span> hides the status selected here, the default status changes to the first status in the status list.</li> 
+      <li>If you or another Workfront administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
      </ul> 
      <ul> For group project preferences, you can select only a locked status or a required status as the default status. 
       <li> <p>If a locked system or group status is set as the default status and later someone unlocks it, the system tries to replace it with a locked status of the same status type.</p> <p>If it can’t find one, it looks for a required status:</p> 
@@ -92,11 +90,11 @@ Configure any of the following preferences for newly created projects `associate
   </tr> 
   <tr> 
    <td role="rowheader">Calculate Percent Complete based on</td> 
-   <td> <p>The percent complete of a project or parent task is based on the overall progress of the tasks. This information can be calculated based on either the Duration or the Planned Hours of the tasks on a project.</p> <p>If you select Duration, the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select Duration, make sure you specify the<span class="bold"> Typical hours per work day</span> and <span class="bold">Typical work days per week</span> in the <span class="bold">Timelines</span> section. <span>Workfront</span> uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select Planned Hours, ensure that all tasks on each project have the amount of Planned Hours defined, and that the amount is not zero.</p> </td> 
+   <td> <p>The percent complete of a project or parent task is based on the overall progress of the tasks. This information can be calculated based on either the Duration or the Planned Hours of the tasks on a project.</p> <p>If you select Duration, the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select Duration, make sure you specify the<span class="bold"> Typical hours per work day</span> and <span class="bold">Typical work days per week</span> in the <span class="bold">Timelines</span> section. Workfront uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select Planned Hours, ensure that all tasks on each project have the amount of Planned Hours defined, and that the amount is not zero.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Automatically set the project's Condition based on the Progress Status</td> 
-   <td> <p>This preference allows users to set the Condition of a project manually (On Target, At Risk, In Trouble) or have <span>Workfront</span> set the Condition (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see&nbsp;<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
+   <td> <p>This preference allows users to set the Condition of a project manually (On Target, At Risk, In Trouble) or have Workfront set the Condition (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see&nbsp;<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="bold">Create baselines automatically</span> </p> </td> 
@@ -104,15 +102,15 @@ Configure any of the following preferences for newly created projects `associate
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Performance Index Method </p> </td> 
-   <td> <p>The Performance Index Method (PIM) for the project controls the method <span>Workfront</span> uses to calculate Earned Value metrics such as Cost Performance Index (CPI) and Estimate At Completion (EAC). For more information, see <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculate Cost Performance Index (CPI)</a>and <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate Estimate At Completion (EAC)</a></p> 
+   <td> <p>The Performance Index Method (PIM) for the project controls the method Workfront uses to calculate Earned Value metrics such as Cost Performance Index (CPI) and Estimate At Completion (EAC). For more information, see <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculate Cost Performance Index (CPI)</a>and <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate Estimate At Completion (EAC)</a></p> 
     <ul> 
-     <li><span class="bold">Hour-based</span>: <span>Workfront</span> uses Planned Hours to calculate performance metrics like EAC and CPI. When the PIM is calculated based on hours, the EAC displays as a number of hours. Ensure that you have a value for Planned Hours, other than zero.</li> 
-     <li> <p><span class="bold">Cost-based</span>: <span>Workfront</span> uses Planned Labor Cost to calculate performance metrics like EAC and CPI. Ensure that your job roles or users are associated with Cost per Hour rates. When the PIM is calculated based on Costs, the EAC displays as a currency value.</p> <p>The project manager can modify this setting at the project level, using the Finance area in Project Details.For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project Finance area</a>.</p> </li> 
+     <li><span class="bold">Hour-based</span>: Workfront uses Planned Hours to calculate performance metrics like EAC and CPI. When the PIM is calculated based on hours, the EAC displays as a number of hours. Ensure that you have a value for Planned Hours, other than zero.</li> 
+     <li> <p><span class="bold">Cost-based</span>: Workfront uses Planned Labor Cost to calculate performance metrics like EAC and CPI. Ensure that your job roles or users are associated with Cost per Hour rates. When the PIM is calculated based on Costs, the EAC displays as a currency value.</p> <p>The project manager can modify this setting at the project level, using the Finance area in Project Details.For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project Finance area</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Estimate at Completion </p> </td> 
-   <td> <p>Determine which data <span>Workfront</span> uses to calculate the Estimate at Completion (EAC) which represents the projected total cost of a project.</p> 
+   <td> <p>Determine which data Workfront uses to calculate the Estimate at Completion (EAC) which represents the projected total cost of a project.</p> 
     <ul> 
      <li><span class="bold">Calculate at project level</span>:EAC for the parent task and project are determined by entering Actual Hours or Actual Labor Cost in the EAC Formulas. This calculation includes Actual Hours or Costs and Expenses added directly to the parent task or project.</li> 
      <li> <p><span class="bold">Roll up from tasks/subtasks</span>: EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes Actual Hours or Actual Costs and Expenses added directly to the parent task or project.</p> <p>The project manager can modify this setting at the project level, using the Finance area in Project Details.For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project Finance area</a>.</p> </li> 
@@ -123,7 +121,7 @@ Configure any of the following preferences for newly created projects `associate
 
 ### Timelines
 
-Configure any of the following preferences for newly created projects `associated with the group`:
+Configure any of the following preferences for newly created projects associated with the group:
 
 <table cellspacing="0"> 
  <col> 
@@ -159,7 +157,7 @@ Configure any of the following preferences for newly created projects `associate
    <td role="rowheader"> <p><span class="bold">Project timelines will be automatically re-calculated</span> </p> </td> 
    <td> <p>Determine when the timeline of a project is recalculated. For information about recalculating the project timeline, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculate project timelines</a>.</p> <p>The following options are enabled by default. You can select one or more of the following settings:</p> 
     <ul> 
-     <li> <p><span class="bold">Every night</span>: Select this to recalculate project timelines every night. Any changes you make to the project that might affect the timeline are not immediately visible. <span>Workfront</span>​​​ recalculates timelines at night only for projects where both of the following conditions are met:</p> <p> 
+     <li> <p><span class="bold">Every night</span>: Select this to recalculate project timelines every night. Any changes you make to the project that might affect the timeline are not immediately visible. Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:</p> <p> 
        <ul> 
         <li>Have a status of Current</li> 
         <li>Have had an update in the past 3 months</li> 
@@ -169,10 +167,10 @@ Configure any of the following preferences for newly created projects `associate
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="bold">When multiple users are assigned to a task use the schedule of the</span> </p> </td> 
-   <td> <p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, <span>Workfront</span> uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign multiple users to the same task in a project has an assigned schedule—and the users assigned to the tasks also have a schedule assigned to them—<span>Workfront</span> uses the following schedules:</p> 
+   <td> <p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, Workfront uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign multiple users to the same task in a project has an assigned schedule—and the users assigned to the tasks also have a schedule assigned to them—Workfront uses the following schedules:</p> 
     <ul> 
-     <li><span class="bold">Primary Assignment</span>: <span>Workfront</span> uses the schedule of the Primary Assignment on the task to calculate timelines.</li> 
-     <li><span class="bold">Project</span>: <span>Workfront</span> uses the schedule of the project to calculate the timeline of each task.</li> 
+     <li><span class="bold">Primary Assignment</span>: Workfront uses the schedule of the Primary Assignment on the task to calculate timelines.</li> 
+     <li><span class="bold">Project</span>: Workfront uses the schedule of the project to calculate the timeline of each task.</li> 
     </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p> </td> 
   </tr> Timeline Calculations Typical hours per work day: Set the number of hours in a typical workday for the users who will be working on projects. The default is 8 hours. Typical work days per week: Set the standard workweek for the users who will be working on projects. The default is 5 days. These 2 options convert days to hours, or weeks to days. For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days. From the Typical work days per week field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users. These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. They are not used when you are establishing timesheets for users in the system, as described in Configure timesheet and hour preferences. Note: Workfront administrators cannot unlock Timeline Calculations preferences. Custom Quarters Configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters. For more information, see Enable custom quarters for projects. Note: Workfront administrators cannot unlock Custom Quarters preferences. 
  </tbody> 
@@ -180,13 +178,13 @@ Configure any of the following preferences for newly created projects `associate
 
 ### Business Cases
 
-You can create a Business Case for newly created projects `associated with the group` to submit project requests. You can define preferences to determine which areas are visible on the `Business Case` form. We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. For more information about what each field displays, see [Define a Business Case](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+You can create a Business Case for newly created projects associated with the group to submit project requests. You can define preferences to determine which areas are visible on the `Business Case` form. We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. For more information about what each field displays, see [Define a Business Case](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
-After the `Workfront administrator` enables the sections on the Business Case, a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+After the Workfront administrator enables the sections on the Business Case, a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Life After Death
 
-Configure any of the following preferences for newly created projects `associated with the group`:
+Configure any of the following preferences for newly created projects associated with the group:
 
 <table cellspacing="0"> 
  <col> 

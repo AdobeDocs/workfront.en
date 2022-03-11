@@ -7,19 +7,19 @@ title: Adobe Workfront Goals 21.2 release activity: Week of April 5, 2021
 description: This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of April 5, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
 ---
 
-# `Adobe Workfront Goals` 21.2 release activity:&nbsp;Week of April 5, 2021
+# Adobe Workfront Goals 21.2 release activity:&nbsp;Week of April 5, 2021
 
-This page describes all enhancements made with the `21.2` release for `Adobe Workfront Goals` to the Preview environment the week of `April 5, 2021`. These enhancements will be made available in the Production environment in the first quarter of `21.2`.
+This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of April 5, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
 
-For a list of all changes available for `Workfront Goals` at this point in the `21.2` release cycle, see [Adobe Workfront Goals with the 21.2 release](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
+For a list of all changes available for Workfront Goals at this point in the 21.2 release cycle, see [Adobe Workfront Goals with the 21.2 release](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
-For a list of all changes available for all areas of `Workfront` at this point in the `21.2` release cycle, see [21.2 Release overview](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+For a list of all changes available for all areas of Workfront at this point in the 21.2 release cycle, see [21.2 Release overview](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Report on goal information
 
 >[!NOTE]
 >
->Goal information can be included in reports both in `the new Adobe Workfront experience` and in `Adobe Workfront Classic`.
+>Goal information can be included in reports both in the new Adobe Workfront experience and in Adobe Workfront Classic.
 
 You can now build Goal reports or Project reports that include information about associated goals in Workfront. Your company must purchase and enable Workfront Goals, but once they do, you can build the reports in both the new Workfront experience as well as Workfront classic.
 

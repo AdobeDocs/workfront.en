@@ -8,34 +8,34 @@ title: Page Layout on the Views Tab in Workfront Proof
 description: You can adjust the page layout on the Views tab. The following layout options are available:
 ---
 
-# Page Layout on the Views Tab in `Workfront Proof`
+# Page Layout on the Views Tab in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can adjust the page layout on the Views tab. The following layout options are available:
 
 ## List
 
 <ul> 
- <li>Shows <span>proof</span> or file name plus standard view columns</li> 
- <li> <p>The <span>proof</span> actions menu is located at the right hand side of the line (1)</p> <p> <img src="assets/page-views---list-view-350x164.png" alt="Page_views_-_list_view.png" style="width: 350;height: 164;"> </p> </li> 
+ <li>Shows proof or file name plus standard view columns</li> 
+ <li> <p>The proof actions menu is located at the right hand side of the line (1)</p> <p> <img src="assets/page-views---list-view-350x164.png" alt="Page_views_-_list_view.png" style="width: 350;height: 164;"> </p> </li> 
 </ul>
 
 ##  Thumbnail List
 
 <ul> 
- <li>Shows <span>proof</span> image/file icon, <span>proof</span> or file name plus standard view columns</li> 
- <li>The <span>proof</span> actions menu is located at the right-hand side of the line (1)</li> 
+ <li>Shows proof image/file icon, proof or file name plus standard view columns</li> 
+ <li>The proof actions menu is located at the right-hand side of the line (1)</li> 
  <li> <p>Note that this is the default standard view.</p> <p> <img src="assets/page-views---thumbnails-list-view-350x164.png" alt="Page_views_-_thumbnails_list_view.png" style="width: 350;height: 164;"> </p> </li> 
 </ul>
 
 ## Thumbnails
 
 <ul> 
- <li>Shows <span>proof</span> image/file icon and <span>proof</span>/file name only</li> 
- <li> <p>The <span>proof</span> actions menu is located at the top right corner for each <span>proof</span> (1)</p> <p> <img src="assets/page-views---thumbnails-view-350x156.png" alt="Page_views_-_thumbnails_view.png" style="width: 350;height: 156;"> </p> </li> 
+ <li>Shows proof image/file icon and proof/file name only</li> 
+ <li> <p>The proof actions menu is located at the top right corner for each proof (1)</p> <p> <img src="assets/page-views---thumbnails-view-350x156.png" alt="Page_views_-_thumbnails_view.png" style="width: 350;height: 156;"> </p> </li> 
 </ul>
 
 ##  Changing Your Page Layout

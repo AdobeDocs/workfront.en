@@ -31,6 +31,6 @@ If you try to make Task 1 a predecessor to Task 2, you get a dependency loop err
 
 ## Solution
 
-`Adobe Workfront` does not allow you to create a predecessor relationship between tasks if it creates a dependency loop. In order to fix the dependency loop, you must reevaluate&nbsp;the predecessor relationship between the tasks listed in the error message.
+Adobe Workfront does not allow you to create a predecessor relationship between tasks if it creates a dependency loop. In order to fix the dependency loop, you must reevaluate&nbsp;the predecessor relationship between the tasks listed in the error message.
 
 &nbsp;

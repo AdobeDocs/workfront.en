@@ -9,7 +9,7 @@ description: Adobe Workfront calculates the Duration of a project by taking into
 
 # Overview of project Duration
 
-`Adobe Workfront` calculates the Duration of a project by taking into account the Start Date of the earliest task and the Completion Date of the latest task and counts the number of days between the two dates.&nbsp;
+Adobe Workfront calculates the Duration of a project by taking into account the Start Date of the earliest task and the Completion Date of the latest task and counts the number of days between the two dates.&nbsp;
 
 ## Project Duration
 
@@ -25,11 +25,11 @@ Project Duration = Completion Date of the latest task - Start Date of the earlie
 
 ##  
 
-The duration of the project counts the number of days between the two task dates based on the Schedule associated with the project or the users assigned to the tasks. For information about which schedule `Workfront` uses to calculate duration, see [Schedules overview](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
+The duration of the project counts the number of days between the two task dates based on the Schedule associated with the project or the users assigned to the tasks. For information about which schedule Workfront uses to calculate duration, see [Schedules overview](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
 
 ## Types of project Duration
 
-There are two types of Project Duration and the formulas by which  `Workfront` calculates them:
+There are two types of Project Duration and the formulas by which&nbsp;Workfront calculates them:
 
 * `Planned Duration`:&nbsp;
 
@@ -45,7 +45,7 @@ There are two types of Project Duration and the formulas by which  `Workfront` c
 
 ## Locate the project Duration
 
-You can locate the Project Planned and Actual Durations in the following areas of `Workfront`:
+You can locate the Project Planned and Actual Durations in the following areas of Workfront:
 
 * .In the Project Details area, in the Overview section.
 

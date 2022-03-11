@@ -14,7 +14,7 @@ description: ** Don't delete, draft, or change the title of this article. The UI
 ** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
 -->
 
-As an `Adobe Workfront administrator`, you can create custom access levels and apply them to users, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+As an Adobe Workfront administrator, you can create custom access levels and apply them to users, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information, see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -31,16 +31,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="#" class="MCXref xref selected">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="#" class="MCXref xref selected">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
 ## Create or edit a custom access level
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <span class="bold">Access Levels</span> in the left panel.</li> 
  <li value="3"> <p>Select the access level you want to copy and customize, then click <span class="bold">Copy</span>.</p> <p>Or</p> <p>If you are editing an existing access level (that you copied previously), click its name.</p> </li> 
  <li value="4"> <p>In the box that displays, do any of the following to start configuring the custom access level:</p> 
@@ -83,7 +83,7 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Companies</td> 
-     <td>Add new and edit existing companies in <span>Workfront</span>.<br><p>Without this access, users can only view existing companies.</p></td> 
+     <td>Add new and edit existing companies in Workfront.<br><p>Without this access, users can only view existing companies.</p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Custom forms</td> 
@@ -91,11 +91,11 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Exchange rates</td> 
-     <td> <p>Add new currency in <span>Workfront</span>.</p> <p>Without this access, the user can add an existing currency only to a project they create.</p> </td> 
+     <td> <p>Add new currency in Workfront.</p> <p>Without this access, the user can add an existing currency only to a project they create.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Expenses</td> 
-     <td>View all expenses on objects in <span>Workfront</span>.<br><p>Without this access, the user can only view the following:</p>
+     <td>View all expenses on objects in Workfront.<br><p>Without this access, the user can only view the following:</p>
       <ul>
        <li>Expenses on projects, tasks or issues they manage</li>
        <li>Their own expenses</li>
@@ -125,11 +125,11 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Reminder notifications</td> 
-     <td>Create and manage reminder notifications in <span>Workfront</span>.<br>Without this access, users are limited to receiving and viewing notifications.</td> 
+     <td>Create and manage reminder notifications in Workfront.<br>Without this access, users are limited to receiving and viewing notifications.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Timesheets & hours</td> 
-     <td> <p><span>Group administrators</span> can assign timesheet profiles to users in the groups and subgroups they manage.</p> <p>Without this option enabled, <span>group administrators</span> cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p>All other users with a <span>Plan</span> license can view all hours and timesheets in Workfront.</p> <p>Without this option enabled, users can view hours only on:</p> 
+     <td> <p>Group administrators can assign timesheet profiles to users in the groups and subgroups they manage.</p> <p>Without this option enabled, group administrators cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p>All other users with a Plan license can view all hours and timesheets in Workfront.</p> <p>Without this option enabled, users can view hours only on:</p> 
       <ul> 
        <li>Projects, tasks or issues they manage</li> 
        <li>Their own timesheet</li> 
@@ -153,8 +153,7 @@ You must have the following to perform the steps in this article:
     <tr> 
      <td role="rowheader">View only updates in which they have been included in the conversation</td> 
      <td> <p>Enables users to see only comments where their name or the name of their team has been included.</p> <p> <note type="note">
-        This prevents&nbsp;users from subscribing to items in 
-        <span>Workfront</span>. For more information about subscribing to items, see 
+        This prevents&nbsp;users from subscribing to items in Workfront. For more information about subscribing to items, see 
         <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.
        </note> </p> </td> 
     </tr> 
@@ -178,7 +177,7 @@ You must have the following to perform the steps in this article:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="7"> <p>(Conditional and optional) If your <span>Workfront</span> system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section <span class="bold">People in other companies should only view users from</span>.</p> <p>You can restrict the users to see just users from their own company or from the company you designated as the primary company. For more information about the primary company, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>.</p> <p> <note type="note">
+ <li value="7"> <p>(Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section <span class="bold">People in other companies should only view users from</span>.</p> <p>You can restrict the users to see just users from their own company or from the company you designated as the primary company. For more information about the primary company, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>.</p> <p> <note type="note">
     If two users belong to two different companies, but they can both see users from the primary company, they can see the Updates area associated with the primary company.
    </note> </p> </li> 
  <li value="8"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 

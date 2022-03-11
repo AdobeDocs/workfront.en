@@ -2,7 +2,7 @@
 
 # Report on the Updates area
 
-The Journal Entry report surfaces system updates from the Updates area of projects, tasks, issues, and other objects that were previously only available through the `Adobe Workfront` API. While this is an advanced report intended for specific use cases, the more digestible format makes it easier for you to report on project activity and system updates within `Workfront`.
+The Journal Entry report surfaces system updates from the Updates area of projects, tasks, issues, and other objects that were previously only available through the Adobe Workfront API. While this is an advanced report intended for specific use cases, the more digestible format makes it easier for you to report on project activity and system updates within Workfront.
 
 >[!TIP]
 >
@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,15 +44,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 Before you begin, you must make sure:
 
-* Any fields that you want to report on are tracked in `Workfront`. You can only report on data from the Updates area that is tracked.
+* Any fields that you want to report on are tracked in Workfront. You can only report on data from the Updates area that is tracked.
 
-  To learn how to add fields that you want `Workfront` to track, see [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  To learn how to add fields that you want Workfront to track, see [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * Any custom fields that you want to report on have the setting `Display field changes in update feeds` enabled.
 
@@ -62,7 +62,7 @@ Before you begin, you must make sure:
 
 Because the Journal Entry report queries system updates, it can return a significant number of results. For this reason, we recommend that you filter to specific objects—such as projects, programs, portfolios, groups, and so forth—when creating the report.
 
-To learn more about the different object types in `Workfront`, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+To learn more about the different object types in Workfront, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
@@ -141,8 +141,8 @@ This information can be used to help with auditing and to illustrate how well yo
 
 >[!TIP]
 >
->If you want to compare the difference in days between condition changes, you can use `Enhanced analytics`.  
->To learn more about `Enhanced analytics`, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>If you want to compare the difference in days between condition changes, you can use Enhanced analytics.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 <ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. 
  <li value="2"> <p>Click <span class="bold">New Report</span>, then select <span class="bold">Journal Entry</span>.</p> <p>  </p> <p>The report builder loads.</p> </li> 
@@ -186,7 +186,7 @@ This information can be used to help with auditing and to illustrate how well yo
        <li> <p><span class="bold">APR</span>: Approved</p> </li> 
        <li> <p><span class="bold">REJ</span>: Rejected</p> </li> 
        <li> <p><span class="bold">IDA</span>: Idea</p> </li> 
-      </ul> <p>If your organization has set up custom statuses, other status keys might appear in this column. To learn what custom status is related to a status key, contact your <span>Workfront administrator</span> or <span>group administrator</span>.</p> </td> 
+      </ul> <p>If your organization has set up custom statuses, other status keys might appear in this column. To learn what custom status is related to a status key, contact your Workfront administrator or group administrator.</p> </td> 
     </tr> 
     <tr> 
      <td> <p style="font-weight: bold;">New Text Value</p> </td> 

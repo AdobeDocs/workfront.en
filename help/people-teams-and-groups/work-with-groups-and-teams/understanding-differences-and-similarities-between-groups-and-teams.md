@@ -7,9 +7,9 @@ title: Groups vs. teams in Adobe Workfront
 description: Groups and teams are collections of users in Adobe Workfront.
 ---
 
-# Groups vs. teams in `Adobe Workfront`
+# Groups vs. teams in Adobe Workfront
 
-Groups and teams are collections of users in `Adobe Workfront`.
+Groups and teams are collections of users in Adobe Workfront.
 
 Although you can designate just one Home Group and one Home Team per user, each user can belong to an unlimited number of teams or groups. However, to avoid confusion, we recommend that each user belong to a limited number of teams and groups.
 
@@ -38,7 +38,7 @@ The&nbsp;following table illustrates differences and similarities between groups
 | `Functionality`  | `Group`  | `Team`  |
 |---|---|---|
 | A Planner can create |&nbsp; |✓ |
-| Only a `Workfront administrator` can create |✓ |&nbsp; |
+| Only a Workfront administrator can create |✓ |&nbsp; |
 | Share objects&nbsp; |✓ |✓ |
 | Assign a task |&nbsp; |✓ |
 | Assign an issue |&nbsp; |✓ |

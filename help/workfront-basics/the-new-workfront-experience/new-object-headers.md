@@ -8,9 +8,9 @@ description: You can view information at a glance about objects in Adobe Workfro
 
 # New object headers
 
-You can view information at a glance about objects in `Adobe Workfront` when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
+You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 
-The look and feel of the headers—as well as what information is included—has changed in `the new Adobe Workfront experience` for some objects. This redesign allows you to quickly understand an object's state or to access additional editing and sharing options for that object.
+The look and feel of the headers—as well as what information is included—has changed in the new Adobe Workfront experience for some objects. This redesign allows you to quickly understand an object's state or to access additional editing and sharing options for that object.
 
 The headers of the following objects have been redesigned:
 
@@ -33,7 +33,7 @@ For more information on objects, see [Understand objects in Adobe Workfront](../
 
 ## Benefits of the new object headers
 
-Consider the following benefits as you view the new object headers in `the new Adobe Workfront experience`:
+Consider the following benefits as you view the new object headers in the new Adobe Workfront experience:
 
 * Streamlined design which is cohesive for all objects
 * Improved breadcrumbs allow for a deeper hierarchy of objects to display at one time
@@ -45,7 +45,7 @@ Consider the following benefits as you view the new object headers in `the new A
 
 ## Access the header of an object
 
-Accessing the header for an object in `Workfront` is identical for all the objects that have it.
+Accessing the header for an object in Workfront is identical for all the objects that have it.
 
 For example, to access the header of a project:
 
@@ -789,7 +789,7 @@ The company header displays the following information:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Plans are the objects of the `Workfront Scenario Planner`. For information about the `Scenario Planner`, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
 The plan header displays the following information:
 

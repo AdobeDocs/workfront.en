@@ -7,7 +7,7 @@ title: Groupings overview in Adobe Workfront
 description: You can add groupings to manage the layout of the information in your reports and lists.
 ---
 
-# Groupings overview in `Adobe Workfront`
+# Groupings overview in Adobe Workfront
 
 You can add groupings to manage the layout of the information in your reports and lists.
 
@@ -32,7 +32,7 @@ In a standard grouping report, the first grouping is darker blue, the second and
 Consider the following when working with groupings:
 
 * You can customize the information in existing groupings. All users who can view the groupings can also see your changes.
-* Your `Workfront administrator` must grant you access to Edit Filters, Views, and Groupings to create groupings.
+* Your Workfront administrator must grant you access to Edit Filters, Views, and Groupings to create groupings.
 
   For information about granting access to Filters, Views, and Groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
@@ -70,8 +70,7 @@ Groupings cannot be sorted. Views can be sorted. In order to sort a list by the 
 
 How you remove a grouping depends on whether you initially created the grouping, or the grouping was shared with you. You cannot remove a default grouping.
 
-* `If you created the grouping and you remove it`, the grouping is removed from the `Workfront` system. The grouping is no longer available to any users who you previously shared it with.
-
+* `If you created the grouping and you remove it`, the grouping is removed from the Workfront system. The grouping is no longer available to any users who you previously shared it with.
 * `If the grouping was shared with you and you remove it`, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
 
 For information about removing a grouping, see the article [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

@@ -8,7 +8,7 @@ description: You can build a report or a list in Adobe Workfront by using either
 
 # Text Mode overview
 
-You can build a report or a list in `Adobe Workfront` by using either the standard or the text mode interface when creating the elements that make up the report or the list. The standard interface allows you to reference fields and their attributes that are readily available in the `Workfront` interface. Using text mode you can reference fields and attributes that might not be available in standard mode, but are available in the `Workfront` database.
+You can build a report or a list in Adobe Workfront by using either the standard or the text mode interface when creating the elements that make up the report or the list. The standard interface allows you to reference fields and their attributes that are readily available in the Workfront interface. Using text mode you can reference fields and attributes that might not be available in standard mode, but are available in the Workfront database.
 
 ## Considerations before using text mode
 
@@ -17,12 +17,12 @@ You can build a report or a list in `Adobe Workfront` by using either the standa
 >You can also expand the capabilities of calculated custom fields by using a version of text mode for custom fields. The syntax and rules for creating a calculated custom field are different than those you use in reports and lists. For information about adding a calculated custom field, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 <ul> 
- <li> <p>Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. For training materials on reporting see <a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank"><span>Workfront</span> Reports and Dashboards Learning Paths</a>.</p> </li> 
- <li> <p>We recommend that you use standard mode to ensure the reports you create remain intact when the <span>Workfront</span> software is updated. While text mode enables you to create more complex views, filters, and groupings, it is also more complicated to maintain and is not guaranteed when the <span>Workfront</span> software is updated.</p> </li> 
+ <li> <p>Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. For training materials on reporting see <a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Workfront Reports and Dashboards Learning Paths</a>.</p> </li> 
+ <li> <p>We recommend that you use standard mode to ensure the reports you create remain intact when the Workfront software is updated. While text mode enables you to create more complex views, filters, and groupings, it is also more complicated to maintain and is not guaranteed when the Workfront software is updated.</p> </li> 
  <li> <p>We recommend that you always try to build all reporting elements in the standard interface and switch to the text mode builder only for few adjustments.</p> <note type="tip">
    Using the standard builder gives you important building blocks and patterns of code that you can then use when modifying the code in text mode.
   </note> </li> 
- <li> <p>There are a set of rules and a unique syntax that you must use in order to successfully build reports and lists in text mode. Make sure you are familiar with the <span>Workfront</span> syntax for text mode before you begin.</p> <p>For information about the syntax and rules for using text mode, see <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Text mode syntax overview</a>.</p> </li> 
+ <li> <p>There are a set of rules and a unique syntax that you must use in order to successfully build reports and lists in text mode. Make sure you are familiar with the Workfront syntax for text mode before you begin.</p> <p>For information about the syntax and rules for using text mode, see <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Text mode syntax overview</a>.</p> </li> 
  <li> <p>After you customize a reporting element in text mode, you might either not be able to switch back to standard mode (in a view) or the code for the element you created might be deleted (in filters and groupings.) This is because not all fields that are supported in text mode are supported in standard mode.</p> </li> 
 </ul>
 
@@ -37,7 +37,7 @@ For more information about the standard mode interface and to learn how to creat
 
 ## Text Mode interface
 
-Text mode enables you to create more complex views, filters, groupings, and prompts by allowing you to use fields that are not available in the standard mode interface. In  `Workfront` text mode is a collection of coded statements that indicate what objects you want to display in a report or a list.
+Text mode enables you to create more complex views, filters, groupings, and prompts by allowing you to use fields that are not available in the standard mode interface. In&nbsp;Workfront text mode is a collection of coded statements that indicate what objects you want to display in a report or a list.
 
 For a complete list of all our reportable fields, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 

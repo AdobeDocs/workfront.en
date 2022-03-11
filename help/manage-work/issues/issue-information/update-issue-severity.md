@@ -8,16 +8,16 @@ description: You can associate a severity with issues in Adobe Workfront. Tasks 
 
 #  Update issue severity
 
-You can associate a severity with issues in `Adobe Workfront`. Tasks and projects do not have severities.
+You can associate a severity with issues in Adobe Workfront. Tasks and projects do not have severities.
 
 Issues are unexpected events that can prevent your projects from finishing on time or within budget.&nbsp;You can use severities to indicate how serious an issue is.&nbsp;
 
-Your `Workfront administrator` defines the severities available in `Workfront`. After they establish them, they are available for you to associate with an issue.  
-For more information about creating severities in `Workfront`, see [Create and customize issue severities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Your Workfront administrator defines the severities available in Workfront. After they establish them, they are available for you to associate with an issue.  
+For more information about creating severities in Workfront, see [Create and customize issue severities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 You must have Contribute permissions on an issue to be able to update its severity.&nbsp;
 
-You can update the severity of issues in the following areas of `Workfront`:
+You can update the severity of issues in the following areas of Workfront:
 
 * In the  `Edit Issue` dialog box
 * In the Issue Details area of an issue 
@@ -32,16 +32,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Update issue severity
 
@@ -63,7 +63,7 @@ To update the severity of an issue in the Issue Details area of an issue:
 
 1. Select the appropriate `Severity` from the drop-down menu.
 
-   Depending on how your `Workfront administrator` configured severities in your system, the options might vary.
+   Depending on how your Workfront administrator configured severities in your system, the options might vary.
 
 1. Click Save Changes.
 

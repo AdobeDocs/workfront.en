@@ -149,7 +149,7 @@ LoginAsSettings
 
 ### ReportableBudgetedHour
 
-ReportableBudgedHour has been added to the `Adobe Workfront` API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour. 
+ReportableBudgedHour has been added to the Adobe Workfront API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour. 
 
 <table cellspacing="15"> 
  <col> 

@@ -10,7 +10,7 @@ description: As an Adobe Workfront administrator, you can customize the default 
 
 # Create and customize issue severities
 
-As an `Adobe Workfront administrator`, you can customize the default severities existing in `Workfront` or create new severities that users can associate with issues in `Workfront`.
+As an Adobe Workfront administrator, you can customize the default severities existing in Workfront or create new severities that users can associate with issues in Workfront.
 
 Issues are unexpected events that can prevent your projects from finishing on time or within budget. You can use severities to define how serious an issue is.
 
@@ -27,23 +27,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Customizing issue severities
 
-There are 5 default issue severities in `Workfront`:
+There are 5 default issue&nbsp;severities in Workfront:
 
 * Cosmetic
 * Causes Confusion
@@ -51,7 +51,7 @@ There are 5 default issue severities in `Workfront`:
 * Bug with no workaround
 * Fatal error
 
-`Workfront administrators` can customize the following information on the default severities provided in `Workfront`:
+Workfront administrators can customize the following information on&nbsp;the default severities provided in Workfront:
 
 <ul> 
  <li>Edit the severity name</li> 
@@ -68,10 +68,10 @@ There are 5 default issue severities in `Workfront`:
 
 ## Create new issue severities
 
-As a `Workfront administrator`, you can create new issue severities to reflect the needs in your organization.&nbsp;
+As a Workfront administrator, you can create new issue severities to reflect the needs in your organization.&nbsp;
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
  <li value="2">In the left panel, click <span class="bold">Project Preferences</span> > <span class="bold">Severities</span>.</li> 
  <li value="3">Click <span class="bold">Add a New Severity</span>.</li> 
  <li value="4"> <p>Fill in the following information for the new severity:</p> 
@@ -100,7 +100,7 @@ As a `Workfront administrator`, you can create new issue severities to reflect t
     </tr> 
     <tr> 
      <td role="rowheader">Default Severity</td> 
-     <td>Decide whether this should be a default severity&nbsp;or not, by selecting the radio button.<br>If a severity is designated as the default severity, it is automatically selected for all newly created issues in <span>Workfront</span>. <span class="bold">Cosmetic</span>&nbsp;is the default severity for issues in <span>Workfront</span>.</td> 
+     <td>Decide whether this should be a default severity&nbsp;or not, by selecting the radio button.<br>If a severity is designated as the default severity, it is automatically selected for all newly created issues in Workfront. <span class="bold">Cosmetic</span>&nbsp;is the default severity for issues in Workfront.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Description</td> 
@@ -108,7 +108,7 @@ As a `Workfront administrator`, you can create new issue severities to reflect t
     </tr> 
     <tr> 
      <td role="rowheader">Hide</td> 
-     <td> <p>Select this box if you want to hide the severity.</p> <p>When you check the <span class="bold">Hide</span> option, the severity&nbsp;does not display anywhere in <span>Workfront</span> and users are not able to choose it for their issues.</p> <note type="important">
+     <td> <p>Select this box if you want to hide the severity.</p> <p>When you check the <span class="bold">Hide</span> option, the severity&nbsp;does not display anywhere in Workfront and users are not able to choose it for their issues.</p> <note type="important">
        We recommend that you hide the severities&nbsp;that you no longer want to use, rather than deleting them.&nbsp;By hiding them, you still keep all your historic data, of objects that have been completed with this severity, while preventing people from choosing this severity&nbsp;in the future.
       </note> </td> 
     </tr> 

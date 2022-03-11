@@ -10,7 +10,7 @@ description: The 20.4 release was made available in the Production environment t
 
 The 20.4 release was made available in the Production environment the week of November 9, 2020. For specific release dates and times for each cluster, see the [Workfront Status Site](https://status.workfront.com/).
 
-This page provides information about functionality for both `Adobe Workfront Classic` and `the new Adobe Workfront experience` that is included in the 20.4 release. 
+This page provides information about functionality for both Adobe Workfront Classic and the new Adobe Workfront experience that is included in the 20.4 release. 
 
 <!--
 [Marketing one-liner for the release]
@@ -73,7 +73,7 @@ These enhancements are currently available in the Preview environment and will b
  </tbody> 
 </table>
 
-### `Enhanced analytics`
+### Enhanced analytics
 
 <table> 
  <col> 
@@ -125,17 +125,17 @@ These enhancements are currently available in the Preview environment and will b
  </tbody> 
 </table>
 
-## `Workfront Scenario Planner` enhancements
+## Workfront Scenario Planner enhancements
 
-Most new features coming to `Workfront Scenario Planner` release with the 20.4 release. For information about these new features now available in Preview, see Workfront Scenario Planner with the 20.4 release - October 14, 2020.
+Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see Workfront Scenario Planner with the 20.4 release - October 14, 2020.
 
-## `Workfront Goals` enhancements
+## Workfront Goals enhancements
 
-Most new features coming to `Workfront Goals` release with the 20.4 release. For information about these new features now available in Preview, see Workfront Goals with the 20.4 release.
+Most new features coming to Workfront Goals release with the 20.4 release. For information about these new features now available in Preview, see Workfront Goals with the 20.4 release.
 
-## `Workfront Fusion` enhancements
+## Workfront Fusion enhancements
 
-New features in `Workfront Fusion` are available in Production at a cadence outside of the 20.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+New features in Workfront Fusion are available in Production at a cadence outside of the 20.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
 ## API&nbsp;enhancements
 
@@ -171,7 +171,7 @@ All Flash-based tools will be removed from all products on November 19, 2020. We
 
 ### 20.4 Release Webinar
 
-The `Workfront` 20.4 Release Webinar will be presented Wednesday, October 28, 2020 at 11:00 AM&nbsp;EDT. Register for the webinar [here](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
+The Workfront 20.4 Release Webinar will be presented Wednesday, October 28, 2020 at 11:00 AM&nbsp;EDT. Register for the webinar [here](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
 ### Change in Preview release cadence
 
@@ -179,7 +179,7 @@ Starting on May 20, 2020, Workfront began to make functionality available in the
 
 For more information, see [Change in Workfront preview release cadence FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
 
-### Allowlist of additional domains required for accessing `Workfront`
+### Allowlist of additional domains required for accessing Workfront
 
 If your organization uses a firewall, you must add the following additional domains to your allowlist in order to ensure uninterrupted access to Workfront:
 

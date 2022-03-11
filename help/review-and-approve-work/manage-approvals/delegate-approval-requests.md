@@ -21,17 +21,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Understand user access for delegated approvals
 
@@ -41,14 +41,11 @@ During the designated approval period, the user to whom you delegate an approval
  <li>Can approve or reject existing approval requests where no decision has been made</li> 
  <li>Can approve and reject&nbsp;new approval requests that are received during a specified time period</li> 
  <li>Is granted View access to objects that are awaiting approval<br><note type="note">
-   &nbsp;The 
-   <span>Adobe Workfront administrator</span> can restrict users from accessing certain object types.&nbsp;When a user does not have access to an object type and an approval of that type is delegated to the user, the user does not have View access to the object. However, the user can still approve or reject approval requests from the 
+   &nbsp;The Adobe Workfront administrator can restrict users from accessing certain object types.&nbsp;When a user does not have access to an object type and an approval of that type is delegated to the user, the user does not have View access to the object. However, the user can still approve or reject approval requests from the 
    <span class="bold">Home</span> page, as described in 
    <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work in Adobe Workfront</a>.
-   <br>For example, User A belongs to Group A. The 
-   <span>Workfront administrator</span> has restricted the access rights of Group A so that users in this group cannot view tasks within 
-   <span>Workfront</span>. If a task approval request is delegated to User A, User A cannot view the task that the approval is associated with. However, User A can approve or reject the approval request from the Home page.
-  </note> For information about how the <span>Workfront administrator</span> can restrict access to object types within Setup, see&nbsp;<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.&nbsp;</li> 
+   <br>For example, User A belongs to Group A. The Workfront administrator has restricted the access rights of Group A so that users in this group cannot view tasks within Workfront. If a task approval request is delegated to User A, User A cannot view the task that the approval is associated with. However, User A can approve or reject the approval request from the Home page.
+  </note> For information about how the Workfront administrator can restrict access to object types within Setup, see&nbsp;<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.&nbsp;</li> 
 </ul>
 
 After the approval delegation stops or is canceled, the user designated as the approver:
@@ -89,7 +86,7 @@ To delegate approvals to another user:
  <li value="4">Specify the following information:<br><span class="bold">Delegate My Approvals To:</span> Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.<br><span class="bold">Start Date:</span> Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.<br>The Start Date must be the current date or a future date.<br><span class="bold">End:&nbsp;</span>Do one of the following:<br> 
   <ul> 
    <li>Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.</li> 
-   <li>Select&nbsp;<span class="bold">No end date</span>&nbsp;to configure <span>Workfront</span> to forward approvals indefinitely.</li> 
+   <li>Select&nbsp;<span class="bold">No end date</span>&nbsp;to configure Workfront to forward approvals indefinitely.</li> 
   </ul></li> 
  <li value="5">Click <span class="bold">Save</span>.</li> 
 </ol>

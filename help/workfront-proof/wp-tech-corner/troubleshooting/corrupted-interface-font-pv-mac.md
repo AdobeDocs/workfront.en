@@ -8,13 +8,13 @@ title: Troubleshooting - corrupted interface font in proofing viewer on Mac
 description: If you notice that the proofing viewer does not display interface font properly, this could be due to some issues with the fonts on your Mac machine. To resolve the problem, try the following solutions:
 ---
 
-# Troubleshooting - corrupted interface font in `proofing viewer` on Mac
+# Troubleshooting - corrupted interface font in proofing viewer on Mac
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-If you notice that the `proofing viewer` does not display interface font properly, this could be due to some issues with the fonts on your Mac machine. To resolve the problem, try the following solutions:
+If you notice that the proofing viewer does not display interface font properly, this could be due to some issues with the fonts on your Mac machine. To resolve the problem, try the following solutions:
 
 ## Remove font duplicates
 
@@ -28,7 +28,7 @@ Check whether there are any duplicate fonts in the system.
 1. Click `Yes` to resolve duplicates.
 1. If you see a warning about corrupted fonts, click `Yes`.
 1. Restart your computer.
-1. Retry the `proof`.
+1. Retry the proof.
 
 ## Clear the font cache
 
@@ -48,7 +48,7 @@ The second approach is to use the Terminal, which can be done by running the fol
 
 Another approach would be to use a font cache utility such as e.g. FontNuke and clear the cache with its&nbsp;help.
 
-Many prepress and artworking/design studios also use Universal Type Server software to manage licensing and distribution of fonts. Sometimes, a problem can occur with the Universal Type Server Font Cache, which can cause the `Workfront Proof` annotations to disappear.
+Many prepress and artworking/design studios also use Universal Type Server software to manage licensing and distribution of fonts. Sometimes, a problem can occur with the&nbsp;Universal Type&nbsp;Server&nbsp;Font Cache, which can cause the Workfront Proof annotations to disappear.
 
 To fix, clear the Universal Type Server Font Cache and restart Universal Type Server.
 
@@ -56,7 +56,7 @@ To fix, clear the Universal Type Server Font Cache and restart Universal Type Se
 
 You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.
 
-The Legacy `proofing viewer` is based on Flash Player and sometimes, when the text is missing in the `proofing viewer`, it is possible&nbsp;there is&nbsp;a font conflict between OS X and Flash Player. Try the following:
+The Legacy proofing viewer is based on Flash Player&nbsp;and sometimes, when the text is missing in the proofing viewer, it is possible&nbsp;there is&nbsp;a font conflict between OS X and Flash Player. Try the following:
 
 <ol> 
  <li value="1">Open Finder and open the&nbsp;<span class="bold">Go</span> tab.</li> 
@@ -67,7 +67,7 @@ The Legacy `proofing viewer` is based on Flash Player and sometimes, when the te
   &nbsp;This action hides all your custom fonts; you should still have the standard system fonts saved in their separate location.
  </note> 
  <li value="6">Quit and restart Safari.</li> 
- <li value="7">Reopen the&nbsp;<span>proof</span>.</li> 
+ <li value="7">Reopen the&nbsp;proof.</li> 
 </ol>
 
 You should see your fonts now. If you don't need any of the fonts that you removed from your home directory, you can safely delete them. Otherwise, go through them in batches, copy them back to your Library/Fonts folder, and see which one is causing the problem.

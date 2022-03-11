@@ -8,15 +8,15 @@ description: Search is coming to the Workfront mobile app! With this new feature
 
 # Android Search Beta Program
 
-Search is coming to the `Workfront` mobile app! With this new feature, you’ll be able to use your `Workfront` app on your smartphone to search for Projects, Tasks, Issues, Documents or Contacts that you have access to in your `Workfront` web instance. You will be able to immediately access the same information that you have access to see in the web application.
+Search is coming to the Workfront mobile app! With this new feature, you’ll be able to use your Workfront app on your smartphone to search for Projects, Tasks, Issues, Documents or Contacts that you have access to in your Workfront web instance. You will be able to immediately access the same information that you have access to see in the web application.
 
 This new functionality has not been widely released yet, but you can participate in our limited beta program to test out this functionality. We have opened a beta testing window for gathering feedback from you about your experience with the Search feature on the mobile app. This beta program has only been made available for the Android platform, at this time.
 
-If you would like to be part of this beta program and have this functionality enabled in your `Workfront` app on your Android phone, see [Signing Up for Android Search Beta Program](#signing-up-for-the-android-search-beta).
+If you would like to be part of this beta program and have this functionality enabled in your Workfront app on your Android phone, see [Signing Up for Android Search Beta Program](#signing-up-for-the-android-search-beta).
 
 ## Understanding Search on Android
 
-In the version of the `Workfront` mobile app that we have made available for the beta program, you’ll have access to Search, which will allow you to:
+In the version of the Workfront mobile app that we have made available for the beta program, you’ll have access to Search, which will allow you to:
 
 * Search for any Project, Task, Issue, Document, even if you are not assigned to them.   
   You can also search for Contacts. 
@@ -33,7 +33,7 @@ For a demonstration of how to use this feature, watch the following video:
 
 If you would like to join the beta testing and experience our new great features, please sign up [here](https://play.google.com/store/apps/details?id=com.workfront.android.aware.beta).
 
-After you are signed up, you can access the `Workfront` mobile app beta version in Google Play, just like you download or update the final versions.
+After you are&nbsp;signed up, you can access the Workfront mobile app beta version in Google Play, just like you download or update the final versions.
 
 For the purpose of this beta program, the&nbsp;Mobile Beta release is limited to Android users only. This means that you’ll need a google account (@gmail.com) or a google apps account to download the beta app.
 
@@ -54,8 +54,8 @@ As you are testing the new functionality, we would like you to give us feedback 
 
 After testing Search as described above, you can submit your feedback using the following options:
 
-1. Using your `Workfront` mobile app:
-1. `<li value="1"> In the homepage of <span>Workfront</span> app, swipe right to open the side menu, then tap the <span class="bold">Submit Feedback</span> link and select <span class="bold">Start Survey</span>. </li>` `<li value="2"> Fill out the <span class="bold">Search Beta Testing Results</span> survey. </li>` 
+1. Using your Workfront mobile app:
+1. `<li value="1"> In the homepage of Workfront app, swipe right to open the side menu, then tap the <span class="bold">Submit Feedback</span> link and select <span class="bold">Start Survey</span>. </li>` `<li value="2"> Fill out the <span class="bold">Search Beta Testing Results</span> survey. </li>` 
 
 1. Go directly to and fill out&nbsp;the [Search Beta Testing Results](http://survey.qualtrics.com/jfe/form/SV_cUNPXt6pKdv0gZL) survey.&nbsp;
 1. Send an email directly to our Mobile Product Manager at haykfalakyan@workfront.com.

@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Azure Ac
 
 # Azure Active Directory modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `Azure Active Directory` account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your Azure Active Directory account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -24,25 +24,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ To use Azure Active Directory modules, you must have an Azure Active Directory a
 
 ## Azure Active Directory modules and their fields
 
-When you configure `Azure Active Directory` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Azure Active Directory` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Azure Active Directory modules, Workfront Fusion displays the fields listed below. Along with these, additional Azure Active Directory fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -70,7 +70,7 @@ This polling (scheduled) trigger module executes a scenario when a record in a s
 or updated
 -->
 
-since the last scheduled run in Azure Active Directory. It also returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map `this information` in subsequent modules in the scenario.
+since the last scheduled run in Azure Active Directory. It also returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -80,7 +80,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>Azure Active Directory</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Azure Active Directory account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> <!--
    Filter Specify whether you want to include New Records Only, Updated Records Only, or both New and Updated Records. Only "New or updated records" is visible.
   --> 
@@ -90,7 +90,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Maximum Number of Records</td> 
-   <td>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,13 +103,13 @@ When you are configuring this module, the following fields display.
 
 #### Read Record
 
-This action module reads `data from a single record` in `Azure Active Directory`.
+This action module reads data from a single record in Azure Active Directory.
 
-You specify the ID of the `record`.
+You specify the ID of the record.
 
-The module returns the ID of the `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-You must have sufficient permissions to access the `record` in `Azure Active Directory` in order to retrieve this information.
+You must have sufficient permissions to access the record in Azure Active Directory in order to retrieve this information.
 
 When you are configuring this module, the following fields display.
 
@@ -119,7 +119,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>Azure Active Directory</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Azure Active Directory account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -131,18 +131,18 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
-   <td>Enter or map the unique <span>Azure Active Directory</span> ID of the <span>record</span> that you want the module to <span>read</span>.</td> 
+   <td>Enter or map the unique Azure Active Directory ID of the record that you want the module to read.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Create Record
 
-This action module `creates a new user or group record`.
+This action module creates a new user or group record.
 
 You specify the type of the record you want.
 
-The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -152,7 +152,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>Azure Active Directory</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Azure Active Directory account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -167,7 +167,7 @@ When you are configuring this module, the following fields display.
 
 #### Custom API Call
 
-This action module lets you make a custom authenticated call to the `Azure Active Directory` API. This way, you can create a data flow automation that can't be accomplished by the other `Azure Active Directory` modules.
+This action module lets you make a custom authenticated call to the Azure Active Directory API. This way, you can create a data flow automation that can't be accomplished by the other Azure Active Directory modules.
 
 When you are configuring this module, the following fields display.
 
@@ -177,7 +177,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>Azure Active Directory</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Azure Active Directory account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -212,7 +212,7 @@ When you are configuring this module, the following fields display.
 
 #### Search Users
 
-This search module looks for `records in an object` in `Azure Active Directory` that match the search query you specify. You can map `this information` in subsequent modules in the scenario.
+This search module looks for records in an object in Azure Active Directory that match the search query you specify. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -222,14 +222,14 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>Azure Active Directory</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Azure Active Directory account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> Search Criteria Enter the criteria that you want to use in your search. For information about the parameters to use, such as "$filter, see Use query parameters to customize responses in the Microsoft API documentation. Outputs Select the information you want included in the output bundle for this module. Maximal count of records Enter or map the maximum number of records you want the module to return during each scenario execution cycle. 
  </tbody> 
 </table>
 
 #### Search Users/Groups Delta
 
-This search module looks for records in Azure AD that have been created, updated, or deleted.You can map `this information` in subsequent modules in the scenario.
+This search module looks for records in Azure AD that have been created, updated, or deleted.You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="0"> 
  <col> 
@@ -237,7 +237,7 @@ This search module looks for records in Azure AD that have been created, updated
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>Azure Active Directory</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Azure Active Directory account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> Limit Enter or map the maximum number of records you want the module to return during each scenario execution cycle. 
  </tbody> 
 </table>

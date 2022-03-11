@@ -1,6 +1,6 @@
 
 
-# Build a report in `Reporting Canvas`
+# Build a report in Reporting Canvas
 
 You can build a report by dragging the elements together that you need to present your data.
 
@@ -11,25 +11,25 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> licenses*</td> 
+   <td role="rowheader">Workfront licenses*</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to create Reports, Calendars, and Dashboards</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to create Reports, Calendars, and Dashboards</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-Before you begin, you must enroll in the `Reporting Canvas` beta program.
+Before you begin, you must enroll in the Reporting Canvas beta program.
 
 <!--
 For more information, see [link to Beta enrollment info].
@@ -40,7 +40,7 @@ For more information, see [link to Beta enrollment info].
 All of your changes are saved as you build and edit the blocks in your report.
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Reports</span>.</p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Reports</span>.</p> </li> 
  <li value="2">Click <span class="bold">New report</span>.</li> 
  <li value="3"> <p>In the report builder that displays, type a name for your report in the upper left corner.</p> <p>You can edit the name at any time by clicking the <b>Edit</b> icon <img src="assets/edit-icon.png"> next to it.</p> </li> 
  <li value="4"> <p>From the right side of the screen, drag the blocks that you want to add onto the canvas.</p> 

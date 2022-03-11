@@ -53,4 +53,4 @@ Requesting text information from a project object that contains rich text can be
 		DE: calc field: “here is a calc field entry”,
 		}
 	}
-}</pre>For a more in depth look at how rich text information is stored and can be retrieved through the `Adobe Workfront` API, see [Rich text fields in the Adobe Workfront API](../../../wf-api/general/rich-text-field-api.md).
+}</pre>For a more in depth look at how rich text information is stored and can be retrieved through the Adobe Workfront API, see [Rich text fields in the Adobe Workfront API](../../../wf-api/general/rich-text-field-api.md).

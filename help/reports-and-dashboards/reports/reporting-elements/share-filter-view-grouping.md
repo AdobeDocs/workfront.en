@@ -6,11 +6,11 @@ title: Share a filter, view, or grouping in Adobe Workfront
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Share a filter, view, or grouping in `Adobe Workfront`
+# Share a filter, view, or grouping in Adobe Workfront
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-Your `Adobe Workfront administrator` grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Along with the access level that users are granted, you can also grant them permissions to view or edit specific objects that you created or have access to share. For more information about access levels and permissions, see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -33,16 +33,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -51,11 +51,11 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Share a filter, view, or grouping
 
-Sharing filters, views, or groupings in `Workfront` is identical.
+Sharing filters, views, or groupings in Workfront is identical.
 You can share filters in select lists using the following interfaces: Standard interface Beta builder interface Sharing filters in select lists is different depending on which interface you use to share the filter from. For information about the types of filter-building interfaces, see Create or edit filters in Adobe Workfront. You can share views and groupings only in the standard interface. Sharing filters, views, and groupings using the standard interface Sharing filters and groupings using the beta builder interface Sharing filters, views, and groupings using the standard interface Sharing filters, views, and groupings in the standard interface is identical. 
 
 <ol> 
@@ -89,13 +89,13 @@ Sharing filters and groupings using the beta builder interface When sharing filt
 
 ## Video walk-through
 
-View the following video to learn how to share filters, views, and groupings in `Adobe Workfront`.
+View the following video to learn how to share filters, views, and groupings in Adobe Workfront.
 
 >[!NOTE]
 >
 >The video describes how to share a grouping. However, sharing views and filters is identical to sharing a grouping.
 
-This video was recorded in `Workfront Classic`. However, the content also applies to `the new Workfront experience`.
+This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
 [ ![](assets/video-share-reporting-elements-350x198.png)](https://workfront-video.wistia.com/medias/wj9snapqio)
 

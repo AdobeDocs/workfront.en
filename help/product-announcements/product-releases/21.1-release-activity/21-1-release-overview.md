@@ -13,7 +13,7 @@ description: The 21.1 release was made available in the Production environment t
 The 21.1 release was made available in the Production environment the week of .
 -->
 
-This page provides information about functionality for both `Adobe Workfront Classic` and `the new Adobe Workfront experience` that is included in the 21.1 release.
+This page provides information about functionality for both Adobe Workfront Classic and the new Adobe Workfront experience that is included in the 21.1 release.
 
 <!--
 [Marketing one-liner for the release]
@@ -43,7 +43,7 @@ They were released the week of February 15, 2021.
 For specific release dates and times for each cluster, see the Adobe Workfront Status Site.
 -->
 
-## `Adobe Workfront` enhancements
+## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administ) 
 * [Resource Management enhancements](#resource) 
@@ -92,7 +92,7 @@ For specific release dates and times for each cluster, see the Adobe Workfront S
  </tbody> 
 </table>
 
-### `Enhanced analytics` improvements
+### Enhanced analytics improvements
 
 <table> 
  <col> 
@@ -144,17 +144,17 @@ For specific release dates and times for each cluster, see the Adobe Workfront S
  </tbody> 
 </table>
 
-## `Workfront Goals` enhancements
+## Workfront Goals enhancements
 
-Most new features coming to `Workfront Goals` release with the 21.1 release. For information about these new features now available in Preview, see Adobe Workfront Goals with the 21.1 release.
+Most new features coming to Workfront Goals release with the 21.1 release. For information about these new features now available in Preview, see Adobe Workfront Goals with the 21.1 release.
 
-## `Workfront` `Scenario Planner` enhancements
+## Workfront Scenario Planner enhancements
 
 New features coming to Workfront Scenario Planner release with the 21.1 release. For information about these new features now available in Preview, see Adobe Workfront Scenario Planner with the 21.1 release.
 
-## `Workfront Fusion` enhancements
+## Workfront Fusion enhancements
 
-New features in `Workfront Fusion` are available in Production at a cadence outside of the 21.1 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+New features in Workfront Fusion are available in Production at a cadence outside of the 21.1 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
 ## API&nbsp;enhancements
 
@@ -196,7 +196,7 @@ In an effort to increase successful Event Subscription delivery, we’re adding 
 
 Contact your internal IT and/or security department for assistance in adding the new IPs found in the article, [Event Subscription API](../../../wf-api/general/event-subs-api.md).
 
-### Allowlist of additional domains required for accessing `Workfront`
+### Allowlist of additional domains required for accessing Workfront
 
 If your organization uses a firewall, you must add the following additional domains to your allowlist in order to ensure uninterrupted access to Workfront:
 
@@ -213,7 +213,7 @@ Find out more about replacement solutions for each specific Flash-based tool in 
 
 ### 21.1 Release Webinar
 
-The `Workfront` 21.1 Release Webinar will be presented February 3, at 11:00 am EDT / 4:00 pm BST. Register for the webinar [here](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
+The Workfront 21.1 Release Webinar will be presented February 3, at 11:00 am EDT / 4:00 pm BST. Register for the webinar [here](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Change in Preview release cadence
 

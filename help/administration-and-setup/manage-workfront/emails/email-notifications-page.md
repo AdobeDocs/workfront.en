@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator, you can configure the event no
 
 # Email Notifications page
 
-As an `Adobe Workfront administrator`, you can configure the event notifications, reminder notifications, and email templates for your users.
+As an Adobe Workfront administrator, you can configure the event notifications, reminder notifications, and email templates for your users.
 
 * For information about configuring event notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 * For information about configuring reminder notifications, see [Set up reminder notifications](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

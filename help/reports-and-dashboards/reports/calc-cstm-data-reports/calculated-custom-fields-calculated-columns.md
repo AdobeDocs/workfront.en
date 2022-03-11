@@ -9,7 +9,7 @@ description: To aggregate several fields in Adobe Workfront and display that agg
 
 # Calculated custom fields vs. calculated columns
 
-To aggregate several fields in `Adobe Workfront` and display that aggregate value in a new field, you can do the following:
+To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can do the following:
 
 * A calculated custom field in a Custom Form  
   For more information about adding a calculated custom field to a Custom Form, see the section [Add a calculated field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) in the article [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
@@ -45,8 +45,8 @@ The differences between the two syntaxes are:
    <td>Calculated custom reporting element</td> 
   </tr> 
   <tr> 
-   <td> <p>Use the name of the fields as they appear in&nbsp;the <span>Workfront</span> interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field:&nbsp;<code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Use the name of the objects or fields as they appear in the <span>Workfront</span> database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all&nbsp;<span>Workfront</span> objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element:&nbsp;<code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Use the name of the fields as they appear in&nbsp;the Workfront interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field:&nbsp;<code>Planned Completion Date</code>.</p> </td> 
+   <td> <p>Use the name of the objects or fields as they appear in the Workfront database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all&nbsp;Workfront objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element:&nbsp;<code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Do not enclose field names in parentheses or curly brackets.</td> 

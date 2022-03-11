@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Business</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>View or higher access to Portfolios</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>View or higher access to Portfolios</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Project scorecards
 
@@ -61,7 +61,7 @@ You can add scorecards to a project as part of building the business case for th
 
 For more information about building a business case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Your `Adobe Workfront administrator` `or `group administrator`` must enable the Scorecard section in the Business Case area of your projects before you can access scorecards from the Business Case. For information about setting up project preferences and enabling areas of the Business Case, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Your Adobe Workfront administrator `or group administrator` must enable the Scorecard section in the Business Case area of your projects before you can access scorecards from the Business Case. For information about setting up project preferences and enabling areas of the Business Case, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 To apply a scorecard to a project:
 
@@ -70,7 +70,7 @@ To apply a scorecard to a project:
  <li value="2">Click <span class="bold">Business Case</span>in the left panel.</li> 
  <li value="3"> <p>Find the <span class="bold">Scorecard</span> section of the Business Case.<br>You must create a scorecard before the <span class="bold">Scorecard</span> section displays on the Business Case. </p> <p>For information about creating a scorecard, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Create a scorecard</a>.</p> </li> 
  <li value="4"> <p>Select a scorecard from the drop-down menu.</p> <p> <img src="assets/new-scorecard-350x149.png" alt="new_scorecard.png" style="width: 350;height: 149;"> </p> </li> 
- <li value="5"> <p>Specify an answer for all the questions in the scorecard.</p> <p><span>Workfront</span> applies a score to each question answered and calculates an overall project score based on the individual score of every question. </p> <p>For more information about generating the project overall alignment score, see <a href="#generating-an-alignment-score-for-a-project" class="MCXref xref">Generate an Alignment Score for a project</a>.</p> </li> 
+ <li value="5"> <p>Specify an answer for all the questions in the scorecard.</p> <p>Workfront applies a score to each question answered and calculates an overall project score based on the individual score of every question. </p> <p>For more information about generating the project overall alignment score, see <a href="#generating-an-alignment-score-for-a-project" class="MCXref xref">Generate an Alignment Score for a project</a>.</p> </li> 
  <li value="6"> <p>Click <span class="bold">Save</span> to save the scorecard and score the project.</p> <p>The scorecard is now associated with the project and the project is scored. </p> </li> 
 </ol>
 
@@ -85,7 +85,7 @@ The alignment score is the value produced after completing the scorecard.
 
 Scorecards contain questions with answer choices that have been assigned numerical values, called alignment points. These points are used to determine how well the project aligns with your organization. The alignment points for each question contain a number between 0 and 100.
 
-When the scorecard is completed, `Workfront` calculates the alignment score of the project as a percentage, using the following formula:
+When the scorecard is completed, Workfront calculates the alignment score of the project as a percentage, using the following formula:
 
 ```
 Project Alignment Score = The sum of the question points from the scorecard met at a given time/ The sum of the possible points on the scorecard
@@ -97,7 +97,7 @@ For more information, see [Create a scorecard](../../../administration-and-setup
 
 The alignment score of the portfolio is an average of the alignment scores of all the projects in the portfolio.
 
-When the scorecards of the projects are completed, `Workfront` uses those values to calculate the alignment score of the portfolio as a percentage, using the following formula:
+When the scorecards of the projects are completed, Workfront uses those values to calculate the alignment score of the portfolio as a percentage, using the following formula:
 
 Portfolio Alignment Score = The sum of the percentages of the project alignment scores/ Number of projects in the portfolio
 

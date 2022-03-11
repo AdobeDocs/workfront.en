@@ -8,7 +8,7 @@ description: As an Adobe Workfront administrator or a user with a Plan or Work l
 
 # Edit team settings
 
-As an `Adobe Workfront administrator` or a user with a Plan or Work license, you can edit Team Settings.
+As an Adobe Workfront administrator or a user with a Plan or Work license, you can edit Team Settings.
 
 You can add users to a team, set the team layout template, and set how status is recorded when work items are completed by a team.
 
@@ -23,17 +23,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Edit team settings
 
@@ -43,9 +43,7 @@ You must have the following access to perform the steps in this article:
    <li>Modify the team name</li> 
    <li>Deactivate the team </li> 
    <li> <p>Associate the team with a group</p> <note type="note">
-     When a team is assigned to a group or subgroup, any 
-     <span>group administrators</span> of that group or subgroup can manage the team without being a member of it. 
-     <span>Group administrators</span> can go to the Teams area from the Main Menu and click the Switch Teams arrow 
+     When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow 
      <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.
     </note> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. </li> 
    <li>Designate the team owner</li> 

@@ -17,7 +17,7 @@ The system administrator can determine whether you are able to log hours for fut
 
 ## Solution
 
-Contact your `Adobe Workfront administrator`.
+Contact your Adobe Workfront administrator.
 
 System administrators&nbsp;can update this setting as follows:
 

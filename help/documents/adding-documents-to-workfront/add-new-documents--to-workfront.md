@@ -7,7 +7,7 @@ title: Add new documents to Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Add new documents to `Adobe Workfront`
+# Add new documents to Adobe Workfront
 
 This section contains the following articles:
 

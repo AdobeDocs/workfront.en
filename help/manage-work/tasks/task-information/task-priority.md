@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Overview of task Priorities
 
@@ -48,7 +48,7 @@ Consider the following when using task priorities:
 
 <ul> 
  <li><![CDATA[
-			]]><span>Adobe Workfront administrators</span> can modify priority labels within <span>Workfront</span> or they can create new priorities. As a result, the options you might have for the Priority field in your <span>Workfront</span> instance might differ from those listed below. For information about customizing the names of priorities in your instance, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>. </li> 
+			]]>Adobe Workfront administrators can modify priority labels within Workfront or they can create new priorities. As a result, the options you might have for the Priority field in your Workfront instance might differ from those listed below. For information about customizing the names of priorities in your instance, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>. </li> 
  <li> <p>Each priority label has a number associated with it that can not be modified. </p> <p style="font-weight: normal;"> You should become familiar with the numbering sequence for priorities used in your organization. </p> <p style="font-weight: normal;">For example, your organization might use the number 1 to refer to urgent tasks, if the label of the priority has been modified. </p> <p style="font-weight: normal;"> Refer to the following table to understand each default priority label and its corresponding number: </p> 
   <table cellspacing="15"> 
    <col> 

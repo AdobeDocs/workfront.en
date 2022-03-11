@@ -23,11 +23,11 @@ This replaces this: Get started with Resource Management
 
 Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;
 
-## Overview of Resource Management in `Adobe Workfront`
+## Overview of Resource Management in Adobe Workfront
 
 Resource Management refers to all the activities performed by the system administrator, the Resource Manager, and the Project Owner&nbsp;for the forecasting and scheduling of resources in relation to the work that these resources are assigned to and their availability. &nbsp;
 
-`Workfront` has several sets of tools used to manage resources. Although some of these tools overlap, each one has an individual scope.&nbsp;
+Workfront has several sets of tools used to manage resources. Although some of these tools overlap, each one has an individual scope.&nbsp;
 
 To plan how resources are allocated on projects, use the following area:&nbsp;
 
@@ -44,7 +44,7 @@ To schedule resources to actual work (tasks and issues), use the following area:
 `Resource Management is done in two steps:`
 
 <ul> 
- <li><span class="wysiwyg-color-pink"><span class="bold">Configuration</span>: As a Resource Manager or Project Owner, you or your <span>Workfront administrator</span> must configure certain fields and objects in your <span>Workfront</span> instance before managing your resources.&nbsp;</span> <br><span class="wysiwyg-color-pink">You must configure&nbsp;the following items in <span>Workfront</span>:</span> <br> 
+ <li><span class="wysiwyg-color-pink"><span class="bold">Configuration</span>: As a Resource Manager or Project Owner, you or your Workfront administrator must configure certain fields and objects in your Workfront instance before managing your resources.&nbsp;</span> <br><span class="wysiwyg-color-pink">You must configure&nbsp;the following items in Workfront:</span> <br> 
   <ul> 
    <li><span class="wysiwyg-color-pink">Users</span> <br><span class="wysiwyg-color-pink">For more information about creating users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref" xrefformat="{para}">Add users</a>.</span> </li> 
    <li><span class="wysiwyg-color-pink">Job Roles</span> <br><span class="wysiwyg-color-pink">For more information about creating job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" xrefformat="{para}">Create and manage job roles</a>.</span> </li> 
@@ -63,13 +63,13 @@ To schedule resources to actual work (tasks and issues), use the following area:
 
 >[!TIP]
 >
->Resource Management is never a stagnant process in `Workfront`. As the schedules of your projects, the availability&nbsp;of your users, or their roles change, you must continually adjust the information about your resources, their assignments, and their allocations to projects, tasks, and issues. We recommend that you designate Resource Mangers for your projects. The role of the Resource Manager is to manage this process, to&nbsp;accurately allocate&nbsp;your resources and prioritize your projects.&nbsp;
+>Resource Management is never a stagnant&nbsp;process&nbsp;in Workfront. As the schedules of your projects, the availability&nbsp;of your users, or their roles change, you must continually adjust the information about your resources, their assignments, and their allocations to projects, tasks, and issues. We recommend that you designate Resource Mangers for your projects. The role of the Resource Manager is to manage this process, to&nbsp;accurately allocate&nbsp;your resources and prioritize your projects.&nbsp;
 
 `
 
 ## Access needed to use resource management tools
 
-The following users have access to the Resource Management Tools in `Workfront`:
+The following users have access to the Resource Management Tools in Workfront:
 
 * The system administrator.
 * A user with a Plan license who also has administrative access to Resource Pools.   
@@ -81,7 +81,7 @@ The following users have access to the Resource Management Tools in `Workfront`:
 
 ## Prerequisites for accurate resource management&nbsp;
 
-All of the following conditions must be met before you can start managing your resources in `Workfront`:
+All of the following conditions must be met before you can start managing your resources in Workfront:
 
 <ul> 
  <li> You must have users in the system who have active accounts.<br>For more information about creating users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref" xrefformat="{para}">Add users</a>.</li> 
@@ -89,7 +89,7 @@ All of the following conditions must be met before you can start managing your r
     Although you can assign work to a Reviewer or a Requestor, they cannot complete it. 
    <br>We recommend against assigning work to Reviewers or Requestors.
   </note></li> 
- <li> You must have job roles configured in the system.<br>For more information about adding job roles to <span>Workfront</span>, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" xrefformat="{para}">Create and manage job roles</a>.</li> 
+ <li> You must have job roles configured in the system.<br>For more information about adding job roles to Workfront, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" xrefformat="{para}">Create and manage job roles</a>.</li> 
  <li> (Optional) If you want to budget cost for your work, your job roles and your users must also have rates associated with them.<br></li> 
  <li> You must associate at least one job role with your users.<br></li> 
  <li> You must specify a valid value for the FTE field of all users.<br>For more information about editing users to ensure they have a job role, FTE, or cost associated with them,&nbsp;see<a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" xrefformat="{para}">Edit a user's profile</a>.</li> 
@@ -101,13 +101,13 @@ All of the following conditions must be met before you can start managing your r
  <li>When using the Legacy Resource Planning tools, your projects must include Resource Estimates in the Business Case.<br>For more information about using Resource Estimates in the Business Case, see <a href="apply-legacy-pools-to-business-case.md">Applying Resource Pools to the Business Case</a>.</li> 
 </ul>
 
-## Manage resources in `Workfront`
+## Manage resources in Workfront
 
-In addition to project planning, managing resources in `Workfront` is a key component of work planning.&nbsp;
+In addition to project planning, managing resources in Workfront is a key component of work planning.&nbsp;
 
 After you have ensured that all the prerequisites for Resource Management are in place, you can continue with managing your resources. You can manage your resources by estimating how many hours, FTE, or how much Cost you need to fulfill the work that must be completed. Then, you can assign the work to individual users. Budgeting hours is identical to budgeting FTEs or Costs.&nbsp;
 
-To manage your resources in `Workfront`:
+To manage your resources in Workfront:
 
 1. Decide how your organization budgets resources.  
    You can budget by:

@@ -10,7 +10,7 @@ description: Adobe Workfront Fusion distinguishes five types of modules: action 
 
 # Types of modules
 
-`Adobe Workfront Fusion` distinguishes five types of modules: action modules, search modules, trigger modules, aggregators, and iterators. Aggregators and Iterators are for advanced scenarios.
+Adobe Workfront Fusion distinguishes five types of modules: action modules, search modules, trigger modules, aggregators, and iterators. Aggregators and Iterators are for advanced scenarios.
 
 ## Access requirements
 
@@ -21,25 +21,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Action modules
 
@@ -88,7 +88,7 @@ Triggers can be placed only at the beginning of a scenario.
 
 Each scenario can contain only one Trigger.
 
-`Workfront Fusion` distinguishes between two types of triggers: Polling triggers and Instant triggers.
+Workfront Fusion distinguishes between two types of triggers: Polling triggers and Instant triggers.
 
 ### Polling triggers
 
@@ -109,12 +109,11 @@ Polling triggers allow you to select the first bundle that they should output vi
 
 ### Instant triggers
 
-Instant triggers enable the service to notify `Workfront Fusion` about a *change* immediately. We recommend that you schedule a scenario containing an instant trigger to run immediately. For instructions, see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md). See also [Instant triggers (webhooks)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) for details on how the incoming data is handled.
+Instant triggers enable the service to notify Workfront Fusion about a *change* immediately. We recommend that you schedule a scenario containing an instant trigger to run immediately. For instructions, see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md). See also [Instant triggers (webhooks)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) for details on how the incoming data is handled.
 
 ` `**Examples: **``
 
-* `Workfront>Watch Events` returns information when a certain type of event occurs in `Workfront`, such as the creation of a task.
-
+* `Workfront>Watch Events` returns information when a certain type of event occurs in Workfront, such as the creation of a task.
 * `Google Sheets>Watch Changes` returns information whenever a cell is updated.
 
 ## Aggregators

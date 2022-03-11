@@ -7,7 +7,7 @@ title: Create proofs
 description: This section contains the following articles:
 ---
 
-# Create `proofs`
+# Create proofs
 
 This section contains the following articles:
 

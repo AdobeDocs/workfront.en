@@ -10,7 +10,7 @@ description: In a layout template, you can customize what users see in the left 
 
 # Customize the left panel using a layout template
 
-In a layout template, you can customize what users see in the left panel area throughout `Adobe Workfront`.
+In a layout template, you can customize what users see in the left panel area throughout Adobe Workfront.
 
 For example, you can determine which of the following items users see in the left panel when viewing a task:
 
@@ -31,21 +31,21 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Customize the left panel for an area in `Workfront`:
+## Customize the left panel for an area in Workfront:
 
 <ol> 
  <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
@@ -54,7 +54,7 @@ You must have the following to perform the steps in this article:
    <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md" class="MCXref xref">Customize Home and Summary using a layout template</a>. For information about the Lists option, see 
    <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md" class="MCXref xref">Customize Filters, Views, and Groupings using a layout template</a>.
   </note> </li> 
- <li value="3"> <p>In the <span class="bold">Left panel</span> list, do any of the following to determine what will users see in the left panel for the option (<span>Workfront</span> area or object type) you have selected:</p> 
+ <li value="3"> <p>In the <span class="bold">Left panel</span> list, do any of the following to determine what will users see in the left panel for the option (Workfront area or object type) you have selected:</p> 
   <ul> 
    <li>Show <img src="assets/add-secondary-nav-item.png"> or hide <img src="assets/delete-secondary-nav-item.png"> items. Any item without <img src="assets/add-secondary-nav-item.png"> or <img src="assets/delete-secondary-nav-item.png"> cannot be hidden.</li> 
    <li>Drag items <img src="assets/move-icon---dots.png"> to change their order on the left panel.</li> 

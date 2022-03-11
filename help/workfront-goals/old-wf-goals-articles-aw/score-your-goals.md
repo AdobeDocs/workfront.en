@@ -1,6 +1,6 @@
 
 
-# Score your goals in `the new Adobe Workfront experience`
+# Score your goals in the new Adobe Workfront experience
 
 <!--
 IS THIS FUNCTIONALITY MOVING TO WF GOALS???

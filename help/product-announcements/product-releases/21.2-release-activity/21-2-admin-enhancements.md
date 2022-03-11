@@ -9,7 +9,7 @@ description: This page describes all administrator enhancements made with the 21
 
 # 21.2 Administrator enhancements
 
-This page describes all `administrator` enhancements made with the `21.2` release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the `21.2` release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+This page describes all administrator enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## For administrators: View Audit Log information about many more areas in Workfront
 
@@ -38,7 +38,7 @@ This feature is now included in the [Admin Fundamentals for the new Workfront ex
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 We have made the following improvements in the Subgroups area in Setup.
 
@@ -72,7 +72,7 @@ For information about Timesheets & Hours Preference, see [Configure timesheet an
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 Two improvements in the Groups area in Setup make lists consistent with other modernized lists in the new Workfront experience:
 
@@ -93,7 +93,7 @@ For information about the Groups area, see Manage groups.
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group’s programs from the Groups area in Setup. This saves you from having to go to the Programs area to manage your group’s programs. And it keeps the list of group programs you’re working with separate from the other programs in the system.
 
@@ -105,9 +105,9 @@ For more information, see Create, modify, and view a group’s programs.
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
-To better orient administrators in the Setup area and to maintain consistency `Adobe Workfront`, we have updated the Setup headers with the following:
+To better orient administrators in the Setup area and to maintain consistency Adobe Workfront, we have updated the Setup headers with the following:
 
 <ul> 
  <li> <p>A large colorful badge marking each Setup page and subpage</p> </li> 
@@ -121,7 +121,7 @@ For more information about the Setup area, see Administration and setup.
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with your group’s companies, teams, and portfolios from the Groups area in Setup. This saves you from having to go to the various Setup pages for these objects to manage them for your group. And it keeps the list of group objects you’re looking at separate from those of the other groups in the system.
 
@@ -171,7 +171,7 @@ This feature is now included in the [Administrator Fundamentals in the new Workf
 >
 >This feature was released to the Production environment on March 4, 2021.
 
-When you need to edit or delete a custom field that might already be implemented in some `Adobe Workfront` reports, it’s important to assess whether those reports will need adjustments in order to keep working properly after you make the change.
+When you need to edit or delete a custom field that might already be implemented in some Adobe Workfront reports, it’s important to assess whether those reports will need adjustments in order to keep working properly after you make the change.
 
 You can add a custom view in the Custom Forms area with a new Reports column that shows which reports are using a particular custom field.
 
@@ -187,7 +187,7 @@ For more information, [View all reports that use a particular custom field](../.
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 Now it’s easier to manage a group when you are viewing a group in the Groups area in Setup. The new More menu lets you quickly edit, copy, or delete the group without going back out to the Groups page. For more information, see [Manage a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 

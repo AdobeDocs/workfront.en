@@ -9,36 +9,34 @@ description: You can use the Adobe Workfront Resource Management tools to foreca
 
 # Get started with Resource Planning
 
-You can use the `Adobe Workfront` Resource Management tools to forecast the allocation of your resources so that you know with accuracy whether your projects are delivered on time and on budget. For an overview of Resource Management in `Workfront`, see [Get started with Resource Management](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+You can use the Adobe Workfront Resource Management tools to forecast the allocation of your resources so that you know with accuracy whether your projects are delivered on time and on budget. For an overview of Resource Management in Workfront, see [Get started with Resource Management](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 You can use resource planning tools to manage your job roles, their availability, and general allocation to projects based on this availability.
 
 Budgeting users' general allocation to projects does not assign them to actual work (tasks and issues). You must assign your resources to work by using the Resource Scheduling tools.
 
-For more information about scheduling resources in `Workfront`, see [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) .
+For more information about scheduling resources in Workfront, see [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) .
 
-## Resource planning tools in  `Workfront`
+## Resource planning tools in&nbsp;Workfront
 
 To budget time for your resources for the projects you plan to assign them to, you can use the following tools:
 
 <ul> 
- <li> <p>For budgeting allocations for and prioritize multiple projects at the system-level: use the system-level <span>Resource Planner</span>. </p> <p>You can access the <span>Resource Planner</span> by going to the Planner section in the Resourcingarea.</p> <p>For information about the <span>Resource Planner</span>, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p> </li> 
- <li> <p>For budgeting allocations for a single project: use the&nbsp;project-level <span>Resource Planner</span> in the Resource Budgeting area of the Business Case of a the project. For information about budgeting resources for one project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p> <p>To manage users and organize them in pools based on common skills or departmental structure and then manage their allocations for the projects they are assigned to, you must create resource pools.&nbsp;For more information about creating resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</p> <note type="tip">
-   The Resource Budgeting area of a project is the 
-   <span>Resource Planner</span> at the project level. When you budget resources in the Business Case of a project, the information is also reflected in the system-level 
-   <span>Resource Planner</span>. 
+ <li> <p>For budgeting allocations for and prioritize multiple projects at the system-level: use the system-level Resource Planner. </p> <p>You can access the Resource Planner by going to the Planner section in the Resourcingarea.</p> <p>For information about the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p> </li> 
+ <li> <p>For budgeting allocations for a single project: use the&nbsp;project-level Resource Planner in the Resource Budgeting area of the Business Case of a the project. For information about budgeting resources for one project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p> <p>To manage users and organize them in pools based on common skills or departmental structure and then manage their allocations for the projects they are assigned to, you must create resource pools.&nbsp;For more information about creating resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</p> <note type="tip">
+   The Resource Budgeting area of a project is the Resource Planner at the project level. When you budget resources in the Business Case of a project, the information is also reflected in the system-level Resource Planner. 
   </note> </li> For managing resources at a high-level, across multiple initiatives, and align your work with your organization's strategy, use the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview. You can use the Scenario Planner both at the system-level, across multiple initiatives, as well as to budget resources for a single project in the Resource Budgeting area of the business case. For more information about budgeting resources for a project in the business case, see Budget resources in the Business Case. 
 </ul>
 
 ## The purpose of the resource planning tools
 
-* Using the `Resource Planner` you can do the following:
+* Using the Resource Planner you can do the following:
 
-  * Prioritize your projects to decide which projects should receive resources first. (Only in the `Resource Planner`)
+  * Prioritize your projects to decide which projects should receive resources first. (Only in the Resource Planner)
   * Understand the availability of your resources based on the schedule of your users.
   * Budget hour, FTE, or cost allocations for your resources (users and job roles) for the projects to which they are assigned.
 
-  For information about working in the `Resource Planner`, see the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  For information about working in the Resource Planner, see the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 <!--
 Prerequisites for resource planning

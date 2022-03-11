@@ -7,13 +7,13 @@ title: Configure a branded domain in Workfront Proof
 description: All Workfront Proof plans allow you to configure a branded sub-domain on your account. This means that you can customize your account URL to include your brand name.
 ---
 
-# Configure a branded domain in `Workfront Proof`
+# Configure a branded domain in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-All `Workfront Proof` plans allow you to configure a branded sub-domain on your account. This means that you can customize your account URL to include your brand name.
+All Workfront Proof plans allow you to configure a branded sub-domain on your account. This means that you can customize your account URL to include your brand name.
 
 For example, if you set your sub-domain to be kattest, your URL would look like this:
 
@@ -25,10 +25,8 @@ You can create a branded sub-domain or a fully branded domain.
 
 ## Configuring a Branded Sub-Domain
 
-1. Log in to `Workfront Proof` as the `Workfront Proof administrator`.
-
-1. Click `Account settings` in the upper-right corner of the `Workfront Proof` interface.
-
+1. Log in to Workfront Proof as the Workfront Proof administrator.
+1. Click `Account settings` in the upper-right corner of the Workfront Proof interface.
 1. Click the `Settings` tab.
 1. In the `Customized Sub-Domain` section, click `Setup`.
 
@@ -43,26 +41,26 @@ Only users with [Proof Permissions Profiles in Workfront Proof](../../../workfro
 
 >[!NOTE]
 >
->Once you have set up your sub-domain it will not be editable. If you wish to change it please contact `Workfront Proof` Support.
+>&nbsp;Once you have set up your sub-domain it will not be editable. If you wish to change it please contact Workfront Proof Support.
 
 ## Configuring a Fully Branded Domain
 
-You can have a fully customized domain. For example, http:// `proofing`.<yourbrand>.com.
+You can have a fully customized domain. For example, http://proofing.<yourbrand>.com.
 
 To set up your custom domain or branding, you must complete the following steps:
 
 <ol> 
  <li value="1">As a first step, it is important to determine what type of SSL certificate is required for your white label URL:
   <ul>
-   <li>If you plan to have only one <span>Workfront Proof</span> account, a standard SSL certificate with Single domain should be purchased.</li>
-   <li>If you plan on having multiple <span>Workfront Proof</span> account (e.g., Satellite accounts), a Wildcard SSL certificate should be purchased.<br>For general information about SSL certificates, see <a href="#understanding-certificate-signing-requests-and-ssl-certificates" class="MCXref xref">Understanding Certificate Signing Requests (CSR) and SSL Certificates</a>.</li>
+   <li>If you plan to have only one Workfront Proof account, a standard SSL certificate with Single domain should be purchased.</li>
+   <li>If you plan on having multiple Workfront Proof account (e.g., Satellite accounts), a Wildcard SSL certificate should be purchased.<br>For general information about SSL certificates, see <a href="#understanding-certificate-signing-requests-and-ssl-certificates" class="MCXref xref">Understanding Certificate Signing Requests (CSR) and SSL Certificates</a>.</li>
   </ul></li> 
- <li value="2">A Certificate Signing Request (CSR) must be created by <span>Workfront Proof</span>. For general information about CSRs, see <a href="#understanding-certificate-signing-requests-and-ssl-certificates" class="MCXref xref">Understanding Certificate Signing Requests (CSR) and SSL Certificates</a>.<br>In order for us to create the CSR, we need the following information:<br><note type="important">
+ <li value="2">A Certificate Signing Request (CSR) must be created by Workfront Proof. For general information about CSRs, see <a href="#understanding-certificate-signing-requests-and-ssl-certificates" class="MCXref xref">Understanding Certificate Signing Requests (CSR) and SSL Certificates</a>.<br>In order for us to create the CSR, we need the following information:<br><note type="important">
     The CSR cannot be modified after it is generated. Ensure that the following information is correct.&nbsp;
   </note>
   <ul>
-   <li><span class="bold">Common Name/Fully Qualified Domain Name</span> (Everything after http://. This must match exactly what you type in your browser, e.g. www.yourdomain.com or <span>proofing</span>.yourdomain.com.</li>
-   <li><span class="bold">Will you be using this domain for multiple <span>Workfront Proof</span> accounts</span>? If you require multiple <span>Workfront Proof</span> accounts to use this domain, please specify this using the wildcard e.g., *.yourdomain.com.)</li>
+   <li><span class="bold">Common Name/Fully Qualified Domain Name</span> (Everything after http://. This must match exactly what you type in your browser, e.g. www.yourdomain.com or proofing.yourdomain.com.</li>
+   <li><span class="bold">Will you be using this domain for multiple Workfront Proof accounts</span>? If you require multiple Workfront Proof accounts to use this domain, please specify this using the wildcard e.g., *.yourdomain.com.)</li>
    <li><span class="bold">Organization Name</span> (Legal name of your Organization. This must not be abbreviated or include any suffixes e.g. Corp., Inc., Ltd.)</li>
    <li><span class="bold">Organizational Unit</span> (The department in your organisation handling the Certificate. This could be "IT" or even "General".)</li>
    <li><span class="bold">City</span> (City where your organization is located)</li>
@@ -72,7 +70,7 @@ To set up your custom domain or branding, you must complete the following steps:
  <li value="3">After the information in step 2 is received, we create the CSR and send it to you along with the CNAME URL&nbsp;to point the domain to.</li> 
  <li value="4"> <p>Give the CSR to a SSL Certificate Provider (Certificate Authority) who will create the SSL Certificate and Key chain for you.</p> </li> 
  <li value="5"> <p>Point the domain to the CNAME URL we provided (see step 3 above).</p> </li> 
- <li value="6"> <p>Send the SSL Certificate and Key chain to <span>Workfront Proof</span>.</p> </li> 
+ <li value="6"> <p>Send the SSL Certificate and Key chain to Workfront Proof.</p> </li> 
 </ol>
 
 ## Understanding Certificate Signing Requests (CSR) and SSL Certificates

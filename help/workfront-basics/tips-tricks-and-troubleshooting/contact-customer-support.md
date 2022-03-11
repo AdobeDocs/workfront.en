@@ -8,15 +8,15 @@ description: As a Adobe Workfront customer, you can contact the Workfront Custom
 
 # Contact Customer Support
 
-As a `Adobe Workfront` customer, you can contact the `Workfront Customer Support` team by phone or by submitting a ticket online.
+As a Adobe Workfront customer, you can contact the Workfront Customer Support team by phone or by submitting a ticket online.
 
 >[!NOTE]
 >
->For critical issues, contact `Workfront Customer Support` by phone.
+>For critical issues, contact Workfront Customer Support by phone.
 
 ## Phone
 
-You can contact `Workfront` Customer Support 7 days a week, 24 hours a day, through the following numbers:
+You can contact Workfront Customer Support 7 days a week, 24 hours a day, through the following numbers:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -28,16 +28,12 @@ These numbers are also found at the bottom of every page in the Workfront One si
 
 ## Web
 
-If you are logged in as an Authorized Support Contact, you can contact `Workfront Customer Support` through the Workfront One site and create a case, formally called a ticket.
+If you are logged in as an Authorized Support Contact, you can contact Workfront Customer Support through the Workfront One site and create a case, formally called a ticket.
 
 <ol> 
  <li value="1">Log in to <a href="https://one.workfront.com/" target="_blank"><span class="bold">one.workfront.com</span></a> as an Authorized Support Contact.</li> 
  <li value="2"> <p>On the <span class="bold">Home</span> page, click <span class="bold">Support</span>.</p> <p> <img src="assets/supporthome-350x138.png" style="width: 350;height: 138;"> </p> <p>The Customer Support page displays.</p> <note type="note">
-   If you don't see the Support option on the Home page, you are not an Authorized Support Contact. Your 
-   <span>Workfront administrator</span> can contact 
-   <span>Workfront Customer Support</span> and request you be added an Authorized Support Contact. If you are the only 
-   <span>Workfront administrator</span> for your organization, contact the 
-   <span>Workfront</span> Support team by phone.
+   If you don't see the Support option on the Home page, you are not an Authorized Support Contact. Your Workfront administrator can contact Workfront Customer Support and request you be added an Authorized Support Contact. If you are the only Workfront administrator for your organization, contact the Workfront Support team by phone.
   </note> </li> 
  <li value="3">Complete the fields in the <span class="bold">Create a Support Case</span> form. All fields are required.<br>
   <table cellspacing="0">
@@ -80,7 +76,7 @@ If you are logged in as an Authorized Support Contact, you can contact `Workfron
    <li value="2"><p>Click <span class="bold">Upload File</span>, then browse for and select the desired file.</p><p><img src="assets/supportselectfile-350x368.png" style="width: 350;height: 368;"></p></li>
    <li value="3"><p>Click <span class="bold">Done</span> to upload the file to the case.</p></li>
   </ol></li> 
- <li value="5">Click <span class="bold">Submit</span> to submit the case to <span>Workfront Customer Support</span>.</li> 
+ <li value="5">Click <span class="bold">Submit</span> to submit the case to Workfront Customer Support.</li> 
 </ol>
 
 If you have any questions or problems submitting a request, please call the Customer Support team. 

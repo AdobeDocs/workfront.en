@@ -7,13 +7,13 @@ title: Set up taxonomy metadata for Workfront Library
 description: As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see Overview of taxonomy metadata in Workfront Library.
 ---
 
-# Set up taxonomy metadata for `Workfront Library`
+# Set up taxonomy metadata for Workfront Library
 
-As a `Workfront Library administrator`, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
+As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>In the left panel, click <span class="bold">Setup</span> > <span class="bold">Taxonomy</span>.</p> </li> 
  <li value="4"> <p>Click <span class="bold">Add Field</span>, then select the type of field you want to add to your taxonomy.</p> <p>You can choose from the following field types:</p> 
   <ul> 
@@ -76,9 +76,9 @@ The metadata for attribute fields is derived from the device or application used
 
 ### EXIF
 
-Although some asset files contain large amounts of EXIF metadata, you can configure your taxonomy to collect only the EXIF metadata you need. If at a later date you decide to collect additional EXIF metadata, simply add the appropriate EXIF field to your taxonomy. `Workfront Library` then updates the EXIF metadata for all content embedded with the appropriate EXIF metadata.
+Although some asset files contain large amounts of EXIF metadata, you can configure your taxonomy to collect only the EXIF metadata you need.&nbsp;If at a later date you decide to collect additional EXIF metadata, simply add the appropriate EXIF field to your taxonomy. Workfront Library then updates the EXIF metadata for all content embedded with the appropriate EXIF metadata.
 
-To learn about the EXIF metadata that `Workfront Library` supports, see [Overview of taxonomy field types](../../../workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md).
+To learn about the EXIF metadata that Workfront Library supports, see [Overview of taxonomy field types](../../../workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md).
 
 1. In the `EXIF Field` box, begin typing the EXIF tag you want to capture and select the tag when it displays in the drop-down list.
 1. In the `Custom Label` box, enter a unique name for the field.  
@@ -87,9 +87,9 @@ To learn about the EXIF metadata that `Workfront Library` supports, see [Overvie
 
 ### XMP
 
-You can configure XMP taxonomy fields to embed specific types of metadata to content when it is uploaded to `Workfront Library`.
+You can configure XMP taxonomy fields to embed specific types of metadata to content when it is uploaded to Workfront Library.
 
-To learn about the XMP metadata that `Workfront Library` supports, see [Overview of taxonomy field types](../../../workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md).
+To learn about the XMP metadata that Workfront Library supports, see [Overview of taxonomy field types](../../../workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md).
 
 1. In the `XMP Field`&nbsp;box, begin typing the XMP tag you want to capture in the taxonomy and select the tag when it displays in the drop-down list.
 

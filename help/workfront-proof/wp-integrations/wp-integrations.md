@@ -8,11 +8,11 @@ title: Workfront Proof integrations
 description: This section contains the following subsections:
 ---
 
-# `Workfront Proof` integrations
+# Workfront Proof integrations
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following subsections:
 

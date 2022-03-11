@@ -8,4 +8,4 @@ description: You can use a utilization report to track user utilization througho
 
 # Track User Utilization information
 
-You can use a utilization report to track user utilization throughout your `Adobe Workfront` system. For more information, see [View resource utilization information](../../resource-mgmt/resource-utilization/view-utilization-information.md).
+You can use a utilization report to track user utilization throughout your Adobe Workfront system. For more information, see [View resource utilization information](../../resource-mgmt/resource-utilization/view-utilization-information.md).

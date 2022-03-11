@@ -43,7 +43,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
   <tr>
    <td>code</td>
    <td>depends</td>
-   <td><p>The authorization code sent to <span>Adobe Workfront</span> just after the user clicks the “Grant” button. This is only required when the grant type is “authorization_code”. The authorization code should be short lived, generally expiring in 10 minutes or less.</p></td>
+   <td><p>The authorization code sent to Adobe Workfront just after the user clicks the “Grant” button. This is only required when the grant type is “authorization_code”. The authorization code should be short lived, generally expiring in 10 minutes or less.</p></td>
   </tr>
   <tr>
    <td>refresh_token</td>
@@ -53,12 +53,12 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
   <tr>
    <td>client_id</td>
    <td>yes</td>
-   <td>The Client ID configured in <span>Workfront</span> for this custom integration.</td>
+   <td>The Client ID configured in Workfront for this custom integration.</td>
   </tr>
   <tr>
    <td>client_secret</td>
    <td>yes</td>
-   <td>&nbsp;The Client Secret configured in <span>Workfront</span> for this custom integration.</td>
+   <td>&nbsp;The Client Secret configured in Workfront for this custom integration.</td>
   </tr>
  </tbody>
 </table>

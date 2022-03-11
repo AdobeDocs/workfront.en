@@ -6,7 +6,7 @@ title: Overview of converting issues in Adobe Workfront
 description: If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
 ---
 
-# Overview of converting issues in `Adobe Workfront`
+# Overview of converting issues in Adobe Workfront
 
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
 
@@ -16,14 +16,13 @@ For information about converting issues to projects, see [Convert an issue to a 
 
 ## Considerations when converting issues
 
-* Your `Workfront administrator` or `group administrator` has already set the preferences for what happens to an issue, its resolution, and the its Primary&nbsp;Contact's access when it is converted to a project or a task, as outlined in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-* `Workfront` removes any approvals that are associated with issues during conversion.
-* `Workfront` overwrites the Resolving Object of the issue when you convert it to a task or an project. The new task or issue becomes the new Resolving Object of the issue after conversion. 
+* Your Workfront administrator or group administrator has already set the preferences for what happens to an issue, its resolution, and the its Primary&nbsp;Contact's access when it is converted to a project or a task, as outlined in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Workfront removes any approvals that are associated with issues during conversion.
+* Workfront overwrites the Resolving Object of the issue when you convert it to a task or an project. The new task or issue becomes the new Resolving Object of the issue after conversion. 
 * Consider the following:
 
   * During conversion, you might be asked whether you want to keep the issue and its resolution tied to the project or task you are creating.
-  * If you keep the issue, the status and percent complete of the project or task automatically update the status and the percent complete of the issue when any changes occur on the project, task, or the issue or when the `Workfront` recalculates the timeline.
+  * If you keep the issue, the status and percent complete of the project or task automatically update the status and the percent complete of the issue when any changes occur on the project, task, or the issue or when the Workfront recalculates the timeline.
 
 * When converting an issue to a project using a template, most information from the template transfers to the new project. However, some information from the issue can also transfer to the new project.&nbsp;For more information, see the [Overview of project fields when converting an issue to a project using a template](#overview) section in this article. 
 * While converting an issue, not all documents or their information are moved to the new object that the issue is converted to. The following items are included when you convert an issue that has documents or document links attached:
@@ -34,10 +33,8 @@ For information about converting issues to projects, see [Convert an issue to a 
   * Proofs are included only when the option `Keep the original issue and tie its resolution to this task` is unselected.
   * Document approvals are not included when you convert an issue that has documents and document links attached.
 
-* If you decided to keep the issue in the conversion and it has documents attached, the document and its versions are copied to the project or the task. The `proofs` and the document approvals are not copied to the project or the task.  
-
-* If you decided to not keep the issue in the conversion, and it has documents attached, the document, its versions, and the `proofs` transfer to the project or the task. The document approvals will not transfer to the project or the task.  
-
+* If you decided to keep the issue in the conversion and it has documents attached, the document and its versions are copied to the project or the task. The proofs and the document approvals are not copied to the project or the task.  
+* If you decided to not keep the issue in the conversion, and it has documents attached, the document, its versions, and the proofs transfer to the project or the task. The document approvals will not transfer to the project or the task.  
 * If you have documents and folders linked to the original issue from third party services, like Google Drive, regardless of whether you are keeping the issue or not during the conversion, those links will be copied to the new object.
 * Issue comments are also copied to the task or project converted from the issue, but tagged users will not transfer.
 * If you want to transfer custom form information from the issue to the project or task you are converting it to, ensure you have a project or task custom form that include the same fields you want to transfer from the issue. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
@@ -62,7 +59,7 @@ The following table lists project information and whether it transfers from the 
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Default status selected for the group on the template. If the template is not associated with the group, the project status is set to the default status set by the <span>Workfront administrator</span> in the Project&nbsp;Preferences area of Setup. For information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</td> 
+   <td>Default status selected for the group on the template. If the template is not associated with the group, the project status is set to the default status set by the Workfront administrator in the Project&nbsp;Preferences area of Setup. For information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</td> 
   </tr> 
   <tr> 
    <td>Priority</td> 
@@ -78,7 +75,7 @@ The following table lists project information and whether it transfers from the 
   </tr> 
   <tr> 
    <td>Project&nbsp;Condition</td> 
-   <td>Matches the system-level default preference as determined by the <span>Workfront administrator</span> in the Setup area. For information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Set a custom condition as the default for projects</a></td> 
+   <td>Matches the system-level default preference as determined by the Workfront administrator in the Setup area. For information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Set a custom condition as the default for projects</a></td> 
   </tr> 
   <tr> 
    <td>Schedule From</td> 

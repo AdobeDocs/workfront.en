@@ -6,9 +6,9 @@ title: Create and manage proof comments
 description: Comments enable you to provide feedback on work and collaborate with other users in the proofing viewer. When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
 ---
 
-# Create and manage `proof` comments
+# Create and manage proof comments
 
-Comments enable you to provide feedback on work and collaborate with other users in the `proofing viewer`. When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
+Comments enable you&nbsp;to provide feedback on work and collaborate with other users in the proofing viewer. When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
 
 * If you are the proof creator, owner, or have specific permissions enabled, you can tag users outside of the proof workflow and share the proof with them.
 * If you were added to the proof as an outside user and you are a member of another environment with a different proof account, you can tag only those users from your original environment. For more information, see [Proofing collaboration limitations with people outside of your organization](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)
@@ -22,15 +22,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
+   <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -40,29 +40,29 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
-## Comment on a `proof`
+## Comment on a proof
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the `proof` you need, then click `Open `proof``.
+1. Find the proof you need, then click `Open proof`.
 
 <ol start="3"> 
- <li value="3">(Conditional) If this is a video <span>proof</span>, play the video <span>proof</span>, then click<span class="bold"> Add comment</span> at the point in the video where you want the comment. (You can also pause the video, click in the time line where you want the comment, then click <span class="bold">Add comment</span>.)</li> 
+ <li value="3">(Conditional) If this is a video proof, play the video proof, then click<span class="bold"> Add comment</span> at the point in the video where you want the comment. (You can also pause the video, click in the time line where you want the comment, then click <span class="bold">Add comment</span>.)</li> 
  <p>Or</p> 
  <p>If you want to comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.<br></p> 
  <p> <img src="assets/playheads-in-video-timeline-350x76.png" alt="playheads_in_video_timeline.png" style="width: 350;height: 76;"> </p> 
  <p>For better precision, you can click the values above the playheads and type new values.<br></p> 
  <p> <img src="assets/click-above-playheads-to-type-values-350x79.png" alt="click_above_playheads_to_type_values.png" style="width: 350;height: 79;"></p> 
  <li value="4"> <p>Click <span class="bold">Add comment</span>. <br></p> <p> <img src="assets/add-comment-350x73.png" alt="Add_comment.png" style="width: 350;height: 73;"> </p> </li> 
- <li value="5"> <p>To draw attention to a specific location on the <span>proof</span>, click the markup tool you want in the toolbar that appears above the <span>proof</span>.<br></p> <p> <img src="assets/comment-markup-toobar-horizontal.png" alt="Comment_markup_toobar-horizontal.png"> </p> <p>You can hover over the tools to see the following descriptions:</p> 
+ <li value="5"> <p>To draw attention to a specific location on the proof, click the markup tool you want in the toolbar that appears above the proof.<br></p> <p> <img src="assets/comment-markup-toobar-horizontal.png" alt="Comment_markup_toobar-horizontal.png"> </p> <p>You can hover over the tools to see the following descriptions:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
      <td role="rowheader"><span class="bold">Draw a freehand line</span> </td> 
-     <td>Lets you add a line on the selected area on the <span>proof</span>.</td> 
+     <td>Lets you add a line on the selected area on the proof.</td> 
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Draw an arrow</span> </td> 
@@ -82,7 +82,7 @@ You must have the following access to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Text</td> 
-     <td> <p>This tool appears on the left of the other tools when you open a <span>proof</span> containing text. </p> <p> <img src="assets/comment-tools-with-text-tool-appearing.png" alt="Comment_tools_with_text_tool_appearing.png"> </p> <p>It provides markup tools for commenting on text in <span>proofs</span>. (For a list of text file types supported for this tool, see <a href="../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types and size limits overview</a> in <a href="../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types and size limits overview</a>.)<br></p> <p>When you click this tool and then select text on your <span>proof</span>, annotation options appear beneath the selected text:<br></p> <p>You can hover over the options to see descriptions for them.</p> </td> 
+     <td> <p>This tool appears on the left of the other tools when you open a proof containing text. </p> <p> <img src="assets/comment-tools-with-text-tool-appearing.png" alt="Comment_tools_with_text_tool_appearing.png"> </p> <p>It provides markup tools for commenting on text in proofs. (For a list of text file types supported for this tool, see <a href="../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types and size limits overview</a> in <a href="../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types and size limits overview</a>.)<br></p> <p>When you click this tool and then select text on your proof, annotation options appear beneath the selected text:<br></p> <p>You can hover over the options to see descriptions for them.</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader"><span class="bold">Set as default</span> </td> 
-     <td>(Available only for <span>proofing</span> license holders.) Sets the color, Opacity, and Thickness you select as the defaults for comment markup on all <span>proofs</span>, and marks the color&nbsp;with a star.</td> 
+     <td>(Available only for proofing license holders.) Sets the color, Opacity, and Thickness you select as the defaults for comment markup on all proofs, and marks the color&nbsp;with a star.</td> 
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Opacity</span> </td> 
@@ -105,36 +105,36 @@ You must have the following access to perform the steps in this article:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="7">Mark the area of the <span>proof</span> that you want to comment on.</li> 
- <p>In static <span>proofs</span>, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)</p> 
+ <li value="7">Mark the area of the proof that you want to comment on.</li> 
+ <p>In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)</p> 
  <p>You can also mark multiple areas of an interactive proof as long as the areas are all on the same page. </p> 
  <li value="8">Type your comment in the <span class="bold">Add comment</span> box on the right.</li> 
- <li value="9"> <p><a name="@mention-in-comment"></a>(Optional) To tag another user in your comment and add them to the <span>proof</span>'s workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;</p> <p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> </li> 
+ <li value="9"> <p><a name="@mention-in-comment"></a>(Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;</p> <p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> </li> 
  <li value="10"> (Optional) To attach&nbsp;a file to a comment, do either of the following: 
   <ul> 
    <li>Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.</li> 
    <li>Drag a file from a&nbsp;location on your computer and drop it into the comment area.</li> 
   </ul></li> 
  <li value="11">Click <span class="bold">Post</span>.</li> 
- <p><span>Adobe Workfront</span> drops a pin in the center of the area you marked for the comment. In the screenshot below, the markup (red box) was drawn with the Box tool and the pin marked number 2 in the center identifies the markup.<br></p> 
+ <p>Adobe Workfront drops a pin in the center of the area you marked for the comment. In the screenshot below, the markup (red box) was drawn with the Box tool and the pin marked number 2 in the center identifies the markup.<br></p> 
  <p> <img src="assets/pin-for-comment-350x179.png" alt="pin_for_comment.png" style="width: 350;height: 179;"> <br> </p> 
 </ol>
 
 ## View comments
 
 <ol> 
- <li value="1">Open the <span>proof</span> where you want to view comments.</li> 
+ <li value="1">Open the proof where you want to view comments.</li> 
  <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
  <li value="3"> <p>(Optional) Use the <span class="bold">Previous comment</span> and <span class="bold">Next comment</span> buttons on the right edge of the screen to navigate forward and back through comments.</p> <p> <img src="assets/prev-commt-next-commnt-350x224.png" style="width: 350;height: 224;"> <br> </p> </li> 
- <li value="4"> Click any comment to view the comment marks on the <span>proof</span>.</li> 
+ <li value="4"> Click any comment to view the comment marks on the proof.</li> 
  <p>&nbsp;Or</p> 
- <p>&nbsp;In a video <span>proof</span>, hover over the point in the timeline where a comment was made, then click the numbered balloon that appears. <br></p> 
+ <p>&nbsp;In a video proof, hover over the point in the timeline where a comment was made, then click the numbered balloon that appears. <br></p> 
  <p> <img src="assets/proof-comment-video-350x190.png" alt="proof_comment_video.png" style="width: 350;height: 190;"> </p> 
  <p>Each comment displays the following information: 
   <ul> 
    <li>Name of the user who made the comment</li> 
-   <li>The page number where the comment was made (in static <span>proofs</span> containing more than one page)</li> 
-   <li><p>The frame number or range of footage where the comment was made (in video <span>proofs</span>)</p><p>If the comment you are viewing was applied to a range of video footage, you can click the Play button to review the range.</p></li> 
+   <li>The page number where the comment was made (in static proofs containing more than one page)</li> 
+   <li><p>The frame number or range of footage where the comment was made (in video proofs)</p><p>If the comment you are viewing was applied to a range of video footage, you can click the Play button to review the range.</p></li> 
    <li>Text included with the comment</li> 
    <li>Any attachments that were uploaded to the comment</li> 
   </ul></p> 
@@ -142,13 +142,13 @@ You must have the following access to perform the steps in this article:
  <p> <img src="assets/resize-comment-area-mouse.png" alt="resize_comment_area-mouse.png"> <br> </p> 
 </ol>
 
-## View comments on the Updates tab in `Workfront`
+## View comments on the Updates tab in Workfront
 
-In `Workfront`, you can view `proof` comments without launching your `proofing viewer`.
+In Workfront, you can view proof comments without launching your proofing viewer.
 
 >[!NOTE]
 >
->This feature is not available in `Workfront Proof`.
+>This feature is not available in Workfront Proof.
 
 1. On the `Documents` tab of a work item, locate the document you want to view.
 
@@ -171,7 +171,7 @@ You can also reply to a proof comment from the Updates area for the document.
 
 ## Search the comment list
 
-1. Open the `proof` where you want to search comments.
+1. Open the proof where you want to search comments.
 1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
 1. Click the `Search` icon to display the search box.  
 
@@ -180,7 +180,7 @@ You can also reply to a proof comment from the Updates area for the document.
   * The text you want to search for. The comment list filters as you type, beginning with the first character&nbsp;you enter.
   * The number of the comment you want to display.
 
-1. (Optional) Click the comment to display a line connecting the comment to the related area on the `proof`.
+1. (Optional) Click the comment to display a line connecting the comment to the related area on the proof.
 1. When you are finished searching and you want to display all the comments, click the X at the end of the search box.
 
 ## Filter the comment list
@@ -188,7 +188,7 @@ You can also reply to a proof comment from the Updates area for the document.
 You can filter the comments that display by defining filter parameter such as user, actions, unread status, and more.
 
 <ol> 
- <li value="1">Open the <span>proof</span> where you want to filter comments.</li> 
+ <li value="1">Open the proof where you want to filter comments.</li> 
  <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
  <li value="3"> <p>In the comments area, click the <span class="bold">Filter</span> icon.<br></p> <p> <img src="assets/proof-comment-filter.png" alt="proof_comment_filter.png"> </p> </li> 
  <li value="4"> <p>Use the options that appear below the <span class="bold">Filter</span> icon to filter the comments by any of the following criteria:</p> 
@@ -211,7 +211,7 @@ You can filter the comments that display by defining filter parameter such as us
        <li><span class="bold">Unresolved</span>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
        <li><span class="bold">Unread</span>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
        <li><span class="bold">With attachments</span>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
-       <li><span class="bold">Current page only</span>:&nbsp;(Available only for static and interactive <span>proofs</span>.) Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.</li> 
+       <li><span class="bold">Current page only</span>:&nbsp;(Available only for static and interactive proofs.) Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.</li> 
       </ul> </td> 
     </tr> 
    </tbody> 
@@ -224,10 +224,10 @@ You can filter the comments that display by defining filter parameter such as us
 
 ## Sort the comment list
 
-When you sort the comment list, the sort option you choose is remembered the next time you open a `proof` in the `proofing viewer` you are using.
+When you sort the comment list, the sort option you choose is remembered the next time you open a proof in the proofing viewer you are using.
 
 <ol> 
- <li value="1">Open the <span>proof</span> where you want to sort comments.</li> 
+ <li value="1">Open the proof where you want to sort comments.</li> 
  <li value="2">If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.<br></li> 
  <li value="3">Click the sorting&nbsp;menu to open it.</li> 
  <p> <img src="assets/mceclip3.png"> <br> </p> 
@@ -254,23 +254,23 @@ When you sort the comment list, the sort option you choose is remembered the nex
     </tr> 
     <tr> 
      <td role="rowheader">Page (down, up)</td> 
-     <td>(Available only for static <span>proofs</span>.) Displays comments in order of when they appear in relation to the page number or video timeline.</td> 
+     <td>(Available only for static proofs.) Displays comments in order of when they appear in relation to the page number or video timeline.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Timestamp (down)</td> 
-     <td>(Available only for video <span>proofs</span>.) Displays comments in order of when they appear in relation to the video timeline. Comments made later in the timeline display&nbsp;first.</td> 
+     <td>(Available only for video proofs.) Displays comments in order of when they appear in relation to the video timeline. Comments made later in the timeline display&nbsp;first.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Timestamp (up)</td> 
-     <td>(Available only for video <span>proofs</span>.) Displays comments in order of when they appear in relation to the video timeline.&nbsp;Comments made earlier in the timeline display first.</td> 
+     <td>(Available only for video proofs.) Displays comments in order of when they appear in relation to the video timeline.&nbsp;Comments made earlier in the timeline display first.</td> 
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Device (up)</span> </td> 
-     <td>(Available only for interactive <span>proofs</span>.) Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
+     <td>(Available only for interactive proofs.) Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Device (down)</td> 
-     <td> <p>(Available only for interactive <span>proofs</span>.) Displays comments in order according to the resolution selected when the comment was made. Comments made on higher resolutions display first.</p> <p>For information about changing the resolution in an interactive <span>proof</span>, see&nbsp;<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</p> </td> 
+     <td> <p>(Available only for interactive proofs.) Displays comments in order according to the resolution selected when the comment was made. Comments made on higher resolutions display first.</p> <p>For information about changing the resolution in an interactive proof, see&nbsp;<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -278,10 +278,10 @@ When you sort the comment list, the sort option you choose is remembered the nex
 
 ## Edit a comment
 
-You can edit any comment you make on a `proof`. Additionally, the following users&nbsp;can edit comments made by other users:
+You can edit any comment you make on a proof. Additionally, the following users&nbsp;can edit comments made by other users:
 
-* The `proof` Owner
-* The `proof` Creator
+* The proof Owner
+* The proof Creator
 * Users with Supervisor profile permissions
 * Users with a proof role of Author or Moderator
 
@@ -292,7 +292,7 @@ When you edit a comment, the time the comment was made is not affected.
 To edit a comment:
 
 <ol> 
- <li value="1">Open the <span>proof</span> containing the comment that you want to edit.</li> 
+ <li value="1">Open the proof containing the comment that you want to edit.</li> 
  <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
  <li value="3">Hover over the comment you want to edit, click the <span class="bold">More</span> (three dots) icon that appears, then click <span class="bold">Edit</span> in the drop-down menu.</li> 
  <p> <img src="assets/edit-a-comment-more-icon.png" alt="Edit_a_comment-More_icon.png"> </p> 
@@ -306,9 +306,9 @@ To edit a comment:
 
 ## Resolve a comment
 
-If you have the Author or Moderator role on a `proof`, you can resolve a comment after it has been addressed.
+If you have the Author or Moderator role on a proof, you can resolve a comment after it has been addressed.
 
-1. Open the `proof` containing the comment that you want to resolve.
+1. Open the proof containing the comment that you want to resolve.
 1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
 1. Click the check mark icon in the lower-right corner of the comment (to the right of the `Reply` button).
 
@@ -317,9 +317,9 @@ If you have the Author or Moderator role on a `proof`, you can resolve a comment
 
 ## Reopen a resolved comment
 
-If you have the Author or Moderator role on a `proof`, you can re-open a comment that you or another reviewer has resolved.
+If you have the Author or Moderator role on a proof, you can re-open a comment that you or another reviewer has resolved.
 
-1. Open the `proof` containing the comment that you want to reopen.
+1. Open the proof containing the comment that you want to reopen.
 1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
 1. Click the green check mark icon in the lower-right corner of the comment (to the right of the `Reply` button).
 
@@ -328,9 +328,9 @@ If you have the Author or Moderator role on a `proof`, you can re-open a comment
 
 ## About applying an action to a comment
 
-You can use actions to keep track of what needs to happen on each comment thread on a `proof`. An action is simply a word or phrase you select and add to a comment to provide information about what has been done or what still needs to be done in response to the comment.
+You can use actions to keep track of what needs to happen on each comment thread on a proof. An action is simply a word or phrase you select and add to a comment to provide information about what has been done or what still needs to be done in response to the comment.
 
-Your `Workfront administrator` enables and configures your organization's actions to meet the needs of `proof` reviewers in your organization.
+Your Workfront administrator enables and configures your organization's actions to meet the needs of proof reviewers in your organization.
 
 For example, your reviewers may need actions such as "To Do," "Done," and "In Progress":
 
@@ -342,10 +342,10 @@ For more information, see [Use actions on proof comments](../../../review-and-ap
 
 ## Mark all comments as read
 
-As a reviewer of a `proof`, you can quickly mark all comments as Read.
+As a reviewer of a proof, you can quickly mark all comments as Read.
 
 <ol> 
- <li value="1">Open the <span>proof</span> containing the comments you want to mark as Read.</li> 
+ <li value="1">Open the proof containing the comments you want to mark as Read.</li> 
  <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.<br></li> 
  <li value="3">Above the comment list, click the <span class="bold">More</span> (three dots) icon, then click <span class="bold">Mark all as read</span>.</li> 
  <p> <img src="assets/mceclip8-350x173.png" style="width: 350;height: 173;"> </p> 
@@ -359,15 +359,15 @@ It is usually better to resolve a&nbsp;comment rather than delete it. For more i
 
 Additionally, the following users can delete comments or replies made by other users:
 
-* The `proof` Moderator
+* The proof Moderator
 * Users with Supervisor profile permissions
 
-After a comment is deleted, the system logs an entry in the `proof` activity section, showing that the comment was deleted.
+After a comment is deleted, the system logs an&nbsp;entry in the proof activity section, showing that the comment was deleted.
 
 To delete a comment or reply:
 
 <ol> 
- <li value="1">Open the <span>proof</span> containing the comment or reply that you want to delete.</li> 
+ <li value="1">Open the proof containing the comment or reply that you want to delete.</li> 
  <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
  <li value="3"> <p>Select the comment or reply, then click the <span class="bold">More</span> (three dots) icon.<br></p> <p> <img src="assets/phq-viewer-comment-edit.png" alt="phq_viewer_comment_edit.png"> </p> </li> 
  <li value="4">Click <span class="bold">Delete</span> ><span class="bold"> Yes, delete it</span>.</li> 
@@ -375,4 +375,4 @@ To delete a comment or reply:
 
 ## Receive email notifications about comments
 
-The email notifications you receive about comment activity are determined by the option you select in the `Email alerts` menu on the `proof`.&nbsp; For more information, see in [Manage notifications for proof comments and decisions](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md).
+The email notifications you receive about comment activity are determined by the option you select in the `Email alerts`&nbsp;menu on the proof.&nbsp; For more information, see in [Manage notifications for proof comments and decisions](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md).

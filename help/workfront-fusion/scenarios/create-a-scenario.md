@@ -9,7 +9,7 @@ description: The following tasks explain how to create a Adobe Workfront Fusion 
 
 # Create a scenario
 
-The following tasks explain how to create a `Adobe Workfront Fusion` scenario.
+The following tasks explain how to create a Adobe Workfront Fusion scenario.
 
 For a practice exercise that walks you through this process using data that we provide, see [Create a practice integration scenario](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
@@ -26,25 +26,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Begin creating a scenario
 
@@ -68,7 +68,7 @@ You must have the following access to use the functionality in this article:
  <li value="4">Continue on to <a href="#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a>.</li> 
 </ol>
 
-## Connect the module's app or web service to `Workfront Fusion`
+## Connect the module's app or web service to Workfront Fusion
 
 Workfront Fusion modules that connect to an app (such as Workfront, Salesforce, or Jira) feature the Connection field. Here, you can specify the connection that you want this module to use to connect to the app. You can select an existing connection from the dropdown, or create a new connection.
 
@@ -78,7 +78,7 @@ For more information, see [About connecting Adobe Workfront Fusion to an app or 
 
 ![](assets/connection-field-350x169.png)
 
-To create a connection inside a `Workfront Fusion` module:
+To create a connection inside a Workfront Fusion module:
 
 1. Click `Add` to open the `Create a connection` box.
 1. (Optional) Change the default `Connection name`.
@@ -88,7 +88,7 @@ To create a connection inside a `Workfront Fusion` module:
 
 1. Click `Continue`.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
-1. (Conditional) If an `Allow` button displays, examine the actions that the connector will be able to take, then click the button to connect the app to `Workfront Fusion`.
+1. (Conditional) If an `Allow` button displays, examine the actions that the connector will be able to take, then click the button to connect the app to Workfront Fusion.
 
 ## Configure the module
 
@@ -184,7 +184,7 @@ To create a connection inside a `Workfront Fusion` module:
 
 For information about activating a scenario, see [Activate or deactivate a scenario](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-## `Workfront Fusion` scenario keyboard shortcuts
+## Workfront Fusion scenario keyboard shortcuts
 
 You can use the following keyboard shortcuts when creating or editing a scenario:
 

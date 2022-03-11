@@ -10,7 +10,7 @@ description: Updated Resources
 
 `Updated Resources`
 
-The following existing resources have been updated with this release of the `Adobe Workfront` API. To view the resources that are new to version 9 you can visit [What's New in API Version 9](../../wf-api/api/new-api-version-9.md) and [What's New in API Version 9 (continued)](../../wf-api/api/new-api-version-9-continue.md). Changes made to a resource are indicated in the following manner:
+The following existing resources have been updated with this release of the Adobe Workfront API. To view the resources that are new to version 9 you can visit [What's New in API Version 9](../../wf-api/api/new-api-version-9.md) and [What's New in API Version 9 (continued)](../../wf-api/api/new-api-version-9-continue.md). Changes made to a resource are indicated in the following manner:
 
 * Additions are simply listed
 * Removals are indicated with strikethrough text

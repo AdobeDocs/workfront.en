@@ -8,7 +8,7 @@ description: You can configure the following options for agile teams during or a
 
 # Configure Kanban
 
-You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in `Adobe Workfront` as described in&nbsp; [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+You can configure the following options for agile teams during or after the team is created. You create an agile&nbsp;team (Kanban or Scrum) in Adobe Workfront as described in&nbsp; [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Access requirements
 
@@ -21,17 +21,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Configure whether stories are estimated in points or hours
 
@@ -64,7 +64,7 @@ To define the statuses that are available for the story board associated with&nb
  <li value="8"> <p>Select task statuses.</p> <note type="important">
    Only locked system-wide statuses are available to select; you cannot select group-specific statuses. Also, the status of the first column always corresponds to 
    <span class="bold">New</span>.
-  </note> <p>You can add custom statuses if your <span>Workfront administrator</span> has configured them; custom statuses can be configured as described in <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> </li> 
+  </note> <p>You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> </li> 
  <li value="9">Click <span class="bold">Save Changes</span>.</li> 
 </ol>
 
@@ -96,7 +96,7 @@ To configure story cards that are assigned to the agile team to display addition
 
 ## Configure the work in progress (WIP) limit
 
-Kanban in `Workfront` allows you to control the amount of work the team is currently working on by limiting the number of tasks that can appear in the In Progress column on the Kanban board.
+Kanban in Workfront allows you to control the amount of work the team is currently working on by limiting the number of tasks that can appear in the In Progress column on the Kanban board.
 
 When the WIP limit is configured, you can view the WIP limit or even update it from the Kanban agile story board, as described in [Manage the work in progress (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 

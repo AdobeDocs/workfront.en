@@ -6,9 +6,9 @@ title: Copy goals in Adobe Workfront Goals
 description: You can copy goals in Adobe Workfront Goals to create a goal. Some of the original goal information transfers to the new goal.
 ---
 
-# Copy goals in `Adobe Workfront Goals`
+# Copy goals in Adobe Workfront Goals
 
-You can copy goals in  `Adobe Workfront Goals` to create a goal. Some of the original goal information transfers to the new goal.
+You can copy goals in&nbsp;Adobe Workfront Goals to create a goal. Some of the original goal information transfers to the new goal.
 
 ## Access requirements
 
@@ -19,20 +19,20 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -41,7 +41,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -68,8 +68,7 @@ Consider the following when copying goals:
 <ul> 
  <li>All information about the goal, except the goal&nbsp;Period when it is in the past, is also copied to the new goal. </li> 
  <li> <p>You can select to copy the results of an existing goal. The name of the results transfer to the new goal, but the current progress of the results on the existing goal does not copy to the new goal. The copied results are assigned to the same owner, by default. </p> <note type="note">
-   If the original owner was deleted or deactivated from&nbsp;
-   <span>Workfront</span>, the new result is assigned to the logged in user.
+   If the original owner was deleted or deactivated from&nbsp;Workfront, the new result is assigned to the logged in user.
   </note> </li> 
  <li>You cannot copy the activities of a goal when you copy the goal. </li> 
 </ul>
@@ -107,7 +106,7 @@ Consider the following when copying goals:
    <span class="autonumber"><span><b>Tips: </b></span></span> 
    <ul> 
     <li>The progress of the original result does not transfer to the copied goal. </li> 
-    <li>If the original owner was deleted or deactivated from&nbsp;<span>Workfront</span>, the new result is assigned to the logged in user.</li> 
+    <li>If the original owner was deleted or deactivated from&nbsp;Workfront, the new result is assigned to the logged in user.</li> 
    </ul> 
   </div> </li> 
  <li value="5"> <p>Click <span class="bold">Save</span>. </p> <p>The copied goal is saved with a status of Draft and displays in the Goal Details panel. </p> <note type="important"> 
@@ -122,14 +121,14 @@ Consider the following when copying goals:
  <li value="6">Click&nbsp;<span class="bold">Activate</span>. The goal status updates to Active. </li> 
  <li value="7"> <p>Click the <span class="bold">X</span> icon in the upper-right of the Goal Details panel to close it. </p> <p>The new goal displays in the following sections:</p> 
   <ul> 
-   <li><span>Goal List</span> </li> 
-   <li><span>Check-in</span> (after it is activated)</li> 
-   <li><span>Goal Alignment section</span> (after it is activated) </li> 
-   <li><span>Pulse</span> </li> 
+   <li>Goal List </li> 
+   <li>Check-in (after it is activated)</li> 
+   <li>Goal Alignment section (after it is activated) </li> 
+   <li>Pulse </li> 
   </ul> </li> 
  <li value="8">(Optional and conditional) If you have copied a goal that was not achieved in a previous time period to continue working on it in the following time period, do the following:
   <ol>
-   <li value="1"><p>Go to the original goal in the <span>Goal List</span>, <span>Check-in</span> page, or <span>Pulse</span> section and comment on the goal, to indicate that this goal was copied to another, more current goal. For information about commenting on a goal, see <a href="../../workfront-goals/goal-management/manage-goal-comments.md" class="MCXref xref">Manage goal comments in Adobe Workfront Goals</a>.</p></li>
+   <li value="1"><p>Go to the original goal in the Goal List, Check-in page, or Pulse section and comment on the goal, to indicate that this goal was copied to another, more current goal. For information about commenting on a goal, see <a href="../../workfront-goals/goal-management/manage-goal-comments.md" class="MCXref xref">Manage goal comments in Adobe Workfront Goals</a>.</p></li>
    <li value="2">Close the original goal, to preserve the progress in its original time period. For information about closing goals, see <a href="../../workfront-goals/goal-management/close-and-reopen-goals.md" class="MCXref xref">Close and reopen goals in Adobe Workfront Goals</a>. </li>
    <li value="3"><p> Update the <span>the <span class="bold">Initial</span> value</span> of the new Result to match the <span class="bold">End At</span> value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.</p></li>
   </ol></li> 

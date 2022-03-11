@@ -7,18 +7,18 @@ title: Goal alignment overview in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article:
 ---
 
-# Goal alignment overview in `Adobe Workfront Goals`
+# Goal alignment overview in Adobe Workfront Goals
 
 Your organization must have the following to use the functionality described in this article:
 
-* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
-* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
+* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+* An Adobe Workfront Goals license in addition to a Workfront license.
 
-  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
+  Contact your Workfront account manager to learn about a Workfront Goals license.
 
-  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
+  Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
+For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
 Goal alignment is an important part of goal management. You can ensure everyone in your organization is on the same page about what must be achieved to drive strategy forward by aligning their goals to each other and to the organizational goals of teams, groups, and the company.
 
 After the top level goals are established and reviewed, direct reports and team members must then create more focused goals that cascade from the top level. The scope of these goals should be more narrow and should take into consideration the individual who is designated as responsible for the goal and their scope of influence. The goal should answer the question of what they and their team must achieve to fulfill the parent goal to which it is aligned.
@@ -65,15 +65,15 @@ Consider the following when working with children and parent goals:
 
 ## Locate aligned goals
 
-After aligning goals they are part of the same hierarchy and are visible in various areas of `Workfront`:&nbsp;
+After aligning goals they are part of the same hierarchy and are visible in various areas of Workfront:&nbsp;
 
-* You can view children and parent goals in the following areas of `Workfront Goals`:
+* You can view children and parent goals in the following areas of Workfront Goals:
 
   * The Goal&nbsp;Details panel
-  * `Goal List`
-  * `Goal Alignment section`
-  * `Check-in` section
-  * `Pulse` section
+  * Goal List
+  * Goal Alignment section
+  * Check-in section
+  * Pulse section
 
 * You can view all the parent goals of a goal in the Goal Hierarchy field of a Project or Goal report.
 

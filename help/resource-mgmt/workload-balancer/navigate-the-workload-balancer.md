@@ -6,26 +6,25 @@ title: Navigate the Workload Balancer
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Navigate the `Workload Balancer`
+# Navigate the Workload Balancer
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-Use the `Workload Balancer` to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the `Workload Balancer`.
+Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
 
 >[!NOTE]
 >
->The `Workload Balancer` is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated. 
+>The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated. 
 >
->For more information about removing the resource scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about removing the resource scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 >
->We recommend that you use the `Workload Balancer` for scheduling your resources.
+>We recommend that you use the Workload Balancer for scheduling your resources.
 
-The `Workload Balancer` is available in multiple areas of `Adobe Workfront`. Navigating it is similar in all areas. This article describes how to navigate the `Workload Balancer` for multiple projects in the Resourcingarea. For more information about where the `Workload Balancer` is located, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas.&nbsp;This article describes how to navigate the Workload Balancer for multiple projects in the Resourcingarea.&nbsp;For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 Also consider reading the following articles:
 
-* For information about assigning work using the `Workload Balancer`, see ` [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)`. 
-
+* For information about assigning work using the Workload Balancer, see ` [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)`. 
 * For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Access requirements
@@ -37,12 +36,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -52,7 +51,7 @@ You must have the following access to perform the steps in this article:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -61,11 +60,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Considerations for viewing items in the `Workload Balancer`
+## Considerations for viewing items in the Workload Balancer
 
-Consider the following when viewing the `Workload Balancer`:
+Consider the following when viewing the Workload Balancer:
 
 <ul> 
  <li>Projects display in the Workload Balancer only when the Group by Project setting is enabled. This setting is enabled by default.</li> 
@@ -78,9 +77,9 @@ Consider the following when viewing the `Workload Balancer`:
 
 ##  Overview of the Unassigned Work and Assigned Work areas
 
-The `Workload Balancer` displays work items in two separate areas, depending on their assignments.
+The Workload Balancer displays work items in two separate areas, depending on their assignments.
 
-The two areas of the `Workload Balancer` display the following information:
+The two areas of the Workload Balancer display the following information:
 
 <table cellspacing="0"> 
  <col> 
@@ -103,23 +102,23 @@ The two areas of the `Workload Balancer` display the following information:
  </tbody> 
 </table>
 
-For information about applying a filter in the `Workload Balancer`, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+For information about applying a filter in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ![](assets/balancer-empty-unassiged-area-350x179.png)
 
-## Navigate the `Workload Balancer`
+## Navigate the Workload Balancer
 
-You can update the view in the `Workload Balancer` to display exactly the information you need to focus on in the time frame that makes the most sense to you.
+You can update the view in the Workload Balancer to display exactly the information you need to focus on in the time frame that makes the most sense to you.
 
-After selecting the settings you want to apply to your view, the `Workload Balancer` remembers these settings every time you access it from any browser or device.
+After selecting the settings you want to apply to your view, the Workload Balancer remembers these settings every time you access it from any browser or device.
 
 <ol> 
  <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing. </li> 
- <li value="2"> <p> Click Workload Balancer in the left panel.<span></span> </p> <p>You might need to click <span class="bold">Scheduling</span>, then select <span>Workload Balancer</span> in the upper-left corner. </p> 
+ <li value="2"> <p> Click Workload Balancer in the left panel.<span></span> </p> <p>You might need to click <span class="bold">Scheduling</span>, then select Workload Balancer in the upper-left corner. </p> 
   <div> 
-   <p>The <span>Workload Balancer</span> displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the <span>Workload Balancer</span> within their respective timelines. <span>By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.</span></p> Tip: You can change the color of the bars for projects and tasks when you select your color scheme to match the project. For more information, continue reading this procedure. 
+   <p>The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. <span>By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.</span></p> Tip: You can change the color of the bars for projects and tasks when you select your color scheme to match the project. For more information, continue reading this procedure. 
    <div> 
-    <p>The work items that display under the name of users in the <span>Workload Balancer</span> are sorted by the following criteria, in this order: </p> 
+    <p>The work items that display under the name of users in the Workload Balancer are sorted by the following criteria, in this order: </p> 
     <ol> 
      <li value="1">Planned Start Date (oldest first)</li> 
      <li value="2">Planned Completion Date (oldest first)</li> 
@@ -127,7 +126,7 @@ After selecting the settings you want to apply to your view, the `Workload Balan
     </ol> 
    </div> 
   </div> </li> 
- <li value="3"> <p>Click the <span class="bold">Filter icon</span> <img src="assets/filter-icon.png"> in the upper-right corner of the <span class="bold">Unassigned Work</span> or the <span class="bold">Assigned Work</span> areas to select the type of information to display in the Workload Balancer.</p> <p>For information about filtering information in the <span>Workload Balancer</span>, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>. </p> </li> 
+ <li value="3"> <p>Click the <span class="bold">Filter icon</span> <img src="assets/filter-icon.png"> in the upper-right corner of the <span class="bold">Unassigned Work</span> or the <span class="bold">Assigned Work</span> areas to select the type of information to display in the Workload Balancer.</p> <p>For information about filtering information in the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>. </p> </li> 
  <li value="4"> <p>Click the right-pointing arrow next to <span class="bold">Unassigned Work</span> to expand this area or the down-pointing arrow to collapse it. </p> <note type="tip">
    No items display in this area by default. You must apply a filter to view unassigned work items.
   </note> </li> 
@@ -137,7 +136,7 @@ After selecting the settings you want to apply to your view, the `Workload Balan
   <div class="tips" data-mc-autonum="<b>Tips: </b>">
    <span class="autonumber"><span><b>Tips: </b></span></span> 
    <ul> 
-    <li> <p>When you view the <span>Workload Balancer</span> on smaller screens the time frame drop-down menu is replaced by the calendar icon <img src="assets/calendar-icon-wb.png">. </p> </li> 
+    <li> <p>When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon <img src="assets/calendar-icon-wb.png">. </p> </li> 
     <li> <p>A dual calendar displays only when you select to view 12 weeks at a time. </p> </li> 
    </ul> 
   </div> </li> 
@@ -165,8 +164,8 @@ After selecting the settings you want to apply to your view, the `Workload Balan
     <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
      <span class="autonumber"><span><b>Tip: </b></span></span> 
      <ul> 
-      <li> <p><span>When you display the <span>Workload Balancer</span> by month, the option for 12 weeks becomes 3 months.</span> </p> <p> <img src="assets/3-months-12-weeks-drop-down-wb-350x140.png" class="preview" style="width: 350;height: 140;"> </p> </li> 
-      <li> <p><span>When you display the <span>Workload Balancer</span> by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.</span> </p> </li> 
+      <li> <p><span>When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.</span> </p> <p> <img src="assets/3-months-12-weeks-drop-down-wb-350x140.png" class="preview" style="width: 350;height: 140;"> </p> </li> 
+      <li> <p><span>When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.</span> </p> </li> 
      </ul> 
     </div> </li> 
   </ul> </li> 
@@ -178,7 +177,7 @@ After selecting the settings you want to apply to your view, the `Workload Balan
    <ul> 
     <li>The Show allocations setting only affects what displays for projects, tasks, <span>issues</span> and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.</li> 
     <li>You must enable the Group by Project setting to display daily Planned Hours for projects. </li> 
-    <li>When you view the <span>Workload Balancer</span> by week, the hours displayed are the weekly Planned Hours. </li> 
+    <li>When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours. </li> 
    </ul> 
   </div> <p>Days that show overallocations display in red. </p> </li> 
  <li value="14"> <p>(Optional) Hover over the allocated time in the user line to understand what the capacity and allocation of the user. The capacity is the availability of the user according to their schedule. </p> <p> <img src="assets/overallocation-vs-capacity-tooltip-wb-nwe.png"> </p> </li> 
@@ -193,16 +192,15 @@ After selecting the settings you want to apply to your view, the `Workload Balan
       <li><span>In Windows: CTRL+click the task or issue bar.</span></li>
       <li><span>In&nbsp;Mac: CMD+click the task or issue bar.</span></li>
      </ul>
-    </div><p>For more information about assigning work items to users in the <span>Workload Balancer</span>, see <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Overview of assigning work in the Adobe Workfront Workload Balancer</a>. </p></li>
+    </div><p>For more information about assigning work items to users in the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Overview of assigning work in the Adobe Workfront Workload Balancer</a>. </p></li>
    <li><span class="bold">Edit allocations</span>, then edit the daily or weekly allocations for the user. For information about managing user allocations, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>. </li>
   </ul></li> Click the Open Summary icon , then click the bar of a task or issue to open the Summary panel. For information about updating task information in the Summary in the Workload Balancer, see Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience. Tip: This option is available for tasks in the Unassigned Work area and for tasks and issues in the Assigned Work area. This is not available for projects or users. Click Bulk Assignments to assign work items in bulk. For more information, see Assign work in bulk using the Adobe Workfront Workload Balancer. 
  <li value="19">(Optional) Double-click a daily or weekly allocation for a user inside the bar of a work item to edit the number of allocated hours. For information about managing user allocations, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>. </li> 
  <li value="20">Click the name of a work item on the left to access it. </li> 
- <li value="21"> <p>Click the <span class="bold">Shareable link icon</span> <img src="assets/wb-shearable-link-icon-small.png"> to copy the direct URL for the <span>Workload Balancer</span> to your clipboard. </p> </li> 
- <li value="22"> <p>(Optional) Share the link with any user who does not have direct access to the <span>Workload Balancer</span>.</p> <p>For information about sharing the <span>Workload Balancer</span> with a link, see <a href="../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md" class="MCXref xref">Share the Workload Balancer with a link</a>. </p> </li> 
- <li value="23"> <p>(Conditional) From the <span>Workload Balancer</span> of a project, click the <span class="bold">Show role allocations</span> icon <img src="assets/show-role-allocation-icon.png">. </p> <p>The Role Allocation panel displays. You can view information about Planned Hours associated with job roles on the project and job roles associated with initiatives from the <span>Scenario Planner</span>. For more information, see <a href="../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md" class="MCXref xref">Overview of reconciling resource allocations between projects and initiatives </a>. </p> <note type="tip">
-   You cannot view initiative job role information if your organization has not purchased a license for the 
-   <span>Workfront Scenario Planner</span>. In this case, you can only view the planned hours associated with job roles on the project. For more information, see 
+ <li value="21"> <p>Click the <span class="bold">Shareable link icon</span> <img src="assets/wb-shearable-link-icon-small.png"> to copy the direct URL for the Workload Balancer to your clipboard. </p> </li> 
+ <li value="22"> <p>(Optional) Share the link with any user who does not have direct access to the Workload Balancer.</p> <p>For information about sharing the Workload Balancer with a link, see <a href="../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md" class="MCXref xref">Share the Workload Balancer with a link</a>. </p> </li> 
+ <li value="23"> <p>(Conditional) From the Workload Balancer of a project, click the <span class="bold">Show role allocations</span> icon <img src="assets/show-role-allocation-icon.png">. </p> <p>The Role Allocation panel displays. You can view information about Planned Hours associated with job roles on the project and job roles associated with initiatives from the Scenario Planner. For more information, see <a href="../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md" class="MCXref xref">Overview of reconciling resource allocations between projects and initiatives </a>. </p> <note type="tip">
+   You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see 
    <a href="../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. 
   </note> </li> 
  <li value="24"> (Optional) Select Scheduling from the drop-down menu in the upper-left corner to access the scheduling area. </li> 

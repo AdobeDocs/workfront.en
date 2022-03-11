@@ -8,17 +8,17 @@ title: Workfront Fusion release activity: Week of May 17, 2021
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of May 17, 2021.
 ---
 
-# `Workfront Fusion` release activity:&nbsp;Week of May 17, 2021
+# Workfront Fusion release activity:&nbsp;Week of May 17, 2021
 
-This page describes all enhancements made in `Adobe Workfront Fusion` the week of `May 17, 2021`.
+This page describes all enhancements made in Adobe Workfront Fusion the week of May 17, 2021.
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-For a list of recent bug fixes in `Workfront Fusion`, see the [ `Workfront` Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled `Workfront Fusion` Maintenance Update.
+For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled Workfront Fusion Maintenance Update.
 
 ## Copy modules in Workfront Fusion scenarios
 
-To make your `Workfront Fusion` Scenarios easier to work with, we've made it possible to copy and paste modules. Now, you can copy a module or group of modules and paste them into the same or a different scenario. Copying modules preserves the field values in that module.
+To make your Workfront Fusion Scenarios easier to work with, we've made it possible to copy and paste modules. Now, you can copy a module or group of modules and paste them into the same or a different scenario. Copying modules preserves the field values in that module.
 
 For more information, see [Copy modules or scenarios](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
 

@@ -1,12 +1,12 @@
 
 
-# Learn about the latest improvements in `Adobe Workfront One`
+# Learn about the latest improvements in Adobe Workfront One
 
 <!--
 Beginning on July 14, 2020,
 -->
 
-We recently made various improvements to `Adobe Workfront One`. These improvements affect search, navigation, and your experience in documentation articles.
+We recently made various improvements to Adobe Workfront One. These improvements affect search, navigation, and your experience in documentation articles.
 
 ## Search improvements
 
@@ -43,7 +43,7 @@ Or are you only interested in results pertaining to Workfront Fusion? Select tha
 
 ### A single search result for Workfront Classic and New Workfront Experience articles
 
-If your organization is using the new Workfront experience, click the article title in the search results area to see `the new Adobe Workfront experience` version of the article.
+If your organization is using the new Workfront experience, click the article title in the search results area to see the new Adobe Workfront experience version of the article.
 
 ![](assets/combined2-350x153.png)
 
@@ -98,9 +98,9 @@ Breadcrumbs
 * [Create PDFs of articles](#create) 
 * [Share articles](#share)
 
-### Switch between `Adobe Workfront Classic` and `the new Adobe Workfront experience` articles
+### Switch between Adobe Workfront Classic and the new Adobe Workfront experience articles
 
-Now when you're viewing a `Adobe Workfront Classic` article, you can easily switch to `the new Adobe Workfront experience` version of the article (or vice-versa).
+Now when you're viewing a Adobe Workfront Classic article, you can easily switch to the new Adobe Workfront experience version of the article (or vice-versa).
 
 <ol> 
  <li value="1"> <p>At the top of any article, click the <span class="bold">Currently viewing</span> drop-down menu to switch to the other version of the article, if one is available.</p> <p> <img src="assets/switch-version-350x179.png" style="width: 350;height: 179;"> </p> </li> 

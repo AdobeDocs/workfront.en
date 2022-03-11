@@ -6,7 +6,7 @@ This page describes all Mobile enhancements coming with the 21.1 release. These 
 
 For a list of all changes available with the 21.1 release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-## New navigation breadcrumbs in the `Adobe Workfront` app
+## New navigation breadcrumbs in the Adobe Workfront app
 
 We've added breadcrumb navigation to the Workfront mobile app. Now, you can use this feature to navigate to parent work items within a project.
 

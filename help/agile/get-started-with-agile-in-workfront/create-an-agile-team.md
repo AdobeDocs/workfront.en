@@ -8,11 +8,11 @@ description: Adobe Workfront enables agile teams to complete work in an incremen
 
 # Create an agile team
 
-`Adobe Workfront` enables agile teams to complete work in an incremental, organized way.
+Adobe Workfront enables agile teams to complete work in an incremental, organized way.
 
 Any user in the organization can see the agile team and view all agile components for the team, including the backlog, iterations, story board, and individual stories. However, only members of the team with Edit access to work can make changes to work assigned to the team.
 
-`Workfront` supports the following agile methodologies:
+Workfront supports the following agile methodologies:
 
 * `Scrum`: Teams have a backlog of work that needs to be done. When the team is ready to work on a specific chunk of work, the work is moved from the backlog to an iteration. For more detailed information about managing a Scrum team, see [Scrum in an agile team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
@@ -29,29 +29,29 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> to create a new agile team; <span>Work</span> or higher to convert a team to an agile team</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan to create a new agile team; Work or higher to convert a team to an agile team</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Decide on an agile methodology
 
 You can use either a Scrum or Kanban agile methodology for your agile team. Each methodology provides various benefits. The way your agile team works determines the agile methodology you choose to use.
 
-Both Scrum and Kanban agile methodologies in `Workfront` allow you to move stories across a story board to indicate a status change and progress of the story.
+Both Scrum and Kanban agile methodologies in Workfront allow you to move stories across a story board to indicate a status change and progress of the story.
 
-Scrum and Kanban agile methodologies in `Workfront` differ in the following ways:
+Scrum and Kanban agile methodologies in Workfront differ in the following ways:
 
-### Benefits of using Kanban in `Workfront`
+### Benefits of using Kanban in Workfront
 
-The Kanban agile methodology in `Workfront` enables you to more easily move stories across an agile story board while limiting the amount of work in progress. There are no start and end dates when using the Kanban agile methodology.
+The Kanban agile methodology in Workfront enables you to more easily move stories across an agile story board while limiting the amount of work in progress. There are no start and end dates when using the Kanban agile methodology.
 
 The following functionality supports this methodology:
 
@@ -64,9 +64,9 @@ The following functionality supports this methodology:
 * Configure a Work In Progress (WIP) limit to be displayed on the Kanban agile story board.  
   For more information, see [Manage the work in progress (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
-### Benefits of using Scrum in `Workfront`
+### Benefits of using Scrum in Workfront
 
-The Scrum agile methodology in `Workfront` enables you to add a set of stories to an agile iteration and create a story board for that iteration. The iteration is based on the start and end dates that you define.
+The Scrum agile methodology in Workfront enables you to add a set of stories to an agile iteration and create a story board for that iteration. The iteration is based on the start and end dates that you define.
 
 The following functionality supports this methodology:
 

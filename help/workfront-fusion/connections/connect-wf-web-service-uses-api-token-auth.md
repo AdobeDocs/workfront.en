@@ -7,13 +7,13 @@ title: Connect Adobe Workfront Fusion to a web service that uses API token autho
 description: Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
 ---
 
-# Connect `Adobe Workfront Fusion` to a web service that uses API token authorization
+# Connect Adobe Workfront Fusion to a web service that uses API token authorization
 
-Some services do not allow integration solutions such as `Adobe Workfront Fusion` to create an app that you can easily use in your scenario.
+Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
 
-There is a workaround to this situation. You can connect the desired service (app) to `Workfront Fusion` using `Workfront Fusion`'s HTTP module.
+There is a workaround to this situation. You can connect the desired service (app) to Workfront Fusion using Workfront Fusion's HTTP module.
 
-This article explains how to connect almost any web service to `Workfront Fusion` using an API Key/API token.
+This article explains how to connect almost any web service to Workfront Fusion using an API Key/API token.
 
 ## Access requirements
 
@@ -24,25 +24,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Connect to a web service that uses an API token
 
@@ -50,7 +50,7 @@ The procedure of connecting the service via an API token is similar for most web
 
 1. Create an application on the web service's website, as explained in the section [Create a new application and obtain the API token](#create) in this article.
 1. Obtain the API Key or API token.
-1. Add `Workfront Fusion`'s HTTP > Make a Request module to your scenario.
+1. Add Workfront Fusion's HTTP > Make a Request module to your scenario.
 1. Set up the module according to the web service's API documentation and running the scenario, as explained in the section [Set up the HTTP module](#set) in this article.
 
 >[!NOTE]
@@ -68,15 +68,15 @@ The procedure of connecting the service via an API token is similar for most web
 1. Log in to your Pushover account.
 1. Click `Create an Application/API Token` at the bottom of the page.
 1. Fill in the Application Information and click `Create an Application`.
-1. Store the provided API token in a safe place. You will need it for the `Workfront Fusion` HTTP > Make a Request module to connect to the desired web service (Pushover, in this case).
+1. Store the provided API token in a safe place. You will need it for the Workfront Fusion HTTP > Make a Request module to connect to the desired web service (Pushover, in this case).
 
 ## Set up the HTTP module
 
-To connect a web service to your `Workfront Fusion` scenario, you need to use the HTTP > Make a request module in the scenario and set up the module according to the web service's API&nbsp;documentation.
+To connect a web service to your Workfront Fusion scenario, you need to use the HTTP > Make a request module in the scenario and set up the module according to the web service's API&nbsp;documentation.
 
 <ol> 
  <li value="1"> <p>Add the HTTP > Make a Request module to your scenario.</p> </li> 
- <li value="2"> <p>To push a message using <span>Workfront Fusion</span>, set up the HTTP module as follows.</p> <note type="note">
+ <li value="2"> <p>To push a message using Workfront Fusion, set up the HTTP module as follows.</p> <note type="note">
    These module settings correspond to the Pushover web service API documentation. Settings may be different for other web services. For example, the API token may be inserted to the Header and not to the Body field.
   </note> 
   <table cellspacing="0"> 

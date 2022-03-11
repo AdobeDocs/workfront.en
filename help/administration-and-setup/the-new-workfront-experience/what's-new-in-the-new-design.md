@@ -1,8 +1,8 @@
 
 
-# New `Adobe Workfront` experience release activity
+# New Adobe Workfront experience release activity
 
-Following are some key enhancements made in `the new Adobe Workfront experience`, many of which are based on your feedback. This list does not include all bug fixes and enhancements.
+Following are some key enhancements made in the new Adobe Workfront experience, many of which are based on your feedback. This list does not include all bug fixes and enhancements.
 
 <!--
 Future
@@ -72,7 +72,7 @@ For more information, see [Summary overview in the new Adobe Workfront experienc
 
 ### Areas removed from the Users page
 
-The Users page is now available in `the new Adobe Workfront experience`.
+The Users page is now available in the new Adobe Workfront experience.
 
 The following tabs have been removed from the Users page:
 

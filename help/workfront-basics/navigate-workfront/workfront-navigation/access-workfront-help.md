@@ -5,7 +5,7 @@ title: Access Adobe Workfront help
 description: Workfront offers a wide variety of content to help you find answers to questions you might have concerning functionality within the various products offered by Workfront.
 ---
 
-# Access `Adobe Workfront` help
+# Access Adobe Workfront help
 
 Workfront offers a wide variety of content to help you find answers to questions you might have concerning functionality within the various products offered by Workfront.
 
@@ -20,19 +20,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Access the `Adobe Workfront` help site
+## Access the Adobe Workfront help site
 
 1. Go to the [Adobe Workfront One site](https://one.workfront.com/).
 

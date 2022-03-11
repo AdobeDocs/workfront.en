@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,16 +40,16 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Define how to calculate EAC
 
-As part of project system preferences, the `Adobe Workfront administrator` can define how&nbsp;to calculate the EAC. EAC can be calculated in one of the following two ways:
+As part of project system preferences, the Adobe Workfront administrator can define how&nbsp;to calculate the EAC. EAC can be calculated in one of the following two ways:
 
 * [Calculate at the project level](#calculate-at-project-level) 
 * [Roll up from tasks and subtasks](#roll-up-from-tasks-subtasks)
 
-For more information about setting up project preferences in `Workfront`, including how to calculate the Estimate at Completion, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+For more information about setting up project preferences in Workfront, including how to calculate the Estimate at Completion, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 As a project manager, you can also change this preference at the project level, in the Finance sub-tab of the project. For more information about editing the Finance sub-tab of a project, see [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
@@ -63,7 +63,7 @@ EAC for the parent task and project are determined by summing up the EAC for eac
 
 ## How to calculate EAC based on the Performance Index Method (PIM)
 
-In `Workfront`, the calculation for EAC depends on the selected&nbsp;Performance Index Method (PIM)&nbsp;of the project. For more information about setting the PIM for your system or for your project, see [Set the Performance Index Method (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+In Workfront, the calculation for EAC depends on the selected&nbsp;Performance Index Method (PIM)&nbsp;of the project. For more information about setting the PIM for your system or for your project, see [Set the Performance Index Method (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 * [Calculate EAC using Hour-based PIM](#hour-based-pim) 
 * [Calculate EAC using Cost-based PIM](#cost-based-pim)

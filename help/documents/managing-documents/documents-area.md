@@ -9,15 +9,15 @@ description: In the Documents area, you can organize, manage, and view metadata 
 
 # The Documents area
 
-In the Documents area, you can organize, manage, and view metadata for documents uploaded to `Adobe Workfront`. You can also see the proof decision.
+In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.
 
 There are two types of Documents areas. Features and functionality are the same for both:
 
 * `Documents area in a project, task, or issue:` Lists all documents that you have access to for a particular project, task, or issue. To access this area, click Documents in the left panel while viewing a project, task, or issue.
 
-* `Global Documents area:` Lists all documents that you have access to in `Workfront`. To access this area, click Documents in the Main Menu.
+* `Global Documents area:` Lists all documents that you have access to&nbsp;in Workfront. To access this area, click Documents in the Main Menu.
 
-For information about uploading documents to `Workfront`, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+For information about uploading documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ##  Summary panel
 

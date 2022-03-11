@@ -7,7 +7,7 @@ title: Portfolio overview in Adobe Workfront
 description: A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
 ---
 
-# Portfolio overview in `Adobe Workfront`
+# Portfolio overview in Adobe Workfront
 
 A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
 
@@ -21,9 +21,9 @@ For information about permissions to Portfolios, see [Share a portfolio in Adobe
 
 For information about using Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-## `Adobe Workfront` portfolio methodology
+## Adobe Workfront portfolio methodology
 
-In `Workfront`, you can add projects to portfolios to create and organize your portfolios.
+In Workfront, you can add projects to portfolios to create and organize your portfolios.
 
 We recommend that you follow these steps for an efficient organization of your portfolios:
 

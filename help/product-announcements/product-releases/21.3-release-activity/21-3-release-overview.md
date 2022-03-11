@@ -9,7 +9,7 @@ description: This page provides information about functionality for both Adobe W
 
 # 21.3 Release overview
 
-This page provides information about functionality for both `Adobe Workfront Classic` and `the new Adobe Workfront experience` that is included in the 21.3 release
+This page provides information about functionality for both Adobe Workfront Classic and the new Adobe Workfront experience that is included in the 21.3 release
 
 <!--
 to help you unlock productivity and collaboration
@@ -43,7 +43,7 @@ were made available in the Production environment the week of June 21, 2021
 For specific release dates and times for each cluster, see the Workfront Status Site.
 -->
 
-## `Adobe Workfront` enhancements
+## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administ) 
 * [Project enhancements](#project) 
@@ -132,7 +132,7 @@ For specific release dates and times for each cluster, see the Workfront Status 
 
 &nbsp;
 
-## `Workfront` `Scenario Planner` enhancements
+## Workfront Scenario Planner enhancements
 
 <!--
 There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.
@@ -140,17 +140,17 @@ There are no Scenario Planner updates at this point in the release. This area wi
 
 New features are coming to Workfront Scenario Planner release with the 21.3 release. For information about these new features now available in Preview, see [Adobe Workfront Scenario Planner with the 21.3 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md).
 
-## `Workfront Fusion` enhancements
+## Workfront Fusion enhancements
 
-New features in `Workfront Fusion` are available in Production at a cadence outside of the 21.3 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the 21.3 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-## `Workfront Proof` enhancements
+## Workfront Proof enhancements
 
-New features in `Workfront Proof` are now available. For more information, see [Workfront Proof release activity: Week of May 17, 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
+New features in Workfront Proof are now available. For more information, see [Workfront Proof release activity: Week of May 17, 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
 
-## `Workfront Goals` enhancements
+## Workfront Goals enhancements
 
-There are no `Workfront Goals` updates at this point in the release. This area will be updated when updates are available.
+There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
 
 <!--
 Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see Adobe Workfront Goals with the 21.2 release.
@@ -181,7 +181,7 @@ For information on what's new and updated, see [What's new in API version 13](..
 
 ## 21.3 Release Webinar
 
-The `Workfront` 21.3 Release Webinar was presented on June 16, 2021. You can view the recording [here](https://webinars.on24.com/workfront/213Release?partnerref=WFAC).
+The Workfront 21.3 Release Webinar was presented on June 16, 2021. You can view the recording [here](https://webinars.on24.com/workfront/213Release?partnerref=WFAC).
 
 <!--
 Functionality being removed from Production Feature rollback: Carry over the existing proof workflow when generating a new version Due to customer feedback, Workfront is removing this change from Preview environments on March 30, 2021 and from Production environments on March 31, 2021. On March 11, 2021, Workfront released a change to existing proof workflows in both Workfront Classic and the new Workfront experience. The change allowed for an existing workflow to carry over to any new proof versions created by a user, regardless of the method used to generate them. In the new Workfront experience after this change is removed, proofs created with the Simple proof selection will not include any preset proofing settings, and new versions will not carry over existing workflows or proof settings. A user can adjust settings after proof generation. In Workfront Classic after this change is removed, the option to Generate Proof will not include any preset proofing settings, and new versions will not carry over existing workflows or proof settings. A user can adjust settings after proof generation. Similar functionality to easily copy existing workflows might be added to Production at a future time.

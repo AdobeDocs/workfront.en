@@ -13,7 +13,7 @@ The highlighted information on this page refers to functionality not yet general
 
 The Planned Hours associated with a task, issue, or project represent the amount of time required for the assigned users to complete the task, issue, or project.
 
-You must define the value of Planned Hours for tasks and issues if you want to use the Resource Management tools in `Adobe Workfront`.
+You must define the value of Planned Hours for tasks and issues if you want to use the Resource Management tools in Adobe Workfront.
 
 You can modify the value of Planned Hours on tasks, depending on the Duration Type of the tasks. For more information about modifying Planned Hours on tasks in relation to the Duration Type of the tasks, see [Update task Planned Hours based on Duration Type](#planned-hours-and-duration-type).
 
@@ -33,9 +33,8 @@ The following scenarios exist:
 
   For more information about the Simple Duration Type, see [Duration Type overview: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
-* You can update task Planned Hours only for Simple Duration Type tasks in the `Workload Balancer` when you manage users' allocations to tasks. For information about managing user allocations in the `Workload Balancer`, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
-
-* You cannot modify Planned Hours for tasks with a Duration Type of Effort Driven or Calculated Work. In these cases, `Workfront` determines Planned Hours based on task's Duration; however, in this case the Planned Hours are always equal to the Duration (in hours) and they are not impacted by the percent allocation of the assigned resources.
+* You can update task Planned Hours only for Simple Duration Type tasks in the Workload Balancer when you manage users' allocations to tasks. For information about managing user allocations in the Workload Balancer, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* You cannot modify Planned Hours for tasks with a Duration Type of Effort Driven or Calculated Work. In these cases, Workfront determines Planned Hours based on task's Duration; however, in this case the Planned Hours are always equal to the Duration (in hours) and they are not impacted by the percent allocation of the assigned resources.
 
   For more information about the Effort Driven Duration Type, see [Duration Type overview: Effort Driven](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
@@ -47,7 +46,7 @@ You can update Planned Hours for tasks when you manually update the user or job 
 
 For more information, see [Duration Type overview: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
-You can update either the overall allocation of the users and roles assigned to the task, or the user daily allocations when using the `Workload Balancer`.
+You can update either the overall allocation of the users and roles assigned to the task, or the user daily allocations when using the Workload Balancer.
 
 For information about managing overall user and job role allocations for tasks, see [Manage allocation hours on tasks](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
@@ -62,26 +61,26 @@ The following scenarios exist when manually updating user or job role allocation
 
 ` `**Example: **`` For example, if a task has 10 Planned Hours and you have two assignees, they are each allocated 5 hours each, by default.
 
-* If you don't update the individual user allocation or the daily allocations using the `Workload Balancer` and you remove one of the assignees from the task, the task Planned Hours remain 10 hours. 
+* If you don't update the individual user allocation or the daily allocations using the Workload Balancer and you remove one of the assignees from the task, the task Planned Hours remain 10 hours. 
 * If you manually change the assignments' allocations to 4 and 6 hours, respectively, and you remove the user allocated to 6 hours as well as their job role, the task Planned Hours updates to 4 hours. The 6 hours allocated to the user are also removed. If you also remove the user that is allocated to 4 hours, the Planned Hours of the task remain 4 hours. If you later remove the last user who is allocated to 4 hours as well as their job role and the task remains unassigned, the task Planned Hours remain 4 hours.
 
 &nbsp;
 
-## Update task Planned Hours automatically using `Work Effort`
+## Update task Planned Hours automatically using Work Effort
 
-When you use `Work Effort` to estimate the effort needed for a task to complete, the amount of Planned Hours for the tasks updates automatically. This is possible only for tasks with a Simple Duration&nbsp;Type.
+When you use Work Effort to estimate the effort needed for a task to complete, the amount of Planned Hours for the tasks updates automatically. This is possible only for tasks with a Simple Duration&nbsp;Type.
 
-For information about using `Work Effort` to estimate task effort, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
+For information about using Work Effort to estimate task effort, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 
 ## Distribution of Planned Hours across the Duration of a task
 
-By default, `Workfront` distributes the Planned Hours evenly across the Duration of a task, allocating an equal number of Planned Hours for each day of the task, according to the availability of the project schedule.
+By default, Workfront distributes the Planned Hours evenly across the Duration of a task, allocating an equal number of Planned Hours for each day of the task, according to the availability of the project schedule.
 
-For example, if a task is set to start at 4 PM and the schedule has one hour left in the first day of the task, `Workfront` puts one Planned Hour in the first day of the task Duration, then divides the remainder of the Planned Hours equally between the rest of the days in the task Duration.
+For example, if a task is set to start at 4 PM and the schedule has one hour left in the first day of the task, Workfront puts one Planned Hour in the first day of the task Duration, then divides the remainder of the Planned Hours equally between the rest of the days in the task Duration.
 
 >[!NOTE]
 >
->The Planned Hours per Day is the allocation of Planned Hours for each day during the Duration of the task. If the task has one assignment, then this number represents the Planned Hours per Day per assignment, as well. If the task has multiple assignments, the Planned Hours per Day per assignment is different than the Planned Hours per Day for the task. There is no visual representation in `Workfront` for the Planned Hours per Day per assignment, for tasks with multiple assignments.
+>The Planned Hours per Day is the allocation of Planned Hours for each day during the Duration of the task. If the task has one assignment, then this number represents the Planned Hours per Day per assignment, as well. If the task has multiple assignments, the Planned Hours per Day per assignment is different than the Planned Hours per Day for the task. There is no visual representation in Workfront for the Planned Hours per Day per assignment, for tasks with multiple assignments.
 
 ## Planned Hours on tasks vs. Planned Hours on projects
 
@@ -125,16 +124,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Tasks, Projects, or Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Tasks, Projects, or Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -143,7 +142,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 Planned Hours in the Details section Finding the Planned Hours in the Details sectionis identical for tasks, issues, and projects.
 
 To locate the Planned Hours value on the Details section of a task:
@@ -198,5 +197,5 @@ You can see the value of Planned Hours for your tasks, issues, or projects when 
 
   For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
-* **Role Allocation panel** in the project task list or `Workload Balancer`: The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role are taken into account in this area. For more information, see [View project Planned Hours in the Role Allocation panel](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
+* **Role Allocation panel** in the project task list or Workload Balancer: The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role are taken into account in this area. For more information, see [View project Planned Hours in the Role Allocation panel](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 

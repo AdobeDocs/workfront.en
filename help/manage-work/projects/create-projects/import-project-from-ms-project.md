@@ -8,13 +8,13 @@ description: You can import projects from Microsoft Project into Adobe Workfront
 
 # Import a project from Microsoft Project
 
-You can import projects from Microsoft Project into `Adobe Workfront` and manage all your projects in one application. Every time you import a project from Microsoft Project, a new project is created in `Workfront`.
+You can import projects from Microsoft Project into Adobe Workfront and manage all your projects in one application. Every time you import a project from Microsoft Project, a new project is created in Workfront.
 
 >[!IMPORTANT]
 >
->Not all Microsoft Project fields are transferred to `Workfront`. 
+>Not all Microsoft Project fields are transferred to Workfront. 
 >
->For more information about the compatibility of fields between `Workfront` and Microsoft Project, see [Map Microsoft Project fields to Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>For more information about the compatibility of fields between Workfront and Microsoft Project, see [Map Microsoft Project fields to Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 
 ## Access requirements
 
@@ -25,16 +25,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,16 +43,16 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create a project from a MS&nbsp;Project
 
 You can create a project from the Projects area in theMain Menu, or from the Projects area of a portfolio or a program.
 
 <ol> 
- <li value="1">Go to Microsoft Project and open a project that you want to import from in <span>Workfront</span>. </li> 
+ <li value="1">Go to Microsoft Project and open a project that you want to import from in Workfront. </li> 
  <li value="2">Click <span class="bold">File</span>, then <span class="bold">Save As</span> to save the project as an .xml file. </li> 
- <li value="3">Log in to <span>Workfront</span>. </li> 
+ <li value="3">Log in to Workfront. </li> 
  <li value="4"> <p>Do one of the following:</p> 
   <ul> 
    <li> <p> Click the Main Menu, click Projects, then expand New Project. </p> </li> 
@@ -61,11 +61,10 @@ You can create a project from the Projects area in theMain Menu, or from the Pro
   </ul> </li> 
  <li value="5"> <p>Choose the <span class="bold">Import MS Project</span> option. </p> <p>  </p> </li> 
  <li value="6">Click <span class="bold">Select File</span>, then browse for the .xml file on your computer which you exported from Microsoft Project. </li> 
- <li value="7"> <p>Import the selected file.</p> <p><span>Workfront</span> begins the import process and creates a new project based on the file exported from Microsoft Project.<br></p> <p>After the import process is complete, you are directed to the new project page that displays a confirmation that the import has completed successfully.</p> <note type="note">
-   <span>Workfront</span> has a 15-minute time limitation on file uploads. If the file upload takes longer than that, we recommend that you break out your project into smaller projects and import them separately. Once they have been imported into 
-   <span>Workfront</span>, move the tasks from one project to the other project to combine them into one project. For information on moving tasks, see 
+ <li value="7"> <p>Import the selected file.</p> <p>Workfront begins the import process and creates a new project based on the file exported from Microsoft Project.<br></p> <p>After the import process is complete, you are directed to the new project page that displays a confirmation that the import has completed successfully.</p> <note type="note">
+   Workfront has a 15-minute time limitation on file uploads. If the file upload takes longer than that, we recommend that you break out your project into smaller projects and import them separately. Once they have been imported into Workfront, move the tasks from one project to the other project to combine them into one project. For information on moving tasks, see 
    <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">Move tasks</a>.
   </note> </li> 
- <li value="8"> <p>(Optional) Continue editing the project in <span>Workfront</span>. For information about editing projects, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> <p>The status of a new project created from a template corresponds with the status defined by your <span>Workfront administrator</span> in the Project Preferences area or by a <span>group administrator</span> <span>in the Group Project Preferences area.</span> For information about configuring project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
+ <li value="8"> <p>(Optional) Continue editing the project in Workfront. For information about editing projects, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> <p>The status of a new project created from a template corresponds with the status defined by your Workfront administrator in the Project Preferences area or by a group administrator <span>in the Group Project Preferences area.</span> For information about configuring project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
 </ol>
 

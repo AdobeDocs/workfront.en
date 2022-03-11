@@ -8,7 +8,7 @@ description: Adobe Workfront released API version 13 on April 22, 2021. API vers
 
 # What's new in API version 13
 
-`Adobe Workfront` released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
+Adobe Workfront released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
 
 ## Added resources
 
@@ -216,9 +216,9 @@ The JournalEntry resource added the flag REPORTABLE.
 
 ### LayoutTemplate
 
-`Adobe Workfront administrators` or `group administrators` can create templates to customize the layout elements in `Adobe Workfront`. The LayoutTemplate object is specific to `Adobe Workfront` Classic.
+Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. The LayoutTemplate object is specific to Adobe Workfront Classic.
 
-For the object that represents layout templates in `the new Adobe Workfront experience`, see [UITemplate](#uitempla)
+For the object that represents layout templates in the new Adobe Workfront experience, see [UITemplate](#uitempla)
 
 <table cellspacing="15">   
  <tbody> 
@@ -416,9 +416,9 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
 
 ### UITemplate
 
-`Adobe Workfront administrators` or `group administrators` can create templates to customize the layout elements in `Adobe Workfront`. The LayoutTemplate object is specific to `the new Adobe Workfront experience`.
+Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. The LayoutTemplate object is specific to the new Adobe Workfront experience.
 
-For the object that represents layout templates in `Adobe Workfront Classic`, see [LayoutTemplate](#layoutte).
+For the object that represents layout templates in Adobe Workfront Classic, see [LayoutTemplate](#layoutte).
 
 <table cellspacing="0"> 
  <col> 

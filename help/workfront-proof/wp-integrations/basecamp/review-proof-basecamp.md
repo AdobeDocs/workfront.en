@@ -11,34 +11,31 @@ description: The Basecamp integration with Workfront Proof makes it easy for you
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-The Basecamp integration with `Workfront Proof` makes it easy for you to review and approve `proofs` without leaving Basecamp.
+The Basecamp integration with Workfront Proof makes it easy for you to review and approve proofs without leaving Basecamp.
 
-You don't even need a `Workfront Proof` login to use all of the review tools to make comments and decisions on `proofs`:
+You don't even need a Workfront Proof login to use all of the review tools to make comments and decisions on proofs:
 
-* In your Basecamp account, you'll receive a message which includes the `proof` for you to review (via the mini `proof`)
-
-* You can add comments, markups and make decisions on the mini `proof` or switch to the full-page `proof` for review if you prefer
-
+* In your Basecamp account, you'll receive a message which includes the proof for you to review (via the miniproof)
+* You can add comments, markups and make decisions on the miniproof or switch to the full-page proof for review if you prefer
 * You can see and respond to the comments and markups of the other reviewers
 
 For information about decisions, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
 >
->If you are not a user of `Workfront Proof`, you can still work on the `proof` in Basecamp. All you need to do is enter your email address and screen name. You can also choose to "remember me" so you only need to enter these details once.
+>&nbsp;If you are not a user of Workfront Proof, you can still work on the proof in Basecamp. All you need to do is enter your email address and screen name. You can also choose to "remember me" so you only need to enter these details once.
 
 ## Viewing the Proof via the Notification Email
 
-If you link a new or existing `proof` to Basecamp, `Workfront Proof` will send a `proof` notification email to all reviewers containing:
+If you link a new or existing proof to Basecamp, Workfront Proof will send a proof notification email to all reviewers containing:
 
-* The `proof` message (custom or standard) (1)
+* The proof message (custom or standard) (1)
 * Proof details (2)
 * Personal URL (Go to Proof link) (3)
-* Link to the Basecamp project message to take you straight to the `proof` in Basecamp (4)  
-  If non-Basecamp reviewers have been added to the `proof`, their email notification will not include the Basecamp link.
-
+* Link to the Basecamp project message to take you straight to the proof in Basecamp (4)  
+  If non-Basecamp reviewers have been added to the proof, their email notification will not include the Basecamp link.
 * Proof progress (5)
 * Reviewers and their individual progress (6)
 
@@ -50,29 +47,29 @@ If you link a new or existing `proof` to Basecamp, `Workfront Proof` will send a
 
 ## Viewing the Proof via the Basecamp Message
 
-When you receive an email notification about a new `proof` added to your Basecamp project:
+When you receive an email notification about a new proof added to your Basecamp project:
 
 <ol> 
  <ol> 
   <li value="1">Go to your project page (1).</li> 
-  <li value="2">Find the message for your <span>proof</span> (2).<br>The message page contains the name of the <span>proof</span> (in the subject) (3) and a&nbsp;link to the full screen Proof Viewer (4).</li> 
+  <li value="2">Find the message for your proof (2).<br>The message page contains the name of the proof (in the subject) (3) and a&nbsp;link to the full screen Proof Viewer (4).</li> 
   <p> <img src="assets/basecamp-messages-1-350x129.png" alt="Basecamp_messages_1.png" style="width: 350;height: 129;"> </p> 
-  <p>If you are logged in to your <span>Workfront Proof</span> account in one of your browsers windows, you can start reviewing right away. If you cannot see your name in bottom left corner of mini<span>proof</span>:</p> 
+  <p>If you are logged in to your Workfront Proof account in one of your browsers windows, you can start reviewing right away. If you cannot see your name in bottom left corner of miniproof:</p> 
   <li value="3">Click <span class="bold">Sign In</span> (5).</li> 
-  <li value="4">Type your email address (which was used to add you to the <span>proof</span>) (6).</li> 
-  <li value="5">Click <span class="bold">Next</span> and in a second box that appears, type your <span>Workfront Proof</span> password (7).<br>If you don't have a <span>Workfront Proof</span> account, type a public name to display.</li> 
-  <li value="6">Click <span class="bold">Remember me</span> so you only have to input your details once.<br>Now you're ready to proceed with reviewing the <span>proof</span> in Basecamp.</li> 
+  <li value="4">Type your email address (which was used to add you to the proof) (6).</li> 
+  <li value="5">Click <span class="bold">Next</span> and in a second box that appears, type your Workfront Proof password (7).<br>If you don't have a Workfront Proof account, type a public name to display.</li> 
+  <li value="6">Click <span class="bold">Remember me</span> so you only have to input your details once.<br>Now you're ready to proceed with reviewing the proof in Basecamp.</li> 
  </ol> 
 </ol>
 
 ## Reviewing a Proof in Basecamp
 
-Reviewing a `proof` in Basecamp is as easy as doing so in `Workfront Proof`. The mini `proof` in Basecamp provides you with all the tools you need to add comments, mark-ups and make decisions on the `proof`.
+Reviewing a proof in Basecamp is as easy as doing so in Workfront Proof. The miniproof in Basecamp provides you with all the tools you need to add comments, mark-ups and make decisions on the proof.
 
 ![Basecamp_message_window_with_miniproof.png](assets/basecamp-message-window-with-miniproof-350x406.png)
 
 * Your Basecamp project name (1)
-* The `Workfront Proof` email notification subject (2)
+* The Workfront Proof email notification subject (2)
 * Direct link to the full Proof Viewer (opens a full window view) (3)
 * Proof name and version (4)
 * Action menus (5)
@@ -83,19 +80,19 @@ Reviewing a `proof` in Basecamp is as easy as doing so in `Workfront Proof`. The
 * Zoom tools (10)
 * Page navigation tools (11)
 
-There is no need to send a response to the Basecamp message, as the comments and decisions will be saved on the `proof` (as they are when reviewing a `proof` within `Workfront Proof`).
+There is no need to send a response to the Basecamp message, as the comments and decisions will be saved on the proof (as they are when reviewing a proof within Workfront Proof).
 
 ## Reviewing the Full-Page Proof&nbsp;
 
-You can display the full-page `proof` with all of the `Workfront Proof` normal functionality by clicking either the link in the message just above the mini `proof` or the fullscreen icon in the top right corner of the mini `proof`.
+You can display the full-page proof with all of the Workfront Proof normal functionality by clicking either the link in the message just above the miniproof or the fullscreen icon in the top right corner of the miniproof.
 
-The `proof` image is still the original size, but the page itself is wider than the mini `proof` page.
+The proof image is still the original size, but the page itself is wider than the miniproof page.
 
-The full-page `proof` shows:
+The full-page proof shows:
 
-* The Add comments and Submit decision buttons (rather than the comments and decision icons shown on the mini `proof`) (1).
-* More zooming and navigation tools than the mini `proof` (2).
-* The Go to Basecamp button in the top left corner of the `proof`. Clicking this will take you back into your Basecamp account (3).
+* The Add comments and Submit decision buttons (rather than the comments and decision icons shown on the miniproof) (1).
+* More zooming and navigation tools than the miniproof (2).
+* The Go to Basecamp button in the top left corner of the proof. Clicking this will take you back into your Basecamp account (3).
 
 ![ProofHQ_full_screen_view.png](assets/proofhq-full-screen-view-350x217.png)
 

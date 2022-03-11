@@ -7,7 +7,7 @@ title: Manage your Adobe Workfront account
 description: This section contains the following articles:
 ---
 
-# Manage your `Adobe Workfront` account
+# Manage your Adobe Workfront account
 
 This section contains the following articles:
 

@@ -8,9 +8,9 @@ title: Organizations in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-# Organizations in `Adobe Workfront Fusion`
+# Organizations in Adobe Workfront Fusion
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 This section contains the following articles:
 
 * [Adobe Workfront Fusion organizations and teams](../../workfront-fusion/organizations/organizations-and-teams.md) 

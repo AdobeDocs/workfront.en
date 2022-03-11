@@ -10,7 +10,7 @@ description: Defining a Work Breakdown Structure (WBS) for a project is a set of
 
 Defining a Work Breakdown Structure (WBS) for a project is a set of activities that ultimately outlines the project plan. The WBS divides the outcome of the project into manageable work elements, which can be used to define milestones and organize work assignments.
 
-You must have a Plan license with Edit access to Projects to build the Work Breakdown Structure of a project. Additional access to other areas of `Adobe Workfront` might be needed, depending on how many activities you perform while building the WBS.
+You must have a Plan license with Edit access to Projects to build the Work Breakdown Structure of a project. Additional access to other areas of Adobe Workfront might be needed, depending on how many activities you perform while building the WBS.
 
 We recommend that you keep the project in a Planning status while you make changes to the Work Breakdown Structure, to avoid notifications to trigger to users on the Project Team.
 
@@ -38,7 +38,7 @@ Once you identify your deliverables, you can begin to break them down into tasks
 
 As you define tasks, ensure that you don't plan too much work for one individual task. If the work required on a task is more than 40 hours (a typical week of work), then you might need to break down that amount of work in subtasks. The completion of all subtasks will then complete the main task.
 
-To define WBS outcomes and deliverables in `Workfront`, we recommend you perform the following activities to create a hierarchical view of project tasks:
+To define WBS outcomes and deliverables in Workfront, we recommend you perform the following activities to create a hierarchical view of project tasks:
 
 * If you have not already done so, create a new project.  
   For information about creating a project, see the article [Create a project](../../../manage-work/projects/create-projects/create-project.md).
@@ -77,12 +77,12 @@ Consider the following:
 
 ## Assign tasks
 
-After you have defined the duration and constraints of each task, you can determine who has the time and skills to accomplish the work. You can assign tasks to the following entities in `Workfront`:
+After you have defined the duration and constraints of each task, you can determine who has the time and skills to accomplish the work. You can assign tasks to the following entities in Workfront:
 
 * Users  
   Only users with a Planner or Worker access level can be assigned to tasks. Although you can assign tasks to Requestors and Reviewers, they cannot complete them. For this reason, we do not recommend assigning them tasks.
 
-  For information about the access levels and how they define what users can do with `Workfront` objects, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+  For information about the access levels and how they define what users can do with Workfront objects, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 * Job Roles
 * Teams
@@ -91,7 +91,7 @@ For information about assigning tasks, see the articles in the [Assign tasks](..
 
 ## Manage resources
 
-Resource Managing in `Workfront` allows you to determine whether there is adequate staff to complete the project. When users are added to a project, `Workfront` shows the utilization of each user. Resource Managers can see the total number of hours the person is assigned to other projects during the time frame of the project.
+Resource Managing in Workfront allows you to determine whether there is adequate staff to complete the project. When users are added to a project, Workfront shows the utilization of each user. Resource Managers can see the total number of hours the person is assigned to other projects during the time frame of the project.
 
 >[!NOTE]
 >
@@ -105,13 +105,13 @@ For information about scheduling your resources, see the articles in the [Resour
 
 ## Estimate project finances
 
-`Workfront` will calculate the planned costs for each task and the overall costs for a project. Planned costs for a task include all expenses of the task plus the cost of the employee or role assigned to the task. Hourly rates for the task, role, and employee are assigned during task, role, and user creation.
+Workfront will calculate the planned costs for each task and the overall costs for a project. Planned costs for a task include all expenses of the task plus the cost of the employee or role assigned to the task. Hourly rates for the task, role, and employee are assigned during task, role, and user creation.
 
 For information about project finances, see the section [Project finances](../../../manage-work/projects/project-finances/project-finances-overview.md) .
 
 ## Determine approval points for the project
 
-By creating Approval Processes in `Workfront`, you can establish review points for the project in order to monitor progress and potential problem areas. Through the approval process Project Owners can discern which tasks are late and early, view audit trails that list who changed a task status, and see histories of issues, including how issues were resolved and when they were closed. Upon reviewing a project, Project Owners can determine what steps to take and update the project plan, if necessary.
+By creating Approval Processes in Workfront, you can establish review points for the project in order to monitor progress and potential problem areas. Through the approval process Project Owners can discern which tasks are late and early, view audit trails that list who changed a task status, and see histories of issues, including how issues were resolved and when they were closed. Upon reviewing a project, Project Owners can determine what steps to take and update the project plan, if necessary.
 
 For information about approvals, see the article [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
 

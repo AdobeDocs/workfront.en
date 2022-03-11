@@ -15,11 +15,11 @@ A user who is designated as the `Project Owner` of a project and has `Manage` pe
 
 ## Cause
 
-The `Adobe Workfront administrator` restricted the user to viewing only Companies, Groups & Teams they belong to in the Access Level of the user. The team that the user is looking for is not one of their own teams.
+The Adobe Workfront administrator restricted the user to viewing only Companies, Groups & Teams they belong to in the Access Level of the user. The team that the user is looking for is not one of their own teams.
 
 ## Solution
 
-As a `Workfront administrator`, do the following:
+As a Workfront administrator, do the following:
 
 <ol> 
  <li value="1">Find the user and click to access it.</li> 

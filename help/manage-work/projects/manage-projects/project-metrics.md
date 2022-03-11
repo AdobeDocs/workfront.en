@@ -12,23 +12,23 @@ description: To access the Metrics area from the left panel of a project, you mu
 
 >[!NOTE]
 >
->To access the `Metrics` area from the left panel of a project, you must:
+>To access the Metrics area from the left panel of a project, you must:
 >
->* Be enrolled in `the new Adobe Workfront experience`.  
->  To learn how an `Adobe Workfront administrator` or `group administrator` can enroll you in `the new Adobe Workfront experience`, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
+>* Be enrolled in the new Adobe Workfront experience.  
+>  To learn how an Adobe Workfront administrator or group administrator can enroll you in the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 >
 >* Have View access to a project.  
 >  To learn how to request access to an object, see [Request access to objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 >
->* Have the Left panel option `Metrics` enabled in the Projects area of your Layout template.  
->  To learn how a `Workfront administrator` or `group administrator` can customize the left panel with a Layout Template, see [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).  
+>* Have the Left panel option Metrics enabled in the Projects area of your Layout template.  
+>  To learn how a Workfront administrator or group administrator can customize the left panel with a Layout Template, see [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).  
 >
 
 Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project.
 
 ![](assets/project-metrics-full-screen-350x238.png)
 
-In the `Metrics` area, you can see the overall health of a project, as well as:
+In the Metrics area, you can see the overall health of a project, as well as:
 
 * Where work is active or stalled
 * Who has open work items assigned to them
@@ -40,12 +40,12 @@ To learn more about looking at these tasks or issues, see [View Metrics details]
 
 >[!TIP]
 >
->To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the `Enhanced analytics` area.  
->To learn more about `Enhanced analytics`, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Project KPIs
 
-Key performance indicators (KPIs) display at the top of the `Metrics` area.
+Key performance indicators (KPIs) display at the top of the Metrics area.
 
 ![](assets/project-metrics-kpis-350x52.png)
 
@@ -119,13 +119,13 @@ You can choose to look at task assignments for a project in the following catego
 >![](assets/completed-tasks-dialog-350x75.png)  
 >For more information, see [View Metrics details](#view).
 
-## View `Metrics` details
+## View Metrics details
 
-You can interact with the charts in the `Metrics` area to look at different aspects of a chart or look more closely at the tasks and issues within a chart.
+You can interact with the charts in the Metrics area to look at different aspects of a chart or look more closely at the tasks and issues within a chart.
 
 <ol> 
  <li value="1"> <p>Go to the project you want to see metrics for.</p> </li> 
- <li value="2">In the left panel, click <span class="bold">Show More</span> to display more sections, then click <span class="bold"><span>Metrics</span></span>.<br>The charts in the <span>Metrics</span> area display information for tasks by default.<br><img src="assets/metrics-section-350x298.png" style="width: 350;height: 298;"></li> 
+ <li value="2">In the left panel, click <span class="bold">Show More</span> to display more sections, then click <span class="bold">Metrics</span>.<br>The charts in the Metrics area display information for tasks by default.<br><img src="assets/metrics-section-350x298.png" style="width: 350;height: 298;"></li> 
  <li value="3">(Conditional) If a drop-down arrow displays on a chart, click the <span class="bold">Drop-down arrow</span> icon <img src="assets/dropdown-arrow.png"> on the chart and select the option you want from the menu.<br>For information on the options that appear in the menus on each chart, see the relevant section above.</li> 
  <li value="4"> <p>(Optional) To look more closely at tasks or issues for any metric on the page, do the following:</p> 
   <ol> 

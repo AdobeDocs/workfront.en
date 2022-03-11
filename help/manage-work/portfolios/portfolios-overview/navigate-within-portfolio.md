@@ -8,7 +8,7 @@ description: In Adobe Workfront, a portfolio represents a collection of projects
 
 # Navigate within a portfolio
 
-In `Adobe Workfront`, a portfolio represents a collection of projects that compete for the same resources, budget, schedule, and priority. The primary purpose of the portfolio is to assist executives and project&nbsp;managers in selecting to work on projects that provide the most benefit to an organization.
+In Adobe Workfront, a portfolio represents a collection of projects that compete for the same resources, budget, schedule, and priority. The primary purpose of the portfolio is to assist executives and project&nbsp;managers in selecting to work on projects that provide the most benefit to an organization.
 
 For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,12 +39,12 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Navigate within a portfolio
 
 <ol> 
- <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.</li> 
+ <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
  <li style="font-weight: bold;" value="2"> Click Portfolios.</li> 
  <li value="3"> From the Filter drop-down menu, select the following: 
   <ul> 
@@ -71,9 +71,7 @@ You must have the following access to perform the steps in this article:
  <li value="6"> Click Programs in the left panel to create Programs within the portfolio or manage existing ones.<br>For information about programs, see the <a href="../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Create and manage programs </a> section.</li> 
  <li value="7">(Optional) Expand the Portfolio Details area in the left panel, then click Overview or Custom Forms to edit information about the portfolio.</li> 
  <li value="8"> <p>(Optional) Click Portfolio Optimization in the left panel to optimize the performance of the portfolio.</p> <note type="important">
-   Your company must have a 
-   <span>Business</span> or higher 
-   <span>Workfront</span> plan to have access to the Portfolio Optimizer.
+   Your company must have a Business or higher Workfront plan to have access to the Portfolio Optimizer.
   </note> <p>For information about using the Portfolio Optimizer, see the <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Manage projects in the Portfolio Optimizer</a> section.&nbsp;</p> </li> 
  <li value="9">(Optional) Click Documents in the left panel to attach documents to the portfolio.</li> 
  <li value="10">(Optional) &nbsp;Click Updates in the left panel to add comments to the update stream of the portfolio.</li> 

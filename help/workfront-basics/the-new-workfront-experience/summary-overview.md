@@ -6,7 +6,7 @@ title: Summary overview in the new Adobe Workfront experience
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Summary overview in `the new Adobe Workfront experience`
+# Summary overview in the new Adobe Workfront experience
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
@@ -18,7 +18,7 @@ The Summary allows you to interact with important work item information from the
 
 -->
 
-You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of `Adobe Workfront` that display tasks and issues.
+You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
 
 The following table displays the areas where you can locate and use the Summary panel: 
 
@@ -35,7 +35,7 @@ The following table displays the areas where you can locate and use the Summary 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Tasks in the Unassigned and Assigned Work areas of the <span>Workload Balancer</span></td> 
+   <td>Tasks in the Unassigned and Assigned Work areas of the Workload Balancer</td> 
   </tr> Issues Issue lists within a Project Task Subtask Issues in the Assigned Work area of the Workload Balancer Issues in the Submitted section of the Requests area Documents Documents area Documents section of any object (project, task, issue, program, portfolio, template, template task, user) 
  </tbody> 
 </table>
@@ -46,7 +46,7 @@ Workfront administrators can customize the Summary in the Layout Template. For m
 
 This article describes how to access and use the Summary panel for tasks and issues.
 
-For information about accessing the Summary in the `Workload Balancer`, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+For information about accessing the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 For information about accessing the Summary for documents, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
@@ -59,16 +59,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Tasks, Issues, Documents</p> <p>View or higher access to any objects for which you want to view documents' Summary</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Tasks, Issues, Documents</p> <p>View or higher access to any objects for which you want to view documents' Summary</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -77,7 +77,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## View the Summary panel in a list of tasks or issues
 

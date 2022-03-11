@@ -11,7 +11,7 @@ description: The Planned Completion Date of a task is the date by which the task
 
 The Planned Completion Date of a task is the date by which the task is set to complete. 
 
-You can either specify the Planned Completion Date of a task, or you can leave it up to `Adobe Workfront` to calculate it depending on certain criteria.&nbsp;
+You can either specify the Planned Completion Date of a task, or you can leave it up to Adobe Workfront to calculate it depending on certain criteria.&nbsp;
 
 The Planned Completion Dates of tasks on a project determine the Planned Completion&nbsp;Date of a project when the project is scheduled from&nbsp;Start&nbsp;Date.&nbsp;For more information about the project Planned Completion Date, see [Set the project Planned Completion Date](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
@@ -24,7 +24,7 @@ The Planned Completion Dates of tasks on a project determine the Planned Complet
 >  * [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) 
 >  * [Interactions between the Commit Date and the Planned Completion Date](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
 >
->* The Projected Completion Date is a date calculated by `Workfront` and takes into account task delays, timelines of the task or their predecessors , and other factors to determine a real-life date for when the task can be realistically completed. For more information, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+>* The Projected Completion Date is a date calculated by Workfront and takes into account task delays, timelines of the task or their predecessors , and other factors to determine a real-life date for when the task can be realistically completed. For more information, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 >
 
 ## Manually set the Planned Completion Date of a task
@@ -33,7 +33,7 @@ You must have Edit access to Tasks and Manage permissions on the task to be able
 
 Setting the Planned Completion Date of a task depends on the type of Task Constraint you assign to the task.&nbsp;
 
-You can manually set the Planned Completion Date in the following areas of `Workfront`:
+You can manually set the Planned Completion Date&nbsp;in the following areas of Workfront:
 
 * In the Edit Task box, when creating or editing a task.&nbsp;For information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * In the Task&nbsp;Details area. For information, see [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
@@ -66,7 +66,7 @@ You can manually specify the Planned Completion Date when you select any of the 
  </tbody> 
 </table>
 
-## How `Workfront` automatically calculates the Planned Completion Date for a task
+## How Workfront automatically calculates the Planned Completion Date for a task
 
 When it is calculated automatically by the system, the following can influence the Planned Completion Date of a Task:
 

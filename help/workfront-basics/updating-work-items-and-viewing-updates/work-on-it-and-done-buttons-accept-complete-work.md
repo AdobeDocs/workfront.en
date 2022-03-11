@@ -11,11 +11,11 @@ description: When you are assigned to a task or issue, you can use a contextual 
 
 When you are assigned to a task or issue, you can use a contextual button that changes names and function depending on your involvement with the work item.
 
-Using the contextual button to accept or complete work items, you can let `Adobe Workfront` update several fields on the items without having to manually update them yourself.
+Using the contextual button to accept or complete work items, you can let Adobe Workfront update several fields on the items without having to manually update them yourself.
 
 ## Work on&nbsp;it and Done button names
 
-Depending what area of `Workfront` you access your task or issue from, the Work On&nbsp;It or Done button can change names, as described in the following scenarios:&nbsp;
+Depending what area of Workfront you access your task or issue from, the Work On&nbsp;It or Done button can change names, as described in the following scenarios:&nbsp;
 
 <ul> 
  <li> <p>When the task or issue is first assigned to you and the status is New, the button displays as Work on it.</p> <p>  </p> <note type="tip">
@@ -23,13 +23,13 @@ Depending what area of `Workfront` you access your task or issue from, the Work 
    <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>
    <span>. </span> 
   </note> </li> 
- <li> <p>After you have clicked Work On It accept, the button changes to Mark as done or Done , depending on where in&nbsp;<span>Workfront</span> you access the task or the issue from. For information about where you can access the Work On It button, see the section <a href="#locate" class="MCXref xref">Locate the Work On&nbsp;It and&nbsp;Done button</a> in this article. </p> <p>  </p> </li> 
+ <li> <p>After you have clicked Work On It accept, the button changes to Mark as done or Done , depending on where in&nbsp;Workfront you access the task or the issue from. For information about where you can access the Work On It button, see the section <a href="#locate" class="MCXref xref">Locate the Work On&nbsp;It and&nbsp;Done button</a> in this article. </p> <p>  </p> </li> 
  <li> <p> <span>If you are not the only one assigned to the task or issue and you are accessing your work item from the Work List in the Home area, the button changes to Done with my part.</span></p> <p> <img src="assets/home-left-done-with-my-part-button-350x184.png" style="width: 350;height: 184;"> </p> </li> 
 </ul>
 
 ## Locate the Work On&nbsp;It and&nbsp;Done button
 
-You can locate the Work On it and Done button in the following areas of `Workfront`:
+You can locate the Work On&nbsp;it and Done button in the following areas of Workfront:
 
 * The Home area, both in the Work List or the details panel
 
@@ -37,7 +37,7 @@ You can locate the Work On it and Done button in the following areas of `Workfro
 
 ## Overview of fields that automatically update when you click the Work On It and Done button
 
-The benefit of using the Work On It and Done buttons is that you can allow `Workfront` to automatically update information on the work item assigned to you.
+The benefit of using the Work On It and Done buttons is that you can allow Workfront to automatically update information on the work item assigned to you.
 
 * [Work On It button](#work) 
 * [Start button](#start) 

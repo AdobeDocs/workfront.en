@@ -7,23 +7,23 @@ title: Proof Roles overview
 description: Proof roles allow you to grant permissions on individual proofs. Proof roles are different from Proof permission profiles. For more information about Proof Permission Profiles, see Proof Permission Profile overview.
 ---
 
-# `Proof` Roles overview
+# Proof Roles overview
 
-Proof roles allow you to grant permissions on individual `proofs`. Proof roles are different from Proof permission profiles. For more information about Proof Permission Profiles, see [Proof Permission Profile overview](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+Proof roles allow you to grant permissions on individual proofs. Proof roles are different from Proof permission profiles. For more information about Proof Permission Profiles, see [Proof Permission Profile overview](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
 
 ## Proof Roles
 
-`Proof` roles are granted to users for an individual `proof` at the time the user is invited to review the `proof`. If you have a Workfront Pro+ plan, you can grant proofing roles to users with a `Work` or `Plan` license. If you have a Workfront Premium Legacy plan, you can grant proofing roles to users with a designated proofing license. For more information, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+Proof roles are granted to users for an individual proof at the time the user is invited to review the proof. If you have a Workfront Pro+ plan, you can grant proofing roles to users with a Work or Plan license. If you have a Workfront Premium Legacy plan, you can grant proofing roles to users with a designated proofing license. For more information, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 >[!NOTE]
 >
 >Users on new Workfront plans can grant author or moderator roles to any users in the system. Users on legacy plans can grant author or moderator roles to any user with a proof license in the system.
 
-The `proof` role defines what actions a reviewer can take in relation to that specific `proof`.
+The proof role defines what actions a reviewer can take in relation to that specific proof.
 
-` `**Example: **``If you are assigned the Reviewer role, you are being asked to review the `proof` by adding markups and comments, but you do not have the option to approve or deny the proof.
+` `**Example: **``If you are assigned the Reviewer role, you are being asked to review the proof by adding markups and comments, but you do not have the option to approve or deny the proof.
 
-Certain `proof` roles give a reviewer edit rights on the `proof` (even if their account profile doesn't) and lets them use some additional features like adding actions on comments, creating new versions, and adding more reviewers to the `proof`.
+Certain proof roles give a reviewer edit rights on the proof (even if their account profile doesn't) and lets them use some additional features like adding actions on comments, creating new versions, and adding more reviewers to the proof.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -43,7 +43,7 @@ Certain `proof` roles give a reviewer edit rights on the `proof` (even if their 
  <thead> 
   <tr> 
    <th> <p>&nbsp;</p> </th> 
-   <th> <p><span class="bold">View a <span>proof</span></span> </p> </th> 
+   <th> <p><span class="bold">View a proof</span> </p> </th> 
    <th> <p><span class="bold">Add markups</span> </p> </th> 
    <th> <p><span class="bold">Add comments</span> </p> </th> 
    <th> <p><span class="bold">Edit own comments if there are no replies</span> </p> </th> 
@@ -51,8 +51,8 @@ Certain `proof` roles give a reviewer edit rights on the `proof` (even if their 
    <th> <p><span class="bold">Delete comments made by others</span> </p> </th> 
    <th>Resolve comments</th> 
    <th>Apply Actions to Comments</th> 
-   <th> <p><span class="bold">Edit the <span>proof</span></span> </p> </th> 
-   <th>Share the <span>proof</span> with others</th> 
+   <th> <p><span class="bold">Edit the proof</span> </p> </th> 
+   <th>Share the proof with others</th> 
    <th>Create new version</th> 
    <th> <p><span class="bold">View approval requests in the Home area</span> </p> </th> 
    <th>Add new reviewers</th> 

@@ -11,22 +11,22 @@ description: Resource Planning in Workfront allows you to accurately allocate yo
 
 >[!IMPORTANT]
 >
->You can access Legacy Resource Planning tools only when using `Adobe Workfront Classic`. This article refers to differences between Legacy Resource Planning and Planning tools when using `Adobe Workfront Classic`.  The Legacy Resource Planning functionality is deprecated and it will be removed from `Adobe Workfront`.&nbsp;  
+>You can access Legacy&nbsp;Resource Planning tools only when using Adobe Workfront Classic. This article refers to differences between Legacy Resource Planning and Planning tools when using Adobe Workfront Classic. &nbsp;The Legacy Resource Planning functionality is deprecated and it will be removed from Adobe Workfront.&nbsp;  
 >For more information about Legacy Resource Planning, see the&nbsp;Legacy Resource Planning&nbsp;section.&nbsp;  
->For information about planning resources in `the new Adobe Workfront experience`, see [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>For information about planning resources in the new Adobe Workfront experience, see [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-## Overview of resource planning in  `Adobe Workfront`
+## Overview of resource planning in&nbsp;Adobe Workfront
 
-Resource Planning in `Workfront` allows you to accurately allocate your resources based on their availability to projects in order of their priority. When planning your resources, you are performing a high-level allocation&nbsp;of resources, which distributes them&nbsp;to the projects you are currently working on. To specifically assign resources to work items (issues and tasks), use the Resource Scheduling tools.   
+Resource Planning in Workfront allows you to accurately allocate your resources based on their availability to projects in order of their priority. When planning your resources, you are performing a high-level allocation&nbsp;of resources, which distributes them&nbsp;to the projects you are currently working on. To specifically assign resources to work items (issues and tasks), use the Resource Scheduling tools.   
 For more information about scheduling resources, see the [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) section.&nbsp;
 
-As a Resource Manager, you can manage your resources in `Workfront` by leveraging two distinct areas of functionality.
+As a Resource Manager, you can manage your resources in Workfront by leveraging two distinct areas of functionality.
 
 >[!NOTE]
 >
 >&nbsp;These two types of resource planning tools&nbsp;do not communicate with one another and they must&nbsp;be configured&nbsp;separately.&nbsp;:
 
-You can manage your resources by using the following areas of `Workfront`:
+You can manage your resources by using the following areas of Workfront:
 
 * `Planning` (recommended): you can add users to Resource Pools, add Resource Pools to your projects, and manage all allocations (for job roles as well as users) in the `Resource Planner`.  
   For more information about planning resources, see the&nbsp; [Resource Planning](../../resource-mgmt/resource-planning/resource-planning-overview.md)&nbsp;section.&nbsp; 
@@ -35,15 +35,14 @@ You can manage your resources by using the following areas of `Workfront`:
 
 ## Access the Legacy Resource Planning and the Planning areas
 
-1. (Conditional) In `Adobe Workfront Classic`, go to the `People` area in the Global Navigation Bar.
-
+1. (Conditional) In Adobe Workfront Classic, go to the `People` area in the Global Navigation Bar.
 1. (Recommended) Select the  `Planning` tab for configuring the current resource planning&nbsp;tools.
 
    Or
 
    Select the `Legacy Resource Planning` tab for configuring the legacy resource planning&nbsp;tools.
 
-   This is only possible when using `Adobe Workfront Classic`.
+   This is only possible when using Adobe Workfront Classic.
 
    You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.
 
@@ -53,7 +52,7 @@ You can manage your resources by using the following areas of `Workfront`:
 
 ## Overview of the Planning tab
 
-We recommend that you leverage the functionality in the `Planning` tab in the `People` area of `Workfront` for managing the allocation of your resources to projects.
+We recommend that you leverage the functionality in the `Planning` tab in the `People` area of Workfront for managing the allocation of your resources to projects.
 
 To use the tools available when planning your resources, you must add users to  `Resource Pools` and use the `Resource Planner` to manage your resources across your projects.
 
@@ -71,7 +70,7 @@ For a complete list of the prerequisites that must be met before you can start u
 
 >[!IMPORTANT]
 >
->The functionality available in this area is deprecated and it will be removed from `Workfront` in 2018. If you have been using the functionality in this area, we encourage you to configure the current functionality for resource management, available in the `Planning` tab in the `People` area.  
+>The functionality available in this area is deprecated and it will be removed from Workfront in 2018. If you have been using the functionality in this area, we encourage you to configure the current functionality for resource management, available in the `Planning` tab in the `People` area.  
 >For more information about understanding Legacy Resource Planning, see *"Understanding Legacy Resource Planning."*
 
 You can manage your resources in the following ways by using the tools in the Legacy Resource Planning tab:

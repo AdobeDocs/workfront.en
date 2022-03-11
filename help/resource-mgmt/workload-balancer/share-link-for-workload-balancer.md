@@ -6,9 +6,9 @@ title: Share the Workload Balancer with a link
 description: You can share the Workload Balancer with other users who might not have the Resourcing area available to them. For information about using the Workload Balancer, see Navigate the Workload Balancer.
 ---
 
-# Share the `Workload Balancer` with a link
+# Share the Workload Balancer with a link
 
-You can share the `Workload Balancer` with other users who might not have the Resourcing area available to them. For information about using the `Workload Balancer`, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+You can share the Workload Balancer with other users who might not have the Resourcing area available to them. For information about using the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Access requirements
 
@@ -19,12 +19,12 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -34,7 +34,7 @@ You must have the following:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,24 +43,22 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Information included in the `Workload Balancer` when viewing it from a shared link
+## Information included in the Workload Balancer when viewing it from a shared link
 
-When you share a link to the `Workload Balancer` with other users, the following information is included with the shared link:
+When you share a link to the Workload Balancer with other users, the following information is included with the shared link:
 
 <ul> 
  <li>The Assigned Work area of the Workload Balancer. </li> 
  <li>Project, task, user information. This includes the user allocation information. </li> 
  <li> <p>The information displays according to the selected filter.</p> <note type="important">
-   If you delete the filters after you shared the link, the users viewing the 
-   <span>Workload Balancer</span> from the link receive a warning that the filters were deleted. They view all users in the Assigned Work area. This is the default view for the 
-   <span>Workload Balancer</span>. 
+   If you delete the filters after you shared the link, the users viewing the Workload Balancer from the link receive a warning that the filters were deleted. They view all users in the Assigned Work area. This is the default view for the Workload Balancer. 
   </note> </li> 
  <li>The number of weeks previously selected. </li> 
 </ul>
 
-The following options are available to the user viewing the `Workload Balancer` from a shared link to update themselves:
+The following options are available to the user viewing the Workload Balancer from a shared link to update themselves:
 
 * The following timeline selections:
 
@@ -76,42 +74,38 @@ The following options are available to the user viewing the `Workload Balancer` 
 
 * The Show role allocations icon
 
-  This is available only for the `Workload Balancer` of a project.
+  This is available only for the Workload Balancer of a project.
 
-The user who receives the shared link cannot do the following in the `Workload Balancer` from this link:
+The user who receives the shared link cannot do the following in the Workload Balancer from this link:
 
 * Assign work items to users
 * Manage user allocations
 * Build new or update originally applied filters
 
-## Access needed to view information in the `Workload Balancer` from a shared link
+## Access needed to view information in the Workload Balancer from a shared link
 
-You need the following access to view information in the `Workload Balancer` from a shared link:
+You need the following access to view information in the Workload Balancer from a shared link:
 
-* A valid `Adobe Workfront` license and you must be logged in to `Workfront`. 
-
+* A valid Adobe Workfront license and you must be logged in to Workfront. 
 * At least&nbsp;View access to Resource Management in your Access Level. For information about granting Resource Management access, see [Grant access to Resource Management](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md). 
-* View permissions to the projects, tasks, issues, and users displayed in the `Workload Balancer`.
+* View permissions to the projects, tasks, issues, and users displayed in the Workload Balancer.
 
-## Share the `Workload Balancer` with other users from a link
+## Share the Workload Balancer with other users from a link
 
 <ol> 
- <li value="1"> <p>Go to the <span>Workload Balancer</span></p> <p>For information about accessing the <span>Workload Balancer</span>, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a>. </p> </li> 
+ <li value="1"> <p>Go to the Workload Balancer</p> <p>For information about accessing the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a>. </p> </li> 
  <li value="2"> <p>(Optional) Do one or more of the following:</p> 
   <ul> 
    <li>Update the time period selection.</li> 
    <li> <p>Click <span class="bold">Day, Week</span>, or <span class="bold">Month</span> to view daily, weekly, <span>or monthly</span> information.</p> <p> <img src="assets/month-icon-on-toolbar-selected-wb-350x226.png" style="width: 350;height: 226;"> </p> </li> 
-   <li> <p>Apply filters to the Unassigned and Assigned Work areas.</p> <p>For information about filtering information in the <span>Workload Balancer</span>, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>. </p> </li> 
+   <li> <p>Apply filters to the Unassigned and Assigned Work areas.</p> <p>For information about filtering information in the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>. </p> </li> 
   </ul> </li> 
  <li value="3"> <p>Click the <span class="bold">link icon</span> <img src="assets/wb-shearable-link-icon-small.png">. </p> <p>This adds the link to your clipboard. </p> </li> 
  <li value="4">Do one of the following to share the link with others:
   <ul style="list-style-type: circle;">
    <li>Paste it into an e-mail, chat message, or any other application and share that with other users. </li>
    <li><p>Add it to a custom section as an external page, add the custom section to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups. </p><p>For information about creating an&nbsp;External Page, see <a href="../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>. For information about adding custom sections to a Layout Template, see Customize the left panel using a layout template. </p><note type="important">
-     When you add the 
-     <span>Workload Balancer</span> to the custom section of an object, the information in the 
-     <span>Workload Balancer</span> is not filtered by the object.&nbsp;The 
-     <span>Workload Balancer</span> displays the information filtered by the originally applied filters. 
+     When you add the Workload Balancer to the custom section of an object, the information in the Workload Balancer is not filtered by the object.&nbsp;The Workload Balancer displays the information filtered by the originally applied filters. 
     </note></li>
   </ul></li> 
 </ol>

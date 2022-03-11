@@ -13,7 +13,7 @@ The Net Value of a project is the total expected value of the project after calc
 
 ## Overview of the project Net Value
 
-`Adobe Workfront` calculates the Net Value of a project using the following formula:&nbsp;
+Adobe Workfront calculates the Net Value of a project using the following formula:&nbsp;
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
@@ -26,7 +26,7 @@ The following fields can affect the Net Value of a project:
 
 * `Budgeted Cost`:&nbsp;This is the total cost associated with the project as estimated when you first launch the project.
 
-  The `Budgeted Cost` uses the  `Budgeted Labor Cost` value which is calculated in the Resource Budgeting area of the Business Case and it takes into account the hours budgeted for your job roles in the `Resource Planner` and the Cost per Hour rate of each job role.   
+  The `Budgeted Cost` uses the  `Budgeted Labor Cost`&nbsp;value which is calculated in the Resource Budgeting area of the Business Case and it takes into account the hours budgeted for your job roles in the Resource Planner and the Cost per Hour rate of each job role.   
   The Budgeted Cost affects the `Net Value` of the project.&nbsp;For more information about how the Budgeted Cost is calculated, see [Calculate Budgeted Cost](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 * `Potential Risk Cost`: This is the cost associated with any risks on the project, as they are defined in the Business Case, or the Risks tab of the project.  
@@ -36,7 +36,7 @@ The following fields can affect the Net Value of a project:
 
 ## Locate the project Net Value
 
-You can find the Net Value for a project in the following areas in `Workfront`:
+You can find the Net Value for a project in the following areas in Workfront:
 
 <ul> 
  <li> <p>In Business Case Summary area of the Business Case&nbsp;<br>For more information about the Business Case Summary area, see the "Understanding the Business Case Summary" section in&nbsp;the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a><a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.</p> <p> <img src="assets/net-value-on-business-case-summary-highlighted-350x444.png" style="width: 350;height: 444;"> </p> </li> 

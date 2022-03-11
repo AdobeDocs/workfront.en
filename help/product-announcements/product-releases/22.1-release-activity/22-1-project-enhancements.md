@@ -2,7 +2,7 @@
 
 # 22.1 Project enhancements
 
-This page describes all `Project` enhancements made with the `22.1` release to the Preview environment. These enhancements will be made available in the Production environment 
+This page describes all Project enhancements made with the 22.1 release to the Preview environment. These enhancements will be made available in the Production environment 
 
 <!--
 in January 2022
@@ -10,7 +10,7 @@ in January 2022
 
 the week of January 17, 2022.
 
-For a list of all changes available with the `22.1` release, see [22.1 Release overview](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+For a list of all changes available with the 22.1 release, see [22.1 Release overview](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Change the default option for predecessors when copying or moving tasks
 
@@ -60,12 +60,12 @@ For more information, see [Summary for documents overview](../../../documents/ma
 
 ## New experience when copying one or multiple tasks
 
-To make your use of Workfront consistent with `the new Adobe Workfront experience`, we have redesigned the interface when copying a task. This is currently available when copying a task at the task level or copying a task or multiple tasks in a list.
+To make your use of Workfront consistent with the new Adobe Workfront experience, we have redesigned the interface when copying a task. This is currently available when copying a task at the task level or copying a task or multiple tasks in a list.
 
 Some of the improvements include:
 
 * All information that you must update before you copy the task displays on one continuous page.
-* `Workfront` checks whether you have access to the destination project immediately after choosing the project. Prior to this enhancement, a warning message indicating that you don't have the correct access showed after you confirmed the copy, which resulted in extra steps and the copy not being allowed.
+* Workfront checks whether you have access to the destination project immediately after choosing the project. Prior to this enhancement, a warning message indicating that you don't have the correct access showed after you confirmed the copy, which resulted in extra steps and the copy not being allowed.
 * Ability to request access for a project where you want to copy the task without leaving the Copy Task box.
 
 For more information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).

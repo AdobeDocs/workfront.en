@@ -6,9 +6,9 @@ title: Understand a Reviewer's Main Menu in Adobe Workfront
 description: The Main Menu changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see About the default Adobe Workfront layout.
 ---
 
-# Understand a Reviewer's Main Menu in `Adobe Workfront`
+# Understand a Reviewer's Main Menu in Adobe Workfront
 
-The Main Menu changes with the access level you have been assigned by your `Adobe Workfront administrator`. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+The Main Menu changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Understand the default Main Menu of a Reviewer
 
@@ -28,4 +28,4 @@ You can customize the areas that you see in your Main Menu by removing or adding
 
 For more information about customizing the Main Menu, see [Customize the Main Menu in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
 
-Your `Workfront administrator` can also modify your `Workfront` default layout by assigning you a Layout Template. For more information about working with Layout Templates, see Customize the Main Menu using a layout template.
+Your Workfront administrator can also modify your Workfront default layout by assigning you a Layout Template. For more information about working with Layout Templates, see Customize the Main Menu using a layout template.

@@ -26,13 +26,13 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
 ## Add an image or edit its properties in a custom form
 
@@ -49,23 +49,23 @@ You must have the following to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Required) Type a descriptive label for the <span>widget</span>. It displays above the <span>widget</span> when users view the field on a custom form added to an object.</p> <p>You can change the label at any time.</p> <note type="important">
+     <td> <p>(Required) Type a descriptive label for the widget. It displays above the widget when users view the field on a custom form added to an object.</p> <p>You can change the label at any time.</p> <note type="important">
        Avoid using special characters in this label. They don't display correctly in reports.
       </note> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Name</td> 
-     <td> <p>(Required) This name is how the system identifies the <span>widget</span> when you add it to various areas throughout <span>Workfront</span>, such as reports, Home, and API interactions.</p> <p>When you are configuring the <span>widget</span> for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <note type="important">  
+     <td> <p>(Required) This name is how the system identifies the widget when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <note type="important">  
        <ul> 
-        <li> <p><span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in <span>Workfront</span>. If you do, the system will no longer recognize the <span>widget</span> where it might now be referenced in other areas of <span>Workfront</span>.</span> </p> <p><span>For example, if you add the <span>widget</span> to a report and later change the <span>widget</span>'s name, <span>Workfront</span> doesn't recognize the <span>widget</span> in the report and <span>widget</span> will stop functioning correctly there unless you re-add it to the report using the new name.</span> </p> </li>  
+        <li> <p><span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront.</span> </p> <p><span>For example, if you add the widget to a report and later change the widget's name, Workfront doesn't recognize the widget in the report and widget will stop functioning correctly there unless you re-add it to the report using the new name.</span> </p> </li>  
        </ul> 
-      </note> <p>Each <span>widget</span> name must be unique in your organization's <span>Workfront</span> instance. This way, you can reuse a <span>widget</span> already created for another custom form. For more information, see <a href="#add" class="MCXref xref" data-mc-variable-override="">Add an image or edit its properties in a custom form</a> in this article.<!--
+      </note> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse a widget already created for another custom form. For more information, see <a href="#add" class="MCXref xref" data-mc-variable-override="">Add an image or edit its properties in a custom form</a> in this article.<!--
         [may need to say "existing field or widget" throughout that section; asked gevorg and he says they're still figuring this out]
        --></p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Instructions</td> 
-     <td> <p>Type any additional information about the <span>widget</span>. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
+     <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Image URL</td> 

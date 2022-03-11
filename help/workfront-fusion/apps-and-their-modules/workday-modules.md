@@ -11,8 +11,8 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Workday modules
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
-In a `Adobe Workfront Fusion` scenario, you can connect your `Workday` account to multiple third-party applications and services.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+In a Adobe Workfront Fusion scenario, you can connect your Workday account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -20,7 +20,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 ## Workday modules and their fields
 
-When you configure `[Fusion app]` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `[Fusion app]` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [Fusion app] modules, Workfront Fusion displays the fields listed below. Along with these, additional [Fusion app] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -36,7 +36,7 @@ This trigger module starts a scenario when an employee's job, personal, or time 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Workday account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Workday account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Event Type</td> 
@@ -48,7 +48,7 @@ This trigger module starts a scenario when an employee's job, personal, or time 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>[action]</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ This trigger module starts a scenario when an employee's job, personal, or time 
 
 ### Custom API&nbsp;Call
 
-This action module lets you make a custom authenticated call to the `Workday` API. This way, you can create a data flow automation that can't be accomplished by the other `Workday` modules.
+This action module lets you make a custom authenticated call to the Workday API. This way, you can create a data flow automation that can't be accomplished by the other Workday modules.
 
 When you are configuring this module, the following fields display.
 
@@ -69,7 +69,7 @@ The module returns the a status code, along with the headers and body of the API
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Workday account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Workday account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -81,7 +81,7 @@ The module returns the a status code, along with the headers and body of the API
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 

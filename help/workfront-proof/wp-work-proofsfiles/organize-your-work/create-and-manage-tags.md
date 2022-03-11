@@ -7,15 +7,15 @@ title: Create and Manage Tags in Workfront Proof
 description: You can create and edit tags and apply them to your proofs and files. This is great for when you have lots of different Workfront Proof items, such as projects, divisions, and clients, and you want to identify and find them easily.
 ---
 
-# Create and Manage Tags in `Workfront Proof`
+# Create and Manage Tags in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-You can create and edit tags and apply them to your `proofs` and files. This is great for when you have lots of different `Workfront Proof` items, such as projects, divisions, and clients, and you want to identify and find them easily.&nbsp;
+You can create and edit tags and apply them to your proofs and files. This is great for when you have lots of different Workfront Proof items, such as projects, divisions, and clients, and you want to identify and find them easily.&nbsp;
 
-You can apply tags to new or existing `proofs`, new files, new versions, and copies on any of the list view pages.
+You can apply tags to new or existing proofs, new files, new versions, and copies on any of the list view pages.
 
 >[!TIP]
 >
@@ -73,11 +73,11 @@ For more information about these profiles and permissions, see&nbsp; [Proof Perm
 
 ## Managing Tags From Proof Details or File Details
 
-The tags applied to a `proof` or a file display on the Proof Details page and the File Details page, respectively. On this page, you can view, change, and remove tags. For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) and [Manage Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).
+The tags applied to a proof or a file display on the Proof Details page and the File Details page, respectively. On this page, you can view, change, and remove tags. For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) and [Manage Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).
 
 <ol> 
- <li value="1">Open the Proof Details page for a <span>proof</span>, as described in <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref">Manage Proof Details in Workfront Proof</a>.<br>Or<br>Open the File Details page for a file, as described in <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md" class="MCXref xref">Manage Files in Workfront Proof</a>.<br>Any tags applied to the item appear near the upper-right corner.<br><img src="assets/tags-on-details-page-350x114.png" alt="Tags_on_Details_page.png" style="width: 350;height: 114;"></li> 
- <li value="2">(Optional) To remove tags from the <span>proof</span> or file, click the x next to it.</li> 
+ <li value="1">Open the Proof Details page for a proof, as described in <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref">Manage Proof Details in Workfront Proof</a>.<br>Or<br>Open the File Details page for a file, as described in <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md" class="MCXref xref">Manage Files in Workfront Proof</a>.<br>Any tags applied to the item appear near the upper-right corner.<br><img src="assets/tags-on-details-page-350x114.png" alt="Tags_on_Details_page.png" style="width: 350;height: 114;"></li> 
+ <li value="2">(Optional) To remove tags from the proof or file, click the x next to it.</li> 
  <li value="3">In the upper-right corner, click <span class="bold">Tags</span>.<br><img src="assets/tags-button-on-details-page-350x116.png" alt="Tags_button_on_Details_page.png" style="width: 350;height: 116;"></li> 
  <li value="4">In the box that appears, select the tags you want to apply to the item (or deselect tags you want to remove), then click <span class="bold">Add tag(s)</span>.</li> 
 </ol>
@@ -87,6 +87,6 @@ The tags applied to a `proof` or a file display on the Proof Details page and th
 You can search for an item using the name of a tag that you know is applied to the item.If you share an item with somebody, they will be able to search for that item the same way.To see a list of all items which have had the tag applied to them:
 
 <ol> 
- <li value="1">In any list view or on the Dashboard, open the <span class="bold">Tags</span> tab in the left sidebar, then click the tag in the list of tags that appear.<br><img src="assets/searching-by-tag-350x209.png" alt="Searching_by_tag.png" style="width: 350;height: 209;"><br>The tag name appears in the search field in the upper-right corner of <span>Workfront Proof</span>. You can refine your search by selecting additional tags&nbsp;or by typing further keywords into the search field.&nbsp;You can remove a tag from the search field by clicking the x icon next to the tag name.</li> 
+ <li value="1">In any list view or on the Dashboard, open the <span class="bold">Tags</span> tab in the left sidebar, then click the tag in the list of tags that appear.<br><img src="assets/searching-by-tag-350x209.png" alt="Searching_by_tag.png" style="width: 350;height: 209;"><br>The tag name appears in the search field in the upper-right corner of Workfront Proof. You can refine your search by selecting additional tags&nbsp;or by typing further keywords into the search field.&nbsp;You can remove a tag from the search field by clicking the x icon next to the tag name.</li> 
 </ol>
 

@@ -6,11 +6,11 @@ title: Overview of sharing permissions on objects in Adobe Workfront
 description: The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 ---
 
-# Overview of sharing permissions on objects in `Adobe Workfront`
+# Overview of sharing permissions on objects in Adobe Workfront
 
 The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 
-You do not have to be an `Adobe Workfront administrator` to share permissions on objects that you have access to, but permissions on objects work within the access levels set by the `Workfront administrator`.
+You do not have to be an Adobe Workfront administrator to share permissions on objects that you have access to, but permissions on objects work within the access levels set by the Workfront administrator.
 
 For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -18,11 +18,11 @@ You can share or remove permissions to an object you created or an object that w
 
 >[!NOTE]
 >
->A `Workfront administrator` can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
-## Objects that you can share in `Workfront`
+## Objects that you can share in Workfront
 
-You can share the following objects in  `Workfront` with other users:
+You can share the following objects in&nbsp;Workfront with other users:
 
 * `Projects`: For more information, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
@@ -111,11 +111,11 @@ The following table illustrates the level of permissions that you can select whe
   </tr> 
   <tr> 
    <td role="rowheader">Make this public to external users</td> 
-   <td> <p>Anyone without a <span>Workfront</span> account can view the object by clicking a link to it. This is not available for all objects.</p> </td> 
+   <td> <p>Anyone without a Workfront account can view the object by clicking a link to it. This is not available for all objects.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Make this visible system-wide</td> 
-   <td> <p>The object can be found in searches and viewed by anyone with a <span>Workfront</span> account.</p> </td> 
+   <td> <p>The object can be found in searches and viewed by anyone with a Workfront account.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,17 +133,17 @@ Share an object Sharing objects is identical for all the objects that can be sha
 
 ### Permissions inherited from parent objects
 
-Permissions in `Workfront` are inherited hierarchically. This means that if you are granting permissions to a user on a parent object, they gain the same permissions on the children objects associated with it by default.
+Permissions in Workfront are inherited hierarchically. This means that if you are granting permissions to a user on a parent object, they gain the same permissions on the children objects associated with it by default.
 
 For example, if you give a user Contribute permissions to a project, the user has Contribute permissions to all tasks and issues (child objects) associated with that project.
 
 Continuing with the example above, you cannot restrict permissions to child objects. If you do not want the user to have Contribute permissions to child objects associated with the project, you must manually remove the Inherited Permissions from the objects and then adjust the permissions for the individual user, including any Advanced Settings.&nbsp;
 
-For more information about the hierarchy and interdependency of objects in `Workfront`, see the section [Interdependency and hierarchy of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For more information about the hierarchy and interdependency of objects in Workfront, see the section [Interdependency and hierarchy of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
->Your `Workfront administrator` can disable inherited permissions for documents in your access level.&nbsp;For more information about disabling inherited permissions for documents in the access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Your Workfront administrator can disable inherited permissions for documents in your access level.&nbsp;For more information about disabling inherited permissions for documents in the access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ### Permissions acquired through organizational memberships&nbsp;
 

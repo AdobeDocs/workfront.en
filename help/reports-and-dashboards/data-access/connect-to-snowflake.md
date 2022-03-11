@@ -4,7 +4,7 @@
 
 [Intro]
 
-For more information on `Data Access`, see [Data Access overview](../../reports-and-dashboards/data-access/data-access-overview.md).
+For more information on Data Access, see [Data Access overview](../../reports-and-dashboards/data-access/data-access-overview.md).
 
 ## Access requirements
 
@@ -15,12 +15,12 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a>*</td> 
-   <td> <p><span>[Any, Pro, Business, Enterprise]</span> or higher</p> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td> <p>[Any, Pro, Business, Enterprise] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p><span>[Request, Review, Work, Plan]</span> or higher</p> <!--
+   <td> <p>[Request, Review, Work, Plan] or higher</p> <!--
      You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
     --> <!--
      You must be a group administrator. For more information on group administrators, see Group administrators.
@@ -32,12 +32,12 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>[Insert any access level configurations needed]</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level.<br>For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[Insert any access level configurations needed]</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -65,7 +65,7 @@ Before you begin, you must
     </tr> 
     <tr> 
      <td role="rowheader">Connection string</td> 
-     <td> <p><span>Workfront</span> provides the domain and schema that you will need for your Connection URL. Add these items in the appropriate place, then enter the connection string:</p> <p><code>jdbc:snowflake://<domain provided>.snowflakecomputing.com/?warehouse=analytics_wh&db=workfront_analytics&schema=<schema provided></code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If your BI&nbsp;tool has a built-in Snowflake connector, you can connect with JDBC.<br>If you connect using JDBC, the connection string may look like this:<br><code>jdbc:snowflake://<domain provided>.snowflakecomputing.com/?warehouse=analytics_wh&db=workfront_analytics&schema=<schema provided></code><br></p> </td> 
+     <td> <p>Workfront provides the domain and schema that you will need for your Connection URL. Add these items in the appropriate place, then enter the connection string:</p> <p><code>jdbc:snowflake://<domain provided>.snowflakecomputing.com/?warehouse=analytics_wh&db=workfront_analytics&schema=<schema provided></code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If your BI&nbsp;tool has a built-in Snowflake connector, you can connect with JDBC.<br>If you connect using JDBC, the connection string may look like this:<br><code>jdbc:snowflake://<domain provided>.snowflakecomputing.com/?warehouse=analytics_wh&db=workfront_analytics&schema=<schema provided></code><br></p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Username</td> 

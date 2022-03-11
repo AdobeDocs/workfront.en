@@ -14,7 +14,7 @@
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-As an `Adobe Workfront administrator`, you can create another `Workfront administrator` by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in `Workfront`, including items they did not create themselves.
+As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
 <!--
 Replace first paragraph with the following for IMS:
@@ -47,16 +47,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="#" class="MCXref xref selected">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="#" class="MCXref xref selected">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,17 +81,17 @@ Remove this entire section for IMS
 
    The user now has full System Administrator rights in the system.
 
-## Access of a `Workfront administrator` vs. access of a `Plan` user with administrative rights
+## Access of a Workfront administrator vs. access of a Plan user with administrative rights
 
-The two tables below show the difference between the access rights of a user with a `Workfront administrator` access level versus those of a user with a Plan license with some administrative rights.
+The two tables below show the difference between the access rights of a user with a Workfront administrator access level versus those of a user with a Plan license with some administrative rights.
 
-`Workfront administrators` can view all the objects in the system (regardless of who created them), create new ones, and modify or delete existing ones. They have full access to all objects in the system.
+Workfront administrators can view all the objects in the system (regardless of who created them), create new ones, and modify or delete existing ones. They have full access to all objects in the system.
 
 Users with a Plan license who can edit functionality in one area have full access to the functionality in that area.
 
 >[!NOTE]
 >
->Users with a Plan license who are designated as `group administrators` can perform some of the actions allowed for `Workfront administrators`. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Users with a Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Access to the Setup area](#access)<![CDATA[]]>
 * [Access to objects](#access2)<![CDATA[     ]]>
@@ -105,7 +105,7 @@ Users with a Plan license who can edit functionality in one area have full acces
  <thead> 
   <tr> 
    <th>Area/object</th> 
-   <th><span>Workfront administrator</span> </th> 
+   <th>Workfront administrator </th> 
    <th>User with a Plan license and some administrative rights</th> 
   </tr> 
  </thead> 
@@ -158,12 +158,12 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Recycle Bin: Recently Deleted</td> 
    <td>Full access</td> 
-   <td> <p>Users who are <span>group administrators</span> can restore projects assigned to Groups they manage, and tasks, issues, or documents associated with those projects.</p> </td> 
+   <td> <p>Users who are group administrators can restore projects assigned to Groups they manage, and tasks, issues, or documents associated with those projects.</p> </td> 
   </tr> 
   <tr> 
    <td>Recycle Bin: Recently Restored</td> 
    <td>Full access</td> 
-   <td>Users who are <span>group administrators</span> can see the items they have recently restored.</td> 
+   <td>Users who are group administrators can see the items they have recently restored.</td> 
   </tr> 
   <tr> 
    <td>Job Roles</td> 
@@ -178,7 +178,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Groups</td> 
    <td>Full access</td> 
-   <td> <p>No access to create Groups.</p> <p>Only <span>group administrators</span> can manage group membership, subgroups, and group-level statuses for the groups they manage.&nbsp;</p> </td> 
+   <td> <p>No access to create Groups.</p> <p>Only group administrators can manage group membership, subgroups, and group-level statuses for the groups they manage.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Companies</td> 
@@ -188,7 +188,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Log in As</td> 
    <td>Full access&nbsp;</td> 
-   <td> <p>If their group administrative access is enabled on their Access Level and they are designated as a <span>group administrator</span>, they can log in as the users in the group they administer and their subgroups. They cannot log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+   <td> <p>If their group administrative access is enabled on their Access Level and they are designated as a group administrator, they can log in as the users in the group they administer and their subgroups. They cannot log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Schedules</td> 
@@ -198,7 +198,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Timesheet &amp; Hours: Timesheet Profiles</td> 
    <td>Full access</td> 
-   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are <span>group administrators</span> can create Timesheet Profiles for the groups they administer and their subgroups.&nbsp;</p> </td> 
+   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are group administrators can create Timesheet Profiles for the groups they administer and their subgroups.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Timesheet &amp; Hours: Hour Types</td> 
@@ -263,7 +263,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Interface: Layout Templates</td> 
    <td>Full access</td> 
-   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as&nbsp;<span>group administrators</span> can create Layout Templates for groups and subgroups they manage.</p> </td> 
+   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as&nbsp;group administrators can create Layout Templates for groups and subgroups they manage.</p> </td> 
   </tr> 
   <tr> 
    <td>Interface: Update Feeds</td> 
@@ -293,7 +293,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Documents: Cloud Providers</td> 
    <td>Full access</td> 
-   <td> <p>No access to configure Cloud Providers.</p> <p>Access to link documents to and from Cloud Providers from the Documents tab, after the Cloud Providers have been integrated with <span>Workfront</span>.</p> </td> 
+   <td> <p>No access to configure Cloud Providers.</p> <p>Access to link documents to and from Cloud Providers from the Documents tab, after the Cloud Providers have been integrated with Workfront.</p> </td> 
   </tr> 
   <tr> 
    <td>Documents: Metadata Mapping</td> 
@@ -303,12 +303,12 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Documents: SharePoint Integration</td> 
    <td>Full access</td> 
-   <td> <p>No access to configure a SharePoint integration.</p> <p>Access to link documents to and from SharePoint from the Documents tab, after the SharePoint integration with <span>Workfront</span> has been configured.</p> </td> 
+   <td> <p>No access to configure a SharePoint integration.</p> <p>Access to link documents to and from SharePoint from the Documents tab, after the SharePoint integration with Workfront has been configured.</p> </td> 
   </tr> 
   <tr> 
    <td>Documents: Custom Integration</td> 
    <td>Full access</td> 
-   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link&nbsp;documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with <span>Workfront</span>.</p> </td> 
+   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link&nbsp;documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with Workfront.</p> </td> 
   </tr> 
   <tr> 
    <td>System: Branding</td> 
@@ -357,7 +357,7 @@ Users with a Plan license who can edit functionality in one area have full acces
  <thead> 
   <tr> 
    <th>Area/object</th> 
-   <th><span>Workfront administrator</span> </th> 
+   <th>Workfront administrator </th> 
    <th>User with a Plan license and some administrative rights</th> 
   </tr> 
  </thead> 
@@ -420,7 +420,7 @@ Users with a Plan license who can edit functionality in one area have full acces
   <tr> 
    <td>Users</td> 
    <td>Full access</td> 
-   <td> <p>Limited access</p> <p>They cannot assign groups to users for which they are not a <span>group administrator</span> or groups that are not public.</p> <p>They cannot assign an access level to users which is higher then their own access level.</p> <p>If their group administrative access is enabled on their Access Level and they are designated as a <span>group administrator</span> on a group, they can reset the password of and log in as the users in the group they administer and their subgroups. They cannot reset the password of or log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+   <td> <p>Limited access</p> <p>They cannot assign groups to users for which they are not a group administrator or groups that are not public.</p> <p>They cannot assign an access level to users which is higher then their own access level.</p> <p>If their group administrative access is enabled on their Access Level and they are designated as a group administrator on a group, they can reset the password of and log in as the users in the group they administer and their subgroups. They cannot reset the password of or log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

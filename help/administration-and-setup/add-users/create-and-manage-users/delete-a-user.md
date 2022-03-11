@@ -12,7 +12,7 @@ description: The highlighted information on this page refers to functionality av
 
 The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 
-When a user leaves your organization, can remove that user from `Adobe Workfront`.
+When a user leaves your organization, can remove that user from Adobe Workfront.
 
 >[!IMPORTANT]
 >
@@ -33,19 +33,19 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <span>group administrator</span> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -56,7 +56,7 @@ You must have the following to perform the steps in this article:
 Deactivating a user causes the following things to happen:
 
 <ul> 
- <li>Removes the user's licenses to both <span>Workfront</span> and <span>Workfront Proof</span> if the <span>Workfront Proof</span> component is associated with your <span>Workfront</span> account. For more information about <span>Workfront Proof</span>, see <a href="../../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a>.</li> 
+ <li>Removes the user's licenses to both Workfront and Workfront Proof if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see <a href="../../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a>.</li> 
  <li>The user can no longer be assigned work.</li> 
  <li>The user can no longer be added to updates.</li> 
  <li>The user can no longer be added to teams or groups.</li> 
@@ -75,13 +75,13 @@ Deactivating a user causes the following things to happen:
   <li>Updates</li> 
   <li>Hours</li> 
  </ul> 
- <li>If the user has checked-out documents, the documents remain checked out when you deactivate them. Only a <span>Workfront administrator</span> can check them back in.For more information about checking out documents, see <a href="../../../documents/managing-documents/check-out-documents.md" class="MCXref xref">Check out documents</a>.</li> 
+ <li>If the user has checked-out documents, the documents remain checked out when you deactivate them. Only a Workfront administrator can check them back in.For more information about checking out documents, see <a href="../../../documents/managing-documents/check-out-documents.md" class="MCXref xref">Check out documents</a>.</li> 
 </ul>
 
 Deleting a user causes the following things to happen:
 
 <ul> 
- <li>Removes the user's licenses to both <span>Workfront</span> and <span>Workfront Proof</span>, if the <span>Workfront Proof</span> component is associated with your <span>Workfront</span> account. For more information about <span>Workfront Proof</span>, see <a href="../../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a>.</li> 
+ <li>Removes the user's licenses to both Workfront and Workfront Proof, if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see <a href="../../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a>.</li> 
  <li>The user can no longer be assigned work.</li> 
  <li>The user can no longer be added to updates.</li> 
  <li>The user can no longer be added to teams or groups.</li> 
@@ -97,8 +97,7 @@ Deleting a user causes the following things to happen:
    </note> </li> 
   <li>Updates</li> 
   <li> <p>Hours</p> <note type="note">
-     These objects remain in 
-    <span>Workfront</span> but the owner of the object is now blank.
+     These objects remain in Workfront but the owner of the object is now blank.
    </note> </li> 
  </ul> 
  <li>If the user uploaded any documents under the Documents area in the Global Navigation Bar, the documents are also deleted.</li> 
@@ -107,17 +106,17 @@ Deleting a user causes the following things to happen:
 
 For more information about deactivating users, see [Deactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to moving on to other activities in `Workfront`. The process of deleting multiple users simultaneously runs as a background process, so you can continue using `Workfront` as the users are deleted.
+You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to&nbsp;moving on to other activities in Workfront. The process of deleting multiple users simultaneously runs as a background process, so you can continue using Workfront as the users are deleted.
 
 ## Delete one or more users
 
 1. In the box that appears, click `Delete Anyway`Delete to confirm the deletion.
 
-   The process of deleting users runs as a background process, so you can continue using `Workfront` as the user or users are deleted.
+   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 
    Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
 
-   After receiving the confirmation in `Workfront` that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
+   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
    At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
 

@@ -7,17 +7,17 @@ title: The Workload Balancer
 description: The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated.
 ---
 
-# The `Workload Balancer`
+# The Workload Balancer
 
 >[!NOTE]
 >
->The `Workload Balancer` is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated. 
+>The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated. 
 >
->For more information about removing the resource scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about removing the resource scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 >
->We recommend that you use the `Workload Balancer` for scheduling your resources.
+>We recommend that you use the Workload Balancer for scheduling your resources.
 
-For information about what the `Workload Balancer` is, how to navigate it, and how to assign work using it, see the following articles:
+For information about what the Workload Balancer is, how to navigate it, and how to assign work using it, see the following articles:
 
 * [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 * [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md) 

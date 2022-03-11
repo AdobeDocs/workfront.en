@@ -24,17 +24,17 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span> plan*</p> </td> 
+   <td> <p>Adobe Workfront plan*</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span> license*</p> </td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Administrative access to Custom forms For information about granting administrative access from the access level, see Grant users administrative access to certain areas. Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Contribute access to the object where the form is attached with access to Edit the Custom Form For information on requesting additional access, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Display the manager of an issue's creator on the issue custom form
 

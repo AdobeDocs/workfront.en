@@ -6,9 +6,9 @@ title: Submit Adobe Workfront requests from Salesforce objects
 description: After installing Adobe Workfront for Salesforce, you can submit Workfront requests from Salesforce Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
 ---
 
-# Submit `Adobe Workfront` requests from Salesforce objects
+# Submit Adobe Workfront requests from Salesforce objects
 
-After installing `Adobe Workfront` for Salesforce, you can submit `Workfront` requests from Salesforce Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
+After installing Adobe Workfront for Salesforce, you can submit Workfront requests from Salesforce Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
 
 ## Access requirements
 
@@ -19,11 +19,11 @@ You must have the following access to use the functionality described in this ar
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan</p> </td> 
   </tr> <!--
    Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
@@ -33,48 +33,47 @@ You must have the following access to use the functionality described in this ar
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-To submit a `Workfront` request from a Salesforce Opportunity or Account ensure that you have the following in your environment:
+To submit a Workfront request from a Salesforce Opportunity or Account ensure that you have the following in your environment:
 
-* Your `Workfront administrator` has installed `Workfront` for Salesforce.  
-  For more information about installing `Workfront` for Salesforce, see [Install Adobe Workfront for Salesforce](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* Your Workfront administrator has installed Workfront for Salesforce.  
+  For more information about installing Workfront for Salesforce, see [Install Adobe Workfront for Salesforce](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
-* Your `Workfront administrator` has added the `Workfront` section to your Opportunity and Account page layouts.  
-  For more information about adding the `Workfront` section to a page layout, see [Configure the Adobe Workfront section for Salesforce users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+* Your Workfront administrator has added the Workfront section to your Opportunity and Account page layouts.  
+  For more information about adding the Workfront section to a page layout, see [Configure the Adobe Workfront section for Salesforce users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-* You have a `Workfront` account and you can log in to it from the `Workfront` section inside your Opportunity or Account.   
+* You have a Workfront account and you can log in to it from the Workfront section inside your Opportunity or Account.   
   Once you log in, you can see the New Requests tab where you can start entering requests.
 
   <!--
 
   -->
 
-## Submit `Workfront` requests from Salesforce
+## Submit Workfront requests from Salesforce
 
 1. Go to an Opportunity or Account in Salesforce. 
-1. Go to the `Workfront` section.
+1. Go to the Workfront section.
 1. In the `New Requests` tab, select a request type in the `Select a Request Type` drop-down menu.
 
-   You can see the same request queues that you have access to see in `Workfront`.&nbsp;
+   You can see the same request queues that you have access to see in Workfront.&nbsp;
 
 1. Start filling out the available fields for your request.
 
-   Submitting a request from Salesforce is identical to submitting a request in the `Workfront` web application.
+   Submitting a request from Salesforce is identical to submitting a request in the Workfront web application.
 
    Continue to follow the steps described in [Create and submit Adobe Workfront requests](../../manage-work/requests/create-requests/create-submit-requests.md).
 
 1. Click `Submit`.
 
-## View `Workfront` requests
+## View Workfront requests
 
 <ol> 
  <li value="1">Go to an Opportunity or Account in Salesforce.</li> 
- <li value="2"> <p>Go to the <span class="bold"><span>Workfront</span></span> section.</p> <note type="note">
-   Depending on how your 
-   <span>Workfront administrator</span> configured this section, it might have a different name.
+ <li value="2"> <p>Go to the <span class="bold">Workfront</span> section.</p> <note type="note">
+   Depending on how your Workfront administrator configured this section, it might have a different name.
   </note> </li> 
  <li value="3"> <p>Select the <span class="bold">Submitted Requests</span> tab.<br></p> <p>You can view all the requests that you or others have submitted from this Opportunity or Account in this tab.Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.</p> <note type="note">
    Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.
@@ -86,12 +85,11 @@ To submit a `Workfront` request from a Salesforce Opportunity or Account ensure 
    <li>Status</li> 
    <li>Submitted on&nbsp;Date</li> 
    <li>Requested by Name</li> 
-   <li>Assigned to Name<br>When this information is updated in <span>Workfront</span>, it is also updated in this list.&nbsp;</li> 
+   <li>Assigned to Name<br>When this information is updated in Workfront, it is also updated in this list.&nbsp;</li> 
   </ul> </li> 
- <li value="4"> <p>(Optional) Click the name of the request to open it in <span>Workfront</span>.&nbsp;</p> <p>On the Summary panel <img src="assets/summary-panel-icon.png">, notice the <span class="bold">Integrations</span> indicator that signifies that this issue originated in Salesforce and is currently linked to an item there.&nbsp;</p> </li> 
+ <li value="4"> <p>(Optional) Click the name of the request to open it in Workfront.&nbsp;</p> <p>On the Summary panel <img src="assets/summary-panel-icon.png">, notice the <span class="bold">Integrations</span> indicator that signifies that this issue originated in Salesforce and is currently linked to an item there.&nbsp;</p> </li> 
  <li value="5"> <p>(Optional) Click <span class="bold">Go to Salesforce</span> to access the Opportunity or Account where the issue originated.</p> <note type="note">
-   The Go to Salesforce link is visible to all 
-   <span>Workfront</span> users who can view the issue. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account where the issue was logged.&nbsp;
+   The Go to Salesforce link is visible to all Workfront users who can view the issue. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account where the issue was logged.&nbsp;
   </note> </li> 
 </ol>
 

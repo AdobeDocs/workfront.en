@@ -9,13 +9,13 @@ description: As a Workfront Library administrator you can rename a keyword in th
 
 # Rename a keyword in Workfront Library
 
-As a `Workfront Library administrator` you can rename a keyword in the keyword picklist. For information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
+As a Workfront Library administrator you can rename a keyword in the keyword picklist. For information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 
 When you rename a keyword in the picklist, the keyword is also edited in all assets tagged with the keyword.
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>In the left panel, click <span class="bold">Setup&nbsp;</span>> <span class="bold">Keywords</span>.</p> </li> 
  <li value="4"> <p>Hover over the keyword you want to rename, and click the <span class="bold">Edit</span> icon. </p> </li> 
  <li value="5"> <p>Type the new name for the keyword, then click <span class="bold">Save</span>.</p> <p>The Rename Keyword dialog box displays.</p> </li> 

@@ -10,7 +10,7 @@ description: Anyone who can view an item in Adobe Workfront can grant other user
 
 # Permissions for shared objects
 
-Anyone who can view an item in `Adobe Workfront` can grant other users permissions to that item when they share it, as described in [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md). Sharing permissions are specific to one item in `Workfront` and define what actions the recipient user or users can take on the item.
+Anyone who can view an item in Adobe Workfront can grant other users permissions to that item when they share it, as described in [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md). Sharing permissions are specific to one item in Workfront and define what actions the recipient user or users can take on the item.
 
 ##  
 
@@ -22,9 +22,9 @@ A user with permissions to at least View an object can share that object with so
 
 >[!NOTE]
 >
->A `Workfront administrator` can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
-The task of sharing an object is identical for all objects, as explained in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). You can share the following objects in `Workfront`:
+The task of sharing an object is identical for all objects, as explained in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). You can share the following objects in Workfront:
 
 * `Projects`: For more information, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
@@ -86,11 +86,11 @@ The following table illustrates the permission settings you can select from when
   </tr> 
   <tr> 
    <td role="rowheader">Make this public to external users</td> 
-   <td> <p>Anyone without a <span>Workfront</span> account can view the object by clicking a link to it.</p> </td> 
+   <td> <p>Anyone without a Workfront account can view the object by clicking a link to it.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Make this visible system-wide</td> 
-   <td> <p>The object can be found in searches and viewed by anyone with a <span>Workfront</span> account.</p> </td> 
+   <td> <p>The object can be found in searches and viewed by anyone with a Workfront account.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Object People Teams Job Roles Groups Companies Public System-Wide Calendars ✓ 
 
 This table lists the objects that users can share and how they can share them: 
 
-| ` `Object`` | ` `Share with `Workfront` users`` | ` `Share publicly with users outside of `Workfront``` | ` `Share via email with anyone`` |
+| ` `Object`` | ` `Share with Workfront users`` | ` `Share publicly with users outside of Workfront`` | ` `Share via email with anyone`` |
 |---|---|---|---|
 | `Project` | `✓` |&nbsp; |&nbsp; |
 | `Task` | `✓` |&nbsp; |&nbsp; |
@@ -141,4 +141,4 @@ This table lists the objects that users can share and how they can share them:
 * If a user shares an object with certain permissions and that object has any child objects below it, the recipient inherits the same permissions for those child objects. 
 * If an access level restricts users from deleting certain objects, this doesn’t keep them from deleting child objects that are contained in those objects.
 
-Permissions in `Workfront` are inherited hierarchically. For more information about inherited permissions, see the [Understand inherited permissions and the hierarchy of objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#understanding-inherited-permissions) section in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). 
+Permissions in Workfront are inherited hierarchically. For more information about inherited permissions, see the [Understand inherited permissions and the hierarchy of objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#understanding-inherited-permissions) section in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). 

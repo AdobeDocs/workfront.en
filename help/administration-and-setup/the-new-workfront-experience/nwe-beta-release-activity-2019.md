@@ -1,8 +1,8 @@
 
 
-# The new `Adobe Workfront` experience Beta release activity 2019
+# The new Adobe Workfront experience Beta release activity 2019
 
-The new `Adobe Workfront` experience provides a fresh, modern design in addition to new functionality. This page describes changes that were made available in the Preview and Production environment from September 12, 2019 to December 31, 2019. For changes made only to the Preview environment prior to these dates, see [The new Adobe Workfront experience Beta Preview](../../administration-and-setup/the-new-workfront-experience/nwe-beta-preview.md).
+The new Adobe Workfront experience provides a fresh, modern design in addition to new functionality. This page describes changes that were made available in the Preview and Production environment from September 12, 2019 to December 31, 2019. For changes made only to the Preview environment prior to these dates, see [The new Adobe Workfront experience Beta Preview](../../administration-and-setup/the-new-workfront-experience/nwe-beta-preview.md).
 
 For the most recent enhancements in the new Workfront experience, see [The new Adobe Workfront experience: Beta release activity](../../administration-and-setup/the-new-workfront-experience/nwe-beta-preview-release-activity.md).
 
@@ -23,7 +23,7 @@ For the most recent enhancements in the new Workfront experience, see [The new A
    <td> <p>Beta Preview release:&nbsp;September 26, 2019</p> <p>Beta Production release:&nbsp;September 26, 2019</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="#add" class="MCXref xref" xrefformat="{para}">Add a new version for a linked document</a> </p> <p>You can add a new version of a document linked to <span>Workfront</span> from an external provider. </p> </td> 
+   <td> <p><a href="#add" class="MCXref xref" xrefformat="{para}">Add a new version for a linked document</a> </p> <p>You can add a new version of a document linked to Workfront from an external provider. </p> </td> 
    <td> <p>Beta Preview release:&nbsp;September 26, 2019</p> <p>Beta Production release:&nbsp;September 26, 2019</p> </td> 
   </tr> 
   <tr> 

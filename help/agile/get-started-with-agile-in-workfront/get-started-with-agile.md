@@ -8,7 +8,7 @@ title: Get started with agile in Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Get started with agile in `Adobe Workfront`
+# Get started with agile in Adobe Workfront
 
 This section contains the following articles:
 

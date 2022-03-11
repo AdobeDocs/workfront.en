@@ -7,7 +7,7 @@ title: Review proofs within Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Review proofs within `Adobe Workfront`
+# Review proofs within Adobe Workfront
 
 This section contains the following articles:
 

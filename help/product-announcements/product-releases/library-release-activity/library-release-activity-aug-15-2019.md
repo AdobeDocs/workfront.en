@@ -8,11 +8,11 @@ description: This page describes all changes made available to Workfront Library
 
 # Workfront Library release activity - August 15, 2019
 
-This page describes all changes made available to `Workfront Library` with the release to the Production environment on August 15.
+This page describes all changes made available to Workfront Library with the release to the Production environment on August 15.
 
-For a list of all changes made to `Workfront Library`, see [Workfront Library release activity](../../../product-announcements/product-releases/library-release-activity/workfront-library-release-activity.md).
+For a list of all changes made to Workfront Library, see [Workfront Library release activity](../../../product-announcements/product-releases/library-release-activity/workfront-library-release-activity.md).
 
-The `Workfront Library` release on August 15 contains the following enhancements:
+The Workfront Library release on August 15 contains the following enhancements:
 
 ## Organize your assets with keyword hierarchy
 

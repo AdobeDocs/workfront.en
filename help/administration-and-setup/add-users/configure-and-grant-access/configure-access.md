@@ -9,9 +9,9 @@ title: Configure access to Adobe Workfront
 description: These articles explain how you, as an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.
 ---
 
-# Configure access to `Adobe Workfront`
+# Configure access to Adobe Workfront
 
-These articles explain how you, as an `Adobe Workfront administrator`, can grant users access to view or edit objects by assigning them an access level.
+These articles explain how you, as an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.
 
 * [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 
 * [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) 

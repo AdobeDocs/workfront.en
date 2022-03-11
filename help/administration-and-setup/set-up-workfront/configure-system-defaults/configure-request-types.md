@@ -9,9 +9,9 @@ description: While working on a project, you might discover that unexpected even
 
 # Configure request types
 
-While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or task. You can also submit requests, which are recorded as issues on a project that is designated as a Request Queue. Issues and requests are used considered to be interchangeable in `Adobe Workfront`.
+While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or task. You can also submit requests, which are recorded as issues on a project that is designated as a Request Queue. Issues and requests are used considered to be interchangeable in Adobe Workfront.
 
-For information about creating issues in `Workfront`, see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). For information about creating requests in `Workfront`, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md). For information about associating Request&nbsp;Types with projects, see [Define Request Types for a project in Adobe Workfront](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+For information about creating issues in Workfront, see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). For information about creating requests in Workfront, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md). For information about associating Request&nbsp;Types with projects, see [Define Request Types for a project in Adobe Workfront](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Access requirements
 
@@ -22,16 +22,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,14 +42,14 @@ Set what issue or request types are allowed for a project You can organize the k
 
 ## Customize the names of the request types
 
-As a `Workfront administrator`, you can configure the names of the request types in your system. The new names are visible in any area of `Workfront` where the `Issue Type` or `Request Type` fields display:
+As a Workfront administrator, you can configure the names of the request types in your system. The new names are visible in any area of Workfront where the `Issue Type` or `Request Type` fields display:
 
 * In the `Queue Details` area of&nbsp;a project that will receive the issues or requests.&nbsp;
 * If more than one request type is selected for a Request Queue, in the `New Issue Form` in the `Issue Type` field, when you create a new issue or submit a new request.
 
-  For more information about creating issues in `Workfront`, see&nbsp; [Create issues](../../../manage-work/issues/manage-issues/create-issues.md)
+  For more information about creating issues in Workfront, see&nbsp; [Create issues](../../../manage-work/issues/manage-issues/create-issues.md)
 
-  For more information about creating requests in `Workfront`, see&nbsp; [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  For more information about creating requests in Workfront, see&nbsp; [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * On the `Queue Topic Detail` form, when you configure the Queue Topic.  
   For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -57,7 +57,7 @@ As a `Workfront administrator`, you can configure the names of the request types
 To customize the names of the request types:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
  <li value="3">Click the <span class="bold">Issues</span> tab.</li> 
  <li value="4"> <p>At the top of the <span class="bold">Issues</span> tab, hover over the name of a request type, then click the <span class="bold">Edit</span> icon that appears.<br></p>  </li> 

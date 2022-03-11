@@ -22,4 +22,4 @@ Currently we support the following types of barcodes:
 * `QR Code`: The type of matrix barcode, which consists of black modules (square dots) arranged in a square grid on a white background, which can be read by an imaging device and processed using Reed-Solomon error correction until the image can be appropriately interpreted.
 * `Code 128`: Code 128 is an arbitrarily long, high-density barcode symbology that can be used to encode any extended ASCII data. It is used for alphanumeric or numeric-only barcodes.
 
-If you need more types of barcodes, please contact `Workfront`.
+If you need more types of barcodes, please contact Workfront.

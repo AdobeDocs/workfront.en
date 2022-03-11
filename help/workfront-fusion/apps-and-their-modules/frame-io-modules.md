@@ -22,49 +22,49 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use Frame.io modules, you must have a Frame.io account
 
-The module dialog fields that are displayed in bold (in the `Workfront Fusion` scenario, not in this documentation article) are mandatory!
+The module dialog fields that are displayed in bold (in the Workfront Fusion scenario, not in this documentation article) are mandatory!
 
-## Connect Frame.io to `Adobe Workfront Fusion`
+## Connect Frame.io to Adobe Workfront Fusion
 
-To connect your Frame.io account to `Workfront Fusion`you need to create an API token in your Frame.io account and insert it to the `Workfront Fusion` Frame.io Create a connection dialog.
+To connect your Frame.io account to Workfront Fusionyou need to create an API token in your Frame.io account and insert it to the Workfront Fusion Frame.io Create a connection dialog.
 
 1. Log in to your Frame.io account.
 1. Go to the **Tokens** page in the Frame.io Developer.
 1. Click **New**.
 1. Enter the name of the token, select the scopes you want to use, and click **Create**.
 1. Copy the provided token.
-1. Go to `Workfront Fusion` and open the Frame.io module's **Create a connection** dialog.
+1. Go to Workfront Fusion and open the Frame.io module's **Create a connection** dialog.
 1. Enter the token you have copied in step 5 to the Your Frame.io API Key field and click **Continue** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
 
 ## Frame.io modules and their fields
 
-When you configure `[Fusion app]` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `[Fusion app]` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [Fusion app] modules, Workfront Fusion displays the fields listed below. Along with these, additional [Fusion app] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -209,7 +209,7 @@ This search module retrieves all assets in the specified project's folder.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of assets <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of assets Workfront Fusion will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -467,7 +467,7 @@ This search module retrieves all comments of the specified asset.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of comments <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of comments Workfront Fusion will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -581,7 +581,7 @@ This search module retrieves all projects for the specified team.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of projects <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of projects Workfront Fusion will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

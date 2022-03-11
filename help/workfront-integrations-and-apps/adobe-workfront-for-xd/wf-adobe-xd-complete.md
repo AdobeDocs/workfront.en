@@ -8,7 +8,7 @@ description: You can stay in Adobe XD and seamlessly complete your work in Adobe
 
 # Mark work items complete in Adobe XD
 
-You can stay in Adobe XD and seamlessly complete your work in `Adobe Workfront`.
+You can stay in Adobe XD and seamlessly complete your work in Adobe Workfront.
 
 ## Access requirements
 
@@ -19,12 +19,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Work or higher 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a <span>Workfront</span> license.</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -33,11 +33,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-* You must install the `Workfront` for Adobe XD plugin before you can mark work items complete in Adobe XD.
+* You must install the Workfront for Adobe XD plugin before you can mark work items complete in Adobe XD.
 
   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
@@ -46,6 +46,6 @@ To complete a work item:
 <ol> 
  <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
  <li value="2">From the <span class="bold">Work List</span>, select the task or issue you wish to mark complete. </li> 
- <li value="3">Click <span class="bold">Done</span>.<br>This marks the item complete in <span>Workfront</span>.<br><img src="assets/mark-as-done-350x646.png" style="width: 350;height: 646;"></li> 
+ <li value="3">Click <span class="bold">Done</span>.<br>This marks the item complete in Workfront.<br><img src="assets/mark-as-done-350x646.png" style="width: 350;height: 646;"></li> 
 </ol>
 

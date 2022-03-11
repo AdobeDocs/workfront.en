@@ -6,7 +6,7 @@ title: Navigate Adobe Workfront
 description: This section contains the following subsections:
 ---
 
-# Navigate `Adobe Workfront`
+# Navigate Adobe Workfront
 
 This section contains the following subsections:
 

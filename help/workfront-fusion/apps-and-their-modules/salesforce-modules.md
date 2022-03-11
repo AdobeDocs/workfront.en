@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Salesfor
 
 # Salesforce modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `Salesforce` account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your Salesforce account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -32,25 +32,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -80,7 +80,7 @@ For more information about search possibilities, see the Salesforce developer do
 
 #### Watch for Records
 
-This trigger module executes a scenario when `a record in an object is created or updated`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+This trigger module executes a scenario when a record in an object is created or updated. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -90,11 +90,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Type </td> 
-   <td> <p>Select the type of <span>Salesforce</span> record that you want the module to <span>watch</span>.</p> </td> 
+   <td> <p>Select the type of Salesforce record that you want the module to watch.</p> </td> 
   </tr> 
   <tr> 
    <td>Record Fields</td> 
@@ -102,7 +102,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Maximal count of records</td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td>Watch</td> 
@@ -113,7 +113,7 @@ When you are configuring this module, the following fields display.
 
 #### Watch Outbound Messages
 
-This trigger module executes a scenario when `someone sends a message`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+This trigger module executes a scenario when someone sends a message. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <!--
 Is this correct?
@@ -166,7 +166,7 @@ Connection For instructions about connecting your Salesforce account to Workfron
  <tbody> 
   <tr> 
    <td>Webhook</td> 
-   <td> <p>Select the webhook that you want to use to watch outgoing messages. To add a webhook, click <span class="bold">Add </span>and enter the webhook's name and connection.</p> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>Select the webhook that you want to use to watch outgoing messages. To add a webhook, click <span class="bold">Add </span>and enter the webhook's name and connection.</p> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Record Type </td> 
@@ -189,7 +189,7 @@ This trigger module starts a scenario when a field is updated in Salesforce.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Record Type </td> 
@@ -201,7 +201,7 @@ This trigger module starts a scenario when a field is updated in Salesforce.
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>field</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of fields you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -231,11 +231,11 @@ Create a Record (Static Fields) This action module creates a new record in an ob
 
 #### Create a Record
 
-This action module `creates a new record in an object`.
+This action module creates a new record in an object.
 
 The module allows you to select which of the object's fields are available in the module. This reduces the number of fields you must scroll through when setting up the module.
 
-The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -245,11 +245,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Record Type </p> </td> 
-   <td> <p>Select the type of <span>Salesforce</span> record that you want the module to <span>create</span>. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
+   <td> <p>Select the type of Salesforce record that you want the module to create. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
   </tr> 
   <tr> 
    <td>Select fields to map</td> 
@@ -260,11 +260,11 @@ When you are configuring this module, the following fields display.
 
 #### Read a Record
 
-This action module reads `data from a single object` in `Salesforce`.
+This action module reads data from a single object in Salesforce.
 
-You specify the ID of the `record`.
+You specify the ID of the record.
 
-The module returns the ID of the `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -273,7 +273,7 @@ When you are configuring this module, the following fields display.
   <tr> <!--
     Connection
    --> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> <!--
     Record Type
@@ -298,11 +298,11 @@ When you are configuring this module, the following fields display.
 
 #### Delete a Record
 
-This action module `deletes an existing record in an object`.
+This action module deletes an existing record in an object.
 
-You specify the ID of the `record`.
+You specify the ID of the record.
 
-The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -312,22 +312,22 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Record Type </td> 
-   <td> <p>Select the type of <span>Salesforce</span> record that you want the module to <span>delete</span>.</p> </td> 
+   <td> <p>Select the type of Salesforce record that you want the module to delete.</p> </td> 
   </tr> 
   <tr> 
    <td>ID</td> 
-   <td> <p>Enter or map the unique <span>Salesforce</span> ID of the <span>record</span> that you want the module to <span>delete</span>.</p> <p>To get the ID, open the <span>Salesforce</span> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
+   <td> <p>Enter or map the unique Salesforce ID of the record that you want the module to delete.</p> <p>To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Custom API Call
 
-This action module lets you make a custom authenticated call to the `Salesforce` API. This way, you can create a data flow automation that can't be accomplished by the other `Salesforce` modules.
+This action module lets you make a custom authenticated call to the Salesforce API. This way, you can create a data flow automation that can't be accomplished by the other Salesforce modules.
 
 The module returns the following:
 
@@ -346,7 +346,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -358,7 +358,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -404,9 +404,9 @@ In our example, 6 users were returned:
 
 #### Upload Attachment/Document
 
-This action module `uploads a file and attaches it to a record you specify, or uploads a document`.
+This action module uploads a file and attaches it to a record you specify, or uploads a document.
 
-The module returns the ID of the `attachment or document` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the attachment or document and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -414,7 +414,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Type of Upload</td> 
@@ -437,11 +437,11 @@ When you are configuring this module, the following fields display.
 
 #### Download Attachment/Document
 
-This action module `downloads a document or attachment from a record`.
+This action module downloads a document or attachment from a record.
 
 You specify the ID of the record and the type of download you want.
 
-The module returns the ID of the  `attachment or document` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  attachment or document and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -450,7 +450,7 @@ When you are configuring this module, the following fields display.
   <tr> <!--
     Connection
    --> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> <!--
     Type of Download
@@ -473,11 +473,11 @@ Update a Record (Static Fields) This action module edits a record in an object. 
 
 #### Update a Record
 
-This action module `edits a record in an object`.
+This action module edits a record in an object.
 
 The module allows you to select which of the object's fields are available in the module. This reduces the number of fields you must scroll through when setting up the module.
 
-The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -487,7 +487,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>ID</td> 
@@ -495,7 +495,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Record Type </p> </td> 
-   <td> <p>Select the type of <span>Salesforce</span> record that you want the module to <span>update</span>. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
+   <td> <p>Select the type of Salesforce record that you want the module to update. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
   </tr> 
   <tr> 
    <td>Select fields to map</td> 
@@ -508,7 +508,7 @@ When you are configuring this module, the following fields display.
 
 #### Search with Query
 
-This search module looks for `records in an object` in `Salesforce` that match the search query you specify. You can map `this information` in subsequent modules in the scenario.
+This search module looks for records in an object in Salesforce that match the search query you specify. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -518,7 +518,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Search Type</td> 
@@ -539,7 +539,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Maximal count of records</td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -554,7 +554,7 @@ This action module retrieves all records meeting a given criteria.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type</td> 
@@ -574,7 +574,7 @@ This action module retrieves all records meeting a given criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Maximal</td> 
-   <td>Enter or map the maximum number of <span>record</span>s you want the module to <span>retrieve</span> during each scenario execution cycle.</td> 
+   <td>Enter or map the maximum number of records you want the module to retrieve during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>

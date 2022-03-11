@@ -16,7 +16,7 @@ Adobe Workfront for Experience Manager Assets Essentials is available for cloud 
 
 Workfront and AEM work together to create a seamless asset management experience. Help articles are shared between Workfront and AEM, depending on where the primary actions take place:
 
-| `Capability`  | `Adobe Workfront`  | `Adobe Experience Manager Assets Essentials`  |
+| `Capability`  |Adobe Workfront  | `Adobe Experience Manager Assets Essentials`  |
 |---|---|---|
 | Link to Assets Essentials |&nbsp; |&nbsp; |
 | Send assets to Assets Essentials |&nbsp; |&nbsp; |

@@ -11,11 +11,11 @@ description: If groups in your organization need to configure a task or issue pr
 
 # Configure task and issue preferences for a group
 
-If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an `Adobe Workfront administrator` can unlock the preference. Then, as a `group administrator`, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
+If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
 
-If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for `Workfront administrators` (for any group).
+If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
-For information about how the `Workfront administrator` unlocks preferences, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+For information about how the Workfront administrator unlocks preferences, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 >[!TIP]
 >
@@ -23,12 +23,11 @@ For information about how the `Workfront administrator` unlocks preferences, see
 
 >[!NOTE]
 >
->* Typically, an unlocked preference remains unlocked indefinitely. If the `Workfront administrator` re-locks it, the system setting takes effect again and settings for the preference made by the `group administrators` are lost.
->
+>* Typically, an unlocked preference remains unlocked indefinitely. If the Workfront administrator re-locks it, the system setting takes effect again and settings for the preference made by the group administrators are lost.
 >* The preferences set for the group that is associated with a project take precedence over the preferences set for the Home Group of the user who creates the project.
 >* Some group-level preferences affect project templates that you create for the group. For more information, see the section [View, work with, and create templates for your group from the Groups area](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view,) in the article [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* After a `Workfront administrator` unlocks a preference at the system level, you can configure it and then lock it to ensure that everyone in your group and in its subgroups is using the same configuration. This is parallel to the ability that a `Workfront administrator` has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* After a Workfront administrator unlocks a preference at the system level, you can configure it and then lock it to ensure that everyone in your group and in its subgroups is using the same configuration. This is parallel to the ability that a Workfront administrator has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
 ## Access requirements
@@ -40,30 +39,30 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> plan*</td> 
+   <td role="rowheader">Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
 ## Configure unlocked task and issue preferences for a top-level group
 
 >[!TIP]
 >
->If you are a `Workfront administrator`, you can bypass steps 1-4 by going to Setup > Project Preferences > Tasks & Issues, then searching for the group’s name in the box at the top of the page.
+>If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Project Preferences > Tasks & Issues, then searching for the group’s name in the box at the top of the page.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
  <li value="3"> Click the name of the group for which you want to configure unlocked task and issue preferences.</li> 
  <li value="4"> <p>On the page that displays for the group, in the left panel, click <span class="bold">Task & Issue Preferences</span>.</p> </li> 
- <li value="5"> <p> On the page that appears, continue with one of the 5 sections listed below these steps to configure settings for the areas New Task Defaults, Issues, Deletion, Actual Dates, and Access, then click <span class="bold">Save</span>.</p> <p>If you hover over the lock icon <img src="assets/lock-toggle-button-dimmed.png"> for a preference that you need to configure and a tool tip displays to tell you that is locked, you can ask your <span>Workfront administrator</span> to unlock it for all groups in the organization. </p> <p>When it is unlocked, you and other <span>group administrators</span> can configure it separately for your own groups. Also, you can lock it for your group and any subgroups below your group.</p> 
+ <li value="5"> <p> On the page that appears, continue with one of the 5 sections listed below these steps to configure settings for the areas New Task Defaults, Issues, Deletion, Actual Dates, and Access, then click <span class="bold">Save</span>.</p> <p>If you hover over the lock icon <img src="assets/lock-toggle-button-dimmed.png"> for a preference that you need to configure and a tool tip displays to tell you that is locked, you can ask your Workfront administrator to unlock it for all groups in the organization. </p> <p>When it is unlocked, you and other group administrators can configure it separately for your own groups. Also, you can lock it for your group and any subgroups below your group.</p> 
   <ul> 
    <li><a href="#new-task-defaults" class="MCXref xref">New Task Defaults</a> </li> 
    <li><a href="#issues" class="MCXref xref">Issues</a> </li> 
@@ -152,7 +151,7 @@ You must have the following to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">When a task or issue goes from "New" to "In Progress," set the Actual Start Date to</td> 
-     <td> <p>Select one of the following options for when the Actual Start Date is recorded in <span>Workfront</span> when a task or issue goes from <span class="bold">New</span> to <span class="bold">In Progress</span>:</p> 
+     <td> <p>Select one of the following options for when the Actual Start Date is recorded in Workfront when a task or issue goes from <span class="bold">New</span> to <span class="bold">In Progress</span>:</p> 
       <ul> 
        <li><span class="bold">Now:</span> The Actual Start Date is set to the current date.</li> 
        <li><span class="bold">The Planned Start Date:</span> The Actual Start Date is set to the Planned Start Date of the task or issue.</li> 
@@ -160,7 +159,7 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">When a task or issue is completed, set the Actual Completion Date to</td> 
-     <td> <p>Select one of the following options for when the Actual Completion Date is&nbsp;recorded in <span>Workfront</span> when a task or issue is completed:</p> 
+     <td> <p>Select one of the following options for when the Actual Completion Date is&nbsp;recorded in Workfront when a task or issue is completed:</p> 
       <ul> 
        <li><span class="bold">Now:</span> The Actual Completion Date is set to the current date.</li> 
        <li> <p><span class="bold">The Planned Completion Date:</span> The Actual Completion Date is set to&nbsp;the Planned Completion Date of the task or issue.</p> </li> 

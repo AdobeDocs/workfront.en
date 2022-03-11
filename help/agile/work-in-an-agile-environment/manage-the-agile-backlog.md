@@ -13,7 +13,7 @@ The following work items can be assigned to an agile team and added to that team
 * `Scrum agile teams:` Tasks and issues can be assigned to the agile team and added to the backlog.
 * `Kanban agile teams:` Tasks can be assigned to the agile team and added to the backlog. Users can view the backlog directly from the agile story board, as described in [Add the backlog to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). The team uses this backlog to prioritize and manage their work queue.
 
-Tasks or issues can be assigned to the team (and subsequently added to the team backlog) from anywhere in `Adobe Workfront`. For example, a single team might be assigned work assignments from multiple projects.
+Tasks or issues can be&nbsp;assigned to the team (and subsequently added to the team backlog) from anywhere in Adobe Workfront. For example, a single team might be assigned work assignments from multiple projects.
 
 ## Access requirements
 
@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create and manage stories on the backlog
 
@@ -192,4 +192,4 @@ For more information, see [Move an agile story](../../agile/work-in-an-agile-env
 
 You can export one or more stories (including tasks and issues) directly from the backlog.
 
-You export stories from the backlog in the same way that you export other data in `Workfront`, as described in [Export data](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+You export stories from the backlog in the same way that you export other data in Workfront, as described in [Export data](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).

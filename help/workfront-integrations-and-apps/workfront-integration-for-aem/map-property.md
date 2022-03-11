@@ -2,7 +2,7 @@
 
 # `Workfront Tools for AEM User Guide : Map Property`
 
-This workflow step will allow a user to map a property to a `Adobe Workfront` custom form on a project, task, issue, or document. The `Workfront` artifact this step affects will be looked up using a relative path from the payload. Which properties to map are controlled within the steps dialog configuration.
+This workflow step will allow a user to map a property to a Adobe Workfront custom form on a project, task, issue, or document. The Workfront artifact this step affects will be looked up using a relative path from the payload. Which properties to map are controlled within the steps dialog configuration.
 
 ## Access requirements
 
@@ -15,8 +15,8 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> <!--
    Adobe Workfront license* Work or higher
   --> 
@@ -27,7 +27,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 

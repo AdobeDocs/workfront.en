@@ -10,11 +10,11 @@ description: For the full glossary, see Glossary of Workfront terms.
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the `Adobe Workfront` application or in the `Workfront` documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the Adobe Workfront application or in the Workfront documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;&nbsp;
+The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&nbsp;
 
 [P](#p)
 
@@ -72,11 +72,11 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td>Plan</td> 
-   <td> <p>This is a full license type in the <span>Workfront</span> system. Users must have this to access all of the features in <span>Workfront</span>.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td> <p>This is a full license type in the Workfront system. Users must have this to access all of the features in Workfront.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Planned</td> 
-   <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in&nbsp;<span>Workfront</span>, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p> <!--
+   <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in&nbsp;Workfront, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p> <!--
      The timestamp used to baseline task KPIs
     --> </td> 
   </tr> 
@@ -90,7 +90,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td> <p>Planned Completion Date</p> </td> 
-   <td> <p>You can manually set the Planned Completion Date to a date of your choosing. If you do not set the Planned Completion Date, <span>Workfront</span>&nbsp;sets it automatically. When set automatically, the Planned Completion Date is:&nbsp;Planned Start Date + Duration</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a>.</p> </td> 
+   <td> <p>You can manually set the Planned Completion Date to a date of your choosing. If you do not set the Planned Completion Date, Workfront&nbsp;sets it automatically. When set automatically, the Planned Completion Date is:&nbsp;Planned Start Date + Duration</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Cost</p> </td> 
@@ -110,7 +110,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td> <p>Planned Hours</p> </td> 
-   <td> <p>This field appears on projects, tasks, and issues.&nbsp;</p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. </p> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment. This field is calculated by <span>Workfront</span> when the Duration Type of the task is Calculated Work, Effort Driven, or Simple.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.<br>Planned Hours are distributed equally to all the days within the duration of each task. They are stored in minutes in the <span>Workfront</span> database.<br></p> <p><span>Workfront</span> calculates the Planned Hours of a Project by adding all Planned Hours from all the tasks on the project. </p> <p>You can manually update this field for Issues.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> <p>For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <!--
+   <td> <p>This field appears on projects, tasks, and issues.&nbsp;</p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. </p> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment. This field is calculated by Workfront when the Duration Type of the task is Calculated Work, Effort Driven, or Simple.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.<br>Planned Hours are distributed equally to all the days within the duration of each task. They are stored in minutes in the Workfront database.<br></p> <p>Workfront calculates the Planned Hours of a Project by adding all Planned Hours from all the tasks on the project. </p> <p>You can manually update this field for Issues.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> <p>For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <!--
      A baseline measurement for task KPI and a communication tool for the resource managers
     --> </td> 
   </tr> 
@@ -120,7 +120,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td>Planned Revenue</td> 
-   <td> <p>The Planned Revenue of a project or a task is the amount of money associated with the Planned Hours of the project or the task. </p> <p>For information about tracking revenue in&nbsp;<span>Workfront</span> see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
+   <td> <p>The Planned Revenue of a project or a task is the amount of money associated with the Planned Hours of the project or the task. </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Planned Risk Cost</p> </td> 
@@ -128,7 +128,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td>Portal Profile</td> 
-   <td>An administrator-defined collection of Tabs and Portal Sections that appears on the <span>Workfront</span> Application Home and other Dashboards.</td> 
+   <td>An administrator-defined collection of Tabs and Portal Sections that appears on the Workfront Application Home and other Dashboards.</td> 
   </tr> 
   <tr> 
    <td>Portal Section</td> 
@@ -208,27 +208,27 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   --> 
   <tr> 
    <td>Projected</td> 
-   <td> <p>An estimate of the timestamp of when the work will be completed based on the planned hours and percentage complete of a task.</p> <p>This refers to dates or Duration of tasks, issues, or projects. Usually, it designated dates and durations that are more true to the life of the work items, after some work has already been completed or some time has passed. </p> <p>For example, the Projected Completion Date of a task is the date when <span>Workfront</span> estimates that task will complete, based on how much work has been done on it so far, how many people are assigned to it, and how much time has passed since the start date.</p> </td> 
+   <td> <p>An estimate of the timestamp of when the work will be completed based on the planned hours and percentage complete of a task.</p> <p>This refers to dates or Duration of tasks, issues, or projects. Usually, it designated dates and durations that are more true to the life of the work items, after some work has already been completed or some time has passed. </p> <p>For example, the Projected Completion Date of a task is the date when Workfront estimates that task will complete, based on how much work has been done on it so far, how many people are assigned to it, and how much time has passed since the start date.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Proof Deadline</p> </td> 
-   <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), This field displays the day of the week, date, time of day, and year of the <span>proof</span> deadline.</p> </td> 
+   <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), This field displays the day of the week, date, time of day, and year of the proof deadline.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Proof Decision</p> </td> 
-   <td> <p>In reports that contain the Document Version object (such as a Document Version report&nbsp; and Proof Approval report), this field displays the decision status of the <span>proof</span> (pending, changes required, or approved)</p> </td> 
+   <td> <p>In reports that contain the Document Version object (such as a Document Version report&nbsp; and Proof Approval report), this field displays the decision status of the proof (pending, changes required, or approved)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Proof Name</p> </td> 
-   <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), this field displays the <span>proof</span> name.</p> </td> 
+   <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), this field displays the proof name.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Proof Pages</p> </td> 
-   <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), this field displays the number of pages included in the <span>proof</span>.</p> </td> 
+   <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), this field displays the number of pages included in the proof.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Proof Progress</p> </td> 
-   <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), displays the progress status of the <span>proof</span> (Sent, Opened, Commented, Decision Made).</p> <p>For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md#understanding-progress-and-status" class="MCXref xref">Proof progress overview</a> in <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md" class="MCXref xref">Proof progress and status overview</a>.</p> </td> 
+   <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), displays the progress status of the proof (Sent, Opened, Commented, Decision Made).</p> <p>For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md#understanding-progress-and-status" class="MCXref xref">Proof progress overview</a> in <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md" class="MCXref xref">Proof progress and status overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Proofing</td> 
@@ -289,7 +289,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
  <tbody> 
   <tr> 
    <td> <p>Rank</p> </td> 
-   <td> <p>In an Access Level report, you can manually indicate a Rank of the Access Level. This helps you, as the <span>Workfront administrator</span>, to visually identify the level of complexity associated with each Access Level. For example, you can give lower numbers for more complex (Plan-level) Access Levels, and higher numbers for less complex (Requester-level) Access Levels. You cannot rank the standard Access Levels.&nbsp;</p> </td> 
+   <td> <p>In an Access Level report, you can manually indicate a Rank of the Access Level. This helps you, as the Workfront administrator, to visually identify the level of complexity associated with each Access Level. For example, you can give lower numbers for more complex (Plan-level) Access Levels, and higher numbers for less complex (Requester-level) Access Levels. You cannot rank the standard Access Levels.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ready</p> </td> 
@@ -305,7 +305,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   </tr> 
   <tr> 
    <td>Report</td> 
-   <td>A chart or table containing information about one given <span>Workfront</span> object and its related attributes.</td> 
+   <td>A chart or table containing information about one given Workfront object and its related attributes.</td> 
   </tr> 
   <tr> 
    <td>Request</td> 
@@ -373,7 +373,7 @@ The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;
   --> 
   <tr> 
    <td>Revenue Type</td> 
-   <td>Revenue type determines how the task will accrue revenue. Some examples include Fixed Hourly, Role Hourly, and Role Hourly w/Cap. For information about tracking revenue in&nbsp;<span>Workfront</span> see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</td> 
+   <td>Revenue type determines how the task will accrue revenue. Some examples include Fixed Hourly, Role Hourly, and Role Hourly w/Cap. For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</td> 
   </tr> 
   <tr> 
    <td>Reviewer</td> 

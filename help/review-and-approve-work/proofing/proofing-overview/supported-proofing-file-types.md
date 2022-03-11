@@ -7,13 +7,13 @@ title: Supported proofing file types and size limits overview
 description: You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web captures, and interactive file types up to 4 GB in size.
 ---
 
-# Supported `proofing` file types and size limits overview
+# Supported proofing file types and size limits overview
 
 You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web captures, and interactive file types up to 4 GB in size.
 
 ## File size limits
 
-`Workfront` has the following limits:
+Workfront has the following limits:
 
 * Files must be less than 4 GB per file.
 
@@ -21,8 +21,8 @@ You can share and review various types of files with your reviewers, even if the
   XLS and XLSX files must be less than 100 MB.
   -->
 
-* Files attached to comments on `proofs` must be less than 30 MB.
-* Static combined `proofs` can support up to 50 files.
+* Files attached to comments on proofs must be less than 30 MB.
+* Static combined proofs can support up to 50 files.
 * Documents uploaded as proofs must be less than 2,000 pages.
 
 >[!NOTE]
@@ -72,7 +72,7 @@ You can share and review various types of files with your reviewers, even if the
 * FLC - Flic Animation
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Graphics Interchange Format (animated GIF in the new `Workfront Proof` Viewer only)
+* GIF -&nbsp;Graphics Interchange Format (animated GIF in the new Workfront Proof Viewer only)
 * GIF HDP - Windows HD Photo
 * ICO - Windows Icon
 * IFF - Interchange File Format
@@ -207,7 +207,7 @@ You can share and review various types of files with your reviewers, even if the
 
 ## Web captures
 
-You can create static web page `proofs`. For more information, see [Create a static proof for a website or other web content](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) and [Create a Static Website Proof using Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+You can create static web page proofs. For more information, see [Create a static proof for a website or other web content](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) and [Create a Static Website Proof using Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## Zip files
 

@@ -2,9 +2,9 @@
 
 # 21.4 Project enhancements
 
-This page describes all `Project` enhancements made with the `21.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
+This page describes all Project enhancements made with the 21.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the `21.4` release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
 ## Include images in updates
 
@@ -20,7 +20,7 @@ For more information, see [Update work](../../../workfront-basics/updating-work-
 
 [View this video in full-screen mode.](https://vimeo.com/601084561/921f0410de)
 
-Before `Workfront` users can include images in updates, this feature must first be enabled by the `Adobe Workfront administrator`, as described in [Configure preferences for user updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Before Workfront users can include images in updates, this feature must first be enabled by the Adobe Workfront administrator, as described in [Configure preferences for user updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
 `<iframe class="vimeo-player_0" src="assets/601089736?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -53,7 +53,7 @@ For information, [Create a project using a template](../../../manage-work/projec
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 To make your use of Workfront consistent with the new Workfront experience, we have redesigned the interface for attaching a template to a project. The functionality for attaching a template has not changed. However, there are some of the improvements of this newly redesigned interface that include the following:
 

@@ -7,32 +7,32 @@ title: The Adobe Workfront Scenario Planner overview
 description: This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview.
 ---
 
-# The `Adobe Workfront Scenario Planner` overview
+# The Adobe Workfront Scenario Planner overview
 
-This is available only in `the new Adobe Workfront experience` and requires an additional license. For information about the `Workfront Scenario Planner`, see [The Adobe Workfront Scenario Planner overview](#).
+This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](#).
 
-## `Scenario Planner` overview
+## Scenario Planner overview
 
-The purpose of the `Workfront Scenario Planner` is to drive speed to execution for your organization-level plans and help you make crucial decisions that drive delivery of predictable, desired outcomes for your business.
+The purpose of the Workfront Scenario Planner is to drive speed to execution for your organization-level plans and help you make crucial decisions that drive delivery of predictable, desired outcomes for your business.
 
-Using the `Workfront Scenario Planner`, you can build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
+Using the Workfront Scenario Planner, you can build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
 
-You can use the `Workfront Scenario Planner` to accomplish the following:
+You can use the Workfront Scenario Planner to accomplish the following:
 
 * Provide a simple and fast process of visualizing organization-level work plans over time.
 * Optimize the allocation and assignment of necessary resources to maximize utilization.
 * Help anticipate resource conflicts to make more informed decisions for hiring new employees, adding budget to your organizational plans, or shifting timelines and priorities.
 * Create alternative scenarios for one plan with highlighted differences to quickly evaluate the effectiveness of each plan.
 
-For information about starting with the `Workfront Scenario Planner`, see [Get started with the Adobe Workfront Scenario Planner](../scenario-planner/get-started-with-scenario-planning.md).
+For information about starting with the Workfront Scenario Planner, see [Get started with the Adobe Workfront Scenario Planner](../scenario-planner/get-started-with-scenario-planning.md).
 
-## Features included with the `Workfront Scenario Planner`
+## Features included with the Workfront Scenario Planner
 
-The following functionality is currently included in the `Workfront Scenario Planner`:
+The following functionality is currently included in the Workfront Scenario Planner:
 
-* Indicate what access your users should have to the `Workfront Scenario Planner`.
+* Indicate what access your users should have to the Workfront Scenario Planner.
 
-  For information about granting access to the `Workfront Scenario Planner`, see [Grant access to Scenario Planner](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md). 
+  For information about granting access to the Workfront Scenario Planner, see [Grant access to Scenario Planner](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md). 
 
 * Create plans to indicate the major initiatives within your organization and define the supply of people resources and budget for your plans.
 

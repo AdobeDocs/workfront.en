@@ -7,22 +7,22 @@ title: Remove a user's access to Workfront Library
 description: As a Workfront Library administrator, you can remove a user's access to Workfront Library. When you remove a user from Workfront Library, only their access to Workfront Library is removed. Their Workfront account remains active. Any content that they owned in Workfront Library remains in Workfront Library.
 ---
 
-# Remove a user's access to `Workfront Library`
+# Remove a user's access to Workfront Library
 
-As a `Workfront Library administrator`, you can remove a user's access to `Workfront Library`. When you remove a user from `Workfront Library`, only their access to `Workfront Library` is removed. Their `Workfront` account remains active. Any content that they owned in `Workfront Library` remains in `Workfront Library`.
+As a Workfront Library administrator, you can remove a user's access to Workfront Library. When you remove a user from Workfront Library, only their access to Workfront Library is removed. Their Workfront account remains active. Any content that they owned in Workfront Library remains in Workfront Library.
 
-If a `Workfront` system administrator deactivates a user in `Workfront`, they automatically lose access to `Workfront Library`.
+If a Workfront system administrator deactivates a user in Workfront, they automatically lose access to Workfront Library.
 
 >[!TIP]
 >
->Before deleting or deactivating a user in `Workfront` or in `Workfront Library`, we recommend reassigning the content they own to another `Workfront Library` user. To access content owned by a deactivated user, users must have View or Manage access to the content. Only users with Manage access can make changes to content owned by a deactivated user.  
+>Before deleting or deactivating a user in Workfront or in Workfront Library, we recommend reassigning the content they own to another Workfront Library user. To access content owned by a deactivated user, users must have View or Manage access to the content. Only users with Manage access can make changes to content owned by a deactivated user.  
 >For information on changing the ownership of content, see [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
 
-A user might have multiple access levels assigned to them. For example, a user can have individual access to `Workfront Library` and access from any job role, team, group, or company that they are members of. For information on the differences between individual and user grouping access, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md).
+A user might have multiple access levels assigned to them. For example, a user can have individual access to Workfront Library and access from any job role, team, group, or company that they are members of. For information on the differences between individual and user grouping access, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md).
 
 >[!NOTE]
 >
->To determine how a user has access to `Workfront Library`, you can open the Library menu and go to `Setup` > `Access` > `Users`. In the Users area, you see a list of users and the type of access they have is listed in the Access Sources column.  
+>To determine how a user has access to Workfront Library, you can open the Library menu and go to `Setup` > `Access` > `Users`. In the Users area, you see a list of users and the type of access they have is listed in the Access Sources column.  
 >![](assets/access-sources-column-350x274.png)<![CDATA[		]]>
 
 * [Remove a user's individual access](#remove2) 
@@ -30,13 +30,13 @@ A user might have multiple access levels assigned to them. For example, a user c
 
 ## Remove a user's individual access
 
-Removing a user's individual access to `Workfront Library` does not affect any other access sources that the user has.
+Removing a user's individual access to Workfront Library does not affect any other access sources that the user has.
 
 To remove individual access:
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon.</p> <note type="note">
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon.</p> <note type="note">
    To remove a user from a portal, click 
    <span class="bold">Portals</span> in the bottom-left panel.
   </note> </li> 
@@ -61,18 +61,18 @@ To remove individual access:
 
 ## Remove access for a user grouping
 
-As a `Workfront Library` administrator, you can remove access to `Workfront Library` for an entire group of users based on their user groupings:
+As a Workfront Library administrator, you can remove access to Workfront Library for an entire group of users based on their user groupings:
 
 * Job role
 * Team
 * Group
 * Company
 
-Users who are members of the removed user grouping lose their access to `Workfront Library` and all the content shared with the grouping, unless they have individual access to `Workfront Library` or access through another user grouping in `Workfront Library`. For information on `Workfront Library` access levels and permissions, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
+Users who are members of the removed user grouping lose their access to Workfront Library and all the content shared with the grouping, unless they have individual access to Workfront Library or access through another user grouping in Workfront Library. For information on Workfront Library access levels and permissions, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
 
 >[!NOTE]
 >
->If you don't want specific users to access `Workfront Library` through a job role, team, group, or company, you need to remove them from that specific user grouping in `Workfront`. To learn how to make these changes from the user profile, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).  
+>If you don't want specific users to access Workfront Library through a job role, team, group, or company, you need to remove them from that specific user grouping in Workfront. To learn how to make these changes from the user profile, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).  
 >Alternatively, you can remove them from a user grouping by modifying the job role, team, group, or company that they are a member of. To learn more, see:  
 >
 >* [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
@@ -81,11 +81,11 @@ Users who are members of the removed user grouping lose their access to `Workfro
 >* [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
 >
 
-To remove access for a user grouping in `Workfront Library`:
+To remove access for a user grouping in Workfront Library:
 
 <ol> 
  <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon.</p> <note type="note">
+ <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon.</p> <note type="note">
    To remove a grouping from a portal, click 
    <span class="bold">Portals</span> in the bottom-left panel.
   </note> </li> 
@@ -95,9 +95,9 @@ To remove access for a user grouping in `Workfront Library`:
    <li><span class="bold">Team</span> </li> 
    <li><span class="bold">Group</span> </li> 
    <li><span class="bold">Company</span> </li> 
-  </ul> <p>A list of the user groupings for the selected type displays in <span>Workfront Library</span>.</p> </li> 
+  </ul> <p>A list of the user groupings for the selected type displays in Workfront Library.</p> </li> 
  <li value="4"> <p>Click the <span class="bold">More</span> menu inline with the user grouping that you want to remove.</p> <p> <img src="assets/remove-grouping-library-350x169.png" style="width: 350;height: 169;"> </p> </li> 
- <li value="5"> <p>Click <span class="bold">Remove</span>, then click <span class="bold">Remove</span> to confirm.</p> <p>The user grouping is removed from <span>Workfront Library</span>. Removing a user grouping from <span>Workfront Library</span> does not delete the user grouping in <span>Workfront</span>.<br></p> <note type="note">
+ <li value="5"> <p>Click <span class="bold">Remove</span>, then click <span class="bold">Remove</span> to confirm.</p> <p>The user grouping is removed from Workfront Library. Removing a user grouping from Workfront Library does not delete the user grouping in Workfront.<br></p> <note type="note">
    To transfer assets owned by members of the grouping, you must go to the Deactivated users list. To learn more about transfering assets, see 
    <a href="../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md" class="MCXref xref">Transfer ownership assets to another user</a>.
   </note> </li> 

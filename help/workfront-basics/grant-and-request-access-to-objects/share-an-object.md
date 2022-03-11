@@ -6,19 +6,19 @@ title: Share an object in Adobe Workfront
 description: Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see Create or modify custom access levels.
 ---
 
-# Share an object in `Adobe Workfront`
+# Share an object in Adobe Workfront
 
-Your `Adobe Workfront administrator` grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Along with the access level that users are granted, you can also grant them permissions to view or edit specific objects that you created or have access to share. For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Permissions are specific to one item in `Workfront` and define what actions one can take on that item.
+Permissions are specific to one item in Workfront and define what actions one can take on that item.
 
 For information about sharing permissions on objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
->A `Workfront administrator` can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
 This article describes how to share the following objects for which sharing is identical:&nbsp;
 
@@ -26,7 +26,7 @@ This article describes how to share the following objects for which sharing is i
 * Portfolios, programs
 * Documents
 
-For information about how to share all other objects in `Workfront`, also see the following articles:
+For information about how to share all other objects in Workfront, also see the following articles:
 
 * For templates, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 * For proofs, see [Share a Proof in Workfront Proof](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
@@ -50,16 +50,16 @@ You must have the following to share objects:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you want to share</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to the objects you want to share</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -68,7 +68,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Share a single object
 
@@ -98,22 +98,20 @@ You must have the following to share objects:
      </ul>
     </div></li>
    <li><p><span class="bold">Manage:&nbsp;</span>Users&nbsp;have full access to the object without administrative&nbsp;rights, which are granted at the access level, plus all View and Contribute permissions.<br><note type="note">
-      &nbsp;The 
-      <span>Workfront administrator</span> or the object creator has the ability to remove permissions from these entities.
+      &nbsp;The Workfront administrator or the object creator has the ability to remove permissions from these entities.
      </note></p><p>&nbsp;</p><p><img src="assets/screen-shot-2013-12-04-at-1.13.11-pm.png" alt=""></p></li>
   </ul></li> 
  <li value="6">(Optional) Click <span class="bold">Advanced Options</span>&nbsp;to configure specific permissions&nbsp;on the object.<p>View, Manage and Contribute have different advanced options depending on the selected object.<br>For more information about the permissions levels, see <a href="../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects in Adobe Workfront</a>. </p><p><img src="assets/screen-shot-2013-12-04-at-1.14.11-pm.png" alt=""></p></li> 
  <li value="7">(Optional)&nbsp;To make this object available to all users in the system, click the <span class="bold">Gear</span> icon<img src="assets/gear-icon-settings-with-dn-arrow.jpg"> , then in the drop-down menu click <span class="bold">Make this visible system-wide</span>.<p>All users can&nbsp;see the object based on the permissions that you set.</p></li> 
  <li value="8">(Optional and conditional) When sharing a project, click the <span class="bold">Gear</span> icon <img src="assets/gear-icon-settings-with-dn-arrow.jpg">, then in the drop-down menu click <span class="bold">Set as my project access template</span>&nbsp;to set the permissions as a template.<br>After you have defined permissions on one project, these same permissions are automatically applied the next time you create a project from scratch.<br><note type="note">
-    The project access template overrides the sharing defaults granted to you by the 
-   <span>Workfront administrator</span> in your Access Level. 
+    The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level. 
    <br>For more information about specifying sharing defaults for projects in the Access Level, see 
    <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>&nbsp;
   </note>You can specify permissions on the projects that will be created from a template when you share the template.&nbsp;For more information, see <a href="../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Share project templates</a>.</li> 
  <li value="9"> <p>(Optional) To make the object public, click <span class="bold">Make this public to external users</span>.</p> <note type="tip">
    This option is not available for all objects. 
   </note> <p>  </p> </li> 
- <li value="10"> <p>(Conditional) If you made the object public to external users, click <span class="bold">copy link,</span>&nbsp;then distribute the link to external users.<br>Any users with the link are able to view the object.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a <span>Workfront</span> user or part of your organization. </p> </li> 
+ <li value="10"> <p>(Conditional) If you made the object public to external users, click <span class="bold">copy link,</span>&nbsp;then distribute the link to external users.<br>Any users with the link are able to view the object.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. </p> </li> 
  <li value="11">Click <span class="bold">Save</span>.</li> 
 </ol>
 

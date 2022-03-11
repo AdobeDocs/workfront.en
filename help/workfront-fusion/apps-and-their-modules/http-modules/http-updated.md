@@ -2,7 +2,7 @@
 
 # HTTP modules
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 The HTTP app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.
 
 The right choice of the module depends on the authentication/authorization mechanism the resource you want to access employs:
@@ -30,7 +30,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
 
 ### Creating a connection
 
-1. Create a OAuth client in the target service with which you want `Workfront Fusion` to communicate with. This option will mostly likely be found in the Developer section of the given service. When creating the client, you will be asked to specify a so called 
+1. Create a OAuth client in the target service with which you want Workfront Fusion to communicate with. This option will mostly likely be found in the Developer section of the given service. When creating the client, you will be asked to specify a so called 
 
    ```
    Redirect URL
@@ -74,7 +74,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
    App Secret
    ```
 
-   . Make sure you write down these keys, you will be asked to provide them when creating the connection in `Workfront Fusion`.
+   . Make sure you write down these keys, you will be asked to provide them when creating the connection in Workfront Fusion.
 
 1. Find the 
 
@@ -94,7 +94,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
    Authorize URI
    ```
 
-   ). These are URL addresses through which `Workfront Fusion` communicates with the target service. The addresses serve for OAuth authorization.
+   ). These are URL addresses through which Workfront Fusion communicates with the target service. The addresses serve for OAuth authorization.
 
    Examples of Yahoo addresses:
 
@@ -110,8 +110,8 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
     https://api.login.yahoo.com/oauth2/get_token
     ```
 
-1. If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, `Workfront Fusion` will fail to create the connection and you will receive an invalid scope error.
-1. Once you have completed the steps above, you can start to create the OAuth connection in `Workfront Fusion`. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario and in the Connection section click on the Add button.
+1. If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, Workfront Fusion will fail to create the connection and you will receive an invalid scope error.
+1. Once you have completed the steps above, you can start to create the OAuth connection in Workfront Fusion. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario and in the Connection section click on the Add button.
 
    Screenshot
 

@@ -6,9 +6,9 @@ title: Edit object details in the new Adobe Workfront experience
 description: We have merged all the subtabs located under the Details tab of an object into a single page in the new Adobe Workfront experience.
 ---
 
-# Edit object details in `the new Adobe Workfront experience`
+# Edit object details in the new Adobe Workfront experience
 
-We have merged all the subtabs located under the Details tab of an object into a single page in `the new Adobe Workfront experience`.
+We have merged all the subtabs located under the Details tab of an object into a single page in the new Adobe Workfront experience.
 
 >[!NOTE]
 >
@@ -17,7 +17,7 @@ We have merged all the subtabs located under the Details tab of an object into a
 ## Benefits of displaying all object details on one page
 
 * You can access all information about the object in one place with fewer clicks.
-* Your `Adobe Workfront administrator` can modify the sequence of the areas displayed in the Details page or remove fields according to your needs using a Layout Template.
+* Your Adobe Workfront administrator can modify the sequence of the areas displayed in the Details page or remove fields according to your needs using a Layout Template.
 * You can update all fields that you have permissions to edit in one place without navigating between multiple subtabs.
 
 ## Access requirements
@@ -29,16 +29,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the object whose details you want to update</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to the object whose details you want to update</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Edit the Details page on an object
 
@@ -61,7 +61,7 @@ Accessing the Details page for an object is similar to all objects where this fu
  <li value="1">Go to the object whose <span class="bold">Details</span> page you want to access.</li> 
  <li value="2"> <p>In the left panel, click <span class="bold"><Object>&nbsp;Details</span>.&nbsp;For example, for a project, click&nbsp;<span class="bold">Project&nbsp;Details</span>. </p> <p> <img src="assets/one-page-project-details-page-350x279.png" style="width: 350;height: 279;"> </p> <p>Notice the following in the new Details page:</p> 
   <ul> 
-   <li> <p>The page displays to the right of the left panel and it is organized in several areas. </p> <p>Your <span>Workfront administrator</span> determines what areas and what fields display on the Details page when configuring and assigning you a Layout Template. For information about Layout Templates in <span>the new Adobe Workfront experience</span>, see the article <a href="../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md" class="MCXref xref">Layout templates</a>.</p> </li> 
+   <li> <p>The page displays to the right of the left panel and it is organized in several areas. </p> <p>Your Workfront administrator determines what areas and what fields display on the Details page when configuring and assigning you a Layout Template. For information about Layout Templates in the new Adobe Workfront experience, see the article <a href="../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md" class="MCXref xref">Layout templates</a>.</p> </li> 
    <li> <p>Each area contains multiple cards that group similar information together. </p> <p> <img src="assets/project-details-with-cards-and-titles-350x148.png" style="width: 350;height: 148;"> </p> </li> 
    <li> <p> The following areas display on the Details page by default:</p> 
     <table cellspacing="0"> 
@@ -70,7 +70,7 @@ Accessing the Details page for an object is similar to all objects where this fu
      <tbody> 
       <tr> 
        <td role="rowheader">Overview</td> 
-       <td> <p>Displays general information about the object. The fields in this area are <span>Workfront</span> system fields.</p> <p>This area is expanded by default.</p> </td> 
+       <td> <p>Displays general information about the object. The fields in this area are Workfront system fields.</p> <p>This area is expanded by default.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader">Names of custom forms</td> 
@@ -93,7 +93,7 @@ Accessing the Details page for an object is similar to all objects where this fu
       <li>Click <span class="bold">Edit all</span> to open all areas and custom forms for editing.</li> 
       <li>Click <span class="bold">Edit sections</span>, then click a section or custom form to open it for editing.</li> 
      </ul> <p>If you use Edit sections to open one area or custom form for editing, you can repeat this step to open others.</p> </li> 
-    <li value="2"> <p>Edit any field that is available for editing, or click <span class="bold">+Add</span> to add information to an empty field.</p> <p>You can double-click <span>or hover over and single-click</span> an editable field to edit its contents.</p> <p>Fields are not available for editing if they are automatically generated by <span>Workfront</span> or if you don't have editing permissions on them.</p> </li> 
+    <li value="2"> <p>Edit any field that is available for editing, or click <span class="bold">+Add</span> to add information to an empty field.</p> <p>You can double-click <span>or hover over and single-click</span> an editable field to edit its contents.</p> <p>Fields are not available for editing if they are automatically generated by Workfront or if you don't have editing permissions on them.</p> </li> 
     <li value="3"> <p>Click <span class="bold">Save changes</span> when you ares finished editing information in fields.</p> </li> 
    </ol> 
   </div> </li> 

@@ -2,7 +2,7 @@
 
 # Grant access to teams
 
-As an `Adobe Workfront administrator`, you can use an access level to define a user’s access to teams in `Workfront`, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+As an Adobe Workfront administrator, you can use an access level to define a user’s access to teams in Workfront, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -17,16 +17,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +35,7 @@ You must have the following to perform the steps in this article:
 
 <ol> 
  <li value="1">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</li> 
- <li value="2">Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> or <span class="bold">Edit</span> button to the right of <span>Teams</span>, then select the abilities you want to grant under <b>Fine-tune your settings</b>.
+ <li value="2">Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> or <span class="bold">Edit</span> button to the right of Teams, then select the abilities you want to grant under <b>Fine-tune your settings</b>.
   <ol>
    <li value="1"><p><b>View</b>: If you are configuring how users with any license can view teams, change any of the following options:</p>
     <table cellspacing="0">
@@ -56,26 +56,26 @@ You must have the following to perform the steps in this article:
       </tr>
      </tbody>
     </table></li>
-   <li value="2"><p><b>Edit</b>: If you are configuring how users with a <span>Plan</span> license and <span>Work</span> license can manage teams, change any of the following options:</p>
+   <li value="2"><p><b>Edit</b>: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:</p>
     <table cellspacing="0">
      <col>
      <col>
      <tbody>
       <tr>
        <td role="rowheader"><span class="bold">Create</span></td>
-       <td><p>Allows users with a <span>Plan</span> license or <span>Work</span> license to create teams.</p><p>This option is enabled by default.</p></td>
+       <td><p>Allows users with a Plan license or Work license to create teams.</p><p>This option is enabled by default.</p></td>
       </tr>
       <tr>
        <td role="rowheader"><span class="bold">Delete</span></td>
-       <td><p> Allows users with a <span>Plan</span> license to delete the teams that they have access to edit (unavailable for users with a <span>Work</span> license).</p><p>This option is enabled by default.</p></td>
+       <td><p> Allows users with a Plan license to delete the teams that they have access to edit (unavailable for users with a Work license).</p><p>This option is enabled by default.</p></td>
       </tr>
       <tr>
        <td role="rowheader"><span class="bold">Edit teams in groups I manage (Group Admins only)</span></td>
-       <td><p>Allows <span>Plan</span> license users who are designated as <span>group administrators</span> to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
+       <td><p>Allows Plan license users who are designated as group administrators to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
       </tr>
       <tr>
        <td role="rowheader"><span class="bold">Edit teams I'm on</span></td>
-       <td><p>Allows users <span>Plan</span> license or <span>Work</span> license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
+       <td><p>Allows users Plan license or Work license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
       </tr>
       <tr>
        <td role="rowheader">View teams associated with my groups</td>

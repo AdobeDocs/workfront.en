@@ -22,7 +22,7 @@ This article contains general information about the impact of modifying issue as
 
 * For information about assigning issues, see [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md) and [Edit user assignments for multiple issues](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md). 
 
-* For information about assigning issues using the `Workload Balancer`, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* For information about assigning issues using the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Some information in this article also applies to assignments to tasks. For more information about assigning tasks, and additional considerations, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 

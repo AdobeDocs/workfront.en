@@ -112,7 +112,7 @@ Use the right panel in Home to update and complete your work.
 
 ### Work in a space customized for you
 
-Your `Adobe Workfront administrator` can add up to 16 custom fields to make it easier to find and update the information you need. Most of the fields are editable, so you don't have to navigate to into the work item.
+Your Adobe Workfront administrator can add up to 16 custom fields to make it easier to find and update the information you need. Most of the fields are editable, so you don't have to navigate to into the work item.
 
 To update any of the fields in this area, simply click on the field.
 
@@ -137,7 +137,7 @@ For more information on communicating in the Home area, see [Update work](../../
 
 ### Log your time
 
-Keep track of the hours you've worked on individual work items. You can choose a general hour type, such as Task Time, or you can choose a project-specific hour type set up by your `Workfront administrator`.
+Keep track of the hours you've worked on individual work items. You can choose a general hour type, such as Task Time, or you can choose a project-specific hour type set up by your Workfront administrator.
 
 For more information on how to log time in the Home area, see the section [Home](../../../timesheets/create-and-manage-timesheets/log-time.md#home) in the article [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 

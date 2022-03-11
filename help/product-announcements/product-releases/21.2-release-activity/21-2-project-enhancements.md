@@ -9,13 +9,13 @@ description: This page describes all project enhancements made with the 21.2 rel
 
 # 21.2 Project enhancements
 
-This page describes all `project` enhancements made with the `21.2` release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the `21.2` release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+This page describes all project enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## New interface for creating and editing recurring tasks
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 As part of the redesign of the New and Edit Task boxes, we have added the ability to make a new task recurring as well as to edit the parent of a recurring task. This functionality was not included in the New and Edit Task box redesign released earlier.
 
@@ -47,7 +47,7 @@ This feature is now included in the [Planner Fundamentals for the new Workfront 
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 You can now move a story or issue off of your Scrum board by clicking the More icon on a story or issue card and selecting Move to. If you have future iterations defined, you can move the item to another iteration. You can also move the item to your team's backlog.
 
@@ -63,7 +63,7 @@ For more information, see Manage stories and issues on the Scrum board.
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 As part of updating the look and feel of the new Workfront experience, we have redesigned the Edit Issue box. You can access the new Edit Issue box from an individual issue or when editing a single issue from a list.
 
@@ -82,7 +82,7 @@ In addition to an updated look and feel, the following changes are also availabl
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 Based on user feedback, we have moved the Save and Cancel buttons to the lower-left corner of the Edit Object and New Object boxes for projects and tasks.
 
@@ -99,7 +99,7 @@ For information about editing projects or tasks, see the following articles:
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 For a better experience when you fill out a custom form, we have improved the way that long custom field labels display. When there is enough horizontal space to show them in their entirety, these labels are no longer truncated.
 
@@ -117,7 +117,7 @@ For information about filling out custom forms, see Edit information in custom f
 
 When converting an issue to a project, the issue’s requester is transferred to the project and visible in the Converted Issue Originator field. You can view this field in the Project Details area, as well as in project reports and lists. This information is also visible for tasks, only in reports and lists.
 
-You must enable this field in your Layout Template to be able to view it in the new `Adobe Workfront` experience for projects.
+You must enable this field in your Layout Template to be able to view it in the new Adobe Workfront experience for projects.
 
 For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -129,7 +129,7 @@ For information about converting issues, see [Overview of converting issues in A
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`.
+>This feature is available only in the new Adobe Workfront experience.
 
 When you are assigning a group to a portfolio, program, or team, we’ve made it easier to ensure that you have the right group—you can click the info icon next to the name of the group to display a tooltip containing the hierarchy of groups above it, along with the group’s administrators. Depending on the details configured for the group, you might also see the group’s Business Leader and description.
 
@@ -145,7 +145,7 @@ For more information, see the following articles:
 
 >[!NOTE]
 >
->This feature is available only in `Adobe Workfront Classic`.
+>This feature is available only in Adobe Workfront Classic.
 
 Users can now see text formatting such as bold, bullet lists, and hyperlinks in custom fields when viewing lists and reports.
 
@@ -163,13 +163,13 @@ For information about displaying information in lists, see Get started with list
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 As part of updating the look and feel of the new Workfront experience, we have redesigned the Edit Task box. You can access the new Edit Task box from an individual task or when editing a single task from a list.
 
 >[!NOTE]
 >
->As part of this update, the Resource Scope field will be removed from `the new Adobe Workfront experience`.
+>As part of this update, the Resource Scope field will be removed from the new Adobe Workfront experience.
 
 In addition to an updated look and feel, the following changes are also available in the Edit Task box:
 
@@ -188,13 +188,13 @@ For information about the new Edit Task box, see Edit tasks.
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 As part of updating the look and feel of the new Workfront experience, we have redesigned the New Task box. You can access the New Task box when you add a task to a project by clicking New Task at the top of the task list.
 
 >[!NOTE]
 >
->As part of this update, the Resource Scope field will be removed from `the new Adobe Workfront experience`.
+>As part of this update, the Resource Scope field will be removed from the new Adobe Workfront experience.
 
 In addition to an updated look and feel, the following changes are also available in the New Task workflow:
 
@@ -226,7 +226,7 @@ For more information, see [Deactivate a team](../../../people-teams-and-groups/c
 
 >[!NOTE]
 >
->Available only in `the new Adobe Workfront experience`.
+>Available only in the new Adobe Workfront experience.
 
 To offer you a cohesive experience across all objects, we changed the way the “Allow users to delete tasks & issues with logged hours” setting works in Workfront. Now, when your Workfront or group administrator disables the Task & Issue preference, you can no longer delete projects that contain tasks or issues with logged hours.
 

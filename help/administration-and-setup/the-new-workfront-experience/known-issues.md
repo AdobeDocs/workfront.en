@@ -2,7 +2,7 @@
 
 # In development in the new Adobe Workfront experience
 
-Following is a list of functionality that is not yet available, but will soon be available in the new `Adobe Workfront` experience Beta Preview environment. This is not a comprehensive list of functionality yet to be released with the new Workfront experience.
+Following is a list of functionality that is not yet available, but will soon be available in the new Adobe Workfront experience Beta Preview environment. This is not a comprehensive list of functionality yet to be released with the new Workfront experience.
 
 ### Cannot configure a custom Help URL
 

@@ -8,15 +8,15 @@ title: Speed issues in Workfront Proof
 description: This help page can help you determine if any speed issues that you might be experiencing when using Workfront Proof are related to your ISP or Workfront Proof's content delivery network.
 ---
 
-# Speed issues in `Workfront Proof`
+# Speed issues in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-This help page can help you determine if any speed issues that you might be experiencing when using `Workfront Proof` are related to your ISP or `Workfront` Proof's content delivery network.
+This help page can help you determine if any speed issues that you might be experiencing when using Workfront Proof are related to your ISP or Workfront Proof's content delivery network.
 
-Speed problems are generally due to the local ISP connection or local internet access setup (for example, where a proxy server is used) and so are unfortunately outside of the control of `Workfront Proof`.
+Speed problems are generally due to the local ISP connection or local internet access setup (for example, where a proxy server is used) and so are unfortunately outside of the control of Workfront Proof.
 
 That said, there are a few steps you can take to check your connection speed which will&nbsp;allow for the root cause of the issues you are experiencing to be determined. All of these steps are equally important for the troubleshooting process and we would encourage you to take the time to gather information on all of the listed steps to ensure the most accurate diagnosis of the problem.
 
@@ -24,13 +24,13 @@ Once you gather all the&nbsp;details, we would recommend that you consult with&n
 
 ## Establish which part of the system is slow
 
-When you use `Workfront Proof`, you might be working with the Dashboard, for example, managing folder content and users or with the `Workfront` Proof Viewer: conducting a `proof` review, checking the comments already made, and so on.
+When you use Workfront Proof, you might be working with the Dashboard, for example, managing folder content and users or with the Workfront Proof Viewer: conducting a proof review, checking the comments already made, and so on.
 
-Determining which exact part of the system is slow is the first step in troubleshooting speed issues. When you report `Workfront Proof` being slow, make sure to describe the following:
+Determining which exact part of the system is slow is the first step in troubleshooting speed issues. When you report Workfront Proof being slow, make sure to describe the following:
 
 * Are you experiencing slowness in any other webpages?
-* Does the problem occur in the Dashboard or `Workfront Proof` Viewer?
-* Which exact part of the system is slow? (e.g. processing a new `proof` or opening a comment in `Workfront Proof` Viewer)
+* Does the problem occur in the Dashboard or Workfront Proof Viewer?
+* Which exact part of the system is slow? (e.g. processing a new proof or opening a comment in Workfront Proof Viewer)
 
 ## Run traceroute and ping tests
 

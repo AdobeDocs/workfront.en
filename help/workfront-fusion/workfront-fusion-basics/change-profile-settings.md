@@ -9,7 +9,7 @@ description: You can change information in your Adobe Workfront Fusion account p
 
 # Change profile settings
 
-You can change information in your `Adobe Workfront Fusion` account profile.
+You can change information in your Adobe Workfront Fusion account profile.
 
 ## Access requirements
 
@@ -20,25 +20,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Change profile settings
 
@@ -62,7 +62,7 @@ To change information in your account profile:
        <li><span class="bold">Warning in scenario run</span>: Receive an email when there is a warning in a scenario run.</li> 
        <li><span class="bold">Errors in scenario run</span>: Receive an email when there is a warning in a scenario run.</li> 
        <li><span class="bold">Scenario deactivation</span>: Receive an email when a scenario deactivates.</li> 
-       <li><span class="bold">New module in </span><span>Workfront Fusion</span>: Receive an email when we add a new module to <span>Adobe Workfront Fusion</span>.</li> 
+       <li><span class="bold">New module in </span>Workfront Fusion: Receive an email when we add a new module to Adobe Workfront Fusion.</li> 
       </ul> </td> 
     </tr> 
     <tr> 

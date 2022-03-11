@@ -9,7 +9,7 @@ description: s mAs a Workfront administrator, you can change the order of projec
 
 # Reorder system-level and group statuses
 
-s mAs a `Workfront administrator`, you can change the order of project, task, and issue statuses for everyone in the system or for a single group.
+s mAs a Workfront administrator, you can change the order of project, task, and issue statuses for everyone in the system or for a single group.
 
 >[!NOTE]
 >
@@ -29,13 +29,13 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a>* </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>* </td> 
    <td> <p>Any</p> </td> 
   </tr> Adobe Workfront license* Plan You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
 ## Default order of statuses
 

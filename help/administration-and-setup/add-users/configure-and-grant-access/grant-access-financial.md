@@ -10,9 +10,9 @@ description: As an Adobe Workfront administrator, you can define a user’s acce
 
 # Grant access to financial data
 
-As an `Adobe Workfront administrator`, you can define a user’s access to the following through the user's access level, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
+As an Adobe Workfront administrator, you can define a user’s access to the following through the user's access level, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
-* Financial information on projects in `Workfront`
+* Financial information on projects in Workfront
 * Resource budgeting information in the Resource Planning tools
 
 ## Access requirements
@@ -24,23 +24,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Considerations for granting access to financial data
 
-Consider the following when granting users access to financial data in `Workfront`:
+Consider the following when granting users access to financial data in Workfront:
 
 * A user whose access level doesn't allow access to financial data cannot create a risk for a project. For more information, see [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * You can also use an access level to determine which Resource Management activities a user can employ to budget or view resource allocation. For information, see [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
@@ -49,7 +49,7 @@ Consider the following when granting users access to financial data in `Workfron
 
 <ol> 
  <li value="1"> <p>Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </li> 
- <li value="2"> <p>Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> or <span class="bold">Edit</span> button to the right of <span>Financial Data</span>, then select the abilities you want to grant under <b>Fine-tune your settings</b>.</p>  </li> 
+ <li value="2"> <p>Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> or <span class="bold">Edit</span> button to the right of Financial Data, then select the abilities you want to grant under <b>Fine-tune your settings</b>.</p>  </li> 
  <li value="3"> <p>(Optional) In the <span class="bold">Allow administrative access for</span> area, select the following options:<![CDATA[
 ]]></p> 
   <table cellspacing="0"> 
@@ -58,11 +58,11 @@ Consider the following when granting users access to financial data in `Workfron
    <tbody> 
     <tr> 
      <td role="rowheader">Exchange rates</td> 
-     <td> <p>Add new currency in <span>Workfront</span>.</p> <p>Without this access, the user can only add an existing currency to a project they create.</p> </td> 
+     <td> <p>Add new currency in Workfront.</p> <p>Without this access, the user can only add an existing currency to a project they create.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Expenses</td> 
-     <td> <p>View all expenses on objects in <span>Workfront</span>.<br></p> <p>This does not allow the user to create new Expense Types.<br></p> <p>Without this access, the user can only view the following:</p> 
+     <td> <p>View all expenses on objects in Workfront.<br></p> <p>This does not allow the user to create new Expense Types.<br></p> <p>Without this access, the user can only view the following:</p> 
       <ul> 
        <li>Expenses on projects, tasks or issues they manage</li> 
        <li>Their own expenses</li> 

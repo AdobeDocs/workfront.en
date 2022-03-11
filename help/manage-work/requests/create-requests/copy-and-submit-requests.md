@@ -13,16 +13,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -31,7 +31,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -66,7 +66,7 @@ You must have a request that you or someone in your organization previously subm
 ## Copy and submit requests
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Requests</span>.</p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Requests</span>.</p> </li> 
  <li value="2"> <p>(Conditional) If the Submitted section does not display by default, click <span class="bold">Submitted</span> in the left panel.</p> </li> 
  <li value="3"> <p>Locate the request that you want to copy and submit as new, and do one of the following:</p> 
   <ul> 
@@ -90,7 +90,7 @@ You must have a request that you or someone in your organization previously subm
     <tbody> 
      <tr> 
       <td role="rowheader"><span class="bold">Subject</span> </td> 
-      <td>Displays the name of the original request. Update it, if necessary.&nbsp;Otherwise, <span>Workfront</span> names the copied request <b>Copy of <Name of original request></b>. This is a mandatory field.</td> 
+      <td>Displays the name of the original request. Update it, if necessary.&nbsp;Otherwise, Workfront names the copied request <b>Copy of <Name of original request></b>. This is a mandatory field.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Description</span> </td> 
@@ -109,7 +109,7 @@ You must have a request that you or someone in your organization previously subm
         <li>Normal</li> 
         <li>High</li> 
         <li>Urgent</li> 
-       </ul> <p>Your <span>Workfront administrator</span> can modify the names of priorities.</p> </td> 
+       </ul> <p>Your Workfront administrator can modify the names of priorities.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Severity</span> </td> 
@@ -120,11 +120,11 @@ You must have a request that you or someone in your organization previously subm
         <li>Bug with workaround</li> 
         <li>Bug with no workaround</li> 
         <li>Fatal error</li> 
-       </ul> <p>Your <span>Workfront administrator</span> can modify the names of severities.</p> </td> 
+       </ul> <p>Your Workfront administrator can modify the names of severities.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Primary Contact</span> </td> 
-      <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other <span>Workfront</span> user.</td> 
+      <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other Workfront user.</td> 
      </tr> Assignments* Indicate the name of an active user, job role, or a team that the request should be assigned to. Tip: You can specify only one team. Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. 
      <tr> 
       <td role="rowheader" colspan="2"> <note type="note"> 
@@ -150,7 +150,7 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Status</span> </td> 
-      <td>The default status of a new request is "New." Your <span>Workfront administrator</span> might have changed the name of this&nbsp;status. You can also change the status to something else from this drop-down menu.</td> 
+      <td>The default status of a new request is "New." Your Workfront administrator might have changed the name of this&nbsp;status. You can also change the status to something else from this drop-down menu.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Documents</span> </td> 

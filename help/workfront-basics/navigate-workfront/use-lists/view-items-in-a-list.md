@@ -5,26 +5,26 @@ title: Get started with lists in Adobe Workfront
 description: Objects can be displayed in lists in Adobe Workfront. A list is a grid that contains a number of objects, information about them, or other objects referenced from them.
 ---
 
-# Get started with lists in  `Adobe Workfront`
+# Get started with lists in&nbsp;Adobe Workfront
 
-Objects can be displayed in lists in `Adobe Workfront`. A list is a grid that contains a number of objects, information about them, or other objects referenced from them.
+Objects can be displayed in lists in Adobe Workfront. A list is a grid that contains a number of objects, information about them, or other objects referenced from them.
 
-The following are some characteristics of lists in `Workfront`:
+The following are some characteristics of lists in Workfront:
 
 * Lists are object specific: one list can reference only one type of object. Other objects that are directly connected to the object of the list can also be referenced in the same list.
 
   For example, a list of tasks includes task information like Assignments, Start and Due Date, but it can also include project information like Project Name or the name of the Project Owner.
 
 * Lists refresh automatically every 5 minutes to update information that other users in the system are updating elsewhere.
-* Some areas in `Workfront` are preconfigured with default lists of objects.
+* Some areas in Workfront are preconfigured with default lists of objects.
 
   You can customize most of these preconfigured lists.
 
-* A `Workfront administrator` can create custom lists to apply to various areas of `Workfront`.
+* A Workfront administrator can create custom lists to apply to various areas of Workfront.
 
   For more information about creating system-level lists, see the article [Create, edit, and share default filters, views, and groupings](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-Below are some types of object lists that you can find in `Workfront` and some of the areas where they display by default when you have rights to view an object.
+Below are some types of object lists that you can find in Workfront and some of the areas where they display by default when you have rights to view an object.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Below are some types of object lists that you can find in `Workfront` and some o
  <col> 
  <thead> 
   <tr> 
-   <th><span>Workfront</span> list</th> 
+   <th>Workfront list</th> 
    <th>Location of object list</th> 
   </tr> 
  </thead> 
@@ -170,7 +170,7 @@ Below are some types of object lists that you can find in `Workfront` and some o
  </tbody> 
 </table>
 
-&#42;You cannot customize the list on the specified area. A `Workfront administrator` can build a customized list at the system level, or you can build a report for this object if your access level allows you have access to edit reports.
+&#42;You cannot customize the list on the specified area. A Workfront administrator can build a customized list at the system level, or you can build a report for this object if your access level allows you have access to edit reports.
 
 ## List elements
 
@@ -178,7 +178,7 @@ A list contains certain elements that define its format and the information that
 
 >[!NOTE]
 >
->When you select a new filter, view or grouping from a list, that selection is retained even if you log out of `Workfront` or close your browser.
+>When you select a new filter, view or grouping from a list, that selection is retained even if you log out of Workfront or close your browser.
 
 The following are the elements of a list:
 
@@ -220,17 +220,17 @@ For more information about creating and customizing the building elements of lis
 
 ## The difference between the updated and the legacy lists
 
-There are two types of lists in `Workfront`:
+There are two types of lists in Workfront:
 
 <ul> 
  <li> <p>Legacy lists</p> <p> <img src="assets/legacy-list-screen-shot-blue-groupings-350x101.png" style="width: 350;height: 101;"> </p> </li> 
  <li> <p>Updated lists</p> <p> <img src="assets/updated-list-screen-shot-gray-groupings-350x71.png" style="width: 350;height: 71;"> </p> </li> 
 </ul>
 
-Both types of lists appear in  `the new Adobe Workfront experience`.
+Both types of lists appear in&nbsp;the new Adobe Workfront experience.
 All lists and reports in the new Adobe Workfront experience are updated lists, except for the following: Lists in the Setup area Lists in the Reports area Documents lists 
 
-The following table shows some of the differences between the legacy and updated lists in `Workfront`:
+The following table shows some of the differences between the legacy and updated lists in Workfront:
 
 <table cellspacing="15"> 
  <col> 
@@ -291,12 +291,12 @@ The following table outlines the similarities and differences between lists and 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Only a <span>Workfront administrator</span> and users with a Plan license can create them</p> </td> 
+   <td> <p>Only a Workfront administrator and users with a Plan license can create them</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>A default set is available from <span>Workfront</span></p> </td> 
+   <td> <p>A default set is available from Workfront</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -400,7 +400,7 @@ You can complete the following actions in a list:
   </tr> Update with the Summary Update tasks and issues at the project level using the Summary panel. Tip: The Summary is not available for all objects and it is not available in Task or Issue reports. For more information, see Summary overview in the new Adobe Workfront experience. 
   <tr> 
    <td><span class="bold">Customize list display</span> </td> 
-   <td> <p>Customize the look and feel of a list, column arrangement, sorting order of items, or number of items that display.</p> <p>Note: Changes you make to the number of items to display on a page are reverted when you log out of <span>Workfront</span> or close your browser. Changes might also be reverted after a period of 8 hours.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</p> </td> 
+   <td> <p>Customize the look and feel of a list, column arrangement, sorting order of items, or number of items that display.</p> <p>Note: Changes you make to the number of items to display on a page are reverted when you log out of Workfront or close your browser. Changes might also be reverted after a period of 8 hours.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Quick filter</span> </td> 
@@ -408,7 +408,7 @@ You can complete the following actions in a list:
   </tr> 
   <tr> 
    <td><span class="bold">Export</span> </td> 
-   <td> <p>Export a list of objects from <span>Workfront</span>. When a list contains more than 2000 items, exporting the list is the only way to review all of the items on one page.</p> <p>For more information about exporting a list, see <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Export a list</a>. For more information about export formats and limits, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a>.</p> </td> 
+   <td> <p>Export a list of objects from Workfront. When a list contains more than 2000 items, exporting the list is the only way to review all of the items on one page.</p> <p>For more information about exporting a list, see <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Export a list</a>. For more information about export formats and limits, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

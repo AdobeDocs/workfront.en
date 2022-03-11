@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator or a user with administrative a
 
 # Create and manage job roles
 
-As an `Adobe Workfront administrator` or a user with administrative access to Job Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in `Workfront`, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+As an Adobe Workfront administrator or a user with administrative access to Job&nbsp;Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in Workfront, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Access requirements
 
@@ -20,21 +20,21 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to Job roles</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Administrative access to Job roles</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create a job role
 
@@ -48,9 +48,8 @@ You must have the following:
    <tbody> 
     <tr> 
      <td role="rowheader">Name</td> 
-     <td> <p>Indicate a name for the job role.&nbsp;This is the name that displays everywhere in&nbsp;<span>Workfront</span> where the Job&nbsp;Role field displays. </p> <note type="tip">
-       The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of 
-       <span>Workfront</span>. 
+     <td> <p>Indicate a name for the job role.&nbsp;This is the name that displays everywhere in&nbsp;Workfront where the Job&nbsp;Role field displays. </p> <note type="tip">
+       The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of Workfront. 
       </note> </td> 
     </tr> Is Active Select Yes if you want the role to be active and available everywhere in Workfront to be associated with users, work items, etc. Select No, if you want the role to be deactivated and not available to assign to users, work items, etc. For information about deactivating job roles, see Deactivate job roles. 
     <tr> 
@@ -70,7 +69,7 @@ You must have the following:
    Job roles are an integral&nbsp;part of managing resources. To use the resource planning tools, job roles need a cost and billing rate associated with them. For information, see 
    <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref">Get started with Resource Management </a>. 
   </note> </li> 
- <li value="5"> <p>Click <span class="bold">Create Job Role</span>. The job role is now available to be assigned to tasks, issues, approvals, or you can share layout templates or other objects with it. For information about all uses of job roles in&nbsp;<span>Workfront</span>, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md" class="MCXref xref">Job role overview</a>. For information about deleting a job role, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md" class="MCXref xref">Delete job roles</a>. </p> </li> 
+ <li value="5"> <p>Click <span class="bold">Create Job Role</span>. The job role is now available to be assigned to tasks, issues, approvals, or you can share layout templates or other objects with it. For information about all uses of job roles in&nbsp;Workfront, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md" class="MCXref xref">Job role overview</a>. For information about deleting a job role, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md" class="MCXref xref">Delete job roles</a>. </p> </li> 
 </ol>
 
 <!--

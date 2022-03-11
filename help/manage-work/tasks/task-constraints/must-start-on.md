@@ -17,7 +17,7 @@ The Must Start On constraint schedules a task to start exactly at the time and d
 
 Consider the following when scheduling a task with a Must Start On constraint:
 
-* Predecessor relationships do not force this task to reschedule. `Workfront` essentially ignores any predecessor relationships of the task with this constraint.
+* Predecessor relationships do not force this task to reschedule. Workfront essentially ignores any predecessor relationships of the task with this constraint.
 * The task does show `At Risk` if predecessors begin to run behind or late.
 
 * When you move or copy a task with a MSO constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:

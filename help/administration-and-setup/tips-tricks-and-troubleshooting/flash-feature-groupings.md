@@ -10,19 +10,19 @@ description: For most customers, Adobe Workfront removed all Flash-based tools a
 
 # Flash feature groupings
 
-For most customers, `Adobe Workfront` removed all Flash-based tools as part of the 2018.3 release to the Production environment (for more information, see [Replacement of Flash-based tools in Adobe Workfront](../../product-announcements/announcements/replace-flash-tools.md)). However, some organizations were identified as a regular user of one of the legacy Flash tools in `Workfront`. These customers continued to have access to that Flash tool after the 2018.3 release was made available in Production.
+For most customers, Adobe Workfront removed all Flash-based tools as part of the 2018.3 release to the Production environment (for more information, see [Replacement of Flash-based tools in Adobe Workfront](../../product-announcements/announcements/replace-flash-tools.md)). However, some organizations&nbsp;were identified as a regular user of one of the legacy Flash tools in Workfront. These customers continued to have access to that Flash tool after the 2018.3 release was made available in Production.
 
-For those customers, Flash tools were enabled for the organization as part of a feature grouping. If your organization was identified as requiring access to a particular Flash tool, you continued to have access to that tool, along with other Flash tools in the `Workfront` application that are part of the same feature grouping.
+For those customers, Flash tools were enabled for the organization as part of a feature grouping. If your organization was identified as requiring access to a particular Flash tool, you continued to have access to that tool, along with other Flash tools in the Workfront application that are part of the same feature grouping.
 
 Access to these Flash tools will be removed for each customer as we see that the tools are no longer being used. These customers will receive a message in the Announcement Center in Workfront when the Flash tools are removed from their specific Workfront instance.
 
-You will receive a message in the Announcement Center in `Workfront` if any of the feature groupings will be enabled for your organization. These feature&nbsp;groupings are currently reflected in your Preview environment, prior to the 2018.3 Production release.
+You will receive a message in the Announcement Center in Workfront if any of the feature groupings will be enabled for your organization. These feature&nbsp;groupings are currently reflected in your Preview environment, prior to the 2018.3 Production release.
 
 >[!IMPORTANT]
 >
 >&nbsp;Be aware of the following conditions when accessing Flash-based tools after the 2018.3 release:
 >
->* The Legacy `proofing viewer` will not be available for any organizations after the 2018.3 release.
+>* The Legacy proofing viewer will not be available for any organizations after the 2018.3 release.
 >* Any feature grouping currently enabled for your organization&nbsp;will eventually be removed, and you will no longer have access to the Flash tools included with that feature grouping. We encourage you to take any necessary steps to move away from any Flash-based features to their replacement features as soon as possible. For more information, see&nbsp; [Replacement of Flash-based tools in Adobe Workfront](../../product-announcements/announcements/replace-flash-tools.md).&nbsp;
 >
 

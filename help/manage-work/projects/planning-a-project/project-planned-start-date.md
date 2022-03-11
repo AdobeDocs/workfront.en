@@ -29,7 +29,7 @@ The Planned Start Date of a project is automatically set when you create the pro
 
 * from scratch and when you schedule the project from Completion Date.&nbsp;
 
-  The Planned Start Date is automatically calculated by `Adobe Workfront`, based on the date you select for the Completion Date and the durations of all the tasks on the project.
+  The Planned Start Date is automatically calculated by Adobe Workfront, based on the date you select for the Completion Date and the durations of all the tasks on the project.
 
   For information about creating a project from scratch, see [Create a project](../../../manage-work/projects/create-projects/create-project.md). 
 
@@ -39,7 +39,7 @@ The Planned Start Date of a project is automatically set when you create the pro
 
   For information about importing a project from&nbsp;Microsoft Project, see [Import a project from Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-* import it using `Workfront` Kick-Starts, when you are a `Workfront administrator`.
+* import it using Workfront Kick-Starts, when you are a Workfront administrator.
 
   The Planned Start&nbsp;Date always matches your computer's time and date, unless you specify otherwise in the setPlannedStartDate field on the Project sheet of the kick-start file.
 
@@ -53,7 +53,7 @@ To schedule a project from Completion Date: Click the Main Menu icon in the uppe
 
 ## The Planned Start Date of a task
 
-You can either specify the Planned Start Date of a task, or you can leave it up to `Workfront` to calculate it depending on certain criteria.&nbsp;
+You can either specify the Planned Start Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;
 
 For information about the Planned Start&nbsp;Date of a task, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 

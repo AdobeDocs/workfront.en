@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit groupings in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit groupings in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,11 +41,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-Before starting to use text mode in a report or list, always ensure that you are familiar with the `Workfront` text-mode syntax.
+Before starting to use text mode in a report or list, always ensure that you are familiar with the Workfront text-mode syntax.
 
 For more information, see:
 
@@ -72,11 +72,10 @@ For information about creating a report, see [Create a custom report](../../../r
    <li value="2"> To access the grouping from a list, go to the list and from the Grouping drop-down menu, mouse over the grouping that you want to modify and click the Edit icon . The grouping builder opens. </li> 
   </ol> </li> 
  <li value="2"> <p>Click&nbsp;<span class="bold">Add Grouping</span> to add the groupings, then click&nbsp;<span class="bold">Switch to Text Mode</span> in the upper-right corner of the builder.</p> <note type="tip">
-   You can add up to 3 groupings in the standard interface. You can add a 4th grouping only using text mode, and you cannot have more than 4 grouping levels in 
-   <span>Workfront</span>.
+   You can add up to 3 groupings in the standard interface. You can add a 4th grouping only using text mode, and you cannot have more than 4 grouping levels in Workfront.
   </note> </li> 
  <li value="3"> <p>Start typing the name of a field that you want to group by.</p> <p>Select the name of the field when you see it in the list.</p> </li> 
- <li value="4"> <p> Click <span class="bold">Switch to Text Mode</span> in the upper-right corner of the builder.</p> <p>The grouping is then displayed in text mode.</p> <p>When you edit a grouping in text mode, <span>Workfront</span> adds the <code>textmode=true</code> line of code to the grouping. This indicates that the grouping is modified in text mode.</p> 
+ <li value="4"> <p> Click <span class="bold">Switch to Text Mode</span> in the upper-right corner of the builder.</p> <p>The grouping is then displayed in text mode.</p> <p>When you edit a grouping in text mode, Workfront adds the <code>textmode=true</code> line of code to the grouping. This indicates that the grouping is modified in text mode.</p> 
   <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span> 
    <p>To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode.</p> 
    <p><code>textmode=true<br>group.0.linkedname=project<br>group.0.namekey=view.relatedcolumn<br><span class="bold">group.0.valuefield=project:name</span><br>group.0.namekeyargkey.0=project<br>group.0.namekeyargkey.1=name<br><span class="bold">group.0.valueformat=string</span><br>group.1.linkedname=assignedTo<br>group.1.namekey=view.relatedcolumn<br><span class="bold">group.1.valuefield=assignedTo:name</span><br>group.1.namekeyargkey.0=assignedTo<br>group.1.namekeyargkey.1=name<br><span class="bold">group.1.valueformat=string</span></code> </p> <note type="important">
@@ -108,8 +107,7 @@ For information about creating a report, see [Create a custom report](../../../r
        <li>The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code></em>.</li> 
        <li>Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code></em>.</li> 
       </ul> <note type="note">
-       4 groupings are not supported in the builder. They are only supported when using text mode. 
-       <span>Workfront</span> does not support more than 4 levels of groupings.
+       4 groupings are not supported in the builder. They are only supported when using text mode. Workfront does not support more than 4 levels of groupings.
       </note> </td> 
     </tr> 
     <tr> 

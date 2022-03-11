@@ -5,9 +5,9 @@ title: Subscribe to items in Adobe Workfront
 description: Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
 ---
 
-# Subscribe to items in `Adobe Workfront`
+# Subscribe to items in Adobe Workfront
 
-`Adobe Workfront` sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
+Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
 
 You can also keep your manager and peers updated on your work by subscribing them to the Update Status of items to which you have Manage and Share permissions.
 
@@ -36,16 +36,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>If your <span>Workfront administrator</span> has enabled <span class="bold">View only updates in which they have been included in the conversation</span> in your access level, you cannot subscribe to items in <span>Workfront</span>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>If your Workfront administrator has enabled <span class="bold">View only updates in which they have been included in the conversation</span> in your access level, you cannot subscribe to items in Workfront.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object Permissions</td> 
@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Subscribe to an item
 
@@ -76,7 +76,7 @@ To learn more about mobile app push notifications, see .
 
 ## Unsubscribe from an item
 
-You can easily unsubscribe from an item in `Workfront`. The process for unsubscribing from an item in `Workfront` is identical&nbsp;for all items.
+You can easily&nbsp;unsubscribe from an item in Workfront. The process for unsubscribing&nbsp;from an item in Workfront is identical&nbsp;for all items.
 
 For example, to unsubscribe from&nbsp;an issue:
 
@@ -107,7 +107,7 @@ All subscribers are given View permission to the subscribed item. If the new sub
 
 The subscriber is not notified of the subscription, but an entry about the subscription is added to the System Updates for the item.
 
-When someone adds a comment to the Updates tab of the item, the subscriber receives an in-app notification. Depending on the features your  `Workfront administrator` has enabled, the subscriber&nbsp;may also receive email and mobile notifications for the item.
+When someone adds a comment to the Updates tab of the item, the subscriber receives an in-app notification. Depending on the features your&nbsp;Workfront administrator has enabled, the subscriber&nbsp;may also receive email and mobile notifications for the item.
 
 ### Unsubscribe another person from&nbsp;an item
 
@@ -131,7 +131,7 @@ For more information, see [View and manage in-app notifications](../../workfront
 
 ## Receive the subscription email
 
-Depending on the features your `Workfront administrator` has enabled, you may receive subscription emails in addition to in-app notifications whenever someone comments on an item you subscribe to.
+Depending on the features your Workfront administrator has enabled, you may receive subscription emails in addition to in-app notifications whenever someone comments on an item you subscribe to.
 
 <!--
 For more information about the subscription email, see the "Receiving Subscription Emails" section in Adobe Workfront notifications.
@@ -158,7 +158,7 @@ To see who is&nbsp;subscribing to an item:
 
 Consider&nbsp;the following as you are working with subscriptions:
 
-* The `Workfront administrator` cannot control what users can or cannot subscribe to.
+* The Workfront administrator cannot control what users can or cannot subscribe to.
 
   Anyone with View or higher permissions to any task, issue, or project&nbsp;can subscribe to them.
 

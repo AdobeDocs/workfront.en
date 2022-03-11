@@ -9,7 +9,7 @@ description: You can group by the value in a multi-select custom field in a Adob
 
 # Group and chart a report by a multi-select custom field
 
-You can group by the value in a multi-select custom field in a `Adobe Workfront` report. Examples of multi-select custom fields are:
+You can group by the value in a multi-select custom field in a Adobe Workfront report. Examples of multi-select custom fields are:
 
 * Checkboxes
 * Multi-select dropdown menus
@@ -27,16 +27,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Group a report by multi-select custom fields
 
@@ -68,7 +68,7 @@ To group by a multi-select custom field in a report:
 1. Select the text in the `Group your Report` box and replace it with the following code:  
    <pre>group.0.displayname=Multi-select Custom Field Name<br>group.0.valueexpression={DE:Multi-select Custom Field Name}<br>group.0.valueformat=HTML<br>textmode=true</pre>
 
-1. Replace "Multi-select Custom Field Name" with the actual name of your multi-select custom field, as it appears in `Workfront`.&nbsp;&nbsp;
+1. Replace "Multi-select Custom Field Name" with the actual name of your multi-select custom field, as it appears in Workfront.&nbsp;&nbsp;
 1. Click `Save and Close`.  
    The objects in the report are grouped by the values of the multi-select custom field.  
    The name of the groupings of the report are the names of the multi-select custom field followed by the values selected in the field.&nbsp;
@@ -97,8 +97,7 @@ To build the calculated custom field that references the multi-select custom fie
  <li value="2">Click<span class="bold"> Add a Field</span>, then <span class="bold">Calculated</span> to add the multi-select custom field to the form.</li> 
  <li value="3">In the <span class="bold">Label</span> box, name the new calculated field to indicate that it references the multi-select custom field.<br>For example: "Calculated Multi-select Field."</li> 
  <li value="4">In the <span class="bold">Calculation</span> box, enter the following code:<br><pre>{DE:Multi-select Custom Field}</pre><note type="important">
-   Replace "Multi-select Custom Field" with the actual name of your multi-select custom field, as it appears in 
-   <span>Workfront</span>.
+   Replace "Multi-select Custom Field" with the actual name of your multi-select custom field, as it appears in Workfront.
   </note><br><img src="assets/calculated-multi-select-custom-field-350x201.png" style="width: 350;height: 201;"><br></li> 
  <li value="5">(Optional) If the multi-select custom field is already on this form and if this form is already attached to objects, enable the <span class="bold">Update previous calculations</span>&nbsp;option.<br>This ensures that the new field is automatically populated with the value from the multi-select custom field as it is added to the forms attached to the objects already.</li> 
  <li value="6">Click <span class="bold">Done</span>.</li> 

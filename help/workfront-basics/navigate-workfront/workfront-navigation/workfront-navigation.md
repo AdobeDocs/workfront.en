@@ -6,7 +6,7 @@ title: Adobe Workfront navigation
 description: This section contains the following articles:
 ---
 
-# `Adobe Workfront` navigation
+# Adobe Workfront navigation
 
 This section contains the following articles:
 

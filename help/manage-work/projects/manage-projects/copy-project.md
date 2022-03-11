@@ -19,17 +19,17 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span> plan*</p> </td> 
+   <td> <p>Adobe Workfront plan*</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span> license*</p> </td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> Access level configurations* Edit access to Projects with ability to Create and Copy projects Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions View permissions or higher to the project For information on requesting additional access, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Copy a project
 
@@ -68,7 +68,7 @@ You must have the following:
      <li>Expenses</li> 
      <li> <p>Documents</p> </li> 
     </ul> <p>The custom forms will remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </li> 
-   <li> <p><span class="bold">Clear Documents</span>: Removes everything in the documents tab, including document versions, linked documents, and folders.</p> <p>By default, document <span>proofs</span> and approvals cannot be copied to another project. </p> </li> 
+   <li> <p><span class="bold">Clear Documents</span>: Removes everything in the documents tab, including document versions, linked documents, and folders.</p> <p>By default, document proofs and approvals cannot be copied to another project. </p> </li> 
    <li> <p><span class="bold">Clear All Predecessors</span>: Removes all predecessor relationships between the tasks on the project. </p> <note type="tip">
      Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. 
     </note> </li> 

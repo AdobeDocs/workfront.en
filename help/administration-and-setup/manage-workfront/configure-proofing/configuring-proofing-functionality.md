@@ -8,7 +8,7 @@ title: Configure proofing functionality
 description: This section contains the following articles:
 ---
 
-# Configure `proofing` functionality
+# Configure proofing functionality
 
 This section contains the following articles:
 

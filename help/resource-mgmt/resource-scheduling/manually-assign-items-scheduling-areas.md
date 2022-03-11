@@ -10,13 +10,13 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
 >
->For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-In addition to assigning users to work items from the task and issue level, or in a list of tasks and issues using inline edit, you can also manage user assignments as part of the resource scheduling functionality in `Adobe Workfront`.
+In addition to assigning users to work items from the task and issue level, or in a list of tasks and issues using inline edit, you can also manage user assignments as part of the resource scheduling functionality in Adobe Workfront.
 
 For general information about assigning tasks, see [Overview of modifying task assignments](../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
@@ -31,16 +31,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -49,13 +49,13 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ##
 
 ## Prerequisites before assigning tasks and issues in the Scheduling timeline
 
-Before you begin managing user assignments as described in this section, become familiar with how resource scheduling works in `Workfront`, as described in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+Before you begin managing user assignments as described in this section, become familiar with how resource scheduling works in Workfront, as described in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
 To successfully manage user assignments as described in this section, you must first ensure that you, your projects, and your tasks and issues meet the prerequisites described in the [Prerequisites for using the scheduling tools in Workfront](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#prerequisites) section in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
@@ -66,15 +66,15 @@ The following sections describe how to modify user assignments manually, automat
 The scheduling timeline provides the needed visibility into which users are capable of completing the task or issue.   
 For more information about the scheduling timeline, see [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
-You can assign individual tasks and issues to users on the scheduling timeline from the following areas of `Workfront`:
+You can assign individual tasks and issues to users on the scheduling timeline from the following areas of Workfront:
 
 * The Scheduling section under Resourcing (when scheduling resources for multiple projects). 
 * The Scheduling section under a project (when scheduling resources for a single project). 
 * The Schedule section under a team (when scheduling resources for a team).
 
-The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of `Workfront` where you are using resource scheduling (either from the Scheduling section(when scheduling resources for multiple projects), the Scheduling section (when scheduling resources for a single project), or the Schedule section (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
+The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of Workfront where you are using resource scheduling (either from the Scheduling section(when scheduling resources for multiple projects), the Scheduling section (when scheduling resources for a single project), or the Schedule section (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
 
-Depending on the area of `Workfront` where you are viewing the scheduling timeline, only some users might be eligible to be assigned work. For more information, see [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
+Depending on the area of Workfront where you are viewing the scheduling timeline, only some users might be eligible to be assigned work. For more information, see [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
 
 To assign unassigned tasks or issues to users on the scheduling timeline:
 

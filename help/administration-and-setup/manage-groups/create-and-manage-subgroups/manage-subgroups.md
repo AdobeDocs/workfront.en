@@ -10,9 +10,9 @@ description: As an group administrator of a subgroup, you can create, move, view
 
 # Manage a subgroup
 
-As an `group administrator` of a subgroup, you can create, move,view, edit, copy, rename, export, and delete the subgroup.
+As an group administrator of a subgroup, you can create, move,view, edit, copy, rename, export, and delete the subgroup.
 
-If there are any groups above your group, their administrators can also do these things for your group. The same is true for `Workfront administrators` (for any group).
+If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
 For more information about subgroups, see [Subgroups overview](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
@@ -25,23 +25,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Workfront</span> plan*</td> 
+   <td role="rowheader">Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
 ## Create, move,view, edit, copy, rename, export, or delete a subgroup
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</p> <p>In the list of groups that displays, <span>group administrators</span> can see the groups they manage, as well as any subgroups of those groups. <span>Adobe Workfront administrators</span> can see all groups.</p> </li> Click the name of the group that contains the subgroup you want to work on. Or If you are moving one or more subgroups, click the name of the destination group (you will specify which subgroups you want to move in a later step). In the left menu, click Subgroups. 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2"> <p>In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</p> <p>In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.</p> </li> Click the name of the group that contains the subgroup you want to work on. Or If you are moving one or more subgroups, click the name of the destination group (you will specify which subgroups you want to move in a later step). In the left menu, click Subgroups. 
 </ol>
 
 <ol data-mc-continue="true"> 
@@ -68,7 +68,7 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Copy a subgroup to create a new top-level group</td> 
-     <td> <p>(Available only for <span>Workfront administrators</span>.) When you copy a subgroup, it becomes a parent group. All group members and subgroups are copied with it. The groups members retain any assignments they had in the original group.</p> <p>For more information about copying a subgroup, see <a href="#copying" class="MCXref xref">Copying a subgroup</a> in this article.</p> 
+     <td> <p>(Available only for Workfront administrators.) When you copy a subgroup, it becomes a parent group. All group members and subgroups are copied with it. The groups members retain any assignments they had in the original group.</p> <p>For more information about copying a subgroup, see <a href="#copying" class="MCXref xref">Copying a subgroup</a> in this article.</p> 
       <ol> 
        <li value="1">Select a subgroup, then click the Copy icon to create a new top-level group based on the selected group.</li> 
        <li value="2"> <p>Configure the new group’s settings.</p> <p>For help with these settings, see the table in the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a>.</p> </li> 
@@ -93,7 +93,7 @@ You must have the following to perform the steps in this article:
 
 For example, imagine that you manage a large Marketing department and you want a list of all of the projects that the entire department is working on.
 
-In `Workfront`, this Marketing department is represented by a group called Marketing, with 3 subgroups called Field Marketing, Product Marketing, and Digital Marketing. To list the projects that belong to the entire Marketing department (all 4 groups), you could create a Filter for the Projects area with the following Filter Rule:
+In Workfront, this Marketing department is represented by a group called Marketing, with 3 subgroups called Field Marketing, Product Marketing, and Digital Marketing. To list the projects that belong to the entire Marketing department (all 4 groups), you could create a Filter for the Projects area with the following Filter Rule:
 
 ```
 Group: Top Parent ID > Equal > Marketing

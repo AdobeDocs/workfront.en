@@ -6,9 +6,9 @@ title: Upload XD art boards as documents to Workfront
 description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 ---
 
-# Upload XD art boards as documents to `Workfront`
+# Upload XD art boards as documents to Workfront
 
-You can upload your art boards as documents for a quick review and approval or simply to store in `Adobe Workfront`.
+You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 
 ## Access requirements
 
@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Work or Plan 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a <span>Workfront</span> license.</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,11 +37,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
-* You must install the `Workfront` for Adobe XD plugin before you can upload XD art boards as documents to `Workfront`.
+* You must install the Workfront for Adobe XD plugin before you can upload XD art boards as documents to Workfront.
 
   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
@@ -65,25 +65,23 @@ You must have the following access to perform the steps in this article:
     </tr>
     <tr>
      <td role="rowheader">.png</td>
-     <td>The art board upoads as a .png to the work item's Documents tab in <span>Workfront</span>Work. </td>
+     <td>The art board upoads as a .png to the work item's Documents tab in WorkfrontWork. </td>
     </tr>
     <tr>
      <td role="rowheader">.jpg</td>
-     <td>The art board uploads as a .jpg to the work item's Documents tab in <span>Workfront</span>. <br></td>
+     <td>The art board uploads as a .jpg to the work item's Documents tab in Workfront. <br></td>
     </tr>
     <tr>
      <td role="rowheader">.svg</td>
-     <td>The art board uploads as a .svg to the work item's Documents tab in <span>Workfront</span>. </td>
+     <td>The art board uploads as a .svg to the work item's Documents tab in Workfront. </td>
     </tr>
     <tr>
      <td role="rowheader">.pdf</td>
-     <td>The art board uploads as a .pdf to the work item's Documents tab in <span>Workfront</span>.</td>
+     <td>The art board uploads as a .pdf to the work item's Documents tab in Workfront.</td>
     </tr>
    </tbody>
   </table><note type="note">
-   If you add an approver, the art board uploads to 
-   <span>Workfront</span> as a 
-   <span>Proof</span>.
+   If you add an approver, the art board uploads to Workfront as a Proof.
   </note></li> 
  <li value="7">(Optional) Type a comment in the <span class="bold">Updates</span> area. </li> 
  <li value="8">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 
@@ -110,25 +108,23 @@ You must have the following access to perform the steps in this article:
     </tr>
     <tr>
      <td role="rowheader">png</td>
-     <td>The art board upoads as a png to the work item's Documents tab in <span>Workfront</span>Work. </td>
+     <td>The art board upoads as a png to the work item's Documents tab in WorkfrontWork. </td>
     </tr>
     <tr>
      <td role="rowheader">jpg</td>
-     <td>The art board uploads as a jpg to the work item's Documents tab in <span>Workfront</span>. <br></td>
+     <td>The art board uploads as a jpg to the work item's Documents tab in Workfront. <br></td>
     </tr>
     <tr>
      <td role="rowheader">svg</td>
-     <td>The art board uploads as a svg to the work item's Documents tab in <span>Workfront</span>. </td>
+     <td>The art board uploads as a svg to the work item's Documents tab in Workfront. </td>
     </tr>
     <tr>
      <td role="rowheader">pdf</td>
-     <td>The art board uploads as a pdf to the work item's Documents tab in <span>Workfront</span>.</td>
+     <td>The art board uploads as a pdf to the work item's Documents tab in Workfront.</td>
     </tr>
    </tbody>
   </table><note type="note">
-   If you add an approver, the art board uploads to 
-   <span>Workfront</span> as a 
-   <span>Proof</span>.
+   If you add an approver, the art board uploads to Workfront as a Proof.
   </note></li> 
  <li value="8">(Optional) Type a comment in the <span class="bold">Updates</span> area. </li> 
  <li value="9">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 

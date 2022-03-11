@@ -7,13 +7,13 @@ title: View authentication logs in Workfront Proof
 description: As a Workfront Proof administrator, you can view the usage information for every user that has logged into Workfront Proof.
 ---
 
-# View authentication logs in `Workfront Proof`
+# View authentication logs in Workfront Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a `Workfront Proof administrator`, you can view the usage information for every user that has logged into `Workfront Proof`.
+As a Workfront Proof administrator, you can view the usage information for every user that has logged into Workfront Proof.
 
 1. In the left navigation panel, click `Activity`.
 1. In the `Proofs and media logs` drop-down menu, click `Authentication logs`.  

@@ -6,11 +6,11 @@ title: Use Adobe Workfront built-in reports
 description: Adobe Workfront has an extensive list of built-in reports that you can use.
 ---
 
-# Use `Adobe Workfront` built-in reports
+# Use Adobe Workfront built-in reports
 
-`Adobe Workfront` has an extensive list of built-in reports that you can use.
+Adobe Workfront has an extensive list of built-in reports that you can use.
 
-`Workfront administrators` can hide built-in reports so users do not have access to them.  
+Workfront administrators can hide built-in reports so users do not have access to them.  
 For more information about how to hide built-in reports, see [Hide built-in reports](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Access requirements
@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,13 +40,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Overview of built-in reports
 
 You can customize a built-in report and save it as a new report. For more information about customizing built-in reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-The following reports come with the `Workfront` package. The reports are available to all users who have at least View rights to built-in reports in their access level.
+The following reports come with the Workfront package. The reports are available to all users who have at least View rights to built-in reports in their access level.
 
 <table cellspacing="15"> 
  <col> 
@@ -336,7 +336,7 @@ The following reports come with the `Workfront` package. The reports are availab
   </tr> 
   <tr> 
    <td>User Logins</td> 
-   <td>A User report which displays the following fields: the unique ID, Login Count (the number of times the user logged in since starting with <span>Workfront</span>), Last Login Date of the users. The report is grouped by the Access Level of the users.</td> 
+   <td>A User report which displays the following fields: the unique ID, Login Count (the number of times the user logged in since starting with Workfront), Last Login Date of the users. The report is grouped by the Access Level of the users.</td> 
   </tr> 
  </tbody> 
  <p><span class="wysiwyg-color-pink"></span> </p> 

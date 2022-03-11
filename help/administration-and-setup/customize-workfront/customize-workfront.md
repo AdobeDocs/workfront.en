@@ -9,7 +9,7 @@ title: Customize Adobe Workfront
 description: This section contains the following subsections:
 ---
 
-# Customize `Adobe Workfront`
+# Customize Adobe Workfront
 
 This section contains the following subsections:
 

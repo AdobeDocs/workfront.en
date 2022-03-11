@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Egnyte a
 
 # Egnyte modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `Egnyte` account to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
+In a Adobe Workfront Fusion scenario, you can connect your Egnyte account to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
 
 ## File system modules
 
@@ -45,7 +45,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -53,18 +53,18 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Limit </td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>watch</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### List Files/Subfolders in a Folder
 
-This action module `retrieves files and/or subfolders from a folder`.
+This action module retrieves files and/or subfolders from a folder.
 
 You specify the ID or path and how you want the files or folders sorted.
 
-The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -74,7 +74,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select/map a path</p> </td> 
@@ -90,7 +90,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Maximum number of results</td> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of <span>record</span>s you want the module to <span>retrieve</span> during each scenario execution cycle.</p> </td> 
+   <td> <p><![CDATA[	]]>Enter or map the maximum number of records you want the module to retrieve during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td>Sort By </td> 
@@ -105,11 +105,11 @@ When you are configuring this module, the following fields display.
 
 ### Get File Info
 
-This action module `retrieves data about a file`.
+This action module retrieves data about a file.
 
 You specify the ID or path of the file.
 
-The module returns the ID of the `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -119,7 +119,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select/map a path</p> </td> 
@@ -134,11 +134,11 @@ When you are configuring this module, the following fields display.
 
 ### Upload a File
 
-This action module `creates or overwrites a file`.
+This action module creates or overwrites a file.
 
 You specify the ID of the record.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -148,7 +148,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination folder</td> 
@@ -163,11 +163,11 @@ When you are configuring this module, the following fields display.
 
 ### Download File
 
-This action module `downloads a file from Egnyte`.
+This action module downloads a file from Egnyte.
 
 You specify the path or ID of the file and where you want it to move. You can also provide an optional new file name.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -177,7 +177,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Full path to file</td> 
@@ -188,11 +188,11 @@ When you are configuring this module, the following fields display.
 
 ### Move File
 
-This action module `moves a file to a new location`.
+This action module moves a file to a new location.
 
 You specify the file's path.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -202,7 +202,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -225,11 +225,11 @@ When you are configuring this module, the following fields display.
 
 ### Copy File
 
-This action module `allows you to copy a file from the source path to the target location`.
+This action module allows you to copy a file from the source path to the target location.
 
 You specify the file and the location where you want the copy.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -239,7 +239,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -262,11 +262,11 @@ When you are configuring this module, the following fields display.
 
 ### Lock a File
 
-This action module `locks a file`.
+This action module locks a file.
 
 You specify the file and the lock options.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 
@@ -274,7 +274,7 @@ The module returns the ID of the  `file` and any associated fields, along with a
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -297,11 +297,11 @@ The module returns the ID of the  `file` and any associated fields, along with a
 
 ### Unlock a File
 
-This action module `unlocks a file`.
+This action module unlocks a file.
 
 You specify the path of the file and the lock token.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -311,7 +311,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -330,11 +330,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete a File
 
-This action module `deletes a file`.
+This action module deletes a file.
 
-You specify the ID of the `file`.
+You specify the ID of the file.
 
-The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -344,7 +344,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -363,11 +363,11 @@ When you are configuring this module, the following fields display.
 
 ### Get Folder Info
 
-This action module `retrieves information about a folder`.
+This action module retrieves information about a folder.
 
-You specify the ID of the `folder`.
+You specify the ID of the folder.
 
-The module returns the ID of the `folder` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -377,7 +377,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -392,11 +392,11 @@ When you are configuring this module, the following fields display.
 
 ### Create a Folder
 
-This action module `deletes a file`.
+This action module deletes a file.
 
 You specify a path and name for the folder.
 
-The module returns the ID of the  `folder` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -406,7 +406,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Full path to the folder </td> 
@@ -421,11 +421,11 @@ When you are configuring this module, the following fields display.
 
 ### Move Folder
 
-This action module `moves a folder to a different location`.
+This action module moves a folder to a different location.
 
 You specify the file or folder and where you want to move it.
 
-The module returns the ID of the  `file or folder` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file or folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -435,7 +435,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -462,11 +462,11 @@ When you are configuring this module, the following fields display.
 
 ### Copy Folder
 
-This action module `copies a folder to a destination`.
+This action module copies a folder to a destination.
 
 You specify the folder and where you want to copy it.
 
-The module returns the ID of the  `folder` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -476,7 +476,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -503,11 +503,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete a Folder
 
-This action module `deletes a folder`.
+This action module deletes a folder.
 
-You specify the ID of the `folder`.
+You specify the ID of the folder.
 
-The module returns the ID of the  `folder` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -517,7 +517,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Map ID or select a path</p> </td> 
@@ -540,13 +540,13 @@ When you are configuring this module, the following fields display.
 
 ### List Links
 
-This action module `lists links to files or folders`.
+This action module lists links to files or folders.
 
 When you are configuring this module, the following fields display.
 
 >[!NOTE]
 >
->You may need to extend your permissions in your connection between `Workfront Fusion` and Egnyte. If prompted, click Continue and grant access to your account by clicking `Allow Access`.
+>You may need to extend your permissions in your connection between Workfront Fusion and Egnyte. If prompted, click Continue and grant access to your account by clicking `Allow Access`.
 
 <table cellspacing="15"> 
  <col> 
@@ -554,11 +554,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Maximum number of results</td> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of <span>record</span>s you want the module to <span>list</span> during each scenario execution cycle.</p> </td> 
+   <td> <p><![CDATA[	]]>Enter or map the maximum number of records you want the module to list during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td>File or Folder</td> 
@@ -589,11 +589,11 @@ When you are configuring this module, the following fields display.
 
 ### Get a Link
 
-This action module `retrieves details about a link`.
+This action module retrieves details about a link.
 
-You specify the ID of the `link`.
+You specify the ID of the link.
 
-The module returns the ID of the `link` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the link and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -603,7 +603,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Link ID</td> 
@@ -614,11 +614,11 @@ When you are configuring this module, the following fields display.
 
 ### Create a File Link
 
-This action module `creates a public file link`.
+This action module creates a public file link.
 
 You specify the link parameters.
 
-The module returns the ID of the  `file link` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  file link and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -628,7 +628,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>File</p> </td> 
@@ -671,11 +671,11 @@ When you are configuring this module, the following fields display.
 
 ### Create a Folder Link
 
-This action module `creates a public folder link`.
+This action module creates a public folder link.
 
 You specify the link parameters.
 
-The module returns the ID of the  `folder` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -685,7 +685,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -716,11 +716,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete a Link
 
-This action module `deletes a particular link`.
+This action module deletes a particular link.
 
-You specify the ID of the `record`.
+You specify the ID of the record.
 
-The module returns the ID of the  `link` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  link and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -730,7 +730,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Link ID</td> 
@@ -746,7 +746,7 @@ When you are configuring this module, the following fields display.
 
 ### Get Folder Permission
 
-This action module `[action]`.
+This action module [action].
 
 You specify the folder.
 
@@ -758,7 +758,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Folder Path</td> 
@@ -769,11 +769,11 @@ When you are configuring this module, the following fields display.
 
 ### Set Folder Permissions
 
-This action module `allows you to set user and group permissions for a folder`.
+This action module allows you to set user and group permissions for a folder.
 
 You specify the folder and the permissions you want.
 
-The module returns the ID of the `folder` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the folder and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -783,7 +783,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Folder Path</td> 
@@ -791,7 +791,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>User permissions</p> </td> 
-   <td> <p>Set user permissions for the folder.</p> <p style="font-weight: bold;">Username</p> <p>Select the user you want to set the folder permissions for.</p> <p style="font-weight: bold;">Permission</p> <p>Select the permission you want to assign.</p> <p>Note: If the user has NONE permissions that were set through <span>Workfront Fusion</span>, the group permissions will override the NONE user permission.</p> 
+   <td> <p>Set user permissions for the folder.</p> <p style="font-weight: bold;">Username</p> <p>Select the user you want to set the folder permissions for.</p> <p style="font-weight: bold;">Permission</p> <p>Select the permission you want to assign.</p> <p>Note: If the user has NONE permissions that were set through Workfront Fusion, the group permissions will override the NONE user permission.</p> 
     <table cellspacing="15"> 
      <col> 
      <col> 
@@ -856,9 +856,9 @@ When you are configuring this module, the following fields display.
 
 ### Watch Events
 
-This trigger module executes a scenario when `[action]`.
+This trigger module executes a scenario when [action].
 
-The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
+The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -868,7 +868,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Type </td> 
@@ -876,7 +876,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Limit </td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>watch</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td>Suppress </td> 
@@ -887,7 +887,7 @@ When you are configuring this module, the following fields display.
 
 ### Make an API Call
 
-This action module lets you make a custom authenticated call to the `Egnyte` API. This way, you can create a data flow automation that can't be accomplished by the other `Egnyte` modules.
+This action module lets you make a custom authenticated call to the Egnyte API. This way, you can create a data flow automation that can't be accomplished by the other Egnyte modules.
 
 When you are configuring this module, the following fields display.
 
@@ -897,7 +897,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <span>Egnyte</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Egnyte account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>URL</p> </td> 

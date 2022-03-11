@@ -9,7 +9,7 @@ description: You can add extra security measures to proofs.
 
 # Proof security overview
 
-You can add extra security measures to `proofs`.
+You can add extra security measures to proofs.
 
 ## Login required
 
@@ -38,7 +38,7 @@ When the electronic signature setting is enabled on a proof, an electronic signa
 
 >[!IMPORTANT]
 >
->To electronically sign a proof with SSO credentials, you must set SSO up in `Workfront Proof`. For more information on enabling SSO, see >
+>To electronically sign a proof with SSO credentials, you must set SSO up in Workfront Proof. For more information on enabling SSO, see >
 >* [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 

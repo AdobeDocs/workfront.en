@@ -2,7 +2,7 @@
 
 # Send direct messages to other users
 
-`Adobe Workfront` enables you to quickly and easily send messages that are unrelated to any work item directly to other `Workfront` users. Messages sent as described in this section appear in the Updates tab on the user's home&nbsp;page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+Adobe Workfront enables you to quickly and easily send messages that are unrelated to any work item directly&nbsp;to other Workfront users. Messages sent as described in this section appear in the Updates tab on the user's home&nbsp;page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 The user you are sending the message to receives the following types of notifications when you send a message as described in this section:
 
@@ -22,24 +22,24 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## Send a message unrelated to a work item to another user
 
 1. Go to the home page of the user you want to send a message to.  
    You can do the following to navigate to a user's home page:
 
-  * Click the linked name of the user as it appears anywhere in the `Workfront` interface. User names are displayed in many areas of the `Workfront` interface, such as in a comment made by the user.
+  * Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas of the Workfront interface, such as in a comment made by the user.
 
 1. On the `Updates`&nbsp;tab, click in the text box field.
 1. Type your message.

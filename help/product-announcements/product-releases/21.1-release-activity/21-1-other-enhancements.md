@@ -9,9 +9,9 @@ description: This page describes all other enhancements made with the 21.1 relea
 
 # 21.1 Other enhancements
 
-This page describes all `other` enhancements made with the `21.1` release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
+This page describes all other enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 
-For a list of all changes available with the `21.1` release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+For a list of all changes available with the 21.1 release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Updates to Event Subscription failure requirements
 
@@ -29,7 +29,7 @@ For more information, see [Notifications: Action needed](../../../workfront-basi
 
 ## Replacing POP email option in Request Queues
 
-We're replacing the POP email option for request queues with a new Workfront-managed system. You will still be able to submit requests via email, but you'll need to set up a new `Adobe Workfront`-managed email address in the Request Queue area instead.
+We're replacing the POP email option for request queues with a new Workfront-managed system. You will still be able to submit requests via email, but you'll need to set up a new Adobe Workfront-managed email address in the Request Queue area instead.
 
 These changes are available to test in Preview.
 

@@ -6,12 +6,12 @@ title: Redesigned functionality in the new Adobe Workfront experience
 description: The look and feel of Adobe Workfront has been redesigned to the new Adobe Workfront experience. To learn how Workfront administrators and group administrators can enroll users in The new Adobe Workfront experience, see Enroll users in the new Adobe Workfront experience. For information about the current releases for the new Adobe Workfront experience, see Discover the new features available only with the new Workfront experience.
 ---
 
-# Redesigned functionality in `the new Adobe Workfront experience`
+# Redesigned functionality in the new Adobe Workfront experience
 
-The look and feel of `Adobe Workfront` has been redesigned to `the new Adobe Workfront experience`. To learn how `Workfront administrators` and `group administrators` can enroll users in `The new Adobe Workfront experience`, see [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).  
-For information about the current releases for `the new Adobe Workfront experience`, see [Discover the new features available only with the new Workfront experience](https://one.workfront.com/s/article/Discover-the-new-features-available-only-with-the-new-Workfront-experience-224802325).
+The look and feel of Adobe Workfront has been redesigned to the new Adobe Workfront experience. To learn how Workfront administrators and group administrators can enroll users in The new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).  
+For information about the current releases for the new Adobe Workfront experience, see [Discover the new features available only with the new Workfront experience](https://one.workfront.com/s/article/Discover-the-new-features-available-only-with-the-new-Workfront-experience-224802325).
 
-The following list contains links to articles reviewing key areas that have been redesigned for `the new Adobe Workfront experience`:
+The following list contains links to articles reviewing key areas that have been redesigned for the new Adobe Workfront experience:
 
 * [Top navigation bar overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md) 
 * [Simplified left navigation in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) 

@@ -8,13 +8,13 @@ description: The goal for the Adobe Workfront API is to simplify building integr
 
 # API basics
 
-The goal for the `Adobe Workfront` API is to simplify building integrations with `Workfront` by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the `Workfront` API.
+The goal for the Adobe Workfront API is to simplify building integrations with Workfront by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Workfront API.
 
-A familiarity with the `Workfront` schema will assist you in understanding the database relationships that can be utilized to pull data out of `Workfront` for integration purposes.
+A familiarity with the Workfront schema will assist you in understanding the database relationships that can be utilized to pull data out of Workfront for integration purposes.
 
 ## Limits and Guidelines
 
-To ensure consistent `Workfront` on-demand system performance, each customer is limited to 10 concurrent API threads. The Sandbox environment has the same limit in place, allowing customers and partners to accurately test API calls before releasing code to production.
+To ensure consistent Workfront on-demand system performance, each customer is limited to 10 concurrent API threads. The Sandbox environment has the same limit in place, allowing customers and partners to accurately test API calls before releasing code to production.
 
 For production, preview, and test drive environments end user requests have a maximum URI length of 8892 bytes because they're being routed through the Workfront CDN (Akamai). This limit only applies to URIs that are routed through the CDN.
 
@@ -24,11 +24,11 @@ For production, preview, and test drive environments end user requests have a ma
 
 ### Disclaimer
 
-Any use of the API should be tested in the `Workfront` beta environment prior to being run in the production environment. If any customer uses the API for a process that `Workfront` reasonably believes to be burdensome to the on-demand software (i.e., the process causes a materially negative effect on the performance of the software for other customers), `Workfront` reserves the right to request that the customer discontinues that process. If the customer does not comply and the problem persists, `Workfront` reserves the right to terminate the process.
+Any use of the API should be tested in the Workfront beta environment prior to being run in the production environment. If any customer uses the API for a process that Workfront reasonably believes to be burdensome to the on-demand software (i.e., the process causes a materially negative effect on the performance of the software for other customers), Workfront reserves the right to request that the customer discontinues that process. If the customer does not comply and the problem persists, Workfront reserves the right to terminate the process.
 
 ## REST Basics
 
-This section provides a high-level introduction of how to interact with the `Workfront` REST API for the following REST principles:
+This section provides a high-level introduction of how to interact with the Workfront REST API for the following REST principles:
 
 ### Object URI
 
@@ -84,7 +84,7 @@ You can authenticate by passing a request parameter named sessionID, as shown in
 
 #### `Cookie-Based Authentication`
 
-The API uses the same cookie-based authentication that is used by the web UI to the system. Where, if a client logs into `Workfront` using the web UI, any AJAX calls made from within the same browser uses the same authentication.
+The API uses the same cookie-based authentication that is used by the web UI to the system. Where, if a client logs into Workfront using the web UI, any AJAX calls made from within the same browser uses the same authentication.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Workfront no longer recommends the use of the login endpoint or API keys. Instea
 
 >[!IMPORTANT]
 >
->The procedure described in this section applies only to organizations that have not yet been onboarded to the Adobe Business Platform. Logging in to `Workfront` through the `Workfront` API is not available if your organization has been onboarded to the Adobe Business Platform.
+>The procedure described in this section applies only to organizations that have not yet been onboarded to the Adobe Business Platform. Logging in to Workfront through the Workfront API is not available if your organization has been onboarded to the Adobe Business Platform.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -107,7 +107,7 @@ Using a valid username and password, you can use the following request to obtain
 
 >[!NOTE]
 >
->If you have a designated API user who is also an administrator, `Workfront` strongly suggests you use an API Key to log in.
+>If you have a designated API user who is also an administrator, Workfront strongly suggests you use an API Key to log in.
 
 `Generating an API Key`
 
@@ -169,7 +169,7 @@ For example, you can use the following request to return a list of all the proje
 
 #### Using Search Modifiers
 
-The following table lists some of the modifiers you can use with the `Workfront` API.
+The following table lists some of the modifiers you can use with the Workfront API.
 
 | `Modifier`  | `Description`  | `Example`  |
 |---|---|---|
@@ -179,7 +179,7 @@ The following table lists some of the modifiers you can use with the `Workfront`
 | lte |returns results that have a percent complete less than or equal to 50 |<pre>...percentComplete=50&percentComplete_Mod=lte...</pre> |
 | isnull |returns results where the description is Null |<pre>...description_Mod=isnull...</pre> |
 | notnull |returns results where the description is not Null |<pre>...description_Mod=notnull...</pre> |
-| contains |returns results where name contains " `Workfront`" |<pre>...name=<span>Workfront</span>&name_Mod=contains...</pre> |
+| contains |returns results where name contains "Workfront" |<pre>...name=Workfront&name_Mod=contains...</pre> |
 | between |returns results that have an entry date within the last 7 days |<pre>...entryDate=$$TODAY-7d&entryDate_Range=$$TODAY&entryDate_Mod=between...</pre> |
 
 >[!NOTE]
@@ -204,7 +204,7 @@ then use the following API call with its multiple OR statements:
 
 #### Using Filter Parameters
 
-One potential pitfall with using URL parameters for search filters is that `Workfront` parses certain parameters before checking for different authentication methods (i.e., username, password, apiKey, cookie). When this happens the parameters are not used as filters in the call.&nbsp;
+One potential pitfall with using URL parameters for search filters is that Workfront parses certain parameters before checking for different authentication methods (i.e., username, password, apiKey, cookie). When this happens the parameters are not used as filters in the call.&nbsp;
 
 To avoid this problem, you can place these values in filter parameters with JSON formatting. For example, if you want to filter for the username testuser, instead of using&nbsp;
 <pre>/attask/api/v9.0/user/search?username=testuser@workfront.com</pre>pass the URL parameter in a filter, as shown in the following example:
@@ -370,7 +370,7 @@ Some objects support being copied. For these object types, it is possible to cre
 
 You can upload documents through the following API URL: 
 <pre>POST /attask/api/v9.0/upload</pre>The API expects the content type to be multipart/form-data. The parameter name for the file must be uploadedFile. The server returns the following JSON data:
-<pre>{<br>&nbsp;&nbsp;&nbsp;&nbsp;"handle": "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>You can use the handle and post to the following URL when creating a `Workfront` document:
+<pre>{<br>&nbsp;&nbsp;&nbsp;&nbsp;"handle": "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>You can use the handle and post to the following URL when creating a Workfront document:
 <pre>POST /attask/api/v9.0/document?updates={<br>&nbsp;&nbsp;&nbsp;&nbsp;name: aFileName,<br>&nbsp;&nbsp;&nbsp;&nbsp;handle: abc...123, (handle from the file upload)<br>&nbsp;&nbsp;&nbsp;&nbsp;docObjCode: PROJ, (or TASK, OPTASK, etc)<br>&nbsp;&nbsp;&nbsp;&nbsp;objID: abc...123,<br>&nbsp;&nbsp;&nbsp;&nbsp;currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
 
 ## PUT Behavior

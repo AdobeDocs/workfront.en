@@ -10,7 +10,7 @@ description: There are a couple of ways to become a beta tester for the Adobe Wo
 
 ## Download the beta app
 
-There are a couple of ways to become a beta tester for the `Adobe Workfront` app:
+There are a couple of ways to become a beta tester for the Adobe Workfront app:
 
 ### App Store
 
@@ -22,7 +22,7 @@ You can use the Apple App Store to find and download the app.
 
 #### 1. Install the TestFlight app
 
-To install the beta version of the Workfront app you are required to have the TestFlight app installed on your device. After you install TestFlight, you need to install the `Workfront` app.
+To install the beta version of the Workfront app you are required to have the TestFlight app installed on your device. After you install TestFlight, you need to install the Workfront app.
 
 1. Install the Workfront app if you have not done so already.
 1. Open the Workfront mobile app.
@@ -61,11 +61,11 @@ To provide feedback about the beta app or to report a problem:
 1. Tap your name, then `Submit Feedback`.
 1. Choose `Start Survey` to provide general feedback about the app.  
    or  
-   Choose `Report a Problem` to submit a ticket to the `Workfront` Customer Care Team.
+   Choose `Report a Problem` to submit a ticket to the Workfront Customer Care Team.
 
 ## Update the Workfront Beta app
 
-If you are enrolled as a beta tester, you must update the `Workfront` app in TestFlight to access new features available in beta.
+If you are enrolled as a beta tester, you must update the Workfront app in TestFlight to access new features available in beta.
 
 1. Open the TestFlight app.
 1. Tap `Update`.

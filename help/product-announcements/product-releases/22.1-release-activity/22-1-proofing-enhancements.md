@@ -2,7 +2,7 @@
 
 # 22.1 Proofing enhancements
 
-This page describes all `Proofing` enhancements made with the `22.1` release to the Preview environment. These enhancements will be made available in the Production environment 
+This page describes all Proofing enhancements made with the 22.1 release to the Preview environment. These enhancements will be made available in the Production environment 
 
 <!--
 in January 2022
@@ -10,14 +10,14 @@ in January 2022
 
 the week of January 17, 2022.
 
-For a list of all changes available with the `22.1` release, see [22.1 Release overview](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+For a list of all changes available with the 22.1 release, see [22.1 Release overview](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Improved proofing capabilities for reviewers and requestors
 
 >[!NOTE]
 >
->Released to EMEA customers with integrated `proofing` created before July 6th, 2021 only. This functionality coming to Preview in a phased rollout beginning January 13 and ending January 17 for the following customers: >
->* EMEA customers with both integrated and standalone `proofing`
+>Released to EMEA customers with integrated proofing created before July 6th, 2021 only. This functionality coming to Preview in a phased rollout beginning January 13 and ending January 17 for the following customers: >
+>* EMEA customers with both integrated and standalone proofing
 >* EMEA customers with integrated proofing created after July 6th, 2021
 >* All U.S. customers
 >
@@ -41,7 +41,7 @@ We’ve made it easier for users to sign proofs electronically. Now, users can u
 
 >[!IMPORTANT]
 >
->To electronically sign a proof with SSO credentials, you must set SSO up in `Workfront Proof`. For more information on enabling SSO, see [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>To electronically sign a proof with SSO credentials, you must set SSO up in Workfront Proof. For more information on enabling SSO, see [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
 Previously, users had to use Workfront Proof credentials, which are different from their Workfront credentials.
 

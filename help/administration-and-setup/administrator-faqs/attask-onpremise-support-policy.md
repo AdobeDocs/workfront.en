@@ -11,7 +11,7 @@ description: Adobe Workfront moved to a 100% Software-As-A-Service model and sto
 
 # AtTask OnPremise support policy
 
-`Adobe Workfront` moved to a 100% Software-As-A-Service model and stopped selling on-premise software on December 31, 2011. As of 2014, AtTask OnPremise is no longer supported, with the exception of license key-related problems. The on-premise application is no longer available to download or install.
+Adobe Workfront moved to a 100% Software-As-A-Service model and stopped selling on-premise software on December 31, 2011. As of 2014, AtTask OnPremise is no longer supported, with the exception of license key-related problems. The on-premise application is no longer available to download or install.
 
 If you already have the application and need to re-install OnPremise, download the installation guide .
 
@@ -34,23 +34,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Update the OnPremise license key
 
-If you need a new license key, call `Workfront` Customer Support at 844-306-HELP(4357).
+If you need a new license key, call Workfront Customer Support at 844-306-HELP(4357).
 
 Once you have obtained a new license key,
 

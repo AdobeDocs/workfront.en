@@ -9,11 +9,11 @@ title: About the default Adobe Workfront layout
 description: The default layout is the arrangement of the Main Menu , the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
 ---
 
-# About the default `Adobe Workfront` layout
+# About the default Adobe Workfront layout
 
-The default layout is the arrangement of the Main Menu , the left panel, and the views, groupings, and filters before an `Adobe Workfront administrator` makes any changes using a layout template.
+The default layout is the arrangement of the Main Menu , the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
 
-For information about how a `Workfront administrator` can modify a user's default layout by assigning the user a layout template, see Assign users to a layout template.
+For information about how a Workfront administrator can modify a user's default layout by assigning the user a layout template, see Assign users to a layout template.
 
 >[!NOTE]
 >

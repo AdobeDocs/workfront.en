@@ -1,19 +1,19 @@
 
 
-# The `Adobe Workfront` Status site
+# The Adobe Workfront Status site
 
 ## Overview of the Status site
 
-You can view the health of the `Workfront` platform, including incidents, scheduled maintenance windows, and the current status of all `Workfront` clusters by accessing the `Workfront` Status site.&nbsp;
+You can view the health of the Workfront platform, including incidents, scheduled maintenance windows, and the current status of all Workfront clusters by accessing the Workfront Status site.&nbsp;
 
 You have access to the following information on the Status site:
 
 * Real-time system performance stats 
 * Planned maintenance scheduling 
-* Information on safeguards employed by `Workfront` to protect user data 
+* Information on safeguards employed by Workfront to protect user data 
 * Named vulnerability statuses
 
-## View `Adobe Workfront` status updates
+## View Adobe Workfront status updates
 
 You can view status updates on the Adobe Status site.
 
@@ -24,7 +24,7 @@ You can view status updates on the Adobe Status site.
    Type [status.adobe.com](http://status.adobe.com/) in your browser to access the Status site.
 
 1. Select `Experience Cloud`.
-1. Scroll down and select ` `Adobe Workfront`` from the list of solutions.
+1. Scroll down and select `Adobe Workfront` from the list of solutions.
 
 ## Subscribe or Manage your subscription
 
@@ -50,13 +50,13 @@ In&nbsp;computer&nbsp;security, a&nbsp;vulnerability&nbsp;is a weakness which al
 
 Vulnerability researchers and exploit creators name their projects internally to make it easy to reference them (for example, ShellShock, Heartbleed, POODLE, and WannaCry/Petya). When a vulnerability has wide-spread impact these names become public when the vulnerabilities are disclosed.
 
-### How do I view named vulnerabilities identified by `Workfront`?
+### How do I view named vulnerabilities identified by Workfront?
 
 1. Go to  [status.adobe.com](https://status.adobe.com/), then click `Security`.
 
 ## Why is this important?
 
-Any security-aware network administrators should be familiar with the Status site and the named vulnerabilities identified by `Workfront`.&nbsp;
+Any security-aware network administrators should be familiar with the Status site and the named vulnerabilities identified by Workfront.&nbsp;
 
 When large impact vulnerabilities are disclosed it is imperative to ensure your vendors are aware and keep your data protected.
 

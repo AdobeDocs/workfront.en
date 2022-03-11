@@ -9,12 +9,12 @@ description: Locking a group’s custom statuses is a way to ensure that people 
 
 # Locking or unlocking a custom group status
 
-Lockinga group’s custom statuses is a way to ensure that people are using the same processes in their flow of work. When a groupstatus is locked, it’s available to all users in lower groups. Though you can still edit or delete a status that you lock, `group administrators` can’t do so for those groups; they can change only its display order in the Status list.
+Lockinga group’s custom statuses is a way to ensure that people are using the same processes in their flow of work. When a groupstatus is locked, it’s available to all users in lower groups. Though you can still edit or delete a status that you lock, group administrators can’t do so for those groups; they can change only its display order in the Status list.
 
-Conversely, unlockinga group’s custom statuses allows `group administrators` more flexibility to manage the unique workflows used in their groups. When a groupstatus is unlocked, `group administrators`of lower subgroups can change its attributes or delete it for those subgroups.
+Conversely, unlockinga group’s custom statuses allows group administrators more flexibility to manage the unique workflows used in their groups. When a groupstatus is unlocked, group administratorsof lower subgroups can change its attributes or delete it for those subgroups.
 
 >[!IMPORTANT]
 >
->If you lock a custom status after it has been unlocked for any period of time, your settings for the status replace those made by `group administrators`in lower subgroups. While the status is locked, those administrators cannot modify or delete the status for their groups.
+>If you lock a custom status after it has been unlocked for any period of time, your settings for the status replace those made by group administratorsin lower subgroups. While the status is locked, those administrators cannot modify or delete the status for their groups.
 
 For instructions on locking or unlocking a group status, see [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).

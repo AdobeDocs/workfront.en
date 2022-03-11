@@ -9,7 +9,7 @@ description: Task Constraints determine when a task should start and end on a pr
 
 # Task Constraints
 
-Task Constraints determine when a task should start and end on a project. You can use several Task Constraints to indicate when a task should start and end. For information about all Task Constraints in `Workfront`, see the following articles:
+Task Constraints determine when a task should start and end on a project. You can use several Task Constraints to indicate when a task should start and end. For information about all Task Constraints in Workfront, see the following articles:
 
 This section contains the following articles:
 

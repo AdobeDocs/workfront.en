@@ -17,9 +17,9 @@ For information about creating filters, see the following articles:
 
 ## Text Mode filter operators
 
-For information about `Adobe Workfront` filter operators in the standard filter interface, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+For information about Adobe Workfront filter operators in the standard filter interface, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-`Workfront` has 2 filter operators that connect each filter statement:
+Workfront has 2 filter operators that connect each filter statement:
 
 <ul> 
  <li> <p><span class="bold">AND</span>: When you join 2 filter statement by the AND&nbsp;operator you indicate that you want both filter statements to be met at the same time.</p> 
@@ -82,7 +82,7 @@ The text mode syntax for an OR filter must contain the following:
    </div> 
   </div> </li> 
  <li> <p style="text-align: left;">The name of the fields or the attributes you reference in a filter must be written in camel case. For information about camel case, see <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref" xrefformat="{para}">Text mode syntax overview</a>.</p> </li> 
- <li> <p style="text-align: left;">When you refer to custom fields in an OR filter, you must insert DE: between the OR modifier syntax and the name of the custom field. You must spell the name of the custom field as it appears in the <span>Workfront</span> interface.</p> 
+ <li> <p style="text-align: left;">When you refer to custom fields in an OR filter, you must insert DE: between the OR modifier syntax and the name of the custom field. You must spell the name of the custom field as it appears in the Workfront interface.</p> 
   <div class="example" data-mc-autonum="<b>Example: </b>">
    <span class="autonumber"><span><b>Example: </b></span></span> 
    <p>To filter for tasks that have a Status of New OR a Percent Complete lower than 100% OR a custom field called "Account Type" with a value of "Equal", use the following text mode code:</p> 

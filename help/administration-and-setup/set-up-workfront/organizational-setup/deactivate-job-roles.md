@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator or a user with administrative a
 
 # Deactivate job roles
 
-As an  `Adobe Workfront administrator` or a user with administrative access to Job&nbsp;Roles, you can deactivate job roles that become obsolete in your system. When you deactivate a job role instead of deleting it, you can keep any historical information that is associated with it.
+As an&nbsp;Adobe Workfront administrator or a user with administrative access to Job&nbsp;Roles, you can deactivate job roles that become obsolete in your system. When you deactivate a job role instead of deleting it, you can keep any historical information that is associated with it.
 
 You can also reactivate job roles that have previously been deactivated.
 
@@ -22,21 +22,21 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to Job roles</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Administrative access to Job roles</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## The impact of deactivating job roles
 
@@ -53,12 +53,12 @@ If you deactivate a job role, it no longer displays in the following areas:
  <li> <p>The Pool Members field in&nbsp;Resource Pools</p> </li> 
  <li> <p>The Job&nbsp;Role field of a Billing Rate edit screen when a user is overriding billing rates for projects</p> </li> 
  <li> <p>The Add assignment to Kanban board dialog box in a project</p> </li> 
- <li> <p>The Job&nbsp;Role field of a plan or an initiative when someone is using the <span>Adobe Workfront Scenario Planner</span>. </p> <p>This is available only in <span>the new Adobe Workfront experience</span> and requires an additional license. For information about the <span>Workfront Scenario Planner</span>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </li> 
+ <li> <p>The Job&nbsp;Role field of a plan or an initiative when someone is using the Adobe Workfront Scenario Planner. </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </li> 
 </ul>
 
 >[!TIP]
 >
->Deactivated roles always display in filters in lists, reports, and other tools such as the `Workload Balancer`.
+>Deactivated roles always display in filters in lists, reports, and other tools such as the Workload Balancer.
 
 ## Considerations before deactivating a job role
 
@@ -91,5 +91,5 @@ We recommend that you do the following before deactivating an unused job role:
 1. In the `Is Active` drop-down menu, select `No`. 
 1. Click `Save Changes`.
 
-   The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in  `Workfront`, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+   The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in&nbsp;Workfront, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 

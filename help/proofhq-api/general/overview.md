@@ -2,9 +2,9 @@
 
 # Overview
 
-`Welcome to the `Workfront Proof` API`
+`Welcome to the Workfront Proof API`
 
-The `Workfront Proof` API is a simple HTTP service that is secured using SSL. The API aims to provide you with all the functionality that used in our own application.
+The Workfront Proof API is a simple HTTP service that is secured using SSL. The API aims to provide you with all the functionality that used in our own application.
 
 ## Supported formats
 
@@ -33,7 +33,7 @@ https://soap.proofhq.com/soap?wsdl
 >
 >` This WSDL contains all the changes up until the 12.1 release, after which we introduced API versioning. Please see the  [API Updates](http://api.proofhq.com/new-updates) page for more information about the various WSDL versions and upcoming changes`
 
-Every API request requires a session key. This session key identifies the `Workfront Proof` user performing the action(s) and is obtained by calling the doLogin() method and passing in the user's email address and password. The doLogin() method only needs to be called once before a sequence of API requests. The session key remains active for a short period of time and is renewed on every method call.&nbsp;*We will be adding support for token based authentication very soon.*
+Every API request requires a session key. This session key identifies the Workfront Proof user performing the action(s) and is obtained by calling the doLogin() method and passing in the user's email address and password. The doLogin() method only needs to be called once before a sequence of API requests. The session key remains active for a short period of time and is renewed on every method call.&nbsp;*We will be adding support for token based authentication very soon.*
 
 All requests use the following envelope, header and body format:
 <pre><code><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:proofhqapi"></code><br><code>&nbsp;&nbsp; &nbsp;<soapenv:Header/></code><br><code>&nbsp;&nbsp; &nbsp;<soapenv:Body></code><br><code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;... API function and data inserted here ...</code><br><code>&nbsp;&nbsp; &nbsp;</soapenv:Body></code><br><code></soapenv:Envelope></code></pre>

@@ -6,9 +6,9 @@ title: Associate resource pools with projects and templates in Adobe Workfront
 description: Resource pools are collections of users what help you manage resources in Adobe Workfront.
 ---
 
-# Associate resource pools with projects and templates in `Adobe Workfront`
+# Associate resource pools with projects and templates in Adobe Workfront
 
-Resource pools are collections of users what help you manage resources in `Adobe Workfront`.
+Resource pools are collections of users what help you manage resources in Adobe Workfront.
 
 After you create resource pools, you can associate them with projects or templates so you can later budget your resources on the projects.
 
@@ -27,21 +27,21 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> and higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro and higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Projects, Templates, and Users</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Projects, Templates, and Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> Object permissions Manage permissions for the projects, templates, and users you associate the resource pools with For information on requesting additional access, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Associate resource pools with one project or template
 
@@ -73,7 +73,7 @@ To associate resource pools with several projects in bulk:
  <li value="4"> <p>Start typing the name of a resource pool in the <span class="bold">Resource Pools</span> field, then select it from the list when it appears.<br>You can associate multiple resource pools with the projects or templates. </p> <note type="note">
    When you edit projects or templates in bulk, only the resource pools that are common to all the projects or templates selected appear in this field. If the projects selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the individual resource pools of the projects or templates. 
   </note> <p> <img src="assets/add-resource-pools-to-multiple-projects-350x485.png" alt="add_resource_pools_to_multiple_projects.png" style="width: 350;height: 485;"> </p> </li> 
- <li value="5">Click <span class="bold">Save Changes</span>. <br>When your resource pools are associated with your projects or your templates, you can budget user allocations for your projects inside the <span>Resource Planner</span>. <br>For more information about the <span>Resource Planner</span>, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</li> 
+ <li value="5">Click <span class="bold">Save Changes</span>. <br>When your resource pools are associated with your projects or your templates, you can budget user allocations for your projects inside the Resource Planner. <br>For more information about the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</li> 
 </ol>
 
 For more information about how to edit projects in bulk, see the "Edit projects in bulk" section in [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).

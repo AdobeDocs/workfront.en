@@ -6,7 +6,7 @@ title: Import projects to plans in the Adobe Workfront Scenario Planner
 description: You can import existing projects into a plan. The imported projects are converted to initiatives and you can manage them within the plan as you would manage a new initiative. The original project remains linked to the new initiative.
 ---
 
-# Import projects to plans in the `Adobe Workfront Scenario Planner`
+# Import projects to plans in the Adobe Workfront Scenario Planner
 
 You can import existing projects into a plan. The imported projects are converted to initiatives and you can manage them within the plan as you would manage a new initiative. The original project remains linked to the new initiative.
 
@@ -19,21 +19,21 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> plan*</b> </p> </td> 
-   <td><span>Business</span> or higher</td> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Business or higher</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span><b> license*</b> </p> </td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Scenario Planner</span> to access functionality described in this article.</p> <p>For information about obtaining the <span>Workfront Scenario Planner</span>, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
   </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions to a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations about importing projects into plans as new initiatives
 
@@ -73,17 +73,17 @@ When you import a project into a plan some project information is also imported 
    <td>Job roles assigned to tasks and issues</td> 
    <td> <p>Initiative Job&nbsp;Roles. </p> <p>Note:  <p>If a user changes roles during the life of the project, the roles that are imported depend on the status of the assignment when you import the project. The following scenarios exist:</p> 
      <ul> 
-      <li> <p>If a user assigned to a task or an issue changed their role after they marked their assignment as Done, <span>Workfront</span> imports to the initiative the role the user fulfilled before they marked the assignment as Done.</p> </li> 
-      <li> <p>If a user assigned to a task or issue changed the role during the life of the project but their assignment on the task or issue is not marked as Done when you import the project, <span>Workfront</span> imports only the current role of the assigned user. </p> </li> 
+      <li> <p>If a user assigned to a task or an issue changed their role after they marked their assignment as Done, Workfront imports to the initiative the role the user fulfilled before they marked the assignment as Done.</p> </li> 
+      <li> <p>If a user assigned to a task or issue changed the role during the life of the project but their assignment on the task or issue is not marked as Done when you import the project, Workfront imports only the current role of the assigned user. </p> </li> 
      </ul> <p>For information about the status of an assignment, see "Assignment Status" in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossary of Adobe Workfront terminology</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Project Planned Hours associated with job roles assigned to tasks or issues</td> 
    <td> <p><span>Depending on whether the plan is set up to use FTEs or hours, the Planned Hours from the tasks on the project become either</span> Required FTEs <span>or Required hours on the plan</span>. </p> <p>For information about setting up a plan to use&nbsp;FTEs or hours, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> <p>Consider the following:</p> 
     <ul> 
-     <li> <p><span>Workfront</span> uses the job roles assigned to tasks and issues or the job roles that the users assigned to tasks or issues are associated with on the project and transfers them to the new initiative as Required Job&nbsp;Roles. </p> </li> 
-     <li> <p>When the plan is set up to use FTEs, the Planned Hours associated with the job roles on the tasks and issues of the project are first converted to FTE.&nbsp;This FTE is then assigned to the initiative’s job role. <span>Planned Hours are equally distributed in <span>Workfront</span>. If a task or an issue spans multiple months, the amount of Planned Hours for each month in the duration of the initiative is converted in monthly FTE and transferred to each month of the initiative. </span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span>For example, if a task is assigned to a job role for 80 Planned Hours in September, then the imported job role displays 0.5 FTE for the initiative in September. </span> </p> </li> 
-     <li> <p><span>Workfront</span> calculates the FTE of the Required Job&nbsp;roles associated with the initiative using the following formula:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tip: The <span>Scenario Planner</span> assumes that there are 160 working hours in a month.</p> <p>For example, if a project has a Duration of 1200 minutes and a job role on the project is associated with 600 minutes of Planned Hours, their FTE is 0.5. When importing the project, the Required Job Role FTE on the newly created initiative is 0.5 for each month of the initiative. </p> </li> 
+     <li> <p>Workfront uses the job roles assigned to tasks and issues or the job roles that the users assigned to tasks or issues are associated with on the project and transfers them to the new initiative as Required Job&nbsp;Roles. </p> </li> 
+     <li> <p>When the plan is set up to use FTEs, the Planned Hours associated with the job roles on the tasks and issues of the project are first converted to FTE.&nbsp;This FTE is then assigned to the initiative’s job role. <span>Planned Hours are equally distributed in Workfront. If a task or an issue spans multiple months, the amount of Planned Hours for each month in the duration of the initiative is converted in monthly FTE and transferred to each month of the initiative. </span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span>For example, if a task is assigned to a job role for 80 Planned Hours in September, then the imported job role displays 0.5 FTE for the initiative in September. </span> </p> </li> 
+     <li> <p>Workfront calculates the FTE of the Required Job&nbsp;roles associated with the initiative using the following formula:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tip: The Scenario Planner assumes that there are 160 working hours in a month.</p> <p>For example, if a project has a Duration of 1200 minutes and a job role on the project is associated with 600 minutes of Planned Hours, their FTE is 0.5. When importing the project, the Required Job Role FTE on the newly created initiative is 0.5 for each month of the initiative. </p> </li> 
      <li>When a job role is assigned to a task on the project with zero Planned Hours, the Required FTE for the job role of the initiative is zero by default. </li> 
      <li>When a job role is assigned to a task on the project with a zero Duration, the Required FTE&nbsp;<span>or hours</span> for the job role of the initiative is zero by default, even if the task has Planned Hours. </li> 
     </ul> </td> 
@@ -102,13 +102,13 @@ When you import a project into a plan some project information is also imported 
 >The following occur:
 >
 >* Changes to the project never affect the initiative after you import the project into the plan.These changes include changes to the job role allocations. 
->* Changes to the initiative affect the information in the `Scenario Planner` area on the project only when you publish the initiative to the corresponding project. Otherwise, they do not affect the Planned Hours information for the tasks and issues of the project. 
+>* Changes to the initiative affect the information in the Scenario Planner area on the project only when you publish the initiative to the corresponding project. Otherwise, they do not affect the Planned Hours information for the tasks and issues of the project. 
 >
 >  `For information about how publishing initiatives affects the linked projects, see` ` [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)`. 
 >
 
 <ol> 
- <li value="1">Click the <span class="bold">Main&nbsp;Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Workfront</span>, then click&nbsp;<span>Scenarios</span> to access the <span>Scenario Planner</span>. </li> 
+ <li value="1">Click the <span class="bold">Main&nbsp;Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of Workfront, then click&nbsp;Scenarios to access the Scenario Planner. </li> 
  <li value="2">Click the name of a plan where you want to import projects. </li> 
  <li value="3"> <p>Click <span class="bold">New Initiative</span>, then click <span class="bold">Import Projects</span>. </p> <p>The Import Projects box displays. Projects that have dates included in the time frame of your plan display in a list.</p> <p> <img src="assets/project-import-ui-projects-selected-350x72.png" style="width: 350;height: 72;"> </p> <note type="tip">
    Projects in any status display in the list.

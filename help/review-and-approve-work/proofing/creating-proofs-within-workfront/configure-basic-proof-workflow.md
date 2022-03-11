@@ -6,9 +6,9 @@ title: Create an advanced proof with a Basic workflow
 description: With a basic workflow, you can several reviewers to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it.
 ---
 
-# Create an advanced `proof` with a Basic workflow
+# Create an advanced proof with a Basic workflow
 
-With a basic workflow, you can several reviewers to a `proof`, but they are not organized into stages. All of the reviewers you add can access the `proof` immediately after you create it.
+With a basic workflow, you can several reviewers to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it.
 
 ## Access requirements
 
@@ -19,34 +19,34 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Higher</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
+   <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
-## Create an advanced `proof` with a Basic workflow
+## Create an advanced proof with a Basic workflow
 
-1. Go to the project, task, or issue where you want the `proof`, then click the `Documents` tab.
-1. Click `Add new` > `Proof`, upload the content, then work through the sections listed below.
+1. Go to the project, task, or issue where you want the proof, then click the `Documents` tab.
+1. Click `Add new` > Proof, upload the content, then work through the sections listed below.
 
    or
 
-   Hover over an existing document, then click the `Create Proof` > `Advanced `Proof`` and work through the sections listed below.
+   Hover over an existing document, then click the `Create Proof` > `Advanced Proof` and work through the sections listed below.
 
 ## Configure the workflow and add reviewers
 
@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
    <thead> 
     <tr> 
      <th> <p>&nbsp;</p> </th> 
-     <th> <p><span class="bold">View a <span>proof</span></span> </p> </th> 
+     <th> <p><span class="bold">View a proof</span> </p> </th> 
      <th> <p><span class="bold">Add markups</span> </p> </th> 
      <th> <p><span class="bold">Add comments</span> </p> </th> 
      <th> <p><span class="bold">Edit own comments if there are no replies</span> </p> </th> 
@@ -80,8 +80,8 @@ You must have the following access to perform the steps in this article:
      <th> <p><span class="bold">Delete comments made by others</span> </p> </th> 
      <th>Resolve comments</th> 
      <th>Apply Actions to Comments</th> 
-     <th> <p><span class="bold">Edit the <span>proof</span></span> </p> </th> 
-     <th>Share the <span>proof</span> with others</th> 
+     <th> <p><span class="bold">Edit the proof</span> </p> </th> 
+     <th>Share the proof with others</th> 
      <th>Create new version</th> 
      <th> <p><span class="bold">View approval requests in the Home area</span> </p> </th> 
      <th>Add new reviewers</th> 
@@ -195,7 +195,7 @@ You must have the following access to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader"><span class="bold">Resolve comments and apply actions</span> </td> 
-     <td> <p>Allows the <span>Workfront</span> user to do the following:</p> 
+     <td> <p>Allows the Workfront user to do the following:</p> 
       <ul> 
        <li>Resolve a comment after it has been addressed, as explained in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Resolve proof comments</a>.</li> 
        <li>Apply actions to comments, as explained in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Use actions on proof comments</a>. </li> 
@@ -203,14 +203,14 @@ You must have the following access to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Share proof by tagging</span> </td> 
-     <td> <p>Allows the reviewer to add any <span>Workfront</span> user to the <span>proof</span> as explained in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> <note type="note"> 
+     <td> <p>Allows the reviewer to add any Workfront user to the proof as explained in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> <note type="note"> 
        <p>If these two options are unavailable (dimmed), the user already has a permission profile that allows resolving comments, applying actions to comments, and tagging any user. </p> 
-       <p>If the options do not display, the person you added is not a <span>Workfront</span> license holder.</p> 
+       <p>If the options do not display, the person you added is not a Workfront license holder.</p> 
       </note> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="4">Repeat steps 1-3 for any other users you have added to the <span>proof</span>.</li> 
+ <li value="4">Repeat steps 1-3 for any other users you have added to the proof.</li> 
  <li value="5"> <p>For each user you are sharing with, in the <span class="bold">Email alerts</span>&nbsp;drop-down list, select the type of email alerts this user receives when people make comments and decisions on the proof:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -218,27 +218,27 @@ You must have the following access to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">All activity</td> 
-     <td><span>Workfront</span> sends an email to the reviewer every time there is any activity on the <span>proof</span>, such as&nbsp;a new&nbsp;comment, reply, or&nbsp;decision. <p>This is a great option for the person who is managing the <span>proofing</span> process because&nbsp;it allows them to see the activity as it happens. </p><p>Users do not receive an email alert about their own activity.</p></td> 
+     <td>Workfront sends an email to the reviewer every time there is any activity on the proof, such as&nbsp;a new&nbsp;comment, reply, or&nbsp;decision. <p>This is a great option for the person who is managing the proofing process because&nbsp;it allows them to see the activity as it happens. </p><p>Users do not receive an email alert about their own activity.</p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Replies to my comments</td> 
-     <td>An email is sent to the reviewer only if someone replies explicitly to their&nbsp;comment&nbsp;(this excludes their own replies on their own comments). This means that if somebody on the <span>proof</span> makes a new comment, the reviewer is not notified.<p>This&nbsp;setting is recommended for your clients on the <span>proof</span> so that they are not&nbsp;notified of any other comments&nbsp;on the <span>proof</span>, and are&nbsp;notified only&nbsp;of replies to their own comments.</p><p>Although reviewers with this email alert setting are not notified of other new&nbsp;comments, they can still view&nbsp;all&nbsp;comments&nbsp;on the <span>proof</span> in&nbsp;the <span>proofing viewer</span>.</p><p>For information about comments, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">View and reply to proof comments</a>.</p></td> 
+     <td>An email is sent to the reviewer only if someone replies explicitly to their&nbsp;comment&nbsp;(this excludes their own replies on their own comments). This means that if somebody on the proof makes a new comment, the reviewer is not notified.<p>This&nbsp;setting is recommended for your clients on the proof so that they are not&nbsp;notified of any other comments&nbsp;on the proof, and are&nbsp;notified only&nbsp;of replies to their own comments.</p><p>Although reviewers with this email alert setting are not notified of other new&nbsp;comments, they can still view&nbsp;all&nbsp;comments&nbsp;on the proof in&nbsp;the proofing viewer.</p><p>For information about comments, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">View and reply to proof comments</a>.</p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Decisions</td> 
-     <td><span>Workfront</span> sends an email to the reviewer only when someone makes a&nbsp;decision.<p>This can be useful for the person who is managing the approval process&nbsp;(such as a project manager) and&nbsp;needs to monitor progress on the <span>proof</span> and see which users have&nbsp;made their&nbsp;decision.</p><p>You are not notified of your own decision unless you select an email confirmation option when submitting your decision.</p></td> 
+     <td>Workfront sends an email to the reviewer only when someone makes a&nbsp;decision.<p>This can be useful for the person who is managing the approval process&nbsp;(such as a project manager) and&nbsp;needs to monitor progress on the proof and see which users have&nbsp;made their&nbsp;decision.</p><p>You are not notified of your own decision unless you select an email confirmation option when submitting your decision.</p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Final decision</td> 
-     <td><span>Workfront</span> sends an email when the last approver on the <span>proof</span> has made their&nbsp;decision.<p>This alert is often used by the designer, who does not usually need to take part in the actual review discussion. When the final decision is made, the designer is&nbsp;notified and&nbsp;can then take&nbsp;action on any necessary changes.</p><p>This alert can also be useful&nbsp;for a department leader&nbsp;who needs to be notified only when the review process is finished.</p></td> 
+     <td>Workfront sends an email when the last approver on the proof has made their&nbsp;decision.<p>This alert is often used by the designer, who does not usually need to take part in the actual review discussion. When the final decision is made, the designer is&nbsp;notified and&nbsp;can then take&nbsp;action on any necessary changes.</p><p>This alert can also be useful&nbsp;for a department leader&nbsp;who needs to be notified only when the review process is finished.</p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Hourly Summary</td> 
-     <td><span>Workfront</span> sends an email to the reviewer every hour with a summary of all the&nbsp;comments, replies, and&nbsp;decisions&nbsp;that have occurred in the hour.<p>The email is sent only when&nbsp;activity besides your own&nbsp;occurs within the past&nbsp;hour. </p><p>This alert is a good way of seeing an overview of the project.</p><p>An example use case for this summary is a&nbsp;senior reviewer&nbsp;who needs an overview of the project but does not need to be notified immediately of all activity on the <span>proof</span>.</p></td> 
+     <td>Workfront sends an email to the reviewer every hour with a summary of all the&nbsp;comments, replies, and&nbsp;decisions&nbsp;that have occurred in the hour.<p>The email is sent only when&nbsp;activity besides your own&nbsp;occurs within the past&nbsp;hour. </p><p>This alert is a good way of seeing an overview of the project.</p><p>An example use case for this summary is a&nbsp;senior reviewer&nbsp;who needs an overview of the project but does not need to be notified immediately of all activity on the proof.</p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Daily Summary</td> 
-     <td><span>Workfront</span> sends one email with all&nbsp;comments, replies, and decisions listed only on days when there is activity besides your own.<p>This alert is a good way of seeing a summary of the project&nbsp;without being overwhelmed with multiple&nbsp;updates throughout the day.</p><p>An example use case for this summary is a department leader&nbsp;who wants to monitor the overall progress of the project.</p><p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Manage notifications for proof comments and decisions</a>.</p></td> 
+     <td>Workfront sends one email with all&nbsp;comments, replies, and decisions listed only on days when there is activity besides your own.<p>This alert is a good way of seeing a summary of the project&nbsp;without being overwhelmed with multiple&nbsp;updates throughout the day.</p><p>An example use case for this summary is a department leader&nbsp;who wants to monitor the overall progress of the project.</p><p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Manage notifications for proof comments and decisions</a>.</p></td> 
     </tr> No email Workfront does not send any email alerts. This is useful for a person who is added to a proof only for reference purposes and does not need to be notified of any changes. The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting. <!--
      Set a deadline Select the day and time when users must take action on the proof. If you are adding users to a proof for a document that already exists in Workfront, you should have already set a deadline.
     --> <!--
@@ -258,8 +258,8 @@ You must have the following access to perform the steps in this article:
    <col> 
    <tbody> 
     <tr> 
-     <td role="rowheader">Notify recipients about this <span>proof</span></td> 
-     <td>Select this option to send an email notification to users. When <span class="bold">Basic sharing</span> is selected in the <span class="bold">Workflow</span> section, an email notification is sent when the <span>proof</span> is created. When <span class="bold">Automated workflow</span> is selected in the <span class="bold">Workflow</span> section, an email notification is sent when the <span>proof</span> enters the stage of the Automated Workflow that the user is associated with.</td> 
+     <td role="rowheader">Notify recipients about this proof</td> 
+     <td>Select this option to send an email notification to users. When <span class="bold">Basic sharing</span> is selected in the <span class="bold">Workflow</span> section, an email notification is sent when the proof is created. When <span class="bold">Automated workflow</span> is selected in the <span class="bold">Workflow</span> section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Add custom message</td> 
@@ -271,7 +271,7 @@ You must have the following access to perform the steps in this article:
 
 1. Continue with [Configure proof settings](#configur3) below.
 
-## Configure `proof` settings
+## Configure proof settings
 
 <ol> 
  <li value="1"> <p>In the <span class="bold">Proof settings</span> section, select any of the following options:</p> 
@@ -281,52 +281,50 @@ You must have the following access to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">Require login - proof can only be shared with other users</td> 
-     <td>When this option is disabled (default), anyone with the URL is able to view the <span>proof</span>. <br>When this option is selected:
+     <td>When this option is disabled (default), anyone with the URL is able to view the proof. <br>When this option is selected:
       <ul>
-       <li>Only <span>Workfront Proof</span>&nbsp;users are able to view the <span>proof</span>.</li>
-       <li>Users cannot sign in to the <span>proof</span> unless they have been added to the <span>proof</span>.</li>
+       <li>Only Workfront Proof&nbsp;users are able to view the proof.</li>
+       <li>Users cannot sign in to the proof unless they have been added to the proof.</li>
        <li>Subscriptions cannot be enabled.</li>
       </ul></td> 
     </tr> 
     <tr> 
-     <td role="rowheader">Only one decision required for this <span>proof</span></td> 
+     <td role="rowheader">Only one decision required for this proof</td> 
      <td>When this option is selected, the review is completed after one of the decision makers makes their decision.<br>This option is disabled by default.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Require decisions to be electronically signed</td> 
-     <td>Users are required to specify their user name and password at the time that they make a decision on&nbsp;a <span>proof</span>.</td> 
+     <td>Users are required to specify their user name and password at the time that they make a decision on&nbsp;a proof.</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">Lock <span>proof</span> when all required decisions are made</td> 
-     <td>When this setting is enabled, the <span>proof</span> state is locked after all decisions have been made. The state is automatically changed from unlocked to locked when the final approver makes their decision.<br>This option is disabled by default.</td> 
+     <td role="rowheader">Lock proof when all required decisions are made</td> 
+     <td>When this setting is enabled, the proof state is locked after all decisions have been made. The state is automatically changed from unlocked to locked when the final approver makes their decision.<br>This option is disabled by default.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Download original file</td> 
-     <td>When this option is selected, reviewers are able to download the original file from which the <span>proof</span> was created.<br>When this option is deselected, the Download icon is no longer visible.<br>This option is enabled by default.</td> 
+     <td>When this option is selected, reviewers are able to download the original file from which the proof was created.<br>When this option is deselected, the Download icon is no longer visible.<br>This option is enabled by default.</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">Share <span>proof</span> via public URL or embed code</td> 
-     <td>When this option is selected, the <span>proof</span> can be shared via a public URL or embed code.</td> 
+     <td role="rowheader">Share proof via public URL or embed code</td> 
+     <td>When this option is selected, the proof can be shared via a public URL or embed code.</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">Subscribe to <span>proof</span> via public URL or embed code</td> 
-     <td>When this option is selected, people who have not been added explicitly to the <span>proof</span> can subscribe to the <span>proof</span>. The person subscribing to the <span>proof</span> is granted the role and email that you define in the following settings:
+     <td role="rowheader">Subscribe to proof via public URL or embed code</td> 
+     <td>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:
       <ul>
-       <li><span class="bold">Subscriber role:</span>&nbsp;The default <span>proof</span> role that is&nbsp;assigned to all reviewers that subscribe to the <span>proof</span>.&nbsp;</li>
-       <li><span class="bold">Email alert settings for subscribers:</span>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the <span>proof</span>.</li>
+       <li><span class="bold">Subscriber role:</span>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</li>
+       <li><span class="bold">Email alert settings for subscribers:</span>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
       </ul><p>
        <ul>
-        <li><span class="bold">Proof access via email link required for:</span>&nbsp;Configure whether the subscriber receives an email with a link to the <span>proof</span>. You can select <span class="bold">No email</span> (email link is not required to access the <span>proof</span>), <span class="bold">Proof notification email only</span> (subscriber receives a link to the <span>proof</span> via email without any verification), or <span class="bold">Validation and <span>proof</span> notification emails</span> (subscriber receives a link to the <span>proof</span> via email and must click the link to access a <span>proof</span>, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
+        <li><span class="bold">Proof access via email link required for:</span>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <span class="bold">No email</span> (email link is not required to access the proof), <span class="bold">Proof notification email only</span> (subscriber receives a link to the proof via email without any verification), or <span class="bold">Validation and proof notification emails</span> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
        </ul><note type="note">
-        &nbsp;If the 
-        <span>proofs</span> have Automated Workflow attached all subscriptions will generate confirmation emails to the 
-        <span>proof</span> Owners, so they could decide which stage the person should be added to.
+        &nbsp;If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.
         <br>
        </note></p></td> 
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="2"> <p>Click <span class="bold">Create Proof</span>.</p> <p><span>Workfront</span>&nbsp;begins generating a <span>proof</span> of the selected documents or websites.&nbsp;Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and <span>Workfront</span>&nbsp;continues to generate your file.&nbsp;The maximum file upload size is 4GB.<br></p> </li> 
- <li value="3"> <p>After&nbsp;the <span>proof</span> is generated, click&nbsp;<span class="bold">Open proof</span>&nbsp;to launch the <span>proofing viewer</span>.</p> <p>  </p> <p>Users who do not have <span>proofing</span> enabled on their account&nbsp;are still able to view the document and make comments to the proof<a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md">.</a><br></p> </li> 
+ <li value="2"> <p>Click <span class="bold">Create Proof</span>.</p> <p>Workfront&nbsp;begins generating a proof of the selected documents or websites.&nbsp;Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and Workfront&nbsp;continues to generate your file.&nbsp;The maximum file upload size is 4GB.<br></p> </li> 
+ <li value="3"> <p>After&nbsp;the proof is generated, click&nbsp;<span class="bold">Open proof</span>&nbsp;to launch the proofing viewer.</p> <p>  </p> <p>Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof<a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md">.</a><br></p> </li> 
 </ol>
 

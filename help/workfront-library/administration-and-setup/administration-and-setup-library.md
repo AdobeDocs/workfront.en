@@ -8,7 +8,7 @@ title: Administration and setup of Workfront Library
 description: This section contains the following subsections:
 ---
 
-# Administration and setup of `Workfront Library`
+# Administration and setup of Workfront Library
 
 This section contains the following subsections:
 

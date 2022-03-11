@@ -8,7 +8,7 @@ description: We are making two changes to the way Adobe Workfront sends and rece
 
 # Email Spoofing & POP Reply
 
-We are making two changes to the way `Adobe Workfront` sends and receives email with the 20.3 release (targeted August 2020).
+We are making two changes to the way Adobe Workfront sends and receives email with the 20.3 release (targeted August 2020).
 
 ## Outbound Email from Workfront
 

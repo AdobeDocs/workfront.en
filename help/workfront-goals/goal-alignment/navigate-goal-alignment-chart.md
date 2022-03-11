@@ -6,9 +6,9 @@ title: Navigate the Goal Alignment section in Adobe Workfront Goals
 description: Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
 ---
 
-# Navigate the `Goal Alignment` section in `Adobe Workfront Goals`
+# Navigate the Goal Alignment section in Adobe Workfront Goals
 
-Use the `Goal Alignment section` to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
+Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
 
 For information about goal alignment and how to achieve it, also see the following articles:
 
@@ -24,20 +24,20 @@ You must have the following to perform the activities described in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span>license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfrontlicense*</td> 
+   <td> <p>Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Goals</p> <p>Note:   <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
+   <td> <p>Edit access to Goals</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -46,7 +46,7 @@ You must have the following to perform the activities described in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -54,10 +54,10 @@ You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main&nbsp;Menu.
 
-## Navigate the `Goal Alignment section`
+## Navigate the Goal Alignment section
 
 <ol> 
- <li value="1"> <p><span>Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in <span>Workfront Goals</span>, see </span><a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> <p>The goals that match your filters display in the alignment chart on cards.</p> 
+ <li value="1"> <p><span>Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see </span><a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> <p>The goals that match your filters display in the alignment chart on cards.</p> 
   <div> 
    <p>The following information displays on a goal card:</p> 
    <table cellspacing="0"> 
@@ -66,7 +66,7 @@ You must have the following before you can start:
     <tbody> 
      <tr> 
       <td role="rowheader">Time period dates </td> 
-      <td> <p>This is the period for which the goal is open.&nbsp;The goal must be achieved by the end date of the period. <span>Workfront Goals</span> calculates progress on the goal based on the duration of the goal's period and the current date.</p> </td> 
+      <td> <p>This is the period for which the goal is open.&nbsp;The goal must be achieved by the end date of the period. Workfront Goals calculates progress on the goal based on the duration of the goal's period and the current date.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Progress indicators</td> 
@@ -96,7 +96,7 @@ You must have the following before you can start:
      --> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td><span>Goals in all statuses display in the <span>Goal Alignment</span> section. </span> </td> 
+      <td><span>Goals in all statuses display in the Goal Alignment section. </span> </td> 
      </tr> 
     </tbody> 
    </table> 

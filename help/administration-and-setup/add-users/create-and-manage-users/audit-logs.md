@@ -10,7 +10,7 @@ description: As an Adobe Workfront administrator, you can track user-changes tri
 
 # Audit logs
 
-As an `Adobe Workfront administrator`, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
+As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
 
 For instructions on viewing and filtering what you want to see in these audit logs, see [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
@@ -187,10 +187,10 @@ The following fields are recorded in every audit log entry:
    <td role="rowheader">Login Attempt</td> 
    <td> <p>The system generates a Login Attempt audit log entry when a user does one of the following actions:</p> 
     <ul> 
-     <li>Logs in, logs out, or fails a login attempt in <span>Workfront</span> (in a browser and in the mobile app)</li> 
-     <li>Logs in, logs out, or fails a login attempt in any <span>Workfront</span> integration (such as <span>Workfront for Slack</span> and <span>Workfront for Salesforce</span>)</li> 
+     <li>Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)</li> 
+     <li>Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack and Workfront for Salesforce)</li> 
      <li> <p>Logs in or logs out of the Workfront API</p> </li> 
-    </ul> <p>Login Attempt Logs do not record when a <span>Workfront administrator</span> uses the Log In As feature.</p> <p>Note: This is not available if your organization’s <span>Workfront</span> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+    </ul> <p>Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.</p> <p>Note: This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Priority</td> 
@@ -254,7 +254,7 @@ The following fields are recorded in every audit log entry:
     <ul> 
      <li> <p>Creates a user<!--
         Gevorg checking with Jonah on whether this note should be here:
-       --></p> <p>Note: This is not available if your organization’s <span>Workfront</span> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </li> 
+       --></p> <p>Note: This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </li> 
      <li>Deletes a user</li> 
      <li>Changes a user's access level, company, team, or group</li> 
      <li>Activates a user</li> 

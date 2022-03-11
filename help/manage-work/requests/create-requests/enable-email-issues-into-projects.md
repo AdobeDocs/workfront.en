@@ -21,23 +21,23 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> <!--
    Object permissions To configure the request queue, you must have Manage permissions to the project. For information on requesting additional access, see Request access to objects in Adobe Workfront.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -46,16 +46,16 @@ The following prerequisites are required to configure a project to allow users t
 These conditions must be met, before enabling this feature:
 
 <ul> 
- <li> Users who are emailing issues to this account must be active users with a license for <span>Workfront</span>.<br></li> <note type="note">
+ <li> Users who are emailing issues to this account must be active users with a license for Workfront.<br></li> <note type="note">
    External Users cannot email issues to a request queue because they do not have access to create issues.
  </note> 
  <li> Users who are emailing issues to this account must have Add Issue permissions on the project. </li> 
- <li> The emails coming from the email address associated with an active <span>Workfront</span> user are the only emails allowed to send issues to the project. </li> 
+ <li> The emails coming from the email address associated with an active Workfront user are the only emails allowed to send issues to the project. </li> 
  <li> The project is set up as a Request Queue. </li> 
- <li> The email account associated with the project is not linked to a <span>Workfront</span> user account. </li> 
+ <li> The email account associated with the project is not linked to a Workfront user account. </li> 
 </ul>
 
-## Configure the project in `Workfront`
+## Configure the project in Workfront
 
 Keep the following in mind when enabling email queue settings:
 
@@ -72,25 +72,25 @@ Keep the following in mind when enabling email queue settings:
    <ul class="warning"> 
     <li>This email address cannot be recovered from the recycle bin if the project containing the request queue is deleted.</li> 
     <li>Because this email address must be unique, it may not be available in the future if deleted.</li> 
-    <li>Emails forwarded to this email address are not added as issues to the project in&nbsp;<span>Workfront</span>. Only emails created from this email address are added as issues.</li> 
+    <li>Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.</li> 
    </ul> 
   </div> </li> 
  <li value="6">(Optional) Select the <span class="bold">Forward all issues that fail to submit via email</span>, then enter a forwarding email address in the box below. This email address receives information about emails that failed to submit to the project.</li> 
- <li value="7"> <p>Click <span class="bold">Save</span>. Now, when users with an active <span>Workfront</span> account send an email to this email address, an issue is created in the <span>Workfront</span> project.</p> <note type="note">
+ <li value="7"> <p>Click <span class="bold">Save</span>. Now, when users with an active Workfront account send an email to this email address, an issue is created in the Workfront project.</p> <note type="note">
     Users must have access to create issues in the project in order to submit via email. You can grant this access in the Sharing dialog box under Advanced Settings.
    <br>
    <br>External Users cannot email issues to a request queue because they do not have access to create issues.
   </note> </li> 
 </ol>
 
-## Receive the issue in `Workfront`
+## Receive the issue in Workfront
 
-When a `Workfront` user sends an email to `Workfront`, the following things happen:
+When a Workfront user sends an email to Workfront, the following things happen:
 
 * The Subject line of the email becomes the Issue Name.
 * The body of the email becomes the Description of the Issue.
-* If there are any documents attached to the email, those documents are attached to the issue in `Workfront`.
-* The user who is sending the email becomes the Primary Contact of the new issue in `Workfront`.
+* If there are any documents attached to the email, those documents are attached to the issue in Workfront.
+* The user who is sending the email becomes the Primary Contact of the new issue in Workfront.
 * The body text of the email cannot exceed 4,000 characters.
 * Email attachments cannot exceed 7 MB total.
 

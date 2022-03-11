@@ -9,7 +9,7 @@ description: The Schedule Performance Index (SPI) describes the relationship bet
 
 # Calculate Schedule Performance Index (SPI)
 
-The Schedule Performance Index (SPI) describes the relationship between the planned schedule and actual schedule.  `Adobe Workfront` calculates SPI&nbsp;at the project and task levels. Project managers review this metric to identify whether tasks or projects are currently tracking ahead of or behind schedule. &nbsp;
+The Schedule Performance Index (SPI) describes the relationship between the planned schedule and actual schedule.&nbsp;Adobe Workfront calculates SPI&nbsp;at the project and task levels. Project managers review this metric to identify whether tasks or projects are currently tracking ahead of or behind schedule. &nbsp;
 
 ## Access requirements
 
@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Schedule Performance Index (SPI) overview
 
@@ -55,9 +55,9 @@ Project managers understand that a SPI&nbsp;value of 1 means the project is on p
 | > 1 (greater than 1) |Ahead of schedule |
 | < 1 (less than 1) |Behind schedule |
 
-### How `Workfront` calculates SPI
+### How Workfront calculates SPI
 
-`Workfront` calculates SPI by the following formula:
+Workfront calculates SPI by the following formula:
 
 ```
 SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
@@ -65,7 +65,7 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;If Planned Hours Scheduled to Date = 0, SPI = 1*.
 
-Planned Hours Schedule to Date are calculated at the minute when you perform the calculations. It shows the number of Planned Hours planned to the current date. It can be recalculated automatically when you change your finance data to be accurate. There is no field in `Workfront` that indicates&nbsp;this value.
+Planned Hours Schedule to Date are calculated at the minute when you perform&nbsp;the calculations. It shows the number of Planned Hours planned to the current date.&nbsp;It can be recalculated automatically when you change your finance data to be accurate. There is no&nbsp;field in Workfront that indicates&nbsp;this value.
 
 For example, if you have a project with 1 task and the task has 10 planned hours and a 10-day Duration, the Planned Hours Schedule to Date on the 5th day are&nbsp;5.&nbsp;
 

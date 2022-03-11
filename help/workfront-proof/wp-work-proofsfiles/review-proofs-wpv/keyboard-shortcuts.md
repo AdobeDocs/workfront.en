@@ -7,13 +7,13 @@ title: Keyboard shortcuts in the Workfront Proof proofing viewer
 description: The information described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.
 ---
 
-# Keyboard shortcuts in the `Workfront Proof` `proofing viewer`
+# Keyboard shortcuts in the Workfront Proof proofing viewer
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-The information described in this section is available in both the `Web Proofing Viewer` and the `Desktop Proofing Viewer`.&nbsp;
+The information&nbsp;described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.&nbsp;
 
 <table cellspacing="15"> 
  <tbody> 

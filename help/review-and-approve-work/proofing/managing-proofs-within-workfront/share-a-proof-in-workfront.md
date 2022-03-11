@@ -6,15 +6,15 @@ title: Share a proof within Adobe Workfront
 description: You can share a proofed document within Adobe Workfront by sharing the document or by adding users to the proof.
 ---
 
-# Share a `proof` within `Adobe Workfront`
+# Share a proof within Adobe Workfront
 
-You can share a proofed document within `Adobe Workfront` by sharing the document or by adding users to the `proof`.
+You can share a proofed document within Adobe Workfront by sharing the document or by adding users to the proof.
 
-If you share the `proof`, as explained in this article, your recipient has the same access to the document and the `proof`. In addition, you can request approval for the `proof` from the recipient.
+If you share the proof, as explained in this article, your recipient has the same access to the document and the proof. In addition, you can request approval for the proof from the recipient.
 
 >[!TIP]
 >
->You can also share a `proof` from within the `proofing viewer`. For instructions, see [Share a proof from the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+>You can also share a proof from within the proofing viewer. For instructions, see [Share a proof from the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Access requirements
 
@@ -25,15 +25,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
+   <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -47,23 +47,23 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
-## Share a `proof` link
+## Share a proof link
 
-Sharing a proof link grants `Workfront` users viewing access. Users can comment on the `proof` and subscribe to email notifications for the `proof` using their `Workfront` login credentials. Non- `proofing` users can comment and subscribe using an email address and display name.
+Sharing a proof link grants Workfront users viewing access. Users can comment on the proof and subscribe to email notifications for the proof using their Workfront login credentials. Non-proofing users can comment and subscribe using an email address and display name.
 
 >[!IMPORTANT]
 >
 >The Allow sharing proof via public URL or embed code setting must be enabled.
 
 <ol> 
- <li value="1"> <p>Select the document that contains the <span>proof</span> you want to share with users.</p> <p>You can select only one document. You cannot share the link for multiple documents at the same time.</p> </li> 
+ <li value="1"> <p>Select the document that contains the proof you want to share with users.</p> <p>You can select only one document. You cannot share the link for multiple documents at the same time.</p> </li> 
  <li value="2"> <p>Click <span class="bold">Share</span> > <span class="bold">Proof Link</span>.</p> </li> 
  <li value="3">In the <span class="bold">Proof link</span> box that appears, do either of the following:</li> 
  <ul> 
   <li> <p>To copy the link to your clipboard, click <span class="bold">Copy link</span>.</p> <p>You can now distribute the link via a third-party tool, such as a chat or an email application.</p> </li> 
-  <li>To email the link directly from <span>Adobe Workfront</span>, do the following:
+  <li>To email the link directly from Adobe Workfront, do the following:
    <ol>
     <li value="1"><p>In the <span class="bold">Or email link to</span> field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.</p></li>
     <li value="2"><p>Select from the following options:</p>
@@ -73,7 +73,7 @@ Sharing a proof link grants `Workfront` users viewing access. Users can comment 
       <tbody>
        <tr>
         <td role="rowheader">Send public link</td>
-        <td><p>Includes a button in the email notification that directs users to the <span>proof</span> within the <span>proofing viewer</span> they are using and grants View access.</p><p>If <span class="bold">Subscribe to proof via public URL or embed code</span> is turned off for the <span>proof</span>, users can sign in with their <span>Workfront</span> login credentials to add comments to the <span>proof</span>. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the <span>proof</span>.</p></td>
+        <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <span class="bold">Subscribe to proof via public URL or embed code</span> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
        </tr>
        <tr>
         <td role="rowheader">Send download link</td>
@@ -85,22 +85,21 @@ Sharing a proof link grants `Workfront` users viewing access. Users can comment 
        </tr>
       </tbody>
      </table></li>
-    <li value="3"><p>Click <span class="bold">Send</span>.</p><p>Your recipients receive an email notification containing information about the <span>proof</span> and the buttons you chose to include.</p><p><img src="assets/proof-share-email-350x87.png" style="width: 350;height: 87;"></p></li>
+    <li value="3"><p>Click <span class="bold">Send</span>.</p><p>Your recipients receive an email notification containing information about the proof and the buttons you chose to include.</p><p><img src="assets/proof-share-email-350x87.png" style="width: 350;height: 87;"></p></li>
    </ol></li> 
  </ul> 
 </ol>
 
-## Add users to a `proof`
+## Add users to a proof
 
-You can add any `Workfront` user to the `proof` if you have Edit rights on the `proof`. If the `proof` has multiple stages, you add the user to an individual stage
+You can add any Workfront user to the proof if you have Edit rights on the proof. If the proof has multiple stages, you add the user to an individual stage
 
 >[!NOTE]
 >
->Keep the following in mind if you are using a legacy `Workfront` plan in which `proofing` can be enabled and disabled for a user:
+>Keep the following in mind if you are using a legacy Workfront plan in which proofing can be enabled and disabled for a user:
 >
->* Your recipients do not need to have `proofing` enabled in order to review the `proof`.
->
->* When Automated Workflow is enabled and you add a user to the `proof` who does not have `proofing` enabled in `Workfront`, a new stage is created within the Automated Workflow. The user who you are adding is automatically added to this new stage when they view the `proof` for the first time. (For more information, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
+>* Your recipients do not need to have proofing enabled in order to review the proof.
+>* When Automated Workflow is enabled and you add a user to the proof who does not have proofing enabled in Workfront, a new stage is created within the Automated Workflow. The user who you are adding is automatically added to this new stage when they view the proof for the first time. (For more information, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
 >
 
 <!--
@@ -111,33 +110,32 @@ Add users to a new proof
 Begin the process for generating a proof on a document or website in Workfront, as described in the Generate a proof articles. Configure the proof as described in the section Workflow in the article Configure a proof.
 -->
 
-### Add users to an existing `proof` from the Documents tab
+### Add users to an existing proof from the Documents tab
 
-1. Select the document that contains the `proof` that you want to add users to.
-1. If the `proof` does not have an automated workflow (stages), click the `More` icon in the upper-right corner of the Stage 1 section, then click `Share` in the drop-down menu.
+1. Select the document that contains the proof that you want to add users to.
+1. If the proof does not have an automated workflow (stages), click the `More` icon in the upper-right corner of the Stage 1 section, then click `Share` in the drop-down menu.
 
    Or
 
-   If the `proof` does have an Automated Workflow, click the `More` icon in the upper-right corner of the stage where you want to add the reviewer, then click `Share` in the drop-down menu.
+   If the proof does have an Automated Workflow, click the `More` icon in the upper-right corner of the stage where you want to add the reviewer, then click `Share` in the drop-down menu.
 
-1. In the `Share this version` box that appears, under `Share`, begin typing the name or email address of a user who you want to share the `proof` with, then click the name when it appears in the drop-down list.
+1. In the `Share this version` box that appears, under `Share`, begin typing the name or email address of a user who you want to share the proof with, then click the name when it appears in the drop-down list.
 
-1. (Optional) Repeat this step to add multiple users to the `proof`.
+1. (Optional) Repeat this step to add multiple users to the proof.
 1. (Optional) Set a deadline for the reviewers.
-1. (Optional) Make sure `Notify people by email` is selected if you want to let the reviewers know you have added them to the `proof`.
-
+1. (Optional) Make sure `Notify people by email` is selected if you want to let the reviewers know you have added them to the proof.
 1. (Optional) `Add a custom message` to the email.
 1. When you have added all the reviewers, click `Share`.
 
-### Add users to an existing `proof` from the `proofing viewer`
+### Add users to an existing proof from the proofing viewer
 
-You can add users to a `proof` while you review a `proof` in the `Web Proofing Viewer` and in the `Desktop Proofing Viewer`.
+You can add users to a proof while you review a proof in the Web Proofing Viewer and in the Desktop Proofing Viewer.
 
 For more information, see [Share a proof by adding users to it](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in the article [Share a proof from the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
 
-## Report on `proofing` approvals
+## Report on proofing approvals
 
-You can create a report that reports on the `proofing` approvals that have been shared within `Workfront`. This report provides the following `proof` approval information in your system:
+You can create a report that reports on the proofing approvals that have been shared within Workfront. This report provides the following proof approval information in your system:
 
 * Document that was submitted for approval
 * Name of the approver
@@ -149,8 +147,8 @@ You access this approval when creating a report based on an object, as described
 
 For more information about the Proof Approvals object report, see the [Report on objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) section in [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 
-## Approve a shared `proof`
+## Approve a shared proof
 
-When a user adds you to a `proof` and grants either the Approver role or the Reviewer & Approver role using Automated Workflow, the approval request displays on the Approvals tab in your Home or My Work area. You can then view the `proof` and make an approval decision on the `proof` directly from `Workfront`.
+When a user adds you to a proof and grants either the Approver role or the Reviewer & Approver role using Automated Workflow, the approval request displays on the Approvals tab in your Home or My Work area. You can then view the proof and make an approval decision on the proof directly from Workfront.
 
 For information about how to make approval decisions from the My Work area, see [Approve work from the Home area](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) or [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).

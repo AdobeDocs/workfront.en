@@ -1,6 +1,6 @@
 
 
-# Frequently asked questions about `Workfront Goals`
+# Frequently asked questions about Workfront Goals
 
 ## From Michael Swan's pdf - FAQs:
 

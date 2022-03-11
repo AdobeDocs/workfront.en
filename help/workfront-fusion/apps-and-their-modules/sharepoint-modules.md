@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your SharePoi
 
 # SharePoint modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `SharePoint` account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your SharePoint account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,42 +26,42 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use SharePoint modules, you must have a SharePoint account.
 
-## Connect SharePoint to `Workfront Fusion`
+## Connect SharePoint to Workfront Fusion
 
 * [Connect SharePoint to Workfront Fusion using a Microsoft account](#connect2) 
 * [Connect SharePoint to Workfront Fusion using advanced settings](#connect3)
 
-### Connect SharePoint to `Workfront Fusion` using a Microsoft account
+### Connect SharePoint to Workfront Fusion using a Microsoft account
 
-You can use your Microsoft account to create a connection to SharePoint. For instructions about connecting your `Sharepoint` account to `Workfront Fusion`, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+You can use your Microsoft account to create a connection to SharePoint. For instructions about connecting your Sharepoint account to Workfront Fusion, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-### Connect SharePoint to `Workfront Fusion` using advanced settings
+### Connect SharePoint to Workfront Fusion using advanced settings
 
-To connect SharePoint to `Workfront Fusion` without a Microsoft account, you need a Client ID, Client Secret, and Tenant ID.
+To connect SharePoint to Workfront Fusion without a Microsoft account, you need a Client ID, Client Secret, and Tenant ID.
 
 1. Click `Add` near the top of the `SharePoint` box to open the `Create a connection` box.
 
@@ -71,11 +71,11 @@ To connect SharePoint to `Workfront Fusion` without a Microsoft account, you nee
 
 1. Click `Continue`.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
-1. (Conditional) If an `Allow` button displays, click the button to connect the app to `Workfront Fusion`.
+1. (Conditional) If an `Allow` button displays, click the button to connect the app to Workfront Fusion.
 
 ## SharePoint modules and their fields
 
-When you configure `SharePoint` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `SharePoint` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure SharePoint modules, Workfront Fusion displays the fields listed below. Along with these, additional SharePoint fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -106,7 +106,7 @@ This trigger module starts a scenario when an item is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Lists</td> 
@@ -122,7 +122,7 @@ This trigger module starts a scenario when an item is created or modified.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>item</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of items you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +137,7 @@ This action module retrieves a list of all items in a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List Items</td> 
@@ -149,7 +149,7 @@ This action module retrieves a list of all items in a specified list.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>item</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of items you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,7 +164,7 @@ This action module returns the data of a specified item.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get an Item</td> 
@@ -187,7 +187,7 @@ This action module creates a new item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Create an Item</td> 
@@ -214,7 +214,7 @@ This action module updates an existing item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update an Item</td> 
@@ -241,7 +241,7 @@ This action module deletes an existing item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update an Item</td> 
@@ -271,7 +271,7 @@ This trigger module starts a scenario when a list is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Lists</td> 
@@ -287,7 +287,7 @@ This trigger module starts a scenario when a list is created or modified.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>list</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of lists you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,7 +302,7 @@ This action module retrieves a list of all items in a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List Lists</td> 
@@ -314,7 +314,7 @@ This action module retrieves a list of all items in a specified list.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>list</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of lists you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -329,7 +329,7 @@ This action module returns the data of a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a List</td> 
@@ -352,7 +352,7 @@ This action module creates a new list in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter a Site ID</td> 
@@ -397,7 +397,7 @@ This action module returns the data of a specified page.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a Page</td> 
@@ -425,7 +425,7 @@ This action module searches for sites by a parameter you specify.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Keyword of Display Name</td> 
@@ -433,7 +433,7 @@ This action module searches for sites by a parameter you specify.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>site</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of sites you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,7 +448,7 @@ This action module returns the data of a specified site.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a Site</td> 
@@ -473,7 +473,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -485,7 +485,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 

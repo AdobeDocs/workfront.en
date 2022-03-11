@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Microsof
 
 # Microsoft Dynamics 365 modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `Microsoft Dynamics 365` account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your Microsoft Dynamics 365 account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,31 +26,31 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use Microsoft Dynamics 365, you must have a Microsoft Dynamics 365 account.
 
-## Connect Microsoft Dynamics 365 to `Workfront Fusion`
+## Connect Microsoft Dynamics 365 to Workfront Fusion
 
 You can create a connection to your Microsoft Dynamics 365 account directly from inside an Allocadia module.
 
@@ -67,7 +67,7 @@ You can create a connection to your Microsoft Dynamics 365 account directly from
 
 ## Microsoft Dynamics 365 modules and their fields
 
-When you configure `Microsoft Dynamics 365` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Microsoft Dynamics 365` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Microsoft Dynamics 365 modules, Workfront Fusion displays the fields listed below. Along with these, additional Microsoft Dynamics 365 fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -86,7 +86,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This scheduled trigger module executes a scenario when a record in the object you specify is created or updated after the last scheduled run in Dynamics 365.
 
-The module's output indicates whether the record that it found is new or updated (if it was both added and updated in the time period, it's marked as new). You can map `this information` in subsequent modules in the scenario.
+The module's output indicates whether the record that it found is new or updated (if it was both added and updated in the time period, it's marked as new). You can map this information in subsequent modules in the scenario.
 
 This happens on a regularly scheduled interval that you specify.
 
@@ -98,7 +98,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Include</td> 
@@ -114,7 +114,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Max Records</td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,7 +135,7 @@ A webhook is required in this module.
     <ol> 
      <li value="1"> <p>Click <span class="bold">Add </span>to the right of the Webhook field</p> </li> 
      <li value="2"> <p>In the <span class="bold">Webhook </span>name field, type a descriptive name for the webhook.</p> </li> 
-     <li value="3"> <p>In the <span class="bold">Connection </span>field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
+     <li value="3"> <p>In the <span class="bold">Connection </span>field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
      <li value="4"> <p>Click <span class="bold">Save </span>to save your webhook and return to the module.</p> </li> 
     </ol> </td> 
   </tr> 
@@ -144,11 +144,11 @@ A webhook is required in this module.
 
 ### Create Record
 
-This action module `creates an entity, such as an appointment or task,`.
+This action module creates an entity, such as an appointment or task,.
 
 You specify information about the entity that you want to create.
 
-The module returns the ID of the new entity and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the new entity and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -158,20 +158,20 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
-   <td>Select the type of entity that you want the module to <span>create</span>.</td> 
+   <td>Select the type of entity that you want the module to create.</td> 
   </tr> Property fields In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type. 
  </tbody> 
 </table>
 
 ### Make an API Call
 
-This action module lets you make a custom authenticated call to the `Microsoft Dynamics 365` API. This way, you can create a data flow automation that can't be accomplished by the other `Microsoft Dynamics 365` modules.
+This action module lets you make a custom authenticated call to the Microsoft Dynamics 365 API. This way, you can create a data flow automation that can't be accomplished by the other Microsoft Dynamics 365 modules.
 
-The module returns information about the status code, headers, and body. You can map `this information` in subsequent modules in the scenario.
+The module returns information about the status code, headers, and body. You can map this information in subsequent modules in the scenario.
 
 To learn more, see the Microsoft documentation about using the Dynamics 365 Customer Engagement Web API.
 
@@ -183,7 +183,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -195,7 +195,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -213,11 +213,11 @@ When you are configuring this module, the following fields display.
 
 ### Delete Record
 
-This action module `deletes an entity`.
+This action module deletes an entity.
 
-You specify the ID of the `entity`.
+You specify the ID of the entity.
 
-The module returns the ID of the  `entity` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  entity and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -227,26 +227,26 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
-   <td> <p>Select the type of entity that you want the module to <span>delete</span>.</p> </td> 
+   <td> <p>Select the type of entity that you want the module to delete.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
-   <td> <p>Enter or map the unique <span>Microsoft Dynamics 365</span> ID of the <span>record</span> that you want the module to <span>delete</span>.</p> </td> 
+   <td> <p>Enter or map the unique Microsoft Dynamics 365 ID of the record that you want the module to delete.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Read Records
 
-This action module reads `data from a single entity` in `Microsoft Dynamics 365`.
+This action module reads data from a single entity in Microsoft Dynamics 365.
 
-You specify the ID of the `entity`.
+You specify the ID of the entity.
 
-The module returns the ID of the `entity` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the entity and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -256,11 +256,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
-   <td>Select the type of entity that you want the module to <span>read</span>.</td> 
+   <td>Select the type of entity that you want the module to read.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Outputs</td> 
@@ -268,18 +268,18 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
-   <td>Enter or map the unique <span>Microsoft Dynamics 365</span> ID of the <span>record</span> that you want the module to <span>read</span>.</td> 
+   <td>Enter or map the unique Microsoft Dynamics 365 ID of the record that you want the module to read.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Update Record
 
-This action module `updates an entity`.
+This action module updates an entity.
 
-You specify the ID of the `entity`.
+You specify the ID of the entity.
 
-The module returns the ID of the updated `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the updated record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -289,14 +289,14 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> Entity Type Select the type of entity that you want the module to update. Property fields In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type. ID Enter or map the unique Microsoft Dynamics 365 ID of the record that you want the module to update. 
  </tbody> 
 </table>
 
 ### Search Records
 
-This search module looks for `records in an object` in `Microsoft Dynamics 365` that match the search query you specify. You can map `this information` in subsequent modules in the scenario.
+This search module looks for records in an object in Microsoft Dynamics 365 that match the search query you specify. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -306,11 +306,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
-   <td>Select the type of entity that you want the module to <span>update</span>.</td> 
+   <td>Select the type of entity that you want the module to update.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filters</td> 
@@ -330,7 +330,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Max Records</td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Outputs</td> 

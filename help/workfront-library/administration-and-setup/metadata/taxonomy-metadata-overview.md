@@ -8,15 +8,15 @@ title: Overview of taxonomy metadata in Workfront Library
 description: Taxonomy is a type of metadata used to describe and categorize the factual attributes of content uploaded to Workfront Library. For information about metadata, see Overview of metadata in Workfront Library.
 ---
 
-# Overview of taxonomy metadata in `Workfront Library`
+# Overview of taxonomy metadata in Workfront Library
 
-Taxonomy is a type of metadata used to describe and categorize the factual attributes of content uploaded to `Workfront Library`. For information about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
+Taxonomy is a type of metadata used to describe and categorize the factual attributes of content uploaded to Workfront Library. For information about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
-Users apply taxonomy when they upload an asset to `Workfront Library`. Users can also add or edit taxonomy metadata to shared assets to which they have Manage permissions.
+Users apply taxonomy when they upload an asset to Workfront Library. Users can also add or edit taxonomy metadata to shared assets to which they have Manage permissions.
 
 Some taxonomy, such as EXIF and XMP, is embedded in the content file and can be automatically added to the content's metadata when the file is uploaded. Other taxonomy must be provided by the user during the content upload process.
 
-As a `Workfront Library administrator`, you configure your organization's taxonomy by selecting the types of information users are prompted for when they upload content. For example, you can add fields to the taxonomy that require users to enter the content creator's name or the location of a photo.
+As a Workfront Library administrator, you configure your organization's taxonomy by selecting the types of information users are prompted for when they upload content. For example, you can add fields to the taxonomy that require users to enter the content creator's name or the location of a photo.
 
 Before designing your organization's taxonomy, determine the types of information your users are most likely to filter for when looking for content. You can then set up taxonomy fields that prompt users for information that support more accurate search results.&nbsp;
 
@@ -55,9 +55,9 @@ With the exception of attribute fields, you can configure taxonomy fields to be 
 
 The fields you configure in your taxonomy display in the metadata Details panel for the content.
 
-While users process content for uploading to `Workfront Library`, they can identify the taxonomy for the content. Before the content is uploaded, users must complete all required taxonomy fields. For information on filling in metadata during upload, see [Upload content to Workfront Library](../../../workfront-library/content-management/upload-new-content.md).
+While users process content for uploading to Workfront Library, they can identify the taxonomy for the content. Before the content is uploaded, users must complete all required taxonomy fields. For information on filling in metadata during upload, see [Upload content to Workfront Library](../../../workfront-library/content-management/upload-new-content.md).
 
-Users with Manage permissions to an item can change and add to its metadata. For content with multiple versions, only the metadata of the active (most current) version can be modified. After a new version of content is uploaded to `Workfront Library`, the metadata for the older version is locked and cannot be changed. For more information on versioning content, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
+Users with Manage permissions to an item can change and add to its metadata. For content with multiple versions, only the metadata of the active (most current) version can be modified. After a new version of content is uploaded to Workfront Library, the metadata for the older version is locked and cannot be changed. For more information on versioning content, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
 
 Because portal users might not need to view all the taxonomy you collect on your organization's assets, you can select which taxonomy fields display on content shared with a portal. For information about specifying taxonomy fields for portal content, see [Set up a portal in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md).
 

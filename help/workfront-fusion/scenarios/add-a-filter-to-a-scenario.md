@@ -27,25 +27,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -61,7 +61,7 @@ You must add both modules to a scenario before you can add a filter between them
  <li value="5"> <p>Define a filter <span class="bold">Condition</span>. </p> <p>You can enter one or two operands in the two boxes. If you enter operands in both boxes, you can select an operator in the drop-down menu between them to specify the relation between them. </p> <note type="tip">
    In the operand fields, you can enter values in the same way as you would map them, as described in 
    <a href="../../workfront-fusion/mapping/map-information-between-modules.md" class="MCXref xref">Map information from one module to another</a>.
-  </note> <p>For example, if you wanted the filter to find files in <span>Adobe Workfront</span>ending with XML and pass them on to Dropbox, you would type <span class="bold">File name</span> in the first box and .<span class="bold">xml</span> in the second box. In the drop-down menu between them, you would select <span class="bold">Ends with (case insensitive)</span>. This filter would apply to incoming bundles from the first module (Workfront). Only bundles containing XML files would pass on to the next module (Dropbox).</p> <p> <img src="assets/set-up-filter-box-350x368.jpg" style="width: 350;height: 368;"> </p> </li> 
+  </note> <p>For example, if you wanted the filter to find files in Adobe Workfrontending with XML and pass them on to Dropbox, you would type <span class="bold">File name</span> in the first box and .<span class="bold">xml</span> in the second box. In the drop-down menu between them, you would select <span class="bold">Ends with (case insensitive)</span>. This filter would apply to incoming bundles from the first module (Workfront). Only bundles containing XML files would pass on to the next module (Dropbox).</p> <p> <img src="assets/set-up-filter-box-350x368.jpg" style="width: 350;height: 368;"> </p> </li> 
  <li value="6">Click <span class="bold">OK</span>.</li> 
 </ol>
 
@@ -78,10 +78,10 @@ Currently, the scenario editor doesn't include a feature for copying a filter.
 To copy a filter without copying modules, you can use Google Chrome for the following workaround:
 
 <ol> 
- <li value="1">Install the <span>Adobe Workfront Fusion</span> DevTool Chrome extension.</li> 
- <li value="2">In <span>Workfront Fusion</span>, open the scenario.</li> 
+ <li value="1">Install the Adobe Workfront Fusion DevTool Chrome extension.</li> 
+ <li value="2">In Workfront Fusion, open the scenario.</li> 
  <li value="3">Click the Chrome three-dot menu, then click <span class="bold">More tools</span> > <span class="bold">Developer tools</span>. </li> 
- <li value="4"> <p>In the Developer tools panel that displays, on the menu bar across the top, click the <span>Workfront Fusion</span> tab.</p> <p> <img src="assets/copy-a-filter-350x174.png" style="width: 350;height: 174;"> </p> </li> 
+ <li value="4"> <p>In the Developer tools panel that displays, on the menu bar across the top, click the Workfront Fusion tab.</p> <p> <img src="assets/copy-a-filter-350x174.png" style="width: 350;height: 174;"> </p> </li> 
  <li value="5">Click the <span class="bold">Tools</span> icon <img src="assets/devtools-tools-icon.png"> in the left side bar.</li> 
  <li value="6">Click <span class="bold">Copy Filter</span>, then configure the <span class="bold">Copy Filter</span> tool in the right side panel:
   <ol>

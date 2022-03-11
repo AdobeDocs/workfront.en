@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Anaplan 
 
 # Anaplan Modules
 
-In a `Adobe Workfront Fusion` scenario, you can connect your `Anaplan` account to multiple third-party applications and services.
+In a Adobe Workfront Fusion scenario, you can connect your Anaplan account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,34 +26,34 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 Before you can use the Anaplan connector, you must ensure that the following prerequisites are met:
 
 * You must have an active Anaplan account.
-* You must configure Workspaces, Models, and other Anaplan objects in your Anaplan account before `Workfront Fusion` can interact with them.
+* You must configure Workspaces, Models, and other Anaplan objects in your Anaplan account before Workfront Fusion can interact with them.
 
-## Connect Anaplan to `Workfront Fusion`
+## Connect Anaplan to Workfront Fusion
 
 To create a connection for your Anaplan modules:
 
@@ -79,7 +79,7 @@ To create a connection for your Anaplan modules:
 
 ## Anaplan modules and their fields
 
-When you configure `Anaplan` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Anaplan` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Anaplan modules, Workfront Fusion displays the fields listed below. Along with these, additional Anaplan fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -112,7 +112,7 @@ This trigger module starts a scenario when a record of the chosen type is create
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>[action]</span> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

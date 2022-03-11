@@ -7,11 +7,11 @@ title: Adobe Workfront Goals with the 21.1 release
 description: This page provides information about functionality for Adobe Workfront Goals in the new Adobe Workfront experience that is releasing to the Production environment with the 21.1 release.
 ---
 
-# `Adobe Workfront Goals` with the 21.1 release
+# Adobe Workfront Goals with the 21.1 release
 
-This page provides information about functionality for `Adobe Workfront Goals` in `the new Adobe Workfront experience` that is releasing to the Production environment with the 21.1 release.
+This page provides information about functionality for Adobe Workfront Goals in the new Adobe Workfront experience that is releasing to the Production environment with the 21.1 release.
 
-For a list of all changes available for all areas of `Workfront` at this point in the 21.1 release cycle, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+For a list of all changes available for all areas of Workfront at this point in the 21.1 release cycle, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 <table> 
  <col> 

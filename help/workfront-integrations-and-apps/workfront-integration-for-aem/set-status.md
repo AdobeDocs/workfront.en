@@ -13,8 +13,8 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> <!--
    Adobe Workfront license* Work or higher
   --> 
@@ -25,7 +25,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
 
 ## Set Status
 
-This workflow step will allow a user to set `Adobe Workfront` statuses on Projects, Tasks, and Issues. This workflow step can be added to any workflow model. The `Workfront` artifact this step affects will be looked up using a relative path from the payload. The status is statically defined in the dialog configuration.
+This workflow step will allow a user to set Adobe Workfront statuses on Projects, Tasks, and Issues. This workflow step can be added to any workflow model. The Workfront artifact this step affects will be looked up using a relative path from the payload. The status is statically defined in the dialog configuration.
 
 ![](assets/set-status-350x312.png)
 

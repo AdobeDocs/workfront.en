@@ -10,18 +10,18 @@ description: You can expand your reporting capabilities by using text mode in re
 
 You can expand your reporting capabilities by using text mode in reports and report elements. You can also use a version of text mode to build more complex calculated custom fields. For more information about text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-This article outlines just a few common examples of where you would most likely need to use text mode to expand reporting or calculated custom fields capabilities in `Adobe Workfront`. For a more expansive list of examples, see:
+This article outlines just a few common examples of where you would most likely need to use text mode to expand reporting or calculated custom fields capabilities in Adobe Workfront. For a more expansive list of examples, see:
 
 * [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 
 * [Calculated custom data in reports](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-For additional real-life text mode examples that other `Workfront` customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in  `Adobe Workfront One` or join the [ `Workfront Community`](https://one.workfront.com/s/community) (requires logging in). &nbsp;
+For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
 
 ## Instances where you might use text mode in lists and reports
 
 We recommend that you use the report and list builder to build your views, filters and groupings. However, there are some instances where you can use text mode to enhance your reports and lists.
 
-You can use text mode when you want to achieve the following in  `Workfront`:
+You can use text mode when you want to achieve the following in&nbsp;Workfront:
 
 * Build custom calculated custom fields in a custom form.  
   For more information about calculated custom fields, see the [Use Text Mode in calculated custom fields](#calculated-custom-fields) section in this article.

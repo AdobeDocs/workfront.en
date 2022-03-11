@@ -11,7 +11,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Use Mutual TLS in HTTP modules
 
-`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
 ## Mutual TLS overview
 
@@ -36,51 +36,51 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Providing your `Workfront Fusion` public certificate
+## Providing your Workfront Fusion public certificate
 
-When you connect to a web service with an HTTP request, the web service usually requires a `Workfront Fusion` public certificate for verification. This allows the web service to compare the certificate presented in the HTTP request to the one on file, as a way to ensure that the certificate is on the web service's allowlist.
+When you connect to a web service with an HTTP request, the web service usually requires a Workfront Fusion public certificate for verification. This allows the web service to compare the certificate presented in the HTTP request to the one on file, as a way to ensure that the certificate is on the web service's allowlist.
 
-For instructions on uploading the `Adobe Workfront Fusion` public certificate to a web service, see the web service's documentation.
+For instructions on uploading the Adobe Workfront Fusion public certificate to a web service, see the web service's documentation.
 
-You can use the following links to download the `Workfront Fusion` public certificates:
+You can use the following links to download the Workfront Fusion public certificates:
 
 ### Certificates for the year November 17, 2021 - November 17, 2022
 
-* [Download `Workfront Fusion` Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
-* [Download `Workfront Fusion` EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
+* [Download Workfront Fusion Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
+* [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
 
   For use in the EU
 
 ### Certificates expiring November 16, 2021
 
-* [Download `Workfront Fusion` Certificate](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain.crt) 
-* [Download `Workfront Fusion` EU Certificate](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain.crt)
+* [Download Workfront Fusion Certificate](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain.crt) 
+* [Download Workfront Fusion EU Certificate](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain.crt)
 
   For use in the EU
 
 >[!IMPORTANT]
 >
->`Workfront Fusion` public certificates expire annually. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
+>Workfront Fusion public certificates expire annually. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
 >
 >* Make note of the expiration date and set a reminder for yourself to upload the certificate to your web service.
 >* Bookmark this page to easily find the new certificates.
@@ -90,9 +90,9 @@ You can use the following links to download the `Workfront Fusion` public certif
 >
 >You may need to provide other information in addition to the certificate. For information on what a web service requires, see the web service's API documentation.
 
-## Enabling Mutual TLS in `Workfront Fusion` HTTP modules
+## Enabling Mutual TLS&nbsp;in Workfront Fusion HTTP modules
 
-All `Workfront Fusion` HTTP request modules have the option to enable Mutual TLS.
+All Workfront Fusion HTTP request modules have the option to enable Mutual TLS.
 
 To enable Mutual TLS in an HTTP request module:
 

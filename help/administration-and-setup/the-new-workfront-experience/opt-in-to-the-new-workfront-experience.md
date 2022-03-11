@@ -8,7 +8,7 @@ title: Opt in to the new Adobe Workfront experience
 description: This section contains the following articles:
 ---
 
-# Opt in to `the new Adobe Workfront experience`
+# Opt in to the new Adobe Workfront experience
 
 This section contains the following articles:
 

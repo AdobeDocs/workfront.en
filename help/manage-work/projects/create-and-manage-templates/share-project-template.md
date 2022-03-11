@@ -12,9 +12,9 @@ The highlighted information on this page refers to functionality not yet general
 
 You can share a template with users, or you can define how the projects that are created from a template will be shared with users by using the following sharing options at the template level.
 
-When sharing an object in `Adobe Workfront`, you allow other users to view, contribute to, or edit that object.
+When sharing an object in Adobe Workfront, you allow other users to view, contribute to, or edit that object.
 
-For information about `Workfront` permissions, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+For information about Workfront permissions, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 For information about the permissions you can give users when sharing a template, see [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
@@ -27,16 +27,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Templates</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Templates</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Share a template
 
@@ -67,8 +67,7 @@ To share a template:
  <li value="4"> <p>From the drop-down menu for each entity with which you are sharing, select from the following:</p> 
   <ul> 
    <li> <p><span class="bold">View</span>: Users with these permissions are able to view the template and create a project using it, or attach it to an existing project.</p> <note type="tip">
-     Your 
-     <span>Workfront administrator</span> must give you Edit access to projects to be able to create projects.
+     Your Workfront administrator must give you Edit access to projects to be able to create projects.
     </note> </li> 
    <li> <p><span class="bold">Manage</span>: Users with these permissions are able to edit or delete the template.</p> <p>For information about the Advanced Settings <img src="assets/gear-icon-in-access-levels.png"> available here, see the section <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions" class="MCXref xref">Advanced Settings for template sharing</a> in the article <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>.</p> </li> 
   </ul> </li> 

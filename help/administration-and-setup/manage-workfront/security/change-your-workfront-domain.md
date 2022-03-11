@@ -7,9 +7,9 @@ title: Change your Adobe Workfront domain
 description: As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 ---
 
-# Change your `Adobe Workfront` domain
+# Change your Adobe Workfront domain
 
-As an `Adobe Workfront administrator` and an authorized `Workfront` Support contact, you can request help from the `Workfront` Support team to change your organization's `Workfront` domain.
+As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
 ## Access requirements
 
@@ -20,16 +20,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
-   <td> <p><span>Plan</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,14 +44,14 @@ You can also call Workfront Support to get help changing your domain.
 
 ## Update the new domain if you are an SSO customer
 
-If your company utilizes SSO, the following steps are required after you have your `Workfront` domain changed.
+If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
 
 >[!NOTE]
 >
->This is not available if your organization’s `Workfront` instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left sidebar, click <span class="bold">System</span> > <span class="bold">Customer Info</span> and make sure that your domain is updated on the Customer Info page.</li> 
  <li value="3">In the left sidebar, click <span class="bold">System</span> > <span class="bold">Single Sign-On (SSO)</span>.</li> 
  <li value="4">Click <span class="bold">Download SAML 2.0 Metadata</span>.</li> 
@@ -61,6 +61,6 @@ If your company utilizes SSO, the following steps are required after you have yo
    <li value="2">All locations within <span class="bold"><md:AssertionConsumerService></span> point to the new domain.</li>
   </ol></li> 
  <li value="6">Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.</li> 
- <li value="7">Make sure the domain is updated for all <span>Workfront</span> integrations used by your organization.</li> 
+ <li value="7">Make sure the domain is updated for all Workfront integrations used by your organization.</li> 
 </ol>
 

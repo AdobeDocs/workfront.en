@@ -10,7 +10,7 @@ description: As an Adobe Workfront administrator, you can activate or deactivate
 
 # Active and deactivated objects
 
-As an `Adobe Workfront administrator`, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
+As an Adobe Workfront administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
 
 For example, in order to see a certain Hour Type, the Hour Type must be active. An inactive or disabled Hour Type does not appear in the Hour Type drop-down menu, but remains in the system to keep the historical record intact of where this Hour Type might have been used in the past.
 

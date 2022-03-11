@@ -7,9 +7,9 @@ title: Edit results and activities in Adobe Workfront Goals
 description: After your Adobe Workfront administrator has granted you the correct access to Adobe Workfront Goals, you can create and edit goals, results, and activities.
 ---
 
-# Edit results and activities in  `Adobe Workfront Goals`
+# Edit results and activities in&nbsp;Adobe Workfront Goals
 
-After your `Adobe Workfront administrator` has granted you the correct access to `Adobe Workfront Goals`, you can create and edit goals, results, and activities.&nbsp;
+After your Adobe Workfront administrator has granted you the correct access to Adobe Workfront Goals, you can create and edit goals, results, and activities.&nbsp;
 
 For information about creating goals, results and activities, see the following articles:
 
@@ -27,20 +27,20 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:   <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -49,7 +49,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -61,8 +61,8 @@ You must have the following before you can start:
 
 <ul> 
  <li> <p>You can edit results and activities that belong to goals you created or to goals that you have permissions to Manage. </p> </li> 
- <li> <p>You cannot edit projects that are connected to goals as activities from <span>Workfront Goals</span>. You can remove them from the goal by disconnecting them. For more information, see the "Disconnect projects"&nbsp;section in the article <a href="../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md" class="MCXref xref">Remove results, activities, and projects from goals in Adobe Workfront Goals</a>. </p> <note type="note">  
-   <p>If the following project information updates at the project level, <span>Workfront Goals</span> automatically updates it at the goal level:</p> 
+ <li> <p>You cannot edit projects that are connected to goals as activities from Workfront Goals. You can remove them from the goal by disconnecting them. For more information, see the "Disconnect projects"&nbsp;section in the article <a href="../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md" class="MCXref xref">Remove results, activities, and projects from goals in Adobe Workfront Goals</a>. </p> <note type="note">  
+   <p>If the following project information updates at the project level, Workfront Goals automatically updates it at the goal level:</p> 
    <ul> 
     <li>Project owner</li> 
     <li>Project name</li> 

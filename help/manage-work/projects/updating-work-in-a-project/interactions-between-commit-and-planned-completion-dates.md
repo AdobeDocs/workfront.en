@@ -26,7 +26,7 @@ The following table contains information about the difference between the Commit
   </tr> 
   <tr> 
    <td role="rowheader">Planned Completion Date</td> 
-   <td> <p>The Planned Completion Date shows when the project owner expects the task or issue to be completed. It can be either manually set by the project owner or anyone with Manage permissions to the task or issue or it can be automatically calculated by <span>Adobe Workfront</span>.</p> <p>For more information about Planned Completion dates, see <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task Planned Completion Date</a></p> </td> 
+   <td> <p>The Planned Completion Date shows when the project owner expects the task or issue to be completed. It can be either manually set by the project owner or anyone with Manage permissions to the task or issue or it can be automatically calculated by Adobe Workfront.</p> <p>For more information about Planned Completion dates, see <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task Planned Completion Date</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

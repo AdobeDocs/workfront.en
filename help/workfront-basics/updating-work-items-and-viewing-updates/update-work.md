@@ -8,11 +8,11 @@ description: You can add an update on a Adobe Workfront object (project, task, o
 
 # Update work
 
-You can add an update on a `Adobe Workfront` object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
+You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
 
-You can add updates to an object from the following areas of `Workfront`:
+You&nbsp;can add updates to an object from the following areas of Workfront:
 
-* From a `Workfront` object, in the Updates section 
+* From a Workfront object, in the Updates section 
 * From the Home area (for tasks and issues)
 * From the timesheet (for tasks and issues)
 
@@ -27,16 +27,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Request</span> or higher for issues and documents; <span>Review</span> or higher for all other objects</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or Edit access for the object the update is on</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or Edit access for the object the update is on</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Add an update to a work item
 
@@ -108,16 +108,16 @@ You must have the following access to perform the steps in this article:
   </table> <p>To stop formatting text, deselect the attribute on the <span class="bold">Rich Text</span> toolbar.</p> <note type="note">  
    <ul> 
     <li>Formatting also displays in any email notification users receive containing your update.</li> 
-    <li>Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.<br>If your organization uses <span>Workfront</span> with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.</li> 
+    <li>Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.<br>If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.</li> 
     <li>Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.</li> 
    </ul> 
   </note> </li> 
  <li value="5"> <p>(Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the <span class="bold">Block Quote</span> icon <img src="assets/block-quote-(small).png"> and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the <span class="bold">Block Quote</span> icon again to return to normal formatting.</p> <p> <img src="assets/block-quote-marked-350x144.png" style="width: 350;height: 144;"> </p> </li> 
  <li value="6"> <p>(Optional) Add any emojis to your update.</p> <note type="note">  
    <ul> 
-    <li><span>Workfront</span> does not replace punctuation emoticons such as :) with emojis.</li> 
+    <li>Workfront does not replace punctuation emoticons such as :) with emojis.</li> 
     <li>Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.</li> 
-    <li>The emoji feature in <span>Workfront</span> utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.</li> 
+    <li>The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.</li> 
     <li>An unsupported emoji is represented by a black or white box.</li> 
     <li>Windows 7 supports only black and white emojis.<br></li> 
     <li>Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.</li> 
@@ -131,10 +131,10 @@ You must have the following access to perform the steps in this article:
    <li value="4">Under <span class="bold">Text to display</span>, type or paste the link text.</li> 
    <li value="5"><p>Click <span class="bold">Save</span>.</p></li> 
   </ol></li> 
- <li value="8"> <p>(Optional) To insert a Zoom meeting URL in your update, click the <span class="bold">Zoom</span> icon <img src="assets/zoom-icon-updates.png">.</p> <p>The recipients that you notify can join the meeting after they receive their instant notification in <span>Workfront</span> or via email. For more information on notifying users, see the Notify section below.</p> <note type="note">  
+ <li value="8"> <p>(Optional) To insert a Zoom meeting URL in your update, click the <span class="bold">Zoom</span> icon <img src="assets/zoom-icon-updates.png">.</p> <p>The recipients that you notify can join the meeting after they receive their instant notification in Workfront or via email. For more information on notifying users, see the Notify section below.</p> <note type="note">  
    <ul> 
-    <li>The Zoom integration is available only if your <span>Workfront administrator</span> enabled it, as explained in <a href="../../administration-and-setup/configure-integrations/enable-zoom-integration.md" class="MCXref xref">Install the Zoom integration</a>.</li> 
-    <li>The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to <span>Workfront</span>. You need to do this only once.</li> 
+    <li>The Zoom integration is available only if your Workfront administrator enabled it, as explained in <a href="../../administration-and-setup/configure-integrations/enable-zoom-integration.md" class="MCXref xref">Install the Zoom integration</a>.</li> 
+    <li>The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.</li> 
     <li>Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.</li> 
    </ul> 
   </note> </li> (Optional) To attach an image to your update, click the Image icon and browse to the image on your computer. Or Drag the image into the update area. Note: Your Workfront administrator must enable adding images before you can see the Image icon. The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png. Images are accessible only from the Updates tab on an object, and they are not available on the Documents tab. You can send an update with an image and no text. 
@@ -171,7 +171,7 @@ You must have the following access to perform the steps in this article:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="11">Click <span class="bold">Update</span> to add the update to the <span>Workfront</span> object.</li> 
+ <li value="11">Click <span class="bold">Update</span> to add the update to the Workfront object.</li> 
  <li value="12">To reply to an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md" class="MCXref xref">Reply to updates</a>.</li> 
 </ol>
 
@@ -212,9 +212,9 @@ This option copies a specific update link to the clipboard. When you share the u
 
 ## Delete an update or reply
 
-Depending on the access your `Workfront administrator` gives you, you might be able to delete updates you added on the Updates tab of an object. For more information, see&nbsp; [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) in the article [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Depending on the access&nbsp;your Workfront administrator gives you, you might be able to delete updates you added on the Updates tab of an object. For more information, see&nbsp; [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) in the article [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-No `Workfront` user (including the `Workfront administrator`) can delete updates made by another user. However, if a user's access level allows them to delete their own updates, the `Workfront administrator` can log in as that user and delete updates they made. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) and [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+No Workfront user (including the Workfront administrator) can delete updates made by another user. However, if a user's access level allows them to delete their own updates, the Workfront administrator can log in as that user and delete updates they made. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) and [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 <ol> 
  <li value="1">Go to the update or reply you want to delete.</li> 
@@ -236,14 +236,14 @@ Note: Deleting an update with an attached image deletes both the comment and the
 
 ## Enable or disable system updates
 
-The Updates tab for a `Workfront` object displays two types of information:
+The Updates tab for a Workfront object displays two types of information:
 
 <ul> 
  <li> <p><span class="bold">User updates:</span> User updates are comments that you and other users in your system enter.</p> <p> <img src="assets/user-update-cl-350x277.png" style="width: 350;height: 277;"> </p> </li> 
  <li> <p><span class="bold">System updates:</span> System updates record removing assets, adding or deleting versions, attaching or removing an approval request, as well as any edits or changes made to the documents on the object.</p> <p> <img src="assets/system-updates-cl-350x277.png" style="width: 350;height: 277;"> </p> </li> 
 </ul>
 
-Depending on your `Workfront` license, system updates might be enabled by default. `Workfront administrators` can determine what is tracked in system updates,&nbsp;as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out&nbsp;system updates or activities so that you see&nbsp;only user updates for all objects.
+Depending on your Workfront license, system updates might be enabled&nbsp;by default. Workfront administrators can determine what is tracked in system updates,&nbsp;as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out&nbsp;system updates or activities so that you see&nbsp;only user updates for all objects.
 
 For more information about the difference between user and system updates, see [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -252,5 +252,5 @@ To enable or disable system updates:
 1. Click the `Updates` tab on an&nbsp;object.
 1. Click `Show System Updates` to slide the switch left (disabled) or right (enabled).
 
-   This option is persistent across all objects throughout `Workfront` and remains in the position you select, even if you log out of `Workfront`.
+   This option&nbsp;is persistent across all objects throughout Workfront and remains in the position you select, even if you log out of Workfront.
 

@@ -17,7 +17,7 @@ You must have the following:
 
 <table cellspacing="15"> 
  <caption style="text-align: left;">
-  *To find out what plan, license type, or access you have, contact your <span>Workfront administrator</span>.
+  *To find out what plan, license type, or access you have, contact your Workfront administrator.
  </caption> 
  <col> 
  </col> 
@@ -25,16 +25,16 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><span>Adobe Workfront</span> plan*</p> </td> 
+   <td> <p>Adobe Workfront plan*</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><span>Workfront</span> licenses overview*</p> </td> 
-   <td> <p><span>Review</span> or higher</p> </td> 
+   <td> <p>Workfront licenses overview*</p> </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Access level*</span> </td> 
-   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="bold">Object permissions</span> </p> </td> 
@@ -45,7 +45,7 @@ You must have the following:
 
 ## Objects that you can add to a dashboard
 
-You can populate a dashboard with the following items in `Adobe Workfront`:
+You can populate a dashboard with the following items in Adobe Workfront:
 
 * Reports  
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -65,9 +65,8 @@ You can share a dashboard with users in the following ways:
 * Sharing on an individual basis.  
   For more information about sharing dashboards, see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) and [Share a dashboard in Adobe Workfront](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Add a custom section to any area or object in `Workfront` and add a dashboard to it.  
+* Add a custom section to any area or object in Workfront and add a dashboard to it.  
   For more information on creating custom sections, see Simplified left navigation in the new Adobe Workfront experience.
-
 * Place the dashboards on layout templates which you can share with users.  
   For more information about sharing dashboards through layout templates, see Customize the left panel using a layout template.
 * Print a hard copy of them to share with users.  
@@ -108,6 +107,6 @@ You can display a dashboard in the following ways:
 
 ## Delete dashboards
 
-If you want to remove a dashboard from `Workfront`, you can delete it.
+If you want to remove a dashboard from Workfront, you can delete it.
 
 To learn more, see [Delete a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).

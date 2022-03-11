@@ -7,7 +7,7 @@ title: Adobe Workfront for Microsoft Teams
 description: This section contains the following articles:
 ---
 
-# `Adobe Workfront` for Microsoft Teams
+# Adobe Workfront for Microsoft Teams
 
 This section contains the following articles:
 

@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator, you can set up automatic remin
 
 # Set up automatic reminders
 
-As an `Adobe Workfront administrator`, you can set up automatic reminders to trigger email notifications when all tasks or issues are&nbsp;due, late, or near the planned completion date. After you configure these settings, users cannot disable automatic reminders.
+As an Adobe Workfront administrator, you can set up automatic reminders to trigger email notifications when all tasks or issues are&nbsp;due, late, or near the planned completion date. After you configure these settings, users cannot disable automatic reminders.
 
 For late notifications, the email is sent nightly until the task or issue is completed.
 
@@ -32,11 +32,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -87,6 +87,6 @@ For more information about receiving Automatic Reminders emails, see the [Automa
 
 ## Send automatic reminders
 
-Automatic reminders are sent as soon as the time selected by the `Workfront administrator` is met.
+Automatic reminders are sent as soon as the time selected by the Workfront administrator is met.
 
-If you want to trigger sending the automatic reminder emails manually, you can do so by using Diagnostics. For more information about accessing and using Diagnostics in `Workfront`, see [Use Diagnostics to trigger automated processes](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+If you want to trigger sending the automatic reminder emails manually, you can do so by using Diagnostics. For more information about accessing and using Diagnostics in Workfront, see [Use Diagnostics to trigger automated processes](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

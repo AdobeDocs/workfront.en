@@ -9,12 +9,12 @@ description: Locking custom statuses is a way to ensure that people are using th
 
 # Locking or unlocking a custom system-level status
 
-Locking custom statuses is a way to ensure that people are using the same processes in their flow of work. When a status is locked, it’s available to all users in the system. Though you can still edit or delete a status that you lock, `group administrators` can’t do so for their groups; they can change only its display order in the Status list.
+Locking custom statuses is a way to ensure that people are using the same processes in their flow of work. When a status is locked, it’s available to all users in the system. Though you can still edit or delete a status that you lock, group administrators can’t do so for their groups; they can change only its display order in the Status list.
 
-Conversely, unlocking custom statuses allows `group administrators` more flexibility to manage the unique workflows used in their groups. When a status is unlocked, `group administrators` can change its attributes or delete it for their groups.
+Conversely, unlocking custom statuses allows group administrators more flexibility to manage the unique workflows used in their groups. When a status is unlocked, group administrators can change its attributes or delete it for their groups.
 
 >[!IMPORTANT]
 >
->If you lock a custom status after it has been unlocked for any period of time, your system-widesettings for the status replace those made by `group administrators`. While the status is locked, `group administrators` cannot modify or delete the status for their groups.
+>If you lock a custom status after it has been unlocked for any period of time, your system-widesettings for the status replace those made by group administrators. While the status is locked, group administrators cannot modify or delete the status for their groups.
 
 For instructions on locking or unlocking a system-level status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

@@ -23,10 +23,10 @@ The implementation team would rather import project and task information for act
 
 The following table displays four Projects and their basic details that need to be mapped into the Kick Start file formats.
 
-`<font color="#666666">This scenario assumes users are already imported into </font>` `Adobe Workfront``<font color="#666666">. If users are not already in </font>` `Workfront``<font color="#666666">, subsitute different names or complete the Kick Start Scenario with users prior to this scenario.&nbsp;</font>`
+`<font color="#666666">This scenario assumes users are already imported into </font>`Adobe Workfront`<font color="#666666">. If users are not already in </font>`Workfront`<font color="#666666">, subsitute different names or complete the Kick Start Scenario with users prior to this scenario.&nbsp;</font>`
 
 <ol> 
- <li value="1"> <p>Implement <span>Workfront</span>.</p> 
+ <li value="1"> <p>Implement Workfront.</p> 
   <table cellspacing="0"> 
    <col width="50%"> 
    <col width="50%"> 
@@ -171,7 +171,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
     </tr> 
     <tr> 
      <td role="rowheader">Percent complete</td> 
-     <td> <p><span>Workfront</span>: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Calendar: 100%</p> </td> 
+     <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Calendar: 100%</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -202,7 +202,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
     </tr> 
     <tr> 
      <td role="rowheader">Percent complete</td> 
-     <td> <p><span>Workfront</span>: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Calendar: 100%</p> </td> 
+     <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Calendar: 100%</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -233,7 +233,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
     </tr> 
     <tr> 
      <td role="rowheader">Percent complete</td> 
-     <td> <p><span>Workfront</span>: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Calendar: 25%</p> </td> 
+     <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 100%</p> <p>Calendar: 25%</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -256,7 +256,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
     </tr> 
     <tr> 
      <td role="rowheader">Percent complete</td> 
-     <td> <p><span>Workfront</span>: 0%</p> <p>HR: 100%</p> <p>Docs: 50%</p> <p>Calendar: 100%</p> </td> 
+     <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 50%</p> <p>Calendar: 100%</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -279,7 +279,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
     </tr> 
     <tr> 
      <td role="rowheader">Percent complete</td> 
-     <td> <p><span>Workfront</span>: 0%</p> <p>HR: 100%</p> <p>Docs: 50%</p> <p>Calendar: 0%</p> </td> 
+     <td> <p>Workfront: 0%</p> <p>HR: 100%</p> <p>Docs: 50%</p> <p>Calendar: 0%</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -317,7 +317,7 @@ Parent tasks inherit the Duration, Work, and Percent Complete of children tasks.
     </tr> 
     <tr> 
      <td role="rowheader">Percent complete</td> 
-     <td> <p><span>Workfront</span>: 0%</p> <p>HR: 0%</p> <p>Docs: 0%</p> <p>Calendar: 0%</p> </td> 
+     <td> <p>Workfront: 0%</p> <p>HR: 0%</p> <p>Docs: 0%</p> <p>Calendar: 0%</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -329,10 +329,10 @@ Go to the Kick-Starts page. Select the Company, Group, Project, Task, and User o
 
 ## Input Project Details
 
-Open the `Workfront`.xlsx file you just downloaded.&nbsp;Go to the PROJ Project sheet.
+Open the Workfront.xlsx file you just downloaded.&nbsp;Go to the PROJ Project sheet.
 
 ![](assets/im2-350x14.png)   
-Unless you have already created projects in `Workfront`, it should be empty.  
+Unless you have already created projects in Workfront, it should be empty.  
 ![](assets/im3-350x37.png)
 
 >[!NOTE]
@@ -355,7 +355,7 @@ Set the values for the following project fields:&nbsp;
 
 * `Set the project Planned Start Date`
 
-  Input the date and the time in the setPlannedStartDate column with the time and the date when you want the project to start. If left empty, `Workfront` imports the project with the current day's date and a timestamp of that day's midnight according to the browser's timezone. 
+  Input the date and the time in the setPlannedStartDate column with the time and the date when you want the project to start. If left empty, Workfront imports the project with the current day's date and a timestamp of that day's midnight according to the browser's timezone. 
 
 * `Set Task numbers`   
   Input values into the setTaskNumber column to control the order the tasks will appear in the project plan.
@@ -368,15 +368,15 @@ Set the values for the following project fields:&nbsp;
 
 >[!NOTE]
 >
->Acceptable values for Status and Priority fields can be located by reviewing the status and priority preferences for each object in the Workflow Setup area of `Workfront`.
+>Acceptable values for Status and Priority fields can be located by reviewing the status and priority preferences for each object in the Workflow Setup area of Workfront.
 
 ## `Input Task Details`
 
 You can add information about the tasks on the project, as you import the project using kick-starts.
 
-Open the `Workfront`.xlsx file you just downloaded.  `Go to the TASK Task sheet.`
+Open the Workfront.xlsx file you just downloaded.  `Go to the TASK Task sheet.`
 
-Unless you have already created tasks in  `Workfront`, this sheet should be empty.
+Unless you have already created tasks in&nbsp;Workfront, this sheet should be empty.
 
 ![](assets/im8-350x14.png)
 
@@ -384,14 +384,14 @@ Unless you have already created tasks in  `Workfront`, this sheet should be empt
 
 ![](assets/im6-350x16.png)
 
-The easiest way to map tasks is one project at a time (especially when the tasks are the same on each project). You can then copy the task plan for the first project and make small adjustments to the task plan for the subsequent projects. The remaining steps will assume you are creating tasks for just the Implement `Workfront` project. According to the scenario, you will be importing 9 tasks per project, so input TRUE into rows 3 through 11 for the isNew column.
+The easiest way to map tasks is one project at a time (especially when the tasks are the same on each project). You can then copy the task plan for the first project and make small adjustments to the task plan for the subsequent projects. The remaining steps will assume you are creating tasks for just the Implement Workfront project. According to the scenario, you will be importing 9 tasks per project, so input TRUE into rows 3 through 11 for the isNew column.
 
 Set the values for the following task fields:&nbsp;
 
 <ul> 
  <li> <p><span class="bold">Set IDs</span> <br>Input a unique ID in each row for the ID column.</p> </li> 
  <li> <p><span class="bold">Set Names</span> <br>Input the task names into the setName column.</p> </li> 
- <li> <p><span class="bold">Confirm Project ID&nbsp;</span> <br>Input the ID you set for the Implement <span>Workfront</span> project; review the PROJ Project sheet to make sure it is the correct ID.</p> </li> 
+ <li> <p><span class="bold">Confirm Project ID&nbsp;</span> <br>Input the ID you set for the Implement Workfront project; review the PROJ Project sheet to make sure it is the correct ID.</p> </li> 
  <li> <p><span class="bold">Set Users</span> <br>Go to the USER User sheet to look up the ID for the user assigned to each task and input these values in the respective cells in the setAssignedToID column.</p> </li> 
  <li> <p><span class="bold">Identify&nbsp;Task relationships</span> <br>For tasks 2 through 5, input a 1 in the setParentID column.&nbsp;For task 9, input a 8 in the setParentID column.&nbsp;In the &nbsp;setPredecessorString column, input the task number for each predecessor task.&nbsp;In cases where a task has multiple predecessors, like task 8 in this scenario, you will need to use a comma to separate each predecessor task ID. Predecessors &nbsp;can be defined with lags on non-Finish-Start relationships by using the shorthand described in the <span class="external">Creating Predecessor Relationships</span> article.</p> </li> 
  <li> <p><span class="bold">Set Duration</span> <br>Set the duration for each task by inputting number of hours, days, weeks, or months for the task in the setDuration field. Then input the duration unit in the setDurationUnit field.</p> 

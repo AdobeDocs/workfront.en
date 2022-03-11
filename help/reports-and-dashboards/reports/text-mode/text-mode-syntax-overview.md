@@ -16,16 +16,16 @@ For a complete list of all our reportable fields and their attributes, see the [
 
 ## Considerations about text mode syntax
 
-* You must understand the `Adobe Workfront` syntax before you can start building reporting elements in text mode. The `Workfront` syntax for text mode is unique to this application and it has unique characteristics that you must be familiar with.
-* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. For training materials on reporting see [ `Workfront` Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* You must understand the Adobe Workfront syntax before you can start building reporting elements in text mode. The Workfront syntax for text mode is unique to this application and it has unique characteristics that you must be familiar with.
+* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
 * You can customize views, filters, and groupings using the standard mode interface. However, you can build Custom&nbsp;Prompts only using text mode.
 
 ## Common guidelines for building reporting elements in text mode
 
 The following are common guidelines when building any reporting or list element in text mode:
 
-* Always use camel case when referencing objects or attributes in the `Workfront` database.
-* Keep in mind the hierarchy of objects in `Workfront`. The following differences exist between views, filters and groupings:
+* Always use camel case when referencing objects or attributes in the Workfront database.
+* Keep in mind the hierarchy of objects in Workfront. The following differences exist between views, filters and groupings:
 
   * You can display an object that is three objects away from the report or list object in a view.
   * You cannot reference objects that are more than 2 objects away from the main object in a grouping, filter, or custom prompt.
@@ -44,7 +44,7 @@ The following are common guidelines when building any reporting or list element 
 
   In these examples, Portfolio Owner ID is three objects away from the object of the list.
 
-  For information about the hierarchy of objects in `Workfront`, see:
+  For information about the hierarchy of objects in Workfront, see:
 
   * [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 
   * [API Explorer](../../../wf-api/general/api-explorer.md)
@@ -53,7 +53,7 @@ The following are common guidelines when building any reporting or list element 
 
 ## Camel case overview
 
-When referencing `Workfront` fields or their attributes in text mode, `Workfront` requires you to type their names in camel case. In this case, the single-name fields are spelled in lowercase. Compound fields are spelled according to the following pattern:
+When referencing Workfront fields or their attributes in text mode, Workfront requires you to type their names in camel case. In this case, the single-name fields are spelled in lowercase. Compound fields are spelled according to the following pattern:
 
 ```
 camelCaseSyntax
@@ -104,7 +104,7 @@ For information about creating views and groupings, see the following articles:
 * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-The most important line of code for a view or a grouping is the line that identifies the object referenced in the view's column or the grouping. Depending on whether this field is a direct reference to a `Workfront` database field or a calculation between several fields, the line of code may start with 
+The most important line of code for a view or a grouping is the line that identifies the object referenced in the view's column or the grouping. Depending on whether this field is a direct reference to a Workfront database field or a calculation between several fields, the line of code may start with 
 
 ```
 valuefield
@@ -157,7 +157,7 @@ is a key line of code in views and groupings that identifies the object you are 
 
 The syntax for directly referencing fields is identical for groupings and views.
 
-The following rules apply when referencing `Workfront` objects using a 
+The following rules apply when referencing Workfront objects using a 
 
 ```
 valuefield
@@ -181,7 +181,7 @@ line:
   valuefield=project:plannedCompletionDate
   ```
 
-  For information about how objects are referencing one another in the `Workfront` database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
+  For information about how objects are referencing one another in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * When referencing a custom field, use the name of the field exactly as it appears in the interface.
 
@@ -220,7 +220,7 @@ when building views and groupings in text mode when you want to reference a calc
 For information about creating calculated columns in a view, see [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 Building a calculated grouping is similar to building a calculated column in a view.
 
-The following rules apply when referencing `Workfront` objects using a 
+The following rules apply when referencing Workfront objects using a 
 
 ```
 valueexpression
@@ -258,7 +258,7 @@ line:
     group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
     ```
 
-  For information about how objects are referencing one another in the `Workfront` database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
+  For information about how objects are referencing one another in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * When referencing a custom field, use following rules:
 
@@ -303,7 +303,7 @@ The second most important line of code in a view or grouping is the
 valueformat=
 ```
 
-line. This tells `Workfront` in what format to return the value you specify in the 
+line. This tells Workfront in what format to return the value you specify in the 
 
 ```
 valuefield

@@ -7,7 +7,7 @@ title: Connect Adobe Workfront Fusion to Google Services using a custom OAuth cl
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Connect `Adobe Workfront Fusion` to Google Services using a custom OAuth client
+# Connect Adobe Workfront Fusion to Google Services using a custom OAuth client
 
 ## Access requirements
 
@@ -18,25 +18,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ You need an existing Google account to make this connection.
  <li value="4">Enter the <span class="bold">Project name</span>, then click <span class="bold">Create</span>.</li> 
  <li value="5">Click the <span class="bold">Enable APIs and services</span> tab near the top of the screen.</li> 
  <li value="6">In the <span class="bold">Search for APIs and Services</span> field at the top of the screen, type the name of the service you want to use (such as Gmail API or Google Drive API).</li> 
- <li value="7">When it displays, click the API or service you want to connect to <span>Workfront Fusion</span>.</li> 
+ <li value="7">When it displays, click the API or service you want to connect to Workfront Fusion.</li> 
  <li value="8">Click <span class="bold">Enable </span>to enable the selected API.</li> 
  <li value="9"> <p>Repeat steps 6-8 for each API you want to enable.</p> <note type="note">
    You must enable Google Drive API as well as the API of all Google apps you want to use (such as Google Sheets API).
@@ -82,7 +82,7 @@ You need an existing Google account to make this connection.
    <tbody> 
     <tr> 
      <td role="rowheader"> <p>App name</p> </td> 
-     <td> <p>Enter the name of the app asking for consent.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span>Adobe Workfront Fusion</span> </p> </td> 
+     <td> <p>Enter the name of the app asking for consent.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Adobe Workfront Fusion </p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">User support email</td> 
@@ -146,7 +146,7 @@ You need an existing Google account to make this connection.
     </tr> 
     <tr> 
      <td role="rowheader">Name</td> 
-     <td><span>Workfront Fusion</span> </td> 
+     <td>Workfront Fusion </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -156,11 +156,11 @@ You need an existing Google account to make this connection.
    <li> <p>For other Google apps: <code>https://app.workfrontfusion.com/oauth/cb/google</code></p> </li> 
   </ul> </li> 
  <li value="5"> <p> Click <span class="bold">Create</span>.</p> <p>The Client ID and Client Secret display.</p> </li> 
- <li value="6"> <p>Copy the Client ID and Client Secret to a secure location. You will use them to make a connection in <span>Workfront Fusion</span>.</p> </li> 
+ <li value="6"> <p>Copy the Client ID and Client Secret to a secure location. You will use them to make a connection in Workfront Fusion.</p> </li> 
  <li value="7"> <p>Continue to <a href="#connect" class="MCXref xref">Connect to Google in Workfront Fusion</a>.</p> </li> 
 </ol>
 
-## Connect to Google in `Workfront Fusion`
+## Connect to Google in Workfront Fusion
 
 The process of creating a connection to Google differs depending on whether you are using a module from a Google service(such as Google Sheets or Google Docs), or if you are connecting to Google via the HTTP > Make an OAuth2.0 request module.
 
@@ -169,7 +169,7 @@ The process of creating a connection to Google differs depending on whether you 
 
 ### Connect to Google in a Google service module
 
-1. In `Workfront Fusion`, locate the Google module that you need to create a connection for.
+1. In Workfront Fusion, locate the Google module that you need to create a connection for.
 1. Click `Create a connection`, then click `Show advanced settings`.
 
 1. Enter the Client ID and Client Secret you retrieved in [Create OAuth Credentials](#create2) in the respective fields, then click `Continue`.
@@ -178,10 +178,9 @@ The process of creating a connection to Google differs depending on whether you 
 
    The `This app isn't verified` window displays. Note that the “app” mentioned in the window title is the OAuth client that you created above.
 
-1. Click `Advanced`, then click `Go to `Workfront Fusion` (unsafe)` to allow access using your custom OAuth client.
+1. Click `Advanced`, then click `Go to Workfront Fusion (unsafe)` to allow access using your custom OAuth client.
 
-1. Click `Allow`to grant `Workfront Fusion` permission.
-
+1. Click `Allow`to grant Workfront Fusion permission.
 1. In the window that appears, click `Allow`again to confirm your choices.
 
    The connection to the desired Google service using a custom OAuth client is established.

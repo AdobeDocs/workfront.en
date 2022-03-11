@@ -10,7 +10,7 @@ description: As a part of organizing your users in Adobe Workfront, you can asso
 
 # Organizational setup
 
-As a part of organizing your users in `Adobe Workfront`, you can associate them with job roles or companies.
+As a part of organizing your users in Adobe Workfront, you can associate them with job roles or companies.
 
 This section contains the following articles:
 

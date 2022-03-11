@@ -12,7 +12,7 @@ description: A data store, similar to a database or a simple table, can store da
 
 A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 
-The data store modules enable you to add, replace, update, retrieve, delete, search, or count records in your `Adobe Workfront Fusion` data store.
+The data store modules enable you to add, replace, update, retrieve, delete, search, or count records in your Adobe Workfront Fusion data store.
 
 For information on creating, editing, and troubleshooting data stores, see [Data Stores](../../workfront-fusion/modules/data-stores.md)
 
@@ -25,25 +25,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
-   <td> <p><span>Pro</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
   </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
-   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
    Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
   --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -53,7 +53,7 @@ For information on creating data stores, see [Data Stores](../../workfront-fusio
 
 ## Data Store modules and their fields
 
-When you configure `Data Store` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Data Store` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Data Store modules, Workfront Fusion displays the fields listed below. Along with these, additional Data Store fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -72,11 +72,11 @@ All Data Store modules are Action type modules.
 
 ### Add/Replace a Record
 
-This action module `adds or replaces a record`.
+This action module adds or replaces a record.
 
 You specify the data store and the record's key.
 
-The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 >[!NOTE]
 >
@@ -109,11 +109,11 @@ When you are configuring this module, the following fields display.
 
 ### Update a Record
 
-This action module `updates a record`.
+This action module updates a record.
 
 You specify the data store and the record's key.
 
-The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -142,11 +142,11 @@ When you are configuring this module, the following fields display.
 
 ### Get a Record
 
-This action module `retrieves a record`.
+This action module retrieves a record.
 
 You specify the data store and the record's key.
 
-The module returns the ID of the `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 
@@ -165,7 +165,7 @@ The module returns the ID of the `record` and any associated fields, along with 
 
 ### Check the Existence of a Record
 
-This action module `specifies whether a particular record exists`.
+This action module specifies whether a particular record exists.
 
 You specify the data store and the record's key.
 
@@ -190,11 +190,11 @@ The module returns the ID of the record and a True or False value. It also retur
 
 ### Delete a Record
 
-This action module `deletes a record`.
+This action module deletes a record.
 
 You specify the data store and the record's key.
 
-The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
+The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 
@@ -213,7 +213,7 @@ The module returns the ID of the  `record` and any associated fields, along with
 
 ### Delete All Records
 
-This action module `deletes all records from a particular data store`.
+This action module deletes all records from a particular data store.
 
 You specify the data store.
 
@@ -234,9 +234,9 @@ The module returns the IDs of the deleted records and any associated fields, alo
 
 ### Search Records
 
-This search module looks for `records in an object` in `Data Store` that match the search query you specify.
+This search module looks for records in an object in Data Store that match the search query you specify.
 
-You can map `this information` in subsequent modules in the scenario.
+You can map this information in subsequent modules in the scenario.
 
 When you are configuring this module, the following fields display.
 
@@ -260,7 +260,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p> Set the maximum number of search results <span>Workfront Fusion</span> returns during one execution cycle.</p> </td> 
+   <td> <p> Set the maximum number of search results Workfront Fusion returns during one execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td>Continue the execution of the route even if the module returns no results</td> 
@@ -271,7 +271,7 @@ When you are configuring this module, the following fields display.
 
 ### Count Records
 
-This action module `numbers the records in a data store`.
+This action module numbers the records in a data store.
 
 You specify the data store.
 

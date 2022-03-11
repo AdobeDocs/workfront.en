@@ -1,8 +1,8 @@
 
 
-# The new `Adobe Workfront` experience: Beta release activity
+# The new Adobe Workfront experience: Beta release activity
 
-The new `Adobe Workfront` experience provides a fresh, modern design in addition to new functionality.
+The new Adobe Workfront experience provides a fresh, modern design in addition to new functionality.
 
 <!--
 It was initially made available in the Preview environment on July 18, 2019.
@@ -10,13 +10,13 @@ It was initially made available in the Preview environment on July 18, 2019.
 
 It was made available as a beta in the Production environment on September 12, 2019.
 
-This page provides a running list of functionality that was made available during `the new Adobe Workfront experience` beta release cycle from September 12, 2019 to April 6, 2020. Updates to `the new Adobe Workfront experience` after the general availability release are communicated with the quarterly release (see [2020.2 release overview](../../product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)).
+This page provides a running list of functionality that was made available during the new Adobe Workfront experience beta release cycle from September 12, 2019 to April 6, 2020. Updates to the new Adobe Workfront experience after the general availability release are communicated with the quarterly release (see [2020.2 release overview](../../product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)).
 
-For a high-level overview of `the new Adobe Workfront experience` release functionality at the time it was made generally available, see [Discover the features available only with the new Adobe Workfront experience](../../administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md).
+For a high-level overview of the new Adobe Workfront experience release functionality at the time it was made generally available, see [Discover the features available only with the new Adobe Workfront experience](../../administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md).
 
 >[!NOTE]
 >
->All functionality described on this page is available when enrolled in `the new Adobe Workfront experience` in your Production environment. You can enroll users into the new Workfront experience in your Production environment. For more information, see [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
+>All functionality described on this page is available when enrolled in the new Adobe Workfront experience in your Production environment. You can enroll users into the new Workfront experience in your Production environment. For more information, see [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 
 For a list of new features that were made available in Workfront Classic, see [Workfront releases](https://experience.workfront.com/s/article/Workfront-releases-212309096).
 
@@ -42,13 +42,13 @@ For a list of new features that were made available in Workfront Classic, see [W
  </tbody> 
 </table>
 
-## Features added to `the new Adobe Workfront experience` in Beta Preview or in Beta Production in 2019
+## Features added to the new Adobe Workfront experience in Beta Preview or in Beta Production in 2019
 
 For information about changes that were made available to the new Workfront experience in the Preview environment from July 18, 2019 through September 12, 2019, see [The new Adobe Workfront experience Beta Preview](../../administration-and-setup/the-new-workfront-experience/nwe-beta-preview.md).
 
 For information about changes that were made available in the Preview and Production environment from September 12, 2019 to December 31, 2019, see [The new Adobe Workfront experience Beta release activity 2019](../../administration-and-setup/the-new-workfront-experience/nwe-beta-release-activity-2019.md).
 
-## Still in development in `the new Adobe Workfront experience`
+## Still in development in the new Adobe Workfront experience
 
 <!--
 For a list of functionality not yet available, but soon to be available in the new Workfront experience Beta Preview environment, see In development in the new Adobe Workfront experience.
@@ -56,7 +56,7 @@ For a list of functionality not yet available, but soon to be available in the n
 
 The details card for tasks and issues has been removed and the information that it contained has been moved to the object header instead.
 
-## Functionality removed from `the new Adobe Workfront experience`
+## Functionality removed from the new Adobe Workfront experience
 
 ### My Work
 
@@ -108,7 +108,7 @@ Workfront, inc.
 
 * [Allowlist of additional domains required for accessing Workfront](#whitelis)
 
-### Allowlist of additional domains required for accessing `Workfront`
+### Allowlist of additional domains required for accessing Workfront
 
 If your organization uses a firewall, you must add the following additional domains to your allowlist in order to ensure uninterrupted access to Workfront:
 

@@ -8,15 +8,15 @@ description: This page describes all project management enhancements made with t
 
 # 20.3 Project Management enhancements
 
-This page describes all `project management` enhancements made with the `20.3` release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+This page describes all project management enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 
-For a list of all changes available with the `20.3` release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
 ## Custom field formatting in lists
 
 >[!NOTE]
 >
->This feature is supported only in `the new Adobe Workfront experience`. It is available for some lists in `Adobe Workfront Classic`, but it is not supported in `Adobe Workfront Classic`.
+>This feature is supported only in the new Adobe Workfront experience. It is available for some lists in Adobe Workfront Classic, but it is not supported in Adobe Workfront Classic.
 
 Now, when the system administrator creates custom forms fields that are configured for formatting, you can format text in those fields where you use them the most: in lists throughout Workfront. Instead of going into the Details area to format text in the custom form, you can click a field in a list and apply Bold, Italics, and Underline to text there.
 
@@ -32,7 +32,7 @@ For information about how a Workfront administrator creates text fields with for
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 The global areas of Projects, Portfolios, Programs and Templates now have an updated header that makes better use of the space on the screen. This update provides more space for the information you work with that you need to focus on.
 
@@ -46,7 +46,7 @@ The Templates link from the Projects area has been removed. You can still access
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 As part of updating the look and feel of the new Workfront experience, we have redesigned the Edit project box. You can access the new Edit Project box from an individual project or when editing a single project from a list.
 
@@ -70,7 +70,7 @@ For information about the new Edit Project box, see Edit projects.
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 The new Summary panel to the right of the documents list is now available with an enhanced design in the new Workfront experience. This panel provides the same actions and information available in the panel on the right when you select a document in Workfront Classic, including document details, updates, Custom Forms, approvals, and document versions.
 
@@ -86,7 +86,7 @@ For more information, see Summary for documents overview.
 
 >[!NOTE]
 >
->This feature is available only in `the new Adobe Workfront experience`
+>This feature is available only in the new Adobe Workfront experience
 
 Look for the following improvements in the Document Details page:
 

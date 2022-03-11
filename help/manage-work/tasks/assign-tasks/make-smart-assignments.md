@@ -8,7 +8,7 @@ description: You can use smart assignments to identify who the best user is to c
 
 # Make smart assignments
 
-You can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions for users that `Adobe Workfront` presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. For information about smart assignments, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+You can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions for users that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. For information about smart assignments, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Access requirements
 
@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
-   <td> <p><span>Work</span> or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Issues</p> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Issues</p> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,18 +37,18 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Make smart assignments
 
-Smart assignments are available in most locations where you can make assignments in `Workfront`.
+Smart assignments are available in most locations where you can make assignments in Workfront.
 
 <ol> 
  <li value="1"> <p>Go to an issue or a task and click one of the following fields to edit them: &nbsp;&nbsp;</p> 
   <ul> 
    <li> <p>A task or issue list or report </p> </li> A task or issue header The task or issue Summary panel The Assignments field for an item listed in the Home area 
    <li> <p>Resource Scheduling</p> </li> 
-   <li> <p><span>Workload Balancer</span> </p> </li> 
+   <li> <p>Workload Balancer </p> </li> 
   </ul> </li> 
  <li value="2"> <p>Place your cursor in the assignment field, and wait for two seconds. The <span class="bold"> </span>Suggestions or Suggested Assignments list displays.</p> <p>  </p> <p>Users displayed in this list are the smart assignment suggestions for the task or the issue.</p> <p>For more information about where the smart assignments display, see the "Locate smart assignment suggestions" section in the article <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Smart assignments overview</a> . </p> </li> 
  <li value="3"> <p>Select the user in the recommendations list by clicking their name. Clicking Assign to me assigns the work item to yourself.</p> <note type="tip">

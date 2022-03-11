@@ -8,15 +8,15 @@ description: With the release of Adobe Workfront 2017.3, the format for outbound
 
 # Outbound message format for event subscriptions
 
-`With the release of `Adobe Workfront` 2017.3, the format for outbound messages for event subscriptions will change to allow for improved performance and better use of event subscriptions for your integrations.`
+`With the release of Adobe Workfront 2017.3, the format for outbound messages for event subscriptions will change to allow for improved performance and better use of event subscriptions for your integrations.`
 
 ## Updates to the Outbound Message Format
 
 `The following changes will be made to the outbound message format:`
 
-* Outbound messages will include the oldState and newState for a `Workfront` resource.
+* Outbound messages will include the oldState and newState for a Workfront resource.
 
-  These values will show the changes made to an object as a result of an event in `Workfront`.
+  These values will show the changes made to an object as a result of an event in Workfront.
 
 * The eventTime metadata field will be added to all outbound messages.
 
@@ -25,7 +25,7 @@ description: With the release of Adobe Workfront 2017.3, the format for outbound
 * `The owner:companyID referenced field on the NOTE resource will be removed.` 
 * `The currentVersion referenced objectOn the DOCU (Document) resource will be removed.`
 
-`If you currently use `Workfront` event subscriptions, you will need to update your `Workfront` integrations before the 2017.3 release in order to account for these changes.`
+`If you currently use Workfront event subscriptions, you will need to update your Workfront integrations before the 2017.3 release in order to account for these changes.`
 
 `To learn more about event subscriptions, see [Event Subscription API](../../wf-api/general/event-subs-api.md).`
 
