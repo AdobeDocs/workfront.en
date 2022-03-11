@@ -10,7 +10,7 @@ description: As an Adobe Workfront administrator, you can grant users access to 
 
 # How access levels work
 
-As an *Adobe Workfront administrator*, you can grant users access to view or edit objects by assigning them an access level. The articles below explain how access levels work.
+As an `Adobe Workfront administrator`, you can grant users access to view or edit objects by assigning them an access level. The articles below explain how access levels work.
 
 * [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) 
 * [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 

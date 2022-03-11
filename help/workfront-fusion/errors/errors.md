@@ -8,9 +8,9 @@ title: Errors in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-#  Errors in *Adobe Workfront Fusion*
+#  Errors in `Adobe Workfront Fusion`
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
 This section contains the following articles:
 
 * [Error processing](../../workfront-fusion/errors/error-processing.md) 

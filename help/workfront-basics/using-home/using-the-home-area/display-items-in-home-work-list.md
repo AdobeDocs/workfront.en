@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects,&nbsp;Tasks, Issues, and Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects,&nbsp;Tasks, Issues, and Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Filter the Work List
 
@@ -52,25 +52,13 @@ You can filter items in the Work List to see only specific types of items. For e
 >The filter options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the selected filters do not change. If you switch browsers or computers then the filters revert to the default option which is with all filters deselected.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
- <li value="2"> <p>Click the <span class="bold">Filter</span> <draft-comment>
-    <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> drop-down menu.</p> </li> 
- <li value="3"> <p>Select from the various filter options to specify the types of items you want to display. </p> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-     Filter options are different depending on which environment you use to access the Home Work List. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    Filter options are different depending on which environment you use to access the Home Work List. 
-   </MadCap:conditionalText> </p> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-     In the Production environment, select from the following filter options:
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
+ <li value="2"> <p>Click the <span class="bold">Filter</span>  drop-down menu.</p> </li> 
+ <li value="3"> <p>Select from the various filter options to specify the types of items you want to display. </p> <p> <!--
+    Filter options are different depending on which environment you use to access the Home Work List.
+   --> </p> <p> <!--
     In the Production environment, select from the following filter options:
-   </MadCap:conditionalText> </p> 
+   --> </p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -137,174 +125,7 @@ You can filter items in the Work List to see only specific types of items. For e
     <li> <p>Similarly, if no object is selected, all objects of any selected states display. If you select an object that is not in the selected state (for example, Approvals cannot be in a Ready to Start or Working On state), then nothing displays.<br></p> </li> 
     <li> <p>Note that open items in Team Requests and Approvals I've Submitted always display.</p> </li> 
    </ul> 
-  </div> <draft-comment>
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> 
-    <p>In the Preview environment, select from the following filter options:</p> 
-    <table cellspacing="0"> 
-     <col> 
-     <col> 
-     <tbody> 
-      <tr> 
-       <td role="rowheader">All</td> 
-       <td><span class="preview">Displays and selects all items. This includes tasks, </span><span class="preview" data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span class="preview">, approvals, personal tasks and completed tasks and issues.</span> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Tasks Working On</td> 
-       <td> <p><span class="preview">Displays only tasks that you are actively working on.&nbsp;These are tasks assigned to you for which you have clicked the Work On&nbsp;It button. </span> </p> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Tasks&nbsp;Ready to Start</td> 
-       <td> 
-        <div class="preview"> 
-         <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
-         <ul style="list-style-type: square;"> 
-          <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
-         </ul> 
-         <ul> 
-          <li> <p>The Planned Start Date of the tasks is in the past or up to two weeks in the future.</p> </li> 
-         </ul> 
-        </div> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Tasks Not Ready</td> 
-       <td> 
-        <div class="preview"> 
-         <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
-         <ul> 
-          <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
-          <li> <p>The tasks have a Planned Start Date that is more than two weeks in the future.</p> </li> 
-         </ul> 
-        </div> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Issues Working On</td> 
-       <td> <p class="preview">Displays only issues that you are actively working on.&nbsp;These are issues assigned to you for which you have clicked the Work On&nbsp;It button.</p> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Issues&nbsp;Requested</td> 
-       <td><span class="preview">Displays only issues that you are assigned to but for which you have not clicked the Work On It button.</span> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Personal&nbsp;</td> 
-       <td><span class="preview">Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task" class="preview">Create a personal task</span><span class="preview"> in the article </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="preview">Create work items from the Home area</span><span class="preview">.</span> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Approvals</td> 
-       <td> 
-        <div class="preview"> 
-         <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
-         <ul> 
-          <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a> </li> 
-         </ul> 
-         <ul> 
-          <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
-         </ul> <note type="note">
-          Approvals that you submitted and where you are also one of the approvers are counted twice. 
-         </note> 
-        </div> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Completed</td> 
-       <td><span class="preview">Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks and it is grouped in the Work List according to the week in which they were completed. Approvals are not included.</span> </td> 
-      </tr> 
-     </tbody> 
-    </table> 
-    <p> <img src="assets/displaying-work-items-filters-nwe-350x401.png" style="width: 350;height: 401;"> </p> 
-    <div class="tips" data-mc-autonum="<b>Tips: </b>">
-     <span class="autonumber"><span><b>Tips: </b></span></span> 
-     <ul> 
-      <li> <p> Filter options are based on objects (Tasks, Issues, Approvals, Personal tasks). </p> </li> 
-      <li> <p>Tasks and issues are further filtered by their state in relationship with our readiness to work on them (Working On, Ready to Start, Not Ready for tasks, and Working On and Requested for issues). You can select to display tasks or issues in a specific state or click&nbsp;Tasks or Issues to select and display all states. </p> </li> 
-      <li> <p>There is a separate filter for completed items and it includes both tasks and issues.&nbsp;This does not include approvals. The Completed filter includes Personal tasks. </p> </li> 
-      <li> <p>You can select only one state at a time.</p> <p>For example, you can display only Working On tasks and only Requested issues. <br></p> </li> 
-      <li> <p>You cannot apply filters for items assigned to one of your teams and they are not included in the items that are assigned directly to you. </p> </li> 
-     </ul> 
-    </div> 
-   </div>
-  </draft-comment>
-  <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> 
-   <p>In the Preview environment, select from the following filter options:</p> 
-   <table cellspacing="0"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">All</td> 
-      <td><span class="preview">Displays and selects all items. This includes tasks, </span><span class="preview" data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span class="preview">, approvals, personal tasks and completed tasks and issues.</span> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tasks Working On</td> 
-      <td> <p><span class="preview">Displays only tasks that you are actively working on.&nbsp;These are tasks assigned to you for which you have clicked the Work On&nbsp;It button. </span> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tasks&nbsp;Ready to Start</td> 
-      <td> 
-       <div class="preview"> 
-        <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
-        <ul style="list-style-type: square;"> 
-         <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
-        </ul> 
-        <ul> 
-         <li> <p>The Planned Start Date of the tasks is in the past or up to two weeks in the future.</p> </li> 
-        </ul> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tasks Not Ready</td> 
-      <td> 
-       <div class="preview"> 
-        <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
-        <ul> 
-         <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
-         <li> <p>The tasks have a Planned Start Date that is more than two weeks in the future.</p> </li> 
-        </ul> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Issues Working On</td> 
-      <td> <p class="preview">Displays only issues that you are actively working on.&nbsp;These are issues assigned to you for which you have clicked the Work On&nbsp;It button.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Issues&nbsp;Requested</td> 
-      <td><span class="preview">Displays only issues that you are assigned to but for which you have not clicked the Work On It button.</span> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Personal&nbsp;</td> 
-      <td><span class="preview">Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task" class="preview">Create a personal task</span><span class="preview"> in the article </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="preview">Create work items from the Home area</span><span class="preview">.</span> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Approvals</td> 
-      <td> 
-       <div class="preview"> 
-        <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
-        <ul> 
-         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a> </li> 
-        </ul> 
-        <ul> 
-         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
-        </ul> <note type="note">
-         Approvals that you submitted and where you are also one of the approvers are counted twice. 
-        </note> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Completed</td> 
-      <td><span class="preview">Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks and it is grouped in the Work List according to the week in which they were completed. Approvals are not included.</span> </td> 
-     </tr> 
-    </tbody> 
-   </table> 
-   <p> <img src="assets/displaying-work-items-filters-nwe-350x401.png" style="width: 350;height: 401;"> </p> 
-   <div class="tips" data-mc-autonum="<b>Tips: </b>">
-    <span class="autonumber"><span><b>Tips: </b></span></span> 
-    <ul> 
-     <li> <p> Filter options are based on objects (Tasks, Issues, Approvals, Personal tasks). </p> </li> 
-     <li> <p>Tasks and issues are further filtered by their state in relationship with our readiness to work on them (Working On, Ready to Start, Not Ready for tasks, and Working On and Requested for issues). You can select to display tasks or issues in a specific state or click&nbsp;Tasks or Issues to select and display all states. </p> </li> 
-     <li> <p>There is a separate filter for completed items and it includes both tasks and issues.&nbsp;This does not include approvals. The Completed filter includes Personal tasks. </p> </li> 
-     <li> <p>You can select only one state at a time.</p> <p>For example, you can display only Working On tasks and only Requested issues. <br></p> </li> 
-     <li> <p>You cannot apply filters for items assigned to one of your teams and they are not included in the items that are assigned directly to you. </p> </li> 
-    </ul> 
-   </div> 
-  </div> </li> 
+  </div> In the Preview environment, select from the following filter options: All Displays and selects all items. This includes tasks, issues, approvals, personal tasks and completed tasks and issues. Tasks Working On Displays only tasks that you are actively working on. These are tasks assigned to you for which you have clicked the Work On It button. Tasks Ready to Start Displays only tasks that are ready for you to start. Both of the following statements must be true: The tasks and their parents have no predecessors or task constraints preventing them from being worked on. The Planned Start Date of the tasks is in the past or up to two weeks in the future. Tasks Not Ready Displays only tasks that are not yet ready to start. Either one of the following statements must be true: The tasks and their parents might have predecessors or task constraints that prevent them from being worked on. The tasks have a Planned Start Date that is more than two weeks in the future. Issues Working On Displays only issues that you are actively working on. These are issues assigned to you for which you have clicked the Work On It button. Issues Requested Displays only issues that you are assigned to but for which you have not clicked the Work On It button. Personal Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section Create a personal task in the article Create work items from the Home area. Approvals Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles: View approvals in Adobe Workfront Manage approvals Note: Approvals that you submitted and where you are also one of the approvers are counted twice. Completed Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks and it is grouped in the Work List according to the week in which they were completed. Approvals are not included. Tips: Filter options are based on objects (Tasks, Issues, Approvals, Personal tasks). Tasks and issues are further filtered by their state in relationship with our readiness to work on them (Working On, Ready to Start, Not Ready for tasks, and Working On and Requested for issues). You can select to display tasks or issues in a specific state or click Tasks or Issues to select and display all states. There is a separate filter for completed items and it includes both tasks and issues. This does not include approvals. The Completed filter includes Personal tasks. You can select only one state at a time. For example, you can display only Working On tasks and only Requested issues. You cannot apply filters for items assigned to one of your teams and they are not included in the items that are assigned directly to you. </li> 
  <li value="4"> <p>(Optional) Further organize the Work List, as described in the section <a href="#sorting-by-date-and-project" class="MCXref xref">Group and sort by Date, Project, and Priority</a>. in this article.</p> </li> 
 </ol>
 
@@ -313,14 +134,8 @@ You can filter items in the Work List to see only specific types of items. For e
 You can group and sort the Work List by Planned Completion Date, Commit Date, Project, or My Priority. The option you choose determines how items are grouped in the Work List.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
- <li value="2"> <p>Click the <draft-comment>
-    <span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Group by</span>
-   </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Group by</span> drop-down menu.<br></p> <p> <draft-comment>
-    <img src="assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x332.png" style="width: 350;height: 332;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x332.png" style="width: 350;height: 332;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+ <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
+ <li value="2"> <p>Click the Group by drop-down menu.<br></p> <p>  </p> </li> 
  <li value="3"> <p>Select from the following options:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -338,30 +153,7 @@ You can group and sort the Work List by Planned Completion Date, Commit Date, Pr
        <li> <p>Planned, followed by various Planned Completion Dates (multiple groupings)</p> </li> 
        <li> <p>Complete</p> </li> 
       </ul> </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Planned Start</td> 
-      <td> <p>Items display in the following groupings in the Work List, depending on their Planned Start&nbsp;Date (the number of items contained within each grouping displays in parenthesis next to the heading title): </p> 
-       <ul> 
-        <li> <p>Late</p> </li> 
-        <li> <p>This Week </p> </li> 
-        <li> <p>This grouping is expanded by default.</p> </li> 
-        <li> <p>Next Week</p> </li> 
-        <li> <p>Planned, followed by various Planned Start Dates (multiple groupings)</p> </li> 
-       </ul> </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <td role="rowheader">Planned Start</td> 
-     <td> <p>Items display in the following groupings in the Work List, depending on their Planned Start&nbsp;Date (the number of items contained within each grouping displays in parenthesis next to the heading title): </p> 
-      <ul> 
-       <li> <p>Late</p> </li> 
-       <li> <p>This Week </p> </li> 
-       <li> <p>This grouping is expanded by default.</p> </li> 
-       <li> <p>Next Week</p> </li> 
-       <li> <p>Planned, followed by various Planned Start Dates (multiple groupings)</p> </li> 
-      </ul> </td> 
-    </tr> 
+    </tr> Planned Start Items display in the following groupings in the Work List, depending on their Planned Start Date (the number of items contained within each grouping displays in parenthesis next to the heading title): Late This Week This grouping is expanded by default. Next Week Planned, followed by various Planned Start Dates (multiple groupings) 
     <tr> 
      <td role="rowheader">Commit Date</td> 
      <td> <p>Items display in the following groupings in the Work List (the number of items contained within each grouping displays in parenthesis next to the heading title): </p> 
@@ -384,18 +176,11 @@ You can group and sort the Work List by Planned Completion Date, Commit Date, Pr
 
 >[!NOTE]
 >
-><!-->
-><span data-mc-conditions="QuicksilverOrClassic.Quicksilver">The default sorting is ascending. </span>>
->-->
->`The default sorting is ascending.`. If you change the sorting to >
-><!-->
-><span data-mc-conditions="QuicksilverOrClassic.Quicksilver">descending</span>>
->-->
->`descending` , the selected sorting options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the sorting does not change, but if you switch browsers or computers then the sorting changes to the default sorting.
+>The default sorting is ascending.. If you change the sorting to descending , the selected sorting options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the sorting does not change, but if you switch browsers or computers then the sorting changes to the default sorting.
 
 ## View late items
 
-*Adobe Workfront* uses the following dates to determine if work requests are late:
+`Adobe Workfront` uses the following dates to determine if work requests are late:
 
 * `Tasks`: Planned Completion Date
 * `Issues`: Planned Completion Date
@@ -413,14 +198,10 @@ In addition, only the names of the work items are searched (information within t
 To search the Work List:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
+ <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
  <li value="2">(Optional) Filter the Work List, as described in <a href="#filtering-by-item-type" class="MCXref xref">Filter the Work List</a> and<a href="#sorting-by-date-and-project" class="MCXref xref">Group and sort by Date, Project, and Priority</a>.</li> 
  <li value="3">(Optional) If you are searching for a work item that is already complete, you must configure the Work List to display completed items before searching.</li> 
- <li value="4"> <p>Click the <span class="bold">Search</span> icon at the top of the Work List.<br><img src="assets/displaying-work-items-search-350x224.png" style="width: 350;height: 224;"></p> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png" style="width: 350;height: 238;"> </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png" style="width: 350;height: 238;"> </p> </li> 
+ <li value="4"> <p>Click the <span class="bold">Search</span> icon at the top of the Work List.<br><img src="assets/displaying-work-items-search-350x224.png" style="width: 350;height: 224;"></p>  </li> 
  <li value="5">Begin typing the name of the item name you are searching for. <br>The Work List is automatically filtered as to include items with a matching name.</li> 
 </ol>
 
@@ -428,12 +209,8 @@ To search the Work List:
 
 You can change the size of the Work List so that it consumes anywhere between about a quarter of the Home area to about half of the Home area.
 
-<ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
- <li value="2">Mouse over the right edge of the Work List, then drag left or right until the Work List is the desired size.</li> 
-</ol>
+1. Click the Main Menu in the upper-right corner, then click Home. 
+1. Mouse over the right edge of the Work List, then drag left or right until the Work List is the desired size.
 
 ## Collapse and expand groupings
 
@@ -443,13 +220,7 @@ You can collapse and expand groupings within the Work List to better control wha
 By default, the This Week grouping is expanded and all other groupings are collapsed.&nbsp;Any changes you make are remembered the next time you access the Home area.&nbsp;
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
- <li value="2"> <p>Click the <span class="bold">Expand</span> or <span class="bold">Collapse</span> arrow next to any grouping you want to expand or collapse.</p> <p> <img src="assets/displaying-work-items-grouping-350x349.png" style="width: 350;height: 349;"> </p> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png" style="width: 350;height: 268;"> </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png" style="width: 350;height: 268;"> </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or<br>To expand or collapse all groupings simultaneously, click the <span class="bold">Expand</span> or <span class="bold">Collapse</span> arrow next to any grouping while holding down the Shift key.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or<br>To expand or collapse all groupings simultaneously, click the <span class="bold">Expand</span> or <span class="bold">Collapse</span> arrow next to any grouping while holding down the Shift key.</p> </li> 
+ <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
+ <li value="2"> <p>Click the <span class="bold">Expand</span> or <span class="bold">Collapse</span> arrow next to any grouping you want to expand or collapse.</p> <p> <img src="assets/displaying-work-items-grouping-350x349.png" style="width: 350;height: 349;"> </p>  Or To expand or collapse all groupings simultaneously, click the Expand or Collapse arrow next to any grouping while holding down the Shift key. </li> 
 </ol>
 

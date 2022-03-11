@@ -8,7 +8,7 @@ title: Content management in Workfront Library
 description: This section contains the following articles:
 ---
 
-# Content management in *Workfront Library*
+# Content management in `Workfront Library`
 
 This section contains the following articles:
 

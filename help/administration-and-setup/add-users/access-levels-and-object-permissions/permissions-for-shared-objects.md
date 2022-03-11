@@ -10,13 +10,7 @@ description: Anyone who can view an item in Adobe Workfront can grant other user
 
 # Permissions for shared objects
 
-Anyone who can view an item in *Adobe Workfront* can grant other users permissions to that item when they share it, as described in [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md). Sharing permissions are specific to one item in *Workfront* and define what actions the recipient user or users can take on the item.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/permissions-drop-down-nwe-350x456.png" style="width: 350;height: 456;"> </p>
--->
-
-![](assets/permissions-drop-down-nwe-350x456.png)
+Anyone who can view an item in `Adobe Workfront` can grant other users permissions to that item when they share it, as described in [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md). Sharing permissions are specific to one item in `Workfront` and define what actions the recipient user or users can take on the item.
 
 ##  
 
@@ -28,9 +22,9 @@ A user with permissions to at least View an object can share that object with so
 
 >[!NOTE]
 >
->A *Workfront administrator* can add or remove permissions to any items in the system, for all users, without being the owner of those items.
+>A `Workfront administrator` can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
-The task of sharing an object is identical for all objects, as explained in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). You can share the following objects in *Workfront*:
+The task of sharing an object is identical for all objects, as explained in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). You can share the following objects in `Workfront`:
 
 * `Projects`: For more information, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
@@ -49,12 +43,6 @@ The task of sharing an object is identical for all objects, as explained in [Ove
 * **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
 
 * `Programs`
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span><span class="bold">Plans</span>: For information, see <a href="../../../scenario-planner/share-a-plan.md" class="MCXref xref">Share a plan in the Adobe Workfront Scenario Planner</a>.</span> </li>
-  -->
-
-* ` `Plans`: For information, see [Share a plan in the Adobe Workfront Scenario Planner](../../../scenario-planner/share-a-plan.md).`
 
 The following table illustrates the permission settings you can select from when sharing an object. Not all objects have all these settings available.
 
@@ -98,11 +86,11 @@ The following table illustrates the permission settings you can select from when
   </tr> 
   <tr> 
    <td role="rowheader">Make this public to external users</td> 
-   <td> <p>Anyone without a <em>Workfront</em> account can view the object by clicking a link to it.</p> </td> 
+   <td> <p>Anyone without a <span>Workfront</span> account can view the object by clicking a link to it.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Make this visible system-wide</td> 
-   <td> <p>The object can be found in searches and viewed by anyone with a <em>Workfront</em> account.</p> </td> 
+   <td> <p>The object can be found in searches and viewed by anyone with a <span>Workfront</span> account.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -116,534 +104,22 @@ For more information about requesting permissions, see [Request access to object
 ## Sharing objects
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><![CDATA[
-]]>The following table lists the objects can be shared in <em>Workfront</em> and the entities with which they can be shared:</p>
+The following table lists the objects can be shared in Workfront and the entities with which they can be shared:
 -->
-
-<![CDATA[ ]]>The following table lists the objects can be shared in *Workfront* and the entities with which they can be shared:
 
 <!--
-<table cellspacing="15" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<thead>
-<tr> <draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Object</th>
-</draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Object</th> <draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">People</th>
-</draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">People</th> <draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Teams</th>
-</draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Teams</th> <draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Job Roles</th>
-</draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Job Roles</th> <draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Groups</th>
-</draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Groups</th> <draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Companies</th>
-</draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Companies</th> <draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Public</th>
-</draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Public</th> <draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">System-Wide</th>
-</draft-comment>
-<th data-mc-conditions="QuicksilverOrClassic.Draft mode">System-Wide</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Calendars</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Calendars</p> </th> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Forms</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Forms</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓&nbsp;</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓&nbsp;</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓&nbsp;</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓&nbsp;</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;✓</p> </td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Documents</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Documents</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Dashboards</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Dashboards</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Issues</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Issues</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolios</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolios</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr>
-<tr> <draft-comment>
-<th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode">Programs</th>
-</draft-comment>
-<th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode">Programs</th> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Projects</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Projects</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Reports</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Reports</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Tasks</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Tasks</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr>
-<tr>
-<th scope="row"> <draft-comment>
-<p class="wysiwyg-text-align-left" data-mc-conditions="QuicksilverOrClassic.Draft mode">Templates</p>
-</draft-comment><p class="wysiwyg-text-align-left" data-mc-conditions="QuicksilverOrClassic.Draft mode">Templates</p> </th>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td>
-<td> <draft-comment>
-<p class="wysiwyg-text-align-center" data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
-</draft-comment><p class="wysiwyg-text-align-center" data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td>
-</tr> <draft-comment>
-<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-<th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>Plans*</span> </th>
-</draft-comment>
-<th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>Plans*</span> </th> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>✓</span> </td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>✓</span> </td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</tr>
-</draft-comment>
-<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>Plans*</span> </th>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>✓</span> </td>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
-</tr>
-</tbody>
-</table>
+Object People Teams Job Roles Groups Companies Public System-Wide Calendars ✓ ✓ ✓ ✓ ✓ ✓ ✓ Custom Forms ✓ ✓ ✓ ✓ ✓ ✓ Documents ✓ ✓ ✓ ✓ ✓ ✓ ✓ Dashboards ✓ ✓ ✓ ✓ ✓ ✓ Issues ✓ ✓ ✓ ✓ ✓ ✓ Portfolios ✓ ✓ ✓ ✓ ✓ ✓ Programs ✓ ✓ ✓ ✓ ✓ ✓ Projects ✓ ✓ ✓ ✓ ✓ ✓ Reports ✓ ✓ ✓ ✓ ✓ ✓ ✓ Tasks ✓ ✓ ✓ ✓ ✓ ✓ Templates ✓ ✓ ✓ ✓ ✓ ✓ Plans* ✓
 -->
-
-<table cellspacing="15" data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th data-mc-conditions="QuicksilverOrClassic.Draft mode">Object</th> 
-   <th data-mc-conditions="QuicksilverOrClassic.Draft mode">People</th> 
-   <th data-mc-conditions="QuicksilverOrClassic.Draft mode">Teams</th> 
-   <th data-mc-conditions="QuicksilverOrClassic.Draft mode">Job Roles</th> 
-   <th data-mc-conditions="QuicksilverOrClassic.Draft mode">Groups</th> 
-   <th data-mc-conditions="QuicksilverOrClassic.Draft mode">Companies</th> 
-   <th data-mc-conditions="QuicksilverOrClassic.Draft mode">Public</th> 
-   <th data-mc-conditions="QuicksilverOrClassic.Draft mode">System-Wide</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Calendars</p> </th> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Forms</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓&nbsp;</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓&nbsp;</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Documents</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Dashboards</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Issues</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolios</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode">Programs</th> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Projects</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Reports</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Tasks</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr> 
-   <th scope="row"> <p class="wysiwyg-text-align-left" data-mc-conditions="QuicksilverOrClassic.Draft mode">Templates</p> </th> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p> </td> 
-   <td> <p class="wysiwyg-text-align-center" data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>Plans*</span> </th> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>✓</span> </td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td> 
-  </tr> 
- </tbody> 
-</table>
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">* This is available only if your organization has purchased the <em>Workfront Scenario Planner</em>. For information about the <em>Workfront Scenario Planner</em>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p>
+* This is available only if your organization has purchased the Workfront Scenario Planner. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview.
 -->
-
-&#42; This is available only if your organization has purchased the *Workfront Scenario Planner*. For information about the *Workfront Scenario Planner*, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 ##  
 
 This table lists the objects that users can share and how they can share them: 
 
-| ` `Object`` | ` `Share with *Workfront* users`` | ` `Share publicly with users outside of *Workfront*`` | ` `Share via email with anyone`` |
+| ` `Object`` | ` `Share with `Workfront` users`` | ` `Share publicly with users outside of `Workfront``` | ` `Share via email with anyone`` |
 |---|---|---|---|
 | `Project` | `✓` |&nbsp; |&nbsp; |
 | `Task` | `✓` |&nbsp; |&nbsp; |
@@ -665,4 +141,4 @@ This table lists the objects that users can share and how they can share them:
 * If a user shares an object with certain permissions and that object has any child objects below it, the recipient inherits the same permissions for those child objects. 
 * If an access level restricts users from deleting certain objects, this doesn’t keep them from deleting child objects that are contained in those objects.
 
-Permissions in *Workfront* are inherited hierarchically. For more information about inherited permissions, see the [Understand inherited permissions and the hierarchy of objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#understanding-inherited-permissions) section in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). 
+Permissions in `Workfront` are inherited hierarchically. For more information about inherited permissions, see the [Understand inherited permissions and the hierarchy of objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#understanding-inherited-permissions) section in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). 

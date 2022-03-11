@@ -9,7 +9,7 @@ description: A job role represents a functional capacity or a skill set a user m
 
 # Job role overview
 
-A job role represents a functional capacity or a skill set a user might fill.&nbsp;This article describes the various uses of job roles in&nbsp;*Adobe Workfront*. 
+A job role represents a functional capacity or a skill set a user might fill. This article describes the various uses of job roles in  `Adobe Workfront`. 
 
 For more information about managing job roles, see the following articles:
 
@@ -21,7 +21,7 @@ You can use job roles for the following purposes:
 
 <ul> 
  <li> <p>You can associate a user with job roles to indicate the skills they are able to perform. You can associate a user with multiple job roles. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref" xrefformat="{para}">Add users</a> and <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" xrefformat="{para}">Edit a user's profile</a>. </p> </li> 
- <li> <p>You must associate users with job roles when using the <em>Workfront</em> resource management tools.&nbsp;In some cases, this is a prerequisite to managing your resources in <em>Workfront</em>. For information, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref" xrefformat="{para}">Get started with Resource Management </a>. </p> </li> 
+ <li> <p>You must associate users with job roles when using the <span>Workfront</span> resource management tools.&nbsp;In some cases, this is a prerequisite to managing your resources in <span>Workfront</span>. For information, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref" xrefformat="{para}">Get started with Resource Management </a>. </p> </li> 
  <li> <p>You can add job roles to Resource Pools. All users associated with the roles added become part of the resource pool. For information, see <a href="../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref" xrefformat="{para}">Create resource pools in Adobe Workfront</a></p> </li> 
  <li> <p>You can use job roles as place-holders for assigning them to work items when you don't know yet who might be able to complete the work. </p> <p>For example, we recommend that you associate tasks with job roles when creating templates, when it's not yet clear which user might be later assigned to the actual work. For information, see the following articles:</p> 
   <ul> 
@@ -43,13 +43,10 @@ You can use job roles for the following purposes:
    <li> <p>Dashboards</p> <p>For information about sharing objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref" xrefformat="{para}">Overview of sharing permissions on objects in Adobe Workfront</a>. </p> </li> 
   </ul> </li> 
  <li> <p>You can associate job roles with routing rules when building request queues.&nbsp;For information, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref" xrefformat="{para}">Create Routing Rules</a>. </p> </li> 
- <li> <p>You can assign layout templates to job roles. Anyone that has the assigned job role as their Primary Role can view <em>Workfront</em> according to the assigned layout template. </p> <note type="note">
+ <li> <p>You can assign layout templates to job roles. Anyone that has the assigned job role as their Primary Role can view <span>Workfront</span> according to the assigned layout template. </p> <note type="note">
    If users are assigned a layout template to their user profile that template takes precedence over the one assigned to their primary job role.&nbsp;For more information, see 
    <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>. 
-  </note> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>You can assign job roles to plans and initiatives to manage the availability of your resources when using the <em>Adobe Workfront Scenario Planner</em>. This requires an additional license for the <em>Scenario Planner</em>. For more information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref" xrefformat="{para}">Get started with the Adobe Workfront Scenario Planner</a>. </p> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>You can assign job roles to plans and initiatives to manage the availability of your resources when using the <em>Adobe Workfront Scenario Planner</em>. This requires an additional license for the <em>Scenario Planner</em>. For more information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref" xrefformat="{para}">Get started with the Adobe Workfront Scenario Planner</a>. </p> </li> 
+  </note> </li> You can assign job roles to plans and initiatives to manage the availability of your resources when using the Adobe Workfront Scenario Planner. This requires an additional license for the Scenario Planner. For more information, see Get started with the Adobe Workfront Scenario Planner. 
  <li> <p><span>You can override job role rates based on different currencies, when working with resources from different countries.&nbsp;This allows you to obtain more accurate Cost and&nbsp;Revenue amounts for work items.</span> </p> <p><span>For more information, see</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" xrefformat="{para}">Create and manage job roles</a>. </p> </li> 
 </ul>
 

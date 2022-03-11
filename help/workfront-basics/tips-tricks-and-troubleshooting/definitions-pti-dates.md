@@ -1,8 +1,8 @@
 
 
-# Overview of the Project, Task, and Issue dates in *Adobe Workfront*
+# Overview of the Project, Task, and Issue dates in `Adobe Workfront`
 
-This article provides definitions to the most common dates associated with projects, tasks, and issues in *Workfront*. The images included here are examples of where the dates display in&nbsp;*Workfront* and they are not exhaustive. There are other areas that display the dates.&nbsp;All dates are also visible in project, task, and issue reports and lists.
+This article provides definitions to the most common dates associated with projects, tasks, and issues in `Workfront`. The images included here are examples of where the dates display in  `Workfront` and they are not exhaustive. There are other areas that display the dates.&nbsp;All dates are also visible in project, task, and issue reports and lists.
 
 For information about reports and lists, see the following articles:
 
@@ -17,25 +17,13 @@ Depending on the Task Constraint, you might not be able to edit the Planned Star
 
 For more information, see [Overview of the project Planned Start Date](../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-<!--
-<img src="assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png" style="width: 350;height: 249;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
-
-<!--
-<img src="assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png" style="width: 350;height: 167;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
-
 ## Planned Completion Date
 
 The Planned Completion Date or the Due On date is the date when a project, task, or issue is planned to complete.
 
 Depending on the Task Constraint, you might not be able to edit the Planned Completion Date of a task. Depending on the Schedule Mode of the project, you might not be able to edit the Planned Completion Date of a project.
 
-The Planned Completion Date displays as the Due On date in some areas of *Workfront*.
+The Planned Completion Date displays as the Due On date in some areas of `Workfront`.
 
 For more information, see the following articles:
 
@@ -43,29 +31,11 @@ For more information, see the following articles:
 * [Set the project Planned Completion Date](../../manage-work/projects/planning-a-project/project-planned-completion-date.md) 
 * [Overview of the issue Planned Completion Date](../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-<!--
-<img src="assets/project-header-planned-completion-date-highlighted-nwe-350x34.png" style="width: 350;height: 34;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
-
-<!--
-<img src="assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png" style="width: 350;height: 183;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
-
 ## Entry Date
 
-The Entry Date is the date when a project, task, or issue was created in&nbsp;*Workfront*.
+The Entry Date is the date when a project, task, or issue was created in  `Workfront`.
 
 The Entry Date does not influence the timeline of projects, tasks, or issues, but it is important for tracking and reporting purposes.
-
-<!--
-<img src="assets/entry-date-in-task-details-highlighted-nwe-350x105.png" style="width: 350;height: 105;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
 
 ## Actual Start Date
 
@@ -82,18 +52,6 @@ For more information, see [Overview of the project Actual Start Date](../../mana
 >[!NOTE]
 >
 >The Must Start On task or the Fixed Dates constraints affect the Planned Start Date of a task, not the Actual Start Date. This updates the Planned Start Date to a date you specify. The Actual Start Date is updated independently of the Planned Start&nbsp;Date, as described above.
-
-<!--
-<img src="assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png" style="width: 350;height: 251;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
-
-<!--
-<img src="assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png" style="width: 350;height: 191;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## Actual Completion Date
 
@@ -112,12 +70,6 @@ The Actual Completion Date of a project coincides with the date when the first t
 
 For more information, see [Overview of the project Actual Completion Date](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-<!--
-<img src="assets/actual-completion-date-task-details-highlighted-nwe-350x189.png" style="width: 350;height: 189;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
-
 ## Commit Date
 
 The Commit Date is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date, as it is a more realistic estimate of the completion date given only by the user in charge of the work. For more information, see [Commit Date overview](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
@@ -125,18 +77,6 @@ The Commit Date is the date by which an user assigned to task or an issue commit
 >[!NOTE]
 >
 >Changing the Commit Date affects the Projected Completion Date but not the Planned Completion Date of a task or an issue. The project manager can use the changes an assignee makes on the Commit Date to update the Planned Completion Date of a task or an issue.
-
-<!--
-<img src="assets/commit-date-on-task-details-highlighted-nwe-350x193.png" style="width: 350;height: 193;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-<!--
-<img src="assets/commit-date-in-updates-stream-on-task-nwe-350x344.png" style="width: 350;height: 344;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
 
 ## Projected Start Date
 
@@ -152,12 +92,6 @@ For a task, a Projected Start Date may also differ from its Planned Start Date w
 
 For more information, see [Overview of the project Projected Start Date](../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-<!--
-<img src="assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png" style="width: 350;height: 188;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
-
 ## Projected Completion Date
 
 The Projected Completion Date is a real-time, calculated indicator of when the project, task, or issue will be completed. When&nbsp;the project, task, or issue is marked as Completed, the Projected Completion Date changes to&nbsp;the date of the&nbsp;Actual Completion Date.
@@ -165,12 +99,6 @@ The Projected Completion Date is a real-time, calculated indicator of when the p
 If everything goes smoothly and as planned the Projected Completion date should match the Planned Completion Date.&nbsp;Otherwise due to the delays on the predecessor tasks the Projected Completion Date might become different from the Planned Completion Date.
 
 For more information, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
-
-<!--
-<img src="assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png" style="width: 350;height: 187;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## Log Time
 
@@ -180,43 +108,7 @@ Use the Log Time option for projects, tasks, and issues to indicate how much act
 >
 >We recommend logging time on working tasks and issues, rather than parent tasks or projects. Time logged on the working tasks rolls up to the parent tasks and the project as Actual Hours for the parent tasks and the project. Time logged on issues rolls up to the project as Actual Hours for the project.
 
-The date when you log the time is the same as the Hour Entry Date field on the hour entry. You can log time in the project, task, or issue Updates 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`or in the Hours 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`. When logging time in the Hours 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`, you can manually specify the Hour Entry Date and the user the hours belong to.
+The date when you log the time is the same as the Hour Entry Date field on the hour entry. You can log time in the project, task, or issue Updates sectionor in the Hours section. When logging time in the Hours section, you can manually specify the Hour Entry Date and the user the hours belong to.
 
 For more information, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
-
-<!--
-<img src="assets/log-time-box-task-hours-section-nwe-350x500.png" style="width: 350;height: 500;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
-
-<!--
-<img src="assets/log-time-in-update-stream-task-nwe-350x185.png" style="width: 350;height: 185;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
 

@@ -8,7 +8,7 @@ title: Collections in Workfront Library
 description: This section contains the following articles:
 ---
 
-# Collections in *Workfront Library*
+# Collections in `Workfront Library`
 
 This section contains the following articles:
 

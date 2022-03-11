@@ -6,25 +6,9 @@ title: Manage task finances in the Task Details section
 description: You can view or edit the financial information of a task by accessing the Overview area of the Task Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all financial information for a task see Edit tasks.
 ---
 
-# Manage task finances in the Task Details 
+# Manage task finances in the Task Details section
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>`
-
-You can view or edit the financial information of a task by accessing the Overview area of the Task&nbsp;Details 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>`. There is a limited number of fields that you can view or edit in this area. For information about editing all financial information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+You can view or edit the financial information of a task by accessing the Overview area of the Task&nbsp;Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all financial information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Access requirements
 
@@ -35,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -53,55 +37,21 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Access"></a>Edit task finances in the Task Details section</h2>
--->
-
-## Edit task finances in the Task Details section
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+Edit task finances in the Task Details section 
 
 <ol> 
  <li value="1"> <p>Go to a project where you want to view a task.</p> <note type="note">
    To find a task, you can also search for it, and click the name to access the task. For more information on searching for objects in 
-   <em>Workfront</em>, see 
+   <span>Workfront</span>, see 
    <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md" class="MCXref xref">Search Adobe Workfront</a>.
   </note> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Tasks</span> in the left panel. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Tasks</span> in the left panel. </p> </li> 
+ <li value="2"> Click Tasks in the left panel. </li> 
  <li value="3">Click the name of a task that you want to view.</li> 
- <li value="4">Click <span class="bold">Task Details</span>.</li> <draft-comment>
-  <li value="5" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>(Optional) Click the <span class="bold">Collapse all</span> icon in the top right of the Task Details page. </p> <p> <img src="assets/collapse-all-icon-on-details-page.png"> <br> </p> <note type="note">
-    Depending on how your 
-    <em>Workfront administrator</em> or 
-    <em>Group administrator</em> sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see 
-    <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>.
-   </note> </li>
- </draft-comment>
- <li value="5" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>(Optional) Click the <span class="bold">Collapse all</span> icon in the top right of the Task Details page. </p> <p> <img src="assets/collapse-all-icon-on-details-page.png"> <br> </p> <note type="note">
-   Depending on how your 
-   <em>Workfront administrator</em> or 
-   <em>Group administrator</em> sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see 
-   <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>.
-  </note> </li> 
- <li value="6"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Finance</span> to expand and view the financial information for the task. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Finance</span> to expand and view the financial information for the task. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Details section, then click&nbsp;<span class="bold">Finance</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Details section, then click&nbsp;<span class="bold">Finance</span>. </p> </li> 
- <li value="7"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Edit any field that is available for editing, by single-clicking the field or click <span class="bold">+Add</span> to add information to an empty field.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Edit any field that is available for editing, by single-clicking the field or click <span class="bold">+Add</span> to add information to an empty field.</p> </li> 
- <li value="8"> <p>Review or edit the following information <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     in the 
-     <span class="bold">Finance</span> area
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    in the 
-    <span class="bold">Finance</span> area
-   </MadCap:conditionalText>: </p> 
+ <li value="4">Click <span class="bold">Task Details</span>.</li> (Optional) Click the Collapse all icon in the top right of the Task Details page. Note: Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see Customize the Details view using a layout template. 
+ <li value="6"> Click Finance to expand and view the financial information for the task. Click the Edit icon in the upper-right corner of the Details section, then click Finance. </li> 
+ <li value="7"> Edit any field that is available for editing, by single-clicking the field or click +Add to add information to an empty field. </li> 
+ <li value="8"> <p>Review or edit the following information in the Finance area: </p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -114,7 +64,7 @@ You must have the following access to perform the steps in this article:
        <li> <p>Fixed Hourly </p> </li> 
        <li> <p> User Hourly </p> </li> 
        <li> <p> Role Hourly</p> </li> 
-      </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your <em>Workfront administrator</em> or a <em>group administrator</em> selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
+      </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your <span>Workfront administrator</span> or a <span>group administrator</span> selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Revenue Type</td> 
@@ -129,7 +79,7 @@ You must have the following access to perform the steps in this article:
        <li> <p>User Hourly Plus Fixed </p> </li> 
        <li> <p>Role Hourly Plus Fixed </p> </li> 
        <li> <p>Fixed Revenue </p> </li> 
-      </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your <em>Workfront administrator</em> or <em>group administrator</em> selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
+      </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your <span>Workfront administrator</span> or <span>group administrator</span> selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Planned Cost</td> 
@@ -162,8 +112,6 @@ You must have the following access to perform the steps in this article:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="9"> <p>(Conditional) If you are editing the fields in the Finance section, click <span class="bold">Save</span><draft-comment>
-    <span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Changes</span>
-   </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Changes</span>. </p> </li> 
+ <li value="9"> <p>(Conditional) If you are editing the fields in the Finance section, click <span class="bold">Save</span>Changes. </p> </li> 
 </ol>
 

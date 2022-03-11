@@ -6,9 +6,9 @@ title: Create resource pools in Adobe Workfront
 description: Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see Resource pools overview in Adobe Workfront.
 ---
 
-# Create resource pools in *Adobe Workfront*
+# Create resource pools in `Adobe Workfront`
 
-Resource pools are collections of users that help you manage resources easier in *Adobe Workfront*. For more information about resource pools, see [Resource pools overview in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+Resource pools are collections of users that help you manage resources easier in `Adobe Workfront`. For more information about resource pools, see [Resource pools overview in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Access requirements
 
@@ -19,54 +19,31 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> and higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> and higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-  </tr> 
+   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> <!--
+   Object permissions Manage permissions for the projects, templates, and users you associate the Resource Pools with For information on requesting additional access, see Request access to objects in Adobe Workfront.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create a Resource Pool
 
 <ol> 
  <li value="1">Log in as a user who has access to edit Resource Pools.<br>For more information, see <a href="#access-to-edit-resource-pools" class="MCXref xref">Create a Resource Pool</a>.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> 
- <li value="3"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Resourcing</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Resourcing</span>. 
-  </MadCap:conditionalText></li> 
- <li value="4"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Resource Pools</span> in the left panel. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Resource Pools</span> in the left panel. 
-  </MadCap:conditionalText><br><img src="assets/resource-pools-tab-350x198.png" alt="resource_pools_tab.png" style="width: 350;height: 198;"></li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.</li> 
+ <li value="3"> Click Resourcing.</li> 
+ <li value="4"> Click Resource Pools in the left panel.<br><img src="assets/resource-pools-tab-350x198.png" alt="resource_pools_tab.png" style="width: 350;height: 198;"></li> 
  <li value="5">Click <span class="bold">New Resource Pool</span>.</li> 
  <li value="6">Specify the following: <p>
    <table cellspacing="0">

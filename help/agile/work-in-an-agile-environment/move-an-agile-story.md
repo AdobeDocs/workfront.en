@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Move a story from an iteration or Kanban board to the backlog
 
@@ -61,11 +61,7 @@ You can move a story to a different iteration for your Scrum team.
  <li value="2">Click the iteration heading at the top of the page.</li> 
  <li value="3">On the <span class="bold">Stories</span> tab, select the stories that you want to move.</li> 
  <li value="4"> <p>Click <span class="bold">More</span>&nbsp;> <span class="bold">Move to</span>.</p> <p>The <span class="bold">Move Story</span>&nbsp;dialog box is displayed.</p> <p> <img src="assets/iteration-story-move-350x143.png" alt="" style="width: 350;height: 143;"> </p> </li> 
- <li value="5"> <p>Select <span class="bold">Another Iteration</span>,&nbsp;then in the drop-down menu, select the iteration where you want to move the story.</p> <note type="note">
-   The work item Planned Start Date and Planned Completion Date are affected by a setting on the Edit Team page. For information, see the section 
-   <a href="../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5" class="MCXref xref">Configure how dates are applied when adding work items to an iteration</a> in the article 
-   <a href="../../agile/get-started-with-agile-in-workfront/configure-scrum.md" class="MCXref xref">Configure Scrum</a>. 
-  </note> </li> 
+ <li value="5"> <p>Select <span class="bold">Another Iteration</span>,&nbsp;then in the drop-down menu, select the iteration where you want to move the story.</p> Note: The work item Planned Start Date and Planned Completion Date are affected by a setting on the Edit Team page. For information, see the section Configure how dates are applied when adding work items to an iteration in the article Configure Scrum. </li> 
  <li value="6"> <p>Click <span class="bold">Move Story</span>.</p> </li> 
 </ol>
 

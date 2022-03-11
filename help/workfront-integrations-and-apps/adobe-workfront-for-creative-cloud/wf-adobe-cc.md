@@ -7,7 +7,7 @@ title: Adobe Workfront for Creative Cloud
 description: Find your work in Adobe Photoshop
 ---
 
-# *Adobe Workfront* for Creative Cloud
+# `Adobe Workfront` for Creative Cloud
 
 * [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md) 
 * [Find your work in Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md) 

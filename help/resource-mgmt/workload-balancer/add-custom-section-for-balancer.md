@@ -6,9 +6,9 @@ title: Add a custom section to display the Workload Balancer
 description: The title might need to change to indicate what objects this is possible on?! - "Display the Workload Balancer in a custom section"??
 ---
 
-# Add a custom section to display the *Workload Balancer*
+# Add a custom section to display the `Workload Balancer`
 
-The title might need to change to indicate what objects this is possible on?!&nbsp;- "Display the *Workload Balancer* in a custom section"??
+The title might need to change to indicate what objects this is possible on?! - "Display the `Workload Balancer` in a custom section"??
 
 This is a long-term goal; functionality not mapped yet.
 

@@ -13,7 +13,7 @@ The Potential Risk Cost of a project takes into account the Potential Costs of t
 
 ## Overview of Potential Risk&nbsp;Cost of a project
 
-*Adobe Workfront* calculates the Potential&nbsp;Risk Cost of a project using the following formula:
+`Adobe Workfront` calculates the Potential&nbsp;Risk Cost of a project using the following formula:
 
 ```
 Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
@@ -26,13 +26,13 @@ Consider the following when reviewing the Potential&nbsp;Risk Cost of a project:
 
 ## Locate the Potential&nbsp;Risk Cost of a project
 
-You can find the Risks for a project and their Potential Cost in the following areas in *Workfront*:
+You can find the Risks for a project and their Potential Cost in the following areas in `Workfront`:
 
 * In the Risks tab of the project.
 * In the Business Case Summary.  
   For more information about the Business Case of a project, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 * In a project report when you add the Planned Risk Cost field to the columns of the report.  
-  For more information about building reports in *Workfront*, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  For more information about building reports in `Workfront`, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * In the Portfolio Optimizer, when the project is associated with a Portfolio, in the Risk column.  
   The sum of all Potential Risk Costs of all projects in the portfolio adds up to the Risk of the Portfolio.  

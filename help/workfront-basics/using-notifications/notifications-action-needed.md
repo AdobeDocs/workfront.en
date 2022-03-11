@@ -30,7 +30,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><span class="bold">Instant and </span><span class="bold">Daily</span> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">I need to approve a document</span> </p> <p>The approver of a document receives a notification when they are listed as the approver.</p> <p>The subject of the instant notification email is: <em>&lt;Name of the user who submitted the approval&gt; asked you to approve a document in <em>Adobe Workfront</em>.</em></p> <p>The subject of the daily digest notification is:<em> Digest of Action Needed &lt;Date of the daily digest&gt;</em></p> </td> 
+   <td> <p><span class="bold">I need to approve a document</span> </p> <p>The approver of a document receives a notification when they are listed as the approver.</p> <p>The subject of the instant notification email is: <em>&lt;Name of the user who submitted the approval&gt; asked you to approve a document in <span>Adobe Workfront</span>.</em></p> <p>The subject of the daily digest notification is:<em> Digest of Action Needed &lt;Date of the daily digest&gt;</em></p> </td> 
    <td> Project Name<br>Portfolio Name<br>Name of the user who submitted the approval<br>Document Name<br>Document Reference Number<br>Date and Time of Approval Requested<br>Document Details (format, size, version number)<br><span class="bold">Make Approval Decision</span> button<br>*Total number of pending document approvals<br>*Link to <span class="bold">Document Approvals<br></span>*<span class="bold">See All Approvals</span> button<br>*Date of the daily digest<br></td> 
    <td><span class="bold">Instant and </span><span class="bold">Daily</span> </td> 
   </tr> 
@@ -100,7 +100,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><span class="bold">Instant and </span><span class="bold">Daily</span> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Someone requests me to upload a document</span> </p> <p>The Document Requestee receives an email notification when a user receives a request to upload a document.</p> <p>The subject of the instant notification email is: <em>&lt;Name of the user requesting the document&gt; needs a document from you in <em>Workfront</em>.</em></p> <p> <p>Note:  You cannot configure this notification for a daily digest email.</p> </p> </td> 
+   <td> <p><span class="bold">Someone requests me to upload a document</span> </p> <p>The Document Requestee receives an email notification when a user receives a request to upload a document.</p> <p>The subject of the instant notification email is: <em>&lt;Name of the user requesting the document&gt; needs a document from you in <span>Workfront</span>.</em></p> <p> <p>Note:  You cannot configure this notification for a daily digest email.</p> </p> </td> 
    <td> Name of the user requesting the document<br>Name of the object where the document should be uploaded<br><span class="bold">Attach it here</span> link </td> 
    <td><span class="bold">Instant</span> </td> 
   </tr> 

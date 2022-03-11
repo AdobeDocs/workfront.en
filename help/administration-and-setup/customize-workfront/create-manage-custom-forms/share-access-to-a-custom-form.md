@@ -19,52 +19,34 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"> <p><em>Adobe Workfront</em> plan*</p> </td> 
-    <td>Any</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><em>Adobe Workfront</em> plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
+ <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <p>Administrative access to custom forms</p> <p>For information about how <em>Workfront administrators</em> grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how <em>Workfront administrators</em> grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
+  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
 
 ## Access to custom forms
 
-By default, when you create a new custom form and someone attaches it to an object, any user assigned to the object can view and fill out the form. This includes users with *Request* licenses and external users.
+By default, when you create a new custom form and someone attaches it to an object, any user assigned to the object can view and fill out the form. This includes users with `Request` licenses and external users.
 
 However, on an object where the custom form is not already attached, a user (even if they have a Planner access level) cannot attach it from the Custom Forms drop-down menu unless one of the following is true:
 
 * Someone shared the custom form with the user or with their team, job role, group, or company, granting at least View permission with the Attach to Custom Data selected
-* The user has a *Plan* license and their access level allows administrative access to custom forms
+* The user has a `Plan` license and their access level allows administrative access to custom forms
 
 ## Share a custom form
 
 Rather than leaving a custom form in the default sharing state (described in [Access to custom forms](#access) in this article), you can configure specific levels of access to the form for certain users, job roles, groups, teams, and companies.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Custom Forms</span>.</li> 
  <li value="3"> <p>Select the custom form, then click <span class="bold">Share</span>.</p> </li> 
- <li value="4"> <p>In the box that displays, under <span class="bold">Give <em>custom form</em> access to</span>, start typing the name of the user, team, job role, group, or company you want to share the <em>custom form</em> with, then press <span class="bold">Enter</span> when the name displays.</p> </li> 
+ <li value="4"> <p>In the box that displays, under <span class="bold">Give <span>custom form</span> access to</span>, start typing the name of the user, team, job role, group, or company you want to share the <span>custom form</span> with, then press <span class="bold">Enter</span> when the name displays.</p> </li> 
  <li value="5"> <p>To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -74,13 +56,13 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
      <td role="rowheader">View it</td> 
      <td> <p>Ability to view and fill out the custom form on objects.</p> <note type="note">
        For users with 
-       <em>Work</em>, 
-       <em>Review</em>, and 
-       <em>Request</em> licenses, this is the highest available option.
+       <span>Work</span>, 
+       <span>Review</span>, and 
+       <span>Request</span> licenses, this is the highest available option.
       </note> <p>Click <span class="bold">Advanced Settings</span> to specify whether you want to allow the following:</p> 
       <ul> 
        <li><span class="bold">Attach to custom data</span>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</li> 
-       <li> <p><span class="bold">Share</span>: Ability to share the custom form with others in the system</p> <p>Users with a <em>Work</em>, <em>Review</em>, or <em>Request</em> license can share a custom form only through the API or a custom forms report. For more information, see .</p> </li> 
+       <li> <p><span class="bold">Share</span>: Ability to share the custom form with others in the system</p> <p>Users with a <span>Work</span>, <span>Review</span>, or <span>Request</span> license can share a custom form only through the API or a custom forms report. For more information, see .</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -107,7 +89,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 ## Remove access to a custom form
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Custom Forms</span>.</li> 
  <li value="3"> <p>Select the custom form, then click <span class="bold">Share</span>.</p> </li> 
  <li value="4"> <p>In the box that displays, click the X to the right of the name of the user, team, role, group, or company whom you no longer want to have special access to the form.</p> </li> 

@@ -4,20 +4,20 @@ product: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Back Up Your Workfront Proof Data
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: You can request a backup of all of your data in Workfront Proof using the backup function.
 ---
 
-# Back Up Your *Workfront Proof* Data
+# Back Up Your `Workfront Proof` Data
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Introduction to backups
 
-You can request a backup of all of your data in *Workfront Proof* using the backup function. &nbsp;
+You can request a backup of all of your data in `Workfront Proof` using the backup function. &nbsp;
 
-The backup is delivered to you as a .zip file. It includes an XML export of all of your data (including comments and responses for all versions of all *proof*s); however, it does not include the original files that you uploaded as *proofs*.
+The backup is delivered to you as a .zip file. It includes an XML export of all of your data (including comments and responses for all versions of all `proof`s); however, it does not include the original files that you uploaded as `proofs`.
 
 Each backup .zip file created for you to download has a unique file name, such as:
 
@@ -25,7 +25,7 @@ Each backup .zip file created for you to download has a unique file name, such a
 
 The filename in this example provides the following information:
 
-* 9789 is your *Workfront Proof* account identifier
+* 9789 is your `Workfront Proof` account identifier
 * 05_05_2011 is the creation date, 5 May 2011
 * 61703 is a random system-assigned number
 
@@ -33,9 +33,9 @@ This naming convention makes it easy for you to store all your backup .zip files
 
 The Backup function lets you decide how to use your resources:
 
-* Allows you to free up storage space without losing your active or archived *proofs*. You can request a backup, delete the *proofs*, and then empty the [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+* Allows you to free up storage space without losing your active or archived `proofs`. You can request a backup, delete the `proofs`, and then empty the [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-* Allows you to access any files that you originally uploaded to *Workfront Proof*. You can download them using the download original file function before deleting the *proofs*.
+* Allows you to access any files that you originally uploaded to `Workfront Proof`. You can download them using the download original file function before deleting the `proofs`.
 
 >[!NOTE]
 >
@@ -48,14 +48,14 @@ The Backup function lets you decide how to use your resources:
 
 ## Backing up your data
 
-1. Click `Account settings` in the upper-right corner of the *Workfront Proof* interface. (1)
+1. Click `Account settings` in the upper-right corner of the `Workfront Proof` interface. (1)
 
 1. Click the `Backups` tab.&nbsp;(2)
 1. Click the `Request new backup` link (3)
 
 When your backup is ready, the following occurs:
 
-* You receive an email from *Workfront Proof* notifying you of this ("Your *Workfront* Proof backup is ready"). The email contains a download link for your backup data.
+* You receive an email from `Workfront Proof` notifying you of this ("Your `Workfront` Proof backup is ready"). The email contains a download link for your backup data.
 
 * The [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) Backup tab displays a download link for your backup data.
 * The Request new backup link (3) reappears on the Backups tab
@@ -69,12 +69,12 @@ Your data will be ready to download as a zip file. You can download the backup .
 
 ## Downloading your backup .zip file from your email notification
 
-When your backup .zip file is ready to download, you receive an email from *Workfront Proof* with the subject line 'Your *Workfront* Proof backup is ready.'
+When your backup .zip file is ready to download, you receive an email from `Workfront Proof` with the subject line 'Your `Workfront` Proof backup is ready.'
 
 To download the backup .zip file from the email:
 
 <ol> 
- <li value="1">Click the download link in the email.<br><img src="assets/backup-mail-350x120.png" alt="Backup_mail.png" style="width: 350;height: 120;"><br>If you are not currently logged in to <em>Workfront Proof</em>, a new browser window opens and displays the login page.</li> 
+ <li value="1">Click the download link in the email.<br><img src="assets/backup-mail-350x120.png" alt="Backup_mail.png" style="width: 350;height: 120;"><br>If you are not currently logged in to <span>Workfront Proof</span>, a new browser window opens and displays the login page.</li> 
 </ol>
 
 ## Downloading your backup .zip file from the account settings
@@ -82,7 +82,7 @@ To download the backup .zip file from the email:
 When your backup .zip file is ready to download, the Backup tab indicates this by displaying a download link. In addition, the Request new backup link appears again.
 
 <ol> 
- <li value="1">Click <span class="bold">Account settings</span> in the upper-right corner of the <em>Workfront Proof</em> interface. (1)</li> 
+ <li value="1">Click <span class="bold">Account settings</span> in the upper-right corner of the <span>Workfront Proof</span> interface. (1)</li> 
  <li value="2">Click the <span class="bold">Backups</span> tab.&nbsp;(2)<br>If no users in your account have requested any backups, the Backups tab indicates that you have no backups. If a user has requested a backup, the tab&nbsp;displays the creation date and download link for the last backup.</li> 
  <li value="3">Click the <span class="bold">Download backup</span> link. (3)<br><img src="assets/download-backup-350x167.png" alt="Download_Backup.png" style="width: 350;height: 167;">A File Download screen appears, asking if you want to Open or Save the download file.</li> 
  <li value="4">Click <span class="bold">Save</span>, then select the location on your computer where you want to save the backup .zip file.<br>The message identifying the date of your most recent backup remains displayed at the bottom of the Backup page until the next time you request a backup. The Download backup link applies to that last backup. Whenever the Request new backup link is displayed, you can click it to request another backup.</li> 
@@ -90,14 +90,14 @@ When your backup .zip file is ready to download, the Backup tab indicates this b
 
 ## Understanding the files in your backup .zip file
 
-Your backup .zip file contains seven CSV (comma-separated value or comma delimited) files that include information from your active and archived *proofs* up to the time your data was backed up:
+Your backup .zip file contains seven CSV (comma-separated value or comma delimited) files that include information from your active and archived `proofs` up to the time your data was backed up:
 
-* comments.csv - includes comments on *proofs*
-* comment_replies.csv - includes responses to comments on *proofs* organisation.csv - includes numeric identifier and name of your organization (your account)
+* comments.csv - includes comments on `proofs`
+* comment_replies.csv - includes responses to comments on `proofs` organisation.csv - includes numeric identifier and name of your organization (your account)
 * contacts.csv - includes numeric identifier, name, and organization for each contact
-* files.csv - includes information from the Proof Details page or the File Details page on *proofs* or files uploaded to *Workfront Proof*
+* files.csv - includes information from the Proof Details page or the File Details page on `proofs` or files uploaded to `Workfront Proof`
 
-* recipients.csv - includes numeric identifier, role, and decisions of each person specified as a reviewer, reviewer and approver, etc., when *proofs* are uploaded for review on *Workfront Proof*
+* recipients.csv - includes numeric identifier, role, and decisions of each person specified as a reviewer, reviewer and approver, etc., when `proofs` are uploaded for review on `Workfront Proof`
 
 * users.csv - includes numeric identifiers and names of all users in the account
 

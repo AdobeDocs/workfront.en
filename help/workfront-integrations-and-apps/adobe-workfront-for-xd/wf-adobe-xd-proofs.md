@@ -6,9 +6,9 @@ title: Upload XD art boards as proofs to Workfront
 description: You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
 ---
 
-# Upload XD art boards as proofs to *Workfront*
+# Upload XD art boards as proofs to `Workfront`
 
-You can upload your art boards as proofs directly to *Adobe Workfront* for a thorough review and approval.
+You can upload your art boards as proofs directly to `Adobe Workfront` for a thorough review and approval.
 
 ## Access requirements
 
@@ -19,19 +19,19 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Current plan: <em>Work</em> or <em>Proof</em></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p>Current plan: <span>Work</span> or <span>Proof</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a <em>Workfront</em> license.</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a <span>Workfront</span> license.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -41,15 +41,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
 ## Prerequisites
 
-* You must install the *Workfront* for Adobe XD plugin before you can upload *proofs* in Adobe XD.
+* You must install the `Workfront` for Adobe XD plugin before you can upload `proofs` in Adobe XD.
 
   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
-## Upload a static *Proof*
+## Upload a static `Proof`
 
 <ol> 
  <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
@@ -69,19 +69,19 @@ You must have the following access to perform the steps in this article:
     </tr>
     <tr>
      <td role="rowheader">.png</td>
-     <td>The art board upoads as a .png to the work item's Documents tab in <em>Workfront</em>Work. </td>
+     <td>The art board upoads as a .png to the work item's Documents tab in <span>Workfront</span>Work. </td>
     </tr>
     <tr>
      <td role="rowheader">.jpg</td>
-     <td>The art board uploads as a .jpg to the work item's Documents tab in <em>Workfront</em>. <br></td>
+     <td>The art board uploads as a .jpg to the work item's Documents tab in <span>Workfront</span>. <br></td>
     </tr>
     <tr>
      <td role="rowheader">.svg</td>
-     <td>The art board uploads as a .svg to the work item's Documents tab in <em>Workfront</em>. </td>
+     <td>The art board uploads as a .svg to the work item's Documents tab in <span>Workfront</span>. </td>
     </tr>
     <tr>
      <td role="rowheader">.pdf</td>
-     <td>The art board uploads as a .pdf to the work item's Documents tab in <em>Workfront</em>.</td>
+     <td>The art board uploads as a .pdf to the work item's Documents tab in <span>Workfront</span>.</td>
     </tr>
    </tbody>
   </table></li> 
@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
 
 ## Upload an interactive proof
 
-You can create an interactive proof for your art boards with the *Workfront* for Adobe plugin. It is a 2-step process. First you need to create an interactive link, then you need to upload the proof to a work item.
+You can create an interactive proof for your art boards with the `Workfront` for Adobe plugin. It is a 2-step process. First you need to create an interactive link, then you need to upload the proof to a work item.
 
 ### Create an interactive link for your art board
 
@@ -122,7 +122,7 @@ You can create an interactive proof for your art boards with the *Workfront* for
  <li value="7">(Optional) Type a comment in the <span class="bold">Updates</span> area.</li> 
  <li value="8"> <p>Click <span class="bold">Upload</span>.</p> <p>The document appears in the Documents area in the plugin and the desktop app.</p> <note type="important">
    Users must have access to the 
-   <em>Desktop Proofing Viewer</em> to review and approve interactive proofs. For more information, see 
+   <span>Desktop Proofing Viewer</span> to review and approve interactive proofs. For more information, see 
    <a href="../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md" class="MCXref xref">Install the Desktop Proofing Viewer with Automatic Updates</a>.
   </note> </li> 
 </ol>
@@ -149,23 +149,23 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
     </tr>
     <tr>
      <td role="rowheader">.png</td>
-     <td>The art board uploads as a .png to the work item's Documents tab in <em>Workfront</em>. </td>
+     <td>The art board uploads as a .png to the work item's Documents tab in <span>Workfront</span>. </td>
     </tr>
     <tr>
      <td role="rowheader">.jpg</td>
-     <td>The art board uploads as a .jpg to the work item's Documents tab in <em>Workfront</em>. </td>
+     <td>The art board uploads as a .jpg to the work item's Documents tab in <span>Workfront</span>. </td>
     </tr>
     <tr>
      <td role="rowheader">.svg</td>
-     <td>The art board uploads as a .svg to the work item's Documents tab in <em>Workfront</em>. </td>
+     <td>The art board uploads as a .svg to the work item's Documents tab in <span>Workfront</span>. </td>
     </tr>
     <tr>
      <td role="rowheader">.pdf</td>
-     <td>The art board uploads as a .pdf to the work item's Documents tab in <em>Workfront</em>. </td>
+     <td>The art board uploads as a .pdf to the work item's Documents tab in <span>Workfront</span>. </td>
     </tr>
     <tr>
      <td role="rowheader">Shared links</td>
-     <td>Proofs with shared links uploaded to <em>Workfront</em> don't technically need to have a new version uploaded. Because they are interactive, the link is always up to date with the most recent changes. However, you can still upload a new version if you want to capture that it is a new iteration of the asset ready for another round of review and approval.</td>
+     <td>Proofs with shared links uploaded to <span>Workfront</span> don't technically need to have a new version uploaded. Because they are interactive, the link is always up to date with the most recent changes. However, you can still upload a new version if you want to capture that it is a new iteration of the asset ready for another round of review and approval.</td>
     </tr>
    </tbody>
   </table></li> 

@@ -2,7 +2,7 @@
 
 # Send direct messages to other users
 
-*Adobe Workfront* enables you to quickly and easily send messages that are unrelated to any work item directly&nbsp;to other *Workfront* users. Messages sent as described in this section appear in the Updates tab on the user's home&nbsp;page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+`Adobe Workfront` enables you to quickly and easily send messages that are unrelated to any work item directly to other `Workfront` users. Messages sent as described in this section appear in the Updates tab on the user's home&nbsp;page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 The user you are sending the message to receives the following types of notifications when you send a message as described in this section:
 
@@ -22,31 +22,31 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Send a message unrelated to a work item to another user
 
-<ol> 
- <li value="1">Go to the home page of the user you want to send a message to.<br>You can do the following to navigate to a user's home page:<br>
-  <ul>
-   <li>Click the linked name of the user as it appears anywhere in the <em>Workfront</em> interface. User names are displayed in many areas of the <em>Workfront</em> interface, such as in a comment made by the user.</li>
-  </ul></li> 
- <li value="2"> <p>On the <span class="bold">Updates</span>&nbsp;tab, click in the text box field.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/message-user-nwe-350x166.png" alt="Message user on the Updates tab" style="width: 350;height: 166;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/message-user-nwe-350x166.png" alt="Message user on the Updates tab" style="width: 350;height: 166;"> </p> </li> 
- <li value="3">Type your message.</li> 
- <li value="4">(Optional) Click in the <span class="bold">Notify</span>&nbsp;field, then begin typing the name of another user you want to include in this message.<br></li> 
- <li value="5">(Optional) Select <span class="bold">Private to my company</span> to make this message visible only to other users in your company.<br></li> 
- <li value="6">Click <span class="bold">Update.</span><br>The message is posted at the top of the list of messages on the <span class="bold">Updates</span>&nbsp;tab on the user's home page.</li> 
-</ol>
+1. Go to the home page of the user you want to send a message to.  
+   You can do the following to navigate to a user's home page:
+
+  * Click the linked name of the user as it appears anywhere in the `Workfront` interface. User names are displayed in many areas of the `Workfront` interface, such as in a comment made by the user.
+
+1. On the `Updates`&nbsp;tab, click in the text box field.
+1. Type your message.
+1. (Optional) Click in the `Notify`&nbsp;field, then begin typing the name of another user you want to include in this message.  
+
+1. (Optional) Select `Private to my company` to make this message visible only to other users in your company.  
+
+1. Click `Update.`  
+   The message is posted at the top of the list of messages on the `Updates`&nbsp;tab on the user's home page.
 

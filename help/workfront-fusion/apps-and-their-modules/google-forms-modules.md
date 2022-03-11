@@ -13,7 +13,7 @@ description: The Google Forms modules allow you to monitor, select, add, update 
 
 The Google Forms modules allow you to monitor, select, add, update or delete responses on your Google Forms.
 
-In order to use Google Docs with *Adobe Workfront Fusion*, it is necessary to have a Google account. If you don't have a Google account yet, you can create one at the Google Account help page.
+In order to use Google Docs with `Adobe Workfront Fusion`, it is necessary to have a Google account. If you don't have a Google account yet, you can create one at the Google Account help page.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -28,45 +28,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -86,7 +66,7 @@ In order to work with your form responses, the spreadsheet from your responses m
 
 ## Google Forms modules and their fields
 
-When you configure *Google Forms* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Google Forms* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Google Forms` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Google Forms` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -108,7 +88,7 @@ Watches the form for new responses.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Google account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Spreadsheet</td> 
@@ -137,7 +117,7 @@ Watches the form for new responses.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p> Set the maximum number of responses that <em>Workfront Fusion</em> works with during one cycle.</p> </td> 
+   <td> <p> Set the maximum number of responses that <span>Workfront Fusion</span> works with during one cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,26 +128,16 @@ Watches the form for new responses.
 * [Update a Response](#update)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#select" class="MCXref xref">Select Responses</a> </li>
+  Select Responses
   -->
 
-* [Select Responses](#select) 
 * [Delete a Response](#delete)
 
 #### Add a Response
 
 This module appends a new response to the bottom of the form's spreadsheet.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Forms</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Forms</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -175,7 +145,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Google account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Spreadsheet</td> 
@@ -184,50 +154,7 @@ When you are configuring this module, the following fields display
   <tr> 
    <td role="rowheader">Sheet</td> 
    <td> <p> Select the sheet that contains the form responses.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"> <p>Values</p> </td> 
-    <td> <p>Enter the desired values to the sheet columns.</p> <p>For the Timestamp column in the correct format, use the following value:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Values</p> </td> 
-   <td> <p>Enter the desired values to the sheet columns.</p> <p>For the Timestamp column in the correct format, use the following value:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Value input option</td> 
-    <td> 
-     <ul> 
-      <li> <p><span class="bold">Raw</span> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
-      <li> <p><span class="bold">User entered</span><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Value input option</td> 
-   <td> 
-    <ul> 
-     <li> <p><span class="bold">Raw</span> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
-     <li> <p><span class="bold">User entered</span><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
-    </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Insert data option</td> 
-    <td> <p>Specify how existing data is changed when new data is input. </p> 
-     <ul> 
-      <li> <p><span class="bold">Overwrite </span> </p> <p>The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written.</p> </li> 
-      <li> <p><span class="bold">Insert rows</span><![CDATA[	]]></p> <p>Rows are inserted for the new data.</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Insert data option</td> 
-   <td> <p>Specify how existing data is changed when new data is input. </p> 
-    <ul> 
-     <li> <p><span class="bold">Overwrite </span> </p> <p>The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written.</p> </li> 
-     <li> <p><span class="bold">Insert rows</span><![CDATA[	]]></p> <p>Rows are inserted for the new data.</p> </li> 
-    </ul> </td> 
-  </tr> 
+  </tr> Values Enter the desired values to the sheet columns. For the Timestamp column in the correct format, use the following value: formatDate(now;DD/MM/YYYY HH:mm;UTC) Value input option Raw The values that the user enters are not parsed and are stored as-is. User entered The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI. Insert data option Specify how existing data is changed when new data is input. Overwrite The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written. Insert rows Rows are inserted for the new data. 
  </tbody> 
 </table>
 
@@ -235,16 +162,7 @@ When you are configuring this module, the following fields display
 
 This module updates the selected response.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Forms</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Forms</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -252,7 +170,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Google account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Spreadsheet</td> 
@@ -269,147 +187,13 @@ When you are configuring this module, the following fields display
   <tr> 
    <td role="rowheader"> <p>Values</p> </td> 
    <td> <p>Enter the new values to the desired columns.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Value input option</td> 
-    <td> 
-     <ul> 
-      <li> <p><span class="bold">Raw</span> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
-      <li> <p><span class="bold">User entered</span><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Value input option</td> 
-   <td> 
-    <ul> 
-     <li> <p><span class="bold">Raw</span> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
-     <li> <p><span class="bold">User entered</span><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
-    </ul> </td> 
-  </tr> 
+  </tr> Value input option Raw The values that the user enters are not parsed and are stored as-is. User entered The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI. 
  </tbody> 
 </table>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4><a name="Select"></a>Select Responses</h4>
-<p>This module returns response rows that match the criteria specified on a selected worksheet.</p>
-<table cellspacing="0"> <draft-comment>
-<col data-mc-conditions="">
-</draft-comment>
-<col data-mc-conditions=""> <draft-comment>
-<col data-mc-conditions="">
-</draft-comment>
-<col data-mc-conditions="">
-<tbody>
-<tr> <draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-</draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-<td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td>
-</tr>
-<tr> <draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">File</td>
-</draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">File</td>
-<td> <p>Select the spreadsheet that contains the sheet where you want to update a response.</p> </td>
-</tr>
-<tr> <draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet</td>
-</draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet</td>
-<td> <p> Select the sheet that contains the form responses.</p> </td>
-</tr>
-<tr>
-<td role="rowheader"> <p>Row ID</p> </td>
-<td> <p>Enter or map the ID of the row you want to update.</p> </td>
-</tr>
-<tr>
-<td role="rowheader"> <p>Values</p> </td>
-<td> <p>Enter the new values to the desired columns.</p> </td>
-</tr> <draft-comment>
-<tr data-mc-conditions=""> <draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Continue the execution of the route even if the module returns no results</td>
-</draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Continue the execution of the route even if the module returns no results</td>
-<td> <p>Enable this option to ensure that the scenario is not stopped by this module.</p> </td>
-</tr>
-</draft-comment>
-<tr data-mc-conditions="">
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Continue the execution of the route even if the module returns no results</td>
-<td> <p>Enable this option to ensure that the scenario is not stopped by this module.</p> </td>
-</tr> <draft-comment>
-<tr data-mc-conditions=""> <draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Filtering</td>
-</draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Filtering</td> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter or map the filter by which you want to select responses.</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter or map the filter by which you want to select responses.</td>
-</tr>
-</draft-comment>
-<tr data-mc-conditions="">
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Filtering</td>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter or map the filter by which you want to select responses.</td>
-</tr> <draft-comment>
-<tr data-mc-conditions=""> <draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td>
-</draft-comment>
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td>
-<td> <p> Set the maximum number of responses that <em>Workfront Fusion</em> returns during one cycle.</p> </td>
-</tr>
-</draft-comment>
-<tr data-mc-conditions="">
-<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td>
-<td> <p> Set the maximum number of responses that <em>Workfront Fusion</em> returns during one cycle.</p> </td>
-</tr>
-</tbody>
-</table>
-</div>
+Select Responses This module returns response rows that match the criteria specified on a selected worksheet. Connection For instructions about connecting your Google account to Workfront Fusion, see Connect the module's app or web service to Workfront Fusion in the article Create a scenario. File Select the spreadsheet that contains the sheet where you want to update a response. Worksheet Select the sheet that contains the form responses. Row ID Enter or map the ID of the row you want to update. Values Enter the new values to the desired columns. Continue the execution of the route even if the module returns no results Enable this option to ensure that the scenario is not stopped by this module. Filtering Enter or map the filter by which you want to select responses. Maximum number of returned rows Set the maximum number of responses that Workfront Fusion returns during one cycle.
 -->
-
-#### Select Responses
-
-This module returns response rows that match the criteria specified on a selected worksheet.
-
-<table cellspacing="0"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td> 
-   <td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">File</td> 
-   <td> <p>Select the spreadsheet that contains the sheet where you want to update a response.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet</td> 
-   <td> <p> Select the sheet that contains the form responses.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Row ID</p> </td> 
-   <td> <p>Enter or map the ID of the row you want to update.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Values</p> </td> 
-   <td> <p>Enter the new values to the desired columns.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Continue the execution of the route even if the module returns no results</td> 
-   <td> <p>Enable this option to ensure that the scenario is not stopped by this module.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Filtering</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter or map the filter by which you want to select responses.</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td> 
-   <td> <p> Set the maximum number of responses that <em>Workfront Fusion</em> returns during one cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 #### Delete a Response
 
@@ -421,7 +205,7 @@ This module deletes a selected response.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Google account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Spreadsheet</td> 
@@ -447,126 +231,12 @@ This module deletes a selected response.
 
 This module returns responses matching the given criteria.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
- <tbody> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td> 
-    <td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td> 
-   <td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Spreadsheet</td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Spreadsheet</td> 
-    <td> <p>Select the form you want to search in.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Spreadsheet</td> 
-   <td> <p>Select the form you want to search in.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sheet </td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sheet </td> 
-    <td> <p>Select the sheet that contains the form responses.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sheet </td> 
-   <td> <p>Select the sheet that contains the form responses.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Column range</td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Column range</td> 
-    <td> <p> Select the column range you want to search.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Column range</td> 
-   <td> <p> Select the column range you want to search.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Filter</td> 
-    <td> <p>Define the filter you want to search responses responses by.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Filter</td> 
-   <td> <p>Define the filter you want to search responses responses by.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sort Order </td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sort Order </td> 
-    <td> <p>Select whether to sort returned responses in ascending or descending order.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sort Order </td> 
-   <td> <p>Select whether to sort returned responses in ascending or descending order.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Order By</td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Order By</td> 
-    <td> <p> Select the column you want to order returned responses by.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Order By</td> 
-   <td> <p> Select the column you want to order returned responses by.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Value Render Option</td> 
-    <td> <p>Specify how you want the values to be rendered in the output.</p> 
-     <ul> 
-      <li> <p><span class="bold">Formatted value</span><![CDATA[	]]></p> <p>Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>$1. 23</code> .</p> </li> 
-      <li> <p><span class="bold">Unformatted value </span> </p> <p>Values are calculated, but not formatted in the reply. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns the number <code>1. 23</code> .</p> </li> 
-      <li> <p><span class="bold">Formula </span> </p> <p>Values are not calculated. The reply includes the formulas. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>=A1</code>.</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Value Render Option</td> 
-   <td> <p>Specify how you want the values to be rendered in the output.</p> 
-    <ul> 
-     <li> <p><span class="bold">Formatted value</span><![CDATA[	]]></p> <p>Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>$1. 23</code> .</p> </li> 
-     <li> <p><span class="bold">Unformatted value </span> </p> <p>Values are calculated, but not formatted in the reply. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns the number <code>1. 23</code> .</p> </li> 
-     <li> <p><span class="bold">Formula </span> </p> <p>Values are not calculated. The reply includes the formulas. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>=A1</code>.</p> </li> 
-    </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Date and time render option</td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Date and time render option</td> <draft-comment>
-     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select how you want dates, times, and duration to be represented in the output. This field is ignored if Value Render Option is set to Formatted Value. </td>
-    </draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select how you want dates, times, and duration to be represented in the output. This field is ignored if Value Render Option is set to Formatted Value. </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Date and time render option</td> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select how you want dates, times, and duration to be represented in the output. This field is ignored if Value Render Option is set to Formatted Value. </td> 
-  </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned responses</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned responses</td> 
-   <td> <p> Set the maximum number of responses that <em>Workfront Fusion</em> returns during one cycle.</p> </td> 
+<table cellspacing="0">   
+ <tbody> Connection For instructions about connecting your Google account to Workfront Fusion, see Connect the module's app or web service to Workfront Fusion in the article Create a scenario. Spreadsheet Select the form you want to search in. Sheet Select the sheet that contains the form responses. Column range Select the column range you want to search. Filter Define the filter you want to search responses responses by. Sort Order Select whether to sort returned responses in ascending or descending order. Order By Select the column you want to order returned responses by. Value Render Option Specify how you want the values to be rendered in the output. Formatted value Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if A1 is 1. 23 and A2 is =A1 and formatted as currency, then A2 returns $1. 23 . Unformatted value Values are calculated, but not formatted in the reply. For example, if A1 is 1. 23 and A2 is =A1 and formatted as currency, then A2 returns the number 1. 23 . Formula Values are not calculated. The reply includes the formulas. For example, if A1 is 1. 23 and A2 is =A1 and formatted as currency, then A2 returns =A1. Date and time render option Select how you want dates, times, and duration to be represented in the output. This field is ignored if Value Render Option is set to Formatted Value. 
+  <tr> <!--
+    Maximum number of returned responses
+   --> 
+   <td> <p> Set the maximum number of responses that <span>Workfront Fusion</span> returns during one cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -575,41 +245,31 @@ This module returns responses matching the given criteria.
 
 This module performs a search using the [Google Charts Query Language](https://developers.google.com/chart/interactive/docs/querylanguage). This module does not return a row number.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td> 
-   <td> <p>For instructions about connecting your Google account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  <tr> <!--
+    Connection
+   --> 
+   <td> <p>For instructions about connecting your Google account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Spreadsheet</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Spreadsheet</td> 
+  <tr> <!--
+    Spreadsheet
+   --> 
    <td> <p>Select the spreadsheet that contains the sheet you want to search.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sheet</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sheet</td> 
+  <tr> <!--
+    Sheet
+   --> 
    <td> <p> Select the sheet that contains the form responses.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
    <td> <p>Define the search query using the <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Google Charts Query Language</a>.</p> <p>Example: <code>select * where C = "John"</code> retrieves all values for the row where the C column is "John".</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td> 
-   <td> <p> Set the maximum number of responses that <em>Workfront Fusion</em> returns during one cycle.</p> </td> 
+  <tr> <!--
+    Maximum number of returned rows
+   --> 
+   <td> <p> Set the maximum number of responses that <span>Workfront Fusion</span> returns during one cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

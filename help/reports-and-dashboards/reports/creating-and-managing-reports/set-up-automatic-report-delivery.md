@@ -8,7 +8,7 @@ description: You can schedule reports to automatically deliver to users on a def
 
 # Schedule an automatic report delivery
 
-You can schedule reports to automatically deliver to users on a defined schedule, or you can manually send reports on a one-time basis. When you send a report from *Adobe Workfront*, the user receives an email with the *Workfront* report in a separate attachment.
+You can schedule reports to automatically deliver to users on a defined schedule, or you can manually send reports on a one-time basis. When you send a report from `Adobe Workfront`, the user receives an email with the `Workfront` report in a separate attachment.
 
 For more information, including size limitations that can affect the delivery of your reports, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -68,21 +68,21 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
    <tbody> 
     <tr> 
      <td role="rowheader"> <p>Send to</p> </td> 
-     <td> <p>Begin typing the name of the user, group, team, or role who you want to send the report to, then click the name when it appears in the drop-down list.</p> <p>Or</p> <p>Specify the email address of a person external to the <em>Workfront</em> system who you want to have access to the report.</p> <p>Repeat this process to send the report to multiple users, groups, teams, or roles.</p> <note type="note"> 
+     <td> <p>Begin typing the name of the user, group, team, or role who you want to send the report to, then click the name when it appears in the drop-down list.</p> <p>Or</p> <p>Specify the email address of a person external to the <span>Workfront</span> system who you want to have access to the report.</p> <p>Repeat this process to send the report to multiple users, groups, teams, or roles.</p> <note type="note"> 
        <p>Consider the following when adding report delivery recipients:</p> 
        <ul> 
-        <li>lf your organization restricts <em>Workfront</em> notifications to specific email domains, you may only be able to send reports to email addresses listed in the email allowlist.<p>For information on how a <em>Workfront administrator</em> updates the email allowlist, see the section <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configure your email allowlist</a>.</p></li> 
+        <li>lf your organization restricts <span>Workfront</span> notifications to specific email domains, you may only be able to send reports to email addresses listed in the email allowlist.<p>For information on how a <span>Workfront administrator</span> updates the email allowlist, see the section <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configure your email allowlist</a>.</p></li> 
         <li> <p>Adding a large number of users as recipients can cause the delivery to fail. If you experience delivery failures, you can schedule multiple report deliveries with smaller groups of users.</p> </li> 
        </ul> 
       </note> </td> 
     </tr> 
     <tr> 
      <td role="rowheader"> <p>Email Subject</p> </td> 
-     <td> <p>Specify a subject for the email notification.</p> <p>By default, the email subject is:</p> <p><em><em>Workfront</em> Report: [Name of the report] [Date]</em> </p> </td> 
+     <td> <p>Specify a subject for the email notification.</p> <p>By default, the email subject is:</p> <p><em><span>Workfront</span> Report: [Name of the report] [Date]</em> </p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader"> <p>Email Message</p> </td> 
-     <td> <p>Specify a message to include in the email.</p> <p>By default, the email message is:</p> <p><em>Attached is the [report frequency] report [Name of the report] generated by <em>Workfront</em> on [Date].</em> </p> <note type="note">
+     <td> <p>Specify a message to include in the email.</p> <p>By default, the email message is:</p> <p><em>Attached is the [report frequency] report [Name of the report] generated by <span>Workfront</span> on [Date].</em> </p> <note type="note">
        For reports delivered as an Excel file only, the following message is also added to the email: "Please be aware that with MS Excel (XLS) file types, there is a limit (65,530) on the number of hyperlinks these file types support. If you exceed those limits, your file will not open and it is recommended to resend without the hyperlinks. Please go back to the report scheduler to remove hyperlinks and resend the report." The "please go back to the report scheduler" phrase is a link back to the report.
       </note> </td> 
     </tr> 
@@ -156,33 +156,19 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
 
 ## Video walk-through
 
-View the following video to learn how to schedule a report delivery. This video was recorded in *Workfront Classic*. However, the content also applies to *the new Workfront experience*.
+View the following video to learn how to schedule a report delivery. This video was recorded in `Workfront Classic`. However, the content also applies to `the new Workfront experience`.
 
 [ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
+Additional information
 -->
-
-## Additional information
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See also:</p>
+See also:
 -->
 
-See also:
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a> </li>
+  Learning Path for reports and dashboards
   -->
-
-* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p> </li>
-  -->
-
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)
 

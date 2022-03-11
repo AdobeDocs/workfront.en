@@ -4,16 +4,16 @@ product: workfront-proof
 product-area: documents;system-administration;setup
 navigation-topic: satellite-accounts
 title: Configure a satellite account in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: Satellite accounts are paid accounts that you configure and manage from within your own Workfront Proof account. For more information, see "Satellite accounts in Workfront Proof.
 ---
 
-# Configure a satellite account in *Workfront Proof*
+# Configure a satellite account in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Satellite accounts are paid accounts that&nbsp;you configure and manage from within your own *Workfront Proof* account. For more information, see " [Satellite accounts in Workfront Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
+Satellite accounts are paid accounts that you configure and manage from within your own `Workfront Proof` account. For more information, see " [Satellite accounts in Workfront Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
 
 Any Billing Administrator can create a Satellite account. For information about Billing Administrators, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
@@ -49,7 +49,7 @@ After you have set up the Satellite account as described in [Creating a Satellit
 
 After you have upgraded the Satellite account to your chosen plan, you need to add users to the account.
 
-1. Log in to *Workfront Proof* as the *Workfront Proof administrator*.
+1. Log in to `Workfront Proof` as the `Workfront Proof administrator`.
 
 1. Click `Account Settings`.&nbsp;
 1. In the drop-down menu at the top of the page, select the relevant Satellite account. (1)  
@@ -72,10 +72,10 @@ To see a full list of all users in the Satellite account, click the `Users` tab.
 
 If you previously created other separate accounts for your clients, these can be converted to Satellite accounts.
 
-We will take care of this for you by linking them to your *Workfront Proof* account (making it a hub account).
+We will take care of this for you by linking them to your `Workfront Proof` account (making it a hub account).
 
 All you need to do is provide us with the following details:
 
-* The name of your *Workfront Proof* account and the email address you used to set it up
+* The name of your `Workfront Proof` account and the email address you used to set it up
 * The names of the separate accounts you want linked to your account and the email addresses used to set up the separate accounts.
 

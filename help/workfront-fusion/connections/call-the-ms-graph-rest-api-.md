@@ -2,7 +2,7 @@
 
 # Call the MS Graph REST API via the HTTP > Make an OAuth 2.0 request module
 
-Many&nbsp;Microsoft web services are accessed through the Microsoft Graph API. This article describes how to create a connection to that API, using the *Workfront Fusion* HTTP > Make an OAuth 2.0 request module.
+Many Microsoft web services are accessed through the Microsoft Graph API. This article describes how to create a connection to that API, using the `Workfront Fusion` HTTP > Make an OAuth 2.0 request module.
 
 ## Access requirements
 
@@ -13,49 +13,29 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Register *Workfront Fusion* in the Microsoft Application Registration Portal
+## Register `Workfront Fusion` in the Microsoft Application Registration Portal
 
-To create a connection to the Microsoft Graph REST&nbsp;API, you must first register *Adobe Workfront Fusion*.
+To create a connection to the Microsoft Graph REST API, you must first register `Adobe Workfront Fusion`.
 
 <ol> 
  <li value="1"> <p>Begin registering a new application as described in <a href="https://docs.microsoft.com/en-us/graph/auth-register-app-v2">Register your app</a> in the Microsoft documentation.</p> <p>As part of the registration, Microsoft requires the following information:</p> 
@@ -65,7 +45,7 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
    <tbody> 
     <tr> 
      <td role="rowheader">Application name</td> 
-     <td>Enter a name for the application, such as "My <em>Workfront Fusion</em> application."</td> 
+     <td>Enter a name for the application, such as "My <span>Workfront Fusion</span> application."</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Redirect URL</td> 
@@ -75,11 +55,11 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
   </table> </li> 
  <li value="2"> <p>When you have completed the app registration, make note of the Application ID.</p> <note type="important">
    You will need the Application ID to set up your connection in 
-   <em>Workfront Fusion</em>.
+   <span>Workfront Fusion</span>.
   </note> </li> 
  <li value="3"> <p>Generate an Application Secret. Make note of this secret.</p> <p>For instructions, see <a href="https://docs.microsoft.com/en-us/graph/auth-register-app-v2">Register your app</a> in the Microsoft documentation.</p> <note type="important">
    You will need the Application Secret to set up your connection in 
-   <em>Workfront Fusion</em>.
+   <span>Workfront Fusion</span>.
   </note> </li> 
  <li value="4"> <p>Configure the permissions for your application.</p> <p>For specifics on locating and configuring these fields, see the "Configure permissions for Microsoft Graph" section in <a href="https://docs.microsoft.com/en-us/graph/auth-v2-service">Get access without a user</a> in the Microsoft documentation.</p> 
   <table cellspacing="0"> 
@@ -99,7 +79,7 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
        <li> <p>Any other permissions required by your integrations (Example: <code>User.Read</code>)</p> </li> 
       </ul> <note type="important">
        You will need the selected permissions to set up your connection in 
-       <em>Workfront Fusion</em>.
+       <span>Workfront Fusion</span>.
       </note> </td> 
     </tr> 
    </tbody> 
@@ -107,9 +87,9 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
  <li value="5"> <p>Proceed to <a href="#configur" class="MCXref xref">Configure your MS Graph API connection in Workfront Fusion</a>.</p> </li> 
 </ol>
 
-## Configure your MS Graph API connection in *Workfront Fusion*
+## Configure your MS Graph API connection in `Workfront Fusion`
 
-After you register *Workfront Fusion* as discussed in [Register Workfront Fusion in the Microsoft Application Registration Portal](#register), you can configure your connection in the HTTP > Make an Oauth 2.0 request module.
+After you register `Workfront Fusion` as discussed in [Register Workfront Fusion in the Microsoft Application Registration Portal](#register), you can configure your connection in the HTTP > Make an Oauth 2.0 request module.
 
 <ol> 
  <li value="1"> <p>Add an HTTP > Make an OAuth 2.0 call module to your scenario.</p> </li> 

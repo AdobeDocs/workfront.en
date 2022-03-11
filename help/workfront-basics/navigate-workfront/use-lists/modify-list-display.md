@@ -7,7 +7,7 @@ description: In Adobe Workfront, you can customize how a list displays for you. 
 
 # Modify how a list displays
 
-In *Adobe Workfront*, you can customize how a list displays for you. Other users who view the list do not see your changes.
+In `Adobe Workfront`, you can customize how a list displays for you. Other users who view the list do not see your changes.
 
 You can make the following customizations:
 
@@ -17,9 +17,9 @@ You can make the following customizations:
 
 >[!NOTE]
 >
->The above display changes you make are reverted when you log out of *Workfront* or close your browser. These changes might also be reverted after a period of 8 hours.
+>The above display changes you make are reverted when you log out of `Workfront` or close your browser. These changes might also be reverted after a period of 8 hours.
 
-In addition to the temporary customizations above, you can also adjust which columns the list sorts by, which *Workfront* retains even after you log out or close your browser. However, if someone edits the sorting options in a list's view, the previous sorting selection is not retained.
+In addition to the temporary customizations above, you can also adjust which columns the list sorts by, which `Workfront` retains even after you log out or close your browser. However, if someone edits the sorting options in a list's view, the previous sorting selection is not retained.
 
 For information on modifying the information that displays in your list, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
@@ -32,16 +32,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to the area the list is in</p> <p>For example, to modify the view on a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level.<br>For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to the area the list is in</p> <p>For example, to modify the view on a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level.<br>For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -50,22 +50,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Modify how a list displays
 
 <ol> 
- <li value="1"> <p>Go to the list in <em>Workfront</em> that you want to modify.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      By default, groupings are collapsed.
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-     By default, groupings are collapsed.
-    </MadCap:conditionalText> <br> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    By default, groupings are collapsed.
-   </MadCap:conditionalText> <br> </p> </li> 
+ <li value="1"> <p>Go to the list in <span>Workfront</span> that you want to modify.</p> <!--
+   By default, groupings are collapsed.
+  --> </li> 
  <li value="2"> <p>(Optional and conditional) If the groupings in the list are collapsed and you want to view more information, click the desired grouping to expand the list and display the information listed in it.</p> <p>Or</p> <p>To expand all groupings, click the arrow to the right of the check box in the column header.</p> <p> <img src="assets/expand-groupings--1--350x227.png" alt="expand_groupings__1_.png" style="width: 350;height: 227;"> </p> </li> 
  <li value="3"> <p>(Optional and conditional) If you want to show a specific number of items on the screen, click the <span class="bold">Showing</span> drop-down menu in the lower-right corner of the screen, then select to display <span class="bold">100</span>, <span class="bold">250</span>, <span class="bold">500</span>, <span class="bold">All</span>, or <span class="bold">2000</span> items.</p> <p> <img src="assets/list-number-page-350x119.png" alt="" style="width: 350;height: 119;"> </p> 
   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">

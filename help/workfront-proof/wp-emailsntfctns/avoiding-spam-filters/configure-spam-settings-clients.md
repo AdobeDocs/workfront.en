@@ -4,16 +4,16 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Configure spam settings for common email clients
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: You can configure your email client to ensure that Workfront Proof emails are not sent to the spam folder.
 ---
 
 # Configure spam settings for common email clients
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-You can configure your email client to ensure that *Workfront Proof* emails are not sent to the spam folder.&nbsp;
+You can configure your email client to ensure that `Workfront Proof` emails are not sent to the spam folder.&nbsp;
 
 The following sections describe this process for various email clients:
 
@@ -21,12 +21,12 @@ The following sections describe this process for various email clients:
 
 In this section:
 
-* Add the two *Workfront Proof* "from" addresses to your Contacts list in Gmail or create filters to prevent Gmail from routing emails from those addresses to your Spam folder
-* Remove any existing *Workfront Proof* emails from your Spam folder and change any filters that route *Workfront Proof* messages to the trash
+* Add the two `Workfront Proof` "from" addresses to your Contacts list in Gmail or create filters to prevent Gmail from routing emails from those addresses to your Spam folder
+* Remove any existing `Workfront Proof` emails from your Spam folder and change any filters that route `Workfront Proof` messages to the trash
 
-### For new *Workfront Proof* emails
+### For new `Workfront Proof` emails
 
-Either add the two *Workfront Proof* "from" addresses to your Contacts list in Gmail or create email filters to keep *Workfront Proof* emails from being routed to your Spam folder by Gmail. To add the two *Workfront Proof* "from" addresses to your Contacts list:
+Either add the two `Workfront Proof` "from" addresses to your Contacts list in Gmail or create email filters to keep `Workfront Proof` emails from being routed to your Spam folder by Gmail. To add the two `Workfront Proof` "from" addresses to your Contacts list:
 
 <ol> 
  <li value="1">Click <span class="bold">Contacts</span> below <span class="bold">Mail</span> in the top-left corner of any Gmail page.<br></li> <note type="note">
@@ -38,7 +38,7 @@ Either add the two *Workfront Proof* "from" addresses to your Contacts list in G
  <li value="5">For the second "from" address, repeat steps 2-4.</li> 
 </ol>
 
-Alternatively, to create an email filter for each of the two *Workfront Proof* "from" addresses:
+Alternatively, to create an email filter for each of the two `Workfront Proof` "from" addresses:
 
 1. Click `Create a filter` next to the `Search` buttons at the top of any Gmail page.
 
@@ -50,20 +50,20 @@ Alternatively, to create an email filter for each of the two *Workfront Proof* "
 1. Click the `Create Filter` button. The filter is added to your list of filters on the Settings page.
 1. For the second "from" address, click `Create a filter` at the bottom of the Settings page and repeat steps 2-5.
 
-### For existing *Workfront Proof* emails
+### For existing `Workfront Proof` emails
 
-To remove any *Workfront Proof* emails that Gmail has placed in your Spam folder since it was last cleared:
+To remove any `Workfront Proof` emails that Gmail has placed in your Spam folder since it was last cleared:
 
 1. Click `Spam` in the folder list on the left side of any Gmail page.
-1. Select any *Workfront Proof* emails in your Spam folder.
+1. Select any `Workfront Proof` emails in your Spam folder.
 1. Click the `Not Spam` button above the Spam list.  
-   You will now find those *Workfront Proof* emails in your inbox.
+   You will now find those `Workfront Proof` emails in your inbox.
 
-To change any filters that send *Workfront Proof* emails to the trash:
+To change any filters that send `Workfront Proof` emails to the trash:
 
 1. Click `Create a filter` next to the Search buttons at the top of any Gmail page.
 1. Click `Show current filters` at the bottom of the Create a filter dialog box. The existing filters are listed on the Settings page by field (from) and name or address.
-1. If the Do this action for an existing *Workfront Proof* address filter is Delete it, click `edit`.
+1. If the Do this action for an existing `Workfront Proof` address filter is Delete it, click `edit`.
 
 1. Click the `Next Step` button.
 1. Deselect the `Delete it` option and select  `Never send it to Spam`.
@@ -71,18 +71,18 @@ To change any filters that send *Workfront Proof* emails to the trash:
 1. Click the `Update Filter` button.   
    The Settings page is redisplayed.
 
-1. If additional *Workfront Proof* address filters are listed, repeat steps 3-6 for each one.
+1. If additional `Workfront Proof` address filters are listed, repeat steps 3-6 for each one.
 
 ## Microsoft Outlook 2003 - 2007
 
 In this section:
 
-* Add the two *Workfront Proof* "from" adresses to the Safe Senders list in Outlook
-* Remove any existing *Workfront Proof* emails from your Junk E-mail folder and any "from" addresses from the Blocked Senders list
+* Add the two `Workfront Proof` "from" adresses to the Safe Senders list in Outlook
+* Remove any existing `Workfront Proof` emails from your Junk E-mail folder and any "from" addresses from the Blocked Senders list
 
-### For new *Workfront Proof* emails
+### For new `Workfront Proof` emails
 
-To add the two *Workfront Proof* "from" addresses to the Safe Senders list in Outlook:
+To add the two `Workfront Proof` "from" addresses to the Safe Senders list in Outlook:
 
 1. Click `Options` on the `Tools` menu.
 
@@ -94,34 +94,34 @@ To add the two *Workfront Proof* "from" addresses to the Safe Senders list in Ou
 1. Click `OK`. The address is added to the list.
 1. For the second "from" address, repeat steps 3-5.
 
-### For existing *Workfront Proof* emails
+### For existing `Workfront Proof` emails
 
-To remove any *Workfront Proof* emails that Outlook has placed in your Junk E-mail folder since it was last cleared:
+To remove any `Workfront Proof` emails that Outlook has placed in your Junk E-mail folder since it was last cleared:
 
 1. Click the `Junk E-mail` folder in the Navigation Pane.
-1. If there are any *Workfront Proof* emails in the folder, right-click each email, select Junk E-mail, and then click `Mark as Not Junk`.
+1. If there are any `Workfront Proof` emails in the folder, right-click each email, select Junk E-mail, and then click `Mark as Not Junk`.
 
-1. You will now find those *Workfront Proof* emails in your inbox.
+1. You will now find those `Workfront Proof` emails in your inbox.
 
-To check whether any *Workfront Proof* "from" addresses are in the Blocked Senders list:
+To check whether any `Workfront Proof` "from" addresses are in the Blocked Senders list:
 
 1. Click `Options` on the `Tools` menu
 
 1. Click `Junk E-mail` under `E-mail` on the `Preferences` tab.
 
 1. Click the `Blocked Senders` tab.
-1. If any *Workfront Proof* addresses are in the list, click each one and then click `Remove`.
+1. If any `Workfront Proof` addresses are in the list, click each one and then click `Remove`.
 
 ## Windows Live Hotmail
 
 In this section:
 
-* Add the two *Workfront Proof* "from" addresses to the Safe Senders list in Windows Live Hotmail
-* Remove any existing *Workfront Proof* emails from the Junk e-mail folder and any "from" addresses from the Blocked Senders list
+* Add the two `Workfront Proof` "from" addresses to the Safe Senders list in Windows Live Hotmail
+* Remove any existing `Workfront Proof` emails from the Junk e-mail folder and any "from" addresses from the Blocked Senders list
 
-### For new *Workfront Proof* emails
+### For new `Workfront Proof` emails
 
-To add the two *Workfront Proof* "from" addresses to your Safe Senders list in Windows Live Hotmail:
+To add the two `Workfront Proof` "from" addresses to your Safe Senders list in Windows Live Hotmail:
 
 1. Click `Options` in the upper-right corner of your mailbox page.
 1. Click `More options`.
@@ -132,36 +132,36 @@ To add the two *Workfront Proof* "from" addresses to your Safe Senders list in W
 1. Click the `Add to list` button. The address appears in the list.
 1. For the second "from" address, repeat steps 4-6.
 
-### For existing *Workfront Proof* emails
+### For existing `Workfront Proof` emails
 
-To remove any *Workfront Proof* emails that Windows Live Hotmail has placed in your Junk e-mail folder since it was last cleared:
+To remove any `Workfront Proof` emails that Windows Live Hotmail has placed in your Junk e-mail folder since it was last cleared:
 
 1. Click `Junk` under `Folders` on the left side of the page.
 
-1. If there are any *Workfront Proof* emails in this folder, open each email and click the `Not junk` link.
+1. If there are any `Workfront Proof` emails in this folder, open each email and click the `Not junk` link.
 
-1. You will now find those *Workfront Proof* emails in your inbox.
+1. You will now find those `Workfront Proof` emails in your inbox.
 
-To check whether any *Workfront Proof* "from" addresses are in the Blocked Senders list:
+To check whether any `Workfront Proof` "from" addresses are in the Blocked Senders list:
 
 1. Click `Options` in the upper-right corner of your mailbox page.
 1. Click `More options`.
 1. Click `Safe and blocked senders` under `Junk e-mail`.
 
 1. Click `Blocked Senders`.
-1. If any *Workfront Proof* addresses are in the list, select each one and click the `Remove from list` button.
+1. If any `Workfront Proof` addresses are in the list, select each one and click the `Remove from list` button.
 
 ## Yahoo Mail
 
 In this section:
 
-* Add the two *Workfront Proof* "from" addresses to filters to have Yahoo Mail send *Workfront Proof* email to your inbox
+* Add the two `Workfront Proof` "from" addresses to filters to have Yahoo Mail send `Workfront Proof` email to your inbox
 
-* Remove existing *Workfront Proof* emails from the Spam folder
+* Remove existing `Workfront Proof` emails from the Spam folder
 
-### For new *Workfront Proof* emails
+### For new `Workfront Proof` emails
 
-To create a new filter in Yahoo Mail for each *Workfront Proof* "from" address:
+To create a new filter in Yahoo Mail for each `Workfront Proof` "from" address:
 
 1. Click `Options` in the upper-right corner of the Mail page.
 1. Click `More options`.
@@ -175,32 +175,32 @@ To create a new filter in Yahoo Mail for each *Workfront Proof* "from" address:
 1. Click the `Add Filter` button. The filter appears in the Filters list.
 1. For the second "from" address, repeat steps 5-9.
 
-### For existing *Workfront Proof* emails
+### For existing `Workfront Proof` emails
 
-To remove any *Workfront Proof* emails that Yahoo Mail has routed to your Spam folder since it was last cleared:
+To remove any `Workfront Proof` emails that Yahoo Mail has routed to your Spam folder since it was last cleared:
 
 1. Select the `Spam` folder from the left side of the Mail page.
-1. If there are any *Workfront Proof* emails in the folder, select each email and click the `Not Spam` button.
+1. If there are any `Workfront Proof` emails in the folder, select each email and click the `Not Spam` button.
 
 1. You will now find those emails in your inbox.
 
-To remove any *Workfront Proof* "from" addresses from the blocked addresses list:
+To remove any `Workfront Proof` "from" addresses from the blocked addresses list:
 
 1. Click `Options` in the upper-right corner of the Mail page.
 1. Click `More options`.
 1. Click `Spam` on the left side of the page.
-1. If any *Workfront Proof* addresses or domain names appear in the `Blocked Email Addresses` section of the Spam page, select each entry and click the `Remove` button.
+1. If any `Workfront Proof` addresses or domain names appear in the `Blocked Email Addresses` section of the Spam page, select each entry and click the `Remove` button.
 
 ## Aol
 
 In this section:
 
-* Add the two *Workfront Proof* "from" addresses to your Aol Address Book
-* Remove any existing *Workfront Proof* emails from the Aol Spam Folder and any *Workfront Proof* "from" addresses from the blocked address list in the Aol Spam filter
+* Add the two `Workfront Proof` "from" addresses to your Aol Address Book
+* Remove any existing `Workfront Proof` emails from the Aol Spam Folder and any `Workfront Proof` "from" addresses from the blocked address list in the Aol Spam filter
 
-### For new *Workfront Proof* emails
+### For new `Workfront Proof` emails
 
-To add the two *Workfront Proof* "from" addresses to your Aol Address Book:
+To add the two `Workfront Proof` "from" addresses to your Aol Address Book:
 
 1. Click the `Mail` menu.
 1. Select `Address Book`.
@@ -209,23 +209,23 @@ To add the two *Workfront Proof* "from" addresses to your Aol Address Book:
 1. Click `Save`.
 1. For the second "from" address, repeat steps 3-5.
 
-### For existing *Workfront Proof* emails
+### For existing `Workfront Proof` emails
 
-To remove any *Workfront Proof* emails that Aol has routed to your Spam folder since it was last cleared:
+To remove any `Workfront Proof` emails that Aol has routed to your Spam folder since it was last cleared:
 
 1. Click the Mail menu.
 1. Select the `Spam` Folder.
-1. If there are any *Workfront Proof* emails in the folder, open each email one at a time and click the `This Is Not Spam` button.
+1. If there are any `Workfront Proof` emails in the folder, open each email one at a time and click the `This Is Not Spam` button.
 
-1. You will now find those *Workfront Proof* emails in your inbox.
+1. You will now find those `Workfront Proof` emails in your inbox.
 
-To check whether any *Workfront Proof* "from" addresses are blocked in the Aol Spam filter:
+To check whether any `Workfront Proof` "from" addresses are blocked in the Aol Spam filter:
 
 <ol> 
  <li value="1">Go to <span class="bold">Aol Keyword: Mail controls</span> to display the Spam Settings page.<br></li> <note type="note">
   &nbsp;The Aol Keyword is a feature only of Aol software. If you need instructions for accessing the Spam Settings page from Aol Webmail or Aol Desktop, see the Aol help.
  </note> 
- <li value="2">If <span class="bold">Block mail from addresses I specify</span> is selected in the <span class="bold">Sender Filter</span> field and any <em>Workfront Proof</em> addresses or domain names are included in the list of blocked addresses, delete each of those addresses from the list.</li> 
+ <li value="2">If <span class="bold">Block mail from addresses I specify</span> is selected in the <span class="bold">Sender Filter</span> field and any <span>Workfront Proof</span> addresses or domain names are included in the list of blocked addresses, delete each of those addresses from the list.</li> 
  <li value="3">Click <span class="bold">Save</span>.</li> 
 </ol>
 

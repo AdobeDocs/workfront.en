@@ -1,8 +1,8 @@
 
 
-# Export report information in the *Reporting Canvas*
+# Export report information in the `Reporting Canvas`
 
-You can export an entire report from *Adobe Workfront*, or you can export only the table or visualization you need from a report.
+You can export an entire report from `Adobe Workfront`, or you can export only the table or visualization you need from a report.
 
 You can export to:
 
@@ -10,10 +10,9 @@ You can export to:
 * PDF
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>PNG</p> </li>
+  PNG
   -->
 
-* PNG
 * XLSX
 
 ## Access requirements
@@ -25,54 +24,33 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Workfront</em> license*</td> 
+   <td role="rowheader"><span>Workfront</span> license*</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to create reports, calendars, and dashboards</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>Manage access to the report</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the report</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-  </tr> 
+   <td> <p>Edit access to create reports, calendars, and dashboards</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> Object permissions Manage access to the report For information on requesting additional access, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Find out if the Object permissions info is correct here ^</p>
--->
-
 Find out if the Object permissions info is correct here ^
+-->
 
 ## Prerequisites
 
-Before you begin, you must enroll in the *Reporting Canvas* beta program.
+Before you begin, you must enroll in the `Reporting Canvas` beta program.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see [link to Beta enrollment info].
-</MadCap:conditionalText>
 -->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  For more information, see [link to Beta enrollment info].</MadCap:conditionalText>`
-
-<!--
-<p data-mc-conditions="SnippetConditions.HIDE">You also need to add a table to a report and add columns to the table. For more information see <a href="../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-table.md" class="MCXref xref">Add or edit a report table in Reporting Canvas</a>.</p>
--->
-
-You also need to add a table to a report and add columns to the table. For more information see [Add or edit a report table in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-table.md).
 
 ## Export a report
 

@@ -8,28 +8,22 @@ title: Overview of connecting projects to goals in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article:
 ---
 
-# Overview of connecting projects to goals in *Adobe Workfront Goals*
+# Overview of connecting projects to goals in `Adobe Workfront Goals`
 
 Your organization must have the following to use the functionality described in this article:
 
-* A *Pro* or higher [*Adobe Workfront* plan](https://www.workfront.com/plans). 
-* An *Adobe Workfront Goals* license in addition to a *Workfront* license.
+* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
+* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
 
-  Contact your *Workfront* account manager to learn about a *Workfront Goals* license.
+  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
 
-  *Workfront Goals* is available only in *the new Adobe Workfront experience*.
+  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
 
-For additional information about access to *Workfront Goals*, see 
-
-<!--
-<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>
--->
-
-[Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
 
 >[!IMPORTANT]
 >
->Project-level goals created in the Business Case area of a project are not connected to strategic goals created in *Workfront Goals*.&nbsp;For information about Business Case project goals, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>Project-level goals created in the Business Case area of a project are not connected to strategic goals created in `Workfront Goals`.&nbsp;For information about Business Case project goals, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## Connect projects to goals
 
@@ -51,7 +45,7 @@ To this purpose, you can connect projects as activities (outputs or executed wor
   </ul></li> 
  <li>You can associate multiple projects with a goal.</li> 
  <li>You can associate the same project with multiple goals. </li> 
- <li>Although the project is connected to the goal as a type of activity, you cannot manually update the progress of a project when you check in on your goal. Instead, <em>Workfront</em> calculates the percent complete of the project and <em>Workfront Goals</em> calculates the goal progress using this percent complete. <span>This updates the goal in real time after the project percent updates. </span></li> 
+ <li>Although the project is connected to the goal as a type of activity, you cannot manually update the progress of a project when you check in on your goal. Instead, <span>Workfront</span> calculates the percent complete of the project and <span>Workfront Goals</span> calculates the goal progress using this percent complete. <span>This updates the goal in real time after the project percent updates. </span></li> 
  <li>The owner of the project becomes the owner of this activity.</li> 
  <li> <p>The project duration can be outside the time period of a goal. If a project lasts longer than the goal’s deadline, you can still close your goal and consider it completed, but the goal percent complete will not be 100%. The percent complete of the project no longer updates on the goal. There is an indication on the goal list that the project no longer updates progress for the goal. </p> <p> <img src="assets/goal-closed-project-active-warning-goal-list-350x94.png" style="width: 350;height: 94;"> </p> </li> 
  <li> <p>When you delete a project attached to a goal, the project is also deleted from the goal. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If the goal was active and there are no other progress indicators on the goal, the goal remains active but it does not show any progress. </p> </li> 

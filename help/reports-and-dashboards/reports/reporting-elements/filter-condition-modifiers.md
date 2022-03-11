@@ -57,7 +57,7 @@ You can use the following condition modifiers in filters and conditional formatt
   <tr valign="top"> 
    <td> <p><span class="bold">Contains</span> </p> </td> 
    <td> <p><span class="bold">cicontains</span> </p> </td> 
-   <td> <p>(Case insensitive) This is the case insensitive version of <span class="bold">contains</span>. For example: "cicontains inf" captures any value that contains either "Inf" or "inf".</p> <p> <p>Note: <em>Adobe Workfront</em> searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase "new project" in the name, <em>Workfront</em> does not display projects that have just "new" or just "project", or "new main project" in the name. The filter finds only projects with the exact phrase "new project" in the name.</p> </p> </td> 
+   <td> <p>(Case insensitive) This is the case insensitive version of <span class="bold">contains</span>. For example: "cicontains inf" captures any value that contains either "Inf" or "inf".</p> <p> <p>Note: <span>Adobe Workfront</span> searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase "new project" in the name, <span>Workfront</span> does not display projects that have just "new" or just "project", or "new main project" in the name. The filter finds only projects with the exact phrase "new project" in the name.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 

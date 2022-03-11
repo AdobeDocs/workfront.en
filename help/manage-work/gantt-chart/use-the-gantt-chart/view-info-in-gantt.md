@@ -18,16 +18,16 @@ You must have the following to follow the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> licenses overview*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> licenses overview*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -36,11 +36,11 @@ You must have the following to follow the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Locate the Gantt Chart
 
-You can locate both the task list Gantt chart and project list Gantt chart from multiple areas within *Workfront*. For more information, see [Get started with the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+You can locate both the task list Gantt chart and project list Gantt chart from multiple areas within `Workfront`. For more information, see [Get started with the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 ## View tasks on the Critical Path
 
@@ -58,30 +58,15 @@ You can view the task information for a project directly from the Project List. 
 
 You can view the task information for a project directly from a list of projects in the following areas:
 
-* 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  In the Projects area
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the Projects area</MadCap:conditionalText>`
-
+* In the Projects area
 * Within a Portfolio
 * Within a Program
 
 To view tasks in a project from a list of projects:
 
 <ol> 
- <li value="1"> <p>Go to one of the areas mentioned above.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For example, from the main menu, click <span class="bold">Projects</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For example, from the main menu, click <span class="bold">Projects</span>. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-main-menu-expanded-with-menu-highlight-350x481.png" style="width: 350;height: 481;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-main-menu-expanded-with-menu-highlight-350x481.png" style="width: 350;height: 481;"> </p> <p>A list of projects displays. </p> </li> 
- <li value="2">Click the <span class="bold">Gantt chart</span> icon <draft-comment>
-   <img src="assets/gantt-icon-nwe.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/gantt-icon-nwe.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> in the upper-right corner of the screen.<br></li> 
+ <li value="1"> <p>Go to one of the areas mentioned above.</p> For example, from the main menu, click Projects.  <p>A list of projects displays. </p> </li> 
+ <li value="2">Click the <span class="bold">Gantt chart</span> icon  in the upper-right corner of the screen.<br></li> 
  <li value="3">Click the <span class="bold">Show Task List</span> icon.<br></li> 
  <li value="4">In the project list to the left, click the drop-down arrow next to the name of the project to display any tasks under that project.<br>This displays task information on the Gantt chart.<br><img src="assets/show-task-list-enabled-project-expanded-350x78.png" alt="Show_task_list_enabled_project_expanded.png" style="width: 350;height: 78;"></li> 
  <li value="5">(Optional) Click the <span class="bold">Print</span> icon in the upper-right corner to export the Gantt chart.<br><note type="note">
@@ -126,15 +111,7 @@ You can adjust the time period shown on the Gantt chart to display information o
 
 The Gantt chart is a visual representation of the information that is currently displayed in the task list. You can apply filters, views, and groupings to&nbsp;the objects listed in both Gantt charts.&nbsp;
 
-` `**Warning: **``You cannot apply filters, views, and groupings when you select 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Manual save Timeline Planning
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Manual save Timeline Planning</MadCap:conditionalText>` to save changes to your task list.&nbsp;For information about saving changes to tasks in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+` `**Warning: **``You cannot apply filters, views, and groupings when you select Manual save Timeline Planning to save changes to your task list.&nbsp;For information about saving changes to tasks in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 Filters and groupings that you apply to the list are reflected on both the Project List and Task List Gantt charts and are also included when the Gantt charts are exported:
 

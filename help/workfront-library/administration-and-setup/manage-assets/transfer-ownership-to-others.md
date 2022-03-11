@@ -9,19 +9,17 @@ description: As a Workfront Library administrator, you can transfer all of the a
 
 # Transfer ownership assets to another user
 
-As a *Workfront Library* administrator, you can transfer all of the asset in a user's My Content area to a different user.
+As a `Workfront Library` administrator, you can transfer all of the asset in a user's My Content area to a different user.
 
 ## Transfer all assets
 
 To transfer all of a user's content:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </li> 
- <li value="2"> <p>In the upper-left corner of <em>Workfront Library</em>, click the <span class="bold">Menu</span> icon.</p> </li> 
- <li value="3"> <p>In the left panel, click <span class="bold">Setup</span> > <span class="bold">Users</span>.</p> <p>On the Users screen, you can see a list of <em>Workfront Library</em> users.</p> </li> 
- <li value="4"> <p>(Optional) To locate a user that no longer has access to <em>Workfront Library</em>, click the <span class="bold">Filter</span> icon in the top-right corner and select <span class="bold">Deactivated users</span> from the drop-down list that appears.</p> <note type="note">
+ <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
+ <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon.</p> </li> 
+ <li value="3"> <p>In the left panel, click <span class="bold">Setup</span> > <span class="bold">Users</span>.</p> <p>On the Users screen, you can see a list of <span>Workfront Library</span> users.</p> </li> 
+ <li value="4"> <p>(Optional) To locate a user that no longer has access to <span>Workfront Library</span>, click the <span class="bold">Filter</span> icon in the top-right corner and select <span class="bold">Deactivated users</span> from the drop-down list that appears.</p> <note type="note">
    Only deactivated users that still own assets appear in this area. After you transfer assets from a deactivated user, they are removed from this list.
   </note> </li> 
  <li value="5"> <p>Hover over a user's row, click the More menu next to the user's name, and select <span class="bold">Transfer asset ownership</span> from the drop-down list that appears.</p> <p> <img src="assets/transfer-asset-selection-350x181.png" style="width: 350;height: 181;"> </p> </li> 
@@ -34,10 +32,8 @@ To transfer all of a user's content:
 To transfer a single asset:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </li> 
- <li value="2"> <p>In the upper-left corner of <em>Workfront Library</em>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
+ <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3">Select <span class="bold">All Content</span> from the left menu.</li> 
  <li value="4">(Optional) Filter to find the assets you want to transfer. To filter by Owner, see the <a href="../../../workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md#filter" class="MCXref xref">Filter by owner</a> section in <a href="../../../workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md" class="MCXref xref">Manage assets for other users</a>. To filter by other facets, see <a href="../../../workfront-library/content-management/basics/filter-content-displayed.md" class="MCXref xref">Filter content displayed in Workfront Library</a>.</li> 
  <li value="5"> <p>(Conditional) If you are in the list view, click the <span class="bold">Show grid view</span> icon <img src="assets/grid-view-icon.png"> to switch to the grid view.</p> </li> 

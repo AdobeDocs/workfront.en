@@ -37,23 +37,23 @@ These tasks can minimize the impact of merge and split requests both to our cust
 1. Once all information from step 4 is confirmed, the __________ sets the Merge date and arranges Development Team support.
 1. The ___________ uses the template under [Merge process template](#merge) in this article to analyze the original and destination accounts.
 1. The ___________ analyzes both the origin and destination accounts using the template under [Merge process template](#merge) later in this article.
-1. The *Adobe Workfront* Support team moves all folders and loose items to the top folder on the original account.
-1. The *Workfront* developer team scans folder structure on the original account.
-1. The *Workfront* Support team deactivates email notifications for both accounts on the account level from the Proofing backend.
-1. If needed, the *Workfront* Support team increases the number of user licensee on the destination account.
-1. The *Workfront* Support team moves users along with their proofs, retaining the users' permissions or changing them if requested by the client.
+1. The `Adobe Workfront` Support team moves all folders and loose items to the top folder on the original account.
+1. The `Workfront` developer team scans folder structure on the original account.
+1. The `Workfront` Support team deactivates email notifications for both accounts on the account level from the Proofing backend.
+1. If needed, the `Workfront` Support team increases the number of user licensee on the destination account.
+1. The `Workfront` Support team moves users along with their proofs, retaining the users' permissions or changing them if requested by the client.
 
-   If asked to set a user for data that can not be moved, the *Workfront* Support team selects a Power User as a new owner.
+   If asked to set a user for data that can not be moved, the `Workfront` Support team selects a Power User as a new owner.
 
-1. The *Workfront* Support team moves the Power User to be the last user.
-1. The *Workfront* Support team moves all the leftover items from the original account.
+1. The `Workfront` Support team moves the Power User to be the last user.
+1. The `Workfront` Support team moves all the leftover items from the original account.
 
    If needed, assign this to the Power User.
 
-1. Once all the items are moved, the *Workfront* developer team runs the Folder recreation script on the destination account and assigns _________ to the Power User.
-1. The *Workfront* Support team checks account consistency on the destination account and does a final cleanup, if necessary.
-1. The *Workfront* Support team removes user folders when empty.
-1. The *Workfront* Support team enables email notifications on the destination account.
+1. Once all the items are moved, the `Workfront` developer team runs the Folder recreation script on the destination account and assigns _________ to the Power User.
+1. The `Workfront` Support team checks account consistency on the destination account and does a final cleanup, if necessary.
+1. The `Workfront` Support team removes user folders when empty.
+1. The `Workfront` Support team enables email notifications on the destination account.
 1. __________ confirms the merge with the customer and updates the relevant task in the Hub project.
 
 ## Information to analyze with the client
@@ -70,7 +70,7 @@ During the migration, we move users along with the proofs they own. Proof owners
  <tbody> 
   <tr> 
    <td role="rowheader">Custom Fields</td> 
-   <td> <p>We are currently not able to pull Custom Fields data from the client's original account to the destination account. However, we can generate an Excel/CSV report containing all the proof fields values, if needed.</p> <p>The <em>Workfront</em> development team will complete this prior the merge.</p> </td> 
+   <td> <p>We are currently not able to pull Custom Fields data from the client's original account to the destination account. However, we can generate an Excel/CSV report containing all the proof fields values, if needed.</p> <p>The <span>Workfront</span> development team will complete this prior the merge.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Automated Workflow templates</td> 

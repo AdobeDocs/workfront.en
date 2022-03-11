@@ -11,23 +11,23 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from *Adobe Workfront*. We recommend that you use the *Workload Balancer* for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
 >
->For information about scheduling resources using the new *Workload Balancer*, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-When using the resource scheduling functionality in *Adobe Workfront* you can more easily assign tasks and issues to the appropriate users. You can determine which users are capable of completing the task or issue, taking into consideration both the job role and the availability of the user.
+When using the resource scheduling functionality in `Adobe Workfront` you can more easily assign tasks and issues to the appropriate users. You can determine which users are capable of completing the task or issue, taking into consideration both the job role and the availability of the user.
 
-The following sections provide more detail about using the Scheduling areas in *Workfront*.
+The following sections provide more detail about using the Scheduling areas in `Workfront`.
 
-## Prerequisites for using the scheduling tools in *Workfront*
+## Prerequisites for using the scheduling tools in `Workfront`
 
 >[!IMPORTANT]
 >
->The prerequisites documented in this article apply only to the Scheduling areas of *Workfront*. For information about best practices for using the *Workload Balancer*, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>The prerequisites documented in this article apply only to the Scheduling areas of `Workfront`. For information about best practices for using the `Workload Balancer`, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-To successfully use resource scheduling functionality in *Workfront*, you must first ensure that you, your projects, and your tasks and issues meet the following prerequisites:
+To successfully use resource scheduling functionality in `Workfront`, you must first ensure that you, your projects, and your tasks and issues meet the following prerequisites:
 
 * [User prerequisites](#user-prerequisites) 
 * [Project prerequisites](#project-prerequisites) 
@@ -54,9 +54,9 @@ By default, assignments can be made only to users who have a role defined on the
 * You have permissions to View, Contribute, or Manage the project
 * You have a Plan or Work license
 
->[!NOTE]
->
->If *Workfront* has not removed the Use New Scheduling Area option from your Scheduling settings, users must have a Plan license and Manage permissions to the project to view the Scheduling timeline. For more information about the removal of the Use New Scheduling Area option, see the article [Replacement of Flash-based tools in Adobe Workfront](../../product-announcements/announcements/replace-flash-tools.md).
+<!--
+Note: If Workfront has not removed the Use New Scheduling Area option from your Scheduling settings, users must have a Plan license and Manage permissions to the project to view the Scheduling timeline. For more information about the removal of the Use New Scheduling Area option, see the article Replacement of Flash-based tools in Adobe Workfront.
+-->
 
 * *
 
@@ -75,7 +75,7 @@ For more information about project statuses, see the article [Create or edit a s
 
 ### Task and issue prerequisites
 
-In order to be most effective when using the resource scheduling tools in *Workfront*, ensure that tasks and issues in your system have the following criteria defined:
+In order to be most effective when using the resource scheduling tools in `Workfront`, ensure that tasks and issues in your system have the following criteria defined:
 
 <ul> 
  <li>Durations</li> 
@@ -94,75 +94,18 @@ In order to be most effective when using the resource scheduling tools in *Workf
 
 ### Locate and view information in the Scheduling areas
 
-Depending on where you want to schedule resources, you can access the Scheduling timeline in the following areas of *Workfront*:
+Depending on where you want to schedule resources, you can access the Scheduling timeline in the following areas of `Workfront`:
 
 * For multiple projects, in the Scheduling area
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For a project in the Scheduling section</p>
-  -->
-
-  For a project in the Scheduling section
-
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For a team, in the Schedule section</p>
-  -->
-
-  For a team, in the Schedule section
+* For a project in the Scheduling section 
+* For a team, in the Schedule section
 
 <ol> 
  <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
   <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click 
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click 
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
+   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li> 
+   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
+   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
   </ul></li> 
  <li value="2">(Optional) Click the <span class="bold">Full-Screen</span> icon, located in the upper-right corner of the scheduling timeline.<br><img src="assets/scheduling-fullscreen-enter.png" alt="scheduling_fullscreen_enter.png"><br>The scheduling timeline displays in full-screen mode. When viewing the scheduling timeline in full-screen mode, the scheduling timeline occupies the entire screen; all other information is hidden (including any team or project information, the Global Navigation Bar, and browser information).</li> 
  <li value="3">(Optional) To exit full-screen mode, do either of the following: 
@@ -176,60 +119,22 @@ Depending on where you want to schedule resources, you can access the Scheduling
 
 You can view the current resourcing assignments and other details about individual tasks and issues on the scheduling timeline.
 
-<ol> 
- <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
-  <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click 
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click 
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-  </ul></li> 
- <li value="2">(Optional) To customize what content dispalys on the scheduling timeline, create a filter, as described in <a href="../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref">Filter information in the Scheduling area</a>.</li> 
- <li value="3">Expand a task or issue to view the following information:<br><span class="bold">Project:</span> The name and link to the project where the task resides.<br><span class="bold">Dates:</span> The Start on and Due On dates associated with the task.<br><span class="bold">Planned Hours:</span> The number of Planned Hours associated with the task.<br>Planned Hours are displayed only if the task is assigned to a user or job role.<br><span class="bold">Predecessor icon:</span> Any predecessors associated with the task. The predecessor icon displays only if there are predecessors associated with the task. The predecessor icon is green when the predecessor is completed and the task is ready to be worked on. <br><span class="bold">Assignments:</span> Any user or job role assignments associated with the task. Job role assignments are displayed in parenthesis next to the user assignment.<br>Team assignments are not displayed.<br>If you have Contribute access to the task or issue, you can modify the hours for which users are allocated on each day within the task or issue duration. For more information about modifying user allocations, see the article <a href="../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md" class="MCXref xref">Manage user allocations in the Scheduling areas</a>.</li> 
-</ol>
+1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
+
+  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
+  * **For an individual project**: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.
+  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+
+1. (Optional) To customize what content dispalys on the scheduling timeline, create a filter, as described in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
+1. Expand a task or issue to view the following information:  
+   `Project:` The name and link to the project where the task resides.  
+   `Dates:` The Start on and Due On dates associated with the task.  
+   `Planned Hours:` The number of Planned Hours associated with the task.  
+   Planned Hours are displayed only if the task is assigned to a user or job role.  
+   `Predecessor icon:` Any predecessors associated with the task. The predecessor icon displays only if there are predecessors associated with the task. The predecessor icon is green when the predecessor is completed and the task is ready to be worked on.   
+   `Assignments:` Any user or job role assignments associated with the task. Job role assignments are displayed in parenthesis next to the user assignment.  
+   Team assignments are not displayed.  
+   If you have Contribute access to the task or issue, you can modify the hours for which users are allocated on each day within the task or issue duration. For more information about modifying user allocations, see the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
 ### Minimize tasks and issues on the Scheduling areas
 

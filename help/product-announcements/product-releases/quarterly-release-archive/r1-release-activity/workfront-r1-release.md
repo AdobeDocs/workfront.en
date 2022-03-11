@@ -6,11 +6,11 @@ title: The Workfront R1 release
 description: KEEP EVERYONE ENGAGED AND EFFICIENT Workfront releases new product functionality to all product lines three times a year (Release 1, Release 2, and Release 3.) In the first release of the 2017 year (R1,) several enhancements to core functionality in Workfront, ProofHQ and Workfront DAM allow knowledge workers to be more productive, engaged and spend less time managing work, and more getting things done.
 ---
 
-# The *Workfront* R1 release
+# The `Workfront` R1 release
 
 ### KEEP EVERYONE ENGAGED AND EFFICIENT
 
-*Workfront* releases new product functionality to all product lines three times a year (Release 1, Release 2, and Release 3.) In the first release of the 2017 year (R1,) several enhancements to core functionality in *Workfront*, ProofHQ and *Workfront DAM* allow knowledge workers to be more productive, engaged and spend less time managing work, and more getting things done.
+`Workfront` releases new product functionality to all product lines three times a year (Release 1, Release 2, and Release 3.) In the first release of the 2017 year (R1,) several enhancements to core functionality in `Workfront`, ProofHQ and `Workfront DAM` allow knowledge workers to be more productive, engaged and spend less time managing work, and more getting things done.
 
 ### WHAT’S NEW IN THE LATEST RELEASE?
 
@@ -22,7 +22,7 @@ description: KEEP EVERYONE ENGAGED AND EFFICIENT Workfront releases new product 
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)   
 `Manage work right from your email`   
-Direct integration into Outlook 365 will allow you to eliminate duplicate work as you update *Workfront* directly from Outlook 365. Convert emails to tasks, send email conversations and attachments as updates, and respond to comments - without ever leaving Outlook.
+Direct integration into Outlook 365 will allow you to eliminate duplicate work as you update `Workfront` directly from Outlook 365. Convert emails to tasks, send email conversations and attachments as updates, and respond to comments - without ever leaving Outlook.
 
 For more information see:&nbsp; [Functionality made available in Preview in 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
@@ -34,7 +34,7 @@ For more information see:&nbsp; [R1 Preview 3](../../../../product-announcements
 
 ![](assets/mceclip1-350x169.png)   
 `Terminology and Notification Customization`   
-Make *Workfront* more relevant to your team by leveraging the custom terminology feature to change terms like “Portfolio” or “Project” to fit your preferred lingo regardless of industry. Additionally, each user can now customize the types of notifications they receive by regulating their digest frequency.
+Make `Workfront` more relevant to your team by leveraging the custom terminology feature to change terms like “Portfolio” or “Project” to fit your preferred lingo regardless of industry. Additionally, each user can now customize the types of notifications they receive by regulating their digest frequency.
 
 For more information see:&nbsp; [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
@@ -49,8 +49,8 @@ For more information see:&nbsp; [R1 Preview 5](../../../../product-announcements
 
 ![](assets/mceclip3-350x122.png)
 
-`*Workfront* Recycle Bin`   
-The new *Workfront* Recycle Bin helps you restore projects, tasks, issues, and all related documents, forms, and updates within 30 days of deletion.
+` `Workfront` Recycle Bin`   
+The new `Workfront` Recycle Bin helps you restore projects, tasks, issues, and all related documents, forms, and updates within 30 days of deletion.
 
 For more information see:&nbsp; [R1 Preview 1 and 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
 
@@ -60,7 +60,7 @@ For more information see:&nbsp; [R1 Preview 1 and 2](../../../../product-announc
 
 ![](assets/mceclip4-350x201.png)   
 `Proof Search and Find`   
-New search functionality in ProofHQ allows you to quickly and easily search and find all instances of a word or phrase directly in the *proofs* as you review. This applies to all text-based documents, including PDFs and Microsoft Word files.
+New search functionality in ProofHQ allows you to quickly and easily search and find all instances of a word or phrase directly in the `proofs` as you review. This applies to all text-based documents, including PDFs and Microsoft Word files.
 
 For more information see:&nbsp; [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
@@ -84,8 +84,8 @@ For marketing teams who need a better way to manage, publish, and track the usag
 `DAM Required Metadata Fields`   
 Improve digital asset categorization with required metadata fields which allow for increased control of asset sharing.
 
-`<iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/1fryq71wcym?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>`  `Keep everyone engaged and efficient with *Workfront*.`   
-*Workfront* is an Enterprise Work Management solution that allows modern knowledge workers and executives to:
+`<iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/1fryq71wcym?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>`  `Keep everyone engaged and efficient with `Workfront`.`   
+`Workfront` is an Enterprise Work Management solution that allows modern knowledge workers and executives to:
 
 * Tailor work to fit individual and organizational preferences and increase adoption
 * Work more efficiently from anywhere
@@ -98,4 +98,4 @@ Improve digital asset categorization with required metadata fields which allow f
 * Download the R1 Release FAQ here: [https://resources.w`<wbr>`orkfront.com/data-sheets/r1-fa`<wbr>`q-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
 * For a complete list of improvements available in R1: [R1 release activity overview](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
-*Workfront*. Because Work Matters.
+`Workfront`. Because Work Matters.

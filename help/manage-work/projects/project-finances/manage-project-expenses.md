@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,19 +39,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Add Expenses
 
 <ol> 
  <li value="1">Go to the project where you want to enter expenses.<br>If you want to add expenses to a task, navigate to a task instead.&nbsp;</li> 
- <li value="2"> <p>Click <b>Show</b><draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     <b> More</b>
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    <b> More</b>
-   </MadCap:conditionalText>, then click <span class="bold">Expenses.</span></p> </li> 
+ <li value="2"> <p>Click <b>Show</b>More, then click <span class="bold">Expenses.</span></p> </li> 
  <li value="3"> <p>Click <span class="bold">Add an Expense.</span><br>The <span class="bold">Add an Expense</span>&nbsp;dialog box is displayed.</p> </li> 
  <li value="4"> <p>Specify the following information:</p> 
   <ul> 
@@ -71,22 +65,8 @@ You must have the following access to perform the steps in this article:
 
 ## Delete Expenses
 
-<ol> 
- <li value="1">Go to the&nbsp;project where you want to delete expenses.</li> 
- <li value="2"> <p>Click<draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     <span class="bold"> Show</span>
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    <span class="bold"> Show</span>
-   </MadCap:conditionalText><span class="bold"> More</span>, then click <span class="bold">Expenses.</span></p> </li> 
- <li value="3">Select the expenses that you want to delete, then click <span class="bold">Delete</span><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <img src="assets/delete.png" alt="Delete">
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <img src="assets/delete.png" alt="Delete">
-  </MadCap:conditionalText>.</li> 
- <li value="4">Click&nbsp;<span class="bold">Yes, Delete It</span> to confirm deletion.&nbsp;</li> 
-</ol>
+1. Go to the&nbsp;project where you want to delete expenses.
+1. ClickShow `More`, then click `Expenses.`
+1. Select the expenses that you want to delete, then click `Delete`.
+1. Click  `Yes, Delete It` to confirm deletion.&nbsp;
 

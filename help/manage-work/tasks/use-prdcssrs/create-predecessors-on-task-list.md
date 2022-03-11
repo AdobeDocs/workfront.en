@@ -12,19 +12,11 @@ You can use predecessor tasks (or just predecessors) to link tasks that depend o
 
 This article shows you how to create predecessors on the task list.
 
-You can view the predecessors of tasks in the following areas of *Adobe Workfront*:
+You can view the predecessors of tasks in the following areas of `Adobe Workfront`:
 
 * In the task list in the Predecessors column. 
 * In the Gantt chart
-* In the Predecessors 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`of a dependent task
+* In the Predecessors sectionof a dependent task
 
 For more information, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -37,16 +29,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -55,19 +47,12 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create a predecessor
 
 1. Go to a project. 
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Tasks</span> in the left panel. </p>
-   -->
-
-   Click `Tasks` in the left panel. 
-
+1. Click Tasks in the left panel. 
 1. Ensure that your current view displays the `Predecessor` column.
 
    If the view doesn't display the Predecessors column, change to a view that does, or add the column to your view. 

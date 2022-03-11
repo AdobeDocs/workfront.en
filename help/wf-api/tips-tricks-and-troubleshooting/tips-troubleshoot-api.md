@@ -6,7 +6,7 @@ title: Tips, tricks, and troubleshooting for Adobe Workfront API
 description: This section contains the following articles:
 ---
 
-# Tips, tricks, and troubleshooting for *Adobe Workfront* API
+# Tips, tricks, and troubleshooting for `Adobe Workfront` API
 
 This section contains the following articles:
 

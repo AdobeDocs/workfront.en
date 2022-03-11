@@ -13,57 +13,37 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use HubSpot CRM modules, you must have a HubSpot CRM account.
 
-## Connect *Adobe Workfront Fusion* to HubSpot CRM
+## Connect `Adobe Workfront Fusion` to HubSpot CRM
 
-For instructions about connecting your *HubSpot CRM* account to *Workfront Fusion*, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+For instructions about connecting your `HubSpot CRM` account to `Workfront Fusion`, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## HubSpot CRM modules and their fields
 
-When you configure *Hubspot CRM* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Hubspot CRM* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Hubspot CRM` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Hubspot CRM` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -90,7 +70,7 @@ This search module searches for CRM objects by custom properties or by query. To
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
@@ -119,16 +99,9 @@ This search module searches for CRM objects by custom properties or by query. To
      <li> <p><span class="bold">Property name</span> </p> <p>Select the property by which you want to sort results</p> </li> 
      <li> <p><span class="bold">Direction</span> </p> <p>Choose whether you want to sort the results in an ascending or descending direction.</p> </li> 
     </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Start Offset</td> 
-    <td>Enter or map the ID&nbsp;of the first item you want to retrieve details for. This module only returns up to 5000 results at a time. Setting a start offset allows you to retrieve items other than the first 5000. If the start offset is 5000, the module would return items 5000-9999.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Start Offset</td> 
-   <td>Enter or map the ID&nbsp;of the first item you want to retrieve details for. This module only returns up to 5000 results at a time. Setting a start offset allows you to retrieve items other than the first 5000. If the start offset is 5000, the module would return items 5000-9999.</td> 
-  </tr> 
+  </tr> <!--
+   Start Offset Enter or map the ID of the first item you want to retrieve details for. This module only returns up to 5000 results at a time. Setting a start offset allows you to retrieve items other than the first 5000. If the start offset is 5000, the module would return items 5000-9999.
+  --> 
  </tbody> 
 </table>
 
@@ -151,7 +124,7 @@ This action module creates contact, a company, or a deal.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -174,7 +147,7 @@ This action module gets details of a contact, a company, or a deal.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -210,7 +183,7 @@ This action module updates a contact, a company, or a deal.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -249,7 +222,7 @@ This action module deletes a contact, a company, or a deal.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -272,7 +245,7 @@ This action module gets metadata for a specific record property by its (internal
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -299,7 +272,7 @@ This trigger module starts a scenario when a contact, company, or deal has been 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -315,7 +288,7 @@ This trigger module starts a scenario when a contact, company, or deal has been 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -341,7 +314,7 @@ Creates a contact if it doesn't exist in a portal already, or updates it with th
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Properties</td> 
@@ -360,7 +333,7 @@ Creates a group of contacts or updates them if they already exist. Performance i
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Batch of Contacts to Create/Update </td> 
@@ -387,7 +360,7 @@ This module adds contact records that have already been created in the system to
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List ID </td> 
@@ -418,7 +391,7 @@ Removes a contact from a contact list.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List ID </td> 
@@ -439,7 +412,7 @@ Removes a contact from a contact list.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID 1 </td> 
@@ -462,7 +435,7 @@ Retrieves a list of contacts using the search query.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query</td> 
@@ -470,7 +443,7 @@ Retrieves a list of contacts using the search query.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td>Enter or map the maximum number of contacts <em>Workfront Fusion</em> should return during one scenario execution cycle. </td> 
+   <td>Enter or map the maximum number of contacts <span>Workfront Fusion</span> should return during one scenario execution cycle. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -485,25 +458,18 @@ Returns all contacts that have been created in the portal. The output is limited
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>The maximum number of contacts <em>Workfront Fusion</em> should return during one scenario execution cycle. </td> 
+   <td>The maximum number of contacts <span>Workfront Fusion</span> should return during one scenario execution cycle. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output properties</td> 
    <td>Select the properties that you want to appear in the module's output. </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Contact ID [start offset] </td> 
-    <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Contact ID [start offset] </td> 
-   <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
-  </tr> 
+  </tr> <!--
+   Contact ID [start offset] Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000.
+  --> 
  </tbody> 
 </table>
 
@@ -517,7 +483,7 @@ Retrieves a list of contacts in the company. The output is limited to 5000 conta
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
@@ -525,17 +491,10 @@ Retrieves a list of contacts in the company. The output is limited to 5000 conta
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>The maximum number of contacts <em>Workfront Fusion</em> should return during one scenario execution cycle. </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Contact ID [start offset] </td> 
-    <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Contact ID [start offset] </td> 
-   <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
-  </tr> 
+   <td>The maximum number of contacts <span>Workfront Fusion</span> should return during one scenario execution cycle. </td> 
+  </tr> <!--
+   Contact ID [start offset] Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000.
+  --> 
  </tbody> 
 </table>
 
@@ -549,7 +508,7 @@ This trigger module starts a scenario when a new contact is added to a list. Thi
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List ID</td> 
@@ -561,7 +520,7 @@ This trigger module starts a scenario when a new contact is added to a list. Thi
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -581,7 +540,7 @@ Returns all deal and ticket pipelines for a given portal.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object Type </td> 
@@ -600,7 +559,7 @@ Returns a specific deal pipeline..
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Pipeline ID </td> 
@@ -625,7 +584,7 @@ Retrieves a list of companies based on an exact match to the domain property.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Domain </td> 
@@ -633,7 +592,7 @@ Retrieves a list of companies based on an exact match to the domain property.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>The maximum number of companies <em>Workfront Fusion</em> should return during one scenario execution cycle. </td> 
+   <td>The maximum number of companies <span>Workfront Fusion</span> should return during one scenario execution cycle. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output properties</td> 
@@ -658,7 +617,7 @@ This module creates a folder.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder Name </td> 
@@ -681,7 +640,7 @@ Marks a folder as deleted.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
@@ -700,7 +659,7 @@ Moves a file to a different folder.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">File ID </td> 
@@ -729,7 +688,7 @@ Deletes an existing ticket by its ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
@@ -748,7 +707,7 @@ Allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>HubSpot CRM</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>HubSpot CRM</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 

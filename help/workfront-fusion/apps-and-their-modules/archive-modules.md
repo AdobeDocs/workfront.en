@@ -10,21 +10,17 @@ description: In a Adobe Workfront Fusion scenario, you can connect an archive, s
 
 # Archive modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For example, you can configure a scenario that
-</MadCap:conditionalText>
 -->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  For example, you can configure a scenario that</MadCap:conditionalText>`
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
 ## Archive modules and their fields
 
-When you configure *Archive* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Archive* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Archive` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Archive` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -37,17 +33,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 ## Extract an archive
 
-This action module *extracts a file you identify from an archive*.
+This action module `extracts a file you identify from an archive`.
 
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>extracted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>extracted</em></MadCap:conditionalText>` *file* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
+The module returns the ID of the  `file` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
 <table cellspacing="15"> 
  <col> 
@@ -68,16 +56,7 @@ The module returns the ID of the
 
 This aggregator module adds the desired files to a ZIP or TAR archive.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Archive</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Archive</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 

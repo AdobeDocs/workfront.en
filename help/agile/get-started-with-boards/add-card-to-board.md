@@ -12,7 +12,7 @@ You can quickly add a card to a board and assign it to a board member. The card 
 
 >[!NOTE]
 >
->The cards on a board are not connected to work items in *Adobe Workfront*.
+>The cards on a board are not connected to work items in `Adobe Workfront`.
 
 ## Access requirements
 
@@ -25,22 +25,22 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Add a card
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Boards</span>.</p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Boards</span>.</p> </li> 
  <li value="2"> <p>Access a board. For information, see <a href="../../agile/get-started-with-boards/create-edit-board.md" class="MCXref xref">Create or edit a board</a>.</p> </li> 
  <li value="3"> <p>Click <span class="bold">Add Card</span> or click <img src="assets/addicon-spectrum.png" alt="Add card"> on the column where you want to add the card.</p> </li> 
  <li value="4"> <p>In the <span class="bold">New Card</span> box, add the following information:</p> 
@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
 ## Edit an existing card
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Boards</span>.</p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Boards</span>.</p> </li> 
  <li value="2"> <p>Access a board. For information, see <a href="../../agile/get-started-with-boards/create-edit-board.md" class="MCXref xref">Create or edit a board</a>.</p> </li> 
  <li value="3"> <p>Click on the card name to edit the name.</p> </li> 
  <li value="4"> <p>To edit the card details, click the <span class="bold">More</span> menu <img src="assets/more-icon-spectrum.png" alt="More menu"> on the card and select <span class="bold">Edit</span>.</p> </li> 

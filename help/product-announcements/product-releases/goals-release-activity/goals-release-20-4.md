@@ -1,12 +1,12 @@
 
 
-# *Workfront Goals* with the 20.4 release
+# `Workfront Goals` with the 20.4 release
 
-This page provides information about functionality for *Workfront Goals* in *the new Adobe Workfront experience* that is releasing to the Production environment with the 20.4 release.
+This page provides information about functionality for `Workfront Goals` in `the new Adobe Workfront experience` that is releasing to the Production environment with the 20.4 release.
 
-## Usability improvements for *Workfront Goals*
+## Usability improvements for `Workfront Goals`
 
-We continue to make improvements to the way you use *Workfront Goals* based on the feedback we receive from you. We added the following usability improvements:
+We continue to make improvements to the way you use `Workfront Goals` based on the feedback we receive from you. We added the following usability improvements:
 
 * Updated the experience of printing a list of goals with a more intuitive Print link in the Goal List section.
 
@@ -30,25 +30,21 @@ We continue to make improvements to the way you use *Workfront Goals* based on t
 >
 >`Production availability:`&nbsp;With the 20.4 release
 
-This feature is now included in the [*Workfront Goals* learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [ `Workfront Goals` learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
 
-## Access Controls for *Workfront Goals*
+## Access Controls for `Workfront Goals`
 
-You can now limit access to *Workfront Goals* in the access levels. You can give users No Access, or access to View or Edit information in *Workfront Goals*. This access is available for all license types except for External. Prior to this improvement, all users had edit access to all goals.
+You can now limit access to `Workfront Goals` in the access levels. You can give users No Access, or access to View or Edit information in `Workfront Goals`. This access is available for all license types except for External. Prior to this improvement, all users had edit access to all goals.
 
-For information about granting access to *Workfront Goals*, see [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><iframe class="vimeo-player_0" src="assets/466277536?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
--->
-
-`<iframe class="vimeo-player_0" src="assets/466277536?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+For information about granting access to `Workfront Goals`, see [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/466277536/82838520fe" target="_blank">View this video in full-screen mode.</a> </p>
+
 -->
 
-[View this video in full-screen mode.](https://vimeo.com/466277536/82838520fe)
+<!--
+View this video in full-screen mode.
+-->
 
 >[!NOTE]
 >
@@ -56,9 +52,9 @@ For information about granting access to *Workfront Goals*, see [Grant access to
 >
 >`Production availability:`&nbsp;With the 20.4 release
 
-This feature is now included in the [*Workfront Goals* learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [ `Workfront Goals` learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
 
-## *Workfront Goals* usability improvements
+## `Workfront Goals` usability improvements
 
 Based on the feedback we have received so far, we have made the following improvements in the Add Goal and the Goal Details panels:
 
@@ -72,16 +68,12 @@ For information, see the following articles:
 * [Create goals in Adobe Workfront Goals](../../../workfront-goals/goal-management/create-goals.md)
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><iframe class="vimeo-player_0" src="assets/461495600?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
--->
 
-`<iframe class="vimeo-player_0" src="assets/461495600?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+-->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/461495600/87acace0fa">View this video in full-screen mode.</a> </p>
+View this video in full-screen mode.
 -->
-
-[View this video in full-screen mode.](https://vimeo.com/461495600/87acace0fa)
 
 >[!NOTE]
 >
@@ -89,4 +81,4 @@ For information, see the following articles:
 >
 >`Production availability:`&nbsp;With the 20.4 release
 
-This feature is now included in the [*Workfront Goals* learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [ `Workfront Goals` learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.

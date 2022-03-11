@@ -8,9 +8,9 @@ title: Adobe Workfront Scenario Planner with the 21.2 release
 description: Adobe Workfront Scenario Planner is available only with the new Adobe Workfront experience.
 ---
 
-# *Adobe Workfront Scenario Planner* with the 21.2 release
+# `Adobe Workfront Scenario Planner` with the 21.2 release
 
-*Adobe Workfront Scenario Planner* is available only with *the new Adobe Workfront experience*.
+`Adobe Workfront Scenario Planner` is available only with `the new Adobe Workfront experience`.
 
 The following features are included in the 21.2 release:
 
@@ -18,7 +18,7 @@ The following features are included in the 21.2 release:
 
 >[!NOTE]
 >
->Available only in *the new Adobe Workfront experience*.
+>Available only in `the new Adobe Workfront experience`.
 
 To enhance the value of the tools you use to manage your resources for strategic planning, we have introduced the following improvements to the Workfront Scenario Planner:
 
@@ -43,20 +43,8 @@ To help you with the strategic planning of your projects and ensure they align w
 
 For information, see the following articles:
 
-* 
-
-  <!--
-  <a href="../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Overview of reconciling resource allocations between projects and initiatives </a>
-  -->
-
-  [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
-* 
-
-  <!--
-  <a href="../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Navigate the Workload Balancer</a>
-  -->
-
-  [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+* Overview of reconciling resource allocations between projects and initiatives.
+* Navigate the Workload Balancer
 
 For information, see [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 

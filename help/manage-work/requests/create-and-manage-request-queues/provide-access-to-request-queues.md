@@ -8,11 +8,11 @@ description: When you provide access to a request queue, you determine who in yo
 
 # Provide access to request queues
 
-When you provide access to a request queue, you determine who in your organization can view the request queue in the Requests area of *Adobe Workfront*.
+When you provide access to a request queue, you determine who in your organization can view the request queue in the Requests area of `Adobe Workfront`.
 
 You can provide different users access to a Request Queue, depending on whether they are part of the project team, project group, or project company. You can also provide access to everyone in the system to a request queue.&nbsp;
 
-This is useful in organizations that invite external stakeholders into *Workfront* and wish to limit the access of users to specific areas — in this case a request queue open just to the users associated with the company or group of the project limits visibility to external stakeholders. Giving access to anyone makes the request visible to both internal and external stakeholders.
+This is useful in organizations that invite external stakeholders into `Workfront` and wish to limit the access of users to specific areas — in this case a request queue open just to the users associated with the company or group of the project limits visibility to external stakeholders. Giving access to anyone makes the request visible to both internal and external stakeholders.
 
 ## Access requirements
 
@@ -23,16 +23,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`
 
 ## Prerequisites
 
@@ -52,21 +52,21 @@ Before the request queue is available for users in the Requests area, you must c
 
 ## Provide access to a Request Queue
 
-<ol> 
- <li value="1"> <p>Go to the project where you want to provide access to the request queues. </p> <note type="note">
-   Only projects with a status of Current are visible in the Requests area. 
-  </note> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click&nbsp;<span class="bold">Queue Details</span> in the left panel. You might need to click&nbsp;<span class="bold">Show More</span>, then <span class="bold">Queue Details</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click&nbsp;<span class="bold">Queue Details</span> in the left panel. You might need to click&nbsp;<span class="bold">Show More</span>, then <span class="bold">Queue Details</span>. </p> </li> 
- <li value="3"> <p>Select <span class="bold">Publish as Help Request Queue</span>&nbsp;to designate the project as a Request Queue.</p> </li> 
- <li value="4"> <p>Select from the following options:</p> 
-  <ul> 
-   <li><span class="bold">Anyone</span>: Any user can view and add requests to the request queue.</li> 
-   <li><span class="bold">People with view access to this project</span>:&nbsp;Users that have View permissions to the project can view and add requests to the request queue.&nbsp;</li> 
-   <li><span class="bold">People in this project's company</span>:&nbsp;Users associated with the project's Company&nbsp;can view and add requests. The Company associated with the project is listed in parentheses next to this option.&nbsp;</li> 
-   <li> <p><span class="bold">People in this project's group</span>:Users associated with the project's Group can view and add requests. The Group&nbsp;associated with the project is listed in parentheses next to this option.</p> <p>Group queues are useful when several departments share a <em>Workfront</em> account to achieve unique organizational goals. Each department may have its own queues that members of other groups should not be able to see.</p> <p>For information about who has permissions on a project see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.<br>Groups and companies can be associated with the project when editing the project. For more information about editing projects, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li> 
-  </ul> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Go to the project where you want to provide access to the request queues. 
+   Note: Only projects with a status of Current are visible in the Requests area. 
+1. Click Queue Details in the left panel. You might need to click Show More, then Queue Details. 
+1. Select `Publish as Help Request Queue`&nbsp;to designate the project as a Request Queue.
+1. Select from the following options:
+
+  * `Anyone`: Any user can view and add requests to the request queue.
+  * `People with view access to this project`:&nbsp;Users that have View permissions to the project can view and add requests to the request queue.&nbsp;
+  * `People in this project's company`:&nbsp;Users associated with the project's Company&nbsp;can view and add requests. The Company associated with the project is listed in parentheses next to this option.&nbsp;
+  * `People in this project's group`:Users associated with the project's Group can view and add requests. The Group&nbsp;associated with the project is listed in parentheses next to this option.
+
+    Group queues are useful when several departments share a `Workfront` account to achieve unique organizational goals. Each department may have its own queues that members of other groups should not be able to see.
+
+    For information about who has permissions on a project see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).  
+    Groups and companies can be associated with the project when editing the project. For more information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+1. Click `Save`.
 

@@ -9,38 +9,38 @@ description: You can use "IF" statements in general programming languages. In Ad
 
 # "IF" statements overview
 
-You can use "IF" statements in general programming languages. In *Adobe Workfront*, "IF"&nbsp;statements allow you to compare, format, and string together fields of data for both reporting and custom data purposes. Also, thinking mathematically about "IF" statements leads to a better conceptual understanding since variables for expressions are commonly used.
+You can use "IF" statements in general programming languages. In `Adobe Workfront`, "IF"&nbsp;statements allow you to compare, format, and string together fields of data for both reporting and custom data purposes. Also, thinking mathematically about "IF" statements leads to a better conceptual understanding since variables for expressions are commonly used.
 
 ## Recommendations for "IF" statements
 
 Consider the following before creating an "IF" statement:
 
 * We recommend a basic understanding of any general programming language, but we do not require it, for this guide.
-* We require an advanced understanding of the *Workfront* text mode syntax. This helps with grasping the terminology of the *Workfront* API and with understanding the syntax of custom data in these specific formats.
+* We require an advanced understanding of the `Workfront` text mode syntax. This helps with grasping the terminology of the `Workfront` API and with understanding the syntax of custom data in these specific formats.
 
-  For information about the *Workfront* API, see [API basics](../../../wf-api/general/api-basics.md).
+  For information about the `Workfront` API, see [API basics](../../../wf-api/general/api-basics.md).
 
   For information about using text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-* You can build "IF" statements for the following *Workfront* elements:
+* You can build "IF" statements for the following `Workfront` elements:
 
   * Views
   * Groupings
   * Calculated custom fields
 
-* You cannot build "IF" statements for filters. This results in a “Whoops” error in *Workfront*.
+* You cannot build "IF" statements for filters. This results in a “Whoops” error in `Workfront`.
 * The Support Team does not help with building custom data. You can contact the Support Team after you build the custom fields or columns and you are not seeing the desired results.&nbsp;For help building an expression, please contact your Account Executive to inquire about our consulting options.
-* We recommend writing these expressions in a text editor first, such as Sublime or Visual Studio Code, because this helps you see data more clearly than would appear in *Workfront*.
+* We recommend writing these expressions in a text editor first, such as Sublime or Visual Studio Code, because this helps you see data more clearly than would appear in `Workfront`.
 
 ## Components of an "IF" statement
 
-You can build "IF" statements in *Workfront* using the following format:&nbsp; 
+You can build "IF" statements in `Workfront` using the following format:&nbsp; 
 <pre>IF(Condition,True Expression,False Expression)</pre>The components of an "IF" statement are:&nbsp;
 
-* `IF`= This is the *Workfront* calculated data expression for “function.” Similar to the SUM and PROD expressions, this first tells the system to understand the function as an "IF" statement. Always use capital letters for "IF" in this statement.  
+* `IF`= This is the `Workfront` calculated data expression for “function.” Similar to the SUM and PROD expressions, this first tells the system to understand the function as an "IF" statement. Always use capital letters for "IF" in this statement.  
   For a list&nbsp;of all calculated data expressions, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* `Condition`= This is the condition that the *Workfront* variable must meet and it is the foundation for this equation. Everything that can be later specified in the equation depends on the condition. You can use a number of references, comparisons or mathematical expressions to start an equation. Some examples of conditions are:
+* `Condition`= This is the condition that the `Workfront` variable must meet and it is the foundation for this equation. Everything that can be later specified in the equation depends on the condition. You can use a number of references, comparisons or mathematical expressions to start an equation. Some examples of conditions are:
 
   * A date is greater than another date on a specified object.
   * A status equals one of the available statuses on a specified object.
@@ -52,7 +52,7 @@ You can build "IF" statements in *Workfront* using the following format:&nbsp;
 
 * `False Expression`= This is the "False" variable, which tells the equation which indicator to display when the criteria of the condition are not met (false indicators).
 
-In the following example, the original statement format is used to write a simple data expression for an "IF" statement. The expression compares two different date fields in *Workfront* followed by a True/False result as a data string:
+In the following example, the original statement format is used to write a simple data expression for an "IF" statement. The expression compares two different date fields in `Workfront` followed by a True/False result as a data string:
 <pre>IF(Projected Completion Date>Planned Completion Date,"Off Track","On Track")</pre>In everyday speech, this statement would mean:  
 “IF the Projected Completion Date of my object is ‘Greater Than’ the Planned Completion Date of my same object, then display the words ‘Off Track’ in this field, otherwise display the words ‘On Track.’”
 
@@ -98,4 +98,4 @@ You can further explore these options by rebuilding these examples in your own e
 
 The best way to learn this is by experimenting with various fields and scenarios.&nbsp;Also, become familiar with the API Explorer, which reveals the field names that can be used. For information on the API Explorer, see [API Explorer](../../../wf-api/general/api-explorer.md).
 
-For more information about *Workfront* syntax of calculated data expressions, see&nbsp; [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+For more information about `Workfront` syntax of calculated data expressions, see&nbsp; [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).

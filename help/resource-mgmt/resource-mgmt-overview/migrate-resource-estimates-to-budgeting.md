@@ -3,14 +3,14 @@ filename: migrate-resource-estimates-to-budgeting
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Migrate from Legacy Resource Estimates to Resource Budgeting
-description: Important: The information in this article applies only for those customers that have managed their resources in the Legacy Resource Planning areas of Adobe Workfront. All information about the legacy resource management tools mentioned in this article refers only to Adobe Workfront Classic. Legacy Resource Management is a deprecated feature and will be removed from Workfront.
+description: Currently, you can manage the allocation of your resources on a project in two separate sections of the Business Case. The sections are independent from one another:
 ---
 
 # Migrate from Legacy Resource Estimates to Resource Budgeting
 
 >[!IMPORTANT]
 >
->The information in this article applies only for those customers that have managed their resources in the Legacy Resource Planning areas of *Adobe Workfront*. All information about the legacy resource management tools mentioned in this article refers only to *Adobe Workfront Classic*. Legacy&nbsp;Resource Management is a deprecated feature and will be removed from *Workfront*.
+>The information in this article applies only for those customers that have managed their resources in the Legacy Resource Planning areas of `Adobe Workfront`. All information about the legacy resource management tools mentioned in this article refers only to `Adobe Workfront Classic`. Legacy Resource Management is a deprecated feature and will be removed from `Workfront`.
 
 ## Deprecation of the legacy resource management tools
 
@@ -21,7 +21,7 @@ Currently, you can manage the allocation of your resources on a project in two s
 
 For more information about the differences in functionality between the two sections, see [Difference between Legacy Resource Planning and Planning](../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md)
 
-The Legacy Resource Estimates section of the Business Case and all the features available at the system level in the Legacy Resource Planning tab are currently deprecated, and will soon be removed from *Adobe Workfront*.
+The Legacy Resource Estimates section of the Business Case and all the features available at the system level in the Legacy Resource Planning tab are currently deprecated, and will soon be removed from `Adobe Workfront`.
 
 For this reason, we recommend using the Resource Budgeting section of the Business Case to manage your resources for the project and the Resource Planner to manage your resources system-wide.
 
@@ -49,9 +49,9 @@ If you want to preserve historical data, you can manually duplicate the informat
 
 When the two sections match, you can ensure that you are not missing any budgeting information for your resources in the new Resource Management tools and you may then start using these tools to budget the resources of your projects going forward.
 
->[!NOTE]
->
->We are working on automating the migration of your existing data, and we will keep you updated when that becomes available.
+<!--
+Note: We are working on automating the migration of your existing data, and we will keep you updated when that becomes available.
+-->
 
 * [Duplicate the Resource Budgeting information in the Business Case](#duplicating-res-budgeting-info-in-the-business-case) 
 * [Budget resources in the new resource management tools](#budgeting-resources-in-the-new-tools) 
@@ -62,7 +62,7 @@ When the two sections match, you can ensure that you are not missing any budgeti
 
 You must complete the following steps to manually duplicate the resource budgeting information from the Legacy Resource Estimates section to the new Resource Budgeting section on the Business Case of a project.
 
-When you complete this workflow, you should be ready to use the new Resource Management tools in *Workfront* going forward:
+When you complete this workflow, you should be ready to use the new Resource Management tools in `Workfront` going forward:
 
 <ol> 
  <li value="1"><span class="bold">Align Roles.</span> Ensure that the roles associated with the Legacy Resource Pools are also associated with the users in the new Resource Pools. &nbsp;For information about comparing the roles between the Legacy Resource Pools and the ones associated with the users in the new Resource Pools see the&nbsp;<a href="#matching-job-roles" class="MCXref xref">Match job roles between Legacy Resource Pools and Resource Pools</a>&nbsp; section in this article. </li> 
@@ -70,12 +70,9 @@ When you complete this workflow, you should be ready to use the new Resource Man
  <li value="3"> <p><span class="bold">Create New Resource Pools</span> . Ensure that your users are organized in Resource Pools. Ideally, after running the reports referenced in step #1, populate your new Resource Pools with the users who can fulfill the job roles that your Legacy Resource Pools contained. For more information about populating Resource Pools with Users, see&nbsp; " <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a></p> <note type="note">
    You do not need to create one new pool for every old pool that existed. You only need to ensure that the new Resource Pools that you are creating and associating with your projects contain users who can fulfill the same roles that belonged to the Legacy Resource Pools. You can attach several Resource Pools to the same project when you use the new Resource Management tools.
   </note> </li> 
- <li value="4"><span class="bold">Associate New Pools to Projects.</span> Ensure that your projects have Resource Pools assigned to them. Ideally, after learning the information you need from following step #1, you would associate each project with a new Resource Pool (or several) that have users who can fulfill the job roles associated with the Legacy Resource Pools of the project.<br> For information about how to associate Resource Pools with projects, see&nbsp; " <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a> ." </li> <draft-comment>
-  <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="bold">Assign a Resource Manager.</span><![CDATA[
-         ]]>Ensure that you are the Resource Manager of the projects you want to budget your resources for. <br>For information about designating Resource Managers, see " <a href="../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a></li>
- </draft-comment>
- <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="bold">Assign a Resource Manager.</span><![CDATA[
-         ]]>Ensure that you are the Resource Manager of the projects you want to budget your resources for. <br>For information about designating Resource Managers, see " <a href="../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a></li> 
+ <li value="4"><span class="bold">Associate New Pools to Projects.</span> Ensure that your projects have Resource Pools assigned to them. Ideally, after learning the information you need from following step #1, you would associate each project with a new Resource Pool (or several) that have users who can fulfill the job roles associated with the Legacy Resource Pools of the project.<br> For information about how to associate Resource Pools with projects, see&nbsp; " <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a> ." </li> <!--
+  Assign a Resource Manager. Ensure that you are the Resource Manager of the projects you want to budget your resources for. For information about designating Resource Managers, see " Designate Resource Managers for a project or template
+ --> 
  <li value="6"> <p><span class="bold">Verify Cost per Hour for Roles.</span> If you are calculating Budgeted Cost, or Budgeted Labor Cost for your projects, ensure that the job roles associated with the users in your Resource Pools have Cost per Hour rates defined<br>For information about creating Job Roles, see&nbsp; <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <note type="note">
    If you are currently observing Budgeted Cost and Budgeted Labor Cost in the Legacy Resource Estimates section, these should already be in place.
   </note> </li> 
@@ -87,12 +84,10 @@ When you complete this workflow, you should be ready to use the new Resource Man
 We are going to assume that your resources have been previously budgeted in the Legacy Resource Estimates section of the projects
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 where you are a Resource Manager
-</MadCap:conditionalText>
 -->
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  where you are a Resource Manager</MadCap:conditionalText>` and that information is up to date.
+and that information is up to date.
 
 To budget your resources in the new Resource Management tools, do either of the following:
 
@@ -134,7 +129,7 @@ To budget your resources in the new Resource Management tools, do either of the 
 
 1. If all the fields in step #1 match, your `Legacy Resource Estimates` information is now duplicated in the `Resource Budgeting` section of the Business Case. 
 
-1. You are now ready to use the `Resource Budgeting` section of the Business Case and the `Resource Planner` as your Resource Management tools in *Workfront*. 
+1. You are now ready to use the `Resource Budgeting` section of the Business Case and the `Resource Planner` as your Resource Management tools in `Workfront`. 
 
 1. Repeat the process described in this article for all the projects whose resources you want to budget using the new tools. 
 1. If some of the fields do not match, start the process from the beginning and ensure all your prerequisites are met for managing your resources in the Resource Budgeting section.

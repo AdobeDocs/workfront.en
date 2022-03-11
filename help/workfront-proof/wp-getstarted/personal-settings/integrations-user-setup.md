@@ -5,14 +5,14 @@ product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: personal-settings
 title: Integrations - User Setup
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: This section shows you the options you have for setting up pre-built integration links with third-party applications.
 ---
 
 # Integrations - User Setup
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section shows you the options you have for setting up pre-built integration links with third-party applications.
 

@@ -7,27 +7,21 @@ title: Goal status overview in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article:
 ---
 
-# Goal status overview in *Adobe Workfront Goals*
+# Goal status overview in `Adobe Workfront Goals`
 
 Your organization must have the following to use the functionality described in this article:
 
-* A *Pro* or higher [*Adobe Workfront* plan](https://www.workfront.com/plans). 
-* An *Adobe Workfront Goals* license in addition to a *Workfront* license.
+* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
+* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
 
-  Contact your *Workfront* account manager to learn about a *Workfront Goals* license.
+  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
 
-  *Workfront Goals* is available only in *the new Adobe Workfront experience*.
+  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
 
-For additional information about access to *Workfront Goals*, see 
-
-<!--
-<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>
--->
-
-[Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
 Goal statuses indicate whether a goal is active and currently recording progress, or if it is inactive, drafted, or already achieved.
 
-## Consideration when updating goal statuses in *Workfront Goals*
+## Consideration when updating goal statuses in `Workfront Goals`
 
 <ul> 
  <li> <p>You can update the status of goals you created or that were shared with you. </p> </li> 
@@ -86,13 +80,13 @@ Goal statuses indicate whether a goal is active and currently recording progress
  </ul> 
 </ul>
 
-## Overview of goal statuses in&nbsp;*Workfront Goals*
+## Overview of goal statuses in  `Workfront Goals`
 
-For information about creating *Workfront Goals* goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+For information about creating `Workfront Goals` goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 For information about activating goals, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
-Goals can have one of the following statuses in *Workfront Goals*:
+Goals can have one of the following statuses in `Workfront Goals`:
 
 * [Draft](#draft) 
 * [Active](#active) 
@@ -102,16 +96,16 @@ Goals can have one of the following statuses in *Workfront Goals*:
 ### Draft
 
 * This is the default status for a newly created goal. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). 
-* *Workfront Goals* does not record progress on a drafted goal. 
+* `Workfront Goals` does not record progress on a drafted goal. 
 * You cannot check in on a drafted goal. 
 * You cannot close or deactivate drafted goals because they lack progress information.
 * Drafted goals do not contribute to the progress calculation of other goals, and they are not taken into account in graphs. 
-* Drafted goals display in the following areas of *Workfront Goals*:
+* Drafted goals display in the following areas of `Workfront Goals`:
 
-  * *Goal List*
-  * *Check-in* section (only as an aligned goal)
-  * *Goal Alignment section* (only as an aligned goal)
-  * *Pulse* section
+  * `Goal List`
+  * `Check-in` section (only as an aligned goal)
+  * `Goal Alignment section` (only as an aligned goal)
+  * `Pulse` section
 
 >[!IMPORTANT]
 >
@@ -120,14 +114,14 @@ Goals can have one of the following statuses in *Workfront Goals*:
 ### Active
 
 * You can activate a drafted goal only when you associate it with a result, an activity, or align another goal to it. Activating the goal changes its status to Active. For information about activating goals, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md). 
-* *Workfront Goals* records progress on active goals. 
+* `Workfront Goals` records progress on active goals. 
 * Active goals contribute to the progress calculation of other goals, and they are taken into account in graphs. 
-* Active goals display in the following areas of *Workfront Goals*:
+* Active goals display in the following areas of `Workfront Goals`:
 
-  * *Goal List*
-  * *Check-in* section
-  * *Goal Alignment section*
-  * *Pulse* section
+  * `Goal List`
+  * `Check-in` section
+  * `Goal Alignment section`
+  * `Pulse` section
   * The progress of active goals displays in graphs
 
 * You can re-activate a Closed or Inactive goal.
@@ -140,15 +134,15 @@ Goals can have one of the following statuses in *Workfront Goals*:
 
 * You cannot deactivate a drafted or closed goal. 
 * You can reactivate an inactive goal and continue to work on it. 
-* *Workfront Goals* does not calculate progress on inactive goals. 
+* `Workfront Goals` does not calculate progress on inactive goals. 
 * You cannot check in on an inactive goal. 
 * Inactive goals do not contribute to the progress calculation of other goals, and they are not taken into account in graphs. 
 * Inactive goals have a progress history because they were once active, unlike drafted goals. 
-* Inactive goals display in the following areas of *Workfront Goals*:
+* Inactive goals display in the following areas of `Workfront Goals`:
 
-  * *Goal List*
-  * *Goal Alignment section* (only as aligned goals)
-  * *Pulse*
+  * `Goal List`
+  * `Goal Alignment section` (only as aligned goals)
+  * `Pulse`
 
 ### Closed
 
@@ -158,14 +152,14 @@ Goals can have one of the following statuses in *Workfront Goals*:
   </note> </li> 
  <li>You cannot close goals that have never been activated, like drafted goals. </li> 
  <li>You can reopen a closed goal and continue working on it. </li> 
- <li><em>Workfront Goals</em> stops recording progress on closed goals.</li> 
+ <li><span>Workfront Goals</span> stops recording progress on closed goals.</li> 
  <li>You cannot check in on closed goals. </li> 
- <li>Closed goals display in the following area of <em>Workfront Goals</em>:
+ <li>Closed goals display in the following area of <span>Workfront Goals</span>:
   <ul>
-   <li><em>Goal List</em></li>
-   <li><em>Check-in</em> section (only as aligned goals)</li>
-   <li><em>Goal Alignment section</em> (only as aligned goals)</li>
-   <li><em>Pulse</em></li>
+   <li><span>Goal List</span></li>
+   <li><span>Check-in</span> section (only as aligned goals)</li>
+   <li><span>Goal Alignment section</span> (only as aligned goals)</li>
+   <li><span>Pulse</span></li>
    <li>Information from closed goals is also taken into account in the Graphs section. </li>
   </ul></li> 
 </ul>

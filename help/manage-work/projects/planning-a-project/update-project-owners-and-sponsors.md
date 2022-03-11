@@ -8,7 +8,7 @@ description: When you create a project in Adobe Workfront, you are automatically
 
 # Update project owners and sponsors
 
-When you create a project in *Adobe Workfront*, you are automatically set as the Project&nbsp;Owner of the project. You can update this field with another user. You can also update the Project Sponsor field of a project.
+When you create a project in `Adobe Workfront`, you are automatically set as the Project&nbsp;Owner of the project. You can update this field with another user. You can also update the Project Sponsor field of a project.
 
 For information about projects owners and sponsors, see [Overview of project owners and sponsors](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
@@ -25,16 +25,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,89 +43,27 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Update the Project Owner of a project
 
-<ol> 
- <li value="1">Go to the project you want to update.</li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Project&nbsp;Details</span> in the left panel. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Project&nbsp;Details</span> in the left panel. 
-  </MadCap:conditionalText></li> 
- <li value="3"> <draft-comment>
-   <MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click&nbsp;the 
-    <span class="bold">Edit</span> icon 
-    <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;
-    <span class="bold">Overview</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click&nbsp;the 
-   <span class="bold">Edit</span> icon 
-   <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;
-   <span class="bold">Overview</span>. 
-  </MadCap:conditionalText> </li> 
- <li value="4"> <p>Specify the name of a user for the <span class="bold">Project Owner</span> field.</p> <p>Only active users can be specified as Project Owners.</p> </li> 
- <li value="5"> <draft-comment>
-   <MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click&nbsp;
-    <span class="bold">Save Changes</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click&nbsp;
-   <span class="bold">Save Changes</span>. 
-  </MadCap:conditionalText></li> 
-</ol>
+1. Go to the project you want to update.
+1. Click Project Details in the left panel.
+1. Click the Edit icon in the upper-right corner of the Project Details area, then click Overview. 
+1. Specify the name of a user for the `Project Owner` field.
 
-<!--
-<img src="assets/project-stakeholders-owner-highlighted-nwe-350x149.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="width: 350;height: 149;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
+   Only active users can be specified as Project Owners.
 
-![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+1. Click Save Changes.
 
 ## Update the Project Sponsor of a project
 
-<ol> 
- <li value="1">Go to the Project you want to update.</li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Project&nbsp;Details</span> in the left panel. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Project&nbsp;Details</span> in the left panel. 
-  </MadCap:conditionalText></li> 
- <li value="3"> <draft-comment>
-   <MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click&nbsp;the 
-    <span class="bold">Edit</span> icon 
-    <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;
-    <span class="bold">Overview</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click&nbsp;the 
-   <span class="bold">Edit</span> icon 
-   <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;
-   <span class="bold">Overview</span>. 
-  </MadCap:conditionalText> </li> 
- <li value="4"> <p>Specify the name of a user for the <span class="bold">Project Sponsor</span> field.</p> <p>Only active users can be specified as Project Sponsors.</p> </li> 
- <li value="5"> <p> <draft-comment>
-    <MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click&nbsp;
-     <span class="bold">Save Changes</span>. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click&nbsp;
-    <span class="bold">Save Changes</span>. 
-   </MadCap:conditionalText></p> <p> <draft-comment>
-    <img src="assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="width: 350;height: 147;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="width: 350;height: 147;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-</ol>
+1. Go to the Project you want to update.
+1. Click Project Details in the left panel.
+1. Click the Edit icon in the upper-right corner of the Project Details area, then click Overview. 
+1. Specify the name of a user for the `Project Sponsor` field.
+
+   Only active users can be specified as Project Sponsors.
+
+1. Click Save Changes.
 

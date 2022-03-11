@@ -14,11 +14,11 @@ For a list of all changes made in R1, see [R1 release activity overview](../../.
 
 ## Restore Projects, Tasks, and Issues from the Recycle Bin&nbsp;
 
-*Workfront* administrators can now restore projects, tasks, and issues that have been deleted within the past 30 days. All information associated with the project, task, or issue is restored, including documents and custom data.
+`Workfront` administrators can now restore projects, tasks, and issues that have been deleted within the past 30 days. All information associated with the project, task, or issue is restored, including documents and custom data.
 
 New options are also available for configuring what happens to hours that are logged against a project, task, or issue that is deleted. For more information, see [Configure affect on hours when an object is deleted and restored](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
-For more information about restoring objects in *Workfront*, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+For more information about restoring objects in `Workfront`, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 For information about how to view projects, tasks, and issues that have been recently restored, see [View restored items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
@@ -111,7 +111,7 @@ For more information about making a group public, see the [Create a group](../..
 
 ## Share the&nbsp;URL of an Object in the Mobile App&nbsp;
 
-You can now share the URL on the following objects on the *Workfront* mobile app:
+You can now share the URL on the following objects on the `Workfront` mobile app:
 
 * Projects
 * Tasks
@@ -146,22 +146,18 @@ Prior to this change, expense rates could contain only up to 2 characters after 
 For more information about creating expense rates, see [Create custom expense types](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="updated-look-and-improved-performance-in-the-tasks-lists-area"></a>Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)</h2>
+Updated Look and Improved Performance in the Tasks List (by request only)
 -->
-
-## Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 This feature focuses primarily on improving the performance of large lists of tasks. The interface of tasks lists has been updated, but delivers the same functionality as the existing tasks list. You can have access to the new tasks list only if you request it. For more information about how to request access to the new tasks list, see Testing Tasks Lists (Beta).
-</MadCap:conditionalText>
 -->
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  This feature focuses primarily on improving the performance of large lists of tasks. The interface of tasks lists has been updated, but delivers the same functionality as the existing tasks list. You can have access to the new tasks list only if you request it. For more information about how to request access to the new tasks list, see Testing Tasks Lists (Beta). </MadCap:conditionalText>` &nbsp; 
+&nbsp; 
 
 ## R1 Preview 1 and 2 Release Webinar Recording
 
-This Webinar was&nbsp;presented by the *Workfront* Release Readiness team on January&nbsp;19, 2017.&nbsp;This webinar was&nbsp;focused on the release changes in 2017 and covered new functionality that is available to test in Preview.
+This Webinar was presented by the `Workfront` Release Readiness team on January&nbsp;19, 2017.&nbsp;This webinar was&nbsp;focused on the release changes in 2017 and covered new functionality that is available to test in Preview.
 
 The webinar recording is available below.
 

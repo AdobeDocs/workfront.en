@@ -7,11 +7,11 @@ title: Workfront Proof release activity: Week of May 17, 2021
 description: This page describes changes made to the Workfront Proof (stand-alone proofing application). Changes described here are not applicable to the proofing functionality within the Adobe Workfront application.
 ---
 
-# *Workfront Proof* release activity:&nbsp;Week of May 17, 2021
+# `Workfront Proof` release activity:&nbsp;Week of May 17, 2021
 
-This page describes changes made to the *Workfront Proof* (stand-alone proofing application). Changes described here are not applicable to the proofing functionality within the *Adobe Workfront* application.
+This page describes changes made to the `Workfront Proof` (stand-alone proofing application). Changes described here are not applicable to the proofing functionality within the `Adobe Workfront` application.
 
-## User profile menus in *Workfront Proof* now use typeahead fields to search for users
+## User profile menus in `Workfront Proof` now use typeahead fields to search for users
 
 >[!NOTE]
 >

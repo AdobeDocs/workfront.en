@@ -19,21 +19,12 @@ The following resources are new in Workfront API version 12.
 
 ### BreadCrumb
 
-A BreadCrumb object represents an element in the parent/child hierarchy of an *Adobe Workfront* work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
+A BreadCrumb object represents an element in the parent/child hierarchy of an `Adobe Workfront` work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
+For more information on Breadcrumbs in Workfront, see Breadcrumbs overview in the new Adobe Workfront experience 
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information on Breadcrumbs in <em>Workfront</em>, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a></p>
--->
-
-For more information on Breadcrumbs in *Workfront*, see [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- </draft-comment>
- <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- </draft-comment>
- <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+<table cellspacing="15"> <!--
+ --> <!--
+ --> 
  <tbody> 
   <tr> 
    <td>Action</td> 
@@ -47,17 +38,13 @@ For more information on Breadcrumbs in *Workfront*, see [Breadcrumbs overview in
 
 ### RichTextParameterValue
 
-Rich text fields are now available on more objects. The RichTextParameterValue object was added to *Workfront* to support this availability.
+Rich text fields are now available on more objects. The RichTextParameterValue object was added to `Workfront` to support this availability.
 
 For more information, see [Rich text fields in the Adobe Workfront API](../../wf-api/general/rich-text-field-api.md).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- </draft-comment>
- <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- </draft-comment>
- <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+<table cellspacing="15"> <!--
+ --> <!--
+ --> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -140,25 +127,20 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 For more information on access levels, see [How access levels work](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- </draft-comment>
- <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> <draft-comment>
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- </draft-comment>
- <col data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+<table cellspacing="15"> <!--
+ --> <!--
+ --> 
  <tbody> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td> 
+  <tr> <!--
+    Direct Fields
+   --> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p> <draft-comment>
-       <p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p>
-      </draft-comment><p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p> </li> 
+     <li style="font-weight: bold;"> <!--
+       fieldAccessPrivileges
+      --> <!--
+       Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.
+      --> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -168,13 +150,7 @@ For more information on access levels, see [How access levels work](../../admini
 
 An AccessLevelPermissions object represents a specific permission to access, create, or modify a Workfront object. These permissions can then be associated with an Access Level.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -198,48 +174,39 @@ An AccessLevelPermissions object represents a specific permission to access, cre
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-    </ul> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the <em>Workload Balancer</em></p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the <em>Workload Balancer</em></p> 
+    </ul> <!--
+     OR
+    --> <!--
+     The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer
+    --> 
     <ul> 
-     <li> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p> </li> 
-     <li> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p> </li> 
-     <li> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p> </li> 
-    </ul> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p> 
+     <li> <!--
+       coreAction
+      --> </li> 
+     <li> <!--
+       forbiddenActions
+      --> </li> 
+     <li> <!--
+       secondaryActions
+      --> </li> 
+    </ul> <!--
+     The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.
+    --> 
     <ul> 
-     <li> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p> </li> 
-     <li> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p> </li> 
-     <li> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p> </li> 
-    </ul> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p> <draft-comment>
-     <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-      <li> <p>coreAction</p> </li> 
-      <li> <p>forbiddenActions</p> </li> 
-      <li> <p>secondaryActions</p> </li> 
-     </ul>
-    </draft-comment>
-    <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-     <li> <p>coreAction</p> </li> 
-     <li> <p>forbiddenActions</p> </li> 
-     <li> <p>secondaryActions</p> </li> 
-    </ul> </td> 
+     <li> <!--
+       coreAction
+      --> </li> 
+     <li> <!--
+       forbiddenActions
+      --> </li> 
+     <li> <!--
+       secondaryActions
+      --> </li> 
+    </ul> <!--
+     The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access.
+    --> <!--
+     coreAction forbiddenActions secondaryActions
+    --> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -248,13 +215,7 @@ An AccessLevelPermissions object represents a specific permission to access, cre
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -275,13 +236,7 @@ If a User does not have access to an object in Workfront that they need, they ca
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -314,13 +269,7 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 An ActivityLog object is a complete list of all activity that has taken place in a given Workfront Proof account.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td> <p>Operations</p> </td> 
@@ -338,13 +287,7 @@ An AnnouncementAttachment object represents a file that has been attached to a W
 
 For more about announcement attachments, see [Send announcements](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -365,13 +308,7 @@ For more about announcement attachments, see [Send announcements](../../administ
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -406,13 +343,7 @@ A Calendar Section is a calendar report.
 
 For more information on calendar reports, see [Calendar reports overview](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -433,13 +364,7 @@ A Company object represents an organization consisting of a collection of people
 
 For more information on companies, see [Create and edit companies](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -462,13 +387,7 @@ For more information on companies, see [Create and edit companies](../../adminis
 
 A Customer object represents an organization that uses an instance of Workfront.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Actions</td> 
@@ -484,13 +403,7 @@ A Customer object represents an organization that uses an instance of Workfront.
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -510,13 +423,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Actions</td> 
@@ -534,13 +441,7 @@ A DocumentVersion object represents a specific version of a file (such as writte
 
 For more information about document versions, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -575,13 +476,7 @@ For more information about document versions, see [Upload a new version of a doc
 
 A Group object represents a set of users and teams. Groups often represent departmental structure. 
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -624,13 +519,7 @@ A LinkedFolder object represents a folder linked from an external document provi
 
 For more information on Linked Folders, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -726,13 +615,7 @@ A Portfolio object is a collection of projects that compete for the same resourc
 
 For more information on portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -755,13 +638,7 @@ For more information on portfolios, see [Portfolio overview in Adobe Workfront](
 
 A Program object is a subset of projects within a portfolio, where similar projects can be grouped together.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -839,13 +716,7 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
 
 For more information on Scorecard Questions, see [Create a scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -900,9 +771,9 @@ A Team object is a collection of Users that can be assigned to a work item.
    <td role="rowheader">Direct Fields</td> 
    <td> <p>The following fields were added to the Team resource:</p> 
     <ul> 
-     <li> <p><span class="bold">completeDaysOnKanbanBoard</span> </p> <p>This field represents the number of days that a completed card remains on the Kanban board.</p> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p> </li> 
+     <li> <p><span class="bold">completeDaysOnKanbanBoard</span> </p> <p>This field represents the number of days that a completed card remains on the Kanban board.</p> <!--
+       For more information, see Configure Kanban.
+      --> </li> 
      <li> <p><span class="bold">groupID</span> </p> <p>This field associates a team with a group. This identifies the team as part of the group and allows the Group Administrator to manage the teams.</p> </li> 
      <li> <p><span class="bold">workOnItStatusChange</span> </p> <p>This is a boolean parameter that indicates whether the team's Work on It button has been configured as a Start button. When a member of the team clicks a Start button to begin work on a work item, the item's status changes from New to a status configured in the team settings.</p> </li> 
      <li> <p>The following fields allow you to specify custom statuses for the Start button on the individual work items.</p> 
@@ -983,9 +854,7 @@ For more information on Timesheets, see [Timesheets overview](../../timesheets/t
       <ul> 
        <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information on initiatives, see <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>.</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information on initiatives, see <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>.</p> </li> 
+      </ul> For more information on initiatives, see Initiatives overview in the Adobe Workfront Scenario Planner. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1004,7 +873,7 @@ A User object represents a person with an account in Workfront that can log in a
    <td> <p>The following fields were added to the User resource:</p> 
     <ul> 
      <li> <p><span class="bold">actualDeactivationDate</span> </p> <p>This represents the date and time that a user was deactivated.</p> <p>For more information on deactivated Users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
-     <li> <p><span class="bold">alignAccessType</span> </p> <p>This field shows the user's access to <em>Workfront Goals</em>. Possible values are:</p> 
+     <li> <p><span class="bold">alignAccessType</span> </p> <p>This field shows the user's access to <span>Workfront Goals</span>. Possible values are:</p> 
       <ul> 
        <li> <p>No access</p> </li> 
        <li> <p>View</p> </li> 
@@ -1030,13 +899,7 @@ A User object represents a person with an account in Workfront that can log in a
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 
-<table cellspacing="15"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="15">   
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 

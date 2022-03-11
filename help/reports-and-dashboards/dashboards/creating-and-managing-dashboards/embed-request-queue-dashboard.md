@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports, Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports, Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -65,130 +65,76 @@ When you share a link to a specific queue topic with other users, the request fo
 Users can change the request type or choose another topic if they need to. The navigation of the Requests area also displays.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> > <span class="bold">Requests</span> >&nbsp;<span class="bold">New Request</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> > <span class="bold">Requests</span> >&nbsp;<span class="bold">New Request</span>. </p> </li> 
+ <li value="1"> Click the Main Menu > Requests > New Request. </li> 
  <li value="2"> <p>Continue selecting topic groups and queue topics until you reach the queue you want to share on the dashboard, if you want to share specific queue. For information about submitting requests, see <a href="../../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>. </p> <note type="tip">
    Selecting topic groups and queue topics is optional. 
   </note> </li> 
- <li value="3"> <draft-comment>
-   <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <p>Click&nbsp;<span class="bold">Share path</span> in the upper-right corner of the New Request area. </p> 
-    <p>This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available. </p> 
-    <p> <img src="assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png" style="width: 350;height: 116;"> </p> 
-   </div>
-  </draft-comment>
-  <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <p>Click&nbsp;<span class="bold">Share path</span> in the upper-right corner of the New Request area. </p> 
-   <p>This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available. </p> 
-   <p> <img src="assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png" style="width: 350;height: 116;"> </p> 
-  </div> </li> 
+ <li value="3"> Click Share path in the upper-right corner of the New Request area. This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available. </li> 
 </ol>
 
 ### Obtain a link to a request queue and ability to change the request type
 
 When you share a link to a request type, the request type is selected for the user. This is helpful when users need to choose from multiple topic groups or queue topics for the same request type. Users can change the request type and choose another one. The navigation of the Requests area also displays.
 
-<ol> 
- <li value="1"> <p>Go to a project designated as a request queue. </p> <p>For information about creating a request queue from a project, go to <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to <span class="bold">Queue&nbsp;Details</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to <span class="bold">Queue&nbsp;Details</span>.</p> </li> 
- <li value="3"> <p>Copy the code that you find in the <span class="bold">Direct Access URL</span> field.</p> <p>The code should look similar to the following:</p> <p><samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp> </p> <p> This is the link to the request queue associated with the selected project.The Request Type is preselected. </p> <p>Users can select any topic group or queue topic they need, or they can choose another request type. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png" style="width: 350;height: 118;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png" style="width: 350;height: 118;"> </p> </li> 
-</ol>
+1. Go to a project designated as a request queue.
+
+   For information about creating a request queue from a project, go to [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). 
+
+1. Go to Queue Details. 
+1. Copy the code that you find in the `Direct Access URL` field.
+
+   The code should look similar to the following:
+
+   `<samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>`
+
+   This is the link to the request queue associated with the selected project.The Request Type is preselected.
+
+   Users can select any topic group or queue topic they need, or they can choose another request type.
 
 ### Obtain a link to a request queue with no ability to change the request type
 
-When you share a link to a preselected request type, the request type is selected for the user and cannot be changed 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-(it is dimmed)
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> (it is dimmed)</MadCap:conditionalText>`. Users can choose the topic groups or queue topics they need. This is helpful when you do not want users to view and select other request types. The navigation of the Requests area does not display.
+When you share a link to a preselected request type, the request type is selected for the user and cannot be changed (it is dimmed). Users can choose the topic groups or queue topics they need. This is helpful when you do not want users to view and select other request types. The navigation of the Requests area does not display.
 
 <ol> 
  <li value="1"> <p>Go to a project designated as a request queue. </p> <p>For information about creating a request queue from a project, go to <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to <span class="bold">Queue&nbsp;Details</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to <span class="bold">Queue&nbsp;Details</span>.</p> </li> 
+ <li value="2"> Go to Queue Details. </li> 
  <li value="3"> <p>Copy the code that you find in the <span class="bold">Embedded Code</span> field.</p> <p>The code should look similar to the following:</p> <p><samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp> </p> </li> 
  <li value="4"> <p>Edit the code to preserve only the information below: </p> <p><samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp> </p> <note type="tip">
    You can preserve the 
    <samp>iframe </samp>tag when embedding the code in an application other than&nbsp;
-   <em>Workfront</em>. 
-  </note> <p>This is the link to the request queue associated with the selected project. The Request Type is preselected and cannot be changed. </p> <p>Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png" style="width: 350;height: 210;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png" style="width: 350;height: 210;"> </p> </li> 
+   <span>Workfront</span>. 
+  </note> <p>This is the link to the request queue associated with the selected project. The Request Type is preselected and cannot be changed. </p> <p>Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type. </p>  </li> 
 </ol>
 
 ## Embed a request queue in a dashboard
 
 You can embed a link to the requests queue or to a queue topic nested under a request queue into a dashboard to give users direct access to entering requests.
 
-<ol> 
- <li value="1"> <p>Obtain a request queue&nbsp;URL using one of the methods described in the <a href="#obtain" class="MCXref xref">Obtain the URL of the request queue</a> section of this article. </p> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> >&nbsp;<span class="bold">Dashboards</span> > <span class="bold">New Dashboard</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> >&nbsp;<span class="bold">Dashboards</span> > <span class="bold">New Dashboard</span>.</p> </li> 
- <li value="3"> <p>Type a <span class="bold">Name</span> for the dashboard. This is a required field.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Add External Page</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/add-external-page-highlighted---nwe-350x214.png" style="width: 350;height: 214;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/add-external-page-highlighted---nwe-350x214.png" style="width: 350;height: 214;"> </p> </li> 
- <li value="5"> <p>In the <span class="bold">Add External Page</span> box, edit the following fields: </p> 
-  <ul> 
-   <li> <p><span class="bold">Name</span>: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.</p> </li> 
-  </ul> 
-  <ul> 
-   <li><span class="bold">Description</span>: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;</li> 
-   <li><span class="bold">URL</span>:<draft-comment>
-     <MadCap:conditionalText data-mc-conditions="">
-       paste the URL you obtained using one of the methods described in Step 1.
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="">
-      paste the URL you obtained using one of the methods described in Step 1.
-    </MadCap:conditionalText></li> 
-   <li><span class="bold">Height</span>: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;</li> 
-  </ul> </li> 
- <li value="6">Click <span class="bold">Save</span>. </li> 
- <li value="7"> <p>Click <span class="bold">Save + Close</span>.&nbsp;</p> <p>The request queue displays in the dashboard as a separate dashboard component.&nbsp; </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png" style="width: 350;height: 260;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png" style="width: 350;height: 260;"> </p> </li> 
- <li value="8"> <p>(Optional) Click <span class="bold">Dashboard Actions</span>, then <span class="bold">Edit</span> to add reports, calendars, or additional external pages to the same dashboard.<br>For information about adding components to a dashboard, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md" class="MCXref xref">Create a dashboard</a>.</p> </li> 
-</ol>
+1. Obtain a request queue&nbsp;URL using one of the methods described in the [Obtain the URL of the request queue](#obtain) section of this article. 
+1. Click the Main Menu > Dashboards > New Dashboard. 
+1. Type a `Name` for the dashboard. This is a required field.
+1. Click `Add External Page`.
+1. In the `Add External Page` box, edit the following fields:
+
+  * `Name`: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
+
+  * `Description`: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
+  * `URL`:paste the URL you obtained using one of the methods described in Step 1.
+  * `Height`: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;
+
+1. Click `Save`. 
+1. Click `Save + Close`.&nbsp;
+
+   The request queue displays in the dashboard as a separate dashboard component.&nbsp; 
+
+1. (Optional) Click `Dashboard Actions`, then `Edit` to add reports, calendars, or additional external pages to the same dashboard.  
+   For information about adding components to a dashboard, see [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 &nbsp;
 
 &nbsp;
 
 <!--
-<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1"> <draft-comment>
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> > Requests >&nbsp;<span class="bold">New Request</span>. </p>
-</draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> > Requests >&nbsp;<span class="bold">New Request</span>. </p> </li> <draft-comment>
-<li class="preview" value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Continue entering the request.&nbsp;For information about submitting requests, see <a href="../../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>. </p> </li>
-</draft-comment>
-<li class="preview" value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Continue entering the request.&nbsp;For information about submitting requests, see <a href="../../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>. </p> </li>
-<li value="3"> <p>Select the <span class="bold">Request Type</span> for the queue you would like added to the dashboard.</p> </li>
-<li value="4"> <p>(Optional) Select a Queue Topic and a Topic Group. Depending on how the project manager set up the request queue, the names of these fields are different in each <em>Workfront</em> instance.</p> </li> <draft-comment>
-<li class="preview" value="5" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click <span class="bold">Share path</span> to obtain a shared link from the request queue you want to embed on a dashboard.</p> <p>For information about sharing a request queue, see <a href="../../../manage-work/requests/create-requests/share-link-to-request-queue.md" class="MCXref xref">Share a link to a request queue</a></p> </li>
-</draft-comment>
-<li class="preview" value="5" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click <span class="bold">Share path</span> to obtain a shared link from the request queue you want to embed on a dashboard.</p> <p>For information about sharing a request queue, see <a href="../../../manage-work/requests/create-requests/share-link-to-request-queue.md" class="MCXref xref">Share a link to a request queue</a></p> </li>
-<li value="6"> <p>For example, enter a URL similar to one of the following: </p> </li>
-</ol>
+Click the Main Menu > Requests > New Request. Continue entering the request. For information about submitting requests, see Create and submit Adobe Workfront requests. Select the Request Type for the queue you would like added to the dashboard. (Optional) Select a Queue Topic and a Topic Group. Depending on how the project manager set up the request queue, the names of these fields are different in each Workfront instance. Click Share path to obtain a shared link from the request queue you want to embed on a dashboard. For information about sharing a request queue, see Share a link to a request queue For example, enter a URL similar to one of the following:
 -->
-
-1. Click the `Main Menu` > Requests >  `New Request`. 
-1. Continue entering the request.&nbsp;For information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md). 
-1. Select the `Request Type` for the queue you would like added to the dashboard.
-1. (Optional) Select a Queue Topic and a Topic Group. Depending on how the project manager set up the request queue, the names of these fields are different in each *Workfront* instance.
-1. Click `Share path` to obtain a shared link from the request queue you want to embed on a dashboard.
-
-   For information about sharing a request queue, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
-
-1. For example, enter a URL similar to one of the following:
 

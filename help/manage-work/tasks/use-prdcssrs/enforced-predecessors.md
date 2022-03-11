@@ -35,16 +35,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -53,18 +53,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Enforce a predecessor at the task level
 
 <ol> 
  <li value="1">Go to the successor task whose predecessor you want to enforce.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Predecessors</span> in the left panel, then click <span class="bold">Add Predecessor</span>. You might need to click <span class="bold">Show More</span>, then <span class="bold">Predecessors</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Predecessors</span> in the left panel, then click <span class="bold">Add Predecessor</span>. You might need to click <span class="bold">Show More</span>, then <span class="bold">Predecessors</span>. </p> </li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Conditional) If you want to add a cross-project predecessor, remove the name of the project in the <span class="bold">Parent Project</span> field and replace it with another project. </li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Conditional) If you want to add a cross-project predecessor, remove the name of the project in the <span class="bold">Parent Project</span> field and replace it with another project. </li> 
+ <li value="2"> Click Predecessors in the left panel, then click Add Predecessor. You might need to click Show More, then Predecessors. </li> (Conditional) If you want to add a cross-project predecessor, remove the name of the project in the Parent Project field and replace it with another project. 
  <li value="4">Specify the name of the predecessor task or tasks in the <span class="bold">Tasks</span> field. </li> 
  <li value="5"> <p>Specify the <span class="bold">Dependency Type</span> between these two tasks.</p> <p>The default <span class="bold">Dependency Type</span> is <span class="bold">Finish-Start</span>.</p> <p> <img src="assets/ep-350x408.png" alt="" style="width: 350;height: 408;"> </p> </li> 
  <li value="6">Select the <span class="bold">Enforced</span> field to enforce the predecessor.</li> 

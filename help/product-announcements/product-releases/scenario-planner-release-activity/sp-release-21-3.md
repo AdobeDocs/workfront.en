@@ -1,8 +1,8 @@
 
 
-# *Adobe Workfront Scenario Planner* with the 21.3 release
+# `Adobe Workfront Scenario Planner` with the 21.3 release
 
-*Adobe Workfront Scenario Planner* is available only with *the new Adobe Workfront experience*.
+`Adobe Workfront Scenario Planner` is available only with `the new Adobe Workfront experience`.
 
 The following features are included in the 21.3 release:
 
@@ -10,7 +10,7 @@ The following features are included in the 21.3 release:
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*.
+>This feature is available only in `the new Adobe Workfront experience`.
 
 To give those using the Adobe Workfront Scenario Planner a single source of truth when budgeting resources for their projects, we have introduced a setting in the Resource Budgeting area of the Business Case of a project that allows you to select whether to use the Resource Planner or the Scenario Planner to budget resources for the project. When you select to use the Scenario Planner, job role information from the initiative linked to the project reflects in the Resource Budgeting area of the Business Case and calculates the Budgeted Labor Cost of the project.
 
@@ -26,7 +26,7 @@ For more information, see [Budget resources in the Business Case using the Adobe
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*.
+>This feature is available only in `the new Adobe Workfront experience`.
 
 To have consistency when accessing all areas of Adobe Workfront listed in the Main Menu, we have added the ability for a Workfront or group administrator to add a pinned tab and a landing page for the Scenario Planner and the Goals areas when they update a layout template.
 

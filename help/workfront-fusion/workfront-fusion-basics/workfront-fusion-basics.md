@@ -8,9 +8,9 @@ title: Adobe Workfront Fusion basics
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-# *Adobe Workfront Fusion* basics
+# `Adobe Workfront Fusion` basics
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
 This section contains the following articles:
 
 * [Change profile settings](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) 
@@ -18,9 +18,8 @@ This section contains the following articles:
 * [Delete user data](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/workfront-fusion-basics/delete-an-account.md" class="MCXref xref">Delete an account</a> </li>
+  Delete an account
   -->
 
-* [Delete an account](../../workfront-fusion/workfront-fusion-basics/delete-an-account.md) 
 * [Adobe Workfront Fusion FAQ](../../workfront-fusion/workfront-fusion-basics/faq.md)
 

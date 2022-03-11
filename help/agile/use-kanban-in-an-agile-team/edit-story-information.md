@@ -30,9 +30,9 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>The project name with a link directly to the project<br><draft-comment>
-      <span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">This link is displayed only on stories (parent tasks, not subtasks) when using the agile view on an iteration; it is not displayed when using an agile view on a project.</span>
-     </draft-comment><span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">This link is displayed only on stories (parent tasks, not subtasks) when using the agile view on an iteration; it is not displayed when using an agile view on a project.</span></p> </td> 
+   <td> <p>The project name with a link directly to the project<br><!--
+      This link is displayed only on stories (parent tasks, not subtasks) when using the agile view on an iteration; it is not displayed when using an agile view on a project.
+     --></p> </td> 
    <td>✓&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
@@ -52,9 +52,9 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>The color or category of the tile <draft-comment>
-      <span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Kanban]</span>
-     </draft-comment><span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Kanban]</span></p> </td> 
+   <td> <p>The color or category of the tile <!--
+      [Kanban]
+     --></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -75,37 +75,30 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## View and edit information on a story tile
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Kanban team from the drop-down menu or search for a team in the search bar.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Kanban team from the drop-down menu or search for a team in the search bar.</li> 
- <li value="3">Go to the Kanban&nbsp;board.</li> 
- <li value="4">Expand the story tile to view all fields associated with the story.<br><br><draft-comment>
-   <img src="assets/story-expanded-on-kanban-board-2021-350x405.png" style="width: 350;height: 405;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/story-expanded-on-kanban-board-2021-350x405.png" style="width: 350;height: 405;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li> 
- <li value="5">(Optional) To edit a field, click the field, then make any changes.<br>You must have Edit rights to the task or issue in order to edit the story tile.<br>For more information about each field and whether it can be edited, see <a href="#understanding-what-information-can-be-viewed-and-edited" class="MCXref xref">Understand what information can be viewed and edited</a>.</li> 
-</ol>
+1. Go to the Kanban&nbsp;board.
+1. Expand the story tile to view all fields associated with the story.
+
+1. (Optional) To edit a field, click the field, then make any changes.  
+   You must have Edit rights to the task or issue in order to edit the story tile.  
+   For more information about each field and whether it can be edited, see [Understand what information can be viewed and edited](#understanding-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]
 >

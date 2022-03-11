@@ -7,7 +7,7 @@ description: Custom Forms are used to collect information that is not displayed 
 
 # Attach a Custom Form to a Business Case
 
-Custom Forms are used to collect information that is not displayed in existing *Adobe Workfront* fields.&nbsp;
+Custom Forms are used to collect information that is not displayed in existing `Adobe Workfront` fields.&nbsp;
 
 For more information about creating Custom Forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,52 +38,29 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Attach Custom Forms to projects
 
 You can attach Custom Forms to a project in the following areas:
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver">When editing a project, in the Project Details section.</li>
-  -->
-
-* When editing a project, in the Project Details section.
 * When editing a project, in the Edit Project box.
 * When editing multiple projects in bulk, from a list of projects.
 
   For information about attaching custom forms to projects while editing one or multiple projects, see the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  When building the Business Case of a project, in the Business Case
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> When building the Business Case of a project, in the Business Case</MadCap:conditionalText>` as described in this article.
+* When building the Business Case of a project, in the Business Case as described in this article.
 
 For information about attaching custom forms to objects, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Attach Custom Forms to the Business Case
 
-To add a custom from to a Business Case, your *Workfront administrator* needs to select this option in Setup. For more information about enabling custom forms in Setup, see the section [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) in the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+To add a custom from to a Business Case, your `Workfront administrator` needs to select this option in Setup. For more information about enabling custom forms in Setup, see the section [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) in the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 To attach a custom form:
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Go to the project you want to attach the form to, then click 
-     <span class="bold">Business Case</span> in the left panel. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Go to the project you want to attach the form to, then click 
-    <span class="bold">Business Case</span> in the left panel. 
-   </MadCap:conditionalText></p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Business Case displays.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Business Case displays.</p> </li> 
+ <li value="1"> <p> Go to the project you want to attach the form to, then click Business Case in the left panel.</p> The Business Case displays. </li> 
  <li value="2"> <p>In the&nbsp;<span class="bold">Custom Form</span> section, select the custom form you want to attach from the drop-down menu.</p> <p> <img src="assets/custom-forms-drop-down-menu.png"> </p> </li> 
  <li value="3">(Optional) Select&nbsp;<span class="bold">Edit Custom Form</span>.<br><p><img src="assets/acf1-350x122.png" alt="" style="width: 350;height: 122;"></p></li> 
  <li value="4">(Optional) Specify information in the fields of the custom form, then click&nbsp;<span class="bold">Save</span> . </li> 

@@ -11,11 +11,11 @@ description: In order to use Office 365 Calendar with Adobe Workfront Fusion, it
 
 # Microsoft Office 365 Calendar
 
-In order to use Office 365 Calendar with *Adobe Workfront Fusion*, it is necessary to have an Office 365 Excel account. You can create one at [www.office.com](http://www.office.com/).
+In order to use Office 365 Calendar with `Adobe Workfront Fusion`, it is necessary to have an Office 365 Excel account. You can create one at [www.office.com](http://www.office.com/).
 
-For instructions about connecting your *Office 365* account to *Workfront Fusion*, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+For instructions about connecting your `Office 365` account to `Workfront Fusion`, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-After you grant consent, you are redirected back to the *Workfront Fusion* administration page where you can continue creating your scenario.
+After you grant consent, you are redirected back to the `Workfront Fusion` administration page where you can continue creating your scenario.
 
 ## Access requirements
 
@@ -26,45 +26,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -72,7 +52,7 @@ To use Microsoft Office 365 Calendar modules, you must have a Microsoft Office 3
 
 ## Microsoft Office 365 Calendar modules and their fields
 
-When you configure *Microsoft Office 365 Calendar* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Microsoft Office 365 Calendar* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Microsoft Office 365 Calendar` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Microsoft Office 365 Calendar` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -101,7 +81,7 @@ This trigger module retrieves details of an event when the event is created, upd
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch events</td> 
@@ -125,7 +105,7 @@ This trigger module retrieves details of an event when the event is created, upd
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter the maximum number of messages <em>Workfront Fusion</em> should return during one scenario execution cycle.</p> </td> 
+   <td> <p>Enter the maximum number of messages <span>Workfront Fusion</span> should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +120,7 @@ This search module retreves details of an event when the event is created, updat
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar Group ID</td> 
@@ -172,7 +152,7 @@ This search module retreves details of an event when the event is created, updat
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Enter the maximum number of events <em>Workfront Fusion</em> should return during one scenario execution cycle.</td> 
+   <td>Enter the maximum number of events <span>Workfront Fusion</span> should return during one scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -187,7 +167,7 @@ This action module retrieves details of the specified event.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Event ID</td> 
@@ -206,7 +186,7 @@ This action module creates a new event.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Subject</td> 
@@ -300,7 +280,7 @@ Updates an existing event.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Event ID</td> 
@@ -398,7 +378,7 @@ Deletes an existing event.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Event ID</td> 
@@ -425,7 +405,7 @@ Retrieves a list of all of the authenticated user's calendars.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar Group ID</td> 
@@ -433,7 +413,7 @@ Retrieves a list of all of the authenticated user's calendars.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Enter the maximum number of calendars <em>Workfront Fusion</em> should return during one scenario execution cycle.</td> 
+   <td>Enter the maximum number of calendars <span>Workfront Fusion</span> should return during one scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,7 +428,7 @@ Deletes an existing event.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
@@ -467,7 +447,7 @@ Creates a new calendar in your Google account.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar name</td> 
@@ -486,7 +466,7 @@ Edits an existing calendar.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
@@ -509,7 +489,7 @@ Deletes an existing calendar.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
@@ -530,7 +510,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Office 365</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Office 365</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -542,7 +522,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 

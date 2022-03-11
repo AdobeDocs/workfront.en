@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Slack ac
 
 # Slack modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your *Slack* account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your `Slack` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,45 +26,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -72,7 +52,7 @@ To use Slack modules, you must have a Slack account.
 
 ## Slack modules and their fields
 
-When you configure *Slack* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Slack* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Slack` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Slack` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -114,7 +94,7 @@ This trigger module starts the scenario when a new message is added to a public 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel </td> 
@@ -122,7 +102,7 @@ This trigger module starts the scenario when a new message is added to a public 
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +117,7 @@ This trigger module starts the scenario when a new message is added to a private
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel </td> 
@@ -145,7 +125,7 @@ This trigger module starts the scenario when a new message is added to a private
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,7 +140,7 @@ This trigger module starts the scenario when a new message is added to a direct 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel </td> 
@@ -168,7 +148,7 @@ This trigger module starts the scenario when a new message is added to a direct 
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -183,7 +163,7 @@ This trigger module starts the scenario when a new message is added to a multipa
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel </td> 
@@ -191,7 +171,7 @@ This trigger module starts the scenario when a new message is added to a multipa
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -206,7 +186,7 @@ This search module returns messages matching a search query.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query</td> 
@@ -214,7 +194,7 @@ This search module returns messages matching a search query.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -229,7 +209,7 @@ This action module retrieves the details of a message from a selected channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
@@ -252,7 +232,7 @@ This action module returns a message with a given ID from a specified public cha
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
@@ -275,7 +255,7 @@ This action module retrieves a thread of messages posted to a conversation.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -287,7 +267,7 @@ This action module retrieves a thread of messages posted to a conversation.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>replie</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>replie</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,7 +282,7 @@ This action module creates a new message.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
@@ -319,16 +299,9 @@ This action module creates a new message.
   <tr> 
    <td role="rowheader">Blocks</td> 
    <td>Block are reusable components that you can use to customize and organize your messages. For more information on blocks, see <a href="https://api.slack.com/block-kit">Block Kit</a> in the Slack documentation.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>As user</p> </td> 
-    <td> <p>Select <span class="bold">Yes</span> to create the message as the authenticated user instead of as a bot.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>As user</p> </td> 
-   <td> <p>Select <span class="bold">Yes</span> to create the message as the authenticated user instead of as a bot.</p> </td> 
-  </tr> 
+  </tr> <!--
+   As user Select Yes to create the message as the authenticated user instead of as a bot.
+  --> 
   <tr> 
    <td role="rowheader">Thread message ID (time stamp)</td> 
    <td>If the new message is a reply, enter the time stamp of the message you want to reply to. Do not enter the time stamp of a message that is already a reply.</td> 
@@ -340,34 +313,13 @@ This action module creates a new message.
      <li> <p>The new message is a reply to another message</p> </li> 
      <li> <p>You want the new message to be visible to everyone in the channel</p> </li> 
     </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Attachments</p> </td> 
-    <td> <p>Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty.</p> <p>For more details about attachments, see <a href="https://api.slack.com/docs/message-attachments">Attaching content and links to messages</a> in the Slack documentation.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>Attachments</p> </td> 
-   <td> <p>Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty.</p> <p>For more details about attachments, see <a href="https://api.slack.com/docs/message-attachments">Attaching content and links to messages</a> in the Slack documentation.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Icon emoji</p> </td> 
-    <td> <p>Enter or map the emoji you want to use for the posted message. </p> <p>For a list of emoji, see the <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji cheat sheet</a>.</p> <p>If the As user option is enabled, this field is ignored.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>Icon emoji</p> </td> 
-   <td> <p>Enter or map the emoji you want to use for the posted message. </p> <p>For a list of emoji, see the <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji cheat sheet</a>.</p> <p>If the As user option is enabled, this field is ignored.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Icon URL</p> </td> 
-    <td> <p>Enter or map the URL to an image you want to use as the icon for this message.</p> <p>If the As user option is enabled, this field is ignored. </p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>Icon URL</p> </td> 
-   <td> <p>Enter or map the URL to an image you want to use as the icon for this message.</p> <p>If the As user option is enabled, this field is ignored. </p> </td> 
-  </tr> 
+  </tr> <!--
+   Attachments Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty. For more details about attachments, see Attaching content and links to messages in the Slack documentation.
+  --> <!--
+   Icon emoji Enter or map the emoji you want to use for the posted message. For a list of emoji, see the Emoji cheat sheet. If the As user option is enabled, this field is ignored.
+  --> <!--
+   Icon URL Enter or map the URL to an image you want to use as the icon for this message. If the As user option is enabled, this field is ignored.
+  --> 
   <tr> 
    <td role="rowheader"> <p>Link names</p> </td> 
    <td> <p>Enable this option to allow names and channels to use <code>@username</code> or <code>#channel</code> format. </p> <p>For more information, see <a href="https://api.slack.com/docs/formatting">Formatting text for app surfaces</a> in the Slack documentation.</p> </td> 
@@ -387,16 +339,9 @@ This action module creates a new message.
   <tr> 
    <td role="rowheader"> <p>Unfurl media content</p> </td> 
    <td> <p>Enable this option to allow unfurling of media content. </p> <p>For more information about unfurling in Slack, see <a href="https://api.slack.com/reference/messaging/link-unfurling">Unfurling links in messages</a> in the Slack documentation.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>User name</p> </td> 
-    <td> <p>Enter the name of your bot. </p> <p>If the As user option is enabled, this field is ignored.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>User name</p> </td> 
-   <td> <p>Enter the name of your bot. </p> <p>If the As user option is enabled, this field is ignored.</p> </td> 
-  </tr> 
+  </tr> <!--
+   User name Enter the name of your bot. If the As user option is enabled, this field is ignored.
+  --> 
  </tbody> 
 </table>
 
@@ -410,7 +355,7 @@ This action module allows you to edit an existing message.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
@@ -427,25 +372,11 @@ This action module allows you to edit an existing message.
   <tr> 
    <td role="rowheader">Blocks</td> 
    <td>Block are reusable components that you can use to customize and organize your messages. For more information on blocks, see <a href="https://api.slack.com/block-kit">Block Kit</a> in the Slack documentation.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>As user</p> </td> 
-    <td> <p>Select <span class="bold">Yes</span> to update the message as the authenticated user instead of as a bot.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>As user</p> </td> 
-   <td> <p>Select <span class="bold">Yes</span> to update the message as the authenticated user instead of as a bot.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Attachments</p> </td> 
-    <td> <p>Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty.</p> <p>For more details about attachments, see <a href="https://api.slack.com/docs/message-attachments">Attaching content and links to messages</a> in the Slack documentation.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>Attachments</p> </td> 
-   <td> <p>Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty.</p> <p>For more details about attachments, see <a href="https://api.slack.com/docs/message-attachments">Attaching content and links to messages</a> in the Slack documentation.</p> </td> 
-  </tr> 
+  </tr> <!--
+   As user Select Yes to update the message as the authenticated user instead of as a bot.
+  --> <!--
+   Attachments Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty. For more details about attachments, see Attaching content and links to messages in the Slack documentation.
+  --> 
   <tr> 
    <td role="rowheader"> <p>Link names</p> </td> 
    <td> <p>Enable this option to allow names and channels to use <code>@username</code> or <code>#channel</code> format. </p> <p>For more information, see <a href="https://api.slack.com/docs/formatting">Formatting text for app surfaces</a> in the Slack documentation.</p> </td> 
@@ -467,7 +398,7 @@ This action module deletes a specified message.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
@@ -476,16 +407,9 @@ This action module deletes a specified message.
   <tr> 
    <td role="rowheader">Message ID</td> 
    <td> <p> Enter or map the time stamp of the message you want to delete.</p> <p>Note: The time stamp can be retrieved using another module, such as the Watch Private Channel Module.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>As user</p> </td> 
-    <td> <p>Select <span class="bold">Yes</span> to delete the message as the authenticated user instead of as a bot.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>As user</p> </td> 
-   <td> <p>Select <span class="bold">Yes</span> to delete the message as the authenticated user instead of as a bot.</p> </td> 
-  </tr> 
+  </tr> <!--
+   As user Select Yes to delete the message as the authenticated user instead of as a bot.
+  --> 
  </tbody> 
 </table>
 
@@ -509,7 +433,7 @@ This trigger module starts a scenario when a new file is added.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type</td> 
@@ -521,7 +445,7 @@ This trigger module starts a scenario when a new file is added.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Enter or map the maximum number of <em>file</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>file</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -536,7 +460,7 @@ This action module returns a list of files based on the specified filter.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type </td> 
@@ -560,7 +484,7 @@ This action module returns a list of files based on the specified filter.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Enter or map the maximum number of <em>file</em>s you want the module to <em>return</em> during each scenario execution cycle.</td> 
+   <td>Enter or map the maximum number of <span>file</span>s you want the module to <span>return</span> during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -575,7 +499,7 @@ This action module returns details about the specified file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">File ID</td> 
@@ -594,7 +518,7 @@ This action module downloads a file from a URL. It must follow the Slack > Get a
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL private download</td> 
@@ -613,7 +537,7 @@ This action module creates or uploads a file to Slack
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channels</td> 
@@ -648,7 +572,7 @@ This action module creates a text file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channels</td> 
@@ -683,7 +607,7 @@ This action module returns deletes the specified file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">File ID</td> 
@@ -715,7 +639,7 @@ This search module returns a list of all channels in a workspace.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Exclude archived</p> </td> 
@@ -727,7 +651,7 @@ This search module returns a list of all channels in a workspace.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of channels <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of channels <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -742,7 +666,7 @@ This action module returns information about a workspace channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
@@ -761,25 +685,10 @@ This search module returns a list of users in the selected channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-    <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
-     <ul> 
-      <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Channel ID or name</span> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-      <li> <p><span class="bold">Select from the list</span> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-   <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Channel ID or name</span> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-    </ul> </td> 
-  </tr> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> <!--
+   Enter a channel ID or name Choose how you want to select the channel where you want to create a message. Enter manually In the Channel ID or name field, enter or map the Channel ID or name of the channel where you want to post the message. Note: The Channel ID can be retrieved using the List Channels module. Select from the list Select the type of channel, then select the channel.
+  --> 
   <tr> 
    <td role="rowheader">Channel type</td> 
    <td>Select the type of channel that contains the list of members you want to list.</td> 
@@ -790,7 +699,7 @@ This search module returns a list of users in the selected channel.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of members <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of members <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -805,25 +714,10 @@ This action module changes the topic of a channel
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-    <td> <p>Choose how you want to select the channel that you want to change the topic for.</p> 
-     <ul> 
-      <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Channel ID or name</span> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-      <li> <p><span class="bold">Select from the list</span> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-   <td> <p>Choose how you want to select the channel that you want to change the topic for.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Channel ID or name</span> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-    </ul> </td> 
-  </tr> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> <!--
+   Enter a channel ID or name Choose how you want to select the channel that you want to change the topic for. Enter manually In the Channel ID or name field, enter or map the Channel ID or name of the channel where you want to post the message. Note: The Channel ID can be retrieved using the List Channels module. Select from the list Select the type of channel, then select the channel.
+  --> 
   <tr> 
    <td role="rowheader">Channel type</td> 
    <td>Select the type of channel that you want to change the topic for.</td> 
@@ -849,25 +743,10 @@ This action module changes the purpose of a channel
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-    <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
-     <ul> 
-      <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Channel ID or name</span> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-      <li> <p><span class="bold">Select from the list</span> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
-   <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Channel ID or name</span> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the type of channel, then select the channel.</p> </li> 
-    </ul> </td> 
-  </tr> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+  </tr> <!--
+   Enter a channel ID or name Choose how you want to select the channel where you want to create a message. Enter manually In the Channel ID or name field, enter or map the Channel ID or name of the channel where you want to post the message. Note: The Channel ID can be retrieved using the List Channels module. Select from the list Select the type of channel, then select the channel.
+  --> 
   <tr> 
    <td role="rowheader">Channel type</td> 
    <td>Select the type of channel that you want to change the topic for.</td> 
@@ -893,7 +772,7 @@ This action module joins the user to a channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
@@ -912,7 +791,7 @@ This action module removes the user from a channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
@@ -931,7 +810,7 @@ This action module creates a new channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Name</p> </td> 
@@ -954,7 +833,7 @@ This action module creates a new channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
@@ -973,7 +852,7 @@ This action module creates a new channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
@@ -998,7 +877,7 @@ This action module returns reactions that a user made.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>User</p> </td> 
@@ -1006,7 +885,7 @@ This action module returns reactions that a user made.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>reaction</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>reaction</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1021,7 +900,7 @@ This action module adds a reaction to an item.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1052,7 +931,7 @@ This action module adds a reaction to an item.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1088,7 +967,7 @@ This action module makes a channel a starred channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1111,7 +990,7 @@ This action module removed the star from a starred channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1139,7 +1018,7 @@ This action module adds an item to saved items.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Message ID (Time stamp)</td> 
@@ -1162,7 +1041,7 @@ This action module adds an item to saved items.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Message ID (Time stamp)</td> 
@@ -1190,7 +1069,7 @@ This action module pins an item, such as a file or file comment, to a channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1217,7 +1096,7 @@ This action module unpins an item from a channel. You can unpin files, file comm
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1253,11 +1132,11 @@ This trigger module starts the scenario when a new user is added to the Slack wo
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of users <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of users <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1272,7 +1151,7 @@ This action module retrieves details about a single user, by using their email a
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Email </p> </td> 
@@ -1291,11 +1170,11 @@ This action module returns a list of all users in a workspace.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Limit</p> </td> 
-   <td> <p>Enter or map the maximum number of <em>user</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>user</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1310,7 +1189,7 @@ This action module retrieves details about a member of a workspace.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>User ID</p> </td> 
@@ -1329,7 +1208,7 @@ This action module invites 1-30 users to a public or private channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1356,7 +1235,7 @@ This action module removes a user from a channel.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1391,11 +1270,11 @@ This action module returns a list of all reminders created by or given to the cu
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Limit</p> </td> 
-   <td> <p>Enter or map the maximum number of <em>reminder</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>reminder</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1410,7 +1289,7 @@ This action module retrieves details about a specific reminder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Reminder ID</p> </td> 
@@ -1429,7 +1308,7 @@ This action module creates a reminder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Text</td> 
@@ -1461,7 +1340,7 @@ This action module completes a specific reminder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Reminder ID</p> </td> 
@@ -1480,7 +1359,7 @@ This action module deletes a specific reminder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Reminder ID</p> </td> 
@@ -1505,7 +1384,7 @@ This instant trigger starts a scenario when a new message or other event is crea
     <ol> 
      <li value="1"> <p>Click <b>Add</b>.</p> </li> 
      <li value="2"> <p>Select the event type.</p> </li> 
-     <li value="3"> <p>Select or add a connection. For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </li> 
+     <li value="3"> <p>Select or add a connection. For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </li> 
      <li value="4"> <p>If prompted, select the channel that you want to watch.</p> </li> 
      <li value="5"> <p>Click <b>Save</b> to save the webhook and return to the module.</p> </li> 
     </ol> </td> 
@@ -1525,7 +1404,7 @@ This action module updates a user's current status.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Status text</p> </td> 
@@ -1551,15 +1430,7 @@ This action module updates a user's current status.
 
 #### Make an API Call
 
-This action module lets you make a custom authenticated call to the *Slack* API
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-without having to think through authentication
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  without having to think through authentication</MadCap:conditionalText>`. This way, you can create a data flow automation that can't be accomplished by the other *Slack* modules. 
+This action module lets you make a custom authenticated call to the `Slack` API. This way, you can create a data flow automation that can't be accomplished by the other `Slack` modules. 
 
 <table cellspacing="0"> 
  <col> 
@@ -1567,7 +1438,7 @@ without having to think through authentication
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Slack</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Slack</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -1579,7 +1450,7 @@ without having to think through authentication
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 

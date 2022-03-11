@@ -7,9 +7,9 @@ title: Adobe Workfront for XD
 description: The Adobe Workfront plugin for XD allows you to:
 ---
 
-# *Adobe Workfront* for XD
+# `Adobe Workfront` for XD
 
-The *Adobe Workfront* plugin for XD allows you to:
+The `Adobe Workfront` plugin for XD allows you to:
 
 * [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md) 
 * [Find your work in Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-find-work.md) 

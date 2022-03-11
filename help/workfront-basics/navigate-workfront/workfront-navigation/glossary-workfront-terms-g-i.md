@@ -10,11 +10,11 @@ description: For the full glossary, see Glossary of Workfront terms.
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the *Adobe Workfront* application or in the *Workfront* documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the `Adobe Workfront` application or in the `Workfront` documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;&nbsp;
+The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;&nbsp;
 
 ## G-I
 
@@ -31,16 +31,9 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td>Gantt Chart</td> 
    <td> <p>A visual timeline of the project dates in a calendar view based on the planned or projected dates as the tasks of the project are currently scheduled.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Goals</td> 
-    <td>A set of business objectives agreed to by the relevant stakeholders.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Goals</td> 
-   <td>A set of business objectives agreed to by the relevant stakeholders.</td> 
-  </tr> 
+  </tr> <!--
+   Goals A set of business objectives agreed to by the relevant stakeholders.
+  --> 
   <tr> 
    <td>Global Interface Preferences</td> 
    <td>Interface settings that affect all users. Global Interface Preferences can be overwritten by the User Interface Preferences.</td> 
@@ -104,25 +97,7 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td>Issue Management</td> 
    <td> <p>The process and rules governing the definition of issue types and the routing, triage, or traffic process associated with each type.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td>Issue Owner</td> 
-    <td>The team or users responsible for triaging and completing an issue.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td>Issue Owner</td> 
-   <td>The team or users responsible for triaging and completing an issue.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td>Iteration</td> 
-    <td>A period of time in which a team produces a pre-defined set of deliverables.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td>Iteration</td> 
-   <td>A period of time in which a team produces a pre-defined set of deliverables.</td> 
-  </tr> 
+  </tr> Issue Owner The team or users responsible for triaging and completing an issue. Iteration A period of time in which a team produces a pre-defined set of deliverables. 
  </tbody> 
 </table>
 

@@ -10,7 +10,7 @@ description: The JSON app provides modules to process data in JSON format so tha
 
 # JSON modules
 
-The JSON app provides modules to process data in JSON format so that *Adobe Workfront Fusion* can further work with the data content, or create new JSON content.
+The JSON app provides modules to process data in JSON format so that `Adobe Workfront Fusion` can further work with the data content, or create new JSON content.
 
 ## Access requirements
 
@@ -21,47 +21,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Parse JSON
 
@@ -70,11 +48,11 @@ You must have the following access to use the functionality in this article:
 
 ### Data structure
 
-The Data structure describes how the JSON data is organized and enables the mapping of individual JSON items to other modules in your scenario. If you don't provide the Data structure, you may manually execute the module and *Workfront Fusion* will build the structure from the provided JSON:
+The Data structure describes how the JSON data is organized and enables the mapping of individual JSON items to other modules in your scenario. If you don't provide the Data structure, you may manually execute the module and `Workfront Fusion` will build the structure from the provided JSON:
 
 1. Add the Parse JSON&nbsp;module to a scenario.
 1. In the `JSON String` field, enter the JSON from which you want to build a data structure.
-1. Do not connect other modules to the Parse JSON module yet. Because *Workfront Fusion* does not yet know the structure of the JSON data, it is not yet possible to map data from the Parse JSON module to other modules in your scenario.
+1. Do not connect other modules to the Parse JSON module yet. Because `Workfront Fusion` does not yet know the structure of the JSON data, it is not yet possible to map data from the Parse JSON module to other modules in your scenario.
 1. Manually run the scenario. This allows the Parse JSON module to identify the JSON structure from the JSON you have provided.
 1. You can now connect following modules. The items from the Parse JSON module are now available for mapping.
 
@@ -134,7 +112,7 @@ The output is a series of bundles. Each bundle contains one element of the array
 
 ## JSON modules and their fields
 
-When you configure *JSON* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *JSON* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `JSON` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `JSON` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -150,13 +128,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This aggregator module aggregates output from a previous module into JSON. 
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader">Source module </td> 
@@ -185,13 +157,7 @@ This aggregator module aggregates output from a previous module into JSON.
 
 This action module converts a JSON string to XML.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader">JSON&nbsp;string </td> 
@@ -204,13 +170,7 @@ This action module converts a JSON string to XML.
 
 This action module parses a JSON string into a data structure, which allows you to access the data inside the JSON&nbsp;string.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader">Data structure</td> 
@@ -227,13 +187,7 @@ This action module parses a JSON string into a data structure, which allows you 
 
 This action module creates JSON from a data structure.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader">Data structure</td> 
@@ -246,13 +200,7 @@ This action module creates JSON from a data structure.
 
 This action module transforms an object into a json string.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader">Object</td> 

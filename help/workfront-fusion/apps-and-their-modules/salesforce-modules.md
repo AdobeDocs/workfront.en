@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Salesfor
 
 # Salesforce modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your *Salesforce* account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your `Salesforce` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -32,45 +32,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -100,27 +80,9 @@ For more information about search possibilities, see the Salesforce developer do
 
 #### Watch for Records
 
-This trigger module executes a scenario when *a record in an object is created or updated*
+This trigger module executes a scenario when `a record in an object is created or updated`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table> 
  <col> 
@@ -128,11 +90,11 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Type </td> 
-   <td> <p>Select the type of <em>Salesforce</em> record that you want the module to <em>watch</em>.</p> </td> 
+   <td> <p>Select the type of <span>Salesforce</span> record that you want the module to <span>watch</span>.</p> </td> 
   </tr> 
   <tr> 
    <td>Record Fields</td> 
@@ -140,7 +102,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Maximal count of records</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td>Watch</td> 
@@ -151,22 +113,11 @@ When you are configuring this module, the following fields display
 
 #### Watch Outbound Messages
 
-This trigger module executes a scenario when *someone sends a message*
+This trigger module executes a scenario when `someone sends a message`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
+Is this correct?
 -->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
-
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
--->
-
-`Is this correct?`
 
 This module requires some extra setup:
 
@@ -188,60 +139,26 @@ This module requires some extra setup:
    The `Endpoint URL` field contains the URL provided on the Salesforce Outbound Message 
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    card
-   </MadCap:conditionalText>
    -->
 
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> card </MadCap:conditionalText>`in Workfront Fusion.
+   in Workfront Fusion.
 
 1. Configure a scenario beginning with the Outbound Message event 
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    card
-   </MadCap:conditionalText>
    -->
 
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> card</MadCap:conditionalText>`.
-
+   .
 1. Click the `</>` icon in the bottom right and copy the provided URL.
 1. Return to the `Workflow Rules` page, locate the newly created rule, then click `Activate`.
 
-When you are configuring this module, the following fields display
+When you are configuring this module, the following fields display.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
+Connection For instructions about connecting your Salesforce account to Workfront Fusion, see Create a connection to Workfront Fusion - Basic instructions
 -->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<!--
-<table data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection</td>
-<td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
-</tr>
-</tbody>
-</table>
--->
-
-<table data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <table> 
  <col> 
@@ -249,7 +166,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Webhook</td> 
-   <td> <p>Select the webhook that you want to use to watch outgoing messages. To add a webhook, click <span class="bold">Add </span>and enter the webhook's name and connection.</p> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>Select the webhook that you want to use to watch outgoing messages. To add a webhook, click <span class="bold">Add </span>and enter the webhook's name and connection.</p> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Record Type </td> 
@@ -272,7 +189,7 @@ This trigger module starts a scenario when a field is updated in Salesforce.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Record Type </td> 
@@ -284,7 +201,7 @@ This trigger module starts a scenario when a field is updated in Salesforce.
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>field</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>field</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,10 +209,9 @@ This trigger module starts a scenario when a field is updated in Salesforce.
 ### Actions
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#create2" class="MCXref xref">Create a Record (Static Fields)</a> </li>
+  Create a Record (Static Fields)
   -->
 
-* [Create a Record (Static Fields)](#create2) 
 * [Create a Record](#create) 
 * [Read a Record](#read) 
 * [Delete a Record](#delete2) 
@@ -304,118 +220,24 @@ This trigger module starts a scenario when a field is updated in Salesforce.
 * [Download Attachment/Document](#download2)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#update3" class="MCXref xref">Update a Record (Static Fields)</a> </li>
+  Update a Record (Static Fields)
   -->
 
-* [Update a Record (Static Fields)](#update3) 
 * [Create a Record](#create)
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4><a name="Create2"></a>Create a Record (Static Fields)</h4>
-<p>This action module <em>creates a new record in an object</em><draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>.</p>
-<p>You specify the type of <em>record</em>.</p>
-<p>The module returns the ID of the <draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText> <em>record</em> and any associated fields, along with any custom fields and values that the connection accesses. You can map <em>this information</em> in subsequent modules in the scenario.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table>
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection</td>
-<td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
-</tr>
-<tr>
-<td> <p>Record Type </p> </td>
-<td> <p>Select the type of <em>Salesforce</em> record that you want the module to <em>create</em>. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td>
-</tr>
-</tbody>
-</table>
-</div>
+Create a Record (Static Fields) This action module creates a new record in an object. You specify the type of record. The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your Salesforce account to Workfront Fusion, see Create a connection to Workfront Fusion - Basic instructions Record Type Select the type of Salesforce record that you want the module to create. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.
 -->
-
-#### Create a Record (Static Fields)
-
-This action module *creates a new record in an object*`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`.
-
-You specify the type of *record*.
-
-The module returns the ID of the `<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em></MadCap:conditionalText>` *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Record Type </p> </td> 
-   <td> <p>Select the type of <em>Salesforce</em> record that you want the module to <em>create</em>. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 #### Create a Record
 
-This action module *creates a new record in an object*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`.
+This action module `creates a new record in an object`.
 
 The module allows you to select which of the object's fields are available in the module. This reduces the number of fields you must scroll through when setting up the module.
 
-The module returns the ID of the 
+The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em></MadCap:conditionalText>` *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table> 
  <col> 
@@ -423,11 +245,11 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Record Type </p> </td> 
-   <td> <p>Select the type of <em>Salesforce</em> record that you want the module to <em>create</em>. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
+   <td> <p>Select the type of <span>Salesforce</span> record that you want the module to <span>create</span>. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
   </tr> 
   <tr> 
    <td>Select fields to map</td> 
@@ -438,115 +260,51 @@ When you are configuring this module, the following fields display
 
 #### Read a Record
 
-This action module reads *data from a single object* in *Salesforce*.
+This action module reads `data from a single object` in `Salesforce`.
 
-You specify the
+You specify the ID of the `record`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText>
--->
+The module returns the ID of the `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *record*.
+When you are configuring this module, the following fields display.
 
-The module returns the ID of the *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table>   
  <tbody> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+  <tr> <!--
+    Connection
+   --> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Type</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Type</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the type of <em>Salesforce</em> record that you want the module to <em>[action]</em>.read.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the type of <em>Salesforce</em> record that you want the module to <em>[action]</em>.read.</td> 
+  <tr> <!--
+    Record Type
+   --> <!--
+    Select the type of Salesforce record that you want the module to [action].read.
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Fields</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Fields</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the fields that you want the module to read. You must select at least one field.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the fields that you want the module to read. You must select at least one field.</td> 
+  <tr> <!--
+    Record Fields
+   --> <!--
+    Select the fields that you want the module to read. You must select at least one field.
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">ID</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">ID</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Enter or map the unique <em>Salesforce</em> ID of the <em>record</em> that you want the module to <em>read</em>.</p> <p>To get the ID, open the <em>Salesforce</em> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Enter or map the unique <em>Salesforce</em> ID of the <em>record</em> that you want the module to <em>read</em>.</p> <p>To get the ID, open the <em>Salesforce</em> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
+  <tr> <!--
+    ID
+   --> <!--
+    Enter or map the unique Salesforce ID of the record that you want the module to read. To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: https://eu5.salesforce.com/&lt;object ID&gt;
+   --> 
   </tr> 
  </tbody> 
 </table>
 
 #### Delete a Record
 
-This action module *deletes an existing record in an object*
+This action module `deletes an existing record in an object`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `record`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`.
+The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *record*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em></MadCap:conditionalText>` *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table> 
  <col> 
@@ -554,30 +312,22 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Record Type </td> 
-   <td> <p>Select the type of <em>Salesforce</em> record that you want the module to <em>delete</em>.</p> </td> 
+   <td> <p>Select the type of <span>Salesforce</span> record that you want the module to <span>delete</span>.</p> </td> 
   </tr> 
   <tr> 
    <td>ID</td> 
-   <td> <p>Enter or map the unique <em>Salesforce</em> ID of the <em>record</em> that you want the module to <em>delete</em>.</p> <p>To get the ID, open the <em>Salesforce</em> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
+   <td> <p>Enter or map the unique <span>Salesforce</span> ID of the <span>record</span> that you want the module to <span>delete</span>.</p> <p>To get the ID, open the <span>Salesforce</span> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Custom API Call
 
-This action module lets you make a custom authenticated call to the *Salesforce* API
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-without having to think through authentication
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  without having to think through authentication</MadCap:conditionalText>`. This way, you can create a data flow automation that can't be accomplished by the other *Salesforce* modules.
+This action module lets you make a custom authenticated call to the `Salesforce` API. This way, you can create a data flow automation that can't be accomplished by the other `Salesforce` modules.
 
 The module returns the following:
 
@@ -588,16 +338,7 @@ The module returns the following:
 
 * `Body`(object): Depending on the HTTP request you chose when configuring the module, you may receive some data back. That data, such as the data from a GET request, is contained in this object.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -605,7 +346,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -617,7 +358,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -663,41 +404,17 @@ In our example, 6 users were returned:
 
 #### Upload Attachment/Document
 
-This action module *uploads a file and attaches it to a record you specify, or uploads a document*
+This action module `uploads a file and attaches it to a record you specify, or uploads a document`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
--->
+The module returns the ID of the `attachment or document` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
-The module returns the ID of the *attachment or document* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table>   
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Type of Upload</td> 
@@ -720,212 +437,49 @@ When you are configuring this module, the following fields display
 
 #### Download Attachment/Document
 
-This action module *downloads a document or attachment from a record*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`.
+This action module `downloads a document or attachment from a record`.
 
 You specify the ID of the record and the type of download you want.
 
-The module returns the ID of the 
+The module returns the ID of the  `attachment or document` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>downloaded</em>
-</MadCap:conditionalText>
--->
+When you are configuring this module, the following fields display.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>downloaded</em></MadCap:conditionalText>` *attachment or document* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table>   
  <tbody> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+  <tr> <!--
+    Connection
+   --> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Type of Download</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Type of Download</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Specify the type of file that you want to download from Salesforce.</p> 
-     <ul> 
-      <li>Attachment</li> 
-      <li>Document</li> 
-      <li>ContentDocument (This is a document that has been uploaded to a library in Saleforce CRM Content or Salesforce Files.)</li> 
-     </ul> </td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Specify the type of file that you want to download from Salesforce.</p> 
-    <ul> 
-     <li>Attachment</li> 
-     <li>Document</li> 
-     <li>ContentDocument (This is a document that has been uploaded to a library in Saleforce CRM Content or Salesforce Files.)</li> 
-    </ul> </td> 
+  <tr> <!--
+    Type of Download
+   --> <!--
+    Specify the type of file that you want to download from Salesforce. Attachment Document ContentDocument (This is a document that has been uploaded to a library in Saleforce CRM Content or Salesforce Files.)
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>ID / </p> <p>Attachment ID / </p> <p>ContentDocument ID</p> </td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>ID / </p> <p>Attachment ID / </p> <p>ContentDocument ID</p> </td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Enter or map the unique <em>Salesforce</em> ID of the <em>record</em> that you want the module to <em>download</em>.</p> <p>To get the ID, open the <em>Salesforce</em> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Enter or map the unique <em>Salesforce</em> ID of the <em>record</em> that you want the module to <em>download</em>.</p> <p>To get the ID, open the <em>Salesforce</em> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
+  <tr> <!--
+    ID / Attachment ID / ContentDocument ID
+   --> <!--
+    Enter or map the unique Salesforce ID of the record that you want the module to download. To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: https://eu5.salesforce.com/&lt;object ID&gt;
+   --> 
   </tr> 
  </tbody> 
 </table>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4><a name="Update3"></a>Update a Record <draft-comment>
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Static Fields)
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Static Fields)
-</MadCap:conditionalText></h4>
-<p>This action module <em>edits a record in an object</em><draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>.</p>
-<p>You specify the<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText> ID of the <em>record</em>.</p>
-<p>The module returns the ID of the <draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>updated</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>updated</em>
-</MadCap:conditionalText> <em>record</em> and any associated fields, along with any custom fields and values that the connection accesses. You can map <em>this information</em> in subsequent modules in the scenario.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table>
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection</td>
-<td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
-</tr>
-<tr>
-<td>ID</td>
-<td>Enter or map the unique <em>Salesforce</em> ID of the <em>record</em> that you want the module to <em>update</em>.<p>To get the ID, open the <em>Salesforce</em> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/<object ID></code></p></td>
-</tr>
-<tr>
-<td>Record Type </td>
-<td> <p>Select the type of <em>Salesforce</em> record that you want the module to <em>[action]</em>.update. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td>
-</tr>
-</tbody>
-</table>
-<p>See also the information about working with records in the Salesforce REST API Developer Guide.</p>
-</div>
+Update a Record (Static Fields) This action module edits a record in an object. You specify the ID of the record. The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your Salesforce account to Workfront Fusion, see Create a connection to Workfront Fusion - Basic instructions ID Enter or map the unique Salesforce ID of the record that you want the module to update. To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: https://eu5.salesforce.com/<object ID> Record Type Select the type of Salesforce record that you want the module to [action].update. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API. See also the information about working with records in the Salesforce REST API Developer Guide.
 -->
-
-#### Update a Record `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> (Static Fields)</MadCap:conditionalText>`
-
-This action module *edits a record in an object*`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`.
-
-You specify the`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *record*.
-
-The module returns the ID of the `<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>updated</em></MadCap:conditionalText>` *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>Enter or map the unique <em>Salesforce</em> ID of the <em>record</em> that you want the module to <em>update</em>.<p>To get the ID, open the <em>Salesforce</em> object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p></td> 
-  </tr> 
-  <tr> 
-   <td>Record Type </td> 
-   <td> <p>Select the type of <em>Salesforce</em> record that you want the module to <em>[action]</em>.update. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-See also the information about working with records in the Salesforce REST API Developer Guide.
 
 #### Update a Record
 
-This action module *edits a record in an object*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Salesforce</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Salesforce</em></MadCap:conditionalText>`.
+This action module `edits a record in an object`.
 
 The module allows you to select which of the object's fields are available in the module. This reduces the number of fields you must scroll through when setting up the module.
 
-The module returns the ID of the 
+The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>updated</em></MadCap:conditionalText>` *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table> 
  <col> 
@@ -933,7 +487,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>ID</td> 
@@ -941,7 +495,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td> <p>Record Type </p> </td> 
-   <td> <p>Select the type of <em>Salesforce</em> record that you want the module to <em>update</em>. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
+   <td> <p>Select the type of <span>Salesforce</span> record that you want the module to <span>update</span>. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td> 
   </tr> 
   <tr> 
    <td>Select fields to map</td> 
@@ -954,27 +508,9 @@ When you are configuring this module, the following fields display
 
 #### Search with Query
 
-This search module looks for *records in an object* in *Salesforce* that match the search query you specify.
+This search module looks for `records in an object` in `Salesforce` that match the search query you specify. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-The module
-<em>returns the record' IDs</em>.
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> The module  <em>returns the record' IDs</em>.</MadCap:conditionalText>` You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Salesforce</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Salesforce</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table> 
  <col> 
@@ -982,7 +518,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Search Type</td> 
@@ -1003,7 +539,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Maximal count of records</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1018,7 +554,7 @@ This action module retrieves all records meeting a given criteria.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your <em>Salesforce</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your <span>Salesforce</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type</td> 
@@ -1038,7 +574,7 @@ This action module retrieves all records meeting a given criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Maximal</td> 
-   <td>Enter or map the maximum number of <em>record</em>s you want the module to <em>retrieve</em> during each scenario execution cycle.</td> 
+   <td>Enter or map the maximum number of <span>record</span>s you want the module to <span>retrieve</span> during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>

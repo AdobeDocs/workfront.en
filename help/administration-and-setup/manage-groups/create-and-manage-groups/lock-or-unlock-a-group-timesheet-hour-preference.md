@@ -9,79 +9,15 @@ description: If you are a group administrator, you can configure and then lock a
 
 # Lock or unlock a group timesheet and hour preference
 
-If you are a *group administrator*, you can configure and then lock a timesheet and hour preference for your group after a *Workfront administrator* unlocks it at the system level.
+If you are a `group administrator`, you can configure and then lock a timesheet and hour preference for your group after a `Workfront administrator` unlocks it at the system level.
 
-Locking an *Adobe Workfront* preference
+Locking an `Adobe Workfront` preferenceat the group level ensures that everyonein your group and in its subgroups is using the same setting for that preference. Though you can still reconfigure a preference that you lock, `group administrators` can’t do so for lower subgroups.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-at the group level
-</MadCap:conditionalText>
--->
+Conversely, unlocking a preferenceat the group level allows sub `group administrators` more flexibility to manage the way their groups work with those items. When a grouppreference is unlocked, `group administrators`of lower subgroups can reconfigure it for those subgroups.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  at the group level</MadCap:conditionalText>` ensures that everyone
+This is parallel to the ability that a `Workfront administrator` has to lock or unlock a preference for everyone in the system.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-in your group and in its subgroups
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  in your group and in its subgroups</MadCap:conditionalText>` is using the same setting for that preference. Though you can still reconfigure a preference that you lock, *group administrators* can’t do so for 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-lower subgroups
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> lower subgroups</MadCap:conditionalText>`.
-
-Conversely, unlocking a preference
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-at the group level
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  at the group level</MadCap:conditionalText>` allows 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-sub
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> sub</MadCap:conditionalText>`*group administrators* more flexibility to manage the way their groups work with those items. When a 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-group
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> group </MadCap:conditionalText>`preference is unlocked, *group administrators*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-of lower subgroups
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  of lower subgroups</MadCap:conditionalText>` can reconfigure it for 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-those subgroups
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> those subgroups</MadCap:conditionalText>`.
-
-This is parallel to the ability that a *Workfront administrator* has to lock or unlock a preference for everyone in the system.
-
-For information about how a *Workfront administrator* can lock or unlock a timesheet and hour preference for all groups in the system, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+For information about how a `Workfront administrator` can lock or unlock a timesheet and hour preference for all groups in the system, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 For information about configuring a timesheet and hour preference for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
@@ -94,7 +30,7 @@ For information about configuring a timesheet and hour preference for a group, s
 >* If you move a group under a group that has a locked preference, the moved group inherits that preference and it is locked for the moved group. 
 >* If you move a group under a group that has an unlocked preference, the moved group is not affected by that preference.
 >
->  If the preference in the moved group is locked at the time of the move, it remains locked, but the *group administrator* can unlock it now because it is unlocked for the parent group.
+>  If the preference in the moved group is locked at the time of the move, it remains locked, but the `group administrator` can unlock it now because it is unlocked for the parent group.
 >
 
 ## Access requirements
@@ -106,26 +42,26 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> <p>You must be a <em>group administrator</em> of the group or a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Lock or unlock a group timesheet and hour preference
 
 >[!TIP]
 >
->If you are a *Workfront administrator*, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
+>If you are a `Workfront administrator`, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Groups</span>.</li> 
  <li value="3">Click the name of the group where you want to lock or unlock a timesheets and hours preference.</li> 
  <li value="4">In the left panel, click <span class="bold">Timesheets and Hour</span><span class="bold">s Preferences</span>.</li> 
@@ -134,7 +70,7 @@ You must have the following to perform the steps in this article:
    <li> <p>If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it <img src="assets/unlock-toggle-button.png">.</p> </li> 
    <li> <p>If you want all groups below yours to use your configuration for a preference, make sure that it is locked <img src="assets/lock-toggle-button.png"> (this is the default).</p> <note type="important">
      It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that 
-     <em>group administrators</em> in lower subgroups might have made.
+     <span>group administrators</span> in lower subgroups might have made.
     </note> </li> 
   </ul> </li> 
  <li value="6">Click <span class="bold">Save</span>.</li> 

@@ -8,7 +8,7 @@ description: Find the work assigned to you in Adobe Workfront without leaving Ad
 
 # Find your work in Adobe XD
 
-Find the work assigned to you in *Adobe Workfront* without leaving Adobe XD.
+Find the work assigned to you in `Adobe Workfront` without leaving Adobe XD.
 
 ## Access requirements
 
@@ -19,30 +19,21 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p><em>Work</em> or higher</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Work or higher 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a <em>Workfront</em> license.</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a <span>Workfront</span> license.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-* You must install the *Workfront* for Adobe XD plugin before you can Find your work in Adobe XD.
+* You must install the `Workfront` for Adobe XD plugin before you can Find your work in Adobe XD.
 
   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
@@ -101,8 +92,8 @@ Use the Search bar to locate projects, tasks, issues, and documents you need.
   <tr> 
    <td> 
     <ul> 
-     <li>See recent items: You can view up to 5 of your most recent work items accessed through <em>Workfront</em> or the XD plugin.</li> 
-     <li>Locate pinned items: You can access projects, tasks, issues, and documents you've pinned in <em>the new Adobe Workfront experience</em>.</li> 
+     <li>See recent items: You can view up to 5 of your most recent work items accessed through <span>Workfront</span> or the XD plugin.</li> 
+     <li>Locate pinned items: You can access projects, tasks, issues, and documents you've pinned in <span>the new Adobe Workfront experience</span>.</li> 
      <li>Find your favorites: You can see any project, task, issue, or document you saved as a favorite.</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-favorite-and-pinned-350x565.png" style="width: 350;height: 565;"> </td> 

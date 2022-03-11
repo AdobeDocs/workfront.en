@@ -53,8 +53,8 @@ After installation, you might be unsure about the best next actions to take. For
 
 ## Additional notes on blueprints and templates
 
-Blueprints do not replace the project templates functionality in *Adobe Workfront*. Blueprints are a way for you to create new templates faster to organize more of your work in *Workfront*.
+Blueprints do not replace the project templates functionality in `Adobe Workfront`. Blueprints are a way for you to create new templates faster to organize more of your work in `Workfront`.
 
-You cannot copy or edit a blueprint. However, once you have installed the solution from a blueprint, you can modify the project template, job roles, or teams that are created from the blueprint the same way you normally update those records in the *Workfront* interface. Also, when you install a blueprint, the template is stored in the Templates area of *Workfront* and the original blueprint stays in the Blueprints area. You do not need to make a copy of the template before you begin tailoring it to your needs.
+You cannot copy or edit a blueprint. However, once you have installed the solution from a blueprint, you can modify the project template, job roles, or teams that are created from the blueprint the same way you normally update those records in the `Workfront` interface. Also, when you install a blueprint, the template is stored in the Templates area of `Workfront` and the original blueprint stays in the Blueprints area. You do not need to make a copy of the template before you begin tailoring it to your needs.
 
 Blueprints do not remove or replace anything configured in your environment. If you intend to replace an existing template by installing a blueprint that creates a new template, we recommend that you deactivate the previous version to avoid confusion among your planners who build projects from templates.

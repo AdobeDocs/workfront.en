@@ -5,23 +5,23 @@ content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 title: Understand Enhanced analytics KPIs
-description: Important: A Business plan or higher is required to use this feature. For more information about the various plans available, see Adobe Workfront Plans.
+description: At the top of the screen in the Enhanced analytics area, 4 key performance indicators (KPIs) display. These metrics allow you to quickly understand how long projects are taking, how big the projects are, and how many projects are being completed within a specific time frame. These numbers are not limited to the 50-project maximum that displays for the visualizations on this page. Instead, this data is based on all projects that apply to any set filters, and these numbers adjust if you change the selected date range or any of the filters.
 ---
 
-# Understand *Enhanced analytics* KPIs
+# Understand `Enhanced analytics` KPIs
 
 >[!IMPORTANT]
 >
 >A Business plan or higher is required to use this feature.  
->For more information about the various plans available, see [*Adobe Workfront* Plans](https://www.workfront.com/plans).
+>For more information about the various plans available, see [ `Adobe Workfront` Plans](https://www.workfront.com/plans).
 
-At the top of the screen in the *Enhanced analytics* area, 4 key performance indicators (KPIs) display. These metrics allow you to quickly understand how long projects are taking, how big the projects are, and how many projects are being completed within a specific time frame. These numbers are not limited to the 50-project maximum that displays for the visualizations on this page. Instead, this data is based on all projects that apply to any set filters, and these numbers adjust if you change the selected date range or any of the filters.
+At the top of the screen in the `Enhanced analytics` area, 4 key performance indicators (KPIs) display. These metrics allow you to quickly understand how long projects are taking, how big the projects are, and how many projects are being completed within a specific time frame. These numbers are not limited to the 50-project maximum that displays for the visualizations on this page. Instead, this data is based on all projects that apply to any set filters, and these numbers adjust if you change the selected date range or any of the filters.
 
 To learn how to add filters, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 ## Walk-through
 
-View the following video to learn more about the KPIs in the *Enhanced analytics* area:
+View the following video to learn more about the KPIs in the `Enhanced analytics` area:
 
 `<iframe class="vimeo-player_0" src="assets/441154701?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 

@@ -4,18 +4,18 @@ product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Create Proofing Groups using Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: A Select or Premium Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
 ---
 
-# Create Proofing Groups using *Workfront Proof*
+# Create Proofing Groups using `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-A Select or Premium Plan is required to use this feature. For more information about the various plans available, see [*Workfront* Plans.](https://www.workfront.com/plans)
+A Select or Premium Plan is required to use this feature. For more information about the various plans available, see [ `Workfront` Plans.](https://www.workfront.com/plans)
 
-You can create groups of users that you can add as reviewers on multiple *proofs*. This is useful if you send content to the same users regularly.
+You can create groups of users that you can add as reviewers on multiple `proofs`. This is useful if you send content to the same users regularly.
 
 1. On the Dashboard, click the down arrow next to `New,` then click `New group`.
 

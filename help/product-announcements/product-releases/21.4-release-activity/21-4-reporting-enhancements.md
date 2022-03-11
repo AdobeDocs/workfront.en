@@ -2,9 +2,9 @@
 
 # 21.4 Reporting enhancements
 
-This page describes all *Reporting* enhancements made with the *21.4* release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
+This page describes all `Reporting` enhancements made with the `21.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the *21.4* release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the `21.4` release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
 ## New look and feel for the Assignments field in updated lists and reports
 
@@ -14,7 +14,7 @@ For a list of all changes available with the *21.4* release, see [21.4 Release o
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*.
+>This feature is available only in `the new Adobe Workfront experience`.
 
 To match the modern look of other areas in the new Workfront experience, the styling has changed for the Assignments field in updated lists and reports. This redesign includes:
 
@@ -25,19 +25,7 @@ To match the modern look of other areas in the new Workfront experience, the sty
 * A new Restricted Access icon
 * Other minor design changes
 
-For more information on assignments in lists, see 
-
-<!--
-<a href="../../../manage-work/tasks/assign-tasks/assign-tasks.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Assign tasks</a>
--->
-
-[Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md) or 
-
-<!--
-<a href="../../../manage-work/issues/manage-issues/assign-issues.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Assign issues</a>
--->
-
-[Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md).
+For more information on assignments in lists, see Assign tasks or Assign issues.
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -49,7 +37,7 @@ For more information on assignments in lists, see
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*.
+>This feature is available only in `the new Adobe Workfront experience`.
 
 To match the modern look of other areas in the new Workfront experience, the styling has changed for typeahead fields in updated lists and reports. These changes include:
 
@@ -57,19 +45,7 @@ To match the modern look of other areas in the new Workfront experience, the sty
 * When you click a typeahead field, the suggestions menu now displays before you enter text. 
 * The suggestions menu is more responsive to the length of values and these values are now truncated at the end when the character limit is met instead of in the middle of the value.
 
-For information on updated lists, see the 
-
-<!--
-<a href="../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">The difference between the updated and the legacy lists</a>
--->
-
-[The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) section in the article 
-
-<!--
-<a href="../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Get started with lists in&nbsp;Adobe Workfront</a>
--->
-
-[Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+For information on updated lists, see the The difference between the updated and the legacy lists section in the article Get started with lists in Adobe Workfront.
 
 ![](assets/typeahead-updates-350x336.png)
 

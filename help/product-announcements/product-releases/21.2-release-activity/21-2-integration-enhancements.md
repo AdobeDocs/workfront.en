@@ -9,7 +9,7 @@ description: This page describes all Integration enhancements made with the 21.2
 
 # 21.2 Integration enhancements
 
-This page describes all *Integration* enhancements made with the *21.2* release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the *21.2* release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+This page describes all `Integration` enhancements made with the `21.2` release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the `21.2` release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Introducing Workfront for Adobe XD
 
@@ -33,7 +33,7 @@ For more information, see [Link documents from external applications](../../../d
 
 The Google Drive integration now supports new Google security protocols.
 
-When linking to, uploading, or creating files on Google Drive from the Documents section of a *Adobe Workfront* object, Workfront now accesses your Google files through Google's file picker. This limits Workfront's access and visibility only to those Google files that you link to Workfront.
+When linking to, uploading, or creating files on Google Drive from the Documents section of a `Adobe Workfront` object, Workfront now accesses your Google files through Google's file picker. This limits Workfront's access and visibility only to those Google files that you link to Workfront.
 
 Previously, files were accessed through a file dialog based in Workfront.
 

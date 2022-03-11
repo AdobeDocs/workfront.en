@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Overview of task Priorities
 
@@ -48,7 +48,7 @@ Consider the following when using task priorities:
 
 <ul> 
  <li><![CDATA[
-			]]><em>Adobe Workfront administrators</em> can modify priority labels within <em>Workfront</em> or they can create new priorities. As a result, the options you might have for the Priority field in your <em>Workfront</em> instance might differ from those listed below. For information about customizing the names of priorities in your instance, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>. </li> 
+			]]><span>Adobe Workfront administrators</span> can modify priority labels within <span>Workfront</span> or they can create new priorities. As a result, the options you might have for the Priority field in your <span>Workfront</span> instance might differ from those listed below. For information about customizing the names of priorities in your instance, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>. </li> 
  <li> <p>Each priority label has a number associated with it that can not be modified. </p> <p style="font-weight: normal;"> You should become familiar with the numbering sequence for priorities used in your organization. </p> <p style="font-weight: normal;">For example, your organization might use the number 1 to refer to urgent tasks, if the label of the priority has been modified. </p> <p style="font-weight: normal;"> Refer to the following table to understand each default priority label and its corresponding number: </p> 
   <table cellspacing="15"> 
    <col> 
@@ -88,20 +88,8 @@ Consider the following when using task priorities:
 
 ## Modify the Priority of a task
 
-<ol> 
- <li value="1"> Go to the task whose priority you want to modify. </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Task Details</span> in the left panel. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Task Details</span> in the left panel. </p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/qs-edit-icon.png">, then in the <span class="bold">Overview</span> area, select a value for the <span class="bold">Priority</span> field. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/qs-edit-icon.png">, then in the <span class="bold">Overview</span> area, select a value for the <span class="bold">Priority</span> field. </p> </li> 
- <li value="4"> <p> Click <span class="bold">Save</span><draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <span class="bold">Changes</span>
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <span class="bold">Changes</span>
-   </MadCap:conditionalText>. </p> </li> 
-</ol>
+1. Go to the task whose priority you want to modify. 
+1. Click Task Details in the left panel. 
+1. Click the Edit icon , then in the Overview area, select a value for the Priority field. 
+1. Click `Save`Changes.
 

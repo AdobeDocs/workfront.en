@@ -7,16 +7,7 @@ title: Risk to Net Value (Draft - Alina) in the new Adobe Workfront experience
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Risk to Net Value (Draft - Alina) 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-in
-<em>the new Adobe Workfront experience</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> in  <em>the new Adobe Workfront experience</em></MadCap:conditionalText>`
+# Risk to Net Value (Draft - Alina) in the new Adobe Workfront experience
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 

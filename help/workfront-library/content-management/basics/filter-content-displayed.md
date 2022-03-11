@@ -7,7 +7,7 @@ title: Filter content displayed in Workfront Library
 description: You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see Search for items in Workfront Library.
 ---
 
-# Filter content displayed in *Workfront Library*
+# Filter content displayed in `Workfront Library`
 
 You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md).
 
@@ -20,13 +20,11 @@ Each filter on the Filter panel contains facets, which are filters that allow yo
 If your organization allows you to add keywords to uploaded content, you can enhance your filtering by selecting the keywords you want to filter for.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </li> 
- <li value="2"> <p>In the upper-left corner of <em>Workfront Library</em>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
+ <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>Select the area you want to filter.</p> 
   <ul> 
-   <li>If you have Manager or higher access to <em>Workfront Library</em>, you can filter the My Content and Library areas. </li> 
+   <li>If you have Manager or higher access to <span>Workfront Library</span>, you can filter the My Content and Library areas. </li> 
    <li>Users with Viewer access can filter only the Library area.</li> 
   </ul> </li> 
  <li value="4"> <p>Click the <span class="bold">Filter</span> icon.</p> <p> <img src="assets/filter-icon-location-350x102.png" style="width: 350;height: 102;"> </p> <p>The Filter panel opens and displays the filters you can use.</p> <p> <img src="assets/filters-closed-350x157.png" style="width: 350;height: 157;"> </p> </li> 

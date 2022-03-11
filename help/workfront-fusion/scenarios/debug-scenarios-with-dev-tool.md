@@ -7,9 +7,9 @@ title: Debug scenarios with the Adobe Workfront Fusion DevTool
 description: The Adobe Workfront Fusion DevTool allows you to understand and troubleshoot scenarios. The DevTool adds an extra panel to the Chrome Developer Tools. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
 ---
 
-# Debug scenarios with the *Adobe Workfront Fusion* DevTool
+# Debug scenarios with the `Adobe Workfront Fusion` DevTool
 
-The *Adobe Workfront Fusion* DevTool allows you to understand and troubleshoot scenarios. The DevTool adds an extra panel to the Chrome Developer Tools. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
+The `Adobe Workfront Fusion` DevTool allows you to understand and troubleshoot scenarios. The DevTool adds an extra panel to the Chrome Developer Tools. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
 
 ## Access requirements
 
@@ -20,51 +20,29 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Install the Chrome DevTool extension
 
-To use the *Workfront Fusion* DevTool, you first need to install it.
+To use the `Workfront Fusion` DevTool, you first need to install it.
 
 1. Click [this link](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) to download the extension.
 1. When the files have downloaded, extract them to a folder of your choice.
@@ -82,12 +60,12 @@ To use the *Workfront Fusion* DevTool, you first need to install it.
 
    Once unpacked, the DevTool appears among your other Chrome extensions.
 
-## Locate the *Workfront Fusion* DevTool
+## Locate the `Workfront Fusion` DevTool
 
-To use the *Workfront Fusion* DevTool, you must add the Workfront Fusion DevTool extension to your Chrome browser, as described in [Install the Chrome DevTool extension](#install).
+To use the `Workfront Fusion` DevTool, you must add the Workfront Fusion DevTool extension to your Chrome browser, as described in [Install the Chrome DevTool extension](#install).
 
 <ol> 
- <li value="1"> <p>Open your <em>Workfront Fusion</em> scenario.</p> </li> 
+ <li value="1"> <p>Open your <span>Workfront Fusion</span> scenario.</p> </li> 
  <li value="2"> <p>Open Chrome Developer Tools:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -108,9 +86,9 @@ To use the *Workfront Fusion* DevTool, you must add the Workfront Fusion DevTool
  <li value="3"> <p>Click the<span class="bold"> Workfront Fusion</span> tab in Chrome Dev Tools.</p> </li> 
 </ol>
 
-## Use the *Workfront Fusion* DevTool
+## Use the `Workfront Fusion` DevTool
 
-*Workfront Fusion* DevTool is divided into 3 main sections. You can find these in the left panel of your DevTool window.
+`Workfront Fusion` DevTool is divided into 3 main sections. You can find these in the left panel of your DevTool window.
 
 * [Live Stream](#live) 
 * [Scenario Debugger](#scenario) 
@@ -141,15 +119,15 @@ Live Stream displays what is happening in the background when you click Run once
        <li> <p>Request Body</p> </li> 
        <li> <p>Response Headers</p> </li> 
        <li> <p>Response Body</p> </li> 
-      </ul> <p>To view this information, click the appropriate tab in the right panel of the <em>Workfront Fusion</em> DevTool.</p> </td> 
+      </ul> <p>To view this information, click the appropriate tab in the right panel of the <span>Workfront Fusion</span> DevTool.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader"> <p>Search requests and responses</p> </td> 
-     <td> <p>Enter the search term into the search field in the left panel of the <em>Workfront Fusion</em> DevTool to display only requests that contain the search term.</p> </td> 
+     <td> <p>Enter the search term into the search field in the left panel of the <span>Workfront Fusion</span> DevTool to display only requests that contain the search term.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader"> <p>Remove list of requests </p> </td> 
-     <td> <p>Click the trash bin icon in the top-right corner of the DevTool's left panel to clear the list of requests recorded by the <em>Workfront Fusion</em> DevTool. </p> </td> 
+     <td> <p>Click the trash bin icon in the top-right corner of the DevTool's left panel to clear the list of requests recorded by the <span>Workfront Fusion</span> DevTool. </p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader"> <p>Enable Console Logging</p> </td> 
@@ -173,14 +151,14 @@ The Scenario Debugger is useful for more complex scenarios. It displays the hist
 
 <ol> 
  <li value="1"> <p>Click the <span class="bold">Scenario Debugger</span> icon <img src="assets/scenario-debugger-icon.png"> to open the Scenario Debugger.</p> </li> 
- <li value="2"> <p>(Optional) Enter the search term (name or module ID) in the search field in the left pane of <em>Workfront Fusion</em> DevTool in the Scenario Debugger section.</p> </li> 
+ <li value="2"> <p>(Optional) Enter the search term (name or module ID) in the search field in the left pane of <span>Workfront Fusion</span> DevTool in the Scenario Debugger section.</p> </li> 
  <li value="3"> <p>Double-click the module's name to open its settings in the scenario editor.</p> </li> 
  <li value="4"> <p>View request details by clicking the desired operation.</p> </li> 
 </ol>
 
 ### Tools
 
-The *Workfront Fusion* DevTool features tools that make setting up your scenario easier.
+The `Workfront Fusion` DevTool features tools that make setting up your scenario easier.
 
 <ol> 
  <li value="1"> <li> <li> <p>Click the <span class="bold">Tools</span> icon <img src="assets/console-tools-icon.png"> to open the Tools.</p> </li> </li> </li> 

@@ -7,7 +7,7 @@ description: After you complete and submit the Business Case for a project reque
 
 # Approve a Business Case
 
-After you complete and submit the Business Case for a project request, the Business Case must be approved. This depends on the workflow in your organization. A project can start without the Business Case having to be approved, but your *Adobe Workfront administrator* and project owners might not consider it ideal to do so.&nbsp;
+After you complete and submit the Business Case for a project request, the Business Case must be approved. This depends on the workflow in your organization. A project can start without the Business Case having to be approved, but your `Adobe Workfront administrator` and project owners might not consider it ideal to do so.&nbsp;
 
 For more information about completing and submitting a Business Case, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -20,20 +20,20 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>group administrator</em>. For more information on <em>group administrators</em>, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+     You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
+    --> <!--
+     You must be a group administrator. For more information on group administrators, see Group administrators.
+    --> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Overview of Business Case approval
 
@@ -50,7 +50,7 @@ Consider the following when approving a Business Case of a project:
 
 * You must have Manage permissions to a project to approve the Business Case for it.&nbsp;
 * You will not be able to see the projects which are waiting for the Business Case to be approved under your Approvals in Home.
-* You must manually go to the individual projects that need Business Case approval to see that they are pending approval. There is no *Workfront* notification mechanism that alerts someone that they must approve the Business Case of a project. 
+* You must manually go to the individual projects that need Business Case approval to see that they are pending approval. There is no `Workfront` notification mechanism that alerts someone that they must approve the Business Case of a project. 
 * You can find the projects waiting for the approval of the Business Case either by building a project report, or by accessing the portfolio they are associated with.&nbsp;
 
   For more information about Portfolios, see the article [Portfolio overview in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
@@ -77,15 +77,7 @@ To build a report for projects which are pending approval of their Business Case
   </ul> </li> 
  <li value="9"> <p>Click <span class="bold">Save+Close</span>.</p> <p>Notice that all projects in the report are in the status of <span class="bold">Requested</span>.</p> </li> 
  <li value="10"> <p>Click the name of a project in the report to open it.</p> </li> 
- <li value="11"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Business Case</span> in the left panel. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Business Case</span> in the left panel. 
-  </MadCap:conditionalText></li> 
+ <li value="11"> Click Business Case in the left panel.</li> 
  <li value="12"> <p>Click <span class="bold">Approve</span> or <span class="bold">Reject</span> in the Business Case Summary area to approve or reject the Business Case.&nbsp;</p> <p> <img src="assets/business-case-summary-with-rp-information--1-.png"> </p> <p>The project status is changed to <span class="bold">Approved</span> if the Business Case is approved. </p> <p>The project status is changed to <span class="bold">Rejected</span> if the Business case is rejected.</p> <note type="note">
    There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.
   </note> </li> 
@@ -93,22 +85,6 @@ To build a report for projects which are pending approval of their Business Case
 
 ##
 
-##  
+##  Approve the Business Case by accessing Requested projects in a portfolio
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Approve the Business Case by accessing Requested projects in a portfolio
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Approve the Business Case by accessing Requested projects in a portfolio</MadCap:conditionalText>`
-
-For more information about reviewing 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Requested
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Requested </MadCap:conditionalText>`projects, see the article [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+For more information about reviewing Requestedprojects, see the article [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

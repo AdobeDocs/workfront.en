@@ -6,9 +6,9 @@ title: Print a proof summary within Adobe Workfront
 description: You can print a proof summary, save it as a PDF, or export it as an XLS file or PDF file that is optimized for Adobe Reader.
 ---
 
-# Print a *proof* summary within *Adobe Workfront*
+# Print a `proof` summary within `Adobe Workfront`
 
-You can print a *proof* summary, save it as a PDF, or export it as an XLS file or PDF file that is optimized for Adobe Reader.
+You can print a `proof` summary, save it as a PDF, or export it as an XLS file or PDF file that is optimized for Adobe Reader.
 
 ## Access requirements
 
@@ -19,38 +19,36 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
    <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
-## Print a *proof* summary or save it as a PDF file
+## Print a `proof` summary or save it as a PDF file
 
-You can print a *proof* summary directly from the document list.
+You can print a `proof` summary directly from the document list.
 
 >[!NOTE]
 >
->You cannot print multiple *proof* summaries from the document list at the same time.
+>You cannot print multiple `proof` summaries from the document list at the same time.
 
 <ol> 
- <li value="1"> <p>From the document list that contains the <em>proof</em>, hover over the row containing the document, then click <span class="bold">Print Summary</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/proof-printsummary-350x166.png" alt="proof_printsummary.png" style="width: 350;height: 166;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/proof-printsummary-350x166.png" alt="proof_printsummary.png" style="width: 350;height: 166;"> </p> <p>Or</p> <p>While viewing the <em>proof</em> in the the <em>proofing viewer</em>, click the <span class="bold">Print&nbsp;</span>icon <img src="assets/print-icon-in-pv.png"> in the left toolbar. (If the left toolbar is not visible, click the Menu icon <img src="assets/menu-icon-in-pv.png"> in the upper-left corner of the <em>proofing viewer</em>.)</p> </li> 
+ <li value="1"> <p>From the document list that contains the <span>proof</span>, hover over the row containing the document, then click <span class="bold">Print Summary</span>.</p>  <p>Or</p> <p>While viewing the <span>proof</span> in the the <span>proofing viewer</span>, click the <span class="bold">Print&nbsp;</span>icon <img src="assets/print-icon-in-pv.png"> in the left toolbar. (If the left toolbar is not visible, click the Menu icon <img src="assets/menu-icon-in-pv.png"> in the upper-left corner of the <span>proofing viewer</span>.)</p> </li> 
  <li value="2"> <p>Use any of the following options:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -60,16 +58,16 @@ You can print a *proof* summary directly from the document list.
      <td role="rowheader">Show</td> 
      <td> <p>Specify what you want to print:</p> 
       <ul> 
-       <li>The <span class="bold">Current version</span> or <span class="bold">All versions</span> of the <em>proof</em></li> 
+       <li>The <span class="bold">Current version</span> or <span class="bold">All versions</span> of the <span>proof</span></li> 
        <li>Only the <span class="bold">Pages with comments</span> or <span class="bold">All pages</span></li> 
-       <li>Only the <span class="bold">Page thumbnails</span> (a small rendering of each page)&nbsp;or <span class="bold">Full pages</span> (a full rendering of the <em>proof</em>)<br></li> <note type="note">
+       <li>Only the <span class="bold">Page thumbnails</span> (a small rendering of each page)&nbsp;or <span class="bold">Full pages</span> (a full rendering of the <span>proof</span>)<br></li> <note type="note">
          In order to see pin numbers on markup in your printed output, you need to select Full pages, not Page thumbnails.&nbsp;
        </note> 
       </ul> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Sort comments by</td> 
-     <td> <p>(Available only if you selected Page Thumbnails above) Specify the order in which you want the <em>proof</em>'s comments to print:</p> 
+     <td> <p>(Available only if you selected Page Thumbnails above) Specify the order in which you want the <span>proof</span>'s comments to print:</p> 
       <ul> 
        <li><span class="bold">Oldest</span>: From first comment made to last</li> 
        <li><span class="bold">Latest</span>: From last comment made to first</li> 
@@ -88,7 +86,7 @@ You can print a *proof* summary directly from the document list.
     </tr> 
     <tr> 
      <td role="rowheader">Workflow</td> 
-     <td> <p>(Available only if the proof has an Automated Workflow) You can click <span class="bold">Show diagram</span> to include a diagram in printed output showing the stages on the <em>proof</em> and decisions made on each stage. In the diagram that appears, the colors represent decisions made on a stage:</p> <p><span class="bold">Green</span>: Approved</p> <p><span class="bold">Blue</span>: Pending a decision</p> <p><span class="bold">Red</span>: Changes required decision</p> <p><span class="bold">Grey</span>: Not started yet</p> <p><span class="bold">Yellow</span>: Approved with changes</p> </td> 
+     <td> <p>(Available only if the proof has an Automated Workflow) You can click <span class="bold">Show diagram</span> to include a diagram in printed output showing the stages on the <span>proof</span> and decisions made on each stage. In the diagram that appears, the colors represent decisions made on a stage:</p> <p><span class="bold">Green</span>: Approved</p> <p><span class="bold">Blue</span>: Pending a decision</p> <p><span class="bold">Red</span>: Changes required decision</p> <p><span class="bold">Grey</span>: Not started yet</p> <p><span class="bold">Yellow</span>: Approved with changes</p> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -97,30 +95,22 @@ You can print a *proof* summary directly from the document list.
 </ol>
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about using and customizing decisions, see <a href="../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p>
+For information about using and customizing decisions, see Configure approval decision options in Workfront Proof.
 -->
 
-For information about using and customizing decisions, see [Configure approval decision options in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+## Export a `proof` summary as an XLS or PDF
 
-## Export a *proof* summary as an XLS or PDF
-
-You can export a *proof* summary for static content as an XLS file or as a PDF file. Proof exports include only the content of the proof.
+You can export a `proof` summary for static content as an XLS file or as a PDF file. Proof exports include only the content of the proof.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 You can't include a diagram showing the stages and decisions made on the proof.
-</MadCap:conditionalText>
 -->
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  You can't include a diagram showing the stages and decisions made on the proof. </MadCap:conditionalText>`
-
 <ol> 
- <li value="1"> <p>From the document list that contains the <em>proof</em>, hover over the row containing the document, then click <span class="bold">Print Summary</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/proof-printsummary-350x166.png" alt="proof_printsummary.png" style="width: 350;height: 166;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/proof-printsummary-350x166.png" alt="proof_printsummary.png" style="width: 350;height: 166;"> </p> </li> 
+ <li value="1"> <p>From the document list that contains the <span>proof</span>, hover over the row containing the document, then click <span class="bold">Print Summary</span>.</p>  </li> 
  <li value="2"> <p>Click the XLS icon or PDF icon near the upper-right corner of the page. </p> <p> <img src="assets/xls-pdf-icons-350x136.png" style="width: 350;height: 136;"> </p> </li> 
 </ol>
 
 When the exported file is ready, you receive an email from which you can download the file.
 
-If you exported the summary as a PDF file, comments on the *proof* appear in the PDF reader. If a comment has multiple markups associated with it, the comment will appear multiple times in the comments list (once for each markup).
+If you exported the summary as a PDF file, comments on the `proof` appear in the PDF reader. If a comment has multiple markups associated with it, the comment will appear multiple times in the comments list (once for each markup).

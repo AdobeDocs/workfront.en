@@ -2,9 +2,9 @@
 
 # 21.4 Requests enhancements
 
-This page describes all *Requests* enhancements made with the *21.4* release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
+This page describes all `Requests` enhancements made with the `21.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the *21.4* release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the `21.4` release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
 ## Improved search for requests now includes special characters
 
@@ -24,7 +24,7 @@ For information about submitting requests, see [Create and submit Adobe Workfron
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*.
+>This feature is available only in `the new Adobe Workfront experience`.
 
 To keep the look and feel for submitting requests the same everywhere in the new Workfront experience, we have redesigned the interface for adding requests to an embedded request queue. Prior to this enhancement, the interface for adding requests from a dashboard matched the Workfront classic environment.
 

@@ -9,7 +9,7 @@ description: As you plan the work on your projects, Adobe Workfront calculates t
 
 # Calculate Planned Labor Cost
 
-As you plan the work on your projects, *Adobe Workfront* calculates the Planned Labor Cost for the roles and users assigned to this work based on their Cost Per Hour values.
+As you plan the work on your projects, `Adobe Workfront` calculates the Planned Labor Cost for the roles and users assigned to this work based on their Cost Per Hour values.
 
 The Planned Labor Cost of a project is a calculation between the cost associated with the job roles or the users assigned to complete the work on the project and the amount of hours planned (Planned Hours) that might take each role or user to complete that work.
 
@@ -21,7 +21,7 @@ The `Planned Labor Cost` of a project is calculated by adding all the Planned La
 >
 >There is no Planned Labor Cost associated with issues or with the project itself.
 
-*Workfront* calculates the Planned Labor Cost of a project using the following formula:
+`Workfront` calculates the Planned Labor Cost of a project using the following formula:
 
 ```
 Project Planned Labor Cost= SUM(Tasks Planned Labor Cost)
@@ -38,18 +38,18 @@ The Task Planned Labor Cost is calculated using the following formula:
 Task Planned Cost = Planned Hours x User or Job Role Cost Per Hour
 ```
 
-For more information about how *Workfront* calculates Planned Labor Cost for tasks, depending on task assignments and Cost Type, see the "Modify Cost Types for individual tasks" section in the article [Track costs](../../../manage-work/projects/project-finances/track-costs.md).
+For more information about how `Workfront` calculates Planned Labor Cost for tasks, depending on task assignments and Cost Type, see the "Modify Cost Types for individual tasks" section in the article [Track costs](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Locate the Planned Labor Cost
 
-You can locate the Planned Labor Cost of a project in the following areas of *Workfront*:
+You can locate the Planned Labor Cost of a project in the following areas of `Workfront`:
 
 * A Project report
 * A list of projects
 * A Baseline report where you can track it over time
 * Through the API
 
-For information about creating reports and using the *Workfront* API, see the following articles:
+For information about creating reports and using the `Workfront` API, see the following articles:
 
 * [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) 
 * [API basics](../../../wf-api/general/api-basics.md)

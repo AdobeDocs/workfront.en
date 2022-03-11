@@ -11,7 +11,7 @@ description: When you are viewing a group that you manage in the Groups area, yo
 
 When you are viewing a group that you manage in the Groups area, you can view and work with project templates associated with the group and any of its subgroups.
 
-If there are any groups above your group, their administrators can also do these things for your group. The same is true for *Workfront administrators* (for any group).
+If there are any groups above your group, their administrators can also do these things for your group. The same is true for `Workfront administrators` (for any group).
 
 ## Access requirements
 
@@ -22,12 +22,12 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> <p>You must be a <em>group administrator</em> of the group or a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -36,14 +36,14 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## View, work with, and create templates for your group from the Groups area
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3">Click the name of the group for which you want to create or modify <em>templates</em>.</li> 
+ <li value="3">Click the name of the group for which you want to create or modify <span>templates</span>.</li> 
  <li value="4"> <p>In the left panel, click <span class="bold">Templates</span> to list the templates that are associated with the group and with any subgroups it might have.</p> <p>You must have View access to a template to see it in this list. For information about this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> </li> 
  <li value="5"> <p>Do any of the following:</p> 
   <table cellspacing="0"> 

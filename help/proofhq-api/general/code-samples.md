@@ -4,13 +4,13 @@
 
 ## PHP
 
-The attached&nbsp;file "PHP.proofhq.uploader.two.scripts.with.callbacks.zip" contains&nbsp;a number of pages that demonstrates how a proof or file can be uploaded into the *Workfront Proof* system using PHP code. Additionally, they perform Callback actions when creating the *proof*.
+The attached file "PHP.proofhq.uploader.two.scripts.with.callbacks.zip" contains a number of pages that demonstrates how a proof or file can be uploaded into the `Workfront Proof` system using PHP code. Additionally, they perform Callback actions when creating the `proof`.
 
-The sample can be viewed by loading either the "proofhq.*proofs*.uploader.html" or "proofhq.files.uploader.html" in a web browser.
+The sample can be viewed by loading either the "proofhq. `proofs`.uploader.html" or "proofhq.files.uploader.html" in a web browser.
 
 ## .NET
 
-The attached&nbsp;file "dot.NET.proofhq.login.and.get.sessionID.rar&nbsp;" contains&nbsp;a sample of how to log in to *Workfront Proof* system and see session ID using .NET code.&nbsp;
+The attached file "dot.NET.proofhq.login.and.get.sessionID.rar " contains a sample of how to log in to `Workfront Proof` system and see session ID using .NET code.&nbsp;
 
 Please note that&nbsp;reference to our API must be added as Web Reference instead of Service Reference, as shown in attached screencast "dot.NET.reference.swf".&nbsp;
 

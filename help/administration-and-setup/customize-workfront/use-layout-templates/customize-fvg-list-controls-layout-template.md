@@ -10,7 +10,7 @@ description: As an Adobe Workfront administrator, you can use a layout template 
 
 # Customize Filters, Views, and Groupings using a layout template
 
-As an *Adobe Workfront administrator*, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout *Workfront*, such as the list of tasks for a project:
+As an `Adobe Workfront administrator`, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout `Workfront`, such as the list of tasks for a project:
 
 ![](assets/filter-view-grouping---layout-templates-350x98.png)
 
@@ -27,16 +27,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,14 +46,14 @@ You must have the following to perform the steps in this article:
 <ol> 
  <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
  <li value="2"> <p>Click the down arrow <img src="assets/down-arrow-blue.png"> under <span class="bold">Customize what users see</span>, then click <span class="bold">Lists</span> in the drop-down menu that displays.</p> <p> <img src="assets/customize-what-users-see-dropdown-on-pg-adobe-branding-350x180.png" style="width: 350;height: 180;"> </p> </li> 
- <li value="3"> <p>Click the down arrow <img src="assets/down-arrow-blue.png"> under <span class="bold">Select a list to customize</span>, then select the type of <em>Workfront</em> object for which you want to customize the Filter, View, and Grouping list controls.</p> <p> <img src="assets/select-a-list-to-customize-menu-on-pg-adobe-branding-350x161.png" style="width: 350;height: 161;"> </p> <note type="note">  
+ <li value="3"> <p>Click the down arrow <img src="assets/down-arrow-blue.png"> under <span class="bold">Select a list to customize</span>, then select the type of <span>Workfront</span> object for which you want to customize the Filter, View, and Grouping list controls.</p> <p> <img src="assets/select-a-list-to-customize-menu-on-pg-adobe-branding-350x161.png" style="width: 350;height: 161;"> </p> <note type="note">  
    <p>If you select Projects as the list to customize, then disable Projects I'm On or Projects I Own in the Filter section, users will no longer see or be able to use that filter:</p> 
    <ul> 
     <li> <p>In the list of filters that displays when they click the filter icon <img src="assets/filter-nwepng.png"> above a list:</p> <p> <img src="assets/disable-filters-projects-im-on-or-own-350x249.png" style="width: 350;height: 249;"> </p> </li> 
     <li> <p>In the header on the Projects area header:</p> <p> <img src="assets/disable-filter-pills-350x115.png" style="width: 350;height: 115;"> </p> <p>For more information about these filters in the Projects area header, see the section <a href="../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md#project" class="MCXref xref">Project lists under a Portfolio</a> in the article <a href="../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md" class="MCXref xref">Subtabs replaced by new main areas or filters in the new Adobe Workfront experience</a>.</p> </li> 
    </ul> 
   </note> </li> 
- <li value="4"> <p>(Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click <span class="bold">Set as default</span>.</p> <p>The defaults you choose determine which Filter, View, and Grouping users will see in lists throughout <em>Workfront</em> when the layout template is assigned to them. If you don’t change these defaults, users see all lists as follows:</p> 
+ <li value="4"> <p>(Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click <span class="bold">Set as default</span>.</p> <p>The defaults you choose determine which Filter, View, and Grouping users will see in lists throughout <span>Workfront</span> when the layout template is assigned to them. If you don’t change these defaults, users see all lists as follows:</p> 
   <ul> 
    <li><span class="bold">Filters</span>: All</li> 
    <li><span class="bold">View</span>: Standard (where applicable; some lists do not have this view)</li> 

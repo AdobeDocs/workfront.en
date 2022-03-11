@@ -6,7 +6,7 @@ title: Share a goal in Adobe Workfront Goals
 description: When you share a goal you give Manage permissions to a goal to someone who did not create it.
 ---
 
-# Share a goal in *Adobe Workfront Goals*
+# Share a goal in `Adobe Workfront Goals`
 
 When you share a goal you give Manage permissions to a goal to someone who did not create it.
 
@@ -19,46 +19,29 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <em>Adobe Workfront Goals</em> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Object permissions</td> 
-    <td> 
-     <div> 
-      <p>Manage permissions to the goal</p> 
-      <p>For information about sharing goals, see <a href="#" class="MCXref xref selected">Share a goal in Adobe Workfront Goals</a>. </p> 
-     </div> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-    <div> 
-     <p>Manage permissions to the goal</p> 
-     <p>For information about sharing goals, see <a href="#" class="MCXref xref selected">Share a goal in Adobe Workfront Goals</a>. </p> 
-    </div> </td> 
-  </tr> 
+  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -97,7 +80,7 @@ Before you begin, you must have the following:
 ## Share a goal
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Goals</span>.</p> <p>The Goal List displays. </p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Workfront</span>, then click <span class="bold">Goals</span>.</p> <p>The Goal List displays. </p> </li> 
  <li value="2"> <p>Click the name of a goal in the list. The Goal&nbsp;Details panel opens. </p> <note type="tip">
    You can click the name of a list from any section in the Goals area to open the Goal&nbsp;Details panel. 
   </note> </li> 
@@ -145,18 +128,7 @@ The following table lists the permissions that you can grant when sharing a goal
    <td>Copy goal* </td> 
    <td>✓ </td> 
    <td>✓</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td>Convert results or activities into other goals*</td> 
-    <td>✓</td> 
-    <td>✓</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td>Convert results or activities into other goals*</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-  </tr> 
+  </tr> Convert results or activities into other goals* ✓ ✓ 
   <tr> 
    <td>View projects added as activities** </td> 
    <td>✓</td> 

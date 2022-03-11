@@ -11,10 +11,10 @@ description: This table lists the administration activities available for:
 
 This table lists the administration activities available for:
 
-* An *Adobe Workfront administrator* managing the *Workfront* system
+* An `Adobe Workfront administrator` managing the `Workfront` system
 
-* A *group administrator* managing a top-level group
-* A *group administrator* managing a subgroup
+* A `group administrator` managing a top-level group
+* A `group administrator` managing a subgroup
 
 <table cellspacing="15"> 
  <col> 
@@ -24,14 +24,14 @@ This table lists the administration activities available for:
  <thead> 
   <tr> 
    <th>&nbsp;</th> 
-   <th><em>Workfront administrator</em> </th> 
-   <th><em>Group administrator</em> (actions are limited to the groups the administrator manages)</th> 
-   <th>Sub<em>group administrator</em> (actions are limited to the groups the administrator manages)</th> 
+   <th><span>Workfront administrator</span> </th> 
+   <th><span>Group administrator</span> (actions are limited to the groups the administrator manages)</th> 
+   <th>Sub<span>group administrator</span> (actions are limited to the groups the administrator manages)</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Enroll members in <em>the new Adobe Workfront experience</em></td> 
+   <td>Enroll members in <span>the new Adobe Workfront experience</span></td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
@@ -219,6 +219,6 @@ This table lists the administration activities available for:
  </tbody> 
 </table>
 
-&#42; In the *group administrator*’s access level, `Edit` must be selected for the `Users` setting, with `User Admin (Group Users)` selected under `Fine-tune your settings` ![](assets/gear-icon-in-access-levels.png). For more information, see the section [Configure users’ access to edit users using a custom access level](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in the article [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; In the `group administrator`’s access level, `Edit` must be selected for the `Users` setting, with `User Admin (Group Users)` selected under `Fine-tune your settings` ![](assets/gear-icon-in-access-levels.png). For more information, see the section [Configure users’ access to edit users using a custom access level](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in the article [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-&#42;&#42; In the *group administrator*'s access level, access to this action must be enabled. For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42; In the `group administrator`'s access level, access to this action must be enabled. For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).

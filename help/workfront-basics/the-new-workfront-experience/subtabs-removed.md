@@ -6,9 +6,9 @@ title: Subtabs replaced by new main areas or filters in the new Adobe Workfront 
 description: In the current version of Adobe Workfront, the multiple-level tabs make it sometimes difficult to find information and require time-consuming clicks.
 ---
 
-# Subtabs replaced by new main areas or filters in *the new Adobe Workfront experience*
+# Subtabs replaced by new main areas or filters in `the new Adobe Workfront experience`
 
-In the current version of *Adobe Workfront*, the multiple-level tabs make it sometimes difficult to find information and require time-consuming clicks.
+In the current version of `Adobe Workfront`, the multiple-level tabs make it sometimes difficult to find information and require time-consuming clicks.
 
 Some of the former tabs have been removed and some of them have been moved to a simpler, less-intrusive left navigation panel for several areas and objects. The tabs and subtabs that we have removed have been replaced by either main areas in the Main Menu or by filters.
 
@@ -23,7 +23,7 @@ Consider the following benefits of removing subtabs:
 
   This is improved in the case of Programs, where you do not have to open a Portfolio before you can access or add Programs. Instead, you can access a list of Programs from the Main Menu.
 
-* You can have a streamlined experience when viewing selective amounts of information throughout *the new Adobe Workfront experience* by using filters in all areas.
+* You can have a streamlined experience when viewing selective amounts of information throughout `the new Adobe Workfront experience` by using filters in all areas.
 
 The tabs and subtabs that we have removed have been replaced by either main areas in the Main Menu or by filters.
 
@@ -41,21 +41,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Tabs moved to the Main Menu
 
-The areas that you can access from the Main Menu in *the new Adobe Workfront experience* are dependent on:
+The areas that you can access from the Main Menu in `the new Adobe Workfront experience` are dependent on:
 
 * `Layout template configurations`: To learn how a Workfront administrator can modify the main menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -65,18 +65,18 @@ The areas that you can access from the Main Menu in *the new Adobe Workfront exp
 
 To learn more about an option in the Main Menu, see [Top navigation bar overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
-To access the new areas in *the new Adobe Workfront experience*:
+To access the new areas in `the new Adobe Workfront experience`:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;"> in the upper-right corner of <em>the new Adobe Workfront experience</em>.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;"> in the upper-right corner of <span>the new Adobe Workfront experience</span>.</li> 
  <li value="2"> <p>Click an area to access a list of objects.</p> </li> 
 </ol>
 
 ## Tabs and subtabs replaced by filters
 
-*Workfront* currently displays lists of objects filtered by predefined criteria in subtabs under their parent object or under a specific area.
+`Workfront` currently displays lists of objects filtered by predefined criteria in subtabs under their parent object or under a specific area.
 
-Because the subtab structure has been replaced in *the new Adobe Workfront experience*, you can display the same lists of objects under the same parent objects or areas by using predefined filters.
+Because the subtab structure has been replaced in `the new Adobe Workfront experience`, you can display the same lists of objects under the same parent objects or areas by using predefined filters.
 
 The information in the following subtabs is now available through filters:
 

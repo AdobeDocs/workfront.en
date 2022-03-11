@@ -7,20 +7,18 @@ title: Sort content in Workfront Library
 description: You can sort the items that display in an area in Workfront Library. You can sort only similar types of items. For example, when you sort content, all the content in the active area is sorted together. Folders are sorted together, separately from content. In the Collections area, collections in the My Collections section are sorted together, separately from the collections in the Collections Shared with Me section.
 ---
 
-# Sort content in *Workfront Library*
+# Sort content in `Workfront Library`
 
-You can sort the items that display in an area in *Workfront Library*. You can sort only similar types of items. For example, when you sort content, all the content in the active area is sorted together. Folders are sorted together, separately from content. In the Collections area, collections in the My Collections section are sorted together, separately from the collections in the Collections Shared with Me section.
+You can sort the items that display in an area in `Workfront Library`. You can sort only similar types of items. For example, when you sort content, all the content in the active area is sorted together. Folders are sorted together, separately from content. In the Collections area, collections in the My Collections section are sorted together, separately from the collections in the Collections Shared with Me section.
 
-When you sort items in *Workfront Library*, you sort only your instance of *Workfront Library*.
+When you sort items in `Workfront Library`, you sort only your instance of `Workfront Library`.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </li> 
- <li value="2"> <p>In the upper-left corner of <em>Workfront Library</em>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
+ <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="3"> <p>Select the area you want to sort.</p> 
   <ul> 
-   <li>Users with Manager or higher access to <em>Workfront Library</em> can sort the items in My Content, Library, or Collections areas. </li> 
+   <li>Users with Manager or higher access to <span>Workfront Library</span> can sort the items in My Content, Library, or Collections areas. </li> 
    <li>Users with Viewer access can sort their Library and Collections areas.</li> 
   </ul> </li> 
  <li value="4"> <p>Click the <span class="bold">Sort</span> drop-down arrow icon <img src="assets/sort-icon.png">.</p> </li> 

@@ -2,15 +2,15 @@
 
 # 21.3 Requests enhancements
 
-This page describes all *Requests* enhancements made with the *21.3* release to the Preview environment. These enhancements were made available in the Production environment the week of July 21, 2021.
+This page describes all `Requests` enhancements made with the `21.3` release to the Preview environment. These enhancements were made available in the Production environment the week of July 21, 2021.
 
-For a list of all changes available with the *21.3* release, see [21.3 Release overview](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+For a list of all changes available with the `21.3` release, see [21.3 Release overview](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Find requests by recent paths or by searching using a keyword
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*.
+>This feature is available only in `the new Adobe Workfront experience`.
 
 To help you find the right request queue faster by referring to recently logged requests, we have introduced the following improvements to finding a recently used queue:
 

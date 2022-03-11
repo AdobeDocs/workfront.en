@@ -8,7 +8,7 @@ description: As you share your reports with other users in Adobe Workfront, cons
 
 # Use conditional formatting in Views
 
-As you share your reports with other users in&nbsp;*Adobe Workfront*, consider customizing the View of the reports, to make certain information easier to read, or just stand out.
+As you share your reports with other users in  `Adobe Workfront`, consider customizing the View of the reports, to make certain information easier to read, or just stand out.
 
 You can customize the Details tab of your reports by adding special or conditional formatting to the view of your reports.
 
@@ -37,16 +37,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit a view in a report</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit a view in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -66,21 +66,7 @@ For information on creating a report, see [Create a report](../../../reports-and
 ## Create a conditionally formatted View
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>,then click&nbsp;
-    <span class="bold">Reports</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the 
-   <span class="bold">Main Menu</span> icon 
-   <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-   <em>Workfront</em>,then click&nbsp;
-   <span class="bold">Reports</span>.
-  </MadCap:conditionalText> </li> 
+ <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront,then click Reports. </li> 
  <li value="2"> <p>Click the name of a report where you want to create a conditionally-formatted view.</p> <p>Or</p> <p>Click&nbsp;<span class="bold">Report Actions</span>, then click&nbsp;<span class="bold">Edit</span>.</p> </li> 
  <li value="3">(Conditional) If you edited a report, select an existing column, or create a new column.<br></li> 
  <li value="4">Click <span class="bold">Advanced Options</span>.<br></li> 

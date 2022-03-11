@@ -1,23 +1,17 @@
 
 
-# Get started with goal alignment in *Workfront Goals*
+# Get started with goal alignment in `Workfront Goals`
 
 Your organization must have the following to use the functionality described in this article:
 
-* A *Pro* or higher [*Adobe Workfront* plan](https://www.workfront.com/plans). 
-* An *Adobe Workfront Goals* license in addition to a *Workfront* license.
+* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
+* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
 
-  Contact your *Workfront* account manager to learn about a *Workfront Goals* license.
+  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
 
-  *Workfront Goals* is available only in *the new Adobe Workfront experience*.
+  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
 
-For additional information about access to *Workfront Goals*, see 
-
-<!--
-<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>
--->
-
-[Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
 Goal alignment is an important element of goal management.
 
 You can ensure everyone in your organization is on the same page about what must be achieved to drive strategy forward by aligning their goals with each other and with the organizational goals of teams, groups, and the company.
@@ -35,13 +29,13 @@ Consider the following concepts when aligning your goals:
 
 * `Alignment`: The process of connecting one goal to another. For information about best practices for alignment, see the [Guidelines for goal alignment](#a) section in this article. 
 
-* `Cascading`: The process of creating goals where teams, groups, or the company are the owner, then connecting them to one another in a hierarchy.&nbsp;For example, a company-owned goal can cascade down to group-level goals. A&nbsp;group-level goal can cascade down to team-level goals which can ultimately cascade down to personal goals. For information about the difference between teams and groups in&nbsp;*Workfront*, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+* `Cascading`: The process of creating goals where teams, groups, or the company are the owner, then connecting them to one another in a hierarchy. For example, a company-owned goal can cascade down to group-level goals. A group-level goal can cascade down to team-level goals which can ultimately cascade down to personal goals. For information about the difference between teams and groups in  `Workfront`, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 ## Best practices for aligning goals
 
 When aligning your company goals, remember that they are meant to create clarity and focus through simplicity. If you are struggling with alignment, it is probably because you are trying to force together goals that are inherently disconnected from one another. If you ever feel stuck, simply revisit the top company goals, then the group and team goals, and decide what is the most important to keep.&nbsp;Eliminate anything that seems redundant or that does not align with your organization's vision.
 
-We recommend the following when aligning goals in *Workfront Goals*:
+We recommend the following when aligning goals in `Workfront Goals`:
 
 * Keep it simple: Identify what are your most important priorities for the company right now, and determine goals that will support that. Start with 3-5 company-level goals at the most. Always remember that goals must be specific and have a time limit.
 

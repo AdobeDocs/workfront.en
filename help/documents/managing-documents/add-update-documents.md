@@ -21,38 +21,28 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> licenses*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Add or reply to an update for a document
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the document you need.
 
-1. 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   In the Summary, under
-   <span class="bold">Updates</span>, click
-   <span class="bold">Start a new update</span>.
-   </MadCap:conditionalText>
-   -->
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the Summary, under  <span class="bold">Updates</span>, click  <span class="bold">Start a new update</span>.</MadCap:conditionalText>` For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
+1. In the Summary, under Updates, click Start a new update. For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
    Or
 
@@ -65,7 +55,7 @@ You must have the following:
 1. (Optional) Enable `Private to my company` if you want to prevent users outside your company from viewing your update.
 1. Click `Update` if you have added a new update, or click `Reply` if you replied to an update.
 
-## Add a reply to a *proofing* comment for a document
+## Add a reply to a `proofing` comment for a document
 
 In the Updates area, when you reply to a comment someone made while proofing a document, the proofing viewer launches so that you can type your reply there with the context you need. Your reply displays both in the proofing viewer and in the Updates area for the document.
 

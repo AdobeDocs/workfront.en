@@ -8,11 +8,11 @@ title: Enhanced analytics overview
 description: Enhanced analytics is a powerful tool in Adobe Workfront with prebuilt visualizations that allows you to look at project data and identify trends with planning and completion. This insight into your projects helps you manage your current work and enables you to plan more accurately for future work.
 ---
 
-# *Enhanced analytics* overview
+# `Enhanced analytics` overview
 
-*Enhanced analytics* is a powerful tool in *Adobe Workfront* with prebuilt visualizations that allows you to look at project data and identify trends with planning and completion. This insight into your projects helps you manage your current work and enables you to plan more accurately for future work.
+`Enhanced analytics` is a powerful tool in `Adobe Workfront` with prebuilt visualizations that allows you to look at project data and identify trends with planning and completion. This insight into your projects helps you manage your current work and enables you to plan more accurately for future work.
 
-*Enhanced analytics* can help you identify:
+`Enhanced analytics` can help you identify:
 
 * The way you plan projects
 * When work gets added to projects
@@ -21,17 +21,11 @@ description: Enhanced analytics is a powerful tool in Adobe Workfront with prebu
 * How often users complete specific actions during a project
 * The progress of projects, as well as the individual tasks within a project
 
-<!--
-<img src="assets/nwe-full-screen-analytics-350x222.png" style="width: 350;height: 222;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/nwe-full-screen-analytics-350x222.png)
-
-To see use cases or learn more about managing current work and planning for future work with *Enhanced analytics*, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).
+To see use cases or learn more about managing current work and planning for future work with `Enhanced analytics`, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).
 
 ## Walk-through
 
-View the following video to learn more about *Enhanced analytics*:
+View the following video to learn more about `Enhanced analytics`:
 
 `<iframe class="vimeo-player_0" src="assets/448606544?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -39,13 +33,13 @@ View the following video to learn more about *Enhanced analytics*:
 
 ## Prerequisites
 
-To access the *Enhanced analytics* area, you must:
+To access the `Enhanced analytics` area, you must:
 
-* Have a *Business* or *Enterprise* plan.
+* Have a `Business` or `Enterprise` plan.
 
   For more information, see [Workfront plans](https://www.workfront.com/plans).
 
-* Have your *Workfront administrator* add *Enhanced analytics* to your layout template.
+* Have your `Workfront administrator` add `Enhanced analytics` to your layout template.
 
   For more information, see [Enhanced Analytics: Adding analytics to layout templates](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
 
@@ -53,19 +47,19 @@ To see information for projects and tasks, you must:
 
 * Have View permission to the Projects and Tasks areas in your access level.
 
-  For information on how a *Workfront administrator* can modify your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  For information on how a `Workfront administrator` can modify your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Have View permission for specific tasks and/or projects.
 
   For information on requesting additional access, see [Request access to objects in Adobe Workfront](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
-## Best practices for *Enhanced analytics*
+## Best practices for `Enhanced analytics`
 
 In order to get the best data for your projects, use templates that have accurate planned hours and duration days. You also need to make sure that your users enter and update the fields below as accurately as possible.
 
 >[!NOTE]
 >
->Some of the following fields are calculations that *Workfront* performs based on information that users input. You cannot manually update these fields.
+>Some of the following fields are calculations that `Workfront` performs based on information that users input. You cannot manually update these fields.
 
 <ul> 
  <li> <p>Planned Hours</p> <p>This is the most important field to fill out.</p> <note type="note">
@@ -91,20 +85,20 @@ In order to get the best data for your projects, use templates that have accurat
 
 >[!IMPORTANT]
 >
->It can take up to 24 hours for changes made to tasks and projects to reflect in *Enhanced analytics*.
+>It can take up to 24 hours for changes made to tasks and projects to reflect in `Enhanced analytics`.
 
 ## Duration view
 
 By default, the Burndown and Project treemap visualizations are based on planned hours. If your teams don't use planned hours, you can look at these visualizations based on project duration.
 
-In *Enhanced analytics*, the duration of a project is calculated by the following formulas:
+In `Enhanced analytics`, the duration of a project is calculated by the following formulas:
 
 <ul> 
  <li> <p>Planned Timeframe: <code>Planned Completion Date of the project - Start Date of the project</code></p> </li> 
  <li> <p>Days Worked: <code>Planned Duration for tasks completed in the selected date range / Typical hours per work day</code></p> <note type="note">
    8 hours is the default number for 
    <b>Typical hours per work day</b>. A 
-   <em>Adobe Workfront administrator</em> can update the 
+   <span>Adobe Workfront administrator</span> can update the 
    <b>Typical hours per work day</b> setting under 
    <b>Setup</b> > 
    <b>Project Preferences</b> > 
@@ -119,7 +113,7 @@ For information on Planned Duration, see [Overview of project Duration](../manag
 
 ## Keyboard shortcuts
 
-You can use the following keys on your keyboard to navigate or complete specific actions in the&nbsp;*Enhanced analytics* area:
+You can use the following keys on your keyboard to navigate or complete specific actions in the  `Enhanced analytics` area:
 
 | Key |Action |
 |---|---|
@@ -130,9 +124,9 @@ You can use the following keys on your keyboard to navigate or complete specific
 
 If you are using screen-reading software or a plug-in, the screen reader reads the information on the screen aloud and describes the actions you are completing as you use the keys listed above.
 
-## *Enhanced analytics* views and features
+## `Enhanced analytics` views and features
 
-To learn more about the details of a specific feature within *Enhanced analytics*, the actions you can complete to get further insight, and what you can learn from this data, see the following articles:
+To learn more about the details of a specific feature within `Enhanced analytics`, the actions you can complete to get further insight, and what you can learn from this data, see the following articles:
 
 <table cellspacing="15"> 
  <col> 
@@ -166,7 +160,7 @@ To learn more about the details of a specific feature within *Enhanced analytics
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">View the Project activity visualization in Enhanced analytics</a> </td> 
-   <td> <p>The <b>Project activity</b> visualization shows you a heatmap of when users assigned to a project logged in to <em>Workfront</em>, changed the status of task in that project, and completed tasks in that project. Interacting with the visualization allows you to see these details for each user. You can also see specific dates for these actions, as well as the number of times each action was completed.</p> </td> 
+   <td> <p>The <b>Project activity</b> visualization shows you a heatmap of when users assigned to a project logged in to <span>Workfront</span>, changed the status of task in that project, and completed tasks in that project. Interacting with the visualization allows you to see these details for each user. You can also see specific dates for these actions, as well as the number of times each action was completed.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">View the Project treemap visualization in Enhanced analytics</a> </td> 
@@ -174,7 +168,7 @@ To learn more about the details of a specific feature within *Enhanced analytics
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">View the Activity by team visualization in Enhanced analytics</a> </td> 
-   <td> <p>The <b>Activity by team</b> visualization shows you a heatmap of when users on a home team logged into <em>Workfront</em>, changed the status of a task, and completed a task. Interacting with the visualization allows you to see these details for each individual user. You can also see specific dates for these actions, as well as the number of times each action was completed.</p> </td> 
+   <td> <p>The <b>Activity by team</b> visualization shows you a heatmap of when users on a home team logged into <span>Workfront</span>, changed the status of a task, and completed a task. Interacting with the visualization allows you to see these details for each individual user. You can also see specific dates for these actions, as well as the number of times each action was completed.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">View the Resource capacity visualization in Enhanced analytics</a> </td> 

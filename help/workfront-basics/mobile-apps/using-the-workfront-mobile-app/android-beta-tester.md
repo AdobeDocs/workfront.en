@@ -10,7 +10,7 @@ description: There are a couple of ways to become a beta tester for the Adobe Wo
 
 ## Download the beta app
 
-There are a couple of ways to become a beta tester for the *Adobe Workfront* app:
+There are a couple of ways to become a beta tester for the `Adobe Workfront` app:
 
 ### Google Play Store
 
@@ -39,11 +39,11 @@ To provide feedback about the beta app or to report a problem:
 1. Tap your name, then `Submit Feedback`.
 1. Choose `Start Survey` to provide general feedback about the app.  
    or  
-   Choose `Report a Problem` to submit a ticket to the *Workfront* Customer Care Team.
+   Choose `Report a Problem` to submit a ticket to the `Workfront` Customer Care Team.
 
 ## Opt out of beta testing
 
-To stop beta testing the *Workfront* app:
+To stop beta testing the `Workfront` app:
 
 1. Access the Play Store app on your device.
 1. Search for Workfront, then tap it when it appears in the list.

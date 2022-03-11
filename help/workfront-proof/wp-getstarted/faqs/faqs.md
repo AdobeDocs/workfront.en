@@ -5,14 +5,14 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: Workfront Proof - frequently asked questions
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: This section contains the following articles:
 ---
 
-# *Workfront Proof* - frequently asked questions
+# `Workfront Proof` - frequently asked questions
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
@@ -22,9 +22,8 @@ This section contains the following articles:
 * [Logging in and changing your password and email for Workfront Proof](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md" class="MCXref xref" xrefformat="{para}">Opening a Workfront Proof basic trial account</a> </li>
+  Opening a Workfront Proof basic trial account
   -->
 
-* [Opening a Workfront Proof basic trial account](../../../workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md) 
 * [Setting time zones in Workfront Proof](../../../workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
 

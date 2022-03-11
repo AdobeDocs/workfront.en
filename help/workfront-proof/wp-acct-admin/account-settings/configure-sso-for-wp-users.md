@@ -4,26 +4,26 @@ product: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Configure Single Sign-On for Workfront Proof users
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: If you have the Select or Premium plan, you can provide Single Sign-On (SSO) capability that allows you to use your existing organization's username and password to access your Workfront Proof account.
 ---
 
-# Configure Single Sign-On for *Workfront Proof* users
+# Configure Single Sign-On for `Workfront Proof` users
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-If you have the Select or Premium plan, you can provide Single Sign-On (SSO) capability that allows you to use your existing organization's username and password to access your *Workfront Proof* account.
+If you have the Select or Premium plan, you can provide Single Sign-On (SSO) capability that allows you to use your existing organization's username and password to access your `Workfront Proof` account.
 
-This means that you will authenticate against your own log in system, not against the *Workfront Proof* login page.
+This means that you will authenticate against your own log in system, not against the `Workfront Proof` login page.
 
 >[!NOTE]
 >
->You must have a custom sub-domain or domain set up on your *Workfront Proof* account to enable SAML. Custom sub-domains are free to set up. See [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) for more information.You can read more about fully customized domains on our [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+>You must have a custom sub-domain or domain set up on your `Workfront Proof` account to enable SAML. Custom sub-domains are free to set up. See [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) for more information.You can read more about fully customized domains on our [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-## Enabling SSO Within *Workfront Proof*
+## Enabling SSO Within `Workfront Proof`
 
-The Single Sign-On functionality can be enabled on the Single sign-on tab of your Account settings,&nbsp;and it will apply to all the users on your *Workfront Proof* account. See [Account Settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) for more information.
+The Single Sign-On functionality can be enabled on the Single sign-on tab of your Account settings, and it will apply to all the users on your `Workfront Proof` account. See [Account Settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) for more information.
 
 ## Entity ID
 
@@ -31,7 +31,7 @@ As a Service Provider we have published our Entity ID here:
 
 [https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq) (where "yoursubdomain" is your account's sub domain)
 
-*Workfront Proof* requires the user's email address as their unique identifier, which can be passed as one of the following attributes:
+`Workfront Proof` requires the user's email address as their unique identifier, which can be passed as one of the following attributes:
 
 * urn:mace:dir:attribute-def:emailAddress
 * http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress
@@ -63,8 +63,8 @@ This is the URL you will be returned to after you log out,&nbsp;for example
  <p>The SHA1 fingerprint of the SAML certificate provided by your SAML Identity Provider.<br></p> <note type="note">
   Make sure to include the Key Info by setting this on your Identity Provider.
  </note> 
- <li value="2">Switch <span class="bold">SSO</span> to <span class="bold">Enabled</span> (6).<br>Once SSO is enabled, you and other users on your account will log in using your own authentication mechanism. What this means is that when the users accesses your <em>Workfront Proof</em> account login screen (for example, <span class="bold">yourcompany.proofhq.com/login</span>), they will be prompted with the transfer window to your own authentication login page.</li> 
- <li value="3">(Optional) Enable <span class="bold">Automatically provision users</span>&nbsp;(7).<br>Once this option is enabled the user accounts will be automatically created for people who do not have their own <em>Workfront Proof</em> profiles, but will access your <em>Workfront Proof</em> account using their Single Sign-On credentials. This will be actioned only when the user limit is not yet reached on your account.<br></li> <note type="note">
+ <li value="2">Switch <span class="bold">SSO</span> to <span class="bold">Enabled</span> (6).<br>Once SSO is enabled, you and other users on your account will log in using your own authentication mechanism. What this means is that when the users accesses your <span>Workfront Proof</span> account login screen (for example, <span class="bold">yourcompany.proofhq.com/login</span>), they will be prompted with the transfer window to your own authentication login page.</li> 
+ <li value="3">(Optional) Enable <span class="bold">Automatically provision users</span>&nbsp;(7).<br>Once this option is enabled the user accounts will be automatically created for people who do not have their own <span>Workfront Proof</span> profiles, but will access your <span>Workfront Proof</span> account using their Single Sign-On credentials. This will be actioned only when the user limit is not yet reached on your account.<br></li> <note type="note">
   New provisioned users will have the Manager profile permissions assigned by default. If you need more information, see 
   <a href="../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md" class="MCXref xref">Proof Permissions Profiles in Workfront Proof</a>.
  </note> 
@@ -84,9 +84,9 @@ Single Sign-On is a Select and Premium feature so Single Sign-On can only be ena
  <li value="3">Open the <span class="bold">Single Sign-On</span> tab (3).</li> 
  <li value="4">Start editing the SSO configuration (4).</li> 
  <p> <img src="assets/enabling-sso---satellite-account-350x266.png" alt="Enabling_SSO_-_Satellite_Account.png" style="width: 350;height: 266;"> <br>Here you will have two methods (5) of configuration:</p> 
- <li value="5"><span class="bold">Inherited:</span> SSO with the configuration taken from your hub account.<br>If a user accesses <em>Workfront Proof</em> through the <span class="bold">default login page</span> (<a style="background-color: #ffffff;" title="Link: https://www.proofhq.com/login" href="https://www.proofhq.com/login">https://www.proofhq.com/login</a>) there will be <span class="bold">two levels of authorization</span>:&nbsp;First a user is asked to log in using <em>Workfront Proof</em> access data (email and password); then the user is transferred through an SSO window to the SSO login page.<br>Therefore, with SSO service enabled, we recommend to log in through your own <em>Workfront Proof</em> sub-domain/domain.<br><note type="note">
+ <li value="5"><span class="bold">Inherited:</span> SSO with the configuration taken from your hub account.<br>If a user accesses <span>Workfront Proof</span> through the <span class="bold">default login page</span> (<a style="background-color: #ffffff;" title="Link: https://www.proofhq.com/login" href="https://www.proofhq.com/login">https://www.proofhq.com/login</a>) there will be <span class="bold">two levels of authorization</span>:&nbsp;First a user is asked to log in using <span>Workfront Proof</span> access data (email and password); then the user is transferred through an SSO window to the SSO login page.<br>Therefore, with SSO service enabled, we recommend to log in through your own <span>Workfront Proof</span> sub-domain/domain.<br><note type="note">
    At this time, when Single Sign-On is enabled on your 
-   <em>Workfront Proof</em> account, you will not&nbsp;be able to log in to the iPhone app with those credentials.
+   <span>Workfront Proof</span> account, you will not&nbsp;be able to log in to the iPhone app with those credentials.
   </note><br> 
   <ol> 
    <li value="1"><span class="bold">Manual</span> (default): SSO with a different configuration (for example, pointing to another Identity Provider).<br><note type="note">
@@ -123,18 +123,18 @@ If Manual SSO configuration has been chosen for a satellite account (1), you nee
 <ol> 
  <li value="1">Click <span class="bold">Settings</span> > <span class="bold">Account settings</span> (1).&nbsp;</li> 
  <li value="2">Open the <span class="bold">Single sign-on</span> tab.</li> 
- <li value="3">Make sure that your <em>Workfront Proof</em> domain/sub-domain (1) is set up and that your users access your <em>Workfront Proof</em> account through this customized domain/sub-domain.<br><img src="assets/saml-subdomain-350x150.png" alt="SAML_Subdomain.png" style="width: 350;height: 150;"><br> With your Single Sign-On enabled, your sub-domain login URL (e.g. yourcompany.proofhq.com/login) displays a transfer screen (2) that takes you directly to your SSO login page. <br><img src="assets/sso-login-page-350x164.png" alt="SSO_login_page.png" style="width: 350;height: 164;"></li> 
- <p>If a user accesses <em>Workfront Proof</em> through the <span class="bold">default log in page</span> (<a title="Link: https://www.proofhq.com/login" href="https://www.proofhq.com/login">https://www.proofhq.com/login</a>) there will be <span class="bold">two levels of authorization</span>. First a user is asked to log in using <em>Workfront Proof</em> access data (email and password). Then, the user is transferred through an SSO window (2) to the SSO login page.<br> Therefore, with SSO service enabled, we recommend to log in through your own <em>Workfront Proof</em> sub-domain/domain. </p> <note type="note">
+ <li value="3">Make sure that your <span>Workfront Proof</span> domain/sub-domain (1) is set up and that your users access your <span>Workfront Proof</span> account through this customized domain/sub-domain.<br><img src="assets/saml-subdomain-350x150.png" alt="SAML_Subdomain.png" style="width: 350;height: 150;"><br> With your Single Sign-On enabled, your sub-domain login URL (e.g. yourcompany.proofhq.com/login) displays a transfer screen (2) that takes you directly to your SSO login page. <br><img src="assets/sso-login-page-350x164.png" alt="SSO_login_page.png" style="width: 350;height: 164;"></li> 
+ <p>If a user accesses <span>Workfront Proof</span> through the <span class="bold">default log in page</span> (<a title="Link: https://www.proofhq.com/login" href="https://www.proofhq.com/login">https://www.proofhq.com/login</a>) there will be <span class="bold">two levels of authorization</span>. First a user is asked to log in using <span>Workfront Proof</span> access data (email and password). Then, the user is transferred through an SSO window (2) to the SSO login page.<br> Therefore, with SSO service enabled, we recommend to log in through your own <span>Workfront Proof</span> sub-domain/domain. </p> <note type="note">
   At this time, when Single Sign-On is enabled on your 
-  <em>Workfront Proof</em> account, you will not&nbsp;be able to log in to the iPhone app with those credentials.
+  <span>Workfront Proof</span> account, you will not&nbsp;be able to log in to the iPhone app with those credentials.
  </note> 
 </ol>
 
 ## About Adding a New User
 
-When the Single Sign-On functionality is enabled on your *Workfront Proof* account, new users will not receive any confirmation emails as their accounts will be automatically activated and ready to use.
+When the Single Sign-On functionality is enabled on your `Workfront Proof` account, new users will not receive any confirmation emails as their accounts will be automatically activated and ready to use.
 
-From your *Workfront Proof* log in page, after clicking the Login button, users are&nbsp;taken to your SSO login page and asked to enter your Single Sign-On login credentials.
+From your `Workfront Proof` log in page, after clicking the Login button, users are&nbsp;taken to your SSO login page and asked to enter your Single Sign-On login credentials.
 
 >[!IMPORTANT]
 >
@@ -144,6 +144,6 @@ From your *Workfront Proof* log in page, after clicking the Login button, users 
 
 The Active Directory Federation Services (AD FS) is a Microsoft software component that can be installed on Windows Server operating systems to provide users with Single Sign-On access to systems and applications located across organizational boundaries. For more information, see "Active Directory Federation Services" on the Microsoft Developer Network website.
 
-The *Workfront Proof* system supports SAML 2.0 and is only compatible with AD FS version 2.0 or greater.
+The `Workfront Proof` system supports SAML 2.0 and is only compatible with AD FS version 2.0 or greater.
 
 See [Single Sign-On in Workfront Proof: AD FS configuration](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)&nbsp;for detailed instructions.

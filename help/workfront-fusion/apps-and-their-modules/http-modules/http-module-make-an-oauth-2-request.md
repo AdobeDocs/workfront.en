@@ -11,10 +11,10 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # HTTP > Make an OAuth 2.0 request module
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
-In order to make an HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. *Adobe Workfront Fusion* ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+In order to make an HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. `Adobe Workfront Fusion` ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
 
-*Workfront Fusion* supports the following OAuth 2.0 authentication flows:
+`Workfront Fusion` supports the following OAuth 2.0 authentication flows:
 
 * Authorization Code Flow
 * Implicit Flow
@@ -32,47 +32,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Creating a connection for an OAuth request
 
@@ -83,7 +61,7 @@ You must have the following access to use the functionality in this article:
 ### General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module
 
 <ol> 
- <li value="1"> <p>Create an OAuth client in the target service with which you want <em>Adobe Workfront Fusion</em> to communicate. This option is most likely found in the Developer section of the given service. </p> 
+ <li value="1"> <p>Create an OAuth client in the target service with which you want <span>Adobe Workfront Fusion</span> to communicate. This option is most likely found in the Developer section of the given service. </p> 
   <ol style="list-style-type: lower-alpha;"> 
    <li value="1"> <p>When creating a client, enter the appropriate URL in the <code>Redirect URL</code> or <code>Callback URL</code> field:</p> 
     <table cellspacing="0"> 
@@ -100,9 +78,9 @@ You must have the following access to use the functionality in this article:
       </tr> 
      </tbody> 
     </table> </li> 
-   <li value="2"> <p>After you create the client, the given service displays 2 keys: <code>Client ID</code> and <code>Client Secret</code>. Some services call these <code>App Key</code> and <code>App Secret</code>. Save the key and secret in a secure location, so you can provide them when creating the connection in <em>Workfront Fusion</em>.</p> </li> 
+   <li value="2"> <p>After you create the client, the given service displays 2 keys: <code>Client ID</code> and <code>Client Secret</code>. Some services call these <code>App Key</code> and <code>App Secret</code>. Save the key and secret in a secure location, so you can provide them when creating the connection in <span>Workfront Fusion</span>.</p> </li> 
   </ol> </li> 
- <li value="2"> <p>Find the <code>Authorize URI</code> and <code>Token URI</code> in the API documentation of the given service. These are URL addresses through which <em>Workfront Fusion</em> communicates with the target service. The addresses serve for OAuth authorization.</p> <note type="note">
+ <li value="2"> <p>Find the <code>Authorize URI</code> and <code>Token URI</code> in the API documentation of the given service. These are URL addresses through which <span>Workfront Fusion</span> communicates with the target service. The addresses serve for OAuth authorization.</p> <note type="note">
     If the service uses Implicit flow, you will need only the 
    <code>Authorize URI</code>. 
   </note> 
@@ -114,8 +92,8 @@ You must have the following access to use the functionality in this article:
     <li>Token URI: <code>https://api.login.yahoo.com/oauth2/get_token</code></li> 
    </ul> 
   </div> </li> 
- <li value="3">(Conditional) If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, <em>Workfront Fusion</em> fails to create the connection, and you receive an invalid scope error.</li> 
- <li value="4">After you complete the steps above, you can start to create the OAuth connection in <em>Workfront Fusion</em>. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario.</li> 
+ <li value="3">(Conditional) If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, <span>Workfront Fusion</span> fails to create the connection, and you receive an invalid scope error.</li> 
+ <li value="4">After you complete the steps above, you can start to create the OAuth connection in <span>Workfront Fusion</span>. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario.</li> 
  <li value="5">In the module's Connection field, click <span class="bold">Add</span>.</li> 
  <li value="6"> <p>Fill in the following fields to create a connection: </p> 
   <table cellspacing="0"> 
@@ -140,7 +118,7 @@ You must have the following access to use the functionality in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Scope separator </td> 
-     <td> <p>Select what the scopes entered above should be separated by. You can find this information in the given service's developer (API) documentation.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If the separator is not set correctly, <em>Workfront Fusion</em> fails to create the connection and you receive an invalid scope error.</p> </td> 
+     <td> <p>Select what the scopes entered above should be separated by. You can find this information in the given service's developer (API) documentation.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If the separator is not set correctly, <span>Workfront Fusion</span> fails to create the connection and you receive an invalid scope error.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Client ID </td> 
@@ -197,7 +175,7 @@ You must have the following access to use the functionality in this article:
        <li><span class="bold">client_secret</span>: The Client Secret you received when creating the account is automatically included in the request body</li> 
        <li><span class="bold">code</span>: The code returned by the authorization request</li> 
       </ul> <note type="note"> 
-       <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). <em>Workfront Fusion</em> automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> 
+       <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). <span>Workfront Fusion</span> automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> 
        <p>For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> 
       </note> </td> 
     </tr> 
@@ -210,7 +188,7 @@ You must have the following access to use the functionality in this article:
        <li> <p><span class="bold">client_id</span>: The Client ID you received when creating the account is automatically included in the request body</p> </li> 
        <li> <p><span class="bold">client_secret</span>: The Client Secret you received when creating the account is automatically included in the request body</p> </li> 
       </ul> <note type="note"> 
-       <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). <em>Workfront Fusion</em> automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> 
+       <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). <span>Workfront Fusion</span> automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> 
        <p>For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> 
       </note> </td> 
     </tr> 
@@ -306,29 +284,18 @@ For instructions regarding Microsoft Graph API, see [Call the MS Graph REST API 
 
 When you have established an Oauth 2.0 connection as described in [Creating a connection for an OAuth request](#creating), continue setting up the module as desired. All authorization tokens are automatically included in this request, and in any other request that uses the same connection.
 
-When you configure the HTTP > Make an OAuth 2.0 request module, *Workfront Fusion* displays the fields listed below. A bolded title in a module indicates a required field.
+When you configure the HTTP > Make an OAuth 2.0 request module, `Workfront Fusion` displays the fields listed below. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
 <!--
-<img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
 
-![](assets/map-toggle-350x74.png)
+-->
 
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Connection</td> 
-    <td> <p>For information on setting up a connection, see <a href="#creating" class="MCXref xref">Creating a connection for an OAuth request</a> in this article.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For information on setting up a connection, see <a href="#creating" class="MCXref xref">Creating a connection for an OAuth request</a> in this article.</p> </td> 
-  </tr> 
+ <tbody> Connection For information on setting up a connection, see Creating a connection for an OAuth request in this article. 
   <tr> 
    <td role="rowheader">Evaluate all states as errors (except for 2xx and 3xx ) </td> 
    <td> <p>Use this option to set up error handling.</p> <p>For more information, see <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Error handling</a>.</p> </td> 
@@ -397,7 +364,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Disable serialization of multiple same query string keys as arrays</p> </td> 
-   <td> <p>By default, <em>Workfront Fusion</em> handles multiple values for the same URL query string parameter key as arrays. For example, <code>www.test.com?foo=bar&amp;foo=baz</code> will be converted to <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Activate this option to disable this feature. </p> </td> 
+   <td> <p>By default, <span>Workfront Fusion</span> handles multiple values for the same URL query string parameter key as arrays. For example, <code>www.test.com?foo=bar&amp;foo=baz</code> will be converted to <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Activate this option to disable this feature. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Request compressed content</td> 

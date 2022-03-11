@@ -8,15 +8,7 @@ description: You can view or edit the information of a task by accessing the Ove
 
 # Manage task information in the Task Details Overview area
 
-You can view or edit the information of a task by accessing the Overview area of the Task&nbsp;Details 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>`. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+You can view or edit the information of a task by accessing the Overview area of the Task&nbsp;Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 This article describes how to view or edit information in the Overview area of Task Details. For information about updating other areas of Task Details , see the following articles:
 
@@ -30,97 +22,30 @@ You must have the following:
 
 <table cellspacing="15"> 
  <caption style="text-align: left;">
-  *To find out what plan, license type, or access you have, contact your <em>Workfront administrator</em>.
+  *To find out what plan, license type, or access you have, contact your <span>Workfront administrator</span>.
  </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em><b> plan*</b> </p> </td> 
+   <td> <p><span>Adobe Workfront</span><b> plan*</b> </p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em><b> license*</b> </p> </td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td><span class="bold">Access level configurations*</span> </td> 
-    <td> <p>View or higher access to Projects and Tasks</p> <p>Note: If you have the correct access level but still can't edit the Details <draft-comment>
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        section
-       </MadCap:conditionalText>
-      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       section
-      </MadCap:conditionalText> of the task, ask your <em>Adobe Workfront</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td><span class="bold">Access level configurations*</span> </td> 
-   <td> <p>View or higher access to Projects and Tasks</p> <p>Note: If you have the correct access level but still can't edit the Details <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      section
-     </MadCap:conditionalText> of the task, ask your <em>Adobe Workfront</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <p><span class="bold">Object permissions</span> </p> </td> 
-    <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information <draft-comment>
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        in the Details section
-       </MadCap:conditionalText>
-      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       in the Details section
-      </MadCap:conditionalText>. </p> <p>Manage permissions for the task to update information <draft-comment>
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        in the Details section
-       </MadCap:conditionalText>
-      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       in the Details section
-      </MadCap:conditionalText>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <p><span class="bold">Object permissions</span> </p> </td> 
-   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      in the Details section
-     </MadCap:conditionalText>. </p> <p>Manage permissions for the task to update information <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      in the Details section
-     </MadCap:conditionalText>.</p> </td> 
-  </tr> 
+   <td> <p><span>Adobe Workfront</span><b> license*</b> </p> </td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
+  </tr> Access level configurations* View or higher access to Projects and Tasks Note: If you have the correct access level but still can't edit the Details section of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Contribute or higher permissions for the project View permissions for the task to view information in the Details section. Manage permissions for the task to update information in the Details section. 
  </tbody> 
 </table>
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Locate"></a>Edit task information in the Task Details Overview section</h2>
--->
-
-## Edit task information in the Task Details Overview section
+Edit task information in the Task Details Overview section 
 
 <ol> 
  <li value="1"> <p>Go to a task that you want to view or edit.</p> </li> 
- <li value="2">Click <span class="bold">Task Details</span> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    in the left panel
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   in the left panel
-  </MadCap:conditionalText>.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Go to the <span class="bold">Overview</span> area to view more information about the task. </p> <p>By default, Overview is the first area on the Task Details section and it is expanded. </p> <note type="note">
-    Depending on how your 
-    <em>Workfront administrator</em> or 
-    <em>Group administrator</em> sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see 
-    <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>.
-   </note> </li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Go to the <span class="bold">Overview</span> area to view more information about the task. </p> <p>By default, Overview is the first area on the Task Details section and it is expanded. </p> <note type="note">
-   Depending on how your 
-   <em>Workfront administrator</em> or 
-   <em>Group administrator</em> sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see 
-   <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>.
-  </note> </li> 
- <li value="4"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Details section, then click <span class="bold">Overview</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Details section, then click <span class="bold">Overview</span>. </p> <note type="tip">
+ <li value="2">Click <span class="bold">Task Details</span> in the left panel.</li> Go to the Overview area to view more information about the task. By default, Overview is the first area on the Task Details section and it is expanded. Note: Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see Customize the Details view using a layout template. 
+ <li value="4"> Click the Edit icon in the upper-right corner of the Details section, then click Overview. <note type="tip">
    You cannot edit fields that are automatically generated by 
-   <em>Workfront</em> or that you don't have permissions to edit.
+   <span>Workfront</span> or that you don't have permissions to edit.
   </note> </li> 
  <li value="5"> <p>Edit any field that is available for editing, by single-clicking the field or click <span class="bold">+Add</span> to add information to an empty field.</p> </li> 
  <li value="6"> <p>View or edit any of the following fields listed. </p> <p>Not all fields are editable. &nbsp;</p> 
@@ -131,16 +56,7 @@ You must have the following:
     <tr> 
      <td role="rowheader">Description</td> 
      <td> <p>Additional information about the task</p> </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Reference Number</td> 
-      <td>This is a unique value for the task generated by <em>Workfront</em> for all objects in the system. </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <td role="rowheader">Reference Number</td> 
-     <td>This is a unique value for the task generated by <em>Workfront</em> for all objects in the system. </td> 
-    </tr> 
+    </tr> Reference Number This is a unique value for the task generated by Workfront for all objects in the system. 
     <tr> 
      <td role="rowheader">URL</td> 
      <td> <p>Users with Contribute or Manage permissions to a task can specify any links to internal or external pages that reference the task in this field.</p> </td> 
@@ -169,7 +85,7 @@ You must have the following:
        <li> <p>The number of resources assigned to a task </p> </li> 
        <li> <p>The total effort required to complete the task </p> </li> 
        <li> <p> The total duration of the task. </p> </li> 
-      </ul> <p>Your <em>Workfront administrator</em> <span> or a <em>group administrator</em></span> selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
+      </ul> <p>Your <span>Workfront administrator</span> <span> or a <span>group administrator</span></span> selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
       <ul> 
        <li> <p>Calculated Assignment </p> </li> 
        <li> <p> Calculated Work </p> </li> 
@@ -187,18 +103,11 @@ You must have the following:
         </note> 
         <p>To indicate the Duration of the task and the unit of time do the following:</p> 
         <ul> 
-         <li> <draft-comment>
-           <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p>
-          </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <note type="tip">
-           When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. 
-          </note> </li> 
+         <li> Type the length of time and select from the units of time available in the drop-down menu. Tip: When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </li> 
         </ul> 
         <p> You can choose from the regular time or elapsed time options in the following table: </p> 
         <table cellspacing="3"> 
-         <col> <draft-comment>
-          <col data-mc-conditions="">
-         </draft-comment>
-         <col data-mc-conditions=""> 
+         <col>  
          <tbody> 
           <tr> 
            <td>Unit of Time</td> 
@@ -249,13 +158,9 @@ You must have the following:
          Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see 
          <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. 
         </note> 
-        <p> <draft-comment>
-          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-           You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. 
-          </MadCap:conditionalText>
-         </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. 
-         </MadCap:conditionalText></p> 
+        <p> <!--
+          You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates.
+         --></p> 
        </div> 
       </div> </td> 
     </tr> 
@@ -274,52 +179,7 @@ You must have the following:
     <tr> 
      <td role="rowheader">Actual Hours</td> 
      <td>Hours logged by users on the task. </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><em>Work Effort</em> </td> 
-      <td> 
-       <div> 
-        <p>The amount of effort required to complete the task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</p> 
-        <ul> 
-         <li> <p>The task has a Simple Duration&nbsp;Type. </p> <note type="tip">
-           If you update the task Duration&nbsp;Type, this field becomes dimmed. 
-          </note> </li> 
-         <li>Your project manager has enabled the Use <em>Work Effort</em> to automatically calculate task Planned Hours field on the project. </li> 
-        </ul> 
-        <p>Select from the following options:</p> 
-        <ul> 
-         <li>Small</li> 
-         <li>Medium <span style="font-weight: normal;">(this is the default value for a new task)</span></li> 
-         <li>Large</li> 
-        </ul> <note type="note">
-         Updating the amount of effort could update the task Planned Hours. The update is immediate if the project Update Type is Automatic. When the project Update Type is Manual you must recalculate timeline to see the updated Planned Hours. 
-        </note> 
-        <p>For information about using <em>Work Effort</em> instead of Planned Hours to estimate task effort, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>. </p> 
-       </div> </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions=""> 
-     <td role="rowheader"><em>Work Effort</em> </td> 
-     <td> 
-      <div> 
-       <p>The amount of effort required to complete the task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</p> 
-       <ul> 
-        <li> <p>The task has a Simple Duration&nbsp;Type. </p> <note type="tip">
-          If you update the task Duration&nbsp;Type, this field becomes dimmed. 
-         </note> </li> 
-        <li>Your project manager has enabled the Use <em>Work Effort</em> to automatically calculate task Planned Hours field on the project. </li> 
-       </ul> 
-       <p>Select from the following options:</p> 
-       <ul> 
-        <li>Small</li> 
-        <li>Medium <span style="font-weight: normal;">(this is the default value for a new task)</span></li> 
-        <li>Large</li> 
-       </ul> <note type="note">
-        Updating the amount of effort could update the task Planned Hours. The update is immediate if the project Update Type is Automatic. When the project Update Type is Manual you must recalculate timeline to see the updated Planned Hours. 
-       </note> 
-       <p>For information about using <em>Work Effort</em> instead of Planned Hours to estimate task effort, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>. </p> 
-      </div> </td> 
-    </tr> 
+    </tr> Work Effort The amount of effort required to complete the task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met: The task has a Simple Duration Type. Tip: If you update the task Duration Type, this field becomes dimmed. Your project manager has enabled the Use Work Effort to automatically calculate task Planned Hours field on the project. Select from the following options: Small Medium (this is the default value for a new task) Large Note: Updating the amount of effort could update the task Planned Hours. The update is immediate if the project Update Type is Automatic. When the project Update Type is Manual you must recalculate timeline to see the updated Planned Hours. For information about using Work Effort instead of Planned Hours to estimate task effort, see Work Effort overview. 
     <tr> 
      <td role="rowheader">Task Constraint</td> 
      <td> <p>Decide when the task must be completed by specifying a Task Constraint. </p> <p>Select from the following options: </p> 
@@ -352,8 +212,8 @@ You must have the following:
      <td role="rowheader">Planned Start Date</td> 
      <td> <p>When the task is planned to start. The planned start date of a task is set and influenced by a number of factors:</p> 
       <ul> 
-       <li>Depending on the system-wide preference for the task planned start date, the start date of a new task on a project can either be today, or the start date of the project, by default. <span>The <em>group administrator</em> for the group associated with the project can also set this preference for the group.</span> For more information about the system-level or group-level task preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</li> 
-       <li>Depending on the predecessors of the task, the planned start date is picked by <em>Workfront</em> to be the next available date after the predecessors finish, or start, depending on the predecessor relationship. For more information about predecessor relationships, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</li> 
+       <li>Depending on the system-wide preference for the task planned start date, the start date of a new task on a project can either be today, or the start date of the project, by default. <span>The <span>group administrator</span> for the group associated with the project can also set this preference for the group.</span> For more information about the system-level or group-level task preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</li> 
+       <li>Depending on the predecessors of the task, the planned start date is picked by <span>Workfront</span> to be the next available date after the predecessors finish, or start, depending on the predecessor relationship. For more information about predecessor relationships, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</li> 
        <li>The project manager or the task owner can manually set the planned start date when the task constraint is either Fixed Dates or Must Start On. For more information about task constraints, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</li> 
       </ul> </td> 
     </tr> 
@@ -369,7 +229,7 @@ You must have the following:
      <td role="rowheader">Planned Completion&nbsp;Date</td> 
      <td> <p>The anticipated completion date as shown when the task is planned. The planned completion date can be set by a number of factors:</p> 
       <ul> 
-       <li>The planned completion date is calculated from the planned start date by adding the Duration of the task to the planned start date. When the project manager or <em>Workfront</em> specifies the Duration of the task, this triggers an update to the planned completion date. If the planned date changes, it will often be because the Duration of the has been updated.</li> 
+       <li>The planned completion date is calculated from the planned start date by adding the Duration of the task to the planned start date. When the project manager or <span>Workfront</span> specifies the Duration of the task, this triggers an update to the planned completion date. If the planned date changes, it will often be because the Duration of the has been updated.</li> 
        <li>The project manager or the task owner can manually set the planned completion date when the task constraint is either Fixed Dates or Must Finish On. For more information about task constraints, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</li> 
        <li>If the Duration Type of the task changes, and the number of resources on the tasks changes at the same time, the planned completion date will change, as well. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</li> 
       </ul> </td> 
@@ -381,94 +241,37 @@ You must have the following:
     <tr> 
      <td role="rowheader">Actual&nbsp;Completion&nbsp;Date</td> 
      <td> <p>Specify the actual date and time when the task completes. The default date and time when a task is completed always coincides with the actual time when the status becomes Completed. The actual completion date can also be manually modified by the project manager, or the task owner. </p> </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Commit Date</td> 
-      <td> <p>This is the date by which the user assigned to the task commits to have it completed. This can be different than the Planned Completion Date. Only assignees can edit this field. For information about Commit Dates in <em>Workfront</em>, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</p> </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <td role="rowheader">Commit Date</td> 
-     <td> <p>This is the date by which the user assigned to the task commits to have it completed. This can be different than the Planned Completion Date. Only assignees can edit this field. For information about Commit Dates in <em>Workfront</em>, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</p> </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Entry Date</td> 
-      <td>The date when the task was created.</td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <td role="rowheader">Entry Date</td> 
-     <td>The date when the task was created.</td> 
-    </tr> 
+    </tr> Commit Date This is the date by which the user assigned to the task commits to have it completed. This can be different than the Planned Completion Date. Only assignees can edit this field. For information about Commit Dates in Workfront, see Commit Date overview. Entry Date The date when the task was created. 
     <tr> 
      <td role="rowheader">Entered By</td> 
      <td>Person who created the task.</td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Last Updated Date</td> 
-      <td> <p>The date when the task was last updated. </p> <note type="tip">
-        <em>Workfront</em> records an Updated&nbsp;Date every time someone edits and saves a task.
-       </note> </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <td role="rowheader">Last Updated Date</td> 
-     <td> <p>The date when the task was last updated. </p> <note type="tip">
-       <em>Workfront</em> records an Updated&nbsp;Date every time someone edits and saves a task.
-      </note> </td> 
-    </tr> 
+    </tr> Last Updated Date The date when the task was last updated. Tip: Workfront records an Updated Date every time someone edits and saves a task. 
     <tr> 
      <td role="rowheader">Last Updated By</td> 
      <td> <p>Person who last updated the task.</p> </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Recurrence Frequency</td> 
-      <td> <p>This displays only on the parent of recurring tasks. It is the frequency with which the tasks in the recurrence occur. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <td role="rowheader">Recurrence Frequency</td> 
-     <td> <p>This displays only on the parent of recurring tasks. It is the frequency with which the tasks in the recurrence occur. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Duration per Occurrence</td> 
-      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <note type="note">
-        Durations modified in individual recurring tasks do not display the value indicated in this field. 
-       </note> </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <td role="rowheader">Duration per Occurrence</td> 
-     <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <note type="note">
-       Durations modified in individual recurring tasks do not display the value indicated in this field. 
-      </note> </td> 
-    </tr> 
+    </tr> Recurrence Frequency This displays only on the parent of recurring tasks. It is the frequency with which the tasks in the recurrence occur. For information about creating recurring tasks, see Create recurring tasks. Duration per Occurrence This displays only on the parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see Create recurring tasks. Note: Durations modified in individual recurring tasks do not display the value indicated in this field. 
    </tbody> 
   </table> </li> 
- <li value="7"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <span class="bold">Custom&nbsp;Forms</span> to add or forms or edit information on the existing custom forms.&nbsp;</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <span class="bold">Custom&nbsp;Forms</span> to add or forms or edit information on the existing custom forms.&nbsp;</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Expand any of the existing custom forms to edit them, or start typing in the <span class="bold">Add custom form</span> box in the upper-right corner to add a new form. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Expand any of the existing custom forms to edit them, or start typing in the <span class="bold">Add custom form</span> box in the upper-right corner to add a new form. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about adding or editing custom forms, see the following articles:</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about adding or editing custom forms, see the following articles:</p> 
-  <ul> <draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md" class="MCXref xref">Add a custom form to an object</a> </li>
-   </draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md" class="MCXref xref">Add a custom form to an object</a> </li> <draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md" class="MCXref xref">Manage custom forms attached to objects in Adobe Workfront</a> </li>
-   </draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md" class="MCXref xref">Manage custom forms attached to objects in Adobe Workfront</a> </li> 
+ <li value="7"> <!--
+   Click Custom Forms to add or forms or edit information on the existing custom forms.
+  --> <!--
+   Expand any of the existing custom forms to edit them, or start typing in the Add custom form box in the upper-right corner to add a new form.
+  --> <!--
+   For information about adding or editing custom forms, see the following articles:
+  --> 
+  <ul> <!--
+    Add a custom form to an object
+   --> <!--
+    Manage custom forms attached to objects in Adobe Workfront
+   --> 
   </ul> </li> 
- <li value="8"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<span class="bold">Finance</span>, then <span class="bold">Edit Finance</span> to view or edit financial information for the task. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<span class="bold">Finance</span>, then <span class="bold">Edit Finance</span> to view or edit financial information for the task. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Expand the <span class="bold">Finance</span> area in the Details section, then double-click any editable field to update it. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Expand the <span class="bold">Finance</span> area in the Details section, then double-click any editable field to update it. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about editing financial information for a task, see <a href="../../../manage-work/tasks/manage-tasks/task-finances-in-details.md" class="MCXref xref">Manage task finances in the Task Details section</a>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about editing financial information for a task, see <a href="../../../manage-work/tasks/manage-tasks/task-finances-in-details.md" class="MCXref xref">Manage task finances in the Task Details section</a>. </p> </li> 
- <li value="9"> <p>Click <span class="bold">Save</span><draft-comment>
-    <span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Changes</span>
-   </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Changes</span>.</p> </li> 
+ <li value="8"> <!--
+   Click Finance, then Edit Finance to view or edit financial information for the task.
+  --> <!--
+   Expand the Finance area in the Details section, then double-click any editable field to update it.
+  --> <!--
+   For information about editing financial information for a task, see Manage task finances in the Task Details section.
+  --> </li> 
+ <li value="9"> <p>Click <span class="bold">Save</span>Changes.</p> </li> 
 </ol>
 

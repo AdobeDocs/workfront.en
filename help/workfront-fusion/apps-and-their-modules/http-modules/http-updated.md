@@ -2,7 +2,7 @@
 
 # HTTP modules
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
 The HTTP app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.
 
 The right choice of the module depends on the authentication/authorization mechanism the resource you want to access employs:
@@ -20,12 +20,9 @@ HTTP > Make a request module is a universal module that enables you to configure
 >
 >To make sure your JSON is valid, you may use one of the available online services (e.g. [https://jsonlint.com/](https://jsonlint.com/)) or employ JSON > Create JSON module to create the JSON dynamically and take care of all the necessary escaping>
 ><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
->(see our tutorial>
-><a href="make-an-http-request-with-an-api-key.md" class="MCXref xref" xrefformat="{para}">Use JSON Generator to create a JSON Data Structure and make an HTTP request using an API Key (SendGrid example)</a> for detailed explanation)>
-></MadCap:conditionalText>>
+>(see our tutorial Use JSON Generator to create a JSON Data Structure and make an HTTP request using an API Key (SendGrid example) for detailed explanation)>
 >-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  (see our tutorial  <a href="make-an-http-request-with-an-api-key.md" class="MCXref xref" xrefformat="{para}">Use JSON Generator to create a JSON Data Structure and make an HTTP request using an API Key (SendGrid example)</a> for detailed explanation) </MadCap:conditionalText>`. Mixing JSON pieces with expressions and items directly in the Request content field is not recommended as it can result in invalid JSON.
+>. Mixing JSON pieces with expressions and items directly in the Request content field is not recommended as it can result in invalid JSON.
 
 ## Make a OAuth 2.0 request
 
@@ -33,7 +30,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
 
 ### Creating a connection
 
-1. Create a OAuth client in the target service with which you want *Workfront Fusion* to communicate with. This option will mostly likely be found in the Developer section of the given service. When creating the client, you will be asked to specify a so called 
+1. Create a OAuth client in the target service with which you want `Workfront Fusion` to communicate with. This option will mostly likely be found in the Developer section of the given service. When creating the client, you will be asked to specify a so called 
 
    ```
    Redirect URL
@@ -77,7 +74,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
    App Secret
    ```
 
-   . Make sure you write down these keys, you will be asked to provide them when creating the connection in *Workfront Fusion*.
+   . Make sure you write down these keys, you will be asked to provide them when creating the connection in `Workfront Fusion`.
 
 1. Find the 
 
@@ -97,7 +94,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
    Authorize URI
    ```
 
-   ). These are URL addresses through which *Workfront Fusion* communicates with the target service. The addresses serve for OAuth authorization.
+   ). These are URL addresses through which `Workfront Fusion` communicates with the target service. The addresses serve for OAuth authorization.
 
    Examples of Yahoo addresses:
 
@@ -113,8 +110,8 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
     https://api.login.yahoo.com/oauth2/get_token
     ```
 
-1. If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, *Workfront Fusion* will fail to create the connection and you will receive an invalid scope error.
-1. Once you have completed the steps above, you can start to create the OAuth connection in *Workfront Fusion*. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario and in the Connection section click on the Add button.
+1. If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, `Workfront Fusion` will fail to create the connection and you will receive an invalid scope error.
+1. Once you have completed the steps above, you can start to create the OAuth connection in `Workfront Fusion`. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario and in the Connection section click on the Add button.
 
    Screenshot
 
@@ -277,22 +274,12 @@ application/x-www-form-urlencoded
 <pre>MyVariableOne=ValueOne&MyVariableTwo=ValueTwo</pre>
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Tutorial"></a>Tutorials</h2>
+Tutorials
 -->
-
-## Tutorials
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">How to connect <em>Workfront Fusion</em> with any web service using OAuth2 authorization<draft-comment>
-<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-- drafted out until I fix that article
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-- drafted out until I fix that article
-</MadCap:conditionalText></p>
+How to connect Workfront Fusion with any web service using OAuth2 authorization - drafted out until I fix that article
 -->
-
-How to connect *Workfront Fusion* with any web service using OAuth2 authorization`<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">  - drafted out until I fix that article </MadCap:conditionalText>`
 
 ## Generating JSON Web Tokens (JWT)
 

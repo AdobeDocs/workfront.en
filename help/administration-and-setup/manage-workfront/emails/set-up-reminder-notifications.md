@@ -2,7 +2,7 @@
 
 # Set up reminder notifications
 
-Reminder notifications send emails to recipients based on specified criteria. As an *Adobe Workfront administrator* or a user with a Planner access level and administrative access to reminder notifications, you can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets.
+Reminder notifications send emails to recipients based on specified criteria. As an `Adobe Workfront administrator` or a user with a Planner access level and administrative access to reminder notifications, you can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets.
 
 ## Access requirements
 
@@ -13,12 +13,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -27,7 +27,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Customize the reminder email
 
@@ -41,10 +41,7 @@ For information about how to create an email template, see [Configure email temp
 
 ## Create&nbsp;a reminder notification
 
-<ol data-mc-continue="false"> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+<ol data-mc-continue="false"> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
  <li value="2">Click <span class="bold">Email</span> > <span class="bold">Notifications</span>.</li> 
  <li value="3">Click the <span class="bold">Reminder Notifications</span>&nbsp;tab, then click <span class="bold">New Reminder Notification</span>.</li> 
  <li value="4"> <p>In the drop-down list, click&nbsp;the&nbsp;object type you want to associate with the reminder notification.</p> <p>For example, if you want to attach a reminder notification to a timesheet, click <span class="bold">Timesheet</span>.<br></p> </li> 
@@ -110,11 +107,9 @@ For instance, if a reminder is set to trigger an hour after the Planned Completi
 
 To cause a reminder notification to trigger manually:
 
-<ol data-mc-continue="false"> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click&nbsp;<span class="bold">System</span> > <span class="bold">Diagnostics</span> in the lower left corner of <em>Workfront</em>. </li> 
- <li value="3"> <p> Click <span class="bold">Send Reminder Notifications</span> and wait for the confirmation at the top of the screen that they have been sent.<br></p> <p>The users&nbsp;designated in the reminder notification receive an email. </p> </li> 
-</ol>
+1. Click  `System` > `Diagnostics` in the lower left corner of `Workfront`. 
+
+1. Click `Send Reminder Notifications` and wait for the confirmation at the top of the screen that they have been sent.
+
+   The users&nbsp;designated in the reminder notification receive an email.
 

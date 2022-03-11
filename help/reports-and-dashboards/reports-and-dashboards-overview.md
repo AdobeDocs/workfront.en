@@ -16,8 +16,6 @@ This section contains the following subsections:
 * [Enhanced analytics](../enhanced-analytics/enhanced-analytics.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>[future Data Access link]</p> </li>
+  [future Data Access link]
   -->
-
-* [future Data Access link]
 

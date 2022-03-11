@@ -6,9 +6,9 @@ title: Change the date format in Adobe Workfront when using Chrome
 description: To change the date format for the dates in Adobe Workfront, such as Planned Completion Date, Actual Completion Date, or Project Completion date, from DD/MM/YYYY to MM/DD/YYYY or vice versa, you must change the language settings in your browser.
 ---
 
-# Change the date format in *Adobe Workfront* when using Chrome
+# Change the date format in `Adobe Workfront` when using Chrome
 
-To change the date format for the dates in *Adobe Workfront*, such as Planned Completion Date, Actual Completion Date, or Project Completion date, from DD/MM/YYYY to MM/DD/YYYY or vice versa, you must change the language settings in your browser.
+To change the date format for the dates in `Adobe Workfront`, such as Planned Completion Date, Actual Completion Date, or Project Completion date, from DD/MM/YYYY to MM/DD/YYYY or vice versa, you must change the language settings in your browser.
 
 If your default is set to *English (United States)*, the dates will appear in the MM/DD/YYYY format.
 
@@ -25,6 +25,6 @@ To change your language settings in Chrome:
 
 1. (Conditional) If the language and region you want to use are not visible in the list, click `Add languages` to add it to the list.
 1. Click the 3-dot menu next to the language and region you want to use, then click `Move to the top`.
-1. Return to the *Workfront* interface, then refresh the page.  
-   The date format is now updated in projects and other areas of *Workfront* that use MM/DD/YYYY or DD/MM/YYYY format when displaying dates.
+1. Return to the `Workfront` interface, then refresh the page.  
+   The date format is now updated in projects and other areas of `Workfront` that use MM/DD/YYYY or DD/MM/YYYY format when displaying dates.
 

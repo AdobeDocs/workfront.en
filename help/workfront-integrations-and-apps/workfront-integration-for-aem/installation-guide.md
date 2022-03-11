@@ -13,18 +13,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p><em>Plan</em> or higher</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> or higher</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> <!--
+   Adobe Workfront license* Plan or higher
+  --> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have a license to Adobe Experience Manager</td> 
@@ -32,7 +25,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 # 1 - Prerequisites
 
@@ -47,10 +40,10 @@ Prior to installing/configuring the tools you’ll need to complete a few steps:
  <li value="3"> <p>Ensure your firewall is properly configured:</p> 
   <ol> 
    <li value="1"> <p><a href="https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FSet_up_Workfront%2FGet_started-WF_administration%2Fconfigure-your-firewall.html" class="external-link" rel="nofollow">Configure your firewall</a> </p> </li> 
-   <li value="2"> <p>You can find your IP cluster in <em>Workfront</em> by going to <span class="uitext">Setup → System → Customer Info</span>.</p> <p> <img src="assets/wf---customer-info-350x224.png" style="width: 350;height: 224;"> </p> </li> 
+   <li value="2"> <p>You can find your IP cluster in <span>Workfront</span> by going to <span class="uitext">Setup → System → Customer Info</span>.</p> <p> <img src="assets/wf---customer-info-350x224.png" style="width: 350;height: 224;"> </p> </li> 
   </ol> </li> 
- <li value="4"> <p>&nbsp;If there is an AEM dispatcher&nbsp;in front of the AEM Author instance that will be communicating with <em>Workfront</em>, it will need to be configured to allow HTTP headers named <span class="uitext">authorization</span>, <span class="uitext">username </span>and <span class="uitext">apikey</span>. The dispatcher should allow GET, POST, and PUT to /bin/workfront-tools.</p> </li> 
- <li value="5"> <p>Lastly, before installing <em>Workfront</em> Tools for AEM, you should check that none of the following paths already exist on your AEM instance because the package includes files on these paths and they won’t get updated properly.</p> 
+ <li value="4"> <p>&nbsp;If there is an AEM dispatcher&nbsp;in front of the AEM Author instance that will be communicating with <span>Workfront</span>, it will need to be configured to allow HTTP headers named <span class="uitext">authorization</span>, <span class="uitext">username </span>and <span class="uitext">apikey</span>. The dispatcher should allow GET, POST, and PUT to /bin/workfront-tools.</p> </li> 
+ <li value="5"> <p>Lastly, before installing <span>Workfront</span> Tools for AEM, you should check that none of the following paths already exist on your AEM instance because the package includes files on these paths and they won’t get updated properly.</p> 
   <ul> 
    <li> <p>/apps/dam/gui/coral/components/admin/schemaforms/formbuilder</p> </li> 
    <li> <p>/apps/dam/gui/coral/components/admin/folderschemaforms/formbuilder</p> </li> 
@@ -64,9 +57,9 @@ Prior to installing/configuring the tools you’ll need to complete a few steps:
 
 `For AEMaaCS customers start below otherwise skip ahead to step 1`
 
-`AEMaaCS:` If you are installing the *Workfront* Tools connector on AEMaaCS please refer to [AEM as a Cloud Service Compatibility](https://hoodoodigital.atlassian.net/wiki/spaces/WTFAUG/pages/634978569/AEM+as+a+Cloud+Service+compatibility).
+`AEMaaCS:` If you are installing the `Workfront` Tools connector on AEMaaCS please refer to [AEM as a Cloud Service Compatibility](https://hoodoodigital.atlassian.net/wiki/spaces/WTFAUG/pages/634978569/AEM+as+a+Cloud+Service+compatibility).
 
-The *Workfront* Tools packages will need to be referenced as a dependency in the pom.xml, as provided by the vendor.
+The `Workfront` Tools packages will need to be referenced as a dependency in the pom.xml, as provided by the vendor.
 
 [Copy](javascript:void(0);) 
 <pre><code><!-- Workfront Tools --><br><dependency><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.tools.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<version>1.x.x</version><br></dependency></code></pre>
@@ -77,7 +70,7 @@ The *Workfront* Tools packages will need to be referenced as a dependency in the
 <pre><code><repository><br>&nbsp;&nbsp;&nbsp;&nbsp;<id>hoodoo-maven</id><br>&nbsp;&nbsp;&nbsp;&nbsp;<name>Hoodoo Repository</name><br>&nbsp;&nbsp;&nbsp;&nbsp;<url>https://gitlab.com/api/v4/projects/12715200/packages/maven</url><br></repository></code></pre>Example settings.xml file
 
 [Copy](javascript:void(0);) 
-<pre><code><server><br>&nbsp;&nbsp;&nbsp;&nbsp;<id>hoodoo-maven</id><br>&nbsp;&nbsp;&nbsp;&nbsp;<configuration><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<name>Private-Token</name><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<value>*********************</value><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;</configuration><br></server></code></pre>The *Workfront* Tools packages will also need to be added to the embeddeds section of the pom.xml of your `all`subproject like in the following example.
+<pre><code><server><br>&nbsp;&nbsp;&nbsp;&nbsp;<id>hoodoo-maven</id><br>&nbsp;&nbsp;&nbsp;&nbsp;<configuration><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<name>Private-Token</name><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<value>*********************</value><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;</configuration><br></server></code></pre>The `Workfront` Tools packages will also need to be added to the embeddeds section of the pom.xml of your `all`subproject like in the following example.
 
 [Copy](javascript:void(0);) 
 <pre><code><!-- Workfront Tools --><br><embedded><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.tools.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<target>/apps/<path-to-project-install-folder>/install</target><br></embedded></code></pre>
@@ -101,10 +94,8 @@ The *Workfront* Tools packages will need to be referenced as a dependency in the
 To complete the setup process you will need to work with Hoodoo Digital to get all the necessary configurations in place.&nbsp; These may be different for each user based on your company's security and other setups.&nbsp;
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To arrange an installation session please contact Hoodoo Digital: help@hoodoo.digital or (801) 896-9667.&nbsp;</p>
+To arrange an installation session please contact Hoodoo Digital: help@hoodoo.digital or (801) 896-9667.
 -->
-
-To arrange an installation session please contact Hoodoo Digital: help@hoodoo.digital or (801) 896-9667.&nbsp;
 
 # 3 - Externalizer
 
@@ -115,7 +106,7 @@ Check that `Day CQ Link Externalizer` has been set properly. Day CQ Link Externa
 # 4 - System User Configuration
 
 <ol> 
- <li value="1"> <p><em>Workfront</em> service user creation is added by the connector package using ACS AEM Commons or Apache Sling Repository Initialization (AEMaaCS), you should check that “workfront-tools” service user has been correctly created. Search for “workfront-tools” user on “AEM Security | Permissions” menu (<aem-server>/security/permissions.html/principal/workfront-tools) and check the users’ permissions. </p> <p> <img src="assets/wf-tools-permissions-350x192.png" style="width: 350;height: 192;"> </p> </li> 
+ <li value="1"> <p><span>Workfront</span> service user creation is added by the connector package using ACS AEM Commons or Apache Sling Repository Initialization (AEMaaCS), you should check that “workfront-tools” service user has been correctly created. Search for “workfront-tools” user on “AEM Security | Permissions” menu (<aem-server>/security/permissions.html/principal/workfront-tools) and check the users’ permissions. </p> <p> <img src="assets/wf-tools-permissions-350x192.png" style="width: 350;height: 192;"> </p> </li> 
  <li value="2"> <p><span class="uitext">workfront-tools</span> user should have:</p> 
   <ul> 
    <li> <p>jcr:read privilege to /conf/workfront-tools</p> </li> 
@@ -150,7 +141,7 @@ If the connection was successful, you will see a `green success` message. Copy `
 
 # 6 - Workfront Custom Integration Configuration
 
-Create a new `Custom Integration` on *Adobe Workfront*. To do so, click on `Setup`located on the top navigation, select `Documents`on the left hand panel and click on `Custom Integration`. Click on `Add Custom Integration` and fill in the fields with the information found in the following table:
+Create a new `Custom Integration` on `Adobe Workfront`. To do so, click on `Setup`located on the top navigation, select `Documents`on the left hand panel and click on `Custom Integration`. Click on `Add Custom Integration` and fill in the fields with the information found in the following table:
 
 <table data-layout="default" cellspacing="0"> 
  <colgroup> 
@@ -181,18 +172,15 @@ Create a new `Custom Integration` on *Adobe Workfront*. To do so, click on `Setu
 
 Authorize the new Document Provider by following these steps:
 
-1. Open `Documents`tab on a *Workfront* project.
+1. Open `Documents`tab on a `Workfront` project.
 1. Click on `Add Document` drop-down menu and select `From <document-provider-name>` (From AEM Cloud in the case of the above example).
-1. You will see the list of AEM DAM assets/folders. This means that the connection from *Workfront* to AEM was successful.
+1. You will see the list of AEM DAM assets/folders. This means that the connection from `Workfront` to AEM was successful.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To complete the setup process you will need to work with Hoodoo Digital to get all the necessary configurations in place. These may be different for each user based on your company's security and other setups.</p>
--->
-
 To complete the setup process you will need to work with Hoodoo Digital to get all the necessary configurations in place. These may be different for each user based on your company's security and other setups.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To arrange an installation session please contact Hoodoo Digital: <a href="mailto:workfront-tools@hoodoo.digital" class="external-link" rel="nofollow">workfront-tools@hoodoo.digital</a> or (801) 896-9667.</p>
 -->
 
-To arrange an installation session please contact Hoodoo Digital: [workfront-tools@hoodoo.digital](mailto:workfront-tools@hoodoo.digital) or (801) 896-9667.
+<!--
+To arrange an installation session please contact Hoodoo Digital: workfront-tools@hoodoo.digital or (801) 896-9667.
+-->
+

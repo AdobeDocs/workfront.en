@@ -17,51 +17,31 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use DocuSign modules, you must have a DocuSign account.
 
-## Connect DocuSign to *Workfront Fusion*
+## Connect DocuSign to `Workfront Fusion`
 
 To create a connection for your DocuSign modules:
 
@@ -87,7 +67,7 @@ To create a connection for your DocuSign modules:
 
 ## DocuSign modules and their fields
 
-When you configure *DocuSign* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *DocuSign* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `DocuSign` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `DocuSign` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -102,17 +82,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when an envelope is sent, delivered, signed, completed, or declined.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -135,7 +109,7 @@ This trigger module starts a scenario when an envelope is sent, delivered, signe
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Enter or map the maximum number of <em>record</em>s you want the module to <em>work with</em> during each scenario execution cycle.</td> 
+   <td>Enter or map the maximum number of <span>record</span>s you want the module to <span>work with</span> during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -162,7 +136,7 @@ This action module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Account</td> 
@@ -238,7 +212,7 @@ This action module downloads a single document.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -289,7 +263,7 @@ This action module reads information about an envelope in DocuSign using the env
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -316,7 +290,7 @@ This module uploads a specified file to an existing envelope in DocuSign.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -337,45 +311,34 @@ This module uploads a specified file to an existing envelope in DocuSign.
 
 This action module creates a new envelope from a template. It returns the new envelope's ID, as well as the status of the new envelope.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  <tr> <!--
+    Connection
+   --> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td> 
+  <tr> <!--
+    Account
+   --> 
    <td> <p>Select the account that contains the envelope where you want to upload a file.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Template</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Template</td> 
+  <tr> <!--
+    Template
+   --> 
    <td> <p> Select the template that you want to create the new envelope from. Templates are available based on the Account you selected.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">After creation</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">After creation</p> </td> 
+   <td role="rowheader"> <!--
+     After creation
+    --> </td> 
    <td> <p>Select whether you want to save the envelope as a draft or send it for signing.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Template recipients</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Template recipients</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the recipient of this envelope</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the recipient of this envelope</td> 
+  <tr> <!--
+    Template recipients
+   --> <!--
+    Select the recipient of this envelope
+   --> 
   </tr> 
  </tbody> 
 </table>
@@ -384,111 +347,48 @@ This action module creates a new envelope from a template. It returns the new en
 
 This action module adds one or more recipients to an existing envelope. If the envelope has already been sent, the recipient is sent an email. This module is not valid for envelopes that have already been completed.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
- <tbody> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td> 
-    <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td> 
-    <td> <p>Select the account that contains the envelope where you want add recipients.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td> 
-   <td> <p>Select the account that contains the envelope where you want add recipients.</p> </td> 
-  </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Envelope ID</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Envelope ID</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the or map the ID of the envelope where you want to add the recipient.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the or map the ID of the envelope where you want to add the recipient.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> <draft-comment>
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Recipient type</td>
-    </draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Recipient type</td> 
-    <td> <p> Select the type of recipient that you want to add to the envelope.</p> 
-     <ul> 
-      <li> <p>Agent</p> </li> 
-      <li> <p>Carbon copy</p> </li> 
-      <li> <p>Certified delivery</p> </li> 
-      <li> <p>In-person signer</p> </li> 
-      <li> <p>Intermediary</p> </li> 
-      <li> <p>Signer</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Recipient type</td> 
-   <td> <p> Select the type of recipient that you want to add to the envelope.</p> 
-    <ul> 
-     <li> <p>Agent</p> </li> 
-     <li> <p>Carbon copy</p> </li> 
-     <li> <p>Certified delivery</p> </li> 
-     <li> <p>In-person signer</p> </li> 
-     <li> <p>Intermediary</p> </li> 
-     <li> <p>Signer</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Email</p> </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Email</p> </td> 
+<table cellspacing="0">   
+ <tbody> Connection For instructions about connecting your DocuSign account to Workfront Fusion, see Connect the module's app or web service to Workfront Fusion in the article Create a scenario. Account Select the account that contains the envelope where you want add recipients. 
+  <tr> <!--
+    Envelope ID
+   --> <!--
+    Select the or map the ID of the envelope where you want to add the recipient.
+   --> 
+  </tr> Recipient type Select the type of recipient that you want to add to the envelope. Agent Carbon copy Certified delivery In-person signer Intermediary Signer 
+  <tr> <!--
+    Email
+   --> 
    <td> <p>Enter or map the email address of the recipient you want to add to the envelope.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Name</p> </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Name</p> </td> 
+  <tr> <!--
+    Name
+   --> 
    <td>Enter or map the name of the recipient you want to add to the envelope.</td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Routing order</p> </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Routing order</p> </td> 
+  <tr> <!--
+    Routing order
+   --> 
    <td> <p>Enter or map the routing number for the recipient. Routing number determines the order in which recipients receive and sign your documents.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <li> <p>Email body</p> </li> </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <li> <p>Email body</p> </li> </td> 
+  <tr> <!--
+    Email body
+   --> 
    <td>Enter or map the body (content) of the email is sent to the recipent.</td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <li> <p>Email subject</p> </li> </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <li> <p>Email subject</p> </li> </td> 
+  <tr> <!--
+    Email subject
+   --> 
    <td>Enter or map the subject of the email that is sent to the recipient.</td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Private message</p> </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Private message</p> </td> 
+  <tr> <!--
+    Private message
+   --> 
    <td> <li> <p>Only the selected recipient sees the private message, as well as the general message. The private message is limited to 1000 characters.</p> </li> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Authentication</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Authentication</p> </td> 
+   <td role="rowheader"> <!--
+     Authentication
+    --> </td> 
    <td> <p>Select the authentication method that you want to use to confirm the recipient's identity.</p> 
     <ul> 
      <li> <p><span class="bold">None</span> </p> </li> 
@@ -510,7 +410,7 @@ This action module adds a custom field to the document
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -549,7 +449,7 @@ This action module modifies a custom field using the field name.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -592,7 +492,7 @@ This action module sends a draft envelope to its recipients.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 

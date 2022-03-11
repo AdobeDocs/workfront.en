@@ -7,13 +7,13 @@ title: Share a task in Adobe Workfront
 description: Your Adobe Workfront administrator can grant you access to view or edit tasks when they assign access levels. For more information about granting access to tasks, see Grant access to tasks.
 ---
 
-# Share a task in&nbsp;*Adobe Workfront*
+# Share a task in  `Adobe Workfront`
 
-Your *Adobe Workfront administrator* can grant you access to view or edit tasks when they assign access levels. For more information about granting access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+Your `Adobe Workfront administrator` can grant you access to view or edit tasks when they assign access levels. For more information about granting access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific tasks that you have access to share.
 
-Permissions are specific to one item in *Workfront* and define what actions one can take on that item.
+Permissions are specific to one item in `Workfront` and define what actions one can take on that item.
 
 ## Considerations when sharing a task
 
@@ -21,14 +21,14 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 <ul> 
  <li>The creator of a task has Manage permissions to it, by default.</li> 
- <li>You can share tasks individually, or you can share several of them at a time, in bulk.<br>Sharing tasks is identical to sharing other objects. For more information about sharing items in <em>Workfront</em>, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
+ <li>You can share tasks individually, or you can share several of them at a time, in bulk.<br>Sharing tasks is identical to sharing other objects. For more information about sharing items in <span>Workfront</span>, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
  <li> You can grant the following permissions to a task:&nbsp; 
   <ul> 
    <li>View</li> 
    <li>Manage</li> 
    <li>Contribute<br><img src="assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png" alt="" style="width: 175;height: 192;"><img src="assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png" alt="" style="width: 154;height: 258;"><img src="assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png" alt="" style="width: 182;height: 252;"><br></li> 
   </ul></li> 
- <li> <p>When you share a task, users inherit the same permissions on all the children objects associated with the task, by default. For example, they inherit the same permissions on the children tasks, issues, and documents attached to the task. <br>For more information about the hierarchy of objects in <em>Workfront</em>, see&nbsp;<a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> <p>The <em>Workfront administrator</em> can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
+ <li> <p>When you share a task, users inherit the same permissions on all the children objects associated with the task, by default. For example, they inherit the same permissions on the children tasks, issues, and documents attached to the task. <br>For more information about the hierarchy of objects in <span>Workfront</span>, see&nbsp;<a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> <p>The <span>Workfront administrator</span> can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
  <li>You can remove inherited permissions from a task.<br>For more information about removing inherited permissions from objects, see&nbsp;<a href="../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md" class="MCXref xref">Remove permissions from objects in Adobe Workfront</a>. </li> 
 </ul>
 
@@ -36,9 +36,9 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 You can share a task in the following ways:
 
-* Manually, either individually or in bulk. Manually sharing tasks is similar to sharing any other object in *Workfront*.
+* Manually, either individually or in bulk. Manually sharing tasks is similar to sharing any other object in `Workfront`.
 
-  For more information about sharing objects in *Workfront*, see&nbsp; [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+  For more information about sharing objects in `Workfront`, see&nbsp; [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 <ul> 
  <li> <p><a name="automatically-sharing-tasks-at-the-project-level"></a>Automatically, by doing the following:</p> 
@@ -47,9 +47,7 @@ You can share a task in the following ways:
    <li> <p>Add entities to Project Sharing on a template used to create the project the task is on. For information about sharing projects from templates, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>. </p> </li> 
   </ul> 
   <ul> 
-   <li> <p>Specify the permissions on all tasks in a project when you edit the project.&nbsp;For information about managing the access to tasks on the project based on a user's permissions to the project, see the <draft-comment>
-      <a href="../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></a>
-     </draft-comment><a href="../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></a> section in the article <a href="../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> </li> 
+   <li> <p>Specify the permissions on all tasks in a project when you edit the project.&nbsp;For information about managing the access to tasks on the project based on a user's permissions to the project, see the  section in the article <a href="../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> </li> 
   </ul> <note type="tip">
    If you don't specify what task permissions you want users to have when they are assigned to the tasks on the project, they receive the same permissions they have on the project, by default. 
   </note> </li> 

@@ -18,15 +18,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For information on <span>Workfront administrators</span>, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Administrator</td> 
   </tr> 
   <tr> 
@@ -36,14 +36,12 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
 ## Edit the Proof Permission Profile field in Bulk
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </p> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </p> </p> </li> 
+ <li value="1"> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Users . </li> 
  <li value="2">Sort your users by <span class="bold">Access Level</span>. We recommend batch editing by Access Level to ensure the <span class="bold">Proof Permission Profile</span> field appears. </li> 
  <li value="3">Click the checkbox next to the users you want to select within the same access level. The Proof Permission Profile field is available only for Worker access levels and above.</li> 
  <li value="4">Click <span class="bold">Edit</span> at the top of the list.</li> 

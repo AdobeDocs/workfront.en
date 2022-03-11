@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit groupings in a report</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit groupings in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,11 +41,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-Before starting to use text mode in a report or list, always ensure that you are familiar with the *Workfront* text-mode syntax.
+Before starting to use text mode in a report or list, always ensure that you are familiar with the `Workfront` text-mode syntax.
 
 For more information, see:
 
@@ -69,70 +69,26 @@ For information about creating a report, see [Create a custom report](../../../r
  <li value="1"> <p>Do one of the following:</p> 
   <ol> 
    <li value="1"> <p>To access the grouping from a report, go to the report, then click&nbsp;<span class="bold">Report Actions</span> > <span class="bold">Edit</span> > <span class="bold">Groupings</span> tab.</p> </li> 
-   <li value="2"> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">To access the grouping from a list, go to the list and from the <span class="bold">Grouping</span> drop-down menu, mouse over the grouping that you want to modify and click the&nbsp;<span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">To access the grouping from a list, go to the list and from the <span class="bold">Grouping</span> drop-down menu, mouse over the grouping that you want to modify and click the&nbsp;<span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.</p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The grouping builder opens.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The grouping builder opens.</p> </li> 
+   <li value="2"> To access the grouping from a list, go to the list and from the Grouping drop-down menu, mouse over the grouping that you want to modify and click the Edit icon . The grouping builder opens. </li> 
   </ol> </li> 
  <li value="2"> <p>Click&nbsp;<span class="bold">Add Grouping</span> to add the groupings, then click&nbsp;<span class="bold">Switch to Text Mode</span> in the upper-right corner of the builder.</p> <note type="tip">
    You can add up to 3 groupings in the standard interface. You can add a 4th grouping only using text mode, and you cannot have more than 4 grouping levels in 
-   <em>Workfront</em>.
+   <span>Workfront</span>.
   </note> </li> 
  <li value="3"> <p>Start typing the name of a field that you want to group by.</p> <p>Select the name of the field when you see it in the list.</p> </li> 
- <li value="4"> <p> Click <span class="bold">Switch to Text Mode</span> in the upper-right corner of the builder.</p> <p>The grouping is then displayed in text mode.</p> <p>When you edit a grouping in text mode, <em>Workfront</em> adds the <code>textmode=true</code> line of code to the grouping. This indicates that the grouping is modified in text mode.</p> 
+ <li value="4"> <p> Click <span class="bold">Switch to Text Mode</span> in the upper-right corner of the builder.</p> <p>The grouping is then displayed in text mode.</p> <p>When you edit a grouping in text mode, <span>Workfront</span> adds the <code>textmode=true</code> line of code to the grouping. This indicates that the grouping is modified in text mode.</p> 
   <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span> 
    <p>To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode.</p> 
    <p><code>textmode=true<br>group.0.linkedname=project<br>group.0.namekey=view.relatedcolumn<br><span class="bold">group.0.valuefield=project:name</span><br>group.0.namekeyargkey.0=project<br>group.0.namekeyargkey.1=name<br><span class="bold">group.0.valueformat=string</span><br>group.1.linkedname=assignedTo<br>group.1.namekey=view.relatedcolumn<br><span class="bold">group.1.valuefield=assignedTo:name</span><br>group.1.namekeyargkey.0=assignedTo<br>group.1.namekeyargkey.1=name<br><span class="bold">group.1.valueformat=string</span></code> </p> <note type="important">
     The lines in bold are mandatory.
    </note> 
-  </div> <draft-comment>
-   <div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Example: </b></span></span> 
-    <p>To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode:</p> 
-    <p><code>textmode=true</code> </p> 
-    <p><code>group.0.linkedname=project</code> </p> 
-    <p><code>group.0.namekey=view.relatedcolumn</code> </p> 
-    <p><code style="font-weight: bold;">group.0.valuefield=project:name</code> </p> 
-    <p><code>group.0.namekeyargkey.0=project</code> </p> 
-    <p><code>group.0.namekeyargkey.1=name</code> </p> 
-    <p><code style="font-weight: bold;">group.0.valueformat=string</code> </p> 
-    <p><code>group.1.linkedname=assignedTo</code> </p> 
-    <p><code>group.1.namekey=view.relatedcolumn</code> </p> 
-    <p><code style="font-weight: bold;">group.1.valuefield=assignedTo:name</code> </p> 
-    <p><code>group.1.namekeyargkey.0=assignedTo</code> </p> 
-    <p><code>group.1.namekeyargkey.1=nam</code>e</p> 
-    <p><code style="font-weight: bold;">group.1.valueformat=string</code> </p> <note type="important">
-     The lines in bold are mandatory. 
-    </note> 
-   </div>
-  </draft-comment>
-  <div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Example: </b></span></span> 
-   <p>To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode:</p> 
-   <p><code>textmode=true</code> </p> 
-   <p><code>group.0.linkedname=project</code> </p> 
-   <p><code>group.0.namekey=view.relatedcolumn</code> </p> 
-   <p><code style="font-weight: bold;">group.0.valuefield=project:name</code> </p> 
-   <p><code>group.0.namekeyargkey.0=project</code> </p> 
-   <p><code>group.0.namekeyargkey.1=name</code> </p> 
-   <p><code style="font-weight: bold;">group.0.valueformat=string</code> </p> 
-   <p><code>group.1.linkedname=assignedTo</code> </p> 
-   <p><code>group.1.namekey=view.relatedcolumn</code> </p> 
-   <p><code style="font-weight: bold;">group.1.valuefield=assignedTo:name</code> </p> 
-   <p><code>group.1.namekeyargkey.0=assignedTo</code> </p> 
-   <p><code>group.1.namekeyargkey.1=nam</code>e</p> 
-   <p><code style="font-weight: bold;">group.1.valueformat=string</code> </p> <note type="important">
-    The lines in bold are mandatory. 
-   </note> 
-  </div> <p>Each field in the grouping has several lines of code that refer to that field.</p> <p>The table below outlines the key lines in a text mode grouping.</p> <note type="tip">
+  </div> <!--
+   Example: To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode: textmode=true group.0.linkedname=project group.0.namekey=view.relatedcolumn group.0.valuefield=project:name group.0.namekeyargkey.0=project group.0.namekeyargkey.1=name group.0.valueformat=string group.1.linkedname=assignedTo group.1.namekey=view.relatedcolumn group.1.valuefield=assignedTo:name group.1.namekeyargkey.0=assignedTo group.1.namekeyargkey.1=name group.1.valueformat=string Important: The lines in bold are mandatory.
+  --> <p>Each field in the grouping has several lines of code that refer to that field.</p> <p>The table below outlines the key lines in a text mode grouping.</p> <note type="tip">
    The key lines in a text mode grouping are similar to the lines required to build text-mode views.
-  </note> <draft-comment>
-   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Tip: </b></span></span> 
-    <p>The key lines in a text mode grouping are similar to the lines required to build text-mode views.</p> 
-   </div>
-  </draft-comment>
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p>The key lines in a text mode grouping are similar to the lines required to build text-mode views.</p> 
-  </div> 
+  </note> <!--
+   Tip: The key lines in a text mode grouping are similar to the lines required to build text-mode views.
+  --> 
   <table cellspacing="15"> 
    <col> 
    <col> 
@@ -153,7 +109,7 @@ For information about creating a report, see [Create a custom report](../../../r
        <li>Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code></em>.</li> 
       </ul> <note type="note">
        4 groupings are not supported in the builder. They are only supported when using text mode. 
-       <em>Workfront</em> does not support more than 4 levels of groupings.
+       <span>Workfront</span> does not support more than 4 levels of groupings.
       </note> </td> 
     </tr> 
     <tr> 
@@ -192,34 +148,7 @@ For information about creating a report, see [Create a custom report](../../../r
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="5"> <draft-comment>
-   <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <p>(Optional) Add one of the following lines of code to any grouping to indicate whether the results in the grouping should display in an expanded or collapsed list. By default, groupings display expanded:</p> 
-    <ul> 
-     <li><code>group.0.iscollapsed=true </code>if you want the grouping to display with the results collapsed</li> 
-     <li> <p><code>group.0.iscollapsed=false</code> if you want the grouping to display with the results expanded</p> 
-      <div class="tips" data-mc-autonum="<b>Tips: </b>"> <span class="autonumber"><span><b>Tips: </b></span></span> 
-       <ul> 
-        <li>When you manually adjust groupings when viewing a list, <em>Workfront</em> remembers your manual preference until you log out. When you log back in, the list displays according to this setting.</li> 
-        <li>The results of a grouping always display expanded after accessing them from a chart element.</li> 
-       </ul> 
-      </div> </li> 
-    </ul> 
-   </div>
-  </draft-comment>
-  <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <p>(Optional) Add one of the following lines of code to any grouping to indicate whether the results in the grouping should display in an expanded or collapsed list. By default, groupings display expanded:</p> 
-   <ul> 
-    <li><code>group.0.iscollapsed=true </code>if you want the grouping to display with the results collapsed</li> 
-    <li> <p><code>group.0.iscollapsed=false</code> if you want the grouping to display with the results expanded</p> 
-     <div class="tips" data-mc-autonum="<b>Tips: </b>"> <span class="autonumber"><span><b>Tips: </b></span></span> 
-      <ul> 
-       <li>When you manually adjust groupings when viewing a list, <em>Workfront</em> remembers your manual preference until you log out. When you log back in, the list displays according to this setting.</li> 
-       <li>The results of a grouping always display expanded after accessing them from a chart element.</li> 
-      </ul> 
-     </div> </li> 
-   </ul> 
-  </div> </li> 
+ <li value="5"> (Optional) Add one of the following lines of code to any grouping to indicate whether the results in the grouping should display in an expanded or collapsed list. By default, groupings display expanded: group.0.iscollapsed=true if you want the grouping to display with the results collapsed group.0.iscollapsed=false if you want the grouping to display with the results expanded Tips: When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting. The results of a grouping always display expanded after accessing them from a chart element. </li> 
  <li value="6"> <p>Click <span class="bold">Done</span> if you want to save your changes and continue editing the grouping or report.</p> </li> 
  <li value="7"> <p>Click <span class="bold">Save Grouping</span> in a list or <span class="bold">Save + Close</span> to save your report.</p> </li> 
 </ol>

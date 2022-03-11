@@ -6,9 +6,9 @@ title: Review an interactive proof
 description: You can review an interactive proof that has been shared with you or that you have created.
 ---
 
-# Review an interactive *proof*
+# Review an interactive `proof`
 
-You can review an interactive *proof* that has been shared with you or that you have created.
+You can review an interactive `proof` that has been shared with you or that you have created.
 
 ## Access requirements
 
@@ -19,15 +19,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Current plan: <em>Work</em> or <em>Plan</em></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -37,49 +37,49 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
-## Open and work with an interactive *proof*
+## Open and work with an interactive `proof`
 
 <ol> 
- <li value="1"> <p>Go to the document list that contains the interactive <em>proof</em> you want to open.</p> </li> 
- <li value="2"> <p>Hover over the document, then click&nbsp;<span class="bold">Open proof</span>.</p> <p>Depending on which <em>proofing viewer</em> your <em>Adobe Workfront administrator</em> has configured for <em>proofing</em> interactive content, the <em>Desktop Proofing Viewer</em> or <em>Web Proofing Viewer</em> launches automatically. For information about these two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> <note type="note">
+ <li value="1"> <p>Go to the document list that contains the interactive <span>proof</span> you want to open.</p> </li> 
+ <li value="2"> <p>Hover over the document, then click&nbsp;<span class="bold">Open proof</span>.</p> <p>Depending on which <span>proofing viewer</span> your <span>Adobe Workfront administrator</span> has configured for <span>proofing</span> interactive content, the <span>Desktop Proofing Viewer</span> or <span>Web Proofing Viewer</span> launches automatically. For information about these two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> <note type="note">
    The 
-   <em>Desktop Proofing Viewer</em> does not support websites that require you to log in.
+   <span>Desktop Proofing Viewer</span> does not support websites that require you to log in.
   </note> </li> 
  <li value="3">Do any of the following:
   <ul>
-   <li><p>Comment on the <em>proof</em>.</p><note type="note">
+   <li><p>Comment on the <span>proof</span>.</p><note type="note">
       The 
-     <em>Desktop Proofing Viewer</em>, takes a static screenshot of your content every time you click 
+     <span>Desktop Proofing Viewer</span>, takes a static screenshot of your content every time you click 
      <span class="bold">Add comment</span> so users can see what part of the content you are commenting on. This screenshot is where you can add comments with markups.
     </note></li>
-   <li>Use <em>proofing viewer</em> functionality described in the remaining sections below.</li>
+   <li>Use <span>proofing viewer</span> functionality described in the remaining sections below.</li>
   </ul></li> 
 </ol>
 
-For information about creating a *proof*, see [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md#generating-a-proof-on-a-document).
+For information about creating a `proof`, see [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md#generating-a-proof-on-a-document).
 
-For general information that relates to reviewing *proofs*, see [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+For general information that relates to reviewing `proofs`, see [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-If you cannot use a Proofing Viewer as described in this section, consult your *Workfront administrator*.
+If you cannot use a Proofing Viewer as described in this section, consult your `Workfront administrator`.
 
-## Set up interactive content *proofing* in *Web Proofing Viewer*
+## Set up interactive content `proofing` in `Web Proofing Viewer`
 
-We recommend that you review all interactive content using the *Desktop Proofing Viewer*. However, if your organization's policies prevent this, your *Workfront administrator* can configure your system to use the *Web Proofing Viewer* for interactive *proofing*. For comparative information about these two viewers, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+We recommend that you review all interactive content using the `Desktop Proofing Viewer`. However, if your organization's policies prevent this, your `Workfront administrator` can configure your system to use the `Web Proofing Viewer` for interactive `proofing`. For comparative information about these two viewers, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 >[!NOTE]
 >
->The *Web Proofing Viewer* has the following limitations:
+>The `Web Proofing Viewer` has the following limitations:
 >
->* Does not support URL *proofs* (supports only ZIP archive files).
+>* Does not support URL `proofs` (supports only ZIP archive files).
 >* Does not support Safari and Internet Explorer.
 >* Does not emulate content using interface specifications on mobile devices, such as button color, though it does let you view interactive content as it appears in the resolutions for the various devices.
 >
 
-After your *Workfront administrator* configures your system for interactive *proofing* in the *Web Proofing Viewer*, you need to download an extension in order to add comments and markups to interactive *proofs*:
+After your `Workfront administrator` configures your system for interactive `proofing` in the `Web Proofing Viewer`, you need to download an extension in order to add comments and markups to interactive `proofs`:
 
-1. Open a *proof* created from a ZIP file containing interactive content.
+1. Open a `proof` created from a ZIP file containing interactive content.
 
    For more information, see [About preparing interactive content in a ZIP file for proofing](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Interactive content proofs overview](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
@@ -90,48 +90,48 @@ After your *Workfront administrator* configures your system for interactive *pro
    A message prompts you to download the browser extension for interactive content.
 
 1. Click `Add to browser` to go to the extension download page in your browser's store, then download the extension.
-1. In the *Web Proofing Viewer*, click `Reload the *proof*`.
+1. In the `Web Proofing Viewer`, click `Reload the `proof``.
 
-With the extension installed on your browser, the *proofing viewer* takes a static screenshot of your content every time you click `Add comment`. This screenshot is where you can add comments with markups.
+With the extension installed on your browser, the `proofing viewer` takes a static screenshot of your content every time you click `Add comment`. This screenshot is where you can add comments with markups.
 
-## Use browser navigation within an interactive *proof*
+## Use browser navigation within an interactive `proof`
 
-You can interact with the interactive *proof* like you would normally interact with the content in a browser. Navigation controls like those found in your browser are available to the left of the URL.
+You can interact with the interactive `proof` like you would normally interact with the content in a browser. Navigation controls like those found in your browser are available to the left of the URL.
 
 ![DPV_browser_nav_buttons.png](assets/dpv-browser-nav-buttons.png)
 
-## Open the associated website from an interactive or static website *proof*
+## Open the associated website from an interactive or static website `proof`
 
-While you are reviewing a *proof* containing interactive or static web content, you can easily open the associated website in a new browser tab from the *proofing viewer*.
+While you are reviewing a `proof` containing interactive or static web content, you can easily open the associated website in a new browser tab from the `proofing viewer`.
 
 <ol> 
- <li value="1"> <p>Click the icon to the left of the URL in the upper left corner of the <em>proofing viewer</em>.&nbsp;</p> <p> <img src="assets/url-button-for-opening-website-in-another-tab-350x206.png" alt="URL_button_for_opening_website_in_another_tab.png" style="width: 350;height: 206;"> <br> </p> </li> 
+ <li value="1"> <p>Click the icon to the left of the URL in the upper left corner of the <span>proofing viewer</span>.&nbsp;</p> <p> <img src="assets/url-button-for-opening-website-in-another-tab-350x206.png" alt="URL_button_for_opening_website_in_another_tab.png" style="width: 350;height: 206;"> <br> </p> </li> 
 </ol>
 
-## Change *proof* resolution
+## Change `proof` resolution
 
-You can preview how an interactive *proof* looks with different resolutions, allowing you and the *proof*'s reviewers to see how content displays and responds on various devices and monitors. For more information, see [Change interactive proof resolution in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+You can preview how an interactive `proof` looks with different resolutions, allowing you and the `proof`'s reviewers to see how content displays and responds on various devices and monitors. For more information, see [Change interactive proof resolution in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## View the Workflow
 
-You can view the Workflow of your *proof* as it appears on the Proof Details page and in your email notifications. Workflow information includes progress and status of the *proof*, stages, and reviewers. For more information, see [Review a Workflow in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).
+You can view the Workflow of your `proof` as it appears on the Proof Details page and in your email notifications. Workflow information includes progress and status of the `proof`, stages, and reviewers. For more information, see [Review a Workflow in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).
 
-## Print a *proof* summary
+## Print a `proof` summary
 
-You can print a *proof* summary or save it in an XLS or PDF format. You can specify what information you want to include and how you want comments sorted in the output. For more information, see&nbsp; [Print a proof summary within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).&nbsp;
+You can print a `proof` summary or save it in an XLS or PDF format. You can specify what information you want to include and how you want comments sorted in the output. For more information, see&nbsp; [Print a proof summary within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).&nbsp;
 
-## View activity on a *proof*
+## View activity on a `proof`
 
-You can view the recent activity for a given *proof*.&nbsp;This includes all activity and decisions made by any user assigned to the *proof*. For more information, see&nbsp; [View activity on a proof in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md).
+You can view the recent activity for a given `proof`. This includes all activity and decisions made by any user assigned to the `proof`. For more information, see&nbsp; [View activity on a proof in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md).
 
-## Share a *proof*
+## Share a `proof`
 
-You can share the URL and the embed code for a *proof* with other users. For more information see&nbsp; [Share a proof from the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+You can share the URL and the embed code for a `proof` with other users. For more information see&nbsp; [Share a proof from the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
-## Download a *proof*
+## Download a `proof`
 
-You can download files from an existing *proof*. Comments and other information associated with the *proof* are not included in the download. For more information, see&nbsp; [Downloading a Proof in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md).
+You can download files from an existing `proof`. Comments and other information associated with the `proof` are not included in the download. For more information, see&nbsp; [Downloading a Proof in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md).
 
-## Make decisions on a *proof*
+## Make decisions on a `proof`
 
-If you have the rights to do so, you can make an approval decision on a *proof*. For more information, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+If you have the rights to do so, you can make an approval decision on a `proof`. For more information, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).

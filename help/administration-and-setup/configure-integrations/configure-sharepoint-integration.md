@@ -23,21 +23,21 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For information on <span>Workfront administrators</span>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -149,7 +149,7 @@ When you have created a site app in SharePoint, you can now copy information fro
 
 <ol> 
  <li value="1">Log into Workfront as an administrator.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="3"> <p>In the left panel, click <span class="bold">Documents</span> > <span class="bold">SharePoint Integration</span>.</p> </li> 
  <li value="4"> <p>Click <span class="bold">Add SharePoint</span>.</p> </li> 
  <li value="5"> <p>Configure the following fields:</p> 
@@ -199,7 +199,7 @@ When you have created a site app in SharePoint, you can now copy information fro
          <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> 
          <p>When you have tested your configuration as described in <a href="#complete" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
          <ol> 
-          <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <span class="bold">Documents</span> > <span class="bold">SharePoint Integration</span>.</p></li><li><p>Click the SharePoint integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the Visible Site Collections field.</p></li><li><p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
+          <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <span class="bold">Documents</span> > <span class="bold">SharePoint Integration</span>.</p></li><li><p>Click the SharePoint integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the Visible Site Collections field.</p></li><li><p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
          </ol> 
         </note> </li> 
       </ul> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
@@ -215,7 +215,7 @@ When you have created a site app in SharePoint, you can now copy information fro
 The basic configuration is almost complete.
 
 <ol> 
- <li value="1"> <p>In <em>Workfront</em>, Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Documents</span> <img src="assets/document-icon.png">.</p> </li> 
+ <li value="1"> <p>In <span>Workfront</span>, Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Documents</span> <img src="assets/document-icon.png">.</p> </li> 
  <li value="2"> <p>Click<span class="bold"> Add new</span>.</p> </li> 
  <li value="3"> <p>Click<span class="bold"> From <title of your SharePoint site></span> in the dropdown. </p> <p>A dialog that invites you to Trust this site appears. </p> <note type="note">
    If this dialog does not appear, your SharePoint integration is not configured correctly.
@@ -231,7 +231,7 @@ For instructions, see [Link an external document to Workfront](../../documents/a
 
 >[!IMPORTANT]
 >
->If the user who linked a folder no longer has access to the external application, *Workfront* can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
+>If the user who linked a folder no longer has access to the external application, `Workfront` can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
 >&nbsp;
 
 ## Troubleshooting
@@ -314,7 +314,7 @@ To see a site collection in Workfront, the following conditions must be met:
 
 Solution:
 
-If the user who linked a SharePoint folder can no longer authenticate, *Workfront* can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company.
+If the user who linked a SharePoint folder can no longer authenticate, `Workfront` can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company.
 
 To ensure continued access, a user with access to the folder must re-link the folder.
 

@@ -9,9 +9,9 @@ description: This page describes all other enhancements made with the 21.1 relea
 
 # 21.1 Other enhancements
 
-This page describes all *other* enhancements made with the *21.1* release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
+This page describes all `other` enhancements made with the `21.1` release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 
-For a list of all changes available with the *21.1* release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+For a list of all changes available with the `21.1` release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Updates to Event Subscription failure requirements
 
@@ -29,7 +29,7 @@ For more information, see [Notifications: Action needed](../../../workfront-basi
 
 ## Replacing POP email option in Request Queues
 
-We're replacing the POP email option for request queues with a new Workfront-managed system. You will still be able to submit requests via email, but you'll need to set up a new *Adobe Workfront*-managed email address in the Request Queue area instead.
+We're replacing the POP email option for request queues with a new Workfront-managed system. You will still be able to submit requests via email, but you'll need to set up a new `Adobe Workfront`-managed email address in the Request Queue area instead.
 
 These changes are available to test in Preview.
 
@@ -89,13 +89,7 @@ Previously, you had to click the ellipsis to display any truncated objects in a 
 
 To view all items in the breadcrumb, click "more" at the beginning of the breadcrumb to expand the items. Once expanded, you can click "Less" to collapse the items again.
 
-To learn more, see 
-
-<!--
-<a href="../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Breadcrumbs overview in the new Adobe Workfront experience</a>
--->
-
-[Breadcrumbs overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md).
+To learn more, see Breadcrumbs overview in the new Adobe Workfront experience.
 
 `<iframe class="vimeo-player_0" src="assets/498066614?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -110,13 +104,7 @@ To help users to better identify where they are in Workfront and more easily nav
 * Keyboard navigation and screen reader navigation are now available for the breadcrumbs.
 * Additional minor styling changes
 
-To learn more about the breadcrumb navigation, see 
-
-<!--
-<a href="../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Breadcrumbs overview in the new Adobe Workfront experience</a>
--->
-
-[Breadcrumbs overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md).
+To learn more about the breadcrumb navigation, see Breadcrumbs overview in the new Adobe Workfront experience.
 
 `<iframe class="vimeo-player_0" src="assets/489471468?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 

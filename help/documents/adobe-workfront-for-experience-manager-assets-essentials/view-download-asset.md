@@ -6,9 +6,9 @@ title: View or download a linked asset from Experience Manager Assets Essentials
 description: You can view or download an asset in Adobe Workfront that is linked from Experience Manager Assets Essentials.
 ---
 
-# View or download a linked asset from *Experience Manager Assets Essentials*
+# View or download a linked asset from `Experience Manager Assets Essentials`
 
-You can view or download an asset in *Adobe Workfront* that is linked from *Experience Manager Assets Essentials*.
+You can view or download an asset in `Adobe Workfront` that is linked from `Experience Manager Assets Essentials`.
 
 ## Access requirements
 
@@ -19,20 +19,20 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> licenses*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an <em>Experience Manager Assets Essentials</em> instance.</td> 
+   <td>You must have an <span>Experience Manager Assets Essentials</span> instance.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## View or download a linked asset
 

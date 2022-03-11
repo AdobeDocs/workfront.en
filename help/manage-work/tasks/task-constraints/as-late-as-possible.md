@@ -9,7 +9,7 @@ description: As Late As Possible (ALAP) is a Adobe Workfront Task Constraint whi
 
 # Task&nbsp;Constraint overview: As Late As Possible
 
-As Late As Possible (ALAP) is a *Adobe Workfront* Task Constraint which places the completion time of the task as close to the end of the project as possible.
+As Late As Possible (ALAP) is a `Adobe Workfront` Task Constraint which places the completion time of the task as close to the end of the project as possible.
 
 Using this constraint&nbsp;may cause predecessor or dependent Tasks to be rescheduled.
 
@@ -22,32 +22,8 @@ For information about where to set the default Constraint for a new task, refer 
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="as-late-as-possible"></a>Use the As Late As Possible Task Constraint</h2>
-<p>To update the Task Constraint to As Late As Possible:&nbsp;</p>
-<ol>
-<li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click&nbsp;<span class="bold">Edit</span>.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click&nbsp;<span class="bold">Edit</span>.</p> </li>
-<li value="3"> <p>In the&nbsp;<span class="bold">Overview</span>&nbsp;section, expand the&nbsp;<span class="bold">Task Constraint</span>&nbsp;drop-down menu.</p> </li>
-<li value="4"> <p>Select&nbsp;<span class="bold">As Late As Possible</span>.</p> </li>
-<li value="5">Click <span class="bold">Save Changes</span>.&nbsp;</li>
-</ol>
-</div>
+Use the As Late As Possible Task Constraint To update the Task Constraint to As Late As Possible: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select As Late As Possible. Click Save Changes.
 -->
-
-## Use the As Late As Possible Task Constraint
-
-To update the Task Constraint to As Late As Possible:&nbsp;
-
-<ol> 
- <li value="1">Go to a task whose Task Constraint you want to update.</li> 
- <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click&nbsp;<span class="bold">Edit</span>.</p> </li> 
- <li value="3"> <p>In the&nbsp;<span class="bold">Overview</span>&nbsp;section, expand the&nbsp;<span class="bold">Task Constraint</span>&nbsp;drop-down menu.</p> </li> 
- <li value="4"> <p>Select&nbsp;<span class="bold">As Late As Possible</span>.</p> </li> 
- <li value="5">Click <span class="bold">Save Changes</span>.&nbsp;</li> 
-</ol>
 
 ## The difference between Latest&nbsp;Available Time and As Late&nbsp;As Possible
 

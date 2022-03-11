@@ -10,9 +10,9 @@ description: As an Adobe Workfront administrator, you can use a layout template 
 
 # Customize user interface terminology using a layout template
 
-As an *Adobe Workfront administrator*, you can use a layout template to change the labels of some objects that appear throughout *Workfront* to match terms used in your organization.
+As an `Adobe Workfront administrator`, you can use a layout template to change the labels of some objects that appear throughout `Workfront` to match terms used in your organization.
 
-After you save a layout template where you changed terminology, then log out of *Workfront* and back in again, the labels that you changed appear where the default labels would appear in most areas throughout *Workfront*:
+After you save a layout template where you changed terminology, then log out of `Workfront` and back in again, the labels that you changed appear where the default labels would appear in most areas throughout `Workfront`:
 
 * Main Menu
 * All areas accessed from the Main Menu
@@ -41,16 +41,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,9 +62,9 @@ You must have the following to perform the steps in this article:
  <li value="2">Click <span class="bold">Set Terminology</span> near the upper-right corner of the page.</li> 
  <li value="3">Do any of the following:
   <ul>
-   <li><p>To use an alternative term provided by <em>Workfront</em>, click the down arrow&nbsp;<img src="assets/dropdown-arrow.png"> next to the label, then click the alternative label you want in the drop-down list.</p><note type="note">
+   <li><p>To use an alternative term provided by <span>Workfront</span>, click the down arrow&nbsp;<img src="assets/dropdown-arrow.png"> next to the label, then click the alternative label you want in the drop-down list.</p><note type="note">
      Alternative labels provided in the drop-down lists are supported in versions of 
-     <em>Workfront</em> localized for non-English languages.
+     <span>Workfront</span> localized for non-English languages.
     </note></li>
    <li><p>To provide your own custom alternative for the label displayed for an object, click <span class="bold">Set custom name</span> to the right of the label, then type the <span class="bold">Singular</span> and <span class="bold">Plural</span> forms of the custom term. You can click <span class="bold">Reset</span> if you change your mind.</p><p>You can customize the following object names:</p>
     <table cellspacing="0">
@@ -73,7 +73,7 @@ You must have the following to perform the steps in this article:
      <col>
      <tbody>
       <tr>
-       <td role="rowheader"><p><em>Workfront</em> objects</p></td>
+       <td role="rowheader"><p><span>Workfront</span> objects</p></td>
        <td>
         <ul>
          <li>Portfolio</li>
@@ -88,7 +88,7 @@ You must have the following to perform the steps in this article:
        <td><p>For more information about these objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p></td>
       </tr>
       <tr>
-       <td role="rowheader"><p><em>Workfront Goals</em> objects</p></td>
+       <td role="rowheader"><p><span>Workfront Goals</span> objects</p></td>
        <td>
         <ul>
          <li>Goal</li>
@@ -96,28 +96,7 @@ You must have the following to perform the steps in this article:
          <li>Activity</li>
         </ul></td>
        <td><p>These objects require an additional license. For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>.</p></td>
-      </tr><draft-comment>
-       <tr data-mc-conditions="">
-        <td role="rowheader"><p><em>Workfront Scenario Planner</em> objects</p></td>
-        <td>
-         <ul>
-          <li>Initiative</li>
-          <li>Scenario</li>
-          <li>Plan </li>
-         </ul></td>
-        <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Adobe Workfront Scenario Planner</a>.</p></td>
-       </tr>
-      </draft-comment>
-      <tr data-mc-conditions="">
-       <td role="rowheader"><p><em>Workfront Scenario Planner</em> objects</p></td>
-       <td>
-        <ul>
-         <li>Initiative</li>
-         <li>Scenario</li>
-         <li>Plan </li>
-        </ul></td>
-       <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Adobe Workfront Scenario Planner</a>.</p></td>
-      </tr>
+      </tr>Workfront Scenario Planner objects Initiative Scenario Plan These objects require an additional license. For information, see Get started with the Adobe Workfront Scenario Planner.
      </tbody>
     </table></li>
   </ul></li> 
@@ -127,8 +106,8 @@ You must have the following to perform the steps in this article:
  <li value="5"> <p> <p>Continue customizing the layout template.</p> <p>Or</p> <p>If you are finished customizing, click <span class="bold">Save</span>.</p> </p> </li> 
  <li value="6">To see your terminology changes:
   <ol>
-   <li value="1"><p>Log out and back in to <em>Workfront</em>.</p></li>
-   <li value="2">Close all browser tabs that you have open for your <em>Workfront</em> environment.</li>
+   <li value="1"><p>Log out and back in to <span>Workfront</span>.</p></li>
+   <li value="2">Close all browser tabs that you have open for your <span>Workfront</span> environment.</li>
   </ol><note type="important">
    This is also required for anyone who used the layout template before you made the terminology changes.
   </note></li> 

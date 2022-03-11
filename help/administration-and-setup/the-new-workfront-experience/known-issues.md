@@ -1,17 +1,8 @@
 
 
-# In development 
+# In development in the new Adobe Workfront experience
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-in
-<em>the new Adobe Workfront experience</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> in  <em>the new Adobe Workfront experience</em></MadCap:conditionalText>`
-
-Following is a list of functionality that is not yet available, but will soon be available in the new *Adobe Workfront* experience Beta Preview environment. This is not a comprehensive list of functionality yet to be released with the new Workfront experience.
+Following is a list of functionality that is not yet available, but will soon be available in the new `Adobe Workfront` experience Beta Preview environment. This is not a comprehensive list of functionality yet to be released with the new Workfront experience.
 
 ### Cannot configure a custom Help URL
 
@@ -50,16 +41,12 @@ When you copy a project in the Teams area, you cannot change the status in the C
 To work around this, change the project status after it has copied.
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Calendars option is missing from the Main Menu</h3>
+Calendars option is missing from the Main Menu
 -->
-
-### Calendars option is missing from the Main Menu
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Calendars option is missing from the Main menu.</p>
--->
-
 The Calendars option is missing from the Main menu.
+-->
 
 ### Cannot move stories or issues from one iteration to another
 

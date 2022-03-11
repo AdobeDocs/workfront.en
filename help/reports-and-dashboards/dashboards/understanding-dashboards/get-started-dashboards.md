@@ -17,7 +17,7 @@ You must have the following:
 
 <table cellspacing="15"> 
  <caption style="text-align: left;">
-  *To find out what plan, license type, or access you have, contact your <em>Workfront administrator</em>.
+  *To find out what plan, license type, or access you have, contact your <span>Workfront administrator</span>.
  </caption> 
  <col> 
  </col> 
@@ -25,16 +25,16 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em> plan*</p> </td> 
+   <td> <p><span>Adobe Workfront</span> plan*</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><em>Workfront</em> licenses overview*</p> </td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td> <p><span>Workfront</span> licenses overview*</p> </td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Access level*</span> </td> 
-   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="bold">Object permissions</span> </p> </td> 
@@ -45,7 +45,7 @@ You must have the following:
 
 ## Objects that you can add to a dashboard
 
-You can populate a dashboard with the following items in *Adobe Workfront*:
+You can populate a dashboard with the following items in `Adobe Workfront`:
 
 * Reports  
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -65,34 +65,11 @@ You can share a dashboard with users in the following ways:
 * Sharing on an individual basis.  
   For more information about sharing dashboards, see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) and [Share a dashboard in Adobe Workfront](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Add a custom 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>` to any area or object in *Workfront* and add a dashboard to it.
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  For more information on creating custom sections, see
-  <a href="../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md" class="MCXref xref">Simplified left navigation in the new Adobe Workfront experience</a>.
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> For more information on creating custom sections, see  <a href="../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md" class="MCXref xref">Simplified left navigation in the new Adobe Workfront experience</a>.</MadCap:conditionalText>`
+* Add a custom section to any area or object in `Workfront` and add a dashboard to it.  
+  For more information on creating custom sections, see Simplified left navigation in the new Adobe Workfront experience.
 
 * Place the dashboards on layout templates which you can share with users.  
-  For more information about sharing dashboards through layout templates, see 
-
-  <!--
-  <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Customize the left panel using a layout template</a>
-  -->
-
-  [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
-
+  For more information about sharing dashboards through layout templates, see Customize the left panel using a layout template.
 * Print a hard copy of them to share with users.  
   For more information about printing dashboards, see [Print a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
@@ -109,65 +86,28 @@ When you share a dashboard with users, all the reports, calendars, and external 
 
 You can display a dashboard in the following ways:
 
-* Access the 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>` that it is placed on and the dashboard placed on the 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>` displays.
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  For more information on placing dashboards on custom sections, see
-  <a href="../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md" class="MCXref xref">Simplified left navigation in the new Adobe Workfront experience</a>.
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> For more information on placing dashboards on custom sections, see  <a href="../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md" class="MCXref xref">Simplified left navigation in the new Adobe Workfront experience</a>.</MadCap:conditionalText>`
-
+* Access the section that it is placed on and the dashboard placed on the section displays.  
+  For more information on placing dashboards on custom sections, see Simplified left navigation in the new Adobe Workfront experience.
 * Search for and manually access it when you find it.
 
 ## Access a dashboard
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png">, then click <span class="bold">Dashboards</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png">, then click <span class="bold">Dashboards</span>.</p> </li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Hover over the left sidebar, then s
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Hover over the left sidebar, then s
-   </MadCap:conditionalText>elect any of the following:</p> 
+ <li value="1"> Click the Main Menu , then click Dashboards. </li> 
+ <li value="2"> <p> Hover over the left sidebar, then select any of the following:</p> 
   <ul> 
    <li> <p><span class="bold">My Dashboards</span>: Dashboards you have built are listed here.</p> <note type="tip">
      If you don't have Edit access to&nbsp;Reports,&nbsp;Dashboards, and Calendars in your access level, you cannot create dashboards. In this case, the My Dashboards list is empty.
     </note> </li> 
    <li><span class="bold">Shared Dashboards</span>: Dashboards that are created by other users and shared with you are listed here.</li> 
    <li><span class="bold">All Dashboards</span>: Both your and other users' dashboards that are shared with you are listed here.</li> 
-  </ul> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-dashboards-area-350x490.png" style="width: 350;height: 490;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-dashboards-area-350x490.png" style="width: 350;height: 490;"> </p> </li> 
+  </ul>  </li> 
  <li value="3">Click the name of a dashboard to display it.<br>The dashboard displays the information included in the reports, calendars, or external pages that populate it.</li> 
- <li value="4">(Optional and conditional) Click the <span class="bold">Reload</span> icon in the upper right of the dashboard to refresh the information on the dashboard.<br>The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.<br><draft-comment>
-   <img src="assets/qs-reload-icon-350x150.png" style="width: 350;height: 150;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/qs-reload-icon-350x150.png" style="width: 350;height: 150;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li> 
+ <li value="4">(Optional and conditional) Click the <span class="bold">Reload</span> icon in the upper right of the dashboard to refresh the information on the dashboard.<br>The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.<br></li> 
 </ol>
 
 ## Delete dashboards
 
-If you want to remove a dashboard from *Workfront*, you can delete it.
+If you want to remove a dashboard from `Workfront`, you can delete it.
 
 To learn more, see [Delete a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).

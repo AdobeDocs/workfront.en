@@ -8,7 +8,7 @@ title: Enhanced analytics
 description: This section contains the following articles:
 ---
 
-# *Enhanced analytics*
+# `Enhanced analytics`
 
 This section contains the following articles:
 
@@ -26,9 +26,7 @@ This section contains the following articles:
 * [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
+  Trend views overview
   -->
 
-* [Trend views overview](../enhanced-analytics/trend-views-overview.md)
-
-For in-depth training on *Enhanced analytics*, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).
+For in-depth training on `Enhanced analytics`, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).

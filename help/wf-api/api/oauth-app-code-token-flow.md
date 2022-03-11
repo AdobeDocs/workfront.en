@@ -36,7 +36,7 @@ Your users need to log in to authorize this integration in their own account. Th
   client_id
   ```
 
-  : This is the client ID&nbsp;generated when you created the OAuth2 app in *Workfront*.
+  : This is the client ID generated when you created the OAuth2 app in `Workfront`.
 * 
 
   ```
@@ -97,7 +97,7 @@ The third-party application may require configuration. The following table conta
 To log your users in with OAuth2, use the following process:
 
 <ol> 
- <li value="1"> <p>When the user opens the authorization page, it redirects to the <em>Workfront</em> login page, so the user can log in to Workfront. If the user has an SSO configuration, the identity provider login page will open.</p> <p>If user is already logged in to Workfront on that same browser, or the user successfully logs into Workfront, the user is redirected to the consent screen:</p> <p> <img src="assets/consent-screen-350x227.png" style="width: 350;height: 227;"> </p> </li> 
+ <li value="1"> <p>When the user opens the authorization page, it redirects to the <span>Workfront</span> login page, so the user can log in to Workfront. If the user has an SSO configuration, the identity provider login page will open.</p> <p>If user is already logged in to Workfront on that same browser, or the user successfully logs into Workfront, the user is redirected to the consent screen:</p> <p> <img src="assets/consent-screen-350x227.png" style="width: 350;height: 227;"> </p> </li> 
  <li value="2"> <p>If the user Allows the access, the page is redirected to the <code>redirect_url</code>. The redirect must include the following query parameters</p> <p><code>code</code>: The authorization code which is required for getting the access/refresh token.</p> <p><code>domain</code>: Your organization's domain. Example: in <code>myorganization.my.workfront.com</code>, the domain is <code>myorganization</code>.</p> <p><code>lane</code>: the lane of the request. Example: in <code>myorganization.preview.workfront.com</code>, the lane is <code>preview</code>.</p> <note type="important">
    The 
    <code>code </code>is only valid for 2 minutes. Therefore, you must get the refresh and access tokens within 2 minutes. 
@@ -124,7 +124,7 @@ To log your users in with OAuth2, use the following process:
    </div> 
   </div> <note type="important">
    The Client secret was generated when registering the app in 
-   <em>Workfront</em>. You should store it in a secure place, because it cannot be recovered if it is lost.
+   <span>Workfront</span>. You should store it in a secure place, because it cannot be recovered if it is lost.
   </note> <p>&nbsp;</p> <p>When all passed parameters are correct the token endpoint returns the following payload:</p> 
   <div class="codeSnippet"> <a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a> 
    <div style="mc-code-lang: JavaScript;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 

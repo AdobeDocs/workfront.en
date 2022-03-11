@@ -9,11 +9,11 @@ description: This page describes all Integration enhancements made with the 21.1
 
 # 21.1 Integration enhancements
 
-This page describes all *Integration* enhancements made with the *21.1* release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
+This page describes all `Integration` enhancements made with the `21.1` release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 
-For a list of all changes available with the *21.1* release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+For a list of all changes available with the `21.1` release, see [21.1 release overview](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-## *Adobe Workfront* notification enhancements in Microsoft Teams
+## `Adobe Workfront` notification enhancements in Microsoft Teams
 
 To make it easier for you to use Workfront through Microsoft Teams, we've added the following new functionality to Microsoft Teams notifications sent from Workfront:
 

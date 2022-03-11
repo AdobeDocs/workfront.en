@@ -10,13 +10,13 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from *Adobe Workfront*. We recommend that you use the *Workload Balancer* for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
 >
->For information about scheduling resources using the new *Workload Balancer*, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-In addition to assigning users to work items from the task and issue level, or in a list of tasks and issues using inline edit, you can also manage user assignments as part of the resource scheduling functionality in *Adobe Workfront*.
+In addition to assigning users to work items from the task and issue level, or in a list of tasks and issues using inline edit, you can also manage user assignments as part of the resource scheduling functionality in `Adobe Workfront`.
 
 For general information about assigning tasks, see [Overview of modifying task assignments](../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
@@ -31,16 +31,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -49,13 +49,13 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ##
 
 ## Prerequisites before assigning tasks and issues in the Scheduling timeline
 
-Before you begin managing user assignments as described in this section, become familiar with how resource scheduling works in *Workfront*, as described in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+Before you begin managing user assignments as described in this section, become familiar with how resource scheduling works in `Workfront`, as described in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
 To successfully manage user assignments as described in this section, you must first ensure that you, your projects, and your tasks and issues meet the prerequisites described in the [Prerequisites for using the scheduling tools in Workfront](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#prerequisites) section in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
@@ -66,112 +66,24 @@ The following sections describe how to modify user assignments manually, automat
 The scheduling timeline provides the needed visibility into which users are capable of completing the task or issue.   
 For more information about the scheduling timeline, see [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
-You can assign individual tasks and issues to users on the scheduling timeline from the following areas of *Workfront*:
+You can assign individual tasks and issues to users on the scheduling timeline from the following areas of `Workfront`:
 
-* 
+* The Scheduling section under Resourcing (when scheduling resources for multiple projects). 
+* The Scheduling section under a project (when scheduling resources for a single project). 
+* The Schedule section under a team (when scheduling resources for a team).
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Scheduling section under Resourcing (when scheduling resources for multiple projects).</p>
-  -->
+The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of `Workfront` where you are using resource scheduling (either from the Scheduling section(when scheduling resources for multiple projects), the Scheduling section (when scheduling resources for a single project), or the Schedule section (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
 
-  The Scheduling section under Resourcing (when scheduling resources for multiple projects).
-
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Scheduling section under a project (when scheduling resources for a single project).</p>
-  -->
-
-  The Scheduling section under a project (when scheduling resources for a single project).
-
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Schedule section under a team (when scheduling resources for a team). </p>
-  -->
-
-  The Schedule section under a team (when scheduling resources for a team).
-
-The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of *Workfront* where you are using resource scheduling (either from the Scheduling 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`(when scheduling resources for multiple projects), the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Scheduling section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Scheduling section</MadCap:conditionalText>` (when scheduling resources for a single project), or the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Schedule section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Schedule section</MadCap:conditionalText>` (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
-
-Depending on the area of *Workfront* where you are viewing the scheduling timeline, only some users might be eligible to be assigned work. For more information, see [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
+Depending on the area of `Workfront` where you are viewing the scheduling timeline, only some users might be eligible to be assigned work. For more information, see [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
 
 To assign unassigned tasks or issues to users on the scheduling timeline:
 
 <ol> 
  <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
   <ul>
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
+   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li>
+   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li>
+   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li>
   </ul><p><img src="assets/scheduling-contours-350x139.png" alt="scheduling_contours.png" style="width: 350;height: 139;"></p></li> 
  <li value="2">(Optional) Create a filter to customize what content is displayed on the scheduling timeline, as described in <a href="../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref">Filter information in the Scheduling area</a> .<a href="../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref">Filter information in the Scheduling area</a>. For example, for issues to be displayed on the scheduling timeline, you must create a filter.</li> 
  <li value="3">(Optional) Modify the date range that is displayed on the scheduling timeline, as described in <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#adjusting-the-date-range-for-which-data-is-displayed" class="MCXref xref">Adjust the date range of the Scheduling areas</a> in <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</li> 

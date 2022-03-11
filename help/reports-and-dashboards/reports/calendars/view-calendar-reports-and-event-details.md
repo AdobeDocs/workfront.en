@@ -8,7 +8,7 @@ description: You can view calendar reports and event details that you created or
 
 # View calendar reports and event details
 
-You can view calendar reports and event details that you created or were shared with you in *Adobe Workfront*.
+You can view calendar reports and event details that you created or were shared with you in `Adobe Workfront`.
 
 ## Access requirements
 
@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,28 +39,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## View a calendar report
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Adobe Workfront</em>, then click 
-     <span class="bold">Calendars</span>.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Adobe Workfront</em>, then click 
-    <span class="bold">Calendars</span>.
-   </MadCap:conditionalText> </p> <p>Depending on your access level, you might see the following calendars listed:<br>
+ <li value="1"> <p> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Calendars. </p> <p>Depending on your access level, you might see the following calendars listed:<br>
    <ul>
-    <li>Your default <em>Adobe Workfront</em> calendar<br><em>Workfront</em> creates a calendar for you based on the projects, tasks, and issues that are assigned to you or that are assigned to teams, groups, or roles to which you are assigned.</li>
+    <li>Your default <span>Adobe Workfront</span> calendar<br><span>Workfront</span> creates a calendar for you based on the projects, tasks, and issues that are assigned to you or that are assigned to teams, groups, or roles to which you are assigned.</li>
     <li>Calendars that you have created<br>To learn about creating calendars, see <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Calendar reports overview</a>.</li>
     <li>Calendars that other users have shared with you<br>To learn about sharing calendars, see <a href="../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md" class="MCXref xref">Share a calendar report</a>.</li>
    </ul></p> </li> 

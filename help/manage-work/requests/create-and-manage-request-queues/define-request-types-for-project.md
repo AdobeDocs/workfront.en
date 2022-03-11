@@ -6,9 +6,9 @@ title: Define Request Types for a project in Adobe Workfront
 description: You can organize the kind of issues or requests that are logged in Adobe Workfront by Request Types.
 ---
 
-# Define Request Types for a project in *Adobe Workfront*
+# Define Request Types for a project in `Adobe Workfront`
 
-You can organize the kind&nbsp;of issues or requests that are logged in *Adobe Workfront* by Request Types.
+You can organize the kind of issues or requests that are logged in `Adobe Workfront` by Request Types.
 
 This organization is useful for reporting reasons and for helping users understand what kind&nbsp;of unexpected work&nbsp;might occur during the lifetime of a project.
 
@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><em>Adobe Workfront</em> plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a>*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank"><em>Adobe Workfront</em> license</a>*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank"><span>Adobe Workfront</span> license</a>*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -58,27 +58,9 @@ Before you begin, you must
 ## Define the issue or request types for a project
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click 
-     <span class="bold">Projects</span> in the Main Menu. 
-     <img src="assets/main-menu-icon.png">
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Projects</span> in the Main Menu. 
-    <img src="assets/main-menu-icon.png">
-   </MadCap:conditionalText> </p> </li> 
+ <li value="1"> <p> Click Projects in the Main Menu. </p> </li> 
  <li value="2">Click the name of the project to open it.</li> 
- <li value="3"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    In the left panel, click 
-    <span class="bold">Queue Details</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   In the left panel, click 
-   <span class="bold">Queue Details</span>.
-  </MadCap:conditionalText> </li> 
+ <li value="3"> In the left panel, click Queue Details. </li> 
  <li value="4"> <p>In the <span class="bold">Queue Properties</span> section, select the <span class="bold">Request Types</span> you want for the project.</p> <note type="note">
     You must have at least one request type selected. You can select multiple request types.
   </note> <p>Select from the following types:</p> 
@@ -89,7 +71,7 @@ Before you begin, you must
    <li>Request</li> 
   </ul> <note type="tip">
    Your 
-   <em>Workfront administrator</em> might have renamed some of these options. For information, see 
+   <span>Workfront administrator</span> might have renamed some of these options. For information, see 
    <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md" class="MCXref xref">Configure request types</a>. 
   </note> </li> 
  <li value="5"> <p>Click <span class="bold">Save</span>.</p> <p>The request types you specified&nbsp;will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project, if the project is enabled as a request queue.</p> </li> 

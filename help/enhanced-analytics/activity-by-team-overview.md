@@ -8,9 +8,9 @@ title: View the Activity by team visualization in Enhanced analytics
 description: The Activity by team visualization shows activities that happen during a specific time frame for a home team, allowing you to understand how different home teams spent their time in Adobe Workfront. Depending on how your home team is set up in Workfront, this visualization can give you different insights and answer different questions.
 ---
 
-# View the Activity by team visualization in *Enhanced analytics*
+# View the Activity by team visualization in `Enhanced analytics`
 
-The Activity by team visualization shows activities that happen during a specific time frame for a home team, allowing you to understand how different home teams spent their time in *Adobe Workfront*. Depending on how your home team is set up in *Workfront*, this visualization can give you different insights and answer different questions.
+The Activity by team visualization shows activities that happen during a specific time frame for a home team, allowing you to understand how different home teams spent their time in `Adobe Workfront`. Depending on how your home team is set up in `Workfront`, this visualization can give you different insights and answer different questions.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><em>Workfront</em> plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Workfront</span> plan</a>*</td> 
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level.<br>For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level.<br>For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -64,7 +64,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -73,28 +73,14 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 ## View the Activity by team visualization
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the Main Menu icon 
-     <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the Main Menu icon 
-    <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
-   </MadCap:conditionalText>select <b>Analytics</b>.</p> </li> 
- <li value="2"> <p>In the left panel, select <span class="bold">People</span>.</p> <p> <draft-comment>
-    <img src="assets/people-area-cropped-qs-350x276.png" style="width: 350;height: 276;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/people-area-cropped-qs-350x276.png" style="width: 350;height: 276;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+ <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> </li> 
+ <li value="2"> <p>In the left panel, select <span class="bold">People</span>.</p> <p>  </p> </li> 
  <li value="3"> <p>(Optional) To use a different date range, select new start and end dates from the date range filter.</p> <p> <img src="assets/filters-select-date-range-350x344.png" style="width: 350;height: 344;"> </img> </p> <p>For information on using the date range filter, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> </li> 
- <li value="4"> <p>(Conditional) If you haven't set your Team filter, add the Team filter and select each team that you want to see data for.</p> <p>For more information on adding filters in <em>Enhanced analytics</em>, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of <em>Workfront</em>.</p> </li> 
+ <li value="4"> <p>(Conditional) If you haven't set your Team filter, add the Team filter and select each team that you want to see data for.</p> <p>For more information on adding filters in <span>Enhanced analytics</span>, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of <span>Workfront</span>.</p> </li> 
  <li value="5"> <p>(Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.</p> <p>All other visualizations update to the same date range and a timeframe filter is created.</p> <p> <img src="assets/timeframe-filter-350x220.png" style="width: 350;height: 220;"> </img> </p> </li> 
- <li value="6"> <p>Click a team name<draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      or role
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-     or role
-   </MadCap:conditionalText> to see more details for activities completed by the home team.</p> <p>The list expands to display the activities of each person assigned to the home team.</p> </li> 
+ <li value="6"> <p>Click a team name<!--
+    or role
+   --> to see more details for activities completed by the home team.</p> <p>The list expands to display the activities of each person assigned to the home team.</p> </li> 
  <li value="7"> <p>Hover over a colored box to see the date when users completed an action, as well as the number of times the action was completed that day.</p> <p>Darker colors indicate higher activity.</p> <p> <img src="assets/activity-by-team-activity-pop-up-350x155.png" style="width: 350;height: 155;"> </p> </li> 
  <li value="8"> <p>(Optional) To export the visualization data, click the <b>Export</b> icon <img src="assets/export.png"> in the top-right corner of the visualization, then select the export format:</p> 
   <ul> 
@@ -105,6 +91,6 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## Video walk-through
 
-View the following video to learn more about the Activity by team visualization. This video was recorded in *Workfront Classic*. However, the content also applies to *the new Workfront experience*.
+View the following video to learn more about the Activity by team visualization. This video was recorded in `Workfront Classic`. However, the content also applies to `the new Workfront experience`.
 
 [ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368319785/c8ec75887b) 

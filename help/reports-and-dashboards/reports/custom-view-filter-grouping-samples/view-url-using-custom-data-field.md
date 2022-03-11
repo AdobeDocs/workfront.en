@@ -28,16 +28,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create the "Custom URL" calculated custom field
 
@@ -56,38 +56,14 @@ If you have access to create a custom form, you can create a calculated custom f
 
 1. Create a calculated custom field.
 1. In the Calculation field, enter the following code:
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">CONCAT(''https://<domain>.my.workfront.com","/","task/",ID,"/overview'')</p>
-   -->
-
-   CONCAT(''https://<domain>.my.workfront.com","/","task/",ID,"/overview'')
-
+   CONCAT(''https://<domain>.my.workfront.com","/","task/",ID,"/overview'') 
 1. Replace "<domain>" with your actual domain name, without the brackets.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The <code>/overview</code> portion of this URL directs the link to the <span class="bold">Overview</span> section in the left panel of the task.</p>
-   -->
-
-   The 
-
-   ```
-   /overview
-   ```
-
-   portion of this URL directs the link to the `Overview` section in the left panel of the task.
-
-1. After creating your `Calculated Custom Field`, attach the `Custom Form` with this field to several tasks in *Adobe Workfront* that you want display in your new view.
+   The /overview portion of this URL directs the link to the Overview section in the left panel of the task. 
+1. After creating your `Calculated Custom Field`, attach the `Custom Form` with this field to several tasks in `Adobe Workfront` that you want display in your new view.
 
 ## Create the view which displays the "Custom URL" and "URL" fields of the task
 
 The task `View` in the example below displays the `Calculated Custom Field` called "Custom URL" as a direct link to the `Overview` subtab within the task `Details` tab, as well as the `URL` field of the task.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/task-view-with-custom-url-field-quicksilver-350x70.png" style="width: 350;height: 70;"> </p>
--->
-
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 To customize this view:
 

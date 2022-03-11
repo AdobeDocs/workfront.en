@@ -8,7 +8,7 @@ description: Routing Rules control what Adobe Workfront does with issues when th
 
 # Create Routing Rules
 
-Routing Rules control what *Adobe Workfront* does with issues when they are submitted to a Request Queue. For more information about creating Request Queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Routing Rules control what `Adobe Workfront` does with issues when they are submitted to a Request Queue. For more information about creating Request Queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Routing Rules send issues to specific users or job roles best equipped&nbsp;to resolve the submitted issue or request. Routing rules are usually associated with queue topics,&nbsp;which are used to control which routing rule will be applied to the issue or request.
 
@@ -21,16 +21,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,15 +39,13 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`
 
 ## Create a Routing Rule
 
 <ol> 
  <li value="1">Go to the project which you want to add the routing rules for your requests. </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Routing Rules</span> in the left panel. You might need to click <span class="bold">Show More</span>, then&nbsp;<span class="bold">Routing Rules</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Routing Rules</span> in the left panel. You might need to click <span class="bold">Show More</span>, then&nbsp;<span class="bold">Routing Rules</span>.</p> </li> 
+ <li value="2"> Click Routing Rules in the left panel. You might need to click Show More, then Routing Rules. </li> 
  <li value="3">Click <span class="bold">New Routing Rules</span>&nbsp;to add the new rule.&nbsp; </li> 
  <li value="4"> <p>Specify the following information for the Routing Rule:</p> 
   <table cellspacing="0"> 

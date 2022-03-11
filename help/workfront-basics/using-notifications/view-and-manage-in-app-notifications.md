@@ -13,7 +13,7 @@ For a list of the work item and announcement notifications you can receive, see 
 
 >[!NOTE]
 >
->* In-app notifications for work activities are not tied to email notifications in *Workfront*. For more information, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md)
+>* In-app notifications for work activities are not tied to email notifications in `Workfront`. For more information, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md)
 >* In-app notifications cannot be customized.
 >
 
@@ -28,89 +28,33 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.file:///C:/Users/caotto/Flare/WFDocumentation/Content/Resources/Images/icons
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.file:///C:/Users/caotto/Flare/WFDocumentation/Content/Resources/Images/icons
 
 ## View notifications
 
-The numbered icon in the upper-right corner of *Workfront* displays the number of notifications that you have not yet acknowledged.
+The numbered icon in the upper-right corner of `Workfront` displays the number of notifications that you have not yet acknowledged.
 
 >[!NOTE]
 >
 >You can view all in-app notifications both from the web application and the mobile&nbsp;application. Only some of these notifications are sent as push notifications in the mobile application. For more information about notifications in the mobile app, see [Adobe Workfront for iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) or [Adobe Workfront for Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 <ol> 
- <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <em>Workfront</em> to open your list of notifications.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Your most recent unread notifications appear below the numbered icon, with the most recent at the top.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Your most recent unread notifications appear below the numbered icon, with the most recent at the top.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-notifications-350x489.png" style="width: 350;height: 489;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-notifications-350x489.png" style="width: 350;height: 489;"> </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Up to 80 notifications display in a scrollable list. To see more, you can click <span class="bold">All notifications</span> at the bottom of the list to view up to 100 notifications. Notifications are automatically deleted after 30 days.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Up to 80 notifications display in a scrollable list. To see more, you can click <span class="bold">All notifications</span> at the bottom of the list to view up to 100 notifications. Notifications are automatically deleted after 30 days.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">At the bottom of each notification, the notification type and a corresponding identifying icon display. These help you identify what happened to the <em>Workfront</em> item mentioned and alert you if you have an action item:</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">At the bottom of each notification, the notification type and a corresponding identifying icon display. These help you identify what happened to the <em>Workfront</em> item mentioned and alert you if you have an action item:</p> <draft-comment>
-   <ul data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Announcement notifications are indicated by the announcements icon. <img src="assets/announcement.png"></li>
-    </draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Announcement notifications are indicated by the announcements icon. <img src="assets/announcement.png"></li> <draft-comment>
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>All other notifications are indicated by icons that suggest the type of work item they are associated with. </p> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-         <img src="assets/ntfcntype&icon-350x489.png" style="width: 350;height: 489;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        </draft-comment><img src="assets/ntfcntype&icon-350x489.png" style="width: 350;height: 489;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/ntfcntype&icon-350x489.png" style="width: 350;height: 489;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
-    </draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>All other notifications are indicated by icons that suggest the type of work item they are associated with. </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/ntfcntype&icon-350x489.png" style="width: 350;height: 489;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-   </ul>
-  </draft-comment>
-  <ul data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Announcement notifications are indicated by the announcements icon. <img src="assets/announcement.png"></li> 
-   <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>All other notifications are indicated by icons that suggest the type of work item they are associated with. </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/ntfcntype&icon-350x489.png" style="width: 350;height: 489;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-  </ul> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The icon to the right of the blue dot displays one of the following:</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The icon to the right of the blue dot displays one of the following:</p> <draft-comment>
-   <ul data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <li>The profile photo of the person who typed the information, usually an update about a <em>Workfront</em> object you're working on. </li> 
-    <li>The <em>Workfront</em> logo, if the notification is a system announcement.</li> 
-   </ul>
-  </draft-comment>
-  <ul data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <li>The profile photo of the person who typed the information, usually an update about a <em>Workfront</em> object you're working on. </li> 
-   <li>The <em>Workfront</em> logo, if the notification is a system announcement.</li> 
-  </ul> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) If you want to view the date when you received a notification, hover the mouse over the day or time indicator in the upper-right corner of the notification.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) If you want to view the date when you received a notification, hover the mouse over the day or time indicator in the upper-right corner of the notification.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/hoveroverdate-350x437.png" style="width: 350;height: 437;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/hoveroverdate-350x437.png" style="width: 350;height: 437;"> </p> </li> 
+ <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <span>Workfront</span> to open your list of notifications.</p> Your most recent unread notifications appear below the numbered icon, with the most recent at the top.  Up to 80 notifications display in a scrollable list. To see more, you can click All notifications at the bottom of the list to view up to 100 notifications. Notifications are automatically deleted after 30 days. At the bottom of each notification, the notification type and a corresponding identifying icon display. These help you identify what happened to the Workfront item mentioned and alert you if you have an action item: Announcement notifications are indicated by the announcements icon. All other notifications are indicated by icons that suggest the type of work item they are associated with. The icon to the right of the blue dot displays one of the following: The profile photo of the person who typed the information, usually an update about a Workfront object you're working on. The Workfront logo, if the notification is a system announcement. </li> 
+ <li value="2"> (Optional) If you want to view the date when you received a notification, hover the mouse over the day or time indicator in the upper-right corner of the notification.  </li> 
  <li value="3"> Click the notification that you want to view: 
   <ul>
-   <li><p>If the notification you click is about a work item, the associated <em>Workfront</em> object opens, showing the full message on the <span class="bold">Updates</span> tab.&nbsp;You can <span class="bold">Start a new update area</span> or <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       <span class="bold">Type a reply</span>
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      <span class="bold">Type a reply</span>
-     </MadCap:conditionalText>.</p><draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/object-opens-click-work-ntfctn-qs-350x183.png" style="width: 350;height: 183;"></p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/object-opens-click-work-ntfctn-qs-350x183.png" style="width: 350;height: 183;"></p></li>
-   <li><p>If the notification you click is for an announcement<draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-       <img src="assets/announcement.png">
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <img src="assets/announcement.png">
-     </MadCap:conditionalText>, the <span class="bold">Announcements</span> page appears, listing all of your announcements. The announcement you clicked is selected on the left and the message is displayed on the right.</p><draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/announcements-page-qs-350x210.png" style="width: 350;height: 210;"></p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/announcements-page-qs-350x210.png" style="width: 350;height: 210;"></p></li>
+   <li><p>If the notification you click is about a work item, the associated <span>Workfront</span> object opens, showing the full message on the <span class="bold">Updates</span> tab.&nbsp;You can <span class="bold">Start a new update area</span> or Type a reply.</p></li>
+   <li><p>If the notification you click is for an announcement, the <span class="bold">Announcements</span> page appears, listing all of your announcements. The announcement you clicked is selected on the left and the message is displayed on the right.</p></li>
   </ul></li> 
  <li value="4"> <p>(Optional) Download any attachments included in the notification message, or download all attachments as a ZIP file.</p> <p> <img src="assets/download-attachments-350x106.png" style="width: 350;height: 106;"> </p> </li> 
 </ol>
@@ -131,15 +75,12 @@ Clicking the numbered icon to open the Notifications list does not automatically
 To acknowledge a notification&nbsp;and clear it&nbsp;from the Notifications list:
 
 <ol> 
- <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <em>Workfront</em> to open your list of notifications.</p> </li> 
+ <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <span>Workfront</span> to open your list of notifications.</p> </li> 
  <li value="2">Do one of the following:
   <ul>
    <li>Click the blue dot in the upper-left corner of the notification.</li>
    <li>If the notification is for a work item (rather than for an announcement), click the notification to go to the item.</li>
-   <li>If the notification is for an announcement, click the notification to open the <span class="bold">Announcements</span> page.</li><draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Notifications</span> in the lower-right corner of the list of notifications to display the <span class="bold">Notifications</span> page, then click <span class="bold">Mark all as seen</span> in the upper-right corner of <em>Workfront</em>.</li>
-   </draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Notifications</span> in the lower-right corner of the list of notifications to display the <span class="bold">Notifications</span> page, then click <span class="bold">Mark all as seen</span> in the upper-right corner of <em>Workfront</em>.</li>
+   <li>If the notification is for an announcement, click the notification to open the <span class="bold">Announcements</span> page.</li>Click All Notifications in the lower-right corner of the list of notifications to display the Notifications page, then click Mark all as seen in the upper-right corner of Workfront.
   </ul></li> 
 </ol>
 
@@ -148,19 +89,16 @@ To acknowledge a notification&nbsp;and clear it&nbsp;from the Notifications list
 To view notifications that you have already acknowledged:
 
 <ol> 
- <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <em>Workfront</em> to open your list of notifications.</p> </li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Notifications</span> in the lower-right corner of your list of notifications.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Notifications</span> in the lower-right corner of your list of notifications.</li> 
+ <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <span>Workfront</span> to open your list of notifications.</p> </li> Click All Notifications in the lower-right corner of your list of notifications. 
  <li value="3">On the <span class="bold">Notifications</span> page that appears, scroll down to view your past notifications.</li> 
  <li value="4">(Optional) To bring an acknowledged notification back to your list of notifications, click the blue circle next to the notification.</li> 
 </ol>
 
 ## Delete an announcement notification
 
-You cannot delete work item notifications. *Workfront* deletes all notifications (whether they are read or unread) after 30 days.
+You cannot delete work item notifications. `Workfront` deletes all notifications (whether they are read or unread) after 30 days.
 
-However, you can delete an announcement notifications. You can also access an announcement you have deleted within 30 days after deleting it. *Workfront* does not automatically delete announcements.
+However, you can delete an announcement notifications. You can also access an announcement you have deleted within 30 days after deleting it. `Workfront` does not automatically delete announcements.
 
 * [Delete an announcement](#delete) 
 * [Access and restore an announcement you deleted recently](#access)
@@ -168,7 +106,7 @@ However, you can delete an announcement notifications. You can also access an an
 ### Delete an announcement
 
 <ol data-mc-continue="false"> 
- <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <em>Workfront</em> to open your list of notifications.</p> </li> 
+ <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <span>Workfront</span> to open your list of notifications.</p> </li> 
  <li value="2">Click <span class="bold">Announcements</span>&nbsp;or <span class="bold">View All Announcements</span>.</li> 
  <li value="3">On the <span class="bold">Announcements</span> page that appears, click the announcement you want to delete in the list on the left, then click <span class="bold">Delete</span> in the upper-right corner of the page. </li> 
 </ol>
@@ -178,7 +116,7 @@ However, you can delete an announcement notifications. You can also access an an
 You can access a notification that you deleted within the past 30 days.
 
 <ol data-mc-continue="false"> 
- <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <em>Workfront</em> to open your list of notifications.</p> </li> 
+ <li value="1"> <p>Click the numbered icon <img src="assets/notifications-icon-jewel.jpg"> in the upper-right corner of <span>Workfront</span> to open your list of notifications.</p> </li> 
  <li value="2">Click <span class="bold">Announcements</span>&nbsp;or <span class="bold">View All Announcements</span>.</li> 
  <li value="3">In the <span class="bold">Announcements</span> page that displays, click <span class="bold">Deleted</span>.</li> 
  <li value="4">Click the message that you want to view.</li> 

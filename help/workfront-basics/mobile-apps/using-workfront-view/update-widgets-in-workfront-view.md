@@ -12,7 +12,7 @@ You can view additional information about the project after you have accessed it
 
 ## Access requirements
 
-You must have the following access in *Workfront* to perform the steps in this article:
+You must have the following access in `Workfront` to perform the steps in this article:
 
 <table cellspacing="0"> 
  <col> 
@@ -21,22 +21,22 @@ You must have the following access in *Workfront* to perform the steps in this a
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Update the widgets in the Project Details view
 
 <ol> 
- <li value="1">From the <em>Adobe Workfront</em> View home page, navigate to a project by tapping its name.</li> 
+ <li value="1">From the <span>Adobe Workfront</span> View home page, navigate to a project by tapping its name.</li> 
  <li value="2">Tap the tab at the bottom in the middle of the screen.<br>The widget area displays.<br>Scroll through the widgets by swiping left to right.<br><img src="assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png" alt="" style="width: 350;height: 262;"></li> 
  <li value="3">Drag and drop a widget to customize the layout of your project page.<br>You can have up to four widgets display at one time.<br>You can rearrange the widgets by dragging them and dropping them to another location.<br>The widget arrangement is saved when you navigate between projects.</li> 
  <li value="4">Select from the following widgets:
@@ -53,9 +53,9 @@ You must have the following access in *Workfront* to perform the steps in this a
     <ul>
      <li>first, by the Estimated Due Date</li>
      <li><p>secondly, by Work Breakdown Structure</p></li>
-    </ul><p>It displays the last two complete tasks (if applicable) and next 4 tasks. To understand what tasks will be displayed in the <em>Workfront</em> View mobile app, you can build a task report for the project you are viewing and sort it by the Estimated Due Date and then by the <em>Workfront</em> Breakdown Structure. The first 6 tasks will be the tasks listed in the <em>Workfront</em> View mobile app in the Upcoming Tasks widget.</p></li>
+    </ul><p>It displays the last two complete tasks (if applicable) and next 4 tasks. To understand what tasks will be displayed in the <span>Workfront</span> View mobile app, you can build a task report for the project you are viewing and sort it by the Estimated Due Date and then by the <span>Workfront</span> Breakdown Structure. The first 6 tasks will be the tasks listed in the <span>Workfront</span> View mobile app in the Upcoming Tasks widget.</p></li>
    <li><span class="bold">Remaining Tasks</span>: Displays the incomplete tasks in a line chart.</li>
-   <li><span class="bold">Documents</span>: Displays a list of documents attached to the project.<br>You can open the following document formats with <em>Workfront</em> View:
+   <li><span class="bold">Documents</span>: Displays a list of documents attached to the project.<br>You can open the following document formats with <span>Workfront</span> View:
     <ul>
      <li>all text files</li>
      <li>.pdf</li>

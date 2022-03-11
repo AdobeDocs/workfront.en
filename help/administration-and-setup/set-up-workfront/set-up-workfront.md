@@ -8,7 +8,7 @@ title: Set up Adobe Workfront
 description: This section contains the following subsections:
 ---
 
-# Set up *Adobe Workfront*
+# Set up `Adobe Workfront`
 
 This section contains the following subsections:
 

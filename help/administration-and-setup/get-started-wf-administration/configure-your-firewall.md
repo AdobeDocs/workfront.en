@@ -9,28 +9,26 @@ description: If your firewall or mail server is configured to allow access to on
 
 # Configure your firewall's allowlist
 
-If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the *Adobe Workfront* servers and allows the following processes:
+If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the `Adobe Workfront` servers and allows the following processes:
 
 <ul> 
- <li>Sending messages from the <em>Workfront</em> application</li> 
+ <li>Sending messages from the <span>Workfront</span> application</li> 
  <li> <p>Using single sign-on (SSO) with Active Directory or Lightweight Directory Access Protocol (LDAP)</p> <note type="note">
    This is not available if your organization’s 
-   <em>Workfront</em> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+   <span>Workfront</span> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
   </note> </li> 
  <li>Using document webhooks when configuring custom document integrations</li> 
- <li> <p>Using <em>Workfront</em> Event Subscriptions</p> <p>For more information, see <draft-comment>
-    <a href="https://experience.workfront.com/s/article/Event-Subscription-API-2100945680" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Event Subscription API</a>
-   </draft-comment><a href="https://experience.workfront.com/s/article/Event-Subscription-API-2100945680" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Event Subscription API</a>.<br></p> </li> 
+ <li> <p>Using <span>Workfront</span> Event Subscriptions</p> <p>For more information, see Event Subscription API.<br></p> </li> 
 </ul>
 
 You also need to open certain ports in order for email messages to be encrypted when they are delivered.
 
-## *Workfront* allowlists you can use
+## `Workfront` allowlists you can use
 
-If your organization has the *Enterprise* plan, you can also configure two *Workfront* allowlists:
+If your organization has the `Enterprise` plan, you can also configure two `Workfront` allowlists:
 
-* **Email allowlist**: Lets you control where users can email data stored in *Workfront*. For more information, see [Configure your email allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP allowlist**: Limits access to *Workfront* to 45 IP addresses or IP address ranges that you specify, providing an additional layer of security for the *Workfront* application. For more information, see [Restrict access to Adobe Workfront by IP address](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **Email allowlist**: Lets you control where users can email data stored in `Workfront`. For more information, see [Configure your email allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **IP allowlist**: Limits access to `Workfront` to 45 IP addresses or IP address ranges that you specify, providing an additional layer of security for the `Workfront` application. For more information, see [Restrict access to Adobe Workfront by IP address](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## IP addresses to add to the allowlist
 
@@ -38,11 +36,11 @@ The IP addresses that you must add to your allowlist on your firewall depend on 
 
 >[!IMPORTANT]
 >
->Some *Workfront* integrations do not work when the allowlist is enabled because they can’t be configured with a static IP address. To use the following integrations, you must disable the allowlist.
+>Some `Workfront` integrations do not work when the allowlist is enabled because they can’t be configured with a static IP address. To use the following integrations, you must disable the allowlist.
 >
->* *Workfront for G Suite* 
->* *Workfront for Outlook* 
->* *Workfront for Salesforce* 
+>* `Workfront for G Suite` 
+>* `Workfront for Outlook` 
+>* `Workfront for Salesforce` 
 >
 
 * [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip5)<![CDATA[                ]]>
@@ -81,7 +79,7 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">To receive email from the <em>Workfront</em> application</td> 
+   <td role="rowheader">To receive email from the <span>Workfront</span> application</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -105,7 +103,7 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
 
 ### IP addresses to allow for Cluster 4
 
-If your Production environment is on Cluster 4, add the following IP addresses for SSO, document webhook integrations, and to receive email from the *Workfront* application:
+If your Production environment is on Cluster 4, add the following IP addresses for SSO, document webhook integrations, and to receive email from the `Workfront` application:
 
 * 52.31.132.175
 * 52.19.188.226
@@ -140,7 +138,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">To receive email from the <em>Workfront</em> application</td> 
+   <td role="rowheader">To receive email from the <span>Workfront</span> application</td> 
    <td> 
     <ul> 
      <li>34.94.227.64</li> 
@@ -177,7 +175,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">To receive email from the <em>Workfront</em> application when using a Test Drive</td> 
+   <td role="rowheader">To receive email from the <span>Workfront</span> application when using a Test Drive</td> 
    <td> 
     <ul> 
      <li>69.42.126.188 </li> 
@@ -189,7 +187,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
    <td role="rowheader">For SSO and document webhook integrations when using a Test Drive</td> 
    <td> 
     <ul> 
-     <li>69.42.126.188 (this address must also be added to your allowlist in order for your users to receive emails from <em>Workfront</em>)</li> 
+     <li>69.42.126.188 (this address must also be added to your allowlist in order for your users to receive emails from <span>Workfront</span>)</li> 
      <li>66.119.37.186</li> 
      <li>66.119.37.167</li> 
      <li>54.244.142.219</li> 
@@ -202,7 +200,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
 
 ### IP addresses to allow when implementing event subscriptions
 
-For all environments, add the following IP addresses to receive payloads from *Workfront* event subscriptions.
+For all environments, add the following IP addresses to receive payloads from `Workfront` event subscriptions.
 
 <table cellspacing="0"> 
  <col> 
@@ -299,9 +297,9 @@ Add the following IP addresses to use enhanced authentication for Preview or Pro
  </tbody> 
 </table>
 
-### IP addresses to add for accessing *Workfront Fusion*
+### IP addresses to add for accessing `Workfront Fusion`
 
-Add the following IP addresses to your allowlist to enable *Workfront Fusion* to access your system.
+Add the following IP addresses to your allowlist to enable `Workfront Fusion` to access your system.
 
 <table cellspacing="0"> 
  <col> 
@@ -328,7 +326,7 @@ Add the following IP addresses to your allowlist to enable *Workfront Fusion* to
  </tbody> 
 </table>
 
-Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access *Workfront Fusion*.
+Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access `Workfront Fusion`.
 
 * hook.app.workfrontfusion.com
 
@@ -336,11 +334,11 @@ Also, if your organization uses outbound network filtering, add the following do
 >
 >Outbound network filtering is uncommon. Check with your network administrator to see if you need to update your allowlist to accommodate for it.
 
-### IP addresses to add for using *Workfront* for Jira
+### IP addresses to add for using `Workfront` for Jira
 
-Add the following IP addresses to your allowlist to use the *Workfront* for Jira integration.
+Add the following IP addresses to your allowlist to use the `Workfront` for Jira integration.
 
-The jira.workfront.com domain must also be accessible from your corporate servers. This domain is required because it serves as middleware between *Workfront* and Jira.
+The jira.workfront.com domain must also be accessible from your corporate servers. This domain is required because it serves as middleware between `Workfront` and Jira.
 
 <table cellspacing="0"> 
  <col> 
@@ -392,7 +390,7 @@ The jira.workfront.com domain must also be accessible from your corporate server
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">To access <em>Workfront</em> training resources via <em>Workfront</em> Ascent</td> 
+   <td role="rowheader">To access <span>Workfront</span> training resources via <span>Workfront</span> Ascent</td> 
    <td> 
     <ul> 
      <li>18.223.140.34</li> 
@@ -401,7 +399,7 @@ The jira.workfront.com domain must also be accessible from your corporate server
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">To receive email notifications from <em>Workfront</em> Ascent</td> 
+   <td role="rowheader">To receive email notifications from <span>Workfront</span> Ascent</td> 
    <td> 
     <ul> 
      <li> <p>23.251.227.75</p> </li> 
@@ -417,9 +415,9 @@ The jira.workfront.com domain must also be accessible from your corporate server
  </tbody> 
 </table>
 
-## Domains to add for accessing *Workfront*
+## Domains to add for accessing `Workfront`
 
-If your organization uses outbound network filtering, add the following domains to your allowlist to enable your system to access *Workfront*.
+If your organization uses outbound network filtering, add the following domains to your allowlist to enable your system to access `Workfront`.
 
 >[!NOTE]
 >
@@ -437,14 +435,14 @@ If your organization uses outbound network filtering, add the following domains 
 * https://app.pendo.io/
 * https://cdn.pendo.io/
 
-## URLs to add for all clusters *Workfront*
+## URLs to add for all clusters `Workfront`
 
 <table cellspacing="0"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">To allow help content to display in your <em>Workfront</em> environment</td> 
+   <td role="rowheader">To allow help content to display in your <span>Workfront</span> environment</td> 
    <td> 
     <ul> 
      <li>https://app.pendo.io/</li> 
@@ -452,18 +450,18 @@ If your organization uses outbound network filtering, add the following domains 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">To allow <em>Workfront Proof</em> to access <em>Workfront</em> on any cluster, add these to all environments</td> 
+   <td role="rowheader">To allow <span>Workfront Proof</span> to access <span>Workfront</span> on any cluster, add these to all environments</td> 
    <td> 
     <ul> 
-     <li>*.workfront.com - Required to view proofs in <em>Workfront</em></li> 
-     <li>*.proofhq.com - Required to view proofs in <em>Workfront Proof</em></li> 
-     <li>*.proofhq.eu - Required to view proofs in <em>Workfront Proof</em></li> 
-    </ul> <p>Note:  <p>We do not support adding IP addresses to your allowlist for <em>Workfront Proof</em>. They have been dynamic after <em>Workfront</em> moved to AWS. Instead, we recommend that you allow <em>Workfront Proof</em> domains only.</p> <p>If there is an issue with adding these domains to your allowlist and you need an IP address instead, contact Workfront Customer Support.</p> </p> </td> 
+     <li>*.workfront.com - Required to view proofs in <span>Workfront</span></li> 
+     <li>*.proofhq.com - Required to view proofs in <span>Workfront Proof</span></li> 
+     <li>*.proofhq.eu - Required to view proofs in <span>Workfront Proof</span></li> 
+    </ul> <p>Note:  <p>We do not support adding IP addresses to your allowlist for <span>Workfront Proof</span>. They have been dynamic after <span>Workfront</span> moved to AWS. Instead, we recommend that you allow <span>Workfront Proof</span> domains only.</p> <p>If there is an issue with adding these domains to your allowlist and you need an IP address instead, contact Workfront Customer Support.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## IP addresses and URLs to add for accessing *Workfront Proof*
+## IP addresses and URLs to add for accessing `Workfront Proof`
 
 The highlighted information in this section was announced on October 15, 2021, and are required as of November 15, 2021.
 
@@ -554,9 +552,9 @@ You must add the following IP addresses to your allowlist in order to use variou
  </tbody> 
 </table>
 
-## Ports to open for best *Workfront Proof* performance
+## Ports to open for best `Workfront Proof` performance
 
-Open the following ports if you are experiencing problems with *proofs* loading or not working in *Workfront Proof*:
+Open the following ports if you are experiencing problems with `proofs` loading or not working in `Workfront Proof`:
 
 * 5671
 * 5672
@@ -564,8 +562,8 @@ Open the following ports if you are experiencing problems with *proofs* loading 
 
 ## Ports to open for encrypted email
 
-Emails from the *Workfront* application are sent encrypted using ports 465 and 587. If your mail server does not support encrypted email, emails are delivered unencrypted using port 25.
+Emails from the `Workfront` application are sent encrypted using ports 465 and 587. If your mail server does not support encrypted email, emails are delivered unencrypted using port 25.
 
-## Email notifications from *Workfront* Support
+## Email notifications from `Workfront` Support
 
-If you are not receiving emails from *Workfront* Support, ensure that you add the Salesforce IP addresses and domains that you need. For more information, see the Salesforce help article about Salesforce IP addresses and domains to allow.
+If you are not receiving emails from `Workfront` Support, ensure that you add the Salesforce IP addresses and domains that you need. For more information, see the Salesforce help article about Salesforce IP addresses and domains to allow.

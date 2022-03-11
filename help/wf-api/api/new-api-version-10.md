@@ -83,7 +83,7 @@ description: Updated Resources
 
 `Updated Resources`
 
-The following existing resources have been updated with this release of the *Workfront* API. Changes made to a resource are indicated as follows:
+The following existing resources have been updated with this release of the `Workfront` API. Changes made to a resource are indicated as follows:
 
 * Additions are simply listed
 * Removals are indicated with strikethrough text

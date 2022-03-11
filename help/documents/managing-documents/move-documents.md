@@ -15,7 +15,7 @@ The user must&nbsp;also have permissions to add documents to the new object to c
 When you move a document, any of the following will also move with the document:
 
 * Document versions
-* Document *proofs*
+* Document `proofs`
 * Document approvals
 
 ## Access requirements
@@ -27,16 +27,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> licenses*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,20 +45,18 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Move a document
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the document you need.
 
-<ol start="3"> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Move</span> icon <img src="assets/move-document--25x19.png" style="width: 25;height: 19;">.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Move</span> icon <img src="assets/move-document--25x19.png" style="width: 25;height: 19;">.</p> </li> 
- <li value="4">From the drop-down menu in the box that appears, click <span class="bold">Issue</span>, <span class="bold">Project</span> or <span class="bold">Task</span> to indicate the type of object where you want to move the document.&nbsp;</li> 
- <li value="5">Type the name of the <span class="bold">Issue</span>, <span class="bold">Project</span> or <span class="bold">Task</span> in the text box.</li> 
- <li value="6">Click <span class="bold">Finish</span>.</li> 
-</ol>
+1. Click the Move icon . 
+1. From the drop-down menu in the box that appears, click `Issue`, `Project` or `Task` to indicate the type of object where you want to move the document.&nbsp;
+
+1. Type the name of the `Issue`, `Project` or `Task` in the text box.
+
+1. Click `Finish`.
 
 You can also move a document from the Document Details page. For more information, see in the article .

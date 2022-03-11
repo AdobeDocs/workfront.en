@@ -10,11 +10,11 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from *Adobe Workfront*. We recommend that you use the *Workload Balancer* for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
 >
->For information about scheduling resources using the new *Workload Balancer*, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 You can configure various settings to customize how and what information displays in the scheduling timeline.
 
@@ -27,16 +27,16 @@ You must have the following access to perform the steps in this article::
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View access or higher to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,71 +45,19 @@ You must have the following access to perform the steps in this article::
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Configure issues to display on the scheduling timeline
 
 You can configure issues to be displayed in addition to tasks on the scheduling timeline.   
-When scheduling resources 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-in the Scheduling section for a team
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  in the Scheduling section for a team </MadCap:conditionalText>`, issues are displayed by default in addition to tasks. When scheduling resources for projects, only tasks are displayed by default.
+When scheduling resources in the Scheduling section for a team, issues are displayed by default in addition to tasks. When scheduling resources for projects, only tasks are displayed by default.
 
 <ol> 
  <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
   <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click 
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click 
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
+   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li> 
+   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
+   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
   </ul></li> 
  <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
  <li value="3">On the Resource Scheduling Settings dialog box, enable the&nbsp;<span class="bold">Show&nbsp;Issues</span>&nbsp;option.<br><img src="assets/rs-scheduling-tab-all-settings--1--350x417.png" alt="RS_scheduling_tab_all_settings__1_.png" style="width: 350;height: 417;"></li> 
@@ -123,53 +71,9 @@ You can configure the scheduling timeline to display work that has already been 
 <ol> 
  <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
   <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click 
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click 
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
+   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li> 
+   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
+   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
   </ul></li> 
  <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
  <li value="3">On the Resource Scheduling Settings dialog box, enable the <span class="bold">Show Completed Work</span>&nbsp;option.<br><img src="assets/rss-show-completed-work-disabled--1--350x336.png" alt="RSS_show_completed_work_disabled__1_.png" style="width: 350;height: 336;"></li> 
@@ -189,42 +93,8 @@ To display project names on tasks and issues on the scheduling timeline:
 <ol> 
  <li value="1"> <p>Go to the scheduling timeline for multiple projects or for a team: </p> 
   <ul> 
-   <li> <p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p> </li> 
-   <li> <p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click 
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click 
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p> </li> 
+   <li> <p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p> </li> 
+   <li> <p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p> </li> 
   </ul> <p> <br> </p> </li> 
  <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
  <li value="3">On the Resource Scheduling Settings dialog box, enable the option,&nbsp;<span class="bold">Show Project Names</span>.<br><img src="assets/rs-scheduling-tab-all-settings--2--350x348.png" alt="RS_scheduling_tab_all_settings__2_.png" style="width: 350;height: 348;"></li> 
@@ -249,90 +119,27 @@ Consider the following information about Planned and Projected Dates:
 
 To configure the scheduling timeline to display tasks and issues according to Projected Dates:&nbsp;
 
-<ol> 
- <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
-  <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click 
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click 
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-  </ul></li> 
- <li value="2"> <p>Click the&nbsp;<span class="bold">Settings</span>&nbsp;icon on the scheduling timeline.<br></p> </li> 
- <li value="3">On the Resource Scheduling Settings dialog box, disable&nbsp;the&nbsp;<span class="bold">Use Planned instead of Projected Dates</span>&nbsp;option.</li> 
- <li value="4">Click <span class="bold">Return to Scheduling</span>.</li> 
-</ol>
+1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
+
+  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
+  * **For an individual project**: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.
+  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+
+1. Click the  `Settings`&nbsp;icon on the scheduling timeline.  
+
+1. On the Resource Scheduling Settings dialog box, disable the  `Use Planned instead of Projected Dates`&nbsp;option.
+1. Click `Return to Scheduling`.
 
 ## Configure how users are displayed on the scheduling timeline
 
 >[!NOTE]
 >
->This section applies only when scheduling resources for teams (from the >
-><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->Scheduling section for a team>
-></MadCap:conditionalText>>
->-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Scheduling section for a team </MadCap:conditionalText>`). When scheduling resources for multiple projects (from the Scheduling tab) or for a single project (from the Staffing tab), users cannot be displayed alphabetically; they are always organized by role.
+>This section applies only when scheduling resources for teams (from the Scheduling section for a team). When scheduling resources for multiple projects (from the Scheduling tab) or for a single project (from the Staffing tab), users cannot be displayed alphabetically; they are always organized by role.
 
 When scheduling resources for a team, you can configure users to be displayed on the&nbsp;scheduling timeline either alphabetically or by role. By default, users are displayed alphabetically (roles are not displayed).
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, then click&nbsp;Teams. A team is selected by default. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-   <span class="bold">Main Menu</span> icon 
-   <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-   <em>Workfront</em>, then click&nbsp;Teams. A team is selected by default. 
-  </MadCap:conditionalText></li> 
+ <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront, then click Teams. A team is selected by default.</li> 
  <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
  <li value="3">On the Settings dialog box,&nbsp;select&nbsp;whether to enable the <span class="bold">Group by Role</span> option. <br>When this option is disabled, users are displayed in alphabetical order, and roles are not shown on the scheduling timeline.<br>When this option is enabled, roles are displayed on the scheduling timeline, and users are grouped within their respective role. If a given user has multiple roles defined in the system, that user appears multiple times on the scheduling timeline, beneath each appropriate role.<br><img src="assets/rs-working-on-team-scheduling-full-settings--1--350x348.png" alt="RS_working_on_team_scheduling_full_settings__1_.png" style="width: 350;height: 348;"></li> 
  <li value="4">Click <span class="bold">Return to Scheduling</span>.</li> 
@@ -347,15 +154,7 @@ Parent Tasks display differently depending on which scheduling timeline you are 
 
 ### Display parent tasks for multiple projects
 
-When scheduling resources for multiple projects in the Scheduling 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  section </MadCap:conditionalText>`, whether parent tasks display or not depends on the following settings:
+When scheduling resources for multiple projects in the Scheduling section, whether parent tasks display or not depends on the following settings:
 
 * The Completion Mode of the Project.
 * The Summary Completion Mode of the Project.
@@ -376,36 +175,12 @@ The following table outlines when the parent tasks display in the Scheduling tab
 
 For information about configuring the `Completion Mode` and the `Summary Completion Mode` fields for each project, see the section "Settings"&nbsp;in&nbsp;the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
-You can manually configure the Show Parent Tasks setting in the Scheduling 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  section </MadCap:conditionalText>` for multiple projects.&nbsp;
+You can manually configure the Show Parent Tasks setting in the Scheduling section for multiple projects.&nbsp;
 
 To configure the Show Parent Tasks setting:&nbsp;
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Workfront</em>, click 
-     <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-     <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, click 
-    <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-    <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-   </MadCap:conditionalText> </p> </li> 
+ <li value="1"> <p> Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. </p> </li> 
  <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
  <li value="3">In the Resource Scheduling Settings dialog box, select whether to enable the option,&nbsp;<span class="bold">Show Parent Tasks.&nbsp;</span><br>When this option is enabled, parent tasks from all projects are displayed according to the Summary Completion Mode and the Completion Mode settings of the projects, as outlined in the above table. This option is enabled by default.<br><img src="assets/rs-scheduling-tab-all-settings--3--350x348.png" alt="RS_scheduling_tab_all_settings__3_.png" style="width: 350;height: 348;"></li> 
  <li value="4">Click <span class="bold">Return to Scheduling</span> in the lower-left corner.</li> 
@@ -413,64 +188,16 @@ To configure the Show Parent Tasks setting:&nbsp;
 
 ### Display parent tasks for a project or a team
 
-When scheduling resources in the Staffing 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  section </MadCap:conditionalText>`of a project or in the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Schedule section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Schedule section </MadCap:conditionalText>`, whether Parent Tasks display or not depends on the following settings:
+When scheduling resources in the Staffing sectionof a project or in the Schedule section, whether Parent Tasks display or not depends on the following settings:
 
 * The Completion Mode of the Project.
 * The Summary Completion Mode of the Project.
 
 For information about configuring the `Completion Mode` and the  `Summary Completion Mode` fields for each project, see the section "Settings" in&nbsp;the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
-The following table outlines when the Parent Tasks display in the Staffing 
+The following table outlines when the Parent Tasks display in the Staffing sectionof a project or in the Schedule section, and when only the subtasks display.&nbsp;
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  section </MadCap:conditionalText>`of a project or in the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Schedule section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Schedule section </MadCap:conditionalText>`, and when only the subtasks display.&nbsp;
-
-| Completion Mode of the Project |Summary Completion Mode of the Project |Type of tasks displayed in the &nbsp;
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Scheduling section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Scheduling section </MadCap:conditionalText>` |Type of tasks displayed in the Teams 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Scheduling section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Scheduling section </MadCap:conditionalText>` |
+| Completion Mode of the Project |Summary Completion Mode of the Project |Type of tasks displayed in the &nbsp;Scheduling section |Type of tasks displayed in the Teams Scheduling section |
 |---|---|---|---|
 | Manual |Automatic |Subtasks only |Subtasks only |
 | Manual |Manual |Subtasks and Parent Tasks |Subtasks only |
@@ -488,53 +215,9 @@ To configure the scheduling timeline to display the daily totals for the Planned
 <ol> 
  <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
   <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click 
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click 
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li> 
+   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li> 
+   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
+   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
   </ul></li> 
  <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
  <li value="3">In the Settings dialog box, enable the following options: 
@@ -549,25 +232,7 @@ To configure the scheduling timeline to display the daily totals for the Planned
 
 >[!NOTE]
 >
->This option applies only when scheduling resources for individual projects (from the >
-><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->Scheduling section of the project>
-></MadCap:conditionalText>>
->-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Scheduling section of the project </MadCap:conditionalText>`). This option is not available when scheduling resources for multiple projects (from the Scheduling >
-><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->section>
-></MadCap:conditionalText>>
->-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  section </MadCap:conditionalText>`) or for teams (from the >
-><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->Scheduling section for a team>
-></MadCap:conditionalText>>
->-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Scheduling section for a team </MadCap:conditionalText>`).
+>This option applies only when scheduling resources for individual projects (from the Scheduling section of the project). This option is not available when scheduling resources for multiple projects (from the Scheduling section) or for teams (from the Scheduling section for a team).
 
 To configure whether all tasks assigned to each user (not just the tasks associated with the project you are viewing) are displayed on the scheduling timeline:
 
@@ -575,19 +240,7 @@ To configure whether all tasks assigned to each user (not just the tasks associa
  <li value="1">Go to the project where you want to configure the scheduling timeline to display all tasks assigned to each user.</li> 
  <li value="2"> 
   <div> 
-   <p> <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel (it might be located under 
-      <span class="bold">Show More</span>), then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-     <span class="bold"><em>Workload Balancer</em></span> section in the left panel (it might be located under 
-     <span class="bold">Show More</span>), then select 
-     <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-    </MadCap:conditionalText> </p> 
+   <p> Click the Workload Balancer section in the left panel (it might be located under Show More), then select Scheduling from the upper-left drop-down menu. </p> 
   </div> </li> 
  <li value="3">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
  <li value="4">In the Settings area, select whether to enable the option,&nbsp;<span class="bold">Show All User Tasks</span>.<br>When this option is enabled, all tasks assigned to each user are displayed on the scheduling timeline, regardless of the project where the tasks are located.<br>This option is disabled by default. <br><img src="assets/rs-project-scheduling-area--1--350x340.png" alt="RS_project_scheduling_area__1_.png" style="width: 350;height: 340;"></li> 

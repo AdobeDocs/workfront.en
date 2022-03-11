@@ -6,9 +6,9 @@ title: Rich text fields in the Adobe Workfront API
 description: Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
 ---
 
-# Rich text fields in the *Adobe Workfront* API
+# Rich text fields in the `Adobe Workfront` API
 
-Some objects in *Adobe Workfront* allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
+Some objects in `Adobe Workfront` allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
 
 ## Overview Example
 

@@ -8,7 +8,7 @@ description: You can create predecessor relationships in multiple ways in Adobe 
 
 # Create predecessor relationships by chaining tasks
 
-You can create predecessor relationships in multiple ways in *Adobe Workfront*. One method is by chaining tasks.
+You can create predecessor relationships in multiple ways in `Adobe Workfront`. One method is by chaining tasks.
 
 For information about predecessor tasks, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,24 +41,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Chain tasks to create predecessor relationships
 
 <ol> 
  <li value="1">Go to the project that contains the tasks that you want to chain. </li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click 
-     <span class="bold">Tasks</span> in the left panel.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Tasks</span> in the left panel.
-   </MadCap:conditionalText></p> </li> 
- <li value="3"> <p>(Conditional) Select <span class="bold">Autosave</span> in the upper-right corner of the task list, then select the tasks that you want to chain. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-autosave-icon-on-highlighted-350x295.png" style="width: 350;height: 295;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-autosave-icon-on-highlighted-350x295.png" style="width: 350;height: 295;"> </p> <note type="important">
+ <li value="2"> <p> Click Tasks in the left panel.</p> </li> 
+ <li value="3"> <p>(Conditional) Select <span class="bold">Autosave</span> in the upper-right corner of the task list, then select the tasks that you want to chain. </p>  <note type="important">
    Chaining tasks in a task list is not possible when you manually save changes to tasks or use the Timeline Planning mode for saving tasks. 
   </note> </li> 
  <li value="4"> <p>Right-click the selected tasks, then click <span class="bold">Chain</span>. </p> </li> 

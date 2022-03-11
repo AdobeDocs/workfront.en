@@ -19,16 +19,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> licenses*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents the Delete permission enabled</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents the Delete permission enabled</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,18 +37,13 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 To delete a document:
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the document you need.
 
-<ol start="3"> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Delete</span> icon <img src="assets/delete.png"> above the Documents area.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Delete</span> icon <img src="assets/delete.png"> above the Documents area.</li> 
- <li value="4">In the box that appears, click <span class="bold">Yes, Delete it</span>&nbsp;to confirm.</li> 
-</ol>
+1. In the box that appears, click `Yes, Delete it`&nbsp;to confirm.
 
 A system or group administrator can restore a document within 30 days of being deleted, as described in [Restore deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

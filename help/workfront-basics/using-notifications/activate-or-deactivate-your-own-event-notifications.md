@@ -8,9 +8,9 @@ description: Your Adobe Workfront administrator configures which event notificat
 
 # Activate or deactivate your own event notifications
 
-Your *Adobe Workfront administrator* configures which event notifications users receive when events occur in *Workfront* (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Your `Adobe Workfront administrator` configures which event notifications users receive when events occur in `Workfront` (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-Your *group administrator* can also configure which event notifications are activated for you and the users in your Home Group. If your Home Group is a subgroup, you receive the event notifications activated for the top-level group above your group.
+Your `group administrator` can also configure which event notifications are activated for you and the users in your Home Group. If your Home Group is a subgroup, you receive the event notifications activated for the top-level group above your group.
 
 You can customize this further by configuring which notifications you receive. You can also choose whether you want to receive notifications as events happen or in one daily digest email.
 
@@ -19,7 +19,7 @@ For information about email notifications, see [Adobe Workfront notifications](.
 >[!NOTE]
 >
 >* If you activate a notification type and then find that you are not receiving notifications of that type, it may be because that type does not apply for your role.
->* The *Workfront administrator* or a *group administrator* cannot configure notifications for *Workfront Goals*. For more information about what notifications the *Workfront administrator* can configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). For information about configuring individual notifications for *Workfront Goals* continue to read this article. 
+>* The `Workfront administrator` or a `group administrator` cannot configure notifications for `Workfront Goals`. For more information about what notifications the `Workfront administrator` can configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). For information about configuring individual notifications for `Workfront Goals` continue to read this article. 
 >
 
 ## Access requirements
@@ -33,30 +33,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## View and modify your email notification settings
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click your user name next to your profile picture.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click your user name next to your profile picture.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/more-icon.png"> , then click <span class="bold">Edit</span>.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/more-icon.png"> , then click <span class="bold">Edit</span>.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the <span class="bold">Edit Person</span> box that displays, go to the <span class="bold">Notifications</span> section.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the <span class="bold">Edit Person</span> box that displays, go to the <span class="bold">Notifications</span> section.</li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Click the More icon , then click Edit. In the Edit Person box that displays, go to the Notifications section. 
  <li value="4"> <p>Click a category to view the notification settings related to that category.<br></p> <p> <img src="assets/my-profile-notifications-350x212.png" style="width: 350;height: 212;"> </p> </li> 
  <li value="5"> <p>Select or deselect the check boxes on the right to specify whether you want to receive or not receive notifications daily, instantly, or both.</p> <p>You can also use the check boxes for a category to activate or deactivate all notifications in that category.</p> <note type="note">
    If you are a team member for a project, you continue to receive email notifications for it until you are removed from the team, even if you no longer have access to the project. For instructions on removing users from a team, see 

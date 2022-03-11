@@ -4,14 +4,14 @@ product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
 title: Manage Your Contacts in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: You can manage your colleagues, members, and guests on the Contacts page.
 ---
 
-# Manage Your Contacts in *Workfront Proof*
+# Manage Your Contacts in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can manage your colleagues, members, and guests on the Contacts page.
 
@@ -49,8 +49,8 @@ You can manage your colleagues, members, and guests on the Contacts page.
  <li value="3">Do any of the following: 
   <ul> 
    <li>Click <span class="bold">Add to Group</span> to add the selected contacts to a Group.<br><img src="assets/add-to-group-btn.png" alt="Add_to_Group_btn.png"></li> 
-   <li>Click <span class="bold">Remove</span>, then click an option in the drop-down menu to remove the contact from <em>proofs</em> or groups.</li> 
-   <li>Click <span class="bold">More&nbsp;</span>>&nbsp;<span class="bold">Send reminder on late <em>proofs</em></span> to send a reminder email to the selected contacts about any late <em>proofs</em>.</li> 
+   <li>Click <span class="bold">Remove</span>, then click an option in the drop-down menu to remove the contact from <span>proofs</span> or groups.</li> 
+   <li>Click <span class="bold">More&nbsp;</span>>&nbsp;<span class="bold">Send reminder on late <span>proofs</span></span> to send a reminder email to the selected contacts about any late <span>proofs</span>.</li> 
    <li>Click <span class="bold">More</span> > <span class="bold">Export contacts to CSV</span> to export the selected contacts to a CSV file.</li> 
    <li>Click <span class="bold">Delete contacts</span> to remove the selected contacts from your list.<br><img src="assets/trash-button.png" alt="Trash_button.png"><br>Deleting a contact does not mean that a user is removed from your account; however if an Administrator or Billing Administrator deletes someone from the contacts list, that person will be deleted from your organization's account altogether.</li> 
    <li>Click the <span class="bold">More</span> icon at the end of a contact's row and use any of the options in the drop-down menu that appears.<br>These options are different for for different types of contacts. See <a href="../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md" class="MCXref xref">Understand Users, Members, and Guests in Workfront Proof</a> for more information.</li> 

@@ -10,13 +10,13 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from *Adobe Workfront*. We recommend that you use the *Workload Balancer* for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
 >
->For information about scheduling resources using the new *Workload Balancer*, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-This article refers to modifying user assignments for multiple tasks using the Scheduling area of *Adobe Workfront* . Please also see the following articles for modifying assignments on multiple tasks in other areas:
+This article refers to modifying user assignments for multiple tasks using the Scheduling area of `Adobe Workfront` . Please also see the following articles for modifying assignments on multiple tasks in other areas:
 
 * For information about modifying assignments on multiple tasks in a task list, see [Modify multiple user assignments in a task list](../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md). 
 * For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
@@ -25,25 +25,7 @@ You can assign users to multiple tasks at the same time when using the Resource 
 
 >[!NOTE]
 >
->This article applies only when scheduling resources for multiple projects (from the Scheduling >
-><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->section>
-></MadCap:conditionalText>>
->-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  section </MadCap:conditionalText>`) or for a single project (from the >
-><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->Scheduling section>
-></MadCap:conditionalText>>
->-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Scheduling section </MadCap:conditionalText>`); you cannot manage user assignments for multiple tasks as described in this section when scheduling resources for a team (from the >
-><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->Schedule section>
-></MadCap:conditionalText>>
->-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Schedule section </MadCap:conditionalText>`).
+>This article applies only when scheduling resources for multiple projects (from the Scheduling section) or for a single project (from the Scheduling section); you cannot manage user assignments for multiple tasks as described in this section when scheduling resources for a team (from the Schedule section).
 
 ## Access requirements
 
@@ -54,16 +36,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> licenses overview*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> licenses overview*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Projects, Tasks, and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Projects, Tasks, and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -72,7 +54,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Considerations for making multiple assignments in the Scheduling areas
 
@@ -99,34 +81,8 @@ For example:
 <ol> 
  <li value="1"> <p>Go to the scheduling timeline for multiple projects or for an individual project:</p> 
   <ul> 
-   <li> <p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p> </li> 
-   <li> <p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p> </li> 
+   <li> <p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p> </li> 
+   <li> <p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p> </li> 
   </ul> </li> 
  <li value="2">Click <span class="bold">Actions</span>.<br><img src="assets/resource-scheduling.png" alt="resource_scheduling.png"></li> 
  <li value="3"> <p>In the <span class="bold">Select Project</span> field, depending on whether you are viewing the scheduling timeline for multiple projects (from the Scheduling tab) or for an individual project (from the Staffing tab), do either of the following:</p> 

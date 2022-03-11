@@ -9,13 +9,13 @@ description: This page describes all Proofing enhancements made with the 21.2 re
 
 # 21.2 Proofing enhancements
 
-This page describes all *Proofing* enhancements made with the *21.2* release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the *21.2* release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+This page describes all `Proofing` enhancements made with the `21.2` release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the `21.2` release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Proof decision now visible in the Documents list
 
 >[!NOTE]
 >
->Available only in *the new Adobe Workfront experience*.
+>Available only in `the new Adobe Workfront experience`.
 
 The overall proof decision is now visible on the default document list view.
 
@@ -23,13 +23,7 @@ With this enhancement, you can easily see all proofs that have an overall decisi
 
 Previously, you were required to go to the document details and proof workflow in order to view the overall proof decision, which required multiple clicks.
 
-For more information about proof decisions, see 
-
-<!--
-<a href="../../../documents/managing-documents/documents-area.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Documents area</a>
--->
-
-[The Documents area](../../../documents/managing-documents/documents-area.md).
+For more information about proof decisions, see The Documents area.
 
 This feature is now included in the [Manage proofs and versions in the new Workfront experience](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) learning path on Workfront One.
 

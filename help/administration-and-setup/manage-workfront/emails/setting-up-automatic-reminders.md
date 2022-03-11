@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator, you can set up automatic remin
 
 # Set up automatic reminders
 
-As an *Adobe Workfront administrator*, you can set up automatic reminders to trigger email notifications when all tasks or issues are&nbsp;due, late, or near the planned completion date. After you configure these settings, users cannot disable automatic reminders.
+As an `Adobe Workfront administrator`, you can set up automatic reminders to trigger email notifications when all tasks or issues are&nbsp;due, late, or near the planned completion date. After you configure these settings, users cannot disable automatic reminders.
 
 For late notifications, the email is sent nightly until the task or issue is completed.
 
@@ -32,11 +32,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -48,10 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Set up automatic reminders
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
  <li value="2">Click <span class="bold">Email</span> ><span class="bold">Automatic Reminders</span>.</li> 
  <li value="3"> <p>In the <span class="bold">Send a late notification to</span> area, select any of the following options:</p> 
   <table cellspacing="0"> 
@@ -76,9 +73,7 @@ You must have the following access to perform the steps in this article:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="4"> <p>Select the time&nbsp;for the automatic reminder to send by selecting the amount of time before or after the due date of the work item.</p> <p>The time is calculated from the Planned Completion Date of the task or issue.<br></p> <p>Specify the number of minutes, hours, days, weeks, or months to add time to the Planned Completion Date of the tasks or issues. Select <span class="bold">Elapsed Minutes</span>, <span class="bold">Elapsed Hours</span>, <span class="bold">Elapsed Days</span>, or <span class="bold">Elapsed Weeks</span> to add time that includes any weekends,&nbsp;holidays, and non-working hours as indicated in your schedule.<br></p> <p>For example, if a task is assigned on Friday and&nbsp;has a duration of 3 elapsed days, the task completion date is set for Monday (assuming that Saturday and Sunday is a weekend). If the task has a duration of 3 days (not elapsed), the&nbsp;task completion date is set for Wednesday.<br></p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/time-increments-for-automatic-reminder-qs-350x180.png" style="width: 350;height: 180;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/time-increments-for-automatic-reminder-qs-350x180.png" style="width: 350;height: 180;"> </p> </li> 
+ <li value="4"> <p>Select the time&nbsp;for the automatic reminder to send by selecting the amount of time before or after the due date of the work item.</p> <p>The time is calculated from the Planned Completion Date of the task or issue.<br></p> <p>Specify the number of minutes, hours, days, weeks, or months to add time to the Planned Completion Date of the tasks or issues. Select <span class="bold">Elapsed Minutes</span>, <span class="bold">Elapsed Hours</span>, <span class="bold">Elapsed Days</span>, or <span class="bold">Elapsed Weeks</span> to add time that includes any weekends,&nbsp;holidays, and non-working hours as indicated in your schedule.<br></p> <p>For example, if a task is assigned on Friday and&nbsp;has a duration of 3 elapsed days, the task completion date is set for Monday (assuming that Saturday and Sunday is a weekend). If the task has a duration of 3 days (not elapsed), the&nbsp;task completion date is set for Wednesday.<br></p>  </li> 
  <li value="5">Click <span class="bold">Save</span>.</li> 
 </ol>
 
@@ -92,6 +87,6 @@ For more information about receiving Automatic Reminders emails, see the [Automa
 
 ## Send automatic reminders
 
-Automatic reminders are sent as soon as the time selected by the *Workfront administrator* is met.
+Automatic reminders are sent as soon as the time selected by the `Workfront administrator` is met.
 
-If you want to trigger sending the automatic reminder emails manually, you can do so by using Diagnostics. For more information about accessing and using Diagnostics in *Workfront*, see [Use Diagnostics to trigger automated processes](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+If you want to trigger sending the automatic reminder emails manually, you can do so by using Diagnostics. For more information about accessing and using Diagnostics in `Workfront`, see [Use Diagnostics to trigger automated processes](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

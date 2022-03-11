@@ -8,7 +8,7 @@ title: Modules in Adobe Workfront Fusion
 description: This section contains the following articles:
 ---
 
-# Modules in *Adobe Workfront Fusion*
+# Modules in `Adobe Workfront Fusion`
 
 This section contains the following articles:
 
@@ -22,10 +22,9 @@ This section contains the following articles:
 * [Iterator module](../../workfront-fusion/modules/iterator-module.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/modules/converger-module.md" class="MCXref xref" xrefformat="{para}">Converger module</a> </li>
+  Converger module
   -->
 
-* [Converger module](../../workfront-fusion/modules/converger-module.md) 
 * [HTTP request methods](../../workfront-fusion/modules/http-request-methods.md) 
 * [Text parser troubleshooting](../../workfront-fusion/modules/text-parser-troubleshooting.md)
 

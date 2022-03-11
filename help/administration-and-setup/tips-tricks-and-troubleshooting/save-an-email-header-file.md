@@ -10,7 +10,7 @@ description: Occasionally, Adobe Workfront support may request an email Header f
 
 # Save an email header file
 
-Occasionally, *Adobe Workfront* support may request an email Header file. Each email application has its own way of getting this file. Here are a few different email application instructions to locate and save the Header.
+Occasionally, `Adobe Workfront` support may request an email Header file. Each email application has its own way of getting this file. Here are a few different email application instructions to locate and save the Header.
 
 ## Outlook
 

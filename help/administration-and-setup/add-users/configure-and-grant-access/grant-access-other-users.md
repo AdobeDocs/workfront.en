@@ -2,7 +2,7 @@
 
 # Grant access to users
 
-As an *Adobe Workfront administrator*, you can use an access level to define a user’s access to other users in *Workfront*, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+As an `Adobe Workfront administrator`, you can use an access level to define a user’s access to other users in `Workfront`, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Access requirements
 
@@ -13,71 +13,71 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configuring access to users
 
-You can manage what information users can view and edit for other users using a default access level or a custom access level that you create. Users with the default *Plan* and *Work* licenses can view the contact information of other users. Any of the following users can create and edit other users:
+You can manage what information users can view and edit for other users using a default access level or a custom access level that you create. Users with the default `Plan` and `Work` licenses can view the contact information of other users. Any of the following users can create and edit other users:
 
-* A *Workfront administrator*.
+* A `Workfront administrator`.
 
   For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* A user with a default *Plan* license who also has access to users, as explained in this article.
+* A user with a default `Plan` license who also has access to users, as explained in this article.
 
   Users that are restricted to see only users from their company or the primary company have access to edit only the users they can see. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* A user with a default *Plan* license who is also specified as the manager of another user.
+* A user with a default `Plan` license who is also specified as the manager of another user.
 
   Users who are granted Edit access to users in their access level can manage users who report to them. For information about managing a user, see [View the organizational chart](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* A user with a default *Plan* license who created a user can deactivate, delete, or edit the user they created. For information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* A user with a default `Plan` license who created a user can deactivate, delete, or edit the user they created. For information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Configure users’ access to edit users using a custom access level
 
 <ol> 
  <li value="1">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</li> 
- <li value="2">To change the ability of users with a <em>Plan</em> or <em>Work</em> license to view the profiles of other users:
+ <li value="2">To change the ability of users with a <span>Plan</span> or <span>Work</span> license to view the profiles of other users:
   <ol>
    <li value="1">Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> button to the right of <span class="bold">Users</span>.</li>
    <li value="2">Disable <span class="bold">View Contact info</span>, then click the X to close the <span class="bold">Fine-tune your settings</span> box.</li>
   </ol></li> 
- <li value="3"> <p>To modify the ability of users with a <em>Plan</em> license access to edit other users, click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">Edit</span> button to the right of <span class="bold">Users</span>, then select the abilities you want to grant:</p> 
+ <li value="3"> <p>To modify the ability of users with a <span>Plan</span> license access to edit other users, click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">Edit</span> button to the right of <span class="bold">Users</span>, then select the abilities you want to grant:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
      <td role="rowheader"><span class="bold">Create</span> </td> 
-     <td> <p>Allows users to create users.<br>This option is enabled by default.</p> <draft-comment>
-       <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
-      </draft-comment><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p> <note type="note">
+     <td> <p>Allows users to create users.<br>This option is enabled by default.</p> <!--
+       Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.
+      --> <note type="note">
        This is not available if your organization’s 
-       <em>Workfront</em> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+       <span>Workfront</span> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
       </note> </td> 
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Delete</span> </td> 
      <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <note type="note">
        This is not available if your organization’s 
-       <em>Workfront</em> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+       <span>Workfront</span> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
       </note> </td> 
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">User Admin (All Users)</span> </td> 
-     <td> <p>Allows users to do the following for any user in <em>Workfront</em>:</p> 
+     <td> <p>Allows users to do the following for any user in <span>Workfront</span>:</p> 
       <ul> 
        <li>Edit, delete, or deactivate the user</li> 
        <li>Log in as the user</li> 
@@ -92,8 +92,8 @@ You can manage what information users can view and edit for other users using a 
         <li>Log in as the user</li>
         <li><p>Reset the user's password</p><note type="note">
            A 
-          <em>group administrator</em> cannot log in as or reset the password of a 
-          <em>Workfront administrator</em>.
+          <span>group administrator</span> cannot log in as or reset the password of a 
+          <span>Workfront administrator</span>.
           <br>
          </note></li>
        </ul><p>This option is disabled by default.</p></p> </td> 
@@ -102,12 +102,10 @@ You can manage what information users can view and edit for other users using a 
   </table> 
   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
    <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p>If you don’t want to grant <em>group administrators</em> access to all members of the groups they administer, disable both of the User Admin options above. <em>Group administrators</em> will still be able to access group members whom they add to <em>Workfront</em>, or who report to them in <em>Workfront</em>.</p> 
+   <p>If you don’t want to grant <span>group administrators</span> access to all members of the groups they administer, disable both of the User Admin options above. <span>Group administrators</span> will still be able to access group members whom they add to <span>Workfront</span>, or who report to them in <span>Workfront</span>.</p> 
   </div> </li> 
  <li value="4"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" data-mc-variable-override="">Grant access to financial data</a>.</p> </li> 
- <li value="5">When you are finished, click <draft-comment>
-   <b data-mc-conditions="QuicksilverOrClassic.Quicksilver">Save</b>
-  </draft-comment><b data-mc-conditions="QuicksilverOrClassic.Quicksilver">Save</b>.</li> 
+ <li value="5">When you are finished, click Save.</li> 
 </ol>
 
 ## Access to users by license type

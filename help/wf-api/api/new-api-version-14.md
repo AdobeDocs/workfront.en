@@ -8,7 +8,7 @@ description: Adobe Workfront released API version 14 on September 9, 2021. API v
 
 # What's new in API version 14
 
-*Adobe Workfront* released API version 14 on September 9, 2021. API version 14 features the following changes from version 14.
+`Adobe Workfront` released API version 14 on September 9, 2021. API version 14 features the following changes from version 14.
 
 ## Added resources
 
@@ -167,7 +167,7 @@ For more information about document versions, see [Upload a new version of a doc
    <td role="rowheader">Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><b>lastCallbackDate</b> </p> <p>Added. This field records the date and time of the last callback from <em>Workfront Proof</em>, if the version is associated to a proof.</p> </li> 
+     <li> <p><b>lastCallbackDate</b> </p> <p>Added. This field records the date and time of the last callback from <span>Workfront Proof</span>, if the version is associated to a proof.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -313,43 +313,6 @@ A Template object represents a pattern for a project. Projects can be created fr
 </table>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="Timeshee"></a>Timesheet (TSHET)</h3>
-<p>A&nbsp;Timesheet object represents a virtual timecard that allows users to enter actual hours worked for tasks, projects, and overhead hour types.</p>
-<p>For more information, see <a href="../../timesheets/timesheets/timesheets-overview.md" class="MCXref xref">Timesheets overview</a>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Core Fields</td>
-<td>
-<ul>
-<li> <p><b>objCode</b> </p> <p>Removed.</p> </li>
-</ul> </td>
-</tr>
-</tbody>
-</table>
-</div>
+Timesheet (TSHET) A Timesheet object represents a virtual timecard that allows users to enter actual hours worked for tasks, projects, and overhead hour types. For more information, see Timesheets overview. Core Fields objCode Removed.
 -->
-
-### Timesheet (TSHET)
-
-A&nbsp;Timesheet object represents a virtual timecard that allows users to enter actual hours worked for tasks, projects, and overhead hour types.
-
-For more information, see [Timesheets overview](../../timesheets/timesheets/timesheets-overview.md).
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Core Fields</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>objCode</b> </p> <p>Removed.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
 

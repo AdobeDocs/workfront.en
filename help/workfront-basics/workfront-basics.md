@@ -6,7 +6,7 @@ title: Adobe Workfront basics
 description: This section contains the following subsections:
 ---
 
-# *Adobe Workfront* basics
+# `Adobe Workfront` basics
 
 This section contains the following subsections:
 
@@ -20,12 +20,6 @@ This section contains the following subsections:
 * [Use notifications](../workfront-basics/using-notifications/use-notifications.md) 
 * [Grant and request permissions to objects](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) 
 * [Manage your account and profile](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md) 
-* [Mobile Apps](../workfront-basics/mobile-apps/mobile-apps.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="../workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md" class="MCXref xref" xrefformat="{para}">Redesigned functionality in the new Adobe Workfront experience</a> </li>
-  -->
-
-* [Redesigned functionality in the new Adobe Workfront experience](../workfront-basics/the-new-workfront-experience/redesigned-features-in-nwe.md) 
+* [Mobile Apps](../workfront-basics/mobile-apps/mobile-apps.md) 
 * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
 

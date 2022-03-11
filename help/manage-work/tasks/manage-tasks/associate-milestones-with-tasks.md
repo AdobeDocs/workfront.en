@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,13 +37,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
 Before you can associate a milestone with a task, the following must exist:
 
-* The *Workfront administrator* must create a milestone path, as described in [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* The `Workfront administrator` must create a milestone path, as described in [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * In order to associate a milestone path with a project, the project must be in Planning or Current status.
 
@@ -54,14 +54,10 @@ Before you can associate a milestone with a task, the following must exist:
 ## Associate a milestone with a task
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a project, then click the <span class="bold">More</span> icon <img src="assets/more-icon.png">, then <span class="bold">Edit</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a project, then click the <span class="bold">More</span> icon <img src="assets/more-icon.png">, then <span class="bold">Edit</span>. </p> </li> 
+ <li value="1"> Go to a project, then click the More icon , then Edit. </li> 
  <li value="2">Using the <span class="bold">Settings</span> section, set the milestone path to be used on the project. </li> 
  <li value="3">Click <span class="bold">Save</span>. </li> 
- <li value="4"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a task, then click the <span class="bold">More</span> icon <img src="assets/more-icon.png">, then <span class="bold">Edit</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a task, then click the <span class="bold">More</span> icon <img src="assets/more-icon.png">, then <span class="bold">Edit</span>. </p> </li> 
+ <li value="4"> Go to a task, then click the More icon , then Edit. </li> 
  <li value="5"> <p>After a milestone path is associated with a project, tasks can be assigned a milestone.</p> <p>Tasks and Milestones have a 1:1 relationship. You cannot attach the same milestone to multiple tasks. Each task can be linked to a single milestone, or each milestone can be mapped to one task.</p> </li> 
  <li value="6"> <p>Click&nbsp;<span class="bold">Save</span>.</p> </li> 
  <li value="7"> <p>(Optional) In a list of tasks, add the <span class="bold">Status Icons</span> column to identify which tasks have milestones.</p> <p> <img src="assets/amwt3.png" alt=""> </p> </li> 

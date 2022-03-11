@@ -8,37 +8,25 @@ title: Proof Permission Profile overview
 description: Proof Permission Profiles determine what overall permissions users have over all proofs in your account. Proof Permission Profiles are assigned to users in their User Profile. Proof Permission Profiles are different from proof roles. For more information about proof roles, see Proof Roles overview.
 ---
 
-# *Proof Permission Profile* overview
+# `Proof Permission Profile` overview
 
-*Proof Permission Profiles* determine what overall permissions users have over all *proofs* in your account. *Proof Permission Profiles* are assigned to users in their User Profile. *Proof Permission Profiles* are different from *proof* roles. For more information about proof roles, see [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+`Proof Permission Profiles` determine what overall permissions users have over all `proofs` in your account. `Proof Permission Profiles` are assigned to users in their User Profile. `Proof Permission Profiles` are different from `proof` roles. For more information about proof roles, see [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
 >If you are an Administrator, you can create custom profiles for users in your organization. For more information, see [Configure custom profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
--->
-
 Consider the following about roles and permissions:
+-->
 
 <!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li> <p>Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the&nbsp;account settings&nbsp;and billing of those accounts from the hub account level.</p> </li>
-<li> <p>Billing Administrators and Administrators can delete users. This can only be done in&nbsp;Account settings.</p> </li>
-<li>When Billing Administrators and Administrators view <em>proofs</em> that are owned by other users in their account, they view them with the role of a Reviewer.</li>
-<li>Using the Read Only role, Billing Administrators and Administrators can access <em>proofs</em> in folders shared with them or in folders created by them.&nbsp;</li>
-</ul>
+Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the account settings and billing of those accounts from the hub account level. Billing Administrators and Administrators can delete users. This can only be done in Account settings. When Billing Administrators and Administrators view proofs that are owned by other users in their account, they view them with the role of a Reviewer. Using the Read Only role, Billing Administrators and Administrators can access proofs in folders shared with them or in folders created by them.
 -->
 
-* Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the&nbsp;account settings&nbsp;and billing of those accounts from the hub account level.
-* Billing Administrators and Administrators can delete users. This can only be done in&nbsp;Account settings.
-* When Billing Administrators and Administrators view *proofs* that are owned by other users in their account, they view them with the role of a Reviewer.
-* Using the Read Only role, Billing Administrators and Administrators can access *proofs* in folders shared with them or in folders created by them.&nbsp;
+## `Proof Permission Profiles`
 
-## *Proof Permission Profiles*
-
-The following table displays the permissions available with each *Proof Permission Profile*.
+The following table displays the permissions available with each `Proof Permission Profile`.
 
 | `Own Items`  | `Other Users' Items`  | `Admin`  | `Billing`  |
 |---|---|---|---|
@@ -84,12 +72,6 @@ The following table displays the permissions available with each *Proof Permissi
 | ![](assets/cleaner2.png)
 
 |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Observer |&nbsp; | ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Observer |&nbsp; | ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### Administrator
 
@@ -107,21 +89,21 @@ Administrators have access to&nbsp; [Account settings](https://support.workfront
    <td> 
     <ul> 
      <li> <p>Create proofs, upload files, and create folders</p> </li> 
-     <li> <p>View, edit, and delete <em>proofs</em> and files they created</p> </li> 
-     <li> <p>View, edit, and delete <em>proofs</em> and files created by all users in the organization</p> </li> 
+     <li> <p>View, edit, and delete <span>proofs</span> and files they created</p> </li> 
+     <li> <p>View, edit, and delete <span>proofs</span> and files created by all users in the organization</p> </li> 
      <li> <p>Delete the public&nbsp;folders of other Users</p> </li> 
-     <li> <p>Edit all <em>proofs</em> created in the account</p> </li> 
+     <li> <p>Edit all <span>proofs</span> created in the account</p> </li> 
      <li> <p>Be set as the Dropzone owner*</p> </li> 
      <li> <p>Access the&nbsp;Account Settings page and edit the account details</p> </li> 
      <li> <p>Empty the&nbsp;trash</p> </li> 
      <li> <p>Add, edit, and delete users</p> </li> 
      <li> <p>Create groups and add new contacts</p> </li> 
      <li> <p>Delete contacts</p> </li> 
-     <li> <p>Edit <em>proofs</em>&nbsp;if there are no replies on them</p> </li> 
+     <li> <p>Edit <span>proofs</span>&nbsp;if there are no replies on them</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Edit <em>proof</em> replies.</p> </li> 
+     <li> <p>Edit <span>proof</span> replies.</p> </li> 
      <li> <p>Delete the private&nbsp;folders of other Users</p> </li> 
      <li> <p>Access the&nbsp;Billing page or edit the billing details</p> </li> 
     </ul> </td> 
@@ -129,7 +111,7 @@ Administrators have access to&nbsp; [Account settings](https://support.workfront
  </tbody> 
 </table>
 
-&#42;Available only in the *Workfront Proof* standalone product.
+&#42;Available only in the `Workfront Proof` standalone product.
 
 ### Supervisor
 
@@ -147,17 +129,17 @@ Supervisors have the following permissions:
    <td> 
     <ul> 
      <li> <p>Create proofs, upload files, and create folders</p> </li> 
-     <li> <p>View, edit, and delete <em>proofs</em> and files they created</p> </li> 
-     <li> <p>View, edit, and delete <em>proofs</em> and files created by all users in the organization</p> </li> 
+     <li> <p>View, edit, and delete <span>proofs</span> and files they created</p> </li> 
+     <li> <p>View, edit, and delete <span>proofs</span> and files created by all users in the organization</p> </li> 
      <li> <p>Delete the public&nbsp;folders of other Users</p> </li> 
-     <li> <p>Edit all <em>proofs</em> created in the account</p> </li> 
+     <li> <p>Edit all <span>proofs</span> created in the account</p> </li> 
      <li> <p>Create groups and add new contacts</p> </li> 
      <li> <p>Delete contacts</p> </li> 
-     <li> <p>Edit <em>proofs</em>&nbsp;if there are no replies on them</p> </li> 
+     <li> <p>Edit <span>proofs</span>&nbsp;if there are no replies on them</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Edit <em>proof</em> replies.</p> </li> 
+     <li> <p>Edit <span>proof</span> replies.</p> </li> 
      <li> <p>Delete the private&nbsp;folders of other Users</p> </li> 
      <li> <p>Access the&nbsp;Billing page or edit the billing details</p> </li> 
      <li> <p>Add, edit, or delete users</p> </li> 
@@ -183,14 +165,14 @@ Managers have the following permissions:
    <td> 
     <ul> 
      <li> <p>Create proofs, upload files, and create folders</p> </li> 
-     <li> <p>View, edit, and delete <em>proofs</em> and files they created</p> </li> 
-     <li> <p>See, review, and approve <em>proofs</em> of other users that are explicitly shared with them (Read-only rights to everything in a shared folder)</p> </li> 
-     <li> <p>Edit all <em>proofs</em> created in the account</p> </li> 
+     <li> <p>View, edit, and delete <span>proofs</span> and files they created</p> </li> 
+     <li> <p>See, review, and approve <span>proofs</span> of other users that are explicitly shared with them (Read-only rights to everything in a shared folder)</p> </li> 
+     <li> <p>Edit all <span>proofs</span> created in the account</p> </li> 
      <li> <p>Create groups and add new contacts</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>View, edit, or delete <em>proofs</em> and files created by other users in the organization.&nbsp;</p> <p>Edit <em>proof</em> replies.</p> </li> 
+     <li> <p>View, edit, or delete <span>proofs</span> and files created by other users in the organization.&nbsp;</p> <p>Edit <span>proof</span> replies.</p> </li> 
      <li> <p>Delete the private&nbsp;or public folders of other Users</p> </li> 
      <li> <p>Access the&nbsp;Billing page or edit the billing details</p> </li> 
      <li> <p>Add, edit, or delete users</p> </li> 
@@ -202,150 +184,102 @@ Managers have the following permissions:
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Observer"></a>Observer</h3>
+Observer
 -->
-
-### Observer
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers have the following permissions:</p>
--->
-
 Observers have the following permissions:
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can see, review, and approve <em>proofs</em> of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
 -->
 
-![](assets/cleaner2.png)Can see, review, and approve *proofs* of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them.&nbsp;</p>
+Can see, review, and approve proofs of other users that are explicitly shared with them (Read-only rights to everything in a shared folder). For more information, see Manage Proof Roles in Workfront Proof.
 -->
 
-![](assets/cleaner2.png)Can view files that are explicitly shared with them.&nbsp;
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot&nbsp;create <em>proofs</em>, upload files, and create folders. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md" class="MCXref xref">Upload Files and Web Content to Workfront Proof</a>.</p>
+Can view files that are explicitly shared with them.
 -->
 
-![](assets/no2.png)Cannot&nbsp;create *proofs*, upload files, and create folders. For more information, see [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot view, edit, or delete <em>proofs</em> and files created by other users in the organization.</p>
+Cannot create proofs, upload files, and create folders. For more information, see Upload Files and Web Content to Workfront Proof.
 -->
 
-![](assets/no2.png)Cannot view, edit, or delete *proofs* and files created by other users in the organization.
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot edit <em>proofs</em>&nbsp;or replies.</p>
+Cannot view, edit, or delete proofs and files created by other users in the organization.
 -->
 
-![](assets/no2.png)Cannot edit *proofs*&nbsp;or replies.
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete any items created in the organization.</p>
+Cannot edit proofs or replies.
 -->
 
-![](assets/no2.png)Cannot delete any items created in the organization.
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access&nbsp;the Billing page or Account settings. For more information, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>&nbsp;and&nbsp;<a href="../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md" class="MCXref xref">Account settings in Workfront Proof</a>.</p>
+Cannot delete any items created in the organization.
 -->
 
-![](assets/no2.png)Cannot access&nbsp;the Billing page or Account settings. For more information, see [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)&nbsp;and&nbsp; [Account settings in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot be set as the Dropzone owner. For more information, see <a href="../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md" class="MCXref xref">Configure the dropzone in Workfront Proof</a>.</p>
+Cannot access the Billing page or Account settings. For more information, see The Workfront Proof Billing Page and Account settings in Workfront Proof.
 -->
 
-![](assets/no2.png)Cannot be set as the Dropzone owner. For more information, see [Configure the dropzone in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot empty the&nbsp;trash. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md" class="MCXref xref">Restore and Empty the Trash in Workfront Proof</a>.</p>
+Cannot be set as the Dropzone owner. For more information, see Configure the dropzone in Workfront Proof.
 -->
 
-![](assets/no2.png)Cannot empty the&nbsp;trash. For more information, see [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot add, edit, or delete users.&nbsp;</p>
+Cannot empty the trash. For more information, see Restore and Empty the Trash in Workfront Proof.
 -->
 
-![](assets/no2.png)Cannot add, edit, or delete users.&nbsp;
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot create groups or add new contacts.&nbsp;</p>
+Cannot add, edit, or delete users.
 -->
 
-![](assets/no2.png)Cannot create groups or add new contacts.&nbsp;
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts.&nbsp;</p>
+Cannot create groups or add new contacts.
 -->
 
-![](assets/no2.png)Cannot delete contacts.&nbsp;
+<!--
+Cannot delete contacts.
+-->
 
 >[!NOTE]
 >
 ><!-->
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
+>Menus and functions available to Observers are limited.>
 >-->
->Menus and functions available to Observers are limited.&nbsp;
->
 >  <!-->
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
+>  Observers do not see the Header menu or the green New menu in their Dashboard>
 >  -->
->* Observers do not see the Header menu or the green New menu in their Dashboard
->
 >  <!-->
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing </li>>
+>  Observers do not see the following links in their Settings: Account settings, Billing>
 >  -->
->* Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing 
->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Guest"></a>Guest</h3>
+Guest
 -->
-
-### Guest
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Guest profile is used to give access to <em>proofs</em> for reviewers who do not have their own <em>Workfront Proof</em> account. Guests can access <em>proofs</em> shared with them directly via their personal email notifications.</p>
+The Guest profile is used to give access to proofs for reviewers who do not have their own Workfront Proof account. Guests can access proofs shared with them directly via their personal email notifications.
 -->
-
-The Guest profile is used to give access to *proofs* for reviewers who do not have their own *Workfront Proof* account. Guests can access *proofs* shared with them directly via their personal email notifications.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view, review, and approve <em>proofs</em> that are explicitly shared with them.</p>
+Can view, review, and approve proofs that are explicitly shared with them.
 -->
-
-![](assets/cleaner2.png)Can view, review, and approve *proofs* that are explicitly shared with them.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/cleaner2.png">Can view files that are explicitly shared with them.</p>
+Can view files that are explicitly shared with them.
 -->
-
-![](assets/cleaner2.png)Can view files that are explicitly shared with them.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot access the Dashboard.</p>
+Cannot access the Dashboard.
 -->
-
-![](assets/no2.png)Cannot access the Dashboard.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot have folders shared with them. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md" class="MCXref xref">Manage Folders in Workfront Proof</a>.</p>
+Cannot have folders shared with them. For more information, see Manage Folders in Workfront Proof.
 -->
-
-![](assets/no2.png)Cannot have folders shared with them. For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot be added as Authors or Moderators to the <em>proofs</em>. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p>
+Cannot be added as Authors or Moderators to the proofs. For more information, see Manage Proof Roles in Workfront Proof.
 -->
 
-![](assets/no2.png)Cannot be added as Authors or Moderators to the *proofs*. For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
-
->[!NOTE]
->
->&nbsp;Guests are not *Workfront Proof* users, so they cannot see all the *proofs* shared with them in their own Dashboard.
+<!--
+Note: Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
+-->
 

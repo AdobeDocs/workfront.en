@@ -20,16 +20,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,15 +40,15 @@ When you set a custom status as a default system status, any new groups created 
 
 Groups that already existed when you set the new default system status do not automatically inherit it.
 
-For example, suppose there are 2 groups already created in your *Adobe Workfront* environment (Marketing and Sales). You create a new custom status that equates with Current, and call the status In Process. You now create a new group called Engineering. In this scenario, the Engineering group inherits the new default status; the Marketing and Sales groups do not.
+For example, suppose there are 2 groups already created in your `Adobe Workfront` environment (Marketing and Sales). You create a new custom status that equates with Current, and call the status In Process. You now create a new group called Engineering. In this scenario, the Engineering group inherits the new default status; the Marketing and Sales groups do not.
 
 ## `About setting custom default group-level statuses`
 
 A custom status that you set as a default group status is used in the following circumstances:
 
-* `When the *Workfront* system chooses a status automatically, the default group status is used:` The custom status that you set as the default group status is used when the *Workfront* system automatically assigns a status to an object.
+* `When the `Workfront` system chooses a status automatically, the default group status is used:` The custom status that you set as the default group status is used when the `Workfront` system automatically assigns a status to an object.
 
-  For example, a task can be&nbsp;configured to automatically change to Complete status when the percent complete reaches 100%. If you create a custom status that equates with Complete and you set that custom status as a default status, *Workfront* changes the status of the task to the new default status.
+  For example, a task can be configured to automatically change to Complete status when the percent complete reaches 100%. If you create a custom status that equates with Complete and you set that custom status as a default status, `Workfront` changes the status of the task to the new default status.
 
   Custom statuses are used in this way only with group statuses that are associated with a task or issue. Custom statuses cannot be used in this way for statuses associated with a project.
 
@@ -61,30 +61,20 @@ A custom status that you set as a default group status is used in the following 
 ## Set a custom status as a default status
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
  <li value="3">(Conditional) To set a default status for a group, begin typing the name of the group in the menu in the upper-right corner.</li> 
  <li value="4">Click the <span class="bold">Set Default Statuses</span> drop-down menu.</li> 
  <li value="5">In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want.</li> 
  <li value="6">Click <span class="bold">Save</span>.</li> 
- <li value="7"> <p>Associate the project with the group where the status resides. <draft-comment>
-    <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This step isn’t in older documentation</span>
-   </draft-comment><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This step isn’t in older documentation</span></p> <p>Users can use the custom status only if the group where the status resides is associated with the project. </p> <note type="note">
+ <li value="7"> <p>Associate the project with the group where the status resides. <!--
+    This step isn’t in older documentation
+   --></p> <p>Users can use the custom status only if the group where the status resides is associated with the project. </p> <note type="note">
     If you are setting the custom status for a group, and you later assign the project to a different group, the project status will reload and could change.
   </note> 
   <ol> 
    <li value="1"> <p>Go to the project where you want to use the custom status.</p> </li> 
-   <li value="2"> <p> <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the More menu 
-       <img src="assets/more-icon.png">, then click 
-       <span class="bold">Edit</span>. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the More menu 
-      <img src="assets/more-icon.png">, then click 
-      <span class="bold">Edit</span>. 
-     </MadCap:conditionalText> </p> </li> 
+   <li value="2"> <p> Click the More menu , then click Edit. </p> </li> 
    <li value="3">In the <span class="bold">Edit Project</span> box that displays, in the <span class="bold">Group</span> field under <span class="bold">Project association</span>, select the group where the status resides.</li> 
    <li value="4">Click <span class="bold">Save Changes</span>.</li> 
   </ol> </li> 

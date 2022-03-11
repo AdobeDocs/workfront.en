@@ -13,44 +13,20 @@ This page describes all features made available in the Production environment si
 For information about what's coming soon, see [Now available in Preview](../../../product-announcements/product-releases/new-in-preview/now-available-in-preview.md).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Future (never publish this)</h2>
+Future (never publish this)
 -->
-
-## Future (never publish this)
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3>Delete objects in the mobile app</h3>
-<p>You can now delete projects, tasks, issues, documents, requests, and timesheets when accessing Workfront from the mobile app.</p>
-<p>For more information about the Workfront mobile app, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Android</a> and <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
-</div>
+Delete objects in the mobile app You can now delete projects, tasks, issues, documents, requests, and timesheets when accessing Workfront from the mobile app. For more information about the Workfront mobile app, see Adobe Workfront for Android and Adobe Workfront for iOS.
 -->
-
-### Delete objects in the mobile app
-
-You can now delete projects, tasks, issues, documents, requests, and timesheets when accessing Workfront from the mobile app.
-
-For more information about the Workfront mobile app, see [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) and [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">September 13, 2019</h2>
+September 13, 2019
 -->
-
-## September 13, 2019
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3>Custom Conditions available in the mobile app</h3>
-<p>You can now set custom Conditions for projects, tasks, and issues while accessing Workfront from the mobile app.</p>
-<p>For more information about the Workfront mobile app, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Android</a> and <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
-</div>
+Custom Conditions available in the mobile app You can now set custom Conditions for projects, tasks, and issues while accessing Workfront from the mobile app. For more information about the Workfront mobile app, see Adobe Workfront for Android and Adobe Workfront for iOS.
 -->
-
-### Custom Conditions available in the mobile app
-
-You can now set custom Conditions for projects, tasks, and issues while accessing Workfront from the mobile app.
-
-For more information about the Workfront mobile app, see [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) and [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
 
 ## August 30, 2019
 

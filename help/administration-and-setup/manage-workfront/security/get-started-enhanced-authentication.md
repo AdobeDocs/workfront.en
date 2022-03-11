@@ -19,11 +19,11 @@ The highlighted information on this page refers to functionality not yet general
 >
 >For a list of procedures that differ based on whether your organization is migrated to Adobe IMS, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-*Adobe Workfront* is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all *Workfront* products and services.
+`Adobe Workfront` is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all `Workfront` products and services.
 
 >[!NOTE]
 >
->This is not available if your organization’s *Workfront* instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>This is not available if your organization’s `Workfront` instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 The following table provides details about current and future functionality:
 
@@ -40,10 +40,7 @@ The following table provides details about current and future functionality:
 <table cellspacing="15"> 
  <col> 
  <col> 
- <col> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+ <col>  
  <thead> 
   <tr> 
    <th> <p><span class="bold">Feature</span> </p> </th> 
@@ -58,13 +55,13 @@ The following table provides details about current and future functionality:
    <td> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Enable a single username to be used for all <em>Workfront</em> products and services, including training, support, and others</p> </td> 
+   <td> <p>Enable a single username to be used for all <span>Workfront</span> products and services, including training, support, and others</p> </td> 
    <td>Not available</td> 
    <td> <p>Not available</p> </td> 
    <td> <p class="preview">✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Allow using the same email address across <em>Workfront</em> instances</p> </td> 
+   <td> <p>Allow using the same email address across <span>Workfront</span> instances</p> </td> 
    <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
    <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
    <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
@@ -73,26 +70,22 @@ The following table provides details about current and future functionality:
    <td> <p>Email addresses are case-insensitive</p> </td> 
    <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
    <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case.&nbsp;</p> </td> 
-   <td> <p class="preview">✓</p> <p class="preview">Multiple users cannot have the same email address if the address differs only by case. <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        For more information, see . 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       For more information, see . 
-     </MadCap:conditionalText></p> <p class="preview"><em>Workfront administrators</em> will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
+   <td> <p class="preview">✓</p> <p class="preview">Multiple users cannot have the same email address if the address differs only by case. <!--
+      For more information, see .
+     --></p> <p class="preview"><span>Workfront administrators</span> will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
   </tr> 
   <tr> 
    <td colspan="3"> <p><span class="bold">Password management options</span> </p> </td> 
    <td> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Instigate a password reset email for a user as the <em>Workfront administrator</em></p> </td> 
+   <td> <p>Instigate a password reset email for a user as the <span>Workfront administrator</span></p> </td> 
    <td> <p>Not available&nbsp;</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p class="preview">✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Set a temporary password for a user as the <em>Workfront administrator</em></p> </td> 
+   <td> <p>Set a temporary password for a user as the <span>Workfront administrator</span></p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
    <td> <p class="preview">Not planned</p> <p class="preview">This functionality is not a security best practice</p> </td> 
@@ -115,41 +108,26 @@ The following table provides details about current and future functionality:
   </tr> 
   <tr> 
    <td> <p>Safeguard against incorrect password entry attempts&nbsp;</p> </td> 
-   <td> <p>✓&nbsp;</p> <p>Locks the account after 5 incorrect password entry attempts. The wait time required after lockout is configured by the <em>Workfront administrator</em></p> </td> 
-   <td> <p>✓</p> <p>Wait time is exponentially increased after each successive incorrect password based on industry best practices; the time required is not configurable by the <em>Workfront administrator</em></p> </td> 
+   <td> <p>✓&nbsp;</p> <p>Locks the account after 5 incorrect password entry attempts. The wait time required after lockout is configured by the <span>Workfront administrator</span></p> </td> 
+   <td> <p>✓</p> <p>Wait time is exponentially increased after each successive incorrect password based on industry best practices; the time required is not configurable by the <span>Workfront administrator</span></p> </td> 
    <td> <p class="preview">✓</p> <p class="preview">Uses a lock-out algorithm that proactively blocks a variety of suspicious behavior.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Require a mix of lowercase, uppercase, numbers, and special characters</p> </td> 
    <td>✓</td> 
    <td> <p>✓&nbsp;</p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
-   <td> <p class="preview">✓</p> <p class="preview"> <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        To learn more about setting password requirements, see . 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       To learn more about setting password requirements, see . 
-     </MadCap:conditionalText> </p> </td> 
+   <td> <p class="preview">✓</p> <p class="preview"> <!--
+      To learn more about setting password requirements, see .
+     --> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Set a minimum password length&nbsp;</p> </td> 
    <td> Not available&nbsp;</td> 
    <td> ✓&nbsp;</td> 
    <td> <p class="preview">✓</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Restrict users from using more than 2 identical characters in a row</td> 
-    <td>Not available</td> 
-    <td>Not available</td> 
-    <td> <p class="preview">✓</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Restrict users from using more than 2 identical characters in a row</td> 
-   <td>Not available</td> 
-   <td>Not available</td> 
-   <td> <p class="preview">✓</p> </td> 
-  </tr> 
+  </tr> <!--
+   Restrict users from using more than 2 identical characters in a row Not available Not available ✓
+  --> 
   <tr> 
    <td colspan="3"> <p><span class="bold">Single Sign-On Protocol support</span>&nbsp;&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
@@ -173,10 +151,10 @@ The following table provides details about current and future functionality:
    <td> <p class="preview">✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Configure the <em>Workfront</em> login page to always redirect to the identity provider login page </p> </td> 
+   <td> <p> Configure the <span>Workfront</span> login page to always redirect to the identity provider login page </p> </td> 
    <td> Enabled by default and cannot be disabled</td> 
-   <td> <p>✓</p> <p><em>Workfront administrator</em> can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
-   <td> <p class="preview">✓</p> <p class="preview"> <em>Workfront administrators</em> can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
+   <td> <p>✓</p> <p><span>Workfront administrator</span> can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
+   <td> <p class="preview">✓</p> <p class="preview"> <span>Workfront administrators</span> can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Allow each instance to enable multiple SSO&nbsp;providers</p> </td> 
@@ -199,33 +177,11 @@ The following table provides details about current and future functionality:
    <td> <p>Not available</p> </td> 
    <td> <p>Not available</p> </td> 
    <td> <p class="preview">✓</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Available for Production environments</p> </td> 
-    <td>✓</td> 
-    <td> ✓&nbsp;</td> 
-    <td> <p class="preview">✓</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td> <p>Available for Production environments</p> </td> 
-   <td>✓</td> 
-   <td> ✓&nbsp;</td> 
-   <td> <p class="preview">✓</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> Available for Preview and Sandbox environments&nbsp;</td> 
-    <td> ✓&nbsp;</td> 
-    <td> ✓</td> 
-    <td> <p class="preview">✓</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td> Available for Preview and Sandbox environments&nbsp;</td> 
-   <td> ✓&nbsp;</td> 
-   <td> ✓</td> 
-   <td> <p class="preview">✓</p> </td> 
-  </tr> 
+  </tr> <!--
+   Available for Production environments ✓ ✓ ✓
+  --> <!--
+   Available for Preview and Sandbox environments ✓ ✓ ✓
+  --> 
  </tbody> 
 </table>
 

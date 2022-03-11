@@ -4,28 +4,22 @@
 
 Your organization must have the following to use the functionality described in this article:
 
-* A *Pro* or higher [*Adobe Workfront* plan](https://www.workfront.com/plans). 
-* An *Adobe Workfront Goals* license in addition to a *Workfront* license.
+* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
+* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
 
-  Contact your *Workfront* account manager to learn about a *Workfront Goals* license.
+  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
 
-  *Workfront Goals* is available only in *the new Adobe Workfront experience*.
+  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
 
-For additional information about access to *Workfront Goals*, see 
+For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
 
-<!--
-<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>
--->
+To guarantee that your organization moves forward fastest, you must ensure that work execution is aligned with company strategy. `Workfront Goals` provides the tools necessary to do this successfully.
 
-[Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+This article offers a few guidelines and recommendations to successfully use `Workfront Goals` to not only run your business but also grow your business by aligning your strategic goals to your deliverables.
 
-To guarantee that your organization moves forward fastest, you must ensure that work execution is aligned with company strategy. *Workfront Goals* provides the tools necessary to do this successfully.
+Goal best practice starts with top-level corporate objectives, and then cascades down to group, team, and individual levels. The resulting goals must be aligned with, contribute to, and support achieving corporate priorities. In  `Workfront Goals`, goals are supported by results or activities that indicate how you achieve them.
 
-This article offers a few guidelines and recommendations to successfully use *Workfront Goals* to not only run your business but also grow your business by aligning your strategic goals to your deliverables.
-
-Goal best practice starts with top-level corporate objectives, and then cascades down to group, team, and individual levels. The resulting goals must be aligned with, contribute to, and support achieving corporate priorities. In&nbsp;*Workfront Goals*, goals are supported by results or activities that indicate how you achieve them.
-
-For information about getting your organization started with working in *Workfront Goals*, see [Get started with Workfront Goals](get-started-with-wf-align.md).
+For information about getting your organization started with working in `Workfront Goals`, see [Get started with Workfront Goals](get-started-with-wf-align.md).
 
 ## Benefits for using goals in your enterprise planning
 
@@ -39,20 +33,20 @@ Use enterprise goal planning to achieve the following within your organization:
 
 Misalignment between the overall vision of an enterprise and the work that the individual contributors are doing every day detracts from the successful delivery of the desired business outcomes.
 
-Alignment of work activities to clear vision and strategy streamlines the delivery of outcomes that truly drive the enterprise forward. When you combine *Workfront*'s work and resource management capabilities with *Workfront Goals*'s goal management, you can ensure that everyone in your organization is working on business outcomes while you eliminate unnecessary friction and lack of clarity.
+Alignment of work activities to clear vision and strategy streamlines the delivery of outcomes that truly drive the enterprise forward. When you combine `Workfront`'s work and resource management capabilities with `Workfront Goals`'s goal management, you can ensure that everyone in your organization is working on business outcomes while you eliminate unnecessary friction and lack of clarity.
 
-*Workfront Goals* coordinates strategy, goals, and work to drive execution of organizational outputs and deliver measurable business outcomes.
+`Workfront Goals` coordinates strategy, goals, and work to drive execution of organizational outputs and deliver measurable business outcomes.
 
 ## Identify your outcomes and outputs
 
-Use *Workfront Goals* to create alignment between your outputs (execution of work) and outcomes (strategic goals).
+Use `Workfront Goals` to create alignment between your outputs (execution of work) and outcomes (strategic goals).
 
 To fulfill this purpose, remember:
 
 * Outcomes are goals and their results. They define what you want to achieve. 
 * Outputs are the activities that are achieved as a result of your work. For example, projects are a type of activity.
 
-With *Workfront Goals*, the two work hand in hand to illustrate how your overall strategy is developing.
+With `Workfront Goals`, the two work hand in hand to illustrate how your overall strategy is developing.
 
 Consider the following when tying your goals to your work:
 
@@ -66,11 +60,11 @@ Consider the following when tying your goals to your work:
 
 * Activities, like results, are specific and measurable. They answer the question "What work needs to be done to accomplish what&nbsp;I want?" Activities are the output that you achieve to ensure you meet the goal.
 
-## Who can use *Workfront Goals*?
+## Who can use `Workfront Goals`?
 
-Although contributors often have personal goals, we recommend that you use *Workfront Goals* to support your organization's work in achieving strategic objectives. Everyone in the organization should be encouraged to set goals that are aligned to the overall company strategy and that connect with their daily activities.
+Although contributors often have personal goals, we recommend that you use `Workfront Goals` to support your organization's work in achieving strategic objectives. Everyone in the organization should be encouraged to set goals that are aligned to the overall company strategy and that connect with their daily activities.
 
-We recommend that the following resources use *Workfront Goals* for the following purposes: 
+We recommend that the following resources use `Workfront Goals` for the following purposes: 
 
 <table cellspacing="3"> 
  <col> 
@@ -78,7 +72,7 @@ We recommend that the following resources use *Workfront Goals* for the followin
  <tbody> 
   <tr> 
    <td>Role</td> 
-   <td>Purpose for using <em>Workfront Goals</em></td> 
+   <td>Purpose for using <span>Workfront Goals</span></td> 
   </tr> 
   <tr> 
    <td>Enterprise executive or departmental manager</td> 
@@ -95,14 +89,14 @@ We recommend that the following resources use *Workfront Goals* for the followin
  </tbody> 
 </table>
 
-## Best practices for creating goals in *Workfront Goals*
+## Best practices for creating goals in `Workfront Goals`
 
-Consider the following recommendations to successfully manage your organizational goals with *Workfront Goals*:
+Consider the following recommendations to successfully manage your organizational goals with `Workfront Goals`:
 
 * Focus on fewer rather than too many goals. 
 * Define measurable outcomes.
 * Review yearly goals throughout the year to ensure business needs have not changed and to ensure they are still relevant. 
 * Assign goals to teams and groups to streamline your organizational structure and align it to your goals. 
 * Individual employees should contribute to organizational achievements through their work on activities and delivery of results, as well as through aligning their own goals to higher organization-level goals. 
-* Make the most out of *Workfront Goals* by connecting your work with goals. This helps you not only run but also change and grow your business.
+* Make the most out of `Workfront Goals` by connecting your work with goals. This helps you not only run but also change and grow your business.
 

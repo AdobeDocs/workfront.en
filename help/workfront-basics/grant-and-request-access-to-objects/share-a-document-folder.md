@@ -16,16 +16,12 @@ You can share a folder and its contents from the Documents area.
 >
 >* The folder must be in the >
 >  <!-->
->  <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >  top five levels>
->  </MadCap:conditionalText>>
 >  -->
->  `<MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> top five levels</MadCap:conditionalText>` of a folder hierarchy on an object. >
+>  of a folder hierarchy on an object. >
 >  <!-->
->  <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">Each folder at the sixth level or below inherits its sharing configurations from the folder directly above it.</span>>
+>  Each folder at the sixth level or below inherits its sharing configurations from the folder directly above it.>
 >  -->
->  `Each folder at the sixth level or below inherits its sharing configurations from the folder directly above it.`
->
 >  For information about adding subfolders to create a folder hierarchy, see the section [Create folders and subfolders](../../documents/organizing-documents/create-documents-folder.md#creating-folders) in the article [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
 >
 >* Smart folders can't be shared.
@@ -42,67 +38,30 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>View access to an object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to an object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-  </tr> 
+   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> Object permissions View access to an object For information on requesting additional access, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Share a folder
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Adobe Workfront</em>, then click 
-     <span class="bold">Documents</span>.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Adobe Workfront</em>, then click 
-    <span class="bold">Documents</span>.
-   </MadCap:conditionalText> </p> <p>Or</p> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     With a 
-     <em>Workfront</em> object open, click 
-     <span class="bold">Documents</span> in the left panel.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    With a 
-    <em>Workfront</em> object open, click 
-    <span class="bold">Documents</span> in the left panel.
-   </MadCap:conditionalText> </p> </li> 
- <li value="2"> <p>Select the folder, then click the Share icon <img src="assets/share-icon.png"> in the toolbar.</p> <p>The folder <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-     <span class="preview">must be in the top five levels of a folder hierarchy on an object</span>, and 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    <span class="preview">must be in the top five levels of a folder hierarchy on an object</span>, and 
-   </MadCap:conditionalText>cannot be a smart folder.</p> </li> 
- <li value="3"> <p>In the box that displays, under <span class="bold">Give <em>folder</em> access to</span>, start typing the name of the user, team, job role, group, or company you want to share the <em>folder</em> with, then press <span class="bold">Enter</span> when the name displays.</p> </li> 
+ <li value="1"> <p> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Documents. </p> <p>Or</p> <p> With a Workfront object open, click Documents in the left panel. </p> </li> 
+ <li value="2"> <p>Select the folder, then click the Share icon <img src="assets/share-icon.png"> in the toolbar.</p> <p>The folder <!--
+    must be in the top five levels of a folder hierarchy on an object, and
+   -->cannot be a smart folder.</p> </li> 
+ <li value="3"> <p>In the box that displays, under <span class="bold">Give <span>folder</span> access to</span>, start typing the name of the user, team, job role, group, or company you want to share the <span>folder</span> with, then press <span class="bold">Enter</span> when the name displays.</p> </li> 
  <li value="4"> <p>To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:</p> 
   <table cellspacing="0"> 
    <col> 

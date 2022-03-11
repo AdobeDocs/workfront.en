@@ -8,7 +8,7 @@ title: Workfront Library Setup
 description: This section contains the following articles:
 ---
 
-# *Workfront Library* Setup
+# `Workfront Library` Setup
 
 This section contains the following articles:
 

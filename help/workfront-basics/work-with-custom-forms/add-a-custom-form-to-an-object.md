@@ -34,16 +34,16 @@ You must have the following access to perform the actions described in this arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the objects for which you manage custom forms</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -52,11 +52,11 @@ You must have the following access to perform the actions described in this arti
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisite
 
-Your *Workfront administrator* or a user with a *Plan* license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Your `Workfront administrator` or a user with a `Plan` license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Add a custom form to an object
 
@@ -67,60 +67,19 @@ You can add a custom form to an object in two ways:
 
 ### Add a custom form to an object by editing the object
 
-<ol> 
- <li value="1">Go to the object where you want to add the custom form.</li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">More</span> menu 
-     <img src="assets/more-icon.png">, then click 
-     <span class="bold">Edit </span>
-     <img src="assets/edit-icon.png">. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">More</span> menu 
-    <img src="assets/more-icon.png">, then click 
-    <span class="bold">Edit </span>
-    <img src="assets/edit-icon.png">. 
-   </MadCap:conditionalText> </p> </li> 
- <li value="3">Click <span class="bold">Custom Forms</span> > <span class="bold">Add Forms</span>, then select up to 10 forms from the drop-down menu.</li> 
- <li value="4">(Optional) Update the information in the editable fields on the custom form.</li> 
- <li value="5"> <p>Click <span class="bold">Save Changes</span>.</p> </li> 
-</ol>
+1. Go to the object where you want to add the custom form.
+1. Click the More menu , then click Edit . 
+1. Click `Custom Forms` > `Add Forms`, then select up to 10 forms from the drop-down menu.
+
+1. (Optional) Update the information in the editable fields on the custom form.
+1. Click `Save Changes`.
 
 ### Add a custom form to an object from the Details area
 
 1. Go to the object where you want to add the custom form.
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold"><Object type> Details</span> section in the left panel. For example, click <span class="bold">Project Details</span> to add custom forms to a project or <span class="bold">Issue Details</span> to add custom forms to an issue. </p>
-   -->
-
-   Click the `<Object type> Details` section in the left panel. For example, click `Project Details` to add custom forms to a project or `Issue Details` to add custom forms to an issue. 
-
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Add custom form</span> field in the upper-right corner, then select up to 10 custom forms from the list that displays.</p>
-   -->
-
-   Click the `Add custom form` field in the upper-right corner, then select up to 10 custom forms from the list that displays.
-
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Update the information in the custom fields of the form, then click <span class="bold">Save Changes</span>.</p>
-   -->
-
-   (Optional) Update the information in the custom fields of the form, then click `Save Changes`.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time.</p>
-   -->
-
-   If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time.
+1. Click the <Object type> Details section in the left panel. For example, click Project Details to add custom forms to a project or Issue Details to add custom forms to an issue. 
+1. Click the Add custom form field in the upper-right corner, then select up to 10 custom forms from the list that displays. 
+1. (Optional) Update the information in the custom fields of the form, then click Save Changes. If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time.
 
 ## Multiple custom forms on an object
 
@@ -135,32 +94,11 @@ You can add custom forms to multiple objects by selecting them in a list.
 <ol> 
  <li value="1">Navigate to a list of objects.</li> 
  <li value="2"> <p>Select multiple objects in the list.<br></p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-      <span class="bold">More</span> menu 
-      <img src="assets/more-icon.png">, then click the 
-      <span class="bold">Edit</span> icon 
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">More</span> menu 
-     <img src="assets/more-icon.png">, then click the 
-     <span class="bold">Edit</span> icon 
-    </MadCap:conditionalText> <img src="assets/edit-icon.png">, or just click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">More</span> menu 
-    <img src="assets/more-icon.png">, then click the 
-    <span class="bold">Edit</span> icon 
-   </MadCap:conditionalText> <img src="assets/edit-icon.png">, or just click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.</p> </li> 
+ <li value="3"> Click the More menu , then click the Edit icon , or just click the Edit icon . </li> 
  <li value="4">Click <span class="bold">Custom Forms</span> in the left panel.</li> 
  <li value="5"> <p>In the <span class="bold">Make a selection</span> drop-down menu, select the form you want to associate with all the selected objects.</p> <note type="note">
     If you cannot find the form in the drop-down menu, this means that at least one of the objects has the form already associated with it. Determine which object that is, and eliminate it from your selection, before you can add the form to the remaining objects.
   </note> </li> 
- <li value="6"> <p>Click <span class="bold">Save Changes</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time.</p> </li> 
+ <li value="6"> <p>Click <span class="bold">Save Changes</span>.</p> If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time. </li> 
 </ol>
 

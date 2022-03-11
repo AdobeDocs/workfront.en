@@ -6,9 +6,9 @@ title: Manage goal comments in Adobe Workfront Goals
 description: You can add comments to all goals you can view in Adobe Workfront Goals.
 ---
 
-# Manage goal comments in *Adobe Workfront Goals*
+# Manage goal comments in `Adobe Workfront Goals`
 
-You can add comments to all goals you can view in&nbsp;*Adobe Workfront Goals*.
+You can add comments to all goals you can view in  `Adobe Workfront Goals`.
 
 ## Access requirements
 
@@ -19,46 +19,29 @@ You must have the following access to perform the actions described in this arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <em>Adobe Workfront Goals</em> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see:</p> 
+   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Object permissions</td> 
-    <td> 
-     <div> 
-      <p>View or higher permissions on goals</p> 
-      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
-     </div> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-    <div> 
-     <p>View or higher permissions on goals</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
-    </div> </td> 
-  </tr> 
+  </tr> Object permissions View or higher permissions on goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -68,11 +51,11 @@ You must have the following before you can start:
 
 ## Locate the Comments area
 
-You can add comments to goals in the following areas of *Workfront Goals*:
+You can add comments to goals in the following areas of `Workfront Goals`:
 
 * The Goal Details panel
-* The *Check-in* section 
-* The *Pulse* section
+* The `Check-in` section 
+* The `Pulse` section
 
 Although the process for adding comments to goals is similar in these areas, there are differences in being able to edit, delete, or react to a comment when using one area versus another. When you enter a comment in any of these areas, the comment is visible in all areas where goal comments display.
 
@@ -87,7 +70,7 @@ You can add comments to goals in the Goal&nbsp;Details panel, as part of updatin
 You can edit or delete a comment that you entered in this area, or you can like comments.
 
 <ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <em>Workfront Goals</em> area. </p> </p> </li> 
+ <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <span>Workfront Goals</span> area. </p> </p> </li> 
  <li value="2">Locate the goal you want to add comments to, then click its name to open the Goal&nbsp;Details panel to the right. </li> 
  <li value="3">Click the <span class="bold">Updates</span> tab.</li> 
  <li value="4"> <p>Type your comment in the <span class="bold">Comment here</span> field, then click <span class="bold">Post</span>. </p> </li> 
@@ -113,19 +96,19 @@ You can edit or delete a comment that you entered in this area, or you can like 
  <li value="10">(Conditional)&nbsp;Click <span class="bold">Back to Updates</span> to return to the Updates tab of the Goal Details panel, or click the <span class="bold">X icon</span> in the upper-right corner to close the right panel. </li> 
 </ol>
 
-## Add comments to goals in the *Check-in* section
+## Add comments to goals in the `Check-in` section
 
 >[!TIP]
 >
 >You must have access to Edit Goals in your access level to view the Check-in section.
 
-You can add comments to goals in the *Check-in* section of *Workfront Goals*, as part of updating your list of goals. For information about updating goals by checking in on them, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+You can add comments to goals in the `Check-in` section of `Workfront Goals`, as part of updating your list of goals. For information about updating goals by checking in on them, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
-You can also like goal comments that other users have added to mark your approval of them in the *Check-in* section.
+You can also like goal comments that other users have added to mark your approval of them in the `Check-in` section.
 
 <ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <em>Workfront Goals</em> area. </p> </p> </li> 
- <li value="2"> <p>Click the <em>Check-in</em> section in the left panel. </p> <p> <img src="assets/check-in-icon-left.png"> </p> <p>Goals assigned to you or that have results and activities that are assigned to you display in this area. </p> </li> 
+ <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <span>Workfront Goals</span> area. </p> </p> </li> 
+ <li value="2"> <p>Click the <span>Check-in</span> section in the left panel. </p> <p> <img src="assets/check-in-icon-left.png"> </p> <p>Goals assigned to you or that have results and activities that are assigned to you display in this area. </p> </li> 
  <li value="3">(Optional) Click the right-pointing arrow to the left of the goal name to expand the goal, if the goal is not already expanded. </li> 
  <li value="4"> <p>Type your comment in the <span class="bold">Add a comment to this goal (optional)</span> field, then click&nbsp;<span class="bold">Post</span>. </p> <p>Two most recent comments display by default under each goal.</p> </li> 
  <li value="5"> <p>Click <span class="bold">Show all comments</span> to display all comments on a goal. A number of total comments for the goal also displays. Comments display in the order they were entered, with the most recent first. </p> </li> 
@@ -134,15 +117,15 @@ You can also like goal comments that other users have added to mark your approva
  <li value="8">(Conditional)&nbsp;Click <span class="bold">Back to Updates</span> to return to the Updates tab of the Goal Details panel, or click the <span class="bold">X icon</span> in the upper-right corner to close the right panel. </li> 
 </ol>
 
-## Add comments to goals in the *Pulse* section
+## Add comments to goals in the `Pulse` section
 
-You can add comments to goals in the *Pulse* section of *Workfront Goals*, as part of reviewing goals that might affect yours. For information about reviewing goals in the *Pulse* section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
+You can add comments to goals in the `Pulse` section of `Workfront Goals`, as part of reviewing goals that might affect yours. For information about reviewing goals in the `Pulse` section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-You can also like goal comments that other users have added to mark your approval of them in the *Pulse* section.
+You can also like goal comments that other users have added to mark your approval of them in the `Pulse` section.
 
 <ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <em>Workfront Goals</em> area. </p> </p> </li> 
- <li value="2"> <p>Click the <em>Pulse</em> section in the left panel. </p> <p> <img src="assets/pulse-icon-left.png"> </p> <p>All current goals display in this section., regardless of their status.</p> </li> 
+ <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <span>Workfront Goals</span> area. </p> </p> </li> 
+ <li value="2"> <p>Click the <span>Pulse</span> section in the left panel. </p> <p> <img src="assets/pulse-icon-left.png"> </p> <p>All current goals display in this section., regardless of their status.</p> </li> 
  <li value="3"> <p>Click&nbsp;<span class="bold">Add a comment</span>, then type your comment in the <span class="bold">Add a comment to this goal (optional)</span> field.</p> </li> 
  <li value="4"> <p>Click&nbsp;<span class="bold">Post</span>. </p> <p>Three comments display by default under each goal.</p> </li> 
  <li value="5">Click <span class="bold">Show all updates</span> to display all comments on a goal. A number of total comments for the goal also displays. Comments display in the order they were entered, with the most recent first. </li> 

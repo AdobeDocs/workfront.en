@@ -7,11 +7,11 @@ title: Duration Types in Adobe Workfront and Microsoft Project
 description: Adobe Workfront has four task duration types:
 ---
 
-# Duration Types in *Adobe Workfront* and Microsoft Project
+# Duration Types in `Adobe Workfront` and Microsoft Project
 
 ## Duration Types
 
-*Adobe Workfront* has four task duration types:
+`Adobe Workfront` has four task duration types:
 
 * Simple
 * Effort Driven
@@ -24,12 +24,12 @@ These duration types are not recognized by Microsoft Project. Currently, Microso
 * Fixed Work
 * Fixed Duration
 
-## Export from *Workfront*
+## Export from `Workfront`
 
-When exporting from *Workfront* to Microsoft Project, Effort Driven tasks become Fixed Work. Simple, Calculated Work, and Calculated Assignment become Fixed Units.
+When exporting from `Workfront` to Microsoft Project, Effort Driven tasks become Fixed Work. Simple, Calculated Work, and Calculated Assignment become Fixed Units.
 
-## Import from *Workfront*
+## Import from `Workfront`
 
-When importing from Microsoft Project to *Workfront*, Fixed Units become Effort Driven. Fixed Work and Fixed duration receive the default duration type.
+When importing from Microsoft Project to `Workfront`, Fixed Units become Effort Driven. Fixed Work and Fixed duration receive the default duration type.
 
 ` `**Warning: **``When a task has Calculated Work as the duration type and the default duration type in Setup is set as Calculated Assignment, then MS Project assignment allocations will be lost during the import.

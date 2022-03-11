@@ -26,11 +26,11 @@ Typically, PPM practitioners use the following steps to conduct PPM:
 1. Evaluate the resource availability for carrying out the selected projects.
 1. Review and evaluate the progress of the projects in the portfolio, and make adjustments if necessary.
 
-## Overview of the *Adobe Workfront*&nbsp;PPM Process
+## Overview of the `Adobe Workfront`&nbsp;PPM Process
 
-You can prioritize your projects and ensure that they are aligned with your business goals and requirements using the Portfolio Management tools in *Workfront*.
+You can prioritize your projects and ensure that they are aligned with your business goals and requirements using the Portfolio Management tools in `Workfront`.
 
-The following diagram illustrates the high-level overview of the PPM process in *Workfront*:
+The following diagram illustrates the high-level overview of the PPM process in `Workfront`:
 
 ![](assets/pm1-350x88.png)
 
@@ -61,7 +61,7 @@ For more information about portfolio optimization, see [Optimize projects in the
 
 ### Resource Planning
 
-Along with optimizing the performance of the portfolio and prioritizing the project, the Resource Manager ensures that proper resources are allocated to the projects. They assess the availability and allocation of the resources using the Resource Management tools available in *Workfront*.
+Along with optimizing the performance of the portfolio and prioritizing the project, the Resource Manager ensures that proper resources are allocated to the projects. They assess the availability and allocation of the resources using the Resource Management tools available in `Workfront`.
 
 Depending on the availability of the resources, the Portfolio Manager might need to re-prioritize the projects.&nbsp;
 
@@ -71,7 +71,7 @@ For more information about Resource Management, see the [Manage resources](../..
 
 After receiving the project approval from the Portfolio Manager and the validation of the resources from the Resource Manager, as the Project Owner, you can place the project in the status of Current and your users can start the work to complete the project. It is recommended to capture a baseline of the project in this phase, to have a reference point for the project, in its original state.
 
-For more information about managing projects in *Workfront*, see [Manage projects](../../../manage-work/projects/manage-projects/manage-projects-overview.md).  
+For more information about managing projects in `Workfront`, see [Manage projects](../../../manage-work/projects/manage-projects/manage-projects-overview.md).  
 For more information about creating baselines on projects, see [Create project baselines](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Project Postmortem

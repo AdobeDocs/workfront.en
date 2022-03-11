@@ -1,6 +1,6 @@
 
 
-# *Adobe Workfront* API
+# `Adobe Workfront` API
 
 This section contains the following subsections:
 

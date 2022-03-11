@@ -2,9 +2,9 @@
 
 # 20.4 Project management enhancements
 
-This page describes all *project management* enhancements made with the *20.4* release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
+This page describes all `project management` enhancements made with the `20.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
 
-For a list of all changes available with the *20.4* release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+For a list of all changes available with the `20.4` release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## New for administrators: Control how a custom field is shared
 
@@ -36,13 +36,7 @@ You can now export the custom form information to a .pdf file. You can export cu
 
 In addition to exporting the custom forms of projects, tasks, and issues, you can now also include the Overview area to your exported pdf.
 
-For information about exporting custom forms from an object, see 
-
-<!--
-<a href="../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Export custom forms and object details in Adobe Workfront</a>
--->
-
-[Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+For information about exporting custom forms from an object, see Export custom forms and object details in Adobe Workfront.
 
 `<iframe class="vimeo-player_0" src="assets/475140925?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -58,13 +52,7 @@ To simplify the experience of creating an iteration, we've added a new button th
 
 You can still create an iteration on the backlog tag as before.
 
-For more information, see 
-
-<!--
-<a href="../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Create an iteration</a>
--->
-
-[Create an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+For more information, see Create an iteration.
 
 `<iframe class="vimeo-player_0" src="assets/468254955?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 

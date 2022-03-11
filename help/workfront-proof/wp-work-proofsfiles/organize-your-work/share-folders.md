@@ -4,24 +4,24 @@ product: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Share Folders in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: You can share a folder with users and whole companies that have Workfront Proof accounts (not with guests).
 ---
 
-# Share Folders in *Workfront Proof*
+# Share Folders in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-You can share a folder with users and whole companies that have *Workfront Proof* accounts (not with guests).
+You can share a folder with users and whole companies that have `Workfront Proof` accounts (not with guests).
 
 If you share a whole folder:
 
-* You cannot set roles for the people you are sharing the folder with (roles and email alerts will only apply to recipients when sharing individual *proofs*).
+* You cannot set roles for the people you are sharing the folder with (roles and email alerts will only apply to recipients when sharing individual `proofs`).
 * The recipients will have read-only access to all the items in the folder (existing and subsequently added items).
 * The recipients will get one email containing a personal URL to the folder.
 * The recipients will not get email notifications when new items are added to the folder.
-* The recipients will be able to download the original files for items in the folder (please note that each *proof* must have the Download original file option enabled in order for recipient to be able to download the original file).
+* The recipients will be able to download the original files for items in the folder (please note that each `proof` must have the Download original file option enabled in order for recipient to be able to download the original file).
 * Owners and creators of folders are always able to view the folder and cannot be removed from the folder.
 * If you share a private folder with a Manager user in your account, you can decide if you would like them to have edit rights on the folder.
 
@@ -62,11 +62,11 @@ You can also share items within a folder (rather than the folder itself). For mo
 
 ## Accessing a Folder That's Been Shared With You
 
-When someone shares a folder with you, it appears in the sidebar of their *Workfront Proof* account under the name of the owner of the folder. You receive an email containing folder details and a personal link to the folder.
+When someone shares a folder with you, it appears in the sidebar of their `Workfront Proof` account under the name of the owner of the folder. You receive an email containing folder details and a personal link to the folder.
 
 1. Click the link in the notification email you receive.
-1. Log in to *Workfront Proof*.  
-   *Workfront Proof* displays the Folder details page.&nbsp;For more information, see&nbsp; [Manage Folders and their Contents in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+1. Log in to `Workfront Proof`.  
+   `Workfront Proof` displays the Folder details page.&nbsp;For more information, see&nbsp; [Manage Folders and their Contents in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## About Sharing Sub Folders
 
@@ -76,7 +76,7 @@ If a private parent folder is shared with a Manager and edit rights on the folde
 
 ## About Sub Folders That Are Shared with You
 
-When a sub-folder has been shared with someone, it appears in the sidebar of your *Workfront Proof* account under the name of the owner of the folder.
+When a sub-folder has been shared with someone, it appears in the sidebar of your `Workfront Proof` account under the name of the owner of the folder.
 
 If the parent folder, or items from it, have already been shared with the same person, the sub-folder will automatically appear under the parent folder in the sidebar and within the parent folder's details page.
 

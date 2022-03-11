@@ -25,16 +25,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,23 +43,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create an agile story in an iteration
 
 <ol> 
  <li value="1"> Go to the agile iteration where you want to create the story:<br>
   <ol>
-   <draft-comment>
-    <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li>
-   </draft-comment>
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li><draft-comment>
-    <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Scrum team from the drop-down menu or search for a team in the search bar.</li>
-   </draft-comment>
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Scrum team from the drop-down menu or search for a team in the search bar.</li><draft-comment>
-    <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><p>In the left panel, select <span class="bold">Iterations</span>, then select <span class="bold">All Iteration</span>.</p></li>
-   </draft-comment>
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><p>In the left panel, select <span class="bold">Iterations</span>, then select <span class="bold">All Iteration</span>.</p></li>
+   Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams.(Optional) Click the Switch team icon , then either select a new Scrum team from the drop-down menu or search for a team in the search bar.In the left panel, select Iterations, then select All Iteration.
    <li value="4">Click the name of the specific iteration where you want to create a story.</li>
   </ol></li> 
  <li value="2">Click the <span class="bold">Work Items</span> tab then <span class="bold">Stories</span>.<br><img src="assets/screen-shot-2018-06-04-at-4.24.17-pm-350x164.png" alt="Screen_Shot_2018-06-04_at_4.24.17_PM.png" style="width: 350;height: 164;"></li> 
@@ -108,16 +99,7 @@ You can create an agile story from the agile backlog, as described in the sectio
 
 ## Add a task or issue as an agile story
 
-You can add an existing task or issue as a story to an iteration. For more information, see [Add stories to an existing iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-or
-<a href="../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md" class="MCXref xref">Add stories and issues from the Scrum board</a>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  or  <a href="../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md" class="MCXref xref">Add stories and issues from the Scrum board</a></MadCap:conditionalText>`.
+You can add an existing task or issue as a story to an iteration. For more information, see [Add stories to an existing iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)or Add stories and issues from the Scrum board.
 
 ## Create subtasks to an agile story
 

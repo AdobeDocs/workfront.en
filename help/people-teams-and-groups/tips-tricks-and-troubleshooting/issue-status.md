@@ -24,11 +24,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -44,25 +44,9 @@ When a user creates a project, their Home group is automatically assigned to the
 
 1. Go to a project.
 
-   <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the left side of the page, click <span class="bold">Project Details</span>.</li>
-   -->
-
-1. On the left side of the page, click `Project Details`.
-
-   <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Locate the <span class="bold">Project association</span> section, then find <span class="bold">Group</span>.<br>This is the group name you need to use to change the status in the Setup area. See the following section for instructions on how to update the default status for a specific group.</li>
-   -->
-
-1. Locate the `Project association` section, then find `Group`.  
-   This is the group name you need to use to change the status in the Setup area. See the following section for instructions on how to update the default status for a specific group.
-
 ## Update the default status for a specific group
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
  <li value="2">In the left panel, click <span class="bold">Project Preferences</span>, then <span class="bold">Statuses</span>.</li> 
  <li value="3">Click <span class="bold">Requests</span>, then type the name of the group in the <span class="bold">System Statuses</span> search box located on the right.</li> 
  <li value="4">Select the group.</li> 

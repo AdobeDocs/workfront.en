@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,11 +38,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Considerations about calculating finances in *Adobe Workfront*
+## Considerations about calculating finances in `Adobe Workfront`
 
-Finances are calculated in *Enhanced analytics* in the following ways:
+Finances are calculated in `Enhanced analytics` in the following ways:
 
 * You can manually recalculate costs and revenues on a project, by using the Recalculate Finance option on a project. 
 * In addition, some actions trigger an automatic recalculation.
@@ -50,13 +50,13 @@ Finances are calculated in *Enhanced analytics* in the following ways:
 When the rate of a user or a role changes during the life of a project, the following can occur:
 
 * When the change is made, the updated rate is used from that point on as hours are logged and the financial information is calculated. Changing the rate does not affect how things were calculated before the change was made. For all the existing hours logged, the old rate is used to calculate financial information. 
-* You can force *Adobe Workfront* to use the new rate retroactively for all the hours logged so far, by using the Recalculate Finance option. This forces *Workfront* to retroactively recalculate all previously entered hours, planned costs, and revenues in accordance with the new rate information.
+* You can force `Adobe Workfront` to use the new rate retroactively for all the hours logged so far, by using the Recalculate Finance option. This forces `Workfront` to retroactively recalculate all previously entered hours, planned costs, and revenues in accordance with the new rate information.
 
 ` `**Warning: **``Prior to manually recalculating finances for a given project, you might want to preserve any financial data that has already been calculated at a previous rate. We recommend to use the Recalculate Finance option only when you are sure that you are not making changes to existing information, or only when such changes are desired.
 
 ## Preserve financial data for tasks with existing hours
 
-When financial data for a project is recalculated, *Workfront* retroactively recalculates all previously logged hours, planned, actual costs, and planned and actual revenue, in accordance with any new or updated financial information.
+When financial data for a project is recalculated, `Workfront` retroactively recalculates all previously logged hours, planned, actual costs, and planned and actual revenue, in accordance with any new or updated financial information.
 
 * [Preserve Project Revenue](#preserve-revenue) 
 * [Preserve Project Cost](#preserve-cost)
@@ -130,12 +130,11 @@ If your rates change during the life of a project and you want your cost and rev
 
 To recalculate finances for a project manually:
 
-<ol> 
- <li value="1">Go to the project where you want to recalculate finances. </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> menu <img src="assets/qs-more-icon-on-an-object.png"> next to the name of the project, then click <span class="bold">Recalculate Finance</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> menu <img src="assets/qs-more-icon-on-an-object.png"> next to the name of the project, then click <span class="bold">Recalculate Finance</span>. </p> <p>All planned costs and revenue on the project are recalculated with any new information.<br><br>You should receive a confirmation at the top of the browser that the finances of the project have been recalculated successfully.<br>Existing cost values and some revenue values which have not been locked update to reflect the new rates. </p> </li> 
-</ol>
+1. Go to the project where you want to recalculate finances. 
+1. Click the More menu next to the name of the project, then click Recalculate Finance. All planned costs and revenue on the project are recalculated with any new information.  
+  
+   You should receive a confirmation at the top of the browser that the finances of the project have been recalculated successfully.  
+   Existing cost values and some revenue values which have not been locked update to reflect the new rates.
 
 ## Manually recalculate finances for several projects in bulk
 
@@ -155,7 +154,7 @@ To manually recalculate the finances of several projects:
 
 ## Actions that trigger an automatic recalculation of finances
 
-The following actions trigger the financial recalculation of projects in *Workfront*:
+The following actions trigger the financial recalculation of projects in `Workfront`:
 
 * Changing task status
 * Moving a task with hours to another project
@@ -165,8 +164,4 @@ The following actions trigger the financial recalculation of projects in *Workfr
 >
 >When you change the project status, only the planned values are being recalculated.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can also recalculate finances manually under the <span class="bold">More</span> menu <img src="assets/qs-more-menu.png"> at the project level, by clicking <span class="bold">Recalculate Finances</span>. </p>
--->
-
-You can also recalculate finances manually under the `More` menu ![](assets/qs-more-menu.png) at the project level, by clicking `Recalculate Finances`. 
+You can also recalculate finances manually under the More menu at the project level, by clicking Recalculate Finances.  

@@ -12,20 +12,16 @@ description: The burndown chart provides a visual representation of how stories 
 The burndown chart provides a visual representation of how stories are progressing through the iteration 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 or project
-</MadCap:conditionalText>
 -->
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  or project </MadCap:conditionalText>`. The actual burndown rate is measured against the ideal burndown rate for the iteration 
+. The actual burndown rate is measured against the ideal burndown rate for the iteration 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 or project
-</MadCap:conditionalText>
 -->
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  or project </MadCap:conditionalText>` timeline.
+timeline.
 
 The burndown chart adjusts based on the selected day. The current day is the default. When a previous day is selected, all data in the burndown chart and&nbsp;all values in the completion status section above the burndown chart are recalculated to represent the data as it was at the end of the selected day. (You can select past days or the current day; you cannot select days in the future.)
 
@@ -41,13 +37,9 @@ The burndown chart contains the following visual indicators:
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>Ideal burndown rate based on when the iteration <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        or project 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       or project 
-     </MadCap:conditionalText> began.</p> <p>This line is not displayed if the scope of the iteration never changes (hours or points are never added or removed).</p> <p>This line is displayed as flat when work is done on a day off. For more information, see <a title="Using the Agile Burndown Chart" href="#understanding-how-days-off-affect-the-burndown-chart" class="MCXref xref">How days off affect the burndown chart</a>.</p> </td> 
+   <td> <p>Ideal burndown rate based on when the iteration <!--
+      or project
+     --> began.</p> <p>This line is not displayed if the scope of the iteration never changes (hours or points are never added or removed).</p> <p>This line is displayed as flat when work is done on a day off. For more information, see <a title="Using the Agile Burndown Chart" href="#understanding-how-days-off-affect-the-burndown-chart" class="MCXref xref">How days off affect the burndown chart</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
@@ -86,17 +78,13 @@ The burndown chart contains the following visual indicators:
 
 ## How days off affect the burndown chart
 
-The default schedule defined in *Workfront* affects the burndown&nbsp;chart&nbsp;by excluding days off (weekends and holidays) from the burndown. The burndown chart uses the&nbsp;default schedule to define working days (as described in&nbsp; [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+The default schedule defined in `Workfront` affects the burndown&nbsp;chart&nbsp;by excluding days off (weekends and holidays) from the burndown. The burndown chart uses the&nbsp;default schedule to define working days (as described in&nbsp; [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
 Agile teams can incorporate team-specific non-working days by defining&nbsp;an alternate schedule (as described in the article [Use an alternate team schedule for burndown charts](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)). This alternate schedule is then reflected in the burndown chart of any iteration assigned to the team. The alternate schedule affects only the burndown chart. 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 You cannot define an alternate schedule for an agile view on a project.
-</MadCap:conditionalText>
 -->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  You cannot define an alternate schedule for an agile view on a project. </MadCap:conditionalText>`
 
 Days off are reflected in the burndown chart only if:
 
@@ -112,40 +100,30 @@ Days off are reflected in the burndown chart only if:
 * You complete the total remaining work for the iteration 
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   or project
-  </MadCap:conditionalText>
   -->
 
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  or project </MadCap:conditionalText>` on a day off.
+  on a day off.
 
   When a user completes the total remaining work for the iteration 
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   or project
-  </MadCap:conditionalText>
   -->
 
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  or project </MadCap:conditionalText>`on a day off, the Estimated Completion field displays the date the iteration 
+  on a day off, the Estimated Completion field displays the date the iteration 
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   or project
-  </MadCap:conditionalText>
   -->
 
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  or project </MadCap:conditionalText>` was completed.
+  was completed.
 
   When planning the iteration, if you set the iteration end date for a non-working day and the iteration is tracking to finish on time, the Estimated Completion date is set for the last working day prior to the iteration end date that you set (because work is not scheduled to be burned down on non-working days).
 
   The end date for the iteration is specified when the iteration is planned, as described in the article [Create an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md). 
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  <span class="wysiwyg-color-pink">The end date for the project is calculated based on ...</span>
-  </MadCap:conditionalText>
+  The end date for the project is calculated based on ...
   -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  <span class="wysiwyg-color-pink">The end date for the project is calculated based on ...</span> </MadCap:conditionalText>`
 

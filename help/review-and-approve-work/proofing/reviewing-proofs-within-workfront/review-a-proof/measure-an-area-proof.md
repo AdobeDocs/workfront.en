@@ -8,7 +8,7 @@ description: You can measure an area within a proof.
 
 # Measure an area within a proof
 
-You can measure an area within a *proof*.
+You can measure an area within a `proof`.
 
 ## Access requirements
 
@@ -19,15 +19,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Current plan: <em>Work</em> or <em>Plan</em></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -37,21 +37,21 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
-## Measure an area within a *proof*
+## Measure an area within a `proof`
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the *proof* you need, then click `Open *proof*`.
+1. Find the `proof` you need, then click `Open `proof``.
 
 <ol start="3"> 
- <li value="3"> <p>Click the <span class="bold">Measure an area</span> icon at the top of the <em>proofing viewer</em>.</p> <p> <img src="assets/measurement-tool-button-350x128.png" alt="measurement_tool_button.png" style="width: 350;height: 128;"> </p> </li> 
- <li value="4"> <p>(Optional) Click&nbsp;<span class="bold">Measurement markup color</span>&nbsp;to expand the color options, then click a color and <span class="bold">Opacity</span> that is easy to see on your <em>proof</em>.<br><img src="assets/selection-color-350x330.png" style="width: 350;height: 330;"></p> <p>The default measurement tool color is red.</p> <p>The <em>proofing viewer</em> remembers your color and opacity selections on all <em>proofs</em> you open until you clear your browser cache.<br></p> </li> 
+ <li value="3"> <p>Click the <span class="bold">Measure an area</span> icon at the top of the <span>proofing viewer</span>.</p> <p> <img src="assets/measurement-tool-button-350x128.png" alt="measurement_tool_button.png" style="width: 350;height: 128;"> </p> </li> 
+ <li value="4"> <p>(Optional) Click&nbsp;<span class="bold">Measurement markup color</span>&nbsp;to expand the color options, then click a color and <span class="bold">Opacity</span> that is easy to see on your <span>proof</span>.<br><img src="assets/selection-color-350x330.png" style="width: 350;height: 330;"></p> <p>The default measurement tool color is red.</p> <p>The <span>proofing viewer</span> remembers your color and opacity selections on all <span>proofs</span> you open until you clear your browser cache.<br></p> </li> 
  <li style="font-weight: bold;" value="5"> <p style="font-weight: normal;">(Optional) Select a different&nbsp;<span class="bold">Unit of Measurement.</span></p> <note type="note">
    The Unit of Measurement options are available only for 
-   <em>proofs</em> created from a PDF.
+   <span>proofs</span> created from a PDF.
   </note> </li> 
- <li value="6"> <p>Drag the measurement window to the area of the <em>proof</em> you need to measure.</p> <p> <img src="assets/measurement-tool-when-first-appears-350x143.png" alt="Measurement_tool_when_first_appears.png" style="width: 350;height: 143;"> </p> </li> 
+ <li value="6"> <p>Drag the measurement window to the area of the <span>proof</span> you need to measure.</p> <p> <img src="assets/measurement-tool-when-first-appears-350x143.png" alt="Measurement_tool_when_first_appears.png" style="width: 350;height: 143;"> </p> </li> 
  <li value="7"> <p>Drag the corners or edges of the measurement window to resize it.</p> </li> 
  <li value="8">(Optional) If you need the measurement area to be an exact size, type <span class="bold">Selection size</span> values.</li> 
  <li value="9">(Optional) If you need to measure a certain percentage within an area, check the calculate percentage box. A new box appears allowing you to adjust it<br><img src="assets/calculate-percentage-350x230.png" style="width: 350;height: 230;"></li> 

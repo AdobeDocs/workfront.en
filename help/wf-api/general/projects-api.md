@@ -9,7 +9,7 @@ description: You can use the Projects API to interact with projects within Adobe
 
 # Projects API
 
-You can use the Projects API to interact with projects within *Adobe Workfront*. The calls included with this API interact directly with the project itself.
+You can use the Projects API to interact with projects within `Adobe Workfront`. The calls included with this API interact directly with the project itself.
 
 Following are some examples of how you can interact with projects through the API:
 
@@ -18,7 +18,7 @@ Following are some examples of how you can interact with projects through the AP
 
 ## General Requirements
 
-[This is where we’ll put boilerplate text that applies to all APIs (Documents API, Issues API, etc.) for information about how to authenticate, etc. Will reference the “Getting Started with the *Workfront* API” for this information.]
+[This is where we’ll put boilerplate text that applies to all APIs (Documents API, Issues API, etc.) for information about how to authenticate, etc. Will reference the “Getting Started with the `Workfront` API” for this information.]
 
 ## API
 

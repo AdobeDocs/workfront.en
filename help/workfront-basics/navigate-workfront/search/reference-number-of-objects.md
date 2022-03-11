@@ -8,9 +8,9 @@ description: In Adobe Workfront, items are identified as objects. Objects corres
 
 # Use the reference number of objects
 
-In *Adobe Workfront*, items are identified as objects. Objects correspond with the database and are used to correlate data with an item.
+In `Adobe Workfront`, items are identified as objects. Objects correspond with the database and are used to correlate data with an item.
 
-*Workfront* automatically assigns each of the following objects a unique reference number when the object is created:
+`Workfront` automatically assigns each of the following objects a unique reference number when the object is created:
 
 * Projects
 * Tasks
@@ -21,13 +21,13 @@ Reference numbers are useful in distinguishing between two otherwise similar obj
 
 >[!IMPORTANT]
 >
->* *Workfront* assigns reference numbers continuously across all customers and all objects.&nbsp;For example, when you create a task, *Workfront* might assign it a reference number of 00005. If another customer creates a project next, their project might receive the next available reference number, for example 00006. If you create an issue next, your issue might receive the reference number 00007, and so forth. 
->* You cannot control the sequence of reference numbers for any objects in *Workfront*. The sequence is always controlled by our database. 
+>* `Workfront` assigns reference numbers continuously across all customers and all objects. For example, when you create a task, `Workfront` might assign it a reference number of 00005. If another customer creates a project next, their project might receive the next available reference number, for example 00006. If you create an issue next, your issue might receive the reference number 00007, and so forth. 
+>* You cannot control the sequence of reference numbers for any objects in `Workfront`. The sequence is always controlled by our database. 
 >
 
 ## View an object's reference number
 
-Reference numbers are displayed by default for tasks and issues. You can also easily configure *Workfront* to display reference numbers for other types of objects.
+Reference numbers are displayed by default for tasks and issues. You can also easily configure `Workfront` to display reference numbers for other types of objects.
 
 * [View reference numbers for tasks and issues](#viewing-reference-numbers-for-tasks-and-issues) 
 * [View reference numbers for other objects](#viewing-reference-for-other-objects) 
@@ -35,24 +35,7 @@ Reference numbers are displayed by default for tasks and issues. You can also ea
 
 ### View reference numbers for tasks and issues
 
-Reference numbers are displayed by default when viewing a task or issue. 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-To see the reference number click
-<span class="bold">Task Details</span> or
-<span class="bold">Issue Details</span> in the left panel, then locate the
-<span class="bold">Basic Information</span> section in the Overview.
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  To see the reference number click  <span class="bold">Task Details</span> or  <span class="bold">Issue Details</span> in the left panel, then locate the  <span class="bold">Basic Information</span> section in the Overview.</MadCap:conditionalText>`
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/reference-number-nwe-350x184.png" style="width: 350;height: 184;"> </p>
--->
-
-![](assets/reference-number-nwe-350x184.png)
+Reference numbers are displayed by default when viewing a task or issue. To see the reference number click Task Details or Issue Details in the left panel, then locate the Basic Information section in the Overview.
 
 ### View reference numbers for other objects
 
@@ -68,8 +51,8 @@ For information about how to add a column to a report, see [Create a custom repo
 
 ## Search for an object by reference number
 
-*Workfront* enables you to search for an object by reference number.
+`Workfront` enables you to search for an object by reference number.
 
 Type an object's reference number into the `Search` field, then press `Enter`.
 
-For more information on searching in *Workfront*, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+For more information on searching in `Workfront`, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).

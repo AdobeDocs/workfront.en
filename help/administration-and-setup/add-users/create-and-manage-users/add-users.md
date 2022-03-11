@@ -22,20 +22,13 @@ description: The procedure described on this page applies only to organizations 
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-You can add users in *Adobe Workfront* by creating individual users from scratch or by copy existing users.
+You can add users in `Adobe Workfront` by creating individual users from scratch or by copy existing users.
 
 For information about how to import multiple users simultaneously, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>Replace this intro with something like the following when we switch to Admin Console:</p>
-<p>As an Adobe administrator, you can add users in <em>Adobe Workfront</em> by adding them to your <em>Workfront</em> product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.</p>
-</div>
+Replace this intro with something like the following when we switch to Admin Console: As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see Manage users in the Adobe Admin Console.
 -->
-
-Replace this intro with something like the following when we switch to Admin Console:
-
-As an Adobe administrator, you can add users in *Adobe Workfront* by adding them to your *Workfront* product profile in the Adobe Admin Console. For instructions, see [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## Access requirements
 
@@ -46,19 +39,19 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <em>group administrator</em> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <span>group administrator</span> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -77,13 +70,13 @@ Before you add a user, gather the information about the user listed below and de
    <li>Email address</li>
   </ul><note type="note">
     You can determine whether users can view other users' contact information by fine-tuning the Users View setting when specifying access levels for 
-   <em>Workfront</em> objects. For more information, see 
+   <span>Workfront</span> objects. For more information, see 
    <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.
   </note></li> 
 </ul>
 
 * What is the position of the new user within the company? Does this person have any direct reports? Who does this person report to?
-* What job role does the person fill? Does this job role exist in *Workfront*? Is there a limit to the number of people who can fill this job role? For information about creating job roles, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* What job role does the person fill? Does this job role exist in `Workfront`? Is there a limit to the number of people who can fill this job role? For information about creating job roles, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * What access level should the user have? Does it already exist or do you need to create a new one? For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 * What home group should this user be in? Should the person be in more than one group? For information about groups, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
@@ -94,21 +87,20 @@ Before you add a user, gather the information about the user listed below and de
 
 ## Create a user from scratch
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click <b>New User > New User</b> to add a user who has not yet been added to <em>Workfront</em>.</p> <p>Or</p> <p>Click <b>New User > Import Users</b> to add users by uploading a spreadsheet import file.</p> <p>If you are importing users, you don't need to continue these steps. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Import users</a>.</p> </li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click <b>New User > New User</b> to add a user who has not yet been added to <em>Workfront</em>.</p> <p>Or</p> <p>Click <b>New User > Import Users</b> to add users by uploading a spreadsheet import file.</p> <p>If you are importing users, you don't need to continue these steps. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Import users</a>.</p> </li> 
- <li value="3"> <p>In the <span class="bold">New User</span> box that appears, click <span class="bold">Show Advanced Options</span>, then configure the available options to enter the person's information,</p> <p>For information about these options, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
- <li value="4"> <p> Do one of the following:</p> 
-  <ul> 
-   <li> <p>Leave <span class="bold">Send an invite email to this person</span> enabled. If you do this, the user receives an email where they can follow a link to create their own password for <em>Workfront</em>. Users who do not accept the email invitation and create a <em>Workfront</em> password are listed as Unregistered in <em>Workfront</em>.</p> </li> 
-   <li> <p>Disable <span class="bold">Send an invite email to this person</span>, then type a <span class="bold">Password</span> for the person and confirm it in the <span class="bold">Confirm Password</span> box. You will need to share this password with the user outside of <em>Workfront</em>.</p> </li> 
-  </ul> </li> 
- <li value="5"> <p>y Click <span class="bold">Add This User</span>.</p> <p>Or</p> <p>Click <span class="bold">Add <span class="bold">Person User</span> & Start Another</span> to save the new user and add another one.</p> </li> 
-</ol>
+1. In the `New User` box that appears, click `Show Advanced Options`, then configure the available options to enter the person's information,
+
+   For information about these options, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+1. Do one of the following:
+
+  * Leave `Send an invite email to this person` enabled. If you do this, the user receives an email where they can follow a link to create their own password for `Workfront`. Users who do not accept the email invitation and create a `Workfront` password are listed as Unregistered in `Workfront`.
+  * Disable `Send an invite email to this person`, then type a `Password` for the person and confirm it in the `Confirm Password` box. You will need to share this password with the user outside of `Workfront`.
+
+1. y Click `Add This User`.
+
+   Or
+
+   Click `Add `Person User` & Start Another` to save the new user and add another one.
 
 ## Copy a user to create a new one
 
@@ -125,17 +117,16 @@ You can create a user by copying an existing user.
 
 To create new user by copying an existing one:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </p> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </p> </li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select the user that you want to copy, then click the Copy icon <img src="assets/copy-icon.png">.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select the user that you want to copy, then click the Copy icon <img src="assets/copy-icon.png">.</li> 
- <li value="3"> <p>In the <b>New User</b> box that displays, edit the fields available for the new user.<br></p> <p>For information about all fields associated with a user, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
- <li value="4"> <p>y Click <span class="bold">Add This User</span>.</p> <p>Or</p> <p>Click <span class="bold">Add <span class="bold">Person User</span> & Start Another</span> to save the new user and add another one.</p> </li> 
-</ol>
+1. In the **New User** box that displays, edit the fields available for the new user.
 
-This creates a new account in *Workfront* for the user.
+   For information about all fields associated with a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-If you selected the option to send an invite to the user, they should receive an email where they can follow a link to create their *Workfront* password.
+1. y Click `Add This User`.
+
+   Or
+
+   Click `Add `Person User` & Start Another` to save the new user and add another one.
+
+This creates a new account in `Workfront` for the user.
+
+If you selected the option to send an invite to the user, they should receive an email where they can follow a link to create their `Workfront` password.

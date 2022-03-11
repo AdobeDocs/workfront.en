@@ -49,7 +49,7 @@ You can now schedule users to be deactivated at a future date.
 
 Prior to this enhancement, you could only manually deactivate a user immediately.
 
-Scheduling a user to be deactivated can be useful in a variety of scenarios. For example, if you create&nbsp;users in *Workfront* who are hired on a temporary basis, you can set them up to be deactivated when their contract ends.
+Scheduling a user to be deactivated can be useful in a variety of scenarios. For example, if you create users in `Workfront` who are hired on a temporary basis, you can set them up to be deactivated when their contract ends.
 
 This feature is also available when bulk editing users.&nbsp;
 
@@ -68,8 +68,8 @@ Remember to update the email address associated with your account to be able to 
 The following enhancements were added when restoring deleted projects, tasks, and issues:
 
 * You&nbsp;now receive an email notification after restoring an object.  
-  As a *Workfront administrator*, you now receive an email notification after restoring a project, task, or issue that was previously deleted. The email notification informs you about the status of the restore process.  
-  For more information about restoring objects in *Workfront*, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  As a `Workfront administrator`, you now receive an email notification after restoring a project, task, or issue that was previously deleted. The email notification informs you about the status of the restore process.  
+  For more information about restoring objects in `Workfront`, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * When the object is restored, the deletion and restoration of the object is now recorded in the update stream of the object&nbsp;itself and in the update stream of the parent object.  
   Previously, only the deletion was recorded in the update stream of the parent object.  

@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,22 +37,20 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Walk-through
 
 View the following video to learn how to edit report settings.
 
-This video was recorded in *Adobe Workfront*Classic. However, the content also applies to the new *Adobe Workfront* experience.
+This video was recorded in `Adobe Workfront`Classic. However, the content also applies to the new `Adobe Workfront` experience.
 
 [ ![](assets/video-report-settings-350x197.png)](https://workfront-video.wistia.com/medias/8ie4xzc5id)
 
 ## How-to steps
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Start creating a report by going to the <span class="bold">Main menu</span> > <span class="bold">Reports</span>, then select the object of your report.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Start creating a report by going to the <span class="bold">Main menu</span> > <span class="bold">Reports</span>, then select the object of your report.</p> <p>Or</p> <p>Open an existing report, then click <span class="bold">Report Actions</span> > <span class="bold">Edit</span>.</p> </li> 
+ <li value="1"> Start creating a report by going to the Main menu > Reports, then select the object of your report. <p>Or</p> <p>Open an existing report, then click <span class="bold">Report Actions</span> > <span class="bold">Edit</span>.</p> </li> 
  <li value="2"> <p>Click <span class="bold">Report Settings</span> in the upper-right corner of the report builder.</p> </li> 
  <li value="3"> <p>Configure the following report settings:</p> 
   <table cellspacing="0"> 
@@ -83,14 +81,9 @@ This video was recorded in *Adobe Workfront*Classic. However, the content also a
      <td role="rowheader">Show the Resource Grid view on the Details tab</td> 
      <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <note type="note">
         When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. 
-       <draft-comment>
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-         For more information about using the Resource Grid, see the article Overview of the Resource Grid .
-        </MadCap:conditionalText>
-       </draft-comment>
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       <!--
         For more information about using the Resource Grid, see the article Overview of the Resource Grid .
-       </MadCap:conditionalText>
+       -->
       </note> </td> 
     </tr> 
     <tr> 
@@ -123,11 +116,6 @@ This video was recorded in *Adobe Workfront*Classic. However, the content also a
 
 See also:
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p> </li>
-  -->
-
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) 
 * [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) 
 * [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

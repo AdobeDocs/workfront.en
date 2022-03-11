@@ -14,30 +14,38 @@ Earliest Available Time is a Task Constraint that schedules a task to begin at t
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To update the Task Constraint to Earliest Available Time:</p>
+To update the Task Constraint to Earliest Available Time:
 -->
 
-To update the Task Constraint to Earliest Available Time:
+   <!--
+   Go to a task whose constraint you want to modify.
+   -->
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to a task whose constraint you want to modify. </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to a task whose constraint you want to modify. </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <span class="bold">Edit Task</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <span class="bold">Edit Task</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</p> </li> 
- <li value="4"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select <span class="bold">Earliest Available Time</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select <span class="bold">Earliest Available Time</span>.</p> </li> <draft-comment>
-  <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <span class="bold">Save Changes</span>.</li>
- </draft-comment>
- <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. 
+
+   <!--
+   Click Edit Task.
+   -->
+
+   <!--
+   Click the More icon next to the task name, then click Edit.
+   -->
+
+1. 
+
+   <!--
+   In the Overview section, expand the Task Constraint drop-down menu.
+   -->
+
+1. 
+
+   <!--
+   Select Earliest Available Time.
+   -->
+
+   <!--
+   Click Save Changes.
+   -->
 
 ## The difference between Earliest Available Time and As Soon As Possible
 

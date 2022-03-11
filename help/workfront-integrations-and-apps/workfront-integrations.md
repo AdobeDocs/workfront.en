@@ -7,7 +7,7 @@ title: Adobe Workfront integrations
 description: This section contains the following articles:
 ---
 
-# *Adobe Workfront* integrations
+# `Adobe Workfront` integrations
 
 This section contains the following articles:
 

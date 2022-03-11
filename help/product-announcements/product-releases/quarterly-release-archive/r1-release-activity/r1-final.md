@@ -10,17 +10,17 @@ description: The following functionality is not currently available in Preview o
 
 The following functionality is not currently available in Preview or Beta, but is releasing to the Production environment in R1:
 
-## Make Approval Decisions for Proofs from&nbsp;the My Work Area (*Workfront*)
+## Make Approval Decisions for Proofs from the My Work Area ( `Workfront`)
 
-Now when a user adds you to a *proof* and grants either the Approver role or the Reviewer & Approver role (either from the stand-alone ProofHQ application or by using Automated Workflow within *Workfront* ), the approval request is displayed on the Approvals tab in your&nbsp;My Work area. You can then view the *proof* and make an approval decision on the *proof* directly from *Workfront*.
+Now when a user adds you to a `proof` and grants either the Approver role or the Reviewer & Approver role (either from the stand-alone ProofHQ application or by using Automated Workflow within `Workfront` ), the approval request is displayed on the Approvals tab in your My Work area. You can then view the `proof` and make an approval decision on the `proof` directly from `Workfront`.
 
-For information about how to&nbsp;add users&nbsp;to a *proof* using Automated Workflow, see [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+For information about how to add users to a `proof` using Automated Workflow, see [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 For information about how to make approval decisions from the My Work area, see [Approving work in Adobe Workfront](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Approving work in Adobe Workfront](../../../../review-and-approve-work/manage-approvals/approving-work.md).&nbsp;
 
-## Report on Proofing Approvals within the My Work Area (*Workfront*)
+## Report on Proofing Approvals within the My Work Area ( `Workfront`)
 
-You can now create a report based on the Proof Approval object. This report enables you to report on the *proof* approvals from&nbsp;users' My Work areas&nbsp;where decisions have not yet been made.
+You can now create a report based on the Proof Approval object. This report enables you to report on the `proof` approvals from&nbsp;users' My Work areas&nbsp;where decisions have not yet been made.
 
 Proof approval reports contain the following information:
 
@@ -34,29 +34,29 @@ You access this approval when creating a report based on an object, as described
 
 For more information about the Proof Approvals object report, see the [Understand objects in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) section in [Understand objects in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Automatically Generate a New Version of a Document Proof Using Drag-and-Drop (*Workfront*)
+## Automatically Generate a New Version of a Document Proof Using Drag-and-Drop ( `Workfront`)
 
-When you use the drag-and-drop method to add a new version of a document that requires *proofing*, a proof is automatically generated. The proof has the same options and workflows as the original proof or previous version.
+When you use the drag-and-drop method to add a new version of a document that requires `proofing`, a proof is automatically generated. The proof has the same options and workflows as the original proof or previous version.
 
-Previously, when you added a new version of the document, the *proof* was not automatically generated on the new version, and you had to re-generate the *proof* for the new version.
+Previously, when you added a new version of the document, the `proof` was not automatically generated on the new version, and you had to re-generate the `proof` for the new version.
 
-When you use the Documents More Menu to upload a new version, a *proof* is not automatically generated.
+When you use the Documents More Menu to upload a new version, a `proof` is not automatically generated.
 
 For more information, see the&nbsp;&nbsp;section in
 
-## Enable All Proofing Users to Access ProofHQ Directly from the *Workfront* Interface (*Workfront*)
+## Enable All Proofing Users to Access ProofHQ Directly from the `Workfront` Interface ( `Workfront`)
 
-Now you can enable all *proofing* users in your system to have seamless access to your ProofHQ Premium account directly from the *Workfront* interface. When enabled, all *proofing* users see a ProofHQ icon in the Global Navigation Bar that directs them to the ProofHQ site.
+Now you can enable all `proofing` users in your system to have seamless access to your ProofHQ Premium account directly from the `Workfront` interface. When enabled, all `proofing` users see a ProofHQ icon in the Global Navigation Bar that directs them to the ProofHQ site.
 
-This option is not enabled by default. To enable this option, contact *Workfront* Technical Support and request this access for all *proofing* users in your system.
+This option is not enabled by default. To enable this option, contact `Workfront` Technical Support and request this access for all `proofing` users in your system.
 
 For more information, see [Access Workfront Proof from Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)&nbsp;in&nbsp; [Access Workfront Proof from Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-Prior to this change, only the *Workfront administrator* could have direct access to the ProofHQ site from the *Workfront* interface.
+Prior to this change, only the `Workfront administrator` could have direct access to the ProofHQ site from the `Workfront` interface.
 
-## New Option for TLS Secure Connection for Outgoing Mail (*Workfront*)
+## New Option for TLS Secure Connection for Outgoing Mail ( `Workfront`)
 
-When you select to manage your *Workfront* communication using your own email server, you can now enable your Outgoing Mail to use a TLS secure connection.
+When you select to manage your `Workfront` communication using your own email server, you can now enable your Outgoing Mail to use a TLS secure connection.
 
 Prior to this enhancement, you could enable Outgoing Mail only through an SSL secure connection.
 
@@ -64,7 +64,7 @@ For more information about configuring your Outgoing Mail, see .
 
 ## New Field for Managing Emails in the Preview Sandbox Environment
 
-*Workfront* now disables all email communication from the Preview Sandbox environment and the Custom Refresh environment. If you want to receive email notifications from the Preview Sandbox or Custom Refresh environments, you must enable this functionality in your user settings.
+`Workfront` now disables all email communication from the Preview Sandbox environment and the Custom Refresh environment. If you want to receive email notifications from the Preview Sandbox or Custom Refresh environments, you must enable this functionality in your user settings.
 
 For more information, see the following information:
 
@@ -74,15 +74,15 @@ For more information, see the following information:
 
 `<iframe class="mt-media" src="assets/214584374?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;
 
-## Outlook for Office 365 (*Workfront*)
+## Outlook for Office 365 ( `Workfront`)
 
-The *Workfront* Add-In for Outlook 365 is now available.&nbsp;
+The `Workfront` Add-In for Outlook 365 is now available.&nbsp;
 
-For more information about using&nbsp;the add-in, see [Using the *Workfront* Add-In with Outlook for Office 365.](https://support.workfront.com/hc/en-us/sections/205046167)
+For more information about using the add-in, see [Using the `Workfront` Add-In with Outlook for Office 365.](https://support.workfront.com/hc/en-us/sections/205046167)
 
 `<iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;
 
-## Search in the Mobile App (*Workfront*)
+## Search in the Mobile App ( `Workfront`)
 
 You can now&nbsp;search for objects inside the mobile app, similarly to the way you search in the web application. The new search functionality looks for items in the Recent Items list first, as well as the objects that have previously been downloaded to your mobile device. The list of Recent Items is the same list you see in the web application.
 
@@ -94,7 +94,7 @@ For more information about the mobile app, see the "Searching in Mobile" section
 
 `<iframe class="mt-media" src="assets/204243449?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
 
-## Improved Help in the Mobile App: Tutorials (*Workfront*)
+## Improved Help in the Mobile App: Tutorials ( `Workfront`)
 
 >Starting with the mobile release in April, you will see new tutorial screens to guide you through your mobile experience. When you log into the mobile app for the first time, and you are using a feature for the first time, you will see a brief tutorial that explains how the feature works. The tutorial displays only once, the first time you are using a specific feature.
 
@@ -108,7 +108,7 @@ For more information, see&nbsp; [Search content within a proof](../../../../revi
 
 ## Updated Global Navigation Bar (ProofHQ)
 
-ProofHQ Premium accounts that are integrated with *Workfront* now see the following improvements to the Global Navigation Bar within ProofHQ:
+ProofHQ Premium accounts that are integrated with `Workfront` now see the following improvements to the Global Navigation Bar within ProofHQ:
 
 * New user profile picture&nbsp;
 * Updated look and feel
@@ -122,7 +122,7 @@ You can now include the following additional information&nbsp;in custom views:
   For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 * `Proofing Data  
-  You can configure custom views to include the following columns related to *proofing* data: Comment Count (All Versions), Size on Disk, Proof Type, Number of Files per Version, Comment Attachment Data (size on disk, filename), and Filtering by Subfolder.  
+  You can configure custom views to include the following columns related to `proofing` data: Comment Count (All Versions), Size on Disk, Proof Type, Number of Files per Version, Comment Attachment Data (size on disk, filename), and Filtering by Subfolder.  
   For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).` 
 * Stage-Level Data Related to&nbsp;Automated Workflows  
   You can configure custom views to include the following columns related to individual stages of&nbsp;automated workflows: SOCD Status, Stage Deadlines, Active Stage Name, Next Stage Name, Stage name, and Template.  

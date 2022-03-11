@@ -11,20 +11,20 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # GitLab modules
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
-In a *Adobe Workfront Fusion* scenario, you can connect your *GitLab* account to multiple third-party applications and services.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+In a `Adobe Workfront Fusion` scenario, you can connect your `GitLab` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
-## Connect GitLab to *Workfront Fusion*
+## Connect GitLab to `Workfront Fusion`
 
-The procedure for connecting GitLab to *Workfront Fusion* is different based on whether you are connecting to a GitLab private server using a private token, or .connecting to GitLab.com using OAuth
+The procedure for connecting GitLab to `Workfront Fusion` is different based on whether you are connecting to a GitLab private server using a private token, or .connecting to GitLab.com using OAuth
 
 >[!TIP]
 >
->We recommend connecting *Workfront Fusion* to a GitLab private server.
+>We recommend connecting `Workfront Fusion` to a GitLab private server.
 
 * [Connect to a GitLab private server](#connect2) 
 * [Connect to GitLab using gitlab.com](#connect3)
@@ -32,7 +32,7 @@ The procedure for connecting GitLab to *Workfront Fusion* is different based on 
 ### Connect to a GitLab private server
 
 <ol> 
- <li value="1"> <p>In any <em>Workfront Fusion</em> Gitlab module, click <b>Add</b> next to the connection field.</p> </li> 
+ <li value="1"> <p>In any <span>Workfront Fusion</span> Gitlab module, click <b>Add</b> next to the connection field.</p> </li> 
  <li value="2"> <p>Configure the following fields:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -62,7 +62,7 @@ The procedure for connecting GitLab to *Workfront Fusion* is different based on 
 ### Connect to GitLab using gitlab.com
 
 <ol> 
- <li value="1"> <p>In any <em>Workfront Fusion</em> Gitlab module, click <b>Add</b> next to the connection field.</p> </li> 
+ <li value="1"> <p>In any <span>Workfront Fusion</span> Gitlab module, click <b>Add</b> next to the connection field.</p> </li> 
  <li value="2"> <p>Configure the following fields:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -84,7 +84,7 @@ The procedure for connecting GitLab to *Workfront Fusion* is different based on 
 
 ## GitLab modules and their fields
 
-When you configure *GitLab* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *GitLab* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `GitLab` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `GitLab` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -187,7 +187,7 @@ This trigger module starts a scenario when a new issue is created, or an existin
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook name</td> 
-   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
@@ -195,7 +195,7 @@ This trigger module starts a scenario when a new issue is created, or an existin
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
-   <td> <p>Select the project where you want to watch <em>issue</em>s.</p> </td> 
+   <td> <p>Select the project where you want to watch <span>issue</span>s.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -283,7 +283,7 @@ This trigger module starts a scenario when a new comment is made on commits, mer
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook name</td> 
-   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
@@ -291,7 +291,7 @@ This trigger module starts a scenario when a new comment is made on commits, mer
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
-   <td> <p>Select the project where you want to watch <em>issue note</em>s.</p> </td> 
+   <td> <p>Select the project where you want to watch <span>issue note</span>s.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -332,7 +332,7 @@ This trigger module starts a scenario when you push to the repository, except wh
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook name</td> 
-   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
@@ -340,7 +340,7 @@ This trigger module starts a scenario when you push to the repository, except wh
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
-   <td> <p>Select the project where you want to watch <em>pushe</em>s.</p> </td> 
+   <td> <p>Select the project where you want to watch <span>pushe</span>s.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -415,7 +415,7 @@ This trigger module starts a scenario when a new merge request is created, an ex
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook name</td> 
-   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
@@ -423,7 +423,7 @@ This trigger module starts a scenario when a new merge request is created, an ex
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
-   <td> <p>Select the project where you want to watch <em>merge request</em>s.</p> </td> 
+   <td> <p>Select the project where you want to watch <span>merge request</span>s.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -620,7 +620,7 @@ This trigger module starts a scenario when the status changes on a Pipeline.
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook name</td> 
-   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
@@ -628,7 +628,7 @@ This trigger module starts a scenario when the status changes on a Pipeline.
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
-   <td> <p>Select the project where you want to watch <em>pipeline</em>s.</p> </td> 
+   <td> <p>Select the project where you want to watch <span>pipeline</span>s.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -683,7 +683,7 @@ This trigger module starts a scenario when the status of a job changes.
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook name</td> 
-   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
@@ -691,7 +691,7 @@ This trigger module starts a scenario when the status of a job changes.
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
-   <td> <p>Select the project where you want to watch <em>job</em>s.</p> </td> 
+   <td> <p>Select the project where you want to watch <span>job</span>s.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -750,7 +750,7 @@ This trigger module starts a scenario when you create (or delete) tags in the re
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook name</td> 
-   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
@@ -758,7 +758,7 @@ This trigger module starts a scenario when you create (or delete) tags in the re
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
-   <td> <p>Select the project where you want to watch <em>tag</em>s.</p> </td> 
+   <td> <p>Select the project where you want to watch <span>tag</span>s.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -944,7 +944,7 @@ This trigger module starts a scenario when a wiki page is created, updated, or d
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook name</td> 
-   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the name of the webhook.</p> <p>For more information on webhooks in <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref" data-mc-variable-override="">Instant triggers (webhooks)</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
@@ -952,7 +952,7 @@ This trigger module starts a scenario when a wiki page is created, updated, or d
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
-   <td> <p>Select the project where you want to watch <em>wiki page</em>s.</p> </td> 
+   <td> <p>Select the project where you want to watch <span>wiki page</span>s.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1063,7 +1063,7 @@ Allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 

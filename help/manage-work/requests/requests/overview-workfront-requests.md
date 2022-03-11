@@ -7,7 +7,7 @@ title: Overview of Requests in Adobe Workfront
 description: You can use requests to mitigate concerns and resolve issues that might delay the completion of a project. By submitting a request or an issue to a request queue (also called a help queue), you can communicate your needs to the correct person who can then help to resolve it and move a project along.
 ---
 
-# Overview of Requests in&nbsp;*Adobe Workfront*
+# Overview of Requests in  `Adobe Workfront`
 
 You can use requests to mitigate concerns and resolve issues that might delay the completion of a project. By submitting a `request` or an issue to a `request queue` (also called a help queue), you can communicate your needs to the correct person who can then help to resolve it and move a project along.
 
@@ -17,9 +17,9 @@ Request queue are a set of steps that must be configured manually to allow for t
 
 >[!NOTE]
 >
->Request queues are not linked to *Adobe Workfront*'s help desk (used for *Workfront Customer Support*). Every *Workfront* system is capable of accommodating request queues.
+>Request queues are not linked to `Adobe Workfront`'s help desk (used for `Workfront Customer Support`). Every `Workfront` system is capable of accommodating request queues.
 
-Your *Workfront* Administrator can build your own request queues following a set of steps.
+Your `Workfront` Administrator can build your own request queues following a set of steps.
 
 The following image illustrates an overview for how the steps of building a request queue must be implemented:
 

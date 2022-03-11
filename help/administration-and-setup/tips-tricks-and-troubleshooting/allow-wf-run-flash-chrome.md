@@ -8,9 +8,9 @@ title: Allow Adobe Workfront to run flash on Google Chrome
 description: Chrome has recently changed the way Flash is set up. Unfortunately, this means that even if you allowed Flash to run in the past, your setting will have reverted back to default, which can cause issues within Adobe Workfront. If you have pages that do not load, allowing Flash to run will likely resolve your issue.
 ---
 
-# Allow *Adobe Workfront* to run flash on Google Chrome
+# Allow `Adobe Workfront` to run flash on Google Chrome
 
-Chrome has recently changed the way Flash is set up. Unfortunately, this means that even if you allowed Flash to run in the past, your setting will have reverted back to default, which can cause issues within *Adobe Workfront*. If you have pages that do not load, allowing Flash to run will likely resolve your issue.
+Chrome has recently changed the way Flash is set up. Unfortunately, this means that even if you allowed Flash to run in the past, your setting will have reverted back to default, which can cause issues within `Adobe Workfront`. If you have pages that do not load, allowing Flash to run will likely resolve your issue.
 
 ## If you have the most recent version of Chrome
 

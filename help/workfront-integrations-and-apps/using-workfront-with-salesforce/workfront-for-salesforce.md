@@ -1,8 +1,8 @@
 
 
-# *Adobe Workfront* for Salesforce
+# `Adobe Workfront` for Salesforce
 
-You can use *Adobe Workfront* for Salesforce to integrate your Salesforce and *Workfront* systems. The articles in this section describe how to install, configure, and use *Workfront* for Salesforce.
+You can use `Adobe Workfront` for Salesforce to integrate your Salesforce and `Workfront` systems. The articles in this section describe how to install, configure, and use `Workfront` for Salesforce.
 
 * [Adobe Workfront for Salesforce overview](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md) 
 * [Install Adobe Workfront for Salesforce](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) 

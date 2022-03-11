@@ -13,18 +13,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p><em>Work</em> or higher</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> <!--
+   Adobe Workfront license* Work or higher
+  --> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have a license to Adobe Experience Manager</td> 
@@ -32,7 +25,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -50,7 +43,7 @@ You must have the following access to perform the steps in this article:
 1. Click on `Add New` and select `From <your AEM instance>`
 1. You should see `Link External Files and Folders` menu showing the content of an AEM folder in your AEM instance.
 1. Click on the first item in the breadcrumb of the menu. You should now see all files and folders in /content/dam folder.
-1. Browse to a folder with +1000 files inside. You should see all files listed in the menu. Do not change to “ `thumbnail` view because it will break. *Workfront* has not implemented pagination yet.
+1. Browse to a folder with +1000 files inside. You should see all files listed in the menu. Do not change to “ `thumbnail` view because it will break. `Workfront` has not implemented pagination yet.
 1. Select a folder and click `Link`. Open the linked folder, you should see all child folders and assets that are within that folder in AEM.
 
 ## Metadata Webhook
@@ -77,7 +70,7 @@ You must have the following access to perform the steps in this article:
 1. You should see `Link External Files and Folders` menu showing the content of an AEM folder in your AEM instance.
 1. Type a search term that will not match any file in AEM. You should see a message that specifies that no file was found.
 1. Type a search term that will match some files in AEM. Current search implementation will only search for files that contain the search term in their name (not it their title). You should see the files that were found. Each file should display the titles of all folders in the path where the file is located.
-1. Type a search term that will match +100 files. You should see only 100 results. Pending to verify with *Workfront* why the search is not paginating, *Workfront* webhooks will not request the second set of 100 files.
+1. Type a search term that will match +100 files. You should see only 100 results. Pending to verify with `Workfront` why the search is not paginating, `Workfront` webhooks will not request the second set of 100 files.
 
 ## Download Webhook
 
@@ -99,13 +92,13 @@ NOT IMPLEMENTED.
 1. Update `Access DAM through API endpoints` in `Advanced`tab of the cloud services configuration option to be checked.
 1. Upload a new image into a linked folder and select the image. Click on `Open`.
 1. The image should open in a new tab. Verify that the call to get the image was made to /bin/workfront-tools/view
-1. Delete the image in AEM. Click `Open` again in *Workfront*. /bin/workfront-tools/view call should now return 404.
+1. Delete the image in AEM. Click `Open` again in `Workfront`. /bin/workfront-tools/view call should now return 404.
 
 ## Upload Init and Upload Webhooks
 
 1. Send a document from the Documentsarea:
 
-  1. Upload an image to *Workfront* `Documents`tab in the main navigation.
+  1. Upload an image to `Workfront` `Documents`tab in the main navigation.
   1. Attach `Workfront Tools Document` custom form and fill in all fields.
   1. Select the document and click on `More → Send to → <your AEM instance>`. Select a folder that has `Workfront Tools` metadata schema applied and click `Save`.
   1. Verify that the asset together with the document metadata have been sent correctly.
@@ -120,7 +113,7 @@ NOT IMPLEMENTED.
 
 1. Send a document from a Task:
 
-  1. Upload an image to the `Documents`tab of a *Workfront* Task.
+  1. Upload an image to the `Documents`tab of a `Workfront` Task.
   1. Attach `Workfront Tools Document` custom form to the document and fill in all fields.
   1. Attach `Workfront Tools Task` custom form to the document and fill in all fields.
   1. Attach `Workfront Tools Project` custom form to the project and fill in all fields.
@@ -129,7 +122,7 @@ NOT IMPLEMENTED.
 
 1. Send a document from an Issue:
 
-  1. Upload an image to the `Documents` tab of a *Workfront* Issue.
+  1. Upload an image to the `Documents` tab of a `Workfront` Issue.
   1. Attach `Workfront Tools Document` custom form to the document and fill in all fields.
   1. Attach `Workfront Tools Issue` custom form to the document and fill in all fields.
   1. Attach `Workfront Tools Project` custom form to the project and fill in all fields.
@@ -147,7 +140,7 @@ NOT IMPLEMENTED.
 1. Select a folder and click `Link`.
 1. Open the linked folder and click `Add New → Folder`. Type the new folder’s name.
 1. Open the created folder and create another folder within it.
-1. Refresh the page in *Workfront* and verify both folders are correctly displayed.
+1. Refresh the page in `Workfront` and verify both folders are correctly displayed.
 1. Upload an asset to one of the created folders.
 1. Verify in AEM that both folders have been created correctly and the asset has been uploaded.
 

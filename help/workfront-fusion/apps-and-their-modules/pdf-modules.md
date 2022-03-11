@@ -37,49 +37,29 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Adobe PDF Services and their fields
 
-When you configure PDF&nbsp;Services, *Workfront Fusion* displays the fields listed below. Along with these, additional fields might display, depending on factors such as your access level in the app or service. A bold title in a module indicates a required field.
+When you configure PDF Services, `Workfront Fusion` displays the fields listed below. Along with these, additional fields might display, depending on factors such as your access level in the app or service. A bold title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -132,7 +112,7 @@ Fill in the Generate document module fields as follows:
   </tr> 
   <tr> 
    <td role="rowheader">Source File</td> 
-   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>This source file is the Microsoft Word template that the module uses to generate the new PDF.</p> <p>We recommend creating a project in <em>Workfront</em> for the Microsoft Word templates that you use in <em>Workfront Fusion</em>. You can then use the Workfront &gt; Download document module to pull the appropriate template into your scenario.</p> </td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>This source file is the Microsoft Word template that the module uses to generate the new PDF.</p> <p>We recommend creating a project in <span>Workfront</span> for the Microsoft Word templates that you use in <span>Workfront Fusion</span>. You can then use the Workfront &gt; Download document module to pull the appropriate template into your scenario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Format</td> 
@@ -168,7 +148,7 @@ To use the Generate document module with JSON, fill in the fields as follows:
   </tr> 
   <tr> 
    <td role="rowheader">Source File</td> 
-   <td> <p>This source file is the Microsoft Word template that the module uses to generate the new PDF.</p> <p>We recommend creating a project in <em>Workfront</em> for the Microsoft Word templates that you use in <em>Workfront Fusion</em>. You can then use the Workfront &gt; Download document module to pull the appropriate template into your scenario.</p> </td> 
+   <td> <p>This source file is the Microsoft Word template that the module uses to generate the new PDF.</p> <p>We recommend creating a project in <span>Workfront</span> for the Microsoft Word templates that you use in <span>Workfront Fusion</span>. You can then use the Workfront &gt; Download document module to pull the appropriate template into your scenario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Format</td> 
@@ -222,7 +202,7 @@ This action module allows you to extract data from a PDF file. The module output
 
 ### Combine PDF&nbsp;files
 
-This action module takes multiple PDF&nbsp;files and combines them into a single PDF&nbsp;file. For example, this module could combine all of the documents in a *Workfront* project into a single PDF upon completion of the project.
+This action module takes multiple PDF files and combines them into a single PDF file. For example, this module could combine all of the documents in a `Workfront` project into a single PDF upon completion of the project.
 
 <table cellspacing="0"> 
  <col> 
@@ -570,7 +550,7 @@ This module allows you to selectively rotate or delete pages in a PDF document. 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>work with</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>work with</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -667,16 +647,7 @@ This tool removes security (password protection) from a PDF document.
  </col> 
  <col> 
  </col> 
- <tbody> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Connection</td> 
-    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
-  </tr> 
+ <tbody> Connection Select the connection to use for this module. You do not need an Adobe account to create a PDF Services connection. For more information, see You do not need an Adobe account in this article. 
   <tr> 
    <td role="rowheader">Source file</td> 
    <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF format.</p> </td> 

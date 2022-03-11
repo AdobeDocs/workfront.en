@@ -4,16 +4,16 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
 title: Manage a satellite account in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: As a Workfront Proof administrator, you can manage a satellite account set up on your organization's account.
 ---
 
-# Manage a satellite account in *Workfront Proof*
+# Manage a satellite account in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a *Workfront Proof administrator*, you can manage a satellite account set up on your organization's account.
+As a `Workfront Proof administrator`, you can manage a satellite account set up on your organization's account.
 
 ## Updating Billing Information
 

@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Indicate Lag and Lag Types on tasks
 
@@ -49,32 +49,11 @@ You can indicate lag types on tasks when you define their predecessor relationsh
 * [Indicate Lag Types in the Predecessors section of a task](#lag-in-predecessors-tab) 
 * [Indicate Lag Types in a task list](#add-lags-in-task-list)
 
-### Indicate Lag Types in the Predecessors 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`of a task
+### Indicate Lag Types in the Predecessors sectionof a task
 
 1. Go to a task for which you want to define the predecessor and the Lag Type. 
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Predecessors</span> in the left panel. You might have to click <span class="bold">Show More</span>, and then <span class="bold">Predecessors</span>. </p>
-   -->
-
-   Click `Predecessors` in the left panel. You might have to click `Show More`, and then `Predecessors`. 
-
+1. Click Predecessors in the left panel. You might have to click Show More, and then Predecessors. 
 1. Click `Add Predecessor`.
-
-   <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) If you want to add a cross-project predecessor, replace the <span class="bold">Parent Project</span> name with another project.</li>
-   -->
-
-1. (Optional) If you want to add a cross-project predecessor, replace the `Parent Project` name with another project.
 1. Start typing the name of the predecessor task, then select it when it appears in the list. 
 1. Select the `Dependency Type`.
 

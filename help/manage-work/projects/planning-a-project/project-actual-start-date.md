@@ -9,7 +9,7 @@ description: Projects, tasks, and issues have an Actual Start Date in Adobe Work
 
 # Overview of the project Actual Start Date
 
-Projects, tasks, and issues have an&nbsp;Actual Start&nbsp;Date in&nbsp;*Adobe Workfront*. For tasks, and issues, this is the date when they have been marked as In Progress. For projects, this is the date when the first task on the project is marked as In Progress or has been completed.
+Projects, tasks, and issues have an Actual Start Date in  `Adobe Workfront`. For tasks, and issues, this is the date when they have been marked as In Progress. For projects, this is the date when the first task on the project is marked as In Progress or has been completed.
 
 ## Access requirements
 
@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,20 +38,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Considerations about Actual&nbsp;Start&nbsp;Dates in&nbsp;*Workfront*
+## Considerations about Actual Start Dates in  `Workfront`
 
-* The Actual Start Date is located 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  in the Details section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> in the Details section</MadCap:conditionalText>` of projects, tasks, and issues.&nbsp;
-
+* The Actual Start Date is located in the Details section of projects, tasks, and issues.&nbsp;
 * The Actual&nbsp;Start Date of a project, task, or issue is not populated when these items are created. 
 * The Actual&nbsp;Start&nbsp;Date is populated when work actually starts on the project, task, or issue. 
 * The Actual&nbsp;Start Date does not display on the Project Details tab if the work on the project has not started yet.
@@ -63,7 +54,7 @@ You must have the following access to perform the steps in this article:
 ## Considerations about Actual Start&nbsp;Dates for projects
 
 <ul> 
- <li><em>Workfront</em> automatically sets the Actual&nbsp;Date of a project when any of the following occur:
+ <li><span>Workfront</span> automatically sets the Actual&nbsp;Date of a project when any of the following occur:
   <ul>
    <li>A task assignee changes the status of a task from <i>New</i> to any other status that does not equate <i>New</i>.</li>
    <li><p>A task assignee changes the Percent Complete of a task.</p><note type="important">
@@ -76,40 +67,15 @@ You must have the following access to perform the steps in this article:
 
 You can locate the Actual&nbsp;Start&nbsp;Date of a project in the following areas:
 
-* 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  In the Details section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the Details section</MadCap:conditionalText>` of a Project.
-
+* In the Details section of a Project.
 * In a project report or view, when you add the Actual&nbsp;Start&nbsp;Date for the object Project in the report.
 
   For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-To locate the Actual Start&nbsp;Date 
+To locate the Actual Start&nbsp;Date in the Details section of the project:
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-in the Details section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> in the Details section</MadCap:conditionalText>` of the project:
-
-<ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Projects</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Projects</span>. </p> </li> 
- <li value="2">Click the project you want to view the Actual Start Date for.</li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click&nbsp;<span class="bold">Project Details</span> in the left panel, then go to the <span class="bold">Overview</span> section. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click&nbsp;<span class="bold">Project Details</span> in the left panel, then go to the <span class="bold">Overview</span> section. </p> <p>The Actual Start Date displays along other project dates .</p> <p> <draft-comment>
-    <img src="assets/nwe-project-actual-start-date--highlighted-350x367.png" style="width: 350;height: 367;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/nwe-project-actual-start-date--highlighted-350x367.png" style="width: 350;height: 367;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, then click Projects. 
+1. Click the project you want to view the Actual Start Date for.
+1. Click Project Details in the left panel, then go to the Overview section. The Actual Start Date displays along other project dates .
 
 &nbsp;

@@ -4,16 +4,16 @@ product: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
 title: Manage a proof configured with an Automated Workflow in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: You can conveniently track the progress of your Automated Workflow proofs in the Workflow section of the Proof details page. You can view the work done on each stage and modify, add, start and lock the stages on your proof.
 ---
 
-# Manage a *proof* configured with an Automated Workflow in *Workfront Proof*
+# Manage a `proof` configured with an Automated Workflow in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-You can conveniently track the progress of your Automated Workflow *proofs* in the Workflow section of the Proof details page. You can view the work done on each stage and modify, add, start and lock the stages on your *proof*.
+You can conveniently track the progress of your Automated Workflow `proofs` in the Workflow section of the Proof details page. You can view the work done on each stage and modify, add, start and lock the stages on your `proof`.
 
 ## View an Automated Workflow
 
@@ -119,7 +119,7 @@ The Actions menu (1) for each stage has the following options:
 <ul> 
  <li>Message all (2) - you can send a reminder email to all reviewers on the stage</li> 
  <li>Share (3) - you can add new reviewers to the stage</li> 
- <li>Delete stage (4) - if the <em>proof</em> owner is on that stage, you will be asked to pick a new stage for them<br></li> 
+ <li>Delete stage (4) - if the <span>proof</span> owner is on that stage, you will be asked to pick a new stage for them<br></li> 
  <img src="assets/stage-options-350x118.png" alt="Stage_options.png" style="width: 350;height: 118;"> 
 </ul>
 

@@ -27,16 +27,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Update a project's Update&nbsp;Type
 
@@ -53,29 +53,11 @@ When the tasks update, their parent objects (parent tasks or the project) update
 
 <ol> 
  <li value="1">Go to the project whose Update Type you want to specify.</li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the More menu 
-    <img src="assets/more-icon.png"> next to the name of the project, then click 
-    <b>Edit</b> 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the More menu 
-   <img src="assets/more-icon.png"> next to the name of the project, then click 
-   <b>Edit</b> 
-  </MadCap:conditionalText>.</li> 
- <li value="3"> <p>Click <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <span class="bold">Project</span> 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <span class="bold">Project</span> 
-   </MadCap:conditionalText><span class="bold">Settings</span>.<br></p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/update-type-field-on-project-edit-box-nwe-350x378.png" style="width: 350;height: 378;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/update-type-field-on-project-edit-box-nwe-350x378.png" style="width: 350;height: 378;"> </p> </li> 
- <li value="4"> <p>In the <span class="bold">Update Type</span> field, select whether you want <em>Workfront</em> to calculate the timeline of the project automatically daily, when there is a change, or if you want the project manager to calculate it manually. </p> <p>Select from the options in the list below.&nbsp;</p> <note type="important">
+ <li value="2"> Click the More menu next to the name of the project, then click Edit.</li> 
+ <li value="3"> <p>Click Project<span class="bold">Settings</span>.<br></p>  </li> 
+ <li value="4"> <p>In the <span class="bold">Update Type</span> field, select whether you want <span>Workfront</span> to calculate the timeline of the project automatically daily, when there is a change, or if you want the project manager to calculate it manually. </p> <p>Select from the options in the list below.&nbsp;</p> <note type="important">
    If the timeline of a project is longer than 15 years, 
-   <em>Workfront</em> does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual. 
+   <span>Workfront</span> does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual. 
   </note> 
   <ul> 
    <li> <p><span class="bold">Automatic and On Change:</span>&nbsp;This is the default setting. The project timeline is updated each time a change occurs&nbsp;in the project or in another project that the timeline is dependent on. The project timeline is also updated each night.&nbsp; <br>This is the recommended setting as it ensures that the project timeline is always up to date.</p> <p>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed. </p> <p> <img src="assets/dates-dimmed-when-insline-editing-350x146.png" style="width: 350;height: 146;"> </p> <p>This indicates that the recalculation is not yet finished, and the dates are subject to change. </p> </li> 

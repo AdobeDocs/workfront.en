@@ -34,12 +34,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -48,15 +48,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Customize email subject lines for event notifications
-
-<ol data-mc-continue="false"> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
-</ol>
 
 1. In the left panel, click `Email` > `Notifications`.
 
@@ -64,7 +58,7 @@ You must have the following access to perform the steps in this article:
 1. Click the name of the event notification you want to customize to open the `Event Notification` box.
 1. In the `Email Subject Line` box, change the text and fields, including custom fields, in the email subject.
 
-   The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the *Workfront* database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).
+   The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the `Workfront` database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).
 
 1. Click `Update` to save the new subject lines for your emails.
 
@@ -74,15 +68,9 @@ Some event notifications have multiple subject lines, depending on which objects
 
 For example, “Someone includes me on a directed update” has two different subjects lines: first is for tasks, issues, template tasks and documents (also known as a “referenceObject”) and the second one is for objects that allow users to make comments, like portfolio, program, and so on (also known as a “topReferenceObject”).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/ev-not-mult-subj-lines---qs-350x163.png" style="width: 350;height: 163;"> </p>
--->
-
-![](assets/ev-not-mult-subj-lines---qs-350x163.png)
-
 If a user is included in a conversation on the task, issue, template task, or document,&nbsp;an email will generate with the first subject line. The subject line contains “referenceObject:name” and the system defines the object and displays the appropriate name in the subject field. The email subject line&nbsp;would look similar to this: "Comment on Task 123 on Project ABC."&nbsp;
 
-If added to a project conversation&nbsp;an email with the second subject will generate. Here the subject line contains “topReferenceObject:name” and again *Workfront* identifies which object was referenced and will return that object name instead of “topReferenceObject:name” in the subject. The email subject line would look similar to this: "Comment on Project ABC."
+If added to a project conversation an email with the second subject will generate. Here the subject line contains “topReferenceObject:name” and again `Workfront` identifies which object was referenced and will return that object name instead of “topReferenceObject:name” in the subject. The email subject line would look similar to this: "Comment on Project ABC."
 
 To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customizing-subjects) in this article.
 
@@ -91,12 +79,6 @@ To edit the email subject lines and add additional fields to either subject line
 Some event notifications&nbsp;also have multiple email subjects to outline the different actions which are taken on the objects.
 
 For example, requesting a document to be added to an issue is an event that can trigger two different emails: one for when the document is added, and one for when the document is edited.&nbsp;
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/ev-not-mult-subj-lines-diff-actions---qs-350x161.png" style="width: 350;height: 161;"> </p>
--->
-
-![](assets/ev-not-mult-subj-lines-diff-actions---qs-350x161.png)
 
 To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customizing-subjects) in this article.  
 

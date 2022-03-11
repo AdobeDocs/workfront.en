@@ -8,7 +8,7 @@ description: Comments enable you to provide feedback on content and collaborate 
 
 # Comment on a proof
 
-Comments enable you&nbsp;to provide feedback on content and collaborate with other users in the *proofing viewer*.
+Comments enable you to provide feedback on content and collaborate with other users in the `proofing viewer`.
 
 When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
 
@@ -24,15 +24,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Current plan: <em>Work</em> or <em>Plan</em></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -46,16 +46,16 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
-## Comment on a *proof*
+## Comment on a `proof`
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the *proof* you need, then click `Open *proof*`.
+1. Find the `proof` you need, then click `Open `proof``.
 
 <ol start="3"> 
- <li value="3"> <p>At the top of the <em>proofing viewer</em>, click <span class="bold">Add comment</span>.</p> </li> 
- <li value="4"> <p>(Conditional) If this is a video <em>proof</em>, play the video <em>proof</em>, then click<span class="bold"> Add comment</span> at the point in the video where you want the comment using the playheads</p> 
+ <li value="3"> <p>At the top of the <span>proofing viewer</span>, click <span class="bold">Add comment</span>.</p> </li> 
+ <li value="4"> <p>(Conditional) If this is a video <span>proof</span>, play the video <span>proof</span>, then click<span class="bold"> Add comment</span> at the point in the video where you want the comment using the playheads</p> 
   <div class="tips" data-mc-autonum="<b>Tips: </b>">
    <span class="autonumber"><span><b>Tips: </b></span></span> 
    <ol> 
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
     <li value="4"> <p>To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.</p> </li> 
    </ol> 
   </div> </li> 
- <li value="5"> <p>To draw attention to a specific location on the <em>proof</em>, click the markup tool you want in the toolbar, then mark the area of the <em>proof</em> that you want to comment on:</p> 
+ <li value="5"> <p>To draw attention to a specific location on the <span>proof</span>, click the markup tool you want in the toolbar, then mark the area of the <span>proof</span> that you want to comment on:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -109,15 +109,15 @@ You must have the following access to perform the steps in this article:
     <tr> 
      <td role="rowheader"><span class="bold">Text</span> </td> 
      <td> <img src="assets/copy-of-text.png"> </td> 
-     <td> <p>This tool appears on the left of the other tools when the proof is a text-based document. It provides markup tools for commenting on text in <em>proofs</em>. <br></p> <p>When you click this tool and then select text on your <em>proof</em>, annotation options appear beneath the selected text.<br></p> </td> 
+     <td> <p>This tool appears on the left of the other tools when the proof is a text-based document. It provides markup tools for commenting on text in <span>proofs</span>. <br></p> <p>When you click this tool and then select text on your <span>proof</span>, annotation options appear beneath the selected text.<br></p> </td> 
     </tr> 
    </tbody> 
   </table> </li> <note type="note">
   In static 
-  <em>proofs</em>, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
+  <span>proofs</span>, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
  </note> 
  <li value="6">Type your comment in the <span class="bold">Add comment</span> box on the right.</li> 
- <li value="7"> <p><a name="@mention-in-comment"></a>(Optional) To tag another user in your comment and add them to the <em>proof</em>'s workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> </li> 
+ <li value="7"> <p><a name="@mention-in-comment"></a>(Optional) To tag another user in your comment and add them to the <span>proof</span>'s workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> </li> 
  <li value="8"> (Optional) To attach&nbsp;a file to a comment, do either of the following: 
   <ul>
    <li>Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.</li>

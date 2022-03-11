@@ -14,24 +14,8 @@ You can use the quick filter in a list of objects to help you locate only items 
 >You can find items that contain a search word using quick filters, whether that item has been physically displayed on your screen or will display after you have scrolled to the bottom of the page. When you use your browser's search capabilities, you can only find items that are physically displayed on the screen. If your list has multiple pages, quick filters do not find items that are on pages that do not display.
 
 If you want to save a quick filter, we recommend that you build a permanent filter for your list instead.  
-For information about how to build filters in *Adobe Workfront*, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<p>You can use temporary quick filters in all lists, except the following:</p>
-<ul>
-<li>The Setup area</li>
-<li>The Reports area</li>
-<li>Document lists and reports</li>
-</ul>
-</div>
--->
-
-You can use temporary quick filters in all lists, except the following:
-
-* The Setup area
-* The Reports area
-* Document lists and reports
+For information about how to build filters in `Adobe Workfront`, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+You can use temporary quick filters in all lists, except the following: The Setup area The Reports area Document lists and reports 
 
 Consider the following when applying quick filters to a list:
 
@@ -52,16 +36,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to the area the list is in</p> <p>For example, to apply a quick filter to a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level.<br>For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to the area the list is in</p> <p>For example, to apply a quick filter to a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level.<br>For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -70,14 +54,12 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Apply a quick filter to a list
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a list or report that supports quick filters, then click the <span class="bold">Quick Filter icon</span><img src="assets/qs-quick-filter-icon.png"> in the toolbar.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a list or report that supports quick filters, then click the <span class="bold">Quick Filter icon</span><img src="assets/qs-quick-filter-icon.png"> in the toolbar.</p> 
+ <li value="1"> Go to a list or report that supports quick filters, then click the Quick Filter icon in the toolbar. 
   <div> 
    <p>Or </p> 
    <p>Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of commands to launch the quick filter:</p> 

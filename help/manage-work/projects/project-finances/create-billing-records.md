@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Billing records overview
 
@@ -58,11 +58,7 @@ Consider the following when planning to use billing records:
 
 <ol> 
  <li value="1">Navigate to a project.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billing Records</span> in the left panel. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billing Records</span> in the left panel. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">This section might be located under <span class="bold">Show More</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">This section might be located under <span class="bold">Show More</span>.</p> </li> 
+ <li value="2"> Click Billing Records in the left panel. This section might be located under Show More. </li> 
  <li value="3"> <p>With <span class="bold">Billing Record Details</span> selected in the left panel, click <span class="bold">New Billing Record</span>.</p> </li> 
  <li value="4"> <p>In the <span class="bold">New Billing Record</span> box that displays, specify the following information:</p> 
   <table cellspacing="0"> 
@@ -140,28 +136,16 @@ To add billable hours to a billing record:
 
 <ol> 
  <li value="1">Go to the project with the billing records.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billing Records</span> in the left panel. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billing Records</span> in the left panel. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">This section might be located under <span class="bold">Show More</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">This section might be located under <span class="bold">Show More</span>.</p> </li> 
+ <li value="2"> Click Billing Records in the left panel. This section might be located under Show More. </li> 
  <li value="3">Click the <span class="bold">Description</span> of a billing record to open the <span class="bold">Billing Record Details</span> tab.</li> 
- <li value="4"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billable Hours</span> in the left panel.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billable Hours</span> in the left panel.</p> </li> 
+ <li value="4"> Click Billable Hours in the left panel. </li> 
  <li value="5">If there are hours that could be included in a billing record, click <span class="bold">Add Hours</span>.<br>The <span class="bold">Add Billable Hours</span> box opens. <br><note type="note">
     If there are no hours logged or if the hours logged do not meet the conditions required to be added to a billing record, the 
    <span class="bold">Add Hours</span> button does not display. For more information about what hours can be logged to a billing record, see the section 
    <a href="#understanding-what-hours-can-be-added" class="MCXref xref">What hours can be added to a billing record</a> in this article.
   </note></li> 
  <li value="6">Select the hour entries you want to include in the billing record, and click <span class="bold">Add Hours</span>. <br>The Actual Cost of the hours is added as the <span class="bold">Billable Hours</span> amount to the <span class="bold">Billing Record Total</span>. </li> 
- <li value="7">(Optional) Click <span class="bold">Billing Records Details</span> to review the <span class="bold">Billable Hours</span> and <span class="bold">Billing Record Total</span> amounts. <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    You can also see the billing record total in the header of the billing record. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   You can also see the billing record total in the header of the billing record. 
-  </MadCap:conditionalText></li> 
+ <li value="7">(Optional) Click <span class="bold">Billing Records Details</span> to review the <span class="bold">Billable Hours</span> and <span class="bold">Billing Record Total</span> amounts. You can also see the billing record total in the header of the billing record.</li> 
 </ol>
 
 ### Include Billable Expenses in a billing record
@@ -172,27 +156,15 @@ To add billable expenses to a billing record:
 
 <ol> 
  <li value="1">Go to the project with the billing records.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billing Records</span> in the left panel.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billing Records</span> in the left panel.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You might have to click <span class="bold">Show More</span>, then <span class="bold">Billing Records</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You might have to click <span class="bold">Show More</span>, then <span class="bold">Billing Records</span>. </p> </li> 
+ <li value="2"> Click Billing Records in the left panel. You might have to click Show More, then Billing Records. </li> 
  <li value="3">Click the <span class="bold">Description</span> of a billing record to open the <span class="bold">Billing Record Details</span> tab.</li> 
- <li value="4"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billable Expenses</span> in the left panel. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billable Expenses</span> in the left panel. </p> </li> 
+ <li value="4"> Click Billable Expenses in the left panel. </li> 
  <li value="5">(Conditional) If you have added expenses to your tasks or the project and have marked them as Billable, click <span class="bold">Add Expenses</span>.<br><note type="note">
     If you have expenses but they are not marked as Billable, the 
    <span class="bold">Add Expenses</span> button does not display. Only billable expenses with an Actual Amount greater than zero are eligible to be included in a billing record.
   </note></li> 
  <li value="6">Select the billable expenses that are available to be added to the billing record, then click <span class="bold">Add Expenses</span>.<br>The Actual Amount of the expenses is added as the <span class="bold">Billable Expenses</span> amount to the <span class="bold">Billing Record Total</span>.</li> 
- <li value="7">(Optional) Click <span class="bold">Billing Records Details</span> to review the <span class="bold">Billable Expenses</span> and <span class="bold">Billing Record Total</span> amounts. <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    You can also see the billing record total in the header of the billing record. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   You can also see the billing record total in the header of the billing record. 
-  </MadCap:conditionalText></li> 
+ <li value="7">(Optional) Click <span class="bold">Billing Records Details</span> to review the <span class="bold">Billable Expenses</span> and <span class="bold">Billing Record Total</span> amounts. You can also see the billing record total in the header of the billing record.</li> 
 </ol>
 
 ### Include Fixed Revenues in a billing record
@@ -203,11 +175,7 @@ To add fixed revenues to a billing record:
 
 <ol> 
  <li value="1">Go to the project with the billing records.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billing Records</span> in the left panel.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Billing Records</span> in the left panel.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You might have to click <span class="bold">Show More</span>, then <span class="bold">Billing Records</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You might have to click <span class="bold">Show More</span>, then <span class="bold">Billing Records</span>.</p> </li> 
+ <li value="2"> Click Billing Records in the left panel. You might have to click Show More, then Billing Records. </li> 
  <li value="3">Click the <span class="bold">Description</span> of a billing record to open the <span class="bold">Billing Record Details</span> tab.</li> 
  <li value="4">Select the <span class="bold">Fixed Revenues</span> tab.</li> 
  <li value="5">If you have added fixed revenues to your tasks, click <span class="bold">Add Fixed Revenues</span>.<br><note type="note">
@@ -215,13 +183,7 @@ To add fixed revenues to a billing record:
    <span class="bold">Add Fixed Revenue</span> button does not display.
   </note></li> 
  <li value="6">Select the tasks whose fixed revenues you want to include in the billing record, then click <span class="bold">Add Tasks</span>.<br>The <span class="bold">Fixed Revenue</span> amount of the tasks is added as the <span class="bold">Billable Revenues</span> amount to the <span class="bold">Billing Record Total</span>.</li> 
- <li value="7">(Optional) Click <span class="bold">Billing Records Details</span> to review the <span class="bold">Billable Revenues</span> and <span class="bold">Billing Record Total</span> amounts. <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    You can also see the billing record total in the header of the billing record. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   You can also see the billing record total in the header of the billing record. 
-  </MadCap:conditionalText></li> 
+ <li value="7">(Optional) Click <span class="bold">Billing Records Details</span> to review the <span class="bold">Billable Revenues</span> and <span class="bold">Billing Record Total</span> amounts. You can also see the billing record total in the header of the billing record.</li> 
 </ol>
 
 ## Edit a billing record
@@ -230,38 +192,9 @@ After creating a billing record and including hours, expenses and revenues in th
 
 <ol> 
  <li value="1"> <p>Go to the billing record.</p> </li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     With 
-     <span class="bold">Billing Record Details</span> selected in the left panel
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    With 
-    <span class="bold">Billing Record Details</span> selected in the left panel
-   </MadCap:conditionalText><draft-comment>
-    <span data-mc-conditions="QuicksilverOrClassic.Draft mode">
-     <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-       <span class="preview">and the <span class="bold">Overview</span> section expanded</span>
-      </MadCap:conditionalText>
-     </draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <span class="preview">and the <span class="bold">Overview</span> section expanded</span>
-     </MadCap:conditionalText></span>
-   </draft-comment><span data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <span class="preview">and the <span class="bold">Overview</span> section expanded</span>
-    </MadCap:conditionalText></span> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     , edit information in any available fields
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    , edit information in any available fields
-   </MadCap:conditionalText>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit icon</span> <img src="assets/edit-icon.png"> in the upper-right corner, then edit information in any available fields.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit icon</span> <img src="assets/edit-icon.png"> in the upper-right corner, then edit information in any available fields.</p> <p>These fields are available for editing:</p> 
+ <li value="2"> <p> With Billing Record Details selected in the left panel<!--
+    and the Overview section expanded
+   --> , edit information in any available fields.</p> Or Click the Edit icon in the upper-right corner, then edit information in any available fields. <p>These fields are available for editing:</p> 
   <ul> 
    <li><span class="bold">Description</span> </li> 
    <li> <p><span class="bold">Billing Status</span> </p> <note type="tip">
@@ -279,12 +212,6 @@ After creating a billing record and including hours, expenses and revenues in th
    <li><span class="bold">Billable Revenues</span>: The total of the Fixed Revenue of the tasks included in the billing record. For more information about including fixed revenues in a billing record, see the section <a href="#including-fixed-revenue-in-a-billing-record" class="MCXref xref">Include Fixed Revenues in a billing record</a> in this article.</li> 
    <li> <p><span class="bold">Billing Record Total</span>: The total of all billable amounts. This is calculated by the following formula:</p> <p><code>Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)</code> </p> </li> 
   </ul> </li> 
- <li value="3">Click <span class="bold">Save</span><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    <span class="bold"> Changes</span>
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   <span class="bold"> Changes</span>
-  </MadCap:conditionalText>.</li> 
+ <li value="3">Click <span class="bold">Save</span>Changes.</li> 
 </ol>
 

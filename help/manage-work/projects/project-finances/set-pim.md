@@ -10,9 +10,9 @@ description: The Performance Index Method (PIM) for the project controls the met
 
 ##  
 
-The Performance Index Method (PIM) for the project controls the method *Adobe Workfront* uses to calculate project performance metrics such as Cost `Performance Index` (CPI), Cost Schedule Performance Index (CSI), Schedule Performance Index (SPI), and Estimate At Completion (EAC).
+The Performance Index Method (PIM) for the project controls the method `Adobe Workfront` uses to calculate project performance metrics such as Cost `Performance Index` (CPI), Cost Schedule Performance Index (CSI), Schedule Performance Index (SPI), and Estimate At Completion (EAC).
 
-*Workfront* calculates these values using the following:
+`Workfront` calculates these values using the following:
 
 * Hours
 * Cost
@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,11 +44,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Considerations about PIM in *Workfront*
+## Considerations about PIM in `Workfront`
 
-* Your *Workfront administrator* or a *group administrator* sets up the default for whether the Performance Index Method (PIM) should be hour-based or cost-based. The calculations for the performance metrics change according to how this default is set. For more information about how to change the default for how to calculate the PIM, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Your `Workfront administrator` or a `group administrator` sets up the default for whether the Performance Index Method (PIM) should be hour-based or cost-based. The calculations for the performance metrics change according to how this default is set. For more information about how to change the default for how to calculate the PIM, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Project managers can also change the setting for the PIM, at the project level, for individual projects in the Finance subtab of the project. You must have Manage permissions to the project to edit the Finance subtab of the project.
 
@@ -56,22 +56,10 @@ You must have the following access to perform the steps in this article:
 
 <ol> 
  <li value="1"> <p>Go to a project which you are the owner of.</p> <note type="important">
-   You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance 
-   <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     area 
-    </MadCap:conditionalText>
-   </draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    area 
-   </MadCap:conditionalText>of the project. 
+   You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance areaof the project. 
   </note> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Project Details</span> in the left panel, then go to the <span class="bold">Finance</span> area.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Project Details</span> in the left panel, then go to the <span class="bold">Finance</span> area.</p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Double-click the value in the <span class="bold">Performance Index Method</span> field to edit it.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Double-click the value in the <span class="bold">Performance Index Method</span> field to edit it.</p> </li> 
+ <li value="2"> Click Project Details in the left panel, then go to the Finance area. </li> 
+ <li value="3"> Double-click the value in the Performance Index Method field to edit it. </li> 
  <li value="4"> <p>Select from the following options in the <span class="bold">Performance Index Method</span> field:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -79,20 +67,14 @@ You must have the following access to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">Hour-Based</td> 
-     <td><em>Workfront</em> uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </td> 
+     <td><span>Workfront</span> uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Cost-Based</td> 
-     <td><em>Workfront</em> uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</td> 
+     <td><span>Workfront</span> uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</td> 
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="5">Click <span class="bold">Save</span><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <span class="bold">Changes</span>
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <span class="bold">Changes</span>
-  </MadCap:conditionalText>.</li> 
+ <li value="5">Click <span class="bold">Save</span>Changes.</li> 
 </ol>
 

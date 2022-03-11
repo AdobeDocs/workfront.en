@@ -24,35 +24,17 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em> plan*</p> </td> 
+   <td> <p><span>Adobe Workfront</span> plan*</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em> license*</p> </td> 
-   <td> <p><em>Plan</em> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td><span class="bold">Access level configurations*</span> </td> 
-    <td> <p>Administrative access to Custom forms<br>For information about granting administrative access from the access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td><span class="bold">Access level configurations*</span> </td> 
-   <td> <p>Administrative access to Custom forms<br>For information about granting administrative access from the access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <p><span class="bold">Object permissions</span> </p> </td> 
-    <td> <p>Contribute access to the object where the form is attached with access to Edit the Custom Form</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <p><span class="bold">Object permissions</span> </p> </td> 
-   <td> <p>Contribute access to the object where the form is attached with access to Edit the Custom Form</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-  </tr> 
+   <td> <p><span>Adobe Workfront</span> license*</p> </td> 
+   <td> <p><span>Plan</span> </p> </td> 
+  </tr> Access level configurations* Administrative access to Custom forms For information about granting administrative access from the access level, see Grant users administrative access to certain areas. Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Contribute access to the object where the form is attached with access to Edit the Custom Form For information on requesting additional access, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Display the manager of an issue's creator on the issue custom form
 

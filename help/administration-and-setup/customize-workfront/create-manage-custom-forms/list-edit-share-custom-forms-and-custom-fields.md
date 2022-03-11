@@ -11,38 +11,20 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"> <p><em>Adobe Workfront</em> plan*</p> </td> 
-    <td>Any</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><em>Adobe Workfront</em> plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
+ <tbody> Adobe Workfront plan* Any 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <p>Administrative access to custom forms</p> <p>For information about how <em>Workfront administrators</em> grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how <em>Workfront administrators</em> grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
+  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access level configurations you have, contact your `Workfront administrator`.
 
 ## Edit and limit sharing for custom forms and custom fields
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>Click <span class="bold">Custom Forms</span>.</p> <p>With the <span class="bold">Forms</span> tab selected, all of your organization's custom forms are listed, along with their descriptions, the object type associated with each custom form (custom forms are specific to object type), the name of the user who created the custom form, and whether it is active.</p> <p>For information about what you can do when you select a custom form in the list, see the following articles:</p> 
   <ul> 
    <li><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a> </li> 

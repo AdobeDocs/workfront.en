@@ -8,9 +8,9 @@ title: Export data from Adobe Workfront via Kick-Starts
 description: As an Adobe Workfront administrator, you can use the Kick-Starts data exporter to export data from Workfront. You can use it in other applications after you export it.
 ---
 
-# Export data from *Adobe Workfront* via Kick-Starts
+# Export data from `Adobe Workfront` via Kick-Starts
 
-As an *Adobe Workfront administrator*, you can use the Kick-Starts data exporter to export data from *Workfront*. You can use it in other applications after you export it.
+As an `Adobe Workfront administrator`, you can use the Kick-Starts data exporter to export data from `Workfront`. You can use it in other applications after you export it.
 
 Exporting data through Kick-Starts is also helpful in understanding what fields are associated with each object, how these fields are coded, as well as how the values of these fields&nbsp;are formatted in the database.
 
@@ -23,23 +23,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Advantages and disadvantages of using kick-starts to export data
 
-There are two ways to export data within *Workfront*:
+There are two ways to export data within `Workfront`:
 
 * Exporting data from a report or a list
 
@@ -63,13 +63,13 @@ The following table shows the advantages and disadvantages of each method:&nbsp;
  <tbody> 
   <tr> 
    <td> <p><span class="bold">Exporting Data from a List View</span> </p> <p>For more information about exporting data from a list, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a></p> </td> 
-   <td> <p>Yes</p> <p>Both <em>Workfront</em> native fields and custom fields associated with the objects are exported.</p> </td> 
+   <td> <p>Yes</p> <p>Both <span>Workfront</span> native fields and custom fields associated with the objects are exported.</p> </td> 
    <td> <p>No</p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="bold">Exporting Data via Kick-Starts</span> </p> </td> 
-   <td> <p>Yes (limited)</p> <p>Most <em>Workfront</em> native fields associated with objects are exported, but some are not. For example, you cannot export the Schedule, Project Owner, or Project Sponsor fields through a project kick-start export.</p> <p>In a project that has a custom form attached, any data entered in the fields on the form is not exported.</p> <p>But you can export a custom form. The resulting file lists the fields configured in the form, such as text boxes and radio buttons.</p> </td> 
-   <td> <p>Yes</p> <p>Using Kick-Starts to export <em>Workfront</em> data&nbsp;enables you to export data related to multiple object types in a single export. For example, you can include tasks, issues, and projects in a single export.</p> </td> 
+   <td> <p>Yes (limited)</p> <p>Most <span>Workfront</span> native fields associated with objects are exported, but some are not. For example, you cannot export the Schedule, Project Owner, or Project Sponsor fields through a project kick-start export.</p> <p>In a project that has a custom form attached, any data entered in the fields on the form is not exported.</p> <p>But you can export a custom form. The resulting file lists the fields configured in the form, such as text boxes and radio buttons.</p> </td> 
+   <td> <p>Yes</p> <p>Using Kick-Starts to export <span>Workfront</span> data&nbsp;enables you to export data related to multiple object types in a single export. For example, you can include tasks, issues, and projects in a single export.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,10 +84,10 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
 ## Export data via kick-starts
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <span class="bold">System</span> > <span class="bold">Kick-Starts,</span> then click <span class="bold">Export Data.</span></li> 
  <li value="3">Select the object&nbsp;you want to export.</li> 
- <li value="4"> <p>Click <span class="bold">More Options</span>&nbsp;to see the full list of objects.</p> <p>All&nbsp;of the objects listed here&nbsp;can be&nbsp;used to also import data into <em>Workfront</em>. </p> <p>The only exception is the <span class="bold">Access Levels</span> object. The Access Levels data sheet that is included in an export is provided for reference purposes only. It allows you to assign an access level to a new user account by ID. </p> <p>For more information about importing data into <em>Workfront</em> via kick-starts, see <a href="../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md" class="MCXref xref">Import data into Adobe Workfront via a Kick-Start template</a>The following is a list of all objects that can be exported through kick-starts:</p> 
+ <li value="4"> <p>Click <span class="bold">More Options</span>&nbsp;to see the full list of objects.</p> <p>All&nbsp;of the objects listed here&nbsp;can be&nbsp;used to also import data into <span>Workfront</span>. </p> <p>The only exception is the <span class="bold">Access Levels</span> object. The Access Levels data sheet that is included in an export is provided for reference purposes only. It allows you to assign an access level to a new user account by ID. </p> <p>For more information about importing data into <span>Workfront</span> via kick-starts, see <a href="../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md" class="MCXref xref">Import data into Adobe Workfront via a Kick-Start template</a>The following is a list of all objects that can be exported through kick-starts:</p> 
   <table cellspacing="15"> 
    <col> 
    <col> 
@@ -346,6 +346,6 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="6"> <p>(Recommended) Analyze the exported data to ensure that all the information you expect to see was exported.&nbsp;</p> <p>For large exports, <em>Workfront</em> works in the background to produce the Excel file and gives you a warning message about the delay. The kick-start file is emailed to you, when the download finishes.</p> <p> <img src="assets/large-kick-start-file-warning-350x65.png" style="width: 350;height: 65;"> </p> </li> 
+ <li value="6"> <p>(Recommended) Analyze the exported data to ensure that all the information you expect to see was exported.&nbsp;</p> <p>For large exports, <span>Workfront</span> works in the background to produce the Excel file and gives you a warning message about the delay. The kick-start file is emailed to you, when the download finishes.</p> <p> <img src="assets/large-kick-start-file-warning-350x65.png" style="width: 350;height: 65;"> </p> </li> 
 </ol>
 

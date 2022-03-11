@@ -8,7 +8,7 @@ description: Make comments on objects without logging in to Adobe Workfront. You
 
 # Reply to email notifications
 
-Make comments on objects without logging in to *Adobe Workfront*. You can respond to *Workfront* email that is generated from comments made to the following objects:
+Make comments on objects without logging in to `Adobe Workfront`. You can respond to `Workfront` email that is generated from comments made to the following objects:
 
 * Project
 * Task

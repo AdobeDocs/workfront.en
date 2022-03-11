@@ -11,13 +11,13 @@ description: In a group, the Business Leader is the person who makes decisions f
 
 In a group, the Business Leader is the person who makes decisions for the group regarding goals, strategies, budget, and hiring and so on. For example, in an organization that has a Chief Marketing Officer, that person would likely be the Business Leader for Marketing.
 
-As a *group administrator*, you can assign one user as a Business Leader for a group or a subgroup that you administer. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for *Workfront administrators* (for any group). For instructions, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+As a `group administrator`, you can assign one user as a Business Leader for a group or a subgroup that you administer. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for `Workfront administrators` (for any group). For instructions, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 If you need general information about groups, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 >[!NOTE]
 >
->Unlike the *group administrator* of a group, the Business leader doesn't have the ability to view or change any configurations or memberships for the group.
+>Unlike the `group administrator` of a group, the Business leader doesn't have the ability to view or change any configurations or memberships for the group.
 
 ## Using the Business Leader field in reporting
 

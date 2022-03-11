@@ -13,7 +13,7 @@ description: Click the Main Menu icon in the upper-right corner of Workfront, th
 ## Assign a schedule to users
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li> 
  <li value="2">Select the user who you want to associate with a schedule.</li> 
  <li value="3">Click <span class="bold">Edit</span>.</li> 
  <li value="4">Click <span class="bold">Resource Planning</span>.</li> 
@@ -23,14 +23,9 @@ description: Click the Main Menu icon in the upper-right corner of Workfront, th
 
 ## Assign a schedule to projects
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Projects</span>. <img src="assets/projects-in-main-menu.png"></p> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Projects</span>. <img src="assets/projects-in-main-menu.png"></p> </li> 
- <li value="2">Select the project you want to associate with a schedule.</li> 
- <li value="3">Click <span class="bold">Edit</span>.</li> 
- <li value="4">Click <span class="bold">Settings</span>.</li> 
- <li value="5">Find the <span class="bold">Schedule</span> drop-down menu and select the schedule you want to associate with the project.</li> 
- <li value="6">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Select the project you want to associate with a schedule.
+1. Click `Edit`.
+1. Click `Settings`.
+1. Find the `Schedule` drop-down menu and select the schedule you want to associate with the project.
+1. Click `Save Changes`.
 

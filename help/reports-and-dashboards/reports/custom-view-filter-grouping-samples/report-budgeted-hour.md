@@ -13,7 +13,7 @@ When you want to share Budgeted Hour information with other users who do not hav
 
 >[!IMPORTANT]
 >
->Budgeted Hours are updated every hour in the *Adobe Workfront* database. Refreshing the report does not necessarily refresh the hour information in it. You can view the time lapsed since the last update in the upper-right corner of every Budgeted Hour report. Refreshing the report refreshes the information in it only when there has been more than one hour since the last update.
+>Budgeted Hours are updated every hour in the `Adobe Workfront` database. Refreshing the report does not necessarily refresh the hour information in it. You can view the time lapsed since the last update in the upper-right corner of every Budgeted Hour report. Refreshing the report refreshes the information in it only when there has been more than one hour since the last update.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 
@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,37 +44,45 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Build a Budgeted Hour report
 
-<ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;
-    <span class="bold">Reports</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the 
-   <span class="bold">Main Menu</span> 
-   <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;
-   <span class="bold">Reports</span>.
-  </MadCap:conditionalText> </li> 
- <li value="2"> <p>Click&nbsp;<span class="bold">New Report > Budgeted Hour</span>.</p> <p>The default view is applied to the report.</p> </li> 
- <li value="3"> <p>(Optional) To make the report easier to read, click the <span class="bold">Budgeted Hours</span> column, then <span class="bold">Switch to Text Mode</span>, then change the <code>valuefield</code> line to <code>valueexpreesion</code> and enter the rounding expression.</p> <p>This rounds the number of Budgeted Hours to a number of decimals that you specify.</p> <p>For information about how to round a number in <em>Workfront</em>, see the article <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Calculated data expressions</a>.</p> </li> 
- <li value="4">(Optional)&nbsp;Click <span class="bold">Add Column</span> to add additional columns.</li> 
- <li value="5"> <p>(Optional) To make the report easier to read, we recommend that you add a grouping to it. We suggest the following grouping:</p> <p>Click the <span class="bold">Groupings</span> tab, then do one or several of the following:</p> 
-  <ol style="list-style-type: lower-alpha;"> 
-   <li value="1">Click&nbsp;<span class="bold">Add Grouping</span> and start typing "Project&nbsp;Name", then select it when it appears in the list.</li> 
-   <li value="2">Click <span class="bold">Add Grouping</span> and start typing "Job&nbsp;Role Name", then select it when it appears in the list.</li> 
-   <li value="3"> <p>Click <span class="bold">Add Grouping</span> and start typing <span class="bold">Allocation Date</span>, select it when it appears in the list, and then select the timeframe you want to group by from the <span class="bold">Group Dates by</span> field.</p> </li> 
-  </ol> </li> 
- <li value="6">(Optional) Click&nbsp;<span class="bold">Filters</span> to add filters to the report.</li> 
- <li value="7">(Optional)&nbsp;Click&nbsp;<span class="bold">Chart</span> to add a chart to the report.</li> 
- <li value="8">Click&nbsp;<span class="bold">Save +&nbsp;Close</span>.</li> 
-</ol>
+1. Click the Main Menu in the upper-right corner, then click Reports. 
+1. Click  `New Report > Budgeted Hour`.
+
+   The default view is applied to the report.
+
+1. (Optional) To make the report easier to read, click the `Budgeted Hours` column, then `Switch to Text Mode`, then change the 
+
+   ```
+   valuefield
+   ```
+
+   line to 
+
+   ```
+   valueexpreesion
+   ```
+
+   and enter the rounding expression.
+
+   This rounds the number of Budgeted Hours to a number of decimals that you specify.
+
+   For information about how to round a number in `Workfront`, see the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. (Optional) Click `Add Column` to add additional columns.
+1. (Optional) To make the report easier to read, we recommend that you add a grouping to it. We suggest the following grouping:
+
+   Click the `Groupings` tab, then do one or several of the following:
+
+  1. Click  `Add Grouping` and start typing "Project&nbsp;Name", then select it when it appears in the list.
+  1. Click `Add Grouping` and start typing "Job&nbsp;Role Name", then select it when it appears in the list.
+  1. Click `Add Grouping` and start typing `Allocation Date`, select it when it appears in the list, and then select the timeframe you want to group by from the `Group Dates by` field.
+
+1. (Optional) Click  `Filters` to add filters to the report.
+1. (Optional) Click  `Chart` to add a chart to the report.
+1. Click  `Save + Close`.
 
 ## Review the Budgeted Hour report
 

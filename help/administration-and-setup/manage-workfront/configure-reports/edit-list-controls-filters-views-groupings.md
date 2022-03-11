@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator, you use the List Controls area
 
 # Edit list controls: filters, views, and groupings
 
-As an *Adobe Workfront administrator*, you use the List Controls area to determine which filters, views, and groupings you want available in your *Workfront* instance and listed in all layout templates in the system.
+As an `Adobe Workfront administrator`, you use the List Controls area to determine which filters, views, and groupings you want available in your `Workfront` instance and listed in all layout templates in the system.
 
 In a layout template, you can then enable the filters, views, and groupings that you want available for the users who are assigned to that layout template. Users can see them as options in their drop-down menus above their lists of objects and reports.
 
@@ -24,16 +24,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,7 +41,7 @@ You must have the following to perform the steps in this article:
 ## Add filters, views, and groupings
 
 <ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Interface</span> > <span class="bold">List Controls</span>.<br></li> 
  <li value="3">Click <span class="bold">Edit List Controls</span>.</li> 
  <li value="4"> <p>In the <span class="bold">Object Type</span> drop-down <span class="bold-not-uitext">menu</span>, click the object <span class="bold-not-uitext">type for which you want to filters, views, and groupings</span>.</p> <p>Four columns display, containing the following:</p> 
@@ -83,14 +83,14 @@ You must have the following to perform the steps in this article:
 
 ## Remove filters, views, and groupings
 
-You can remove filters, views, and groupings, including most of the default ones, from your *Workfront* instance.
+You can remove filters, views, and groupings, including most of the default ones, from your `Workfront` instance.
 
 >[!NOTE]
 >
->At least one filter, one view, and one grouping must remain in your *Workfront* instance at all times. Without at least one, your lists and reports do not display. In order to assure that a *Workfront administrator* does not inadvertently delete all of the filters, views, or groupings, the following defaults can’t be removed: Standard view, All filter, and Nothing grouping.
+>At least one filter, one view, and one grouping must remain in your `Workfront` instance at all times. Without at least one, your lists and reports do not display. In order to assure that a `Workfront administrator` does not inadvertently delete all of the filters, views, or groupings, the following defaults can’t be removed: Standard view, All filter, and Nothing grouping.
 
 <ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Interface</span> > <span class="bold">List Controls</span>.<br></li> 
  <li value="3">Click <span class="bold">Edit List Controls</span>.</li> 
  <li value="4"> <p>In the <span class="bold">Object Type</span> drop-down menu, click your object type.</p> <p>Four columns display, containing the following:</p> 

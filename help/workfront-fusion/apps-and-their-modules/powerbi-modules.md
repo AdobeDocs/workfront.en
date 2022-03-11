@@ -11,7 +11,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Power BI Modules
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
 Introduction: Fusion is not a data source. It uses and creates data sources. Power BI runs reports on data sources, NOT&nbsp;on Fusion.
 
 &nbsp;
@@ -20,5 +20,5 @@ Power BI is an application that allows you to visualize and present data to your
 
 >[!NOTE]
 >
->*Workfront Fusion* is not a data source. While *Workfront Fusion* can create and use data sources, it does not store your data.
+>`Workfront Fusion` is not a data source. While `Workfront Fusion` can create and use data sources, it does not store your data.
 

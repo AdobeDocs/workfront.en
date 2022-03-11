@@ -11,59 +11,27 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from *Adobe Workfront*. We recommend that you use the *Workload Balancer* for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
 >
->For information about scheduling resources using the new *Workload Balancer*, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-The following sections describe where you can access the scheduling area within *Adobe Workfront*, as well as the functionality available in the scheduling area.
+The following sections describe where you can access the scheduling area within `Adobe Workfront`, as well as the functionality available in the scheduling area.
 
-## *Workfront* areas that allow you to schedule resources
+## `Workfront` areas that allow you to schedule resources
 
-You can schedule resources in the following areas in *Workfront*:
+You can schedule resources in the following areas in `Workfront`:
 
-* `For any projects for which you are the resource manager (from the Scheduling` 
+* `For any projects for which you are the resource manager (from the Scheduling` area `)`  
+  The Scheduling area in `Workfront` enables resource managers to make resourcing assignments across multiple projects.  
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  <span class="bold">area</span>
-  </MadCap:conditionalText>
-  -->
+* **For an individual project when you are a member of the project team (from the Staffing ** area** of a project)**:
 
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <span class="bold">area</span></MadCap:conditionalText>` `)`  
-  The Scheduling area in *Workfront* enables resource managers to make resourcing assignments across multiple projects.  
-
-* **For an individual project when you are a member of the project team (from the Staffing ** 
-
-  <!--
-  <MadCap:conditionalText style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  area
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`** of a project)**:
-
-  The Scheduling 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  area
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area </MadCap:conditionalText>`within a project enables members of the project team to assign work from the project to users on the project team.
+  The Scheduling areawithin a project enables members of the project team to assign work from the project to users on the project team.
 
 * `For an individual team you are a member of (from the Working On tab in the team)`   
-  The 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  Scheduling section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Scheduling section</MadCap:conditionalText>` in a team enables team members to assign work already assigned to the team from multiple projects to individual team members.
+  The Scheduling section in a team enables team members to assign work already assigned to the team from multiple projects to individual team members.
 
 ## Functionality available in the Scheduling area
 
@@ -121,7 +89,7 @@ The `Unassigned` area at the top of the scheduling timeline displays tasks and i
 Any users who are eligible to be assigned one of the unassigned tasks are located below the `Unassigned` area. Users are available on the scheduling timeline to be assigned a task or issue in the following circumstances:
 
 * By default, users are displayed on the scheduling timeline only when they have a job role defined in the system (either the primary job role or a secondary job role), and that job role matches the job role assigned to a task or issue that is currently visible in the `Unassigned` area on the scheduling timeline. You can disable this functionality so to allow tasks and issues to be assigned to any user, regardless of whether that user has a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them. For more information, see the section [By default, assignments can be made only to users who have a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them.](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md#allowing-assignmennts-to-users-regardless-of-role) in the article [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md).  
-  A user and the user's assigned tasks can appear multiple times on the scheduling timeline if the user has multiple job roles designated in the *Workfront* system.  
+  A user and the user's assigned tasks can appear multiple times on the scheduling timeline if the user has multiple job roles designated in the `Workfront` system.  
   Users remain on the scheduling timeline after they are assigned a task or issue, even if there are no remaining tasks or issues that have a matching role assignment. This allows you to make any necessary changes after they are assigned.  
   If the task is not assigned to a job role, all users that meet the filter requirements are displayed. For more information about the filter, see [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 

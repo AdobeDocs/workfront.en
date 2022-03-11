@@ -13,7 +13,7 @@ Workfront for Experience Manager enhanced connector can capture the metadata fro
 
 ## Metadata best practices
 
-Workfront for Experience Manager enhanced connector is capable of mapping all custom form fields. Following is a list of the common metadata fields to capture in *Workfront* and attach to your digital assets as they are sent to *Experience Manager Assets*.
+Workfront for Experience Manager enhanced connector is capable of mapping all custom form fields. Following is a list of the common metadata fields to capture in `Workfront` and attach to your digital assets as they are sent to `Experience Manager Assets`.
 
 * Project details
 

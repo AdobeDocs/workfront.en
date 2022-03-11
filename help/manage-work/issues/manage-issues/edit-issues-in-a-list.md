@@ -21,22 +21,16 @@ You must have the following access to perform the actions in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> <p><em>Review</em> or higher license to edit issues in the Issues <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       section 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      section 
-     </MadCap:conditionalText>of a project.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> <p><span>Review</span> or higher license to edit issues in the Issues sectionof a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,7 +39,7 @@ You must have the following access to perform the actions in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Inline edit issues
 
@@ -56,14 +50,7 @@ Consider the following when editing issues in a list:
 * You can edit any issue field that displays in the list and that you have permissions to update.
 * You can edit an issue in the following lists:
 
-  * 
-  
-    <!--  
-    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Issues section of a project or of a task</p>  
-    -->  
-  
-    The Issues section of a project or of a task
-  
+  * The Issues section of a project or of a task 
   * An issue report
 
 To inline edit an issue:
@@ -76,116 +63,13 @@ To inline edit an issue:
 
 ## Edit issues in a list
 
-<ol> 
- <li value="1">Go to a list of issues in a project or task. </li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Do one of the following</p> 
-   <ul> 
-    <li> <p>Select the issue in the list, then click Edit icon <img src="assets/qs-edit-icon.png"> in the toolbar. </p> </li> 
-    <li> <p>Click the <span class="bold">More menu</span> <img src="assets/more-icon-task-list.png"> to the right of the issue name, then click <span class="bold">Open in a new tab</span>. This opens the issue page in a new tab. Click&nbsp;<span class="bold">More</span> > <span class="bold">Edit</span> from the issue page. </p> </li> 
-    <li> <p>Click the <span class="bold">More menu</span> <img src="assets/more-icon-task-list.png"> to the right of the issue name, then click <span class="bold">Edit</span>. </p> <p><span>Any of these actions opens the Edit Issue box.</span> </p> <p>For information about editing issues in the Edit Issue box, see <a href="../../../manage-work/issues/manage-issues/edit-issues.md" class="MCXref xref">Edit issues</a>.</p> </li> 
-   </ul> </li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Do one of the following</p> 
-  <ul> 
-   <li> <p>Select the issue in the list, then click Edit icon <img src="assets/qs-edit-icon.png"> in the toolbar. </p> </li> 
-   <li> <p>Click the <span class="bold">More menu</span> <img src="assets/more-icon-task-list.png"> to the right of the issue name, then click <span class="bold">Open in a new tab</span>. This opens the issue page in a new tab. Click&nbsp;<span class="bold">More</span> > <span class="bold">Edit</span> from the issue page. </p> </li> 
-   <li> <p>Click the <span class="bold">More menu</span> <img src="assets/more-icon-task-list.png"> to the right of the issue name, then click <span class="bold">Edit</span>. </p> <p><span>Any of these actions opens the Edit Issue box.</span> </p> <p>For information about editing issues in the Edit Issue box, see <a href="../../../manage-work/issues/manage-issues/edit-issues.md" class="MCXref xref">Edit issues</a>.</p> </li> 
-  </ul> </li> 
-</ol>
+1. Go to a list of issues in a project or task.
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Edit"></a>Edit issues using the Summary</h2>
--->
+Edit issues using the Summary You can edit an issue in a list using the Summary.
 
-## Edit issues using the Summary
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can edit an issue in a list using the Summary. </p>
--->
-
-You can edit an issue in a list using the Summary.
-
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to the project whose issues you want to edit.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to the project whose issues you want to edit.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Issues</span> in the left panel. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Issues</span> in the left panel. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The list of issues on the project displays. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The list of issues on the project displays. </p> </li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Select an issue that you want to edit, then click the <span class="bold">Open Summary</span> icon <img src="assets/qs-open-summary-icon-in-new-toolbar-small.png"> in the upper-right corner of the issue list. </p> <p>The <span class="bold">Summary</span> opens.</p> </li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Select an issue that you want to edit, then click the <span class="bold">Open Summary</span> icon <img src="assets/qs-open-summary-icon-in-new-toolbar-small.png"> in the upper-right corner of the issue list. </p> <p>The <span class="bold">Summary</span> opens.</p> </li> <draft-comment>
-  <li value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Start typing an update for the issue in the <span class="bold">Updates</span> area. </li>
- </draft-comment>
- <li value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Start typing an update for the issue in the <span class="bold">Updates</span> area. </li> 
- <li value="5"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click any of the following icons or areas to go to the issue and edit information at the issue level:</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click any of the following icons or areas to go to the issue and edit information at the issue level:</p> <draft-comment>
-   <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> <draft-comment>
-       <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Documents</span> </td>
-      </draft-comment>
-      <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Documents</span> </td> <draft-comment>
-       <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Click here to add</span> to add documents to the issue.</td>
-      </draft-comment>
-      <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Click here to add</span> to add documents to the issue.</td> 
-     </tr> 
-     <tr> <draft-comment>
-       <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Details</span> </td>
-      </draft-comment>
-      <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Details</span> </td> <draft-comment>
-       <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to update information about the issue.</td>
-      </draft-comment>
-      <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to update information about the issue.</td> 
-     </tr> 
-     <tr> <draft-comment>
-       <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Hours</span> </td>
-      </draft-comment>
-      <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Hours</span> </td> <draft-comment>
-       <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to log hours.</td>
-      </draft-comment>
-      <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to log hours.</td> 
-     </tr> 
-     <tr> <draft-comment>
-       <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Approvals</span> </td>
-      </draft-comment>
-      <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Approvals</span> </td> <draft-comment>
-       <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to add issue approvals. </td>
-      </draft-comment>
-      <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to add issue approvals. </td> 
-     </tr> 
-    </tbody> 
-   </table>
-  </draft-comment>
-  <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Documents</span> </td> 
-     <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Click here to add</span> to add documents to the issue.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Details</span> </td> 
-     <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to update information about the issue.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Hours</span> </td> 
-     <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to log hours.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: bold;">Approvals</span> </td> 
-     <td data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click to add issue approvals. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6">(Optional) Click the <span class="bold">Open Summary</span> icon again, or the <span class="bold">X icon</span> in the upper-right of the Summary to close the panel and edit the issue inline. </li> 
-</ol>
+1. Click Issues in the left panel. The list of issues on the project displays. 
+1. Click any of the following icons or areas to go to the issue and edit information at the issue level: Documents Click Click here to add to add documents to the issue. Details Click to update information about the issue. Hours Click to log hours. Approvals Click to add issue approvals. 
+1. (Optional) Click the `Open Summary` icon again, or the `X icon` in the upper-right of the Summary to close the panel and edit the issue inline.
 
 ## Edit issues in bulk
 
@@ -194,46 +78,12 @@ You can edit issues in bulk and update all their information at the same time.
 To edit issues in bulk:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Go to the 
-    <span class="bold">Main Menu</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Go to the 
-   <span class="bold">Main Menu</span>. 
-  </MadCap:conditionalText></li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Projects</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Projects</span>. 
-  </MadCap:conditionalText> </li> 
+ <li value="1"> Go to the Main Menu.</li> 
+ <li value="2"> Click Projects. </li> 
  <li value="3">Click a project name to access the project.</li> 
- <li value="4"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Issues</span> in the left panel. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Issues</span> in the left panel. 
-  </MadCap:conditionalText> </li> 
+ <li value="4"> Click Issues in the left panel. </li> 
  <li value="5">Select several issues in the list. </li> 
- <li value="6"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">Edit</span> icon 
-     <img src="assets/edit-icon.png">.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Edit</span> icon 
-    <img src="assets/edit-icon.png">.
-   </MadCap:conditionalText></p> <p>The <span class="bold">Edit Issues</span> dialog box opens.</p> </li> 
+ <li value="6"> <p> Click the Edit icon .</p> <p>The <span class="bold">Edit Issues</span> dialog box opens.</p> </li> 
  <li value="7"> <p>Specify the information on all selected issues.</p> <p>Editing the information on all issues is identical to editing information on one issue when editing the following areas:</p> 
   <ul> 
    <li>Overview</li> 

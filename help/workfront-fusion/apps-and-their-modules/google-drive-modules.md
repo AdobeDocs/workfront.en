@@ -13,7 +13,7 @@ description: The Google Drive modules enable you to monitor, search, create, upd
 
 The Google Drive modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your Google Drive.
 
-In a *Adobe Workfront Fusion* scenario, you can connect your Google Drive account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your Google Drive account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -28,1790 +28,47 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 &nbsp;
 
-## Connecting Google Drive to *Workfront Fusion*
+## Connecting Google Drive to `Workfront Fusion`
 
 If you are @gmail.com or @googlemail.com user you need to create an OAuth client on the [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) in order to obtain Client ID and Client Secret.
 
 For step-by-step instructions on how to create the OAuth client (and obtain Client ID and Client Secret), see [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-For instructions about connecting your *Google Drive* account to *Workfront Fusion*, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+For instructions about connecting your `Google Drive` account to `Workfront Fusion`, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## Google Drive modules and their fields
 
-When you configure *Google Drive* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Google Drive* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Google Drive` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Google Drive` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<ul>
-<li> <p><a href="#files/fo" class="MCXref xref">Files/Folders</a> </p> </li>
-<li> <p><a href="#google2" class="MCXref xref">Google Shared Drive</a> </p> </li>
-<li> <p><a href="#other" class="MCXref xref">Other</a> </p> </li>
-</ul>
-<h3><a name="Files/Fo"></a>Files/Folders</h3>
-<ul>
-<li> <p><a href="#watch" class="MCXref xref">Watch Files In Folder</a> </p> </li>
-<li> <p><a href="#watch2" class="MCXref xref">Watch All Files</a> </p> </li>
-<li> <p><a href="#watch5" class="MCXref xref">Watch Folders</a> </p> </li>
-<li> <p><a href="#search3" class="MCXref xref">Search for Files/Folders</a> </p> </li>
-<li> <p><a href="#download" class="MCXref xref">Download a file</a> </p> </li>
-<li> <p><a href="#create2" class="MCXref xref">Create a File from Text</a> </p> </li>
-<li> <p><a href="#create3" class="MCXref xref">Create a Folder</a> </p> </li>
-<li> <p><a href="#upload2" class="MCXref xref">Upload a File</a> </p> </li>
-<li> <p><a href="#update2" class="MCXref xref">Update a File</a> </p> </li>
-<li> <p><a href="#move2" class="MCXref xref">Move a File/Folder to Trash</a> </p> </li>
-<li> <p><a href="#delete2" class="MCXref xref">Delete a File/Folder</a> </p> </li>
-<li> <p><a href="#copy2" class="MCXref xref">Copy a File</a> </p> </li>
-<li> <p><a href="#move3" class="MCXref xref">Move a File/Folder</a> </p> </li>
-<li> <p><a href="#get3" class="MCXref xref">Get a share link</a> </p> </li>
-</ul>
-<h4><a name="Watch"></a>Watch Files In Folder</h4>
-<p>This trigger module retrieves file details when a file is added or modified in the specified folder.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Watch Files</td>
-<td> <p>Select which files you want to watch.</p>
-<ul>
-<li> <p><span class="bold">By Created Time</span> </p> <p>The module watches for new files<br></p> </li>
-<li> <p><span class="bold">By Modified Time</span> </p> <p>The module watches for modified files.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Choose a Drive</td>
-<td> <p>Select what type of drive you want to monitor.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>Select the Folder to be Watched</td>
-<td>Select the folder on your drive that you want to watch for files.</td>
-</tr> <draft-comment>
-<tr data-mc-conditions="">
-<td>File Types to Watch</td>
-<td> <p>Select the type of file that you want to watch.</p>
-<ul>
-<li> <p>Google Docs</p> </li>
-<li> <p>Google Spreadsheets</p> </li>
-<li> <p>Google Slides</p> </li>
-<li> <p>Google Drawings</p> </li>
-</ul> </td>
-</tr>
-</draft-comment>
-<tr data-mc-conditions="">
-<td>File Types to Watch</td>
-<td> <p>Select the type of file that you want to watch.</p>
-<ul>
-<li> <p>Google Docs</p> </li>
-<li> <p>Google Spreadsheets</p> </li>
-<li> <p>Google Slides</p> </li>
-<li> <p>Google Drawings</p> </li>
-</ul> </td>
-</tr> <draft-comment>
-<tr data-mc-conditions="">
-<td>Limit</td>
-<td>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</td>
-</tr>
-</draft-comment>
-<tr data-mc-conditions="">
-<td>Limit</td>
-<td>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Watch2"></a>Watch All Files</h4>
-<p>This trigger module retrieves file details when a file in your Google Drive is added or modified.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Watch Files</td>
-<td> <p>Select which files you want to watch.</p>
-<ul>
-<li> <p>By Created Time</p> <p>The module watches for new files<br></p> </li>
-<li> <p>By Modified Time</p> <p>The module watches for modified files.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Choose a Drive</td>
-<td> <p>Select what type of drive you want to monitor.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>File Types to Watch</td>
-<td> <p>Select the type of file that you want to watch.</p>
-<ul>
-<li> <p>Google Docs</p> </li>
-<li> <p>Google Spreadsheets</p> </li>
-<li> <p>Google Slides</p> </li>
-<li> <p>Google Drawings</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Limit</td>
-<td>Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Watch5"></a>Watch Folders</h4>
-<p>This trigger module starts a scenario when a folder is created or modified.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Watch Files</td>
-<td> <p>Select which files you want to watch.</p>
-<ul>
-<li> <p><span class="bold">By Created Time</span> </p> <p>The module watches for new files<br></p> </li>
-<li> <p><span class="bold">By Modified Time</span> </p> <p>The module watches for modified files.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Choose a Drive</td>
-<td> <p>Select what type of drive you want to monitor.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>Choose a folder</td>
-<td> <p>Select the folder that you want to watch for new or modified subfolders.</p> </td>
-</tr>
-<tr>
-<td>Limit</td>
-<td>Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Search3"></a>Search for Files/Folders</h4>
-<p>This search module searches for files or folders based on search criteria.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Select the Method</td>
-<td> <p>Choose how you want to determine which folder the module searches.</p>
-<ul>
-<li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the IDs of the folder and shared drive that you want to search</p> </li>
-<li> <p><span class="bold">Select from a list</span> </p> <p>Choose the drive that contains the folder you want to search, then choose the folder.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Retrieve</td>
-<td> <p> Select whether you want to search for files, folders, or both.</p> </td>
-</tr>
-<tr>
-<td> <p>Search</p> </td>
-<td> <p>Select the type of the search you want to perform.</p>
-<ul>
-<li> <p><span class="bold">Search within file/folder names</span> </p>
-<ul>
-<li> <p><span class="bold">Query</span> </p> <p>Enter a part of the file name or full file name (including the suffix) you want to search.</p> </li>
-<li> <p><span class="bold">Search Options</span> </p> <p>Select whether you want to search for the exact term, or if you want to search for names containing the search term.</p> </li>
-</ul> </li>
-<li> <p><span class="bold">Fulltext search</span> </p>
-<ul>
-<li> <p><span class="bold">Query</span> </p> <p>Enter any search term you want search in your Google Drive.</p> </li>
-</ul> </li>
-<li> <p><span class="bold">Enter custom search query</span> </p>
-<ul>
-<li> <p><span class="bold">Query</span> </p> <p>Enter the custom search query. For more details, please refer to the Search for Files section of this article.</p> </li>
-<li> <p><span class="bold">Add the folder selected above to the query</span> </p> <p>Searches for the folder n the parents collection. This finds all files and folders located directly in the folder selected above.</p> </li>
-</ul> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Limit</td>
-<td>Set the maximum number of files or folders Workfront Fusion will return during one execution cycle.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Download"></a>Download a file</h4>
-<p>This action module downloads a file from your Google Drive.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Enter a File ID</td>
-<td> <p>Choose how the module will select the file you want to download.</p>
-<ul>
-<li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the ID of the file you want to download</p> </li>
-<li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive that contains the folder where the file is located, then choose the folder.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Convert Google Documents Files to Format</td>
-<td>Select the file format that you want to convert Google Documents to.</td>
-</tr>
-<tr>
-<td>Convert Google Spreadsheets Files to Format</td>
-<td>Select the file format that you want to convert Google Spreadsheets to.</td>
-</tr>
-<tr>
-<td>Convert Google Slides Files to Format</td>
-<td>Select the file format that you want to convert Google Documents to.</td>
-</tr>
-<tr>
-<td>Convert Google Drawings Files to Format</td>
-<td>Select the file format that you want to convert Google Documents to.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Create2"></a>Create a File from Text</h4>
-<p>This action module creates a file from plain text.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Choose a Drive</td>
-<td> <p>Select the type of drive where you want to create the file.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>New Text File Location</td>
-<td> <p> Select the folder where you want to create the file.</p> </td>
-</tr>
-<tr>
-<td>File Name</td>
-<td> <p>Enter or map a name for the new file.</p> </td>
-</tr>
-<tr>
-<td>File Content</td>
-<td>Enter or map the content (body) of the file.</td>
-</tr>
-<tr>
-<td>Convert the File to Google Docs Document</td>
-<td>Enable this option to set the file's <span class="bold">mimeType</span> to <span class="bold">application/vnd.google-apps.document</span> instead of <span class="bold">text/plain</span>.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Create3"></a>Create a Folder</h4>
-<p>This action module creates a folder in the specified location.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>New Drive Location</td>
-<td> <p>Select the type of drive where you want to create the folder.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error<code> [400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>New folder location</td>
-<td>Navigate to the location where you want to create a new folder.</td>
-</tr>
-<tr>
-<td>The name of the new folder</td>
-<td>Enter a name for the folder that you are creating.</td>
-</tr>
-<tr>
-<td>Share folder</td>
-<td> <p>Select this option if you want to share the folder with anyone with the Share link. Otherwise, the share link is for the owner only.</p> </td>
-</tr>
-<tr>
-<td>Role</td>
-<td> <p>If you have chosen to share the folder, select the role to assign to the access rule. </p>
-<ul>
-<li><span class="bold">Free Busy Reader</span>: The user can read free/busy information. </li>
-<li><span class="bold">Owner</span>: The user can read and modify events and can access control lists. </li>
-<li><span class="bold">Reader</span>: The user can read events that are not private. </li>
-<li><span class="bold">Writer</span>: The user can read and modify events.</li>
-</ul> </td>
-</tr>
-<tr>
-<td>Type</td>
-<td> <p>If you have chosen to share the folder, select the type of scope. </p>
-<ul>
-<li><span class="bold">Default</span>: The public scope. This is the default value. </li>
-<li><span class="bold">User</span>: Limits the scope to a single user. Enter or map the user's email address.</li>
-<li><span class="bold">Group</span>: Limits the scope to a group. Enter or map the group's email address.</li>
-<li><span class="bold">Domain</span>: Limits the scope to a domain. Enter or map the domain.</li>
-</ul> <note type="note">
-The permissions granted to the Default, or the public, scope apply to any user, authenticated or not.
-</note> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Upload2"></a>Upload a File</h4>
-<p>This action module uploads a file to your Google Drive.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Enter a Folder ID</td>
-<td> <p>Choose how the module will select were to put the file you want to upload.</p>
-<ul>
-<li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the ID of the file you want to download</p> </li>
-<li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive that contains the folder where you want the file to be located, then choose the folder.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error <code>[400] Invalid Value </code>is returned.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>New File Name</td>
-<td>Enter a title for the new file.</td>
-</tr>
-<tr>
-<td>Source file</td>
-<td>Select a source file from a previous module, or map the source file's name and data.</td>
-</tr>
-<tr>
-<td>Convert a file</td>
-<td>Enable this option to allow the module to convert files to the corresponding Google format, then select the format you want to convert the file to.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Update2"></a>Update a File</h4>
-<p>This action module updates a file's metadata or content.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Enter a File ID</td>
-<td> <p>Choose how the module will select the file you want to update.</p>
-<ul>
-<li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the ID of the file you want to download</p> </li>
-<li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive that contains the folder where the file is located, then choose the folder.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error<code> [400] Invalid Value</code> is returned.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>New Updated File Name</td>
-<td>Enter or map a name for the updated file. This overwrites the current file name.</td>
-</tr>
-<tr>
-<td>File Description</td>
-<td>Enter or map a description for the new file.</td>
-</tr>
-<tr>
-<td>Change a file content</td>
-<td>Enable this option. to replace the content of the file.</td>
-</tr>
-<tr>
-<td>Source file</td>
-<td>Select a source file from a previous module, or map the source file's name and data.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Move2"></a>Move a File/Folder to Trash</h4>
-<p>This action module moves a file or folder to the trash.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Enter a File/Folder ID</td>
-<td> <p>Choose how the module will select the file or folder you want to move to the trash.</p>
-<ul>
-<li> <p><span class="bold">Enter manually</span> </p> <p>Select whether you want to move a file or a folder, then enter or map the ID of the file you want to move to the trash.</p> </li>
-<li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive that contains the folder where the file is located, then choose the folder.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li>
-</ul> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Delete2"></a>Delete a File/Folder</h4>
-<p>This action module permanently deletes a file or folder.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Enter a File/Folder ID</td>
-<td> <p>Choose how the module will select the file or folder you want to delete.</p>
-<ul>
-<li> <p><span class="bold">Enter manually</span> </p> <p>Select whether you want to delete a file or a folder, then enter or map the ID of the file you want to delete.</p> </li>
-<li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive and folder that contain the file you want to delete, then choose the file.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li>
-</ul> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Copy2"></a>Copy a File</h4>
-<p>This action module copies a file to the new location on Google Drive.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Enter a File/Folder ID</td>
-<td> <p>Choose how the module will select the file or folder you want to copy.</p>
-<ul>
-<li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the ID of the original file you want to copy, then enter or map the location of the new file.</p> </li>
-<li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive where the orgiginal file is located, then select the original file. </p> <p>Choose the drive that you want to copy the file to, then choose a new folder location for the copied file.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error<code> [400] Invalid Value</code> is returned.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Copied File Name</td>
-<td>Enter a title for the new file. Leave this field blank if you do not want to change the original file name.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Move3"></a>Move a File/Folder</h4>
-<p>This action module moves a file or folder to a different location on Google Drive.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Choose a Drive</td>
-<td> <p>Select the type of drive that contains the file or folder you want to move.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>Select File/Folder</td>
-<td>Select whether you want to move a file or a folder.</td>
-</tr>
-<tr>
-<td>New Drive Location</td>
-<td> <p>Select the type of drive that you want to move the file or folder to.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>New Folder Location</td>
-<td>Select the folder that you want to move the file or folder to.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Get3"></a>Get a share link</h4>
-<p>This action module retrieves the share link for a file in Google Drive.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Choose a Drive</td>
-<td> <p>Select the type of drive that contains the file or folder you want to move.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>Select</td>
-<td>Select whether you want to share a link to a file or a folder</td>
-</tr>
-<tr>
-<td>File ID / Folder ID</td>
-<td>Enter or map the ID&nbsp;of the file or folder that you want to share.</td>
-</tr>
-<tr>
-<td>Role</td>
-<td> <p>Select the role to define what users can do with a file or folder.</p>
-<ul>
-<li><span class="bold">Free Busy Reader</span>: The user can read free/busy information. </li>
-<li><span class="bold">Owner</span>: The user can read and modify events and can access control lists. </li>
-<li><span class="bold">Reader</span>: The user can read events that are not private. </li>
-<li><span class="bold">Writer</span>: The user can read and modify events.</li>
-</ul> </td>
-</tr>
-<tr>
-<td>Type</td>
-<td> <p>If you have chosen to share the folder, select the type of scope. </p>
-<ul>
-<li><span class="bold">Default</span>: The public scope. This is the default value. </li>
-<li><span class="bold">User</span>: Limits the scope to a single user. Enter or map the user's email address.</li>
-<li><span class="bold">Group</span>: Limits the scope to a group. Enter or map the group's email address.</li>
-<li><span class="bold">Domain</span>: Limits the scope to a domain. Enter or map the domain.</li>
-</ul> <note type="note">
-The permissions granted to the Default, or the public, scope apply to any user, authenticated or not.
-</note> </td>
-</tr>
-<tr>
-<td>Email address / Organization Domain</td>
-<td>Enter the email address or organization domain you want to restrict the access to the file or folder to.</td>
-</tr>
-<tr>
-<td>Send notification email</td>
-<td>If you have selected User or Group in the Type field, enable this option to send a notification email with the share link. Enter the text of the email in the <span class="bold">Email Message</span> field.</td>
-</tr>
-<tr>
-<td>Expiration Time</td>
-<td> <p>If you have selected User or Group in the Type field, set a time that the share link will expire. </p> <p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion</a>.</p> </td>
-</tr>
-<tr>
-<td>Allow File Discovery</td>
-<td>If you have selected Domain or Anyone in the Type field, enable this option to allow the file to be discovered through search.</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Google2"></a>Google Shared Drive</h3> <note type="note">
-Google Shared Drive modules are for G Suite users only.
-</note>
-<ul>
-<li> <p><a href="#watch6" class="MCXref xref">Watch shared drives</a> </p> </li>
-<li> <p><a href="#search4" class="MCXref xref">Search for Shared Drives</a> </p> </li>
-<li> <p><a href="#create4" class="MCXref xref">Create a Shared Drive</a> </p> </li>
-<li> <p><a href="#get4" class="MCXref xref">Get a Shared Drive</a> </p> </li>
-<li> <p><a href="#update3" class="MCXref xref">Update a shared Drive</a> </p> </li>
-<li> <p><a href="#delete3" class="MCXref xref">Delete a Shared Drive</a> </p> </li>
-</ul>
-<h4><a name="Watch6"></a>Watch shared drives</h4>
-<p>This trigger module starts a scenario when a shared drive is created.</p> <note type="important">
-The G Suite administrator privilege is required in order to use this module.
-</note>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Search</td>
-<td> <p>Select whether you want to filter returned drives by custom search query or query filter.</p> </td>
-</tr>
-<tr>
-<td>Query filter</td>
-<td>Set the filter to filter returned shared drives by name, organizer count, or member count. You can also use AND and OR operators to combine the filter.</td>
-</tr>
-<tr>
-<td>Query</td>
-<td> <p>Enter your custom search query.</p> <p>For example:<code>name contains '<em>Workfront Fusion</em>' and memberCount >= 20</code></p> <p>For more info, see <a href="https://developers.google.com/drive/api/v3/search-shareddrives">Search for shared drives</a> in the Google Drive documentation.</p> </td>
-</tr>
-<tr>
-<td>Limit</td>
-<td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Search4"></a>Search for Shared Drives</h4>
-<p>This search module searches for the Google shared drive</p> <note type="important">
-The G Suite administrator privilege is required in order to use this module.
-</note>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Search</td>
-<td> <p>Select whether you want to filter returned drives by custom search query or query filter.</p> </td>
-</tr>
-<tr>
-<td>Query filter</td>
-<td>Set the filter to filter returned shared drives by name, organizer count, or member count. You can also use AND and OR operators to combine the filter.</td>
-</tr>
-<tr>
-<td>Query</td>
-<td> <p>Enter your custom search query.</p> <p>For example:<code>name contains '<em>Workfront Fusion</em>' and memberCount >= 20</code></p> <p>For more info, see <a href="https://developers.google.com/drive/api/v3/search-shareddrives">Search for shared drives</a> in the Google Drive documentation.</p> </td>
-</tr>
-<tr>
-<td>Limit</td>
-<td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Create4"></a>Create a Shared Drive</h4>
-<p>This action module creates a new shared drive</p> <note type="important">
-The G Suite administrator privilege is required in order to use this module.
-</note>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>New Shared Drive's Name</td>
-<td> <p>Enter or map a name for the new shared drive.</p> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Get4"></a>Get a Shared Drive</h4>
-<p>This action module retrieves shared drive details</p> <note type="important">
-The G Suite administrator privilege is required in order to use this module.
-</note>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Shared Drive ID</td>
-<td> <p>Enter or map the ID of the shared drive you want to retrieve details about.</p> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Update3"></a>Update a shared Drive</h4>
-<p>This action module updates an existing drive's name or restrictions.</p> <note type="important">
-The G Suite administrator privilege is required in order to use this module.
-</note>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Shared Drive ID</td>
-<td> <p>Enter or map the ID of the shared drive you want to retrieve details about.</p> </td>
-</tr>
-<tr>
-<td>Name</td>
-<td> <p>Enter or map a new name for the shared drive.</p> </td>
-</tr>
-<tr>
-<td>Restrictions</td>
-<td>
-<ul>
-<li> <p><span class="bold">Admin Managed Restrictions </span> </p> <p>Select whether administrative privileges on this shared drive are required to modify restrictions.</p> </li>
-<li> <p><span class="bold">Copy Requires Writer Permission </span> </p> <p>Select whether the options to copy, print, or download files inside this shared drive, should be disabled for readers and commenters. When this restriction is enabled, it will override the similarly named field to true for any file inside this shared drive.</p> </li>
-<li> <p><span class="bold">Domain Users Only </span> </p> <p>Select whether access to this shared drive and items inside this shared drive is restricted to users of the domain to which this shared drive belongs. This restriction may be overridden by other sharing policies controlled outside of this shared drive.</p> </li>
-<li> <p><span class="bold">Drive Members Only </span> </p> <p>Select whether access to items inside this shared drive is restricted to its members.</p> </li>
-</ul> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Delete3"></a>Delete a Shared Drive</h4>
-<p>This action module deletes a shared drive. The shared drive cannot contain any content.</p> <note type="important">
-The G Suite administrator privilege is required in order to use this module.
-</note>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Shared Drive ID</td>
-<td> <p>Enter or map the ID of the shared drive you want to delete.</p> </td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Other"></a>Other</h3>
-<ul>
-<li> <p><a href="#watch7" class="MCXref xref">Watch Comments</a> </p> </li>
-<li> <p><a href="#get5" class="MCXref xref">Get a Folder ID for a Path</a> </p> </li>
-<li> <p><a href="#make" class="MCXref xref">Make an API&nbsp;Call</a> </p> </li>
-</ul>
-<h4><a name="Watch7"></a>Watch Comments</h4>
-<p>This trigger module starts a scenario when a comment is added or modified on the selected file.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Watch Comments</td>
-<td> <p>Select which comments you want to watch.</p>
-<ul>
-<li> <p><span class="bold">By Created Time</span> </p> <p>The module watches for new files<br></p> </li>
-<li> <p><span class="bold">By Modified Time</span> </p> <p>The module watches for modified files.</p> </li>
-</ul> </td>
-</tr>
-<tr>
-<td>Choose a Drive</td>
-<td> <p>Select what type of drive you want to monitor.</p>
-<ul>
-<li>My Drive</li>
-<li>Shared With Me</li>
-<li>Google Shared Drive (available for G Suite users only)</li>
-</ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td>
-</tr>
-<tr>
-<td>File ID</td>
-<td>Navigate to the file you want to watch for comments.</td>
-</tr>
-<tr>
-<td>Limit</td>
-<td>Enter or map the maximum number of <em>comment</em>s you want the module to <em>return</em> during each scenario execution cycle.</td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Get5"></a>Get a Folder ID for a Path</h4>
-<p>This action module retrieves the Folder ID for a given path.</p>
-<table cellspacing="15">
-<col>
-<col>
-<tbody>
-<tr>
-<td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
-</tr>
-<tr>
-<td>Folder Path</td>
-<td> <p>Enter or map the path to the folder you want to retrieve the ID&nbsp;for. Example: <code>abc/xyz</code></p> </td>
-</tr>
-</tbody>
-</table>
-<h4><a name="Make"></a>Make an API&nbsp;Call</h4>
-<p>This action module allows you to perform a custom API call.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>Google Drive</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
-</tr>
-<tr>
-<td role="rowheader"> <p>URL</p> </td>
-<td>Enter a path relative to <code>https://www.googleapis.com/drive</code>. Example: <code>/v3/files</code></td>
-</tr>
-<tr>
-<td role="rowheader"> <p>Method</p> </td>
-<td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Headers</td>
-<td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <em>Workfront Fusion</em> adds the authorization headers for you.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Query String</td>
-<td> <p> Add the query for the API call in the form of a standard JSON object.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Body</td>
-<td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <note type="note">
-<p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p>
-<div class="example" data-mc-autonum="<b>Example: </b>">
-<p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
-</div>
-</note> </td>
-</tr>
-</tbody>
-</table>
-</div>
+Files/Folders Google Shared Drive Other Files/Folders Watch Files In Folder Watch All Files Watch Folders Search for Files/Folders Download a file Create a File from Text Create a Folder Upload a File Update a File Move a File/Folder to Trash Delete a File/Folder Copy a File Move a File/Folder Get a share link Watch Files In Folder This trigger module retrieves file details when a file is added or modified in the specified folder. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Watch Files Select which files you want to watch. By Created Time The module watches for new files By Modified Time The module watches for modified files. Choose a Drive Select what type of drive you want to monitor. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. Select the Folder to be Watched Select the folder on your drive that you want to watch for files. File Types to Watch Select the type of file that you want to watch. Google Docs Google Spreadsheets Google Slides Google Drawings Limit Enter or map the maximum number of records you want the module to return during each scenario execution cycle. Watch All Files This trigger module retrieves file details when a file in your Google Drive is added or modified. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Watch Files Select which files you want to watch. By Created Time The module watches for new files By Modified Time The module watches for modified files. Choose a Drive Select what type of drive you want to monitor. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. File Types to Watch Select the type of file that you want to watch. Google Docs Google Spreadsheets Google Slides Google Drawings Limit Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run). Watch Folders This trigger module starts a scenario when a folder is created or modified. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Watch Files Select which files you want to watch. By Created Time The module watches for new files By Modified Time The module watches for modified files. Choose a Drive Select what type of drive you want to monitor. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. Choose a folder Select the folder that you want to watch for new or modified subfolders. Limit Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run). Search for Files/Folders This search module searches for files or folders based on search criteria. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Select the Method Choose how you want to determine which folder the module searches. Enter manually Enter or map the IDs of the folder and shared drive that you want to search Select from a list Choose the drive that contains the folder you want to search, then choose the folder. Retrieve Select whether you want to search for files, folders, or both. Search Select the type of the search you want to perform. Search within file/folder names Query Enter a part of the file name or full file name (including the suffix) you want to search. Search Options Select whether you want to search for the exact term, or if you want to search for names containing the search term. Fulltext search Query Enter any search term you want search in your Google Drive. Enter custom search query Query Enter the custom search query. For more details, please refer to the Search for Files section of this article. Add the folder selected above to the query Searches for the folder n the parents collection. This finds all files and folders located directly in the folder selected above. Limit Set the maximum number of files or folders Workfront Fusion will return during one execution cycle. Download a file This action module downloads a file from your Google Drive. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Enter a File ID Choose how the module will select the file you want to download. Enter manually Enter or map the ID of the file you want to download Select from the list Choose the drive that contains the folder where the file is located, then choose the folder. Convert Google Documents Files to Format Select the file format that you want to convert Google Documents to. Convert Google Spreadsheets Files to Format Select the file format that you want to convert Google Spreadsheets to. Convert Google Slides Files to Format Select the file format that you want to convert Google Documents to. Convert Google Drawings Files to Format Select the file format that you want to convert Google Documents to. Create a File from Text This action module creates a file from plain text. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Choose a Drive Select the type of drive where you want to create the file. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. New Text File Location Select the folder where you want to create the file. File Name Enter or map a name for the new file. File Content Enter or map the content (body) of the file. Convert the File to Google Docs Document Enable this option to set the file's mimeType to application/vnd.google-apps.document instead of text/plain. Create a Folder This action module creates a folder in the specified location. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion New Drive Location Select the type of drive where you want to create the folder. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. New folder location Navigate to the location where you want to create a new folder. The name of the new folder Enter a name for the folder that you are creating. Share folder Select this option if you want to share the folder with anyone with the Share link. Otherwise, the share link is for the owner only. Role If you have chosen to share the folder, select the role to assign to the access rule. Free Busy Reader: The user can read free/busy information. Owner: The user can read and modify events and can access control lists. Reader: The user can read events that are not private. Writer: The user can read and modify events. Type If you have chosen to share the folder, select the type of scope. Default: The public scope. This is the default value. User: Limits the scope to a single user. Enter or map the user's email address. Group: Limits the scope to a group. Enter or map the group's email address. Domain: Limits the scope to a domain. Enter or map the domain. Note: The permissions granted to the Default, or the public, scope apply to any user, authenticated or not. Upload a File This action module uploads a file to your Google Drive. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Enter a Folder ID Choose how the module will select were to put the file you want to upload. Enter manually Enter or map the ID of the file you want to download Select from the list Choose the drive that contains the folder where you want the file to be located, then choose the folder. If you have selected the Google Shared Drive option and you are not a G Suite user, the error [400] Invalid Value is returned. New File Name Enter a title for the new file. Source file Select a source file from a previous module, or map the source file's name and data. Convert a file Enable this option to allow the module to convert files to the corresponding Google format, then select the format you want to convert the file to. Update a File This action module updates a file's metadata or content. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Enter a File ID Choose how the module will select the file you want to update. Enter manually Enter or map the ID of the file you want to download Select from the list Choose the drive that contains the folder where the file is located, then choose the folder. If you have selected the Google Shared Drive option and you are not a G Suite user, the error [400] Invalid Value is returned. New Updated File Name Enter or map a name for the updated file. This overwrites the current file name. File Description Enter or map a description for the new file. Change a file content Enable this option. to replace the content of the file. Source file Select a source file from a previous module, or map the source file's name and data. Move a File/Folder to Trash This action module moves a file or folder to the trash. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Enter a File/Folder ID Choose how the module will select the file or folder you want to move to the trash. Enter manually Select whether you want to move a file or a folder, then enter or map the ID of the file you want to move to the trash. Select from the list Choose the drive that contains the folder where the file is located, then choose the folder. If you have selected the Google Shared Drive option and you are not a G Suite user, the error [400] Invalid Value is returned. Delete a File/Folder This action module permanently deletes a file or folder. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Enter a File/Folder ID Choose how the module will select the file or folder you want to delete. Enter manually Select whether you want to delete a file or a folder, then enter or map the ID of the file you want to delete. Select from the list Choose the drive and folder that contain the file you want to delete, then choose the file. If you have selected the Google Shared Drive option and you are not a G Suite user, the error [400] Invalid Value is returned. Copy a File This action module copies a file to the new location on Google Drive. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Enter a File/Folder ID Choose how the module will select the file or folder you want to copy. Enter manually Enter or map the ID of the original file you want to copy, then enter or map the location of the new file. Select from the list Choose the drive where the orgiginal file is located, then select the original file. Choose the drive that you want to copy the file to, then choose a new folder location for the copied file. If you have selected the Google Shared Drive option and you are not a G Suite user, the error [400] Invalid Value is returned. Copied File Name Enter a title for the new file. Leave this field blank if you do not want to change the original file name. Move a File/Folder This action module moves a file or folder to a different location on Google Drive. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Choose a Drive Select the type of drive that contains the file or folder you want to move. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. Select File/Folder Select whether you want to move a file or a folder. New Drive Location Select the type of drive that you want to move the file or folder to. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. New Folder Location Select the folder that you want to move the file or folder to. Get a share link This action module retrieves the share link for a file in Google Drive. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Choose a Drive Select the type of drive that contains the file or folder you want to move. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. Select Select whether you want to share a link to a file or a folder File ID / Folder ID Enter or map the ID of the file or folder that you want to share. Role Select the role to define what users can do with a file or folder. Free Busy Reader: The user can read free/busy information. Owner: The user can read and modify events and can access control lists. Reader: The user can read events that are not private. Writer: The user can read and modify events. Type If you have chosen to share the folder, select the type of scope. Default: The public scope. This is the default value. User: Limits the scope to a single user. Enter or map the user's email address. Group: Limits the scope to a group. Enter or map the group's email address. Domain: Limits the scope to a domain. Enter or map the domain. Note: The permissions granted to the Default, or the public, scope apply to any user, authenticated or not. Email address / Organization Domain Enter the email address or organization domain you want to restrict the access to the file or folder to. Send notification email If you have selected User or Group in the Type field, enable this option to send a notification email with the share link. Enter the text of the email in the Email Message field. Expiration Time If you have selected User or Group in the Type field, set a time that the share link will expire. For a list of supported date and time formats, see Type coercion. Allow File Discovery If you have selected Domain or Anyone in the Type field, enable this option to allow the file to be discovered through search. Google Shared Drive Note: Google Shared Drive modules are for G Suite users only. Watch shared drives Search for Shared Drives Create a Shared Drive Get a Shared Drive Update a shared Drive Delete a Shared Drive Watch shared drives This trigger module starts a scenario when a shared drive is created. Important: The G Suite administrator privilege is required in order to use this module. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Search Select whether you want to filter returned drives by custom search query or query filter. Query filter Set the filter to filter returned shared drives by name, organizer count, or member count. You can also use AND and OR operators to combine the filter. Query Enter your custom search query. For example:name contains 'Workfront Fusion' and memberCount >= 20 For more info, see Search for shared drives in the Google Drive documentation. Limit Enter or map the maximum number of records you want the module to return during each scenario execution cycle. Search for Shared Drives This search module searches for the Google shared drive Important: The G Suite administrator privilege is required in order to use this module. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Search Select whether you want to filter returned drives by custom search query or query filter. Query filter Set the filter to filter returned shared drives by name, organizer count, or member count. You can also use AND and OR operators to combine the filter. Query Enter your custom search query. For example:name contains 'Workfront Fusion' and memberCount >= 20 For more info, see Search for shared drives in the Google Drive documentation. Limit Enter or map the maximum number of records you want the module to return during each scenario execution cycle. Create a Shared Drive This action module creates a new shared drive Important: The G Suite administrator privilege is required in order to use this module. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion New Shared Drive's Name Enter or map a name for the new shared drive. Get a Shared Drive This action module retrieves shared drive details Important: The G Suite administrator privilege is required in order to use this module. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Shared Drive ID Enter or map the ID of the shared drive you want to retrieve details about. Update a shared Drive This action module updates an existing drive's name or restrictions. Important: The G Suite administrator privilege is required in order to use this module. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Shared Drive ID Enter or map the ID of the shared drive you want to retrieve details about. Name Enter or map a new name for the shared drive. Restrictions Admin Managed Restrictions Select whether administrative privileges on this shared drive are required to modify restrictions. Copy Requires Writer Permission Select whether the options to copy, print, or download files inside this shared drive, should be disabled for readers and commenters. When this restriction is enabled, it will override the similarly named field to true for any file inside this shared drive. Domain Users Only Select whether access to this shared drive and items inside this shared drive is restricted to users of the domain to which this shared drive belongs. This restriction may be overridden by other sharing policies controlled outside of this shared drive. Drive Members Only Select whether access to items inside this shared drive is restricted to its members. Delete a Shared Drive This action module deletes a shared drive. The shared drive cannot contain any content. Important: The G Suite administrator privilege is required in order to use this module. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Shared Drive ID Enter or map the ID of the shared drive you want to delete. Other Watch Comments Get a Folder ID for a Path Make an API Call Watch Comments This trigger module starts a scenario when a comment is added or modified on the selected file. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Watch Comments Select which comments you want to watch. By Created Time The module watches for new files By Modified Time The module watches for modified files. Choose a Drive Select what type of drive you want to monitor. My Drive Shared With Me Google Shared Drive (available for G Suite users only) If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error [400] Invalid Value is returned. File ID Navigate to the file you want to watch for comments. Limit Enter or map the maximum number of comments you want the module to return during each scenario execution cycle. Get a Folder ID for a Path This action module retrieves the Folder ID for a given path. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Connecting Google Drive to Workfront Fusion Folder Path Enter or map the path to the folder you want to retrieve the ID for. Example: abc/xyz Make an API Call This action module allows you to perform a custom API call. Connection For instructions about connecting your Google Drive account to Workfront Fusion, see Create a connection to Workfront Fusion - Basic instructions URL Enter a path relative to https://www.googleapis.com/drive. Example: /v3/files Method Select the HTTP request method you need to configure the API call. For more information, see HTTP request methods. Headers Add the headers of the request in the form of a standard JSON object.For example, {"Content-type":"application/json"}. Workfront Fusion adds the authorization headers for you. Query String Add the query for the API call in the form of a standard JSON object. Body Add the body content for the API call in the form of a standard JSON object. Note: When using conditional statements such as if in your JSON, put the quotation marks outside of the conditional statement. Example:
 -->
-
-* [Files/Folders](#files/fo) 
-* [Google Shared Drive](#google2) 
-* [Other](#other)
-
-### Files/Folders
-
-* [Watch Files In Folder](#watch) 
-* [Watch All Files](#watch2) 
-* [Watch Folders](#watch5) 
-* [Search for Files/Folders](#search3) 
-* [Download a file](#download) 
-* [Create a File from Text](#create2) 
-* [Create a Folder](#create3) 
-* [Upload a File](#upload2) 
-* [Update a File](#update2) 
-* [Move a File/Folder to Trash](#move2) 
-* [Delete a File/Folder](#delete2) 
-* [Copy a File](#copy2) 
-* [Move a File/Folder](#move3) 
-* [Get a share link](#get3)
-
-#### Watch Files In Folder
-
-This trigger module retrieves file details when a file is added or modified in the specified folder.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Watch Files</td> 
-   <td> <p>Select which files you want to watch.</p> 
-    <ul> 
-     <li> <p><span class="bold">By Created Time</span> </p> <p>The module watches for new files<br></p> </li> 
-     <li> <p><span class="bold">By Modified Time</span> </p> <p>The module watches for modified files.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Choose a Drive</td> 
-   <td> <p>Select what type of drive you want to monitor.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Select the Folder to be Watched</td> 
-   <td>Select the folder on your drive that you want to watch for files.</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>File Types to Watch</td> 
-   <td> <p>Select the type of file that you want to watch.</p> 
-    <ul> 
-     <li> <p>Google Docs</p> </li> 
-     <li> <p>Google Spreadsheets</p> </li> 
-     <li> <p>Google Slides</p> </li> 
-     <li> <p>Google Drawings</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Limit</td> 
-   <td>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Watch All Files
-
-This trigger module retrieves file details when a file in your Google Drive is added or modified.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Watch Files</td> 
-   <td> <p>Select which files you want to watch.</p> 
-    <ul> 
-     <li> <p>By Created Time</p> <p>The module watches for new files<br></p> </li> 
-     <li> <p>By Modified Time</p> <p>The module watches for modified files.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Choose a Drive</td> 
-   <td> <p>Select what type of drive you want to monitor.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>File Types to Watch</td> 
-   <td> <p>Select the type of file that you want to watch.</p> 
-    <ul> 
-     <li> <p>Google Docs</p> </li> 
-     <li> <p>Google Spreadsheets</p> </li> 
-     <li> <p>Google Slides</p> </li> 
-     <li> <p>Google Drawings</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Limit</td> 
-   <td>Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Watch Folders
-
-This trigger module starts a scenario when a folder is created or modified.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Watch Files</td> 
-   <td> <p>Select which files you want to watch.</p> 
-    <ul> 
-     <li> <p><span class="bold">By Created Time</span> </p> <p>The module watches for new files<br></p> </li> 
-     <li> <p><span class="bold">By Modified Time</span> </p> <p>The module watches for modified files.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Choose a Drive</td> 
-   <td> <p>Select what type of drive you want to monitor.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Choose a folder</td> 
-   <td> <p>Select the folder that you want to watch for new or modified subfolders.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Limit</td> 
-   <td>Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Search for Files/Folders
-
-This search module searches for files or folders based on search criteria.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Select the Method</td> 
-   <td> <p>Choose how you want to determine which folder the module searches.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the IDs of the folder and shared drive that you want to search</p> </li> 
-     <li> <p><span class="bold">Select from a list</span> </p> <p>Choose the drive that contains the folder you want to search, then choose the folder.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Retrieve</td> 
-   <td> <p> Select whether you want to search for files, folders, or both.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Search</p> </td> 
-   <td> <p>Select the type of the search you want to perform.</p> 
-    <ul> 
-     <li> <p><span class="bold">Search within file/folder names</span> </p> 
-      <ul> 
-       <li> <p><span class="bold">Query</span> </p> <p>Enter a part of the file name or full file name (including the suffix) you want to search.</p> </li> 
-       <li> <p><span class="bold">Search Options</span> </p> <p>Select whether you want to search for the exact term, or if you want to search for names containing the search term.</p> </li> 
-      </ul> </li> 
-     <li> <p><span class="bold">Fulltext search</span> </p> 
-      <ul> 
-       <li> <p><span class="bold">Query</span> </p> <p>Enter any search term you want search in your Google Drive.</p> </li> 
-      </ul> </li> 
-     <li> <p><span class="bold">Enter custom search query</span> </p> 
-      <ul> 
-       <li> <p><span class="bold">Query</span> </p> <p>Enter the custom search query. For more details, please refer to the Search for Files section of this article.</p> </li> 
-       <li> <p><span class="bold">Add the folder selected above to the query</span> </p> <p>Searches for the folder n the parents collection. This finds all files and folders located directly in the folder selected above.</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Limit</td> 
-   <td>Set the maximum number of files or folders Workfront Fusion will return during one execution cycle.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Download a file
-
-This action module downloads a file from your Google Drive.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Enter a File ID</td> 
-   <td> <p>Choose how the module will select the file you want to download.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the ID of the file you want to download</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive that contains the folder where the file is located, then choose the folder.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Convert Google Documents Files to Format</td> 
-   <td>Select the file format that you want to convert Google Documents to.</td> 
-  </tr> 
-  <tr> 
-   <td>Convert Google Spreadsheets Files to Format</td> 
-   <td>Select the file format that you want to convert Google Spreadsheets to.</td> 
-  </tr> 
-  <tr> 
-   <td>Convert Google Slides Files to Format</td> 
-   <td>Select the file format that you want to convert Google Documents to.</td> 
-  </tr> 
-  <tr> 
-   <td>Convert Google Drawings Files to Format</td> 
-   <td>Select the file format that you want to convert Google Documents to.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Create a File from Text
-
-This action module creates a file from plain text.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Choose a Drive</td> 
-   <td> <p>Select the type of drive where you want to create the file.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>New Text File Location</td> 
-   <td> <p> Select the folder where you want to create the file.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>File Name</td> 
-   <td> <p>Enter or map a name for the new file.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>File Content</td> 
-   <td>Enter or map the content (body) of the file.</td> 
-  </tr> 
-  <tr> 
-   <td>Convert the File to Google Docs Document</td> 
-   <td>Enable this option to set the file's <span class="bold">mimeType</span> to <span class="bold">application/vnd.google-apps.document</span> instead of <span class="bold">text/plain</span>.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Create a Folder
-
-This action module creates a folder in the specified location.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>New Drive Location</td> 
-   <td> <p>Select the type of drive where you want to create the folder.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error<code> [400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>New folder location</td> 
-   <td>Navigate to the location where you want to create a new folder.</td> 
-  </tr> 
-  <tr> 
-   <td>The name of the new folder</td> 
-   <td>Enter a name for the folder that you are creating.</td> 
-  </tr> 
-  <tr> 
-   <td>Share folder</td> 
-   <td> <p>Select this option if you want to share the folder with anyone with the Share link. Otherwise, the share link is for the owner only.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Role</td> 
-   <td> <p>If you have chosen to share the folder, select the role to assign to the access rule. </p> 
-    <ul> 
-     <li><span class="bold">Free Busy Reader</span>: The user can read free/busy information. </li> 
-     <li><span class="bold">Owner</span>: The user can read and modify events and can access control lists. </li> 
-     <li><span class="bold">Reader</span>: The user can read events that are not private. </li> 
-     <li><span class="bold">Writer</span>: The user can read and modify events.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Type</td> 
-   <td> <p>If you have chosen to share the folder, select the type of scope. </p> 
-    <ul> 
-     <li><span class="bold">Default</span>: The public scope. This is the default value. </li> 
-     <li><span class="bold">User</span>: Limits the scope to a single user. Enter or map the user's email address.</li> 
-     <li><span class="bold">Group</span>: Limits the scope to a group. Enter or map the group's email address.</li> 
-     <li><span class="bold">Domain</span>: Limits the scope to a domain. Enter or map the domain.</li> 
-    </ul> <p>Note: The permissions granted to the Default, or the public, scope apply to any user, authenticated or not.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Upload a File
-
-This action module uploads a file to your Google Drive.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Enter a Folder ID</td> 
-   <td> <p>Choose how the module will select were to put the file you want to upload.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the ID of the file you want to download</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive that contains the folder where you want the file to be located, then choose the folder.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error <code>[400] Invalid Value </code>is returned.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>New File Name</td> 
-   <td>Enter a title for the new file.</td> 
-  </tr> 
-  <tr> 
-   <td>Source file</td> 
-   <td>Select a source file from a previous module, or map the source file's name and data.</td> 
-  </tr> 
-  <tr> 
-   <td>Convert a file</td> 
-   <td>Enable this option to allow the module to convert files to the corresponding Google format, then select the format you want to convert the file to.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Update a File
-
-This action module updates a file's metadata or content.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Enter a File ID</td> 
-   <td> <p>Choose how the module will select the file you want to update.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the ID of the file you want to download</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive that contains the folder where the file is located, then choose the folder.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error<code> [400] Invalid Value</code> is returned.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>New Updated File Name</td> 
-   <td>Enter or map a name for the updated file. This overwrites the current file name.</td> 
-  </tr> 
-  <tr> 
-   <td>File Description</td> 
-   <td>Enter or map a description for the new file.</td> 
-  </tr> 
-  <tr> 
-   <td>Change a file content</td> 
-   <td>Enable this option. to replace the content of the file.</td> 
-  </tr> 
-  <tr> 
-   <td>Source file</td> 
-   <td>Select a source file from a previous module, or map the source file's name and data.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Move a File/Folder to Trash
-
-This action module moves a file or folder to the trash.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Enter a File/Folder ID</td> 
-   <td> <p>Choose how the module will select the file or folder you want to move to the trash.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>Select whether you want to move a file or a folder, then enter or map the ID of the file you want to move to the trash.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive that contains the folder where the file is located, then choose the folder.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Delete a File/Folder
-
-This action module permanently deletes a file or folder.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Enter a File/Folder ID</td> 
-   <td> <p>Choose how the module will select the file or folder you want to delete.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>Select whether you want to delete a file or a folder, then enter or map the ID of the file you want to delete.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive and folder that contain the file you want to delete, then choose the file.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Copy a File
-
-This action module copies a file to the new location on Google Drive.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Enter a File/Folder ID</td> 
-   <td> <p>Choose how the module will select the file or folder you want to copy.</p> 
-    <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the ID of the original file you want to copy, then enter or map the location of the new file.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Choose the drive where the orgiginal file is located, then select the original file. </p> <p>Choose the drive that you want to copy the file to, then choose a new folder location for the copied file.</p> <p>If you have selected the Google Shared Drive option and you are not a G Suite user, the error<code> [400] Invalid Value</code> is returned.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Copied File Name</td> 
-   <td>Enter a title for the new file. Leave this field blank if you do not want to change the original file name.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Move a File/Folder
-
-This action module moves a file or folder to a different location on Google Drive.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Choose a Drive</td> 
-   <td> <p>Select the type of drive that contains the file or folder you want to move.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Select File/Folder</td> 
-   <td>Select whether you want to move a file or a folder.</td> 
-  </tr> 
-  <tr> 
-   <td>New Drive Location</td> 
-   <td> <p>Select the type of drive that you want to move the file or folder to.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>New Folder Location</td> 
-   <td>Select the folder that you want to move the file or folder to.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Get a share link
-
-This action module retrieves the share link for a file in Google Drive.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Choose a Drive</td> 
-   <td> <p>Select the type of drive that contains the file or folder you want to move.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Select</td> 
-   <td>Select whether you want to share a link to a file or a folder</td> 
-  </tr> 
-  <tr> 
-   <td>File ID / Folder ID</td> 
-   <td>Enter or map the ID&nbsp;of the file or folder that you want to share.</td> 
-  </tr> 
-  <tr> 
-   <td>Role</td> 
-   <td> <p>Select the role to define what users can do with a file or folder.</p> 
-    <ul> 
-     <li><span class="bold">Free Busy Reader</span>: The user can read free/busy information. </li> 
-     <li><span class="bold">Owner</span>: The user can read and modify events and can access control lists. </li> 
-     <li><span class="bold">Reader</span>: The user can read events that are not private. </li> 
-     <li><span class="bold">Writer</span>: The user can read and modify events.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Type</td> 
-   <td> <p>If you have chosen to share the folder, select the type of scope. </p> 
-    <ul> 
-     <li><span class="bold">Default</span>: The public scope. This is the default value. </li> 
-     <li><span class="bold">User</span>: Limits the scope to a single user. Enter or map the user's email address.</li> 
-     <li><span class="bold">Group</span>: Limits the scope to a group. Enter or map the group's email address.</li> 
-     <li><span class="bold">Domain</span>: Limits the scope to a domain. Enter or map the domain.</li> 
-    </ul> <p>Note: The permissions granted to the Default, or the public, scope apply to any user, authenticated or not.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Email address / Organization Domain</td> 
-   <td>Enter the email address or organization domain you want to restrict the access to the file or folder to.</td> 
-  </tr> 
-  <tr> 
-   <td>Send notification email</td> 
-   <td>If you have selected User or Group in the Type field, enable this option to send a notification email with the share link. Enter the text of the email in the <span class="bold">Email Message</span> field.</td> 
-  </tr> 
-  <tr> 
-   <td>Expiration Time</td> 
-   <td> <p>If you have selected User or Group in the Type field, set a time that the share link will expire. </p> <p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Allow File Discovery</td> 
-   <td>If you have selected Domain or Anyone in the Type field, enable this option to allow the file to be discovered through search.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Google Shared Drive
-
->[!NOTE]
->
->Google Shared Drive modules are for G Suite users only.
-
-* [Watch shared drives](#watch6) 
-* [Search for Shared Drives](#search4) 
-* [Create a Shared Drive](#create4) 
-* [Get a Shared Drive](#get4) 
-* [Update a shared Drive](#update3) 
-* [Delete a Shared Drive](#delete3)
-
-#### Watch shared drives
-
-This trigger module starts a scenario when a shared drive is created.
-
->[!IMPORTANT]
->
->The G Suite administrator privilege is required in order to use this module.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Search</td> 
-   <td> <p>Select whether you want to filter returned drives by custom search query or query filter.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Query filter</td> 
-   <td>Set the filter to filter returned shared drives by name, organizer count, or member count. You can also use AND and OR operators to combine the filter.</td> 
-  </tr> 
-  <tr> 
-   <td>Query</td> 
-   <td> <p>Enter your custom search query.</p> <p>For example:<code>name contains '<em>Workfront Fusion</em>' and memberCount &gt;= 20</code></p> <p>For more info, see <a href="https://developers.google.com/drive/api/v3/search-shareddrives">Search for shared drives</a> in the Google Drive documentation.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Search for Shared Drives
-
-This search module searches for the Google shared drive
-
->[!IMPORTANT]
->
->The G Suite administrator privilege is required in order to use this module.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Search</td> 
-   <td> <p>Select whether you want to filter returned drives by custom search query or query filter.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Query filter</td> 
-   <td>Set the filter to filter returned shared drives by name, organizer count, or member count. You can also use AND and OR operators to combine the filter.</td> 
-  </tr> 
-  <tr> 
-   <td>Query</td> 
-   <td> <p>Enter your custom search query.</p> <p>For example:<code>name contains '<em>Workfront Fusion</em>' and memberCount &gt;= 20</code></p> <p>For more info, see <a href="https://developers.google.com/drive/api/v3/search-shareddrives">Search for shared drives</a> in the Google Drive documentation.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Create a Shared Drive
-
-This action module creates a new shared drive
-
->[!IMPORTANT]
->
->The G Suite administrator privilege is required in order to use this module.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>New Shared Drive's Name</td> 
-   <td> <p>Enter or map a name for the new shared drive.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Get a Shared Drive
-
-This action module retrieves shared drive details
-
->[!IMPORTANT]
->
->The G Suite administrator privilege is required in order to use this module.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Shared Drive ID</td> 
-   <td> <p>Enter or map the ID of the shared drive you want to retrieve details about.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Update a shared Drive
-
-This action module updates an existing drive's name or restrictions.
-
->[!IMPORTANT]
->
->The G Suite administrator privilege is required in order to use this module.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Shared Drive ID</td> 
-   <td> <p>Enter or map the ID of the shared drive you want to retrieve details about.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Name</td> 
-   <td> <p>Enter or map a new name for the shared drive.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Restrictions</td> 
-   <td> 
-    <ul> 
-     <li> <p><span class="bold">Admin Managed Restrictions </span> </p> <p>Select whether administrative privileges on this shared drive are required to modify restrictions.</p> </li> 
-     <li> <p><span class="bold">Copy Requires Writer Permission </span> </p> <p>Select whether the options to copy, print, or download files inside this shared drive, should be disabled for readers and commenters. When this restriction is enabled, it will override the similarly named field to true for any file inside this shared drive.</p> </li> 
-     <li> <p><span class="bold">Domain Users Only </span> </p> <p>Select whether access to this shared drive and items inside this shared drive is restricted to users of the domain to which this shared drive belongs. This restriction may be overridden by other sharing policies controlled outside of this shared drive.</p> </li> 
-     <li> <p><span class="bold">Drive Members Only </span> </p> <p>Select whether access to items inside this shared drive is restricted to its members.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Delete a Shared Drive
-
-This action module deletes a shared drive. The shared drive cannot contain any content.
-
->[!IMPORTANT]
->
->The G Suite administrator privilege is required in order to use this module.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Shared Drive ID</td> 
-   <td> <p>Enter or map the ID of the shared drive you want to delete.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Other
-
-* [Watch Comments](#watch7) 
-* [Get a Folder ID for a Path](#get5) 
-* [Make an API Call](#make)
-
-#### Watch Comments
-
-This trigger module starts a scenario when a comment is added or modified on the selected file.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Watch Comments</td> 
-   <td> <p>Select which comments you want to watch.</p> 
-    <ul> 
-     <li> <p><span class="bold">By Created Time</span> </p> <p>The module watches for new files<br></p> </li> 
-     <li> <p><span class="bold">By Modified Time</span> </p> <p>The module watches for modified files.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Choose a Drive</td> 
-   <td> <p>Select what type of drive you want to monitor.</p> 
-    <ul> 
-     <li>My Drive</li> 
-     <li>Shared With Me</li> 
-     <li>Google Shared Drive (available for G Suite users only)</li> 
-    </ul> <p>If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>File ID</td> 
-   <td>Navigate to the file you want to watch for comments.</td> 
-  </tr> 
-  <tr> 
-   <td>Limit</td> 
-   <td>Enter or map the maximum number of <em>comment</em>s you want the module to <em>return</em> during each scenario execution cycle.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Get a Folder ID for a Path
-
-This action module retrieves the Folder ID for a given path.
-
-<table cellspacing="15"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>Folder Path</td> 
-   <td> <p>Enter or map the path to the folder you want to retrieve the ID&nbsp;for. Example: <code>abc/xyz</code></p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Make an API&nbsp;Call
-
-This action module allows you to perform a custom API call.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Google Drive</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>URL</p> </td> 
-   <td>Enter a path relative to <code>https://www.googleapis.com/drive</code>. Example: <code>/v3/files</code></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Query String</td> 
-   <td> <p> Add the query for the API call in the form of a standard JSON object.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 * [Triggers](#triggers) 
 * [Actions](#actions)
@@ -1831,24 +88,20 @@ Retrieves file details when a file is added or modified in the specified folder.
  <col> 
  <col> 
  <tbody> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+  <tr> <!--
+    Connection
+   --> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the folder to be watched</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the folder to be watched</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the folder on your drive that you want to watch the files in.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the folder on your drive that you want to watch the files in.</td> 
+  <tr> <!--
+    Select the folder to be watched
+   --> <!--
+    Select the folder on your drive that you want to watch the files in.
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">What files to watch</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">What files to watch</td> 
+  <tr> <!--
+    What files to watch
+   --> 
    <td> <p>Select which type of files you want to watch.</p> 
     <ul> 
      <li>All</li> 
@@ -1858,53 +111,41 @@ Retrieves file details when a file is added or modified in the specified folder.
      <li>Google Drawings</li> 
     </ul> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Convert Google Documents files to format</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Convert Google Documents files to format</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the file format that you want to convert Google Documents to.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the file format that you want to convert Google Documents to.</td> 
+  <tr> <!--
+    Convert Google Documents files to format
+   --> <!--
+    Select the file format that you want to convert Google Documents to.
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Convert Google Spreadsheets files to format</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Convert Google Spreadsheets files to format</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the file format that you want to convert Google Spreadsheets to.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the file format that you want to convert Google Spreadsheets to.</td> 
+  <tr> <!--
+    Convert Google Spreadsheets files to format
+   --> <!--
+    Select the file format that you want to convert Google Spreadsheets to.
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Convert Google Slides files to format</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Convert Google Slides files to format</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the file format that you want to convert Google Documents to.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the file format that you want to convert Google Documents to.</td> 
+  <tr> <!--
+    Convert Google Slides files to format
+   --> <!--
+    Select the file format that you want to convert Google Documents to.
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Convert Google Drawings files to format</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Convert Google Drawings files to format</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the file format that you want to convert Google Documents to.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the file format that you want to convert Google Documents to.</td> 
+  <tr> <!--
+    Convert Google Drawings files to format
+   --> <!--
+    Select the file format that you want to convert Google Documents to.
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Watch</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Watch</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select whether you want to watch new files and all changes, or only new files.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select whether you want to watch new files and all changes, or only new files.</td> 
+  <tr> <!--
+    Watch
+   --> <!--
+    Select whether you want to watch new files and all changes, or only new files.
+   --> 
   </tr> 
-  <tr> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of downloaded files</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of downloaded files</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td> 
+  <tr> <!--
+    Maximum number of downloaded files
+   --> <!--
+    Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).
+   --> 
   </tr> 
  </tbody> 
 </table>
@@ -1919,7 +160,7 @@ Retrieves file details when a file in your Google Drive is added or modified.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>What files to watch</td> 
@@ -1969,7 +210,7 @@ Triggers when a new file is shared to you, or an existing shared file is updated
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Select the folder to be watched</td> 
@@ -2023,7 +264,7 @@ Triggers when a comment is added or modified on the selected file.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File</td> 
@@ -2062,7 +303,7 @@ Uploads a file to your Google Drive.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -2109,7 +350,7 @@ Updates a file's metadata or content.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -2160,7 +401,7 @@ Copies a file to the new location.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -2195,7 +436,7 @@ Permanently deletes a file or folder.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 
@@ -2214,7 +455,7 @@ Moves a file or folder to the trash.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 
@@ -2233,7 +474,7 @@ Retrieves the file with the ID specified.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Convert Google Documents files to format</td> 
@@ -2268,7 +509,7 @@ Searches for files or folders based on search criteria.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -2327,7 +568,7 @@ Creates a folder in the specified location.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -2362,7 +603,7 @@ Retrieves the share link for a file in Google Drive.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 

@@ -13,14 +13,14 @@ description: Adobe Workfront Fusion can connect to almost any web service. It is
 
 >[!IMPORTANT]
 >
->*Adobe Workfront Fusion* can connect to almost any web service. It is not limited to only the apps on this list. If the app you want to work with is not on this list, you can use the following modules to connect directly to the web service:
+>`Adobe Workfront Fusion` can connect to almost any web service. It is not limited to only the apps on this list. If the app you want to work with is not on this list, you can use the following modules to connect directly to the web service:
 >
 >* [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md) 
 >* [SOAP module](../../workfront-fusion/apps-and-their-modules/soap-module.md) 
 >* [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md) 
 >
 
-## *Workfront Fusion* apps and their modules
+## `Workfront Fusion` apps and their modules
 
 This section contains the following articles:
 
@@ -29,22 +29,17 @@ This section contains the following articles:
 * [Adobe PDF Services](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Acrobat Sign modules</a> </li>
+  Adobe Acrobat Sign modules
   -->
-
-* [Adobe Acrobat Sign modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/active-campaign-modules.md" class="MCXref xref" xrefformat="{para}">ActiveCampaign modules</a> </li>
+  ActiveCampaign modules
   -->
-
-* [ActiveCampaign modules](../../workfront-fusion/apps-and-their-modules/active-campaign-modules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/airtable-modules.md" class="MCXref xref" xrefformat="{para}">Airtable modules</a> </li>
+  Airtable modules
   -->
 
-* [Airtable modules](../../workfront-fusion/apps-and-their-modules/airtable-modules.md) 
 * [Allocadia modules](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md) 
 * [Anaplan Modules](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md) 
 * [Archive modules](../../workfront-fusion/apps-and-their-modules/archive-modules.md) 
@@ -53,19 +48,17 @@ This section contains the following articles:
 * [Azure DevOps modules](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
+  Barcodes
   -->
 
-* [Barcodes](../../workfront-fusion/apps-and-their-modules/barcodes.md) 
 * [Box modules](../../workfront-fusion/apps-and-their-modules/box-modules.md) 
 * [Bynder modules](../../workfront-fusion/apps-and-their-modules/bynder-modules.md) 
 * [CloudConvert modules](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
+  Converter (More information coming soon)
   -->
 
-* [Converter](../../workfront-fusion/apps-and-their-modules/converter-modules.md) (More information coming soon)
 * [CSV](../../workfront-fusion/apps-and-their-modules/csv.md) 
 * [Cvent modules](../../workfront-fusion/apps-and-their-modules/cvent-modules.md) 
 * [Datadog modules](../../workfront-fusion/apps-and-their-modules/datadog-modules.md) 
@@ -74,26 +67,23 @@ This section contains the following articles:
 * [Dropbox modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
+  Egnyte modules
   -->
 
-* [Egnyte modules](../../workfront-fusion/apps-and-their-modules/egnyte-modules.md) 
 * [Email modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) 
 * [Encryptor](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md) 
 * [Flow control](../../workfront-fusion/apps-and-their-modules/flow-control.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/ftp-modules.md" class="MCXref xref" xrefformat="{para}">FTP modules</a> </li>
+  FTP modules
   -->
 
-* [FTP modules](../../workfront-fusion/apps-and-their-modules/ftp-modules.md) 
 * [GitHub modules](../../workfront-fusion/apps-and-their-modules/github.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/gitlab-modules.md" class="MCXref xref" xrefformat="{para}">GitLab modules</a> </li>
+  GitLab modules
   -->
 
-* [GitLab modules](../../workfront-fusion/apps-and-their-modules/gitlab-modules.md) 
 * [Gmail modules](../../workfront-fusion/apps-and-their-modules/gmail-modules.md) 
 * [Google Calendar modules](../../workfront-fusion/apps-and-their-modules/google-calendar-modules.md) 
 * [Google Docs modules](../../workfront-fusion/apps-and-their-modules/google-docs-modules.md) 
@@ -108,10 +98,9 @@ This section contains the following articles:
 * [Intacct modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
+  ISO modules
   -->
 
-* [ISO modules](../../workfront-fusion/apps-and-their-modules/iso-modules.md) 
 * [Jira Software modules](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md) 
 * [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md) 
 * [MariaDB modules](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md) 
@@ -145,9 +134,8 @@ This section contains the following articles:
 * [Widen modules](../../workfront-fusion/apps-and-their-modules/widen-modules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/workday-modules.md" class="MCXref xref" xrefformat="{para}">Workday modules</a> </li>
+  Workday modules
   -->
 
-* [Workday modules](../../workfront-fusion/apps-and-their-modules/workday-modules.md) 
 * [XML](../../workfront-fusion/apps-and-their-modules/xml-modules.md)
 

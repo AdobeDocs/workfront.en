@@ -8,9 +8,9 @@ title: Functions in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-# Functions in *Adobe Workfront Fusion*
+# Functions in `Adobe Workfront Fusion`
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
 This section contains the following articles:
 
 * [General functions](../../workfront-fusion/functions/general-functions.md) 

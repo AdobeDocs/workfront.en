@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>View or higher access to&nbsp;Templates, when converting to a project using a template</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>View or higher access to&nbsp;Templates, when converting to a project using a template</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,14 +37,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Considerations for converting tasks to projects
 
 * The original task is deleted.
 * Task approvals are deleted.
 * All sub-tasks, issues and notes roll up to the new project.
-* Documents, document versions, and *proofs* are moved to the new project.
+* Documents, document versions, and `proofs` are moved to the new project.
 * Status and percent complete of all sub-tasks and issues are preserved.
 * Shared users of the task become shared users on the project.
 * The project start date is set to the start date of the task.
@@ -54,34 +54,27 @@ You must have the following access to perform the steps in this article:
 
 ## Convert a task to a project
 
-<ol> 
- <li value="1">Go to the task that you want to convert to a project.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon, then <span class="bold">Convert to Project</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon, then <span class="bold">Convert to Project</span>. </p> </li> 
- <li value="3"> <p>Choose either the following options: </p> 
-  <ul> 
-   <li> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span class="bold">New Project</span> </p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span class="bold">New Project</span> </p> </li> 
-   <li> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">A template in the <span class="bold">Select From Templates</span> section</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">A template in the <span class="bold">Select From Templates</span> section</p> <p> <draft-comment>
-      <img src="assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png" style="width: 350;height: 209;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     </draft-comment><img src="assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png" style="width: 350;height: 209;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-  </ul> </li> 
- <li value="4">Click <span class="bold">Continue</span> on the notification that appears.</li> 
- <li value="5"> <p>In the <span class="bold">Convert to Project</span> box, specify the following:</p> 
-  <ul> 
-   <li><span class="bold">Name</span>: Name your project. The default name is the name of the task.</li> 
-   <li>(Optional) <span class="bold">Description</span>: Describe the purpose for this project.</li> 
-   <li> <p>(Optional and conditional) If you have selected to create a project from a template, update the available fields in the <span class="bold">Convert to Project</span> dialog box. </p> <p>For more information about editing fields on projects, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> 
-    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-     <span class="autonumber"><span><b>Tip: </b></span></span> 
-     <p>To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial&nbsp;Data in your access level.&nbsp;If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>. </p> 
-    </div> </li> 
-   <li> <p>(Optional) Add <span class="bold">Custom Forms</span> to the new project.</p> <p>For more information about transferring information from the custom form of the task to that of the new project, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.</p> </li> 
-  </ul> </li> 
- <li value="6">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Go to the task that you want to convert to a project.
+1. Click the More icon, then Convert to Project. 
+1. Choose either the following options:
+
+  * New Project 
+  * A template in the Select From Templates section
+
+1. Click `Continue` on the notification that appears.
+1. In the `Convert to Project` box, specify the following:
+
+  * `Name`: Name your project. The default name is the name of the task.
+  * (Optional) `Description`: Describe the purpose for this project.
+  * (Optional and conditional) If you have selected to create a project from a template, update the available fields in the `Convert to Project` dialog box.
+
+    For more information about editing fields on projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+  
+    ` `**Tip: **`` To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial&nbsp;Data in your access level.&nbsp;If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md). 
+  
+  * (Optional) Add `Custom Forms` to the new project.
+
+    For more information about transferring information from the custom form of the task to that of the new project, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+
+1. Click `Save Changes`.
 

@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,11 +37,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-Before starting to use text mode in a report or list, always ensure that you are familiar with the *Workfront* text-mode syntax.
+Before starting to use text mode in a report or list, always ensure that you are familiar with the `Workfront` text-mode syntax.
 
 For more information, see:
 
@@ -65,22 +65,16 @@ For information about creating a report, see [Create a custom report](../../../r
  <li value="1"> <p>Do one of the following:</p> 
   <ol> 
    <li value="1"> <p>To access the view from a report, go to the report, then click&nbsp;<span class="bold">Report Actions</span> > <span class="bold">Edit</span> > <span class="bold">Columns (View)</span> tab.</p> </li> 
-   <li value="2"> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">To access the view from a list, go to the list and from the <span class="bold">View</span> drop-down menu, mouse over the view that you want to modify and click the&nbsp;<span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">To access the view from a list, go to the list and from the <span class="bold">View</span> drop-down menu, mouse over the view that you want to modify and click the&nbsp;<span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.</p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The view builder opens.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The view builder opens.</p> </li> 
+   <li value="2"> To access the view from a list, go to the list and from the View drop-down menu, mouse over the view that you want to modify and click the Edit icon . The view builder opens. </li> 
   </ol> </li> 
  <li value="2"> <p>Select a column in the view.</p> <p>Or</p> <p>Select the <span class="bold">Columns (View)</span> tab of the report builder, then select a column.</p> <note type="tip">
    To edit a view using text mode, you must edit one column at a time.
   </note> </li> 
  <li value="3"> <p>Click <span class="bold">Switch to Text Mode</span> in the upper-right corner of the builder.</p> <note type="note">
    When you edit a column in text mode, 
-   <em>Workfront</em> adds the 
+   <span>Workfront</span> adds the 
    <code>textmode=true</code> line of code to the column. This indicates that the column is modified in text mode.
-  </note> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png" style="width: 350;height: 447;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png" style="width: 350;height: 447;"> </p> <p>The following table outlines the key lines in a text mode view:</p> 
+  </note>  <p>The following table outlines the key lines in a text mode view:</p> 
   <table cellspacing="15"> 
    <col> 
    <col> 

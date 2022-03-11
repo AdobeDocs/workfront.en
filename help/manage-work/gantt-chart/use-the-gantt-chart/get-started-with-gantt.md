@@ -8,7 +8,7 @@ description: In Adobe Workfront, there are two Gantt charts with similar functio
 
 # Get started with the Gantt Chart
 
-In *Adobe Workfront*, there are two Gantt charts with similar functionality:
+In `Adobe Workfront`, there are two Gantt charts with similar functionality:
 
 * The task list Gantt Chart: displays information about tasks at the project level and is editable.
 * The project list Gantt Chart: displays information about projects and is not editable.
@@ -17,7 +17,7 @@ Although they look and feel similar, the functionality of each one is different.
 
 ## Access the Gantt Chart
 
-The Gantt charts in *Workfront*provide a visual representation of a list of tasks or projects. You can view the task list Gantt Chart directly from the task list on a project or from a task report. You can view the project list Gantt Chart in a project list or a project report.
+The Gantt charts in `Workfront`provide a visual representation of a list of tasks or projects. You can view the task list Gantt Chart directly from the task list on a project or from a task report. You can view the project list Gantt Chart in a project list or a project report.
 
 * [Task list Gantt Chart](#project-gantt-chart-1) 
 * [Project list Gantt Chart](#project-list-gantt-chart-1)
@@ -28,61 +28,21 @@ The task list Gantt Chart is accessible in the following areas:
 
 * Within a Project
 
-  * Tasks   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    area  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`
-  
-  * Subtasks   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    area  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`
+  * Tasks area
+  * Subtasks area
 
 * Within a Template
 
 To access the task list Gantt Chart, navigate to any of the areas mentioned above and click the Gantt Chart icon.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-gantt-icon-on-task-list-highlighted-350x228.png" style="width: 350;height: 228;"> </p>
--->
-
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
-
 ### Project list Gantt Chart
 
 The project list Gantt Chart is accessible in the following areas:
 
-* Within the Projects 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  area
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`
-
+* Within the Projects area
 * Within a Portfolio
 
-  * Projects   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    area  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`
+  * Projects area
 
 * Within a Project Report
 
@@ -90,19 +50,7 @@ The project list Gantt Chart is accessible in the following areas:
 
 * Within a Program
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the Projects area</li>  
-    -->  
-  
-  * In the Projects area
-
 To access the project list Gantt Chart, navigate to any of the areas mentioned above and click the Gantt Chart icon.
-
-<!--
-<img src="assets/qs-gantt-icon-on-task-list-highlighted-350x228.png" style="width: 350;height: 228;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
 
 ## Configure how information displays on the Gantt Chart
 

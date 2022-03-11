@@ -12,7 +12,7 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-As an *Adobe Workfront administrator*, you can determine the global settings for approval processes in *Workfront*. These settings impact all work item approval processes in your system.
+As an `Adobe Workfront administrator`, you can determine the global settings for approval processes in `Workfront`. These settings impact all work item approval processes in your system.
 
 ## Access requirements
 
@@ -23,7 +23,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><em>Adobe Workfront</em> plan</a> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a> </td> 
    <td> <p>Any plan</p> </td> 
   </tr> 
   <tr> 
@@ -36,28 +36,10 @@ You must have the following:
 ## Configure global approval settings
 
 <ol> 
- <li value="1">Log in to <em>Workfront</em> as a <em>Workfront administrator</em> . </li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="3"> <p>Click <span class="bold">Processes</span> > <span class="bold">Approvals</span> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-     <span class="preview">and </span>
-     <span class="bold" data-mc-edit-date="2022-02-17T18:00:19.6474769-05:00" data-mc-editor="alinaw" data-mc-comment="drafted, QS only and yellow - did they rename this for preview 22.2??" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-17T18:00:06.9220118-05:00">Reviews</span>
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-    <span class="preview">and </span>
-    <span class="bold" data-mc-edit-date="2022-02-17T18:00:19.6474769-05:00" data-mc-editor="alinaw" data-mc-comment="drafted, QS only and yellow - did they rename this for preview 22.2??" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-17T18:00:06.9220118-05:00">Reviews</span>
-   </MadCap:conditionalText>.<br></p> </li> 
- <li value="4"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click&nbsp;the <span class="bold">Settings</span> icon <img src="assets/gear-icon-settings.png"> next to the <span class="bold">Approvals</span> <draft-comment>
-     <MadCap:conditionalText class="bold" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-      and Reviews
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText class="bold" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-     and Reviews
-    </MadCap:conditionalText> area name. <br></p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click&nbsp;the <span class="bold">Settings</span> icon <img src="assets/gear-icon-settings.png"> next to the <span class="bold">Approvals</span> <MadCap:conditionalText class="bold" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-    and Reviews
-   </MadCap:conditionalText> area name. <br></p> </li> 
+ <li value="1">Log in to <span>Workfront</span> as a <span>Workfront administrator</span> . </li> 
+ <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="3"> <p>Click <span class="bold">Processes</span> > <span class="bold">Approvals</span> and Reviews.<br></p> </li> 
+ <li value="4"> Click the Settings icon next to the Approvals and Reviews area name. </li> 
  <li value="5"> <p>In the <span class="bold">Approval Settings</span> box that appears, specify the following information:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -78,7 +60,7 @@ You must have the following:
     </tr> 
     <tr> 
      <td role="rowheader">Disable approval delegation</td> 
-     <td> <p>Select this option to disable the functionality for users in your system to delegate approvals to another user. When this option is selected, the option to delegate approvals is removed from <em>Workfront</em>, and any existing approval delegations are stopped.</p> <p>For more information about delegating approvals in <em>Workfront</em>, see<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a> .</p> </td> 
+     <td> <p>Select this option to disable the functionality for users in your system to delegate approvals to another user. When this option is selected, the option to delegate approvals is removed from <span>Workfront</span>, and any existing approval delegations are stopped.</p> <p>For more information about delegating approvals in <span>Workfront</span>, see<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a> .</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Allow Editing the custom form when the project, task, or issue is in pending approval status</td> 

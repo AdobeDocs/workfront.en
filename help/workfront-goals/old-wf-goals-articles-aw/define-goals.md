@@ -6,13 +6,11 @@ title: Define goals in The new Adobe Workfront experience
 description: IS THIS ARTICLE NEEDED? OR IS THE GETTING STARTED (NEW) ONE COVERING THIS INFO?? or the article about creating goals in the Guidelines section???
 ---
 
-# Define goals in *The new Adobe Workfront experience*
+# Define goals in `The new Adobe Workfront experience`
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">IS THIS ARTICLE NEEDED?&nbsp;OR IS THE GETTING STARTED (NEW) ONE COVERING THIS INFO?? or the article about creating goals in the Guidelines section???</p>
+IS THIS ARTICLE NEEDED? OR IS THE GETTING STARTED (NEW) ONE COVERING THIS INFO?? or the article about creating goals in the Guidelines section???
 -->
-
-IS THIS ARTICLE NEEDED?&nbsp;OR IS THE GETTING STARTED (NEW) ONE COVERING THIS INFO?? or the article about creating goals in the Guidelines section???
 
 What is an Objective? In Atiim, objectives are headlines which contain key results and contributing Objectives.&nbsp;The Objective itself is not a measurement or a task. Instead, Objectives should be headlines which&nbsp;describe what you want to achieve in qualitative terms. Additionally, Objectives should push for new achievements, not continue past performance. Try to avoid vague wording, such as “keep doing”, “continue”, and “maintain” and other types of similarly vague wording. Make your Objectives aspirational, but still tangible and unambiguous.
 

@@ -10,13 +10,13 @@ description: As an Adobe Workfront administrator, you can create a team from the
 
 # Create a team from the Setup area
 
-As an *Adobe Workfront administrator*, you can create a team from the Setup area. For information about teams, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+As an `Adobe Workfront administrator`, you can create a team from the Setup area. For information about teams, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
->* A *group administrator* can create a team for a group they administer from the Setup area. For more information, see [Create and modify a group’s teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+>* A `group administrator` can create a team for a group they administer from the Setup area. For more information, see [Create and modify a group’s teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
 >
->* A user with a *Plan* license can also create a team from the People area. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+>* A user with a `Plan` license can also create a team from the People area. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 >
 
 ##  
@@ -30,16 +30,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ You must have the following to perform the steps in this article:
 ## Create a team
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">Click <span class="bold">Teams</span>, then click <span class="bold">New Team</span>.</li> 
  <li value="3"> <p>In the <b>New Team</b> box that displays, specify the following information:</p> 
   <table cellspacing="0"> 
@@ -60,20 +60,10 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Group</td> 
-     <td> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.<draft-comment>
-         <MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-           Depending on the details configured for the group, you might also see its Business Leader and description.
-         </MadCap:conditionalText>
-        </draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-          Depending on the details configured for the group, you might also see its Business Leader and description.
-        </MadCap:conditionalText></p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-         Depending on the details configured for the group, you might also see its Business Leader and description.
-       </MadCap:conditionalText></p> <note type="note">
+     <td> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. <note type="note">
        When a team is assigned to a group or subgroup, any 
-       <em>group administrators</em> of that group or subgroup can manage the team without being a member of it. 
-       <em>Group administrators</em> can go to the Teams area from the Main Menu and click the Switch Teams arrow 
+       <span>group administrators</span> of that group or subgroup can manage the team without being a member of it. 
+       <span>Group administrators</span> can go to the Teams area from the Main Menu and click the Switch Teams arrow 
        <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.
       </note> </td> 
     </tr> 
@@ -88,16 +78,7 @@ You must have the following to perform the steps in this article:
     <tr> 
      <td role="rowheader">Calendar</td> 
      <td>Choose which calendar tab will appear for this team.</td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-      <td role="rowheader">This is an Agile Team</td> 
-      <td>Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-     <td role="rowheader">This is an Agile Team</td> 
-     <td>Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
-    </tr> 
+    </tr> This is an Agile Team Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see Create an agile team. 
     <tr> 
      <td role="rowheader">Work On It</td> 
      <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 

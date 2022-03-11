@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Microsof
 
 # Microsoft Office 365 Excel modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your *Microsoft 365 Excel* account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your `Microsoft 365 Excel` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,47 +26,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -74,7 +52,7 @@ To use Microsoft office 365 Excel, you must have a Microsoft account.
 
 ## Microsoft Office 365 Excel modules and their fields
 
-When you configure *Microsoft 365 Excel* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Microsoft 365 Excel* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Microsoft 365 Excel` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Microsoft 365 Excel` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -95,17 +73,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a workbook is created.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -117,7 +89,7 @@ This trigger module starts a scenario when a workbook is created.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>workbook</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>workbook</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,17 +98,11 @@ This trigger module starts a scenario when a workbook is created.
 
 This action module searches for Excel workbooks.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -148,7 +114,7 @@ This action module searches for Excel workbooks.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>worksheet</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>worksheet</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,17 +123,11 @@ This action module searches for Excel workbooks.
 
 This action module downloads the content of the specified Excel workbook.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Download a workbook</td> 
@@ -200,25 +160,22 @@ This trigger module starts a scenario when a new row is added to the sheet.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the worksheet you want to watch for new rows.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p>Select the Excel sheet that you want to watch for new rows.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>worksheet row</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p>Enter or map the maximum number of <span>worksheet row</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -233,19 +190,17 @@ This action module retrieves a list of worksheets in the specified workbook.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the worksheets that you want the module to list.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of <em>worksheet</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p><![CDATA[	]]>Enter or map the maximum number of <span>worksheet</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -260,25 +215,22 @@ This action module retrieves a list of rows in the specified worksheet.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the worksheet that includes the rows you want to list.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p>Select the worksheet that contains the rows you want to list.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>worksheet row</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p>Enter or map the maximum number of <span>worksheet row</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -287,28 +239,20 @@ This action module retrieves a list of rows in the specified worksheet.
 
 This action module creates a new worksheet within the selected workbook.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook where you want to add a worksheet.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Name </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Name </td> 
+  <tr> <!--
+    Name
+   --> 
    <td> <p>Enter or map a name for the new worksheet.</p> </td> 
   </tr> 
  </tbody> 
@@ -318,28 +262,20 @@ This action module creates a new worksheet within the selected workbook.
 
 This action module adds a new row to the selected worksheet.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the worksheet where you want to add a row.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p>Select the worksheet where you want to add a row.</p> </td> 
   </tr> 
   <tr> 
@@ -351,13 +287,11 @@ This action module adds a new row to the selected worksheet.
      <li> <p><span class="bold">Value</span> </p> <p>Excel does not evaluate the value. </p> </li> 
     </ul> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Row</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Row</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">For each column, enter the value you want the column to have in the new row.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">For each column, enter the value you want the column to have in the new row.</td> 
+  <tr> <!--
+    Row
+   --> <!--
+    For each column, enter the value you want the column to have in the new row.
+   --> 
   </tr> 
  </tbody> 
 </table>
@@ -366,28 +300,20 @@ This action module adds a new row to the selected worksheet.
 
 This action module updates an existing worksheet row.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the worksheet that includes the row you want to update.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p>Select the worksheet that contains the row you want to update.</p> </td> 
   </tr> 
   <tr> 
@@ -403,13 +329,11 @@ This action module updates an existing worksheet row.
    <td role="rowheader">Row ID</td> 
    <td>Select the number of the row to update.</td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Row</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Row</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">For each column, enter the value you want the column to have in the new row.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">For each column, enter the value you want the column to have in the new row.</td> 
+  <tr> <!--
+    Row
+   --> <!--
+    For each column, enter the value you want the column to have in the new row.
+   --> 
   </tr> 
  </tbody> 
 </table>
@@ -418,34 +342,25 @@ This action module updates an existing worksheet row.
 
 This action module deletes a row from a worksheet.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the worksheet that includes the row you want to delete.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet</td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p> Select the worksheet that contains the row you want to delete.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Row ID</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Row ID</td> 
+  <tr> <!--
+    Row ID
+   --> 
    <td>Enter or map the ID of the row you want to delete.</td> 
   </tr> 
  </tbody> 
@@ -478,27 +393,25 @@ This trigger starts a scenario when a new row is added to a table.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Workbook</p> </td> 
    <td> <p>Select the workbook that contains the table you want to watch.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p> Select the worksheet that contains the table you want to watch.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Table</p> </td> 
    <td> <p>Select the table you want to watch.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of <em>row</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p><![CDATA[	]]>Enter or map the maximum number of <span>row</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -513,25 +426,22 @@ This search module retrieves a list of all table objects.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the tables you want to list.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p>Select the worksheet that contains the tables you want to list</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>table</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p>Enter or map the maximum number of <span>table</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -546,31 +456,27 @@ This search module retrieves a list of all table rows in a workbook.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the table that includes the rows you want to list.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p>Select the worksheet that contains the table that includes the rows you want to list</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Table </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Table </td> 
+  <tr> <!--
+    Table
+   --> 
    <td> <p>Select the table that contains the rows you want to list.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>table row</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p>Enter or map the maximum number of <span>table row</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -579,21 +485,15 @@ This search module retrieves a list of all table rows in a workbook.
 
 This action module retrieves metadata for the specified table.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
-   <td role="rowheader"> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</p> </td> 
-   <td> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td role="rowheader"> <!--
+     Connection
+    --> </td> 
+   <td> <!--
+     For instructions about connecting your Office 365 account to Workfront Fusion, see Connect the module's app or web service to Workfront Fusion in the article Create a scenario.
+    --> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a table</td> 
@@ -616,7 +516,7 @@ This action module creates a table element within the Excel worksheet.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workbook </td> 
@@ -641,43 +541,32 @@ This action module creates a table element within the Excel worksheet.
 
 This action module modifies an existing table.
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">   
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workbook </td> 
+  <tr> <!--
+    Workbook
+   --> 
    <td> <p>Select the workbook that contains the table where you want to add a row.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet </td> 
+  <tr> <!--
+    Worksheet
+   --> 
    <td> <p>Select the worksheet that contains the table where you want to add a row.</p> </td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Table</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Table</td> 
+  <tr> <!--
+    Table
+   --> 
    <td>Select the table where you want to add a row.</td> 
   </tr> 
-  <tr> <draft-comment>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Row</td>
-   </draft-comment>
-   <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Row</td> <draft-comment>
-    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">For each column, enter the value you want the column to have in the new row.</td>
-   </draft-comment>
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">For each column, enter the value you want the column to have in the new row.</td> 
+  <tr> <!--
+    Row
+   --> <!--
+    For each column, enter the value you want the column to have in the new row.
+   --> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Row ID</p> </td> 
@@ -696,7 +585,7 @@ This action module updates an existing table.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update a table</td> 
@@ -739,7 +628,7 @@ This action module deletes the specified table from an Excel worksheet.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a table</td> 
@@ -767,7 +656,7 @@ This action retrieves data from the defined worksheet range, and returns a bundl
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workbook </td> 
@@ -794,7 +683,7 @@ This action module allows you to make a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Office 365 account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -806,7 +695,7 @@ This action module allows you to make a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 

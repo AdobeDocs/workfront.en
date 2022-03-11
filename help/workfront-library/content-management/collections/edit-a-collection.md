@@ -7,7 +7,7 @@ title: Edit a Workfront Library collection
 description: You can make the following changes to a collection that you have Manage access to:
 ---
 
-# Edit a *Workfront Library* collection
+# Edit a `Workfront Library` collection
 
 You can make the following changes to a collection that you have Manage access to:
 
@@ -15,12 +15,12 @@ You can make the following changes to a collection that you have Manage access t
 * Description
 * Cover image
 
-`<li> <draft-comment>  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </li>` For information on changing a collection's cover image, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
+`<li> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li>` For information on changing a collection's cover image, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
 
-When you edit a collection that is shared with other users in *Workfront Library*, the collection's name is automatically updated in all the shared instances. Users are not notified of edits made to a collection.
+When you edit a collection that is shared with other users in `Workfront Library`, the collection's name is automatically updated in all the shared instances. Users are not notified of edits made to a collection.
 
 <ol> 
- <li value="1"> <p>In the upper-left corner of <em>Workfront Library</em>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
+ <li value="1"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
  <li value="2"> <p>Click <span class="bold">Collections</span> in the left panel.</p> <p> <img src="assets/library-left-panel-collections--new-350x217.png" style="width: 350;height: 217;"> </p> </li> 
  <li value="3"> <p>Click <span class="bold">New Collection</span> in the upper-left corner.</p> <p> <img src="assets/collection-create-350x322.png" style="width: 350;height: 322;"> </p> </li> 
  <li value="4">In the <span class="bold">Name</span> box, type a name for the collection.</li> 

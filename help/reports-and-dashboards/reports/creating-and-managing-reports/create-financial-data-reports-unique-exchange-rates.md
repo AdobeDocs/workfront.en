@@ -10,7 +10,7 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-If multiple exchange rates have been configured in *Adobe Workfront*, you can set financial values in reports and lists to display in a currency other than the default currency.
+If multiple exchange rates have been configured in `Adobe Workfront`, you can set financial values in reports and lists to display in a currency other than the default currency.
 
 >[!IMPORTANT]
 >
@@ -29,16 +29,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -47,11 +47,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-Before you can view alternate currencies as described in this section, the *Workfront administrator* must first enable and configure multiple currencies in the Setup area of *Workfront*. For information, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Before you can view alternate currencies as described in this section, the `Workfront administrator` must first enable and configure multiple currencies in the Setup area of `Workfront`. For information, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Apply financial values to a report
 
@@ -65,60 +65,46 @@ To convert financial values between currencies when working with reports:
    <li> <p>Any of the other currencies</p> <note type="tip">
      You can choose only currencies previously selected in Setup. 
     </note> </li> 
-  </ul> <p>Using this option allows you to quickly convert financial values in a report between rate values.</p> <p> <draft-comment>
-    <img src="assets/qs-change-currency-350x316.png" style="width: 350;height: 316;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-change-currency-350x316.png" style="width: 350;height: 316;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-change-currency-2022-350x257.png" alt="Change currency" style="width: 350;height: 257;"> </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-change-currency-2022-350x257.png" alt="Change currency" style="width: 350;height: 257;"> </p> <note type="tip">
-   You can also select the Change Currency option to convert financial values in other lists.
-   <br>
-   <draft-comment>
-    <img src="assets/nwe-change-currency-new-lists-350x219.png" style="width: 350;height: 219;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment>
-   <img src="assets/nwe-change-currency-new-lists-350x219.png" style="width: 350;height: 219;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   <br>
-   <br>
-  </note> </li> 
+  </ul> <p>Using this option allows you to quickly convert financial values in a report between rate values.</p> <p>  </p>  <!--
+   Tip: You can also select the Change Currency option to convert financial values in other lists.
+  --> </li> 
 </ol>
 
 ## Display the Default Currency across multiple projects with different currencies
 
 When you customize the currency at the project level and you want to display information from all the projects in the same report, the following scenarios exist:
 
-* If you create a report that brings financial information from two or more projects that have different currencies applied, by default the grouping summary reflects the system's default currency as selected by the *Workfront administrator*.
+* If you create a report that brings financial information from two or more projects that have different currencies applied, by default the grouping summary reflects the system's default currency as selected by the `Workfront administrator`.
 * If you create a report for two or more projects that have the same currency, but they differ from that of the system's default currency, then the sums in the groupings are displayed using the system default currency.
-* If you create a report for two or more projects that have job role assignments associated with an currency override, *Workfront* converts the financial information from the job role's overridden currency rates to either the currency of the project (when you select Project's Original Currency in the view), or to any different currency you select when viewing the report. For information about overriding the currency of a job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* If you create a report for two or more projects that have job role assignments associated with an currency override, `Workfront` converts the financial information from the job role's overridden currency rates to either the currency of the project (when you select Project's Original Currency in the view), or to any different currency you select when viewing the report. For information about overriding the currency of a job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 To display two projects with custom currencies in a report:
 
-<ol> 
- <li value="1"> <p>Create two projects with different currencies applied.</p> <p> <draft-comment>
-    <img src="assets/qs-currency-350x217.png" style="width: 350;height: 217;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-currency-350x217.png" style="width: 350;height: 217;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
- <li value="2"> <p>Log hours on both projects.</p> <p>For more information about logging time, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> </li> 
- <li value="3"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png">, then click 
-     <span class="bold">Reporting</span>.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png">, then click 
-    <span class="bold">Reporting</span>.
-   </MadCap:conditionalText> </p> </li> 
- <li value="4"> <p>Click <span class="bold">New Report</span>, then <span class="bold">Project Report</span>.</p> </li> 
- <li value="5"> <p>In the <span class="bold">Columns (View)</span> tab, add an <span class="bold">Actual Cost</span> column and summarize it by <span class="bold">Sum</span>.</p> <p>For information on how to create a column, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
- <li value="6"> <p>In the <span class="bold">Groupings</span> tab, apply a <span class="bold">Planned Completion Date</span> grouping.</p> <p>For information on how to create a grouping, see <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </li> 
- <li value="7"> <p>In the <span class="bold">Filters</span> tab, add a filter for <span class="bold">Project Name</span> and select the two projects with the different currencies.</p> <p>For information on how to create a filter, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li> 
- <li value="8"> <p>Click <span class="bold">Save + Close</span>.</p> <p>The total of the <span class="bold">Actual Cost</span> is displayed in the Grouping using the system default currency, regardless of the currency of the projects in the report.</p> <p> <draft-comment>
-    <img src="assets/qs-currency-displayed-in-groupings-350x239.png" style="width: 350;height: 239;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-currency-displayed-in-groupings-350x239.png" style="width: 350;height: 239;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-currency-displayed-in-groupings-2022-350x292.png" alt="Currency displayed in grouping" style="width: 350;height: 292;"> </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-currency-displayed-in-groupings-2022-350x292.png" alt="Currency displayed in grouping" style="width: 350;height: 292;"> </p> <p>If the two projects have different currencies from one another, the system default currency also displays in the Grouping of the report.</p> </li> 
-</ol>
+1. Create two projects with different currencies applied.
+
+1. Log hours on both projects.
+
+   For more information about logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
+1. Click the Main Menu icon , then click Reporting. 
+1. Click `New Report`, then `Project Report`.
+1. In the `Columns (View)` tab, add an `Actual Cost` column and summarize it by `Sum`.
+
+   For information on how to create a column, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. In the `Groupings` tab, apply a `Planned Completion Date` grouping.
+
+   For information on how to create a grouping, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+
+1. In the `Filters` tab, add a filter for `Project Name` and select the two projects with the different currencies.
+
+   For information on how to create a filter, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. Click `Save + Close`.
+
+   The total of the `Actual Cost` is displayed in the Grouping using the system default currency, regardless of the currency of the projects in the report.
+
+   If the two projects have different currencies from one another, the system default currency also displays in the Grouping of the report.
 
 ## Display the Project Currency in a report at the project level
 
@@ -129,15 +115,7 @@ If a grouping is applied on a task or hour list within a project, the sums in th
  <li value="2"> <p>Go to the project and ensure that it includes hours that have been logged for tasks.</p> <p>For more information about logging time, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> <note type="note">
     The tasks should be assigned to users or job roles with Rate per Hour cost rates.
   </note> </li> 
- <li value="3"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click 
-     <span class="bold">Tasks</span>.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click 
-    <span class="bold">Tasks</span>.
-   </MadCap:conditionalText> </p> </li> 
+ <li value="3"> <p> Click Tasks. </p> </li> 
  <li value="4"> <p>Expand the <span class="bold">View</span> drop-down menu and select <span class="bold">New View</span>.</p> </li> 
  <li value="5"> <p>Add <span class="bold">Actual Cost</span> in the new View as a new column, and summarize it by <span class="bold">Sum</span>.</p> </li> 
  <li value="6"> <p>Click <span class="bold">Done</span>, then click <span class="bold">Save View</span>.</p> </li> 
@@ -159,9 +137,7 @@ To in-line edit a financial field in a report:
   </note> </li> 
  <li value="2"> <p>Click <span class="bold">Report Actions</span>, then select <span class="bold">Edit</span>.</p> </li> 
  <li value="3"> <p>Click <span class="bold">Report Settings</span>.</p> </li> 
- <li value="4"> <p>Click the <span class="bold">Default Currency</span> drop-down, then select <span class="bold">Project's Original Currency</span>.</p> <p> <draft-comment>
-    <img src="assets/qs-report-settings-default-currency-350x370.png" style="width: 350;height: 370;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-report-settings-default-currency-350x370.png" style="width: 350;height: 370;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+ <li value="4"> <p>Click the <span class="bold">Default Currency</span> drop-down, then select <span class="bold">Project's Original Currency</span>.</p> <p>  </p> </li> 
  <li value="5"> <p>Click <span class="bold">Done</span>.</p> </li> 
 </ol>
 

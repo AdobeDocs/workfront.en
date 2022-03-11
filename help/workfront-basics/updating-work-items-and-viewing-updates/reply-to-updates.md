@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher for issues and documents; <em>Review</em> or higher for all other objects</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher for issues and documents; <span>Review</span> or higher for all other objects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Requestor or higher for issues and documents; Reviewer or higher for all other objects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Requestor or higher for issues and documents; Reviewer or higher for all other objects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,33 +37,16 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Reply to an update or a reply
 
 <ol> 
  <li value="1">Go to the object to which you want to add a reply.</li> 
- <li value="2"> <p>On the <span class="bold">Updates</span> tab for the object, find the update or reply to which you want to reply.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">To view an image in the update:</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">To view an image in the update:</p> <draft-comment>
-   <ul data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <li> <p>Click the&nbsp;<span class="bold">Preview</span> icon <img src="assets/previewimageicon-31x31.png" style="vertical-align: text-bottom;width: 31;height: 31;"> on the image thumbnail to open the full-size image in a new browser tab.</p> </li> 
-    <li> <p>Click the&nbsp;<span class="bold">Download</span> icon <img src="assets/downloadimageicon.png" style="vertical-align: text-bottom;"> on the image thumbnail to download the image.</p> </li> 
-   </ul>
-  </draft-comment>
-  <ul data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <li> <p>Click the&nbsp;<span class="bold">Preview</span> icon <img src="assets/previewimageicon-31x31.png" style="vertical-align: text-bottom;width: 31;height: 31;"> on the image thumbnail to open the full-size image in a new browser tab.</p> </li> 
-   <li> <p>Click the&nbsp;<span class="bold">Download</span> icon <img src="assets/downloadimageicon.png" style="vertical-align: text-bottom;"> on the image thumbnail to download the image.</p> </li> 
-  </ul> <p>In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. To tag more users, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p> <p> <img src="assets/tagging-transparency-350x192.png" style="width: 350;height: 192;"> </img> </p> </li> 
+ <li value="2"> <p>On the <span class="bold">Updates</span> tab for the object, find the update or reply to which you want to reply.</p> To view an image in the update: Click the Preview icon on the image thumbnail to open the full-size image in a new browser tab. Click the Download icon on the image thumbnail to download the image. <p>In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. To tag more users, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p> <p> <img src="assets/tagging-transparency-350x192.png" style="width: 350;height: 192;"> </img> </p> </li> 
  <li value="3"> <p>Click <span class="bold">Reply</span> on the update, then type a reply in the box that appears.</p> </li> 
  <li value="4"> <p>(Optional) To include text from a previous update in your reply, click the <span class="bold">More</span> menu next to the update or reply you want to quote, then click <span class="bold">Quote Reply</span>. Text from the previous update appears in the input area, marked with a gray line.</p> </li> 
- <li value="5"> <p>(Optional) Use formatting and emojis, and include links <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      and images 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     and images 
-   </MadCap:conditionalText>as explained in the section <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add" class="MCXref xref">Add an update to a work item</a> in the article <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</p> </li> 
+ <li value="5"> <p>(Optional) Use formatting and emojis, and include links and imagesas explained in the section <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add" class="MCXref xref">Add an update to a work item</a> in the article <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</p> </li> 
  <li value="6"> <p>Click <span class="bold">Reply</span> to save the reply.<br></p> <p>Or<br></p> <p>Click <span class="bold">Done</span> if the task or issue is in a status of Complete or Closed.</p> </li> 
 </ol>
 
@@ -79,7 +62,7 @@ The following is an example of an email notification triggered as a result of an
 
 ![email.png](assets/email-350x202.png)
 
-From the email, you can easily add a reply directly to the communications thread of the object in *Workfront*. You can also add a reply without logging in to *Workfront*, on an email that is generated from comments made to the following objects:
+From the email, you can easily add a reply directly to the communications thread of the object in `Workfront`. You can also add a reply without logging in to `Workfront`, on an email that is generated from comments made to the following objects:
 
 * Project
 * Task
@@ -93,11 +76,11 @@ From the email, you can easily add a reply directly to the communications thread
 
 ### Reply to an update from an email notification
 
-When you receive an email notification, you can quickly open the associated *Workfront* object and add a reply directly to the communication thread.
+When you receive an email notification, you can quickly open the associated `Workfront` object and add a reply directly to the communication thread.
 
 1. Click `Comment` on the email notification.
 
-   The Details page for the object opens in *Workfront*.
+   The Details page for the object opens in `Workfront`.
 
 1. Go to the update to which you want to add a reply.
 
@@ -105,13 +88,13 @@ When you receive an email notification, you can quickly open the associated *Wor
 
 1. Click `Reply,`enter your reply, then click `Reply`.
 
-### Add an update to an object outside of *Workfront*
+### Add an update to an object outside of `Workfront`
 
-When you receive a *Workfront* email notification, you can quickly add an update to the communication thread without logging in to *Workfront*.
+When you receive a `Workfront` email notification, you can quickly add an update to the communication thread without logging in to `Workfront`.
 
-To add an update to a *Workfront* email:
+To add an update to a `Workfront` email:
 
-1. From your email application, open the *Workfront* email to which you want to respond, then open a reply email window.
+1. From your email application, open the `Workfront` email to which you want to respond, then open a reply email window.
 1. Type your update.  
    Attachments are not permitted, and any Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.
 1. Click `Send`.

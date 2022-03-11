@@ -22,9 +22,3 @@ This section contains the following articles:
 * [Copy a calendar report](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md) 
 * [Add ad-hoc events to a calendar report](../../../reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p> </li>
-  -->
-
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)
-

@@ -9,26 +9,11 @@ title: About the default Adobe Workfront layout
 description: The default layout is the arrangement of the Main Menu , the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
 ---
 
-# About the default *Adobe Workfront* layout
+# About the default `Adobe Workfront` layout
 
-The default layout is the arrangement of the 
+The default layout is the arrangement of the Main Menu , the left panel, and the views, groupings, and filters before an `Adobe Workfront administrator` makes any changes using a layout template.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Main Menu
-<img src="assets/main-menu-icon.png">, the left panel, and the
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu  <img src="assets/main-menu-icon.png">, the left panel, and the</MadCap:conditionalText>` views, groupings, and filters before an *Adobe Workfront administrator* makes any changes using a layout template.
-
-For information about how a *Workfront administrator* can modify a user's default layout by assigning the user a layout template, see 
-
-<!--
-<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Assign users to a layout template</a>
--->
-
-[Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+For information about how a `Workfront administrator` can modify a user's default layout by assigning the user a layout template, see Assign users to a layout template.
 
 >[!NOTE]
 >
@@ -36,41 +21,9 @@ For information about how a *Workfront administrator* can modify a user's defaul
 
 ## Default layouts for each access level
 
-Each user's default layout depends on their access level. Some users might not see certain areas in the 
+Each user's default layout depends on their access level. Some users might not see certain areas in the Main Menu or certain left panel items, depending on the access level that is assigned to them.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Main Menu
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Main Menu</MadCap:conditionalText>` or certain 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-left panel items
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> left panel items</MadCap:conditionalText>`, depending on the access level that is assigned to them.
-
-The following table shows what 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-left panel items
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> left panel items</MadCap:conditionalText>` are displayed for each access level, by default. The default landing 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-area
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>` for each access level is also indicated:
+The following table shows what left panel items are displayed for each access level, by default. The default landing area for each access level is also indicated:
 
 <table cellspacing="15"> 
  <col> 
@@ -84,13 +37,7 @@ area
  <thead> 
   <tr> 
    <th>Area</th> 
-   <th> <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Left panel items
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Left panel items
-    </MadCap:conditionalText> </th> 
+   <th> Left panel items </th> 
    <th> <p>System Administrator</p> </th> 
    <th> <p>Planner</p> </th> 
    <th>Worker</th> 
@@ -103,20 +50,8 @@ area
   <tr> 
    <td rowspan="2"><span class="bold">Projects</span> </td> 
    <td><span class="bold">Projects</span> </td> 
-   <td>✔ <br>(Default landing <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      area
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     area
-    </MadCap:conditionalText>)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Default landing <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      area
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     area
-    </MadCap:conditionalText>b)</td> 
+   <td>✔ <br>(Default landing area)</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br>(Default landing areab)</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -177,26 +112,9 @@ area
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td><span class="bold">Legacy Resource Planning</span> </td> 
-    <td>✔ </td> 
-    <td>✔ </td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td><span class="bold">Legacy Resource Planning</span> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
+  </tr> <!--
+   Legacy Resource Planning ✔ ✔
+  --> 
   <tr> 
    <td><span class="bold">Planning</span> </td> 
    <td>✔ </td> 
@@ -231,20 +149,8 @@ area
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br>(Default landing <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      area
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     area
-    </MadCap:conditionalText>)</td> 
-   <td>✔ <br>(Default landing <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      area
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     area
-    </MadCap:conditionalText>)</td> 
+   <td>✔ <br>(Default landing area)</td> 
+   <td>✔ <br>(Default landing area)</td> 
   </tr> 
   <tr> 
    <td><span class="bold">All Requests</span> </td> 

@@ -6,9 +6,9 @@ title: Review resource availability and allocation using the Resource Planner
 description: You can view the availability of your resources and the amount of planned or budgeted work for your projects in the Resource Planner. These values are displayed in Hours, FTE (Full Time Equivalent), or Cost amounts and are organized in columns.
 ---
 
-# Review resource availability and allocation using the *Resource Planner*
+# Review resource availability and allocation using the `Resource Planner`
 
-You can view the availability of your resources and the amount of planned or budgeted work for your projects in the *Resource Planner*. These values are displayed in Hours, FTE (Full&nbsp;Time Equivalent), or Cost amounts and are organized in columns.
+You can view the availability of your resources and the amount of planned or budgeted work for your projects in the `Resource Planner`. These values are displayed in Hours, FTE (Full&nbsp;Time Equivalent), or Cost amounts and are organized in columns.
 
 ## Access requirements
 
@@ -19,12 +19,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> and higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> and higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -34,30 +34,30 @@ You must have the following access to perform the steps in this article:
      <li> <p>Financial Data</p> </li> 
      <li> <p>Users</p> </li> 
      <li> <p>Projects</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects you want to view in the <em>Resource Planner</em></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects you want to view in the <span>Resource Planner</span></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-You must meet all the prerequisites required to work with the *Resource Planner*.&nbsp;For more information, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+You must meet all the prerequisites required to work with the `Resource Planner`.&nbsp;For more information, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 >[!IMPORTANT]
 >
->If any of the prerequisites required for the correct functionality of the *Resource Planner* are missing, some of the numbers may be zero, or the Budgeted Hours might be dimmed.
+>If any of the prerequisites required for the correct functionality of the `Resource Planner` are missing, some of the numbers may be zero, or the Budgeted Hours might be dimmed.
 
 ## Availability and allocation of resources
 
-The columns that display the availability and allocation of your resources change depending on which view you apply to the *Resource Planner*. For information about displaying the information in the *Resource Planner* by Project, Role, or User see [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+The columns that display the availability and allocation of your resources change depending on which view you apply to the `Resource Planner`. For information about displaying the information in the `Resource Planner` by Project, Role, or User see [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Consider the following when changing your view to the *Resource Planner*:
+Consider the following when changing your view to the `Resource Planner`:
 
 * When you apply the `View by Project` or `View by Role` views, you can see the following columns:
 
@@ -74,7 +74,7 @@ Consider the following when changing your view to the *Resource Planner*:
   * Hour or FTE Difference 
   * Planned Hours Allocation Percentage
 
-` `**Tips: **``  The information is not available as Cost when applying the `View by User` view to the *Resource Planner*.
+` `**Tips: **``  The information is not available as Cost when applying the `View by User` view to the `Resource Planner`.
 
 For more information about what each column displays, mouse over the name of the column in which the number is displayed.  
 ![Net_hours_res_planner_mouse_over.png](assets/net-hours-res-planner-mouse-over-350x95.png)
@@ -87,7 +87,7 @@ For more information about the data displayed in each column, see the following 
 ## View information by Hour, FTE, or Cost
 
 <ol> 
- <li value="1"> <p> Go to the <span class="bold">Planner</span>.</p> <p>By default, information displays by Hours in the <em>Resource Planner</em>.<br></p> </li> 
+ <li value="1"> <p> Go to the <span class="bold">Planner</span>.</p> <p>By default, information displays by Hours in the <span>Resource Planner</span>.<br></p> </li> 
  <li value="2"> Expand the drop-down menu. <br><img src="assets/hours-fte-or-cost-dropdown.png" alt="Hours_fte_or_cost_dropdown.png"></li> 
  <li value="3"> <p> Select from the following options:</p> 
   <table cellspacing="0"> 
@@ -100,25 +100,25 @@ For more information about the data displayed in each column, see the following 
     </tr> 
     <tr> 
      <td role="rowheader">FTE</td> 
-     <td> <p>Displays availability and allocation information in FTE.</p> <p>For more information about how the FTE is calculated in the <em>Resource Planner</em>, see <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md">Calculating Hours and FTE in the Resource Planner</a>.</p> </td> 
+     <td> <p>Displays availability and allocation information in FTE.</p> <p>For more information about how the FTE is calculated in the <span>Resource Planner</span>, see <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md">Calculating Hours and FTE in the Resource Planner</a>.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Cost</td> 
-     <td> <p>Displays availability and allocation information by cost, if you are viewing the <em>Resource Planner</em> in the Project or Role views. The information displays values in the currency of your system. Your <em>Workfront administrator</em> defines the system currency. For more information about setting up the system currency in <em>Workfront</em>, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <note type="note">
+     <td> <p>Displays availability and allocation information by cost, if you are viewing the <span>Resource Planner</span> in the Project or Role views. The information displays values in the currency of your system. Your <span>Workfront administrator</span> defines the system currency. For more information about setting up the system currency in <span>Workfront</span>, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <note type="note">
        You must associate users and job roles with Cost per Hour rates in order to display Cost information in the 
-       <em>Resource Planner</em>.
+       <span>Resource Planner</span>.
        <br style="font-style: italic;">For more information about associating Cost per Hour rates with job roles, see 
        <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.
        <br style="font-style: italic;">For more information about associating Cost per Hour rates with users, see 
        <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.
        <br style="font-style: italic;">For more information about how Cost is calculated in the 
-       <em>Resource Planner</em>, see 
+       <span>Resource Planner</span>, see 
        <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.
       </note> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Customize</td> 
-     <td>Creates a custom view of the columns that display in the <em>Resource Planner</em>. Select the options that you want to display in the <em>Resource Planner</em>, as described in the steps below. </td> 
+     <td>Creates a custom view of the columns that display in the <span>Resource Planner</span>. Select the options that you want to display in the <span>Resource Planner</span>, as described in the steps below. </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -195,10 +195,10 @@ For more information about the data displayed in each column, see the following 
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="7"> <p>Select <span class="bold">Use Planned (PLN)&nbsp;values in NET calculations</span> to use Planned instead of Budgeted information when calculating the Net values in the Project and Role views. </p> <p>When selecting this option <em>Workfront</em> calculates the Net values using the following formula: </p> <p><code>Net = Available - Planned</code> </p> <note type="tip">
+ <li value="7"> <p>Select <span class="bold">Use Planned (PLN)&nbsp;values in NET calculations</span> to use Planned instead of Budgeted information when calculating the Net values in the Project and Role views. </p> <p>When selecting this option <span>Workfront</span> calculates the Net values using the following formula: </p> <p><code>Net = Available - Planned</code> </p> <note type="tip">
    <span>This option is applied only when you select at least one option to customize the view in the Display selected items section.</span> 
   </note> </li> 
- <li value="8"> <p>Click <span class="bold">Save</span>. </p> <p>The customized view that includes your selected columns displays. </p> <p>The <em>Resource Planner</em> lists the customized view as Custom in the Hours drop-down menu. </p> <note type="note">
+ <li value="8"> <p>Click <span class="bold">Save</span>. </p> <p>The customized view that includes your selected columns displays. </p> <p>The <span>Resource Planner</span> lists the customized view as Custom in the Hours drop-down menu. </p> <note type="note">
    You can have only one customized view. 
   </note> <p> <img src="assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png" style="width: 183;height: 281;"> </p> </li> 
 </ol>
@@ -210,7 +210,7 @@ You can display the Planned Allocation of users against their availability in a 
 To display the allocation of users in a chart:
 
 <ol> 
- <li value="1"> <p>Go to the <span class="bold">Planner</span>.</p> <p>For more information about accessing the <em>Resource Planner</em>, see the <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner" class="MCXref xref">Locate the Resource Planner</a> section in the article <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p> </li> 
+ <li value="1"> <p>Go to the <span class="bold">Planner</span>.</p> <p>For more information about accessing the <span>Resource Planner</span>, see the <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner" class="MCXref xref">Locate the Resource Planner</a> section in the article <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p> </li> 
  <li value="2"> <p>Select <span class="bold">View by User</span>.</p> <note type="tip">
    You can view the User Allocation Chart only in the User View. 
   </note> </li> 

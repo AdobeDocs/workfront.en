@@ -4,16 +4,16 @@ product: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Create and Manage Custom Views in Workfront Proof Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: You can create custom views of your files and proofs to list the items you want in the ways you want them displayed. You can also export the information in your Custom view as a report (in CSV, comma separated value, file format).
 ---
 
-# Create and Manage Custom Views in *Workfront Proof* Proof
+# Create and Manage Custom Views in `Workfront Proof` Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-You can create custom views of your files and *proofs* to list the items you want in the ways you want them displayed. You can also export the information in your Custom view as a report (in CSV, comma separated value, file format).
+You can create custom views of your files and `proofs` to list the items you want in the ways you want them displayed. You can also export the information in your Custom view as a report (in CSV, comma separated value, file format).
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ You can create custom views of your files and *proofs* to list the items you wan
 
 When you create a custom view, you can choose:
 
-* Whether to include *proofs*, files, or both
+* Whether to include `proofs`, files, or both
 * Which columns are displayed
 * Which column&nbsp;to sort by
 * The sort order for the&nbsp;column (ascending or descending)
@@ -46,7 +46,7 @@ To create a custom view:
  <li value="3"> <p>In the <span class="bold">Details</span> section, specify the following information:</p> 
   <ul> 
    <li><span class="bold">Name</span> (required): The name for the new view. Use a unique name so users can easily find the custom view in the drop-down menu on the Views.</li> 
-   <li><span class="bold">Items</span>: Select whether you want both <em>proofs</em> and file, <em>proofs</em> only, or files only included in the view. By default, both <em>proofs</em> and files are included.</li> 
+   <li><span class="bold">Items</span>: Select whether you want both <span>proofs</span> and file, <span>proofs</span> only, or files only included in the view. By default, both <span>proofs</span> and files are included.</li> 
   </ul> </li> 
  <li value="4">In the <span class="bold">Columns</span> section, determine which columns you want to include in the custom view. 
   <ol style="list-style-type: lower-alpha;"> 
@@ -80,7 +80,7 @@ To create a custom view:
      </tr> 
      <tr> 
       <td><span class="bold">Counter</span></td> 
-      <td>Shows a number of the <em>proof</em> that has been uploaded on your account (you have to have a <em>proof</em> counter option enabled in Account Settings).</td> 
+      <td>Shows a number of the <span>proof</span> that has been uploaded on your account (you have to have a <span>proof</span> counter option enabled in Account Settings).</td> 
      </tr> 
      <tr> 
       <td><span class="bold">Created</span></td> 
@@ -91,12 +91,12 @@ To create a custom view:
       <td>The user who created the item.</td> 
      </tr> 
      <tr> 
-      <td><span class="bold">Date added to <em>proof</em></span></td> 
-      <td>The date you were&nbsp;added to the <em>proof</em>.&nbsp;</td> 
+      <td><span class="bold">Date added to <span>proof</span></span></td> 
+      <td>The date you were&nbsp;added to the <span>proof</span>.&nbsp;</td> 
      </tr> 
      <tr> 
       <td><span class="bold">Deadline</span></td> 
-      <td>The deadline for the whole <em>proof</em>.</td> 
+      <td>The deadline for the whole <span>proof</span>.</td> 
      </tr> 
      <tr> 
       <td><span class="bold">Decisions</span></td> 
@@ -108,7 +108,7 @@ To create a custom view:
      </tr> 
      <tr> 
       <td><span class="bold">Filename</span></td> 
-      <td>The name of the file or <em>proof</em>.</td> 
+      <td>The name of the file or <span>proof</span>.</td> 
      </tr> 
      <tr> 
       <td><span class="bold">Folder</span></td> 
@@ -124,7 +124,7 @@ To create a custom view:
      </tr> 
      <tr> 
       <td><span class="bold">My deadline</span></td> 
-      <td>Your own deadline on the <em>proofs</em> where you are explicitly added as a Reviewer/Approver (if applied).</td> 
+      <td>Your own deadline on the <span>proofs</span> where you are explicitly added as a Reviewer/Approver (if applied).</td> 
      </tr> 
      <tr> 
       <td><span class="bold">Owner</span></td> 
@@ -132,27 +132,27 @@ To create a custom view:
      </tr> 
      <tr> 
       <td><span class="bold">Owner country</span></td> 
-      <td>The country registered in the system for the owner of the <em>proof</em>.&nbsp;</td> 
+      <td>The country registered in the system for the owner of the <span>proof</span>.&nbsp;</td> 
      </tr> 
      <tr> 
-      <td><span class="bold">Parent <em>proof</em></span></td> 
-      <td>The name of the parent <em>proof</em>.</td> 
+      <td><span class="bold">Parent <span>proof</span></span></td> 
+      <td>The name of the parent <span>proof</span>.</td> 
      </tr> 
      <tr> 
       <td><span class="bold">Progress</span></td> 
-      <td><p>Progress bar.&nbsp;Displays <em>proofs</em> that are not yet Started, Opened, Commented on, or Decided on.</p><p>This information is not sorted on.</p></td> 
+      <td><p>Progress bar.&nbsp;Displays <span>proofs</span> that are not yet Started, Opened, Commented on, or Decided on.</p><p>This information is not sorted on.</p></td> 
      </tr> 
      <tr> 
       <td><span class="bold">Proof name</span></td> 
-      <td>The name of the <em>proof</em>.</td> 
+      <td>The name of the <span>proof</span>.</td> 
      </tr> 
      <tr> 
       <td><span class="bold">Proof type</span></td> 
-      <td><p>The type of <em>proof</em>: Static file, Static web page, Interactive web (.zip upload), Interactive web page (https), Video, Audio, and Other. </p><p>Combined <em>proofs</em> are identified as "Combined <em>proof</em> type." File type of the <em>proof</em>.</p></td> 
+      <td><p>The type of <span>proof</span>: Static file, Static web page, Interactive web (.zip upload), Interactive web page (https), Video, Audio, and Other. </p><p>Combined <span>proofs</span> are identified as "Combined <span>proof</span> type." File type of the <span>proof</span>.</p></td> 
      </tr> 
      <tr> 
       <td><span class="bold">Size on disk</span></td> 
-      <td><p>File size of the <em>proof</em> as it relates to the disk usage quota.</p><p>This information provided for the current version of the <em>proof</em>. If there is no current version, it is for the most recent version.</p></td> 
+      <td><p>File size of the <span>proof</span> as it relates to the disk usage quota.</p><p>This information provided for the current version of the <span>proof</span>. If there is no current version, it is for the most recent version.</p></td> 
      </tr> 
      <tr> 
       <td><span class="bold">Stage deadlines</span></td> 
@@ -184,7 +184,7 @@ To create a custom view:
      </tr> 
      <tr> 
       <td><span class="bold">Proof version number</span></td> 
-      <td><font size="2">The version number of the <em>proof</em>.</font></td> 
+      <td><font size="2">The version number of the <span>proof</span>.</font></td> 
      </tr> 
     </tbody> 
    </table> 
@@ -217,22 +217,22 @@ To create a custom view:
    <li><span class="bold">Field:</span>&nbsp;Select the Field for this filter (Comments is the default field.) The Field list contains all the Standard fields (as in the Columns tab). The list is not limited to the columns you selected for display.</li> 
    <li><span class="bold">Operator:</span>&nbsp;The Operators available for the filter depend on the type of Field you selected. Select an Operator that shows the relationship between the Field and the value field. You will fill in this information later.</li> 
    <li><span class="bold">Value:</span>&nbsp;Select or enter your chosen value in this Field, according to the field and the Operator you selected. Depending on the Operator you chose, there might be one Value field or two or none. &nbsp;See the examples below.</li> 
-   <li> <p><span class="bold">Filters are applied using the following logic:</span>&nbsp;Filter criteria between different fields will use the AND operator. Multiple filter criteria using the same field will use the OR operator for the same field.</p> <p>If you want to see only <em>proofs</em> with zero comments,select the following values:</p> 
+   <li> <p><span class="bold">Filters are applied using the following logic:</span>&nbsp;Filter criteria between different fields will use the AND operator. Multiple filter criteria using the same field will use the OR operator for the same field.</p> <p>If you want to see only <span>proofs</span> with zero comments,select the following values:</p> 
     <ul> 
      <li>Field: Comments</li> 
      <li>Operator: Equals</li> 
      <li>Value field: 0</li> 
-    </ul> <p> If you want to see only <em>proofs</em> with two or more comments, select the following values:</p> 
+    </ul> <p> If you want to see only <span>proofs</span> with two or more comments, select the following values:</p> 
     <ul> 
      <li>Field: Comments</li> 
      <li>&nbsp;Operator: Greater or equal to</li> 
      <li>Value field: 2</li> 
-    </ul> <p> If you want to see only <em>proofs</em> with between 1 and 4 comments, select the following values: </p> 
+    </ul> <p> If you want to see only <span>proofs</span> with between 1 and 4 comments, select the following values: </p> 
     <ul> 
      <li>Field: Comments</li> 
      <li>Operator: Between</li> 
      <li>Value field (first field): 1</li> 
-     <li> <p>Value field (second field): 4</p> <p>You can change a filter that you have added to your Custom view without any problems or remove it by clicking the cross icon next to the setup filter if needed.</p> <p>Because the Field list is not limited to the columns you selected on the Columns tab, take care when you create a filter that includes a column you did not select for display in your custom view. For example, the following filter for the view will select all <em>proofs</em> with a Version counter value of 2 or more: 
+     <li> <p>Value field (second field): 4</p> <p>You can change a filter that you have added to your Custom view without any problems or remove it by clicking the cross icon next to the setup filter if needed.</p> <p>Because the Field list is not limited to the columns you selected on the Columns tab, take care when you create a filter that includes a column you did not select for display in your custom view. For example, the following filter for the view will select all <span>proofs</span> with a Version counter value of 2 or more: 
        <ul> 
         <li>Field = Version counter</li> 
         <li>Operator = Greater or equal to</li> 
@@ -275,7 +275,7 @@ You can edit a custom view easily. To edit a custom view:
 
 ## Copying Custom Views
 
-The Copy view function lets you easily make a copy of an existing custom view. This is really useful, for example, if you want to set up separate views for all your designers, with each view being the same except for the *proof* owner (designer).
+The Copy view function lets you easily make a copy of an existing custom view. This is really useful, for example, if you want to set up separate views for all your designers, with each view being the same except for the `proof` owner (designer).
 
 To copy a custom view:
 

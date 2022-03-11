@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> licenses*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Templates</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information about access to templates, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Templates</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to templates, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,24 +41,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Edit a template
 
 <ol> 
  <li value="1"> <p>Go to the template you want to edit.</p> </li> 
- <li value="2"> <p>(Conditional) To edit limited information about the template, <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      click 
-     <span class="bold">Template Details</span> in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     click 
-    <span class="bold">Template Details</span> in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-   </MadCap:conditionalText></p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">To edit information in the Details section, click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png">, <span>then select from any of the areas below, or click&nbsp;<span class="bold">Edit all</span> to edit information in all areas</span>: </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">To edit information in the Details section, click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png">, <span>then select from any of the areas below, or click&nbsp;<span class="bold">Edit all</span> to edit information in all areas</span>: </p> 
+ <li value="2"> <p>(Conditional) To edit limited information about the template, click Template Details in the left panel, then go to the areas listed in the left panel to edit information for each area.</p> </li> 
+ <li value="3"> To edit information in the Details section, click the Edit icon , then select from any of the areas below, or click Edit all to edit information in all areas: 
   <ul> 
    <li> <p>Overview</p> </li> 
    <li> <p>Custom Forms </p> <p>Names of customs forms display only if there are custom forms attached to the object.</p> </li> 
@@ -66,15 +56,7 @@ You must have the following access to perform the steps in this article:
   </ul> <note type="tip">
    For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below. 
   </note> </li> 
- <li value="4"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Conditional) To edit all information about the template, click the <span class="bold">More</span> menu <img src="assets/qs-more-icon-on-an-object.png"> next to the name of the template, then click <span class="bold">Edit</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Conditional) To edit all information about the template, click the <span class="bold">More</span> menu <img src="assets/qs-more-icon-on-an-object.png"> next to the name of the template, then click <span class="bold">Edit</span>.</p> <p>The <span class="bold">Edit Template</span> box opens. The sections in this box contain the same fields available in <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      the Template Details section 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     the Template Details section 
-   </MadCap:conditionalText>.</p> </li> 
+ <li value="4"> (Conditional) To edit all information about the template, click the More menu next to the name of the template, then click Edit. <p>The <span class="bold">Edit Template</span> box opens. The sections in this box contain the same fields available in the Template Details section.</p> </li> 
  <li value="5"> <p>Consider editing information in any of the following sections:</p> 
   <ul> 
    <li><a href="#overview" class="MCXref xref">Overview</a> </li> 
@@ -83,10 +65,7 @@ You must have the following access to perform the steps in this article:
    <li><a href="#settings" class="MCXref xref">Settings</a> </li> 
    <li><a href="#access" class="MCXref xref">Access</a> </li> 
    <li><a href="#custom-forms" class="MCXref xref">Custom Forms</a> </li> 
-   <li><a href="#tasks" class="MCXref xref">Tasks</a> </li> <draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="#issues" class="MCXref xref">Issues</a> </li>
-   </draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="#issues" class="MCXref xref">Issues</a> </li> 
+   <li><a href="#tasks" class="MCXref xref">Tasks</a> </li> Issues 
    <li><a href="#comment" class="MCXref xref">Comment</a> </li> 
   </ul> </li> 
 </ol>
@@ -95,9 +74,7 @@ You must have the following access to perform the steps in this article:
 
 <ol> 
  <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Overview</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-overview-with-tasks-and-issues-350x210.png" style="width: 350;height: 210;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-overview-with-tasks-and-issues-350x210.png" style="width: 350;height: 210;"> </p> </li> 
+ <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Overview</span>.</p>  </li> 
  <li value="3">Update the following fields: <p> 
    <table cellspacing="0"> 
     <col> 
@@ -113,12 +90,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Is Active</span></td> 
-      <td><p>Select this checkbox if you want the template to be active. Other users can find this template and attach it to projects when creating projects. Deselect this checkbox if you want to deactivate templates that are no longer used. Deactivated templates cannot be attached to projects. This is enabled by default. </p><note type="tip">
-        You can deactivate a template from the template header by clicking the 
-        <span class="bold">More</span> menu 
-        <img src="assets/qs-more-icon-on-an-object.png">, then 
-        <span class="bold">Deactivate Template</span>.
-       </note></td> 
+      <td><p>Select this checkbox if you want the template to be active. Other users can find this template and attach it to projects when creating projects. Deselect this checkbox if you want to deactivate templates that are no longer used. Deactivated templates cannot be attached to projects. This is enabled by default. </p>Tip: You can deactivate a template from the template header by clicking the More menu , then Deactivate Template.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">URL</span></td> 
@@ -128,16 +100,16 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader"><span class="bold">Schedule From</span></td> 
       <td><p>Specify whether the project using this template is scheduled from the <span class="bold">Start Date</span>, or from the <span class="bold">Completion Date</span>. This selection determines the planned dates of the future tasks on the project using this template. </p><p>Select from the following: </p> 
        <ul> 
-        <li><p><span class="bold">Schedule From Start Date</span>: The Start Date of the template is actually the Start Day. When you schedule a template from Start Date, <em>Adobe Workfront</em> calculates the Completion Day of the template based on the Duration of all the template tasks. The Start Day of the template becomes the Planned Start Date of the future project.</p></li> 
-        <li><p><span class="bold">Schedule from Completion Date</span>: The Completion Date of the template is actually the Completion Day. When you schedule a template from Completion Date, <em>Workfront</em> calculates the Start Day of the template based on the Duration of all the template tasks. The Completion Day of the template becomes the Planned Completion Date of the future project. </p></li> 
-       </ul><p>For more information about the Start and Completion Days of template tasks, see <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Overview of Start and Completion Days in a template</a>. </p><p>The Schedule From setting for templates is similar to that of projects. Your <em>Workfront administrator</em> selects the default Schedule From setting for the projects in your system. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></td> 
+        <li><p><span class="bold">Schedule From Start Date</span>: The Start Date of the template is actually the Start Day. When you schedule a template from Start Date, <span>Adobe Workfront</span> calculates the Completion Day of the template based on the Duration of all the template tasks. The Start Day of the template becomes the Planned Start Date of the future project.</p></li> 
+        <li><p><span class="bold">Schedule from Completion Date</span>: The Completion Date of the template is actually the Completion Day. When you schedule a template from Completion Date, <span>Workfront</span> calculates the Start Day of the template based on the Duration of all the template tasks. The Completion Day of the template becomes the Planned Completion Date of the future project. </p></li> 
+       </ul><p>For more information about the Start and Completion Days of template tasks, see <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Overview of Start and Completion Days in a template</a>. </p><p>The Schedule From setting for templates is similar to that of projects. Your <span>Workfront administrator</span> selects the default Schedule From setting for the projects in your system. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Condition Type</span></td> 
       <td><p>Select between the following Condition Types:</p> 
        <ul> 
         <li><span class="bold">Manual:</span> The project owner sets the Condition of the project on the project manually. <span class="bold"><br></span></li> 
-        <li><span class="bold">Progress Status:</span> <em>Workfront</em> automatically sets the Condition of the future project based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
+        <li><span class="bold">Progress Status:</span> <span>Workfront</span> automatically sets the Condition of the future project based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
        </ul></td> 
      </tr> 
      <tr> 
@@ -149,11 +121,11 @@ You must have the following access to perform the steps in this article:
         <li><p><span class="bold">Normal</span></p></li> 
         <li><p><span class="bold">High</span></p></li> 
         <li><p><span class="bold">Urgent</span></p></li> 
-       </ul><p><p>Depending on the Project Preferences selected by your <em>Workfront administrator</em>, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
+       </ul><p><p>Depending on the Project Preferences selected by your <span>Workfront administrator</span>, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Template Owner</span></td> 
-      <td><p>The user who is designated as the Template Owner must be a <em>Workfront</em> active user. </p><p>Consider the following about the user designated as the Template Owner: </p> 
+      <td><p>The user who is designated as the Template Owner must be a <span>Workfront</span> active user. </p><p>Consider the following about the user designated as the Template Owner: </p> 
        <ul> 
         <li>They are automatically given Manage permissions to the template. </li> 
         <li>They are added to the project team and are automatically given Manage permissions to the project created from the template. </li> 
@@ -162,41 +134,12 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Template Sponsor</span></td> 
-      <td><p>The user specified in this field becomes the Project Sponsor, when the template is added to the project. This user is added to the project team and is automatically given view permissions to the project. The user who is designated as the Template Sponsor must be a <em>Workfront</em> active user. </p></td> 
+      <td><p>The user specified in this field becomes the Project Sponsor, when the template is added to the project. This user is added to the project team and is automatically given view permissions to the project. The user who is designated as the Template Sponsor must be a <span>Workfront</span> active user. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Resource Manager</span></td> 
       <td><p>The specified users are automatically given manage permissions to the future projects and can assign resources to the tasks and issues of the projects. You can specify more than one Resource Manager. </p></td> 
-     </tr> <draft-comment>
-      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-       <td role="rowheader">Group</td> 
-       <td><p>In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. </p><p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.<draft-comment>
-          <MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-            Depending on the details configured for the group, you might also see its Business Leader and description. 
-          </MadCap:conditionalText>
-         </draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-           Depending on the details configured for the group, you might also see its Business Leader and description. 
-         </MadCap:conditionalText></p> <note type="note">  
-         <ul> 
-          <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
-          <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
-          <li>Though this field is available in templates only in <em>the new Adobe Workfront experience</em>, you can see it in lists and reports both there and in <em>Adobe Workfront Classic</em>. </li> 
-         </ul> 
-        </note></td> 
-      </tr>
-     </draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Group</td> 
-      <td><p>In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. </p><p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-          Depending on the details configured for the group, you might also see its Business Leader and description. 
-        </MadCap:conditionalText></p> <note type="note">  
-        <ul> 
-         <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
-         <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
-         <li>Though this field is available in templates only in <em>the new Adobe Workfront experience</em>, you can see it in lists and reports both there and in <em>Adobe Workfront Classic</em>. </li> 
-        </ul> 
-       </note></td> 
-     </tr> 
+     </tr> Group In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. You can make sure you are selecting the right group by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. Note: In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project. This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected. If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project. Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. 
      <tr> 
       <td role="rowheader"><span class="bold">Company</span></td> 
       <td><p>Specify the Company that you want to associate with the template. Only active companies display in the list.</p></td> 
@@ -210,9 +153,7 @@ You must have the following access to perform the steps in this article:
 
 <ol> 
  <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Finance</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-finance-with-tasks-and-issues-350x259.png" style="width: 350;height: 259;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-finance-with-tasks-and-issues-350x259.png" style="width: 350;height: 259;"> </p> </li> 
+ <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Finance</span>.</p>  </li> 
  <li value="3">Update the following fields: <p> 
    <table cellspacing="0"> 
     <col> 
@@ -251,9 +192,7 @@ You must have the following access to perform the steps in this article:
 
 <ol> 
  <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Portfolio</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-portfolio-with-tasks-and-issues-350x228.png" style="width: 350;height: 228;"> <br> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-portfolio-with-tasks-and-issues-350x228.png" style="width: 350;height: 228;"> <br> </p> </li> 
+ <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Portfolio</span>.</p>  </li> 
  <li value="3">Update the following fields: <p> 
    <table cellspacing="0">
      class="TableStyle-TableStyle-List-options-in-steps-Column-Column1" /> 
@@ -280,9 +219,7 @@ You must have the following access to perform the steps in this article:
 
 <ol> 
  <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Settings</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-settings-with-tasks-and-issues-350x336.png" style="width: 350;height: 336;"> <br> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-settings-with-tasks-and-issues-350x336.png" style="width: 350;height: 336;"> <br> </p> </li> 
+ <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Settings</span>.</p>  </li> 
  <li value="3"> <p>Update the following fields: </p> 
   <table cellspacing="0"> 
    <col> 
@@ -350,7 +287,7 @@ You must have the following access to perform the steps in this article:
      <td> <p>Select from the following options:<br></p> 
       <ul> 
        <li> <p><span class="bold">Manual</span>: you must manually level your resources on the project created from this template (this is the default setting)</p> </li> 
-       <li> <p><span class="bold">Automatic:</span> <em>Workfront</em> levels the resources on the future project. <br>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>. </p> </li> 
+       <li> <p><span class="bold">Automatic:</span> <span>Workfront</span> levels the resources on the future project. <br>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>. </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -372,7 +309,7 @@ You must have the following access to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader"><span class="bold">Approval Process</span> </td> 
-     <td> <p>Select the approval process you want to associate with the template. Your <em>Workfront administrator</em> or a user with administrative access to Approval Processes must define system-level or group-level project approval processes before you can associate them with a template. For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
+     <td> <p>Select the approval process you want to associate with the template. Your <span>Workfront administrator</span> or a user with administrative access to Approval Processes must define system-level or group-level project approval processes before you can associate them with a template. For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
       <ul> 
        <li>Only active approval processes display in the list. </li> 
        <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the template does not display in the list.</p> <note type="important">
@@ -406,9 +343,7 @@ You must have the following access to perform the steps in this article:
 
 <ol> 
  <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Access</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-access-with-tasks-and-issues-350x241.png" class="preview" style="width: 350;height: 241;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-access-with-tasks-and-issues-350x241.png" class="preview" style="width: 350;height: 241;"> </p> <p>The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project. </p> <p>Specify the following <span class="bold">Access</span> information for the template:</p> <p> 
+ <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Access</span>.</p>  <p>The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project. </p> <p>Specify the following <span class="bold">Access</span> information for the template:</p> <p> 
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -448,14 +383,21 @@ You must have the following access to perform the steps in this article:
 
 ### Custom Forms
 
-<ol> 
- <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Custom Forms</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-tempate-custom-forms-tasks-with-issues-sections-350x136.png" alt="edit_tempate_custom_forms.png" style="width: 350;height: 136;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-tempate-custom-forms-tasks-with-issues-sections-350x136.png" alt="edit_tempate_custom_forms.png" style="width: 350;height: 136;"> </p> </li> 
- <li value="3"> <p>Select the custom form or forms that you want to associate with the template. You must build the custom forms before they are available to select in this field. </p> <p>Only active custom forms display in the list. For more information about building custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>. </p> <p>You can add up to ten custom forms to a template. </p> <p>The forms will be added to the project that is created from this template. </p> </li> 
- <li value="4"> <p>(Optional) Continue editing the following section, depending on the information you want to modify.</p> <p>Or</p> <p>Click <span class="bold">Save Changes</span>.</p> </li> 
-</ol>
+1. Begin editing your template as described above.
+1. In the `Edit Template` box, click `Custom Forms`.
+1. Select the custom form or forms that you want to associate with the template. You must build the custom forms before they are available to select in this field.
+
+   Only active custom forms display in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+   You can add up to ten custom forms to a template.
+
+   The forms will be added to the project that is created from this template. 
+
+1. (Optional) Continue editing the following section, depending on the information you want to modify.
+
+   Or
+
+   Click `Save Changes`.
 
 ### Tasks
 
@@ -465,13 +407,11 @@ For information about how these settings affect creating new tasks, see [Create 
 
 <ol> 
  <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Tasks</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-with-tasks-and-issue-sections-350x144.png" style="width: 350;height: 144;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-template-with-tasks-and-issue-sections-350x144.png" style="width: 350;height: 144;"> </p> </li> 
+ <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Tasks</span>.</p>  </li> 
  <li value="3"> <p>In the <span class="bold">Task Default Approval Process</span> box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Creating Approval Processes</a>.</p> </li> 
  <li value="4"> <p>In the <span class="bold">Task Default Custom Forms</span> box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md">Creating Custom Forms</a>. You can associate up to ten custom forms with a task.</p> </li> 
- <li value="5"> <p>(Optional) <b>Select Use Work Effort to automatically calculate task Planned Hours</b> if you want to enable managing task effort by using&nbsp;<em>Work Effort</em> instead of Planned Hours in the project created from the template.</p> </li> 
- <li value="6"> <p>(Conditional and optional) If you selected Use <em>Work Effort</em> to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of <em>Work Effort</em>. The following percentage values are the defaults:</p> 
+ <li value="5"> <p>(Optional) <b>Select Use Work Effort to automatically calculate task Planned Hours</b> if you want to enable managing task effort by using&nbsp;<span>Work Effort</span> instead of Planned Hours in the project created from the template.</p> </li> 
+ <li value="6"> <p>(Conditional and optional) If you selected Use <span>Work Effort</span> to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of <span>Work Effort</span>. The following percentage values are the defaults:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -489,48 +429,25 @@ For information about how these settings affect creating new tasks, see [Create 
      <td>75%</td> 
     </tr> 
    </tbody> 
-  </table> <p>For information about using <em>Work Effort</em> to manage the effort on tasks on projects, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>.</p> </li> 
+  </table> <p>For information about using <span>Work Effort</span> to manage the effort on tasks on projects, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>.</p> </li> 
  <li value="7"> <p>(Optional) Continue editing the following section, depending on the information you want to modify.</p> <p>Or</p> <p>Click <span class="bold">Save Changes</span>.</p> </li> 
 </ol>
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<h3><a name="Issues"></a>Issues</h3>
-<p>By editing issue settings, you can prevent users from adding issues inline in the future project created from the template. </p>
-<ol>
-<li value="1">Begin editing your template as described above.</li>
-<li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Issues</span>.</p> <p> <img src="assets/edit-template-box-with-issues-nwe-350x171.png" style="width: 350;height: 171;"> </p> </li>
-<li value="3"> <p>(Optional) Deselect the <span class="bold">Allow users to add issues inline</span> option. It is enabled by default.</p> <p>When disabling this option users cannot add issues inline to the project or the tasks in the Issues section, when the project is created from the template.</p> <note type="tip">
-Disable this option if you want to enforce users to complete the New Issue Fields or the custom forms associated with new issues.
-</note> <p>When disabling this option, users with permissions to add issues to the project created from the template can do so by using the New Issue button or a request queue associated with the project. </p> <p>For more information about configuring issue settings on projects, see the <a href="../../../manage-work/projects/manage-projects/edit-projects.md#issue" class="MCXref xref">Issue Settings</a> section in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> <p>For information about creating issues on projects, see <a href="../../../manage-work/issues/manage-issues/create-issues.md" class="MCXref xref">Create issues</a>. </p> </li>
-<li value="4"> <p>(Optional) Continue editing the following section, depending on the information you want to modify.</p> <p>Or</p> <p>Click <span class="bold">Save Changes</span>.</p> </li>
-</ol>
-</div>
--->
-
-### Issues
-
-By editing issue settings, you can prevent users from adding issues inline in the future project created from the template.
-
-<ol> 
- <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Issues</span>.</p> <p> <img src="assets/edit-template-box-with-issues-nwe-350x171.png" style="width: 350;height: 171;"> </p> </li> 
- <li value="3"> <p>(Optional) Deselect the <span class="bold">Allow users to add issues inline</span> option. It is enabled by default.</p> <p>When disabling this option users cannot add issues inline to the project or the tasks in the Issues section, when the project is created from the template.</p> <note type="tip">
-   Disable this option if you want to enforce users to complete the New Issue Fields or the custom forms associated with new issues. 
-  </note> <p>When disabling this option, users with permissions to add issues to the project created from the template can do so by using the New Issue button or a request queue associated with the project. </p> <p>For more information about configuring issue settings on projects, see the <a href="../../../manage-work/projects/manage-projects/edit-projects.md#issue" class="MCXref xref">Issue Settings</a> section in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> <p>For information about creating issues on projects, see <a href="../../../manage-work/issues/manage-issues/create-issues.md" class="MCXref xref">Create issues</a>. </p> </li> 
- <li value="4"> <p>(Optional) Continue editing the following section, depending on the information you want to modify.</p> <p>Or</p> <p>Click <span class="bold">Save Changes</span>.</p> </li> 
-</ol>
+Issues By editing issue settings, you can prevent users from adding issues inline in the future project created from the template. Begin editing your template as described above. In the Edit Template box, click Issues. (Optional) Deselect the Allow users to add issues inline option. It is enabled by default. When disabling this option users cannot add issues inline to the project or the tasks in the Issues section, when the project is created from the template. Tip: Disable this option if you want to enforce users to complete the New Issue Fields or the custom forms associated with new issues. When disabling this option, users with permissions to add issues to the project created from the template can do so by using the New Issue button or a request queue associated with the project. For more information about configuring issue settings on projects, see the Issue Settings section in the article Edit projects. For information about creating issues on projects, see Create issues. (Optional) Continue editing the following section, depending on the information you want to modify. Or Click Save Changes. 
 
 ### Comment
 
-<ol> 
- <li value="1">Begin editing your template as described above.</li> 
- <li value="2"> <p>In the <span class="bold">Edit Template</span> box, click <span class="bold">Comment</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-templates-comment-with-tasks-and-issues-350x177.png" alt="edit_templates_comment.png" style="width: 350;height: 177;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-templates-comment-with-tasks-and-issues-350x177.png" alt="edit_templates_comment.png" style="width: 350;height: 177;"> </p> </li> 
- <li value="3"> <p>Specify a comment that you want to display in the updates stream of the template in the available field. </p> <p>This comment is visible for everyone with View access to the template and with access to view Notes.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Save Changes</span>.</p> <p>Your changes will be submitted for this template. </p> <p>Now, when you use this template to create a project all these settings will transfer to the new project. </p> </li> 
-</ol>
+1. Begin editing your template as described above.
+1. In the `Edit Template` box, click `Comment`.
+1. Specify a comment that you want to display in the updates stream of the template in the available field.
+
+   This comment is visible for everyone with View access to the template and with access to view Notes.
+
+1. Click `Save Changes`.
+
+   Your changes will be submitted for this template.
+
+   Now, when you use this template to create a project all these settings will transfer to the new project.
 
 ## Edit templates in bulk
 
@@ -538,36 +455,20 @@ You can edit templates in bulk and update all their information at the same time
 
 To edit templates in bulk:
 
-<ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Adobe Workfront</em>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-   <span class="bold">Main Menu</span> icon 
-   <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-   <em>Adobe Workfront</em>. 
-  </MadCap:conditionalText></li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click 
-    <span class="bold">Templates</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-   <span class="bold">Templates</span>. 
-  </MadCap:conditionalText></li> 
- <li value="3">Select several templates in the list.</li> 
- <li value="4"> <p>Click <span class="bold">Edit</span>.</p> <p>The <span class="bold">Edit Templates</span> dialog box opens.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-templates-in-bulk-box-nwe-350x327.png" style="width: 350;height: 327;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-templates-in-bulk-box-nwe-350x327.png" style="width: 350;height: 327;"> </p> </li> 
- <li value="5"> <p> Click the sections on the left to edit all selected templates.</p> <p>For more information about editing information on templates, see the <a href="#edit-a-template" class="MCXref xref">Edit a template</a> section in this article.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Save Changes</span>. </p> <p>All changes you made are now visible on all the selected templates. </p> </li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront.
+1. Click Templates.
+1. Select several templates in the list.
+1. Click `Edit`.
+
+   The `Edit Templates` dialog box opens.
+
+1. Click the sections on the left to edit all selected templates.
+
+   For more information about editing information on templates, see the [Edit a template](#edit-a-template) section in this article.
+
+1. Click `Save Changes`.
+
+   All changes you made are now visible on all the selected templates.
 
 ## Add tasks to a template
 
@@ -588,15 +489,7 @@ Adding the following items to a template is identical to adding them to a projec
 * Documents
 * Risks
 
-  For more information about creating risks, see the
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  <a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create" class="MCXref xref">Create and edit risks on projects</a>
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  <a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create" class="MCXref xref">Create and edit risks on projects</a> </MadCap:conditionalText>` section in the article [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  For more information about creating risks, see theCreate and edit risks on projects section in the article [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Approval processes
 
@@ -626,66 +519,6 @@ You can add the following items to the tasks in the template:
   For more information about associating approvals with work, see [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Edit"></a>Overview of Start and Completion Days in a template</h2>
-<ul>
-<li><a href="#start%20da" class="MCXref xref">Start Day</a> </li>
-<li><a href="#completi" class="MCXref xref">Completion Day</a> </li>
-</ul>
-<h3><a name="Start Da"></a>Start Day</h3>
-<p>Consider the following when working with templates and template tasks:</p>
-<ul>
-<li>By default, templates have a Start Day of 0 and the template tasks and the template show a Start Day of 0. The Start Day of the template tasks can change but this does not change the Start Day of the template.</li>
-<li>The start day of a template task represents the number of business days that <em>Workfront</em> adds to the task's Planned Start Date when a project is created from the template. For example, you can have a template with only one task and the Start Day of the template task is 4. The Start Day of the template is still 0. When you create a project from this template where the project's Schedule Mode is Start Date, and the Planned Start Date of the project is November 1, 2019, the newly-created task adds 4 days to this date and sets its Planned Start Date value to November 5, 2019. </li>
-</ul>
-<p>The following are some actions that might change the Start Day of the template tasks:</p>
-<ul>
-<li>Update the Duration of predecessor template tasks</li>
-<li> <p>Update the Task Constraints</p> <p>When using date-based Task Constraints, you can manually update the Start Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Start No Earlier Than, Start No Later Than, Must Start On. </p> </li>
-<li>Update the template task predecessors</li>
-</ul>
-<h3><a name="Completi"></a>Completion Day</h3>
-<p>The Completion Day of the template is the day when the last template task completes. By default, all template tasks and the template show a Completion Day of 1, because Workfront assumes that any template task has a Duration of 1 Day. The Completion Day of the template tasks can change and this also changes the Completion Day of the template. The Completion Day of the template becomes the Planned Completion Date of the future project and the Completion Days of the template tasks become the Planned Completion Dates of the future project tasks. </p>
-<p>The following are some actions that might change the Completion Day of the template tasks:</p>
-<ul>
-<li>Update the Duration of the template tasks</li>
-<li> <p>Update the Task Constraints</p> <p>When using date-based Task Constraints, you can manually update the Completion Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Finish No Earlier Than, Finish No Later Than, Must Finish On. </p> </li>
-<li>Update the template task predecessors</li>
-</ul>
-</div>
+Overview of Start and Completion Days in a template Start Day Completion Day Start Day Consider the following when working with templates and template tasks: By default, templates have a Start Day of 0 and the template tasks and the template show a Start Day of 0. The Start Day of the template tasks can change but this does not change the Start Day of the template. The start day of a template task represents the number of business days that Workfront adds to the task's Planned Start Date when a project is created from the template. For example, you can have a template with only one task and the Start Day of the template task is 4. The Start Day of the template is still 0. When you create a project from this template where the project's Schedule Mode is Start Date, and the Planned Start Date of the project is November 1, 2019, the newly-created task adds 4 days to this date and sets its Planned Start Date value to November 5, 2019. The following are some actions that might change the Start Day of the template tasks: Update the Duration of predecessor template tasks Update the Task Constraints When using date-based Task Constraints, you can manually update the Start Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Start No Earlier Than, Start No Later Than, Must Start On. Update the template task predecessors Completion Day The Completion Day of the template is the day when the last template task completes. By default, all template tasks and the template show a Completion Day of 1, because Workfront assumes that any template task has a Duration of 1 Day. The Completion Day of the template tasks can change and this also changes the Completion Day of the template. The Completion Day of the template becomes the Planned Completion Date of the future project and the Completion Days of the template tasks become the Planned Completion Dates of the future project tasks. The following are some actions that might change the Completion Day of the template tasks: Update the Duration of the template tasks Update the Task Constraints When using date-based Task Constraints, you can manually update the Completion Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Finish No Earlier Than, Finish No Later Than, Must Finish On. Update the template task predecessors
 -->
-
-## Overview of Start and Completion Days in a template
-
-* [Start Day](#start%20da) 
-* [Completion Day](#completi)
-
-### Start Day
-
-Consider the following when working with templates and template tasks:
-
-* By default, templates have a Start Day of 0 and the template tasks and the template show a Start Day of 0. The Start Day of the template tasks can change but this does not change the Start Day of the template.
-* The start day of a template task represents the number of business days that *Workfront* adds to the task's Planned Start Date when a project is created from the template. For example, you can have a template with only one task and the Start Day of the template task is 4. The Start Day of the template is still 0. When you create a project from this template where the project's Schedule Mode is Start Date, and the Planned Start Date of the project is November 1, 2019, the newly-created task adds 4 days to this date and sets its Planned Start Date value to November 5, 2019.
-
-The following are some actions that might change the Start Day of the template tasks:
-
-* Update the Duration of predecessor template tasks
-* Update the Task Constraints
-
-  When using date-based Task Constraints, you can manually update the Start Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Start No Earlier Than, Start No Later Than, Must Start On. 
-
-* Update the template task predecessors
-
-### Completion Day
-
-The Completion Day of the template is the day when the last template task completes. By default, all template tasks and the template show a Completion Day of 1, because Workfront assumes that any template task has a Duration of 1 Day. The Completion Day of the template tasks can change and this also changes the Completion Day of the template. The Completion Day of the template becomes the Planned Completion Date of the future project and the Completion Days of the template tasks become the Planned Completion Dates of the future project tasks.
-
-The following are some actions that might change the Completion Day of the template tasks:
-
-* Update the Duration of the template tasks
-* Update the Task Constraints
-
-  When using date-based Task Constraints, you can manually update the Completion Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Finish No Earlier Than, Finish No Later Than, Must Finish On. 
-
-* Update the template task predecessors
 

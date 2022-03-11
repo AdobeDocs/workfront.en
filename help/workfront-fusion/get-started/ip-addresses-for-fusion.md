@@ -8,12 +8,12 @@ title: IP Addresses for accessing Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-# IP Addresses for accessing *Adobe Workfront Fusion*
+# IP Addresses for accessing `Adobe Workfront Fusion`
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
-If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist in order to allow open communication between your environment and *Adobe Workfront Fusion*.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist in order to allow open communication between your environment and `Adobe Workfront Fusion`.
 
-Add the following IP addresses to your allowlist to enable *Workfront Fusion* to access your system.
+Add the following IP addresses to your allowlist to enable `Workfront Fusion` to access your system.
 
 <table cellspacing="0"> 
  <col> 
@@ -40,7 +40,7 @@ Add the following IP addresses to your allowlist to enable *Workfront Fusion* to
  </tbody> 
 </table>
 
-Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access *Workfront Fusion*.
+Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access `Workfront Fusion`.
 
 * hook.app.workfrontfusion.com
 

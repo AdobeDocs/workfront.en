@@ -28,42 +28,33 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to timesheets. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must have administrative access to timesheets. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Delete timesheets
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <b>Timesheets</b>.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <b>Timesheets</b>.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <b>All Timesheets</b> in the left panel.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <b>All Timesheets</b> in the left panel.</li> 
- <li value="4"> <p>Using the filters on the left side, filter for the timesheets you want to delete.</p> <p>You can filter timesheets by the following criteria:</p> 
-  <ul> 
-   <li>User name, their team or job role</li> 
-   <li>Approver name</li> 
-   <li>Timesheet Status</li> 
-   <li>Time Period of the timesheet</li> 
-  </ul> </li> 
- <li value="5">Select all timesheets that you want to delete and click <span class="bold">Delete</span>.</li> 
- <li value="6">Click <span class="bold">Yes, Delete it</span>.</li> 
-</ol>
+1. Using the filters on the left side, filter for the timesheets you want to delete.
+
+   You can filter timesheets by the following criteria:
+
+  * User name, their team or job role
+  * Approver name
+  * Timesheet Status
+  * Time Period of the timesheet
+
+1. Select all timesheets that you want to delete and click `Delete`.
+1. Click `Yes, Delete it`.
 

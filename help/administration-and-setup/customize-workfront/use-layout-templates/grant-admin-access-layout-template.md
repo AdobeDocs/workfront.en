@@ -10,7 +10,7 @@ description: As an Adobe Workfront administrator, you can grant administrative a
 
 # Grant administrative access for a layout template
 
-As an *Adobe Workfront administrator*, you can grant administrative access for a layout template to the *group administrators* of a particular group so that they can edit the template. This does not assign the template to the users in the group.
+As an `Adobe Workfront administrator`, you can grant administrative access for a layout template to the `group administrators` of a particular group so that they can edit the template. This does not assign the template to the users in the group.
 
 For information about assigning users to a layout template, see [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -27,16 +27,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,10 +46,10 @@ You must have the following to perform the steps in this article:
 <ol> 
  <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
  <li value="2">Click <span class="bold">Grant access to</span> in the top section of the page.</li> 
- <li value="3"> <p>In the box that appears, click <span class="bold">Add a group</span>, start typing the name of the group, click the name when it appears, then click <span class="bold">Done</span>. </p> <p>Any users designated as the <em>group administrators</em> for the group you specify can administer the layout template. However, the template is not assigned to the member of the group for their use. For information about assigning a layout template to a group, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign" class="MCXref xref">Assign a layout template to users</a> in this article.</p> <note type="note"> 
+ <li value="3"> <p>In the box that appears, click <span class="bold">Add a group</span>, start typing the name of the group, click the name when it appears, then click <span class="bold">Done</span>. </p> <p>Any users designated as the <span>group administrators</span> for the group you specify can administer the layout template. However, the template is not assigned to the member of the group for their use. For information about assigning a layout template to a group, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign" class="MCXref xref">Assign a layout template to users</a> in this article.</p> <note type="note"> 
    <ul> 
-    <li>When a <em>group administrator</em> creates a layout template, assigning administrative access is mandatory. The layout template is designated for and visible to only the specified group. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>. For information about <em>group administrators</em>, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</li> 
-    <li>If you don't grant administrative access to the <em>group administrators</em> in a particular group, all users who can edit user accounts have administrative access to the layout template. Some <em>Workfront administrators</em> purposefully choose not to grant administrative access for a layout template in order to make it a system-level layout template. </li> 
+    <li>When a <span>group administrator</span> creates a layout template, assigning administrative access is mandatory. The layout template is designated for and visible to only the specified group. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>. For information about <span>group administrators</span>, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</li> 
+    <li>If you don't grant administrative access to the <span>group administrators</span> in a particular group, all users who can edit user accounts have administrative access to the layout template. Some <span>Workfront administrators</span> purposefully choose not to grant administrative access for a layout template in order to make it a system-level layout template. </li> 
    </ul> 
   </note> </li> <note type="tip">
   You can 

@@ -9,7 +9,7 @@ description: A predecessor is the task another task (called a successor or depen
 
 # Overview of task predecessors
 
-A predecessor is the task another task (called a successor or dependent task) depends on. *Adobe Workfront* supports five types of predecessor dependencies. To understand predecessor dependencies, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+A predecessor is the task another task (called a successor or dependent task) depends on. `Adobe Workfront` supports five types of predecessor dependencies. To understand predecessor dependencies, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Predecessors overview
 
@@ -27,7 +27,7 @@ When it comes to predecessors, the project timeline is impacted by the following
 * Lag value and type  
   For more information on both dependency and lags, see [Examples of predecessor values in a task list](#understanding-predecessor-relationships).
 
-For example, if task A is a predecessor to task B in a finish-start relationship, and task B has a task constraint of As Soon As Possible, then *Workfront* assigns task B a planned start date immediately following the planned completion date of task A, regardless of whether the predecessor is enforced or not.
+For example, if task A is a predecessor to task B in a finish-start relationship, and task B has a task constraint of As Soon As Possible, then `Workfront` assigns task B a planned start date immediately following the planned completion date of task A, regardless of whether the predecessor is enforced or not.
 
 To understand predecessor relationships, you must understand:
 
@@ -35,7 +35,7 @@ To understand predecessor relationships, you must understand:
 
 * `Enforcing a predecessor:` When enforcing a predecessor, the successor task cannot start until the predecessor completes. The successor task shows as starting immediately after the predecessor is finished.
 
-  *Workfront* does not allow it to be marked as In Progress or Complete until the predecessor is complete. *Workfront* does, however, allow hours to be reported on the task.   
+  `Workfront` does not allow it to be marked as In Progress or Complete until the predecessor is complete. `Workfront` does, however, allow hours to be reported on the task.   
   For more information on enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * `Lags:` You can built lags in your dependencies which create a delay that must occur after the completion of a predecessor task and before the successor task can begin. Lags impact the timeline of the project.
@@ -55,22 +55,15 @@ To create predecessors, see any of the following articles:
 
 To find the predecessors of a task do one of the following:
 
-<ul> 
- <li>Go to the project you are working on and do the following: 
-  <ol> 
-   <li value="1">Find the task for which you want to find the predecessors and click the task.</li> 
-   <li value="2">
-    <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Predecessors</span> in the left panel. You might need to click <span class="bold">Show More</span>, then <span class="bold">Predecessors</span>. </p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Predecessors</span> in the left panel. You might need to click <span class="bold">Show More</span>, then <span class="bold">Predecessors</span>. </p></li> 
-   <li value="3">
-    <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The name of the project that the predecessor is on shows in the <span class="bold">Project</span> column. </p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The name of the project that the predecessor is on shows in the <span class="bold">Project</span> column. </p><p>The number in the <span class="bold">#</span> column shows the predecessor task number. For example "6" means the sixth task in the project. </p><draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/nwe-predecessors-tab-with-task-header-350x56.png" style="width: 350;height: 56;"></p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/nwe-predecessors-tab-with-task-header-350x56.png" style="width: 350;height: 56;"></p></li> 
-  </ol><p>&nbsp;</p></li> 
-</ul>
+* Go to the project you are working on and do the following:
+
+  1. Find the task for which you want to find the predecessors and click the task.
+  1. Click Predecessors in the left panel. You might need to click Show More, then Predecessors.
+  1. The name of the project that the predecessor is on shows in the Project column.
+
+     The number in the `#` column shows the predecessor task number. For example "6" means the sixth task in the project.
+
+  &nbsp;
 
 <ul> 
  <li>Go to the project you are working on and do the following: 
@@ -87,11 +80,11 @@ When you view predecessors in a list of tasks, you might see any of the followin
 
 <ul> 
  <li><span class="bold">1fs -</span> The predecessor task number is 1. The dependency type is Finish-Start. In the project timeline, this task is scheduled to start immediately after task 1 is finished. In spite of this, it can still be marked as In Progress or Complete.</li> 
- <li><span class="bold">1 -</span> The predecessor task number is 1. This is the same as <span class="bold">1fs</span>, because <span class="bold">fs</span> is the default predecessor relationship in <em>Workfront</em>.</li> 
- <li><span class="bold">1fse -</span> The predecessor task number is 1. The dependency type is Finish-Start-Enforced. In the project timeline, this task shows as starting immediately after task 1 is finished. <em>Workfront</em> does not allow it to be marked as In Progress or Complete until task 1 is complete. <em>Workfront</em> does, however, allow hours to be reported on the task. </li> 
+ <li><span class="bold">1 -</span> The predecessor task number is 1. This is the same as <span class="bold">1fs</span>, because <span class="bold">fs</span> is the default predecessor relationship in <span>Workfront</span>.</li> 
+ <li><span class="bold">1fse -</span> The predecessor task number is 1. The dependency type is Finish-Start-Enforced. In the project timeline, this task shows as starting immediately after task 1 is finished. <span>Workfront</span> does not allow it to be marked as In Progress or Complete until task 1 is complete. <span>Workfront</span> does, however, allow hours to be reported on the task. </li> 
  <li><span class="bold">1fs+3d -</span> The predecessor task number is 1. The dependency type is Finish-Start with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. </li> 
  <li><span class="bold">1fs-3d -</span> The predecessor task number is 1. The dependency type is Finish-Start with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays before the predecessor task is finished.</li> 
- <li> <p><span class="bold">1fs+3de</span> -The predecessor task number is 1. The dependency type is Finish-Start-Enforced with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. <em>Workfront</em> does not allow it to be marked as In Progress or Complete until Task 1 is complete. <em>Workfront</em> does, however, allow hours to be reported on the task. </p> <note type="note">
+ <li> <p><span class="bold">1fs+3de</span> -The predecessor task number is 1. The dependency type is Finish-Start-Enforced with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. <span>Workfront</span> does not allow it to be marked as In Progress or Complete until Task 1 is complete. <span>Workfront</span> does, however, allow hours to be reported on the task. </p> <note type="note">
    The enforced value (
    <span class="bold">e</span>) must be added to the Lag, not to the predecessor.
   </note> </li> 
@@ -100,26 +93,22 @@ When you view predecessors in a list of tasks, you might see any of the followin
 
 ## View predecessor information
 
-You can view predecessor information in the following areas of *Workfront*. This includes information about cross-project predecessors:
+You can view predecessor information in the following areas of `Workfront`. This includes information about cross-project predecessors:
 
-<ul> 
- <li> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">At the task level, in the Predecessors section. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">At the task level, in the Predecessors section. </p> <p>For information about viewing predecessor information in the Predecessors <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      section 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     section 
-   </MadCap:conditionalText>, see the section <a href="#finding-predecessors" class="MCXref xref">Locate the predecessors of a task</a> in this article.</p> </li> 
- <li> <p>In the Gantt chart. </p> <p>For information about displaying predecessors in the Gantt chart, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md" class="MCXref xref">Configure how information displays on the Gantt Chart </a>.</p> </li> 
- <li> <p>In a task list. </p> <p>To view information about the predecessors of your tasks in a task list you can do one of the following:</p> 
-  <ul> 
-   <li> <p>Apply the built-in Standard view in a list of tasks. </p> <p>For information about viewing predecessor information in the Standard view, see the section <a href="#finding-predecessors" class="MCXref xref">Locate the predecessors of a task</a> in this article.</p> </li> 
-   <li> <p>Build a task view or report and add the Predecessors column to that view. </p> <p>For more information about building a customized view for tasks with predecessor information, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md" class="MCXref xref">View: predecessor details</a>. </p> </li> 
-  </ul> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>In the task header when accessing the task.</p> <p> <img src="assets/qs-predecessor-info-in-task-header-350x141.png" style="width: 350;height: 141;"> </p> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>In the task header when accessing the task.</p> <p> <img src="assets/qs-predecessor-info-in-task-header-350x141.png" style="width: 350;height: 141;"> </p> </li> 
-</ul>
+* At the task level, in the Predecessors section. For information about viewing predecessor information in the Predecessors section, see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+* In the Gantt chart.
+
+  For information about displaying predecessors in the Gantt chart, see [Configure how information displays on the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+
+* In a task list.
+
+  To view information about the predecessors of your tasks in a task list you can do one of the following:
+
+  * Apply the built-in Standard view in a list of tasks.
+
+    For information about viewing predecessor information in the Standard view, see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+  
+  * Build a task view or report and add the Predecessors column to that view.
+
+    For more information about building a customized view for tasks with predecessor information, see [View: predecessor details](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 

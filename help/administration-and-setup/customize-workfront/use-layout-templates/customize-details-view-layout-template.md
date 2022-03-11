@@ -12,15 +12,13 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-As an *Adobe Workfront administrator*, you can use a layout template to determine what information appears when a user clicks the Details icon ![](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio
+As an `Adobe Workfront administrator`, you can use a layout template to determine what information appears when a user clicks the Details icon ![](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio
 
 <!--
-<MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 , or billing record
-</MadCap:conditionalText>
 -->
 
-`<MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> , or billing record</MadCap:conditionalText>`.
+.
 
 You can also change the order of the information in which this information appears. For example, for all tasks that your users see, you can move Custom Forms information to the top of the Details view for all tasks that your users see.
 
@@ -45,16 +43,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,18 +61,11 @@ You must have the following to perform the steps in this article:
 
 <ol> 
  <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
- <li value="2">Click the down arrow <img src="assets/dropdown-arrow-12x12.png" style="width: 12;height: 12;"> under <span class="bold">Customize what users see</span>, then click <span class="bold">Project, Task</span>, <span class="bold">Issue</span>, <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    <span class="bold">Document</span>, 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <span class="bold">Document</span>, 
-  </MadCap:conditionalText><span class="bold">Program</span>, or <span class="bold">Portfolio</span><draft-comment>
-   <span class="bold" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    <draft-comment>
-     <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">, or Billing Record</span>
-    </draft-comment><span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">, or Billing Record</span></span>
-  </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">, or Billing Record</span></span>.</li> 
+ <li value="2">Click the down arrow <img src="assets/dropdown-arrow-12x12.png" style="width: 12;height: 12;"> under <span class="bold">Customize what users see</span>, then click <span class="bold">Project, Task</span>, <span class="bold">Issue</span>, <!--
+   Document,
+  --><span class="bold">Program</span>, or <span class="bold">Portfolio</span><!--
+   , or Billing Record
+  -->.</li> 
  <li value="3">In the <span class="bold">Details</span> section, do any of the following to customize what users see in the Details view:
   <ul>
    <li>Drag any section headers <img src="assets/move-icon---dots.png"> to change their order.</li>

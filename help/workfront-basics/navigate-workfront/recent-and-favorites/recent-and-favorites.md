@@ -7,7 +7,7 @@ title: Recents and favorites in Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Recents and favorites in&nbsp;*Adobe Workfront*
+# Recents and favorites in  `Adobe Workfront`
 
 This section contains the following articles:
 

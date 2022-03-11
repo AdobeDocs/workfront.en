@@ -6,7 +6,7 @@ title: Workfront Library release activity
 description: Workfront Library release activity
 ---
 
-# *Workfront Library* release activity
+# `Workfront Library` release activity
 
 * [Workfront Library release activity - February 13, 2020](../../../product-announcements/product-releases/library-release-activity/library-release-activity-feb-13-2020.md) 
 * [Workfront Library release activity - January 29, 2020](../../../product-announcements/product-releases/library-release-activity/library-release-activity-jan-29-2020.md) 

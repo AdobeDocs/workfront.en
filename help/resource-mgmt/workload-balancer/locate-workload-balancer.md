@@ -7,28 +7,20 @@ title: Locate the Workload Balancer
 description: You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
 ---
 
-# Locate the&nbsp;*Workload Balancer*
+# Locate the  `Workload Balancer`
 
-You can use the *Workload Balancer* to schedule resources for work or review their availability and current allocations.
+You can use the `Workload Balancer` to schedule resources for work or review their availability and current allocations.
 
-You can access the&nbsp;*Workload Balancer* in the following ways:
+You can access the  `Workload Balancer` in the following ways:
 
-* From several areas predefined by *Adobe Workfront* 
-* By adding it to a custom 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  section </MadCap:conditionalText>`
+* From several areas predefined by `Adobe Workfront` 
+* By adding it to a custom section
 
 >[!NOTE]
 >
->Regardless of the method you use to access the *Workload Balancer*, navigating it and managing resources is identical. 
+>Regardless of the method you use to access the `Workload Balancer`, navigating it and managing resources is identical. 
 >
->For information about the&nbsp;*Workload Balancer* and how to use it for managing and scheduling your resources for work, see the following articles: 
+>For information about the  `Workload Balancer` and how to use it for managing and scheduling your resources for work, see the following articles: 
 >
 >* [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 >* [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) 
@@ -45,12 +37,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -60,7 +52,7 @@ You must have the following access to perform the steps in this article:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -69,79 +61,37 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Locate the *Workload Balancer* in predefined areas
+## Locate the `Workload Balancer` in predefined areas
 
-The following sections illustrate where you can access the *Workload Balancer* within *Workfront*, as well as the functionality available in each area.
+The following sections illustrate where you can access the `Workload Balancer` within `Workfront`, as well as the functionality available in each area.
 
-You can manage resources in the following predefined areas in *Workfront*:
+You can manage resources in the following predefined areas in `Workfront`:
 
 For multiple projects:
 
-<ul> 
- <li> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the <em>Workload Balancer</em> section the Resourcing area. The <em>Workload Balancer</em> is the default setting. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the <em>Workload Balancer</em> section the Resourcing area. The <em>Workload Balancer</em> is the default setting. </p> <p>You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.</p> <p> <draft-comment>
-    <img src="assets/nwe-balancer-global-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/nwe-balancer-global-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-</ul>
+* In the Workload Balancer section the Resourcing area. The Workload Balancer is the default setting. You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.
 
 For a team:
 
-<ul> 
- <li> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">From the <em>Workload Balancer</em> section of a team. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">From the <em>Workload Balancer</em> section of a team. </p> <p>You can adjust allocations and review or assign work from multiple projects to individual team members.</p> <p> <draft-comment>
-    <img src="assets/nwe-balancer-team-350x172.png" style="width: 350;height: 172;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/nwe-balancer-team-350x172.png" style="width: 350;height: 172;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-</ul>
+* From the Workload Balancer section of a team. You can adjust allocations and review or assign work from multiple projects to individual team members.
 
 For a project:
 
-<ul> 
- <li> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the <em>Workload Balancer</em> section of a project. The <em>Workload Balancer</em> is the default setting. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the <em>Workload Balancer</em> section of a project. The <em>Workload Balancer</em> is the default setting. </p> <p>You can do the following when you use the&nbsp;<em>Workload Balancer</em> within a project:</p> 
-  <ul> 
-   <li> <p>Assign work on the project to users already assigned other work on the project.</p> </li> 
-   <li> <p>Assign work to any user that might not be on the project.</p> </li> 
-  </ul> 
-  <ul> 
-   <li> <p>View additional work that users are assigned to on other projects.</p> </li> 
-   <li> <p>Adjust user allocations to work items. </p> </li> 
-  </ul> <p> <draft-comment>
-    <img src="assets/nwe-balancer-project-350x152.png" style="width: 350;height: 152;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/nwe-balancer-project-350x152.png" style="width: 350;height: 152;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-</ul>
+* In the Workload Balancer section of a project. The Workload Balancer is the default setting. You can do the following when you use the  `Workload Balancer` within a project:
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver">Add the&nbsp;<em>Workload Balancer</em> to a custom section</h2>
--->
+  * Assign work on the project to users already assigned other work on the project.
+  * Assign work to any user that might not be on the project.
 
-## Add the&nbsp;*Workload Balancer* to a custom section
+  * View additional work that users are assigned to on other projects.
+  * Adjust user allocations to work items.
 
-You can add the *Workload Balancer* to any custom 
+Add the Workload Balancer to a custom section You can add the `Workload Balancer` to any custom section.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
+1. Access the `Workload Balancer` by going to any of the following areas:
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  section </MadCap:conditionalText>`.
-
-1. Access the *Workload Balancer* by going to any of the following areas:
-
-  * The   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    Resourcing  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Resourcing </MadCap:conditionalText>`area
+  * The Resourcingarea
   * A team 
   * A project
 
@@ -149,15 +99,7 @@ section
 1. Create a dashboard with an external page as described in [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Use the shareable link you obtained in Step 2 for the external page. 
 1. Create a custom tab as described in [Create custom tabs or sections](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
 
-   When accessing the *Workload Balancer* from the custom tab, you can view it as if you were accessing it directly from one of its original areas listed in Step 1. 
+   When accessing the `Workload Balancer` from the custom tab, you can view it as if you were accessing it directly from one of its original areas listed in Step 1. 
 
-1. (Optional) Share the custom tab in a Layout Template as described in 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md" class="MCXref xref">Customize the left panel using a layout template</a>
-   </MadCap:conditionalText>
-   -->
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md" class="MCXref xref">Customize the left panel using a layout template</a> </MadCap:conditionalText>`.
+1. (Optional) Share the custom tab in a Layout Template as described in Customize the left panel using a layout template.
 

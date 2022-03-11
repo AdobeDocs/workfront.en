@@ -7,7 +7,7 @@ title: Filter Proof Approval report to omit previous proof versions
 description: On a Proof Approval report, you can use the Is Current Document Version filter to include only the current versions of proofs waiting for your approval.
 ---
 
-# Filter Proof Approval report to omit previous *proof* versions
+# Filter Proof Approval report to omit previous `proof` versions
 
 On a Proof Approval report, you can use the  `Is Current Document Version` filter to include only the current versions of proofs waiting for your approval.
 
@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,28 +40,21 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Filter Proof Approval report to omit previous *proof* versions
+## Filter Proof Approval report to omit previous `proof` versions
 
-<ol> 
- <li value="1"> <p>If you already have a Proof Approval report, open it.</p> <p>Or</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To create your own Proof Approval report, click the Main Menu <img src="assets/main-menu-icon.png">, then click <span class="bold">Reports</span> <img src="assets/reports-in-main-menu.png">. Click&nbsp;<span class="bold">New Report</span>. In the list that appears, scroll to and click <span class="bold">Proof Approval</span>. Click <span class="bold">Save + Close</span>, type a <span class="bold">Report Name</span> (optional), then click <span class="bold">Save Report</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">To create your own Proof Approval report, click the Main Menu <img src="assets/main-menu-icon.png">, then click <span class="bold">Reports</span> <img src="assets/reports-in-main-menu.png">. Click&nbsp;<span class="bold">New Report</span>. In the list that appears, scroll to and click <span class="bold">Proof Approval</span>. Click <span class="bold">Save + Close</span>, type a <span class="bold">Report Name</span> (optional), then click <span class="bold">Save Report</span>.</p> </li> 
- <li value="2">Click <span class="bold">Report Actions >&nbsp;Edit</span>.</li> 
- <li value="3"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Filters</span>, then click 
-    <span class="bold">Add a Filter Rule</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Filters</span>, then click 
-   <span class="bold">Add a Filter Rule</span>.
-  </MadCap:conditionalText> </li> 
- <li value="4"> <p>Click <span class="bold">Proof Approval</span>.</p> </li> 
- <li value="5">In the list that appears, click <span class="bold">Is Current Document Version</span>.</li> 
- <li value="6">Click <span class="bold">Save +&nbsp;Close</span> in the lower-left corner of <em>Adobe Workfront</em>, then click <span class="bold">Save Report</span> in the box that appears.</li> 
-</ol>
+1. If you already have a Proof Approval report, open it.
+
+   Or
+
+   <!--
+   To create your own Proof Approval report, click the Main Menu , then click Reports . Click New Report. In the list that appears, scroll to and click Proof Approval. Click Save + Close, type a Report Name (optional), then click Save Report.
+   -->
+
+1. Click `Report Actions > Edit`.
+1. Click Filters, then click Add a Filter Rule. 
+1. Click `Proof Approval`.
+1. In the list that appears, click `Is Current Document Version`.
+1. Click `Save + Close` in the lower-left corner of `Adobe Workfront`, then click `Save Report` in the box that appears.
 

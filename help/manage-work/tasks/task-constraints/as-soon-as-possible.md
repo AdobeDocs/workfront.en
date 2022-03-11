@@ -22,29 +22,8 @@ As Soon As Possible is a task constraint that places the start time of the task 
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To update the Task Constraint to As Soon As Possible: </p>
-<ol>
-<li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li>
-<li value="3"> <p>In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</p> </li>
-<li value="4"> <p>Select <span class="bold">As Soon As Possible</span>.</p> </li>
-<li value="5">Click <span class="bold">Save Changes</span>. </li>
-</ol>
-</div>
+To update the Task Constraint to As Soon As Possible: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select As Soon As Possible. Click Save Changes.
 -->
-
-To update the Task Constraint to As Soon As Possible:
-
-<ol> 
- <li value="1">Go to a task whose Task Constraint you want to update.</li> 
- <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</p> </li> 
- <li value="4"> <p>Select <span class="bold">As Soon As Possible</span>.</p> </li> 
- <li value="5">Click <span class="bold">Save Changes</span>. </li> 
-</ol>
 
 ## The difference between Earliest Available Time and As Soon As Possible
 

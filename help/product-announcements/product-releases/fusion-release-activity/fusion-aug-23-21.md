@@ -1,12 +1,12 @@
 
 
-# *Workfront Fusion* release activity:&nbsp;Week of August 23, 2021
+# `Workfront Fusion` release activity:&nbsp;Week of August 23, 2021
 
-This page describes all enhancements made in *Adobe Workfront Fusion* the week of *August 23, 2021*.
+This page describes all enhancements made in `Adobe Workfront Fusion` the week of `August 23, 2021`.
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-For a list of recent bug fixes in *Workfront Fusion*, see the [*Workfront* Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled *Workfront Fusion* Maintenance Update.
+For a list of recent bug fixes in `Workfront Fusion`, see the [ `Workfront` Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled `Workfront Fusion` Maintenance Update.
 
 ## Typeahead fields now available in Workfront modules
 
@@ -32,45 +32,6 @@ Previously, the billing record object was only available through mapping.
 For more information, see [Adobe Workfront modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Filter and sort Workfront Fusion scenario execution history</h2>
-<p>To make it easier to find specific scenario executions, we've made it possible to filter by more fields in the scenario execution history. Now, in addition to existing filters, you can filter by the following:</p>
-<ul>
-<li> <p>Execution duration</p> </li>
-<li> <p>Number of operations</p> </li>
-<li> <p>Amount of data transferred</p> </li>
-<li> <p>Action type (run or update)</p> </li>
-</ul>
-<p>Previously, execution history could be filtered only by start time or status.</p>
-<p>We've also made it possible to sort the scenario execution history. You can sort by the following values:</p>
-<ul>
-<li> <p>Execution start time</p> </li>
-<li> <p>Execution status</p> </li>
-<li> <p>Execution duration</p> </li>
-<li> <p>Number of operations</p> </li>
-<li> <p>Amount of data transferred</p> </li>
-</ul>
-<p>For more information on filtering and sorting execution history, see <a href="../../../workfront-fusion/scenarios/view-scenario-execution-history.md" class="MCXref xref" xrefformat="{para}">View a scenario's execution history</a>.</p>
-</div>
+Filter and sort Workfront Fusion scenario execution history To make it easier to find specific scenario executions, we've made it possible to filter by more fields in the scenario execution history. Now, in addition to existing filters, you can filter by the following: Execution duration Number of operations Amount of data transferred Action type (run or update) Previously, execution history could be filtered only by start time or status. We've also made it possible to sort the scenario execution history. You can sort by the following values: Execution start time Execution status Execution duration Number of operations Amount of data transferred For more information on filtering and sorting execution history, see View a scenario's execution history.
 -->
 
-## Filter and sort Workfront Fusion scenario execution history
-
-To make it easier to find specific scenario executions, we've made it possible to filter by more fields in the scenario execution history. Now, in addition to existing filters, you can filter by the following:
-
-* Execution duration
-* Number of operations
-* Amount of data transferred
-* Action type (run or update)
-
-Previously, execution history could be filtered only by start time or status.
-
-We've also made it possible to sort the scenario execution history. You can sort by the following values:
-
-* Execution start time
-* Execution status
-* Execution duration
-* Number of operations
-* Amount of data transferred
-
-For more information on filtering and sorting execution history, see [View a scenario's execution history](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).

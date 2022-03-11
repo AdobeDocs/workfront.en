@@ -15,7 +15,7 @@ description: The procedure described on this page applies only to organizations 
 >
 >If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-When *Adobe Workfront* expects a different signature method for the SAML response, you need to change which parts of the SAML token are digitally signed by Azure Active Directory (AD).
+When `Adobe Workfront` expects a different signature method for the SAML response, you need to change which parts of the SAML token are digitally signed by Azure Active Directory (AD).
 
 ## Access requirements
 
@@ -26,16 +26,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,18 +49,18 @@ You must have the following to perform the steps in this article:
  <li value="4"> In the <span class="bold">Azure AD navigation pane</span> select <span class="bold">Enterprise Applications</span>.</li> 
  <li value="5">Click <span class="bold">All Applications</span> to view a list of your apps.</li> <note type="note">
   If you don't see 
-  <em>Workfront</em>, use the 
+  <span>Workfront</span>, use the 
   <span class="bold">Filter control</span> at the top of the 
   <span class="bold">All Applications List</span>, set the 
   <span class="bold">Show option</span> to 
   <span class="bold">All Applications</span>.
  </note> 
- <li value="6">Select <span class="bold">Workfront</span> to configure <em>Workfront</em> for single sign-on.</li> 
- <li value="7">After <em>Workfront</em> loads, select <span class="bold">Single sign-on</span> in the <span class="bold">Azure AD navigation pane</span>.</li> 
+ <li value="6">Select <span class="bold">Workfront</span> to configure <span>Workfront</span> for single sign-on.</li> 
+ <li value="7">After <span>Workfront</span> loads, select <span class="bold">Single sign-on</span> in the <span class="bold">Azure AD navigation pane</span>.</li> 
  <li value="8">Under <span class="bold">SAML Signing Certificate</span>, click <span class="bold">Show advanced certificate signing settings</span>.</li> 
  <li value="9">In the <span class="bold">Signing Option list</span> select <span class="bold">Sign SAML response</span>.</li> <note type="note">
-  <em>Workfront</em> requires Sign SAML response.
+  <span>Workfront</span> requires Sign SAML response.
  </note> 
 </ol>
 
-The next time that you sign in to *Workfront*, Azure AD will sign the part of the SAML response that you selected.
+The next time that you sign in to `Workfront`, Azure AD will sign the part of the SAML response that you selected.

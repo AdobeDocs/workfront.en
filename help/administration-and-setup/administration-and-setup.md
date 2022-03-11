@@ -19,13 +19,7 @@ This section contains the following subsections:
 * [Customize Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md) 
 * [Manage Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md) 
 * [Manage groups](../administration-and-setup/manage-groups/manage-groups.md) 
-* [Configure integrations](../administration-and-setup/configure-integrations/workfront-integrations.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="../administration-and-setup/blueprints/blueprints.md" class="MCXref xref" xrefformat="{para}">Blueprints</a> </li>
-  -->
-
-* [Blueprints](../administration-and-setup/blueprints/blueprints.md) 
+* [Configure integrations](../administration-and-setup/configure-integrations/workfront-integrations.md) 
 * [Administrator FAQs](../administration-and-setup/administrator-faqs/adminstrator-faqs.md) 
 * [Tips, tricks, and troubleshooting for administration and setup](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
 

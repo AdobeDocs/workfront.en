@@ -22,69 +22,49 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use Frame.io modules, you must have a Frame.io account
 
-The module dialog fields that are displayed in bold (in the *Workfront Fusion* scenario, not in this documentation article) are mandatory!
+The module dialog fields that are displayed in bold (in the `Workfront Fusion` scenario, not in this documentation article) are mandatory!
 
-## Connect Frame.io to *Adobe Workfront Fusion*
+## Connect Frame.io to `Adobe Workfront Fusion`
 
-To connect your Frame.io account to *Workfront Fusion*you need to create an API token in your Frame.io account and insert it to the *Workfront Fusion* Frame.io Create a connection dialog.
+To connect your Frame.io account to `Workfront Fusion`you need to create an API token in your Frame.io account and insert it to the `Workfront Fusion` Frame.io Create a connection dialog.
 
 1. Log in to your Frame.io account.
 1. Go to the **Tokens** page in the Frame.io Developer.
 1. Click **New**.
 1. Enter the name of the token, select the scopes you want to use, and click **Create**.
 1. Copy the provided token.
-1. Go to *Workfront Fusion* and open the Frame.io module's **Create a connection** dialog.
+1. Go to `Workfront Fusion` and open the Frame.io module's **Create a connection** dialog.
 1. Enter the token you have copied in step 5 to the Your Frame.io API Key field and click **Continue** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
 
 ## Frame.io modules and their fields
 
-When you configure *[Fusion app]* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *[Fusion app]* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `[Fusion app]` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `[Fusion app]` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -123,25 +103,11 @@ This action module creates a new asset.
   <tr> 
    <td role="rowheader">Name </td> 
    <td> <p>Enter the name of the new file or folder.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">File Type </td> 
-    <td> <p>Select the type of file you want to upload.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">File Type </td> 
-   <td> <p>Select the type of file you want to upload.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">File Size </td> 
-    <td> <p>The file size in bytes.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">File Size </td> 
-   <td> <p>The file size in bytes.</p> </td> 
-  </tr> 
+  </tr> <!--
+   File Type Select the type of file you want to upload.
+  --> <!--
+   File Size The file size in bytes.
+  --> 
   <tr> 
    <td role="rowheader">Source URL </td> 
    <td> <p>Enter the URL of the file you want to upload.</p> </td> 
@@ -243,7 +209,7 @@ This search module retrieves all assets in the specified project's folder.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of assets <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of assets <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -501,7 +467,7 @@ This search module retrieves all comments of the specified asset.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of comments <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of comments <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -615,7 +581,7 @@ This search module retrieves all projects for the specified team.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of projects <em>Workfront Fusion</em> will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of projects <span>Workfront Fusion</span> will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,16 +4,16 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Request a new data backup in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: After requesting a backup of proofing data, you can request that a new backup of the data be created. For more information about data backups, see Back Up Your Workfront Proof Data.
 ---
 
-# Request a new data backup in *Workfront Proof*
+# Request a new data backup in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-After requesting a backup of *proofing* data, you can request that a new backup of the data be created. For more information about data backups, see [Back Up Your Workfront Proof Data](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
+After requesting a backup of `proofing` data, you can request that a new backup of the data be created. For more information about data backups, see [Back Up Your Workfront Proof Data](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
 
 <ol> 
  <li value="1">In the top-right corner of the window, click <span class="bold">Settings</span>.</li> 

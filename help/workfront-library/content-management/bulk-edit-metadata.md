@@ -7,17 +7,15 @@ title: Bulk edit metadata in Workfront Library
 description: Metadata consists of information that describes the attributes and content of an asset. Users can edit the metadata of multiple assets at once. For more information about metadata, see Overview of Metadata in Workfront Library.
 ---
 
-# Bulk edit metadata in *Workfront Library*
+# Bulk edit metadata in `Workfront Library`
 
-Metadata consists of information that describes the attributes and content of an asset. Users can edit the metadata of multiple assets at once. For more information about metadata, see [Overview of Metadata in *Workfront Library*](../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
+Metadata consists of information that describes the attributes and content of an asset. Users can edit the metadata of multiple assets at once. For more information about metadata, see [Overview of Metadata in `Workfront Library`](../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
 To bulk edit metadata:
 
 <ol> 
- <li value="1"> <p>In <em>Workfront</em>, click the <span class="bold"><em>Workfront Library</em></span> icon on the Global Navigation Bar to open <em>Workfront Library</em> in a new browser tab.</p> <p> <img src="assets/workfront-library-icon-350x186.jpg" style="width: 350;height: 186;"> </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In <em>Workfront</em>, click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then select <span class="bold">Library</span> to open <em>Workfront Library</em> in a new browser tab.</p> </li> 
- <li value="2"> <p>In the upper-left corner of <em>Workfront Library</em>, click the <span class="bold">Menu</span> icon.</p> </li> 
+ <li value="1"> <p>In <span>Workfront</span>, click the <span class="bold"><span>Workfront Library</span></span> icon on the Global Navigation Bar to open <span>Workfront Library</span> in a new browser tab.</p> <p> <img src="assets/workfront-library-icon-350x186.jpg" style="width: 350;height: 186;"> </p> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
+ <li value="2"> <p>In the upper-left corner of <span>Workfront Library</span>, click the <span class="bold">Menu</span> icon.</p> </li> 
  <li value="3"> <p>Select the area where the asset is located:</p> 
   <ul> 
    <li><span class="bold">Library</span> </li> 

@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Worker</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,26 +37,21 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create a personal task
 
 You can create a personal task that is available only to you in the Home area:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
+ <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
  <li value="2">Click <span class="bold">New Task</span> >&nbsp;<span class="bold">Personal</span>.<br><br><img src="assets/creating-work-items-new-task-personal-350x228.png" style="width: 350;height: 228;"></li> 
  <li value="3">In the <span class="bold">Name</span> field, specify a name for the task.</li> 
  <li value="4">(Optional) Click&nbsp;<span class="bold">Select date</span>, then select the&nbsp;date when the task is due. This sets the Planned Completion Date for the task.<br>You can change the <span class="bold">Planned Completion Date</span> by clicking on the date in the right panel or editing the <span class="bold">This will be done by</span> date directly in the task.</li> 
  <li value="5">Click <span class="bold">Create</span>&nbsp;to save the task.<br>The task is assigned to you and is available in the Home area.</li> 
 </ol>
 
->[!NOTE]
->
->When you create a personal task, it is stored in a "hidden" project that is not searchable in *Workfront*. You can only access this project when you delete a task on it (from the task itself, not from the Home area).  
->![Project for personal tasks](assets/createworkitems-personal--project-350x105.png)>
+Note: When you create a personal task, it is stored in a "hidden" project that is not searchable in Workfront. You can only access this project when you delete a task on it (from the task itself, not from the Home area). 
 
 ## Request work from another user
 
@@ -65,9 +60,7 @@ You can request work from another user directly from the Home area. When you req
 To request work from another user from the Home area:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
+ <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
  <li value="2">Click <span class="bold">New Task</span>, then select <span class="bold">Request</span>.<br><img src="assets/creating-work-items-new-task-request-350x289.png" style="width: 350;height: 289;"></li> 
  <li value="3">In the <span class="bold">Name</span> field, specify a name for the task.&nbsp;</li> 
  <li value="4">In the <span class="bold">Assign to</span> field, begin typing the name of the user,&nbsp;team, or role who you want to assign, then click the name when it appears in the drop-down menu.</li> 
@@ -81,9 +74,7 @@ To request work from another user from the Home area:
 You can add a task or issue to an existing project directly from the Home area:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
+ <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
  <li value="2">Click <span class="bold">New Task</span>, then select <span class="bold">Project Task</span>.<br><img src="assets/creating-work-items-new-task-personal-350x228.png" style="width: 350;height: 228;"></li> 
  <li value="3">In the <span class="bold">Name</span> field, specify a name for the task or issue.</li> 
  <li value="4">In the <span class="bold">Assign to</span> field, begin typing the name of the user,&nbsp;team, or role who you want to assign, then click the name when it appears in the drop-down menu.</li> 

@@ -6,7 +6,6 @@ user-guide: null
 ---
 
 # Table of Contents {#table-of-contents}
-
 * [Product announcements](product-announcements/product-announcements.md)
   * [Product releases](product-announcements/product-releases/product-releases.md)
   * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
@@ -100,19 +99,12 @@ user-guide: null
     * [Workfront Fusion release activity: Week of January 18, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
     * [Workfront Fusion release activity: Week of January 11, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
     * [Workfront Fusion release activity: Week of January 4, 2021](product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
-
         * [Workfront Fusion release activity: Week of August 17, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
-
         * [Workfront Fusion release activity: Week of August 24, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
-
         * [Workfront Fusion release activity: Week of December 7, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
-
         * [Workfront Fusion release activity: Week of November 2, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
-
         * [Workfront Fusion release activity: Week of November 16, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
-
         * [Workfront Fusion release activity: Week of November 30, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
-
         * [Workfront Fusion release activity: Week of September 21, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
     * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
     * [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)

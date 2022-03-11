@@ -1,12 +1,10 @@
 
 
-# Score your goals in *the new Adobe Workfront experience*
+# Score your goals in `the new Adobe Workfront experience`
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">IS THIS FUNCTIONALITY MOVING TO WF GOALS???</p>
--->
-
 IS THIS FUNCTIONALITY MOVING TO WF GOALS???
+-->
 
 Objective Scoring is a performance rating given by an employee before closing out a objective.
 

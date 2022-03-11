@@ -8,7 +8,7 @@ description: You can share a calendar with other users and you can make it avail
 
 # Share a calendar report
 
-You can share a calendar with other users and you can make it available publicly, allowing someone without an *Adobe Workfront* license to view it.
+You can share a calendar with other users and you can make it available publicly, allowing someone without an `Adobe Workfront` license to view it.
 
 ## Access requirements
 
@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,11 +39,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Share a calendar with *Workfront* users
+## Share a calendar with `Workfront` users
 
-Sharing a calendar is similar to sharing other objects. For more information about sharing objects in *Adobe Workfront*, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Sharing a calendar is similar to sharing other objects. For more information about sharing objects in `Adobe Workfront`, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 Calendars that have been shared with you display with an asterisk (&#42;) next to the calendar name.
 
@@ -59,12 +59,12 @@ To share a calendar inside of Workfront:
    <li><span class="bold">View:</span>&nbsp;Users can&nbsp;review and share&nbsp;the calendar.&nbsp;</li>
    <li><span class="bold">Manage:&nbsp;</span>Users&nbsp;have full access to the calendar, minus administrative&nbsp;rights which are granted at the access level, plus all View permissions.<br><note type="note">
      &nbsp;The 
-     <em>Workfront administrator</em> and the creator of the calendar have the ability to remove permissions from these entities.
+     <span>Workfront administrator</span> and the creator of the calendar have the ability to remove permissions from these entities.
      <br>
     </note><img src="assets/screen-shot-2013-12-04-at-1.13.11-pm.png" alt="">&nbsp;</li>
   </ul></li> 
  <li value="6">(Optional) Depending on a user's role, you may be able to click <span class="bold">Advanced Options</span>, then click <span class="bold">Share&nbsp;</span>to allow the user to share the calendar with other users. <p>For more information about the permissions levels, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects in Adobe Workfront</a>. </p><p><img src="assets/screen-shot-2013-12-04-at-1.14.11-pm.png" alt=""></p></li> 
- <li value="7">(Optional) To make the calendar available to all <em>Workfront</em> users, click the gear icon, then in the drop-down menu click <span class="bold">Make this visible system-wide</span>&nbsp;to make the object available to all <em>Workfront</em> users.<br>All users can&nbsp;see the object based on the permissions that you set.</li> 
+ <li value="7">(Optional) To make the calendar available to all <span>Workfront</span> users, click the gear icon, then in the drop-down menu click <span class="bold">Make this visible system-wide</span>&nbsp;to make the object available to all <span>Workfront</span> users.<br>All users can&nbsp;see the object based on the permissions that you set.</li> 
  <li value="8">Click <span class="bold">Save</span>.</li> 
 </ol>
 

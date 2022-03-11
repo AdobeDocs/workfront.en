@@ -9,13 +9,13 @@ description: The hours you log on your work items in Adobe Workfront are conside
 
 # View Actual Hours
 
-The hours you log on your work items in *Adobe Workfront* are considered Actual Hours.
+The hours you log on your work items in `Adobe Workfront` are considered Actual Hours.
 
 Actual Hours represent the actual time that it took you to complete a task, issue, or a project.
 
 We recommend that hours should be logged on work items, which are tasks and issues.
 
-However, as a *Workfront administrator*, you can allow users to log time on projects, as well, depending on what the workflows are in your organization.
+However, as a `Workfront administrator`, you can allow users to log time on projects, as well, depending on what the workflows are in your organization.
 
 For more information about how to set up your system to allow users to log time on projects, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -28,16 +28,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
@@ -74,99 +74,27 @@ Finding the value for Actual Hours for an item is identical for tasks, projects,
 
 You can find the Actual Hours information on tasks in the following locations:
 
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="#actual" class="MCXref xref">Actual Hours in the Details section</a> </p>
-  -->
-
-  [Actual Hours in the Details section](#actual) 
-
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="#actual2" class="MCXref xref">Actual Hours in the Hours section</a> </p>
-  -->
-
-  [Actual Hours in the Hours section](#actual2) 
-
+* Actual Hours in the Details section 
+* Actual Hours in the Hours section 
 * [Actual Hours in reports](#reports) 
 * [Actual Hours in Resource Management tools](#resource-grid)
 
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Actual"></a>Actual Hours in the Details section</h3>
--->
-
-### Actual Hours in the Details section
-
-Finding Actual Hours in the Details 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`is identical for projects, tasks, and issues.
+Actual Hours in the Details section Finding Actual Hours in the Details sectionis identical for projects, tasks, and issues.
 
 To locate Actual Hours in Task Details:
 
 1. Go to a task for which you want to review the Actual Hours.
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Task Details</span> in the left panel. </p>
-   -->
-
-   Click `Task Details` in the left panel. 
-
+1. Click Task Details in the left panel. 
 1. Click `Overview` and notice the `Actual Hours` value.
 
    This is the total of hours logged on this task.
 
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Actual2"></a>Actual Hours in the Hours section</h3>
--->
+Actual Hours in the Hours section Finding Actual Hours in the Hours sectionis identical for projects, tasks, and issues.
 
-### Actual Hours in the Hours section
-
-Finding Actual Hours in the Hours 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`is identical for projects, tasks, and issues.
-
-To locate Actual Hours in Hours 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`:
+To locate Actual Hours in Hours section:
 
 1. Go to a task for which you want to review the Actual Hours.
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Hours</span> in the left panel. </p>
-   -->
-
-   Click `Hours` in the left panel.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Depending on your configuration, the Hours section might be listed under <span class="bold">Show More</span>. </p>
-   -->
-
-   Depending on your configuration, the Hours section might be listed under `Show More`.
-
-   This displays a list of hour entries logged on the task. 
-
+1. Click Hours in the left panel. Depending on your configuration, the Hours section might be listed under Show More. This displays a list of hour entries logged on the task. 
 1. Ensure that the `Standard` view and the `Project` grouping are applied to this list.
 
    The number shown in the grouping line for the `Hours` column is the total number of Actual Hours on the task.
@@ -179,14 +107,14 @@ Adding the Actual Hours column to a task view is similar to building a view in a
 
 To show Actual Hours in a task report:
 
-<ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Reports</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Reports</span>. </p> </li> 
- <li value="2">Click <span class="bold">New Report</span>, then choose <span class="bold">Task</span> as your object.</li> 
- <li value="3">Click <span class="bold">Add Column</span>, and start typing <span class="bold">Actual Hours</span> when the <span class="bold">Show in this column</span> drop-down field is displayed. Select the field when it appears in the list.</li> 
- <li value="4"> <p>Click <span class="bold">Save + Close</span> to save the report. </p> <p>The Actual Hours column shows the number of hours logged on each task. </p> </li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
+1. Click `New Report`, then choose `Task` as your object.
+
+1. Click `Add Column`, and start typing `Actual Hours` when the `Show in this column` drop-down field is displayed. Select the field when it appears in the list.
+
+1. Click `Save + Close` to save the report.
+
+   The Actual Hours column shows the number of hours logged on each task.
 
 ### Actual Hours in Resource Management tools
 
@@ -203,5 +131,5 @@ If you want to see the progress of the work your users are doing on their assign
 
 You can log time on tasks, issues, and projects in multiple ways.
 
-For more information about logging time in *Workfront*, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).   
+For more information about logging time in `Workfront`, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).   
 

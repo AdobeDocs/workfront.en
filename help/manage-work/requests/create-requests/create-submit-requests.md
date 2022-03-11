@@ -6,11 +6,11 @@ title: Create and submit Adobe Workfront requests
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Create and submit *Adobe Workfront* requests
+# Create and submit `Adobe Workfront` requests
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-Planned work is represented in *Adobe Workfront* by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. *Workfront* provides a workflow to accommodate this type of environment through the use of Request Queues.&nbsp;
+Planned work is represented in `Adobe Workfront` by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. `Workfront` provides a workflow to accommodate this type of environment through the use of Request Queues.&nbsp;
 
 After you create a request in a Request Queue, you can either assign it to be completed or you can convert it to a task or a project.   
 For more information about converting issues to a task or project, see the article [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
@@ -19,12 +19,6 @@ You can create a request in the following ways:
 
 * From scratch as described in this article. 
 * From drafts. For information, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><span>From an existing request, by copying and submitting a copy. For information, see <a href="../../../manage-work/requests/create-requests/copy-and-submit-requests.md" class="MCXref xref">Copy and submit requests</a>.</span> </p> </li>
-  -->
-
-* `From an existing request, by copying and submitting a copy. For information, see [Copy and submit requests](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).`
 
 ## Access requirements
 
@@ -35,25 +29,25 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites for using Request Queues
 
-As a *Workfront administrator*, you must create Request Queues and make them available to users&nbsp;before they can use this functionality. A user with a Planner license and with Edit access to Projects and Manage permissions to a specific project can also create Request Queues.&nbsp;
+As a `Workfront administrator`, you must create Request Queues and make them available to users&nbsp;before they can use this functionality. A user with a Planner license and with Edit access to Projects and Manage permissions to a specific project can also create Request Queues.&nbsp;
 
 For information about how to create Requests Queues, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -75,169 +69,41 @@ You must create the following components of a Request Queue:
 * (Optional) Request approval process.  
   For more information, see the article [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Create requests and generate drafts in the *Workfront* web app
+## Create requests and generate drafts in the `Workfront` web app
 
-When you create a request in the *Workfront* web app, *Workfront* saves the request as a draft before you submit it. *Workfront* creates a draft as soon as you select your request queue and start entering information for it.
+When you create a request in the `Workfront` web app, `Workfront` saves the request as a draft before you submit it. `Workfront` creates a draft as soon as you select your request queue and start entering information for it.
 
-You can continue submitting the request, or you can complete as much information as you have available and navigate away from it to finish it later. *Workfront* saves the drafted request that you started in the Drafts folder.
+You can continue submitting the request, or you can complete as much information as you have available and navigate away from it to finish it later. `Workfront` saves the drafted request that you started in the Drafts folder.
 
 >[!IMPORTANT]
 >
 >Consider the following when working with drafts:
 >
->* *Workfront* does not create draft requests when you submit them from a third-party application, like emailing them into *Workfront*, or creating them using any another application. When you submit a request from outside the *Workfront* web app the request is saved in >
->  <!-->
->  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->  the Submitted section.>
->  </MadCap:conditionalText>>
->  -->
->  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  the Submitted section.</MadCap:conditionalText>` 
+>* `Workfront` does not create draft requests when you submit them from a third-party application, like emailing them into `Workfront`, or creating them using any another application. When you submit a request from outside the `Workfront` web app the request is saved in the Submitted section. 
 >
 >* If the structure of a request queue changes, you can no longer access existing drafts.&nbsp;For example, if a queue topic is removed, or a topic group is added, the saved drafts are no longer accessible. 
 >
 
 For information about creating requests from existing drafts, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). For information about deleting request drafts, see also [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
-To create a request in the *Workfront* web app:&nbsp;
+To create a request in the `Workfront` web app:&nbsp;
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</p> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    </MadCap:conditionalText>Click&nbsp;<span><span class="bold">Requests</span>, then click <span class="bold">New Request</span></span> in the upper-right corner of the page.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   </MadCap:conditionalText>Click&nbsp;<span><span class="bold">Requests</span>, then click <span class="bold">New Request</span></span> in the upper-right corner of the page.</p> 
+ <li value="1"> Click the Main Menu icon in the upper-right corner of Adobe Workfront. </li> 
+ <li value="2"> Click Requests, then click New Request in the upper-right corner of the page. 
   <div class="tips" data-mc-autonum="<b>Tips: </b>">
    <span class="autonumber"><span><b>Tips: </b></span></span> 
    <ul> 
-    <li> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>You can access the New Request option from any section in the Requests area.</span> </p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>You can access the New Request option from any section in the Requests area.</span> </p> </li> 
-    <li> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The New Request option is dimmed when you do not have access to create issues. </p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The New Request option is dimmed when you do not have access to create issues. </p> </li> 
+    <li> You can access the New Request option from any section in the Requests area. </li> 
+    <li> The New Request option is dimmed when you do not have access to create issues. </li> 
    </ul> 
   </div> </li> 
- <li value="3"> <draft-comment>
-   <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <div> 
-     <p>(Conditional) Click inside the <span class="bold">Request Type</span> field and do one of the following:</p> 
-     <ul> 
-      <li> <p>From the <span class="bold">Recent Paths</span> section, select a path you used recently to open a request queue. A path includes the request queue, the topic groups, and the queue topic that you submitted to recently. The last three paths display by default. </p> <note type="note">
-        <em>Workfront</em> saves a path only when you have actually submitted a request to it. It does not create paths for drafted requests. 
-       </note> <p> <img src="assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png" style="width: 350;height: 295;"> </p> </li> 
-      <li> <p>From the <span class="bold">Request&nbsp;Queues</span> section, select a request queue. </p> </li> 
-      <li> <p>Enter a keyword that belongs to a previously accessed path to search for a request queue. </p> <p>For example, if you have a request queue named "Help&nbsp;Desk" with a Topic Group named "Location" and a Queue Topic named "Remote", you can type "remote" and all the request queues that contain "remote" in any element of their path display. </p> <note type="tip">
-        When you type a name that contains a special character, the request queue, queue topic, or topic group display even when you omit typing the character. 
-       </note> <p> <img src="assets/request-queue-search-findings-with-highlighted-results-350x210.png" style="width: 350;height: 210;"> </p> <p>The list of available request queues and recent paths dynamically updates to include only paths that contain the keyword which is highlighted in the results. </p> <p>The results of the search display under the following areas:</p> 
-       <table cellspacing="0"> 
-        <col> 
-        <col> 
-        <tbody> 
-         <tr> 
-          <td role="rowheader">Request Queues</td> 
-          <td>Request queues that contain the keyword in their name</td> 
-         </tr> 
-         <tr> 
-          <td role="rowheader">Request Paths</td> 
-          <td> <p>Paths (which include request queues, topic groups, queue topics) that contain the keyword in any of the names of their elements</p> </td> 
-         </tr> 
-        </tbody> 
-       </table> </li> 
-     </ul> 
-     <div class="tips" data-mc-autonum="<b>Tips: </b>">
-      <span class="autonumber"><span><b>Tips: </b></span></span> 
-      <ul> 
-       <li> <p>The first 200 requests queues display by default, in alphabetical order. </p> </li> 
-       <li> <p>The name of the request queue is the name of the project which has been published as a Help Request Queue. </p> </li> 
-       <li> <draft-comment>
-         <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The description of the project configured as the selected request queue displays to the right of the request queue name. </p>
-        </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The description of the project configured as the selected request queue displays to the right of the request queue name. </p> </li> 
-      </ul> 
-      <p>For more information about how to publish a project as a Help&nbsp;Request Queue, see the article <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</p> 
-     </div> 
-    </div> 
-    <p>&nbsp;</p> 
-   </div>
-  </draft-comment>
-  <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>(Conditional) Click inside the <span class="bold">Request Type</span> field and do one of the following:</p> 
-    <ul> 
-     <li> <p>From the <span class="bold">Recent Paths</span> section, select a path you used recently to open a request queue. A path includes the request queue, the topic groups, and the queue topic that you submitted to recently. The last three paths display by default. </p> <note type="note">
-       <em>Workfront</em> saves a path only when you have actually submitted a request to it. It does not create paths for drafted requests. 
-      </note> <p> <img src="assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png" style="width: 350;height: 295;"> </p> </li> 
-     <li> <p>From the <span class="bold">Request&nbsp;Queues</span> section, select a request queue. </p> </li> 
-     <li> <p>Enter a keyword that belongs to a previously accessed path to search for a request queue. </p> <p>For example, if you have a request queue named "Help&nbsp;Desk" with a Topic Group named "Location" and a Queue Topic named "Remote", you can type "remote" and all the request queues that contain "remote" in any element of their path display. </p> <note type="tip">
-       When you type a name that contains a special character, the request queue, queue topic, or topic group display even when you omit typing the character. 
-      </note> <p> <img src="assets/request-queue-search-findings-with-highlighted-results-350x210.png" style="width: 350;height: 210;"> </p> <p>The list of available request queues and recent paths dynamically updates to include only paths that contain the keyword which is highlighted in the results. </p> <p>The results of the search display under the following areas:</p> 
-      <table cellspacing="0"> 
-       <col> 
-       <col> 
-       <tbody> 
-        <tr> 
-         <td role="rowheader">Request Queues</td> 
-         <td>Request queues that contain the keyword in their name</td> 
-        </tr> 
-        <tr> 
-         <td role="rowheader">Request Paths</td> 
-         <td> <p>Paths (which include request queues, topic groups, queue topics) that contain the keyword in any of the names of their elements</p> </td> 
-        </tr> 
-       </tbody> 
-      </table> </li> 
-    </ul> 
-    <div class="tips" data-mc-autonum="<b>Tips: </b>">
-     <span class="autonumber"><span><b>Tips: </b></span></span> 
-     <ul> 
-      <li> <p>The first 200 requests queues display by default, in alphabetical order. </p> </li> 
-      <li> <p>The name of the request queue is the name of the project which has been published as a Help Request Queue. </p> </li> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The description of the project configured as the selected request queue displays to the right of the request queue name. </p> </li> 
-     </ul> 
-     <p>For more information about how to publish a project as a Help&nbsp;Request Queue, see the article <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</p> 
-    </div> 
-   </div> 
-   <p>&nbsp;</p> 
-  </div> </li> <draft-comment>
-  <li value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>In the <span class="bold">New request</span> form, do one of the following:</p> 
-   <ul> 
-    <li> <p> (Conditional) Select an available draft from the notification message displayed under the&nbsp;Request&nbsp;Type field.</p> <p>This area displays only if you have saved drafts before without submitting them. </p> <p>The three most recent drafts from three different queue topics display by default. </p> <p> <img src="assets/new-drafts-after-new-request-area-was-removed-350x162.png" style="width: 350;height: 162;"> <br> </p> </li> 
-    <li> <p>Start entering a new request in the selected queue. </p> <p>A new draft automatically saves for you in the Drafts <draft-comment>
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        section
-       </MadCap:conditionalText>
-      </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       section
-      </MadCap:conditionalText> after you start entering information for the new request and you give the request a name in the Subject field. </p> </li> 
-   </ul> </li>
- </draft-comment>
- <li value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>In the <span class="bold">New request</span> form, do one of the following:</p> 
-  <ul> 
-   <li> <p> (Conditional) Select an available draft from the notification message displayed under the&nbsp;Request&nbsp;Type field.</p> <p>This area displays only if you have saved drafts before without submitting them. </p> <p>The three most recent drafts from three different queue topics display by default. </p> <p> <img src="assets/new-drafts-after-new-request-area-was-removed-350x162.png" style="width: 350;height: 162;"> <br> </p> </li> 
-   <li> <p>Start entering a new request in the selected queue. </p> <p>A new draft automatically saves for you in the Drafts <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      section
-     </MadCap:conditionalText> after you start entering information for the new request and you give the request a name in the Subject field. </p> </li> 
-  </ul> </li> 
- <li value="5"> <p>(Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic. </p> <draft-comment>
-   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    <span class="autonumber"><span><b>Tip: </b></span></span> 
-    <p>When you hover over a Topic Group or a Queue&nbsp;Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. </p> 
-    <p> <img src="assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png" style="width: 350;height: 81;"> </p> 
-   </div>
-  </draft-comment>
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p>When you hover over a Topic Group or a Queue&nbsp;Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. </p> 
-   <p> <img src="assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png" style="width: 350;height: 81;"> </p> 
-  </div> <p>You can have up to 10 tiers of Topic Groups built into&nbsp;your Request Queue. <br>For more information about how to create Topic Groups, see the article <a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Create Topic Groups</a>. For more information about creating Queue Topics, see the article <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>.</p> <note type="tip">
+ <li value="3"> (Conditional) Click inside the Request Type field and do one of the following: From the Recent Paths section, select a path you used recently to open a request queue. A path includes the request queue, the topic groups, and the queue topic that you submitted to recently. The last three paths display by default. Note: Workfront saves a path only when you have actually submitted a request to it. It does not create paths for drafted requests. From the Request Queues section, select a request queue. Enter a keyword that belongs to a previously accessed path to search for a request queue. For example, if you have a request queue named "Help Desk" with a Topic Group named "Location" and a Queue Topic named "Remote", you can type "remote" and all the request queues that contain "remote" in any element of their path display. Tip: When you type a name that contains a special character, the request queue, queue topic, or topic group display even when you omit typing the character. The list of available request queues and recent paths dynamically updates to include only paths that contain the keyword which is highlighted in the results. The results of the search display under the following areas: Request Queues Request queues that contain the keyword in their name Request Paths Paths (which include request queues, topic groups, queue topics) that contain the keyword in any of the names of their elements Tips: The first 200 requests queues display by default, in alphabetical order. The name of the request queue is the name of the project which has been published as a Help Request Queue. The description of the project configured as the selected request queue displays to the right of the request queue name. For more information about how to publish a project as a Help Request Queue, see the article Create a Request Queue. </li> In the New request form, do one of the following: (Conditional) Select an available draft from the notification message displayed under the Request Type field. This area displays only if you have saved drafts before without submitting them. The three most recent drafts from three different queue topics display by default. Start entering a new request in the selected queue. A new draft automatically saves for you in the Drafts section after you start entering information for the new request and you give the request a name in the Subject field. 
+ <li value="5"> <p>(Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic. </p> Tip: When you hover over a Topic Group or a Queue Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. <p>You can have up to 10 tiers of Topic Groups built into&nbsp;your Request Queue. <br>For more information about how to create Topic Groups, see the article <a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Create Topic Groups</a>. For more information about creating Queue Topics, see the article <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>.</p> <note type="tip">
    If you selected a draft 
    <span>or a previous path</span>, the topic groups and queue topics are already selected. You can select a different one, if needed.
   </note> </li> 
- <li value="6"> <p>Depending on what fields the <em>Workfront administrator</em> enabled in the <span class="bold">New Issue Fields</span> section of the <span class="bold">Queue Details</span>&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:</p> 
+ <li value="6"> <p>Depending on what fields the <span>Workfront administrator</span> enabled in the <span class="bold">New Issue Fields</span> section of the <span class="bold">Queue Details</span>&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:</p> 
   <div> 
    <table cellspacing="0"> 
     <col> 
@@ -279,21 +145,8 @@ To create a request in the *Workfront* web app:&nbsp;
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Primary Contact</span> </td> 
-      <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other <em>Workfront</em> user.</td> 
-     </tr> <draft-comment>
-      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-       <td role="rowheader"><span>Assignments*</span> </td> 
-       <td> <p><span>Specify the name of an active user, job role, or a team that the request should be assigned to.&nbsp;</span> </p> <note type="tip">
-         <span>You can specify only one team.</span> 
-        </note> <p><span>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three.</span> </p> <p><span>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources.</span> </p> </td> 
-      </tr>
-     </draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><span>Assignments*</span> </td> 
-      <td> <p><span>Specify the name of an active user, job role, or a team that the request should be assigned to.&nbsp;</span> </p> <note type="tip">
-        <span>You can specify only one team.</span> 
-       </note> <p><span>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three.</span> </p> <p><span>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources.</span> </p> </td> 
-     </tr> 
+      <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other <span>Workfront</span> user.</td> 
+     </tr> Assignments* Specify the name of an active user, job role, or a team that the request should be assigned to. Tip: You can specify only one team. Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. 
      <tr> 
       <td role="rowheader" colspan="2"> <note type="note"> 
         <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p> 
@@ -324,55 +177,25 @@ To create a request in the *Workfront* web app:&nbsp;
       <td role="rowheader"><span class="bold">Documents</span> </td> 
       <td> <p>Add documents to your request. </p> <note type="tip">
         Depending on how the request queue was set up, the Documents section might display before or after the custom fields. 
-       </note> <p>Documents that you upload to <em>Workfront</em> are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from other drives are saved on the draft permanently. </p> </td> 
+       </note> <p>Documents that you upload to <span>Workfront</span> are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from other drives are saved on the draft permanently. </p> </td> 
      </tr> 
     </tbody> 
    </table> 
   </div> </li> 
- <li value="7">(Optional) If your <em>Workfront administrator</em> associated a custom form with the Request Queue or with the Queue Topic, specify the fields inside the custom form. <br>Custom forms are different for every <em>Workfront</em> instance.&nbsp;</li> 
- <li value="8">(Optional and conditional)&nbsp;At any point during entering the request, click <span class="bold">Discard</span><draft-comment>
-   <span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Discard draft</span>
-  </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Discard draft</span> if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. </li> 
+ <li value="7">(Optional) If your <span>Workfront administrator</span> associated a custom form with the Request Queue or with the Queue Topic, specify the fields inside the custom form. <br>Custom forms are different for every <span>Workfront</span> instance.&nbsp;</li> 
+ <li value="8">(Optional and conditional)&nbsp;At any point during entering the request, click <span class="bold">Discard</span>Discard draft if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. </li> 
  <li value="9">(Optional)&nbsp;Click <span class="bold">Cancel</span> on the confirmation message if you want to revert your action and keep the <span data-mc-edit-date="2020-09-24T17:05:04.5612145-04:00" data-mc-editor="alinawilson" data-mc-comment="preview and only QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-09-24T17:05:00.6761160-04:00">draft.</span></li> 
  <li value="10"> <p>Do one of the following:</p> 
   <ul> 
-   <li> <p>Click <draft-comment>
-      <span data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span class="bold"><span data-mc-edit-date="2021-01-14T13:10:18.5128109-05:00" data-mc-editor="alinawilson" data-mc-comment="stays QS and yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-01-13T15:06:19.8692467-05:00"> Submit</span></span></span>
-     </draft-comment><span data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span class="bold"><span data-mc-edit-date="2021-01-14T13:10:18.5128109-05:00" data-mc-editor="alinawilson" data-mc-comment="stays QS and yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-01-13T15:06:19.8692467-05:00"> Submit</span></span></span> if you are ready to submit the request. The request is saved in the <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Submitted section
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Submitted section
-     </MadCap:conditionalText> . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a>. </p> <p>Or</p> <p> <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       <span>C</span>
-       <span>lick <span class="bold">Close</span> if you are not quite ready to submit it and you might come back and finish it later</span>. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      <span>C</span>
-      <span>lick <span class="bold">Close</span> if you are not quite ready to submit it and you might come back and finish it later</span>. 
-     </MadCap:conditionalText>Your request is saved in the Drafts <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       section 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      section 
-     </MadCap:conditionalText>and it will be available to you next time you submit a request for this request queue. </p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png" style="width: 350;height: 340;"> </p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png" style="width: 350;height: 340;"> </p> </li> 
+   <li> <p>Click Submit if you are ready to submit the request. The request is saved in the Submitted section . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a>. </p> <p>Or</p> <p> Click Close if you are not quite ready to submit it and you might come back and finish it later.Your request is saved in the Drafts sectionand it will be available to you next time you submit a request for this request queue. </p>  </li> 
   </ul> <p>When you submit the request, the draft automatically deletes and cannot be restored. </p> <p>For information about addressing incoming requests, see the article <a href="../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md" class="MCXref xref">Manage work and team requests</a>.</p> <p>For information about locating submitted or drafted requests, also see <a href="../../../manage-work/requests/create-requests/locate-submitted-requests.md" class="MCXref xref">Locate submitted requests</a>.</p> </li> 
 </ol>
 
-## Create requests from outside of *Workfront*
+## Create requests from outside of `Workfront`
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can share a direct link to a request queue when you submit a new request and embed it in other applications. Users who access this link from the web or from other applications must also be logged in with an active <em>Workfront</em> account to be able to access this queue and submit requests to it. For information, see <a href="../../../manage-work/requests/create-requests/share-link-to-request-queue.md" class="MCXref xref">Share a link to a request queue</a>.</p>
--->
+You can share a direct link to a request queue when you submit a new request and embed it in other applications. Users who access this link from the web or from other applications must also be logged in with an active Workfront account to be able to access this queue and submit requests to it. For information, see Share a link to a request queue. 
 
-You can share a direct link to a request queue when you submit a new request and embed it in other applications. Users who access this link from the web or from other applications must also be logged in with an active *Workfront* account to be able to access this queue and submit requests to it. For information, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
-
-## Create requests by emailing&nbsp;into *Workfront*
+## Create requests by emailing into `Workfront`
 
 If your Request Queue is enabled to receive requests through email, you can email your requests directly to the email associated with the Request Queue.
 
@@ -380,7 +203,7 @@ The body text of the email is added as the request description.
 
 >[!NOTE]
 >
->HTML formatting is stripped when the request enters *Workfront*, but signatures and existing Reply-to thread contents are not stripped and appear in the request description.
+>HTML formatting is stripped when the request enters `Workfront`, but signatures and existing Reply-to thread contents are not stripped and appear in the request description.
 
 For information about how to enable a Request Queue to receive requests through email, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
@@ -390,7 +213,7 @@ You can submit requests using the Outlook client. You can create a new request o
 
 For information about submitting requests using the Outlook client, see the article [Create an Adobe Workfront request from an Outlook email](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
-## Create requests by using the *Workfront* mobile app
+## Create requests by using the `Workfront` mobile app
 
 You can submit requests using the mobile app on your smartphone. You can create a new request&nbsp;and submit it to the Request Queues you have access to see in the web application.&nbsp;
 
@@ -401,16 +224,16 @@ For information about submitting requests&nbsp;through the mobile app, see the [
 
 ## Create requests from other applications
 
-You can submit requests using any applications that have been integrated with *Workfront*:&nbsp;
+You can submit requests using any applications that have been integrated with `Workfront`:&nbsp;
 
-* You can build a custom integration between *Workfront* and another application that allows you to submit requests to *Workfront* from the other application.  
-  For more information about custom *Workfront* integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations.md).
+* You can build a custom integration between `Workfront` and another application that allows you to submit requests to `Workfront` from the other application.  
+  For more information about custom `Workfront` integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations.md).
 
-* You can subscribe to *Workfront Fusion* and configure other applications on that platform to submit *Workfront* requests.  
-  For information about the *Workfront Fusion* platform, see the article [Legacy Workfront Fusion](../../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md).
+* You can subscribe to `Workfront Fusion` and configure other applications on that platform to submit `Workfront` requests.  
+  For information about the `Workfront Fusion` platform, see the article [Legacy Workfront Fusion](../../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md).
 
-* You can submit requests from Salesforce if you have installed the *Workfront* app for Salesforce.  
-  For information about submitting requests from Salesforce using our *Workfront* app for Salesforce, see the article [Submit Adobe Workfront requests from Salesforce objects](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+* You can submit requests from Salesforce if you have installed the `Workfront` app for Salesforce.  
+  For information about submitting requests from Salesforce using our `Workfront` app for Salesforce, see the article [Submit Adobe Workfront requests from Salesforce objects](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Locate submitted requests
 

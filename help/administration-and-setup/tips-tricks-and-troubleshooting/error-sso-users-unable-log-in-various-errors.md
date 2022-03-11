@@ -8,20 +8,20 @@ title: Error: SSO Users are Unable to Log In to Adobe Workfront Due to Various E
 description: I am unable to log in to Workfront and received one of the following errors:
 ---
 
-# Error: SSO Users are Unable to Log In to *Adobe Workfront* Due to Various Errors
+# Error: SSO Users are Unable to Log In to `Adobe Workfront` Due to Various Errors
 
 ## Problem
 
-I am unable to log in to *Workfront* and received one of the following errors:
+I am unable to log in to `Workfront` and received one of the following errors:
 
-* Sorry, you can't access *Workfront* through this login screen. *Workfront* is set up for Federated Single Sign-On with SAML 2.0. Please contact your *Workfront administrator*.
+* Sorry, you can't access `Workfront` through this login screen. `Workfront` is set up for Federated Single Sign-On with SAML 2.0. Please contact your `Workfront administrator`.
 
 * That username/password combination wasn't quite right. Make sure your caps lock isn't on and try again.
-* Sorry, you do not have access to *Workfront*. Please contact your *Workfront administrator* to get a username and password.
+* Sorry, you do not have access to `Workfront`. Please contact your `Workfront administrator` to get a username and password.
 
 ## Solution
 
-Your *Workfront* instance uses SSO, and you are trying to log in through an incorrect URL. Make sure you're logging in using the correct URL without anything after ".com"
+Your `Workfront` instance uses SSO, and you are trying to log in through an incorrect URL. Make sure you're logging in using the correct URL without anything after ".com"
 
 >[!TIP]
 >

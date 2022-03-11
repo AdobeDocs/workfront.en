@@ -24,25 +24,25 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Approve work
 
 <ol> 
  <li value="1"> 
   <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
+   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <span>Adobe Workfront</span>.</p> <note type="note"> 
+    <p>Your <span>Workfront administrator</span> might make the following changes to the Home icon in your environment:</p> 
     <ul> 
      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
 ## Delegate approvals
 
 <ol> 
- <li value="1">Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.<br></li> 
+ <li value="1">Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <span>Adobe Workfront</span>.Your <span>Workfront administrator</span> might make the following changes to the Home icon in your environment:Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.<br></li> 
  <li value="2">Click <span class="bold">Delegate My Approvals</span> above the work list.<br><img src="assets/home-for-reviewers-adobe-350x159.png" style="width: 350;height: 159;"></li> 
  <li value="3">Type the name of a user you'd like to delegate your approvals to. You can delegate only Project, Task, and Issue approvals.</li> 
  <li value="4">Choose a <span class="bold">Start Date</span>.</li> 
@@ -72,8 +72,8 @@ You must have the following access to perform the steps in this article:
 <ol> 
  <li value="1"> 
   <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
+   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <span>Adobe Workfront</span>.</p> <note type="note"> 
+    <p>Your <span>Workfront administrator</span> might make the following changes to the Home icon in your environment:</p> 
     <ul> 
      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
@@ -90,8 +90,8 @@ You must have the following access to perform the steps in this article:
 <ol> 
  <li value="1"> 
   <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
+   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <span>Adobe Workfront</span>.</p> <note type="note"> 
+    <p>Your <span>Workfront administrator</span> might make the following changes to the Home icon in your environment:</p> 
     <ul> 
      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 

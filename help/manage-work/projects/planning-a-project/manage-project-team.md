@@ -8,15 +8,7 @@ description: The Project Team consists of users who are associated with the proj
 
 # Manage the Project Team
 
-The Project&nbsp;Team consists of users who are associated with the project. They display 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-in the People section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  in the People section</MadCap:conditionalText>` of the project.
+The Project&nbsp;Team consists of users who are associated with the project. They display in the People section of the project.
 
 ## Access requirements
 
@@ -27,12 +19,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">&nbsp;</td> 
@@ -40,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>View or higher access to Users</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>View or higher access to Users</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -49,7 +41,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Add users to a Project Team
 
@@ -62,15 +54,7 @@ You can add users to the project team in the following ways:
 
 ### Automatically add users to a Project Team
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-in the People section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  in the People section</MadCap:conditionalText>` when the project is created:
+The users that fulfill the following roles on the project are automatically added to the project team and appear in the People section when the project is created:
 
 * The creator of the project
 * The project owner
@@ -90,12 +74,8 @@ You can manually add users to a project team by using the Team Scheduling tab.
 >You can add to the Project Team only users that belong to the Group associated with the project.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to the project where you want to add users to the project team, then click <span class="bold">Scheduling</span> in the left panel. The Scheduling section might be located under <span class="bold">Show More</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to the project where you want to add users to the project team, then click <span class="bold">Scheduling</span> in the left panel. The Scheduling section might be located under <span class="bold">Show More</span>.</p> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Add Users</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Add Users</span>. </p> <p>The Add Users to Project Team dialog box displays.</p> <p> <img src="assets/add-users-dialog-350x217.png" alt="add_users_dialog.png" style="width: 350;height: 217;"> <br> </p> </li> 
+ <li value="1"> Go to the project where you want to add users to the project team, then click Scheduling in the left panel. The Scheduling section might be located under Show More. </li> 
+ <li value="2"> Click Add Users. <p>The Add Users to Project Team dialog box displays.</p> <p> <img src="assets/add-users-dialog-350x217.png" alt="add_users_dialog.png" style="width: 350;height: 217;"> <br> </p> </li> 
  <li value="3"> <p>In the <span class="bold">Add Users</span> box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.</p> <p>Repeat this step to add multiple users to the project team.</p> </li> 
  <li value="4"> <p>Click <span class="bold">Add</span>.</p> <p>The users are now available in the project scheduling area.</p> </li> 
 </ol>

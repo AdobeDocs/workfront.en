@@ -21,47 +21,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Scenario execution flow
 
@@ -76,9 +54,9 @@ If the bundles process correctly throughout all of the modules, the scenario is 
 * For more information on scheduling a scenario, see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 * For more information on modules, see [Types of modules](../../workfront-fusion/modules/module-types.md).
 
-### Example: *Workfront Fusion for Work Automation*
+### Example: `Workfront Fusion for Work Automation`
 
-` `**Example: **`` In a scenario that watches for incoming requests in *Workfront* and then converts them to Workfront projects, data would flow as follows.
+` `**Example: **`` In a scenario that watches for incoming requests in `Workfront` and then converts them to Workfront projects, data would flow as follows.
 
 The scenario's first step, performed by the first module, is to watch for requests. Each request that comes in is considered one bundle. If the module runs without finding any bundles, the scenario ends after the first module.
 
@@ -86,11 +64,11 @@ If the first module returns a bundle, the bundle passes through the rest of the 
 
 ![](assets/example-execution-flow-wf-only-350x157.png)
 
-### Example: *Workfront Fusion for Work Automation and Integration*
+### Example: `Workfront Fusion for Work Automation and Integration`
 
-` `**Example: **`` In a scenario that downloads documents from *Adobe Workfront* and sends them to a folder in Dropbox, data would flow as follows.
+` `**Example: **`` In a scenario that downloads documents from `Adobe Workfront` and sends them to a folder in Dropbox, data would flow as follows.
 
-The scenario's first step, performed by the first module, is to watch for bundles (documents). In this example, the module watches for bundles in *Workfront*. If it does not return a bundle, the scenario ends after the first module.
+The scenario's first step, performed by the first module, is to watch for bundles (documents). In this example, the module watches for bundles in `Workfront`. If it does not return a bundle, the scenario ends after the first module.
 
 If a bundle is returned, the bundle passes through the rest of the scenario. In this example, the rest of the scenario consists of the second and last module, which uploads the bundle to the Dropbox folder.
 
@@ -115,7 +93,7 @@ A module received input information such as:
 After processing, the module returned this output information:
 
 * Image ID assigned by Dropbox
-* Full path where in Dropbox *Workfront Fusion* uploaded the file
+* Full path where in Dropbox `Workfront Fusion` uploaded the file
 
 The above information is captured for each bundle separately, as marked by the drop down boxes Operation 1 and Operation 2 in the image.
 

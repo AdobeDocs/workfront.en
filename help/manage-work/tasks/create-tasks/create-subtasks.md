@@ -8,7 +8,7 @@ description: In Workfront, tasks can have parent-child relationships. Child task
 
 # Create subtasks
 
-In *Workfront*, tasks can have&nbsp;parent-child relationships. Child tasks are called subtasks. You can create subtasks&nbsp;on the tasks list by making a main task a subtask.&nbsp;You can also make a subtask a main task.
+In `Workfront`, tasks can have&nbsp;parent-child relationships. Child tasks are called subtasks. You can create subtasks&nbsp;on the tasks list by making a main task a subtask.&nbsp;You can also make a subtask a main task.
 
 ## Access requirements
 
@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,26 +37,17 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create subtasks
 
 * [Create subtasks from the task list](#creating-subtasks-from-the-task-list) 
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="#create" class="MCXref xref">Create subtasks from the task Subtasks section</a> </p>
-  -->
-
-  [Create subtasks from the task Subtasks section](#create)
+* Create subtasks from the task Subtasks section
 
 ### Create subtasks from the task list
 
 <ol> 
- <li value="1">Go to the&nbsp;project where you want to create&nbsp;subtasks.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Tasks</span> section in the left panel.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Tasks</span> section in the left panel.</li> 
+ <li value="1">Go to the&nbsp;project where you want to create&nbsp;subtasks.</li> Click the Tasks section in the left panel. 
  <li value="3">(Conditional) If the task that you want to make the child task is not already located directly beneath the task that you want make the parent, drag it to the appropriate location in the task list.</li> 
  <li value="4">Select the&nbsp;task that you want to make a subtask and do one of the following:
   <ul>
@@ -71,28 +62,11 @@ You must have the following access to perform the steps in this article:
   </note></li> 
 </ol>
 
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Create"></a>Create subtasks from the task Subtasks section</h3>
--->
-
-### Create subtasks from the task Subtasks section
+Create subtasks from the task Subtasks section
 
 1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
-
-   <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Tasks</span> section in the left panel.</li>
-   -->
-
-1. Click the `Tasks` section in the left panel.
 1. Click the name of the task where you want to create a subtask.
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Subtasks</span> section in the left panel.</p>
-   -->
-
-   Click the `Subtasks` section in the left panel.
-
+1. Click the Subtasks section in the left panel. 
 1. Click `New Task.`
 
    Follow the steps in the following article to continue creating the subtask: [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -102,10 +76,7 @@ You must have the following access to perform the steps in this article:
 ## Make a subtask a main task
 
 <ol> 
- <li value="1">Go to the&nbsp;project where you want to make a subtask a main task.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: normal;">Click the <span class="bold">Tasks</span> section in the left panel.</span> </li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: normal;">Click the <span class="bold">Tasks</span> section in the left panel.</span> </li> 
+ <li value="1">Go to the&nbsp;project where you want to make a subtask a main task.</li> Click the Tasks section in the left panel. 
  <li value="3">Select the subtask that you want to make a main task.</li> 
  <li value="4"> <p>Click the <span class="bold">Outdent</span> icon to make the subtask a main task.</p> <p> <img src="assets/cs4.png" alt=""> </p> <p>Or</p> <p> Press Option +&nbsp;< (Mac) or Alt +&nbsp;< (Windows) on your keyboard.</p> <note type="note">
    You can&nbsp;outdent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.

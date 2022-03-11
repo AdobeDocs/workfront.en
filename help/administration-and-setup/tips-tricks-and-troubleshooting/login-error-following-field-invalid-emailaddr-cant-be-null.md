@@ -12,7 +12,7 @@ description: When I try to log into Adobe Workfront with my URL (https://custome
 
 ## Problem&nbsp;
 
-When I try to log into *Adobe Workfront* with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to *Workfront* with the following error:
+When I try to log into `Adobe Workfront` with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to `Workfront` with the following error:
 
 "Let's try that again. The following fields are invalid:&nbsp;emailAddr cannot be null."
 

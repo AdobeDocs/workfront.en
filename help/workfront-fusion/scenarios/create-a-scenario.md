@@ -9,7 +9,7 @@ description: The following tasks explain how to create a Adobe Workfront Fusion 
 
 # Create a scenario
 
-The following tasks explain how to create a *Adobe Workfront Fusion* scenario.
+The following tasks explain how to create a `Adobe Workfront Fusion` scenario.
 
 For a practice exercise that walks you through this process using data that we provide, see [Create a practice integration scenario](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
@@ -26,47 +26,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Begin creating a scenario
 
@@ -90,7 +68,7 @@ You must have the following access to use the functionality in this article:
  <li value="4">Continue on to <a href="#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a>.</li> 
 </ol>
 
-## Connect the module's app or web service to *Workfront Fusion*
+## Connect the module's app or web service to `Workfront Fusion`
 
 Workfront Fusion modules that connect to an app (such as Workfront, Salesforce, or Jira) feature the Connection field. Here, you can specify the connection that you want this module to use to connect to the app. You can select an existing connection from the dropdown, or create a new connection.
 
@@ -100,7 +78,7 @@ For more information, see [About connecting Adobe Workfront Fusion to an app or 
 
 ![](assets/connection-field-350x169.png)
 
-To create a connection inside a *Workfront Fusion* module:
+To create a connection inside a `Workfront Fusion` module:
 
 1. Click `Add` to open the `Create a connection` box.
 1. (Optional) Change the default `Connection name`.
@@ -110,13 +88,7 @@ To create a connection inside a *Workfront Fusion* module:
 
 1. Click `Continue`.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
-1. (Conditional) If an `Allow` button displays, examine the actions that the connector will be able to take, then click the button to connect the app to *Workfront Fusion*.
-
-   <!--
-   <li value="7" data-mc-conditions="SnippetConditions.HIDE">Continue on to <a href="#configur" class="MCXref xref">Configure the module</a>.</li>
-   -->
-
-1. Continue on to [Configure the module](#configur).
+1. (Conditional) If an `Allow` button displays, examine the actions that the connector will be able to take, then click the button to connect the app to `Workfront Fusion`.
 
 ## Configure the module
 
@@ -212,20 +184,11 @@ To create a connection inside a *Workfront Fusion* module:
 
 For information about activating a scenario, see [Activate or deactivate a scenario](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-## *Workfront Fusion* scenario keyboard shortcuts
+## `Workfront Fusion` scenario keyboard shortcuts
 
 You can use the following keyboard shortcuts when creating or editing a scenario:
 
-<table cellspacing="0"> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> <draft-comment>
-  <col data-mc-conditions="">
- </draft-comment>
- <col data-mc-conditions=""> 
+<table cellspacing="0">    
  <thead> 
   <tr> 
    <th> <p>Action</p> </th> 

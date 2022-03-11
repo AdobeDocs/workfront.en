@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Considerations about updating to specific statuses
 
@@ -46,22 +46,12 @@ You must have the following access to perform the steps in this article:
 
 ## Change project status
 
-<ol> 
- <li value="1">Go to the project whose status you want to update.</li> 
- <li value="2"> <p>In the project header, click the name of the status in the <span class="bold">Status</span> field, then select a new status.</p> <p> <draft-comment>
-    <img src="assets/change-project-status-in-header-drop-down-nwe-350x371.png" style="width: 350;height: 371;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/change-project-status-in-header-drop-down-nwe-350x371.png" style="width: 350;height: 371;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Or<br></p> <p>Click <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     the 
-     <span class="bold">More</span> menu 
-     <img src="assets/qs-more-menu.png"> next to the name of the project and click 
-     <span class="bold">Edit</span>
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    the 
-    <span class="bold">More</span> menu 
-    <img src="assets/qs-more-menu.png"> next to the name of the project and click 
-    <span class="bold">Edit</span>
-   </MadCap:conditionalText> and select a new status in the <span class="bold">Status</span> field, then click <span class="bold">Save</span>.</p> <p>The project status updates to the status you selected. <br></p> </li> 
-</ol>
+1. Go to the project whose status you want to update.
+1. In the project header, click the name of the status in the `Status` field, then select a new status.
+
+   Or
+
+   Click the More menu next to the name of the project and click Edit and select a new status in the `Status` field, then click `Save`.
+
+   The project status updates to the status you selected.
 

@@ -9,7 +9,7 @@ description:
 
 # Copy modules or scenarios
 
-You can copy modules, groups of modules, or entire scenarios in *Adobe Workfront Fusion*. This ability allows you to reuse scenarios or parts of scenarios without having to build them again
+You can copy modules, groups of modules, or entire scenarios in `Adobe Workfront Fusion`. This ability allows you to reuse scenarios or parts of scenarios without having to build them again
 
 ## Access requirements
 
@@ -20,47 +20,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -75,10 +53,9 @@ You can paste the module or modules into another area of the same scenario, or i
 Consider the following when pasting modules into a different scenario.
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>If you paste the modules into another scenario, any fields that pull information from a module that you did not copy must be set to pull information from a module in the new scenario.</p> </li>
+  If you paste the modules into another scenario, any fields that pull information from a module that you did not copy must be set to pull information from a module in the new scenario.
   -->
 
-* If you paste the modules into another scenario, any fields that pull information from a module that you did not copy must be set to pull information from a module in the new scenario.
 * Any field values that pull information from another module that you did not copy can no longer access that information. You must set these fields to pull information from the new scenario.
 * If you paste the modules into a scenario owned by another team or organization, all connections must be updated to connections owned by the group or organization that owns the new scenario.
 
@@ -120,7 +97,7 @@ A scenario blueprint represents the entire scenario. If you want to copy only ce
 
 >[!NOTE]
 >
->For information on blueprints in the context of *Adobe Workfront*, see [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md).
+>For information on blueprints in the context of `Adobe Workfront`, see [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ### Export a scenario blueprint
 
@@ -146,6 +123,6 @@ A scenario blueprint represents the entire scenario. If you want to copy only ce
 
 ## Copy and reuse scenarios by using templates
 
-You can create templates as a starting point for your *Workfront Fusion* scenarios. When you create a scenario from a template, you can modify the scenario without modifying the template. Field values are not saved in templates.
+You can create templates as a starting point for your `Workfront Fusion` scenarios. When you create a scenario from a template, you can modify the scenario without modifying the template. Field values are not saved in templates.
 
 For more information on creating and using templates, see [Scenario Templates](../../workfront-fusion/scenarios/templates/fusion-templates.md).

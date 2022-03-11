@@ -12,17 +12,17 @@ description: When implementing a message delivery system there are a few caveats
 
 `Some integrations can accept failure of delivery, and then drop the message and move to the next message.`  In other integrations, failure to deliver a message cannot be ignored.  `For example, a financial integration might attempt to deliver a message, but instead receives an HTTP status code of 404, which indicates the server could not find the endpoint to which the message was to be delivered. In such cases, a` `missing message could mean someone not being paid for their time or an organization going over budget on contracted resources.`
 
-## *Adobe Workfront* Strategy for Event Subscription Retries
+## `Adobe Workfront` Strategy for Event Subscription Retries
 
-`Because customers leverage the *Workfront* platform as a core piece of their daily knowledge work, the *Workfront* Event Subscription framework provides a mechanism to ensure that the delivery of each message is attempted to the fullest extent possible.`
+`Because customers leverage the `Workfront` platform as a core piece of their daily knowledge work, the `Workfront` Event Subscription framework provides a mechanism to ensure that the delivery of each message is attempted to the fullest extent possible.`
 
 `Event-triggered outbound messages that fail to be delivered to customer endpoints are resent until delivery is successful for up to a period of 48 hours. During this time, retries occur at an incrementally reduced frequency until delivery is successful or until 48 hours has elapsed.`
 
-`Customers need to ensure that any endpoints consuming outbound messages from *Workfront* Event Subscriptions are set up to return a 200-level response message back to *Workfront* when delivery is successful.`
+`Customers need to ensure that any endpoints consuming outbound messages from `Workfront` Event Subscriptions are set up to return a 200-level response message back to `Workfront` when delivery is successful.`
 
 ## Handling Failed Event-Triggered Outbound Messages
 
-`The following flowchart shows the strategy for reattempting message deliveries with *Workfront* Event Subscriptions: `
+`The following flowchart shows the strategy for reattempting message deliveries with `Workfront` Event Subscriptions: `
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
@@ -49,20 +49,6 @@ The following explanations correspond with the steps depicted in the flowchart:
 1. `If the URL circuit is closed and allowing deliveries, attempt to deliver the message.` `If this delivery fails, the message will restart at step 1.`
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront disables Event Subscriptions when both of the following criteria are met:
-   <ul>
-   <draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Event Subscription has failed 1000 delivery attempts consecutively</li>
-   </draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Event Subscription has failed 1000 delivery attempts consecutively</li><draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">48 hours have passed since the last successful delivery</li>
-   </draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">48 hours have passed since the last successful delivery</li>
-   </ul></li>
+   Workfront disables Event Subscriptions when both of the following criteria are met: The Event Subscription has failed 1000 delivery attempts consecutively 48 hours have passed since the last successful delivery
    -->
-
-1. Workfront disables Event Subscriptions when both of the following criteria are met:
-
-  * The Event Subscription has failed 1000 delivery attempts consecutively
-  * 48 hours have passed since the last successful delivery
 

@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -59,12 +59,6 @@ You can reference fields within custom forms. After a custom form is applied to 
 When creating the report, simply use the object type of the form as the field source, and use the name of the custom field as the field name.
 
 For example, you might have a custom form applied to all projects that includes the custom field `Consultant`. To create a report that lists all of the projects where Olivia Kim is the consultant, use the `Project` object type as the field source, and use `Consultant` as the field name. Set the filter qualifier to `Equal`, then type Olivia Kim.
-
-<!--
-<img src="assets/qs-consultant-filter-example-350x126.png" style="width: 350;height: 126;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/qs-consultant-filter-example-350x126.png)
 
 For more information about creating a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -90,21 +84,14 @@ You can reference custom forms on Views, Filters, and Groupings:
 
 To display all custom forms associated with an object:
 
-<ol> 
- <li value="1"> <p>Begin creating a report as described in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
- <li value="2"> <p>On the <span class="bold">Columns</span> tab, expand the object type that the custom form that you want to reference is applied to, then click <span class="bold">Category Name</span>.<br>For example, to display all custom forms associated with a task, expand the <span class="bold">Task</span> field source, then click the <span class="bold">Category Name</span> field name.<br><draft-comment>
-    <img src="assets/qs-category-name-column-350x267.png" style="width: 350;height: 267;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-category-name-column-350x267.png" style="width: 350;height: 267;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p> </li> 
-</ol>
+1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. On the `Columns` tab, expand the object type that the custom form that you want to reference is applied to, then click `Category Name`.  
+   For example, to display all custom forms associated with a task, expand the `Task` field source, then click the `Category Name` field name.
 
 To display only the primary custom form associated with the object:
 
-<ol> 
- <li value="1"> <p>Begin creating a report as described in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
- <li value="2"> <p>On the <span class="bold">Columns</span> tab, expand the <span class="bold">Category</span> field source, then click the <span class="bold">Name</span> field name.<br><draft-comment>
-    <img src="assets/qs-category-name-column-2-350x248.png" style="width: 350;height: 248;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-category-name-column-2-350x248.png" style="width: 350;height: 248;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p> </li> 
-</ol>
+1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. On the `Columns` tab, expand the `Category` field source, then click the `Name` field name.
 
 ### Reference custom forms in a report Filter
 
@@ -112,9 +99,7 @@ To filter on all custom forms associated with the object type:
 
 <ol> 
  <li value="1"> <p>Begin creating a report as described in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
- <li value="2"> <p>On the <span class="bold">Filters</span> tab, expand <span class="bold">Categories</span>, then click <span class="bold">Name</span>.<br><draft-comment>
-    <img src="assets/qs-categories-name-filter-350x311.png" style="width: 350;height: 311;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-categories-name-filter-350x311.png" style="width: 350;height: 311;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p> </li> 
+ <li value="2"> <p>On the <span class="bold">Filters</span> tab, expand <span class="bold">Categories</span>, then click <span class="bold">Name</span>.<br></p> </li> 
  <li value="3"> <p>Select the condition qualifier that you want to use:</p> 
   <ul> 
    <li>Is Blank</li> 
@@ -134,24 +119,23 @@ To filter on all custom forms associated with the object type:
 
 To filter only on the primary custom form associated with the object type:
 
-<ol> 
- <li value="1"> <p>Begin creating a report as described in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
- <li value="2"> <p>On the <span class="bold">Filters</span> tab, expand the <span class="bold">Category</span> field source, then click the <span class="bold">Name</span> field name.<br><draft-comment>
-    <img src="assets/qs-category-name-filter-350x437.png" style="width: 350;height: 437;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-category-name-filter-350x437.png" style="width: 350;height: 437;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><br></p> </li> 
- <li value="3"> <p>Select the condition qualifier that you want to use:</p> 
-  <ul> 
-   <li>Is Blank</li> 
-   <li>Is Not Blank</li> 
-   <li>Contains</li> 
-   <li>Does Not Contain</li> 
-   <li>Equal</li> 
-   <li>Not Equal<br></li> 
-  </ul> <p>For more information about each qualifier, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</p> </li> 
- <li value="4"> <p>Begin typing the name of the custom form that you want to filter on, then click the name when it appears in the drop-down list.</p> </li> 
- <li value="5"> <p>(Optional) Click <span class="bold">Add another Filter Rule</span>, then repeat steps 2-4 to create additional filter rules.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Save+Close</span>.</p> </li> 
-</ol>
+1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. On the `Filters` tab, expand the `Category` field source, then click the `Name` field name.
+
+1. Select the condition qualifier that you want to use:
+
+  * Is Blank
+  * Is Not Blank
+  * Contains
+  * Does Not Contain
+  * Equal
+  * Not Equal
+
+   For more information about each qualifier, see the article [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+1. Begin typing the name of the custom form that you want to filter on, then click the name when it appears in the drop-down list.
+1. (Optional) Click `Add another Filter Rule`, then repeat steps 2-4 to create additional filter rules.
+1. Click `Save+Close`.
 
 ### Reference custom forms in a report Grouping
 
@@ -159,10 +143,6 @@ To filter only on the primary custom form associated with the object type:
 >
 >You can group items only by the primary custom form that is associated with the object; you cannot group items by all forms that are associated with the object.
 
-<ol> 
- <li value="1"> <p>Begin creating a report as described in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
- <li value="2"> <p>On the <span class="bold">Groupings</span> tab, expand <span class="bold">Category</span>, then click <span class="bold">Name</span>.<br><draft-comment>
-    <img src="assets/qs-category-name-grouping-350x373.png" style="width: 350;height: 373;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-category-name-grouping-350x373.png" style="width: 350;height: 373;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p> </li> 
-</ol>
+1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. On the `Groupings` tab, expand `Category`, then click `Name`.
 

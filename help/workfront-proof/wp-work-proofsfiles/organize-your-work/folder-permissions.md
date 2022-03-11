@@ -5,14 +5,14 @@ product: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Understand Folder Permissions in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: If a person has permission to see an item in a folder, they can also see the folder itself. However, they can see only the items in the folder that have been explicitly shared with them.
 ---
 
-# Understand Folder Permissions in *Workfront Proof*
+# Understand Folder Permissions in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 If a person has permission to see an item in a folder, they can also see the folder itself. However, they can see only the items in the folder that have been explicitly shared with them.
 

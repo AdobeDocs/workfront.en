@@ -9,7 +9,7 @@ description: To aggregate several fields in Adobe Workfront and display that agg
 
 # Calculated custom fields vs. calculated columns
 
-To aggregate several fields in *Adobe Workfront* and display that aggregate value in a new field, you can do the following:
+To aggregate several fields in `Adobe Workfront` and display that aggregate value in a new field, you can do the following:
 
 * A calculated custom field in a Custom Form  
   For more information about adding a calculated custom field to a Custom Form, see the section [Add a calculated field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) in the article [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
@@ -45,8 +45,8 @@ The differences between the two syntaxes are:
    <td>Calculated custom reporting element</td> 
   </tr> 
   <tr> 
-   <td> <p>Use the name of the fields as they appear in&nbsp;the <em>Workfront</em> interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field:&nbsp;<code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Use the name of the objects or fields as they appear in the <em>Workfront</em> database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all&nbsp;<em>Workfront</em> objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element:&nbsp;<code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Use the name of the fields as they appear in&nbsp;the <span>Workfront</span> interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field:&nbsp;<code>Planned Completion Date</code>.</p> </td> 
+   <td> <p>Use the name of the objects or fields as they appear in the <span>Workfront</span> database. The names of objects and fields are spelled in lower case or camel case, if they are compound names. </p> <p>For an inventory of all&nbsp;<span>Workfront</span> objects and fields as they appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom reporting element:&nbsp;<code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Do not enclose field names in parentheses or curly brackets.</td> 
@@ -69,13 +69,8 @@ For more information about the syntax you must use in a calculated custom column
 
 ## Actions that trigger the update of a calculated custom field
 
-<ul> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver">On an object’s main page, clicking the More icon <img src="assets/more-icon.png">, then clicking <span class="bold">Recalculate Expressions</span></li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Quicksilver">On an object’s main page, clicking the More icon <img src="assets/more-icon.png">, then clicking <span class="bold">Recalculate Expressions</span></li> 
- <li>Bulk editing multiple objects when <span class="bold">Recalculate Custom Expressions</span> is enabled</li> 
- <li>Editing a custom form when <span class="bold">Update previous calculations</span> is enabled for the calculated custom field</li> 
-</ul>
+* Bulk editing multiple objects when `Recalculate Custom Expressions` is enabled
+* Editing a custom form when `Update previous calculations` is enabled for the calculated custom field
 
 ## When to use Calculated Columns in a View
 

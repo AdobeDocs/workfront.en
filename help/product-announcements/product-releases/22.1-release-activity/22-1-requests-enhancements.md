@@ -2,17 +2,15 @@
 
 # 22.1 Requests enhancements
 
-This page describes all *Requests* enhancements made with the *22.1* release to the Preview environment. These enhancements will be made available in the Production environment 
+This page describes all `Requests` enhancements made with the `22.1` release to the Preview environment. These enhancements will be made available in the Production environment 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 in January 2022
-</MadCap:conditionalText>
 -->
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> in January 2022</MadCap:conditionalText>`the week of January 17, 2022.
+the week of January 17, 2022.
 
-For a list of all changes available with the *22.1* release, see [22.1 Release overview](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+For a list of all changes available with the `22.1` release, see [22.1 Release overview](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Interface improvement for users who don’t have access to create requests
 

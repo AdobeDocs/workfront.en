@@ -14,9 +14,9 @@ You can use the Calendar view in the Home area to manage your work day and work 
 
 >[!NOTE]
 >
->* This is different from a *Adobe Workfront* Calendar report, which is a&nbsp;dynamic report that provides a visual representation of your work. For information about the *Workfront* Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+>* This is different from a `Adobe Workfront` Calendar report, which is a dynamic report that provides a visual representation of your work. For information about the `Workfront` Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 >
->* Due to a temporary problem, your *Workfront* Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;
+>* Due to a temporary problem, your `Workfront` Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;
 >
 
 ## Access requirements
@@ -30,16 +30,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Schedule work items in your Home Calendar
 
@@ -58,7 +58,7 @@ You can use the Home Calendar to schedule work items for your week.
 >
 >&nbsp;Placing a&nbsp;work item on your Home Calendar does not change the existing dates associated with the work item.
 
-To add a *Workfront* work item to your calendar:
+To add a `Workfront` work item to your calendar:
 
 1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
@@ -99,25 +99,7 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
       <tr>
        <td role="rowheader">Notify</td>
        <td><p> Tag users you want to notify about your update. For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p><p>&nbsp;</p></td>
-      </tr><draft-comment>
-       <tr data-mc-conditions="">
-        <td role="rowheader">Commit Date</td>
-        <td>In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the Commit Date, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td>
-       </tr>
-      </draft-comment>
-      <tr data-mc-conditions="">
-       <td role="rowheader">Commit Date</td>
-       <td>In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the Commit Date, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td>
-      </tr><draft-comment>
-       <tr data-mc-conditions="">
-        <td role="rowheader">How's this going?</td>
-        <td>Select a new condition for the task or issue. For information about task and issue conditions, see <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td>
-       </tr>
-      </draft-comment>
-      <tr data-mc-conditions="">
-       <td role="rowheader">How's this going?</td>
-       <td>Select a new condition for the task or issue. For information about task and issue conditions, see <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td>
-      </tr>
+      </tr>Commit Date In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the Commit Date, see Commit Date overview.How's this going? Select a new condition for the task or issue. For information about task and issue conditions, see Update Condition for tasks and issues.
       <tr>
        <td role="rowheader">Private to my company</td>
        <td>Disable to prevent users outside your company from being able to view this update.</td>
@@ -138,38 +120,18 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 
 To update the integrated calendar events in your Home Calendar:
 
-<ol> 
- <li value="1">Go to the Home Calendar view, as explained in <a href="../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md" class="MCXref xref">View the Home Calendar</a>.</li> 
- <li value="2">Click <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    <span class="bold">Refresh calendars</span>
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   <span class="bold">Refresh calendars</span>
-  </MadCap:conditionalText> in the upper right corner of the Home Calendar.<draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/refresh-qs-350x403.png" style="width: 350;height: 403;"><br></p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/refresh-qs-350x403.png" style="width: 350;height: 403;"><br></p><p>Integrated calendar events update automatically when you open your Home Calendar view or when you refresh your Home Calendar.</p></li> 
-</ol>
+1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
+1. Click Refresh calendars in the upper right corner of the Home Calendar.Integrated calendar events update automatically when you open your Home Calendar view or when you refresh your Home Calendar.
 
 ## Filter and sort work items
 
 <ol> 
  <li value="1">Go to the Home Calendar view, as explained in <a href="../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md" class="MCXref xref">View the Home Calendar</a>.</li> 
- <li value="2"> <p>Click the <span class="bold">Filter</span> <draft-comment>
-    <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> drop-down menu.</p> <note type="note">
+ <li value="2"> <p>Click the <span class="bold">Filter</span>  drop-down menu.</p> <note type="note">
     Some filter options are based on objects (Tasks, Requests, Issues, Approvals, Proofs, and Personal), and others are based on state (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, the Home Calendar displays all selected objects of any state. Similarly, if no object is selected, it displays all objects of any selected state.
    <br>
   </note> </li> 
- <li value="3"> <p>Select from the various filter options to specify the types of items you want to display. <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-     Filter options are different depending on which environment you use to access the Home Calendar. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-    Filter options are different depending on which environment you use to access the Home Calendar. 
-   </MadCap:conditionalText></p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Production environment, select from the following filter options: </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Production environment, select from the following filter options: </p> 
+ <li value="3"> <p>Select from the various filter options to specify the types of items you want to display. Filter options are different depending on which environment you use to access the Home Calendar.</p> In the Production environment, select from the following filter options: 
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -188,7 +150,7 @@ To update the integrated calendar events in your Home Calendar:
     </tr> 
     <tr> 
      <td role="rowheader">Approvals</td> 
-     <td> <p>Work items that require your approval.</p> <p>For more detailed information about managing approvals in <em>Workfront</em>, see <a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a><br></p> </td> 
+     <td> <p>Work items that require your approval.</p> <p>For more detailed information about managing approvals in <span>Workfront</span>, see <a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a><br></p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Personal</td> 
@@ -211,159 +173,8 @@ To update the integrated calendar events in your Home Calendar:
      <td>Work you have completed.</td> 
     </tr> 
    </tbody> 
-  </table> <p> <img src="assets/calendar-filters-classic-and-nwe-350x350.png" style="width: 350;height: 350;"> </p> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Preview environment, select from the following filter options: </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Preview environment, select from the following filter options: </p> <draft-comment>
-   <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">All</td> 
-      <td><span class="preview">Displays and selects all items. This includes tasks, </span><span class="preview" data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span class="preview">, approvals, personal tasks and completed tasks and issues.</span> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tasks Working On</td> 
-      <td> <p><span class="preview">Displays only tasks that you are actively working on.&nbsp;These are tasks assigned to you for which you have clicked the Work On&nbsp;It button. </span> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tasks&nbsp;Ready to Start</td> 
-      <td> 
-       <div class="preview"> 
-        <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
-        <ul style="list-style-type: square;"> 
-         <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
-        </ul> 
-        <ul> 
-         <li> <p>The Planned Start Date of the tasks is in the past or up to two weeks in the future.</p> </li> 
-        </ul> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tasks Not Ready</td> 
-      <td> 
-       <div class="preview"> 
-        <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
-        <ul> 
-         <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
-         <li> <p>The tasks have a Planned Start Date that is more than two weeks in the future.</p> </li> 
-        </ul> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Issues Working On</td> 
-      <td> <p class="preview">Displays only issues that you are actively working on.&nbsp;These are issues assigned to you for which you have clicked the Work On&nbsp;It button.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Issues&nbsp;Requested</td> 
-      <td><span class="preview">Displays only issues that you are assigned to but for which you have not clicked the Work On It button.</span> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Personal&nbsp;</td> 
-      <td><span class="preview">Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task" class="preview">Create a personal task</span><span class="preview"> in the article </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="preview">Create work items from the Home area</span><span class="preview">.</span> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Approvals</td> 
-      <td> 
-       <div class="preview"> 
-        <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
-        <ul> 
-         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a> </li> 
-        </ul> 
-        <ul> 
-         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
-        </ul> <note type="note">
-         Approvals that you submitted and where you are also one of the approvers are counted twice. 
-        </note> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Completed</td> 
-      <td><span class="preview">Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-  </draft-comment>
-  <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">All</td> 
-     <td><span class="preview">Displays and selects all items. This includes tasks, </span><span class="preview" data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span class="preview">, approvals, personal tasks and completed tasks and issues.</span> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Tasks Working On</td> 
-     <td> <p><span class="preview">Displays only tasks that you are actively working on.&nbsp;These are tasks assigned to you for which you have clicked the Work On&nbsp;It button. </span> </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Tasks&nbsp;Ready to Start</td> 
-     <td> 
-      <div class="preview"> 
-       <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
-       <ul style="list-style-type: square;"> 
-        <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
-       </ul> 
-       <ul> 
-        <li> <p>The Planned Start Date of the tasks is in the past or up to two weeks in the future.</p> </li> 
-       </ul> 
-      </div> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Tasks Not Ready</td> 
-     <td> 
-      <div class="preview"> 
-       <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
-       <ul> 
-        <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
-        <li> <p>The tasks have a Planned Start Date that is more than two weeks in the future.</p> </li> 
-       </ul> 
-      </div> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Issues Working On</td> 
-     <td> <p class="preview">Displays only issues that you are actively working on.&nbsp;These are issues assigned to you for which you have clicked the Work On&nbsp;It button.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Issues&nbsp;Requested</td> 
-     <td><span class="preview">Displays only issues that you are assigned to but for which you have not clicked the Work On It button.</span> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Personal&nbsp;</td> 
-     <td><span class="preview">Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task" class="preview">Create a personal task</span><span class="preview"> in the article </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="preview">Create work items from the Home area</span><span class="preview">.</span> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Approvals</td> 
-     <td> 
-      <div class="preview"> 
-       <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
-       <ul> 
-        <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a> </li> 
-       </ul> 
-       <ul> 
-        <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
-       </ul> <note type="note">
-        Approvals that you submitted and where you are also one of the approvers are counted twice. 
-       </note> 
-      </div> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Completed</td> 
-     <td><span class="preview">Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td> 
-    </tr> 
-   </tbody> 
-  </table> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/calendar-filters-nwe-350x392.png" style="width: 350;height: 392;"> </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/calendar-filters-nwe-350x392.png" style="width: 350;height: 392;"> </p> </li> 
- <li value="4"> <p>To group and sort your list of work, click the <draft-comment>
-    <MadCap:conditionalText class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Group by 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Group by 
-   </MadCap:conditionalText>drop-down menu, then select the criteria you want to use.</p> <p>The items are listed on the left side of the calendar according to the criteria and in the order that you specify. <br></p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/home-calendar-sort-group-nwe-350x286.png" style="width: 350;height: 286;"> <br> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/home-calendar-sort-group-nwe-350x286.png" style="width: 350;height: 286;"> <br> </p> <p>Choose from the following options:</p> 
+  </table> <p> <img src="assets/calendar-filters-classic-and-nwe-350x350.png" style="width: 350;height: 350;"> </p> In the Preview environment, select from the following filter options: All Displays and selects all items. This includes tasks, issues, approvals, personal tasks and completed tasks and issues. Tasks Working On Displays only tasks that you are actively working on. These are tasks assigned to you for which you have clicked the Work On It button. Tasks Ready to Start Displays only tasks that are ready for you to start. Both of the following statements must be true: The tasks and their parents have no predecessors or task constraints preventing them from being worked on. The Planned Start Date of the tasks is in the past or up to two weeks in the future. Tasks Not Ready Displays only tasks that are not yet ready to start. Either one of the following statements must be true: The tasks and their parents might have predecessors or task constraints that prevent them from being worked on. The tasks have a Planned Start Date that is more than two weeks in the future. Issues Working On Displays only issues that you are actively working on. These are issues assigned to you for which you have clicked the Work On It button. Issues Requested Displays only issues that you are assigned to but for which you have not clicked the Work On It button. Personal Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section Create a personal task in the article Create work items from the Home area. Approvals Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles: View approvals in Adobe Workfront Manage approvals Note: Approvals that you submitted and where you are also one of the approvers are counted twice. Completed Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.  </li> 
+ <li value="4"> <p>To group and sort your list of work, click the Group bydrop-down menu, then select the criteria you want to use.</p> <p>The items are listed on the left side of the calendar according to the criteria and in the order that you specify. <br></p>  <p>Choose from the following options:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -371,16 +182,7 @@ To update the integrated calendar events in your Home Calendar:
     <tr> 
      <td role="rowheader">Planned Completion</td> 
      <td>Tasks and issues sort in order of the Planned Completion dates. To learn more about Planned Completion dates, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Planned Start</td> 
-      <td>Tasks and issues sort in order of the Planned Start dates. For more information about task Planned Start&nbsp;Dates, see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a>. </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <td role="rowheader">Planned Start</td> 
-     <td>Tasks and issues sort in order of the Planned Start dates. For more information about task Planned Start&nbsp;Dates, see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a>. </td> 
-    </tr> 
+    </tr> Planned Start Tasks and issues sort in order of the Planned Start dates. For more information about task Planned Start Dates, see Overview of the task Planned Start Date. 
     <tr> 
      <td role="rowheader">Commit Date</td> 
      <td>Tasks and issues sort in order of the Commit dates. To learn more about Commit dates, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td> 

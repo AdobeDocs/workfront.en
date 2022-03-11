@@ -10,7 +10,7 @@ description: In a layout template, you can pin the pages that you want users to 
 
 # Customize pinned pages using a layout template
 
-In a layout template, you can pin the pages that you want users to always have available at the top of *Adobe Workfront*. These can be either pages accessed via the Main Menu ![](assets/main-menu-icon.png) or dashboards.
+In a layout template, you can pin the pages that you want users to always have available at the top of `Adobe Workfront`. These can be either pages accessed via the Main Menu ![](assets/main-menu-icon.png) or dashboards.
 
 Any pins that your users have added on their own are displayed to the right of the pins you add in the layout template.
 
@@ -29,16 +29,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,7 @@ You must have the following to perform the steps in this article:
   <ul> 
    <li> <p>Click a Main Menu item.</p> <note type="important"> 
      <div> 
-      <p>To view the <em>Scenarios</em> and Goals areas requires additional licenses. For information about <em>Workfront Goals</em>, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en"><em>Adobe Workfront Goals</em> overview</a> or for information about the <em>Workfront Scenario Planner</em>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>.</p> 
+      <p>To view the <span>Scenarios</span> and Goals areas requires additional licenses. For information about <span>Workfront Goals</span>, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en"><span>Adobe Workfront Goals</span> overview</a> or for information about the <span>Workfront Scenario Planner</span>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>.</p> 
      </div> 
     </note> </li> 
    <li> <p>Click <span class="bold">Add a Dashboard</span>, then type a descriptive <span class="bold">Custom section title</span> and add the dashboard.</p> </li> 

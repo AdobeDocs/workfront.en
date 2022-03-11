@@ -6,7 +6,7 @@
 
 # How access levels work
 
-As an *Adobe Workfront administrator*, you can grant users access to view or edit objects by assigning them an access level. The articles below explain how access levels work.
+As an `Adobe Workfront administrator`, you can grant users access to view or edit objects by assigning them an access level. The articles below explain how access levels work.
 
 * [Access levels overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) 
 * [Adobe Workfront licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 
@@ -23,7 +23,7 @@ As an *Adobe Workfront administrator*, you can grant users access to view or edi
 
 &nbsp;
 
-# Customize Home and Summary using a layout template in *the new Adobe Workfront experience*
+# Customize Home and Summary using a layout template in `the new Adobe Workfront experience`
 
 You can use a Layout Template to configure the fields and global settings that users see when they click a task or issue. Each configuration you make using the steps below affects the Home area and the Summary panel in the same way.
 
@@ -78,7 +78,7 @@ For information about the Home area, see [Use the Home area](../../workfront-bas
  <li value="5"> <p>(Conditional) If the <span class="bold">Set primary action button</span> drop-down menu appears (it appears only if you select <span class="bold">Tasks</span> or <span class="bold">Issues</span> in the list on the left), click the primary action (<span class="bold">Done</span> or <span class="bold">Status</span>) that you want available for users in the Home area and in the Summary panel when they view a task or an issue.</p> <p> <img src="assets/set-primary-action-button-dropdown-pdf-350x273.png" style="width: 350;height: 273;"> </p> </li> 
  <li value="6"> <p>Add <img src="assets/add-item-plus-in-circle-blue.png"> or hide <img src="assets/close-or-hide---x.png"> fields for the selected object type.</p> <p> <img src="assets/lt-home-add-hide-fields-350x275.png" style="width: 350;height: 275;"> </p> </li> 
  <li value="7">Repeat steps 3-6 to customize Home area and the Summary panel for any other object types.</li> 
- <li value="8"> <p>Click <span class="bold">Global settings</span>, near the lower left corner, then enable or disable any of the following options related to <em>Adobe Workfront</em> objects in Home and Summary:</p> 
+ <li value="8"> <p>Click <span class="bold">Global settings</span>, near the lower left corner, then enable or disable any of the following options related to <span>Adobe Workfront</span> objects in Home and Summary:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 

@@ -12,7 +12,7 @@ The highlighted information on this page refers to functionality not yet general
 
 &nbsp;
 
-When an action occurs on a *Adobe Workfront* object that is supported by event subscriptions, you can configure *Workfront* to send a response to your desired endpoint. This means that third-party applications can receive updates from *Workfront* interactions via the *Workfront* API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.&nbsp;&nbsp;
+When an action occurs on a `Adobe Workfront` object that is supported by event subscriptions, you can configure `Workfront` to send a response to your desired endpoint. This means that third-party applications can receive updates from `Workfront` interactions via the `Workfront` API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.&nbsp;&nbsp;
 
 In order to receive event subscriptions payloads through your firewall, you must add the following IP addresses to your allowlist:
 
@@ -34,7 +34,7 @@ The following topics support the Event Subscription API:
 
 ## Objects Supported by Event Subscriptions
 
-The following *Workfront* objects are supported by event subscriptions.
+The following `Workfront` objects are supported by event subscriptions.
 
 * Assignment
 * Company
@@ -57,13 +57,13 @@ For a list of fields supported by event subscription objects, see [Event subscri
 
 ## Event Subscription Authentication
 
-To create, query, or delete an event subscription, your *Workfront* user needs the following:
+To create, query, or delete an event subscription, your `Workfront` user needs the following:
 
 <ul> 
  <li> An access level of “System Administrator” </li> 
  <li> <p> An apiKey</p> <note type="note"><![CDATA[
 					]]>If your user is already utilizing 
-   <em>Workfront</em>’s API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request: 
+   <span>Workfront</span>’s API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request: 
   </note> </li> 
 </ul>
 
@@ -103,7 +103,7 @@ To create, query, or delete an event subscription, your *Workfront* user needs t
 
 >[!NOTE]
 >
->&nbsp;If this is your first time using the *Workfront* API, then you need to generate an apiKey which you can do via this link:
+>If this is your first time using the `Workfront` API, then you need to generate an apiKey which you can do via this link:
 
 [Copy](javascript:void(0);) 
 <pre><code>[PUT]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD></code></pre>
@@ -279,7 +279,7 @@ Passing a subscription resource as the body of a request (with the content-type 
 
 ## Querying Event Subscriptions
 
-When querying *Workfront*’s HTTP use the GET method. There are two ways to query for event subscriptions: Query by subscription ID (see below) or query all event subscriptions.
+When querying `Workfront`’s HTTP use the GET method. There are two ways to query for event subscriptions: Query by subscription ID (see below) or query all event subscriptions.
 
 ### Query All Events Subscriptions
 
@@ -417,7 +417,7 @@ You can make several AND or OR statements in a single filter by specifying a con
 
 ## Deleting Event Subscriptions
 
-When deleting *Workfront*’s HTTP use the DELETE method. The request syntax for deleting a single event subscription by subscription ID is as follows:
+When deleting `Workfront`’s HTTP use the DELETE method. The request syntax for deleting a single event subscription by subscription ID is as follows:
 
 `Request URL:` 
 

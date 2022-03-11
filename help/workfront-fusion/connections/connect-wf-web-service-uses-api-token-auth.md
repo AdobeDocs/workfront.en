@@ -7,13 +7,13 @@ title: Connect Adobe Workfront Fusion to a web service that uses API token autho
 description: Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
 ---
 
-# Connect *Adobe Workfront Fusion* to a web service that uses API token authorization
+# Connect `Adobe Workfront Fusion` to a web service that uses API token authorization
 
-Some services do not allow integration solutions such as *Adobe Workfront Fusion* to create an app that you can easily use in your scenario.
+Some services do not allow integration solutions such as `Adobe Workfront Fusion` to create an app that you can easily use in your scenario.
 
-There is a workaround to this situation. You can connect the desired service (app) to *Workfront Fusion* using *Workfront Fusion*'s HTTP module.
+There is a workaround to this situation. You can connect the desired service (app) to `Workfront Fusion` using `Workfront Fusion`'s HTTP module.
 
-This article explains how to connect almost any web service to *Workfront Fusion* using an API Key/API token.
+This article explains how to connect almost any web service to `Workfront Fusion` using an API Key/API token.
 
 ## Access requirements
 
@@ -24,45 +24,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Connect to a web service that uses an API token
 
@@ -70,7 +50,7 @@ The procedure of connecting the service via an API token is similar for most web
 
 1. Create an application on the web service's website, as explained in the section [Create a new application and obtain the API token](#create) in this article.
 1. Obtain the API Key or API token.
-1. Add *Workfront Fusion*'s HTTP > Make a Request module to your scenario.
+1. Add `Workfront Fusion`'s HTTP > Make a Request module to your scenario.
 1. Set up the module according to the web service's API documentation and running the scenario, as explained in the section [Set up the HTTP module](#set) in this article.
 
 >[!NOTE]
@@ -88,15 +68,15 @@ The procedure of connecting the service via an API token is similar for most web
 1. Log in to your Pushover account.
 1. Click `Create an Application/API Token` at the bottom of the page.
 1. Fill in the Application Information and click `Create an Application`.
-1. Store the provided API token in a safe place. You will need it for the *Workfront Fusion* HTTP > Make a Request module to connect to the desired web service (Pushover, in this case).
+1. Store the provided API token in a safe place. You will need it for the `Workfront Fusion` HTTP > Make a Request module to connect to the desired web service (Pushover, in this case).
 
 ## Set up the HTTP module
 
-To connect a web service to your *Workfront Fusion* scenario, you need to use the HTTP > Make a request module in the scenario and set up the module according to the web service's API&nbsp;documentation.
+To connect a web service to your `Workfront Fusion` scenario, you need to use the HTTP > Make a request module in the scenario and set up the module according to the web service's API&nbsp;documentation.
 
 <ol> 
  <li value="1"> <p>Add the HTTP > Make a Request module to your scenario.</p> </li> 
- <li value="2"> <p>To push a message using <em>Workfront Fusion</em>, set up the HTTP module as follows.</p> <note type="note">
+ <li value="2"> <p>To push a message using <span>Workfront Fusion</span>, set up the HTTP module as follows.</p> <note type="note">
    These module settings correspond to the Pushover web service API documentation. Settings may be different for other web services. For example, the API token may be inserted to the Header and not to the Body field.
   </note> 
   <table cellspacing="0"> 
@@ -179,8 +159,7 @@ For more information about the JSON modules, see [JSON modules](../../workfront-
 <ol> 
  <li value="1"> <p>Enter or map the values you want to create JSON from.</p> <p> <img src="assets/json-values-350x288.png" style="width: 350;height: 288;"> </p> </li> 
  <li value="2"> <p>Connect the JSON > Create JSON module to the HTTP > Make a Request module.</p> </li> 
- <li value="3"> <p>Map the JSON string from the Create JSON module to the Request content field in the HTTP > Make a Request module.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/json-string-350x310.gif" style="width: 350;height: 310;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/json-string-350x310.gif" style="width: 350;height: 310;"> </p> <p>Now when you run the scenario, the push notification is sent to the device that has been registered in your Pushover account.</p> </li> 
+ <li value="3"> <p>Map the JSON string from the Create JSON module to the Request content field in the HTTP > Make a Request module.</p> <!--
+  --> <p>Now when you run the scenario, the push notification is sent to the device that has been registered in your Pushover account.</p> </li> 
 </ol>
 

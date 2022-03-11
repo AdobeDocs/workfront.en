@@ -115,7 +115,7 @@ The User view is the default view of the Resource Planner.&nbsp;&nbsp;
 Consider the following when selecting the User view in the Resource Planner:&nbsp;
 
 * You do not have to be a Resource Manager on any projects to see information in this view. 
-* You can see all the users you have permissions to View, up to 2000 users, that are active and have logged in to *Workfront* at least once.  
+* You can see all the users you have permissions to View, up to 2000 users, that are active and have logged in to `Workfront` at least once.  
   Filter the user list by Team, Job Role, or Pools to see users associated only with those entities.  
   For more information about filtering information in the Resource Planner, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
@@ -136,11 +136,11 @@ Consider the following when selecting the User view in the Resource Planner:&nbs
   
   * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
   * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the `Inaccessible Items` section.  
-    For more information about permissions in *Adobe Workfront*, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    For more information about permissions in `Adobe Workfront`, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Unique URL for the User View
 
-*Workfront* can generate a unique URL for the User view of the Resource Planner. You can share this URL with other users by embedding it into a shared dashboard as an External Page or by sending it in other applications.&nbsp;
+`Workfront` can generate a unique URL for the User view of the Resource Planner. You can share this URL with other users by embedding it into a shared dashboard as an External Page or by sending it in other applications.&nbsp;
 
 Consider the following when generating a unique URL for the User view of the Resource Planner:
 
@@ -172,7 +172,7 @@ To obtain a unique URL in the User view of the Resource Planner and share it wit
    <li value="1">Go to <span class="bold">Reporting</span>><span class="bold">Dashboards</span>><span class="bold">New Dashboard</span>><span class="bold">Add External Page.</span></li>
    <li value="2">Paste the link you copied to your clipboard in the <span class="bold">URL</span> field.</li>
    <li value="3">Click <span class="bold">Save</span>, then&nbsp;<span class="bold">Save + Close</span>. <br>This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.</li>
-  </ol><br>Or<br>Paste the URL into another application to send it to another user.<br>The user must be logged in to <em>Workfront</em> to view the Resource Planner in the User view.<br>Or<br>Open a new browser tab or window and paste the link you copied, then click Enter on your keyboard to&nbsp;open the Resource Planner in a new tab or window.&nbsp;</li> 
+  </ol><br>Or<br>Paste the URL into another application to send it to another user.<br>The user must be logged in to <span>Workfront</span> to view the Resource Planner in the User view.<br>Or<br>Open a new browser tab or window and paste the link you copied, then click Enter on your keyboard to&nbsp;open the Resource Planner in a new tab or window.&nbsp;</li> 
  <li value="8">(Optional) If you embedded the URL into a dashboard, consider adding it to a layout template or share the dashboard with other users.<br>For information about adding dashboards to a layout template, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.<br>For information about sharing dashboards, see <a href="../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md" class="MCXref xref">Share a dashboard in Adobe Workfront</a>.<br>When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner.<br><img src="assets/user-view-dashoard-from-unique-url-350x85.png" style="width: 350;height: 85;"></li> 
 </ol>
 
@@ -463,7 +463,7 @@ To change the kind of information displayed in the Resource Planner:
  <li value="2"> Expand the <span class="bold">Hours</span> drop-down menu. <img src="assets/hours-fte-or-cost-dropdown.png" alt="Hours_fte_or_cost_dropdown.png"></li> 
  <li value="3"> Select <span class="bold">Hours</span> to display availability and allocation information in Hours. </li> 
  <li value="4">Select <span class="bold">FTE</span> to display availability and allocation information in FTE.<br>For more information about how the FTE is calculated in the Resource Planner, see <a href="#calculating-fte-in-the-rp" class="MCXref xref">Overview of the areas of the Resource Planner</a>.</li> 
- <li value="5">(Conditional) If you are viewing the Resource Planner in the Project or Role views, select <span class="bold">Cost</span> to display availability and allocation information as Cost. The information displays values of the system currency.&nbsp;Your system administrator defines the system currency.<br>For more information about setting up the system currency in <em>Workfront</em>, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.<br><note type="tip">
+ <li value="5">(Conditional) If you are viewing the Resource Planner in the Project or Role views, select <span class="bold">Cost</span> to display availability and allocation information as Cost. The information displays values of the system currency.&nbsp;Your system administrator defines the system currency.<br>For more information about setting up the system currency in <span>Workfront</span>, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.<br><note type="tip">
     You must associate users and job roles with Cost per Hour rates in order to display Cost information in the Resource Planner.
   </note><br><em>For more information about associating Cost per Hour rates with job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</em><br><em>For more information about associating Cost per Hour rates with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br></em>For more information about how Cost is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.</li> 
 </ol>

@@ -23,12 +23,8 @@ A converger module is a counterpart of the Router module. It enables you to merg
 ![](assets/converger-example-350x193.png) 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later replace with a full scenario like in original Alloy article
-</MadCap:conditionalText>
 -->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> later replace with a full scenario like in original Alloy article</MadCap:conditionalText>`
 
 ## Usage
 

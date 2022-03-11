@@ -6,13 +6,13 @@ title: Log out of Adobe Workfront
 description: For security reasons, it is important to log out of Adobe Workfront regularly. By default, Workfront automatically logs users out after 8 hours of inactivity.
 ---
 
-# Log out of *Adobe Workfront*
+# Log out of `Adobe Workfront`
 
-For security reasons, it is important to log out of *Adobe Workfront* regularly. By default, *Workfront* automatically logs users out after 8 hours of inactivity.
+For security reasons, it is important to log out of `Adobe Workfront` regularly. By default, `Workfront` automatically logs users out after 8 hours of inactivity.
 
 >[!NOTE]
 >
->Normally a *Workfront administrator* can change this amount of time to anywhere between 15 minutes and 7 days of inactivity, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), but this functionality is currently unavailable. We are working on authentication enhancements that will allow automatic log out after a specified period of inactivity.
+>Normally a `Workfront administrator` can change this amount of time to anywhere between 15 minutes and 7 days of inactivity, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), but this functionality is currently unavailable. We are working on authentication enhancements that will allow automatic log out after a specified period of inactivity.
 
 ## Access requirements
 
@@ -25,38 +25,20 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
-## Log out of your *Workfront* account
+## Log out of your `Workfront` account
 
-<ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Adobe Workfront</em>, then click 
-     <span class="bold">Logout</span> 
-     <img src="assets/logout-icon.png">.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Adobe Workfront</em>, then click 
-    <span class="bold">Logout</span> 
-    <img src="assets/logout-icon.png">.
-   </MadCap:conditionalText> </p> </li> 
- <p>This returns you to the login page where you can re-enter your username and password.</p> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Logout . 
+1. This returns you to the login page where you can re-enter your username and password.
 

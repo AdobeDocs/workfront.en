@@ -31,10 +31,9 @@ This section contains the following articles:
 * [External user license type missing from access levels](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/tips-tricks-and-troubleshooting/flash-feature-groupings.md" class="MCXref xref" xrefformat="{para}">Flash feature groupings</a> </li>
+  Flash feature groupings
   -->
 
-* [Flash feature groupings](../../administration-and-setup/tips-tricks-and-troubleshooting/flash-feature-groupings.md) 
 * [Login Error: The following fields are invalid: emailAddr cannot be null](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md) 
 * [Prevent spoofing and add Adobe Workfront SPF records](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md) 
 * [Retrieving historical data from Adobe Workfront: pros and cons](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md) 

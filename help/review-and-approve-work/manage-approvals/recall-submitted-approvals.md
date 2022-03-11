@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, Timesheets, Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, Timesheets, Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Projects
 
@@ -58,28 +58,7 @@ If you recall an approval that is associated with the beginning status of the pr
 
 To recall a project approval you submitted:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
  <li value="3"> <p>Select a <span class="bold">Project</span> approval.</p> <p> <img src="assets/project-350x331.png" alt="Project.png" style="width: 350;height: 331;"> </p> </li> 
  <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.</li> 
@@ -97,28 +76,7 @@ If you recall an approval that is associated with the beginning status of the ta
 
 To recall a task approval you submitted:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
  <li value="3"> <p>Select a <span class="bold">Task</span> approval.</p> <p> <img src="assets/task-350x400.png" alt="Task.png" style="width: 350;height: 400;"> </p> </li> 
  <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.</li> 
@@ -134,28 +92,7 @@ If you recall an approval that is associated with the beginning status of the is
 >
 >You can associate the first status of an issue with an approval process by using a template. For more information about creating a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
  <li value="3">Select an <span class="bold">Issue</span> approval.<br><img src="assets/issue-350x330.png" alt="Issue.png" style="width: 350;height: 330;"></li> 
  <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.<br></li> 
@@ -165,28 +102,7 @@ If you recall an approval that is associated with the beginning status of the is
 
 When you recall a timesheet approval, the timesheet returns to the status it was in before it was submitted for approval.
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
  <li value="3">Select a <span class="bold">Timesheet</span> approval.<br><img src="assets/timesheet-350x329.png" alt="Timesheet.png" style="width: 350;height: 329;"></li> 
  <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.</li> 
@@ -196,28 +112,7 @@ When you recall a timesheet approval, the timesheet returns to the status it was
 
 To recall a document approval, you must manually remove one or all users from the approval.
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
  <li value="3"> <p>Select a <span class="bold">Document</span> approval.</p> <p> <img src="assets/document-350x335.png" alt="Document.png" style="width: 350;height: 335;"> </p> </li> 
  <li value="4">Click <span class="bold">Manage Approvals</span> in the upper-right corner of the right panel.</li> 
@@ -226,28 +121,7 @@ To recall a document approval, you must manually remove one or all users from th
 
 ## Access Requests
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
  <li value="3">Select an <span class="bold">Access&nbsp;Request</span> approval.<br><img src="assets/access-request-350x335.png" alt="Access_Request.png" style="width: 350;height: 335;"></li> 
  <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.</li> 

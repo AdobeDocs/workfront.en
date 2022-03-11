@@ -20,16 +20,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Considerations when sharing or merging columns
 
@@ -50,13 +50,13 @@ You must have the following access to perform the steps in this article:
   valueformat=HTML
   ```
 
-  line is mandatory in a shared column. Otherwise, the columns contain no information (they will be blank) when the report is exported from *Adobe Workfront*.
+  line is mandatory in a shared column. Otherwise, the columns contain no information (they will be blank) when the report is exported from `Adobe Workfront`.
 
 * Conditional formatting may not be supported in merged columns.
 
   The following exceptions exist:
 
-  * When viewing information in *Workfront*, the formatting of the first column is kept and the formatting for all other columns is ignored if the columns that make up a merged column have different formatting from one another,. 
+  * When viewing information in `Workfront`, the formatting of the first column is kept and the formatting for all other columns is ignored if the columns that make up a merged column have different formatting from one another,. 
   * When exporting the view to a PDF file, conditional formatting applies to the first column in a merged column. 
   * When exporting the view to an Excel file, merged columns display as separate columns. The individual columns also display their respective conditional formatting rules.
 
@@ -70,12 +70,12 @@ You can merge the data from multiple separate columns to display it in one colum
 
 >[!TIP]
 >
->This approach is recommended when you merge two columns that can never show a value for the same record at the same time.&nbsp;For example, in a Work Item report, the Issue Name and Task Name columns can be merged without a line break between them because a Work Item can never have an Issue Name and a Task name at the same time. A Work Item can be either an Issue or a Task in *Workfront*.
+>This approach is recommended when you merge two columns that can never show a value for the same record at the same time. For example, in a Work Item report, the Issue Name and Task Name columns can be merged without a line break between them because a Work Item can never have an Issue Name and a Task name at the same time. A Work Item can be either an Issue or a Task in `Workfront`.
 
 To do this:
 
 <ol> 
- <li value="1"> <p>Using text mode for a view, add the following text to the first column you want to merge:</p> <p><code>sharecol=true</code> </p> <p>When you merge the first two columns of a list or report, <em>Workfront</em> precedes each line of text that contains information about the object in the first column with <code>column.0.</code> and the lines of text that contain information about the second column with <code>column.1.</code>. <br>You must precede the column number of the first column with the number of that column. Column counting always starts with the leftmost column of the list or report labeled as <code>column.0.</code>.</p> <p>If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information for each column. </p> 
+ <li value="1"> <p>Using text mode for a view, add the following text to the first column you want to merge:</p> <p><code>sharecol=true</code> </p> <p>When you merge the first two columns of a list or report, <span>Workfront</span> precedes each line of text that contains information about the object in the first column with <code>column.0.</code> and the lines of text that contain information about the second column with <code>column.1.</code>. <br>You must precede the column number of the first column with the number of that column. Column counting always starts with the leftmost column of the list or report labeled as <code>column.0.</code>.</p> <p>If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information for each column. </p> 
   <div class="example" data-mc-autonum="<b>Example: </b>">
    <span class="autonumber"><span><b>Example: </b></span></span> 
    <p>The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name and there is no break between the three values: </p> 
@@ -108,7 +108,7 @@ Do the following to merge the data from multiple columns to display it in one co
  <li value="2"> <p>Click <span class="bold">Switch to Text Mode</span> and add the following code in the middle column that you added in step 1:</p> <p><code>value=<br></code> </p> <p><code>valueformat=HTML</code> </p> <p><code>width=1</code> </p> <p><code>sharecol=true</code> </p> </li> 
  <li value="3"> <p>Add the following text to the first column:</p> <p><code>sharecol=true</code> </p> 
   <div> 
-   <p>When you merge the first two columns of a list or report, <em>Workfront</em> precedes each line of text that contains information about the object in the first column with <code>column.0.</code>, the column with the sharing information with <code>column.1.</code>, and the lines of text that contain information about the second column with <code>column.2.</code>. If the combined column is in the middle of the view, the columns are numbered according to their place in the view. Column counting always starts with the leftmost column of the list or report labeled as <code>column.0.</code>.</p> 
+   <p>When you merge the first two columns of a list or report, <span>Workfront</span> precedes each line of text that contains information about the object in the first column with <code>column.0.</code>, the column with the sharing information with <code>column.1.</code>, and the lines of text that contain information about the second column with <code>column.2.</code>. If the combined column is in the middle of the view, the columns are numbered according to their place in the view. Column counting always starts with the leftmost column of the list or report labeled as <code>column.0.</code>.</p> 
    <p>If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information. </p> 
    <div class="example" data-mc-autonum="<b>Example: </b>">
     <span class="autonumber"><span><b>Example: </b></span></span> 

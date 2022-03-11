@@ -8,13 +8,13 @@ title: Workfront Fusion release activity: Week of August 24, 2020
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of August 17, 2020.
 ---
 
-# *Workfront Fusion* release activity:&nbsp;Week of August 24, 2020
+# `Workfront Fusion` release activity:&nbsp;Week of August 24, 2020
 
-This page describes all enhancements made in *Adobe Workfront Fusion* the week of *August 17, 2020*.
+This page describes all enhancements made in `Adobe Workfront Fusion` the week of `August 17, 2020`.
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-For a list of recent bug fixes in *Workfront Fusion*, see the [*Workfront* Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled *Workfront Fusion* Maintenance Update.
+For a list of recent bug fixes in `Workfront Fusion`, see the [ `Workfront` Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled `Workfront Fusion` Maintenance Update.
 
 ## More easily convert objects with custom data in the Workfront “Misc Action” Module
 
@@ -35,4 +35,4 @@ For more information, see [Adobe Workfront modules](../../../../../workfront-fus
 
 ## Hubspot CRM and modules now available
 
-You can now use *Workfront Fusion* to connect to your Hubspot CRM account. With the HubSpot CRM modules, you can monitor items in your Hubspot CRM account, as well as perform actions such as searching, creating, or deleting those items.
+You can now use `Workfront Fusion` to connect to your Hubspot CRM account. With the HubSpot CRM modules, you can monitor items in your Hubspot CRM account, as well as perform actions such as searching, creating, or deleting those items.

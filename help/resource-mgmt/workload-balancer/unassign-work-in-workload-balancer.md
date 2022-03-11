@@ -6,23 +6,10 @@ title: Unassign work in the Adobe Workfront Workload Balancer
 description: You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, roles, or teams.
 ---
 
-# Unassign work in the *Adobe Workfront* *Workload Balancer*
+# Unassign work in the `Adobe Workfront` `Workload Balancer`
 
-You can unassign users from work items in the Assigned Work area of the *Adobe Workfront* *Workload Balancer*, or reassign them to other users, roles, or teams.
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<p>You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually. </p>
-<p>For information about unassigning users by dragging and dropping, see <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md" class="MCXref xref">Assign work in the Adobe Workfront Workload Balancer by dragging and dropping </a></p>
-<p>For information about unassigning users in bulk, see <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md" class="MCXref xref">Assign work in bulk using the Adobe Workfront Workload Balancer</a>. </p>
-</div>
--->
-
-You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually.
-
-For information about unassigning users by dragging and dropping, see [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
-
-For information about unassigning users in bulk, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+You can unassign users from work items in the Assigned Work area of the `Adobe Workfront` `Workload Balancer`, or reassign them to other users, roles, or teams.
+You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually. For information about unassigning users by dragging and dropping, see Assign work in the Adobe Workfront Workload Balancer by dragging and dropping For information about unassigning users in bulk, see Assign work in bulk using the Adobe Workfront Workload Balancer.
 
 ## Access requirements
 
@@ -33,12 +20,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -48,7 +35,7 @@ You must have the following access to perform the steps in this article:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,33 +44,24 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 &nbsp;
 
-## Unassign work items in the *Workload Balancer*
+## Unassign work items in the `Workload Balancer`
 
 You can either unassign items from users and move them to the Unassigned Work area, or reassign them to other users.
 
 To unassign work items from users:
 
 <ol> 
- <li value="1">In the <em>Workload Balancer</em>, go to the <span class="bold">Assigned Work</span> area and expand a user.</li> 
- <li value="2">Do <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    one of
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   one of
-  </MadCap:conditionalText> the following:
+ <li value="1">In the <span>Workload Balancer</span>, go to the <span class="bold">Assigned Work</span> area and expand a user.</li> 
+ <li value="2">Do one of the following:
   <ul>
-   <draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><p>Find the item you want to unassign in a user's area, click it, and drag and drop it in the Unassigned area or in another user's area. </p></li>
-   </draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><p>Find the item you want to unassign in a user's area, click it, and drag and drop it in the Unassigned area or in another user's area. </p></li>
+   Find the item you want to unassign in a user's area, click it, and drag and drop it in the Unassigned area or in another user's area.
    <li><p>Click the <span class="bold">More</span> icon <img src="assets/more-icon-task-list.png"> to the right of the name of a work item, click&nbsp;<span class="bold">Assign this to</span>, then remove the name of the entities assigned to the work item or enter another name, and click&nbsp;<span class="bold">Save</span>.</p><p><img src="assets/workload-balancer-assign-this-to-link-from-task-350x117.png" style="width: 350;height: 117;"></p></li>
   </ul><p>The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any other users, or it displays in the user area if it is assigned to another user.</p><note type="tip">
    Unassigned issues do not display in the Unassigned area.
-  </note><p>For information about filtering information in the <em>Workload Balancer</em>, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>.</p></li> 
+  </note><p>For information about filtering information in the <span>Workload Balancer</span>, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>.</p></li> 
 </ol>
 

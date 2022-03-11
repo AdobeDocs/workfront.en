@@ -25,16 +25,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ##
 
@@ -52,19 +52,7 @@ You must have the following access to perform the steps in this article:
 You can apply the following filter to a task report to display tasks with no children.&nbsp;They could have parents of their own and be children of other tasks.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    From the 
-    <span class="bold">Main Menu</span> 
-    <img src="assets/main-menu-icon.png">, click 
-    <span class="bold">Reports.</span>
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   From the 
-   <span class="bold">Main Menu</span> 
-   <img src="assets/main-menu-icon.png">, click 
-   <span class="bold">Reports.</span>
-  </MadCap:conditionalText> </li> 
+ <li value="1"> From the Main Menu , click Reports. </li> 
  <li value="2">Click <span class="bold">New Report</span>.</li> 
  <li value="3">Select a <span class="bold">Task Report</span>.</li> 
  <li value="4">Click <span class="bold">Filters</span>.</li> 
@@ -79,19 +67,7 @@ You can apply the following filter to a task report to display tasks with no chi
 You can apply the following filter to a task report to display tasks with parents, meaning they are children tasks. However, these tasks could also have children of their own because the filter does not exclude their children. Children tasks that are also parents for other tasks are not considered working tasks.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    From the 
-    <span class="bold">Main Menu</span> 
-    <img src="assets/main-menu-icon.png">, click 
-    <span class="bold">Reports.</span>
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   From the 
-   <span class="bold">Main Menu</span> 
-   <img src="assets/main-menu-icon.png">, click 
-   <span class="bold">Reports.</span>
-  </MadCap:conditionalText> <li>Click <span class="bold">New Report</span>.</li> <li>Select a <span class="bold">Task Report</span>.</li> <li>Click <span class="bold">Filters</span>.</li> <li>Click <span class="bold">Add a Filter Rule</span>.</li> <li>In the <span class="bold">Start typing field name ...</span> line, start typing <span class="bold">Parent ID</span>.</li> <li> <p>Select <span class="bold">Is Not Blank</span> for your modifier.</p> <p> <img src="assets/filter-parent-id-not-blank-350x100.png" style="width: 350;height: 100;"> <br> </p> <p>Or</p> <p>Click&nbsp;<span class="bold">Switch to Text Mode</span>, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;</p> <p><code>parentID_Mod=notblank</code> </p> </li> <li> <p>Click <span class="bold">Save + Close</span>.</p> <p>This pulls a report for all tasks in your system that have parents and are children tasks of those parents. Some of these tasks could be a parent themselves. </p> </li> </li> 
+ <li value="1"> From the Main Menu , click Reports. <li>Click <span class="bold">New Report</span>.</li> <li>Select a <span class="bold">Task Report</span>.</li> <li>Click <span class="bold">Filters</span>.</li> <li>Click <span class="bold">Add a Filter Rule</span>.</li> <li>In the <span class="bold">Start typing field name ...</span> line, start typing <span class="bold">Parent ID</span>.</li> <li> <p>Select <span class="bold">Is Not Blank</span> for your modifier.</p> <p> <img src="assets/filter-parent-id-not-blank-350x100.png" style="width: 350;height: 100;"> <br> </p> <p>Or</p> <p>Click&nbsp;<span class="bold">Switch to Text Mode</span>, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;</p> <p><code>parentID_Mod=notblank</code> </p> </li> <li> <p>Click <span class="bold">Save + Close</span>.</p> <p>This pulls a report for all tasks in your system that have parents and are children tasks of those parents. Some of these tasks could be a parent themselves. </p> </li> </li> 
 </ol>
 
 ## Display tasks with no children and no parents (standalone tasks)
@@ -99,19 +75,7 @@ You can apply the following filter to a task report to display tasks with parent
 You can apply the following filter to a task report to display standalone working tasks.&nbsp;These tasks don't have a parent and they have no children of their own.
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     From the 
-     <span class="bold">Main Menu</span> 
-     <img src="assets/main-menu-icon.png">, click 
-     <span class="bold">Reports.</span>
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    From the 
-    <span class="bold">Main Menu</span> 
-    <img src="assets/main-menu-icon.png">, click 
-    <span class="bold">Reports.</span>
-   </MadCap:conditionalText> </p> </li> 
+ <li value="1"> <p> From the Main Menu , click Reports. </p> </li> 
  <li value="2"> <p>Click <span class="bold">New Report</span>.</p> </li> 
  <li value="3"> <p>Select a <span class="bold">Task Report</span>.</p> </li> 
  <li value="4"> <p>Click <span class="bold">Filters</span>.</p> </li> 

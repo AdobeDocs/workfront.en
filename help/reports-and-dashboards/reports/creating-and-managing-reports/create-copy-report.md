@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,35 +40,21 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create an exact copy of a report
 
 If you want to make a copy of a report that you are the owner of, do the following:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click 
-     <span class="bold">Reports</span>, then
-     <span class="bold"> All Reports</span>.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Reports</span>, then
-    <span class="bold"> All Reports</span>.
-   </MadCap:conditionalText> </p> </li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.</li> 
+ <li value="2"> <p> Click Reports, then All Reports. </p> </li> 
  <li value="3"> <p>Open a report.</p> </li> 
  <li value="4"> <p>Click <span class="bold">Report Actions</span>, then <span class="bold">Copy</span>.</p> <note type="tip">
    If the report is a default report, the Copy option does not appear in the Report Actions menu.
    <br>For information on how to create a copy of a default report, see 
    <a href="#saving-default-reports-as-new-reports" class="MCXref xref">Create a new version of a report</a>.
-  </note> <p> <draft-comment>
-    <img src="assets/nwe-select-copy.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/nwe-select-copy.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-fulllistofreportactions-2022.png" alt="Copy report"> </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-fulllistofreportactions-2022.png" alt="Copy report"> </p> <p>A copy of the original report is created with the default name of <i>Copy of [Name of the original report]</i>. For example, the report "Q4 Completed Tasks" would have "Copy of Q4 Completed Tasks" as the name.</p> </li> 
+  </note> <p>  </p>  <p>A copy of the original report is created with the default name of <i>Copy of [Name of the original report]</i>. For example, the report "Q4 Completed Tasks" would have "Copy of Q4 Completed Tasks" as the name.</p> </li> 
  <li value="5"> <p>(Optional) To rename the report, start typing a new name.</p> <note type="tip">
    If you deselect the title before typing the new name, select the report title, delete the name, then enter the new name.
    <br>
@@ -78,7 +64,7 @@ If you want to make a copy of a report that you are the owner of, do the followi
    <br>For information on how to see who the previous report was shared with, see 
    <a href="../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify" class="MCXref xref">Create a report on reporting activities</a>.
   </note> </li> 
- <li value="7"> <p>(Optional) If you have Manage permissions to the original report and the original report is no longer needed, you can delete it to remove unnecessary duplicated reports in <em>Workfront</em>.</p> <p>To delete the original report, do the following:</p> 
+ <li value="7"> <p>(Optional) If you have Manage permissions to the original report and the original report is no longer needed, you can delete it to remove unnecessary duplicated reports in <span>Workfront</span>.</p> <p>To delete the original report, do the following:</p> 
   <ol> 
    <li value="1">Navigate to the report.</li> 
    <li value="2">Click <span class="bold">Report Actions</span>, then <span class="bold">Delete</span>.</li> 
@@ -91,24 +77,10 @@ If you want to make a copy of a report that you are the owner of, do the followi
 If you want to create a copy of a default report, do the following:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click 
-     <span class="bold">Reports</span>, then
-     <span class="bold"> All Reports</span>.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Reports</span>, then
-    <span class="bold"> All Reports</span>.
-   </MadCap:conditionalText> </p> </li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.</li> 
+ <li value="2"> <p> Click Reports, then All Reports. </p> </li> 
  <li value="3"> <p>Click the name of a default report to open it.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Report Actions</span>, then <span class="bold">Edit</span>.</p> <p> <draft-comment>
-    <img src="assets/classic-select-edit-350x304.png" alt="" style="width: 350;height: 304;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/classic-select-edit-350x304.png" alt="" style="width: 350;height: 304;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-reportactionsfordefaultreport-2022.png" alt="Edit report"> </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-reportactionsfordefaultreport-2022.png" alt="Edit report"> </p> </li> 
+ <li value="4"> <p>Click <span class="bold">Report Actions</span>, then <span class="bold">Edit</span>.</p> <p>  </p>  </li> 
  <li value="5"> <p>Make any modifications you need to in the following tabs of the report:</p> 
   <ul> 
    <li> <p><span class="bold">Columns (View)</span>: For more information about customizing views, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
@@ -119,9 +91,7 @@ If you want to create a copy of a default report, do the following:
  <li value="6"> <p>In the upper-right corner, click <span class="bold">Report Settings</span>.</p> </li> 
  <li value="7"> <p>In the <span class="bold">Report Title</span> field, give the report a new name.</p> </li> 
  <li value="8"> <p>Click <span class="bold">Done</span>.</p> </li> 
- <li value="9"> <p>Click <span class="bold">Save as New Report</span>.</p> <p> <draft-comment>
-    <img src="assets/nwe-save-as-new-report-350x220.png" style="width: 350;height: 220;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/nwe-save-as-new-report-350x220.png" style="width: 350;height: 220;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+ <li value="9"> <p>Click <span class="bold">Save as New Report</span>.</p> <p>  </p> </li> 
  <li value="10">(Optional) To share the new version of the report with other users, click <span class="bold">Report Actions</span>, then <span class="bold">Sharing</span>.</li> 
 </ol>
 

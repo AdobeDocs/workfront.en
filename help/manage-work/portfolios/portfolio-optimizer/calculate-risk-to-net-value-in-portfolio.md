@@ -14,7 +14,7 @@ For achieving the most efficiency within the portfolio, you want to see that the
 
 The Risk and Net Value indicators are represented from the perspective of how they relate to each other.
 
-*Adobe Workfront* calculates the Risk and Net Value indicators using the following formulas:
+`Adobe Workfront` calculates the Risk and Net Value indicators using the following formulas:
 
 * The Risk indicator is calculated by the following formula:
 

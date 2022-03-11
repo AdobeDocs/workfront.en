@@ -20,27 +20,21 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Filter timesheets
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the Main Menu <img src="assets/main-menu-icon.png">, then click <span class="bold">Timesheets</span>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the Main Menu <img src="assets/main-menu-icon.png">, then click <span class="bold">Timesheets</span>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Timesheets</span> <img src="assets/all-timesheets-icon.png"> in the left panel.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Timesheets</span> <img src="assets/all-timesheets-icon.png"> in the left panel.</li> 
+<ol> Click the Main Menu , then click Timesheets. Click All Timesheets in the left panel. 
  <li value="3"> <p> Configure the filter options.</p> <p>These include <span class="bold">Belonging To</span>, <span class="bold">Approver</span>, <span class="bold">Status</span>, and <span class="bold">Time Period</span>.</p> <p>The filters in the <span class="bold">Time Period</span> drop-down list are based on the timesheet's start and end dates. Timesheets with any date in the selected time frame are filtered, not just by the start or end date.<br></p> <p>For example, if you have a timesheet from February 26 to March 12, you see this timesheet under the filters This Month and Next Month because the timesheet covers dates in February and in March.</p> 
   <table cellspacing="0"> 
    <col> 
@@ -97,13 +91,7 @@ You must have the following to perform the steps in this article:
 
 ## Update user timesheets
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the Main Menu <img src="assets/main-menu-icon.png">, then click <span class="bold">Timesheets</span>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the Main Menu <img src="assets/main-menu-icon.png">, then click <span class="bold">Timesheets</span>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Timesheets</span> <img src="assets/all-timesheets-icon.png"> in the left panel.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Timesheets</span> <img src="assets/all-timesheets-icon.png"> in the left panel.</li> 
+<ol> Click the Main Menu , then click Timesheets. Click All Timesheets in the left panel. 
  <li value="3"> <p>Set the filter options.</p> <p>For more information, see the <a href="#filtering-timesheets" class="MCXref xref">Filter timesheets</a> section in this article.</p> </li> 
  <li value="4">Click <span class="bold">Date Range</span> to select a timesheet.</li> 
  <li value="5"> <p>Update the information as needed.</p> <p>For more information, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> </li> 

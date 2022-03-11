@@ -9,15 +9,15 @@ title: Adobe Workfront integrations
 description: You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
 ---
 
-# *Adobe Workfront* integrations
+# `Adobe Workfront` integrations
 
-You can integrate *Adobe Workfront* with third-party applications. Integrations can extend the utility of *Workfront* and tailor it to the needs of your organization.
+You can integrate `Adobe Workfront` with third-party applications. Integrations can extend the utility of `Workfront` and tailor it to the needs of your organization.
 
-The integrations for *Workfront* fall into the following categories:
+The integrations for `Workfront` fall into the following categories:
 
 ## Built-in (native) integrations
 
-*Workfront* provides various integrations you can configure either directly from the *Workfront* application, or directly from another application by installing the *Workfront* add-in for that application.
+`Workfront` provides various integrations you can configure either directly from the `Workfront` application, or directly from another application by installing the `Workfront` add-in for that application.
 
 Some of these integrations are available at no additional&nbsp;cost, while other integrations require an additional purchase:
 
@@ -37,11 +37,11 @@ To get started with built-in (native) integrations, follow the following workflo
   </note> </li> 
 </ol>
 
-We understand that the available built-in (native) integrations might not meet all of your company needs. If this is the case, contact your *Account Executive* to discuss a custom integration.
+We understand that the available built-in (native) integrations might not meet all of your company needs. If this is the case, contact your `Account Executive` to discuss a custom integration.
 
 ### Integrations available at no additional cost
 
-*Workfront* provides the following built-in integrations at no additional cost:
+`Workfront` provides the following built-in integrations at no additional cost:
 
 <table cellspacing="15"> 
  <col> 
@@ -61,7 +61,7 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Integrate <em>Workfront</em> comments and approvals with InDesign, Illustrator, and Photoshop </li> 
+     <li>Integrate <span>Workfront</span> comments and approvals with InDesign, Illustrator, and Photoshop </li> 
      <li>Download/install from Adobe Exchange or manually</li> 
     </ul> <p>For more information, see <a href="../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md" class="MCXref xref">Install Adobe Workfront for Adobe Creative Cloud</a>.</p> </td> 
    <td> 
@@ -78,7 +78,7 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Link documents and folders to <em>Workfront</em></li> 
+     <li>Link documents and folders to <span>Workfront</span></li> 
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -87,7 +87,7 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Dropbox</p> <p> <img src="assets/dropbox-1-logo-png-transparent.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Link documents and folders to <em>Workfront</em></li> 
+     <li>Link documents and folders to <span>Workfront</span></li> 
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -97,27 +97,27 @@ We understand that the available built-in (native) integrations might not meet a
    <td> 
     <ul> 
      <li>Add a G-Suite email to a project or task </li> 
-     <li>View and manage <em>Workfront</em> notifications in Gmail</li> 
+     <li>View and manage <span>Workfront</span> notifications in Gmail</li> 
      <li>Submit requests via Gmail </li> 
     </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">Adobe Workfront for G Suite</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>G&nbsp;Suite users must have a <em>Workfront</em> license </li> 
-     <li><em>Workfront</em> view and work sharing permissions must be set per access level </li> 
+     <li>G&nbsp;Suite users must have a <span>Workfront</span> license </li> 
+     <li><span>Workfront</span> view and work sharing permissions must be set per access level </li> 
      <li> POP enabled email account </li> 
-     <li><em>Workfront</em> request settings must include POP settings </li> 
+     <li><span>Workfront</span> request settings must include POP settings </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li>G&nbsp;Suite administrator</li> 
-     <li><em>Workfront administrator</em> </li> 
+     <li><span>Workfront administrator</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p>Google Drive</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Link documents and folders to <em>Workfront</em></li> 
+     <li>Link documents and folders to <span>Workfront</span></li> 
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -126,13 +126,13 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Create new tickets in Jira based on tasks and issues in <em>Workfront</em></li> 
-     <li>Sync updates and statuses of linked tasks between <em>Workfront</em> and Jira </li> 
+     <li>Create new tickets in Jira based on tasks and issues in <span>Workfront</span></li> 
+     <li>Sync updates and statuses of linked tasks between <span>Workfront</span> and Jira </li> 
      <li>Works on both Jira Server and Jira Cloud </li> 
     </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">Adobe Workfront for Jira</a>.</p> </td> 
    <td> 
     <ul> 
-     <li><em>Pro</em> <em>Workfront</em> plan or higher</li> 
+     <li><span>Pro</span> <span>Workfront</span> plan or higher</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -144,7 +144,7 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Link documents and folders to <em>Workfront</em></li> 
+     <li>Link documents and folders to <span>Workfront</span></li> 
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -154,9 +154,9 @@ We understand that the available built-in (native) integrations might not meet a
    <td> 
     <ul> 
      <li>Update an existing project/task/issue with info from an email </li> 
-     <li>Convert emails into <em>Workfront</em> items right from your inbox </li> 
+     <li>Convert emails into <span>Workfront</span> items right from your inbox </li> 
      <li>Create new tasks from an email </li> 
-     <li>Comment on <em>Workfront</em> items </li> 
+     <li>Comment on <span>Workfront</span> items </li> 
     </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">Adobe Workfront for Outlook</a>.</p> </td> 
    <td> 
     <ul> 
@@ -167,18 +167,18 @@ We understand that the available built-in (native) integrations might not meet a
     </ul> </td> 
    <td> 
     <ul> 
-     <li><em>Workfront administrator</em> </li> 
+     <li><span>Workfront administrator</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Get <em>Workfront</em> notifications in Microsoft Teams </li> 
+     <li>Get <span>Workfront</span> notifications in Microsoft Teams </li> 
      <li>Make approval decisions </li> 
-     <li>Search for <em>Workfront</em> projects, tasks, and issues </li> 
-     <li>Create <em>Workfront</em> personal tasks </li> 
-     <li>Submit <em>Workfront</em> requests </li> 
+     <li>Search for <span>Workfront</span> projects, tasks, and issues </li> 
+     <li>Create <span>Workfront</span> personal tasks </li> 
+     <li>Submit <span>Workfront</span> requests </li> 
     </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">Adobe Workfront for Microsoft Teams</a>.</p> </td> 
    <td> 
     <ul> 
@@ -193,17 +193,17 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Create new <em>Workfront</em> requests from Salesforce </li> 
-     <li>Create <em>Workfront</em> projects from Salesforce</li> 
+     <li>Create new <span>Workfront</span> requests from Salesforce </li> 
+     <li>Create <span>Workfront</span> projects from Salesforce</li> 
     </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">Adobe Workfront for Salesforce</a>.</p> </td> 
    <td> 
     <ul> 
-     <li><em>Pro</em> <em>Workfront</em> plan or higher</li> 
+     <li><span>Pro</span> <span>Workfront</span> plan or higher</li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li>Salesforce administrator</li> 
-     <li><em>Workfront administrator</em><![CDATA[
+     <li><span>Workfront administrator</span><![CDATA[
 ]]></li> 
     </ul> </td> 
   </tr> 
@@ -211,7 +211,7 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Link documents and folders to <em>Workfront</em></li> 
+     <li>Link documents and folders to <span>Workfront</span></li> 
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">Configure the SharePoint integration</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -220,27 +220,27 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Slack</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Receive <em>Workfront</em> notifications in Slack </li> 
+     <li>Receive <span>Workfront</span> notifications in Slack </li> 
      <li>Manage approvals in Slack </li> 
-     <li>Create <em>Workfront</em> tasks and issues from Slack </li> 
+     <li>Create <span>Workfront</span> tasks and issues from Slack </li> 
      <li>Post comments to a project or task from Slack</li> 
     </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">Adobe Workfront for Slack</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>Slack admin must allow all Slack users to install <em>Workfront</em> for Slack</li> 
-     <li>Slack users must have a <em>Workfront</em> license </li> 
+     <li>Slack admin must allow all Slack users to install <span>Workfront</span> for Slack</li> 
+     <li>Slack users must have a <span>Workfront</span> license </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li>Slack administrator</li> 
-     <li><em>Workfront administrator</em> </li> 
+     <li><span>Workfront administrator</span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p>Webdam</p> <p> <img src="assets/webdam-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Link documents and folders to <em>Workfront</em></li> 
+     <li>Link documents and folders to <span>Workfront</span></li> 
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -249,15 +249,15 @@ We understand that the available built-in (native) integrations might not meet a
    <td> <p>Zoom</p> <p> <img src="assets/zoom-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Start a Zoom meeting as you collaborate in <em>Workfront</em> by inserting a Zoom link into a comment or a reply in the Updates area</li> 
+     <li>Start a Zoom meeting as you collaborate in <span>Workfront</span> by inserting a Zoom link into a comment or a reply in the Updates area</li> 
     </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md" class="MCXref xref">Zoom integration overview</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>Must be enabled in the Setup area by a <em>Workfront administrator</em></li> 
+     <li>Must be enabled in the Setup area by a <span>Workfront administrator</span></li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><em>Workfront administrator</em> </li> 
+     <li><span>Workfront administrator</span> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -265,13 +265,13 @@ We understand that the available built-in (native) integrations might not meet a
 
 ### Integrations requiring an additional purchase
 
-*Workfront* enables you to leverage other built-in integrations and integrated products at an additional cost. Consult your Account Representative for pricing details.
+`Workfront` enables you to leverage other built-in integrations and integrated products at an additional cost. Consult your Account Representative for pricing details.
 
-* *Workfront DAM*
+* `Workfront DAM`
 
   For more information, see [Adobe Workfront DAM within Adobe Workfront](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md).
 
-* *Workfront Fusion*
+* `Workfront Fusion`
 
   For more information, see [Adobe Workfront Fusion overview](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -281,10 +281,10 @@ We understand that the available built-in (native) integrations might not meet a
 
 ## Partner integrations
 
-*Workfront* has a rich partner ecosystem that includes dozens of integrations that enrich your *Workfront* experience.
+`Workfront` has a rich partner ecosystem that includes dozens of integrations that enrich your `Workfront` experience.
 
-Examples of existing partner offerings&nbsp;include integrations with Salesforce.com, Oracle Responsys, and Microsoft Visual Studio. For more information about these and other exciting integrations, see the [*Workfront* Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Examples of existing partner offerings include integrations with Salesforce.com, Oracle Responsys, and Microsoft Visual Studio. For more information about these and other exciting integrations, see the [ `Workfront` Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
-## *Workfront* API
+## `Workfront` API
 
-The *Workfront* API enables you to extend and enhance your *Workfront* experience by leveraging our public API. You can create your own integrations using our open API. For a detailed list of available objects in the *Workfront* API, see the *Workfront* [API Explorer](../../wf-api/general/api-explorer.md).
+The `Workfront` API enables you to extend and enhance your `Workfront` experience by leveraging our public API. You can create your own integrations using our open API. For a detailed list of available objects in the `Workfront` API, see the `Workfront` [API Explorer](../../wf-api/general/api-explorer.md).

@@ -7,7 +7,7 @@ title: Adobe Workfront for Outlook
 description: This section contains the following articles:
 ---
 
-# *Adobe Workfront* for Outlook
+# `Adobe Workfront` for Outlook
 
 This section contains the following articles:
 

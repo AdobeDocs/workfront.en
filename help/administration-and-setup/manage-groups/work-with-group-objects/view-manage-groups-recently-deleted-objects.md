@@ -15,7 +15,7 @@ When you are viewing a group that you manage in the Groups area, you can view an
 * Restore recently deleted items that you select
 * Export a list of recently deleted items
 
-If there are any groups above your group, their administrators can also do these things for your group. The same is true for *Workfront administrators* (for any group).
+If there are any groups above your group, their administrators can also do these things for your group. The same is true for `Workfront administrators` (for any group).
 
 For more information about deleted items, see [Manage deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md).
 
@@ -30,12 +30,12 @@ You must have the following to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> <p>You must be a <em>group administrator</em> of the group or a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,12 +44,12 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## View and manage a group's recently deleted items
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
  <li value="3">Click the name of the group.</li> 
  <li value="4">In the left panel, click <span class="bold">Recently Deleted</span>.</li> 
@@ -76,16 +76,7 @@ You must have the following to perform the steps in this article:
     <tr> 
      <td role="rowheader"> <p>Export the entire list of objects on the tab</p> </td> 
      <td> <p>Click <span class="bold">Export</span>.</p> </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Change the display of information in the list</p> </td> 
-      <td> <p>In the upper-right corner above the list, use <span class="bold">Filter</span> to define what is displayed based on criteria you provide. Use <span class="bold">View</span> to define which fields are displayed as columns. Use <span class="bold">Grouping</span> to group the items into categories.</p> </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions=""> 
-     <td role="rowheader"> <p>Change the display of information in the list</p> </td> 
-     <td> <p>In the upper-right corner above the list, use <span class="bold">Filter</span> to define what is displayed based on criteria you provide. Use <span class="bold">View</span> to define which fields are displayed as columns. Use <span class="bold">Grouping</span> to group the items into categories.</p> </td> 
-    </tr> 
+    </tr> Change the display of information in the list In the upper-right corner above the list, use Filter to define what is displayed based on criteria you provide. Use View to define which fields are displayed as columns. Use Grouping to group the items into categories. 
    </tbody> 
   </table> </li> 
 </ol>

@@ -8,7 +8,7 @@ title: View the Flight plan visualization in Enhanced analytics
 description: The Flight plan visualization shows how many projects (within the applied filter criteria) were in flight, what condition changes happened throughout the life of these projects, and how closely these projects adhered to their planned completion deadlines.
 ---
 
-# View the Flight plan visualization in *Enhanced analytics*
+# View the Flight plan visualization in `Enhanced analytics`
 
 The Flight plan visualization shows how many projects (within the applied filter criteria) were in flight, what condition changes happened throughout the life of these projects, and how closely these projects adhered to their planned completion deadlines.
 
@@ -35,7 +35,7 @@ The Flight plan visualization shows the following project details:
   </ul> <p> <img src="assets/actual-condition-color.png"> </p> </li> 
 </ul>
 
-By hovering over a project row in the Flight Plan visualization, you can see information about the project's planned timeframe, the current project condition, and—if applicable—the custom condition. To get a more in-depth view of what may have affected the duration or condition, you can look at the other visualizations in the *Enhanced analytics* area.
+By hovering over a project row in the Flight Plan visualization, you can see information about the project's planned timeframe, the current project condition, and—if applicable—the custom condition. To get a more in-depth view of what may have affected the duration or condition, you can look at the other visualizations in the `Enhanced analytics` area.
 
 Seeing this information helps you determine:
 
@@ -56,7 +56,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><em>Adobe Workfront</em> plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a>*</td> 
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level.<br>For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level.<br>For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -74,7 +74,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -83,19 +83,9 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 ## View the Flight plan visualization
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
-   </MadCap:conditionalText>select <b>Analytics</b>.</p> </li> 
+ <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> </li> 
  <li value="2"> <p>(Optional) To use a different date range, select new start and end dates from the date range filter.</p> <p> <img src="assets/filters-select-date-range-350x344.png" style="width: 350;height: 344;"> </p> <p>For information on using the date range filter, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> </li> 
- <li value="3"> <p>(Conditional) If you need to limit the project data set, select and apply the filters that you want to use.</p> <p>For more information on adding filters in <em>Enhanced analytics</em>, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of <em>Workfront</em>.</p> </li> 
+ <li value="3"> <p>(Conditional) If you need to limit the project data set, select and apply the filters that you want to use.</p> <p>For more information on adding filters in <span>Enhanced analytics</span>, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of <span>Workfront</span>.</p> </li> 
  <li value="4"> <p>(Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.</p> <p>All other visualizations update to the same date range and a timeframe filter is created.</p> <p> <img src="assets/timeframe-filter-350x220.png" style="width: 350;height: 220;"> </p> </li> 
  <li value="5"> <p>(Optional) To change how the projects are sorted, click the <b class="bold">Sort by</b> menu in the upper-right corner of the Flight plan visualization, then select a new sorting option:</p> 
   <ul> 
@@ -121,6 +111,6 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## Video walk-through
 
-View the following video to learn more about the Flight plan visualization. This video was recorded in *the new Workfront experience*. However, the content also applies to *Workfront Classic*.
+View the following video to learn more about the Flight plan visualization. This video was recorded in `the new Workfront experience`. However, the content also applies to `Workfront Classic`.
 
 [ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441153800/2a336ba497) 

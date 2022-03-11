@@ -8,15 +8,7 @@ description: You can view or edit the financial information of a project by acce
 
 # Manage information in the project Finance area
 
-You can view or edit the financial information of a project by accessing the Finance area of the Project Details 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>`. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+You can view or edit the financial information of a project by accessing the Finance area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Access requirements
 
@@ -27,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects and Financial Data</p> <p>Edit access to Projects and&nbsp;Financial&nbsp;Data to edit financial information on the project</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects and Financial Data</p> <p>Edit access to Projects and&nbsp;Financial&nbsp;Data to edit financial information on the project</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,92 +37,29 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+Overview of the Finance area 
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Overview2"></a>Overview of the Finance area</h2>
--->
+Consider the following when viewing or editing information in the Finance area:
 
-## Overview of the Finance area
-
-Consider the following when viewing or editing information in the Finance 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-area
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`:
-
-* The financial information you can find on the Finance 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  area of Project Details
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area of Project Details</MadCap:conditionalText>`represents values that roll up to the project level from tasks, as well as information entered directly on the project. Some financial information can be managed at the project as well as the task level. 
-
-* You must have View permissions on the project as well as access to Financial Data from your access level in order to be able to view the Finance 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  area
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area </MadCap:conditionalText>`on a project. 
-
-* You must have Manage permissions on the project as well as access to Financial Data from your access level in order to be able to edit the information on the Finance 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  area
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area </MadCap:conditionalText>`. However, we recommend that only the Project Owner should edit the information on this 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  area
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area </MadCap:conditionalText>`.
+* The financial information you can find on the Finance area of Project Detailsrepresents values that roll up to the project level from tasks, as well as information entered directly on the project. Some financial information can be managed at the project as well as the task level. 
+* You must have View permissions on the project as well as access to Financial Data from your access level in order to be able to view the Finance areaon a project. 
+* You must have Manage permissions on the project as well as access to Financial Data from your access level in order to be able to edit the information on the Finance area. However, we recommend that only the Project Owner should edit the information on this area.
 
 ## View Finance information on a project
 
 <ol> 
  <li value="1">Go to a project.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Project Details</span> in the left panel.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Project Details</span> in the left panel.</p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Details section, then click <span class="bold">Finance</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Details section, then click <span class="bold">Finance</span>.</p> <p> <draft-comment>
-    <img src="assets/finance-area-in-details-view-only-nwe-350x188.png" style="width: 350;height: 188;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/finance-area-in-details-view-only-nwe-350x188.png" style="width: 350;height: 188;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <note type="note">
-   Depending on how your 
-   <em>Workfront administrator</em> configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see 
-   <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>. 
-  </note> </li> 
- <li value="4"> <p>View the following fields in the Finance <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     area 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    area 
-   </MadCap:conditionalText>of the project:</p> 
+ <li value="2"> Click Project Details in the left panel. </li> 
+ <li value="3"> Click the Edit icon in the upper-right corner of the Details section, then click Finance. <p>  </p> Note: Depending on how your Workfront administrator configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see Customize the Details view using a layout template. </li> 
+ <li value="4"> <p>View the following fields in the Finance areaof the project:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
      <td role="rowheader">Performance Index Method</td> 
-     <td> Controls the method <em>Workfront</em> uses to calculate Earned Value metrics. It can be hours-based, or cost-based. <br>For more information about the PIM, see the article <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a></td> 
+     <td> Controls the method <span>Workfront</span> uses to calculate Earned Value metrics. It can be hours-based, or cost-based. <br>For more information about the PIM, see the article <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a></td> 
     </tr> 
     <tr> 
      <td role="rowheader">CPI/SPI/CSI</td> 
@@ -199,33 +128,23 @@ To edit information on the Project Finance subtab:
  <li value="1"> <p>Go to a project which you are the owner of.</p> <note type="note">
    You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project. 
   </note> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Project Details</span> in the left panel.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Project Details</span> in the left panel.</p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Details section, then click&nbsp;<span class="bold">Finance</span> . This opens the Finance area for editing.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Details section, then click&nbsp;<span class="bold">Finance</span> . This opens the Finance area for editing.</p> </li> 
+ <li value="2"> Click Project Details in the left panel. </li> 
+ <li value="3"> Click the Edit icon in the upper-right corner of the Details section, then click Finance . This opens the Finance area for editing. </li> 
  <li value="4"> <p> Edit any field that is available for editing, by single-clicking the field or click <span class="bold">+Add</span> to add information to an empty field.</p> <note type="tip">
    Fields are not available for editing if they are automatically calculated by 
-   <em>Workfront</em> or if you don't have editing permissions on them.
-  </note> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-finance-area-in-project-details-nwe-350x275.png" style="width: 350;height: 275;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-finance-area-in-project-details-nwe-350x275.png" style="width: 350;height: 275;"> </p> </li> 
- <li value="5"> <p>Update any of the fields below. </p> <note type="note">
-   Depending on how your 
-   <em>Workfront administrator</em> sets up our Layout Template, the fields in the Project&nbsp;Details section might be different in your environment. For information, see 
-   <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>.
-  </note> 
+   <span>Workfront</span> or if you don't have editing permissions on them.
+  </note>  </li> 
+ <li value="5"> <p>Update any of the fields below. </p> Note: Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project Details section might be different in your environment. For information, see Customize the Details view using a layout template. 
   <table cellspacing="0"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
      <td role="rowheader">Performance Index Method</td> 
-     <td> <p>Controls the method <em>Workfront</em> uses to calculate project performance metrics. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
+     <td> <p>Controls the method <span>Workfront</span> uses to calculate project performance metrics. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
       <ul> 
-       <li><span class="bold">Hour-Based:</span><em>Workfront</em> uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </li> 
-       <li><span class="bold">Cost-Based:</span><em>Workfront</em> uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</li> 
+       <li><span class="bold">Hour-Based:</span><span>Workfront</span> uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </li> 
+       <li><span class="bold">Cost-Based:</span><span>Workfront</span> uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -250,7 +169,7 @@ To edit information on the Project Finance subtab:
     </tr> 
     <tr> 
      <td role="rowheader">Project Currency</td> 
-     <td> <p>Specify a currency for this project, if it is different from the default currency in your system. The default currency in your system is defined by your <em>Workfront administrator</em>. For more information about setting up exchange rates in <em>Workfront</em>, see the article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> </td> 
+     <td> <p>Specify a currency for this project, if it is different from the default currency in your system. The default currency in your system is defined by your <span>Workfront administrator</span>. For more information about setting up exchange rates in <span>Workfront</span>, see the article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">&nbsp;</td> 
@@ -258,12 +177,6 @@ To edit information on the Project Finance subtab:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="6">Click <span class="bold">Save</span><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    <span class="bold"> Changes</span>
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   <span class="bold"> Changes</span>
-  </MadCap:conditionalText>.</li> 
+ <li value="6">Click <span class="bold">Save</span>Changes.</li> 
 </ol>
 

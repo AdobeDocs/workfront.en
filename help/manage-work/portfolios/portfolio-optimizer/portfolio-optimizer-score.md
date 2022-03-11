@@ -13,7 +13,7 @@ You can find the Portfolio Optimizer score in the `Portfolio Optimizer. It displ
 
 For information about locating the Portfolio Optimizer, see the article [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-For information about how&nbsp;*Adobe Workfront* uses the project&nbsp;Score and other project information to optimize projects in the Portfolio Optimizer, see [Optimize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+For information about how  `Adobe Workfront` uses the project&nbsp;Score and other project information to optimize projects in the Portfolio Optimizer, see [Optimize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
 ## Difference between the Alignment Score and the Portfolio Optimizer Score
 
@@ -46,7 +46,7 @@ The score for each project is calculated based on the importance of the followin
 
 ## Calculate the Portfolio Optimizer Score
 
-*Workfront* produces a score using the Portfolio Optimizer which is a ranking to assist in the prioritization of projects. The values in the portfolio are based on values entered into the business cases of the projects and are used to calculate a score for the project. Projects with a higher score could be considered of greater importance and they could be prioritized to be completed first.
+`Workfront` produces a score using the Portfolio Optimizer which is a ranking to assist in the prioritization of projects. The values in the portfolio are based on values entered into the business cases of the projects and are used to calculate a score for the project. Projects with a higher score could be considered of greater importance and they could be prioritized to be completed first.
 
 To find out the ranking of a project, do the following:
 

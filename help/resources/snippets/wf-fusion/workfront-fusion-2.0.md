@@ -16,8 +16,6 @@
 * 
 
   <!--
-  <a href="../../../workfront-fusion/tutorials/tutorials.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tutorials</a>
+  Tutorials
   -->
-
-  [Tutorials](../../../workfront-fusion/tutorials/tutorials.md)
 

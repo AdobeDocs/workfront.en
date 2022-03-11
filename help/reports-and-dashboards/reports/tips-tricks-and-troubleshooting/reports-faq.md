@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em>, Work</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span>, Work</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Why does my custom calculation for an hour difference not show the correct result in a column?
 
@@ -50,7 +50,7 @@ My calculation is:
 
 ### Answer
 
-Fields using hours in *Workfront* are stored in minutes. When using the field in a calculation the result will be in minutes. To obtain the result in hours, you must divide the result of the calculation by 60.
+Fields using hours in `Workfront` are stored in minutes. When using the field in a calculation the result will be in minutes. To obtain the result in hours, you must divide the result of the calculation by 60.
 
 The correct calculation is:  
 
@@ -80,12 +80,6 @@ For information on modifying filters and groupings, see the articles [Filters ov
 
 The report or calendar might have a wildcard filter variable which points to the user who is logged in. In this case, the report shows information based on the user who is logged in. Adjust the filter to remove the wildcard that points to the logged-in user.
 
-<!--
-<img src="assets/qs--user.id-filter-variable-350x79.png" style="width: 350;height: 79;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/qs--user.id-filter-variable-350x79.png)
-
 For a complete list of user-based wildcard filter variables, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Why does the data in my report seem incomplete?
@@ -112,9 +106,7 @@ To see all tasks or issues assigned to you, whether you are the Owner (or Primar
    <span class="bold">Assigned To Name</span> field, as this filters only for the tasks and issues for which you are the Primary Assignee, or Owner.
   </note></li> 
  <li value="4">Select the <span class="bold">Equal</span> modifier.</li> 
- <li value="5">Start typing <em>$$USER.ID</em> in the textbox and select it from the drop-down list that appears.<br>This ensures that you see all tasks and issues that are assigned to the logged in user. You can replace the wildcard with a specific user name.<br><draft-comment>
-   <img src="assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png" style="width: 350;height: 63;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png" style="width: 350;height: 63;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li> 
+ <li value="5">Start typing <em>$$USER.ID</em> in the textbox and select it from the drop-down list that appears.<br>This ensures that you see all tasks and issues that are assigned to the logged in user. You can replace the wildcard with a specific user name.<br></li> 
  <li value="6">Click <span class="bold">Save + Close</span>.</li> 
 </ol>
 
@@ -134,12 +126,6 @@ However, there are a few things that may prevent these links from displaying:
 
 * If you have a `View` applied to these lists that has a currency selected other than the default currency for the project, the links do not display. Change the `View` to `Project's Original Currency` and the links should display so you can add issues and tasks to your projects.  
   For more information on changing the currency in your View, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
-
-<!--
-<img src="assets/nwe-project-original-currency-350x229.png" style="width: 350;height: 229;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/nwe-project-original-currency-350x229.png)
 
 ## Does the information in my report or dashboard refresh automatically?
 
@@ -182,15 +168,7 @@ To learn more about the `Run this Report with the Access Rights of:` field, see 
 When you delete a user, you can still access any reports that they created, however, any dashboards that included the report are deleted as well. This means that you can no longer access the following:
 
 * A dashboard that contains the report
-* A custom 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>` that contains a dashboard of the report
+* A custom section that contains a dashboard of the report
 
 To learn more about the implications of deleting a user, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 

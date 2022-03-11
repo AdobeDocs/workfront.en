@@ -9,7 +9,7 @@ description: In Adobe Workfront, users can delegate project, task, and issue app
 
 # Create a User Delegation report
 
-In *Adobe Workfront*, users can delegate project, task, and issue approvals to other users to make sure that their approvals are managed when they are out of office. Users with a Plan license can create a User Delegation report to see:
+In `Adobe Workfront`, users can delegate project, task, and issue approvals to other users to make sure that their approvals are managed when they are out of office. Users with a Plan license can create a User Delegation report to see:
 
 * Who has delegated their task, issue, and project approvals to another user
 * Which users have delegated task, issue, and project approvals assigned to them  
@@ -19,16 +19,12 @@ In *Adobe Workfront*, users can delegate project, task, and issue approvals to o
 To learn more about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn more about delegating work, see <a href="../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md" class="MCXref xref">Log personal time off and delegate your work</a>.</p>
+DRAFTED: To learn more about delegating work, see Log personal time off and delegate your work.
 -->
-
-DRAFTED: To learn more about delegating work, see [Log personal time off and delegate your work](../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn how to manage delegated work in Home, see [future link here].</p>
--->
-
 DRAFTED: To learn how to manage delegated work in Home, see [future link here].
+-->
 
 ## Access requirements
 
@@ -39,16 +35,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,17 +53,12 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create a user delegation report
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Reports</span>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Reports</span>.</li> 
- <li value="2"> <p>Click <span class="bold">New Report</span>, then select <span class="bold">User Delegation</span>.<br><draft-comment>
-    <img src="assets/classic-new-report-user-delegation-350x644.png" style="width: 350;height: 644;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/classic-new-report-user-delegation-350x644.png" style="width: 350;height: 644;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p> <p>The following fields display in this report by default:</p> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. 
+ <li value="2"> <p>Click <span class="bold">New Report</span>, then select <span class="bold">User Delegation</span>.<br></p> <p>The following fields display in this report by default:</p> 
   <table cellspacing="15"> 
    <col> 
    <col> 

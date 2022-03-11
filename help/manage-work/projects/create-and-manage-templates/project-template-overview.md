@@ -14,7 +14,7 @@ You can define tasks, queue topics, custom forms, attach documents in your templ
 
 After creating templates, you can attach them to existing projects, or you can use them to build new projects. All the information on the template transfers to the projects that are created using it.
 
-## Benefits for using templates in *Adobe Workfront*
+## Benefits for using templates in `Adobe Workfront`
 
 The following are some of the benefits of using templates for creating your projects:
 
@@ -38,7 +38,7 @@ The following are some of the benefits of using templates for creating your proj
 Consider the following when creating templates:
 
 * Don't assign users to template tasks.&nbsp;Although you can leave the tasks unassigned, we recommend that you assign job roles to tasks. This will give you an idea what users might be able to be assigned to the tasks when you create the project using the template.
-* Always give your template tasks a Duration and Planned Hours value. Every task in the project should be associates with a duration for how long the task can stay open and with a Planned Hour value for how much time will actually take for the task to complete. Tasks without this information cannot be properly budgeted for resources when using resource management tools in *Workfront*.
+* Always give your template tasks a Duration and Planned Hours value. Every task in the project should be associates with a duration for how long the task can stay open and with a Planned Hour value for how much time will actually take for the task to complete. Tasks without this information cannot be properly budgeted for resources when using resource management tools in `Workfront`.
 
   For information about Duration, see the following articles:
 

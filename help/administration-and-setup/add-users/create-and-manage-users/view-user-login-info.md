@@ -10,7 +10,7 @@ description: You can see how often users log in to Adobe Workfront, as well as t
 
 # View user login information
 
-You can see how often users log in to *Adobe Workfront*, as well as the last time they logged in, by indicating that you want to include this information in the view of a list of users, or in a report for users.
+You can see how often users log in to `Adobe Workfront`, as well as the last time they logged in, by indicating that you want to include this information in the view of a list of users, or in a report for users.
 
 ## Access requirements
 
@@ -21,47 +21,43 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE">Users with a <em>Plan</em> license can deactivate any direct reports who are not <em>Workfront administrators</em>. They can also deactivate themselves.<br></p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE">Users with a <em>Plan</em> license can deactivate any direct reports who are not <em>Workfront administrators</em>. They can also deactivate themselves.<br></p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE">Users with a System Administrator access level can deactivate any user except for the main administrator.</p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE">Users with a System Administrator access level can deactivate any user except for the main administrator.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <em>group administrator</em> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <span>group administrator</span> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## How *Workfront* records login information
+## How `Workfront` records login information
 
-*Workfront* records the following information about users logging in to the system:
+`Workfront` records the following information about users logging in to the system:
 
-* `Login Count`: *Workfront* counts a user logging in to the application once every 24 hours. If one user logs in multiple times using different browsers, computers, or mobile devices, *Workfront* counts all of the logins that occurred in one day as one login. The Login Count includes information starting with when the user was created.
+* `Login Count`: `Workfront` counts a user logging in to the application once every 24 hours. If one user logs in multiple times using different browsers, computers, or mobile devices, `Workfront` counts all of the logins that occurred in one day as one login. The Login Count includes information starting with when the user was created.
 
 * `Last Login Date`: The last date when a user logged in. The date of every login from any browser, mobile device, or other applications is recorded in this field.
 
-Logging in to *Workfront* in any of the following ways counts as a login to *Workfront*:
+Logging in to `Workfront` in any of the following ways counts as a login to `Workfront`:
 
 <ul> 
- <li>The <em>Workfront</em> Web Application</li> 
- <li>The <em>Workfront</em> Mobile Apps (iOS or Android devices)</li> 
- <li>Any supported <em>Workfront</em> integration with another third party application (Slack, Jira)</li> 
- <li>Any custom integration between <em>Workfront</em> and another third party application.&nbsp;</li> 
- <li> <p>The <em>Workfront</em> API</p> <note type="note">
+ <li>The <span>Workfront</span> Web Application</li> 
+ <li>The <span>Workfront</span> Mobile Apps (iOS or Android devices)</li> 
+ <li>Any supported <span>Workfront</span> integration with another third party application (Slack, Jira)</li> 
+ <li>Any custom integration between <span>Workfront</span> and another third party application.&nbsp;</li> 
+ <li> <p>The <span>Workfront</span> API</p> <note type="note">
    Logging in to 
-   <em>Workfront</em> through the 
-   <em>Workfront</em> API is only available to organizations that are not yet onboarded to the Adobe Business Platform.
+   <span>Workfront</span> through the 
+   <span>Workfront</span> API is only available to organizations that are not yet onboarded to the Adobe Business Platform.
   </note> </li> 
 </ul>
 
@@ -72,7 +68,7 @@ For more information about creating a report, see [Create a custom report](../..
 
 To display usage information in the view of a list of users:
 
-1. Go to a list of users in *Workfront*.
+1. Go to a list of users in `Workfront`.
 1. From the `View` drop-down menu, select `New View`.
 
 1. Click `Add Column` near the lower-right corner of the screen.

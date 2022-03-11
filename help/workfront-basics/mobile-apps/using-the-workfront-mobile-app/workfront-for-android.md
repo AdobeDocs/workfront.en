@@ -7,9 +7,9 @@ title: Adobe Workfront for Android
 description: The Adobe Workfront app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
 ---
 
-# *Adobe Workfront* for Android
+# `Adobe Workfront` for Android
 
-The *Adobe Workfront* app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
+The `Adobe Workfront` app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
 
 For information about logging in to the mobile app, see the section [Log in to the Workfront mobile app](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in the article [Log in to Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
@@ -87,7 +87,7 @@ The Approvals area allows you to view and approve approvals assigned or delegate
     <ul> 
      <li>Work (Tasks and Issues)</li> 
      <li>Documents</li> 
-     <li><em>Proofs</em> </li> 
+     <li><span>Proofs</span> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -100,7 +100,7 @@ The Approvals area allows you to view and approve approvals assigned or delegate
 
 For more information on approvals, see [Approvals in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-For information on reviewing and approving *proofs*, see [Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+For information on reviewing and approving `proofs`, see [Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Approvals list in mobile app](assets/mobile-approvals-adobe-350x574.png)
 

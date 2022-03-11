@@ -6,17 +6,17 @@ title: Budget resources in the Resource Planner using the Project and Role views
 description: The main function of the Resource Planner is to budget your resources for the work that must be completed on projects.
 ---
 
-# Budget resources in the *Resource Planner* using the Project and Role views
+# Budget resources in the `Resource Planner` using the Project and Role views
 
-The main function of the *Resource Planner* is to budget your resources for the work that must be completed on projects.
+The main function of the `Resource Planner` is to budget your resources for the work that must be completed on projects.
 
 >[!IMPORTANT]
 >
->You can budget your resources only if you apply the `View by Project` or `View by Role` views to the *Resource Planner*.
+>You can budget your resources only if you apply the `View by Project` or `View by Role` views to the `Resource Planner`.
 
 ##  
 
-Before starting to budget information in the *Resource Planner*, see the following articles:
+Before starting to budget information in the `Resource Planner`, see the following articles:
 
 * [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 
 * [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md) 
@@ -31,16 +31,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> and higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> and higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Resource Management that includes access to&nbsp;Edit priorities and budget hours in the <em>Resource Planner</em></p> <p>Edit access to Financial Data to budget resources by&nbsp;Cost</p> <p>Edit access to&nbsp;Projects and Users</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Resource Management that includes access to&nbsp;Edit priorities and budget hours in the <span>Resource Planner</span></p> <p>Edit access to Financial Data to budget resources by&nbsp;Cost</p> <p>Edit access to&nbsp;Projects and Users</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -49,9 +49,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Budget resources in the *Resource Planner*
+## Budget resources in the `Resource Planner`
 
 * [Budget resources in the Project View](#budgeting-in-the-project-view) 
 * [Budget resources in the Role View](#budgeting-in-the-role-view) 
@@ -61,28 +61,12 @@ You must have the following access to perform the steps in this article:
 
 <ol> 
  <li value="1"><![CDATA[
-				]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.<![CDATA[      ]]></li> 
+				]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.<![CDATA[      ]]></li> 
  <li value="2"><![CDATA[
 				]]><![CDATA[
-			]]><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Resourcing</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Resourcing</span>. 
-  </MadCap:conditionalText><![CDATA[    ]]></li> 
+			]]>Click Resourcing.<![CDATA[    ]]></li> 
  <li value="3"><![CDATA[
-			]]><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    The 
-    <span class="bold">Planner</span> displays by default. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   The 
-   <span class="bold">Planner</span> displays by default. 
-  </MadCap:conditionalText> </li> 
+			]]>The Planner displays by default. </li> 
  <li value="4"> (Conditional) Select the <span class="bold">View by Project</span> view. </li> 
  <li value="5"> Expand the projects and the job roles to manage the allocation for the project, job roles, or users. </li> 
  <li value="6"> To budget allocation for users do one of the following: 
@@ -100,7 +84,7 @@ You must have the following access to perform the steps in this article:
      <ul>
       <li> The Role Budgeted Hours are added to the Project Budgeted Hours.</li>
       <li>Users can be budgeted for both Primary and Other (or secondary) Roles. </li>
-      <li>The <span class="bold">Percentage of FTE Availability</span> for the roles of the user must be a number different than 0% for the Available Hours to display a value in the <em>Resource Planner</em> for a job role. If a user is associated with a role with a 0% <span class="bold">Percentage of FTE Availability</span>, the Available Hours value is zero for that job role. In this case, the role might show a negative <span class="bold">Net Value</span>.<br>For more information about the <span class="bold">Percentage of FTE Availability</span> for job roles, see the article <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>. </li>
+      <li>The <span class="bold">Percentage of FTE Availability</span> for the roles of the user must be a number different than 0% for the Available Hours to display a value in the <span>Resource Planner</span> for a job role. If a user is associated with a role with a 0% <span class="bold">Percentage of FTE Availability</span>, the Available Hours value is zero for that job role. In this case, the role might show a negative <span class="bold">Net Value</span>.<br>For more information about the <span class="bold">Percentage of FTE Availability</span> for job roles, see the article <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>. </li>
      </ul>
     </note></li>
    <li>In the <span class="bold">BDG</span> column, manually specify a number of budgeted hours, FTE, or cost for the project. This distributes the number of Project Budgeted Hours to each role under the project. The following scenarios exist: 
@@ -114,43 +98,27 @@ You must have the following access to perform the steps in this article:
    <li>Budget the roles under the project, as described in Step 7.<br>The Project Budgeted Hours is calculated by the following formula: <br><code>Project Budgeted Hours = SUM(Role Budgeted Hours)</code></li>
    <li>In the <span class="bold">BDG</span> column, manually specify a number of budgeted hours, FTE, or cost for the project.<br>This updates the Role Budgeted Hours, as described in Step 7.<br><img src="assets/budget-for-project-350x182.png" alt="budget_for_project.png" style="width: 350;height: 182;"></li>
   </ul></li> 
- <li value="9">Click <span class="bold">Save</span>.<br>After you budget your resources in the <em>Resource Planner</em>, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.<br>For more information about understanding the Resource Budgeting area of the Business Case, see the section "Resource Budgeting" in the article <a href="../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</li> 
+ <li value="9">Click <span class="bold">Save</span>.<br>After you budget your resources in the <span>Resource Planner</span>, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.<br>For more information about understanding the Resource Budgeting area of the Business Case, see the section "Resource Budgeting" in the article <a href="../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</li> 
  <li value="10"> (Optional) Select the User view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the User view. </li> 
 </ol>
 
 ### `Budget resources in the Role View`
 
-You must have Edit access to Resource Management and Financial Data and Manage Finance permissions on the projects in order to budget resources in the *Resource Planner*. If you only have View access to at least one project listed under a job role, you cannot budget allocations for the role in the Role view. You can still budget allocation for the projects where you have Manage permissions.
+You must have Edit access to Resource Management and Financial Data and Manage Finance permissions on the projects in order to budget resources in the `Resource Planner`. If you only have View access to at least one project listed under a job role, you cannot budget allocations for the role in the Role view. You can still budget allocation for the projects where you have Manage permissions.
 
 For information about the access needed for budgeting resources, see the article [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-To budget allocations in the *Resource Planner* in the `` Role view:
+To budget allocations in the `Resource Planner` in the `` Role view:
 
 <ol> 
  <li value="1"><![CDATA[
 				]]><![CDATA[
-			]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.<![CDATA[      ]]></li> 
+			]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.<![CDATA[      ]]></li> 
  <li value="2"><![CDATA[
 				]]><![CDATA[
-			]]><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Resourcing</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Resourcing</span>. 
-  </MadCap:conditionalText><![CDATA[     ]]></li> 
+			]]>Click Resourcing.<![CDATA[     ]]></li> 
  <li value="3"><![CDATA[
-			]]><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    The 
-    <span class="bold">Planner</span> displays by default. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   The 
-   <span class="bold">Planner</span> displays by default. 
-  </MadCap:conditionalText></li> 
+			]]>The Planner displays by default.</li> 
  <li value="4"> (Conditional) Select the <span class="bold">View by Role</span> view. </li> 
  <li value="5"> Expand the job roles and the projects to manage the allocation for the project, job roles, or users. </li> 
  <li value="6"> To budget allocation for users, do one of the following: 
@@ -166,7 +134,7 @@ To budget allocations in the *Resource Planner* in the `` Role view:
   </ul><note type="note">
     Users can be budgeted for both Primary and Other (or secondary) Roles. The 
    <span class="bold">Percentage of FTE Availability</span> for the roles of the user must be a number different than 0% for the Available Hours to display a value in the 
-   <em>Resource Planner</em> for a job role. If a user is associated with a role with a 0% 
+   <span>Resource Planner</span> for a job role. If a user is associated with a role with a 0% 
    <span class="bold">Percentage of FTE Availability</span>, the Available Hours value is zero for that job role. In this case, the role might show a negative 
    <span class="bold">Net Value</span>.
    <br>For more information about the 
@@ -179,7 +147,7 @@ To budget allocations in the *Resource Planner* in the `` Role view:
    <li>Click the <span class="bold">More</span> menu for the job role, then click <span class="bold">Set Projects' Planned Hours as Budgeted</span>.<br>The Project Budgeted Hours are calculated by the following formula:<br><code>Project Budgeted Hours = Project Planned Hours</code><br>The Project Budgeted Hours are added to the Role Budgeted Hours. </li>
    <li>(Conditional) If you have budgeted the hours for the users, click the <span class="bold">More</span> menu for the project, then click <span class="bold">Total Users' Budgeted Hours for Project</span>.<br>The Project Budgeted Hours is calculated using the following formula:<br><code style="font-style: normal;">Project Budgeted Hours = SUM(User Budgeted Hours)</code><br><img src="assets/budget-by-role-350x181.png" alt="budget_by_role.png" style="width: 350;height: 181;"></li>
   </ul></li> 
- <li value="9">Click <span class="bold">Save</span>.<br>After you budget your resources in the <em>Resource Planner</em>, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.<br>For more information about understanding the Resource Budgeting area of the Business Case, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</li> 
+ <li value="9">Click <span class="bold">Save</span>.<br>After you budget your resources in the <span>Resource Planner</span>, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.<br>For more information about understanding the Resource Budgeting area of the Business Case, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</li> 
  <li value="10"> (Optional) Select the <span class="bold">View by User</span> view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the View by User view. </li> 
 </ol>
 
@@ -196,7 +164,7 @@ You can budget allocations for your resources in bulk when using quick links. Th
 To budget your resources in bulk:
 
 <ol> 
- <li value="1">Go to the .<br>For more information about accessing the <em>Resource Planner</em>, see the "Access the <em>Resource Planner</em>" section in the article <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. <br>A list of projects you can manage displays in the list.<br></li> 
+ <li value="1">Go to the .<br>For more information about accessing the <span>Resource Planner</span>, see the "Access the <span>Resource Planner</span>" section in the article <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. <br>A list of projects you can manage displays in the list.<br></li> 
  <li value="2">(Optional) Expand each project to see a list of job roles associated with it.<br>Or</li> 
  <li value="3">(Optional) Select <span class="bold">View by Role</span>, then expand each role to see a list of projects associated with it. </li> 
  <li value="4">Hover over the name of a project or of a job role.</li> 
@@ -239,8 +207,8 @@ To budget your resources in bulk:
     </tr> 
    </tbody> 
   </table> <note type="note"> 
-   <p> Some of the options might not display if some of the prerequisites of working in the <em>Resource Planner</em> are missing. </p> 
-   <p>For more information about the prerequisites that must be met for accurate budgeting in the <em>Resource Planner</em>, see the "Prerequisites for working in the <em>Resource Planner</em>" section in the <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a> article.<br>For example, some of the options might not display in the following scenarios:</p> 
+   <p> Some of the options might not display if some of the prerequisites of working in the <span>Resource Planner</span> are missing. </p> 
+   <p>For more information about the prerequisites that must be met for accurate budgeting in the <span>Resource Planner</span>, see the "Prerequisites for working in the <span>Resource Planner</span>" section in the <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a> article.<br>For example, some of the options might not display in the following scenarios:</p> 
    <ul> 
     <li>When projects are not associated with Resource Pool</li> 
     <li>When Resource Pools that are associated with projects do not contain users</li> 

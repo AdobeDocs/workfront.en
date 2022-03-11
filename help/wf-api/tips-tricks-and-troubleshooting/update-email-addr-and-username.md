@@ -19,7 +19,7 @@ When the username does not match the emailAddr, an update to the emailAddr does 
 The mismatch may be created in several ways:
 
 * Users created before the synchronization rule existed. Very old user accounts may not have these attributes in sync.
-* Users created via SSO at a time when the emailAddr in *Workfront* was case-sensitive. The SSO auto-provision option would run a case-sensitive check for users based on the attributes of the user from the identity provider. When an exact match did not exist, the auto-provision services would create a new user. If a user already existed, there was a potential that the username and emailAddr would not have the same casing.
+* Users created via SSO at a time when the emailAddr in `Workfront` was case-sensitive. The SSO auto-provision option would run a case-sensitive check for users based on the attributes of the user from the identity provider. When an exact match did not exist, the auto-provision services would create a new user. If a user already existed, there was a potential that the username and emailAddr would not have the same casing.
 * Users that have had the username attribute updated directly via the API, and their emailAddr was not updated. The username and emailAddr possibly do not match.
 
 ## Solution

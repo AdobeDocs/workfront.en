@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit the view in a report</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit the view in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Example: Compare Actual Start Date and Planned Start Date
 
@@ -55,7 +55,7 @@ To compare the Planned Start Date and Actual Start Date of task using conditiona
  <li value="7">Select the <span class="bold">Actual Start Date</span> column, then click <span class="bold">Switch to Text Mode</span>.</li> 
  <li value="8"><span class="bold">Click to edit text</span> mode then add the following line of text:<br><code>styledef.case.0.comparison.rightmethod= <field to compare></code><br>In our example:&nbsp;<code>styledef.case.0.comparison.rightmethod=plannedStartDate</code><br><note type="note">
     If you are comparing a 
-   <em>Workfront</em> native field, use camel case syntax for the name of the field. If you are comparing a custom field, use 
+   <span>Workfront</span> native field, use camel case syntax for the name of the field. If you are comparing a custom field, use 
    <span class="bold">DE:Actual Name of the Field</span> for the name field you are comparing with the first field.
    <br>For example, if you are comparing the 
    <span class="bold">Actual Start Date</span> with a custom field labeled 

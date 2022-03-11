@@ -6,9 +6,9 @@ title: New Adobe Workfront managed system to replace POP email for Request Queue
 description: We're replacing the POP email option for request queues with a new Adobe Workfront-managed system. You will still be able to submit requests via email, but you'll need to set up a new Workfront managed email address in the Request Queue area instead.
 ---
 
-# New *Adobe Workfront* managed system to replace POP&nbsp;email for Request Queues with 21.1
+# New `Adobe Workfront` managed system to replace POP&nbsp;email for Request Queues with 21.1
 
-We're replacing the POP email option for request queues with a new *Adobe Workfront*-managed system. You will still be able to submit requests via email, but you'll need to set up a new Workfront managed email address in the Request Queue area instead.
+We're replacing the POP email option for request queues with a new `Adobe Workfront`-managed system. You will still be able to submit requests via email, but you'll need to set up a new Workfront managed email address in the Request Queue area instead.
 
 ## Why are you removing the POP email option?
 

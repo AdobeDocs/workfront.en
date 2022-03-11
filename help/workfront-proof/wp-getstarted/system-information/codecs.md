@@ -5,14 +5,14 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
 title: Codecs in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: Codecs in Workfront Proof
 ---
 
-# Codecs in *Workfront Proof*
+# Codecs in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Supported Codecs
 

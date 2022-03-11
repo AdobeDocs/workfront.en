@@ -19,16 +19,7 @@ You can configure:
 
 You can also customize the fields that users see in the Home area when users click a project approval, document approval, or document version approval that is assigned to them.
 
-For information about the Home area, see [Use the Home area](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-For information about the Summary panel, see
-<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  For information about the Summary panel, see  <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.</MadCap:conditionalText>`
+For information about the Home area, see [Use the Home area](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).For information about the Summary panel, see Summary overview in the new Adobe Workfront experience.
 
 For information about layout templates for groups, see [Create and modify a group’s layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -41,16 +32,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +84,7 @@ You must have the following to perform the steps in this article:
  <li value="5"> <p>(Conditional) If the <span class="bold">Set primary action button</span> drop-down menu appears (if you select <span class="bold">Tasks</span> or <span class="bold">Issues</span> in the list on the left), click the primary action (<span class="bold">Done</span> or <span class="bold">Status</span>) that you want available for users in the Home area and in the Summary panel when they view a task or an issue.</p> <p> <img src="assets/set-primary-action-button-dropdown-pdf-adobe-branding-350x223.png" style="width: 350;height: 223;"> </p> </li> 
  <li value="6"> <p>Add <img src="assets/add-item-plus-in-circle-blue.png"> or hide <img src="assets/close-or-hide---x.png"> fields for the selected object type.</p> <p> <img src="assets/lt-home-add-hide-fields-adobe-branding-350x302.png" style="width: 350;height: 302;"> </p> </li> 
  <li value="7">Repeat steps 3-6 to customize Home area and the Summary panel for any other object types.</li> 
- <li value="8"> <p>Click <span class="bold">Global settings</span>, near the lower left corner, then enable or disable any of the following options related to <em>Adobe Workfront</em> objects in Home and Summary:</p> 
+ <li value="8"> <p>Click <span class="bold">Global settings</span>, near the lower left corner, then enable or disable any of the following options related to <span>Adobe Workfront</span> objects in Home and Summary:</p> 
   <table cellspacing="0"> 
    <col> 
    <col> 

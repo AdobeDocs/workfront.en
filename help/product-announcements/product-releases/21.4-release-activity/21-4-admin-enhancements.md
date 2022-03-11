@@ -2,9 +2,9 @@
 
 # 21.4 Administrator enhancements
 
-This page describes all *Administrator* enhancements made with the *21.4* release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
+This page describes all `Administrator` enhancements made with the `21.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the *21.4* release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the `21.4` release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
 ## For administrators: See which groups are associated with an approval process
 
@@ -74,7 +74,7 @@ For more information, see [Configure a blueprint](../../../administration-and-se
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*.
+>This feature is available only in `the new Adobe Workfront experience`.
 
 We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group’s recently deleted and restored items from the Groups area. This saves you from having to go to the Recently Deleted or Recently Restored area in Setup to manage those items. And it keeps the list of group items you’re working with separate from the other deleted and restored items in the system.
 
@@ -157,7 +157,7 @@ For more information, see [Create and modify a group’s project templates](../.
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*.
+>This feature is available only in `the new Adobe Workfront experience`.
 
 It's now easier to supply information in the Details section for an object: Type and save information in a single custom field or expandable area (such as Overview and Finance), even if required fields in other custom forms on the object are not yet filled out.
 

@@ -10,7 +10,7 @@ description: The Adobe Workfront Fusion Tools section includes several useful mo
 
 # Tools
 
-The *Adobe Workfront Fusion* Tools section includes several useful modules that can enhance your scenario.
+The `Adobe Workfront Fusion` Tools section includes several useful modules that can enhance your scenario.
 
 Tools modules are available from the list of apps, or from the Tools icon ![](assets/tools-icon-small.png) at the bottom of the screen.
 
@@ -23,47 +23,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Tools and their fields
 
@@ -103,10 +81,8 @@ This module can read variables that were set anywhere in the scenario, even if t
 | Variable name |For each variable you add, map the name of the variable you want to get. |
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/get-variable-350x240.png" style="width: 350;height: 240;"> </p>
--->
 
-![](assets/get-variable-350x240.png)
+-->
 
 ` `**Examples: **`` The following are possible uses of the Set/Get (multiple) variable(s) modules:
 
@@ -447,43 +423,30 @@ Checks the input value for a match with the provided list of values. Returns out
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Execute a scenario</h3>
+Execute a scenario
 -->
-
-### Execute a scenario
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Status: PLANNED - see the Workaround section below.</p>
--->
-
 Status: PLANNED - see the Workaround section below.
-
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Workaround</h3>
 -->
 
-### Workaround
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Employ the <a href="http-modules.md" class="MCXref xref">HTTP modules</a> >&nbsp;Make a request module in the main scenario to call the other scenario. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Custom webhook module in the other scenario to receive the call. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Webhook response module in the other scenario to return the response.</p>
+Workaround
 -->
 
-Employ the [HTTP modules](http-modules.md) >&nbsp;Make a request module in the main scenario to call the other scenario. Employ the [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) > Custom webhook module in the other scenario to receive the call. Employ the [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) > Webhook response module in the other scenario to return the response.
-
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Stop / Throw (an error)</h3>
+Employ the HTTP modules > Make a request module in the main scenario to call the other scenario. Employ the Webhooks > Custom webhook module in the other scenario to receive the call. Employ the Webhooks > Webhook response module in the other scenario to return the response.
 -->
 
-### Stop / Throw (an error)
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In some cases you may want to forcibly stop the scenario execution after the rollback or commit phase or stop the processing of a route and optionally store it in the queue of incomplete executions.</p>
+Stop / Throw (an error)
 -->
 
+<!--
 In some cases you may want to forcibly stop the scenario execution after the rollback or commit phase or stop the processing of a route and optionally store it in the queue of incomplete executions.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Status: PLANNED - see the Throw module.</p>
 -->
 
+<!--
 Status: PLANNED - see the Throw module.
+-->
+

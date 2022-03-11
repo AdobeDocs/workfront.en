@@ -17,10 +17,9 @@ description: .
 * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
+  Enhanced analytics
   -->
 
-* Enhanced analytics
 * [Timesheets](timesheets/timesheets-all.md) 
 * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md) 
 * [Adobe Workfront API](wf-api/workfront-api.md) 

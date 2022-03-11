@@ -7,16 +7,16 @@ title: View Available, Planned, and Actual Hours or FTE in the Resource Planner 
 description: In addition to budgeting resources in the Project and Role views, you can use the User View of the Resource Planner to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources.
 ---
 
-# View Available, Planned, and Actual Hours or FTE in the *Resource Planner* when using the User view
+# View Available, Planned, and Actual Hours or FTE in the `Resource Planner` when using the User view
 
-In addition to budgeting resources in the Project and Role views, you can use the User View of the *Resource Planner* to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources.
+In addition to budgeting resources in the Project and Role views, you can use the User View of the `Resource Planner` to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources.
 
-## Overview of the User View in the *Resource Planner*
+## Overview of the User View in the `Resource Planner`
 
-Consider the following when viewing the Hours or FTE information in the *Resource Planner*:
+Consider the following when viewing the Hours or FTE information in the `Resource Planner`:
 
 <ul> 
- <li>You can view the Available and Planned Hours or the FTE information for users, job roles, and projects in all views of the <em>Resource Planner</em>.</li> 
+ <li>You can view the Available and Planned Hours or the FTE information for users, job roles, and projects in all views of the <span>Resource Planner</span>.</li> 
  <li> You can view the following information only in the User View: 
   <ul>
    <li> The difference between the amount of Planned Hours or FTE and the amount of Available Hours or FTE. You can then budget the allocation of your users according to this difference in the Project and Role views. </li>
@@ -25,11 +25,11 @@ Consider the following when viewing the Hours or FTE information in the *Resourc
  <li> You can display the difference between the User Available and the amount of Planned Hours or FTE either as a number or as a percentage value in the User view. </li> 
  <li> You cannot display the information in the User view by Cost. </li> 
  <li><![CDATA[
-			]]><em>Adobe Workfront</em> populates Available Hours or FTE according to the working time associated with the users in their schedules.<br>Users not associated with a schedule show availability according to the Default Schedule.<br>For information about the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</li> 
+			]]><span>Adobe Workfront</span> populates Available Hours or FTE according to the working time associated with the users in their schedules.<br>Users not associated with a schedule show availability according to the Default Schedule.<br>For information about the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</li> 
  <li><![CDATA[
-				]]><em>Workfront</em> populates Planned Hours or FTE from the Planned Hours information on the tasks and issues on the projects. </li> 
+				]]><span>Workfront</span> populates Planned Hours or FTE from the Planned Hours information on the tasks and issues on the projects. </li> 
  <li><![CDATA[
-				]]><em>Workfront</em> populates Actual Hours with the actual time logged to tasks and issues by the users who are assigned to them. This includes time logged on a project. </li> 
+				]]><span>Workfront</span> populates Actual Hours with the actual time logged to tasks and issues by the users who are assigned to them. This includes time logged on a project. </li> 
  <li> When in the User view, you can do the following: 
   <ul>
    <li><p> Expand each user to display a list of projects where that user is assigned. </p><note type="note">
@@ -37,12 +37,12 @@ Consider the following when viewing the Hours or FTE information in the *Resourc
     </note></li>
    <li> Expand every project to display a list of job roles that user can fulfill on those projects. </li>
    <li> Expand each role to display a list of tasks the user in that role is assigned to.<br></li>
-  </ul> If users have no job roles associated with them, their Available, Planned, and Actual Hours or FTE are listed in the <span class="bold">No Role</span> section.<br>For information about what fields and items display when applying the User view to the <em>Resource Planner</em>, see the "Project/ Role/ User View Selection" section in <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Resource Planner navigation overview </a>.</li> 
+  </ul> If users have no job roles associated with them, their Available, Planned, and Actual Hours or FTE are listed in the <span class="bold">No Role</span> section.<br>For information about what fields and items display when applying the User view to the <span>Resource Planner</span>, see the "Project/ Role/ User View Selection" section in <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Resource Planner navigation overview </a>.</li> 
 </ul>
 
-## Overview of fields visible in the User View of the *Resource Planner*
+## Overview of fields visible in the User View of the `Resource Planner`
 
-Refer to the following table for understanding the information displayed in the User view of the *Resource Planner*. 
+Refer to the following table for understanding the information displayed in the User view of the `Resource Planner`. 
 
 <table cellspacing="15"> 
  <col> 
@@ -61,7 +61,7 @@ Refer to the following table for understanding the information displayed in the 
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td>This information is not available for the Project when applying the User view to the <em>Resource Planner</em>. </td> 
+   <td>This information is not available for the Project when applying the User view to the <span>Resource Planner</span>. </td> 
   </tr> 
   <tr> 
    <td>Role</td> 
@@ -77,7 +77,7 @@ Refer to the following table for understanding the information displayed in the 
   <tr> 
    <td rowspan="5">PLN <br>(Planned Hours or FTE)</td> 
    <td>User</td> 
-   <td> The total of Planned Hours or FTE from all the tasks or issues assigned to the user on all the projects.<br><p>This includes tasks and issues that are assigned to the user but not associated with any job role and tasks or issues that are not on projects that you have access to Manage.</p><p>When the user allocation for hours has been modified using the <em>Workload Balancer</em>, the data in the <em>Resource Planner</em> can be affected if the dates selected contain only a portion of a task or issue. For information about modifying allocations for users, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a> . </p></td> 
+   <td> The total of Planned Hours or FTE from all the tasks or issues assigned to the user on all the projects.<br><p>This includes tasks and issues that are assigned to the user but not associated with any job role and tasks or issues that are not on projects that you have access to Manage.</p><p>When the user allocation for hours has been modified using the <span>Workload Balancer</span>, the data in the <span>Resource Planner</span> can be affected if the dates selected contain only a portion of a task or issue. For information about modifying allocations for users, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a> . </p></td> 
   </tr> 
   <tr> 
    <td>Project</td> 
@@ -94,22 +94,22 @@ Refer to the following table for understanding the information displayed in the 
   <tr> 
    <td colspan="2"> <p>Consider the following when viewing Planned Hours:</p> 
     <ul> 
-     <li> <p>Planned Hours are equally distributed to each day within the Duration of tasks and issues , for each resource assigned to them. The task or issue Duration is based on their Planned Start and Completion Dates and includes every calendar day within that period of time.<br><em>Workfront</em> takes into account the schedule of the user or of the project when distributing Planned Hours to users or projects. In this case, Planned Hours are equally distributed to each day within the Duration of tasks or issues excluding weekends, time-off days, and schedule exceptions.</p> <p>If you display the <em>Resource Planner</em> by Week, for example, and you have tasks that span multiple weeks on projects, the number of Planned Hours per week depends on how many days within that week are part of the task Duration. This works similarly when displaying the <em>Resource Planner</em> by Month or Quarter and when tasks span multiple months or quarters.<br>Weekend days, schedule exceptions, and time-off days are excluded from this distribution.</p> </li> 
+     <li> <p>Planned Hours are equally distributed to each day within the Duration of tasks and issues , for each resource assigned to them. The task or issue Duration is based on their Planned Start and Completion Dates and includes every calendar day within that period of time.<br><span>Workfront</span> takes into account the schedule of the user or of the project when distributing Planned Hours to users or projects. In this case, Planned Hours are equally distributed to each day within the Duration of tasks or issues excluding weekends, time-off days, and schedule exceptions.</p> <p>If you display the <span>Resource Planner</span> by Week, for example, and you have tasks that span multiple weeks on projects, the number of Planned Hours per week depends on how many days within that week are part of the task Duration. This works similarly when displaying the <span>Resource Planner</span> by Month or Quarter and when tasks span multiple months or quarters.<br>Weekend days, schedule exceptions, and time-off days are excluded from this distribution.</p> </li> 
      <li> <p>The following categories of tasks are included in calculating the Planned Hours for each resource: </p> 
       <ul> 
        <li> <p> tasks assigned to users in Resource Pools, job roles, or teams on the project.</p> <p>Tip: If tasks are assigned to teams, their allocation will appear under <span class="bold">No Role</span> and <span class="bold">No User</span> sections. You can see the Planned Hours associated with teams, but you cannot budget the hours, because no roles nor users are associated with the tasks. </p> </li> 
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> Planned Hours in the <em>Resource Planner</em> do not include Planned Hours associated with the following: 
+     <li> Planned Hours in the <span>Resource Planner</span> do not include Planned Hours associated with the following: 
       <ul>
        <li>parent tasks</li>
        <li>unassigned tasks</li>
        <li>issues, when the <span class="bold">Include hours from Issues</span> setting is disabled.</li>
       </ul></li> 
-     <li>Planned Hours do not display in the <em>Resource Planner</em> if the task or issue Duration is zero.</li> 
+     <li>Planned Hours do not display in the <span>Resource Planner</span> if the task or issue Duration is zero.</li> 
      <li>Planned Hours associated with deactivated users do not display. </li> 
-    </ul> <p>For more information about Planned Hours and FTE in the <em>Resource Planner</em>, see <a href="../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md" class="MCXref xref">Overview of hours, FTE, and cost information in the Project and&nbsp;Role views of the Resource Planner</a>.</p> </td> 
+    </ul> <p>For more information about Planned Hours and FTE in the <span>Resource Planner</span>, see <a href="../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md" class="MCXref xref">Overview of hours, FTE, and cost information in the Project and&nbsp;Role views of the Resource Planner</a>.</p> </td> 
   </tr> 
   <tr> 
    <td rowspan="5">ACT<br>(Actual Hours or FTE) </td> 
@@ -167,7 +167,7 @@ Refer to the following table for understanding the information displayed in the 
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td>This information is not available for the Project when applying the <span class="bold">View by User</span> view to the <em>Resource Planner</em>.</td> 
+   <td>This information is not available for the Project when applying the <span class="bold">View by User</span> view to the <span>Resource Planner</span>.</td> 
   </tr> 
   <tr> 
    <td>Role</td> 
@@ -178,7 +178,7 @@ Refer to the following table for understanding the information displayed in the 
    <td>This information is not available for the Task, Issue, or Project. </td> 
   </tr> 
   <tr> 
-   <td colspan="2"> <p> If the value of the Planned Hours or FTE is zero, the Percentage Allocation is 0%. If the value of the Available Hours or FTE is zero, the Percentage Allocation cannot be calculated. </p> <p>For more information about Planned Hours and FTE and how they are displayed in the <em>Resource Planner</em>, see <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> </td> 
+   <td colspan="2"> <p> If the value of the Planned Hours or FTE is zero, the Percentage Allocation is 0%. If the value of the Available Hours or FTE is zero, the Percentage Allocation cannot be calculated. </p> <p>For more information about Planned Hours and FTE and how they are displayed in the <span>Resource Planner</span>, see <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -17,7 +17,7 @@ You can use project templates to capture most of the repeatable processes, infor
 Consider the following when working with templates and template tasks:
 
 * By default, templates have a Start Day of 0 and the template tasks and the template show a Start Day of 0. The Start Day of the template tasks can change but this does not change the Start Day of the template.
-* The start day of a template task represents the number of business days that *Workfront* adds to the task's Planned Start Date when a project is created from the template. For example, you can have a template with only one task and the Start Day of the template task is 4. The Start Day of the template is still 0. When you create a project from this template where the project's Schedule Mode is Start Date, and the Planned Start Date of the project is November 1, 2019, the newly-created task adds 4 days to this date and sets its Planned Start Date value to November 5, 2019.
+* The start day of a template task represents the number of business days that `Workfront` adds to the task's Planned Start Date when a project is created from the template. For example, you can have a template with only one task and the Start Day of the template task is 4. The Start Day of the template is still 0. When you create a project from this template where the project's Schedule Mode is Start Date, and the Planned Start Date of the project is November 1, 2019, the newly-created task adds 4 days to this date and sets its Planned Start Date value to November 5, 2019.
 
 The following are some actions that might change the Start Day of the template tasks:
 

@@ -9,7 +9,7 @@ description: Determining the Critical Path of a project is an automatic way for 
 
 # Overview of the project Critical Path
 
-Determining the Critical Path of a project is an automatic way for *Adobe Workfront* to flag a sequence of tasks in a project that have the potential to impact the timeline of the project. Tasks that can impact the timeline of the project are flagged as being Critical Path tasks.
+Determining the Critical Path of a project is an automatic way for `Adobe Workfront` to flag a sequence of tasks in a project that have the potential to impact the timeline of the project. Tasks that can impact the timeline of the project are flagged as being Critical Path tasks.
 
 The following features can impact the Critical Path of a project:
 
@@ -41,16 +41,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -59,11 +59,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## View the Critical Path
 
-You can view the tasks that belong to the Critical Path in the following areas of the *Workfront* application:
+You can view the tasks that belong to the Critical Path in the following areas of the `Workfront` application:
 
 * [View the Critical Path in the Gantt chart](#critical-path-in-gantt) 
 * [View the Critical Path in a task list or report](#critical-path-in-a-view)
@@ -74,9 +74,7 @@ To view tasks on the Critical Path in the Gantt chart:
 
 <ol> 
  <li value="1">Go to a project for which you want to view the Critical Path.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Tasks</span> in the left panel.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Tasks</span> in the left panel.</p> </li> 
+ <li value="2"> Click Tasks in the left panel. </li> 
  <li value="3"> <p>Click the <span class="bold">Gantt Chart</span> icon in the upper-right corner of the task list.</p> <p> <img src="assets/gantt-chart-icon--1-.png" alt="gantt_chart_icon__1_.png"> <br> </p> </li> 
  <li value="4"> <p>Expand the <span class="bold">Options</span> menu, then enable the <span class="bold">Critical Path</span> option.</p> <p>The tasks that are on the Critical Path have a red line above their timeline in the Gantt chart. </p> <p> <img src="assets/crtitical-path-on-gantt--1--350x137.png" alt="crtitical_path_on_gantt__1_.png" style="width: 350;height: 137;"> <br> </p> </li> 
 </ol>
@@ -86,14 +84,7 @@ To view tasks on the Critical Path in the Gantt chart:
 To view which tasks are on the critical path in a list of tasks:
 
 1. Go to a project for which you want to view the Critical Path.
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Tasks</span> in the left panel. </p>
-   -->
-
-   Click `Tasks` in the left panel. 
-
+1. Click Tasks in the left panel. 
 1. From the `View` drop-down menu, select `Status`.
 
    The tasks that are on the Critical Path have a `Critical Path` flag in the `Flags` column of the list.

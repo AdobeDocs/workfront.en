@@ -8,7 +8,7 @@ description: If you no longer have use for a dashboard, you can remove it from A
 
 # Delete a dashboard
 
-If you no longer have use for a dashboard, you can remove it from *Adobe Workfront*.
+If you no longer have use for a dashboard, you can remove it from `Adobe Workfront`.
 
 ## Access requirements
 
@@ -19,16 +19,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Delete a dashboard from the Actions menu
 
@@ -47,39 +47,20 @@ For information on deleting a dashboard with an external page embedded, see [Del
 
 To delete a dashboard:
 
-<ol> 
- <li value="1"> <p>Go to the dashboard that you want to edit.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Dashboard Actions</span>, then click <span class="bold">Delete</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-     <img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    </draft-comment><img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
- <li value="3">To confirm that you want to delete the dashboard, click <span class="bold">Yes, Delete it.</span><br>The dashboard is removed from <em>Workfront</em>.</li> 
-</ol>
+1. Go to the dashboard that you want to edit.
+1. Click `Dashboard Actions`, then click `Delete`.
+1. To confirm that you want to delete the dashboard, click `Yes, Delete it.`  
+   The dashboard is removed from `Workfront`.
 
 ## Delete a dashboard from the Dashboards area
 
-If you are deleting multiple dashboards, you can delete the dashboards from the Dashboards 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-area
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area</MadCap:conditionalText>`. This is also the only way to delete a dashboard with an external page.
+If you are deleting multiple dashboards, you can delete the dashboards from the Dashboards area. This is also the only way to delete a dashboard with an external page.
 
 To delete multiple dashboards:
 
-<ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Dashboards</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Dashboards</span>.</p> </li> 
- <li value="2"> <p>Select each dashboard in the list that you want to delete, then click <span class="bold">Delete</span> <draft-comment>
-    <span data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/delete.png"></span>
-   </draft-comment><span data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/delete.png"></span>.</p> <p> <draft-comment>
-    <img src="assets/nwe-deletedashboard2021-350x182.png" title="Select the Delete icon." style="width: 350;height: 182;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/nwe-deletedashboard2021-350x182.png" title="Select the Delete icon." style="width: 350;height: 182;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
- <li value="3">To confirm that you want to delete the dashboard, click <span class="bold">Yes, Delete it.</span><br>The dashboard is removed from <em>Workfront</em>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, then click Dashboards. 
+1. Select each dashboard in the list that you want to delete, then click `Delete` .
+
+1. To confirm that you want to delete the dashboard, click `Yes, Delete it.`  
+   The dashboard is removed from `Workfront`.
 

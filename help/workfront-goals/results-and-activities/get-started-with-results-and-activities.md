@@ -7,24 +7,18 @@ title: Get started with results and activities in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article:
 ---
 
-# Get started with results and activities in *Adobe Workfront Goals*
+# Get started with results and activities in `Adobe Workfront Goals`
 
 Your organization must have the following to use the functionality described in this article:
 
-* A *Pro* or higher [*Adobe Workfront* plan](https://www.workfront.com/plans). 
-* An *Adobe Workfront Goals* license in addition to a *Workfront* license.
+* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
+* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
 
-  Contact your *Workfront* account manager to learn about a *Workfront Goals* license.
+  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
 
-  *Workfront Goals* is available only in *the new Adobe Workfront experience*.
+  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
 
-For additional information about access to *Workfront Goals*, see 
-
-<!--
-<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>
--->
-
-[Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
 When you create a goal, the goal has a status of Draft. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 In order to start recording progress on a goal, you must activate it. To activate your goal and change its status to Active you must first add the following to it:
@@ -76,7 +70,7 @@ Consider the following when associating activities with your goals:
    <col> 
    <tbody> 
     <tr> 
-     <td role="rowheader"><em>Manual progress bar</em> </td> 
+     <td role="rowheader"><span>Manual progress bar</span> </td> 
      <td> <p>Custom entries that can be thought of more in terms of complete or incomplete. They must be manually updated.</p> </td> 
     </tr> 
     <tr> 
@@ -108,7 +102,7 @@ The following table displays similarities and differences between results, activ
    <td> <p><span class="bold">Projects</span> </p> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td><span style="font-weight: normal;">You can customize their name in the <em>Workfront</em> interface</span> </td> 
+   <td><span style="font-weight: normal;">You can customize their name in the <span>Workfront</span> interface</span> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
@@ -138,7 +132,7 @@ The following table displays similarities and differences between results, activ
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>They must be manually updated in&nbsp;<em>Workfront Goals</em></td> 
+   <td>They must be manually updated in&nbsp;<span>Workfront Goals</span></td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>&nbsp;</td> 

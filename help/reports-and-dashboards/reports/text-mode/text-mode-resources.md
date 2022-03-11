@@ -9,7 +9,7 @@ description: Use the following documentation to understand the usage of the Text
 
 # Text Mode resources
 
-Use the following documentation to understand the usage of the Text Mode interface in *Adobe Workfront*. You can expand the use of reports by using Text Mode and customizing reports even further than what the report builder allows.
+Use the following documentation to understand the usage of the Text Mode interface in `Adobe Workfront`. You can expand the use of reports by using Text Mode and customizing reports even further than what the report builder allows.
 
 This section contains the following articles:
 
@@ -28,10 +28,4 @@ This section contains the following articles:
 * [Reference collections in a report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md) 
 * [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md) 
 * [Create complex Text Mode filters using EXISTS statements](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </li>
-  -->
-
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)
 

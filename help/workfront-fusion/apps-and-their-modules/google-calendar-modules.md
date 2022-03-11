@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Google C
 
 # Google Calendar modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your *Google Calendar* account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your `Google Calendar` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,45 +26,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -72,7 +52,7 @@ To use Google Calendar modules, you must have a Google account.
 
 ## Google Calendar modules and their fields
 
-When you configure *Google Calendar* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Google Calendar* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Google Calendar` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Google Calendar` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -90,35 +70,23 @@ If you see the map button above a field or function, you can use it to set varia
 * [Search events](#search)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#watch2" class="MCXref xref">Google Calendar modules</a> </li>
+  Google Calendar modules
   -->
 
-* [Google Calendar modules](#watch2) 
 * [Get an event](#get) 
 * [Create an event](#create) 
 * [Update an event](#update) 
 * [Delete an event](#delete)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#get" class="MCXref xref">Get an event</a> </li>
+  Get an event
   -->
-
-* [Get an event](#get)
 
 #### Watch events
 
-This trigger module executes a scenario when *a new event is added, updated, deleted, started, or ended in the calendar you specify*. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
+This trigger module executes a scenario when `a new event is added, updated, deleted, started, or ended in the calendar you specify`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -126,7 +94,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar </td> 
@@ -146,46 +114,20 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p> Set the maximum number of events that <em>Workfront Fusion</em> works with during one cycle (the number of repetitions per scenario run). If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). <em>Workfront Fusion</em> has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
+   <td> <p> Set the maximum number of events that <span>Workfront Fusion</span> works with during one cycle (the number of repetitions per scenario run). If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). <span>Workfront Fusion</span> has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Search events
 
-This action module *searches for an event in the selected calendar*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `searches for an event in the selected calendar`.
 
 You specify the calendar and the parameters of the search.
 
-The module returns the ID of the 
+The module returns the ID of the  `event` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>[action]</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>[action]</em> </MadCap:conditionalText>` *event* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -193,7 +135,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td>Calendar ID</td> 
@@ -213,13 +155,9 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Query</td> 
-   <td> <p>Enter or map the search term that you want to search by. <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        The module does not search extended properies. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The module does not search extended properies. 
-     </MadCap:conditionalText></p> </td> 
+   <td> <p>Enter or map the search term that you want to search by. <!--
+      The module does not search extended properies.
+     --></p> </td> 
   </tr> 
   <tr> 
    <td>Order by</td> 
@@ -231,38 +169,20 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p>Set the maximum number of events <em>Workfront Fusion</em> returns during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of events <span>Workfront Fusion</span> returns during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Get an event
 
-This action module *returns the metadata for a single event in the specified calendar*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `returns the metadata for a single event in the specified calendar`.
 
 You specify the calendar and event.
 
-The module returns the ID of the event and all associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
+The module returns the ID of the event and all associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -270,7 +190,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar ID</td> 
@@ -285,39 +205,13 @@ When you are configuring this module, the following fields display
 
 #### Create an event
 
-This action module *creates an event*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `creates an event`.
 
 You specify the calendar and the parameters for the event.
 
-The module returns the ID of the 
+The module returns the ID of the  `event` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em> </MadCap:conditionalText>` *event* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -325,7 +219,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td>Create an Event</td> 
@@ -345,7 +239,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Event name</td> 
-   <td> <p> Enter or map a name for the event. </p> <p>Note: If you have selected Quick add in the Create an event field, you can include the date and time of the event, and <em>Workfront Fusion</em> creates the event for that date and time. Example: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>. If you selected Quick add but do not include a date and time in the event name, the event is created from the current time and lasts an hour.</p> </td> 
+   <td> <p> Enter or map a name for the event. </p> <p>Note: If you have selected Quick add in the Create an event field, you can include the date and time of the event, and <span>Workfront Fusion</span> creates the event for that date and time. Example: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>. If you selected Quick add but do not include a date and time in the event name, the event is created from the current time and lasts an hour.</p> </td> 
   </tr> 
   <tr> 
    <td>All day event</td> 
@@ -409,39 +303,13 @@ When you are configuring this module, the following fields display
 
 #### Update an event
 
-This action module *changes an existing event*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `changes an existing event`.
 
 You specify the calendar and event ID.
 
-The module returns the ID of the 
+The module returns the ID of the  `event` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>changed</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>changed</em> </MadCap:conditionalText>` *event* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -449,7 +317,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar </td> 
@@ -466,39 +334,13 @@ You can update the event information by entering new values to the desired field
 
 #### Delete an event
 
-This action module *deletes an event*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `deletes an event`.
 
 You specify the calendar and event ID.
 
-The module returns the ID of the 
+The module returns the ID of the  `event` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em> </MadCap:conditionalText>` *event* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -506,7 +348,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar ID</td> 
@@ -536,26 +378,9 @@ When you are configuring this module, the following fields display
 
 This action module returns the calendars on a user's calendar list.
 
-The module returns the ID of the 
+The module returns the ID of the  `calendar` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em> </MadCap:conditionalText>` *calendar* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -563,7 +388,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Minimum access role</td> 
@@ -581,38 +406,20 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Set the maximum number of calendars <em>Workfront Fusion</em> returns during one execution cycle.</td> 
+   <td>Set the maximum number of calendars <span>Workfront Fusion</span> returns during one execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Get a calendar
 
-This action module *retrieves a calendar*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `retrieves a calendar`.
 
 You specify the ID of the calendar you want to retrieve.
 
-The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
+The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -620,7 +427,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
@@ -631,39 +438,13 @@ When you are configuring this module, the following fields display
 
 #### Create a calendar
 
-This action module *creates a new calendar*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `creates a new calendar`.
 
 You specify a name for the calendar.
 
-The module returns the ID of the 
+The module returns the ID of the  `calendar` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em> </MadCap:conditionalText>` *calendar* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -671,7 +452,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar name</td> 
@@ -682,39 +463,13 @@ When you are configuring this module, the following fields display
 
 #### Update a calendar
 
-This action module *updates a calendar*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `updates a calendar`.
 
 You specify the ID of the calendar you want to update.
 
-The module returns the ID of the 
+The module returns the ID of the  `calendar` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>updated</em> </MadCap:conditionalText>` *calendar* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -722,7 +477,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar ID</td> 
@@ -737,39 +492,13 @@ When you are configuring this module, the following fields display
 
 #### Delete a calendar
 
-This action module *deletes a calendar*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `deletes a calendar`.
 
 You specify the ID of the calendar you want to delete.
 
-The module returns the ID of the 
+The module returns the ID of the  `calendar` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em> </MadCap:conditionalText>` *calendar* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -777,7 +506,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
@@ -788,39 +517,13 @@ When you are configuring this module, the following fields display
 
 #### Clear a calendar
 
-This action module *removes all events from an account's primary calendar*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `removes all events from an account's primary calendar`.
 
 You specify the connection that connects to the account that contains the calendar you want to clear.
 
-The module returns the ID of the 
+The module returns the ID of the  `calendar` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>cleared</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>cleared</em> </MadCap:conditionalText>` *calendar* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -828,7 +531,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -845,16 +548,7 @@ When you are configuring this module, the following fields display
 
 This action module returns the rules in the access control list on a calendar.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -862,7 +556,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
@@ -870,7 +564,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Set the maximum number of results <em>Workfront Fusion</em> returns during one execution cycle.</td> 
+   <td>Set the maximum number of results <span>Workfront Fusion</span> returns during one execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -879,16 +573,7 @@ When you are configuring this module, the following fields display
 
 This action module returns the metadata of an access control rule.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -896,7 +581,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
@@ -911,39 +596,13 @@ When you are configuring this module, the following fields display
 
 #### Create an access control rule
 
-This action module *creates a new access control rule*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `creates a new access control rule`.
 
 You specify a name for the calendar.
 
-The module returns the ID of the 
+The module returns the ID of the  `access control rule` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em> </MadCap:conditionalText>` *access control rule* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -951,7 +610,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar ID</td> 
@@ -990,39 +649,13 @@ When you are configuring this module, the following fields display
 
 #### Update an access control rule
 
-This action module *updates an access control rule*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `updates an access control rule`.
 
 You specify a name for the calendar.
 
-The module returns the ID of the 
+The module returns the ID of the  `access control rule` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>updated</em> </MadCap:conditionalText>` *access control rule* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1030,7 +663,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar ID</td> 
@@ -1060,39 +693,13 @@ When you are configuring this module, the following fields display
 
 #### Delete an access control rule
 
-This action module *deletes an access control rule*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Google Calendar</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Google Calendar</em> </MadCap:conditionalText>`.
+This action module `deletes an access control rule`.
 
 You specify a name for the calendar.
 
-The module returns the ID of the 
+The module returns the ID of the  `access control rule` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em> </MadCap:conditionalText>` *access control rule* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1100,7 +707,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Calendar ID</td> 
@@ -1132,7 +739,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -1144,7 +751,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -1164,26 +771,9 @@ This module allows you to perform a custom API call.
 
 This action module returns free and busy information for a set of calendars.
 
-The module returns the ID of the 
+The module returns the ID of the  `calendar` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em> </MadCap:conditionalText>` *calendar* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Google Calendar</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Google Calendar</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1191,7 +781,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td>For instructions about connecting your <em>Google Calendar</em> account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your <span>Google Calendar</span> account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td>Minimum time</td> 
@@ -1225,7 +815,7 @@ You can trigger a scenario a specified time before an event with the help of sta
    <li value="2">Open the <span class="bold">Forwarding and POP/IMAP</span> tab.</li> 
    <li value="3">Click <span class="bold">Add a forwarding address.</span></li> 
    <li value="4">Paste the copied mailhooks's email address, click<span class="bold">Next</span>, confirm by pressing <span class="bold">Proceed</span> in the popup window, then click <span class="bold">OK</span>.</li> 
-   <li value="5">In <em>Workfront Fusion</em>, switch to the new scenario that should finish its execution by receiving the confirmation email.</li> 
+   <li value="5">In <span>Workfront Fusion</span>, switch to the new scenario that should finish its execution by receiving the confirmation email.</li> 
    <li value="6">Click the bubble above the module to inspect the module's output.</li> 
    <li value="7"><p>Expand the <code>Text </code>item and copy the Confirmation code:</p><p><img src="assets/confirmation-code-350x252.png" style="width: 350;height: 252;"></p></li> 
    <li value="8"><p>In Gmail, paste the Confirmation code in the edit box and click<span class="bold">Verify</span>:</p><p><img src="assets/paste-code-350x46.png" style="width: 350;height: 46;"></p></li> 
@@ -1235,6 +825,6 @@ You can trigger a scenario a specified time before an event with the help of sta
    <li value="12">Select <span class="bold">Forward it to</span> and choose the mailhooks's email address from the list.</li> 
    <li value="13">Click <span class="bold">Create filter</span> to create the filter.</li> 
   </ol></li> 
- <li value="4"> <p>(Optional) In <em>Workfront Fusion</em>, add the Text parser > Match pattern module after the Webhooks > Custom mailhook module to parse the email's HTML code to obtain any information you need.</p> <p>For example, you could configure the module as follows to obtain the event's ID:</p> <p><i>Pattern</i>:<code><meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/></code></p> <p><i>Text</i>: The <code>HTML content</code> item outputted from the Webhooks > Custom mailhook module:</p> </li> 
+ <li value="4"> <p>(Optional) In <span>Workfront Fusion</span>, add the Text parser > Match pattern module after the Webhooks > Custom mailhook module to parse the email's HTML code to obtain any information you need.</p> <p>For example, you could configure the module as follows to obtain the event's ID:</p> <p><i>Pattern</i>:<code><meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/></code></p> <p><i>Text</i>: The <code>HTML content</code> item outputted from the Webhooks > Custom mailhook module:</p> </li> 
 </ol>
 

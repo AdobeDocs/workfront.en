@@ -4,16 +4,16 @@ product: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Configure a user's Proof Permission Profile in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: As a Workfront administrator or Workfront Proof administrator, you can grant permissions to users by assigning them user profiles. When you do this, those permissions are available to the user for all proofs in the system.
 ---
 
-# Configure a user's Proof Permission Profile in *Workfront Proof*
+# Configure a user's Proof Permission Profile in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a *Workfront administrator* or *Workfront Proof administrator*, you can grant permissions to users by assigning them user profiles. When you do this, those permissions are available to the user for all proofs in the system.
+As a `Workfront administrator` or `Workfront Proof administrator`, you can grant permissions to users by assigning them user profiles. When you do this, those permissions are available to the user for all proofs in the system.
 
 For information about Proof Permission Profiles, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 

@@ -5,7 +5,7 @@ title: Create a Business Case for a project in Adobe Workfront
 description: You can use the Business Case to request a project and define the purpose, the budget, and the potential benefit for the project. The Portfolio Manager or Project Sponsor uses the information from the Business Case to analyze and prioritize the project before they approve it.
 ---
 
-# Create a Business Case for a project in *Adobe Workfront*
+# Create a Business Case for a project in `Adobe Workfront`
 
 You can use the Business Case to request a project and define the purpose, the budget, and the potential benefit for the project. The Portfolio Manager or Project Sponsor uses the information from the Business Case to analyze and prioritize the project before they approve it.
 
@@ -18,16 +18,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects, Financial Data, and Resource Management</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects, Financial Data, and Resource Management</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -36,13 +36,13 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
 Consider the following when requesting a project through a Business Case:
 
-* Your *Adobe Workfront administrator* `or *group administrator*` must enable the sections of the Business Case before they appear on your project.  
+* Your `Adobe Workfront administrator` `or `group administrator`` must enable the sections of the Business Case before they appear on your project.  
   For information about enabling the sections in the Business Case at the system level, see the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   For information about the areas of the Business Case, see the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
@@ -56,46 +56,14 @@ Consider the following when requesting a project through a Business Case:
 <ol> 
  <li value="1"><![CDATA[
         ]]><![CDATA[
-]]><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png">, then click&nbsp;
-    <span class="bold">Projects</span>. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the 
-   <span class="bold">Main Menu</span> icon 
-   <img src="assets/main-menu-icon.png">, then click&nbsp;
-   <span class="bold">Projects</span>. 
-  </MadCap:conditionalText></li> 
- <li value="2"> <p> Click&nbsp;<span class="bold">New Project</span> and select&nbsp;<span class="bold">Request Project</span>.<br>By default, the project is placed in the <span class="bold">Idea</span> status.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If the Idea status has been deleted in your <em>Workfront</em> instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
+]]>Click the Main Menu icon , then click Projects.</li> 
+ <li value="2"> <p> Click&nbsp;<span class="bold">New Project</span> and select&nbsp;<span class="bold">Request Project</span>.<br>By default, the project is placed in the <span class="bold">Idea</span> status.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If the Idea status has been deleted in your <span>Workfront</span> instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
  <li value="3"> Specify a name for your project, then press Enter. </li> 
  <li value="4"> <p> (Optional) <![CDATA[
- ]]><draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">More</span> icon 
-     <img src="assets/qs-more-icon-on-an-object.png">, then 
-     <span class="bold">Attach Template</span>, to create the Work Breakdown Structure of your project. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">More</span> icon 
-    <img src="assets/qs-more-icon-on-an-object.png">, then 
-    <span class="bold">Attach Template</span>, to create the Work Breakdown Structure of your project. 
-   </MadCap:conditionalText> </p> <p>Or</p> <p>Start adding tasks to the project manually. </p> </li> 
+ ]]>Click the More icon , then Attach Template, to create the Work Breakdown Structure of your project. </p> <p>Or</p> <p>Start adding tasks to the project manually. </p> </li> 
  <li value="5"> <p>(Conditional) If you selected to attach a template, continue attaching the template to the project</p> </li> 
  <li value="6"><![CDATA[
-]]><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Business Case</span> in the left panel. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Business Case</span> in the left panel. 
-  </MadCap:conditionalText></li> 
+]]>Click Business Case in the left panel.</li> 
  <li value="7"> <p> (Optional) Click <span class="bold">Edit Project Info</span>.&nbsp;</p> <p>For more information about editing the fields in the Project Info section of the Business Case, see the section <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info" class="MCXref xref">Project Info</a> in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</p> </li> 
  <li value="8"> <p> (Optional) Click <span class="bold">Edit Goals</span>.</p> <p>For more information about editing the Goals section of the Business Case, see the section <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals" class="MCXref xref">Goals</a> in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</p> </li> 
  <li value="9"> <p>(Optional) Click<span class="bold"> Edit Expenses</span>.</p> <p>For more information about editing the Expenses section of the Business Case, see the section <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses" class="MCXref xref">Expenses</a> in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</p> </li> 

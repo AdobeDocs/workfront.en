@@ -13,12 +13,10 @@ description: A data store, similar to a database or a simple table, can store da
 A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information on scenarios, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a></p>
+For more information on scenarios, see Create a scenario
 -->
 
-For more information on scenarios, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md)
-
-The data store modules enable you to take the following actions on records in your *Adobe Workfront Fusion* data store:
+The data store modules enable you to take the following actions on records in your `Adobe Workfront Fusion` data store:
 
 * Add
 * Replace
@@ -39,56 +37,34 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Create a data store in *Workfront Fusion*
+## Create a data store in `Workfront Fusion`
 
 * [Set up the data store](#set) 
 * [Set up the data structure](#setting)
 
 ### Set up the data store
 
-Before you can use a data store in a module, you must create the data store in *Workfront Fusion*.
+Before you can use a data store in a module, you must create the data store in `Workfront Fusion`.
 
 >[!NOTE]
 >
@@ -97,10 +73,10 @@ Before you can use a data store in a module, you must create the data store in *
 >For more information, see [Maximum stores reached error](#maximum) in this article.
 
 <ol> 
- <li value="1">Log in to your <em>Workfront Fusion</em> account.</li> 
+ <li value="1">Log in to your <span>Workfront Fusion</span> account.</li> 
  <li value="2">Click <span class="bold">Data stores</span> in the left navigation panel.</li> 
  <li value="3">Click <span class="bold">Add data store</span> in the upper-right corner of the screen.</li> 
- <li value="4"> <p>Enter settings for the new data store.</p> <p>A bolded title on a field in a <em>Workfront Fusion</em> module indicates a required setting.</p> 
+ <li value="4"> <p>Enter settings for the new data store.</p> <p>A bolded title on a field in a <span>Workfront Fusion</span> module indicates a required setting.</p> 
   <table cellspacing="15"> 
    <col> 
    <col> 
@@ -122,9 +98,9 @@ Before you can use a data store in a module, you must create the data store in *
      <td> <p>Data storage size in MB</p> </td> 
      <td> <p>Allocate the size for the data store from your total internal data storage.</p> <note type="note">
        The reserved amount can be changed at any time later on.
-      </note> <draft-comment>
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The total internal data storage capacity depends on the plan you have purchased.</p>
-      </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The total internal data storage capacity depends on the plan you have purchased.</p> </td> 
+      </note> <!--
+       The total internal data storage capacity depends on the plan you have purchased.
+      --> </td> 
     </tr> 
    </tbody> 
   </table> </li> 
@@ -162,7 +138,7 @@ Before you can use a data store in a module, you must create the data store in *
          <p><code>}</code> </p> 
          <p>The empty columns in the data store view:</p> 
          <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
-         <p>You can then add values to the data store manually or by using the <em>Workfront Fusion</em> data store modules.</p> 
+         <p>You can then add values to the data store manually or by using the <span>Workfront Fusion</span> data store modules.</p> 
         </div> </li> 
       </ul> </td> 
     </tr> 
@@ -176,7 +152,7 @@ Before you can use a data store in a module, you must create the data store in *
 
 ## Edit an existing data store
 
-You can edit the properties and contents of an existing Data Store in the Data Store area of *Workfront Fusion*.
+You can edit the properties and contents of an existing Data Store in the Data Store area of `Workfront Fusion`.
 
 * [Edit the properties of a data store](#edit) 
 * [Edit the contents of a data store](#edit2)

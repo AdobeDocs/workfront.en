@@ -9,7 +9,7 @@ description: The Adobe Workfront mobile app should be updated in the Apple App a
 
 # Updated Mobile App for iOS and Android (Early August, 2017)
 
-The *Adobe Workfront* mobile app should be&nbsp;updated in the Apple App and Google Play Stores in early&nbsp;August, 2017.&nbsp;
+The `Adobe Workfront` mobile app should be&nbsp;updated in the Apple App and Google Play Stores in early&nbsp;August, 2017.&nbsp;
 
 The update contains the following enhancements for both the Android and the iOS mobile platforms:
 
@@ -52,12 +52,12 @@ For more information about editing custom forms on the mobile app, see the "Edit
 
 ## Proof Approvals Visibility in the Mobile App
 
-Starting with the&nbsp;new version of the mobile app, you will be able to approve *proofs* of documents on your mobile device. You will also receive a notification in the Notifications area when you are designated as an Approver on a *proof*.&nbsp;
+Starting with the new version of the mobile app, you will be able to approve `proofs` of documents on your mobile device. You will also receive a notification in the Notifications area when you are designated as an Approver on a `proof`.&nbsp;
 
-Prior to this update, you were able to perform project, task, issue, and document approvals using the mobile app. You will require a Proof HQ license to approve document *proofs* on the mobile app.&nbsp;
+Prior to this update, you were able to perform project, task, issue, and document approvals using the mobile app. You will require a Proof HQ license to approve document `proofs` on the mobile app.&nbsp;
 
-For more information about *proofing* within *Workfront*, see the [Proofing](../../review-and-approve-work/proofing/proofing.md) section.&nbsp;
+For more information about `proofing` within `Workfront`, see the [Proofing](../../review-and-approve-work/proofing/proofing.md) section.&nbsp;
 
-For more information about approving a *proof* on the mobile app, see the "Managing Approvals" section in&nbsp;.
+For more information about approving a `proof` on the mobile app, see the "Managing Approvals" section in&nbsp;.
 
 `<iframe class="mt-media" src="assets/229038773?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;

@@ -5,22 +5,22 @@ product: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Proof Permissions Profiles in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: As a Workfront administrator or Workfront Proof administrator, you can assign a Proof Permissions Profile to a user to specify the proofing capabilities that user will have for all proofs in the system. For information about configuring a user's Proof Permission Profile, see Configure a user's Proof Permission Profile in Workfront Proof .
 ---
 
-# Proof Permissions Profiles in *Workfront Proof*
+# Proof Permissions Profiles in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a *Workfront administrator* or *Workfront Proof administrator*, you can assign a Proof Permissions Profile to a user to specify the *proofing* capabilities that user will have for all proofs in the system. For information about configuring a user's Proof Permission Profile, see [Configure a user's Proof Permission Profile in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md).
+As a `Workfront administrator` or `Workfront Proof administrator`, you can assign a Proof Permissions Profile to a user to specify the `proofing` capabilities that user will have for all proofs in the system. For information about configuring a user's Proof Permission Profile, see [Configure a user's Proof Permission Profile in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md).
 
 >[!NOTE]
 >
 >You can also do the following:
 >
->* Grant users specific roles on individual *proofs*. For more information about *proof* roles, see&nbsp; [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+>* Grant users specific roles on individual `proofs`. For more information about `proof` roles, see&nbsp; [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 >
 >* Create custom profiles for users in your organization. For more information, see [Configure custom profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 >
@@ -93,21 +93,15 @@ The following table displays the permissions available with each Proof Permissio
 | Observer |&nbsp; | ![](assets/cleaner2.png)
 
 |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Visitor |&nbsp; | ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Visitor |&nbsp; | ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 Consider the following about roles and permissions:
 
 * Assigned profile permissions relate only to the users and items in your own account. The exception is in the case of Satellite accounts, where the Administrator and Billing Administrator for the main (hub) accounts can access and manage the&nbsp;account settings&nbsp;and billing of those accounts from the hub account level.
 * Billing Administrators and Administrators can delete users. This can only be done in&nbsp;Account settings.
-* When Billing Administrators and Administrators view *proofs* that are owned by other users in their account, they view them with the role of a Reviewer.
-* Using the Read Only role, Billing Administrators and Administrators can access *proofs* in folders shared with them or in folders created by them.&nbsp;
+* When Billing Administrators and Administrators view `proofs` that are owned by other users in their account, they view them with the role of a Reviewer.
+* Using the Read Only role, Billing Administrators and Administrators can access `proofs` in folders shared with them or in folders created by them.&nbsp;
 
-The following sections describe each profile and the permissions associated with the profile in a standard *Workfront Proof* setup:
+The following sections describe each profile and the permissions associated with the profile in a standard `Workfront Proof` setup:
 
 * [Billing Administrator](#billing-administrator) 
 * [Administrator](#administrator) 
@@ -123,13 +117,13 @@ Billing Administrators have access to&nbsp; [Account settings in Workfront Proof
 
 ![](assets/cleaner2.png)Can generate proofs, upload files, and create folders. For more information, see [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), and [Create Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Can view, edit, and delete own *proofs* and files they create.
+![](assets/cleaner2.png)Can view, edit, and delete own `proofs` and files they create.
 
-![](assets/cleaner2.png)Can view, edit, and delete *proofs* and files created by all users in the organization.
+![](assets/cleaner2.png)Can view, edit, and delete `proofs` and files created by all users in the organization.
 
 ![](assets/cleaner2.png)Can&nbsp;delete the public&nbsp;folders of other users. For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Has edit rights on all *proofs* created in the account.
+![](assets/cleaner2.png)Has edit rights on all `proofs` created in the account.
 
 ![](assets/cleaner2.png)Can be set as the Dropzone owner. For more information, see [Configure the dropzone in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -145,9 +139,9 @@ Billing Administrators have access to&nbsp; [Account settings in Workfront Proof
 
 ![](assets/cleaner2.png)Can delete contacts.&nbsp;
 
-![](assets/cleaner2.png)Can edit *proofs* if there are no replies on them.
+![](assets/cleaner2.png)Can edit `proofs` if there are no replies on them.
 
-![](assets/no2.png)Cannot edit *proof*&nbsp;replies.&nbsp;
+![](assets/no2.png)Cannot edit `proof`&nbsp;replies.&nbsp;
 
 ![](assets/no2.png)Cannot delete the private folders of other Users.&nbsp;For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
@@ -161,13 +155,13 @@ Administrators have access to&nbsp; [Account settings](https://support.workfront
 
 ![](assets/cleaner2.png)Can create proofs, upload files, and create folders. For more information, see [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), and [Create Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Can view, edit, and delete *proofs* and files they created.
+![](assets/cleaner2.png)Can view, edit, and delete `proofs` and files they created.
 
-![](assets/cleaner2.png)Can view, edit, and delete *proofs* and files created by all users in the organization.
+![](assets/cleaner2.png)Can view, edit, and delete `proofs` and files created by all users in the organization.
 
 ![](assets/cleaner2.png)Can&nbsp;delete the public&nbsp;folders of other Users. For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Has edit rights on all *proofs* created in the account.
+![](assets/cleaner2.png)Has edit rights on all `proofs` created in the account.
 
 ![](assets/cleaner2.png)Can be set as the Dropzone owner. For more information, see [Configure the dropzone in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -181,9 +175,9 @@ Administrators have access to&nbsp; [Account settings](https://support.workfront
 
 ![](assets/cleaner2.png)Can delete contacts.
 
-![](assets/cleaner2.png)Can edit *proofs*&nbsp;if there are no replies on them. &nbsp;
+![](assets/cleaner2.png)Can edit `proofs`&nbsp;if there are no replies on them. &nbsp;
 
-![](assets/no2.png)Cannot edit *proof* replies.
+![](assets/no2.png)Cannot edit `proof` replies.
 
 ![](assets/no2.png)Cannot delete the private&nbsp;folders of other Users.&nbsp;For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).&nbsp;
 
@@ -195,13 +189,13 @@ Supervisors have the following permissions:
 
 ![](assets/cleaner2.png)Can create proofs, upload files, and create folders. For more information, see [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), and [Create Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Can view, edit, and delete own *proofs* and files they created.
+![](assets/cleaner2.png)Can view, edit, and delete own `proofs` and files they created.
 
-![](assets/cleaner2.png)Can view, edit, and delete *proofs* and files created by all users in the organization.
+![](assets/cleaner2.png)Can view, edit, and delete `proofs` and files created by all users in the organization.
 
 ![](assets/cleaner2.png)Can&nbsp;delete the public&nbsp;folders of other Users. For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Has edit rights on all *proofs* created in the account.
+![](assets/cleaner2.png)Has edit rights on all `proofs` created in the account.
 
 ![](assets/cleaner2.png)Can be set as the Dropzone owner. For more information, see [Configure the dropzone in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
@@ -209,9 +203,9 @@ Supervisors have the following permissions:
 
 ![](assets/cleaner2.png)Can delete contacts.&nbsp;
 
-![](assets/cleaner2.png)Can edit *proofs*&nbsp;&nbsp;if there are no replies on them.&nbsp;
+![](assets/cleaner2.png)Can edit `proofs`&nbsp;&nbsp;if there are no replies on them.&nbsp;
 
-![](assets/no2.png)Cannot edit *proof* replies.
+![](assets/no2.png)Cannot edit `proof` replies.
 
 ![](assets/no2.png)Cannot delete the private&nbsp;folders&nbsp;of other Users.&nbsp;For more information, see [Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
@@ -227,15 +221,15 @@ Managers have the following permissions:
 
 ![](assets/cleaner2.png)Can create proofs, upload files, and create folders. For more information, see [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md), and [Create Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Can view, edit, and delete own *proofs* and files they create or own.&nbsp;
+![](assets/cleaner2.png)Can view, edit, and delete own `proofs` and files they create or own.&nbsp;
 
-![](assets/cleaner2.png)Can see, review, and approve *proofs* of other users that are explicitly shared with them (Read-only rights to everything in a shared folder). For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![](assets/cleaner2.png)Can see, review, and approve `proofs` of other users that are explicitly shared with them (Read-only rights to everything in a shared folder). For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 ![](assets/cleaner2.png)Can create groups and add a new contact.
 
-![](assets/no2.png)Cannot view, edit, or delete *proofs* and files created by other users in the organization.&nbsp;
+![](assets/no2.png)Cannot view, edit, or delete `proofs` and files created by other users in the organization.&nbsp;
 
-![](assets/no2.png)Cannot edit *proofs*&nbsp;or replies.&nbsp;
+![](assets/no2.png)Cannot edit `proofs`&nbsp;or replies.&nbsp;
 
 ![](assets/no2.png)Cannot delete the private&nbsp;folders of other Users.&nbsp;For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).&nbsp;
 
@@ -255,17 +249,17 @@ Managers have the following permissions:
 
 Observers have the following permissions:
 
-![](assets/cleaner2.png)Can see, review, and approve *proofs* of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![](assets/cleaner2.png)Can see, review, and approve `proofs` of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 ![](assets/cleaner2.png)Can view files that are explicitly shared with them.&nbsp;
 
 ![](assets/cleaner2.png) Can view contacts and groups
 
-![](assets/no2.png)Cannot&nbsp;create *proofs*, upload files, and create folders. For more information, see [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![](assets/no2.png)Cannot create `proofs`, upload files, and create folders. For more information, see [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Cannot view, edit, or delete *proofs* and files created by other users in the organization.
+![](assets/no2.png)Cannot view, edit, or delete `proofs` and files created by other users in the organization.
 
-![](assets/no2.png)Cannot edit *proofs*&nbsp;or replies.
+![](assets/no2.png)Cannot edit `proofs`&nbsp;or replies.
 
 ![](assets/no2.png)Cannot delete any items created in the organization.
 
@@ -293,17 +287,17 @@ Observers have the following permissions:
 
 Visitors have the following permissions:
 
-![](assets/cleaner2.png)Can see, review, and approve *proofs* of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![](assets/cleaner2.png)Can see, review, and approve `proofs` of other users that are explicitly shared with them (Read-only&nbsp;rights to everything in a shared folder). For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 ![](assets/cleaner2.png)Can view files that are explicitly shared with them.&nbsp;
 
 ![](assets/no2.png) Cannot view contacts and groups
 
-![](assets/no2.png)Cannot&nbsp;create *proofs*, upload files, and create folders. For more information, see [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![](assets/no2.png)Cannot create `proofs`, upload files, and create folders. For more information, see [Upload Files and Web Content to Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Cannot view, edit, or delete *proofs* and files created by other users in the organization.
+![](assets/no2.png)Cannot view, edit, or delete `proofs` and files created by other users in the organization.
 
-![](assets/no2.png)Cannot edit *proofs*&nbsp;or replies.
+![](assets/no2.png)Cannot edit `proofs`&nbsp;or replies.
 
 ![](assets/no2.png)Cannot delete any items created in the organization.
 
@@ -329,9 +323,9 @@ Visitors have the following permissions:
 
 ### Guest
 
-The Guest profile is used to give access to *proofs* for reviewers who do not have their own *Workfront Proof* account. Guests can access *proofs* shared with them directly via their personal email notifications.
+The Guest profile is used to give access to `proofs` for reviewers who do not have their own `Workfront Proof` account. Guests can access `proofs` shared with them directly via their personal email notifications.
 
-![](assets/cleaner2.png)Can view, review, and approve *proofs* that are explicitly shared with them.
+![](assets/cleaner2.png)Can view, review, and approve `proofs` that are explicitly shared with them.
 
 ![](assets/cleaner2.png)Can view files that are explicitly shared with them.
 
@@ -339,11 +333,11 @@ The Guest profile is used to give access to *proofs* for reviewers who do not ha
 
 ![](assets/no2.png)Cannot have folders shared with them. For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Cannot be added as Authors or Moderators to the *proofs*. For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![](assets/no2.png)Cannot be added as Authors or Moderators to the `proofs`. For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
->&nbsp;Guests are not *Workfront Proof* users, so they cannot see all the *proofs* shared with them in their own Dashboard.
+>Guests are not `Workfront Proof` users, so they cannot see all the `proofs` shared with them in their own Dashboard.
 
 ## Edit a user's Proof Permission Profile
 

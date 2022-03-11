@@ -10,7 +10,7 @@ description: As an Adobe Workfront administrator or a group administrator, you c
 
 # Customize the Main Menu using a layout template
 
-As an *Adobe Workfront administrator* or a *group administrator*, you can use a layout template to configure the options users see when they open the Main Menu in *Workfront*:
+As an `Adobe Workfront administrator` or a `group administrator`, you can use a layout template to configure the options users see when they open the Main Menu in `Workfront`:
 
 ![](assets/main-menu-adobe-branding-350x184.png)
 
@@ -29,16 +29,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ You must have the following to perform the steps in this article:
    <li>Calendars</li> 
    <li>Resourcing</li> 
    <li> <p>Scenarios</p> <note type="note"> 
-     <p>This is available only in <em>the new Adobe Workfront experience</em> and requires an additional license. For information about the <em>Workfront Scenario Planner</em>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> 
+     <p>This is available only in <span>the new Adobe Workfront experience</span> and requires an additional license. For information about the <span>Workfront Scenario Planner</span>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> 
     </note> </li> 
    <li>Teams</li> 
    <li> <p>Users</p> <note type="note">
@@ -74,7 +74,7 @@ You must have the following to perform the steps in this article:
    <li>Analytics</li> 
    <li>Proofing</li> 
    <li> <p>Goals</p> <note type="note"> 
-     <p>This requires an additional license. For information about <em>Workfront Goals</em>, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> 
+     <p>This requires an additional license. For information about <span>Workfront Goals</span>, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> 
     </note> </li> 
    <li> <p>My&nbsp;Updates</p> </li> 
   </ul> </li> 

@@ -46,15 +46,7 @@ You can display or filter by users, job roles, or teams associated with the foll
 
 ## Display all users and job roles associated with a project
 
-You can display all users associated with in the project in the view of a project list or report. This includes all users listed in the People 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`of the project. You can also view the roles they are associated with when assigned to tasks or issues on the project in a project report.
+You can display all users associated with in the project in the view of a project list or report. This includes all users listed in the People sectionof the project. You can also view the roles they are associated with when assigned to tasks or issues on the project in a project report.
 
 ![](assets/project-with-user-and-role-information-report-350x100.png)
 
@@ -73,12 +65,6 @@ You can filter by the users, job roles, or teams assigned to tasks by referencin
 * Assignment Users 
 * Assignment Roles
 * Team
-
-<!--
-<img src="assets/assignment-users-roles-task-filter-350x334.png" style="width: 350;height: 334;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## Display all users, job roles, or teams assigned to an issue
 

@@ -27,23 +27,21 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to timesheets. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE">Or, in order to work on <em>timesheet profiles</em> for a group, you must be an administrator of the group or a <em>Workfront administrator</em>. For more information, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Group administrators</a> and <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE">Or, in order to work on <em>timesheet profiles</em> for a group, you must be an administrator of the group or a <em>Workfront administrator</em>. For more information, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Group administrators</a> and <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must have administrative access to timesheets. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p>  <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create or edit a timesheet profile
 
@@ -52,7 +50,7 @@ You must have the following to perform the steps in this article:
 >To enable timesheet profile changes in current timesheets, you have to delete the existing timesheets and then generate new ones. For instructions, see [Delete generated timesheets](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) and [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>If you are creating or editing a timesheet profile for use throughout the system, click <span class="bold">Timesheet & Hours</span>.</p> <p>Or</p> <p>If you creating or editing a timesheet profile for a group, click <b>Groups</b>, then click the group's name.</p> </li> 
  <li value="3"> <p>Click <b>Timesheet Profiles</b>.</p> </li> 
  <li value="4"> <p>To create a new timesheet profile, click <span class="bold">New Profile</span>.</p> <p>Or</p> <p>To edit an existing timesheet profile, select the timesheet profile you want to edit, then click <span class="bold">Edit</span>.<br></p> <p>The new or existing timesheet profile displays.</p> </li> 
@@ -65,7 +63,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader"><span class="bold">Group with Administration Access</span> </td> 
       <td> <p> 
         <ul> 
-         <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a <em>Workfront administrator</em> can edit a system-level timesheet profile.</p> </li> 
+         <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a <span>Workfront administrator</span> can edit a system-level timesheet profile.</p> </li> 
         </ul> 
         <ul> 
          <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group’s administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p> <note type="note">
@@ -77,7 +75,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader"><span class="bold">Create timesheets</span> </td> 
       <td> <p> <p>Specify when the timesheet profile should generate the timesheets. A timesheet can be set to automatically generate on a weekly, bi-weekly, semi-monthly, or monthly basis. Select the day of the week when you want the timesheet to be produced.</p> <note type="note">
           If you configure a timesheet profile to create timesheets on a Friday, users are not able to record hours on Friday, Saturday, and Sunday, for the current week.
-        </note> <p><em>Workfront</em> always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet&nbsp;starts when the time frame of the first one ends.</p> </p> </td> 
+        </note> <p><span>Workfront</span> always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet&nbsp;starts when the time frame of the first one ends.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Approvers</span> </td> 
@@ -99,37 +97,22 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader"><span class="bold">Available Hour Types</span> </td> 
       <td>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by&nbsp;selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect&nbsp;all hour types to generate the timesheet without a section for general hours.</td> 
-     </tr> <draft-comment>
-      <tr data-mc-conditions=""> 
-       <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
-       <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
-      </tr>
-     </draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
-      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
-     </tr> 
+     </tr> Overtime You can choose to hide the Overtime box in timesheets. This option is disabled by default. 
     </tbody> 
    </table> </p> </li> 
- <li value="6"> <p>Click the <span class="bold">Assign People</span> tab to associate the timesheet profile with specific users, groups, or (if you are a <em>Workfront administrator</em>) teams. Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.</p> <p>If you are a <em>group administrator</em>, you can assign the timesheet profile to groups you administer, but not to teams. For more information, see <a href="#possible" class="MCXref xref">Limitations for a group administrator assigning a timesheet profile</a> in this article.</p> <note type="note">  
+ <li value="6"> <p>Click the <span class="bold">Assign People</span> tab to associate the timesheet profile with specific users, groups, or (if you are a <span>Workfront administrator</span>) teams. Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.</p> <p>If you are a <span>group administrator</span>, you can assign the timesheet profile to groups you administer, but not to teams. For more information, see <a href="#possible" class="MCXref xref">Limitations for a group administrator assigning a timesheet profile</a> in this article.</p> <note type="note">  
    <ul> 
     <li> You can also associate a user with a timesheet profile by editing the user profile. For more information, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</li> 
     <li>When you add a group, only the group name appears on the Assign People tab, not the list of group members. If you want to see the group members listed here, click Save Changes, then click the name of the timesheet profile you just created.</li> 
     <li>When you finish these steps, the timesheet profile generates timesheets only for the assigned users or group members who don’t have existing timesheets for the current period.</li> 
    </ul> 
   </note> </li> 
- <li value="7"> <p>Click<draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <span class="bold">Save Changes</span> 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <span class="bold">Save Changes</span> 
-   </MadCap:conditionalText>.</p> <p>The first time the timesheet profile generates timesheets, 2 timesheets are created for each user. After that, each time it generates new timesheets, onhe timesheet is created per user. </p> </li> 
+ <li value="7"> <p>ClickSave Changes.</p> <p>The first time the timesheet profile generates timesheets, 2 timesheets are created for each user. After that, each time it generates new timesheets, onhe timesheet is created per user. </p> </li> 
 </ol>
 
-## Limitations for a *group administrator* assigning a timesheet profile
+## Limitations for a `group administrator` assigning a timesheet profile
 
-If you are a *group administrator* and the administrative access option Timesheets & hours is disabled in your access level, you can create timesheet profiles, but you can assign them only to:
+If you are a `group administrator` and the administrative access option Timesheets & hours is disabled in your access level, you can create timesheet profiles, but you can assign them only to:
 
 * Groups you administer 
 * Individual users you have access to edit who are in a group you administer

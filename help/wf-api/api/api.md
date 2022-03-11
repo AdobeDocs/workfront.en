@@ -24,10 +24,9 @@ This section contains the following articles:
 * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../wf-api/api/oauth-app-jwt-flow.md" class="MCXref xref" xrefformat="{para}">Configure and use your organization's custom OAuth 2 applications using JWT flow</a> </li>
+  Configure and use your organization's custom OAuth 2 applications using JWT flow
   -->
 
-* [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md) 
 * [What's new in API version 14](../../wf-api/api/new-api-version-14.md) 
 * [What's new in API version 13](../../wf-api/api/new-api-version-13.md) 
 * [What's new in API version 12](../../wf-api/api/new-api-version-12.md) 

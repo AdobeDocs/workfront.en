@@ -10,14 +10,13 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Scenarios
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
 This section contains the following articles:
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion scenario overview</a> </li>
+  Adobe Workfront Fusion scenario overview
   -->
 
-* [Adobe Workfront Fusion scenario overview](../../workfront-fusion/scenarios/scenario-overview.md) 
 * [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md) 
 * [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md) 
 * [Basic scenario settings](../../workfront-fusion/scenarios/basic-scenario-settings.md) 
@@ -32,10 +31,9 @@ This section contains the following articles:
 * [Add a filter to a scenario](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/scenarios/cycles.md" class="MCXref xref" xrefformat="{para}">Cycles</a> </li>
+  Cycles
   -->
 
-* [Cycles](../../workfront-fusion/scenarios/cycles.md) 
 * [Debug scenarios with the Adobe Workfront Fusion DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md) 
 * [Scenario Templates](../../workfront-fusion/scenarios/templates/fusion-templates.md) 
 * [Scenario example: Connect email, Text Parser, and Google Sheets](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md) 

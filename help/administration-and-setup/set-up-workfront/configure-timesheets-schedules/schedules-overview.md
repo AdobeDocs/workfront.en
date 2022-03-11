@@ -11,18 +11,18 @@ description: You can define your work week by using schedules. You can associate
 
 # Schedules overview
 
-You can define your work week by using schedules. You can associate a schedule with a user or a project. This allows *Adobe Workfront* to calculate timelines and user availability.
+You can define your work week by using schedules. You can associate a schedule with a user or a project. This allows `Adobe Workfront` to calculate timelines and user availability.
 
-Consider the following when working with schedules in *Workfront*:
+Consider the following when working with schedules in `Workfront`:
 
 <ul> 
- <li> <p>The <em>Workfront administrator</em> identifies the hours of operation for the organization in a schedule.</p> <p>Similarly, a <em>group administrator</em> can identify the hours of operation of a schedule administered by a group they manage.<br>For more information about group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.<br>For example, a schedule can be defined as: Monday through Friday, 8 AM to 5 PM, with an hour break for lunch.</p> </li> 
- <li> <p><em>Workfront</em> uses the schedule to determine when the work day starts and ends.</p> <p>This does not prevent a user from working on or completing work outside normal business hours. Generally, it's not necessary to create a new schedule or a schedule exception to focus on work planned in the evening.</p> <p>Likewise, your organization may have flexible arrival times for your work day. You may have a set of employees that arrives at 8 AM and another set that arrives at 9 AM. It is not necessary to create unique schedules for each group, if the groups have similar or identical schedules. But if the groups have drastically different schedules, their users should be associated with unique schedules. An employee understands if an assignment is due to complete at 5 PM it means the work must be done by the end of the business day, regardless of the time they come in to work.</p> </li> 
+ <li> <p>The <span>Workfront administrator</span> identifies the hours of operation for the organization in a schedule.</p> <p>Similarly, a <span>group administrator</span> can identify the hours of operation of a schedule administered by a group they manage.<br>For more information about group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.<br>For example, a schedule can be defined as: Monday through Friday, 8 AM to 5 PM, with an hour break for lunch.</p> </li> 
+ <li> <p><span>Workfront</span> uses the schedule to determine when the work day starts and ends.</p> <p>This does not prevent a user from working on or completing work outside normal business hours. Generally, it's not necessary to create a new schedule or a schedule exception to focus on work planned in the evening.</p> <p>Likewise, your organization may have flexible arrival times for your work day. You may have a set of employees that arrives at 8 AM and another set that arrives at 9 AM. It is not necessary to create unique schedules for each group, if the groups have similar or identical schedules. But if the groups have drastically different schedules, their users should be associated with unique schedules. An employee understands if an assignment is due to complete at 5 PM it means the work must be done by the end of the business day, regardless of the time they come in to work.</p> </li> 
  <li> <p>We recommend that you create separate schedules for each time zone associated with the organization.</p> <p>You can assign a specific time zone for each schedule to ensure work is scheduled appropriately for users that work in different time zones.</p> </li> 
- <li> <p>The <em>Workfront</em> Default Schedule is used in timeline calculations when users or projects are not associated with a schedule.</p> <p>The Default Schedule comes with your <em>Workfront</em> system and cannot be deleted unless it's replaced with a new schedule you create.</p> </li> 
- <li> <p>In addition to calculating timelines, <em>Workfront</em> uses schedules to calculate user availability.</p> <note type="important">
-   <em>Workfront</em> uses either the user or the project schedule to determine resource availability in the Resource Planner. Which schedule is used depends on what the 
-   <em>Workfront</em> Administrator selected for the Calculate Resource Availability Using setting. For information about Resource Management settings, see 
+ <li> <p>The <span>Workfront</span> Default Schedule is used in timeline calculations when users or projects are not associated with a schedule.</p> <p>The Default Schedule comes with your <span>Workfront</span> system and cannot be deleted unless it's replaced with a new schedule you create.</p> </li> 
+ <li> <p>In addition to calculating timelines, <span>Workfront</span> uses schedules to calculate user availability.</p> <note type="important">
+   <span>Workfront</span> uses either the user or the project schedule to determine resource availability in the Resource Planner. Which schedule is used depends on what the 
+   <span>Workfront</span> Administrator selected for the Calculate Resource Availability Using setting. For information about Resource Management settings, see 
    <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.
   </note> </li> 
 </ul>
@@ -33,18 +33,18 @@ If a task is assigned to a user who is associated with a schedule, and resides o
 
 >[!IMPORTANT]
 >
->*Workfront* uses the schedule of a user only when the Calculate Resource Availability Using setting is set to The User's Schedule in the Resource Management area of Setup. For information about how the Calculate Resource Availability Using setting affects which schedule is used for Resource Management, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+>`Workfront` uses the schedule of a user only when the Calculate Resource Availability Using setting is set to The User's Schedule in the Resource Management area of Setup. For information about how the Calculate Resource Availability Using setting affects which schedule is used for Resource Management, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 The order in which the schedules are used by the system when more than one exists is:
 
 <ul> 
- <li> <p>When a user is assigned to a task, <em>Workfront</em> uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.</p> <p>For more information about personal time, see <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md" class="MCXref xref">Personal time overview</a>.</p> </li> 
- <li>When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, <em>Workfront</em> uses either one of the following schedules, as defined in the Project Preferences area of Setup:&nbsp;
+ <li> <p>When a user is assigned to a task, <span>Workfront</span> uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.</p> <p>For more information about personal time, see <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md" class="MCXref xref">Personal time overview</a>.</p> </li> 
+ <li>When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, <span>Workfront</span> uses either one of the following schedules, as defined in the Project Preferences area of Setup:&nbsp;
   <ul>
    <li>&nbsp; The schedule of the user who is designated as the Primary Assignee </li>
    <li><p>The schedule associated with the project.&nbsp; </p><p>For more information about project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.&nbsp;&nbsp; </p></li>
   </ul></li> 
- <li>If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, <em>Workfront</em> uses the project schedule for the timeline calculations.</li> 
- <li> <p>If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, and the project has no schedule, then <em>Workfront</em> uses the schedule in the system designated as the Default Schedule for timeline calculations.</p> <p> <img src="assets/default-schedule-350x105.png" alt="default_schedule.png" style="width: 350;height: 105;"> </p> </li> 
+ <li>If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, <span>Workfront</span> uses the project schedule for the timeline calculations.</li> 
+ <li> <p>If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, and the project has no schedule, then <span>Workfront</span> uses the schedule in the system designated as the Default Schedule for timeline calculations.</p> <p> <img src="assets/default-schedule-350x105.png" alt="default_schedule.png" style="width: 350;height: 105;"> </p> </li> 
 </ul>
 

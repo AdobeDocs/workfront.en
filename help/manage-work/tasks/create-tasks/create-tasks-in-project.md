@@ -28,16 +28,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader"><em>Adobe Workfront</em> license*</p> </td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"> <p role="rowheader"><span>Adobe Workfront</span> license*</p> </td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,116 +46,6 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<h2><a name="Create2"></a>Create tasks in a project</h2>
-<ol>
-<li value="1">Go to the project where you want to create a task.</li>
-<li value="2">Click <span class="bold">Tasks</span> in the left panel. </li>
-<li value="3"> <p>(Conditional) If you are currently viewing the task list in an agile view, click the <span class="bold">List View</span> icon <img src="assets/list-view-in-agile-view-for-tasks.png"> in the upper-right corner to display the task list. </p> </li>
-<li value="4"> <p>(Optional) Click the <span class="bold">Plan Mode</span> icon <img src="assets/nwe-plan-mode-icon-task-list.png"> and select <span class="bold">Manual Save</span>, then select either <span class="bold">Standard</span> or <span class="bold">Timeline Planning</span>. This disables the <span class="bold">Autosave</span> option which is enabled by default. </p> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-autosave-off-manual-highlighted-350x58.png" style="width: 350;height: 58;"> </p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-autosave-off-manual-highlighted-350x58.png" style="width: 350;height: 58;"> </p> <note type="tip">
-You can reverse your changes when you select Manual Save.
-</note> </li>
-<li value="5"> <p>Create a new task by doing one of the following: </p>
-<ul>
-<li> <p>Click <span class="bold">New Task</span> at the top of the task list</p> </li>
-<li> <p>Click <span class="bold">Add More Tasks</span> at the bottom of the task list</p> </li>
-</ul> <p> <draft-comment>
-<img src="assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png" style="width: 350;height: 242;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-</draft-comment><img src="assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png" style="width: 350;height: 242;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
-<li value="6"> <p>(Conditional)&nbsp;If you clicked <span class="bold">New Task</span> do the following:</p>
-<ol>
-<li value="1"> <p>Specify any of the fields on the limited list of fields inside the <span class="bold">New Task</span> box, then click&nbsp;<span class="bold">Create Task</span> if you want to quickly create a task.</p> <p>Or</p> <p>To update all fields for the task, click <span class="bold">More Options</span> to open the <span class="bold">Create Task</span> box.</p> <p> <draft-comment>
-<img src="assets/nwe-create-task-small-screen-350x272.png" style="width: 350;height: 272;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-</draft-comment><img src="assets/nwe-create-task-small-screen-350x272.png" style="width: 350;height: 272;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>The <span class="bold">Create Task</span> box opens. </p> <p> <img src="assets/create-task-larger-box-nwe-350x244.png" style="width: 350;height: 244;"> </p> <p>&nbsp;</p> <note type="note">
-Depending on how your
-<em>Workfront administrator</em> sets up our Layout Template, the fields in the Create Task box might display different fields in your environment. For information, see
-<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>.
-</note> </li>
-<li value="2"> <p>Specify information for the following areas in the left panel of the Create Task box:</p>
-<ul>
-<li> <p>Task Name</p> </li>
-<li> <p>Overview</p> </li>
-<li> <p>Assignments</p> </li>
-<li> <p>Custom&nbsp;Forms</p> </li>
-<li> <p>Finance</p> </li>
-<li> <p>Settings</p> <p>For information about defining all task-related fields on a task, see <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref">Edit tasks</a>. </p> </li>
-</ul> </li>
-<li value="3"> <p>(Conditional and optional) If you want the task to be recurring, update the <span class="bold">Recurrence Frequency</span> field. For more information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.</p> </li>
-<li value="4"> <p>(Optional) Click <span class="bold">Documents</span> in the left panel to attach a document to the new task, then click <span class="bold">Add or link files</span> to add a document to the task from your computer, another service, or to link documents and folders from your computer or another service.</p> </li>
-</ol> </li>
-<li value="7"> <p>(Conditional) If you clicked <span class="bold">Add More Tasks</span> in step 5, start entering the task information using in-line editing, then press Enter.</p> <p>We recommend using this option especially when adding multiple tasks to the list. </p> <p> <img src="assets/ctp4-350x26.png" alt="" style="width: 350;height: 26;"> </p> </li>
-<li value="8"> <p>(Conditional) Do one of the following:</p>
-<ul>
-<li> <p>If you clicked <span class="bold">New Task</span> in step 5, click <span class="bold">Create task</span> to save your changes and add the new task to your project..</p> </li>
-<li> <p>If you clicked <span class="bold">Add More Tasks</span> in step 5 do the following:</p>
-<ol style="list-style-type: lower-alpha;">
-<li value="1"> <p>Click anywhere in the browser to submit your changes, or press Enter.</p> </li>
-<li value="2"> <p> (Optional) In the task list, select the newly created task, then click <span class="bold">Indent</span>. </p> <p>This makes the new task a child or subtask of the previous task. </p> <p>For more information about children tasks, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>. </p> </li>
-<li value="3"> <p>(Conditional) If you disabled the <span class="bold">Autosave</span> option after pressing <span class="bold">Add More Tasks</span>, you may do the following: </p>
-<ul>
-<li> <p>Click <span class="bold">Undo</span> at any time to reverse your last change, or <span class="bold">Cancel</span> to reverse all the changes you made to the task list. </p> </li>
-<li> <p>If you previously clicked <span class="bold">Undo</span>, click <span class="bold">Redo</span> to re-apply the last change you canceled.</p> </li>
-<li>Click <span class="bold">Save</span> to save your changes to the task list. </li>
-</ul> </li>
-</ol> </li>
-</ul> </li>
-</ol>
-</div>
--->
-
-## Create tasks in a project
-
-<ol> 
- <li value="1">Go to the project where you want to create a task.</li> 
- <li value="2">Click <span class="bold">Tasks</span> in the left panel. </li> 
- <li value="3"> <p>(Conditional) If you are currently viewing the task list in an agile view, click the <span class="bold">List View</span> icon <img src="assets/list-view-in-agile-view-for-tasks.png"> in the upper-right corner to display the task list. </p> </li> 
- <li value="4"> <p>(Optional) Click the <span class="bold">Plan Mode</span> icon <img src="assets/nwe-plan-mode-icon-task-list.png"> and select <span class="bold">Manual Save</span>, then select either <span class="bold">Standard</span> or <span class="bold">Timeline Planning</span>. This disables the <span class="bold">Autosave</span> option which is enabled by default. </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-autosave-off-manual-highlighted-350x58.png" style="width: 350;height: 58;"> </p> <note type="tip">
-   You can reverse your changes when you select Manual Save.
-  </note> </li> 
- <li value="5"> <p>Create a new task by doing one of the following: </p> 
-  <ul> 
-   <li> <p>Click <span class="bold">New Task</span> at the top of the task list</p> </li> 
-   <li> <p>Click <span class="bold">Add More Tasks</span> at the bottom of the task list</p> </li> 
-  </ul> <p> <img src="assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png" style="width: 350;height: 242;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
- <li value="6"> <p>(Conditional)&nbsp;If you clicked <span class="bold">New Task</span> do the following:</p> 
-  <ol> 
-   <li value="1"> <p>Specify any of the fields on the limited list of fields inside the <span class="bold">New Task</span> box, then click&nbsp;<span class="bold">Create Task</span> if you want to quickly create a task.</p> <p>Or</p> <p>To update all fields for the task, click <span class="bold">More Options</span> to open the <span class="bold">Create Task</span> box.</p> <p> <img src="assets/nwe-create-task-small-screen-350x272.png" style="width: 350;height: 272;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>The <span class="bold">Create Task</span> box opens. </p> <p> <img src="assets/create-task-larger-box-nwe-350x244.png" style="width: 350;height: 244;"> </p> <p>&nbsp;</p> <note type="note">
-     Depending on how your 
-     <em>Workfront administrator</em> sets up our Layout Template, the fields in the Create Task box might display different fields in your environment. For information, see 
-     <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>.
-    </note> </li> 
-   <li value="2"> <p>Specify information for the following areas in the left panel of the Create Task box:</p> 
-    <ul> 
-     <li> <p>Task Name</p> </li> 
-     <li> <p>Overview</p> </li> 
-     <li> <p>Assignments</p> </li> 
-     <li> <p>Custom&nbsp;Forms</p> </li> 
-     <li> <p>Finance</p> </li> 
-     <li> <p>Settings</p> <p>For information about defining all task-related fields on a task, see <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref">Edit tasks</a>. </p> </li> 
-    </ul> </li> 
-   <li value="3"> <p>(Conditional and optional) If you want the task to be recurring, update the <span class="bold">Recurrence Frequency</span> field. For more information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.</p> </li> 
-   <li value="4"> <p>(Optional) Click <span class="bold">Documents</span> in the left panel to attach a document to the new task, then click <span class="bold">Add or link files</span> to add a document to the task from your computer, another service, or to link documents and folders from your computer or another service.</p> </li> 
-  </ol> </li> 
- <li value="7"> <p>(Conditional) If you clicked <span class="bold">Add More Tasks</span> in step 5, start entering the task information using in-line editing, then press Enter.</p> <p>We recommend using this option especially when adding multiple tasks to the list. </p> <p> <img src="assets/ctp4-350x26.png" alt="" style="width: 350;height: 26;"> </p> </li> 
- <li value="8"> <p>(Conditional) Do one of the following:</p> 
-  <ul> 
-   <li> <p>If you clicked <span class="bold">New Task</span> in step 5, click <span class="bold">Create task</span> to save your changes and add the new task to your project..</p> </li> 
-   <li> <p>If you clicked <span class="bold">Add More Tasks</span> in step 5 do the following:</p> 
-    <ol style="list-style-type: lower-alpha;"> 
-     <li value="1"> <p>Click anywhere in the browser to submit your changes, or press Enter.</p> </li> 
-     <li value="2"> <p> (Optional) In the task list, select the newly created task, then click <span class="bold">Indent</span>. </p> <p>This makes the new task a child or subtask of the previous task. </p> <p>For more information about children tasks, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>. </p> </li> 
-     <li value="3"> <p>(Conditional) If you disabled the <span class="bold">Autosave</span> option after pressing <span class="bold">Add More Tasks</span>, you may do the following: </p> 
-      <ul> 
-       <li> <p>Click <span class="bold">Undo</span> at any time to reverse your last change, or <span class="bold">Cancel</span> to reverse all the changes you made to the task list. </p> </li> 
-       <li> <p>If you previously clicked <span class="bold">Undo</span>, click <span class="bold">Redo</span> to re-apply the last change you canceled.</p> </li> 
-       <li>Click <span class="bold">Save</span> to save your changes to the task list. </li> 
-      </ul> </li> 
-    </ol> </li> 
-  </ul> </li> 
-</ol>
-
+Create tasks in a project Go to the project where you want to create a task. Click Tasks in the left panel. (Conditional) If you are currently viewing the task list in an agile view, click the List View icon in the upper-right corner to display the task list. (Optional) Click the Plan Mode icon and select Manual Save, then select either Standard or Timeline Planning. This disables the Autosave option which is enabled by default. Tip: You can reverse your changes when you select Manual Save. Create a new task by doing one of the following: Click New Task at the top of the task list Click Add More Tasks at the bottom of the task list (Conditional) If you clicked New Task do the following: Specify any of the fields on the limited list of fields inside the New Task box, then click Create Task if you want to quickly create a task. Or To update all fields for the task, click More Options to open the Create Task box. The Create Task box opens. Note: Depending on how your Workfront administrator sets up our Layout Template, the fields in the Create Task box might display different fields in your environment. For information, see Customize the Details view using a layout template. Specify information for the following areas in the left panel of the Create Task box: Task Name Overview Assignments Custom Forms Finance Settings For information about defining all task-related fields on a task, see Edit tasks. (Conditional and optional) If you want the task to be recurring, update the Recurrence Frequency field. For more information about creating recurring tasks, see Create recurring tasks. (Optional) Click Documents in the left panel to attach a document to the new task, then click Add or link files to add a document to the task from your computer, another service, or to link documents and folders from your computer or another service. (Conditional) If you clicked Add More Tasks in step 5, start entering the task information using in-line editing, then press Enter. We recommend using this option especially when adding multiple tasks to the list. (Conditional) Do one of the following: If you clicked New Task in step 5, click Create task to save your changes and add the new task to your project.. If you clicked Add More Tasks in step 5 do the following: Click anywhere in the browser to submit your changes, or press Enter. (Optional) In the task list, select the newly created task, then click Indent. This makes the new task a child or subtask of the previous task. For more information about children tasks, see Tasks overview. (Conditional) If you disabled the Autosave option after pressing Add More Tasks, you may do the following: Click Undo at any time to reverse your last change, or Cancel to reverse all the changes you made to the task list. If you previously clicked Undo, click Redo to re-apply the last change you canceled. Click Save to save your changes to the task list. 

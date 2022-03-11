@@ -7,9 +7,9 @@ title: Update or create projects by publishing initiatives in the Adobe Workfron
 description: Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the following:
 ---
 
-# Update or create projects by publishing initiatives in the *Adobe Workfront Scenario Planner*
+# Update or create projects by publishing initiatives in the `Adobe Workfront Scenario Planner`
 
-Publishing a scenario from the *Adobe Workfront Scenario Planner* accomplishes the following:
+Publishing a scenario from the `Adobe Workfront Scenario Planner` accomplishes the following:
 
 * Creates projects from the initiatives on the scenario and links them together.
 * Updates projects already linked to initiatives on the scenario with information from the linked initiative. Projects can also be linked to initiatives when you import them in to a plan. For information, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md)
@@ -23,61 +23,29 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em> plan*</p> </td> 
-   <td><em>Business</em> or higher</td> 
+   <td> <p><span>Adobe Workfront</span> plan*</p> </td> 
+   <td><span>Business</span> or higher</td> 
   </tr> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em> license*</p> </td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td> <p><span>Adobe Workfront</span> license*</p> </td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Product</span> </td> 
-   <td> <p>You must purchase an additional license for the <em>Adobe Workfront Scenario Planner</em> to access functionality described in this article.</p> <p>For information about obtaining the <em>Workfront Scenario Planner</em>, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <p>&nbsp;</p> <p><span class="bold">Access level*</span> </p> </td> 
-    <td> 
-     <ul> 
-      <li>Edit for <em>Scenario Planner</em> and Projects</li> 
-     </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <p>&nbsp;</p> <p><span class="bold">Access level*</span> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Edit for <em>Scenario Planner</em> and Projects</li> 
-    </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <p><span class="bold">Object permissions</span> </p> </td> 
-    <td> 
-     <ul> 
-      <li>Manage permissions for the plan </li> 
-      <li>Manage permissions for published projects</li> 
-     </ul> <p>For information on requesting additional access to projects, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <p><span class="bold">Object permissions</span> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Manage permissions for the plan </li> 
-     <li>Manage permissions for published projects</li> 
-    </ul> <p>For information on requesting additional access to projects, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
-  </tr> 
+   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Scenario Planner</span> to access functionality described in this article.</p> <p>For information about obtaining the <span>Workfront Scenario Planner</span>, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+  </tr> Access level* Edit for Scenario Planner and Projects Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions for the plan Manage permissions for published projects For information on requesting additional access to projects, see Request access to objects in Adobe Workfront. For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-For additional information about access to the *Workfront Scenario Planner*, see [Access needed to use the Adobe Workfront Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
+For additional information about access to the `Workfront Scenario Planner`, see [Access needed to use the Adobe Workfront Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
 
 ## Prerequisites
 
 Before you begin:
 
-* You must use *the new Adobe Workfront experience* to be able to access the *Scenario Planner*. 
+* You must use `the new Adobe Workfront experience` to be able to access the `Scenario Planner`. 
 
 * You must create and save a plan before you can publish initiatives from it.
 
@@ -87,7 +55,7 @@ Before you begin:
  <li>You can publish only one scenario from a plan. </li> 
  <li>One initiative can be linked to only one project.</li> 
  <li> <p>One project can be linked to more than one initiative when the initiatives belong to different plans. </p> <note type="tip">
-   <span>When a project exists on multiple plans and you publish information to the project from all plans, the latest publish overwrites the existing <em>Scenario Planner</em> information on the project. </span> 
+   <span>When a project exists on multiple plans and you publish information to the project from all plans, the latest publish overwrites the existing <span>Scenario Planner</span> information on the project. </span> 
   </note> </li> 
  <li> <p>If initiatives were created on the plan by importing projects to the plan, publishing the initiative also updates the linked projects with initiative information. </p> <note type="tip">
    You can import the same project into multiple plans. Publishing might overwrite initiative information on a project that is linked to multiple initiatives. 
@@ -104,7 +72,7 @@ Before you begin:
 >If you make any changes to initiatives on the plan, including resolve conflicts, you must republish the initiative in order for the new information to be visible on the project. This information displays on the projects linked to initiatives only when you publish the corresponding the initiative. For information about resolving conflicts between initiatives, see [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md)
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Scenarios</span></p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Workfront</span>, then click <span class="bold">Scenarios</span></p> </li> 
  <li value="2"> <p>(Optional and conditional) If you want to publish from an existing plan, click the <span class="bold">Filter</span> icon <img src="assets/filter-nwepng.png"> in the upper-right corner of the plan and select one of the following options:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -161,15 +129,15 @@ Before you begin:
  <li value="12"> <p>(Conditional) Do one of the following: </p> 
   <ul> 
    <li> <p>If you published one initiative, click <span class="bold">See associated project</span> to open the project created or updated from the initiative. </p> </li> 
-   <li> <p>If you published more than one initiative, click&nbsp;<span class="bold">See associated projects</span> to open a list of projects published from initiatives. <em>Workfront</em> applies the Scenario Planner Projects filter to the list of projects by default. The projects published most recently display at the top of the list. </p> <p> <img src="assets/scenario-planner-filter-after-publishing-initiatives-350x81.png" style="width: 350;height: 81;"> </p> </li> 
+   <li> <p>If you published more than one initiative, click&nbsp;<span class="bold">See associated projects</span> to open a list of projects published from initiatives. <span>Workfront</span> applies the Scenario Planner Projects filter to the list of projects by default. The projects published most recently display at the top of the list. </p> <p> <img src="assets/scenario-planner-filter-after-publishing-initiatives-350x81.png" style="width: 350;height: 81;"> </p> </li> 
   </ul> </li> 
  <li value="13"> <p>Go to the following areas to view initiative information on the project:</p> 
   <div> 
    <ul> 
-    <li> <p><b>The Updates section</b>: An update publishes to indicate that the project was created or updated from the initiative. The update contains the name of the initiative that created or updated the project and the linked name of the plan that contains the initiative. You can click the name of the plan in the update to open the plan in the <em>Scenario Planner</em>. </p> <p> <img src="assets/update-stream-confirmation-of-publish-on-project-350x65.png" style="width: 350;height: 65;"> </p> </li> 
+    <li> <p><b>The Updates section</b>: An update publishes to indicate that the project was created or updated from the initiative. The update contains the name of the initiative that created or updated the project and the linked name of the plan that contains the initiative. You can click the name of the plan in the update to open the plan in the <span>Scenario Planner</span>. </p> <p> <img src="assets/update-stream-confirmation-of-publish-on-project-350x65.png" style="width: 350;height: 65;"> </p> </li> 
     <li> <p><b>The Overview area of the Project Details section</b>: A new Scenario Planner section is created in this area that contains information from the linked initiative. </p> <note type="tip">
       This information is visible only when viewing Project&nbsp;Details in 
-      <em>the new Adobe Workfront experience</em>. 
+      <span>the new Adobe Workfront experience</span>. 
      </note> <p> <img src="assets/scenario-planner-on-project-details-350x135.png" style="width: 350;height: 135;"> </p> <p>The following initiative information is published in the Scenario Planner area of the Project&nbsp;Details section:</p> <p> 
       <table cellspacing="0"> 
        <col> 
@@ -204,17 +172,17 @@ Before you begin:
         </tr> 
        </tbody> 
       </table> </p> <note type="note"> 
-      <p>All users with View access to the project can see the <em>Scenario Planner</em> section in the Overview area. You can control whether this area displays in the Details section by using a layout template. If users do not have a layout template associated with them, this area displays by default. </p> 
+      <p>All users with View access to the project can see the <span>Scenario Planner</span> section in the Overview area. You can control whether this area displays in the Details section by using a layout template. If users do not have a layout template associated with them, this area displays by default. </p> 
       <ul> 
        <li> <p>For information about adding or removing areas in the Details section using a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a>. </p> </li> 
        <li> <p>For more information about viewing information in the Overview area of the Project&nbsp;Details, see <a href="../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Manage information in the project Overview area</a>.</p> </li> 
       </ul> 
      </note> </li> 
-    <li> <p><b>The Role Allocation panel in the</b><em>Workload Balancer</em><b> or the task list of the project</b>: Information about role allocation on the initiative populates in this area, in addition to role allocations on the project. </p> <p> For more information, see <a href="../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md" class="MCXref xref">Overview of reconciling resource allocations between projects and initiatives </a>. </p> <p> <img src="assets/role-allocation-panel-350x174.png" style="width: 350;height: 174;"> </p> <p>Any changes to the dates or resources of the project do not affect the corresponding initiative or any of the areas on the project that contain initiative information. </p> </li> 
-    <li> <p><b>The Resource Budgeting area of the Business Case of the project</b>: A new option for managing project resources using <em>Scenario Planner</em> information is added in the Resource Budgeting area of the Business Case of the project. </p> <p>For more information, see <a href="../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Scenario Planner</a>. </p> <p> <img src="assets/sp-in-business-case-selected-350x110.png" style="width: 350;height: 110;"> </p> </li> 
+    <li> <p><b>The Role Allocation panel in the</b><span>Workload Balancer</span><b> or the task list of the project</b>: Information about role allocation on the initiative populates in this area, in addition to role allocations on the project. </p> <p> For more information, see <a href="../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md" class="MCXref xref">Overview of reconciling resource allocations between projects and initiatives </a>. </p> <p> <img src="assets/role-allocation-panel-350x174.png" style="width: 350;height: 174;"> </p> <p>Any changes to the dates or resources of the project do not affect the corresponding initiative or any of the areas on the project that contain initiative information. </p> </li> 
+    <li> <p><b>The Resource Budgeting area of the Business Case of the project</b>: A new option for managing project resources using <span>Scenario Planner</span> information is added in the Resource Budgeting area of the Business Case of the project. </p> <p>For more information, see <a href="../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Scenario Planner</a>. </p> <p> <img src="assets/sp-in-business-case-selected-350x110.png" style="width: 350;height: 110;"> </p> </li> 
    </ul> 
   </div> </li> 
- <li value="14"> <p>(Optional) Review the following information in the <em>Scenario Planner</em> after you published a scenario: </p> 
+ <li value="14"> <p>(Optional) Review the following information in the <span>Scenario Planner</span> after you published a scenario: </p> 
   <ul> 
    <li>The published scenario becomes the first scenario after you publish initiatives from it. </li> 
    <li>You cannot publish from any other scenario after you have published a scenario at least once. </li> 

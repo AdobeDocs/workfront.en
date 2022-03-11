@@ -7,17 +7,17 @@ title: How Adobe Workfront calculates finances
 description: This article will replace the Support article here: https://support.workfront.com/hc/en-us/articles/217612358-How-Workfront-Calculates-Finances
 ---
 
-# How *Adobe Workfront* calculates finances
+# How `Adobe Workfront` calculates finances
 
-`This article will replace the Support article here: https://support.workfront.com/hc/en-us/articles/217612358-How-*Workfront*-Calculates-Finances`
+`This article will replace the Support article here: https://support.workfront.com/hc/en-us/articles/217612358-How- `Workfront`-Calculates-Finances`
 
 `This should be placed at the top of the Project Finances section.`
 
-## Understanding the Calculations of *Adobe Workfront* Project Finances
+## Understanding the Calculations of `Adobe Workfront` Project Finances
 
-As the project manager, you can manually update some financial fields on projects. Other financial data is calculated automatically by *Workfront*.
+As the project manager, you can manually update some financial fields on projects. Other financial data is calculated automatically by `Workfront`.
 
-Performance metrics are an example of financial data that is automatically calculated by *Workfront*.
+Performance metrics are an example of financial data that is automatically calculated by `Workfront`.
 
 Performance metrics show how your projects are performing at a given time.
 
@@ -78,9 +78,9 @@ You can measure how your project is performing, by referring to the following ca
 
 ## Understanding Project Settings and How They Affect Project Finance Calculations
 
-Your *Workfront administrator* sets up the default of how Estimate at Completion (EAC) should be calculated in the system, as well as whether Performance Index Method (PIM) should be hour-based or cost-based. The calculations for the performance metrics change according to how these defaults are set.
+Your `Workfront administrator` sets up the default of how Estimate at Completion (EAC) should be calculated in the system, as well as whether Performance Index Method (PIM) should be hour-based or cost-based. The calculations for the performance metrics change according to how these defaults are set.
 
-For more information about setting up project preferences in *Workfront*, including how to calculate the Estimate at Completion, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+For more information about setting up project preferences in `Workfront`, including how to calculate the Estimate at Completion, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * "Calculating EAC"
 * "Calculating EAC Based on the Performance Index Method"
@@ -90,7 +90,7 @@ For more information about setting up project preferences in *Workfront*, includ
 
 The Estimate at Completion (EAC) represents the projected total cost of your project or task when it completes.
 
-The *Workfront administrator* can choose to calculate the EAC in one of the following two ways:
+The `Workfront administrator` can choose to calculate the EAC in one of the following two ways:
 
 * [Calculate at Project Level](#calculate-at-project-level) 
 * [Roll up from Tasks/ Subtasks](#roll-up-from-tasks-subtasks)
@@ -107,12 +107,12 @@ As a project manager, you can also change this preference at the project level, 
 
 ### Calculating EAC Based on the Performance Index Method
 
-The Performance Index Method (PIM) for the project controls the method *Workfront* uses to calculate performance metrics such as [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) and [Calculate Estimate At Completion (EAC)](../../../manage-work/projects/project-finances/calculate-eac.md). *Workfront* allows you to choose hour-based or cost-based as the PIM of the project.
+The Performance Index Method (PIM) for the project controls the method `Workfront` uses to calculate performance metrics such as [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) and [Calculate Estimate At Completion (EAC)](../../../manage-work/projects/project-finances/calculate-eac.md). `Workfront` allows you to choose hour-based or cost-based as the PIM of the project.
 
 * [Calculating EAC Using Hour-Based PIM](#hour-based-pim) 
 * [Calculating EAC Using Cost-Based PIM](#cost-based-pim)
 
-In *Workfront*, the calculation for EAC depends on the selected Performance Index Method (PIM) of the project. For more information about calculating PIM, see [Set the Performance Index Method (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+In `Workfront`, the calculation for EAC depends on the selected Performance Index Method (PIM) of the project. For more information about calculating PIM, see [Set the Performance Index Method (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 `Calculating EAC Using Hour-Based PIM`
 

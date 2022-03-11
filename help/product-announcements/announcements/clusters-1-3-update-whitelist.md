@@ -6,9 +6,9 @@ title: Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to 
 description: To enhance and improve our core infrastructure, we will soon migrate Adobe Workfront customers on Clusters 01, 02, and 03 to the AWS public cloud.
 ---
 
-# Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of *Adobe Workfront* services
+# Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of `Adobe Workfront` services
 
-To enhance and improve our core infrastructure, we will soon migrate *Adobe Workfront* customers on Clusters 01, 02, and 03 to the AWS public cloud.
+To enhance and improve our core infrastructure, we will soon migrate `Adobe Workfront` customers on Clusters 01, 02, and 03 to the AWS public cloud.
 
 As part of this change, you need to add the following IPs to your allowlist IP blocks in order to prevent the blocking of Workfront services:
 
@@ -44,7 +44,7 @@ If you have any additional questions, please reach out to our Support team by vi
 
 In an effort to consistently provide our customers with the best possible service, Workfront constantly looks at ways to improve the user experience. This change makes use of new technologies that enable us to provide the best experience possible and improve our already robust security model.
 
-### What actions are required by me as a *Workfront administrator*?
+### What actions are required by me as a `Workfront administrator`?
 
 Contact your internal IT or security department for assistance in reviewing your allowlist IP blocks and in adding the IPs listed above.
 

@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your Email ac
 
 # Email modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
+In a `Adobe Workfront Fusion` scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
 
 ## Access requirements
 
@@ -22,47 +22,27 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Connect your email to *Workfront Fusion*
+## Connect your email to `Workfront Fusion`
 
 * [Connect to Google](#connecti4) 
 * [Connect to other email services (SMAP)](#connect)
@@ -93,7 +73,7 @@ SMAP connection allows you to access your mailbox remotely and read or manipulat
 
 ## Email modules and their fields
 
-When you configure email modules, *Workfront Fusion* displays the fields listed below. Along with these, additional email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure email modules, `Workfront Fusion` displays the fields listed below. Along with these, additional email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 Some of the email fields might already contain data because you used them in another module in the scenario. See the email help documentation if you need information about them.
 
@@ -121,7 +101,7 @@ Triggers when a new email is received for processing according to specified crit
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder </td> 
@@ -139,16 +119,7 @@ Triggers when a new email is received for processing according to specified crit
   <tr> 
    <td role="rowheader">Sender Email Address </td> 
    <td> <p>Enter the email address of the sender whose emails you want to watch.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Recipient Email Address</td> 
-    <td> <p> Enter the email address of the recipient whose emails you want to watch.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Recipient Email Address</td> 
-   <td> <p> Enter the email address of the recipient whose emails you want to watch.</p> </td> 
-  </tr> 
+  </tr> Recipient Email Address Enter the email address of the recipient whose emails you want to watch. 
   <tr> 
    <td role="rowheader">Subject </td> 
    <td> <p>Enter the subject of the email you want to watch.</p> </td> 
@@ -163,7 +134,7 @@ Triggers when a new email is received for processing according to specified crit
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of results</td> 
-   <td> <p> The maximum number of emails <em>Workfront Fusion</em> should return during one scenario execution cycle.</p> </td> 
+   <td> <p> The maximum number of emails <span>Workfront Fusion</span> should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -190,7 +161,7 @@ Sends a new email.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Save Message after Sending</td> 
@@ -232,16 +203,7 @@ Sends a new email.
   <tr> 
    <td role="rowheader">Blind Copy Recipient</td> 
    <td> <p> Enter or map one or more email addresses to which you want to send a copy of this email without having the email address appear in the email.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">From </td> 
-    <td> <p>Enter or map the email address (and name, if needed) that appears in the From field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, <em>Workfront Fusion</em> uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">From </td> 
-   <td> <p>Enter or map the email address (and name, if needed) that appears in the From field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, <em>Workfront Fusion</em> uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
-  </tr> 
+  </tr> From Enter or map the email address (and name, if needed) that appears in the From field in the email. Important: Use the correct syntax: name@email.com or "Name" name@email.com. Note: Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. test@mail.com or "John Bush" test@email.com. 
   <tr> 
    <td role="rowheader"> <p>Sender</p> </td> 
    <td> <p>Enter or map the email address that appears in the Sender field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
@@ -288,7 +250,7 @@ Creates and adds a new draft to a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -301,24 +263,7 @@ Creates and adds a new draft to a selected folder.
   <tr> 
    <td role="rowheader">Subject </td> 
    <td> <p>Enter or map the subject line of the email.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"> <p>Content Type</p> </td> 
-    <td> <p>Select the content type for the email:</p> 
-     <ul> 
-      <li>HTML</li> 
-      <li>Plain Text</li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Content Type</p> </td> 
-   <td> <p>Select the content type for the email:</p> 
-    <ul> 
-     <li>HTML</li> 
-     <li>Plain Text</li> 
-    </ul> </td> 
-  </tr> 
+  </tr> Content Type Select the content type for the email: HTML Plain Text 
   <tr> 
    <td role="rowheader">Content </td> 
    <td> <p>Enter or map the email content in HTML format using HTML tags, or in the plain text, depending on what you chose in the Content Type field.</p> </td> 
@@ -339,88 +284,7 @@ Creates and adds a new draft to a selected folder.
   <tr> 
    <td role="rowheader">Blind Copy Recipient</td> 
    <td> <p> Enter or map one or more email addresses to which you want to send a copy of this email without having the email address appear in the email.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">From </td> 
-    <td> <p>Enter or map the email address (and name, if needed) that appears in the From field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, <em>Workfront Fusion</em> uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">From </td> 
-   <td> <p>Enter or map the email address (and name, if needed) that appears in the From field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, <em>Workfront Fusion</em> uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"> <p>Sender</p> </td> 
-    <td> <p>Enter or map the email address that appears in the Sender field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Sender</p> </td> 
-   <td> <p>Enter or map the email address that appears in the Sender field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Reply-To</td> 
-    <td> <p> If you want replies to this email sent to a different address than the "from" address, enter the email address where you want replies to this email sent.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Reply-To</td> 
-   <td> <p> If you want replies to this email sent to a different address than the "from" address, enter the email address where you want replies to this email sent.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">In-Reply-To</td> 
-    <td> <p> If you are replying to a specific email, enter or map the ID of the email you are replying to.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">In-Reply-To</td> 
-   <td> <p> If you are replying to a specific email, enter or map the ID of the email you are replying to.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">References </td> 
-    <td> <p>Enter the message IDs of all the replies in the thread.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">References </td> 
-   <td> <p>Enter the message IDs of all the replies in the thread.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"> <p>Priority</p> </td> 
-    <td> <p>Select the priority of the email:</p> 
-     <ul> 
-      <li>High</li> 
-      <li>Normal</li> 
-      <li>Low</li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Priority</p> </td> 
-   <td> <p>Select the priority of the email:</p> 
-    <ul> 
-     <li>High</li> 
-     <li>Normal</li> 
-     <li>Low</li> 
-    </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"> <p>Headers</p> </td> 
-    <td> <p>Add the headers:</p> 
-     <ul> 
-      <li> <p><span class="bold">Key</span> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
-      <li> <p><span class="bold">Value</span> </p> <p>Enter the value for the key.</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Headers</p> </td> 
-   <td> <p>Add the headers:</p> 
-    <ul> 
-     <li> <p><span class="bold">Key</span> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
-     <li> <p><span class="bold">Value</span> </p> <p>Enter the value for the key.</p> </li> 
-    </ul> </td> 
-  </tr> 
+  </tr> From Enter or map the email address (and name, if needed) that appears in the From field in the email. Important: Use the correct syntax: name@email.com or "Name" name@email.com. Note: Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. test@mail.com or "John Bush" test@email.com. Sender Enter or map the email address that appears in the Sender field in the email. Tip: If you are unsure whether to use this field or the From field, we recommend choosing the From field. Important: Use the correct syntax: name@email.com or "Name" name@email.com Reply-To If you want replies to this email sent to a different address than the "from" address, enter the email address where you want replies to this email sent. In-Reply-To If you are replying to a specific email, enter or map the ID of the email you are replying to. References Enter the message IDs of all the replies in the thread. Priority Select the priority of the email: High Normal Low Headers Add the headers: Key Add the key. For example, Sender, Date, To, and so on. Value Enter the value for the key. 
  </tbody> 
 </table>
 
@@ -434,7 +298,7 @@ Marks an email or a draft in a selected folder as read by setting the Read flag.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -457,7 +321,7 @@ Marks an email or a draft in a selected folder as unread by setting the Unread f
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -480,7 +344,7 @@ Moves a chosen email or a draft to a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source Folder</td> 
@@ -507,7 +371,7 @@ Copies an email or a draft into a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source Folder</td> 
@@ -534,7 +398,7 @@ Removes an email or a draft from the selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -561,7 +425,7 @@ Returns emails that match the specified criteria.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder </td> 
@@ -583,16 +447,7 @@ Returns emails that match the specified criteria.
   <tr> 
    <td role="rowheader">Sender Email Address </td> 
    <td> <p>Enter or map the email address of the sender whose emails you want to retrieve.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Recipient Email Address</td> 
-    <td> <p> Enter or map the email address of the recipient whose emails you want to retrieve.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Recipient Email Address</td> 
-   <td> <p> Enter or map the email address of the recipient whose emails you want to retrieve.</p> </td> 
-  </tr> 
+  </tr> Recipient Email Address Enter or map the email address of the recipient whose emails you want to retrieve. 
   <tr> 
    <td role="rowheader">From date </td> 
    <td> <p>Enter or map the date to retrieve the emails processed on or after the specified date.</p> </td> 
@@ -611,11 +466,11 @@ Returns emails that match the specified criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Email ID (UID)</td> 
-   <td> <p> Enter the Email ID (UID) of the email whose details you want to retrieve.</p> <p>You can get the UID of the email by using <em>Workfront Fusion</em>'s Watch Email module or Search Email module.</p> </td> 
+   <td> <p> Enter the Email ID (UID) of the email whose details you want to retrieve.</p> <p>You can get the UID of the email by using <span>Workfront Fusion</span>'s Watch Email module or Search Email module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of results</td> 
-   <td> <p> The maximum number of emails <em>Workfront Fusion</em> should return during one scenario execution cycle.</p> </td> 
+   <td> <p> The maximum number of emails <span>Workfront Fusion</span> should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Continue the execution of the route even if the module returns no results</td> 

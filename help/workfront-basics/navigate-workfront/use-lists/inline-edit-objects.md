@@ -6,7 +6,7 @@ title: Inline edit items in a list in Adobe Workfront
 description: You can edit objects inline when they display in a list or report. When you edit the information on objects displayed in a list or report, the object updates immediately.
 ---
 
-# Inline edit items in a list in&nbsp;*Adobe Workfront*
+# Inline edit items in a list in  `Adobe Workfront`
 
 You can edit objects inline when they display in a list or report. When you edit the information on objects displayed in a list or report, the object updates immediately.
 
@@ -14,9 +14,9 @@ When you inline edit a field contained in a custom form that is not attached to 
 
 For more information on lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-While most objects displayed in lists or reports are inline editable in *Adobe Workfront*, there are some limitations, which include:
+While most objects displayed in lists or reports are inline editable in `Adobe Workfront`, there are some limitations, which include:
 
-* You cannot edit calculated fields or *Workfront* built-in fields that are calculations.
+* You cannot edit calculated fields or `Workfront` built-in fields that are calculations.
 * You can only edit fields associated directly to the objects in the list. You cannot edit fields that belong to objects associated with the objects in the list.   
   For example, you can edit the status of a task in a Task report, but you cannot edit the name of the project the task is associated with in the same report. You can edit the name of the project only in a Project report.
 * You cannot inline edit fields when the view for a list is not displaying the default currency.  
@@ -33,16 +33,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the area the list is in</p> <p>For example, to inline edit tasks in a project, you need Edit access to Projects.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level.<br>For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to the area the list is in</p> <p>For example, to inline edit tasks in a project, you need Edit access to Projects.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level.<br>For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Edit objects inline
 
@@ -64,9 +64,7 @@ You must have the following access to perform the steps in this article:
     <li> <p><span class="bold">Pagination</span>: Click the backward and forward arrows to navigate between pages.<br>Located at the bottom-right corner of the list, the pagination area remains sticky as you scroll through the list.</p> </li> 
     <li> <p><span class="bold">Quick filter</span>: Click the filter icon or type Alt+F to open the quick filter, then enter text to display only items that contain the entered text.<br>The quick filter is located in the list toolbar. For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </li> 
    </ul> 
-  </div> <p>If the field can be edited, this turns the field and all other fields displayed in the list into editable cells.</p> <p> <draft-comment>
-    <img src="assets/nwe-editable-cells-350x131.png" style="width: 350;height: 131;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/nwe-editable-cells-350x131.png" style="width: 350;height: 131;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+  </div> <p>If the field can be edited, this turns the field and all other fields displayed in the list into editable cells.</p> <p>  </p> </li> 
  <li value="3"> <p>Edit the information inside this cell, then press Enter.</p> <note type="note">
    If a custom field has been configured to allow formatting, you can bold, italicize, or underline text when inline editing the field in an updated list.
    <br>For information on configuring formatting for a custom field, see 

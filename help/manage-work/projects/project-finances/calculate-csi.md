@@ -15,7 +15,7 @@ The Cost Schedule Performance Index (CSI) is an automatic calculation which comb
 
 >[!TIP]
 >
->*Adobe Workfront* calculates CSI for both tasks and projects. *Workfront* does not calculate a CSI value for issues.
+>`Adobe Workfront` calculates CSI for both tasks and projects. `Workfront` does not calculate a CSI value for issues.
 
 You can benefit from the information provided by this metric only if the following exist in your organization:
 
@@ -25,9 +25,9 @@ You can benefit from the information provided by this metric only if the followi
 
   This calculates CSI based on Costs.
 
-## How *Workfront* calculates the Cost Schedule Performance Index (CSI)
+## How `Workfront` calculates the Cost Schedule Performance Index (CSI)
 
-*Workfront* calculates the Cost Performance Index (CSI) of a project or task using the following formula:
+`Workfront` calculates the Cost Performance Index (CSI) of a project or task using the following formula:
 
 ```
 CSI = CPI x SPI
@@ -49,24 +49,10 @@ CSI has the following three possible values:
 
 ` `**Warning: **``You must have access to View Financial Data in your Access Level and permissions to View the project or task in order to be able to see the CSI value of a project or task.
 
-You can locate CSI in the following areas of *Workfront*:
+You can locate CSI in the following areas of `Workfront`:
 
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Finance area in the Project Details section. </p>
-  -->
-
-  Finance area in the Project Details section. 
-
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Finance area in the Task Details section. </p>
-  -->
-
-  Finance area in the Task Details section. 
-
+* Finance area in the Project Details section. 
+* Finance area in the Task Details section. 
 * A project or task view
 * A project or task report
 

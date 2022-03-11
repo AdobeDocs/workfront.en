@@ -25,16 +25,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Templates that includes access to Delete</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Templates that includes access to Delete</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Considerations for deleting templates
 
@@ -54,32 +54,12 @@ You must have the following access to perform the steps in this article:
 
 ## Delete a template
 
-<ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    From the 
-    <span class="bold">Main Menu</span>
-    <img src="assets/main-menu-icon.png"> click 
-    <span class="bold">Templates</span>. This opens a list of templates
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   From the 
-   <span class="bold">Main Menu</span>
-   <img src="assets/main-menu-icon.png"> click 
-   <span class="bold">Templates</span>. This opens a list of templates
-  </MadCap:conditionalText></li> 
- <li value="2"> <p>Select the template that you want to delete by clicking the checkbox to the left of the template name, then click <span class="bold">Delete > Yes, Delete It</span> to confirm the deletion.</p> <p>Or</p> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the name of a template to access it, then click the 
-     <span class="bold">More</span> menu 
-     <img src="assets/qs-more-icon-on-an-object.png"> , then 
-     <span class="bold">Delete Template > Yes, Delete it</span>. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the name of a template to access it, then click the 
-    <span class="bold">More</span> menu 
-    <img src="assets/qs-more-icon-on-an-object.png"> , then 
-    <span class="bold">Delete Template > Yes, Delete it</span>. 
-   </MadCap:conditionalText></p> <p>The template is no longer available to be associated with a project. </p> </li> 
-</ol>
+1. From the Main Menu click Templates. This opens a list of templates
+1. Select the template that you want to delete by clicking the checkbox to the left of the template name, then click `Delete > Yes, Delete It` to confirm the deletion.
+
+   Or
+
+   Click the name of a template to access it, then click the More menu , then Delete Template > Yes, Delete it.
+
+   The template is no longer available to be associated with a project.
 

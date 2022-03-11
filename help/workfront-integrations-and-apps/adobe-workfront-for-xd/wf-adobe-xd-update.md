@@ -41,21 +41,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p><em>Work</em> or <em>Plan</em></p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or <em>Plan</em></p> </td> 
-  </tr> 
+  </tr> Adobe Workfront license* Work or Plan 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a <em>Workfront</em> license.</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a <span>Workfront</span> license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -64,11 +55,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-* You must install the *Workfront* for Adobe XD plugin before you can update your work in Adobe XD.
+* You must install the `Workfront` for Adobe XD plugin before you can update your work in Adobe XD.
 
   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
@@ -81,6 +72,6 @@ You must have the following access to perform the steps in this article:
  <li value="4">Click <span class="bold">New Update</span>.</li> 
  <li value="5">Type your update.</li> 
  <li value="6">(Optional) To tag a user, type the @ symbol and the user's name, then choose their name from the drop-down menu.</li> 
- <li value="7">Click <span class="bold">Submit</span>. Updates are synced with the <em>Adobe Workfront</em> web application in real time.</li> 
+ <li value="7">Click <span class="bold">Submit</span>. Updates are synced with the <span>Adobe Workfront</span> web application in real time.</li> 
 </ol>
 

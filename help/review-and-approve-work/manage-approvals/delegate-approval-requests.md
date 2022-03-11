@@ -21,17 +21,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Understand user access for delegated approvals
 
@@ -42,13 +42,13 @@ During the designated approval period, the user to whom you delegate an approval
  <li>Can approve and reject&nbsp;new approval requests that are received during a specified time period</li> 
  <li>Is granted View access to objects that are awaiting approval<br><note type="note">
    &nbsp;The 
-   <em>Adobe Workfront administrator</em> can restrict users from accessing certain object types.&nbsp;When a user does not have access to an object type and an approval of that type is delegated to the user, the user does not have View access to the object. However, the user can still approve or reject approval requests from the 
+   <span>Adobe Workfront administrator</span> can restrict users from accessing certain object types.&nbsp;When a user does not have access to an object type and an approval of that type is delegated to the user, the user does not have View access to the object. However, the user can still approve or reject approval requests from the 
    <span class="bold">Home</span> page, as described in 
    <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work in Adobe Workfront</a>.
    <br>For example, User A belongs to Group A. The 
-   <em>Workfront administrator</em> has restricted the access rights of Group A so that users in this group cannot view tasks within 
-   <em>Workfront</em>. If a task approval request is delegated to User A, User A cannot view the task that the approval is associated with. However, User A can approve or reject the approval request from the Home page.
-  </note> For information about how the <em>Workfront administrator</em> can restrict access to object types within Setup, see&nbsp;<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.&nbsp;</li> 
+   <span>Workfront administrator</span> has restricted the access rights of Group A so that users in this group cannot view tasks within 
+   <span>Workfront</span>. If a task approval request is delegated to User A, User A cannot view the task that the approval is associated with. However, User A can approve or reject the approval request from the Home page.
+  </note> For information about how the <span>Workfront administrator</span> can restrict access to object types within Setup, see&nbsp;<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.&nbsp;</li> 
 </ul>
 
 After the approval delegation stops or is canceled, the user designated as the approver:
@@ -83,62 +83,20 @@ Consider the following when delegating approvals:
 
 To delegate approvals to another user:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note">  
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note">  
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">Click the <span class="bold">Filter</span> drop-down menu, then click <span class="bold">Approvals</span>.</li> 
  <li value="3">Click <span class="bold">Delegate My Approvals</span>.<br><img src="assets/delegate-approvals-350x398.png" alt="Delegate My Approvals dialog" style="width: 350;height: 398;"></li> 
  <li value="4">Specify the following information:<br><span class="bold">Delegate My Approvals To:</span> Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.<br><span class="bold">Start Date:</span> Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.<br>The Start Date must be the current date or a future date.<br><span class="bold">End:&nbsp;</span>Do one of the following:<br> 
   <ul> 
    <li>Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.</li> 
-   <li>Select&nbsp;<span class="bold">No end date</span>&nbsp;to configure <em>Workfront</em> to forward approvals indefinitely.</li> 
+   <li>Select&nbsp;<span class="bold">No end date</span>&nbsp;to configure <span>Workfront</span> to forward approvals indefinitely.</li> 
   </ul></li> 
  <li value="5">Click <span class="bold">Save</span>.</li> 
 </ol>
 
 ### Update or stop an approval delegation
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note">  
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note">  
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">Click the <span class="bold">Filter</span> drop-down menu, then click <span class="bold">Approvals</span>.</li> 
  <li value="3">Click <span class="bold">Edit delegation</span>.</li> 
  <li value="4">Do either of the following: 
@@ -158,28 +116,7 @@ You can view only the following types of approval delegations in the Work List:
 
 To view delegated approvals:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <div> 
-    <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note">  
-     <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-     <ul> 
-      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-     </ul> 
-    </note> 
-   </div> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note">  
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
+<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
  <li value="2">Click the&nbsp;<span class="bold">Filter</span>&nbsp;drop-down menu, then click&nbsp;<span class="bold">Approvals</span>.<br>All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.<br><img src="assets/delegated-to-me-350x246.png" alt="Approvals delegated to me" style="width: 350;height: 246;"></li> 
 </ol>
 

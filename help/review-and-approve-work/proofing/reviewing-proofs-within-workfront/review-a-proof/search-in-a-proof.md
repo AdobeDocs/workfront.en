@@ -6,9 +6,9 @@ title: Search content within a proof
 description: You can quickly locate text in a proof created for the following types of documents:
 ---
 
-# Search content within a *proof*
+# Search content within a `proof`
 
-You can quickly locate text in a *proof* created for the following types of documents:
+You can quickly locate text in a `proof` created for the following types of documents:
 
 * PDF
 * Office (.doc, .docx, .odt)
@@ -27,15 +27,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Current plan: <em>Review</em></p> <p>Legacy plan: <em>Review</em></p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p>Current plan: <span>Review</span></p> <p>Legacy plan: <span>Review</span></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -45,14 +45,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
-## Search content within a *proof*
+## Search content within a `proof`
 
 <ol> 
- <li value="1">Open&nbsp;the <em>proof</em> that you want to search.</li> 
- <li value="2"> <p>In the toolbar above the <em>proof</em>, click the&nbsp;<span class="bold">Search document</span>&nbsp;icon.</p> <p> <img src="assets/search-document-icon-search-in-proof-350x129.png" style="width: 350;height: 129;"> </p> </li> 
+ <li value="1">Open&nbsp;the <span>proof</span> that you want to search.</li> 
+ <li value="2"> <p>In the toolbar above the <span>proof</span>, click the&nbsp;<span class="bold">Search document</span>&nbsp;icon.</p> <p> <img src="assets/search-document-icon-search-in-proof-350x129.png" style="width: 350;height: 129;"> </p> </li> 
  <li value="3"> <p>Begin typing the text you want to search for.</p> <p>The search tool highlights the text in the document as you type.</p> <p> <img src="assets/search-text-highlighted-as-you-type-350x214.png" alt="Search_text_highlighted_as_you_type.png" style="width: 350;height: 214;"> </p> </li> 
- <li value="4">Finish typing the text you want to search for, then click the&nbsp;<span class="bold">Up</span>&nbsp;and&nbsp;<span class="bold">Down</span>&nbsp;arrows to scan through the search results within the <em>proof</em>.</li> 
+ <li value="4">Finish typing the text you want to search for, then click the&nbsp;<span class="bold">Up</span>&nbsp;and&nbsp;<span class="bold">Down</span>&nbsp;arrows to scan through the search results within the <span>proof</span>.</li> 
 </ol>
 

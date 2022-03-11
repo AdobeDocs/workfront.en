@@ -59,7 +59,7 @@ The following categories of job roles are listed in the Resource Planner:
 The users listed in the Project and Role views in the Resource Planner belong to the Resource Pools associated with the projects.   
 For more information about populating Resource Pools with users, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
-All users that you have access to View and who have logged in to *Adobe Workfront* at least once display in the User View.
+All users that you have access to View and who have logged in to `Adobe Workfront` at least once display in the User View.
 
 In the Project and Role Views, users could appear listed under the following types of job roles:
 

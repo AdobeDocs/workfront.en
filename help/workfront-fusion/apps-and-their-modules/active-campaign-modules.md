@@ -11,18 +11,18 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # ActiveCampaign modules
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
-In a *Adobe Workfront Fusion* scenario, you can connect your *ActiveCampaign* account to multiple third-party applications and services. You can create, update, list, and delete automations, campaigns, calendar feeds, contacts, deals, messages, notes, organizations, tags, and tasks in your ActiveCampaign account.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+In a `Adobe Workfront Fusion` scenario, you can connect your `ActiveCampaign` account to multiple third-party applications and services. You can create, update, list, and delete automations, campaigns, calendar feeds, contacts, deals, messages, notes, organizations, tags, and tasks in your ActiveCampaign account.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
-## Connect Active Campaign to *Workfront Fusion*
+## Connect Active Campaign to `Workfront Fusion`
 
 1. Log in to your ActiveCampaign account.
 1. From the left menu, click `Settings` > `Developer`.
 
 1. Copy the API `Key` to the clipboard.
-1. Go to *Workfront Fusion*, add an ActiveCampaign module to a scenario, and open the `Create a Connection` box,
+1. Go to `Workfront Fusion`, add an ActiveCampaign module to a scenario, and open the `Create a Connection` box,
 
    XsCCPEaX9L.gif
 
@@ -63,39 +63,13 @@ If you need instructions on creating a scenario, see [Create a scenario](../../w
 
 ### Create a Contact
 
-This action module *creates a new contact*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `creates a new contact`.
 
 You specify the person's contact information.
 
-The module returns the ID of the 
+The module returns the ID of the  `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em></MadCap:conditionalText>` *contact* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -103,7 +77,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader"><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><span class="bold">Email </span> </td> 
@@ -126,39 +100,13 @@ When you are configuring this module, the following fields display
 
 ### Create/Update a Contact
 
-This action module *creates a new contact or updates an existing contact*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `creates a new contact or updates an existing contact`.
 
 You specify the contact information.
 
-The module returns the ID of the 
+The module returns the ID of the  `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new or updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new or updated</em></MadCap:conditionalText>` *contact* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -166,7 +114,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Email </span> </td> 
@@ -189,39 +137,13 @@ When you are configuring this module, the following fields display
 
 ### Delete a Contact
 
-This action module *deletes an existing contact*
+This action module `deletes an existing contact`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `contact`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the  `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *contact*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em></MadCap:conditionalText>` *contact* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -229,42 +151,24 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">ID </span> </td> 
-   <td> <p>Enter or map the unique <em>ActiveCampaign</em> ID of the <em>contact</em> that you want the module to <em>delete</em>.</p> </td> 
+   <td> <p>Enter or map the unique <span>ActiveCampaign</span> ID of the <span>contact</span> that you want the module to <span>delete</span>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Get a Contact
 
-This action module *retrieves a contact*
+This action module `retrieves a contact`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `contact`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *contact*.
-
-The module returns the ID of the *contact* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -272,38 +176,20 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">ID </span> </td> 
-   <td> <p>Select the type of <em>[Fusion app]</em> record from which you want the module to retrieve details.</p> </td> 
+   <td> <p>Select the type of <span>[Fusion app]</span> record from which you want the module to retrieve details.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Create/Update a Contact's Custom Field Value
 
-This action module *creates or updates a custom field value for the given contact*
+This action module `creates or updates a custom field value for the given contact`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -311,7 +197,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Contact ID</span> </td> 
@@ -319,7 +205,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td><span class="bold">Field ID</span> </td> 
-   <td> <p><![CDATA[	]]>Enter the unique <em>[Fusion app]</em> ID of the <em>record</em> that you want the module to update.</p> </td> 
+   <td> <p><![CDATA[	]]>Enter the unique <span>[Fusion app]</span> ID of the <span>record</span> that you want the module to update.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Field Value</span> </td> 
@@ -334,39 +220,13 @@ When you are configuring this module, the following fields display
 
 ### Update Contact's List Status
 
-This action module *updates the list status for a contact*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `updates the list status for a contact`.
 
 You specify the contact ID, list ID, and status.
 
-The module returns the ID of the 
+The module returns the ID of the  `status` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>updated</em></MadCap:conditionalText>` *status* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -374,7 +234,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Contact ID</span> </td> 
@@ -398,39 +258,13 @@ When you are configuring this module, the following fields display
 
 ### Add a Tag to a Contact
 
-This action module *adds a tag to a contact*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `adds a tag to a contact`.
 
 You specify the IDs of the contact and of the tag.
 
-The module returns the ID of the 
+The module returns the ID of the  `tag and contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em></MadCap:conditionalText>` *tag and contact* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -438,7 +272,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Contact ID</span> </td> 
@@ -453,39 +287,13 @@ When you are configuring this module, the following fields display
 
 ### Remove a Tag from a Contact
 
-This action module *removes a tag from a contact*
+This action module `removes a tag from a contact`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `contact`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the  `contact tag` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *contact*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em></MadCap:conditionalText>` *contact tag* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -493,7 +301,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Contact's Tag ID</span><![CDATA[	]]></td> 
@@ -504,27 +312,9 @@ When you are configuring this module, the following fields display
 
 ### List Contacts
 
-This action module *retrieves a list of contacts*
+This action module `retrieves a list of contacts`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -532,7 +322,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Limit </span> </td> 
@@ -611,27 +401,9 @@ When you are configuring this module, the following fields display
 
 ### Get Info About Logged-in User
 
-This action module *gets information about the logged-in users*
+This action module `gets information about the logged-in users`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -639,34 +411,16 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Watch Contacts
 
-This trigger module executes a scenario when *a new contact is created*
+This trigger module executes a scenario when `a new contact is created`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -674,7 +428,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Limit </span> </td> 
@@ -746,31 +500,13 @@ When you are configuring this module, the following fields display
 
 ### Create a Deal
 
-This action module *creates a new deal*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `creates a new deal`.
 
 You specify information about the deal.
 
-The module returns the ID of the *deal* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
+The module returns the ID of the `deal` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -778,7 +514,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Title </span> </td> 
@@ -837,39 +573,13 @@ When you are configuring this module, the following fields display
 
 ### Update a Deal
 
-This action module *updates an existing deal*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `updates an existing deal`.
 
 You specify the new information about the deal.
 
-The module returns the ID of the 
+The module returns the ID of the  `deal` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>updated</em></MadCap:conditionalText>` *deal* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -877,7 +587,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Deal ID</span> </td> 
@@ -933,31 +643,13 @@ When you are configuring this module, the following fields display
 
 ### Get a Deal
 
-This action module *returns a deal*
+This action module `returns a deal`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `deal`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the `deal` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *deal*.
-
-The module returns the ID of the *deal* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -965,7 +657,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">ID </span> </td> 
@@ -976,39 +668,13 @@ When you are configuring this module, the following fields display
 
 ### Delete a Deal
 
-This action module *deletes an existing deal*
+This action module `deletes an existing deal`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `deal`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the  `deal` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *deal*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em></MadCap:conditionalText>` *deal* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1016,7 +682,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">ID </span> </td> 
@@ -1027,39 +693,13 @@ When you are configuring this module, the following fields display
 
 ### Move Details to Another Deal Stage
 
-This action module *moves all deals in one stage to another stage*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `moves all deals in one stage to another stage`.
 
 You specify the IDs of the stage and of the target stage.
 
-The module returns the ID of the 
+The module returns the ID of the  `stage` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>moved</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>moved</em></MadCap:conditionalText>` *stage* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1067,7 +707,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Stage ID</span> </td> 
@@ -1082,27 +722,9 @@ When you are configuring this module, the following fields display
 
 ### List Deals
 
-This action module *retrieves a list of deals*
+This action module `retrieves a list of deals`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1110,7 +732,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Limit </span> </td> 
@@ -1169,27 +791,9 @@ When you are configuring this module, the following fields display
 
 ### Watch Deals
 
-This trigger module executes a scenario when *a deal is created*
+This trigger module executes a scenario when `a deal is created`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1197,7 +801,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td><span class="bold">Connection </span> </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td><span class="bold">Limit </span> </td> 
@@ -1266,31 +870,13 @@ When you are configuring this module, the following fields display
 
 ### Get a Campaign
 
-This action module *retrieves a campaign*
+This action module `retrieves a campaign`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `campaign`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the `campaign` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *campaign*.
-
-The module returns the ID of the *campaign* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1298,7 +884,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -1309,39 +895,13 @@ When you are configuring this module, the following fields display
 
 ### Delete a Campaign
 
-This action module *deletes an existing campaign*
+This action module `deletes an existing campaign`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `campaign`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the  `campaign` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *campaign*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em></MadCap:conditionalText>` *campaign* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1349,42 +909,24 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
-   <td> <p>Enter or map the unique <em>ActiveCampaign</em> ID of the <em>campaign</em> that you want the module to <em>delete</em>.</p> </td> 
+   <td> <p>Enter or map the unique <span>ActiveCampaign</span> ID of the <span>campaign</span> that you want the module to <span>delete</span>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### List Campaigns
 
-This action module *retrieves a list of campaigns*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `retrieves a list of campaigns`.
 
 You specify the highest number of records you want the module to list during each scenario execution cycle.
 
-The module returns the ID of the *list* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
+The module returns the ID of the `list` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1392,11 +934,11 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>list</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>list</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1409,39 +951,13 @@ When you are configuring this module, the following fields display
 
 ### Create/Update a Task
 
-This action module *creates a new task or updates an existing task*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `creates a new task or updates an existing task`.
 
 You specify information about the task.
 
-The module returns the ID of the 
+The module returns the ID of the  `task` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new or updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new or updated</em></MadCap:conditionalText>` *task* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1449,7 +965,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Owner type</td> 
@@ -1498,39 +1014,13 @@ When you are configuring this module, the following fields display
 
 ### Delete a Task
 
-This action module *deletes an existing task*
+This action module `deletes an existing task`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `task`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the  `task` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *task*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em></MadCap:conditionalText>` *task* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1538,7 +1028,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -1549,27 +1039,9 @@ When you are configuring this module, the following fields display
 
 ### Watch Tasks
 
-This trigger module executes a scenario when *a new task is assigned to a deal*
+This trigger module executes a scenario when `a new task is assigned to a deal`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -1577,7 +1049,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
@@ -1623,39 +1095,13 @@ When you are configuring this module, the following fields display
 
 ### Create a Note
 
-This action module *adds a note to an activity, a deal, a deal task, or to a subscriber*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `adds a note to an activity, a deal, a deal task, or to a subscriber`.
 
 You specify the note and the object.
 
-The module returns the ID of the 
+The module returns the ID of the  `note` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em></MadCap:conditionalText>` *note* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -1663,7 +1109,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Note</td> 
@@ -1682,39 +1128,13 @@ When you are configuring this module, the following fields display
 
 ### Create a Deal Note
 
-This action module *creates a new note for a deal*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `creates a new note for a deal`.
 
 You specify the note and the ID of the deal.
 
-The module returns the ID of the 
+The module returns the ID of the  `note` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em></MadCap:conditionalText>` *note* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -1722,7 +1142,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -1736,240 +1156,28 @@ When you are configuring this module, the following fields display
 </table>
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Events"></a>ActiveCampaign Event modules</h2>
+ActiveCampaign Event modules
 -->
-
-## ActiveCampaign Event modules
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#watch5" class="MCXref xref">Watch Events</a> </li>
+  Watch Events
   -->
 
-* [Watch Events](#watch5)
-
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Watch5"></a>Watch Events</h3>
+Watch Events
 -->
 
-### Watch Events
-
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I don't see this one</p>
--->
-
 I don't see this one
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">This trigger module executes a scenario when <em>a new event is fired</em><draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>. The module <em>returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses</em>. You can map <em>this information</em> in subsequent modules in the scenario.</p>
 -->
 
-This trigger module executes a scenario when *a new event is fired*`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
-
 <!--
-<table cellspacing="15" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<col>
-<col>
-<tbody>
-<tr> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Webhook Name</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Webhook Name</td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Enter the webhook name.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Enter the webhook name.</p> </td>
-</tr>
-<tr> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
-<td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom webhook name in ActiveCampaign</td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom webhook name in ActiveCampaign</td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Enter the webhook name mentioned in the ActiveCampaign.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Enter the webhook name mentioned in the ActiveCampaign.</p> </td>
-</tr>
-<tr> <draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Events </td>
-</draft-comment>
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Events </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the events you want to watch:</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the events you want to watch:</p>
-<ul> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign forwarded</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign forwarded</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign opened</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign opened</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign shared</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign shared</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign starts sending</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign starts sending</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact note added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact note added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact tag added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact tag added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact tag removed</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact tag removed</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact unsubscription</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact unsubscription</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact updated</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact updated</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal note added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal note added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal pipeline added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal pipeline added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal stage added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal stage added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task completed</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task completed</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task type added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task type added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal updated</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal updated</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Email bounces</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Email bounces</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Email replies</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Email replies</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Link clicked</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Link clicked</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">List added</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">List added</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS reply</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS reply</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS sent</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS sent</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS unsubscribe</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS unsubscribe</li>
-</ul> </td>
-</tr>
-<tr>
-<td> <draft-comment>
-<p style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sources</p>
-</draft-comment><p style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sources</p> </td>
-<td> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the sources which causes the events:</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the sources which causes the events:</p>
-<ul> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when a contact triggers the action</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when a contact triggers the action</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when an admin user triggers the action</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when an admin user triggers the action</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when an API call triggers the action</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when an API call triggers the action</li> <draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when automated systems trigger the action</li>
-</draft-comment>
-<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when automated systems trigger the action</li>
-</ul> </td>
-</tr>
-</tbody>
-</table>
+This trigger module executes a scenario when a new event is fired. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 -->
 
-<table cellspacing="15" data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Webhook Name</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Enter the webhook name.</p> </td> 
-  </tr> 
-  <tr> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom webhook name in ActiveCampaign</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Enter the webhook name mentioned in the ActiveCampaign.</p> </td> 
-  </tr> 
-  <tr> 
-   <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Events </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the events you want to watch:</p> 
-    <ul> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign forwarded</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign opened</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign shared</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign starts sending</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact note added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact tag added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact tag removed</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact unsubscription</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact updated</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal note added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal pipeline added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal stage added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task completed</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task type added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal updated</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Email bounces</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Email replies</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Link clicked</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">List added</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS reply</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS sent</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS unsubscribe</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sources</p> </td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the sources which causes the events:</p> 
-    <ul> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when a contact triggers the action</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when an admin user triggers the action</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when an API call triggers the action</li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when automated systems trigger the action</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!--
+Webhook Name Enter the webhook name. Connection For instructions about connecting your ActiveCampaign account to Workfront Fusion, see Connect Active Campaign to Workfront Fusion in this article. Custom webhook name in ActiveCampaign Enter the webhook name mentioned in the ActiveCampaign. Events Select the events you want to watch: Campaign forwarded Campaign opened Campaign shared Campaign starts sending Contact added Contact note added Contact tag added Contact tag removed Contact unsubscription Contact updated Deal added Deal note added Deal pipeline added Deal stage added Deal task added Deal task completed Deal task type added Deal updated Email bounces Email replies Link clicked List added SMS reply SMS sent SMS unsubscribe Sources Select the sources which causes the events: Run the hooks when a contact triggers the action Run the hooks when an admin user triggers the action Run the hooks when an API call triggers the action Run the hooks when automated systems trigger the action
+-->
 
 ## ActiveCampaign Automation modules
 
@@ -1982,29 +1190,11 @@ This trigger module executes a scenario when *a new event is fired*`<MadCap:cond
 
 ### List Automations
 
-This action module *retrieves a list of automations*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `retrieves a list of automations`.
 
 You specify the highest number of records you want the module to list during each scenario execution cycle.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2012,38 +1202,20 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>[action]</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>[action]</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### List Organizations
 
-This action module *retrieves a list of organizations*
+This action module `retrieves a list of organizations`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2051,49 +1223,24 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
    <td> <p>The maximum number of organizations should return during one scenario execution cycle.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Name </td> 
-    <td> <p>Enter the name of the organization whose details you want to retrieve.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Name </td> 
-   <td> <p>Enter the name of the organization whose details you want to retrieve.</p> </td> 
-  </tr> 
+  </tr> <!--
+   Name Enter the name of the organization whose details you want to retrieve.
+  --> 
  </tbody> 
 </table>
 
 ### Add a Contact to an Automation
 
-This action module *adds a contact to an automation*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `adds a contact to an automation`.
 
 You specify the IDs of the contact and of the automation.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2101,7 +1248,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p style="font-weight: bold;">Contact ID</p> </td> 
@@ -2116,31 +1263,13 @@ When you are configuring this module, the following fields display
 
 ### Get an Automation a Contact Is In
 
-This action module *retrieves an automation that contains a contact*
+This action module `retrieves an automation that contains a contact`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `contact`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the `automation` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *contact*.
-
-The module returns the ID of the *automation* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2148,7 +1277,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -2159,39 +1288,13 @@ When you are configuring this module, the following fields display
 
 ### Remove a Contact from an Automation
 
-This action module *removes a contact from an automation*
+This action module `removes a contact from an automation`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `contact`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the  `contact` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *contact*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>removed</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>removed</em></MadCap:conditionalText>` *contact* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2199,7 +1302,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -2210,29 +1313,11 @@ When you are configuring this module, the following fields display
 
 ### List All Automations a Contacts Is In
 
-This action module *retrieves a list of automations that contain a contact*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `retrieves a list of automations that contain a contact`.
 
 You specify the maximum number of automations you want to list.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2240,7 +1325,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
@@ -2253,39 +1338,13 @@ When you are configuring this module, the following fields display
 
 ### Create a Message
 
-This action module *creates a message*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `creates a message`.
 
 You specify the information for the message.
 
-The module returns the ID of the 
+The module returns the ID of the  `message` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new</em></MadCap:conditionalText>` *message* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2293,7 +1352,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>From Name</td> 
@@ -2326,39 +1385,13 @@ When you are configuring this module, the following fields display
 
 ### Create/Update a Calendar Feed
 
-This action module *creates or updates a calendar feed*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+This action module `creates or updates a calendar feed`.
 
 You specify information about the feed.
 
-The module returns the ID of the 
+The module returns the ID of the  `feed` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>new or updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>new or updated</em></MadCap:conditionalText>` *feed* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2366,7 +1399,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Title </td> 
@@ -2400,39 +1433,13 @@ When you are configuring this module, the following fields display
 
 ### Delete a Calendar Feed
 
-This action module *deletes a calendar feed*
+This action module `deletes a calendar feed`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `record`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
+The module returns the ID of the  `calendar feed` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the ID of the *record*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em></MadCap:conditionalText>` *calendar feed* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2440,7 +1447,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>ID </td> 
@@ -2451,31 +1458,13 @@ When you are configuring this module, the following fields display
 
 ### Watch Calendar Feeds
 
-This trigger module executes a scenario when *a new calendar feed is created or updated*
+This trigger module executes a scenario when `a new calendar feed is created or updated`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ActiveCampaign</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ActiveCampaign</em></MadCap:conditionalText>`.
-
-The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
+The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
 
 You specify the maximum number of calendar feeds that you want listed.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ActiveCampaign</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ActiveCampaign</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -2483,7 +1472,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
@@ -2493,34 +1482,24 @@ When you are configuring this module, the following fields display
 </table>
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Other"></a>Other ActiveCampaign modules</h2>
+Other ActiveCampaign modules
 -->
-
-## Other ActiveCampaign modules
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Make an API Call</li>
+  Make an API Call
   -->
-
-* Make an API Call
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a Legacy API&nbsp;Call</li>
+  Make a Legacy API Call
   -->
 
-* Make a Legacy API&nbsp;Call
-
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make an API&nbsp;Call</h3>
+Make an API Call
 -->
 
-### Make an API&nbsp;Call
-
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a Legacy API Call</h3>
+Make a Legacy API Call
 -->
-
-### Make a Legacy API Call
 
 ## Troubleshooting
 
@@ -2539,7 +1518,7 @@ These steps seem really wonky in Alloy article. Test!
    <tbody> 
     <tr> 
      <td>Connection </td> 
-     <td> <p>For instructions about connecting your <em>ActiveCampaign</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+     <td> <p>For instructions about connecting your <span>ActiveCampaign</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
     </tr> 
     <tr> 
      <td>Custom Webhook Name</td> 
@@ -2557,16 +1536,16 @@ These steps seem really wonky in Alloy article. Test!
   </table> </li> 
  <li value="3">Save your setting by clicking the <span class="bold">Save</span> button, then close and save the Watch events webhook module by clicking <span class="bold">OK</span>.</li> 
  <li value="4">Log in to your ActiveCampaign account.</li> 
- <li value="5"> <p>In the <span class="bold">Settings</span> dropdown menu, click <span class="bold">Developer</span>, then click <span class="bold">Manage Webhooks</span>.</p> <draft-comment>
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
-  </draft-comment><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p> </li> 
- <li value="6"> <p>In the Webhook settings fields, click <span class="bold">Edit</span> to open the webhook settings in the ActiveCampaign.</p> <draft-comment>
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
-  </draft-comment><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p> </li> 
- <li value="7"> <p>In the Webhook settings section, in the <span class="bold">List</span> dropdown menu, select the list that you want to work with the <em>Workfront Fusion</em> webhook.</p> <draft-comment>
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
-  </draft-comment><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p> </li> 
- <li value="8">Run your scenario in <em>Workfront Fusion</em> and then <span class="bold">send sample Data</span> so that you can confirm if the webhook catches the correct data.</li> 
+ <li value="5"> <p>In the <span class="bold">Settings</span> dropdown menu, click <span class="bold">Developer</span>, then click <span class="bold">Manage Webhooks</span>.</p> <!--
+   screenshot
+  --> </li> 
+ <li value="6"> <p>In the Webhook settings fields, click <span class="bold">Edit</span> to open the webhook settings in the ActiveCampaign.</p> <!--
+   screenshot
+  --> </li> 
+ <li value="7"> <p>In the Webhook settings section, in the <span class="bold">List</span> dropdown menu, select the list that you want to work with the <span>Workfront Fusion</span> webhook.</p> <!--
+   screenshot
+  --> </li> 
+ <li value="8">Run your scenario in <span>Workfront Fusion</span> and then <span class="bold">send sample Data</span> so that you can confirm if the webhook catches the correct data.</li> 
  <li value="9"> <p> <span class="bold">Update</span> to save your work.</p> <p class="PinkDraftNote">Screenshot</p> </li> 
 </ol>
 

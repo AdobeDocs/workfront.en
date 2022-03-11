@@ -8,9 +8,9 @@ description: This page describes all other enhancements made with the 20.3 relea
 
 # 20.3 other enhancements
 
-This page describes all *other* enhancements made with the *20.3* release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+This page describes all `other` enhancements made with the `20.3` release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 
-For a list of all changes available with the *20.3* release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+For a list of all changes available with the `20.3` release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
 ## Share a calendar with a private link
 
@@ -38,19 +38,13 @@ For more information about creating requests, see [Create and submit Workfront r
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*
+>This feature is available only in `the new Adobe Workfront experience`
 
 To help you easily manage timesheets with several items, you can now expand or collapse all items with the click of a button.
 
 Previously, you had to click on each item individually.
 
-For more information, see 
-
-<!--
-<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Log time</a>
--->
-
-[Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+For more information, see Log time.
 
 `<iframe class="vimeo-player_0" src="assets/434799001?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -119,17 +113,11 @@ For more information, see [Enroll users in the new Adobe Workfront experience](.
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*
+>This feature is available only in `the new Adobe Workfront experience`
 
 Now you can use a Layout Template to change the logos in the top navigation area and on the Main Menu for specific groups, teams, job roles, and users who have their own branding.
 
-For more information, see 
-
-<!--
-<a href="../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Brand your Adobe Workfront instance</a>
--->
-
-[Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+For more information, see Brand your Adobe Workfront instance.
 
 `<iframe class="vimeo-player_0" src="assets/430811222?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -179,7 +167,7 @@ For more information, see [Groups overview](../../../administration-and-setup/ma
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*
+>This feature is available only in `the new Adobe Workfront experience`
 
 The left sidebar in Setup is now faster and easier to use and leverages the basic layout and functionality you already know. Along with a more modern look and feel, here’s what else is new:
 
@@ -190,13 +178,7 @@ The left sidebar in Setup is now faster and easier to use and leverages the basi
 * While the sidebar is collapsed, you see only the icons for each feature. To see the sub-items under a main sidebar item, hover over its icon to display them in a flyout menu. For example, hover over the Processes icon to display a menu containing Approvals and Milestone Paths.
 * You can access the two Kick-Starts options (Import Data and Export Data) one click faster. They have moved out from under System to display on the main level of the sidebar.
 
-For information about how to use the Setup area, see 
-
-<!--
-<a href="../../../administration-and-setup/administration-and-setup.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Administration and setup</a>
--->
-
-[Administration and setup](../../../administration-and-setup/administration-and-setup.md).
+For information about how to use the Setup area, see Administration and setup.
 
 `<iframe class="vimeo-player_0" src="assets/421243507?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 

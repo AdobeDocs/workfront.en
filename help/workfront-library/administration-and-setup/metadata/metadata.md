@@ -8,7 +8,7 @@ title: Metadata in Workfront Library
 description: This section contains the following articles:
 ---
 
-# Metadata in *Workfront Library*
+# Metadata in `Workfront Library`
 
 This section contains the following articles:
 

@@ -14,18 +14,9 @@ This article shows how you can set predecessors using the Predecessors tab withi
 
 For information about setting predecessors in a list of tasks, see [Create a predecessor relationship on the task list](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
-You can view the predecessors of tasks in the following areas of *Adobe Workfront*:
+You can view the predecessors of tasks in the following areas of `Adobe Workfront`:
 
-* In the Predecessors 
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  section
-  </MadCap:conditionalText>
-  -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section </MadCap:conditionalText>`of the dependent tasks
-
+* In the Predecessors sectionof the dependent tasks
 * In the Gantt Chart
 * In the task list in the Predecessors column
 
@@ -40,16 +31,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -58,26 +49,26 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create a predecessor for a task
 
-<ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a task that you want to designate as a dependent task, then click <span class="bold">Predecessors</span> in the left panel. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Go to a task that you want to designate as a dependent task, then click <span class="bold">Predecessors</span> in the left panel. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You might need to click <span class="bold">Show More</span>, then <span class="bold">Predecessors</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You might need to click <span class="bold">Show More</span>, then <span class="bold">Predecessors</span>. </p> </li> 
- <li value="2"> <p>Click <span class="bold">+Add Predecessor</span>. </p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) To add a cross-project predecessor, replace the name of the project in the <span class="bold">Parent Project</span> field with another project, then type the name of the task or tasks that you want as the predecessors. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) To add a cross-project predecessor, replace the name of the project in the <span class="bold">Parent Project</span> field with another project, then type the name of the task or tasks that you want as the predecessors. </p> <p>For information about adding cross-project predecessors, see <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Create cross-project predecessors</a>.</p> </li> 
- <li value="4"> <p>Type in the name of the task or tasks that you want to designate as the predecessors. </p> <p> <draft-comment>
-    <img src="assets/add-predecessor-box-nwe-350x465.png" style="width: 350;height: 465;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/add-predecessor-box-nwe-350x465.png" style="width: 350;height: 465;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
- <li value="5"> <p>Select a <span class="bold">Dependency Type</span>.</p> <p>For information about task Dependency Types, see a <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>.</p> </li> 
- <li value="6"> <p>Specify a <span class="bold">Lag</span> amount in days. </p> <p>For information about Lag Types, see ​<a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Overview of Lag Types</a>.</p> </li> 
- <li value="7"> <p>Select <span class="bold">Enforced</span> if you want to enforce the predecessor relationship between the two tasks. </p> <p>For information about enforcing predecessors, see <a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Enforce predecessors</a>.</p> </li> 
- <li value="8"> <p>Click <span class="bold">Save</span>. </p> </li> 
-</ol>
+1. Go to a task that you want to designate as a dependent task, then click Predecessors in the left panel. You might need to click Show More, then Predecessors. 
+1. Click `+Add Predecessor`. 
+1. (Optional) To add a cross-project predecessor, replace the name of the project in the Parent Project field with another project, then type the name of the task or tasks that you want as the predecessors. For information about adding cross-project predecessors, see [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+1. Type in the name of the task or tasks that you want to designate as the predecessors.
+
+1. Select a `Dependency Type`.
+
+   For information about task Dependency Types, see a [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+1. Specify a `Lag` amount in days.
+
+   For information about Lag Types, see ​ [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+
+1. Select `Enforced` if you want to enforce the predecessor relationship between the two tasks.
+
+   For information about enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+
+1. Click `Save`.
 

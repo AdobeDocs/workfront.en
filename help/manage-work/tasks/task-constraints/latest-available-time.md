@@ -9,7 +9,7 @@ description: Latest Available Time (LAT) is a type of Task Constraint in Adobe W
 
 # Task Constraint overview: Latest Available Time
 
-Latest Available Time (LAT) is a type of Task Constraint in *Adobe Workfront*.
+Latest Available Time (LAT) is a type of Task Constraint in `Adobe Workfront`.
 
 ## Use the Latest Available Time Task Constraint
 
@@ -20,29 +20,8 @@ This constraint differs from As Soon As Possible in that it will not force prede
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To update the Task Constraint to Latest Available Time:</p>
-<ol>
-<li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li>
-<li value="3">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</li>
-<li value="4"> <p>Select <span class="bold">Latest Available Time</span>.</p> </li>
-<li value="5">Click <span class="bold">Save Changes</span>.</li>
-</ol>
-</div>
+To update the Task Constraint to Latest Available Time: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Latest Available Time. Click Save Changes.
 -->
-
-To update the Task Constraint to Latest Available Time:
-
-<ol> 
- <li value="1">Go to a task whose Task Constraint you want to update.</li> 
- <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="3">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</li> 
- <li value="4"> <p>Select <span class="bold">Latest Available Time</span>.</p> </li> 
- <li value="5">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
 
 ## The difference between Latest Available Time and As Late As Possible
 

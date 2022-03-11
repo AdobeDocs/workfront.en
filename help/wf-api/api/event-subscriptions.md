@@ -2,7 +2,7 @@
 
 # Event Subscriptions
 
-Following are various resources on Event Subscriptions in *Adobe Workfront*:
+Following are various resources on Event Subscriptions in `Adobe Workfront`:
 
 * [Event Subscription API](../../wf-api/general/event-subs-api.md) 
 * [Event subscription best practices](../../wf-api/general/event-sub-best-practice.md) 

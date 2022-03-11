@@ -26,7 +26,7 @@ Prompts act as a customizable filter on reports which can be updated right befor
 
 You would build three prompts where the conditions are the criteria required and the report would look different every time you run it, according to which information you choose for your prompts.
 
-A filter can tell *Adobe Workfront* to show only those hours entered between June and August of this year. However, with a prompt, you can use a different time frame each time you run the report (for example, between January and February or October and December).
+A filter can tell `Adobe Workfront` to show only those hours entered between June and August of this year. However, with a prompt, you can use a different time frame each time you run the report (for example, between January and February or October and December).
 
 ## Access requirements
 
@@ -37,16 +37,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -69,9 +69,7 @@ For instructions on creating a report, see [Create a report](../../../reports-an
  <li value="1">Go to the report where you want to add a prompt.</li> 
  <li value="2">Expand <span class="bold">Report Actions</span>, and then click <span class="bold">Edit</span>.</li> 
  <li value="3">Click <span class="bold">Report Settings</span>.</li> 
- <li value="4">In the <span class="bold">Report Prompts</span> area, click <span class="bold">Add a Prompt</span>.<br><draft-comment>
-   <img src="assets/qs-add-a-prompt-350x216.png" style="width: 350;height: 216;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/qs-add-a-prompt-350x216.png" style="width: 350;height: 216;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li> 
+ <li value="4">In the <span class="bold">Report Prompts</span> area, click <span class="bold">Add a Prompt</span>.<br></li> 
  <li value="5">(Conditional) Select the field that you want the prompt to be based on. Start typing the name of the field, and click to select it when it appears in the list.<br>The options available to users running the report will differ depending on the field you select.<br>For example, if you select a date field such as Actual Completion Date on a task report, "Actual Completion Date" is the name of the prompt. When editing this prompt as you are running this report, you can choose from a set of modifiers to build your filtering statement. This process is identical to building a filter. For more information about modifiers, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</li> 
  <li value="6"> <p>(Conditional) Click <span class="bold">Custom Prompt</span> to create a custom prompt.</p> <p>A custom prompt is a predefined prompt where you hard code the filtering criteria before you run the report. In this sense, a custom prompt is closer to a filter than a prompt.</p> <p>However, the prompt remains as flexible as a regular prompt because you can choose from several predefined statements, as opposed to having just one hard coded filter in the report.</p> <p>Specify the following information for the custom prompt: The condition of a custom prompt can only be edited using text mode. This allows for multiple conditions to be applied in a single field.</p> 
   <ul> 
@@ -97,9 +95,7 @@ When you have a prompt added to a report, the default tab of the report is alway
 To run a report with a prompt:
 
 <ol> 
- <li value="1"> <p>Go to the report with the prompt.</p> <p> <draft-comment>
-    <img src="assets/qs-prompt-drop-downs-350x229.png" style="width: 350;height: 229;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/qs-prompt-drop-downs-350x229.png" style="width: 350;height: 229;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
+ <li value="1"> <p>Go to the report with the prompt.</p> <p>  </p> </li> 
  <li value="2">Choose a condition for one or all the prompts displayed on the <span class="bold">Prompts</span> tab.<br>(Optional) You can leave the prompts blank and not filter the report by the prompt conditions.</li> 
  <li value="3">Click <span class="bold">Run Report</span>.<br>(Conditional) If you populated the prompts, the report is filtered by the conditions you have chosen for your prompts.<br>(Conditional) If you left the prompts blank, the report is not filtered by the prompt conditions. The report displays as if it were not filtered.<br><note type="note">
     A report that contains a filter in addition to a prompt filters the results according to both the criteria defined in the filter and the prompt combined.
@@ -108,11 +104,11 @@ To run a report with a prompt:
 
 ## Limitations of sharing prompted reports
 
-` `**Warning: **``When you share a prompted report outside *Workfront*, the user viewing the report must be logged in to *Workfront* to run the report using the prompt. If the user viewing the report is not logged in, all the results of the report display without applying the prompt.
+` `**Warning: **``When you share a prompted report outside `Workfront`, the user viewing the report must be logged in to `Workfront` to run the report using the prompt. If the user viewing the report is not logged in, all the results of the report display without applying the prompt.
 
-The following are limitations in sharing prompted reports from *Workfront*:
+The following are limitations in sharing prompted reports from `Workfront`:
 
-* When you share a report publicly users cannot run the report by applying the prompt, unless they have *Workfront* credentials and log in first to view the report in *Workfront*.
+* When you share a report publicly users cannot run the report by applying the prompt, unless they have `Workfront` credentials and log in first to view the report in `Workfront`.
 
   For more information about sharing reports, see the article [Share a report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 

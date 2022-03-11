@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Considerations about modifying percent allocations for tasks
 
@@ -55,36 +55,36 @@ You must have the following access to perform the steps in this article:
 
 ## Modify the percent allocation for a task
 
-<ol> 
- <li value="1">Go to a task for whose resources you are changing the percent allocation.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> menu <img src="assets/qs-more-icon-on-an-object.png"> next to the name of the task, then click <span class="bold">Edit</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> menu <img src="assets/qs-more-icon-on-an-object.png"> next to the name of the task, then click <span class="bold">Edit</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Assignments</span> area in the task header, then click&nbsp;<span class="bold">Advanced</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Assignments</span> area in the task header, then click&nbsp;<span class="bold">Advanced</span>.</p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Ensure that the <span class="bold">Duration&nbsp;Type</span> of the task is one of the following:</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Ensure that the <span class="bold">Duration&nbsp;Type</span> of the task is one of the following:</p> 
-  <ul> 
-   <li>Calculated Work</li> 
-   <li>Effort Driven</li> 
-  </ul> 
-  <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span> 
-   <ul> 
-    <li> <p>For the Calculated Assignment Duration Type, <em>Workfront</em> uses the following formula to calculate the allocation percentage of each assignee: </p> <p><code>Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day </code>/ <code>Number of assignees</code>.</p> </li> 
-   </ul> 
-   <ul> 
-    <li>For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage. </li> 
-   </ul> 
-  </div> </li> 
- <li value="4"> <p>Click <span class="bold">Assignments</span>, then modify the <draft-comment>
-    <span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Allocations</span>
-   </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Allocations</span> for each task assignee. </p> <p>You can only modify the allocation percentage for user and job role assignments. </p> <p>You cannot modify the allocation percentage for a team assigned to a task.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png" style="width: 350;height: 251;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png" style="width: 350;height: 251;"> </p> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Go to a task for whose resources you are changing the percent allocation.
+1. Click the More menu next to the name of the task, then click Edit. Or Click the Assignments area in the task header, then click Advanced. 
+1. Ensure that the Duration Type of the task is one of the following:
+
+  * Calculated Work
+  * Effort Driven
+
+   ` `**Tips: **``
+
+  * For the Calculated Assignment Duration Type, `Workfront` uses the following formula to calculate the allocation percentage of each assignee:
+
+    ```  
+    Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day
+    ```  
+  
+    /   
+  
+    ```  
+    Number of assignees
+    ```  
+  
+    .
+
+  * For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage.
+
+1. Click `Assignments`, then modify the Allocations for each task assignee.
+
+   You can only modify the allocation percentage for user and job role assignments.
+
+   You cannot modify the allocation percentage for a team assigned to a task.
+
+1. Click `Save`.
 

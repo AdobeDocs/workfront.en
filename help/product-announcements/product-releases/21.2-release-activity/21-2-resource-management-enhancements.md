@@ -9,7 +9,7 @@ description: This page describes all Resource Management enhancements made with 
 
 # 21.2 Resource Management enhancements
 
-This page describes all *Resource Management* enhancements made with the *21.2* release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the *21.2* release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+This page describes all `Resource Management` enhancements made with the `21.2` release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the `21.2` release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Month-level view in the Workload Balancer
 
@@ -25,26 +25,14 @@ For information, see [Navigate the Workload Balancer](../../../resource-mgmt/wor
 
 >[!NOTE]
 >
->Available only in *the new Adobe Workfront experience*.
+>Available only in `the new Adobe Workfront experience`.
 
 To help you with the strategic planning of your projects and ensure they align with the bigger-picture initiatives of the Scenario Planner, we have created a new area on the project that displays job role requirements from the initiatives as well as planned hours estimated on the project’s work items. This area is available for the project-level Workload Balancer as well as for the task list in the new Workfront experience. In the classic experience this is available only for the project Workload Balancer.
 
 For information, see the following articles:
 
-* 
-
-  <!--
-  <a href="../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Overview of reconciling resource allocations between projects and initiatives </a>
-  -->
-
-  [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
-* 
-
-  <!--
-  <a href="../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Navigate the Workload Balancer</a>
-  -->
-
-  [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+* Overview of reconciling resource allocations between projects and initiatives.
+* Navigate the Workload Balancer
 
 >[!IMPORTANT]
 >
@@ -70,7 +58,7 @@ For information, see [Overview of hours, FTE, and cost information in the Projec
 
 You can now view up to 12 weeks of information in the Workload Balancer. Prior to this enhancement, you could view 2,4, and 6 weeks of information.
 
-For information about viewing the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Navigate the *Workload Balancer*.
+For information about viewing the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Navigate the `Workload Balancer`.
 
 `<iframe class="vimeo-player_0" src="assets/521971867?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 

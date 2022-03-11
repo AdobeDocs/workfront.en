@@ -25,16 +25,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,35 +43,21 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create and edit risks in the Business Case
 
 You can create risks as part of planning the Business Case of a project. You can later edit them in the Business Case, when changes occur to their probability, mitigation plan, or cost, for example. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Your *Workfront administrator* `or *group administrator*` must enable the `Risks` section in your Business Case in the Project Preferences area before you can view it at the project level in the Business Case section. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Your `Workfront administrator` `or `group administrator`` must enable the `Risks` section in your Business Case in the Project Preferences area before you can view it at the project level in the Business Case section. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Creating and editing risks in the Business Case is identical.
 
 To create or edit a risk in the Business Case:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Go to the project for which you want to create risks. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Go to the project for which you want to create risks. 
-  </MadCap:conditionalText></li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Business Case</span> in the left panel.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Business Case</span> in the left panel.
-  </MadCap:conditionalText></li> 
+ <li value="1"> Go to the project for which you want to create risks.</li> 
+ <li value="2"> Click Business Case in the left panel.</li> 
  <li value="3"> <p>In the <span class="bold">Risks</span> section, click <span class="bold">Edit Risks</span>.</p> </li> 
  <li value="4"> <p>Enter or edit the following information:</p> 
   <ul> 
@@ -88,15 +74,7 @@ To create or edit a risk in the Business Case:
 
 ## Create and edit risks in the Risks area
 
-In addition to creating and editing risks in the Business Case, you can do so using the `Risks` 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-section
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> section</MadCap:conditionalText>`of a project.
+In addition to creating and editing risks in the Business Case, you can do so using the `Risks` sectionof a project.
 
 * [Create risks in the Risks area](#creating-risks-in-the-risks-tab) 
 * [Edit risks in the Risks area](#editing-risks-in-the-risks-tab)
@@ -105,20 +83,12 @@ section
 
 <ol> 
  <li value="1">Go to the project you want to create risks for.</li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click 
-     <span class="bold">Risks</span> in the left panel.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Risks</span> in the left panel.
-   </MadCap:conditionalText></p> </li> 
+ <li value="2"> <p> Click Risks in the left panel.</p> </li> 
  <li value="3"> <p>Click <span class="bold">Start Adding Risks</span> and create risks by in-line editing their information.</p> <p>Or</p> <p>Click <span class="bold">New Risk</span>. The <span class="bold">New Risk</span> dialogue box opens.</p> <p> <img src="assets/crp3-350x181.png" alt="" style="width: 350;height: 181;"> </p> </li> 
  <li value="4"> <p>Enter the following information:</p> 
   <ul> 
    <li><span class="bold">Description</span>: describe the risk.</li> 
-   <li><span class="bold">Risk Type</span>: indicate what category the risk falls under.<br>Your <em>Workfront administrator</em> defines the Risk Types available in your environment. For information about defining Risk Types, see the article <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types </a>.<br></li> 
+   <li><span class="bold">Risk Type</span>: indicate what category the risk falls under.<br>Your <span>Workfront administrator</span> defines the Risk Types available in your environment. For information about defining Risk Types, see the article <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types </a>.<br></li> 
    <li><span class="bold">Probability</span>: indicate the probability of the risk occurring as a percentage value.</li> 
    <li><span class="bold">Potential Cost</span>: indicate the estimated cost if the risk should occur.</li> 
    <li><span class="bold">Mitigation Cost</span>: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.</li> 
@@ -139,15 +109,7 @@ To edit risks:
 
 <ol> 
  <li value="1">Navigate to a project for which you want to edit existing risks.</li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Risks</span> in the left panel.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Risks</span> in the left panel.
-  </MadCap:conditionalText></li> 
+ <li value="2"> Click Risks in the left panel.</li> 
  <li value="3"> <p> Start in-line editing the fields for the risks you see in the list to edit one risk at a time.</p> <p>Or<br></p> <p>Select one or several risks, then click <span class="bold">Edit</span> to edit multiple risks at the same time. </p> <note type="note">
     You are applying the same information to all the risks selected, when you edit multiple risks at the same time. The information associated with each risk prior to your changes is overwritten in a bulk edit. 
   </note> </li> 

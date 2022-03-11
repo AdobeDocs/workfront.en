@@ -9,55 +9,40 @@ description: The Scrum agile story board displays together with the completion s
 
 # Scrum board overview
 
-The Scrum agile story board displays together&nbsp;with the completion status and the burndown chart. These agile components are available in the following situations in *Adobe Workfront*:
+The Scrum agile story board displays together with the completion status and the burndown chart. These agile components are available in the following situations in `Adobe Workfront`:
 
 * On agile iterations. For more details about using the agile story board, burndown chart, and completion status in a pure agile environment (with backlogs and an iteration), see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 * When viewing a project in an agile view. For information about how you can leverage the agile story board, burndown chart, and completion status&nbsp;within an existing project, see [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<img src="assets/agile-iteration-with-callouts-350x257.png" style="width: 350;height: 257;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/agile-iteration-with-callouts-350x257.png)
-
 ## Story Board Layout and Functions
-
-<!--
-<img src="assets/agile-storyboard-callouts-350x164.png" style="width: 350;height: 164;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/agile-storyboard-callouts-350x164.png)
 
 The story board consists of the following elements:
 
-<ul> 
- <li> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-     <span class="bold">Parent Story Column:</span> 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <span class="bold">Parent Story Column:</span> 
-   </MadCap:conditionalText>&nbsp;Unlike the other columns on the story board, the <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Parent Story 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Parent Story 
-   </MadCap:conditionalText> column is not a task status, but rather exists to house&nbsp;any stories that contain&nbsp;subtasks in the iteration or project. Only parent stories that have at least one subtask on the story board can reside in this column. The parent stories themselves do not move from status to status across the story board.</p> <p>In an iteration, this column appears on the story board only when one or more stories on the story board contains at least one&nbsp;subtask&nbsp;that meets the following requirements:</p> 
-  <ul> 
-   <li> <p>Assigned to the same agile team as the parent task</p> </li> 
-   <li> <p>Belongs to the iteration</p> <p>In a project, this column appears any time a task has at least one subtask.</p> <p> <draft-comment>
-      <img src="assets/agile-parentstory-swimlane-350x66.png" style="width: 350;height: 66;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     </draft-comment><img src="assets/agile-parentstory-swimlane-350x66.png" style="width: 350;height: 66;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
-  </ul> </li> 
- <li> <p><span class="bold">Task Statuses:</span> Indicate how a story is progressing through the iteration or project based on which status column the story is in.</p> <p>For more information, see <a href="#" class="MCXref xref" xrefformat="{para}">Scrum board overview</a>.</p> <p>Task statuses can be customized for the project by modifying the agile view, as described in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view" class="MCXref xref">Create or customize an Agile view</a> in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
- <li> <p><span class="bold">Swim Lane:</span>&nbsp;When a parent story and its subtasks appear on the story board, a swim lane is created specifically for the story and its subtasks. This provides a visual distinction to better view how a story's&nbsp;subtasks are progressing across the story board.&nbsp;</p> <p>In an iteration, swim lanes appear on the story board only when a story&nbsp;on the story board contains at least one&nbsp;subtask&nbsp;that meets the following requirements:</p> 
-  <ul> 
-   <li>Assigned to the same agile team as the parent task</li> 
-   <li>Belongs to the iteration</li> 
-  </ul> <p>In a project, swim lanes&nbsp;appear any time a task has at least one subtask or one parent task.</p> </li> 
- <li><span class="bold">Individual Stories:</span>&nbsp;Individual stories and issues are displayed below any swim lanes on the story board.&nbsp;This provides a visual distinction from the stories that are part of a swim lane.</li> 
-</ul>
+* Parent Story Column:&nbsp;Unlike the other columns on the story board, the Parent Story column is not a task status, but rather exists to house&nbsp;any stories that contain&nbsp;subtasks in the iteration or project. Only parent stories that have at least one subtask on the story board can reside in this column. The parent stories themselves do not move from status to status across the story board.
+
+  In an iteration, this column appears on the story board only when one or more stories on the story board contains at least one&nbsp;subtask&nbsp;that meets the following requirements:
+
+  * Assigned to the same agile team as the parent task
+  * Belongs to the iteration
+
+    In a project, this column appears any time a task has at least one subtask.
+
+* `Task Statuses:` Indicate how a story is progressing through the iteration or project based on which status column the story is in.
+
+  For more information, see [Scrum board overview](#).
+
+  Task statuses can be customized for the project by modifying the agile view, as described in [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+* `Swim Lane:`&nbsp;When a parent story and its subtasks appear on the story board, a swim lane is created specifically for the story and its subtasks. This provides a visual distinction to better view how a story's&nbsp;subtasks are progressing across the story board.&nbsp;
+
+  In an iteration, swim lanes appear on the story board only when a story&nbsp;on the story board contains at least one&nbsp;subtask&nbsp;that meets the following requirements:
+
+  * Assigned to the same agile team as the parent task
+  * Belongs to the iteration
+
+  In a project, swim lanes&nbsp;appear any time a task has at least one subtask or one parent task.
+
+* `Individual Stories:`&nbsp;Individual stories and issues are displayed below any swim lanes on the story board.&nbsp;This provides a visual distinction from the stories that are part of a swim lane.
 
 ## Relationship between Subtasks&nbsp;and Stories
 

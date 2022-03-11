@@ -10,13 +10,11 @@ description: The information on this page refers to functionality that is availa
 
 The information on this page refers to functionality that is available only in the Preview and Custom Refresh Sandbox environments. This functionality is not available in the Production environment.
 
-You can set up Report Delivery options in any *Adobe Workfront* test environment.
+You can set up Report Delivery options in any `Adobe Workfront` test environment.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the <em>Workfront</em> test environments, see the "<em>Workfront</em> Testing Environments" section.</p>
+For information about the Workfront test environments, see the "Workfront Testing Environments" section.
 -->
-
-For information about the *Workfront* test environments, see the "*Workfront* Testing Environments" section.
 
 While the test environments are meant to function as close as possible to your production environment, some functionality differs from your production environment.
 
@@ -35,16 +33,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -53,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Schedule reports in the Preview environment
 
@@ -91,6 +89,6 @@ When you schedule a report for delivery in the Custom Refresh Sandbox environmen
 
 ## How external users are notified
 
-External users do not receive reports sent from the *Workfront* test environments, nor do they receive an email notification.
+External users do not receive reports sent from the `Workfront` test environments, nor do they receive an email notification.
 
 External users only receive emailed reports if they are delivered from a Production environment.

@@ -6,9 +6,9 @@ title: Upload XD art boards as documents to Workfront
 description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 ---
 
-# Upload XD art boards as documents to *Workfront*
+# Upload XD art boards as documents to `Workfront`
 
-You can upload your art boards as documents for a quick review and approval or simply to store in *Adobe Workfront*.
+You can upload your art boards as documents for a quick review and approval or simply to store in `Adobe Workfront`.
 
 ## Access requirements
 
@@ -19,25 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p><em>Work</em> or <em>Plan</em></p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or <em>Plan</em></p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Work or Plan 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a <em>Workfront</em> license.</td> 
+   <td>You must have an Adobe Creative Cloud license in addition to a <span>Workfront</span> license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,11 +37,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-* You must install the *Workfront* for Adobe XD plugin before you can upload XD art boards as documents to *Workfront*.
+* You must install the `Workfront` for Adobe XD plugin before you can upload XD art boards as documents to `Workfront`.
 
   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
@@ -74,25 +65,25 @@ You must have the following access to perform the steps in this article:
     </tr>
     <tr>
      <td role="rowheader">.png</td>
-     <td>The art board upoads as a .png to the work item's Documents tab in <em>Workfront</em>Work. </td>
+     <td>The art board upoads as a .png to the work item's Documents tab in <span>Workfront</span>Work. </td>
     </tr>
     <tr>
      <td role="rowheader">.jpg</td>
-     <td>The art board uploads as a .jpg to the work item's Documents tab in <em>Workfront</em>. <br></td>
+     <td>The art board uploads as a .jpg to the work item's Documents tab in <span>Workfront</span>. <br></td>
     </tr>
     <tr>
      <td role="rowheader">.svg</td>
-     <td>The art board uploads as a .svg to the work item's Documents tab in <em>Workfront</em>. </td>
+     <td>The art board uploads as a .svg to the work item's Documents tab in <span>Workfront</span>. </td>
     </tr>
     <tr>
      <td role="rowheader">.pdf</td>
-     <td>The art board uploads as a .pdf to the work item's Documents tab in <em>Workfront</em>.</td>
+     <td>The art board uploads as a .pdf to the work item's Documents tab in <span>Workfront</span>.</td>
     </tr>
    </tbody>
   </table><note type="note">
    If you add an approver, the art board uploads to 
-   <em>Workfront</em> as a 
-   <em>Proof</em>.
+   <span>Workfront</span> as a 
+   <span>Proof</span>.
   </note></li> 
  <li value="7">(Optional) Type a comment in the <span class="bold">Updates</span> area. </li> 
  <li value="8">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 
@@ -119,25 +110,25 @@ You must have the following access to perform the steps in this article:
     </tr>
     <tr>
      <td role="rowheader">png</td>
-     <td>The art board upoads as a png to the work item's Documents tab in <em>Workfront</em>Work. </td>
+     <td>The art board upoads as a png to the work item's Documents tab in <span>Workfront</span>Work. </td>
     </tr>
     <tr>
      <td role="rowheader">jpg</td>
-     <td>The art board uploads as a jpg to the work item's Documents tab in <em>Workfront</em>. <br></td>
+     <td>The art board uploads as a jpg to the work item's Documents tab in <span>Workfront</span>. <br></td>
     </tr>
     <tr>
      <td role="rowheader">svg</td>
-     <td>The art board uploads as a svg to the work item's Documents tab in <em>Workfront</em>. </td>
+     <td>The art board uploads as a svg to the work item's Documents tab in <span>Workfront</span>. </td>
     </tr>
     <tr>
      <td role="rowheader">pdf</td>
-     <td>The art board uploads as a pdf to the work item's Documents tab in <em>Workfront</em>.</td>
+     <td>The art board uploads as a pdf to the work item's Documents tab in <span>Workfront</span>.</td>
     </tr>
    </tbody>
   </table><note type="note">
    If you add an approver, the art board uploads to 
-   <em>Workfront</em> as a 
-   <em>Proof</em>.
+   <span>Workfront</span> as a 
+   <span>Proof</span>.
   </note></li> 
  <li value="8">(Optional) Type a comment in the <span class="bold">Updates</span> area. </li> 
  <li value="9">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 

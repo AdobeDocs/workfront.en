@@ -8,9 +8,9 @@ description: You can view information at a glance about objects in Adobe Workfro
 
 # New object headers
 
-You can view information at a glance about objects in *Adobe Workfront* when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
+You can view information at a glance about objects in `Adobe Workfront` when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 
-The look and feel of the headers—as well as what information is included—has changed in *the new Adobe Workfront experience* for some objects. This redesign allows you to quickly understand an object's state or to access additional editing and sharing options for that object.
+The look and feel of the headers—as well as what information is included—has changed in `the new Adobe Workfront experience` for some objects. This redesign allows you to quickly understand an object's state or to access additional editing and sharing options for that object.
 
 The headers of the following objects have been redesigned:
 
@@ -27,21 +27,13 @@ The headers of the following objects have been redesigned:
 | Billing Record | [Billing Record header overview](#billing)  |
 | User | [User header overview](#user)  |
 | Team | [Team header overview](#team)  |
-| Iteration | [Iteration header overview](#iteratio)  |
-| Iteration | [Iteration header overview](#iteratio)  |
-| Group | [Group header overview](#group)  |
-| Group | [Group header overview](#group)  |
 | Document | [Document header overview](#document)  |
-| Company | [Company header overview](#company)  |
-| Company | [Company header overview](#company)  |
-| Plan | [Plan header overview](#plan)  |
-| Plan | [Plan header overview](#plan)  |
 
 For more information on objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Benefits of the new object headers
 
-Consider the following benefits as you view the new object headers in *the new Adobe Workfront experience*:
+Consider the following benefits as you view the new object headers in `the new Adobe Workfront experience`:
 
 * Streamlined design which is cohesive for all objects
 * Improved breadcrumbs allow for a deeper hierarchy of objects to display at one time
@@ -53,7 +45,7 @@ Consider the following benefits as you view the new object headers in *the new A
 
 ## Access the header of an object
 
-Accessing the header for an object in *Workfront* is identical for all the objects that have it.
+Accessing the header for an object in `Workfront` is identical for all the objects that have it.
 
 For example, to access the header of a project:
 
@@ -87,16 +79,7 @@ The project header displays the following information:
   <tr> 
    <td role="rowheader">Breadcrumb with parent objects</td> 
    <td>If the project is associated with a program or a portfolio, they display in the breadcrumb in the upper-left corner of the header. Clicking the name of the parent opens that parent object.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Object icon </td> 
-    <td> <p>The purple Project icon <img src="assets/nwe-projects-icon.png"> displays to the left of the project name.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object icon </td> 
-   <td> <p>The purple Project icon <img src="assets/nwe-projects-icon.png"> displays to the left of the project name.</p> </td> 
-  </tr> 
+  </tr> Object icon The purple Project icon displays to the left of the project name. 
   <tr> 
    <td role="rowheader">Name of the project</td> 
    <td>You can edit the project name in the header.</td> 
@@ -155,16 +138,7 @@ The task header includes the following information:
   <tr> 
    <td role="rowheader">Breadcrumb with parent objects</td> 
    <td> <p>The parent objects of the task display in the breadcrumb. Clicking the name of the parent opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Object icon </td> 
-    <td> <p>The green Task icon <img src="assets/nwe-tasks-icon.png"> displays to the left of the task name.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object icon </td> 
-   <td> <p>The green Task icon <img src="assets/nwe-tasks-icon.png"> displays to the left of the task name.</p> </td> 
-  </tr> 
+  </tr> Object icon The green Task icon displays to the left of the task name. 
   <tr> 
    <td role="rowheader">Name of the task</td> 
    <td>You can edit the task name in the header.</td> 
@@ -561,16 +535,9 @@ The user header displays the following information:
   <tr> 
    <td role="rowheader">Name of the user and title</td> 
    <td> <p> The title of the user displays in all capital letters above their name. You cannot edit the name of the user in the header.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Name of the object type</td> 
-    <td> <p>The name of the object type does not display.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Name of the object type</td> 
-   <td> <p>The name of the object type does not display.</p> </td> 
-  </tr> 
+  </tr> <!--
+   Name of the object type The name of the object type does not display.
+  --> 
   <tr> 
    <td role="rowheader">Activation status</td> 
    <td> <p>If the user has been deactivated, all text and the profile picture in the header is dimmed.</p> </td> 
@@ -822,7 +789,7 @@ The company header displays the following information:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Plans are the objects of the *Workfront Scenario Planner*. For information about the *Scenario Planner*, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+Plans are the objects of the `Workfront Scenario Planner`. For information about the `Scenario Planner`, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
 The plan header displays the following information:
 

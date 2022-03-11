@@ -5,14 +5,14 @@ product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-users-and-contacts
 title: Bulk edit user's Other Groups
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: When bulk editing I attempted to add a single Other Groups to numerous users. After Saving Changes, all the existing Other Groups were removed and only the new Other Group remained.
 ---
 
 # Bulk edit user's Other Groups
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problem:&nbsp;
 

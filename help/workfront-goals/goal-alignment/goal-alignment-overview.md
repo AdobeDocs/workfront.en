@@ -7,24 +7,18 @@ title: Goal alignment overview in Adobe Workfront Goals
 description: Your organization must have the following to use the functionality described in this article:
 ---
 
-# Goal alignment overview in *Adobe Workfront Goals*
+# Goal alignment overview in `Adobe Workfront Goals`
 
 Your organization must have the following to use the functionality described in this article:
 
-* A *Pro* or higher [*Adobe Workfront* plan](https://www.workfront.com/plans). 
-* An *Adobe Workfront Goals* license in addition to a *Workfront* license.
+* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
+* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
 
-  Contact your *Workfront* account manager to learn about a *Workfront Goals* license.
+  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
 
-  *Workfront Goals* is available only in *the new Adobe Workfront experience*.
+  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
 
-For additional information about access to *Workfront Goals*, see 
-
-<!--
-<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>
--->
-
-[Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
 Goal alignment is an important part of goal management. You can ensure everyone in your organization is on the same page about what must be achieved to drive strategy forward by aligning their goals to each other and to the organizational goals of teams, groups, and the company.
 
 After the top level goals are established and reviewed, direct reports and team members must then create more focused goals that cascade from the top level. The scope of these goals should be more narrow and should take into consideration the individual who is designated as responsible for the goal and their scope of influence. The goal should answer the question of what they and their team must achieve to fulfill the parent goal to which it is aligned.
@@ -59,23 +53,8 @@ When you align goals to one another, one goal becomes the parent goal and the ot
 Consider the following when working with children and parent goals:
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>In the Production environment, the following time period restrictions exist: &nbsp;&nbsp;</p>
-  <ul>
-  <li>You can align goals that only belong to the same or to a future time period.</li>
-  <li>The child goal must end earlier or on the same day as the parent goal. </li>
-  <li>You cannot align a goal to a past goal. </li>
-  <li>You can replace an existing parent goal with another goal, even if the child goal or the parent goals are in the past. </li>
-  <li>You can align a quarterly goal to an annual goal, but not a yearly goal to a quarterly goal. </li>
-  </ul> </li>
+  In the Production environment, the following time period restrictions exist: You can align goals that only belong to the same or to a future time period. The child goal must end earlier or on the same day as the parent goal. You cannot align a goal to a past goal. You can replace an existing parent goal with another goal, even if the child goal or the parent goals are in the past. You can align a quarterly goal to an annual goal, but not a yearly goal to a quarterly goal.
   -->
-
-* In the Production environment, the following time period restrictions exist: &nbsp;&nbsp;
-
-  * You can align goals that only belong to the same or to a future time period.
-  * The child goal must end earlier or on the same day as the parent goal. 
-  * You cannot align a goal to a past goal. 
-  * You can replace an existing parent goal with another goal, even if the child goal or the parent goals are in the past. 
-  * You can align a quarterly goal to an annual goal, but not a yearly goal to a quarterly goal.
 
 * You can align multiple children goals to the same parent goal. 
 * One child goal can only have one parent goal. 
@@ -86,15 +65,15 @@ Consider the following when working with children and parent goals:
 
 ## Locate aligned goals
 
-After aligning goals they are part of the same hierarchy and are visible in various areas of *Workfront*:&nbsp;
+After aligning goals they are part of the same hierarchy and are visible in various areas of `Workfront`:&nbsp;
 
-* You can view children and parent goals in the following areas of *Workfront Goals*:
+* You can view children and parent goals in the following areas of `Workfront Goals`:
 
   * The Goal&nbsp;Details panel
-  * *Goal List*
-  * *Goal Alignment section*
-  * *Check-in* section
-  * *Pulse* section
+  * `Goal List`
+  * `Goal Alignment section`
+  * `Check-in` section
+  * `Pulse` section
 
 * You can view all the parent goals of a goal in the Goal Hierarchy field of a Project or Goal report.
 

@@ -7,13 +7,11 @@ title: Create goals in the new Adobe Workfront experience
 description: IS THIS STILL NEEDED OR IS THE CREATE AND ACTIVATE (NEW) ARTICLE ENOUGH??
 ---
 
-# Create goals in *the new Adobe Workfront experience*
+# Create goals in `the new Adobe Workfront experience`
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">IS THIS STILL NEEDED OR IS THE CREATE AND ACTIVATE (NEW) ARTICLE ENOUGH??</p>
--->
-
 IS THIS STILL NEEDED OR IS THE CREATE AND ACTIVATE (NEW) ARTICLE ENOUGH??
+-->
 
 To add a new Objective, click the `+Add Objective` button in the top navigation bar.
 

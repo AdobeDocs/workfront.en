@@ -5,16 +5,16 @@ product: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
 title: The Dashboard in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: The Dashboard is the first page you see when you log in to your Workfront Proof account. It summarizes the activity in your Workfront Proof account and provides quick links to other sections and functions within Workfront Proof.
 ---
 
-# The Dashboard in *Workfront Proof*
+# The Dashboard in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-The Dashboard is the first page you see when you log in to your *Workfront Proof* account. It summarizes the activity in your *Workfront Proof* account and provides quick links to other sections and functions within *Workfront Proof*.
+The Dashboard is the first page you see when you log in to your `Workfront Proof` account. It summarizes the activity in your `Workfront Proof` account and provides quick links to other sections and functions within `Workfront Proof`.
 
 The dashboard contains the following:
 
@@ -38,7 +38,7 @@ The dashboard contains the following:
 
 You can brand your account to show your own organization's logo, colors, custom links, and more. For more information, see [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)."
 
-If you don't brand your account, the *Workfront Proof* logo and standard colors appear.
+If you don't brand your account, the `Workfront Proof` logo and standard colors appear.
 
 ## Header menu
 
@@ -113,7 +113,7 @@ The Edit tags menu (1) lets you:
 
 ## Move to
 
-This function lets you move *proofs* and files to one of your folders. To do this:
+This function lets you move `proofs` and files to one of your folders. To do this:
 
 <ol> 
  <li value="1">Select the tick box for the relevant item(s).</li> 
@@ -125,10 +125,10 @@ This function lets you move *proofs* and files to one of your folders. To do thi
 
 In the More actions menu (6) you can perform the following actions:
 
-* Lock (*proofs* only) 
+* Lock ( `proofs` only) 
 * Activate 
-* Archive (*proofs* only) 
-* Unarchive (*proofs* only) 
+* Archive ( `proofs` only) 
+* Unarchive ( `proofs` only) 
 * Change owner
 
 ![](assets/more-actions-350x303.png)
@@ -180,7 +180,7 @@ The Welcome section has the following useful links:
 
 In this section you'll find the quick links to:
 
-* Create a new *proof* Upload a file 
+* Create a new `proof` Upload a file 
 * Create a new folder 
 * Add a new user 
 * Change your password
@@ -188,16 +188,16 @@ In this section you'll find the quick links to:
 The overview section also displays pre-filtered information. These are:
 
 <ul> 
- <li>Proofs to manage - total number of active <em>proofs</em> owned by you and delegated to you </li> 
- <li> <p>Proofs awaiting decision - total number of active <em>proofs</em> that require your decisions </p> <p> <img src="assets/dashboard-overview-350x169.png" style="width: 350;height: 169;"> </p> </li> 
+ <li>Proofs to manage - total number of active <span>proofs</span> owned by you and delegated to you </li> 
+ <li> <p>Proofs awaiting decision - total number of active <span>proofs</span> that require your decisions </p> <p> <img src="assets/dashboard-overview-350x169.png" style="width: 350;height: 169;"> </p> </li> 
 </ul>
 
-Here you can see right away how many *proofs* require immediate action from you or from your reviewers:
+Here you can see right away how many `proofs` require immediate action from you or from your reviewers:
 
 * Total 
-* On time - *proofs* that have no deadline or there is more than 24 hours until the deadline 
-* At risk - *proofs* with the deadline less than 24 hours 
-* Late - *proofs* with not all actions completed and passed deadline
+* On time - `proofs` that have no deadline or there is more than 24 hours until the deadline 
+* At risk - `proofs` with the deadline less than 24 hours 
+* Late - `proofs` with not all actions completed and passed deadline
 
 >[!NOTE]
 >
@@ -205,9 +205,9 @@ Here you can see right away how many *proofs* require immediate action from you 
 
 ### Recently accessed items
 
-The Recently accessed items section shows you the items that have been recently accessed by you. This includes the items you own, the items you have permissions to see as per your profile permissions and the items that were shared with you. This section will include only the items that you yourself have opened (either via the *Workfront Proof* Viewer or via the Proof details page).
+The Recently accessed items section shows you the items that have been recently accessed by you. This includes the items you own, the items you have permissions to see as per your profile permissions and the items that were shared with you. This section will include only the items that you yourself have opened (either via the `Workfront Proof` Viewer or via the Proof details page).
 
-The Recently accessed items section shows you the following information about recent *proofs* and files:
+The Recently accessed items section shows you the following information about recent `proofs` and files:
 
 * Name 
 * Progress 
@@ -215,7 +215,7 @@ The Recently accessed items section shows you the following information about re
 * Decision 
 * Owner
 
-Summary (this information will be collapsed by default - click the expand/collapse button to the left of the relevant *proof* to open the *proof* summary)
+Summary (this information will be collapsed by default - click the expand/collapse button to the left of the relevant `proof` to open the `proof` summary)
 
 Actions menu
 
@@ -223,11 +223,11 @@ See Page layouts for the different layout options available for this section.
 
 >[!NOTE]
 >
->Clicking on the *proof* name in Recently accessed items section will take you straight to the *proof* in the Proof Viewer.
+>Clicking on the `proof` name in Recently accessed items section will take you straight to the `proof` in the Proof Viewer.
 
 To access the Proof details page:
 
-1. Click on the `Actions` menu (1) available to the right of the *proof* name.
+1. Click on the `Actions` menu (1) available to the right of the `proof` name.
 
 1. Select `View proof details` (2) from the menu.
 
@@ -245,9 +245,9 @@ You can also go to an item's Details page by clicking opening the item's Actions
 
 >[!NOTE]
 >
->Clicking on the name of the *proof* in the Recent Activity section will open the *proof* in the Proof Viewer.
+>Clicking on the name of the `proof` in the Recent Activity section will open the `proof` in the Proof Viewer.
 
-To go to the Proof details page of that *proof*:
+To go to the Proof details page of that `proof`:
 
 <ol> 
  <li value="1">Click on the <span class="bold">Actions</span> menu (1). </li> 

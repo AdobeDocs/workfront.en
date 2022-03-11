@@ -11,21 +11,19 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Airtable modules
 
-*Adobe Workfront Fusion* requires an *Adobe Workfront Fusion* license in addition to an *Adobe Workfront* license.
-In a *Adobe Workfront Fusion* scenario, you can connect your *Airtable* account to multiple third-party applications and services.
+`Adobe Workfront Fusion` requires an `Adobe Workfront Fusion` license in addition to an `Adobe Workfront` license.
+In a `Adobe Workfront Fusion` scenario, you can connect your `Airtable` account to multiple third-party applications and services.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial <a href="../../workfront-fusion/tutorials/sync-airtable-google-contacts.md" class="MCXref xref">Sync Airtable and Google contacts</a>.</p>
+For more information, see the tutorial Sync Airtable and Google contacts.
 -->
 
-For more information, see the tutorial [Sync Airtable and Google contacts](../../workfront-fusion/tutorials/sync-airtable-google-contacts.md).
-
-## Connect Airtable to *Workfront Fusion*
+## Connect Airtable to `Workfront Fusion`
 
 <ol> 
  <li value="1">Log in to your Airtable account.</li> 
  <li value="2"> <p>Open your account overview and generate the API key.</p> </li> 
- <li value="3">Open <em>Workfront Fusion</em> and the <span class="bold">Create a connection</span> dialog of the desired module.</li> 
+ <li value="3">Open <span>Workfront Fusion</span> and the <span class="bold">Create a connection</span> dialog of the desired module.</li> 
  <li value="4"> <p>Enter the generated API key in the <span class="bold">API</span> token field.</p> <p> <img src="assets/airtable-create-a-connection-350x263.png" style="width: 350;height: 263;"> </p> </li> 
  <li value="5">Click the <span class="bold">Continue</span> button. The connection is now established.</li> 
 </ol>
@@ -43,39 +41,13 @@ For more information, see the tutorial [Sync Airtable and Google contacts](../..
 
 #### Create a Record
 
-This action module *creates a new record*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Airtable</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Airtable</em> </MadCap:conditionalText>`.
+This action module `creates a new record`.
 
 You specify the data you want in the record and where you want it to be stored.
 
-The module returns any standard fields associated with the record
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-or records
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  or records </MadCap:conditionalText>`, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Airtable</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Airtable</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -83,7 +55,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Airtable</em> account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p style="font-weight: bold;">Record</p> </td> 
@@ -121,39 +93,13 @@ When you are configuring this module, the following fields display
 
 #### Delete a Record
 
-This action module *deletes a particular record*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Airtable</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Airtable</em> </MadCap:conditionalText>`.
+This action module `deletes a particular record`.
 
 You specify the ID and locates of the record.
 
-The module returns the ID of the 
+The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em> </MadCap:conditionalText>` *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Airtable</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Airtable</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -161,7 +107,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Airtable</em> account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -169,7 +115,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Record ID</td> 
-   <td> <p><![CDATA[	]]>Enter or map the unique <em>Airtable</em> ID of the <em>record</em> that you want the module to <em>delete</em>. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
+   <td> <p><![CDATA[	]]>Enter or map the unique <span>Airtable</span> ID of the <span>record</span> that you want the module to <span>delete</span>. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -184,7 +130,7 @@ This action module retrieves record details.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Airtable</em> account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -203,27 +149,11 @@ This action module retrieves record details.
 
 #### Search Records
 
-This search module looks for *records in an object* in *Airtable* that match the search query you specify.
+This search module looks for `records in an object` in `Airtable` that match the search query you specify.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-The module
-<em>returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses</em>.
-</MadCap:conditionalText>
--->
+You can map `this information` in subsequent modules in the scenario.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  The module  <em>returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses</em>. </MadCap:conditionalText>` You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Airtable</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Airtable</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -231,7 +161,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Airtable</em> account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -251,46 +181,20 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Max Records</td> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p><![CDATA[	]]>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Update a Record
 
-This action module *updates a particular record*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Airtable</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Airtable</em> </MadCap:conditionalText>`.
+This action module `updates a particular record`.
 
 You specify the ID of the record and the new data you want it to contain.
 
-The module returns any standard fields associated with the record
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-or records
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  or records </MadCap:conditionalText>`, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Airtable</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  , along with any other available  <em>Airtable</em> fields, depending on the connection and options you choose </MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="15"> 
  <col> 
@@ -302,13 +206,13 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td>Record ID </td> 
-   <td> <p>Enter or map the unique <em>Airtable</em> ID of the <em>record</em> that you want the module to <em>update</em>. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
+   <td> <p>Enter or map the unique <span>Airtable</span> ID of the <span>record</span> that you want the module to <span>update</span>. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
   </tr> 
   <tr> 
    <td> <p style="font-weight: bold;">Record</p> </td> 
-   <td> <p>Enter the values for the new record.</p> <p>In order to delete the content of the field, use the erase function. </p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p> <p>Field types (via airtable.com/api):</p> 
+   <td> <p>Enter the values for the new record.</p> <p>In order to delete the content of the field, use the erase function. </p> <!--
+     screenshot
+    --> <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><span class="bold">Text</span>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><span class="bold">Long text</span>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -342,16 +246,7 @@ When you are configuring this module, the following fields display
 
 #### Watch Records
 
-This trigger module executes a scenario when *a new record is added or updated in the table*
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Airtable</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Airtable</em> </MadCap:conditionalText>`. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario.
+This trigger module executes a scenario when `a new record is added or updated in the table`. The module `returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses`. You can map `this information` in subsequent modules in the scenario.
 
 >[!NOTE]
 >
@@ -363,7 +258,7 @@ in
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your <em>Airtable</em> account to <em>Workfront Fusion</em>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Airtable</span> account to <span>Workfront Fusion</span>, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -379,7 +274,7 @@ in
   </tr> 
   <tr> 
    <td>Max Records</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>watch</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>watch</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

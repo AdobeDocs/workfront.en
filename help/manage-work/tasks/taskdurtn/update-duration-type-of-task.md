@@ -19,16 +19,16 @@ You must have the following to change the Duration&nbsp;Type of a task:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following to change the Duration&nbsp;Type of a task:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Update the Duration Type of a task
 
@@ -49,21 +49,9 @@ In addition to updating the Duration&nbsp;Type of a task as described in this ar
 To update the Duration&nbsp;Type of a task:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Main Menu</span> >&nbsp;<span class="bold">Projects</span>, then click a project to access it.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Main Menu</span> >&nbsp;<span class="bold">Projects</span>, then click a project to access it.</p> </li> 
- <li value="2"> <p>Click the <span class="bold">Tasks</span> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      section in the left panel 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     section in the left panel 
-   </MadCap:conditionalText>. </p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Task Details</span> in the left panel, then in the Overview area click <span class="bold">Duration Type</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Task Details</span> in the left panel, then in the Overview area click <span class="bold">Duration Type</span>. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/duration-type-all-options-on-overview-350x155.png" style="width: 350;height: 155;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/duration-type-all-options-on-overview-350x155.png" style="width: 350;height: 155;"> </p> </li> 
+ <li value="1"> Click Main Menu > Projects, then click a project to access it. </li> 
+ <li value="2"> <p>Click the <span class="bold">Tasks</span> section in the left panel. </p> </li> 
+ <li value="3"> Click Task Details in the left panel, then in the Overview area click Duration Type.  </li> 
  <li value="4"> <p>Select from the following options</p> 
   <table cellspacing="0"> 
    <col> 
@@ -87,9 +75,7 @@ To update the Duration&nbsp;Type of a task:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="5">Click <span class="bold">Save</span>&nbsp;<draft-comment>
-   <span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Changes</span>
-  </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Changes</span>.</li> 
+ <li value="5">Click <span class="bold">Save</span>&nbsp;Changes.</li> 
 </ol>
 
 &nbsp;

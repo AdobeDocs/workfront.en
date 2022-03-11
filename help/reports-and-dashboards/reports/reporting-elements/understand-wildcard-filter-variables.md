@@ -9,10 +9,10 @@ description: Adobe Workfront supports filter variables or wildcards when buildin
 
 # Wildcard filter variables
 
-*Adobe Workfront* supports filter variables or wildcards when building the following elements:
+`Adobe Workfront` supports filter variables or wildcards when building the following elements:
 
 <ul> 
- <li> <p>Filters in lists, reports, and the Resource Planner</p> <p>For information about <em>Workfront</em> filters, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li> 
+ <li> <p>Filters in lists, reports, and the Resource Planner</p> <p>For information about <span>Workfront</span> filters, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li> 
  <li> <p>Advanced searches</p> <p>For information about advanced searches, see the section <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search" class="MCXref xref">Use Advanced Search</a> in the article <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md" class="MCXref xref">Search Adobe Workfront</a>.</p> </li> 
  <li> <p>Calculated columns in views</p> </li> 
  <li> <p>Conditional formatting in views</p> <p>For information about conditional formatting, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in Views</a>.</p> </li> 
@@ -24,11 +24,11 @@ description: Adobe Workfront supports filter variables or wildcards when buildin
 By using wildcards, you can reference a generic user or date instead of a specific user or date. In this way, the elements you build are dynamic and the results change depending on the context in which they are used.  
 For example, filtering for $$USER.homeGroupID in a project report retrieves only projects associated with the Home Group of the user who is logged in.
 
-You can use date-based or user-based filter variables in *Workfront*.
+You can use date-based or user-based filter variables in `Workfront`.
 
 ## Date-based variables
 
-The *Workfront* date-based wildcard options can be used in combination with any date filter attribute.
+The `Workfront` date-based wildcard options can be used in combination with any date filter attribute.
 
 For information about adding a date-based wildcard to a report, see the article [Use date-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
@@ -92,7 +92,7 @@ $$NOW+2h
 
 For information about adding a user-based wildcard to a report, see the article [Use user-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-*Workfront* provides the following user-based variables:
+`Workfront` provides the following user-based variables:
 
 <table cellspacing="0"> 
  <col> 
@@ -100,7 +100,7 @@ For information about adding a user-based wildcard to a report, see the article 
  <tbody> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><span class="bold">$$USER.ID</span> </p> </td> 
-   <td> <p>The most common user-based variable is $$USER.ID. This always returns the ID of the logged in user. This is the ID used to identify which user created each object and their work assignments.</p> <p>When used in reports, this wildcard decreases the number of reports that you need to create in your system. You can create one report and share it with several users, and the results change based on the user who is logged in and looking at the report.</p> <p>For example, to build a report for all issues assigned to the user who is logged in, you can use the following rule in an issue filter: <em>Assigned To ID Equals $$USER.ID</em>.</p> <p><em>Workfront</em> uses this variable in the following built-in filters:</p> 
+   <td> <p>The most common user-based variable is $$USER.ID. This always returns the ID of the logged in user. This is the ID used to identify which user created each object and their work assignments.</p> <p>When used in reports, this wildcard decreases the number of reports that you need to create in your system. You can create one report and share it with several users, and the results change based on the user who is logged in and looking at the report.</p> <p>For example, to build a report for all issues assigned to the user who is logged in, you can use the following rule in an issue filter: <em>Assigned To ID Equals $$USER.ID</em>.</p> <p><span>Workfront</span> uses this variable in the following built-in filters:</p> 
     <ul> 
      <li>My Reports</li> 
      <li>My Projects</li> 

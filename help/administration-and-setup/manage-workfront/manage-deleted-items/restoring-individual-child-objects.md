@@ -9,22 +9,22 @@ description: This document describes how you can get help recovering individual 
 
 # Restoring individual child objects
 
-This document describes how you can get help recovering individual child objects that have been deleted from your *Adobe Workfront* Production or Preview environments fewer than 30 days previously.
+This document describes how you can get help recovering individual child objects that have been deleted from your `Adobe Workfront` Production or Preview environments fewer than 30 days previously.
 
-A *Workfront administrator* can restore projects, tasks, issues, and documents in each *Workfront* instance, as described in [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). But only the *Workfront* Database Team can restore a objects such as tasks, issues, documents, custom forms, hours, and notes independently of their parent object.
+A `Workfront administrator` can restore projects, tasks, issues, and documents in each `Workfront` instance, as described in [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). But only the `Workfront` Database Team can restore a objects such as tasks, issues, documents, custom forms, hours, and notes independently of their parent object.
 
 Data from your live environment is available in the Preview Sandbox for up to 7 days. This means you can export the standalone data from the Preview Sandbox environment using the following methods:
 
 * Kick-Starts 
 * Building a report and exporting the results
 
-For more information about exporting data from *Workfront*, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+For more information about exporting data from `Workfront`, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 You can import the exported data in the following ways:
 
 * Manually, if you are using exported reports 
 * In bulk, if you are using Kick-Starts  
-  For more information about importing data into *Workfront* using Kick-Starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  For more information about importing data into `Workfront` using Kick-Starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 The Preview Sandbox environment is refreshed during our maintenance windows over the weekend.
 
@@ -32,7 +32,7 @@ For more information about the windows of maintenance for the Preview Sandbox en
 
 >[!IMPORTANT]
 >
->Documents are an exception to these methods of restoration. You can manually download them from the Preview Environment, and re-upload them into the Production environment. If you want to download and upload documents in bulk, you will need to request a data restore from *Workfront*.&nbsp;
+>Documents are an exception to these methods of restoration. You can manually download them from the Preview Environment, and re-upload them into the Production environment. If you want to download and upload documents in bulk, you will need to request a data restore from `Workfront`.&nbsp;
 
 ## Information needed for a data restore
 

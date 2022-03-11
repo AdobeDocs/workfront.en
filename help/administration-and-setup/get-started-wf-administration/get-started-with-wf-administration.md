@@ -8,7 +8,7 @@ title: Get started with Adobe Workfront administration
 description: This section contains the following articles:
 ---
 
-# Get started with *Adobe Workfront* administration
+# Get started with `Adobe Workfront` administration
 
 This section contains the following articles:
 

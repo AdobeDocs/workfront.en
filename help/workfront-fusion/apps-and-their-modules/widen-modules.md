@@ -2,7 +2,7 @@
 
 # Widen modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your *Widen* account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your `Widen` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -17,51 +17,31 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use Widen modules, you must have a Widen account.
 
-## Connect Widen to *Workfront Fusion*
+## Connect Widen to `Workfront Fusion`
 
 You can create a connection to your Widen account directly from inside a Widen module.
 
@@ -72,7 +52,7 @@ You can create a connection to your Widen account directly from inside a Widen m
 
 ## Widen modules and their fields
 
-When you configure *Widen* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Widen* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Widen` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Widen` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -94,7 +74,7 @@ This trigger module starts a scenario when an asset is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Event type</td> 
@@ -110,7 +90,7 @@ This trigger module starts a scenario when an asset is created or updated.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>asset</em>s you want the module to <em>work with</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>asset</span>s you want the module to <span>work with</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,26 +107,9 @@ This trigger module starts a scenario when an asset is created or updated.
 
 #### Custom API Call
 
-This action module lets you make a custom authenticated call to the *Widen* API
+This action module lets you make a custom authenticated call to the `Widen` API. This way, you can create a data flow automation that can't be accomplished by the other `Widen` modules.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-without having to think through authentication
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  without having to think through authentication</MadCap:conditionalText>`. This way, you can create a data flow automation that can't be accomplished by the other *Widen* modules.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>[Fusion app]</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>[Fusion app]</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -154,7 +117,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API&nbsp;Version</td> 
@@ -196,7 +159,7 @@ This action module retrieves an individual asset by its unique ID.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -223,7 +186,7 @@ This action module adds one or more assets to collections.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collections ID</td> 
@@ -245,7 +208,7 @@ This action module adds one or more assets to collections.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>asset</em>s you want the module to <em>work with</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>asset</span>s you want the module to <span>work with</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -260,7 +223,7 @@ This action module removes one or more assets from collections.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collections ID</td> 
@@ -282,7 +245,7 @@ This action module removes one or more assets from collections.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>asset</em>s you want the module to <em>work with</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>asset</span>s you want the module to <span>work with</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,7 +260,7 @@ This action module updates the metadata fields of an asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -313,7 +276,7 @@ This action module updates the metadata fields of an asset.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>asset</em>s you want the module to <em>work with</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>asset</span>s you want the module to <span>work with</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -328,7 +291,7 @@ This action module downloads an asset from your Widen account.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -347,7 +310,7 @@ This action module uploads a file into your Widen account.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Upload Profile</td> 
@@ -391,7 +354,7 @@ This action module retrieves a list of assets within a collection.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collection ID</td> 
@@ -403,7 +366,7 @@ This action module retrieves a list of assets within a collection.
   </tr> 
   <tr> 
    <td role="rowheader">Max</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sort By</td> 
@@ -430,7 +393,7 @@ This search module retrieves a list of assets that match the specific search cri
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Search query</td> 
@@ -458,7 +421,7 @@ This search module retrieves a list of assets that match the specific search cri
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Offset</td> 

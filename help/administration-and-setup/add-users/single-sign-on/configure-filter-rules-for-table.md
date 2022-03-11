@@ -5,10 +5,8 @@
 After you add a table to a report, you can set up filter rules to limit the information that displays in the table. With the right access, you can also modify a table in an existing report at any time.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">[insert more in-depth info here on filters rules, and/or, modifiers, etc.]</p>
--->
-
 [insert more in-depth info here on filters rules, and/or, modifiers, etc.]
+-->
 
 There are 3 components in a filter rule:
 
@@ -50,39 +48,29 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Workfront</em> license*</td> 
+   <td role="rowheader"><span>Workfront</span> license*</td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to create Reports, Calendars, and Dashboards</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to create Reports, Calendars, and Dashboards</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-Before you begin, you must enroll in the *Reporting Canvas* beta program.
+Before you begin, you must enroll in the `Reporting Canvas` beta program.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see [link to Beta enrollment info].
-</MadCap:conditionalText>
 -->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  For more information, see [link to Beta enrollment info].</MadCap:conditionalText>`
-
-<!--
-<p data-mc-conditions="SnippetConditions.HIDE">You also need to add a table to a report and add columns to the table. For more information see <a href="../../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-table.md" class="MCXref xref">Add or edit a report table in Reporting Canvas</a>.</p>
--->
-
-You also need to add a table to a report and add columns to the table. For more information see [Add or edit a report table in Reporting Canvas](../../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-table.md).
 
 ## Configure filter rules for a table
 
@@ -143,8 +131,8 @@ You also need to add a table to a report and add columns to the table. For more 
     <tr> 
      <td role="rowheader"><span class="bold">Contains</span> </td> 
      <td> <p>This searches for the specified text throughout an entire text string.</p> <p>For example, using "Contains Inf" captures anything with "Inf" or "inf" in it, such as the word "Infinity".</p> <note type="note">
-       <em>Adobe Workfront</em> searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase "new project" in the name, 
-       <em>Workfront</em> does not display projects that have just "new" or just "project", or "new main project" in the name. The filter finds only projects with the exact phrase "new project" in the name.
+       <span>Adobe Workfront</span> searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase "new project" in the name, 
+       <span>Workfront</span> does not display projects that have just "new" or just "project", or "new main project" in the name. The filter finds only projects with the exact phrase "new project" in the name.
       </note> </td> 
     </tr> 
     <tr> 
@@ -189,9 +177,7 @@ You also need to add a table to a report and add columns to the table. For more 
 This is coming, One of the 3 dimmed options in the right panel when you edit. Will get rid of need for prompts.
 
 <ol> 
- <li value="1"> <p>Go to an existing report, click the <span class="bold">More Menu</span> icon <img src="assets/more-icon.png"> in the report header, then select <span class="bold">Edit</span>.</p> </li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>&nbsp;</p> </li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>&nbsp;</p> </li> 
+ <li value="1"> <p>Go to an existing report, click the <span class="bold">More Menu</span> icon <img src="assets/more-icon.png"> in the report header, then select <span class="bold">Edit</span>.</p> </li> <!--
+ --> 
 </ol>
 

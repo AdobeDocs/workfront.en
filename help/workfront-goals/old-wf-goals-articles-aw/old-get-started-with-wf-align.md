@@ -1,47 +1,39 @@
 
 
-# Get started with *Workfront Goals*
+# Get started with `Workfront Goals`
 
 Your organization must have the following to use the functionality described in this article:
 
-* A *Pro* or higher [*Adobe Workfront* plan](https://www.workfront.com/plans). 
-* An *Adobe Workfront Goals* license in addition to a *Workfront* license.
+* A `Pro` or higher [ `Adobe Workfront` plan](https://www.workfront.com/plans). 
+* An `Adobe Workfront Goals` license in addition to a `Workfront` license.
 
-  Contact your *Workfront* account manager to learn about a *Workfront Goals* license.
+  Contact your `Workfront` account manager to learn about a `Workfront Goals` license.
 
-  *Workfront Goals* is available only in *the new Adobe Workfront experience*.
+  `Workfront Goals` is available only in `the new Adobe Workfront experience`.
 
-For additional information about access to *Workfront Goals*, see 
-
-<!--
-<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>
--->
-
-[Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to `Workfront Goals`, see Requirements to use Adobe Workfront Goals.
 
 To guarantee that your organization moves forward fastest, you must ensure that work execution is aligned with company strategy.
 
-*Workfront Goals* connects strategy, goals, and work to drive execution of organizational outputs and deliver measurable business outcomes. 
-This article offers an overview of how your organization can start using *Workfront Goals* to create goals that drive the execution of your strategy. For information about best practices for formulating goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md). For information about locating *Workfront Goals* and accessing individual goals, see [Access and open goals in Adobe Workfront Goals](../../workfront-goals/goal-management/access-goals-in-wf-goals.md).
+`Workfront Goals` connects strategy, goals, and work to drive execution of organizational outputs and deliver measurable business outcomes. 
+This article offers an overview of how your organization can start using `Workfront Goals` to create goals that drive the execution of your strategy. For information about best practices for formulating goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md). For information about locating `Workfront Goals` and accessing individual goals, see [Access and open goals in Adobe Workfront Goals](../../workfront-goals/goal-management/access-goals-in-wf-goals.md).
 
-## Before you start with *Workfront Goals*
+## Before you start with `Workfront Goals`
 
-Consider the following before you start using *Workfront Goals*:
+Consider the following before you start using `Workfront Goals`:
 
-* You must be an active *Workfront* user to be able to use *Workfront Goals*. 
+* You must be an active `Workfront` user to be able to use `Workfront Goals`. 
 
-* Your *Workfront administrator* must give you the correct access and setup before you can access *Workfront Goals*. For information about the access needed to view *Workfront Goals*, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Your `Workfront administrator` must give you the correct access and setup before you can access `Workfront Goals`. For information about the access needed to view `Workfront Goals`, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* You can view your goals and all the goals that anyone in *Workfront* has created. 
+* You can view your goals and all the goals that anyone in `Workfront` has created. 
 
   <!--
-  <span style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(this will change with the access levels epic)</span>
+  (this will change with the access levels epic)
   -->
 
-  `(this will change with the access levels epic)`
-
 * You can view personal goals, as well as goals within your team, group, or company. 
-* Project-level goals created in the Business Case area of a project are not related to *Workfront Goals* goals.&nbsp;For information about Business Case goals, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+* Project-level goals created in the Business Case area of a project are not related to `Workfront Goals` goals.&nbsp;For information about Business Case goals, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## General recommendations for setting goals
 
@@ -54,7 +46,7 @@ Use the following guidelines when creating goals:
 * Assign goals to larger organization units, like groups and teams.&nbsp;Then, assign the results and activities to individual contributors who can ensure they are achieved. 
 * Ask individuals to propose goals that they set for themselves which are aligned with team and group goals and which ultimately contribute to achieving the overall goals of the company.
 
-## Checklist for setting goals in&nbsp;*Workfront Goals*
+## Checklist for setting goals in  `Workfront Goals`
 
 Use the following checklist when creating goals:
 
@@ -84,7 +76,7 @@ Use the following checklist when creating goals:
 
   1. Always keep the progress of your results and activities current. Review At Risk goals frequently and decide what adjustments you can make to deliver the goals on time.
 
-     You can view At Risk goals in the *Goal List*. For information about filtering for At Risk goals, see [Review in-trouble goals in Adobe Workfront Goals](../../workfront-goals/goal-management/view-in-trouble-goals.md).
+     You can view At Risk goals in the `Goal List`. For information about filtering for At Risk goals, see [Review in-trouble goals in Adobe Workfront Goals](../../workfront-goals/goal-management/view-in-trouble-goals.md).
 
 ## Recommendations for managing goals based on your role
 
@@ -102,9 +94,9 @@ If you are a manager, or a CEO, we recommend the following:
 
   For information about finding goals assigned to a specific owner, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-* Use the *Pulse* section to both review goal progress and ask for updates on current goals.
+* Use the `Pulse` section to both review goal progress and ask for updates on current goals.
 
-  For information about managing goals in the *Pulse* section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
+  For information about managing goals in the `Pulse` section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
 ### Individual contributor
 
@@ -113,7 +105,7 @@ If you are an individual contributor, we recommend the following:
 * Find the team, group, or company goal that you can align your goals to. 
 * Manage your personal goals that are at risk of not being achieved. At risk individual goals can delay the progress of group, team, or company goals that they are aligned to when they contribute to those. 
 * Check the upstream implications of your personal lagging goals and ask for help to remove the roadblocks from your goal that could prevent you from achieving your goals. 
-* Use the *Check-in* section to report progress on your goals.
+* Use the `Check-in` section to report progress on your goals.
 
-  For information about updating goals in the *Check-in* section, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  For information about updating goals in the `Check-in` section, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 

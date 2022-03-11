@@ -16,9 +16,8 @@ For information about creating a timesheet profile that generates recurring time
 >
 >* Single-use timesheets cannot be created for groups. >
 >  <!-->
->  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Making sure with Lilit that this is correct</span>>
+>  Making sure with Lilit that this is correct>
 >  -->
->  `Making sure with Lilit that this is correct`
 >* When creating a single-use timesheet, you cannot specify&nbsp;specific general hour types to include in your timesheet. All general hour types that are activated in your system display in timesheets created manually. 
 >
 >  If you want to select only certain general hour types to display in your timesheets, use a timesheet profile.&nbsp;For more information about timesheet profiles, see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
@@ -33,36 +32,27 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to timesheets. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must have administrative access to timesheets. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create a single-use timesheet
 
 To create a single-use timesheet:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Timesheets</span> in the left panel.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">All Timesheets</span> in the left panel.</li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Timesheets. Click All Timesheets in the left panel. 
  <li value="4"> Click <span class="bold">New Timesheet</span>.</li> 
  <li value="5"> <p>Specify the following information:</p> 
   <table cellspacing="0"> 
@@ -88,16 +78,7 @@ To create a single-use timesheet:
     <tr> 
      <td role="rowheader"><span class="bold">Can edit time</span> </td> 
      <td> <li> Select this option if you want to allow approvers to edit hours on the timesheet.&nbsp;</li> </td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
-      <td>You can choose to hide the Overtime box on the timesheet. This option is disabled by default.</td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions=""> 
-     <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
-     <td>You can choose to hide the Overtime box on the timesheet. This option is disabled by default.</td> 
-    </tr> 
+    </tr> Overtime You can choose to hide the Overtime box on the timesheet. This option is disabled by default. 
    </tbody> 
   </table> </li> 
  <li value="6">Click <span class="bold">Create Timesheet</span>.</li> 

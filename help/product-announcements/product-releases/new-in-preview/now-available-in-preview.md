@@ -19,134 +19,12 @@ For a list of features in the Preview environment that will release to the Produ
 Future availability in the Production environment varies by feature. After a feature is made available in the Production environment, it is listed in the article, [Now available in Production](../../../product-announcements/product-releases/new-in-preview/now-available-in-production.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>November 14, 2019</h2>
-<ul>
-<li><a href="#workfron" class="MCXref xref" xrefformat="{para}">Workfront app for iPad</a> </li>
-</ul>
-<table>
-<col>
-<tbody>
-<tr>
-<td> <h3><a name="Workfron"></a>Workfront app for iPad</h3> <p>Workfront now provides a new mobile app designed and optimized specifically for iPad. Using Workfront on the iPad gives you full visibility to your work on a single screen, allowing you to easily switch between tasks and keep your work moving forward.</p> <p>For more information about using Workfront on both iPad and iPhone, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
-<div class="workfront_plans">
-<p><span class="bold">Available in these environments:</span> </p>
-<ul>
-<li>No preview or beta availability</li>
-</ul>
-<p><span class="bold">Estimated Production release:</span> </p>
-<ul>
-<li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li>
-</ul>
-</div> </td>
-</tr>
-<tr>
-<td> <h3>Adobe Creative Cloud integration</h3> <p>&nbsp;</p> </td>
-</tr>
-<tr>
-<td> <p>&nbsp;</p> </td>
-</tr>
-</tbody>
-</table>
-</div>
+November 14, 2019 Workfront app for iPad Workfront app for iPad Workfront now provides a new mobile app designed and optimized specifically for iPad. Using Workfront on the iPad gives you full visibility to your work on a single screen, allowing you to easily switch between tasks and keep your work moving forward. For more information about using Workfront on both iPad and iPhone, see Adobe Workfront for iOS. Available in these environments: No preview or beta availability Estimated Production release: November 2019 with the 2019.4 release For more information about the 2019.4 release, see 2019.4 release overview Adobe Creative Cloud integration
 -->
-
-## November 14, 2019
-
-* [Workfront app for iPad](#workfron)
-
-<table> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <h3><a name="Workfron"></a>Workfront app for iPad</h3> <p>Workfront now provides a new mobile app designed and optimized specifically for iPad. Using Workfront on the iPad gives you full visibility to your work on a single screen, allowing you to easily switch between tasks and keep your work moving forward.</p> <p>For more information about using Workfront on both iPad and iPhone, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p> 
-    <div class="workfront_plans"> 
-     <p><span class="bold">Available in these environments:</span> </p> 
-     <ul> 
-      <li>No preview or beta availability</li> 
-     </ul> 
-     <p><span class="bold">Estimated Production release:</span> </p> 
-     <ul> 
-      <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
-     </ul> 
-    </div> </td> 
-  </tr> 
-  <tr> 
-   <td> <h3>Adobe Creative Cloud integration</h3> <p>&nbsp;</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>&nbsp;</p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>October 25, 2019</h2>
-<ul>
-<li><a href="#mobile" class="MCXref xref" xrefformat="{para}">Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser</a> </li>
-</ul>
-<table>
-<col>
-<tbody>
-<tr>
-<td> <h3><a name="Mobile"></a>Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser</h3> <p>Previously, this was available only on the iPhone.</p> <p>For more information about the features available when using Workfront on the iPad, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
-<div class="workfront_plans">
-<p><span class="bold">Available in these environments:</span> </p>
-<ul>
-<li>Android Beta app</li>
-</ul>
-<p><span class="bold">Estimated Production release:</span> </p>
-<ul>
-<li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li>
-</ul>
-</div> <p><iframe class="vimeo-player_0" src="assets/365346737?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/365346737/5bd7c8c883" target="_blank">View this video in full-screen mode.</a> </p> </td>
-</tr>
-<tr>
-<td> <h3>Access existing Favorites and add new Favorites on mobile</h3> <p>You can now access the Favorites menu on the Workfront mobile app on both iOS and Android devices. You can access existing items from the Favorites menu and add new items to the Favorites menu.</p> <p>Previously, the Favorites menu was available only when accessing Workfront from a web browser.</p> <p>For more information about the features available when using Workfront on the iPad, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a> and <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Android</a>.</p> <p><iframe class="vimeo-player_0" src="assets/368288121?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> </td>
-</tr>
-<tr>
-<td> <p>&nbsp;</p> </td>
-</tr>
-<tr>
-<td> <p>&nbsp;</p> </td>
-</tr>
-</tbody>
-</table>
-</div>
+October 25, 2019 Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser Previously, this was available only on the iPhone. For more information about the features available when using Workfront on the iPad, see Adobe Workfront for iOS. Available in these environments: Android Beta app Estimated Production release: November 2019 with the 2019.4 release For more information about the 2019.4 release, see 2019.4 release overview View this video in full-screen mode. Access existing Favorites and add new Favorites on mobile You can now access the Favorites menu on the Workfront mobile app on both iOS and Android devices. You can access existing items from the Favorites menu and add new items to the Favorites menu. Previously, the Favorites menu was available only when accessing Workfront from a web browser. For more information about the features available when using Workfront on the iPad, see Adobe Workfront for iOS and Adobe Workfront for Android.
 -->
-
-## October 25, 2019
-
-* [Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser](#mobile)
-
-<table> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <h3><a name="Mobile"></a>Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser</h3> <p>Previously, this was available only on the iPhone.</p> <p>For more information about the features available when using Workfront on the iPad, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p> 
-    <div class="workfront_plans"> 
-     <p><span class="bold">Available in these environments:</span> </p> 
-     <ul> 
-      <li>Android Beta app</li> 
-     </ul> 
-     <p><span class="bold">Estimated Production release:</span> </p> 
-     <ul> 
-      <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
-     </ul> 
-    </div> <p><iframe class="vimeo-player_0" src="assets/365346737?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/365346737/5bd7c8c883" target="_blank">View this video in full-screen mode.</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <h3>Access existing Favorites and add new Favorites on mobile</h3> <p>You can now access the Favorites menu on the Workfront mobile app on both iOS and Android devices. You can access existing items from the Favorites menu and add new items to the Favorites menu.</p> <p>Previously, the Favorites menu was available only when accessing Workfront from a web browser.</p> <p>For more information about the features available when using Workfront on the iPad, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a> and <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Android</a>.</p> <p><iframe class="vimeo-player_0" src="assets/368288121?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>&nbsp;</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>&nbsp;</p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ## October 24, 2019
 
@@ -177,10 +55,9 @@ Future availability in the Production environment varies by feature. After a fea
 * [Additional object types available for Typeahead fields in a custom form](#add)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#filename" class="MCXref xref" xrefformat="{para}">Filename of new document version displays in Workfront</a> </li>
+  Filename of new document version displays in Workfront
   -->
 
-* [Filename of new document version displays in Workfront](#filename) 
 * [New tooltip added to quick filters](#quick) 
 * [Updated lists in reports](#updated2) 
 * [New design applied to lists for Template tasks, Portfolios, and more](#new4) 
@@ -188,91 +65,9 @@ Future availability in the Production environment varies by feature. After a fea
 
 <table> 
  <col> 
- <tbody> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> 
-     <div> 
-      <h3><a name="Add"></a>Additional object types available for Typeahead fields in a custom form</h3> 
-      <p>Now, when you are creating a Typeahead custom field, you can associate the following object types with the field: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</p> 
-      <p>Previously, you could associate only the User object type with a Typeahead custom field.</p> 
-      <p>For more information, see the section <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a>.</p> 
-      <div class="workfront_plans"> 
-       <p><span class="bold">Available in these environments:</span> </p> 
-       <ul> 
-        <li>Workfront Classic</li> 
-        <li>The new Workfront experience</li> 
-       </ul> 
-       <p><span class="bold">Estimated Production release:</span> </p> 
-       <p>November 2019 with the 2019.4 release</p> 
-       <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> 
-      </div> 
-      <p><iframe class="vimeo-player_0" src="assets/356667806?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-      <p><a href="https://vimeo.com/356667806/bc273fcd89" target="_blank">View this video in full-screen mode.</a> </p> 
-     </div> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> 
-    <div> 
-     <h3><a name="Add"></a>Additional object types available for Typeahead fields in a custom form</h3> 
-     <p>Now, when you are creating a Typeahead custom field, you can associate the following object types with the field: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</p> 
-     <p>Previously, you could associate only the User object type with a Typeahead custom field.</p> 
-     <p>For more information, see the section <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a>.</p> 
-     <div class="workfront_plans"> 
-      <p><span class="bold">Available in these environments:</span> </p> 
-      <ul> 
-       <li>Workfront Classic</li> 
-       <li>The new Workfront experience</li> 
-      </ul> 
-      <p><span class="bold">Estimated Production release:</span> </p> 
-      <p>November 2019 with the 2019.4 release</p> 
-      <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> 
-     </div> 
-     <p><iframe class="vimeo-player_0" src="assets/356667806?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/356667806/bc273fcd89" target="_blank">View this video in full-screen mode.</a> </p> 
-    </div> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> 
-     <div> 
-      <h3><a name="Filename"></a>Filename of new document version displays in Workfront</h3> 
-      <p>Now, when you upload a document version with a different filename than that of the existing version, the new filename displays in Workfront.</p> 
-      <p>Previously, when you added a new version with a different filename, the filename of the previous version continued to display in Workfront.</p> 
-      <p>For more information, see <a href="../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md" class="MCXref xref" xrefformat="{para}">Add documents to Adobe Workfront from your file system</a>.</p> 
-      <div class="workfront_plans"> 
-       <p><span class="bold">Available in these environments:</span> </p> 
-       <ul> 
-        <li>Workfront Classic</li> 
-        <li>The new Workfront experience</li> 
-       </ul> 
-       <p><span class="bold">Estimated Production release:</span> </p> 
-       <ul> 
-        <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
-       </ul> 
-      </div> 
-     </div> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td> 
-    <div> 
-     <h3><a name="Filename"></a>Filename of new document version displays in Workfront</h3> 
-     <p>Now, when you upload a document version with a different filename than that of the existing version, the new filename displays in Workfront.</p> 
-     <p>Previously, when you added a new version with a different filename, the filename of the previous version continued to display in Workfront.</p> 
-     <p>For more information, see <a href="../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md" class="MCXref xref" xrefformat="{para}">Add documents to Adobe Workfront from your file system</a>.</p> 
-     <div class="workfront_plans"> 
-      <p><span class="bold">Available in these environments:</span> </p> 
-      <ul> 
-       <li>Workfront Classic</li> 
-       <li>The new Workfront experience</li> 
-      </ul> 
-      <p><span class="bold">Estimated Production release:</span> </p> 
-      <ul> 
-       <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
-      </ul> 
-     </div> 
-    </div> </td> 
-  </tr> 
+ <tbody> Additional object types available for Typeahead fields in a custom form Now, when you are creating a Typeahead custom field, you can associate the following object types with the field: User, Company, Group, Job Role, Portfolio, Program, Project, and Template. Previously, you could associate only the User object type with a Typeahead custom field. For more information, see the section Create or edit a custom form in the article Create or edit a custom form. Available in these environments: Workfront Classic The new Workfront experience Estimated Production release: November 2019 with the 2019.4 release For more information about the 2019.4 release, see 2019.4 release overview View this video in full-screen mode. <!--
+   Filename of new document version displays in Workfront Now, when you upload a document version with a different filename than that of the existing version, the new filename displays in Workfront. Previously, when you added a new version with a different filename, the filename of the previous version continued to display in Workfront. For more information, see Add documents to Adobe Workfront from your file system. Available in these environments: Workfront Classic The new Workfront experience Estimated Production release: November 2019 with the 2019.4 release For more information about the 2019.4 release, see 2019.4 release overview
+  --> 
   <tr> 
    <td> 
     <div> 

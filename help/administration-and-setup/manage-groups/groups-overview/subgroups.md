@@ -18,7 +18,7 @@ For information about groups, see [Groups overview](../../../administration-and-
 
 Subgroups inherit the membership of their parent group. So, users and groups in a subgroup have the same visibility, permissions, and access to all objects as users and groups that belong to the parent group they share.
 
-Also, a subgroup automatically inherits the *group administrators* of its top-level group, but you can also assign members of a subgroup to act as its *group administrators*.
+Also, a subgroup automatically inherits the `group administrators` of its top-level group, but you can also assign members of a subgroup to act as its `group administrators`.
 
 ` `**Tip: **`` Sometimes, you might want to use subgroups to add multiple users to an existing group in order to give them access to an object they need.
 
@@ -38,14 +38,14 @@ If you create a subgroup under a group that is public, the subgroup is also publ
 
 Any group you add to an existing group automatically becomes a subgroup and is no longer a main group. However, the subgroup retains its existing users, as well as any associations with projects, issues, and tasks, in addition to all project, task, and issue statuses that belong to the new parent group.
 
-## *Group administrators* for subgroups
+## `Group administrators` for subgroups
 
-You can assign subgroup members as *group administrators* to the subgroup when you create it or edit it. For instructions, see [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+You can assign subgroup members as `group administrators` to the subgroup when you create it or edit it. For instructions, see [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-Alternately, you can leave administration of the subgroup to the *group administrators* who are assigned to the groups above it. When you create a subgroup, *group administrators* over the groups above it have automatic access to manage the subgroup.
+Alternately, you can leave administration of the subgroup to the `group administrators` who are assigned to the groups above it. When you create a subgroup, `group administrators` over the groups above it have automatic access to manage the subgroup.
 
 >[!NOTE]
 >
->If you add a user to a subgroup and that user is a *group administrator* for a group anywhere above the subgroup, that user has administrative rights to manage the subgroup, even without being assigned as a *group administrator* for it.
+>If you add a user to a subgroup and that user is a `group administrator` for a group anywhere above the subgroup, that user has administrative rights to manage the subgroup, even without being assigned as a `group administrator` for it.
 
-To learn which actions available for an *Adobe Workfront administrator* managing the *Workfront* system, a *group administrator* managing a top-level group, and a *group administrator* managing a subgroup, see [Actions allowed for different types of administrators](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
+To learn which actions available for an `Adobe Workfront administrator` managing the `Workfront` system, a `group administrator` managing a top-level group, and a `group administrator` managing a subgroup, see [Actions allowed for different types of administrators](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).

@@ -11,15 +11,15 @@ description: Timesheets enable you to track the time that users spend on work.
 
 Timesheets enable you to track the time that users spend on work.
 
-You can log&nbsp;time in *Adobe Workfront* in a variety of ways, usually at the level of the project, task, or issue where the work is performed. The time logged against tasks, issues, and projects also displays in your timesheet.
+You can log time in `Adobe Workfront` in a variety of ways, usually at the level of the project, task, or issue where the work is performed. The time logged against tasks, issues, and projects also displays in your timesheet.
 
 You can also log time for non-project work, under general hours. Time for general hours can be recorded only in your timesheet.
 
-For more information about logging time in *Workfront*, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+For more information about logging time in `Workfront`, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!NOTE]
 >
->The *Workfront* mobile app also allows you to post updates, change logged time, enter comments, and close your timesheet.
+>The `Workfront` mobile app also allows you to post updates, change logged time, enter comments, and close your timesheet.
 
 ## Understand project time vs non-project time
 
@@ -31,7 +31,7 @@ Timesheets provide users with a simple way to track time for both project and no
 
   Additionally, when a resource records hours directly on tasks, issues and projects automatically appear when the user accesses the timesheet. This is assuming the timesheet date range spans the dates the hours were recorded.
 
-* `Non-Project Time:` Directly on the user timesheet. For more information about how to track time in *Workfront*, see&nbsp; [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+* `Non-Project Time:` Directly on the user timesheet. For more information about how to track time in `Workfront`, see&nbsp; [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
   On a timesheet, a resource can record vacation hours, sick hours, hours spent in transit, hours spent repairing or maintaining equipment, or whatever general overhead hour types you wish to create.
 
@@ -39,7 +39,7 @@ Timesheets provide users with a simple way to track time for both project and no
 
 The Timesheets area provides access to three different timesheet management&nbsp;areas. Each timesheet&nbsp;displays all tasks,&nbsp;issues, and projects that you have logged time against; it also displays&nbsp;up to 45 tasks, issues, or projects that are assigned to you but for which you have not logged time.
 
-You can track time in *Workfront* from the following locations:
+You can track time in `Workfront` from the following locations:
 
 * My Timesheets
 * Timesheets I Approve

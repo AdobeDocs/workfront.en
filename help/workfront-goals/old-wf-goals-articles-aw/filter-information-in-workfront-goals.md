@@ -6,6 +6,6 @@ title: Filter information in Workfront Goals using the new Adobe Workfront exper
 description: By default, the filter shows Active and Draft goals, but other statuses can be added, too.
 ---
 
-# Filter information in *Workfront Goals* using *the new Adobe Workfront experience*
+# Filter information in `Workfront Goals` using `the new Adobe Workfront experience`
 
 By default, the filter shows Active and&nbsp;Draft goals, but other statuses can be added, too. 

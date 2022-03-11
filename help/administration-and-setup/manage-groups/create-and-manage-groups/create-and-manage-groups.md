@@ -16,13 +16,7 @@ This section contains the following articles:
 * [Manage a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md) 
 * [Actions allowed for different types of administrators](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md) 
 * [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md) 
-* [View and manage a group’s memberships](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref" xrefformat="{para}">View the number of licenses allocated and used in a group in the new Adobe Workfront experience</a> </li>
-  -->
-
-* [View the number of licenses allocated and used in a group in the new Adobe Workfront experience](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md) 
+* [View and manage a group’s memberships](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) 
 * [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 
 * [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) 
 * [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md) 

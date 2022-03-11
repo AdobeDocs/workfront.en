@@ -10,7 +10,7 @@ description: The process of approving timesheets provides managers with visibili
 
 The process of approving timesheets provides&nbsp;managers with visibility into the work hours of their direct reports. Approvers can verify that&nbsp;all time recorded has been allocated in the correct areas and that&nbsp;a sufficient number of hours have been recorded for the period.
 
-*Adobe Workfront* provides the ability to configure timesheet approvals to support in this area.
+`Adobe Workfront` provides the ability to configure timesheet approvals to support in this area.
 
 For information on submitting a timesheet, see [Submit a timesheet for approval](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
@@ -25,17 +25,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Designate timesheet approvers
 
@@ -53,17 +53,10 @@ If the system administrator has enabled the "Timesheet Submission to Approver" e
 
 To approve a timesheet:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click Timesheets.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click Timesheets.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">Timesheets I Approve</span>.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">Timesheets I Approve</span>.</li> 
- <li value="4">Click the timesheet you want to approve.</li> 
- <li value="5"> <p>Click <span class="bold">Approve</span>.</p> <p>Or</p> <p>If you want to reject the timesheet, click <span class="bold">Reject</span>.</p> </li> 
-</ol>
+1. Click the timesheet you want to approve.
+1. Click `Approve`.
+
+   Or
+
+   If you want to reject the timesheet, click `Reject`.
 

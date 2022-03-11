@@ -2,9 +2,9 @@
 
 # 20.4 Resource Management enhancements
 
-This page describes all *Resource Management* enhancements made with the *20.4* release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
+This page describes all `Resource Management` enhancements made with the `20.4` release to the Preview environment. These enhancements will be made available in the Production environment the week of November 9, 2020.
 
-For a list of all changes available with the *20.4* release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+For a list of all changes available with the `20.4` release, see [20.4 release overview](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Plan work using Work Effort instead of Planned Hours
 
@@ -64,7 +64,7 @@ To ensure a streamlined and user-friendly experience when you manage your resour
 <ul> 
  <li> <p>You can now open the Summary for issues and tasks from the Summary icon instead of the More menu. This experience is now consistent to that of lists.</p> <note type="note">
    This option is available only in 
-   <em>the new Adobe Workfront experience</em>.
+   <span>the new Adobe Workfront experience</span>.
   </note> </li> 
  <li> <p>You can access the More menu to the left of an object bar rather than at the end of an object bar. This makes it easier to find when objects span a long period of time.</p> </li> 
  <li> <p>You can access the assignment features with a keyboard shortcut. Previously, this was available only from the More menu.</p> </li> 

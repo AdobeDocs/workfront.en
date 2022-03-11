@@ -8,7 +8,7 @@ description: You can use the proof approval report to view information about pro
 
 # Use the proof approval report
 
-You can use the *proof* approval report to view information about proofs in your environment.
+You can use the `proof` approval report to view information about proofs in your environment.
 
 ## Access requirements
 
@@ -25,41 +25,18 @@ You must have the following:
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront licenses overview*</p> </td> 
    <td> <p>Plan</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><span class="bold">Access level*</span> </td> 
-    <td> <p>Edit access to:</p> 
-     <ul> 
-      <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
-      <li> <p>Create Filters, Views, and Groupings</p> </li> 
-     </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><span class="bold">Access level*</span> </td> 
-   <td> <p>Edit access to:</p> 
-    <ul> 
-     <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
-     <li> <p>Create Filters, Views, and Groupings</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
+  </tr> Access level* Edit access to: Create Reports, Dashboards, and Calendars Create Filters, Views, and Groupings Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Use the proof approval report
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <b>Reports</b>. </p> </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <b>Reports</b>. </p> </li> 
- <li value="2"> <p>Click <b>New Report</b>, then scroll to select <b>Proof Approval</b>.</p> <p> <draft-comment>
-    <img src="assets/proof-approval-report.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/proof-approval-report.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <br> </p> </li> 
- <li value="3"> <p>(Optional) Add any additional fields. </p> </li> 
- <li value="4"> <p>Click <span class="bold">Save + Close</span>.</p> </li> 
-</ol>
+1. Click **New Report**, then scroll to select **Proof Approval**.
+
+1. (Optional) Add any additional fields. 
+1. Click `Save + Close`.
 
 ## Additional fields
 

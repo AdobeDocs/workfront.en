@@ -17,28 +17,9 @@ You can update the percent complete for a task&nbsp;in any of the following ways
     This option displays only after you enable the Show Percent Complete option.&nbsp;
    <br>To enable the percent complete update bar for tasks, do the following: 
    <br>
-   <br>
-   <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     1. Go to the 
-     <span class="bold">Main</span> menu>your name>
-     <span class="bold">More</span> icon next to your name >
-     <span class="bold"> Edit</span> > select 
-     <span class="bold">Show percent complete on update status</span>. 
-    </MadCap:conditionalText>
-   </draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    1. Go to the 
-    <span class="bold">Main</span> menu>your name>
-    <span class="bold">More</span> icon next to your name >
-    <span class="bold"> Edit</span> > select 
-    <span class="bold">Show percent complete on update status</span>. 
-   </MadCap:conditionalText>
+   <br>1. Go to the Main menu>your name>More icon next to your name > Edit > select Show percent complete on update status.
    <br>
    <img src="assets/show-percent-complete-toggle-in-user-profile-350x243.png" style="width: 350;height: 243;">
-  </note></li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><span class="bold">In the task header</span>: You can update the percent complete of a task in the task header. </p> <p> <img src="assets/nwe-updatetaskpercentinheader-350x54.png" style="width: 350;height: 54;"> </p> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><span class="bold">In the task header</span>: You can update the percent complete of a task in the task header. </p> <p> <img src="assets/nwe-updatetaskpercentinheader-350x54.png" style="width: 350;height: 54;"> </p> </li> 
+  </note></li> In the task header: You can update the percent complete of a task in the task header. 
 </ul>
 

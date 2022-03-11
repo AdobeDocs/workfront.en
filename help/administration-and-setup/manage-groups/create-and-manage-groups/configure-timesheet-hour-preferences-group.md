@@ -10,19 +10,19 @@ description: An Adobe Workfront administrator can unlock the following sections 
 
 # Configure timesheet and hour preferences for a group
 
-An *Adobe Workfront administrator* can unlock the following sections of timesheet and hour preferences at the system level so that *group administrators* can configure them independently for their own groups:
+An `Adobe Workfront administrator` can unlock the following sections of timesheet and hour preferences at the system level so that `group administrators` can configure them independently for their own groups:
 
 * General Preferences
 * Pre-Populate timesheets with
 
-If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for *Workfront administrators* (for any group).
+If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for `Workfront administrators` (for any group).
 
 The following sections on the Timesheet and Hours Preferences page are configurable only at the system level and can't be unlocked for groups:
 
 * Logging Time 
 * Project, Task or Issue Deletion Preferences
 
-For information about how a *Workfront administrator* unlocks a timesheet and hour preference, see the section [Unlock timesheet and hour preferences for groups](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in the article [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+For information about how a `Workfront administrator` unlocks a timesheet and hour preference, see the section [Unlock timesheet and hour preferences for groups](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in the article [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
@@ -37,46 +37,43 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> <p>You must be a <em>group administrator</em> of the group or a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Group timesheet and hour preferences
 
 Consider the following information about configuring an unlocked timesheet or hour preference for a group:
 
-* If you are a *group administrator* and you configure a timesheet or hour preference for your group, it affects people who use the group as their Home Group.
-* Typically, an unlocked preference remains unlocked indefinitely. If the *Workfront administrator* re-locks it, the system setting takes effect again and settings for the preference made by the *group administrators* are lost.
+* If you are a `group administrator` and you configure a timesheet or hour preference for your group, it affects people who use the group as their Home Group.
+* Typically, an unlocked preference remains unlocked indefinitely. If the `Workfront administrator` re-locks it, the system setting takes effect again and settings for the preference made by the `group administrators` are lost.
 
 * A timesheet inherits the timesheet and hour preferences configured for the timesheet owner’s Home Group.
-* After a *Workfront administrator* unlocks a preference at the system level and you configure it for your group, you can then lock it to ensure that everyone in the groups below yours is using the same configuration. This is parallel to the ability that a *Workfront administrator* has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a group timesheet and hour preference](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* After a `Workfront administrator` unlocks a preference at the system level and you configure it for your group, you can then lock it to ensure that everyone in the groups below yours is using the same configuration. This is parallel to the ability that a `Workfront administrator` has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a group timesheet and hour preference](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 ## Configure an unlocked timesheet or hour preference for a group
 
 >[!TIP]
 >
->If you are a *Workfront administrator*, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
+>If you are a `Workfront administrator`, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
  <li value="3">Click the name of the group whose timesheet or hour preferences you want to configure.</li> 
  <li value="4">In the left panel, click <span class="bold">Timesheets & Hours</span>.</li> 
 </ol>
 
 <ol data-mc-continue="true"> 
- <li value="5"> <p>On the page that displays, in the <span class="bold">General Preferences</span> section, configure any of the following options: </p> <note type="tip">
-   If you hover over a preference and a tool tip displays to tell you that it is locked, you can ask your 
-   <em>Workfront administrator</em> to unlock it for all groups in the organization.
-  </note> <p> 
+ <li value="5"> <p>On the page that displays, in the <span class="bold">General Preferences</span> section, configure any of the following options: </p>  <p> 
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -85,13 +82,7 @@ Consider the following information about configuring an unlocked timesheet or ho
       <td role="rowheader">Log time for future dates</td> 
       <td> <p>Allows users to log time for future dates throughout the system in:</p> 
        <ul> 
-        <li>Any projects, tasks, and issues where they have access to log time<draft-comment>
-          <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-           , regardless of project’s group
-          </MadCap:conditionalText>
-         </draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-          , regardless of project’s group
-         </MadCap:conditionalText></li> 
+        <li>Any projects, tasks, and issues where they have access to log time, regardless of project’s group</li> 
         <li>Their timesheets as General Time</li> 
        </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <note type="note">
         You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.
@@ -99,14 +90,7 @@ Consider the following information about configuring an unlocked timesheet or ho
      </tr> 
      <tr> 
       <td role="rowheader">Add expenses from a timesheet</td> 
-      <td> <p>Enables users to record both time and expenses in the timesheet.</p> <draft-comment>
-        <div data-mc-conditions="SnippetConditions-wf-groups.groups"> 
-         <p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p> 
-        </div>
-       </draft-comment>
-       <div data-mc-conditions="SnippetConditions-wf-groups.groups"> 
-        <p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p> 
-       </div> </td> 
+      <td> <p>Enables users to record both time and expenses in the timesheet.</p> When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assign Job Roles to hour entries manually</td> 
@@ -116,43 +100,7 @@ Consider the following information about configuring an unlocked timesheet or ho
          <li>If the user does not have a job role assigned in their profile and there is a task assigned as the Task Owner in the Advanced Assignments dialog box, that job role appears when the user logs time on the task.</li> 
         </ul> 
        </note> </td> 
-     </tr> <draft-comment>
-      <tr data-mc-conditions=""> 
-       <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
-       <td> <p>Restrict editing to timesheet owners<draft-comment>
-          <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-           , the group's administrators,
-          </MadCap:conditionalText>
-         </draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-          , the group's administrators,
-         </MadCap:conditionalText> and <em>Workfront administrators</em>. When this option is disabled, timesheets can also be edited by:</p> 
-        <ul> 
-         <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
-         <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
-         <li> <p>The manager of the timesheet owner</p> </li> 
-        </ul> </td> 
-      </tr>
-     </draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
-      <td> <p>Restrict editing to timesheet owners<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-         , the group's administrators,
-        </MadCap:conditionalText> and <em>Workfront administrators</em>. When this option is disabled, timesheets can also be edited by:</p> 
-       <ul> 
-        <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
-        <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
-        <li> <p>The manager of the timesheet owner</p> </li> 
-       </ul> </td> 
-     </tr> <draft-comment>
-      <tr data-mc-conditions=""> 
-       <td role="rowheader">Restrict hour editing to owners and admins</td> 
-       <td>Restrict editing to the user who input the hours and <em>Workfront administrators</em>. This setting applies to the Hours tab in a project or in an Hours report.</td> 
-      </tr>
-     </draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Restrict hour editing to owners and admins</td> 
-      <td>Restrict editing to the user who input the hours and <em>Workfront administrators</em>. This setting applies to the Hours tab in a project or in an Hours report.</td> 
-     </tr> 
+     </tr> Restrict timesheet editing to owners and admins Restrict editing to timesheet owners, the group's administrators, and Workfront administrators. When this option is disabled, timesheets can also be edited by: Users with administrative access to timesheets and hours in their access level Timesheet approvers if “Can edit hours” is enabled on the timesheet The manager of the timesheet owner Restrict hour editing to owners and admins Restrict editing to the user who input the hours and Workfront administrators. This setting applies to the Hours tab in a project or in an Hours report. 
     </tbody> 
    </table> </p> </li> 
  <li value="6"> <p>In the <span class="bold">Pre-Populate timesheets with&nbsp;</span>section, configure any of the following options: </p> 

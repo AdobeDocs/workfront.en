@@ -9,12 +9,12 @@ description: If your organization has been onboarded to the Adobe Business Platf
 
 # Platform-based administration differences (Adobe Workfront/Adobe Business Platform)
 
-If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access *Adobe Workfront*. This means that:
+If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access `Adobe Workfront`. This means that:
 
 * User management is largely done through the Adobe Admin Console
-* Single Sign-On (SSO) in handled through the Adobe Business Platform rather than through *Workfront*
+* Single Sign-On (SSO) in handled through the Adobe Business Platform rather than through `Workfront`
 
-As an *Adobe Workfront administrator*, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This articles lists the procedures that must be handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
+As an `Adobe Workfront administrator`, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This articles lists the procedures that must be handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
 
 ## Users
 
@@ -29,30 +29,9 @@ As an *Adobe Workfront administrator*, your administration responsibilities and 
    <th>For instructions in the Adobe Admin console, see</th> 
   </tr> 
  </thead> 
- <tbody> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">View information about access levels and licenses for your users</td> 
-    <td> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">List your users’ access levels and licenses</a> </p> </li> 
-     </ul> </td> 
-    <td> 
-     <ul> 
-      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">View information about access levels and licenses for your users</td> 
-   <td> 
-    <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">List your users’ access levels and licenses</a> </p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
-    </ul> </td> 
-  </tr> 
+ <tbody> <!--
+   View information about access levels and licenses for your users List your users’ access levels and licenses The section "View user list" in Manage users individually
+  --> 
   <tr> 
    <td role="rowheader">Grant a user admin access</td> 
    <td> 
@@ -65,15 +44,9 @@ As an *Adobe Workfront administrator*, your administration responsibilities and 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Add a user<draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       to 
-      <em>Adobe Workfront</em>
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      to 
-     <em>Adobe Workfront</em>
-    </MadCap:conditionalText></td> 
+   <td role="rowheader">Add a user<!--
+     to Adobe Workfront
+    --></td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a> </p> </li> 
@@ -83,32 +56,9 @@ As an *Adobe Workfront administrator*, your administration responsibilities and 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Add a user to <em>Adobe Workfront Fusion</em></td> 
-    <td> 
-     <ul> 
-      <li> <p><a href="../../workfront-fusion/organizations/add-user-to-an-organization.md" class="MCXref xref">Add a user to an organization</a> </p> </li> 
-     </ul> </td> 
-    <td> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Add a user to <em>Adobe Workfront Fusion</em></td> 
-   <td> 
-    <ul> 
-     <li> <p><a href="../../workfront-fusion/organizations/add-user-to-an-organization.md" class="MCXref xref">Add a user to an organization</a> </p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
-    </ul> </td> 
-  </tr> 
+  </tr> <!--
+   Add a user to Adobe Workfront Fusion Add a user to an organization Manage users in the Adobe Admin Console The section "Add users" in in Manage users individually
+  --> 
   <tr> 
    <td role="rowheader">Deactivate a user</td> 
    <td> 

@@ -6,7 +6,7 @@ title: Get started with boards in Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Get started with boards in *Adobe Workfront*
+# Get started with boards in `Adobe Workfront`
 
 This section contains the following articles:
 

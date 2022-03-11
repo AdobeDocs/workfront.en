@@ -1,8 +1,8 @@
 
 
-# *Proofing* collaboration limitations with people outside of your organization
+# `Proofing` collaboration limitations with people outside of your organization
 
-There are some limitations to be aware of when communicating with people outside of your organization when they are added to a *proof*, specifically if the person outside of your organization has proofing access in a separate environment.
+There are some limitations to be aware of when communicating with people outside of your organization when they are added to a `proof`, specifically if the person outside of your organization has proofing access in a separate environment.
 
 ## Contacts with the distinction of Member
 

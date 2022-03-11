@@ -9,15 +9,15 @@ description: You can use condition operators or modifiers when building calculat
 
 # Condition operators in calculated custom expressions
 
-You can use condition operators or modifiers when building calculated custom data in *Adobe Workfront* when using text mode.
+You can use condition operators or modifiers when building calculated custom data in `Adobe Workfront` when using text mode.
 
-For information about using text mode in&nbsp;*Workfront*, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+For information about using text mode in  `Workfront`, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Condition operators or modifiers help build a condition statement by connecting existing *Workfront* fields in statements and generating a new field. The most common use of condition operators is to build the condition of an "IF" statement.
+Condition operators or modifiers help build a condition statement by connecting existing `Workfront` fields in statements and generating a new field. The most common use of condition operators is to build the condition of an "IF" statement.
 
-You can use "IF" statements in *Workfront* to compare, format, and string together fields of data for both reporting and custom data purposes.
+You can use "IF" statements in `Workfront` to compare, format, and string together fields of data for both reporting and custom data purposes.
 
-You can build "IF" statements for the following *Workfront* elements:
+You can build "IF" statements for the following `Workfront` elements:
 
 * Views
 * Groupings
@@ -31,7 +31,7 @@ For information about the difference in syntax between the calculated custom fie
 
 Refer to the API Explorer to find the fields you want to reference in your calculated custom expressions. For information about the API Explorer, see [API Explorer](../../../wf-api/general/api-explorer.md).
 
-You can use the following condition modifiers in *Workfront*:
+You can use the following condition modifiers in `Workfront`:
 
 <table cellspacing="15"> 
  <col> 

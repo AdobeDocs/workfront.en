@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Considerations for modifying the allocation hours for a task
 
@@ -55,27 +55,13 @@ You must have the following access to perform the steps in this article:
 * When the task has a Simple Duration&nbsp;Type, you can manually change the amount of allocated hours for each user or job role to indicate that some of the task assignees might have more time to work on a task than others. 
 * You cannot modify the amount of hours allocated to teams assigned to tasks.
 * You cannot manually modify the user or job role allocation for issues. 
-* You can also manage daily, weekly, or monthly allocations of users to tasks or issues by using the *Workload Balancer*. For more information, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* You can also manage daily, weekly, or monthly allocations of users to tasks or issues by using the `Workload Balancer`. For more information, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Modify the allocation hours for a task
 
-<ol> 
- <li value="1">Go to a task for whose assignments you want to change the allocation hours.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> menu <img src="assets/qs-more-icon-on-an-object.png"> next to the name of the task, then click <span class="bold">Edit</span>, then <span class="bold">Assignments</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> menu <img src="assets/qs-more-icon-on-an-object.png"> next to the name of the task, then click <span class="bold">Edit</span>, then <span class="bold">Assignments</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Assignments</span> area in the task header, then click&nbsp;<span class="bold">Advanced</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Assignments</span> area in the task header, then click&nbsp;<span class="bold">Advanced</span>.</p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Ensure that the <span class="bold">Duration&nbsp;Type</span> of the task is <span class="bold">Simple</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Ensure that the <span class="bold">Duration&nbsp;Type</span> of the task is <span class="bold">Simple</span>.</p> </li> 
- <li value="4"> <p>Modify the <draft-comment>
-    <span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Allocations</span>
-   </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Allocations</span> for each task assignee. These are overall allocations for each assignments to this task, for the entire duration of the task. This might also update the overall Planned Hours of the task. </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png" style="width: 350;height: 198;"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png" style="width: 350;height: 198;"> </p> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Go to a task for whose assignments you want to change the allocation hours.
+1. Click the More menu next to the name of the task, then click Edit, then Assignments. Or Click the Assignments area in the task header, then click Advanced. 
+1. Ensure that the Duration Type of the task is Simple. 
+1. Modify the Allocations for each task assignee. These are overall allocations for each assignments to this task, for the entire duration of the task. This might also update the overall Planned Hours of the task. 
+1. Click `Save`.
 

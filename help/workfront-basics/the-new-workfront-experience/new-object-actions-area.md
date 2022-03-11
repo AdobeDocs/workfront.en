@@ -8,111 +8,81 @@ description: As part of the redesign in the new Adobe Workfront experience, we h
 
 # New object actions area
 
-As part of the redesign in *the new Adobe Workfront experience*, we have added new actions areas for several objects.
+As part of the redesign in `the new Adobe Workfront experience`, we have added new actions areas for several objects.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 The actions area—located in the object header—contains links to edit, share, move, or delete an object.
-</MadCap:conditionalText>
 -->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  The actions area—located in the object header—contains links to edit, share, move, or delete an object.</MadCap:conditionalText>`
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Most objects that you can access individually in <em>Adobe Workfront</em> have an actions area, including the following:</p>
+Most objects that you can access individually in Adobe Workfront have an actions area, including the following:
 -->
 
-Most objects that you can access individually in *Adobe Workfront* have an actions area, including the following:
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Projects</li>
+  Projects
   -->
 
-* Projects
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Tasks</li>
+  Tasks
   -->
 
-* Tasks
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issues</li>
+  Issues
   -->
 
-* Issues
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolios</li>
+  Portfolios
   -->
 
-* Portfolios
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Programs</li>
+  Programs
   -->
 
-* Programs
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Templates</li>
+  Templates
   -->
 
-* Templates
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Template Tasks</li>
+  Template Tasks
   -->
 
-* Template Tasks
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Users</li>
+  Users
   -->
 
-* Users
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Teams</li>
+  Teams
   -->
 
-* Teams
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Iterations</li>
+  Iterations
   -->
 
-* Iterations
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Documents</li>
+  Documents
   -->
 
-* Documents
-
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Plans</li>
+  Plans
   -->
 
-* Plans
+For information about `Workfront` objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-For information about *Workfront* objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-In *Workfront* classic, the actions area is located in the upper-right corner of the object page.
+In `Workfront` classic, the actions area is located in the upper-right corner of the object page.
 
 ![](assets/actions-area-highlight-on-project-classic-350x100.png)
 
-In *the new Adobe Workfront experience*, the actions area is located next to the name of the object.
+In `the new Adobe Workfront experience`, the actions area is located next to the name of the object.
 
 ![](assets/nwe-project-more-menu-expanded-350x274.png)
 
 >[!NOTE]
 >
->The actions area of some objects—such as reports or dashboards—display in the same locations in *the new Adobe Workfront experience* as in *Adobe Workfront Classic*.
+>The actions area of some objects—such as reports or dashboards—display in the same locations in `the new Adobe Workfront experience` as in `Adobe Workfront Classic`.
 
 ## Benefits of the new actions area
 
-Consider the following when using the new actions areas in *the new Adobe Workfront experience*:
+Consider the following when using the new actions areas in `the new Adobe Workfront experience`:
 
 <ul> 
  <li> The area remains highly visible in the upper-left corner of the object page.</li> 
@@ -129,16 +99,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the object whose actions area you want to access</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to the object whose actions area you want to access</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -147,11 +117,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Access the actions area for *Workfront* objects
+## Access the actions area for `Workfront` objects
 
-Accessing the new actions area for *Workfront* objects is similar for all objects, but the options available in the actions area differ depending on the object you are viewing.
+Accessing the new actions area for `Workfront` objects is similar for all objects, but the options available in the actions area differ depending on the object you are viewing.
 
 For information on what options are available for an object, see [Actions areas for objects in the new Adobe Workfront experience](#examples).
 
@@ -167,18 +137,13 @@ To access the actions area:
  <li value="4"> <p>(Conditional) If you want to see a different version of a document, click the version drop-down menu <img src="assets/nwe-document-version-60x38.png" style="width: 60;height: 38;">, then select the version that you want to see.</p> </li> 
 </ol>
 
-## Actions areas for objects in *the new Adobe Workfront experience*
+## Actions areas for objects in `the new Adobe Workfront experience`
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-As part of the redesign in
-<em>the new Adobe Workfront experience</em>, we have added new actions areas for several objects. The actions area generally includes the Favorites icon and the More menu. The options available in the More menu vary depending on the object.
-</MadCap:conditionalText>
+As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects. The actions area generally includes the Favorites icon and the More menu. The options available in the More menu vary depending on the object.
 -->
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> As part of the redesign in  <em>the new Adobe Workfront experience</em>, we have added new actions areas for several objects. The actions area generally includes the Favorites icon and the More menu. The options available in the More menu vary depending on the object.</MadCap:conditionalText>`
-
-The following are examples of redesigned actions areas in *the new Adobe Workfront experience*:
+The following are examples of redesigned actions areas in `the new Adobe Workfront experience`:
 
 <table cellspacing="15"> 
  <col> 
@@ -266,57 +231,7 @@ The following are examples of redesigned actions areas in *the new Adobe Workfro
      <li>Download</li> 
      <li>Send</li> 
     </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td><span class="bold">Template</span> </td> 
-    <td> <p>The actions area for a template includes the Favorites icon <img src="assets/favorites-icon-small.png"> and the More menu <img src="assets/more-menu.png">.</p> <p> <img src="assets/nwe-template-actions-area-350x48.png" style="width: 350;height: 48;"> </p> <p>You can select the following options from the More menu:</p> 
-     <ul> 
-      <li>Edit</li> 
-      <li>Create Project</li> 
-      <li>Copy</li> 
-      <li>Template Sharing</li> 
-      <li>Project Sharing</li> 
-      <li>Deactivate Template</li> 
-      <li>Delete Template</li> 
-      <li>Recalculate Timeline</li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td><span class="bold">Template</span> </td> 
-   <td> <p>The actions area for a template includes the Favorites icon <img src="assets/favorites-icon-small.png"> and the More menu <img src="assets/more-menu.png">.</p> <p> <img src="assets/nwe-template-actions-area-350x48.png" style="width: 350;height: 48;"> </p> <p>You can select the following options from the More menu:</p> 
-    <ul> 
-     <li>Edit</li> 
-     <li>Create Project</li> 
-     <li>Copy</li> 
-     <li>Template Sharing</li> 
-     <li>Project Sharing</li> 
-     <li>Deactivate Template</li> 
-     <li>Delete Template</li> 
-     <li>Recalculate Timeline</li> 
-    </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td><span class="bold">Template Task</span> </td> 
-    <td> <p>The actions area for a template task includes the Favorites icon <img src="assets/favorites-icon-small.png"> and the More menu <img src="assets/more-menu.png">.</p> <p> <img src="assets/nwe-template-task-actions-area-350x66.png" style="width: 350;height: 66;"> </p> <p>You can select the following options from the More menu:</p> 
-     <ul> 
-      <li>Edit</li> 
-      <li>Copy</li> 
-      <li>Move</li> 
-      <li>Delete Template Task</li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td><span class="bold">Template Task</span> </td> 
-   <td> <p>The actions area for a template task includes the Favorites icon <img src="assets/favorites-icon-small.png"> and the More menu <img src="assets/more-menu.png">.</p> <p> <img src="assets/nwe-template-task-actions-area-350x66.png" style="width: 350;height: 66;"> </p> <p>You can select the following options from the More menu:</p> 
-    <ul> 
-     <li>Edit</li> 
-     <li>Copy</li> 
-     <li>Move</li> 
-     <li>Delete Template Task</li> 
-    </ul> </td> 
-  </tr> 
+  </tr> Template The actions area for a template includes the Favorites icon and the More menu . You can select the following options from the More menu: Edit Create Project Copy Template Sharing Project Sharing Deactivate Template Delete Template Recalculate Timeline Template Task The actions area for a template task includes the Favorites icon and the More menu . You can select the following options from the More menu: Edit Copy Move Delete Template Task 
   <tr> 
    <td><span class="bold">User</span> </td> 
    <td> <p>The actions area for a user includes the Favorites icon <img src="assets/favorites-icon-small.png"> and the More menu <img src="assets/more-menu.png">.</p> <p> <img src="assets/nwe-user-actions-area-350x102.png" style="width: 350;height: 102;"> </p> <p>You can select the following options from the More menu:</p> 
@@ -334,39 +249,7 @@ The following are examples of redesigned actions areas in *the new Adobe Workfro
      <li>Edit</li> 
      <li> <p>Delete</p> </li> 
     </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td><span class="bold">Iteration</span> </td> 
-    <td> <p>The actions area for an iteration includes the Favorites icon <img src="assets/favorites-icon-small.png">, the Synchronize Burndown Data icon <img src="assets/nwe-synchronize-burndown-data-16x16.png" style="width: 16;height: 16;">, the Edit icon <img src="assets/edit-icon.png">, and the More menu <img src="assets/more-menu.png">.</p> <p>In Preview, the actions area has moved to the right of the iteration name.</p> <p> <img src="assets/nwe-iterations-actions-area-350x77.png" style="width: 350;height: 77;"> </p> <p>You can select the following options from the More menu:</p> 
-     <ul> 
-      <li> <p>Delete Iteration</p> </li> 
-     </ul> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td><span class="bold">Iteration</span> </td> 
-   <td> <p>The actions area for an iteration includes the Favorites icon <img src="assets/favorites-icon-small.png">, the Synchronize Burndown Data icon <img src="assets/nwe-synchronize-burndown-data-16x16.png" style="width: 16;height: 16;">, the Edit icon <img src="assets/edit-icon.png">, and the More menu <img src="assets/more-menu.png">.</p> <p>In Preview, the actions area has moved to the right of the iteration name.</p> <p> <img src="assets/nwe-iterations-actions-area-350x77.png" style="width: 350;height: 77;"> </p> <p>You can select the following options from the More menu:</p> 
-    <ul> 
-     <li> <p>Delete Iteration</p> </li> 
-    </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td><span class="bold">Plan</span> </td> 
-    <td> <p>The actions area for a plan includes the Favorites icon <img src="assets/favorites-icon-small.png"> and the More menu <img src="assets/more-menu.png">.</p> <p> <img src="assets/nwe-plan-actions-area-350x51.png" style="width: 350;height: 51;"> </p> <p>You can select the following options from the More menu:</p> 
-     <ul> 
-      <li> <p>Share</p> </li> 
-      <li> <p>Delete</p> </li> 
-     </ul> <p>To learn about the other actions available in the plan header, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref">New object headers</a>.</p> <p>To learn more about plans in the <em>Workfront Scenario Planner</em>, see <a href="../../scenario-planner/plans-overview.md" class="MCXref xref">Plans overview in the Adobe Workfront Scenario Planner</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td><span class="bold">Plan</span> </td> 
-   <td> <p>The actions area for a plan includes the Favorites icon <img src="assets/favorites-icon-small.png"> and the More menu <img src="assets/more-menu.png">.</p> <p> <img src="assets/nwe-plan-actions-area-350x51.png" style="width: 350;height: 51;"> </p> <p>You can select the following options from the More menu:</p> 
-    <ul> 
-     <li> <p>Share</p> </li> 
-     <li> <p>Delete</p> </li> 
-    </ul> <p>To learn about the other actions available in the plan header, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref">New object headers</a>.</p> <p>To learn more about plans in the <em>Workfront Scenario Planner</em>, see <a href="../../scenario-planner/plans-overview.md" class="MCXref xref">Plans overview in the Adobe Workfront Scenario Planner</a>.</p> </td> 
-  </tr> 
+  </tr> Iteration The actions area for an iteration includes the Favorites icon , the Synchronize Burndown Data icon , the Edit icon , and the More menu . In Preview, the actions area has moved to the right of the iteration name. You can select the following options from the More menu: Delete Iteration Plan The actions area for a plan includes the Favorites icon and the More menu . You can select the following options from the More menu: Share Delete To learn about the other actions available in the plan header, see New object headers. To learn more about plans in the Workfront Scenario Planner, see Plans overview in the Adobe Workfront Scenario Planner. 
  </tbody> 
 </table>
 

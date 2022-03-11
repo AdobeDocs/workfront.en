@@ -6,7 +6,7 @@ title: Browser requirements for Workfront
 description: Note: The information in this article has moved. Please see Adobe Workfront browser requirements.
 ---
 
-# Browser requirements for *Workfront*
+# Browser requirements for `Workfront`
 
 >[!NOTE]
 >

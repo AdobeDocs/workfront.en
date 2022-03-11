@@ -7,13 +7,13 @@ title: Adobe Workfront Goals 21.2 release activity: Week of February 15, 2021
 description: This page describes all enhancements made with the 21.2 release for Adobe Workfront Goals to the Preview environment the week of February 15, 2021. These enhancements will be made available in the Production environment in the first quarter of 21.2.
 ---
 
-# *Adobe Workfront Goals* 21.2 release activity:&nbsp;Week of February 15, 2021
+# `Adobe Workfront Goals` 21.2 release activity:&nbsp;Week of February 15, 2021
 
-This page describes all enhancements made with the *21.2* release for *Adobe Workfront Goals* to the Preview environment the week of *February 15, 2021*. These enhancements will be made available in the Production environment in the first quarter of *21.2*.
+This page describes all enhancements made with the `21.2` release for `Adobe Workfront Goals` to the Preview environment the week of `February 15, 2021`. These enhancements will be made available in the Production environment in the first quarter of `21.2`.
 
-For a list of all changes available for *Workfront Goals* at this point in the *21.2* release cycle, see [Adobe Workfront Goals with the 21.2 release](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
+For a list of all changes available for `Workfront Goals` at this point in the `21.2` release cycle, see [Adobe Workfront Goals with the 21.2 release](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
-For a list of all changes available for all areas of *Workfront* at this point in the *21.2* release cycle, see [21.2 Release overview](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+For a list of all changes available for all areas of `Workfront` at this point in the `21.2` release cycle, see [21.2 Release overview](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Temporarily show filtered goals in the Alignment Chart
 

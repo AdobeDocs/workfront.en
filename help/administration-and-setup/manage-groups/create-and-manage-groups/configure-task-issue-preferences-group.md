@@ -11,11 +11,11 @@ description: If groups in your organization need to configure a task or issue pr
 
 # Configure task and issue preferences for a group
 
-If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an *Adobe Workfront administrator* can unlock the preference. Then, as a *group administrator*, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
+If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an `Adobe Workfront administrator` can unlock the preference. Then, as a `group administrator`, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
 
-If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for *Workfront administrators* (for any group).
+If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for `Workfront administrators` (for any group).
 
-For information about how the *Workfront administrator* unlocks preferences, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+For information about how the `Workfront administrator` unlocks preferences, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 >[!TIP]
 >
@@ -23,12 +23,12 @@ For information about how the *Workfront administrator* unlocks preferences, see
 
 >[!NOTE]
 >
->* Typically, an unlocked preference remains unlocked indefinitely. If the *Workfront administrator* re-locks it, the system setting takes effect again and settings for the preference made by the *group administrators* are lost.
+>* Typically, an unlocked preference remains unlocked indefinitely. If the `Workfront administrator` re-locks it, the system setting takes effect again and settings for the preference made by the `group administrators` are lost.
 >
 >* The preferences set for the group that is associated with a project take precedence over the preferences set for the Home Group of the user who creates the project.
 >* Some group-level preferences affect project templates that you create for the group. For more information, see the section [View, work with, and create templates for your group from the Groups area](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view,) in the article [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* After a *Workfront administrator* unlocks a preference at the system level, you can configure it and then lock it to ensure that everyone in your group and in its subgroups is using the same configuration. This is parallel to the ability that a *Workfront administrator* has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* After a `Workfront administrator` unlocks a preference at the system level, you can configure it and then lock it to ensure that everyone in your group and in its subgroups is using the same configuration. This is parallel to the ability that a `Workfront administrator` has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
 ## Access requirements
@@ -40,50 +40,37 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> <p>You must be a <em>group administrator</em> of the group or a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> <p>You must be a <span>group administrator</span> of the group or a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;If you need to find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Configure unlocked task and issue preferences for a top-level group
 
 >[!TIP]
 >
->If you are a *Workfront administrator*, you can bypass steps 1-4 by going to Setup > Project Preferences > Tasks & Issues, then searching for the group’s name in the box at the top of the page.
+>If you are a `Workfront administrator`, you can bypass steps 1-4 by going to Setup > Project Preferences > Tasks & Issues, then searching for the group’s name in the box at the top of the page.
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the name of
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the name of
-  </MadCap:conditionalText> the group for which you want to configure unlocked task and issue preferences.</li> 
+ <li value="3"> Click the name of the group for which you want to configure unlocked task and issue preferences.</li> 
  <li value="4"> <p>On the page that displays for the group, in the left panel, click <span class="bold">Task & Issue Preferences</span>.</p> </li> 
- <li value="5"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     On the page that appears
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    On the page that appears
-   </MadCap:conditionalText>, continue with one of the 5 sections listed below these steps to configure settings for the areas New Task Defaults, Issues, Deletion, Actual Dates, and Access, then click <span class="bold">Save</span>.</p> <p>If you hover over the lock icon <img src="assets/lock-toggle-button-dimmed.png"> for a preference that you need to configure and a tool tip displays to tell you that is locked, you can ask your <em>Workfront administrator</em> to unlock it for all groups in the organization. </p> <p>When it is unlocked, you and other <em>group administrators</em> can configure it separately for your own groups. Also, you can lock it for your group and any subgroups below your group.</p> 
+ <li value="5"> <p> On the page that appears, continue with one of the 5 sections listed below these steps to configure settings for the areas New Task Defaults, Issues, Deletion, Actual Dates, and Access, then click <span class="bold">Save</span>.</p> <p>If you hover over the lock icon <img src="assets/lock-toggle-button-dimmed.png"> for a preference that you need to configure and a tool tip displays to tell you that is locked, you can ask your <span>Workfront administrator</span> to unlock it for all groups in the organization. </p> <p>When it is unlocked, you and other <span>group administrators</span> can configure it separately for your own groups. Also, you can lock it for your group and any subgroups below your group.</p> 
   <ul> 
    <li><a href="#new-task-defaults" class="MCXref xref">New Task Defaults</a> </li> 
    <li><a href="#issues" class="MCXref xref">Issues</a> </li> 
    <li><a href="#deletion" class="MCXref xref">Deletion</a> </li> 
-   <li><a href="#actual-dates" class="MCXref xref">Actual Dates</a> </li> <draft-comment>
-    <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work" class="MCXref xref">Work On It</a> </li>
-   </draft-comment>
-   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work" class="MCXref xref">Work On It</a> </li> 
+   <li><a href="#actual-dates" class="MCXref xref">Actual Dates</a> </li> <!--
+    Work On It
+   --> 
    <li><a href="#access" class="MCXref xref">Access</a> </li> 
   </ul> <h3><a name="new-task-defaults"></a>New Task Defaults</h3> 
   <table cellspacing="0"> 
@@ -126,9 +113,9 @@ You must have the following to perform the steps in this article:
       <ul> 
        <li><span class="bold">Keep the original issue and tie its resolution to the task</span>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes.</li> 
        <li><span class="bold">Allow Primary Contact to have access to the task</span>: Gives the primary contact (issue creator)&nbsp;access to the task to review the task, make updates, and stay informed of its progress</li> 
-       <li> <p><span class="bold">Allow these settings to be changed during conversion</span>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <draft-comment>
-         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot when possible</p>
-        </draft-comment><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot when possible</p> </li> 
+       <li> <p><span class="bold">Allow these settings to be changed during conversion</span>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
+         Screenshot when possible
+        --> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -149,29 +136,11 @@ You must have the following to perform the steps in this article:
     <tr> 
      <td role="rowheader">Allow users to delete tasks & issues with logged hours</td> 
      <td> <p> Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.</p> 
-      <div> <note type="tip">
-        <span>This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.</span> 
-       </note> 
+      <div> Tip: This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project. 
        <p>Consider the following:</p> 
        <ul> 
-        <li> <p>When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet & Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>. </p> <note type="tip">
-          <span>When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet & Hours Preferences area of Setup</span>. 
-         </note> </li> 
-        <li><span>When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours</span> <draft-comment>
-          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-           <span>, or when you delete a project with hours logged for its tasks or issues</span> 
-          </MadCap:conditionalText>
-         </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-          <span>, or when you delete a project with hours logged for its tasks or issues</span> 
-         </MadCap:conditionalText><span>.</span> The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. <draft-comment>
-          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-           The tasks, issues
-           <span>, or projects that have hours logged for tasks and issues</span> cannot be deleted. 
-          </MadCap:conditionalText>
-         </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-          The tasks, issues
-          <span>, or projects that have hours logged for tasks and issues</span> cannot be deleted. 
-         </MadCap:conditionalText></li> 
+        <li> <p>When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet & Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>. </p> Tip: When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet & Hours Preferences area of Setup. </li> 
+        <li><span>When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours</span> , or when you delete a project with hours logged for its tasks or issues<span>.</span> The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues, or projects that have hours logged for tasks and issues cannot be deleted.</li> 
        </ul> 
       </div> </td> 
     </tr> 
@@ -183,7 +152,7 @@ You must have the following to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">When a task or issue goes from "New" to "In Progress," set the Actual Start Date to</td> 
-     <td> <p>Select one of the following options for when the Actual Start Date is recorded in <em>Workfront</em> when a task or issue goes from <span class="bold">New</span> to <span class="bold">In Progress</span>:</p> 
+     <td> <p>Select one of the following options for when the Actual Start Date is recorded in <span>Workfront</span> when a task or issue goes from <span class="bold">New</span> to <span class="bold">In Progress</span>:</p> 
       <ul> 
        <li><span class="bold">Now:</span> The Actual Start Date is set to the current date.</li> 
        <li><span class="bold">The Planned Start Date:</span> The Actual Start Date is set to the Planned Start Date of the task or issue.</li> 
@@ -191,61 +160,16 @@ You must have the following to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">When a task or issue is completed, set the Actual Completion Date to</td> 
-     <td> <p>Select one of the following options for when the Actual Completion Date is&nbsp;recorded in <em>Workfront</em> when a task or issue is completed:</p> 
+     <td> <p>Select one of the following options for when the Actual Completion Date is&nbsp;recorded in <span>Workfront</span> when a task or issue is completed:</p> 
       <ul> 
        <li><span class="bold">Now:</span> The Actual Completion Date is set to the current date.</li> 
        <li> <p><span class="bold">The Planned Completion Date:</span> The Actual Completion Date is set to&nbsp;the Planned Completion Date of the task or issue.</p> </li> 
       </ul> </td> 
     </tr> 
    </tbody> 
-  </table> <draft-comment>
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <h3><a name="Work"></a>Work On It</h3> 
-    <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p> 
-    <p><em>Workfront</em>'s default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p> 
-    <p>To switch to the Start button:</p> 
-    <ol> 
-     <li value="1"> <p>Select <span class="bold">Change the Work On It button to a Start button to automatically update the status of an item</span>.</p> </li> 
-     <li value="2"> <p>In the lists of check boxes that display below this option, select one or more statuses for each work item type.</p> <p>With multiple statuses selected here, when a user clicks Start on a work item, a drop-down menu lets the user choose a status for the item.</p> </li> 
-    </ol> <note type="note"> 
-     <ul class="preview"> 
-      <li>Making this change does not affect tasks and issues where the Actual Start Date was already updated. For these, the button displays as Work On It even if it is replaced with the Start button.</li> 
-      <li>If you select New as a status for a work item type (in step 2 above), the Actual Start Date does not update when a user clicks the Start button and then chooses New. This is because a <em>Workfront</em> item is not yet in progress (therefore not yet started) when New is its current status.</li> 
-      <li>This setting is not currently available in
-       <ul>
-        <li>The Workfront Mobile App</li>
-        <li>Workfront for Office 365</li>
-        <li>Workfront email notifications</li>
-       </ul></li> 
-      <li>This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.</li> 
-      <li>If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.</li> 
-     </ul> 
-    </note> 
-   </div>
-  </draft-comment>
-  <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <h3><a name="Work"></a>Work On It</h3> 
-   <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p> 
-   <p><em>Workfront</em>'s default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p> 
-   <p>To switch to the Start button:</p> 
-   <ol> 
-    <li value="1"> <p>Select <span class="bold">Change the Work On It button to a Start button to automatically update the status of an item</span>.</p> </li> 
-    <li value="2"> <p>In the lists of check boxes that display below this option, select one or more statuses for each work item type.</p> <p>With multiple statuses selected here, when a user clicks Start on a work item, a drop-down menu lets the user choose a status for the item.</p> </li> 
-   </ol> <note type="note"> 
-    <ul class="preview"> 
-     <li>Making this change does not affect tasks and issues where the Actual Start Date was already updated. For these, the button displays as Work On It even if it is replaced with the Start button.</li> 
-     <li>If you select New as a status for a work item type (in step 2 above), the Actual Start Date does not update when a user clicks the Start button and then chooses New. This is because a <em>Workfront</em> item is not yet in progress (therefore not yet started) when New is its current status.</li> 
-     <li>This setting is not currently available in
-      <ul>
-       <li>The Workfront Mobile App</li>
-       <li>Workfront for Office 365</li>
-       <li>Workfront email notifications</li>
-      </ul></li> 
-     <li>This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.</li> 
-     <li>If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.</li> 
-    </ul> 
-   </note> 
-  </div> <h3><a name="access"></a>Access</h3> 
+  </table> <!--
+   Work On It You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work. Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date. To switch to the Start button: Select Change the Work On It button to a Start button to automatically update the status of an item. In the lists of check boxes that display below this option, select one or more statuses for each work item type. With multiple statuses selected here, when a user clicks Start on a work item, a drop-down menu lets the user choose a status for the item. Note: Making this change does not affect tasks and issues where the Actual Start Date was already updated. For these, the button displays as Work On It even if it is replaced with the Start button. If you select New as a status for a work item type (in step 2 above), the Actual Start Date does not update when a user clicks the Start button and then chooses New. This is because a Workfront item is not yet in progress (therefore not yet started) when New is its current status. This setting is not currently available in The Workfront Mobile App Workfront for Office 365 Workfront email notifications This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level. If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
+  --> <h3><a name="access"></a>Access</h3> 
   <table cellspacing="0"> 
    <col> 
    <col> 

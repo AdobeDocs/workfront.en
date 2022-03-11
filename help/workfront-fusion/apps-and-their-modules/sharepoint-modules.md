@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your SharePoi
 
 # SharePoint modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your *SharePoint* account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your `SharePoint` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,62 +26,42 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use SharePoint modules, you must have a SharePoint account.
 
-## Connect SharePoint to *Workfront Fusion*
+## Connect SharePoint to `Workfront Fusion`
 
 * [Connect SharePoint to Workfront Fusion using a Microsoft account](#connect2) 
 * [Connect SharePoint to Workfront Fusion using advanced settings](#connect3)
 
-### Connect SharePoint to *Workfront Fusion* using a Microsoft account
+### Connect SharePoint to `Workfront Fusion` using a Microsoft account
 
-You can use your Microsoft account to create a connection to SharePoint. For instructions about connecting your *Sharepoint* account to *Workfront Fusion*, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+You can use your Microsoft account to create a connection to SharePoint. For instructions about connecting your `Sharepoint` account to `Workfront Fusion`, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-### Connect SharePoint to *Workfront Fusion* using advanced settings
+### Connect SharePoint to `Workfront Fusion` using advanced settings
 
-To connect SharePoint to *Workfront Fusion* without a Microsoft account, you need a Client ID, Client Secret, and Tenant ID.
+To connect SharePoint to `Workfront Fusion` without a Microsoft account, you need a Client ID, Client Secret, and Tenant ID.
 
 1. Click `Add` near the top of the `SharePoint` box to open the `Create a connection` box.
 
@@ -91,11 +71,11 @@ To connect SharePoint to *Workfront Fusion* without a Microsoft account, you nee
 
 1. Click `Continue`.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
-1. (Conditional) If an `Allow` button displays, click the button to connect the app to *Workfront Fusion*.
+1. (Conditional) If an `Allow` button displays, click the button to connect the app to `Workfront Fusion`.
 
 ## SharePoint modules and their fields
 
-When you configure *SharePoint* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *SharePoint* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `SharePoint` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `SharePoint` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -126,7 +106,7 @@ This trigger module starts a scenario when an item is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Lists</td> 
@@ -142,7 +122,7 @@ This trigger module starts a scenario when an item is created or modified.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>item</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>item</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,7 +137,7 @@ This action module retrieves a list of all items in a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List Items</td> 
@@ -169,7 +149,7 @@ This action module retrieves a list of all items in a specified list.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>item</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>item</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -184,7 +164,7 @@ This action module returns the data of a specified item.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get an Item</td> 
@@ -207,7 +187,7 @@ This action module creates a new item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Create an Item</td> 
@@ -234,7 +214,7 @@ This action module updates an existing item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update an Item</td> 
@@ -261,7 +241,7 @@ This action module deletes an existing item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update an Item</td> 
@@ -291,7 +271,7 @@ This trigger module starts a scenario when a list is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Lists</td> 
@@ -307,7 +287,7 @@ This trigger module starts a scenario when a list is created or modified.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>list</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>list</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -322,7 +302,7 @@ This action module retrieves a list of all items in a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List Lists</td> 
@@ -334,7 +314,7 @@ This action module retrieves a list of all items in a specified list.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>list</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>list</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -349,7 +329,7 @@ This action module returns the data of a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a List</td> 
@@ -372,7 +352,7 @@ This action module creates a new list in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter a Site ID</td> 
@@ -417,7 +397,7 @@ This action module returns the data of a specified page.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a Page</td> 
@@ -445,7 +425,7 @@ This action module searches for sites by a parameter you specify.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Keyword of Display Name</td> 
@@ -453,7 +433,7 @@ This action module searches for sites by a parameter you specify.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>site</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>site</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -468,7 +448,7 @@ This action module returns the data of a specified site.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a Site</td> 
@@ -493,7 +473,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>SharePoint</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -505,7 +485,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. <span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -528,722 +508,6 @@ This module allows you to perform a custom API call.
 &nbsp;
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<ul>
-<li><a href="#watch" class="MCXref xref">Watch Records</a> </li>
-<li><a href="#create" class="MCXref xref">Create a folder</a> </li>
-<li><a href="#create2" class="MCXref xref">Create an item</a> </li>
-<li><a href="#delete" class="MCXref xref">Delete an item</a> </li>
-<li><a href="#download" class="MCXref xref">Download a file</a> </li>
-<li><a href="#read" class="MCXref xref">Read a document</a> </li>
-<li><a href="#read2" class="MCXref xref">Read an item</a> </li>
-<li><a href="#update" class="MCXref xref">Update an item</a> </li>
-<li><a href="#upload" class="MCXref xref">Upload a file</a> </li>
-<li><a href="#search" class="MCXref xref">Search Documents</a> </li>
-</ul>
-<h3><a name="Watch"></a>Watch Records</h3>
-<p>This trigger module executes a scenario when the scheduled poll shows that an object has been added or updated in SharePoint. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map <em>this information</em> in subsequent modules in the scenario.This trigger module executes a scenario when <em>an object is added or updated</em><draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>SharePoint</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>SharePoint</em>
-</MadCap:conditionalText>. The module <em>returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses</em>. You can map <em>this information</em> in subsequent modules in the scenario. This is a scheduled trigger module.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Record Type</td>
-<td>Select the type of <em>SharePoint</em> record that you want the module to <em>watch</em>.</td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the site that you want the module to watch.</td>
-</tr>
-<tr>
-<td role="rowheader">Event types</td>
-<td>Select whether you want to watch for new records, updated records, or both.</td>
-</tr>
-<tr>
-<td role="rowheader">Limit</td>
-<td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>watch</em> during each scenario execution cycle.</p> </td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Create"></a>Create a folder</h3>
-<p>This action module <em>creates a new folder</em><draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>SharePoint</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>SharePoint</em>
-</MadCap:conditionalText>.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location where you want to create a folder.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list that you want to create a folder in.</td>
-</tr>
-<tr>
-<td role="rowheader">Parent Folder</td>
-<td>Select the folder that you want to create the new folder in.</td>
-</tr>
-<tr>
-<td role="rowheader">Name</td>
-<td>Enter or map a name for the new folder.</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Create2"></a>Create an item</h3>
-<p>This action module creates a new item in a SharePoint list.</p>
-<p>The module returns the ID of the new item and any associated fields, along with any custom fields and values that the connection accesses. You can map <em>this information</em> in subsequent modules in the scenario.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location where you want to create an item.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list that you want to create a new item in.</td>
-</tr>
-<tr>
-<td role="rowheader">Title</td>
-<td>Enter or map a title for the new item.</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Delete"></a>Delete an item</h3>
-<p>This action module <em>deletes an item that you identify</em><draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>SharePoint</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>SharePoint</em>
-</MadCap:conditionalText>.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location of the item you want to delete.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list where the item you want to delete is located.</td>
-</tr>
-<tr>
-<td role="rowheader">Item ID</td>
-<td>Enter or map a the ID of the item you want to delete.</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Download"></a>Download a file</h3>
-<p>This action module downloads a file from a SharePoint drive.</p>
-<p>You specify the<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText> ID of the <em>file</em>.</p>
-<p>The module returns the file's content, filename, file extension, and file size. You can map <em>this information</em> in subsequent modules in the scenario.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location of the file you want to download.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list where the file you want to download is located.</td>
-</tr>
-<tr>
-<td role="rowheader">File ID</td>
-<td>Enter or map a the ID of the file you want to download .</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Read"></a>Read a document</h3>
-<p>This action module reads a single document and returns a bundle of the document's fields.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location of the document you want to read.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list where the document you want to read is located.</td>
-</tr>
-<tr>
-<td role="rowheader">File ID</td>
-<td>Enter or map the ID of the document you want to read.</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Read2"></a>Read an item</h3>
-<p>This action module reads a single item and returns a bundle of the item's fields.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location of the item you want to read.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list where the item you want to read is located.</td>
-</tr>
-<tr>
-<td role="rowheader">Item ID</td>
-<td>Enter or map a the ID of the item you want to read.</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Update"></a>Update an item</h3>
-<p>This action module updates an existing item in a SharePoint list.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location of the item you want to update.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list where the item you want to update is located.</td>
-</tr>
-<tr>
-<td role="rowheader">Item ID</td>
-<td>Enter or map a the ID of the item you want to update.</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Upload"></a>Upload a file</h3>
-<p>This action module uploads a file to SharePoint</p>
-<p>You specify the location for the file, the file you want to upload, and an optional new name for the file.</p>
-<p>The module returns the ID of the <draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>uploaded</em>
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>uploaded</em>
-</MadCap:conditionalText> <em>file</em> and any associated fields, along with any custom fields and values that the connection accesses. You can map <em>this information</em> in subsequent modules in the scenario.</p>
-<p>When you are configuring this module, the following fields display<draft-comment>
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>SharePoint</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location where you want to upload a file.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list that you want to upload a file to.</td>
-</tr>
-<tr>
-<td role="rowheader">Parent Folder</td>
-<td>Select the folder that you want to upload a file to.</td>
-</tr>
-<tr>
-<td role="rowheader">Source File</td>
-<td>Select whether the source file is empty, link a source file from a previous module, or map the source file's name and data.</td>
-</tr>
-</tbody>
-</table>
-<h3><a name="Search"></a>Search Documents</h3>
-<p>This search module searches for a file or folder inside a SharePoint drive.</p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
-</tr>
-<tr>
-<td role="rowheader">Site</td>
-<td>Select the location where you want to search for documents.</td>
-</tr>
-<tr>
-<td role="rowheader">List</td>
-<td>Select the list where you want to search for documents.</td>
-</tr>
-<tr>
-<td role="rowheader">Search query</td>
-<td>Enter the search query that determines which documents the module will return. </td>
-</tr>
-<tr>
-<td role="rowheader">Limit</td>
-<td>Set the maximum number of results to be worked with during one execution cycle.</td>
-</tr>
-</tbody>
-</table>
-</div>
+Watch Records Create a folder Create an item Delete an item Download a file Read a document Read an item Update an item Upload a file Search Documents Watch Records This trigger module executes a scenario when the scheduled poll shows that an object has been added or updated in SharePoint. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map this information in subsequent modules in the scenario.This trigger module executes a scenario when an object is added or updated. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. This is a scheduled trigger module. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Record Type Select the type of SharePoint record that you want the module to watch. Site Select the site that you want the module to watch. Event types Select whether you want to watch for new records, updated records, or both. Limit Enter or map the maximum number of records you want the module to watch during each scenario execution cycle. Create a folder This action module creates a new folder. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location where you want to create a folder. List Select the list that you want to create a folder in. Parent Folder Select the folder that you want to create the new folder in. Name Enter or map a name for the new folder. Create an item This action module creates a new item in a SharePoint list. The module returns the ID of the new item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location where you want to create an item. List Select the list that you want to create a new item in. Title Enter or map a title for the new item. Delete an item This action module deletes an item that you identify. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location of the item you want to delete. List Select the list where the item you want to delete is located. Item ID Enter or map a the ID of the item you want to delete. Download a file This action module downloads a file from a SharePoint drive. You specify the ID of the file. The module returns the file's content, filename, file extension, and file size. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location of the file you want to download. List Select the list where the file you want to download is located. File ID Enter or map a the ID of the file you want to download . Read a document This action module reads a single document and returns a bundle of the document's fields. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location of the document you want to read. List Select the list where the document you want to read is located. File ID Enter or map the ID of the document you want to read. Read an item This action module reads a single item and returns a bundle of the item's fields. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location of the item you want to read. List Select the list where the item you want to read is located. Item ID Enter or map a the ID of the item you want to read. Update an item This action module updates an existing item in a SharePoint list. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location of the item you want to update. List Select the list where the item you want to update is located. Item ID Enter or map a the ID of the item you want to update. Upload a file This action module uploads a file to SharePoint You specify the location for the file, the file you want to upload, and an optional new name for the file. The module returns the ID of the file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location where you want to upload a file. List Select the list that you want to upload a file to. Parent Folder Select the folder that you want to upload a file to. Source File Select whether the source file is empty, link a source file from a previous module, or map the source file's name and data. Search Documents This search module searches for a file or folder inside a SharePoint drive. Connection For instructions about connecting your SharePoint account to Workfront Fusion, see Connect SharePoint to Workfront Fusion in this article. Site Select the location where you want to search for documents. List Select the list where you want to search for documents. Search query Enter the search query that determines which documents the module will return. Limit Set the maximum number of results to be worked with during one execution cycle.
 -->
-
-* [Watch Records](#watch) 
-* [Create a folder](#create) 
-* [Create an item](#create2) 
-* [Delete an item](#delete) 
-* [Download a file](#download) 
-* [Read a document](#read) 
-* [Read an item](#read2) 
-* [Update an item](#update) 
-* [Upload a file](#upload) 
-* [Search Documents](#search)
-
-### Watch Records
-
-This trigger module executes a scenario when the scheduled poll shows that an object has been added or updated in SharePoint. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map *this information* in subsequent modules in the scenario.This trigger module executes a scenario when *an object is added or updated*`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>SharePoint</em></MadCap:conditionalText>`. The module *returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses*. You can map *this information* in subsequent modules in the scenario. This is a scheduled trigger module.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Record Type</td> 
-   <td>Select the type of <em>SharePoint</em> record that you want the module to <em>watch</em>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the site that you want the module to watch.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Event types</td> 
-   <td>Select whether you want to watch for new records, updated records, or both.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>watch</em> during each scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Create a folder
-
-This action module *creates a new folder*`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>SharePoint</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location where you want to create a folder.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list that you want to create a folder in.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Parent Folder</td> 
-   <td>Select the folder that you want to create the new folder in.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Name</td> 
-   <td>Enter or map a name for the new folder.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Create an item
-
-This action module creates a new item in a SharePoint list.
-
-The module returns the ID of the new item and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location where you want to create an item.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list that you want to create a new item in.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Title</td> 
-   <td>Enter or map a title for the new item.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Delete an item
-
-This action module *deletes an item that you identify*`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>SharePoint</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location of the item you want to delete.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list where the item you want to delete is located.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Item ID</td> 
-   <td>Enter or map a the ID of the item you want to delete.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Download a file
-
-This action module downloads a file from a SharePoint drive.
-
-You specify the`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *file*.
-
-The module returns the file's content, filename, file extension, and file size. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location of the file you want to download.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list where the file you want to download is located.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">File ID</td> 
-   <td>Enter or map a the ID of the file you want to download .</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Read a document
-
-This action module reads a single document and returns a bundle of the document's fields.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location of the document you want to read.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list where the document you want to read is located.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">File ID</td> 
-   <td>Enter or map the ID of the document you want to read.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Read an item
-
-This action module reads a single item and returns a bundle of the item's fields.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location of the item you want to read.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list where the item you want to read is located.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Item ID</td> 
-   <td>Enter or map a the ID of the item you want to read.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Update an item
-
-This action module updates an existing item in a SharePoint list.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location of the item you want to update.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list where the item you want to update is located.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Item ID</td> 
-   <td>Enter or map a the ID of the item you want to update.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Upload a file
-
-This action module uploads a file to SharePoint
-
-You specify the location for the file, the file you want to upload, and an optional new name for the file.
-
-The module returns the ID of the `<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>uploaded</em></MadCap:conditionalText>` *file* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>SharePoint</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location where you want to upload a file.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list that you want to upload a file to.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Parent Folder</td> 
-   <td>Select the folder that you want to upload a file to.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Source File</td> 
-   <td>Select whether the source file is empty, link a source file from a previous module, or map the source file's name and data.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Search Documents
-
-This search module searches for a file or folder inside a SharePoint drive.
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>SharePoint</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Site</td> 
-   <td>Select the location where you want to search for documents.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">List</td> 
-   <td>Select the list where you want to search for documents.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Search query</td> 
-   <td>Enter the search query that determines which documents the module will return. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Limit</td> 
-   <td>Set the maximum number of results to be worked with during one execution cycle.</td> 
-  </tr> 
- </tbody> 
-</table>
 

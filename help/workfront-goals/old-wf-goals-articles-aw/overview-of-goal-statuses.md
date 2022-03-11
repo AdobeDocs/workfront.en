@@ -7,7 +7,7 @@ title: Overview of goal statuses in the new Adobe Workfront experience
 description: From Alla's document:
 ---
 
-# Overview of goal statuses in *the new Adobe Workfront experience*
+# Overview of goal statuses in `the new Adobe Workfront experience`
 
 From&nbsp;Alla's document:
 

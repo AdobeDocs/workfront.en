@@ -12,7 +12,7 @@ By default, users can only see the objects in a report that they have permission
 
 You can allow all users to see the same results in a report as another user, regardless of their access level or permission level on the objects inside the report.
 
-If you run a report with the access rights of another user who has higher access (for example, the access rights of an *Adobe Workfront administrator*), all the users who have permissions to View the report can see the information in the report as the user specified in the report builder. You can set this up for both reports that users find in the *Workfront* interface, or for reports that are delivered to users as an attachment to an email.
+If you run a report with the access rights of another user who has higher access (for example, the access rights of an `Adobe Workfront administrator`), all the users who have permissions to View the report can see the information in the report as the user specified in the report builder. You can set this up for both reports that users find in the `Workfront` interface, or for reports that are delivered to users as an attachment to an email.
 
 >[!TIP]
 >
@@ -28,16 +28,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Display a report with the access rights of another user
 
@@ -57,27 +57,11 @@ The users accessing the report must have at least View permissions on the report
 To run a report with the access rights of another user:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, then click 
-    <span class="bold">Reports</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the 
-   <span class="bold">Main Menu</span> icon 
-   <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-   <em>Workfront</em>, then click 
-   <span class="bold">Reports</span>.
-  </MadCap:conditionalText> </li> 
+ <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. </li> 
  <li value="2">Select the report you want to display with the access rights of another user.</li> 
  <li value="3">Click <span class="bold">Report Actions</span>, then click <span class="bold">Edit</span>.</li> 
  <li value="4">Click <span class="bold">Report Settings</span>.<br></li> 
- <li value="5">In the <span class="bold">Run this report with the Access Rights of:</span> field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.<br><draft-comment>
-   <img src="assets/qs-access-rights-of-350x251.png" style="width: 350;height: 251;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/qs-access-rights-of-350x251.png" style="width: 350;height: 251;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><br><note type="note">
+ <li value="5">In the <span class="bold">Run this report with the Access Rights of:</span> field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.<br><br><note type="note">
    Users with a lower access level that are allowed to build reports do not have the ability to select a user other than themselves for the 
    <span class="bold">Run this Report with the Access Rights of:</span> field.
   </note></li> 
@@ -97,28 +81,12 @@ You can set up reports to be delivered as attachment to an email. You can set up
 To deliver a report with the access rights of another user:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, then click 
-    <span class="bold">Reports</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the 
-   <span class="bold">Main Menu</span> icon 
-   <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-   <em>Workfront</em>, then click 
-   <span class="bold">Reports</span>.
-  </MadCap:conditionalText> </li> 
+ <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. </li> 
  <li value="2">Select the report you want to deliver with the access rights of another user.</li> 
  <li value="3">Click the name of the report to select it.</li> 
  <li value="4">Click <span class="bold">Report Actions</span>.</li> 
  <li value="5">Click <span class="bold">Send Report</span>.<br></li> 
- <li value="6">In the <span class="bold">Deliver this report with the Access Rights of:</span> field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.<br><draft-comment>
-   <img src="assets/qs-send-report-access-rights-of-350x446.png" style="width: 350;height: 446;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/qs-send-report-access-rights-of-350x446.png" style="width: 350;height: 446;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><note type="note">
+ <li value="6">In the <span class="bold">Deliver this report with the Access Rights of:</span> field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.<br><note type="note">
    Users with a lower access level that are allowed to build reports do not have the ability to select a user other then themselves for the 
    <span class="bold">Deliver&nbsp;this Report with the Access Rights of:</span> field.
   </note></li> 

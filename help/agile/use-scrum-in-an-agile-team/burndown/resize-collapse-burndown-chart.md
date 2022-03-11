@@ -23,53 +23,35 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Resize the burndown chart
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Scrum team from the drop-down menu or search for a team in the search bar.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Scrum team from the drop-down menu or search for a team in the search bar.</li> 
- <li value="3">Go to the iteration <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    or project
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. (Optional) Click the Switch team icon , then either select a new Scrum team from the drop-down menu or search for a team in the search bar. 
+ <li value="3">Go to the iteration <!--
    or project
-  </MadCap:conditionalText> that contains the burndown chart you want to resize.</li> 
+  --> that contains the burndown chart you want to resize.</li> 
  <li value="4">Hover over the bottom line of the burndown chart, then drag the chart to the desired size.<br><img src="assets/burndown-resize.png" alt=""></li> 
 </ol>
 
 ## Collapse the burndown chart
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Teams</span></li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Teams</span></li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Switch team</span> icon, then either select the agile team from the drop-down menu or search for a team in the search bar.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Switch team</span> icon, then either select the agile team from the drop-down menu or search for a team in the search bar.</li> 
- <li value="3">Go to the iteration <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    or project
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+1. Go to the iteration 
+
+   <!--
    or project
-  </MadCap:conditionalText> that contains the burndown chart you want to collapse.</li> 
- <li value="4">Click the arrow icon in the left of the Percent Complete status bar.<br></li> 
-</ol>
+   -->
+
+   that contains the burndown chart you want to collapse.
+1. Click the arrow icon in the left of the Percent Complete status bar.
 

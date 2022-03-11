@@ -36,32 +36,6 @@ Consider the following when using the Finish No Earlier Than (FNET) constraint f
   For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="using-FNET"></a>Use the Finish No Earlier Than constraint</h2>
-<p>To update the Task Constraint to Finish No Earlier Than:</p>
-<ol>
-<li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li>
-<li value="3"> <p>In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</p> </li>
-<li value="4"> <p>Select <span class="bold">Finish No Earlier Than</span>.</p> <p> <img src="assets/fnet-350x267.png" alt="FNET.png" style="width: 350;height: 267;"> </p> </li>
-<li value="5"> <p>Specify a <span class="bold">Planned Completion Date</span>.</p> <p>The task must complete no earlier than this date. </p> </li>
-<li value="6">Click <span class="bold">Save Changes.</span> </li>
-</ol>
-</div>
+Use the Finish No Earlier Than constraint To update the Task Constraint to Finish No Earlier Than: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Finish No Earlier Than. Specify a Planned Completion Date. The task must complete no earlier than this date. Click Save Changes.
 -->
-
-## Use the Finish No Earlier Than constraint
-
-To update the Task Constraint to Finish No Earlier Than:
-
-<ol> 
- <li value="1">Go to a task whose Task Constraint you want to update.</li> 
- <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</p> </li> 
- <li value="4"> <p>Select <span class="bold">Finish No Earlier Than</span>.</p> <p> <img src="assets/fnet-350x267.png" alt="FNET.png" style="width: 350;height: 267;"> </p> </li> 
- <li value="5"> <p>Specify a <span class="bold">Planned Completion Date</span>.</p> <p>The task must complete no earlier than this date. </p> </li> 
- <li value="6">Click <span class="bold">Save Changes.</span> </li> 
-</ol>
 

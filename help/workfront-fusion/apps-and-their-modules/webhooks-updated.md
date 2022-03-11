@@ -10,7 +10,7 @@ description: A webhook is an HTTP call that is triggered by an event. You can us
 
 # Webhooks
 
-A webhook is an HTTP call that is triggered by an event. You can use webhooks to activate instant trigger modules. Any application that is connected to the Internet and allows HTTP requests can send webhooks to *Adobe Workfront Fusion*.
+A webhook is an HTTP call that is triggered by an event. You can use webhooks to activate instant trigger modules. Any application that is connected to the Internet and allows HTTP requests can send webhooks to `Adobe Workfront Fusion`.
 
 ## Access requirements
 
@@ -21,53 +21,33 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Use a webhook in *Workfront Fusion*
+## Use a webhook in `Workfront Fusion`
 
 >[!NOTE]
 >
 >To call a third party webhook (an outgoing webhook) use one of the HTTP modules. For more information, see [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md).
 
-To use a webhook to connect an app to *Workfront Fusion*:
+To use a webhook to connect an app to `Workfront Fusion`:
 
 1. Add the `Webhooks`> `Custom Webhook` instant trigger module to your scenario.
 
@@ -76,7 +56,7 @@ To use a webhook to connect an app to *Workfront Fusion*:
 1. In the `IP restrictions` field, enter a comma-separated list of the IP addresses that the module can accept data from.
 1. Click `Save`
 
-After you create a webhook, a unique URL displays. This is the address where the webhook sends data. *Workfront Fusion* validates the data sent to this address, then passes it on for processing in the scenario.
+After you create a webhook, a unique URL displays. This is the address where the webhook sends data. `Workfront Fusion` validates the data sent to this address, then passes it on for processing in the scenario.
 
 >[!NOTE]
 >
@@ -84,7 +64,7 @@ After you create a webhook, a unique URL displays. This is the address where the
 
 ### Configure the webhook's data structure
 
-In order to recognize the data structure of the incoming payload, *Workfront Fusion* parses sample data that you send to the displayed address. You can supply the sample data by making a change in the service or app that will make that service or app call the webhook. For example, you could remove a file.
+In order to recognize the data structure of the incoming payload, `Workfront Fusion` parses sample data that you send to the displayed address. You can supply the sample data by making a change in the service or app that will make that service or app call the webhook. For example, you could remove a file.
 
 Or you can follow the steps below to send the sample data via the HTTP > Make a request module.
 
@@ -134,11 +114,11 @@ If a webhook receives data and there is not an active scenario that is expecting
 
 ## Supported incoming data formats
 
-*Workfront Fusion* supports 3 incoming data formats: Query String, Form Data and JSON.
+`Workfront Fusion` supports 3 incoming data formats: Query String, Form Data and JSON.
 
-*Workfront Fusion* validates all incoming data against the selected data structure. Then, depending on the scenario’s settings, the data is either stored in the queue for processing, or it is processed immediately.
+`Workfront Fusion` validates all incoming data against the selected data structure. Then, depending on the scenario’s settings, the data is either stored in the queue for processing, or it is processed immediately.
 
-If any part of the data does not pass the validation, *Workfront Fusion* returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, *Workfront Fusion* returns a “200 Accepted” status.
+If any part of the data does not pass the validation, `Workfront Fusion` returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, `Workfront Fusion` returns a “200 Accepted” status.
 
 * [Query String](#query) 
 * [Form Data](#form) 
@@ -311,7 +291,7 @@ The configuration of the module contains two fields: Status and Body.
   </note> </li> 
 </ul>
 
-Timeout for sending a response is 40 seconds. If the response is not available within that period, *Workfront Fusion* returns a '200 Accepted' status.
+Timeout for sending a response is 40 seconds. If the response is not available within that period, `Workfront Fusion` returns a '200 Accepted' status.
 
 ### HTML Response example
 

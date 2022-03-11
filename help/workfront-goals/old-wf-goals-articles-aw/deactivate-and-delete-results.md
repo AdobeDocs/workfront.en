@@ -1,6 +1,6 @@
 
 
-# Deactivate and delete results in *the new Adobe Workfront experience*
+# Deactivate and delete results in `the new Adobe Workfront experience`
 
 Deleting and deactivating Key Results within Atiim have different meanings and will have two different results to be mindful of. Deactivating a Key Results suspends the user from updating information and recording progress on that Key Result, but can be reactivated if needed. Deleting the Key Result is a permanent removal from the system.
 

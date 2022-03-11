@@ -4,14 +4,14 @@ product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
 title: Remind a reviewer about assignments in Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: You can send a single message to a reviewer reminding them about multiple items that have been shared with them.
 ---
 
-# Remind a reviewer about assignments in *Workfront Proof*
+# Remind a reviewer about assignments in `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can send a single message to a reviewer reminding them about multiple items that have been shared with them.
 
@@ -24,11 +24,11 @@ The email will replicate the notification email they were sent originally (and c
 1. In the page that appears, open the  `Shared items` section.
 1. Select the checkbox for the items you want to remind this reviewer about.   
    Or  
-   If you want to remind them about all of their *proofs*, select the check box above the list.
+   If you want to remind them about all of their `proofs`, select the check box above the list.
 
 1. Click `More` > `Message.`&nbsp;
 
 1. On the `Send message` box that appears, type a `Title` and `Message,` then click `Send.  
-   `The contact receives an email containing information and personal links for all the *proofs* in a single email.
+   `The contact receives an email containing information and personal links for all the `proofs` in a single email.
 
 &nbsp;

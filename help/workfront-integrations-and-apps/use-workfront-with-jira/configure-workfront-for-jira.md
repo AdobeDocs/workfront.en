@@ -6,17 +6,17 @@ title: Configure Adobe Workfront for Jira
 description: You can use Adobe Workfront for Jira to integrate your Jira and Workfront systems.
 ---
 
-# Configure *Adobe Workfront* for Jira
+# Configure `Adobe Workfront` for Jira
 
-You can use *Adobe Workfront* for Jira to integrate your Jira and *Workfront* systems.
+You can use `Adobe Workfront` for Jira to integrate your Jira and `Workfront` systems.
 
-After installing the add-on, you can define workflows that create Jira issues automatically when *Workfront* work items are created. The items in both applications become linked, and some of their information automatically updates in both systems.
+After installing the add-on, you can define workflows that create Jira issues automatically when `Workfront` work items are created. The items in both applications become linked, and some of their information automatically updates in both systems.
 
-All users in *Workfront* and Jira can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems.&nbsp;
+All users in `Workfront` and Jira can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems.&nbsp;
 
 This add-on is available for both the Server and OnDemand (or Cloud) versions of Jira Software.
 
-For a list of Jira versions that *Workfront for Jira* currently supports, see [*Workfront for Jira*](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the Atlassian Marketplace.
+For a list of Jira versions that `Workfront for Jira` currently supports, see [ `Workfront for Jira`](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the Atlassian Marketplace.
 
 ## Access requirements
 
@@ -27,7 +27,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><em>Adobe Workfront</em> plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
@@ -36,81 +36,81 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Jira access</td> 
-   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and <em>Workfront</em> to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and <span>Workfront</span> to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For information on <span>Workfront administrators</span>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-Before you can configure *Workfront* for Jira, you must
+Before you can configure `Workfront` for Jira, you must
 
-* Install *Workfront* for Jira  
-  For instructions on installing *Workfront* for Jira, see [Install Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+* Install `Workfront` for Jira  
+  For instructions on installing `Workfront` for Jira, see [Install Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-## Configure *Workfront* for Jira
+## Configure `Workfront` for Jira
 
-By configuring *Workfront* for Jira you can:
+By configuring `Workfront` for Jira you can:
 
-* Define triggers that will create Jira items when *Workfront* items are created.
-* Specify which fields should synchronize between items linked between Jira and *Workfront*.
+* Define triggers that will create Jira items when `Workfront` items are created.
+* Specify which fields should synchronize between items linked between Jira and `Workfront`.
 
 >[!NOTE]
 >
->* After you configure *Workfront* for Jira on your Jira environment, all Jira users see a *Workfront* right panel on all Jira items. The panel contains information about the items that might be linked from *Workfront* or specifies that no *Workfront* items are linked to Jira items.&nbsp;
+>* After you configure `Workfront` for Jira on your Jira environment, all Jira users see a `Workfront` right panel on all Jira items. The panel contains information about the items that might be linked from `Workfront` or specifies that no `Workfront` items are linked to Jira items.&nbsp;
 >
->* When using the Jira Server installation, only the issues that are associated with projects identified as triggers for the *Workfront* integration display the *Workfront* panel.&nbsp;For more information about setting up triggers for the *Workfront* to Jira workflow, see [Configure triggers for automatically linking items between Jira and Workfront](#configuring-triggers).
+>* When using the Jira Server installation, only the issues that are associated with projects identified as triggers for the `Workfront` integration display the `Workfront` panel. For more information about setting up triggers for the `Workfront` to Jira workflow, see [Configure triggers for automatically linking items between Jira and Workfront](#configuring-triggers).
 >
 
-To configure *Workfront* for Jira:
+To configure `Workfront` for Jira:
 
 <ol> 
  <li value="1">Log into Jira as a Jira administrator.</li> 
  <li value="2">Click <span class="bold">Settings</span> in the main Jira menu.</li> 
  <li value="3">Click <span class="bold">Add-ons</span>, then click <span class="bold">Manage add-ons</span>.</li> 
- <li value="4">Expand the <span class="bold"><em>Workfront</em></span> add-on.</li> 
+ <li value="4">Expand the <span class="bold"><span>Workfront</span></span> add-on.</li> 
  <li value="5">Click <span class="bold">Configure</span>.</li> 
- <li value="6"> <p>Follow the prompts to log in to <em>Workfront</em>.</p> <note type="note">
+ <li value="6"> <p>Follow the prompts to log in to <span>Workfront</span>.</p> <note type="note">
    Workfront connects to Jira using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
    <br>
-  </note> <p>You must log in to <em>Workfront</em> as a <em>Workfront administrator</em> to continue the configuration.</p> <note type="note"> 
+  </note> <p>You must log in to <span>Workfront</span> as a <span>Workfront administrator</span> to continue the configuration.</p> <note type="note"> 
    <ul> 
-    <li>When you are prompted to enter the <em>domain</em> of your <em>Workfront</em> account, type it using this format: <em>yourCompany'sDomain.my.workfront.com</em>. Your company's domain is usually the name of your company.</li> 
-    <li>Enhanced Authentication is not available until a <em>Workfront administrator</em> enables it for this integration. </li> 
+    <li>When you are prompted to enter the <span>domain</span> of your <span>Workfront</span> account, type it using this format: <em>yourCompany'sDomain.my.workfront.com</em>. Your company's domain is usually the name of your company.</li> 
+    <li>Enhanced Authentication is not available until a <span>Workfront administrator</span> enables it for this integration. </li> 
    </ul> 
   </note> </li> 
- <li value="7"> <p>Select the <span class="bold">Triggers</span> tab to configure the automatic creation of Jira items as new <em>Workfront</em> items are created.<br></p> <p>For more information about setting up triggers for the <em>Workfront</em> to Jira workflow, see <a href="#configuring-triggers" class="MCXref xref">Configure triggers for automatically linking items between Jira and Workfront</a>.</p> </li> 
- <li value="8"> <p>Select the <span class="bold">Setup</span> tab to configure the synchronization of fields between linked Jira and <em>Workfront</em> items.</p> <p>For more information about setting up the synchronization of fields between Jira and <em>Workfront</em>, see <a href="#setting-up-field-synchronization" class="MCXref xref">Configure field synchronization between Jira and Workfront Items</a>.</p> <note type="note">
+ <li value="7"> <p>Select the <span class="bold">Triggers</span> tab to configure the automatic creation of Jira items as new <span>Workfront</span> items are created.<br></p> <p>For more information about setting up triggers for the <span>Workfront</span> to Jira workflow, see <a href="#configuring-triggers" class="MCXref xref">Configure triggers for automatically linking items between Jira and Workfront</a>.</p> </li> 
+ <li value="8"> <p>Select the <span class="bold">Setup</span> tab to configure the synchronization of fields between linked Jira and <span>Workfront</span> items.</p> <p>For more information about setting up the synchronization of fields between Jira and <span>Workfront</span>, see <a href="#setting-up-field-synchronization" class="MCXref xref">Configure field synchronization between Jira and Workfront Items</a>.</p> <note type="note">
     After you defined the triggers and the synchronization of fields between the two applications, any 
-   <em>Workfront</em> user who can create tasks or issues could potentially trigger the creation of an item in Jira. The user can create an item if the criteria on the item they create match the triggers in Jira, even if the user does not have a Jira license. Also, any Jira user can immediately start working on the Jira item, and their updates are visible in 
-   <em>Workfront</em>, without them having a 
-   <em>Workfront</em> license. Any updates in 
-   <em>Workfront</em> are also visible on the Jira items.&nbsp;
+   <span>Workfront</span> user who can create tasks or issues could potentially trigger the creation of an item in Jira. The user can create an item if the criteria on the item they create match the triggers in Jira, even if the user does not have a Jira license. Also, any Jira user can immediately start working on the Jira item, and their updates are visible in 
+   <span>Workfront</span>, without them having a 
+   <span>Workfront</span> license. Any updates in 
+   <span>Workfront</span> are also visible on the Jira items.&nbsp;
   </note> </li> 
  <li value="9"> <p>(Optional) Select the <span class="bold">Activity Log</span> tab to review any errors that might have occurred during the integration.</p> <p>For more information about the Activity Log, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">View the Jira Activity Log</a>.<br></p> </li> 
 </ol>
 
-## Configure triggers for automatically linking items between Jira and *Workfront*
+## Configure triggers for automatically linking items between Jira and `Workfront`
 
-As the Jira system administrator, you can define triggers that would automatically create issues in Jira when an item in *Workfront* meets certain criteria.
+As the Jira system administrator, you can define triggers that would automatically create issues in Jira when an item in `Workfront` meets certain criteria.
 
 >[!NOTE]
 >
 >It could take up to 10 minutes for the integration to create new issues in Jira.
 
-Consider the following when configuring triggering the creation of Jira items as *Workfront* items are created:
+Consider the following when configuring triggering the creation of Jira items as `Workfront` items are created:
 
-* The integration is unidirectional: You can only trigger items that you create in *Workfront* to be automatically created in Jira. You cannot trigger items that you create in Jira to automatically be created in *Workfront*.&nbsp;
+* The integration is unidirectional: You can only trigger items that you create in `Workfront` to be automatically created in Jira. You cannot trigger items that you create in Jira to automatically be created in `Workfront`.&nbsp;
 
 * There is no limit to how many triggers you can have.&nbsp;
-* If an item that you create in *Workfront* matches more than one of the triggers, only one item is created in Jira. The item is created in Jira according to the first trigger (in the order that they have been defined in Jira). All other triggers are ignored.&nbsp;
-* Only one item in *Workfront* can be linked to one item in Jira. You can never link one *Workfront* item to multiple Jira issues, or one Jira issue to multiple *Workfront* items.&nbsp;
+* If an item that you create in `Workfront` matches more than one of the triggers, only one item is created in Jira. The item is created in Jira according to the first trigger (in the order that they have been defined in Jira). All other triggers are ignored.&nbsp;
+* Only one item in `Workfront` can be linked to one item in Jira. You can never link one `Workfront` item to multiple Jira issues, or one Jira issue to multiple `Workfront` items.&nbsp;
 
 To configure triggers for automatically creating items in Jira:&nbsp;
 
@@ -118,11 +118,11 @@ To configure triggers for automatically creating items in Jira:&nbsp;
  <li value="1">Log into Jira as a system administrator.</li> 
  <li value="2">Click <span class="bold">Settings</span> in the main Jira menu.</li> 
  <li value="3">Click <span class="bold">Add-ons</span>, then <span class="bold">Manage add-ons</span>.</li> 
- <li value="4">Expand the <span class="bold"><em>Workfront</em></span> add-on.</li> 
+ <li value="4">Expand the <span class="bold"><span>Workfront</span></span> add-on.</li> 
  <li value="5">Click <span class="bold">Configure</span>.</li> 
- <li value="6"> <p>Log in to <em>Workfront</em> as a system administrator.</p> <p>The&nbsp;<span class="bold">Triggers</span> tab is selected by default.</p> <p> <img src="assets/triggers-tab-jira-wf-350x220.png" alt="Triggers_tab_Jira_WF.png" style="width: 350;height: 220;"> </p> </li> 
+ <li value="6"> <p>Log in to <span>Workfront</span> as a system administrator.</p> <p>The&nbsp;<span class="bold">Triggers</span> tab is selected by default.</p> <p> <img src="assets/triggers-tab-jira-wf-350x220.png" alt="Triggers_tab_Jira_WF.png" style="width: 350;height: 220;"> </p> </li> 
  <li value="7">Click <span class="bold">Add trigger</span> to add a new trigger.</li> 
- <li value="8"> <p>In the <span class="bold"><em>Workfront</em> team/user/role</span> field, specify the name of a <em>Workfront</em> team, user, or job role, then click to select it when it displays in the list.&nbsp;</p> <note type="note">
+ <li value="8"> <p>In the <span class="bold"><span>Workfront</span> team/user/role</span> field, specify the name of a <span>Workfront</span> team, user, or job role, then click to select it when it displays in the list.&nbsp;</p> <note type="note">
    You cannot have multiple triggers for the same team, user, or role.
   </note> <p>When someone creates a task or an issue and assigns it to one of these entities, an issue is automatically created in Jira.</p> </li> 
 </ol>
@@ -137,11 +137,11 @@ To configure triggers for automatically creating items in Jira:&nbsp;
 
 1. Click `Save`.&nbsp;
 
-   With this configuration, every time a *Workfront* user creates an item that matches the specified triggers, a new issue is created in Jira.
+   With this configuration, every time a `Workfront` user creates an item that matches the specified triggers, a new issue is created in Jira.
 
-## Configure field synchronization between Jira and *Workfront* Items
+## Configure field synchronization between Jira and `Workfront` Items
 
-As the Jira administrator, you can define what fields should automatically synchronize on items that are linked between *Workfront* and Jira. Certain fields can synchronize from the *Workfront* to the Jira item, and others synchronize from Jira to *Workfront*.&nbsp;
+As the Jira administrator, you can define what fields should automatically synchronize on items that are linked between `Workfront` and Jira. Certain fields can synchronize from the `Workfront` to the Jira item, and others synchronize from Jira to `Workfront`.&nbsp;
 
 To define what fields should automatically synchronize on items linked between the two applications:
 
@@ -149,11 +149,11 @@ To define what fields should automatically synchronize on items linked between t
  <li value="1">Log into Jira as a Jira administrator.</li> 
  <li value="2">Click <span class="bold">Settings</span> in the main Jira menu.</li> 
  <li value="3">Click <span class="bold">Add-ons</span>, then <span class="bold">Manage add-ons</span>.</li> 
- <li value="4">Expand the <span class="bold"><em>Workfront</em></span> add-on.</li> 
+ <li value="4">Expand the <span class="bold"><span>Workfront</span></span> add-on.</li> 
  <li value="5">Click <span class="bold">Configure</span>.</li> 
- <li value="6">Log in to <em>Workfront</em> as a <em>Workfront administrator</em>.</li> 
+ <li value="6">Log in to <span>Workfront</span> as a <span>Workfront administrator</span>.</li> 
  <li value="7"> <p>Click the <span class="bold">Setup</span> tab.</p> <p> <img src="assets/jira-newsetuptab-350x273.png" style="width: 350;height: 273;"> <br> </p> </li> 
- <li value="8">In the <span class="bold">Synchronize from Jira to Workfront</span>&nbsp;section, select the fields that you want to update in Jira when they are updated in <em>Workfront</em>.&nbsp;
+ <li value="8">In the <span class="bold">Synchronize from Jira to Workfront</span>&nbsp;section, select the fields that you want to update in Jira when they are updated in <span>Workfront</span>.&nbsp;
   <ol style="list-style-type: lower-alpha;">
    <li value="1"><p>Select any of the following frequencies with which the fields are synchronized: </p>
     <table cellspacing="0">
@@ -162,52 +162,52 @@ To define what fields should automatically synchronize on items linked between t
      <tbody>
       <tr>
        <td role="rowheader">On Creation</td>
-       <td>The fields you specify are synchronized between the linked <em>Workfront</em> and Jira items when the item is created in <em>Workfront</em>.</td>
+       <td>The fields you specify are synchronized between the linked <span>Workfront</span> and Jira items when the item is created in <span>Workfront</span>.</td>
       </tr>
       <tr>
        <td role="rowheader">Always</td>
-       <td>The fields you specify are synchronized between the linked <em>Workfront</em> and Jira items when the fields are updated in <em>Workfront</em>.&nbsp;</td>
+       <td>The fields you specify are synchronized between the linked <span>Workfront</span> and Jira items when the fields are updated in <span>Workfront</span>.&nbsp;</td>
       </tr>
       <tr>
        <td role="rowheader">Never</td>
-       <td>The fields you specify are never synchronized between the linked <em>Workfront</em> and Jira items. There is no indication in Jira that the field was updated in <em>Workfront</em>.&nbsp;</td>
+       <td>The fields you specify are never synchronized between the linked <span>Workfront</span> and Jira items. There is no indication in Jira that the field was updated in <span>Workfront</span>.&nbsp;</td>
       </tr>
      </tbody>
     </table></li>
-   <li value="2"><p>Select to synchronize any of the following fields from <em>Workfront</em> to Jira:&nbsp; </p>
+   <li value="2"><p>Select to synchronize any of the following fields from <span>Workfront</span> to Jira:&nbsp; </p>
     <table cellspacing="0">
      <col>
      <col>
      <tbody>
       <tr>
        <td role="rowheader">Name</td>
-       <td><p>The name of a task or an issue in <em>Workfront</em> becomes the name of the issue to which it is linked in Jira.</p><note type="note">
+       <td><p>The name of a task or an issue in <span>Workfront</span> becomes the name of the issue to which it is linked in Jira.</p><note type="note">
          When new items are created in Jira automatically, the 
-         <em>Workfront</em> Name always updates on the Jira item, regardless of whether this field is enabled here or not. When a Jira item is manually linked to a 
-         <em>Workfront</em> item, the Name of the 
-         <em>Workfront</em> item only updates in Jira when you select to&nbsp;
+         <span>Workfront</span> Name always updates on the Jira item, regardless of whether this field is enabled here or not. When a Jira item is manually linked to a 
+         <span>Workfront</span> item, the Name of the 
+         <span>Workfront</span> item only updates in Jira when you select to&nbsp;
          <span class="bold">Always</span>&nbsp;synchronize this field.&nbsp;For more information about linking items manually or automatically, see 
          <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">Link items between Adobe Workfront and Jira</a>.
         </note></td>
       </tr>
       <tr>
        <td role="rowheader">Description</td>
-       <td>The description of a task or an issue in <em>Workfront</em> becomes the description of the issue to which it is linked in Jira.</td>
+       <td>The description of a task or an issue in <span>Workfront</span> becomes the description of the issue to which it is linked in Jira.</td>
       </tr>
       <tr>
        <td role="rowheader">Documents</td>
-       <td><p>Documents attached to a task or an issue in <em>Workfront</em> are also attached to the issue to which it is linked in Jira. New document versions from <em>Workfront</em> are added as separate documents to Jira and are appended with <i>_v<version number></i> to indicate the numbered version in <em>Workfront</em>. </p><p>For example, if the name of a document in <em>Workfront</em> is <span class="bold">Main Ad</span>, and you add a new version to it in <em>Workfront</em>, the new version is transferred to Jira as a new document with the name <span class="bold">Main Ad_v2</span>.</p><note type="important">
+       <td><p>Documents attached to a task or an issue in <span>Workfront</span> are also attached to the issue to which it is linked in Jira. New document versions from <span>Workfront</span> are added as separate documents to Jira and are appended with <i>_v<version number></i> to indicate the numbered version in <span>Workfront</span>. </p><p>For example, if the name of a document in <span>Workfront</span> is <span class="bold">Main Ad</span>, and you add a new version to it in <span>Workfront</span>, the new version is transferred to Jira as a new document with the name <span class="bold">Main Ad_v2</span>.</p><note type="important">
          <p>Consider the following when syncing documents:</p>
          <ul>
           <li><p>Documents larger than 5MB do not sync. If a document sync fails because the document is too large, an error is logged in the Activity log, </p><p>For more information on the activity log, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">View the Jira Activity Log</a>.</p></li>
-          <li><p>Documents that are linked to tasks and issues from external servers are not transferred to the Jira items. Only documents uploaded directly on the task or the issue in <em>Workfront</em> are transferred to the linked issue in Jira.</p></li>
-          <li><p>To create a proof from a document, you must generate the proof in <em>Workfront</em>. </p><p>For more information on generating a proof, see <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create" class="MCXref xref">Create a proof for an existing document </a>in <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">Create a proof for a document</a>.<br></p></li>
+          <li><p>Documents that are linked to tasks and issues from external servers are not transferred to the Jira items. Only documents uploaded directly on the task or the issue in <span>Workfront</span> are transferred to the linked issue in Jira.</p></li>
+          <li><p>To create a proof from a document, you must generate the proof in <span>Workfront</span>. </p><p>For more information on generating a proof, see <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create" class="MCXref xref">Create a proof for an existing document </a>in <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">Create a proof for a document</a>.<br></p></li>
          </ul>
         </note></td>
       </tr>
       <tr>
        <td role="rowheader">Planned Completion Date</td>
-       <td><p>The Planned Completion Date of a task or an issue in <em>Workfront</em> becomes the Due Date of the issue to which it is linked in Jira.</p><note type="note">
+       <td><p>The Planned Completion Date of a task or an issue in <span>Workfront</span> becomes the Due Date of the issue to which it is linked in Jira.</p><note type="note">
          Ensure that you display 
          <span class="bold">Due Date</span>&nbsp;on Jira issues, for this value to synchronize.
         </note></td>
@@ -215,7 +215,7 @@ To define what fields should automatically synchronize on items linked between t
      </tbody>
     </table></li>
   </ol></li> 
- <li value="9">In the <span class="bold">Synchronize from Jira to Workfront</span>&nbsp;section, select the fields that you want to update in <em>Workfront</em> when they are updated in Jira.&nbsp;
+ <li value="9">In the <span class="bold">Synchronize from Jira to Workfront</span>&nbsp;section, select the fields that you want to update in <span>Workfront</span> when they are updated in Jira.&nbsp;
   <ol style="list-style-type: lower-alpha;">
    <li value="1"><p>Select any of the following frequencies with which the fields are synchronized: </p>
     <table cellspacing="0">
@@ -224,100 +224,100 @@ To define what fields should automatically synchronize on items linked between t
      <tbody>
       <tr>
        <td role="rowheader">Always</td>
-       <td>The fields you specify are always synchronized between the linked <em>Workfront</em> and Jira items when the fields are updated in Jira.&nbsp;</td>
+       <td>The fields you specify are always synchronized between the linked <span>Workfront</span> and Jira items when the fields are updated in Jira.&nbsp;</td>
       </tr>
       <tr>
        <td role="rowheader">Never</td>
-       <td><p>The fields you specify are never synchronized between the linked <em>Workfront</em> and Jira items. There is no indication in <em>Workfront</em> that the field was updated in Jira.&nbsp;</p><note type="note">
+       <td><p>The fields you specify are never synchronized between the linked <span>Workfront</span> and Jira items. There is no indication in <span>Workfront</span> that the field was updated in Jira.&nbsp;</p><note type="note">
          When you select Never, 
-         <em>Workfront</em> fields can still be manually updated from Jira in the left 
-         <em>Workfront</em> panel of the Jira issue. Those updates appear only on 
-         <em>Workfront</em> items in Jira and 
-         <em>Workfront</em> and not on Jira items.
+         <span>Workfront</span> fields can still be manually updated from Jira in the left 
+         <span>Workfront</span> panel of the Jira issue. Those updates appear only on 
+         <span>Workfront</span> items in Jira and 
+         <span>Workfront</span> and not on Jira items.
         </note></td>
       </tr>
      </tbody>
     </table></li>
-   <li value="2"><p>Select to synchronize any of the following fields from Jira to <em>Workfront</em>: </p>
+   <li value="2"><p>Select to synchronize any of the following fields from Jira to <span>Workfront</span>: </p>
     <table cellspacing="0">
      <col>
      <col>
      <tbody>
       <tr>
        <td role="rowheader">Status</td>
-       <td>The Status of an issue in Jira becomes the Status of the task or issue to which it is linked in <em>Workfront</em>.<br>For more information about <em>Workfront</em> statuses, see <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td>
+       <td>The Status of an issue in Jira becomes the Status of the task or issue to which it is linked in <span>Workfront</span>.<br>For more information about <span>Workfront</span> statuses, see <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td>
       </tr>
       <tr>
        <td role="rowheader">Assignee</td>
-       <td><p>The Assignee of an issue in Jira becomes the Assignee of the task or issue to which it is linked in <em>Workfront</em>.</p><note type="important">
+       <td><p>The Assignee of an issue in Jira becomes the Assignee of the task or issue to which it is linked in <span>Workfront</span>.</p><note type="important">
          When you assign an item in Jira to a user who does not have a 
-         <em>Workfront</em> account, the integration creates a new active user in 
-         <em>Workfront</em> only when the 
+         <span>Workfront</span> account, the integration creates a new active user in 
+         <span>Workfront</span> only when the 
          <span class="bold">Automatically create a user in </span>
-         <em>Workfront</em>
+         <span>Workfront</span>
          <span class="bold"> if the Jira user does not have a </span>
-         <em>Workfront</em>
+         <span>Workfront</span>
          <span class="bold"> account</span> is set to 
          <span class="bold">Always</span>. This user does not occupy a 
-         <em>Workfront</em> license.&nbsp;Active users can be assigned to work items in 
-         <em>Workfront</em>, but cannot be included in updates. 
+         <span>Workfront</span> license.&nbsp;Active users can be assigned to work items in 
+         <span>Workfront</span>, but cannot be included in updates. 
         </note></td>
       </tr>
       <tr>
        <td role="rowheader">Attachments</td>
-       <td>Attachments of an issue in Jira are also attached to the task or issue to which it is linked in <em>Workfront</em>.&nbsp;</td>
+       <td>Attachments of an issue in Jira are also attached to the task or issue to which it is linked in <span>Workfront</span>.&nbsp;</td>
       </tr>
       <tr>
        <td role="rowheader">Comments</td>
-       <td><p>A comment on a Jira issue is also posted on the linked <em>Workfront</em> item in the Updates area. Conversely, a comment posted in the Updates area for a <em>Workfront</em> task or issue syncs to Jira's native comment stream for the linked issue. </p><p>This is set to <span class="bold">Always</span> by default. If you select <span class="bold">Never</span> here, you can still post comments manually on a linked item either in <em>Workfront</em> or in Jira.</p></td>
+       <td><p>A comment on a Jira issue is also posted on the linked <span>Workfront</span> item in the Updates area. Conversely, a comment posted in the Updates area for a <span>Workfront</span> task or issue syncs to Jira's native comment stream for the linked issue. </p><p>This is set to <span class="bold">Always</span> by default. If you select <span class="bold">Never</span> here, you can still post comments manually on a linked item either in <span>Workfront</span> or in Jira.</p></td>
       </tr>
      </tbody>
     </table></li>
   </ol></li> 
  <li value="10">In the <span class="bold">OTHER</span> section, select what additional fields should be updated between linked items.&nbsp; 
   <ol style="list-style-type: lower-alpha;">
-   <li value="1">Select an option to determine whether the fields you specify <span class="bold">Always</span> or <span class="bold">Never</span> update in Jira or <em>Workfront</em> when they are modified.</li>
+   <li value="1">Select an option to determine whether the fields you specify <span class="bold">Always</span> or <span class="bold">Never</span> update in Jira or <span>Workfront</span> when they are modified.</li>
    <li value="2"><p>Select from the following fields and updates: </p>
     <table cellspacing="0">
      <col>
      <col>
      <tbody>
       <tr>
-       <td role="rowheader">Copy <em>Workfront</em> Custom Data in the right panel in Jira</td>
-       <td><p>Displays the <em>Workfront</em> Custom Data of an item in the <em>Workfront</em> right panel.</p><note type="note">
+       <td role="rowheader">Copy <span>Workfront</span> Custom Data in the right panel in Jira</td>
+       <td><p>Displays the <span>Workfront</span> Custom Data of an item in the <span>Workfront</span> right panel.</p><note type="note">
           Custom Form sections are displayed in the 
-         <em>Workfront</em> right panel with the access level of the 
-         <em>Workfront</em> System Administrator.
+         <span>Workfront</span> right panel with the access level of the 
+         <span>Workfront</span> System Administrator.
         </note></td>
       </tr>
       <tr>
-       <td role="rowheader">Copy <em>Workfront</em> Priority in the right panel in Jira</td>
-       <td>Displays the <em>Workfront</em> Priority of an item in the <em>Workfront</em> right panel.</td>
+       <td role="rowheader">Copy <span>Workfront</span> Priority in the right panel in Jira</td>
+       <td>Displays the <span>Workfront</span> Priority of an item in the <span>Workfront</span> right panel.</td>
       </tr>
       <tr>
-       <td role="rowheader">Add an update in the <em>Workfront</em> Updates tab about Due Date changes in Jira</td>
-       <td>Adds a comment in the Update tab of the <em>Workfront</em> item when the Due Date changes in linked Jira item.</td>
+       <td role="rowheader">Add an update in the <span>Workfront</span> Updates tab about Due Date changes in Jira</td>
+       <td>Adds a comment in the Update tab of the <span>Workfront</span> item when the Due Date changes in linked Jira item.</td>
       </tr>
       <tr>
-       <td role="rowheader">Automatically create a user in <em>Workfront</em> if the&nbsp;Jira user does not have a <em>Workfront</em> account</td>
+       <td role="rowheader">Automatically create a user in <span>Workfront</span> if the&nbsp;Jira user does not have a <span>Workfront</span> account</td>
        <td><p>The following scenarios exist:</p>
         <ul>
-         <li>When you select <span class="bold">Always</span> you enable the integration to create a new <em>Workfront</em> user every time a Jira user without a <em>Workfront</em> account performs the following actions on a linked Jira issue:
+         <li>When you select <span class="bold">Always</span> you enable the integration to create a new <span>Workfront</span> user every time a Jira user without a <span>Workfront</span> account performs the following actions on a linked Jira issue:
           <ul>
            <li>Is assigned to a Jira issue</li>
-           <li><p>Logs time to a Jira issue</p><p>This new user does not occupy a <em>Workfront</em> license. The default setting is Always.&nbsp;The user created this way in <em>Workfront</em> has "Jira" added to their name.</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+           <li><p>Logs time to a Jira issue</p><p>This new user does not occupy a <span>Workfront</span> license. The default setting is Always.&nbsp;The user created this way in <span>Workfront</span> has "Jira" added to their name.</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
           </ul></li>
          <li>When you select <span class="bold">Never</span>, the following things happen:
           <ul>
-           <li>You are not able to see any Jira assignments on the <em>Workfront</em> items. In this case, only assignments made in <em>Workfront</em> display on the <em>Workfront</em> items.</li>
-           <li>The time logged to a linked Jira issue by a user without a <em>Workfront</em> account does not automatically transfer to the linked <em>Workfront</em> item. You can still log time on the <em>Workfront</em> item in the right panel of the Jira issue.</li>
+           <li>You are not able to see any Jira assignments on the <span>Workfront</span> items. In this case, only assignments made in <span>Workfront</span> display on the <span>Workfront</span> items.</li>
+           <li>The time logged to a linked Jira issue by a user without a <span>Workfront</span> account does not automatically transfer to the linked <span>Workfront</span> item. You can still log time on the <span>Workfront</span> item in the right panel of the Jira issue.</li>
           </ul></li>
         </ul></td>
       </tr>
      </tbody>
     </table></li>
   </ol></li> 
- <li value="11"> <p>Click <span class="bold">Save</span>.<br></p> <p>Now, every time a user updates any of the fields specified in this configuration on an item in either Jira or <em>Workfront</em>, the linked item in the other application is updated as well.&nbsp;</p> </li> 
+ <li value="11"> <p>Click <span class="bold">Save</span>.<br></p> <p>Now, every time a user updates any of the fields specified in this configuration on an item in either Jira or <span>Workfront</span>, the linked item in the other application is updated as well.&nbsp;</p> </li> 
 </ol>
 
 ## Troubleshooting
@@ -326,7 +326,7 @@ To define what fields should automatically synchronize on items linked between t
 
 #### Problem
 
-When an error occurs with our *Workfront* for Jira application, *Workfront* disables the triggers to prevent further complications. When those triggers are disabled, they display as "Couldn't be found".
+When an error occurs with our `Workfront` for Jira application, `Workfront` disables the triggers to prevent further complications. When those triggers are disabled, they display as "Couldn't be found".
 
 #### Solution
 
@@ -334,10 +334,10 @@ Locate the error that disabled the triggers. You can find the error in the Workf
 
 The most common cause of this behavior is the error "Field 'duedate' cannot be set. It is not on the appropriate screen, or unknown."
 
-This error means that you are&nbsp;attempting to sync the "planned completion date" from Workfront to Jira. In order to do this, you must ensure that your Jira objects have a field called "Due Date". If they do not have this field, *Workfront* is unable to sync the planned completion date from Workfront and disables your triggers.
+This error means that you are attempting to sync the "planned completion date" from Workfront to Jira. In order to do this, you must ensure that your Jira objects have a field called "Due Date". If they do not have this field, `Workfront` is unable to sync the planned completion date from Workfront and disables your triggers.
 
 To resolve this error, try one of the following:
 
 * Ask your Jira administrator to update the affected Jira objects to ensure that they have a due date field.
-* Disable the synchronization of Workfront's planned completion date in the *Workfront* "Setup" page
+* Disable the synchronization of Workfront's planned completion date in the `Workfront` "Setup" page
 

@@ -4,16 +4,16 @@ product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: Manage Groups using Workfront Proof
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: As a Workfront Proof administrator, you can manage your public and private Groups on the Groups page.
 ---
 
-# Manage Groups using *Workfront Proof*
+# Manage Groups using `Workfront Proof`
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a *Workfront Proof administrator*, you can manage your public and private Groups on the Groups page.
+As a `Workfront Proof administrator`, you can manage your public and private Groups on the Groups page.
 
 For more information about Groups, see [Manage Groups using Workfront Proof](#).
 

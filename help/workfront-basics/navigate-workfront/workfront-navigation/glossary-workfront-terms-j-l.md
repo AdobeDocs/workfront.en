@@ -10,11 +10,11 @@ description: For the full glossary, see Glossary of Workfront terms.
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the *Adobe Workfront* application or in the *Workfront* documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the `Adobe Workfront` application or in the `Workfront` documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;&nbsp;
+The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;&nbsp;
 
 ## J-L
 
@@ -35,16 +35,9 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td> <p>Kanban Flag</p> </td> 
    <td> <p>In a Task Report or Issue Report,&nbsp;the Kanban Flag field displays the flag status that is set on the story on the Kanban board. Possible values are On Track, Ready to Pull, and Is Blocked.</p> <p>For more information about setting flag status on stories on the Kanban story board, see&nbsp; the article <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">Use flags on stories on the Kanban board</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>KPIs</td> 
-    <td>A measurable value that demonstrates how effectively a company is achieving key business objectives.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>KPIs</td> 
-   <td>A measurable value that demonstrates how effectively a company is achieving key business objectives.</td> 
-  </tr> 
+  </tr> <!--
+   KPIs A measurable value that demonstrates how effectively a company is achieving key business objectives.
+  --> 
   <tr> 
    <td>Lag</td> 
    <td>Amount of time that must pass after the predecessor task's Planned Completion Date has passed until the dependent task can begin.</td> 
@@ -82,16 +75,9 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td> <p>Last Viewed Date</p> </td> 
    <td> <p>In a report list, this field displays the date on which the report was displayed last.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Layout Template</td> 
-    <td>Defined by the System Administrator or Group Administrator to identify the tabs and reports that display in a given user's workspace.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Layout Template</td> 
-   <td>Defined by the System Administrator or Group Administrator to identify the tabs and reports that display in a given user's workspace.</td> 
-  </tr> 
+  </tr> <!--
+   Layout Template Defined by the System Administrator or Group Administrator to identify the tabs and reports that display in a given user's workspace.
+  --> 
   <tr> 
    <td>Layout Type</td> 
    <td>In conjunction with Custom Views, the Layout Type specifies the type of Custom View. Currently, only List is available. In the future, Detail (the Detail view of an object) may become available.</td> 

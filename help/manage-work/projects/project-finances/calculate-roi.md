@@ -9,11 +9,11 @@ description: Return On Investment (ROI) is Adobe Workfront metric that allows po
 
 # Calculate Return On Investment (ROI)
 
-Return On Investment (ROI) is *Adobe Workfront* metric that allows portfolio managers to quickly see how the project is performing against the original Planned Benefit and Budgeted Cost of the project.
+Return On Investment (ROI) is `Adobe Workfront` metric that allows portfolio managers to quickly see how the project is performing against the original Planned Benefit and Budgeted Cost of the project.
 
 ## Overview of the project Return on Investment (ROI)
 
-*Workfront* calculates ROI using the following formula:
+`Workfront` calculates ROI using the following formula:
 
 ```
 Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budgeted Cost] x 100
@@ -26,12 +26,12 @@ The following fields affect the ROI of a project:
 
 * `Project Budgeted Cost`:&nbsp;This is the total cost associated with the project as estimated when you first launch the project.
 
-  The `Budgeted Cost` uses the  `Budgeted Labor Cost`&nbsp;value which is calculated in the Resource Budgeting area of the Business Case and it takes into account the hours budgeted for your job roles in the *Resource Planner* and the Cost per Hour rate of each job role.   
+  The `Budgeted Cost` uses the  `Budgeted Labor Cost` value which is calculated in the Resource Budgeting area of the Business Case and it takes into account the hours budgeted for your job roles in the `Resource Planner` and the Cost per Hour rate of each job role.   
   For more information, see [Calculate Budgeted Cost](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ## Locate the project Return on Investment (ROI)
 
-You can view the ROI value for a project in the following areas in *Workfront*:
+You can view the ROI value for a project in the following areas in `Workfront`:
 
 <ul> 
  <li>In the Portfolio Optimizer&nbsp;if the project is associated with a portfolio<br><note type="note">
@@ -44,6 +44,6 @@ You can view the ROI value for a project in the following areas in *Workfront*:
    <li><p>Task</p></li>
    <li><p>Issue</p></li>
    <li><p>Project (Financial&nbsp;Data) </p></li>
-  </ul><p>For more information about building reports in <em>Workfront</em>, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref" xrefformat="{para}">Create a custom report</a>.<br></p></li> 
+  </ul><p>For more information about building reports in <span>Workfront</span>, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref" xrefformat="{para}">Create a custom report</a>.<br></p></li> 
 </ul>
 

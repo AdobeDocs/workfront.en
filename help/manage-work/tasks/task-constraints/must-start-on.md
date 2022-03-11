@@ -17,7 +17,7 @@ The Must Start On constraint schedules a task to start exactly at the time and d
 
 Consider the following when scheduling a task with a Must Start On constraint:
 
-* Predecessor relationships do not force this task to reschedule. *Workfront* essentially ignores any predecessor relationships of the task with this constraint.
+* Predecessor relationships do not force this task to reschedule. `Workfront` essentially ignores any predecessor relationships of the task with this constraint.
 * The task does show `At Risk` if predecessors begin to run behind or late.
 
 * When you move or copy a task with a MSO constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
@@ -39,32 +39,6 @@ Consider the following when scheduling a task with a Must Start On constraint:
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="using-MSO-constraint"></a>Use the Must Start On Task Constraint</h2>
-<p>To update the Task Constraint to Must Start On:</p>
-<ol>
-<li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li>
-<li value="3">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</li>
-<li value="4"> <p>Select <span class="bold">Must Start On</span>.</p> </li>
-<li value="5"> <p>Specify a <span class="bold">Planned Start Date</span>.</p> <p>The task must start by this date, and no later than this date.</p> </li>
-<li value="6">Click <span class="bold">Save Changes</span>. </li>
-</ol>
-</div>
+Use the Must Start On Task Constraint To update the Task Constraint to Must Start On: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Must Start On. Specify a Planned Start Date. The task must start by this date, and no later than this date. Click Save Changes.
 -->
-
-## Use the Must Start On Task Constraint
-
-To update the Task Constraint to Must Start On:
-
-<ol> 
- <li value="1">Go to a task whose Task Constraint you want to update.</li> 
- <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="3">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</li> 
- <li value="4"> <p>Select <span class="bold">Must Start On</span>.</p> </li> 
- <li value="5"> <p>Specify a <span class="bold">Planned Start Date</span>.</p> <p>The task must start by this date, and no later than this date.</p> </li> 
- <li value="6">Click <span class="bold">Save Changes</span>. </li> 
-</ol>
 

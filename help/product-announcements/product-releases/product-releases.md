@@ -12,33 +12,16 @@ Following are links to the release notes for current and past releases.
 
 For release information in addition to product documentation about current releases, see the [Product Releases page](https://one.workfront.com/s/product-releases).
 
-For information about the *Adobe Workfront* release schedule, see [Adobe Workfront release schedule and process](../../product-announcements/product-releases/workfront-release-schedule.md).
+For information about the `Adobe Workfront` release schedule, see [Adobe Workfront release schedule and process](../../product-announcements/product-releases/workfront-release-schedule.md).
 
 <table> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><em>Workfront</em> releases</td> 
+   <td><span>Workfront</span> releases</td> 
    <td>Other product releases</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <p>Releases in 2022</p> 
-     <ul> 
-      <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">22.2 Release overview</a> </p> </li> 
-      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">22.1 Release overview</a> </p> </li> 
-     </ul> </td> 
-    <td>&nbsp;</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <p>Releases in 2022</p> 
-    <ul> 
-     <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">22.2 Release overview</a> </p> </li> 
-     <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">22.1 Release overview</a> </p> </li> 
-    </ul> </td> 
-   <td>&nbsp;</td> 
-  </tr> 
+  </tr> Releases in 2022 22.2 Release overview 22.1 Release overview 
   <tr> 
    <td> <p>Releases in 2021</p> 
     <ul> 

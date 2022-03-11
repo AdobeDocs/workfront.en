@@ -10,7 +10,7 @@ description: As an Adobe Workfront administrator, you can track user-changes tri
 
 # Audit logs
 
-As an *Adobe Workfront administrator*, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
+As an `Adobe Workfront administrator`, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
 
 For instructions on viewing and filtering what you want to see in these audit logs, see [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
@@ -71,44 +71,7 @@ The following fields are recorded in every audit log entry:
        <li><p>Changes permissions to Projects, Tasks, Issues, Portfolios, Programs, Reports, Documents, Users, or Templates</p><p>Note: <p>The system does not record any permission changes to&nbsp;Financial Data or within the following access types: View and Edit.<br></p><p>For example, if a user changes the Planner access type from View to Edit, the system will not display information contained in the Fine-tune your settings drop-down menu.</p></p></li>
       </ul></li> 
     </ul> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Company</td> 
-    <td> <p>The system generates a Company audit log entry when a user does one of the following:</p> 
-     <ul> 
-      <li> <p>Creates a company</p> </li> 
-      <li> <p>Changes a company:</p> 
-       <ul> 
-        <li>Renames it</li> 
-        <li>Adds or removes members</li> 
-        <li>Adds, edits, or deletes the value in its Group field</li> 
-        <li>Adds or edits a company billing rate for a job role</li> 
-        <li>Removes a company billing rate for a job role</li> 
-        <li> Sets it as the primary company for the organization</li> 
-        <li>Attaches or removes a custom form</li> 
-       </ul> </li> 
-      <li>Deletes a company</li> 
-     </ul> <p>For more information about statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md" class="MCXref xref">Statuses overview</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Company</td> 
-   <td> <p>The system generates a Company audit log entry when a user does one of the following:</p> 
-    <ul> 
-     <li> <p>Creates a company</p> </li> 
-     <li> <p>Changes a company:</p> 
-      <ul> 
-       <li>Renames it</li> 
-       <li>Adds or removes members</li> 
-       <li>Adds, edits, or deletes the value in its Group field</li> 
-       <li>Adds or edits a company billing rate for a job role</li> 
-       <li>Removes a company billing rate for a job role</li> 
-       <li> Sets it as the primary company for the organization</li> 
-       <li>Attaches or removes a custom form</li> 
-      </ul> </li> 
-     <li>Deletes a company</li> 
-    </ul> <p>For more information about statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md" class="MCXref xref">Statuses overview</a>.</p> </td> 
-  </tr> 
+  </tr> Company The system generates a Company audit log entry when a user does one of the following: Creates a company Changes a company: Renames it Adds or removes members Adds, edits, or deletes the value in its Group field Adds or edits a company billing rate for a job role Removes a company billing rate for a job role Sets it as the primary company for the organization Attaches or removes a custom form Deletes a company For more information about statuses, see Statuses overview. 
   <tr> 
    <td role="rowheader">Condition</td> 
    <td> <p>The system generates a Condition audit log entry when a user does one of the following actions:</p> 
@@ -161,10 +124,9 @@ The following fields are recorded in every audit log entry:
        <li><p>Changes a calculation in a custom field</p></li>
        <li><p>Hides or displays the formula associated with a calculated field in the Instructions hover text</p></li>
        <li><p>Enables or disables Update previous calculations</p></li>
-       <li><p>Adds or changes skip logic or display logic</p></li><draft-comment>
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>
-       </draft-comment>
-       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>
+       <li><p>Adds or changes skip logic or display logic</p></li><!--
+        Adds or changes a filter for a typeahead field
+       -->
       </ul></li> 
      <li>Deletes a custom form</li> 
      <li>Shares a custom form</li> 
@@ -225,10 +187,10 @@ The following fields are recorded in every audit log entry:
    <td role="rowheader">Login Attempt</td> 
    <td> <p>The system generates a Login Attempt audit log entry when a user does one of the following actions:</p> 
     <ul> 
-     <li>Logs in, logs out, or fails a login attempt in <em>Workfront</em> (in a browser and in the mobile app)</li> 
-     <li>Logs in, logs out, or fails a login attempt in any <em>Workfront</em> integration (such as <em>Workfront for Slack</em> and <em>Workfront for Salesforce</em>)</li> 
+     <li>Logs in, logs out, or fails a login attempt in <span>Workfront</span> (in a browser and in the mobile app)</li> 
+     <li>Logs in, logs out, or fails a login attempt in any <span>Workfront</span> integration (such as <span>Workfront for Slack</span> and <span>Workfront for Salesforce</span>)</li> 
      <li> <p>Logs in or logs out of the Workfront API</p> </li> 
-    </ul> <p>Login Attempt Logs do not record when a <em>Workfront administrator</em> uses the Log In As feature.</p> <p>Note: This is not available if your organization’s <em>Workfront</em> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
+    </ul> <p>Login Attempt Logs do not record when a <span>Workfront administrator</span> uses the Log In As feature.</p> <p>Note: This is not available if your organization’s <span>Workfront</span> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Priority</td> 
@@ -276,40 +238,7 @@ The following fields are recorded in every audit log entry:
       </ul></li> 
      <li>Deletes an issue severity</li> 
     </ul> <p>For more information about configuring job roles, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Create and customize issue severities</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Status</td> 
-    <td> <p>The system generates a Status audit log entry when a user does one of the following actions:</p> 
-     <ul> 
-      <li>Creates a status on the system or group level</li> 
-      <li>Changes a status on the system or group level:
-       <ul>
-        <li>Renames it</li>
-        <li>Makes it a default status</li>
-        <li>Locks or unlocks it</li>
-        <li>Hides or unhides it</li>
-        <li>Changes the color or description </li>
-       </ul></li> 
-      <li>Deletes a status on the system or group level</li> 
-     </ul> <p>For more information about statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md" class="MCXref xref">Statuses overview</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Status</td> 
-   <td> <p>The system generates a Status audit log entry when a user does one of the following actions:</p> 
-    <ul> 
-     <li>Creates a status on the system or group level</li> 
-     <li>Changes a status on the system or group level:
-      <ul>
-       <li>Renames it</li>
-       <li>Makes it a default status</li>
-       <li>Locks or unlocks it</li>
-       <li>Hides or unhides it</li>
-       <li>Changes the color or description </li>
-      </ul></li> 
-     <li>Deletes a status on the system or group level</li> 
-    </ul> <p>For more information about statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md" class="MCXref xref">Statuses overview</a>.</p> </td> 
-  </tr> 
+  </tr> Status The system generates a Status audit log entry when a user does one of the following actions: Creates a status on the system or group level Changes a status on the system or group level: Renames it Makes it a default status Locks or unlocks it Hides or unhides it Changes the color or description Deletes a status on the system or group level For more information about statuses, see Statuses overview. 
   <tr> 
    <td role="rowheader">Tasks &amp; Issues Preferences</td> 
    <td> <p>The system generates a Tasks &amp; Issues Preferences audit log entry when a user changes a Tasks &amp; Issues preference in one of the following ways:</p> 
@@ -323,13 +252,9 @@ The following fields are recorded in every audit log entry:
    <td role="rowheader">User</td> 
    <td> <p>The system generates a User audit log entry when a user does one of the following actions:</p> 
     <ul> 
-     <li> <p>Creates a user<draft-comment>
-        <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          Gevorg checking with Jonah on whether this note should be here:
-        </MadCap:conditionalText>
-       </draft-comment><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-         Gevorg checking with Jonah on whether this note should be here:
-       </MadCap:conditionalText></p> <p>Note: This is not available if your organization’s <em>Workfront</em> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </li> 
+     <li> <p>Creates a user<!--
+        Gevorg checking with Jonah on whether this note should be here:
+       --></p> <p>Note: This is not available if your organization’s <span>Workfront</span> instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </li> 
      <li>Deletes a user</li> 
      <li>Changes a user's access level, company, team, or group</li> 
      <li>Activates a user</li> 

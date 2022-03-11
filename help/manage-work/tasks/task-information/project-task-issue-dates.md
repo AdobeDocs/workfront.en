@@ -13,7 +13,7 @@ Introduction about dates in WF
 
 Tasks are associated with Start and Completion Dates to illustrate their timeline in the life of a project.&nbsp;
 
-There are several sets of dates associated with tasks. Some of them can be manually edited, and some of them are automatic calculations that *Adobe Workfront* performs after certain actions or events occur on the task.&nbsp;
+There are several sets of dates associated with tasks. Some of them can be manually edited, and some of them are automatic calculations that `Adobe Workfront` performs after certain actions or events occur on the task.&nbsp;
 
 The following table contains information about dates associated with projects, tasks, and issues: 
 
@@ -262,7 +262,7 @@ The following table contains information about dates associated with projects, t
      <li>The Duration of the task changes and the Planned Completion Date does not.</li> 
      <li>The task is assigned a predecessor or the predecessor of the task changes dates.</li> 
     </ul> </td> 
-   <td>Manually updated by the user or automatically updated by <em>Workfront</em>.&nbsp;</td> 
+   <td>Manually updated by the user or automatically updated by <span>Workfront</span>.&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Planned Date Alignment</td> 
@@ -276,7 +276,7 @@ The following table contains information about dates associated with projects, t
   </tr> 
   <tr> 
    <td>Planned Start Date</td> 
-   <td>Start On = Planned Start Date - this is a date set by a user (e.g. Project/Task/Issue owner) or <em>Workfront</em>&nbsp;indicating when a Project/Task/Issue is planned to be started:&nbsp;</td> 
+   <td>Start On = Planned Start Date - this is a date set by a user (e.g. Project/Task/Issue owner) or <span>Workfront</span>&nbsp;indicating when a Project/Task/Issue is planned to be started:&nbsp;</td> 
    <td> <p>This date applies to</p> 
     <ul> 
      <li>Projects</li> 

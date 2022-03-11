@@ -8,7 +8,7 @@ title: Manage Adobe Workfront
 description: This section contains the following subsections:
 ---
 
-# Manage *Adobe Workfront*
+# Manage `Adobe Workfront`
 
 This section contains the following subsections:
 

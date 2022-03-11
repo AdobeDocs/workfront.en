@@ -10,11 +10,11 @@ description: Workfront Library supports a set list of EXIF and XMP metadata. If 
 
 # Overview of taxonomy field types
 
-*Workfront Library* supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to *Workfront Library*, reach out to your customer success manager or account representative.
+`Workfront Library` supports a set list of EXIF and XMP metadata. If you have an EXIF or XMP metadata field that needs to be added to `Workfront Library`, reach out to your customer success manager or account representative.
 
 ## EXIF metadata fields
 
-*Workfront Library* supports known EXIF metadata, as well as a list of additional EXIF metadata. The tables below show each supported EXIF metadata and its field type in *Workfront Library*.
+`Workfront Library` supports known EXIF metadata, as well as a list of additional EXIF metadata. The tables below show each supported EXIF metadata and its field type in `Workfront Library`.
 
 Known EXIF metadata:
 
@@ -24,7 +24,7 @@ Known EXIF metadata:
  <thead> 
   <tr> 
    <th>EXIF metadata</th> 
-   <th>Taxonomy field type in <em>Workfront Library</em></th> 
+   <th>Taxonomy field type in <span>Workfront Library</span></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -251,7 +251,7 @@ Additional EXIF metadata supported:
  <thead> 
   <tr> 
    <th>EXIF metadata</th> 
-   <th>Taxonomy field type in <em>Workfront Library</em></th> 
+   <th>Taxonomy field type in <span>Workfront Library</span></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -366,7 +366,7 @@ Additional EXIF metadata supported:
 
 ## XMP metadata fields
 
-*Workfront Library* supports both IPTC and XMP metadata. The tables below show each supported XMP metadata and its field type in *Workfront Library*.
+`Workfront Library` supports both IPTC and XMP metadata. The tables below show each supported XMP metadata and its field type in `Workfront Library`.
 
 IPTC metadata:
 
@@ -376,7 +376,7 @@ IPTC metadata:
  <thead> 
   <tr> 
    <th>IPTC metadata</th> 
-   <th>Taxonomy field type in <em>Workfront Library</em></th> 
+   <th>Taxonomy field type in <span>Workfront Library</span></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -475,7 +475,7 @@ XMP:
  <thead> 
   <tr> 
    <th>XMP metadata</th> 
-   <th>Taxonomy field type in <em>Workfront Library</em></th> 
+   <th>Taxonomy field type in <span>Workfront Library</span></th> 
   </tr> 
  </thead> 
  <tbody> 

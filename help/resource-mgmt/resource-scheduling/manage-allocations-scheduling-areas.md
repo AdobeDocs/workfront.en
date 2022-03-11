@@ -10,41 +10,21 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from *Adobe Workfront*. We recommend that you use the *Workload Balancer* for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
 >
->For information about scheduling resources using the new *Workload Balancer*, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 User allocations are amounts of hours that indicate the time that a user should spend on one given day to complete a work item. They are included in the Planned Hours of the work item.
 
 This article describes how to update daily hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md). You cannot update overall allocations for users and job roles for issues.
 
-You can display user allocations in the following areas of *Adobe Workfront*:
+You can display user allocations in the following areas of `Adobe Workfront`:
 
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Scheduling section of the Resourcing area. </p>
-  -->
-
-  On the Scheduling section of the Resourcing area. 
-
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Scheduling section of a project (when scheduling resources for a single project). </p>
-  -->
-
-  On the Scheduling section of a project (when scheduling resources for a single project). 
-
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Schedule section of a team (when scheduling resources for a team).</p>
-  -->
-
-  On the Schedule section of a team (when scheduling resources for a team).
+* On the Scheduling section of the Resourcing area. 
+* On the Scheduling section of a project (when scheduling resources for a single project). 
+* On the Schedule section of a team (when scheduling resources for a team).
 
 ## Access requirements
 
@@ -55,16 +35,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -73,15 +53,15 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## User allocations in the Scheduling areas
 
-Before you begin allocating time to users as described in this article, become familiar with how resource scheduling works in *Workfront*, as described in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+Before you begin allocating time to users as described in this article, become familiar with how resource scheduling works in `Workfront`, as described in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
 You can schedule resources to work on tasks and issues for an individual team you are a member of, for an individual project where you are a member of the project team, or for multiple projects for which you are the resource manager.
 
-The following sections describe how to enable and manage user allocations in *Workfront*:
+The following sections describe how to enable and manage user allocations in `Workfront`:
 
 * [Use the Scheduling areas to assign work](#using-scheduling-timelines-to-assign-work) 
 * [Allocations set on the Edit Task or the Edit Issue boxes vs. in the Scheduling areas](#understanding-allocations-set-on-the-task-or-issue-details-versus-on-the-scheduling-timeline) 
@@ -103,33 +83,18 @@ Planned Hours can be divided in the following ways:
 
 >[!TIP]
 >
->When scheduling resources for multiple projects from the Scheduling >
-><!-->
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">>
->areas>
-></MadCap:conditionalText>>
->-->
->`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> areas</MadCap:conditionalText>`, not all users and work items are displayed on the Scheduling timeline. For information about what information is displayed on the Scheduling timeline, see [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+>When scheduling resources for multiple projects from the Scheduling areas, not all users and work items are displayed on the Scheduling timeline. For information about what information is displayed on the Scheduling timeline, see [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
 ### Allocations set on the Edit Task or the Edit Issue boxes vs. in the Scheduling areas
 
-You can modify the user allocations for a task or issue from the following locations within *Workfront*:
+You can modify the user allocations for a task or issue from the following locations within `Workfront`:
 
 <ul> 
  <li>The Scheduling timeline<br>The Scheduling timeline is located in the following areas: 
   <ul>
-   <li>
-    <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Scheduling section of the Resourcing area. </p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Scheduling section of the Resourcing area. </p></li>
-   <li>
-    <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Scheduling section of a project (when scheduling resources for a single project). </p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Scheduling section of a project (when scheduling resources for a single project). </p></li>
-   <li>
-    <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Schedule section of a team (when scheduling resources for a team).</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">On the Schedule section of a team (when scheduling resources for a team).</p></li>
+   <li>On the Scheduling section of the Resourcing area.</li>
+   <li>On the Scheduling section of a project (when scheduling resources for a single project).</li>
+   <li>On the Schedule section of a team (when scheduling resources for a team).</li>
   </ul>When you modify user allocations from the Scheduling timeline (as described in the <a href="#modifying-user-allocations" class="MCXref xref">Modify user allocations</a> section in this article), you can define allocations for each user on the task or issue, as well as for each day within the task or issue duration.<br><img src="assets/scheduling-contours-350x139.png" alt="scheduling_contours.png" style="width: 350;height: 139;"></li> 
  <li>The Edit Task or Edit Issue dialog box. <br>When you modify user allocations from a Edit Task or Issue dialog box (as described in <a href="../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md" class="MCXref xref">Manage allocation percentage on tasks</a>), you can define allocations for the task or issue only as a whole for each user. If you want to manage those allocations on a per-day basis, you must modify the allocations in the Scheduling timeline, as described in the <a href="#modifying-user-allocations" class="MCXref xref">Modify user allocations</a> section in this article.<br><note type="important">
     When modifying user allocations from an Edit Task or Issue dialog box, allocations you previously configured in the Scheduling timeline are overwritten. In addition, any change you make to allocations in the Scheduling timeline are not reflected on an Edit Task or Issue dialog box.
@@ -151,17 +116,17 @@ We recommend managing user allocations from the Scheduling timeline rather than 
 
 Various visual indicators are available to provide quick information regarding the level of which a user is allocated to work on a given day.
 
-Your system administrator determines how *Workfront* calculates user availability at the system level (considering hours as well as FTE availability). Depending on this system-wide setting, user availability is calculated either using the default schedule or the user's schedule. For more information, see [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md).
+Your system administrator determines how `Workfront` calculates user availability at the system level (considering hours as well as FTE availability). Depending on this system-wide setting, user availability is calculated either using the default schedule or the user's schedule. For more information, see [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md).
 
 <ul> 
- <li><span class="bold">Allocation shading</span> <br>Allocation is visually displayed on tasks assigned to users in the form of shading. Darker shading indicates the allocated hours as a percentage of the assigned users' FTE (Full Time Equivalent) on a given day. (For more information about how to configure FTE in <em>Workfront</em>, see <a href="../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md" class="MCXref xref">Configure how Workfront calculates resource hour and FTE&nbsp;availability for the Scheduling area</a>.) <br>For example, a single user is assigned to a task that has an amount of 4 Planned Hours and a Duration of 1 day. The FTE for the user is defined in the system as 1 (meaning that the user is scheduled to work at full-time status, or rather 40 hours a week, or 8 hours a day). The shading for the task on a given day occupies half of the vertical space of the task, this indicates that the user is allocated half of his or her FTE (4 hours) on that day.<br><img src="assets/scheduling-shading-allocation.png" alt=""><br>The task or issue displays the cumulative allocation across all users assigned to the work item. You can expand a work item to view more details, including who is assigned to the work item and how many hours each user is assigned.<br>Shading is not displayed on tasks in the <span class="bold">Unassigned</span> area on the Scheduling timeline.<br><img src="assets/resource-allocation-expanded-350x192.png" alt="resource_allocation_expanded.png" style="width: 350;height: 192;"></li> 
+ <li><span class="bold">Allocation shading</span> <br>Allocation is visually displayed on tasks assigned to users in the form of shading. Darker shading indicates the allocated hours as a percentage of the assigned users' FTE (Full Time Equivalent) on a given day. (For more information about how to configure FTE in <span>Workfront</span>, see <a href="../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md" class="MCXref xref">Configure how Workfront calculates resource hour and FTE&nbsp;availability for the Scheduling area</a>.) <br>For example, a single user is assigned to a task that has an amount of 4 Planned Hours and a Duration of 1 day. The FTE for the user is defined in the system as 1 (meaning that the user is scheduled to work at full-time status, or rather 40 hours a week, or 8 hours a day). The shading for the task on a given day occupies half of the vertical space of the task, this indicates that the user is allocated half of his or her FTE (4 hours) on that day.<br><img src="assets/scheduling-shading-allocation.png" alt=""><br>The task or issue displays the cumulative allocation across all users assigned to the work item. You can expand a work item to view more details, including who is assigned to the work item and how many hours each user is assigned.<br>Shading is not displayed on tasks in the <span class="bold">Unassigned</span> area on the Scheduling timeline.<br><img src="assets/resource-allocation-expanded-350x192.png" alt="resource_allocation_expanded.png" style="width: 350;height: 192;"></li> 
  <li><span class="bold">Daily totals for each day for each user:</span> You can display the total Planned Hours allocated to a given user on each day. This information is displayed at the top of each user's row on the Scheduling timeline. This information is not displayed by default. You can enable this as described in <a href="#enabling-user-allocations" class="MCXref xref">Enable user allocations</a>. Tasks from projects with any of the following statuses are included when determining daily totals: Current, Planning, or Approved.<br><img src="assets/resource-daily-totals-350x55.png" alt="resource_daily_totals.png" style="width: 350;height: 55;"></li> 
  <li><span class="bold">Overallocation indicators</span> <br>When the total number of Planned Hours assigned to a user on a given day exceeds the number of hours the user works in a day (across all tasks), that user is considered overallocated on that day. <br>When a user is overallocated, a red bar is displayed, outlining each task on the day. <br>Tasks from projects with any of the following statuses are included when determining a user's overallocation: Current, Planning, or Approved.<br>The number of hours a user works in a day is defined via the FTE field in the each user's profile, as described in see <a href="../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md" class="MCXref xref">Configure how Workfront calculates resource hour and FTE&nbsp;availability for the Scheduling area</a>.<br><img style="font-size: small;width: 350;height: 72;" src="assets/resource-over-allocation-350x72.png" alt="resource_over_allocation.png"><br>When you enable the <span class="bold">Show Totals for Daily Planned Hours</span> and the <span class="bold">Show Resource Allocation Highlighting</span> options in your settings, the daily total number of Planned Hours displays in red when the user is overallocated. Hours are displayed to the nearest tenth by default (for example, 1.3).<br><img src="assets/rs-planned-hours-in-red-with-decimals--1--350x56.png" alt="RS_planned_hours_in_red_with_decimals__1_.png" style="width: 350;height: 56;"></li> 
 </ul>
 
 ### Default allocation for Planned Hours
 
-*Workfront* attempts to distribute Planned Hours among the assigned users and days as follows:
+`Workfront` attempts to distribute Planned Hours among the assigned users and days as follows:
 
 * When multiple users are assigned to a task or issue, hours are divided evenly among the users.  
   The distribution reflects any advanced assignments that have already been made on the task.   
@@ -175,7 +140,7 @@ Hours are displayed to the nearest hundredth by default (for example, 1.33). You
 
 ### Who can view and modify allocations?
 
-The following types of users can view or modify user allocations in *Workfront*:
+The following types of users can view or modify user allocations in `Workfront`:
 
 * `Resource Managers:` You can view and modify user allocations for tasks and issues on any projects for which you are the Resource Manager. You can do this either in the Scheduling timeline in the People area, or in the Staffing tab of a project.  
   For information about how Resource Managers can make changes to tasks and issues across projects, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md). 
@@ -202,57 +167,10 @@ To enable user allocations on the Scheduling timeline:
 <ol> 
  <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
   <ul>
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
-  </ul><p>
-   <draft-comment>
-    <img src="assets/scheduling-tab-global-resourcing-area-nwe-350x145.png" style="width: 350;height: 145;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/scheduling-tab-global-resourcing-area-nwe-350x145.png" style="width: 350;height: 145;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p></li> 
+   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li>
+   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li>
+   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li>
+  </ul><p></p></li> 
  <li value="2">Click the <span class="bold">Settings</span> icon on the Scheduling timeline.<br><img src="assets/scheduling-settings-icon-350x169.png" alt="scheduling_settings_icon.png" style="width: 350;height: 169;"><br>The Resource Scheduling Settings dialog box is displayed.<br><img src="assets/rs-scheduling-tab-all-settings--4--350x348.png" alt="RS_scheduling_tab_all_settings__4_.png" style="width: 350;height: 348;"></li> 
  <li value="3"> <p>Enable one or both of the following options to show user allocations on the Scheduling timeline:</p> 
   <table cellspacing="0"> 
@@ -284,53 +202,9 @@ To modify user allocations for a task or issue from the Scheduling timeline:
 <ol> 
  <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
   <ul>
-   <li><p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
-   <li><p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
-   <li><p><b>For a team</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, then click 
-       <span class="bold">Teams</span>, select a team, click
-       <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select
-       <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, then click 
-      <span class="bold">Teams</span>, select a team, click
-      <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select
-      <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p></li>
+   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li>
+   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li>
+   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li>
   </ul><p><img src="assets/scheduling-contours-350x139.png" alt="scheduling_contours.png" style="width: 350;height: 139;"></p></li> 
  <li value="2">Ensure that user allocations are enabled on the Scheduling timeline, as described in the <a href="#enabling-user-allocations" class="MCXref xref">Enable user allocations</a> section in this article.</li> 
  <li value="3">Expand the task where you want to manage user allocations.<br>By default, Planned Hours are divided evenly among the assigned users and days of the task Duration. Hours are not added on weekends (Saturdays and Sundays). For more information, see the <a href="#understanding-the-default-allocation-for-planned-hours" class="MCXref xref">Default allocation for Planned Hours</a> section in this article.</li> 
@@ -344,7 +218,7 @@ To modify user allocations for a task or issue from the Scheduling timeline:
 
 ## Criteria that reset user allocations
 
-*Workfront* resets the user allocations that you manually edit in the Scheduling timeline when a number of actions occur on the tasks or the project. Generally, *Workfront* resets user allocations any time the timeline of the project is recalculated if the number of Planned Hours on the tasks and issues has changed in this process.  
+`Workfront` resets the user allocations that you manually edit in the Scheduling timeline when a number of actions occur on the tasks or the project. Generally, `Workfront` resets user allocations any time the timeline of the project is recalculated if the number of Planned Hours on the tasks and issues has changed in this process.  
 For more information about recalculating the timeline of projects, see [Recalculate project timelines](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 Some of the most common criteria that could reset user allocations in the Scheduling timeline are:
@@ -368,5 +242,5 @@ Some of the most common criteria that could reset user allocations in the Schedu
 
 * Changing the amount of Planned Hours of tasks or issues.
 
-  For information about Planned Hours in *Workfront*, see [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md).
+  For information about Planned Hours in `Workfront`, see [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md).
 

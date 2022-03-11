@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,19 +39,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Mark a task or issue as Done
 
 Only the user assigned to the task or issue can mark it as Done.
 
-<ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner, then click&nbsp;<span class="bold">Home</span>. </p> </li> 
- <li value="2">In the <span class="bold">Work List</span>, locate any of the items waiting to be worked on.</li> 
- <li value="3">Do either of the following:</li> 
-</ol>
+1. Click the Main Menu in the upper-right corner, then click Home. 
+1. In the `Work List`, locate any of the items waiting to be worked on.
+1. Do either of the following:
 
 * Click  `Done`&nbsp;on the work item.  
   See [Understand the options of the Done button](#options-of-done-button) for more detailed information about how this button might appear.
@@ -62,7 +58,7 @@ Only the user assigned to the task or issue can mark it as Done.
 
 By default, clicking the Done button on a work item changes the status of that item to Complete (for tasks) or Resolved (for issues).&nbsp;
 
-Your *Adobe Workfront administrator* can customize what statuses are associated with the Done button, and apply those customizations to your Home Team.
+Your `Adobe Workfront administrator` can customize what statuses are associated with the Done button, and apply those customizations to your Home Team.
 
 Depending on how many statuses are associated with the Done button or how many resources are assigned to the task or the issue, the look of the Done button can change.&nbsp;
 
@@ -73,12 +69,6 @@ Depending on how many statuses are associated with the Done button or how many r
 ### Done button associated with one status
 
 When the Done button is associated with one status and the work item is assigned to you only, the button reads,  `Done`. When you click it,&nbsp;the status of the task or the issue is changed to the status associated with the Done button.
-
-<!--
-<img src="assets/done-350x91.png" style="width: 350;height: 91;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/done-350x91.png)
 
 To understand which status is associated with the Done button, check the Team Settings of your Home Team for the Done Button section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
@@ -91,10 +81,8 @@ When the Done button is associated with more than one status, the button shows t
 To understand how you can associate multiple&nbsp;statuses with the Done button, see&nbsp; [Configure the Done button for tasks](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) and [Configure the Done button for issues](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
 <!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x257.png" style="width: 350;height: 257;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
 
-![](assets/marking-an-item-done-multiple-statuses-350x257.png)
+-->
 
 ### Done button for items&nbsp;assigned to multiple resources
 
@@ -102,15 +90,7 @@ When the task or the issue is assigned to more than one resource, the button sho
 If the Done button is associated with multiple statuses, they are listed under `Done with my part`.
 
 <!--
-<img src="assets/marking-an-item-done-done-with-my-part-350x167.png" style="width: 350;height: 167;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+
 -->
-
-![](assets/marking-an-item-done-done-with-my-part-350x167.png)
-
-<!--
-<img src="assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x113.png" style="width: 350;height: 113;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x113.png)
 
 Keep in mind that you do&nbsp;not see the Done&nbsp;button unless you are one of the resources assigned to the task or the issue.

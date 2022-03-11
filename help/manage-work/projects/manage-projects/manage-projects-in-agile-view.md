@@ -15,34 +15,25 @@ Required plans, license types, and access
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank"><em>Adobe Workfront</em> Plan</a> </p> </td> 
-   <td> <p><em>Team, Pro, Business, or Enterprise</em> </p> </td> 
+   <td> <p><a href="https://www.workfront.com/plans" target="_blank"><span>Adobe Workfront</span> Plan</a> </p> </td> 
+   <td> <p><span>Team, Pro, Business, or Enterprise</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><a href="https://one.workfront.com/s/article/Understanding-License-Types-906212506?language=en_US&amp;r=16&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank">Workfront License Type</a> </p> </td> 
-   <td> <p><em>Review, Work, or Plan</em> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/permissions-for-shared-objects.md" class="MCXref xref" data-mc-variable-override="">Permissions for shared objects</a> </p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td> <p><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/permissions-for-shared-objects.md" class="MCXref xref" data-mc-variable-override="">Permissions for shared objects</a> </p> </td> 
-   <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-  </tr> 
+   <td> <p><span>Review, Work, or Plan</span> </p> </td> 
+  </tr> <!--
+   Permissions for shared objects Edit access and ability to create reports, dashboards, and calendars
+  --> 
  </tbody> 
 </table>
 
 You can leverage agile functionality for your project 
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (such as story boards and burndown charts)
-</MadCap:conditionalText>
 -->
 
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> (such as story boards and burndown charts)</MadCap:conditionalText>`&nbsp;without the administrative challenges&nbsp;that typically accompany agile practices (such as managing a team backlog, creating iterations, and so forth).
+&nbsp;without the administrative challenges&nbsp;that typically accompany agile practices (such as managing a team backlog, creating iterations, and so forth).
 
 If you want to work in a more pure agile environment that uses&nbsp;a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
@@ -55,12 +46,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -69,7 +60,7 @@ You must have the following access to perform the steps in this article:
      <li> <p>Projects</p> </li> 
      <li> <p>Reports, Dashboards, Calendars</p> </li> 
      <li> <p>Filters, Views,&nbsp;Groupings</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -78,7 +69,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Understand Agile projects
 
@@ -108,20 +99,18 @@ There are some differences when using agile views on a project versus working in
 
 #### `Tasks and subtasks follow different display rules on the Story Board`
 
-<ul> 
- <li>Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board. <br>For example, these tasks appear as follows in the project list view: <br><br><draft-comment>
-   <img src="assets/agile-project-single-list-nwe.png" alt="Agile project list - tasks with no parent or subtasks" style="max-width: 100%;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/agile-project-single-list-nwe.png" alt="Agile project list - tasks with no parent or subtasks" style="max-width: 100%;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> These tasks appear as follows in the project agile view: <br><br><draft-comment>
-   <img src="assets/agile-project-singlecard-nwe.png" alt="Project agile view - tasks with no parent or subtasks" style="max-width: 100%;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/agile-project-singlecard-nwe.png" alt="Project agile view - tasks with no parent or subtasks" style="max-width: 100%;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li> 
- <li>Parent tasks that have subtasks are always displayed in the <span class="bold">Stories</span> column of the story board. Subtasks are displayed in the swimlane of the parent task. <br>For example, these tasks appear as follows in the project list view: <br><br><draft-comment>
-   <img src="assets/agile-project-parent-list-nwe.png" alt="Agile project list - tasks with parents and subtasks" style="max-width: 100%;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/agile-project-parent-list-nwe.png" alt="Agile project list - tasks with parents and subtasks" style="max-width: 100%;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><br>These tasks appear as follows in the project agile view: <br><br><draft-comment>
-   <img src="assets/agile-project-parent-nwe.png" alt="Agile project view - tasks with parents and subtasks" style="max-width: 100%;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/agile-project-parent-nwe.png" alt="Agile project view - tasks with parents and subtasks" style="max-width: 100%;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li> 
- <li>Second-level subtasks (subtasks of subtasks) are displayed as a hanging gray card off the immediate parent task.</li> 
- <li>Third-level subtasks (subtasks of subtasks of subtasks) are never displayed on the story board.</li> 
-</ul>
+* Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board.   
+  For example, these tasks appear as follows in the project list view:   
+  
+  These tasks appear as follows in the project agile view:
+
+* Parent tasks that have subtasks are always displayed in the `Stories` column of the story board. Subtasks are displayed in the swimlane of the parent task.   
+  For example, these tasks appear as follows in the project list view:
+
+  These tasks appear as follows in the project agile view:
+
+* Second-level subtasks (subtasks of subtasks) are displayed as a hanging gray card off the immediate parent task.
+* Third-level subtasks (subtasks of subtasks of subtasks) are never displayed on the story board.
 
 #### `Backlogs and iterations are not used`
 
@@ -160,9 +149,7 @@ For information about how to customize an agile view, see&nbsp; [Create or custo
 
 <ol> 
  <li value="1">Go to the project you want to view in an agile view.</li> 
- <li value="2">Click the <span class="bold">Agile</span> icon.<br><draft-comment>
-   <img src="assets/agile-icon-nwe.png" alt="Agile icon" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/agile-icon-nwe.png" alt="Agile icon" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><br>The project is displayed in the default agile view. <br>If you previously viewed the project in a custom agile view, the project is displayed in that&nbsp;view rather than in the default agile view.<br></li> 
+ <li value="2">Click the <span class="bold">Agile</span> icon.<br><br>The project is displayed in the default agile view. <br>If you previously viewed the project in a custom agile view, the project is displayed in that&nbsp;view rather than in the default agile view.<br></li> 
  <li value="3">(Optional) If you have&nbsp;created a custom&nbsp;agile view, or if another user has created a custom&nbsp;agile view and shared it with you, you can view&nbsp;it instead of the default agile view. <br>Click the <span class="bold">View</span> drop-down menu, then click&nbsp;the custom agile view you want to view.<br><br>The custom agile view is used the next time you click the <span class="bold">Agile</span> icon.<br>For information about how to create a new agile view, see <a href="#creating-a-new-agile-view" class="MCXref xref">Create and customize Agile views</a>.<br>The project is displayed in the custom&nbsp;agile view.</li> 
  <li value="4">(Conditional) If tasks in your project are using statuses other than "New," "In Progress," or "Complete" (the default statuses for the Agile view), you must add the additional statuses to the agile view for any tasks in those statuses to be displayed.<br>If tasks are in a status that is not displayed on the agile story board, the task itself is not displayed on the agile story board&nbsp;(however,&nbsp;the Percent Complete of these tasks still&nbsp;contribute to the Percent Complete of any parent tasks and the Percent Complete of the overall project).<br>To add statuses to the agile view, either create a new agile view or customize an existing agile view, as described in&nbsp;the "Create or customize an Agile view" section in&nbsp;the article <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</li> 
  <li value="5">(Optional) To return to the list view, click the <span class="bold">List</span> icon.<br><img src="assets/list-icon.png" alt=""></li> 
@@ -170,7 +157,7 @@ For information about how to customize an agile view, see&nbsp; [Create or custo
 
 ## Create and customize Agile views
 
-As with standard views in *Workfront*, you can customize existing agile Views or create new agile Views from scratch. Unlike standard views, you cannot create new agile Views based on existing agile Views.
+As with standard views in `Workfront`, you can customize existing agile Views or create new agile Views from scratch. Unlike standard views, you cannot create new agile Views based on existing agile Views.
 
 For more information about creating and customizing agile views, see &nbsp;the "Create or customize an Agile view" section in&nbsp;the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).&nbsp;
 

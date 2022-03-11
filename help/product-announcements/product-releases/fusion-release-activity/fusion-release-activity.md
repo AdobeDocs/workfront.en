@@ -8,21 +8,20 @@ title: Adobe Workfront Fusion release activity
 description: Adobe Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
 ---
 
-# *Adobe Workfront Fusion* release activity
+# `Adobe Workfront Fusion` release activity
 
-*Adobe Workfront Fusion* connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
+`Adobe Workfront Fusion` connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
 
-For information about how to use *Workfront Fusion*, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+For information about how to use `Workfront Fusion`, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Recent releases
 
 ### February 2022
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md" class="MCXref xref" xrefformat="{para}">Workfront Fusion release activity:&nbsp;Week of February 14, 2022</a> </p> </li>
+  Workfront Fusion release activity: Week of February 14, 2022
   -->
 
-* [Workfront Fusion release activity: Week of February 14, 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md) 
 * [Workfront Fusion release activity: Week of February 7, 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
 
 ### January 2022

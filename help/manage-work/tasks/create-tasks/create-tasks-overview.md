@@ -26,7 +26,7 @@ You can create tasks on a project in the following ways:
 
 When you have the correct access and permissions you can create tasks on a project. However, the following are cases when you might not be able to create tasks:
 
-* Your *Adobe Workfront administrator* or a *group administrator* must enable adding tasks to a project that is in a Complete or Dead status in your Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Your `Adobe Workfront administrator` or a `group administrator` must enable adding tasks to a project that is in a Complete or Dead status in your Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * You cannot add tasks to a project that is in Pending Approval.
 
@@ -34,29 +34,29 @@ When you have the correct access and permissions you can create tasks on a proje
 
 A project can contain up to 5,000 tasks. A warning message displays on the project when you are approaching the limit, when you have met the limit, and if you attempt to exceed the limit.
 
-Depending on the number of tasks in your projects when this limitation was imposed, your *Workfront* instance might allow for more than 5,000 tasks in a single project.
+Depending on the number of tasks in your projects when this limitation was imposed, your `Workfront` instance might allow for more than 5,000 tasks in a single project.
 
 If you are able to include more than 5,000 tasks in a single project, be aware of the following:
 
-* The task limit for your *Workfront* environment is set to the current number of tasks in your largest project, plus an additional 10%.
+* The task limit for your `Workfront` environment is set to the current number of tasks in your largest project, plus an additional 10%.
 
-  For example, if a project in your *Workfront* instance contains 10,000 tasks, your limit for each project throughout your *Workfront* instance is 11,000 tasks.
+  For example, if a project in your `Workfront` instance contains 10,000 tasks, your limit for each project throughout your `Workfront` instance is 11,000 tasks.
 
 * Smaller projects improve performance and minimize management challenges that accompany large projects.
 
 ## Task defaults when adding tasks to a project
 
-There are two types of default information that *Workfront* automatically updates for tasks when you create them:
+There are two types of default information that `Workfront` automatically updates for tasks when you create them:
 
 * System-level default information
 
-  Your *Workfront administrator* `or a *group administrator*` establishes the system-level defaults for tasks in the Tasks &&nbsp;Issues area of Project Preferences. For information about task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) or [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Your `Workfront administrator` `or a `group administrator`` establishes the system-level defaults for tasks in the Tasks &&nbsp;Issues area of Project Preferences. For information about task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) or [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 * Project-level default information
 
   The rest of this section describes the project-level defaults you, as the project manager, can define for all new tasks that are added to a project
 
-When you add a task to a project, depending on how the project is set up, *Workfront* might automatically attach an approval process or custom forms to the task.
+When you add a task to a project, depending on how the project is set up, `Workfront` might automatically attach an approval process or custom forms to the task.
 
 For information about configuring a project to add these by default, see the "Tasks" section in the [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) article.
 

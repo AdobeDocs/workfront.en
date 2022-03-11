@@ -22,12 +22,4 @@ This section contains the following subsections:
 * [Calendars](../../reports-and-dashboards/reports/calendars/calendars.md) 
 * [Tips, tricks, and troubleshooting for reports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
-For in-depth training on reports, see
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  <a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a></MadCap:conditionalText>`.
+For in-depth training on reports, seeBasic Report Creation Program for the new Workfront experience.

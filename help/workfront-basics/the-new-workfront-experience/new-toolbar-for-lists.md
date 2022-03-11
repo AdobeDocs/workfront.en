@@ -6,9 +6,9 @@ title: Toolbar for lists in the new Adobe Workfront experience
 description: The toolbar that displays above select lists in the new Adobe Workfront experience is designed with a modern look and feel that makes list management easier. The functionality is largely the same as what is available in Adobe Workfront Classic.
 ---
 
-# Toolbar for lists in *the new Adobe Workfront experience*
+# Toolbar for lists in `the new Adobe Workfront experience`
 
-The toolbar that displays above select lists in *the new Adobe Workfront experience* is designed with a modern look and feel that makes list management easier. The functionality is largely the same as what is available in *Adobe Workfront Classic*.
+The toolbar that displays above select lists in `the new Adobe Workfront experience` is designed with a modern look and feel that makes list management easier. The functionality is largely the same as what is available in `Adobe Workfront Classic`.
 
 ## Access requirements
 
@@ -21,16 +21,16 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;filters, views, groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;filters, views, groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,15 +39,15 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Benefits of the toolbar in *the new Adobe Workfront experience*
+## Benefits of the toolbar in `the new Adobe Workfront experience`
 
 * Most drop-down menus, links, or toggles have been replaced by icons to make efficient use of the toolbar space and to provide a more consistent experience.
 * A new icon for opening the Summary has been added to the toolbar. This gives you more control over when you want to display more information on tasks and issues or collaborate on them.
 * Managing filters, views, and groupings has been standardized for all three elements to match one another. You can now remove or share a filter, view, or a grouping without first having to display it.
 
-## Lists where the updated toolbar is available in *the new Adobe Workfront experience*
+## Lists where the updated toolbar is available in `the new Adobe Workfront experience`
 
 The updated toolbar is available in the following lists:
 
@@ -65,22 +65,22 @@ The updated toolbar is available in the following lists:
 >
 >The new toolbar is not available in all reports.
 
-## Examples of a toolbar in *Adobe Workfront Classic* vs. *the new Adobe Workfront experience*
+## Examples of a toolbar in `Adobe Workfront Classic` vs. `the new Adobe Workfront experience`
 
-The icons you can find in an updated toolbar depend on the type of list that you view. The following are examples of the *Adobe Workfront Classic* and *the new Adobe Workfront experience* toolbars in a task list:
+The icons you can find in an updated toolbar depend on the type of list that you view. The following are examples of the `Adobe Workfront Classic` and `the new Adobe Workfront experience` toolbars in a task list:
 
 * [Task list toolbar in Adobe Workfront Classic](#task2) 
 * [Task list toolbar in the new Adobe Workfront experience](#task3)
 
-### Task list toolbar in *Adobe Workfront Classic*
+### Task list toolbar in `Adobe Workfront Classic`
 
-In *Adobe Workfront Classic*, a combination of menus, icons, and links existed in the toolbar of a task list:
+In `Adobe Workfront Classic`, a combination of menus, icons, and links existed in the toolbar of a task list:
 
 ![](assets/qs-classic-toolbar-on-task-lists-350x25.png)
 
-### Task list toolbar in *the new Adobe Workfront experience*
+### Task list toolbar in `the new Adobe Workfront experience`
 
-In *the new Adobe Workfront experience*, most menus and links have been replaced with icons, for a more streamlined and modern look:
+In `the new Adobe Workfront experience`, most menus and links have been replaced with icons, for a more streamlined and modern look:
 
 ![](assets/qs-new-toolbar-on-task-lists-350x14.png)
 
@@ -167,60 +167,16 @@ The following table lists many of the icons in the new toolbar and indicates wha
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>Gantt Chart</td> 
    <td> <p>Display the list in the Gantt Chart View.</p> <p>This is available only for projects and tasks.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
-    <td>Filter drop-down menu</td> 
-    <td> <p>Display a list of filters and additional options to manage filters, including creating one. </p> <p>On a small screen, the Filter name is replaced by the filter icon. A blue dot displays on the Filter icon when you apply any filter other than "All."</p> <p>For information about managing filters in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
-   <td>Filter drop-down menu</td> 
-   <td> <p>Display a list of filters and additional options to manage filters, including creating one. </p> <p>On a small screen, the Filter name is replaced by the filter icon. A blue dot displays on the Filter icon when you apply any filter other than "All."</p> <p>For information about managing filters in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-    <td>View drop-down menu</td> 
-    <td> <p>Display a list of views and additional options to manage views, including creating one. </p> <p>On a small screen, the View name is replaced by the view icon. A blue dot displays on the View icon when you apply any view other than "Standard."</p> <p>For information about managing views in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>View drop-down menu</td> 
-   <td> <p>Display a list of views and additional options to manage views, including creating one. </p> <p>On a small screen, the View name is replaced by the view icon. A blue dot displays on the View icon when you apply any view other than "Standard."</p> <p>For information about managing views in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-    <td>Grouping drop-down menu</td> 
-    <td> <p>Display a list of groupings and additional options to manage groupings, including creating one. </p> <p>On a small screen, the Grouping name is replaced by the grouping icon. A blue dot displays on the Grouping icon when you apply any grouping other than "Nothing."</p> <p>For information about managing groupings in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>Grouping drop-down menu</td> 
-   <td> <p>Display a list of groupings and additional options to manage groupings, including creating one. </p> <p>On a small screen, the Grouping name is replaced by the grouping icon. A blue dot displays on the Grouping icon when you apply any grouping other than "Nothing."</p> <p>For information about managing groupings in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
-    <td> <p>Plan mode</p> </td> 
-    <td> <p>Choose whether you want to save the changes you make in a task list automatically or manually. </p> <p>For information about editing tasks in a list, see <a href="../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Edit tasks in a list</a>. </p> <p>This is available only for tasks.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
-   <td> <p>Plan mode</p> </td> 
-   <td> <p>Choose whether you want to save the changes you make in a task list automatically or manually. </p> <p>For information about editing tasks in a list, see <a href="../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Edit tasks in a list</a>. </p> <p>This is available only for tasks.</p> </td> 
-  </tr> 
+  </tr> Filter drop-down menu Display a list of filters and additional options to manage filters, including creating one. On a small screen, the Filter name is replaced by the filter icon. A blue dot displays on the Filter icon when you apply any filter other than "All." For information about managing filters in new toolbar, see the Manage Filters, Views, and Groupings from the new toolbar section in this article. View drop-down menu Display a list of views and additional options to manage views, including creating one. On a small screen, the View name is replaced by the view icon. A blue dot displays on the View icon when you apply any view other than "Standard." For information about managing views in new toolbar, see the Manage Filters, Views, and Groupings from the new toolbar section in this article. Grouping drop-down menu Display a list of groupings and additional options to manage groupings, including creating one. On a small screen, the Grouping name is replaced by the grouping icon. A blue dot displays on the Grouping icon when you apply any grouping other than "Nothing." For information about managing groupings in new toolbar, see the Manage Filters, Views, and Groupings from the new toolbar section in this article. Plan mode Choose whether you want to save the changes you make in a task list automatically or manually. For information about editing tasks in a list, see Edit tasks in a list. This is available only for tasks. 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>Summary</td> 
-   <td> <p>Display or hide the Summary box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the Summary panel in <em>the new Adobe Workfront experience</em>, see <a href="../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>Display or hide the Summary box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the Summary panel in <span>the new Adobe Workfront experience</span>, see <a href="../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>Remove</td> 
-   <td>Remove something from the list. For example, as a <em>group administrator</em> managing group or subgroup memberships, remove a group member as explained in <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">View and manage a group’s memberships</a>.</td> 
+   <td>Remove something from the list. For example, as a <span>group administrator</span> managing group or subgroup memberships, remove a group member as explained in <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">View and manage a group’s memberships</a>.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
@@ -248,7 +204,7 @@ For example, to manage a filter:
    <li><p>Mouse over any of the filters listed and click the <span class="bold">Edit icon</span> <img src="assets/edit-icon.png">.</p><p>The <span class="bold">Customize Filter</span> builder opens. Customizing filters is identical to creating them.</p></li>
    <li><p> Mouse over any of the filters listed and click the <span class="bold">More menu</span> <img src="assets/more-icon.png">, then click&nbsp;<span class="bold">Remove</span>.</p><p>The filter is removed from the list.</p><p>or </p><p>Click <span class="bold">Share</span> and specify the names of the entities that you want to share the filter with, then click <span class="bold">Save</span>.</p><note type="tip">
      You cannot share or remove native 
-     <em>Adobe Workfront</em> filters or filters that you did not create yourself.
+     <span>Adobe Workfront</span> filters or filters that you did not create yourself.
     </note></li>
   </ul></li> 
 </ol>

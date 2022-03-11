@@ -8,9 +8,9 @@ description: Building a report in Adobe Workfront allows you to display a set of
 
 # Reference collections in a report
 
-Building a report in *Adobe Workfront* allows you to display a set of objects, their respective fields, or linked objects in a list, a grid, or a chart format.
+Building a report in `Adobe Workfront` allows you to display a set of objects, their respective fields, or linked objects in a list, a grid, or a chart format.
 
-For more information about building a report in *Workfront*, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+For more information about building a report in `Workfront`, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Access requirements
 
@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,13 +39,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Understand collections
 
 A collection is a list of objects that are linked to another object.
 
-You have the following two relationships between objects in *Workfront*:
+You have the following two relationships between objects in `Workfront`:
 
 * `A one-to-one relationship`: One object can be linked to only one other object at a time.  
   For example, a project can only be linked to one portfolio at a time.
@@ -123,9 +123,7 @@ The view displays task or issue information in a list format, with every line of
 To add a collection column in a report view:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main</span> menu <img src="assets/main-menu-icon.png">, then click&nbsp;<span class="bold">Reports</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main</span> menu <img src="assets/main-menu-icon.png">, then click&nbsp;<span class="bold">Reports</span>.</p> </li> 
+ <li value="1"> Click the Main menu , then click Reports. </li> 
  <li value="2">Click <span class="bold">New Report</span>.</li> 
  <li value="3">Select the object of your report.</li> 
  <li value="4">Navigate away from your report, and using the <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>, determine what collections are available for the object you selected for your report.<br>For more information about selecting the object of your collection, see the section <a href="#finding-collection-objects-and-their-fields-in-the-api" class="MCXref xref">Find collection objects and their fields in the API Explorer</a> in this article.<br>Make a note of what the name of the object for the collection is.<br></li> 
@@ -165,19 +163,13 @@ The lines in a text mode view for a collection are outlined in the following tab
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>You can use various values for this line, but we recommend that the <code style="font-weight: normal;">valueformat</code> for a collection list should be <span class="bold">HTML.</span></p> <p> <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        For more information about conditional formatting in a view, see 
-       <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       For more information about conditional formatting in a view, see 
-      <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>. 
-     </MadCap:conditionalText></p> </td> 
+   <td> <p>You can use various values for this line, but we recommend that the <code style="font-weight: normal;">valueformat</code> for a collection list should be <span class="bold">HTML.</span></p> <p> <!--
+      For more information about conditional formatting in a view, see Use conditional formatting in Text Mode.
+     --></p> </td> 
   </tr> 
   <tr> 
    <td><code>textmode=true</code> </td> 
-   <td> <p>This line indicates that the column has been configured using text mode. If you remove this line, <em>Workfront</em> adds it back by default.</p> </td> 
+   <td> <p>This line indicates that the column has been configured using text mode. If you remove this line, <span>Workfront</span> adds it back by default.</p> </td> 
   </tr> 
   <tr> 
    <td><code>type=iterate</code> </td> 
@@ -221,9 +213,7 @@ For example, you can filter for task or issue information in a project report by
 To add a reference to a collection&nbsp;in a report filter:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main</span> menu <img src="assets/main-menu-icon.png">, then click&nbsp;<span class="bold">Reports</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main</span> menu <img src="assets/main-menu-icon.png">, then click&nbsp;<span class="bold">Reports</span>.</p> </li> 
+ <li value="1"> Click the Main menu , then click Reports. </li> 
  <li value="2">Click&nbsp;<span class="bold">New Report</span>.</li> 
  <li value="3">Select the object of your report.</li> 
  <li value="4">Navigate away from your report, and using the <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>, determine what collections are available for the object you selected for your report.<br>For more information about selecting the object of your collection, see the section <a href="#finding-collection-objects-and-their-fields-in-the-api" class="MCXref xref">Find collection objects and their fields in the API Explorer</a> in this article.<br>Make a note of what the name of the object for the collection is.<br></li> 
@@ -232,7 +222,7 @@ To add a reference to a collection&nbsp;in a report filter:
  <li value="7">In the <span class="bold">Set Filter Rules for your Report</span> area, paste the following code:<br><pre>collection object name:collection object field=collection object value<br>collection object name:collection object field_Mod=value of the modifier</pre></li> 
  <li value="8">Replace&nbsp;<span class="bold">collection object name</span>&nbsp;with the name of your collection object as it appears in the <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.&nbsp;This value is typically the plural form of the collection object name.</li> 
  <li value="9">Replace&nbsp;<span class="bold">collection object field</span>&nbsp;with the name of the field of your collection object in, as it appears in the <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</li> 
- <li value="10">Replace <span class="bold">collection object value</span> with the value of the collection object as it appears in <em>Workfront</em>.</li> 
+ <li value="10">Replace <span class="bold">collection object value</span> with the value of the collection object as it appears in <span>Workfront</span>.</li> 
  <li value="11">Replace <span class="bold">value of the modifier</span> with a valid modifier.<br>For a list of modifiers, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.<br>For example, to build a project report that&nbsp;displays only projects with tasks that have "Marketing" in their name, use&nbsp;the following code:<br><pre>tasks:name=Marketing<br>tasks:name_Mod=cicontains</pre> This report only displays projects which have at least one&nbsp;task that has the word "marketing" in their name.<br><img src="assets/marketing-only-tasks-in-project-report-350x298.png" alt="marketing_only_tasks_in_project_report.png" style="width: 350;height: 298;"><br>To filter for the name of an issue, use the following code:<br><pre>issues:name=Marketing
 issues:name_Mod=cicontains</pre> <note type="important">  Notice that you must use 
    <span class="bold">issues</span> for the collection object name. 
@@ -258,9 +248,7 @@ For more information about building a filter statement with a collection referen
 To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main</span> menu <img src="assets/main-menu-icon.png">, then click&nbsp;<span class="bold">Reports</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main</span> menu <img src="assets/main-menu-icon.png">, then click&nbsp;<span class="bold">Reports</span>.</p> </li> 
+ <li value="1"> Click the Main menu , then click Reports. </li> 
  <li value="2">Click&nbsp;<span class="bold">New Report</span>.</li> 
  <li value="3">Select the object of your report.</li> 
  <li value="4">Build a filter with a collection reference as described in&nbsp;the section <a href="#referencing-a-collection-in-a-filter" class="MCXref xref">Reference a collection in the Filter of a report</a> in this article.</li> 
@@ -274,7 +262,7 @@ To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
  <li value="12">(Optional) Specify if this choice is displayed by default in the prompt.</li> 
  <li value="13"> Replace&nbsp;<span class="bold">collection object name</span>&nbsp;with the name of your collection object as it appears in the <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.&nbsp;This value is typically the plural form of the collection object name.</li> 
  <li value="14">Replace&nbsp;<span class="bold">collection object field</span>&nbsp;with the name of the field of your collection object, as it appears in the <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</li> 
- <li value="15">Replace&nbsp;<span class="bold">collection object value</span>&nbsp;with the value of the collection object as it appears in <em>Workfront</em>.<br>For example, if you are filtering for projects in which the name of the task contains "Marketing", replace&nbsp;<span class="bold">collection object value</span>&nbsp;with&nbsp;<span class="bold">marketing</span>.</li> 
+ <li value="15">Replace&nbsp;<span class="bold">collection object value</span>&nbsp;with the value of the collection object as it appears in <span>Workfront</span>.<br>For example, if you are filtering for projects in which the name of the task contains "Marketing", replace&nbsp;<span class="bold">collection object value</span>&nbsp;with&nbsp;<span class="bold">marketing</span>.</li> 
  <li value="16"> <p>Replace&nbsp;<span class="bold">value of the modifier</span>&nbsp;with a valid modifier.</p> <p>For a list of modifiers, see&nbsp;<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</p> 
   <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span> 
    <p>For example, to build a project report with a custom prompt where you want to display only projects that have at least one task assigned to a specific user, use the code below:<br></p> 

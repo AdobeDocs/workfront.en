@@ -10,11 +10,11 @@ description: For the full glossary, see Glossary of Workfront terms.
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the *Adobe Workfront* application or in the *Workfront* documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the `Adobe Workfront` application or in the `Workfront` documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;&nbsp;
+The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;&nbsp;
 
 ## S-U
 
@@ -78,7 +78,7 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   </tr> 
   <tr> 
    <td>Sharing</td> 
-   <td>The action of allowing other Users to view or edit a specific item in <em>Workfront</em>.</td> 
+   <td>The action of allowing other Users to view or edit a specific item in <span>Workfront</span>.</td> 
   </tr> 
   <tr> 
    <td>Slack&nbsp;Date</td> 
@@ -86,7 +86,7 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   </tr> 
   <tr> 
    <td>Smart Assignments</td> 
-   <td> <p>When assigning Tassks or Issues to Users, <em>Workfront</em> makes recommendations (Smart Assignments) about who the best users are to complete the work, based on the time they have available to complete it and their relationship to the project.</p> <p>For more information , see <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Smart assignments overview</a>.</p> </td> 
+   <td> <p>When assigning Tassks or Issues to Users, <span>Workfront</span> makes recommendations (Smart Assignments) about who the best users are to complete the work, based on the time they have available to complete it and their relationship to the project.</p> <p>For more information , see <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Smart assignments overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Source</p> </td> 
@@ -94,7 +94,7 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   </tr> 
   <tr> 
    <td> <p>Start Date</p> </td> 
-   <td> <p>The Date when the work on an item is set to start. There are several Start Dates in <em>Workfront</em>: </p> 
+   <td> <p>The Date when the work on an item is set to start. There are several Start Dates in <span>Workfront</span>: </p> 
     <ul> 
      <li>Planned</li> 
      <li>Actual</li> 
@@ -160,52 +160,17 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td>Statuses</td> 
    <td>See <i>Status</i>.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Storyboard</td> 
-    <td>A chart that represents the status of stories (tasks in the agile methodology) and how they are progressing toward completion.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Storyboard</td> 
-   <td>A chart that represents the status of stories (tasks in the agile methodology) and how they are progressing toward completion.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Story Hours</td> 
-    <td>A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Story Hours</td> 
-   <td>A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Story Points</td> 
-    <td>A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Story Points</td> 
-   <td>A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Strategic</td> 
-    <td>Long-term work that changes the organization or how the organization works.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Strategic</td> 
-   <td>Long-term work that changes the organization or how the organization works.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Strategic Alignment</td> 
-    <td>Measuring and aligning company goals across portfolios and programs.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Strategic Alignment</td> 
-   <td>Measuring and aligning company goals across portfolios and programs.</td> 
-  </tr> 
+  </tr> <!--
+   Storyboard A chart that represents the status of stories (tasks in the agile methodology) and how they are progressing toward completion.
+  --> <!--
+   Story Hours A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.
+  --> <!--
+   Story Points A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.
+  --> <!--
+   Strategic Long-term work that changes the organization or how the organization works.
+  --> <!--
+   Strategic Alignment Measuring and aligning company goals across portfolios and programs.
+  --> 
   <tr> 
    <td> <p>Subscribers</p> </td> 
    <td> <p>Users that subscribe to Projects, Tasks, or Issues.</p> <p>When you use this field in a report, a list of subscribers displays, with each subscriber separated by a comma.</p> <p>For more information, see the article <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Subscribe to items in Adobe Workfront</a>.</p> </td> 
@@ -217,25 +182,11 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td>Summary Task</td> 
    <td>See <i>Parent Task</i>.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>System Governance</td> 
-    <td>A set of policies that governs changes and maintenance of a system.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>System Governance</td> 
-   <td>A set of policies that governs changes and maintenance of a system.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>System Integration</td> 
-    <td>The process of linking together different computing systems and software applications physically or functionally in order to act as a coordinated whole.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>System Integration</td> 
-   <td>The process of linking together different computing systems and software applications physically or functionally in order to act as a coordinated whole.</td> 
-  </tr> 
+  </tr> <!--
+   System Governance A set of policies that governs changes and maintenance of a system.
+  --> <!--
+   System Integration The process of linking together different computing systems and software applications physically or functionally in order to act as a coordinated whole.
+  --> 
   <tr> 
    <td>Task</td> 
    <td> <p>An activity that must be performed as a step toward achieving a final goal (completing the Project).</p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>.</p> </td> 
@@ -247,43 +198,22 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td>Task Constraint</td> 
    <td>See <i>Constraint Type</i> and <i>Constraint Date</i>.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Task Management</td> 
-    <td>A set of policies that governs the thresholds for task creation, assignment, closure, and visibility.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Task Management</td> 
-   <td>A set of policies that governs the thresholds for task creation, assignment, closure, and visibility.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Task Owner</td> 
-    <td>The team or user responsible for the estimation of effort and completion of the task</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Task Owner</td> 
-   <td>The team or user responsible for the estimation of effort and completion of the task</td> 
-  </tr> 
+  </tr> <!--
+   Task Management A set of policies that governs the thresholds for task creation, assignment, closure, and visibility.
+  --> <!--
+   Task Owner The team or user responsible for the estimation of effort and completion of the task
+  --> 
   <tr> 
    <td>Team</td> 
    <td> <p>A collection of users working toward similar goals or business objectives. These users can be collectively assigned to a work item. </p> <p>For more information on Teams, see <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overview</a>.</p> <p>Projects can have a Project Team, which is comrised of all the users or roles assiciated with the work on the project.</p> <p>For more information on Project Teams, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a></p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Team Goals</td> 
-    <td>Team goals which contribute to the metrics of enterprise or department goals.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Team Goals</td> 
-   <td>Team goals which contribute to the metrics of enterprise or department goals.</td> 
-  </tr> 
+  </tr> <!--
+   Team Goals Team goals which contribute to the metrics of enterprise or department goals.
+  --> 
   <tr> 
    <td>Template</td> 
-   <td> <p>Project templates are generic outlines of your most repeatable projects. You can define tasks, queue topics, custom forms, attach documents or approvals when you create a project template to save you time when you must create a new project. </p> <p>You can attach templates to existing projects, or you can use them to build new projects. All the information specified on the template transfers to the projects that are created using it. </p> <p>For more information about templates, see <a href="../../../manage-work/projects/create-and-manage-templates/project-template-overview.md" class="MCXref xref">Project template overview</a>.</p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The steps, instructions, and custom data required for deliverable completion.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The steps, instructions, and custom data required for deliverable completion.</p> </td> 
+   <td> <p>Project templates are generic outlines of your most repeatable projects. You can define tasks, queue topics, custom forms, attach documents or approvals when you create a project template to save you time when you must create a new project. </p> <p>You can attach templates to existing projects, or you can use them to build new projects. All the information specified on the template transfers to the projects that are created using it. </p> <p>For more information about templates, see <a href="../../../manage-work/projects/create-and-manage-templates/project-template-overview.md" class="MCXref xref">Project template overview</a>.</p> <!--
+     The steps, instructions, and custom data required for deliverable completion.
+    --> </td> 
   </tr> 
   <tr> 
    <td>Template Task</td> 
@@ -307,37 +237,16 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   </tr> 
   <tr> 
    <td>Timesheet</td> 
-   <td> <p>A virtual timecard that allows users to enter actual hours that they spent working on projects, tasks, or issues, or hours they they spent for other activities not related to work, like meetings or training. In addition to entering the amount of time you spent working, you can also indicate whether the time is work-related or it amounts to overhead time by using Hour Types for your time entries. For information about timesheets, see <a href="../../../timesheets/timesheets/timesheets-overview.md" class="MCXref xref">Timesheets overview</a>. </p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Periodic summary list view of active assignments by project that have been planned to have or have had time logged.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Periodic summary list view of active assignments by project that have been planned to have or have had time logged.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Tiesheet Profile</td> 
-    <td>A standard template used to create a user's timesheet based on a search for assignments, designated approvers, and period.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Tiesheet Profile</td> 
-   <td>A standard template used to create a user's timesheet based on a search for assignments, designated approvers, and period.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Top Parent ID</td> 
-    <td> <p class="preview">When you are managing a group that contains subgroups, this field allows you to identify and filter data about the entire group and all of its subgroups in Filters, Views, and Groupings.</p> <p class="preview">You can also do this using the Top Parent Name field.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Top Parent ID</td> 
-   <td> <p class="preview">When you are managing a group that contains subgroups, this field allows you to identify and filter data about the entire group and all of its subgroups in Filters, Views, and Groupings.</p> <p class="preview">You can also do this using the Top Parent Name field.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Top Parent Name</td> 
-    <td> <p class="preview">When you are managing a group that contains subgroups, this field allows you to identify and filter data about the entire group and all of its subgroups in Filters, Views, and Groupings.</p> <p class="preview">You can also do this using the Top Parent ID field.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Top Parent Name</td> 
-   <td> <p class="preview">When you are managing a group that contains subgroups, this field allows you to identify and filter data about the entire group and all of its subgroups in Filters, Views, and Groupings.</p> <p class="preview">You can also do this using the Top Parent ID field.</p> </td> 
-  </tr> 
+   <td> <p>A virtual timecard that allows users to enter actual hours that they spent working on projects, tasks, or issues, or hours they they spent for other activities not related to work, like meetings or training. In addition to entering the amount of time you spent working, you can also indicate whether the time is work-related or it amounts to overhead time by using Hour Types for your time entries. For information about timesheets, see <a href="../../../timesheets/timesheets/timesheets-overview.md" class="MCXref xref">Timesheets overview</a>. </p> <!--
+     Periodic summary list view of active assignments by project that have been planned to have or have had time logged.
+    --> </td> 
+  </tr> <!--
+   Tiesheet Profile A standard template used to create a user's timesheet based on a search for assignments, designated approvers, and period.
+  --> <!--
+   Top Parent ID When you are managing a group that contains subgroups, this field allows you to identify and filter data about the entire group and all of its subgroups in Filters, Views, and Groupings. You can also do this using the Top Parent Name field.
+  --> <!--
+   Top Parent Name When you are managing a group that contains subgroups, this field allows you to identify and filter data about the entire group and all of its subgroups in Filters, Views, and Groupings. You can also do this using the Top Parent ID field.
+  --> 
   <tr> 
    <td> <p>Total Hours</p> </td> 
    <td> <p>In a project report, this field displays the rounded sum of all hours on the project, the last time the project finances were calculated. Actual Hours reflect the exact hours logged on the project. Typically, the Actual Hours should match the Total Hours. If the Total Hours appears significantly different than the Actual Hours field, you must Recalculate Finances on the project.</p> <p>For more information about recalculating project finances, see the article <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Recalculate project finances</a>.</p> </td> 
@@ -377,21 +286,14 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   </tr> 
   <tr> 
    <td>User Interface</td> 
-   <td>All visual and interactive aspects of the <em>Workfront</em> application.</td> 
+   <td>All visual and interactive aspects of the <span>Workfront</span> application.</td> 
   </tr> 
   <tr> 
    <td>User Interface Preferences</td> 
-   <td>User Interface Setup. <em>Workfront</em> administrators can change these settings to customize aspects of the user interface.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Utilization</td> 
-    <td>The availability for a user or role based on the assigned schedule, PTO, and current workload.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Utilization</td> 
-   <td>The availability for a user or role based on the assigned schedule, PTO, and current workload.</td> 
-  </tr> 
+   <td>User Interface Setup. <span>Workfront</span> administrators can change these settings to customize aspects of the user interface.</td> 
+  </tr> <!--
+   Utilization The availability for a user or role based on the assigned schedule, PTO, and current workload.
+  --> 
   <tr> 
    <td>User Utilization</td> 
    <td> <p>A search combined with a report that shows how Users (Resources) are allocated or over-allocated. See <i>Resource Utilization</i>.</p> </td> 

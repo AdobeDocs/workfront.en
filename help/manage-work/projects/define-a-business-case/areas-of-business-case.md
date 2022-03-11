@@ -12,7 +12,7 @@ This article describes the areas of the Business Case of a project.
 
 For information about creating a Business Case for a project, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Your *Adobe Workfront administrator* `or *group administrator*` must enable all the&nbsp;sections in the Business Case&nbsp;before they are visible on the project, except for the Project Info section.&nbsp;The Project Info section is enabled by default.
+Your `Adobe Workfront administrator` `or `group administrator`` must enable all the&nbsp;sections in the Business Case&nbsp;before they are visible on the project, except for the Project Info section.&nbsp;The Project Info section is enabled by default.
 
 For more information about enabling the areas of the Business Case, see the "Business Cases" section in&nbsp; [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -29,7 +29,7 @@ The following are areas in the Business Case of a project:
 
 ## Project Info
 
-The `Project Info` area of the Business Case is&nbsp;not configurable by the *Workfront administrator*. All projects have a Project Info area in the Business Case.&nbsp;
+The `Project Info` area of the Business Case is not configurable by the `Workfront administrator`. All projects have a Project Info area in the Business Case.&nbsp;
 
 The Project Info section of the Business Case includes the basic information of a project, before the project has actually started.
 
@@ -50,11 +50,11 @@ Consider editing the following fields:
 
 ## Goals
 
-Goals define the objectives for the&nbsp;project. This area&nbsp;is enabled by default in the Business Case, but the *Workfront administrator* might choose to not display it. This field displays the goals in order of priority.
+Goals define the objectives for the project. This area is enabled by default in the Business Case, but the `Workfront administrator` might choose to not display it. This field displays the goals in order of priority.
 
 >[!TIP]
 >
->You can create strategic goals for your organization that are not connected to a project's individual Business Case. You must have access to&nbsp;*Adobe Workfront Goals* to be able to create strategic goals. You can then connect them with projects outside of their Business Cases. For information about creating goals using *Workfront Goals*, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>You can create strategic goals for your organization that are not connected to a project's individual Business Case. You must have access to  `Adobe Workfront Goals` to be able to create strategic goals. You can then connect them with projects outside of their Business Cases. For information about creating goals using `Workfront Goals`, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Defining the goals is optional for the project to receive a Score&nbsp;in the Portfolio Optimizer. This section is the only optional section in the Business Case. All other sections of the Business Case must be completed before the project is scored in the Portfolio Optimizer.&nbsp;You can indicate a priority level for a goal as you create the goal.
 
@@ -62,7 +62,7 @@ For more information about&nbsp;goals, see&nbsp; [Create Business Case goals](..
 
 ## Expenses
 
-Expenses represent&nbsp;the non-labor costs that might be&nbsp;incurred during the life of a project.&nbsp;This area&nbsp;is enabled by default in the Business Case, but the *Workfront administrator* might choose to not display it.&nbsp;
+Expenses represent the non-labor costs that might be incurred during the life of a project. This area is enabled by default in the Business Case, but the `Workfront administrator` might choose to not display it.&nbsp;
 
 Any expenses that you enter on the Business Case are also entered&nbsp;on the Expenses tab&nbsp;of the project, as Planned Expenses.
 
@@ -75,7 +75,7 @@ For more information about the Budgeted Costs and Net Values, see [Overview of B
 
 For more information about&nbsp;expenses, see&nbsp; [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md)&nbsp;.
 
-Your *Workfront administrator* can set up custom Expense Types.
+Your `Workfront administrator` can set up custom Expense Types.
 
 For more information about&nbsp;creating custom Expense Types, see [Create custom expense types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).&nbsp;
 
@@ -90,35 +90,14 @@ The hours budgeted for the resources on the project display in the Resource Budg
 
 For more information about budgeting resources for the project in the Business Case, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/business-case-sp-selected-with-choose-button-350x121.png" style="width: 350;height: 121;"> </p>
--->
-
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
-
 Consider the following when viewing the Resource Budgeting section of the Business Case:
 
 <ul> 
- <li> <p>You can budget resource information here using the following tool<draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     s
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    s
-   </MadCap:conditionalText>:</p> 
+ <li> <p>You can budget resource information here using the following tools:</p> 
   <ul> 
-   <li> <p>The <em>Resource Planner</em></p> <p>For information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Resource Planner</a>. </p> </li> <draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>The <em>Scenario Planner</em> , if your company has purchased an additional license for Adobe <em>Scenario Planner</em> </p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Scenario Planner</a>. </p> <p>This is available only in <em>the new Adobe Workfront experience</em> and requires an additional license. For information about the <em>Workfront Scenario Planner</em>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </li>
-   </draft-comment>
-   <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>The <em>Scenario Planner</em> , if your company has purchased an additional license for Adobe <em>Scenario Planner</em> </p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Scenario Planner</a>. </p> <p>This is available only in <em>the new Adobe Workfront experience</em> and requires an additional license. For information about the <em>Workfront Scenario Planner</em>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </li> 
+   <li> <p>The <span>Resource Planner</span></p> <p>For information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Resource Planner</a>. </p> </li> The Scenario Planner , if your company has purchased an additional license for Adobe Scenario Planner For more information, see Budget resources in the Business Case using the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview. 
   </ul> </li> 
- <li>The information displayed here also displays in the system-level <em>Resource Planner</em> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    <span>or<![CDATA[  ]]><em>Scenario Planner</em></span>
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   <span>or<![CDATA[  ]]><em>Scenario Planner</em></span>
-  </MadCap:conditionalText>.&nbsp;<br></li> 
+ <li>The information displayed here also displays in the system-level <span>Resource Planner</span> or Scenario Planner.&nbsp;<br></li> 
  <li> <p>After budgeting your resources, the Budgeted Labor Cost of the project displays in the Resource Budgeting area if the roles are associated with Cost per Hour rates.&nbsp;The Budgeted Labor&nbsp;Cost displays in the currency of the project. </p> <note type="important">
    The Budgeted Labor Cost is the cost associated with the roles on the project, and not with the users. The sum of all Budgeted Labor Costs for the users may or may not equal the Budgeted Labor Cost of the job role associated with the users.&nbsp;
    <br>
@@ -127,7 +106,7 @@ Consider the following when viewing the Resource Budgeting section of the Busine
 
 ## Risks
 
-Risks are factors that might prevent a project from finishing on time or on budget. Defining these factors is important for the Portfolio Manager or Project Sponsor to make an educated decision on the approval of the project.&nbsp;This area&nbsp;is enabled by default in the Business Case, but the *Workfront administrator* might choose to not display it.
+Risks are factors that might prevent a project from finishing on time or on budget. Defining these factors is important for the Portfolio Manager or Project Sponsor to make an educated decision on the approval of the project. This area is enabled by default in the Business Case, but the `Workfront administrator` might choose to not display it.
 
 You can associate a potential cost with the risks you are defining in case they should occur. The cost of the risks on a project affect the Net Value of the project.&nbsp;
 
@@ -135,27 +114,27 @@ For more information about the project Net Value, see [Overview of Business Case
 
 For more information about creating risks, see&nbsp; [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
-Your *Workfront administrator* can set up custom Risk Types.
+Your `Workfront administrator` can set up custom Risk Types.
 
 For more information about creating and editing&nbsp;custom Risk Types, see [Edit and create risk types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
 ## Scorecard
 
-Scorecards&nbsp;measure the Alignment of the project. This area&nbsp;is enabled by default in the Business Case, but the *Workfront administrator* might choose to not display it.
+Scorecards measure the Alignment of the project. This area is enabled by default in the Business Case, but the `Workfront administrator` might choose to not display it.
 
 For more information about applying a scorecard to a project and generating an alignment score, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-To apply a scorecard, your *Workfront administrator* must create one. The `Scorecard` area of the Business Case does not display unless a scorecard is created.
+To apply a scorecard, your `Workfront administrator` must create one. The `Scorecard` area of the Business Case does not display unless a scorecard is created.
 
 For more information about&nbsp;creating a scorecard, see&nbsp; [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## Custom Forms
 
-You can attach Custom Forms to a&nbsp;project, when defining a Business Case. This area&nbsp;is not enabled by default in the Business Case. The *Workfront administrator* must enable it to&nbsp;display it in the Business Case.
+You can attach Custom Forms to a project, when defining a Business Case. This area is not enabled by default in the Business Case. The `Workfront administrator` must enable it to&nbsp;display it in the Business Case.
 
 For more information about enabling the areas of the Business Case, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-To apply a custom form, your *Workfront administrator* must first create a custom form.
+To apply a custom form, your `Workfront administrator` must first create a custom form.
 
 For more information about&nbsp;creating a custom form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)&nbsp;.
 
@@ -192,31 +171,10 @@ You can export the Business Case to a PDF&nbsp;file, in case you need to print i
 For information, see [Export the Business Case of a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To export a Business Case:</p>
-<ol>
-<li value="1">Go to the <span class="bold">Business Case</span> area of a project. </li>
-<li value="2"> <p>In the<span class="bold"> Business Case Summary</span> area, click <span class="bold">Export</span>.<br>A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.</p> <p> <img src="assets/bc-summary-exported-350x160.png" alt="BC_Summary_exported.png" style="width: 350;height: 160;"> </p> </li>
-<li value="3">(Optional) You can attach the PDF file to an email, or print it.&nbsp;</li>
-</ol>
-</div>
+To export a Business Case: Go to the Business Case area of a project. In the Business Case Summary area, click Export. A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format. (Optional) You can attach the PDF file to an email, or print it.
 -->
-
-To export a Business Case:
-
-<ol> 
- <li value="1">Go to the <span class="bold">Business Case</span> area of a project. </li> 
- <li value="2"> <p>In the<span class="bold"> Business Case Summary</span> area, click <span class="bold">Export</span>.<br>A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.</p> <p> <img src="assets/bc-summary-exported-350x160.png" alt="BC_Summary_exported.png" style="width: 350;height: 160;"> </p> </li> 
- <li value="3">(Optional) You can attach the PDF file to an email, or print it.&nbsp;</li> 
-</ol>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp; The file contains all areas of the Business Case in an easy to read format.</p>
-<p>For information about how to export the Business Case, see <a href="../../../manage-work/projects/define-a-business-case/export-business-case.md" class="MCXref xref">Export the Business Case of a project in Adobe Workfront</a></p>
-</div>
+You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format. The file contains all areas of the Business Case in an easy to read format. For information about how to export the Business Case, see Export the Business Case of a project in Adobe Workfront
 -->
 
-You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp; The file contains all areas of the Business Case in an easy to read format.
-
-For information about how to export the Business Case, see [Export the Business Case of a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/export-business-case.md)

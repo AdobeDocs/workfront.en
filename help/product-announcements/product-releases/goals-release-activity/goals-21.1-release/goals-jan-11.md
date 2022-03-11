@@ -1,12 +1,12 @@
 
 
-# *Adobe Workfront Goals* 21.1 release activity:&nbsp;Week of January 11, 2021
+# `Adobe Workfront Goals` 21.1 release activity:&nbsp;Week of January 11, 2021
 
-This page describes all enhancements made with the *21.1* release for *Adobe Workfront Goals* to the Preview environment the week of *January 11, 2021*. These enhancements will be made available in the Production environment in the first quarter of *21.1*.
+This page describes all enhancements made with the `21.1` release for `Adobe Workfront Goals` to the Preview environment the week of `January 11, 2021`. These enhancements will be made available in the Production environment in the first quarter of `21.1`.
 
-For a list of all changes available for *Workfront Goals* at this point in the *21.1* release cycle, see [Adobe Workfront Goals with the 21.1 release](../../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
+For a list of all changes available for `Workfront Goals` at this point in the `21.1` release cycle, see [Adobe Workfront Goals with the 21.1 release](../../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
 
-For a list of all changes available for all areas of *Workfront* at this point in the *21.1* release cycle, see [21.1 release overview](../../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+For a list of all changes available for all areas of `Workfront` at this point in the `21.1` release cycle, see [21.1 release overview](../../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Consistent naming between goal progress and project condition
 
@@ -16,7 +16,7 @@ We have updated the names of the goal Progress field to match that of the Projec
 * The current Behind goal Progress has been renamed to At Risk (yellow indicator)
 * The current At Risk goal Progress has been renamed to In Trouble (green indicator)
 
-For information about how *Workfront* calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../../../workfront-goals/goal-management/calculate-goal-progress.md).
+For information about how `Workfront` calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 `<iframe class="vimeo-player_0" src="assets/500529208?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 

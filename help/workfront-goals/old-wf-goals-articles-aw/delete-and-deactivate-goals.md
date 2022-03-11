@@ -6,7 +6,7 @@ title: Delete and deactivate goals in the new Adobe Workfront experience
 description: You can deactivate a goal that is no longer relevant but you think it might become relevant in the future.
 ---
 
-# Delete and deactivate goals in *the new Adobe Workfront experience*
+# Delete and deactivate goals in `the new Adobe Workfront experience`
 
 You can deactivate a goal that is no longer relevant but you think it might become relevant in the future.
 
@@ -16,7 +16,7 @@ If a goal becomes irrelevant and might never relevant, you can delete it. You ca
 
 &nbsp;
 
-Any user who has access to *Workfront Goals* can deactivate or delete goals
+Any user who has access to `Workfront Goals` can deactivate or delete goals
 
 * Deactivate goals
 * Delete goals
@@ -29,7 +29,7 @@ You can save time re-creating a goal that might not be relevant anymore but migh
  <li value="1">Go to a goal you want to deactivate and click to open it. </li> 
  <li value="2"> <p>In the <span class="bold">Summary</span> subtab, click the <span class="bold">Settings menu </span><img src="assets/gear-icon-settings.png">, then click&nbsp;<span class="bold">Deactivate</span>. </p> <p>The status of the goal changes to Inactive. </p> <note type="tip">
    Inactive goals don't display by default in the Goals page. Use filters to display Inactive goals. 
-  </note> <p>For information about using filters in <em>Workfront Goals</em>, see <a href="../../workfront-goals/old-wf-goals-articles-aw/filter-information-in-workfront-goals.md" class="MCXref xref" xrefformat="{para}">Filter information in Workfront Goals using the new Adobe Workfront experience</a>.</p> </li> 
+  </note> <p>For information about using filters in <span>Workfront Goals</span>, see <a href="../../workfront-goals/old-wf-goals-articles-aw/filter-information-in-workfront-goals.md" class="MCXref xref" xrefformat="{para}">Filter information in Workfront Goals using the new Adobe Workfront experience</a>.</p> </li> 
 </ol>
 
 ## Delete goals

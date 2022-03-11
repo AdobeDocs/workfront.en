@@ -6,11 +6,11 @@ title: Use Adobe Workfront built-in reports
 description: Adobe Workfront has an extensive list of built-in reports that you can use.
 ---
 
-# Use *Adobe Workfront* built-in reports
+# Use `Adobe Workfront` built-in reports
 
-*Adobe Workfront* has an extensive list of built-in reports that you can use.
+`Adobe Workfront` has an extensive list of built-in reports that you can use.
 
-*Workfront administrators* can hide built-in reports so users do not have access to them.  
+`Workfront administrators` can hide built-in reports so users do not have access to them.  
 For more information about how to hide built-in reports, see [Hide built-in reports](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Access requirements
@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,13 +40,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Overview of built-in reports
 
 You can customize a built-in report and save it as a new report. For more information about customizing built-in reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-The following reports come with the *Workfront* package. The reports are available to all users who have at least View rights to built-in reports in their access level.
+The following reports come with the `Workfront` package. The reports are available to all users who have at least View rights to built-in reports in their access level.
 
 <table cellspacing="15"> 
  <col> 
@@ -336,7 +336,7 @@ The following reports come with the *Workfront* package. The reports are availab
   </tr> 
   <tr> 
    <td>User Logins</td> 
-   <td>A User report which displays the following fields: the unique ID, Login Count (the number of times the user logged in since starting with <em>Workfront</em>), Last Login Date of the users. The report is grouped by the Access Level of the users.</td> 
+   <td>A User report which displays the following fields: the unique ID, Login Count (the number of times the user logged in since starting with <span>Workfront</span>), Last Login Date of the users. The report is grouped by the Access Level of the users.</td> 
   </tr> 
  </tbody> 
  <p><span class="wysiwyg-color-pink"></span> </p> 
@@ -344,21 +344,19 @@ The following reports come with the *Workfront* package. The reports are availab
 
 ## Access built-in reports
 
-<ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</p> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Reports</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Reports</span>.</p> </li> 
- <li value="3">Click <span class="bold">All Reports</span>.</li> 
- <li value="4">Expand the <span class="bold">Filter</span> drop-down menu, and select<span class="bold"> New Filter</span>.</li> 
- <li value="5">Click <span class="bold">Add a Filter Rule</span>.</li> 
- <li value="6">In the <span class="bold">Start typing field name</span> field, start typing <span class="bold">Global ID</span>.</li> 
- <li value="7">Under the <span class="bold">Report</span> object, select <span class="bold">Global ID</span>.</li> 
- <li value="8">In the filter modifier drop-down menu, select <span class="bold">Is Not Blank</span>.<br><draft-comment>
-   <img src="assets/qs-global-id-filter-for-system-reports-350x179.png" style="width: 350;height: 179;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/qs-global-id-filter-for-system-reports-350x179.png" style="width: 350;height: 179;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li> 
- <li value="9">Click <span class="bold">Save Filter</span>.<br>The reports list displays only built-in reports.<br>For more information about what built-in reports are available, see <a href="#understanding-built-in-reports" class="MCXref xref">Overview of built-in reports</a>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront. 
+1. Click Reports. 
+1. Click `All Reports`.
+1. Expand the `Filter` drop-down menu, and select `New Filter`.
+
+1. Click `Add a Filter Rule`.
+1. In the `Start typing field name` field, start typing `Global ID`.
+
+1. Under the `Report` object, select `Global ID`.
+
+1. In the filter modifier drop-down menu, select `Is Not Blank`.  
+
+1. Click `Save Filter`.  
+   The reports list displays only built-in reports.  
+   For more information about what built-in reports are available, see [Overview of built-in reports](#understanding-built-in-reports).
 

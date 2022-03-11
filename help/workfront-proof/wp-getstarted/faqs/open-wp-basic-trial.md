@@ -5,14 +5,14 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: Opening a Workfront Proof basic trial account
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: The basic trial account lets you try out some of the features available on our Select and Premium plans. For a full Select or Premium trial, please contact our Sales team.
 ---
 
-# Opening a *Workfront Proof* basic trial account
+# Opening a `Workfront Proof` basic trial account
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Understanding a Basic Trial Account
 
@@ -20,7 +20,7 @@ The basic trial account lets you try out some of the features available on our S
 
 The basic 14-day trial allows:
 
-* 500 *proofs*
+* 500 `proofs`
 * 20 users
 * 10 GB of storage
 
@@ -46,7 +46,7 @@ Features available on a basic trial account:
 
 * `Satellite accounts`&nbsp;(see [Satellite accounts in Workfront Proof](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md))
 
-If you decide you would like to continue using *Workfront Proof*, you can upgrade your trial account.&nbsp;Upgrades process immediately, so you can start using your full account as soon as you upgrade.&nbsp;The length of your full subscription is calculated from the starting date of your upgrade.
+If you decide you would like to continue using `Workfront Proof`, you can upgrade your trial account.&nbsp;Upgrades process immediately, so you can start using your full account as soon as you upgrade.&nbsp;The length of your full subscription is calculated from the starting date of your upgrade.
 
 ## Opening a Trial Account
 
@@ -54,6 +54,6 @@ If you decide you would like to continue using *Workfront Proof*, you can upgrad
  <li value="1">Click the&nbsp;button below.<br><a href="https://www.proofhq.com/html/free-trial.html"><img src="assets/take-a-14-day-free-trial-now-button.png"></a></li> 
  <li value="2">Click&nbsp;<span class="bold">Request Free Trial.</span></li> 
  <li value="3">Specify required information, including personal and company information.</li> 
- <li value="4"> <p>Click&nbsp;<span class="bold">Submit.</span></p> <p>For information about how to use <em>Workfront Proof</em>, see articles in the section&nbsp;<a href="https://support.workfront.com/hc/en-us/categories/115000591168-PHQ-Getting-Started">Getting Started.</a></p> </li> 
+ <li value="4"> <p>Click&nbsp;<span class="bold">Submit.</span></p> <p>For information about how to use <span>Workfront Proof</span>, see articles in the section&nbsp;<a href="https://support.workfront.com/hc/en-us/categories/115000591168-PHQ-Getting-Started">Getting Started.</a></p> </li> 
 </ol>
 

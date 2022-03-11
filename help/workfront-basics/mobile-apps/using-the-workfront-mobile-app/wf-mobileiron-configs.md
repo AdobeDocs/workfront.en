@@ -6,9 +6,9 @@ title: Configure Adobe Workfront for MobileIron
 description: In the Adobe Workfront for MobileIron app, we support default configurations provided by MobileIron for both Android and iOS.
 ---
 
-# Configure *Adobe Workfront* for MobileIron
+# Configure `Adobe Workfront` for MobileIron
 
-In the *Adobe Workfront* for MobileIron app, we support default configurations provided by MobileIron for both Android and iOS.
+In the `Adobe Workfront` for MobileIron app, we support default configurations provided by MobileIron for both Android and iOS.
 
 ## Android
 

@@ -9,65 +9,33 @@ description: This replaces this: Resource Planner overview
 # Manage resources in the Resource Planner
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">This replaces this:&nbsp;<a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>&nbsp;</span> </p>
+This replaces this: Resource Planner overview
 -->
-
-`This replaces this:  [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) `
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">***<br><span class="wysiwyg-underline wysiwyg-font-size-large"><span class="bold">The pink sections below have moved to the respective articles</span></span></span> </p>
+*** The pink sections below have moved to the respective articles
 -->
-
-`&#42;&#42;&#42;  
-` `The pink sections below have moved to the respective articles```
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">This should be restructured to walk users through how to plan resources:</span> </p>
+This should be restructured to walk users through how to plan resources:
 -->
 
-`This should be restructured to walk users through how to plan resources:`
-
-<ul> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">where to start</span> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">where to start</span> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">prerequisites</span> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">prerequisites</span> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">benefits of resource planning</span> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">benefits of resource planning</span> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">how to - and what tools to use:&nbsp;</span> 
-   <ul> <draft-comment>
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">start in what view?</span> </li>
-    </draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">start in what view?</span> </li> <draft-comment>
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">follow with what view?</span> </li>
-    </draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">follow with what view?</span> </li> <draft-comment>
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">go to user view to see who is allocated and adjust the timelines</span> </li>
-    </draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">go to user view to see who is allocated and adjust the timelines</span> </li> <draft-comment>
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">go to scheduling to assign tasks and see who is overallocated - link to scheduling here.&nbsp;</span> </li>
-    </draft-comment>
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">go to scheduling to assign tasks and see who is overallocated - link to scheduling here.&nbsp;</span> </li> 
-   </ul> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">how to - and what tools to use:&nbsp;</span> 
-  <ul> 
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">start in what view?</span> </li> 
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">follow with what view?</span> </li> 
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">go to user view to see who is allocated and adjust the timelines</span> </li> 
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">go to scheduling to assign tasks and see who is overallocated - link to scheduling here.&nbsp;</span> </li> 
-  </ul> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">etc ...</span> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">etc ...</span> </li> 
- <li> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">***&nbsp;</span> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">***&nbsp;</span> </p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can manage the allocation of your resources to the projects they are assigned to and forecast their availability for future work at the system level using Resource Planning tools.<br>For an overview of the Resource Planning functionality available in <em>Workfront</em>, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning </a>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can manage the allocation of your resources to the projects they are assigned to and forecast their availability for future work at the system level using Resource Planning tools.<br>For an overview of the Resource Planning functionality available in <em>Workfront</em>, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning </a>.</p> <h2><a name="understanding-the-resource-planner"></a>Understanding the Resource Planner</h2> <p>As a Resource Manager, you can prioritize the projects you are working on, and budget your resource allocation for them to ensure that you have the best resources do the work.&nbsp;</p> <p>By using the Resource Planner,&nbsp;you can&nbsp;easily understand the&nbsp;availability of your resources, and budget their allocations for future work at the system level, across all projects.</p> <p>The Resource Planner has two purposes:&nbsp;</p> 
+<ul> <!--
+  where to start
+ --> <!--
+  prerequisites
+ --> <!--
+  benefits of resource planning
+ --> <!--
+  how to - and what tools to use: start in what view? follow with what view? go to user view to see who is allocated and adjust the timelines go to scheduling to assign tasks and see who is overallocated - link to scheduling here.
+ --> <!--
+  etc ...
+ --> 
+ <li> <!--
+   ***
+  --> <!--
+   You can manage the allocation of your resources to the projects they are assigned to and forecast their availability for future work at the system level using Resource Planning tools. For an overview of the Resource Planning functionality available in Workfront, see Get started with Resource Planning .
+  --> <h2><a name="understanding-the-resource-planner"></a>Understanding the Resource Planner</h2> <p>As a Resource Manager, you can prioritize the projects you are working on, and budget your resource allocation for them to ensure that you have the best resources do the work.&nbsp;</p> <p>By using the Resource Planner,&nbsp;you can&nbsp;easily understand the&nbsp;availability of your resources, and budget their allocations for future work at the system level, across all projects.</p> <p>The Resource Planner has two purposes:&nbsp;</p> 
   <ul> 
    <li> To help Resource Managers budget the allocation of their job roles for the work that needs to be accomplished. You can use the Project and Role&nbsp;views to accomplish this.<br>For more information about budgeting in the Resource Planner, see the&nbsp;<a href="#budgeting-allocations-in-the-resource-planner" class="MCXref xref">Budgeting&nbsp;Resources in the Resource Planner</a>&nbsp;section in this article. </li> 
    <li> To help Resource Managers and team managers view their users' availability and planned allocation to projects in the system.<br>For more information about viewing the difference between the Available and Planned Hours for users in the Resource Planner, see the&nbsp; "<a href="#viewing-user-availability-in-the-rp" class="MCXref xref">Understanding User Availability in the Resource Planner</a>&nbsp;section in this article. </li> 
@@ -184,7 +152,7 @@ description: This replaces this: Resource Planner overview
     <tr> 
      <td colspan="2"> <note type="tip">
         &nbsp;By default, the Budgeted Hours in the Resource Planner are zero for all resources and for all the projects. 
-      </note><p><em>You can manually estimate the Budgeted Hours for users and roles, or you can use one of the links in the Project Options or Job Role Options menus to update them according to the number of Planned Hours.<br>For more information about Project and Role Options, see <a href="#project-role-options" class="MCXref xref">Manage resources in the Resource Planner</a>.</em></p><p><span class="wysiwyg-color-pink"><em>You can report on Budgeted Hours, by selecting Resource Budgeted Hour as your report object for a new report. <br>For more information about what objects you can report on in <em>Workfront</em>, see the "Reporting on Objects" section in <a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</em>&nbsp;</span></p></td> 
+      </note><p><em>You can manually estimate the Budgeted Hours for users and roles, or you can use one of the links in the Project Options or Job Role Options menus to update them according to the number of Planned Hours.<br>For more information about Project and Role Options, see <a href="#project-role-options" class="MCXref xref">Manage resources in the Resource Planner</a>.</em></p><p><span class="wysiwyg-color-pink"><em>You can report on Budgeted Hours, by selecting Resource Budgeted Hour as your report object for a new report. <br>For more information about what objects you can report on in <span>Workfront</span>, see the "Reporting on Objects" section in <a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</em>&nbsp;</span></p></td> 
     </tr> 
     <tr> 
      <td rowspan="4">VAR <br>(Hour,&nbsp;FTE, or ,Cost Variance)</td> 
@@ -243,7 +211,7 @@ description: This replaces this: Resource Planner overview
    <li><a href="#budgeting-in-the-project-view" class="MCXref xref">Budgeting Resources in the Project View</a></li> 
    <li><a href="#budgeting-in-the-role-view" class="MCXref xref">Budgeting Resources in the Role View</a></li> 
    <li><a href="#adjusting-budgeted-dates" class="MCXref xref">Adjusting Budgeting Dates</a></li> 
-  </ul><p> Budgeting FTE or costs is identical with budgeting hours, where <em>Workfront</em> uses the FTE and cost values instead of hours for the resources you budget.&nbsp; </p><p> For more information about understanding how Costs are calculated in the Resource Planner, see&nbsp;<em><a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.</em></p><p><a name="budgeting-in-the-project-view"></a><span class="bold">Budgeting Resources in the Project View</span></p><p><span class="wysiwyg-color-pink">**^^</span><br> To budget allocations in the Resource Planner in the<span class="bold">&nbsp;</span>Project<span class="bold">&nbsp;</span>view: </p> 
+  </ul><p> Budgeting FTE or costs is identical with budgeting hours, where <span>Workfront</span> uses the FTE and cost values instead of hours for the resources you budget.&nbsp; </p><p> For more information about understanding how Costs are calculated in the Resource Planner, see&nbsp;<em><a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.</em></p><p><a name="budgeting-in-the-project-view"></a><span class="bold">Budgeting Resources in the Project View</span></p><p><span class="wysiwyg-color-pink">**^^</span><br> To budget allocations in the Resource Planner in the<span class="bold">&nbsp;</span>Project<span class="bold">&nbsp;</span>view: </p> 
   <ol> 
    <li value="1"> Go to the&nbsp;<span class="bold">People</span>&nbsp;area in the Global Navigation Bar. </li> 
    <li value="2"> Select the&nbsp;<span class="bold">Planning</span>&nbsp;tab. </li> 
@@ -439,7 +407,7 @@ description: This replaces this: Resource Planner overview
       </note></td> 
     </tr> 
    </tbody> 
-  </table><h2><a name="calculating-FTE-in-the-RP"></a>Calculating FTE in the Resource Planner</h2><p>You can display availability, allocation, and planned values in the Resource Planner in Hours, FTE, or Cost.</p><p>For more information about changing the information you display in the Resource Planner, see the "Hour/ FTE/ Cost View Selection" section in <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Resource Planner navigation overview </a>.</p><p>For more information about how the Hours and FTE for users and roles are calculated in <em>Workfront</em>, see&nbsp;<a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.</p><h2><a name="calculating-costs-in-the-RP"></a>Calculating Costs in the Resource Planner</h2><p>Along with displaying availability, allocation, and planned values in the Resource Planner in Hours and FTE, you can also display them by Cost.&nbsp;</p><p>You must associate your users and your job roles with Cost per Hour rates in order to display information by Costs in the Resource Planner.<br>For more information about associating Cost per Hour rates with job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.<br>For more information about associating Cost per Hour rates with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p><p>Consider the following when viewing information by Cost in the Resource Planner:</p> 
+  </table><h2><a name="calculating-FTE-in-the-RP"></a>Calculating FTE in the Resource Planner</h2><p>You can display availability, allocation, and planned values in the Resource Planner in Hours, FTE, or Cost.</p><p>For more information about changing the information you display in the Resource Planner, see the "Hour/ FTE/ Cost View Selection" section in <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Resource Planner navigation overview </a>.</p><p>For more information about how the Hours and FTE for users and roles are calculated in <span>Workfront</span>, see&nbsp;<a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.</p><h2><a name="calculating-costs-in-the-RP"></a>Calculating Costs in the Resource Planner</h2><p>Along with displaying availability, allocation, and planned values in the Resource Planner in Hours and FTE, you can also display them by Cost.&nbsp;</p><p>You must associate your users and your job roles with Cost per Hour rates in order to display information by Costs in the Resource Planner.<br>For more information about associating Cost per Hour rates with job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.<br>For more information about associating Cost per Hour rates with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p><p>Consider the following when viewing information by Cost in the Resource Planner:</p> 
   <ul> 
    <li>The Cost of each type of hours is calculated using a different Cost Rate.</li> 
    <li>The Planned Cost is affected by the Cost Type of the tasks on the projects.</li> 

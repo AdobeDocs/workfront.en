@@ -24,16 +24,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -42,7 +42,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -54,9 +54,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 <ol> 
  <li value="1">Go to the dashboard you want to export.</li> 
- <li value="2"> <p>Click <span class="bold">Dashboard actions</span>, then select <span class="bold">Print</span>.</p> <p> <draft-comment>
-    <img src="assets/dashboard-actions-print-350x254.png" style="width: 350;height: 254;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   </draft-comment><img src="assets/dashboard-actions-print-350x254.png" style="width: 350;height: 254;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>The Print dialog opens.</p> </li> 
+ <li value="2"> <p>Click <span class="bold">Dashboard actions</span>, then select <span class="bold">Print</span>.</p> <p>  </p> <p>The Print dialog opens.</p> </li> 
  <li value="3"> <p>Depending on your web browser, select the appropriate print options to complete the .pdf. file export:</p> 
   <table cellspacing="15"> 
    <col> 

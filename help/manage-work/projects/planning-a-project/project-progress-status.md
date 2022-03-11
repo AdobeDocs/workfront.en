@@ -9,9 +9,9 @@ description: Adobe Workfront determines the Progress Status of a project by look
 
 # Project Progress Status overview
 
-*Adobe Workfront* determines the Progress Status of a project by looking at the progression of the project across its timeline. You can configure *Workfront* to determine the Condition of a project based on the value of the Progress Status of the tasks. For more information about configuring the Condition of the project, see the article [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+`Adobe Workfront` determines the Progress Status of a project by looking at the progression of the project across its timeline. You can configure `Workfront` to determine the Condition of a project based on the value of the Progress Status of the tasks. For more information about configuring the Condition of the project, see the article [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-The following are the Progress Statuses of projects in&nbsp;*Workfront*: 
+The following are the Progress Statuses of projects in  `Workfront`: 
 
 <table cellspacing="0"> 
  <col> 

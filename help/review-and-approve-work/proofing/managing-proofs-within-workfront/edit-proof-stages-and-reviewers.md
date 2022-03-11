@@ -6,9 +6,9 @@ title: Edit proof stages and reviewers
 description: You must have the following access to perform the steps in this article:
 ---
 
-# Edit *proof* stages and reviewers
+# Edit `proof` stages and reviewers
 
-You can edit the stages and reviewer details in a *proof* if you are the proof owner or creator or you have the correct proof role assigned.  
+You can edit the stages and reviewer details in a `proof` if you are the proof owner or creator or you have the correct proof role assigned.  
 
 ## Access requirements
 
@@ -19,15 +19,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Current plan: <em>Work</em> or <em>Plan</em></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -41,14 +41,12 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
 ## Edit a stage
 
 <ol> 
- <li value="1"> <p>In a document list that contains the document, hover over the row containing the document, then click <draft-comment>
-    <span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Proofing Workflow</span>
-   </draft-comment><span class="bold" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Proofing Workflow</span>.</p> <p>Or</p> <p>In the standalone <em>Workfront Proof</em>, click the&nbsp;<span class="bold">More</span>&nbsp;(three dot) menu to the right of the <em>proof</em>, then click&nbsp;<span class="bold">View proof details</span>.</p> </li> 
+ <li value="1"> <p>In a document list that contains the document, hover over the row containing the document, then click Proofing Workflow.</p> <p>Or</p> <p>In the standalone <span>Workfront Proof</span>, click the&nbsp;<span class="bold">More</span>&nbsp;(three dot) menu to the right of the <span>proof</span>, then click&nbsp;<span class="bold">View proof details</span>.</p> </li> 
  <li value="2"> <p>Make any of the following changes in the <span class="bold">Workflow</span> section:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -60,7 +58,7 @@ You must have the following access to perform the steps in this article:
     </tr> 
     <tr> 
      <td role="rowheader">Remove individual reviewer</td> 
-     <td> <p>Select the <span class="bold">More</span> menu to the right of the reviewer's name, then click <span class="bold">Remove</span> in the drop-down menu. Click <span class="bold">Confirm</span> in the box that appears to remove the reviewer from the <em>proof</em>.</p> </td> 
+     <td> <p>Select the <span class="bold">More</span> menu to the right of the reviewer's name, then click <span class="bold">Remove</span> in the drop-down menu. Click <span class="bold">Confirm</span> in the box that appears to remove the reviewer from the <span>proof</span>.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Remove multiple reviewers</td> 
@@ -87,7 +85,7 @@ You must have the following access to perform the steps in this article:
 ## Edit reviewer details
 
 <ol> 
- <li value="1"> <p>In <em>Workfront</em>, hover over the <em>proof</em>, then click <span class="bold">Proof details</span> to open the Proofing Details page.</p> </li> 
+ <li value="1"> <p>In <span>Workfront</span>, hover over the <span>proof</span>, then click <span class="bold">Proof details</span> to open the Proofing Details page.</p> </li> 
  <li value="2">In the <span class="bold">Workflow</span> section, click the <span class="bold">More</span> menu <img src="assets/more-button-small.png"> to the right of the reviewer's name, then click <span class="bold">Edit</span> in the drop-down menu that appears. <br></li> 
  <li value="3"> <p>In the <span class="bold">Edit reviewer</span> box that appears, edit any of the following details: </p> 
   <table cellspacing="0"> 
@@ -96,25 +94,16 @@ You must have the following access to perform the steps in this article:
    <tbody> 
     <tr> 
      <td role="rowheader">Display name*</td> 
-     <td> <p>To change the reviewer's display name on the <em>proof</em>, click in the text field and in-line edit their name.</p> </td> 
+     <td> <p>To change the reviewer's display name on the <span>proof</span>, click in the text field and in-line edit their name.</p> </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Role</td> 
-     <td>To change the reviewer's role on the <em>proof</em>, open the drop-down menu and select the preferred role. See <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configure default proofing roles</a> for more information.</td> 
+     <td>To change the reviewer's role on the <span>proof</span>, open the drop-down menu and select the preferred role. See <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configure default proofing roles</a> for more information.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Email alerts</td> 
-     <td>To change the reviewer's email alert on the <em>proof</em>, open the drop-down menu and select the preferred email alert. For more information, see in the article <a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">Notifications for proof comments and decisions overview</a>.</td> 
-    </tr> <draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Decision*</td> 
-      <td> <p>To change the reviewer's decision on the <em>proof</em>, open the drop-down menu and select the preferred decision. Note that any decision you make on behalf of another user is noted in the Activity section of the <em>proof</em>. This option displays only when the review has made a decision.</p> </td> 
-     </tr>
-    </draft-comment>
-    <tr data-mc-conditions=""> 
-     <td role="rowheader">Decision*</td> 
-     <td> <p>To change the reviewer's decision on the <em>proof</em>, open the drop-down menu and select the preferred decision. Note that any decision you make on behalf of another user is noted in the Activity section of the <em>proof</em>. This option displays only when the review has made a decision.</p> </td> 
-    </tr> 
+     <td>To change the reviewer's email alert on the <span>proof</span>, open the drop-down menu and select the preferred email alert. For more information, see in the article <a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">Notifications for proof comments and decisions overview</a>.</td> 
+    </tr> Decision* To change the reviewer's decision on the proof, open the drop-down menu and select the preferred decision. Note that any decision you make on behalf of another user is noted in the Activity section of the proof. This option displays only when the review has made a decision. 
     <tr> 
      <td role="rowheader">Stage</td> 
      <td>It is not possible to move reviewers between stages. However, you can remove and re-add a reviewer with a different deadline.</td> 

@@ -10,16 +10,16 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from *Adobe Workfront*. We recommend that you use the *Workload Balancer* for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
 >
->For information about scheduling resources using the new *Workload Balancer*, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 Using a filter in the Resource Scheduling area enables you to determine which work items are&nbsp;displayed on the scheduling timeline. This includes which tasks and issues are displayed in the Unassigned area, as well as which users are displayed.&nbsp;
 
-Before you begin filtering content as&nbsp;described in this section, become familiar with how resource scheduling works in *Adobe Workfront*.  
-For information about resource scheduling in *Workfront*, see the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).  
+Before you begin filtering content as described in this section, become familiar with how resource scheduling works in `Adobe Workfront`.  
+For information about resource scheduling in `Workfront`, see the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).  
 For more information about the scheduling timeline, see the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
 You can&nbsp;schedule resources or an individual team you are a member of or for any projects for which you are the Resource Manager.
@@ -33,16 +33,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View access or higher to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Projects, Tasks,&nbsp;and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -51,15 +51,8 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Create"></a>Create a filter in the Schedule section (for Teams)</h2>
--->
-
-## Create a filter in the Schedule section (for Teams)
-
-Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Working On tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
+Create a filter in the Schedule section (for Teams) Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Working On tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
 
 >[!NOTE]
 >
@@ -67,80 +60,40 @@ Tasks and issues from the projects, users, and roles you define in the filter ar
 
 To create a filter for the scheduling timeline on the Working On tab for teams:
 
-<ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Workfront</em>, then click 
-     <span class="bold">Teams</span>, select a team, click 
-     <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-     <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, then click 
-    <span class="bold">Teams</span>, select a team, click 
-    <span class="bold"> <em>Workload Balancer</em></span> in the left panel, then select 
-    <span class="bold"> Scheduling</span> from the upper-left drop-down menu. 
-   </MadCap:conditionalText> </p> </li> 
- <li value="2"> <p>Click <span class="bold">Filter</span>.</p> </li> 
- <li id="project-filters-workingon" value="3">Determine which projects are represented in the Unassigned area by specifying the following information:<br><span class="bold">Project Priorities:</span>&nbsp;Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline. Tasks and issues from projects with the priorities you select are&nbsp;displayed on the scheduling timeline.<br>Only priorities from projects that include tasks or issues that are assigned to the team are available to choose from this menu.<br><span class="bold">Project Statuses:</span>&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline. Tasks and issues from projects with the statuses&nbsp;you select are displayed&nbsp;on the scheduling timeline.<br>Only statuses&nbsp;from projects that include tasks or issues that are assigned to the team are available to choose from this menu.<br><span class="bold">Projects:</span> Select any projects that you want to be represented on the scheduling timeline. Tasks and issues from the projects you select are displayed on the scheduling timeline.<br>Your selections in the previous fields determine the projects that are available to select. <br>Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.</li> 
- <li id="user-filters-workingon" value="4">Determine which users are displayed on the scheduling timeline by specifying the following information. By default, all team members are displayed.<br><span class="bold">Roles:</span>&nbsp;Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.<br>Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.<br>Users are displayed on the scheduling timeline, organized by job role.<br><span class="bold">Users:</span>&nbsp;Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.<br>Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.<br>This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area. <br></li> 
- <li value="5">(Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article <a href="../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md" class="MCXref xref">Manually assign unassigned tasks and issues in the Scheduling areas</a>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu. 
+1. Click `Filter`.
+1. Determine which projects are represented in the Unassigned area by specifying the following information:  
+   `Project Priorities:`&nbsp;Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline. Tasks and issues from projects with the priorities you select are&nbsp;displayed on the scheduling timeline.  
+   Only priorities from projects that include tasks or issues that are assigned to the team are available to choose from this menu.  
+   `Project Statuses:`&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline. Tasks and issues from projects with the statuses&nbsp;you select are displayed&nbsp;on the scheduling timeline.  
+   Only statuses&nbsp;from projects that include tasks or issues that are assigned to the team are available to choose from this menu.  
+   `Projects:` Select any projects that you want to be represented on the scheduling timeline. Tasks and issues from the projects you select are displayed on the scheduling timeline.  
+   Your selections in the previous fields determine the projects that are available to select.   
+   Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Create2"></a>Create and modify filters in the Scheduling section (for multiple projects)</h2>
--->
+1. Determine which users are displayed on the scheduling timeline by specifying the following information. By default, all team members are displayed.  
+   `Roles:`&nbsp;Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+   Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.  
+   Users are displayed on the scheduling timeline, organized by job role.  
+   `Users:`&nbsp;Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+   Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.  
+   This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.   
 
-## Create and modify filters in the Scheduling section (for multiple projects)
+1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-You can create a new filter, apply a filter that you previously created, modify a filter that you previously created, or delete a filter. You cannot share filters you create with other users.
+Create and modify filters in the Scheduling section (for multiple projects) You can create a new filter, apply a filter that you previously created, modify a filter that you previously created, or delete a filter. You cannot share filters you create with other users.
 
-* 
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="#create4" class="MCXref xref">Create a filter in the Scheduling section (for projects)</a> </p>
-  -->
-
-  [Create a filter in the Scheduling section (for projects)](#create4) 
-
+* Create a filter in the Scheduling section (for projects) 
 * [Apply a saved filter](#applying-a-saved-filter) 
 * [Modify a saved filter](#modifying-an-existing-filter) 
 * [Delete a saved filter](#deleting-a-filter)
 
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Create4"></a>Create a filter in the Scheduling section (for projects)</h3>
--->
-
-### Create a filter in the Scheduling section (for projects)
-
-Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Scheduling tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
+Create a filter in the Scheduling section (for projects) Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Scheduling tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
 
 To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for multiple projects:
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Workfront</em>, click 
-     <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-     <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, click 
-    <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-    <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-   </MadCap:conditionalText> </p> </li> 
+ <li value="1"> <p> Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. </p> </li> 
  <li value="2">Click <span class="bold">Filter</span>.<br><img src="assets/scheduling-filter-350x351.png" alt="" style="width: 350;height: 351;"></li> 
  <li value="3">Leave the <span class="bold">Saved Filters</span> field blank.</li> 
  <li id="project-filters" value="4">Determine which projects are represented in the Unassigned area by specifying the following information:<br><span class="bold">Portfolios:</span>&nbsp;Select any portfolios that include programs and projects that you want to be represented on the scheduling timeline. <br>Only programs within the portfolios you select are available to select&nbsp;in the <span class="bold">Program</span> field.<br><span class="bold">Programs:</span>&nbsp;Select any programs that&nbsp;include projects that you want to be represented on the scheduling timeline. <br>Your selections in the <span class="bold">Portfolio</span> field determine the programs that are available to select. <br>Only projects within the programs you select are available to select&nbsp;in the <span class="bold">Projects</span> field.<br><span class="bold">Project Priorities:</span> Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline. <br>Only projects with the priorities you select are represented.<br><span class="bold">Project Statuses:</span>&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline. <br>Only projects with the statuses&nbsp;you select are represented.<br><span class="bold">Project Companies:</span>&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a company you select.<br><span class="bold">Project&nbsp;Groups:</span>&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a group you select.<br><span class="bold">Projects:</span> Select any projects that you want to be represented on the scheduling timeline.&nbsp;Tasks and issues from the projects you select are displayed on the scheduling timeline.<br>Your selections in the previous fields determine the projects that are available to select. <br>Tasks and issues from the projects you select are displayed on the scheduling timeline. Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.</li> 
@@ -159,28 +112,12 @@ You can apply a filter that you previously created.
 
 To apply a saved filter for multiple projects:
 
-<ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Workfront</em>, click 
-     <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-     <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, click 
-    <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-    <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-   </MadCap:conditionalText> </p> </li> 
- <li value="2">Click&nbsp;<span class="bold">Filter</span>.</li> 
- <li value="3">In the <span class="bold">Saved Filters</span> field, select the filter you want to apply.<br>Your data is displayed on the scheduling timeline.</li> 
- <li value="4">(Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article <a href="../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md" class="MCXref xref">Manually assign unassigned tasks and issues in the Scheduling areas</a>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. 
+1. Click  `Filter`.
+1. In the `Saved Filters` field, select the filter you want to apply.  
+   Your data is displayed on the scheduling timeline.
+
+1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
 ### Modify a&nbsp;saved&nbsp;filter
 
@@ -192,30 +129,14 @@ You can modify&nbsp;a filter that you previously created.
 
 To modify&nbsp;a saved filter for multiple projects:
 
-<ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Workfront</em>, click 
-     <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-     <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, click 
-    <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-    <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-   </MadCap:conditionalText> </p> </li> 
- <li value="2">Click&nbsp;<span class="bold">Filter</span>.</li> 
- <li value="3">In the <span class="bold">Saved Filters</span> field, select the filter you want to modify from the drop-down list.</li> 
- <li value="4">Specify what data to display on the scheduling timeline. </li> 
- <li value="5">Click <span class="bold">Save</span>.<br>Your data is displayed on the scheduling timeline.</li> 
- <li value="6">(Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article <a href="../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md" class="MCXref xref">Manually assign unassigned tasks and issues in the Scheduling areas</a>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. 
+1. Click  `Filter`.
+1. In the `Saved Filters` field, select the filter you want to modify from the drop-down list.
+1. Specify what data to display on the scheduling timeline. 
+1. Click `Save`.  
+   Your data is displayed on the scheduling timeline.
+
+1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
 ### Delete a saved filter
 
@@ -225,35 +146,11 @@ To modify&nbsp;a saved filter for multiple projects:
 
 You can delete a filter that you previously created.
 
-<ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Workfront</em>, click 
-     <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-     <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-    <em>Workfront</em>, click 
-    <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-    <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-   </MadCap:conditionalText> </p> </li> 
- <li value="2">Click <span class="bold">Filter</span>.</li> 
- <li value="3">In the <span class="bold">Saved Filters</span> field, in the drop-down list, click the (x) next to the filter you want to delete.&nbsp;</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. 
+1. Click `Filter`.
+1. In the `Saved Filters` field, in the drop-down list, click the (x) next to the filter you want to delete.&nbsp;
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a name="Create3"></a>Create and modify filters in the Scheduling section (for a single project)</h2>
--->
-
-## Create and modify filters in the Scheduling section (for a single project)
-
-Tasks and issues from the users, teams, and roles you define in the filter are displayed on the scheduling timeline on the Staffing&nbsp;tab. Use the options in the filter to determine which users, teams, and roles are represented on the scheduling timeline.
+Create and modify filters in the Scheduling section (for a single project) Tasks and issues from the users, teams, and roles you define in the filter are displayed on the scheduling timeline on the Staffing&nbsp;tab. Use the options in the filter to determine which users, teams, and roles are represented on the scheduling timeline.
 
 >[!NOTE]
 >
@@ -261,17 +158,7 @@ Tasks and issues from the users, teams, and roles you define in the filter are d
 
 To create a filter for the scheduling timeline on the Staffing&nbsp;tab for a single projects:
 
-1. 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Go to a project, click the
-   <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select
-   <span class="bold">Scheduling</span> from the upper-left drop-down menu.
-   </MadCap:conditionalText>
-   -->
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Go to a project, click the  <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select  <span class="bold">Scheduling</span> from the upper-left drop-down menu. </MadCap:conditionalText>` 
+1. Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu. 
 1. Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp; `  
    User Companies:`&nbsp;This field enables you to restrict users from other companies from being displayed on the scheduling timeline.  
    Leave this field blank if you want users from any company to be added. If you specify individual companies, only users from those companies can be added to the scheduling timeline. Specifying a company does not automatically add users from that company to the scheduling timeline. Instead, use the fields below to add specific users.  

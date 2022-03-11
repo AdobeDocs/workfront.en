@@ -34,16 +34,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Set up a matrix report
 
@@ -65,10 +65,7 @@ You must have the following access to perform the steps in this article:
    <li value="1">Click the <span class="bold">Columns (View)</span> tab, then select a column that you want to be summarized in the matrix report.</li> 
    <li value="2"><p>In the <span class="bold">Column Settings</span> area, click the <span class="bold">Summarize this column by</span> drop-down list, then select one of the available options for summarizing the information.</p><note type="important">
      If this option is not selected, the information from the column is not displayed correctly in the matrix report.
-    </note><p>
-     <draft-comment>
-      <img src="assets/qs-report-matrix-summarized-350x392.png" style="width: 350;height: 392;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     </draft-comment><img src="assets/qs-report-matrix-summarized-350x392.png" style="width: 350;height: 392;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p></li> 
+    </note><p></p></li> 
    <li value="3">Repeat this process for each column in the Columns (View) tab, then click <span class="bold">Done</span>.</li> 
   </ol></li> 
  <li value="5">Click the <span class="bold">Groupings</span> tab.</li> 
@@ -80,12 +77,8 @@ You must have the following access to perform the steps in this article:
    <li value="3">(Optional) To add an additional row grouping, click <span class="bold">Add secondary Row Grouping</span>.</li> 
    <li value="4">In the <span class="bold">Column Groupings</span> section, identify the column grouping, which establish the vertical groupings of the table.</li> 
    <li value="5">(Optional) To add an additional column grouping, click <span class="bold">Add secondary Column Grouping</span>.</li> 
-   <li value="6">(Conditional) If you add a grouping by date, also specify whether the results are grouped by day, week, month, quarter or year.<br><draft-comment>
-     <img src="assets/qs-grouping-by-date-options-for-matrix-report-350x450.png" style="width: 350;height: 450;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    </draft-comment><img src="assets/qs-grouping-by-date-options-for-matrix-report-350x450.png" style="width: 350;height: 450;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><br></li> 
-   <li value="7">(Conditional) If you selected to group by date and to show results by quarter, for example, specify whether you want to show quarters with no data by selecting the <span class="bold">Show quarters with no results</span> checkbox.<br><draft-comment>
-     <img src="assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png" style="width: 350;height: 175;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    </draft-comment><img src="assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png" style="width: 350;height: 175;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><br> <note type="note">  The 
+   <li value="6">(Conditional) If you add a grouping by date, also specify whether the results are grouped by day, week, month, quarter or year.<br><br></li> 
+   <li value="7">(Conditional) If you selected to group by date and to show results by quarter, for example, specify whether you want to show quarters with no data by selecting the <span class="bold">Show quarters with no results</span> checkbox.<br><br> <note type="note">  The 
      <span class="bold">Show quarters with no results</span> field is only available for matrix groupings, and not for standard groupings. 
      <br>Only the quarters with no data that are located in-between two quarters with valid data will display zero for the data values in the matrix tab. The quarters that have no data that are located at the beginning and the end of the timeframe selected by your filter do not appear at all in the matrix grouping. The quarters with no results will not display in a grouping on the Details tab of the report. 
     </note></li> 
@@ -105,15 +98,9 @@ You must have the following access to perform the steps in this article:
   </ul><p><span class="bold">Conditional Rules:</span> Set up any formatting rules for values that are aggregated.<br>After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <span class="bold">Add Rule</span> after you have finished defining the rule, then <span class="bold">Done</span> to save the rule.</p></li> 
  <li value="9">Click the <span class="bold">Filters</span> tab to define what information will display in the report.</li> 
  <li value="10">(Conditional) If you already created a Filter and you want to apply it to this report, click <span class="bold">Apply an Existing Filter</span>, then select the Filter from the drop-down list.</li> 
- <li value="11">(Conditional) If you want to create a new Filter for this report, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a><draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-     and 
-    <a href="../../../reports-and-dashboards/reports/reporting-elements/advanced-filter-condition-qualifiers.md" class="MCXref xref">Advanced Filter and condition qualifiers </a> 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-    and 
-   <a href="../../../reports-and-dashboards/reports/reporting-elements/advanced-filter-condition-qualifiers.md" class="MCXref xref">Advanced Filter and condition qualifiers </a> 
-  </MadCap:conditionalText> for information about the various qualifiers that you can use when building filters.</li> 
+ <li value="11">(Conditional) If you want to create a new Filter for this report, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a><!--
+   and Advanced Filter and condition qualifiers
+  --> for information about the various qualifiers that you can use when building filters.</li> 
  <li value="12">Click <span class="bold">Save+Close</span> to save and view the matrix report.</li> 
 </ol>
 

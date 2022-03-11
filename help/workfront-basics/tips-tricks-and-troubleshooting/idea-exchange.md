@@ -18,7 +18,7 @@ As an authenticated user, you can:
 
 To vote on an idea:
 
-1. Log in to the *Adobe Workfront* Community on the Workfront One site at the following URL:&nbsp; [https://one.workfront.com/s/community](https://one.workfront.com/s/community).  
+1. Log in to the `Adobe Workfront` Community on the Workfront One site at the following URL:&nbsp; [https://one.workfront.com/s/community](https://one.workfront.com/s/community).  
 
 1. Click the `Collaboration` tab, then click `Innovation Lab`.
 
@@ -26,7 +26,7 @@ To vote on an idea:
 1. Click on the idea.
 1. Next to the idea's title are an up arrow and a down arrow. Clicking the up arrow allows you to vote on and distribute 10 points to the idea.
 
-When an idea achieves a critical mass, the *Workfront* Product Management team actively reviews the suggested idea and communicates a decision about that idea within 3 to 4 weeks. The voting threshold that prompts *Workfront* to take action is 450 points. Over the coming years, *Workfront* will continue to periodically review and revise the threshold as the number of participants grows.
+When an idea achieves a critical mass, the `Workfront` Product Management team actively reviews the suggested idea and communicates a decision about that idea within 3 to 4 weeks. The voting threshold that prompts `Workfront` to take action is 450 points. Over the coming years, `Workfront` will continue to periodically review and revise the threshold as the number of participants grows.
 
 After an idea has been submitted, the idea defaults to the following status:
 

@@ -19,22 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> <p><em>Review</em> or higher license to view issues in the Issues <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       section 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      section 
-     </MadCap:conditionalText>of a project.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> <p><span>Review</span> or higher license to view issues in the Issues sectionof a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>View access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,62 +37,17 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## View issues based on&nbsp;Status
 
 To view issues on a project, task, or iteration:&nbsp;
 
-1. 
+1. Open a project, task, or iteration that contains issues, then click Issues in the left panel.  
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Open a project, task, or iteration that contains issues, then click
-   <span class="bold">Issues</span> in the left panel.
-   </MadCap:conditionalText>
-   -->
+1. &nbsp;From the Filter drop-down menu, click any of the filters listed below:
 
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Open a project, task, or iteration that contains issues, then click  <span class="bold">Issues</span> in the left panel. </MadCap:conditionalText>`  
-
-1. &nbsp;
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   From the
-   <span class="bold">Filter</span> drop-down menu, click any of the filters listed below:
-   </MadCap:conditionalText>
-   -->
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> From the  <span class="bold">Filter</span> drop-down menu, click any of the filters listed below:</MadCap:conditionalText>`
-
-  * 
-  
-    <!--  
-    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    <span class="bold">Open:</span> Displays issues that are open.  
-    </MadCap:conditionalText>  
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    <span class="bold">Open:</span> Displays issues that are open.  
-    </MadCap:conditionalText> </p>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <span class="bold">Open:</span> Displays issues that are open. </MadCap:conditionalText>`
-
-    <!--  
-    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    This includes those associated with a Resolving Object and those in a Closed - Pending Approval status.  
-    </MadCap:conditionalText>  
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    This includes those associated with a Resolving Object and those in a Closed - Pending Approval status.  
-    </MadCap:conditionalText> </p>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> This includes those associated with a Resolving Object and those in a Closed - Pending Approval status. </MadCap:conditionalText>`
-
-    For information about Resolving Objects, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
-  
+  * Open: Displays issues that are open. This includes those associated with a Resolving Object and those in a Closed - Pending Approval status. For information about Resolving Objects, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
   * `Completed` `:`&nbsp;Displays&nbsp;all issues that have an Actual&nbsp;Completion Date.&nbsp;
   * `All` `:`&nbsp;Displays&nbsp;all issues.
 
@@ -108,113 +57,33 @@ You can view information about an issue when you access it.&nbsp;
 
 To access an issue and view information about it:&nbsp;
 
-1. 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Open a project, task, or iteration that contains issues, then click
-   <span class="bold">Issues</span> in the left panel.
-   </MadCap:conditionalText>
-   -->
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Open a project, task, or iteration that contains issues, then click  <span class="bold">Issues</span> in the left panel. </MadCap:conditionalText>` 
-
-1. 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   From the
-   <span class="bold">Filter</span> drop-down menu, select the filter to display the issues you are trying to view.
-   </MadCap:conditionalText>
-   -->
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> From the  <span class="bold">Filter</span> drop-down menu, select the filter to display the issues you are trying to view. </MadCap:conditionalText>`
+1. Open a project, task, or iteration that contains issues, then click Issues in the left panel. 
+1. From the Filter drop-down menu, select the filter to display the issues you are trying to view.
 
    Select from the following:
 
-  * 
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    Open  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Open</MadCap:conditionalText>`
-  
-  * 
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    Completed  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Completed</MadCap:conditionalText>`
-  
-  * 
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    All  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> All</MadCap:conditionalText>`
+  * Open
+  * Completed
+  * All
 
 1. Click the name of an issue.
 
    When you have manage permissions to the issue you can edit any editable field in the issue and add&nbsp;approvals, hours, or documents to the issue.
 
-1. &nbsp;
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   From the left panel, click any of the following to view more information about the issue:
-   </MadCap:conditionalText>
-   -->
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> From the left panel, click any of the following to view more information about the issue:</MadCap:conditionalText>`
+1. &nbsp;From the left panel, click any of the following to view more information about the issue:
 
   * `Updates`:&nbsp;You can perform the following actions :
 
     * Comment on the issue, or reply to an existing comment.&nbsp;
     * Log time.
     * Change the status of the issue.  
-      For more information about updating work in *Workfront*, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      For more information about updating work in `Workfront`, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-  * `Documents`: Attach documents to the issue. For more information about adding documents to *Workfront*, see [Add documents to Adobe Workfront from your file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+  * `Documents`: Attach documents to the issue. For more information about adding documents to `Workfront`, see [Add documents to Adobe Workfront from your file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
   
-  * `Issue Details`:   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    Expand this link to display the  
-    <span class="bold">Overview</span> and  
-    <span class="bold">Custom&nbsp;Forms</span> areas.  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  Expand this link to display the  <span class="bold">Overview</span> and  <span class="bold">Custom&nbsp;Forms</span> areas.</MadCap:conditionalText>`  
-    If you have manage permissions to the issue and edit rights on the custom form, you can edit some of the information   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    here  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> here</MadCap:conditionalText>`.  
-    View or edit the following fields   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    in the  
-    <span class="bold">Overview</span> area  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> in the  <span class="bold">Overview</span> area</MadCap:conditionalText>`:
+  * `Issue Details`: Expand this link to display the Overview and Custom Forms areas.  
+    If you have manage permissions to the issue and edit rights on the custom form, you can edit some of the information here.  
+    View or edit the following fields in the Overview area:
 
     * `Name`
     * `Path`: the path through which the issue was logged to the project.
@@ -245,15 +114,7 @@ To access an issue and view information about it:&nbsp;
     * `Entered By`: this is the user who created the issue. This field is not editable.
     * `Last Updated By`: this is the user who updated any field on the issue last. This field is not editable.&nbsp;
 
-    In the `Custom Forms`   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">  
-    area  
-    </MadCap:conditionalText>  
-    -->  
-  
-    `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> area </MadCap:conditionalText>`, view of select one or several custom forms to associate with the issue. 
+    In the `Custom Forms` area, view of select one or several custom forms to associate with the issue. 
   
   * `Hours`: Shows a list of hour entries on the issue.
   * `Approvals:` Shows the approval paths associated with the issue.  
@@ -263,31 +124,11 @@ To access an issue and view information about it:&nbsp;
 
 You can add icons in the view of a project or task report or list to show whether they have issues attached. Adding icons to the view of a report or list is similar for projects and tasks.&nbsp;
 
-To add icons that display whether a project has issues 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-in a project report
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> in a project report</MadCap:conditionalText>`:
+To add icons that display whether a project has issues in a project report:
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</p> </li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click 
-     <span class="bold">Reporting</span>>
-     <span class="bold">New Report</span>>
-     <span class="bold">Project Report</span>.
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Reporting</span>>
-    <span class="bold">New Report</span>>
-    <span class="bold">Project Report</span>.
-   </MadCap:conditionalText> </p> </li> 
+ <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.</p> </li> 
+ <li value="2"> <p> Click Reporting>New Report>Project Report. </p> </li> 
  <li value="3">In the <span class="bold">Show in this column</span> field, start typing <span class="bold">Status Icons</span>, then select it when it appears in the list.</li> 
  <li value="4"> <p>Click <span class="bold">Save + Close</span> .</p> <p>The issue icons display on the projects that have issues in the <span class="bold">Status Icons</span> column.</p> <p> <img src="assets/project-list-with-issue-icon-350x42.png" alt="project_list_with_issue_icon.png" style="width: 350;height: 42;"> </p> </li> 
 </ol>

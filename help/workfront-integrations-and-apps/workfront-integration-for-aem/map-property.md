@@ -2,7 +2,7 @@
 
 # `Workfront Tools for AEM User Guide : Map Property`
 
-This workflow step will allow a user to map a property to a *Adobe Workfront* custom form on a project, task, issue, or document. The *Workfront* artifact this step affects will be looked up using a relative path from the payload. Which properties to map are controlled within the steps dialog configuration.
+This workflow step will allow a user to map a property to a `Adobe Workfront` custom form on a project, task, issue, or document. The `Workfront` artifact this step affects will be looked up using a relative path from the payload. Which properties to map are controlled within the steps dialog configuration.
 
 ## Access requirements
 
@@ -15,18 +15,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p><em>Work</em> or higher</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> <!--
+   Adobe Workfront license* Work or higher
+  --> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have a license to Adobe Experience Manager</td> 
@@ -34,7 +27,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 

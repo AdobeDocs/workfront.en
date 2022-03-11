@@ -6,15 +6,15 @@ title: View approvals in Adobe Workfront
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# View approvals in *Adobe Workfront*
+# View approvals in `Adobe Workfront`
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-Approval processes provide the flexibility to create multistep approvals for projects, tasks, and issues. *Adobe Workfront* administrators define approval processes to provide consistency throughout the system.
+Approval processes provide the flexibility to create multistep approvals for projects, tasks, and issues. `Adobe Workfront` administrators define approval processes to provide consistency throughout the system.
 
 For information about creating approval processes, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-For information about associating approvals with work in *Workfront*, see [Associate a new or existing approval process with work](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+For information about associating approvals with work in `Workfront`, see [Associate a new or existing approval process with work](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Access requirements
 
@@ -25,16 +25,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the objects associated with approvals</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to the objects associated with approvals</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,11 +43,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Locate approvals in *Adobe Workfront*
+## Locate approvals in `Adobe Workfront`
 
-You can view or manage approvals from several areas of *Workfront*. For information about how to manage approvals in various areas, see [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).
+You can view or manage approvals from several areas of `Workfront`. For information about how to manage approvals in various areas, see [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 You can view or manage approvals from the following areas:
 
@@ -59,13 +59,7 @@ You can view or manage approvals from the following areas:
    <li> <p>Approvals&nbsp;are removed from the Home area when the associated&nbsp;project, task, or issue&nbsp;is marked&nbsp;Resolved, On Hold, Closed, or Canceled. </p> </li> 
   </ul> <p>For information about using Home, see <a href="../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Get started with Home</a>. </p> </li> 
  <li> <p>In the header of a project, task, issue, document, or proof </p> </li> 
- <li> <p>In the Approvals <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     section 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    section 
-   </MadCap:conditionalText>of a project, task, or issue</p> </li> 
+ <li> <p>In the Approvals sectionof a project, task, or issue</p> </li> 
  <li> <p>In a report</p> <note type="note">
    You cannot make a decision on an approval from a report.
   </note> <p>You can create a project, task, issue, or document approval report that contains approval information.</p> <p>For information about creating reports, see <a href="../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
@@ -76,35 +70,23 @@ You can view or manage approvals from the following areas:
 <ol> 
  <li value="1"> 
   <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <em>Adobe Workfront</em>.</p> <note type="note"> 
-    <p>Your <em>Workfront administrator</em> might make the following changes to the Home icon in your environment:</p> 
+   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of <span>Adobe Workfront</span>.</p> <note type="note"> 
+    <p>Your <span>Workfront administrator</span> might make the following changes to the Home icon in your environment:</p> 
     <ul> 
      <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
      <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
     </ul> 
    </note> 
   </div> </li> 
- <li value="2"> <p>Select <span class="bold">Work List</span>, then click the <span class="bold">Filter</span> drop-down menu <draft-comment>
-    <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-   </draft-comment><img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> and select <span class="bold">Approvals</span>.</p> </li> 
- <li value="3"> <p>Expand the <span class="bold">Approvals I've Submitted</span> section and find the approvals you submitted. </p> <p> <img src="assets/approvals-i've-submitted-section-in-home-350x532.png" style="width: 350;height: 532;"> </p> <draft-comment>
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/approvals-i've-submitted-section-in-home-nwe-350x401.png" style="width: 350;height: 401;"> </p>
-  </draft-comment><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/approvals-i've-submitted-section-in-home-nwe-350x401.png" style="width: 350;height: 401;"> </p> </li> 
+ <li value="2"> <p>Select <span class="bold">Work List</span>, then click the <span class="bold">Filter</span> drop-down menu  and select <span class="bold">Approvals</span>.</p> </li> 
+ <li value="3"> <p>Expand the <span class="bold">Approvals I've Submitted</span> section and find the approvals you submitted. </p> <p> <img src="assets/approvals-i've-submitted-section-in-home-350x532.png" style="width: 350;height: 532;"> </p>  </li> 
 </ol>
 
 ##
 
 ## View the approval status of an object
 
-You can view the approval status of an object in the following 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-sections
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> sections </MadCap:conditionalText>`of the object:
+You can view the approval status of an object in the following sectionsof the object:
 
 <table cellspacing="0"> 
  <col> 
@@ -112,13 +94,7 @@ sections
  <tbody> 
   <tr> 
    <td role="rowheader">Updates </td> 
-   <td> <p>Displays all approval statuses when they occur. Approval statuses display in line with other statuses displayed on the <span class="bold" style="font-weight: normal;">Updates</span> <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       section
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      section
-     </MadCap:conditionalText>.</p> </td> 
+   <td> <p>Displays all approval statuses when they occur. Approval statuses display in line with other statuses displayed on the <span class="bold" style="font-weight: normal;">Updates</span> section.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Approvals</td> 
@@ -152,19 +128,6 @@ You can gain visibility into where a task or issue that you are working on curre
 
 To see the current state of where a task or issue is in the approval process:
 
-<ol> 
- <li value="1">Go to the project, task, or issue that the approval is associated with.</li> 
- <li value="2"> <draft-comment>
-   <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-    <p>In the left panel, click <span class="bold">Approvals</span>. You might need to first click <span class="bold">Show More</span>.</p> 
-    <p>The Approvals tab displays&nbsp;the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user.</p> 
-    <p> <img src="assets/approvals-tab-expanded-on-issue-nwe-350x273.png" style="width: 350;height: 273;"> </p> 
-   </div>
-  </draft-comment>
-  <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <p>In the left panel, click <span class="bold">Approvals</span>. You might need to first click <span class="bold">Show More</span>.</p> 
-   <p>The Approvals tab displays&nbsp;the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user.</p> 
-   <p> <img src="assets/approvals-tab-expanded-on-issue-nwe-350x273.png" style="width: 350;height: 273;"> </p> 
-  </div> <p>For information about creating an Approval Process, see <a href="../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> </li> 
-</ol>
+1. Go to the project, task, or issue that the approval is associated with.
+1. In the left panel, click Approvals. You might need to first click Show More. The Approvals tab displays the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user. For information about creating an Approval Process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

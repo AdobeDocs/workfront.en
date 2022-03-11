@@ -11,25 +11,13 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-This article describes the layout of timesheets in *Adobe Workfront*, allowing you to better understand how to customize and utilize timesheets to record time.&nbsp;
+This article describes the layout of timesheets in `Adobe Workfront`, allowing you to better understand how to customize and utilize timesheets to record time.&nbsp;
 
 Timesheet and Hour Preferences control what appears on a timesheet. This provides an overview of all available options.&nbsp;For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/timesheet-layout-nwe-350x146.png" alt="Timesheet layout for the new Workfront experience" style="width: 350;height: 146;"> </p>
--->
-
-![Timesheet layout for the new Workfront experience](assets/timesheet-layout-nwe-350x146.png)
-
 ## Title
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/timesheet-title-nwe-350x137.png" style="width: 350;height: 137;"> </p>
--->
-
-![](assets/timesheet-title-nwe-350x137.png)
 
 Identifies the start and end dates of the timesheet and includes the status of the timesheet.&nbsp;
 
@@ -59,7 +47,7 @@ You can use the Save, Save + Close, Submit for Approval, Cancel and Back to top 
 
 ![](assets/timesheet-job-role-area-nwe.png)
 
-You can select a different job role to associate with the hour entries. Your *Workfront administrator* must enable the `Assign job roles to hour entries manually` setting. The job role specified for you when you are assigned to the task or the issue displays by default. If you are not assigned a job role on the task or the issue, your Primary Role displays as the default. For more information, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+You can select a different job role to associate with the hour entries. Your `Workfront administrator` must enable the `Assign job roles to hour entries manually` setting. The job role specified for you when you are assigned to the task or the issue displays by default. If you are not assigned a job role on the task or the issue, your Primary Role displays as the default. For more information, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 You can log multiple hour entries for the same work item for different roles.&nbsp;For more information, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -67,7 +55,7 @@ You can log multiple hour entries for the same work item for different roles.&nb
 
 ![](assets/timsheet-hour-type-nwe.png)
 
-You can select different hour types to associate with your hour entries on each item. This field displays only when the *Workfront administrator* enables it for your environment. For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+You can select different hour types to associate with your hour entries on each item. This field displays only when the `Workfront administrator` enables it for your environment. For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 You can log multiple hour entries for the same work item for different hour types.&nbsp;For more information, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -75,7 +63,7 @@ You can log multiple hour entries for the same work item for different hour type
 
 ![](assets/timesheet-expenses-area-nwe.png)
 
-You can add expenses to tasks from the timesheet. Your *Workfront administrator* must enable the Add expenses from a timesheet setting in the Timesheets and Hours Preferences area.&nbsp;For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+You can add expenses to tasks from the timesheet. Your `Workfront administrator` must enable the Add expenses from a timesheet setting in the Timesheets and Hours Preferences area.&nbsp;For information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Timesheet comments
 

@@ -13,13 +13,13 @@ Dependency Types refer to the predecessor relationships between tasks. They defi
 
 >[!IMPORTANT]
 >
->*Adobe Workfront* does not restrict the dependent tasks from starting or finishing based on the dependency types unless the predecessor relationships are enforced. For information about enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+>`Adobe Workfront` does not restrict the dependent tasks from starting or finishing based on the dependency types unless the predecessor relationships are enforced. For information about enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 You must specify the Dependency Type of a predecessor relationship when you establish this relationship between your tasks.
 
 For more information about predecessors, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-The following are the *Workfront* Dependency Types:
+The following are the `Workfront` Dependency Types:
 
 * `Finish-Start (fs)`: The predecessor task must finish before the dependent task can start. This is the default dependency type, used when no other dependency type is specified.
 * `Finish-Finish (ff)`: The predecessor task must finish before the dependent task can finish.

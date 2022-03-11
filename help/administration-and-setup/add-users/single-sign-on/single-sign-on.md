@@ -8,7 +8,7 @@ title: Single sign-on in Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Single sign-on in *Adobe Workfront*
+# Single sign-on in `Adobe Workfront`
 
 This section contains the following articles:
 

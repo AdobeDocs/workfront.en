@@ -19,16 +19,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader"><em>Adobe Workfront</em> license*</p> </td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"> <p role="rowheader"><span>Adobe Workfront</span> license*</p> </td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`
 
 ## Overview of Topic Groups
 
@@ -59,9 +59,7 @@ To create a Topic Group:
 
 <ol> 
  <li value="1"> Go to the project that you published as a Help Request Queue.<br>For more information about publishing a project as a Help Request Queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Topic Groups</span> in the left panel. You might need to click <span class="bold">Show More</span>, then <span class="bold">Topic Groups</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Topic Groups</span> in the left panel. You might need to click <span class="bold">Show More</span>, then <span class="bold">Topic Groups</span>. </p> </li> 
+ <li value="2"> Click Topic Groups in the left panel. You might need to click Show More, then Topic Groups. </li> 
  <li value="3"> Click <span class="bold">New Topic Group</span>.<br><img src="assets/10-350x170.png" alt="" style="width: 350;height: 170;"></li> 
  <li value="4"> Specify the following information: 
   <ul>

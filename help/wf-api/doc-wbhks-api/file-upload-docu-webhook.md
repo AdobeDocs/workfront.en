@@ -9,11 +9,11 @@ description: Uploading a file to a document storage provider is a two-step proce
 
 # File upload via Document Webhooks
 
-Uploading a file to a document storage provider is a two-step process that requires two separate API endpoints. *Adobe Workfront* begins the upload process by calling /uploadInit . This endpoint returns a document ID which is then passed to /upload when uploading the document bytes. Depending on the underlying document storage system, it might be necessary to create a zero-length document, then update the contents of the document later.
+Uploading a file to a document storage provider is a two-step process that requires two separate API endpoints. `Adobe Workfront` begins the upload process by calling /uploadInit . This endpoint returns a document ID which is then passed to /upload when uploading the document bytes. Depending on the underlying document storage system, it might be necessary to create a zero-length document, then update the contents of the document later.
 
-Added to version 1.1 of this spec, the document ID and document version ID can be used to retrieve extra information from *Workfront*.
+Added to version 1.1 of this spec, the document ID and document version ID can be used to retrieve extra information from `Workfront`.
 
-` `**Example: **``If the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using *Workfront*’s RESTful API. As a good practice, this information could come from custom data fields on the document and it’s containing task, issue, or project.
+` `**Example: **``If the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using `Workfront`’s RESTful API. As a good practice, this information could come from custom data fields on the document and it’s containing task, issue, or project.
 
 ## Part 1
 
@@ -43,11 +43,11 @@ POST /uploadInit
   </tr> 
   <tr> 
    <td>documentId</td> 
-   <td> <p>The <em>Workfront</em> document ID (added in version 1.1)</p> <p>&nbsp;</p> </td> 
+   <td> <p>The <span>Workfront</span> document ID (added in version 1.1)</p> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>documentVersionId&nbsp;</td> 
-   <td>The <em>Workfront</em> document version ID (added in version 1.1)&nbsp;</td> 
+   <td>The <span>Workfront</span> document version ID (added in version 1.1)&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>

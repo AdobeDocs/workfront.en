@@ -7,15 +7,15 @@ title: Get started with reports in Adobe Workfront
 description: Reports provide visibility into what is happening with users and work. Using reports, you can display information about objects in Adobe Workfront.
 ---
 
-# Get started with reports in *Adobe Workfront*
+# Get started with reports in `Adobe Workfront`
 
-Reports provide visibility into what is happening with users and work. Using reports, you can display information about objects in *Adobe Workfront*.
+Reports provide visibility into what is happening with users and work. Using reports, you can display information about objects in `Adobe Workfront`.
 
-For information about understanding objects and how they can be reported on in the *Workfront* application, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about understanding objects and how they can be reported on in the `Workfront` application, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Report elements
 
-Reports are a combination of the following 3 elements in *Workfront*:
+Reports are a combination of the following 3 elements in `Workfront`:
 
 <table cellspacing="0"> 
  <col> 
@@ -38,7 +38,7 @@ Reports are a combination of the following 3 elements in *Workfront*:
 
 >[!NOTE]
 >
->When you select a new filter, view or grouping from a list, that selection is retained even if you log out of *Workfront* or close your browser.
+>When you select a new filter, view or grouping from a list, that selection is retained even if you log out of `Workfront` or close your browser.
 
 For information about report elements, see the article [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
@@ -60,7 +60,7 @@ For information about using conditional formatting, see [Use conditional formatt
 
 ## System reports
 
-*Workfront* provides several system reports that come loaded in your system by default.  
+`Workfront` provides several system reports that come loaded in your system by default.  
 After entering information in your system you can use these reports to display the information visually.
 
 For information about how to access system reports, see the section [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) in the article [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
@@ -69,7 +69,7 @@ For more information about what system reports are available, see the article [U
 
 ## Create reports
 
-In addition to the system reports that *Workfront* provides, you can create your own customized reports to meet the needs in your organization.
+In addition to the system reports that `Workfront` provides, you can create your own customized reports to meet the needs in your organization.
 
 To create a report you can do one of the following:
 
@@ -87,32 +87,26 @@ For information about creating reports, see the article [Calendar reports overvi
 ### Prerequisites for creating reports
 
 * You must have a Plan license to create your own reports.  
-  For information about the *Workfront* License Types, see the article [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+  For information about the `Workfront` License Types, see the article [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-* Your *Workfront administrator* must give you access to Edit Reports in your Access Level.  
+* Your `Workfront administrator` must give you access to Edit Reports in your Access Level.  
   For information about granting access to Edit reports, see the article [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Your *Workfront administrator* must give you access to Edit Filters, Views, and Groupings in your Access Level.
+* Your `Workfront administrator` must give you access to Edit Filters, Views, and Groupings in your Access Level.
 
   For information abut granting access to Edit filters, views, and groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* You must define one object that you want to report on. Reports are object specific in *Workfront* and you must start with selecting an object type before you can start building the report. You can only report on objects available in the *Workfront* interface.
+* You must define one object that you want to report on. Reports are object specific in `Workfront` and you must start with selecting an object type before you can start building the report. You can only report on objects available in the `Workfront` interface.
 
 ### Report ownership
 
-When you create a report in *Workfront*, you become the default owner of the report and it displays in your My&nbsp;Reports section. You cannot change the owner of a report.
+When you create a report in `Workfront`, you become the default owner of the report and it displays in your My&nbsp;Reports section. You cannot change the owner of a report.
 
 When you copy a report, you automatically become the owner of the copied report.
 
 For information on copying reports, see the article [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 You can see who owns a report by checking the `Entered By` field.
-
-<!--
-<img src="assets/nwe-entered-by-350x218.png" style="width: 350;height: 218;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/nwe-entered-by-350x218.png)
 
 ### Create reports in the builder interface
 
@@ -132,7 +126,7 @@ For information about how to use the API Explorer, see the article [Using the AP
 
 >[!NOTE]
 >
->You cannot report in the *Workfront* interface on objects that are not available in the report builder. However, you can report on fields associated with the objects in the report builder if those fields are available through the API. To do this, you must use the Text Mode interface.
+>You cannot report in the `Workfront` interface on objects that are not available in the report builder. However, you can report on fields associated with the objects in the report builder if those fields are available through the API. To do this, you must use the Text Mode interface.
 
 Text Mode enables you to create more complex views, filters, groupings, and prompts by allowing you to use fields that are not available in the standard mode interface.
 
@@ -142,9 +136,9 @@ Text Mode enables you to create more complex views, filters, groupings, and prom
 
 #### `Text Mode terminology`
 
-You must use a specific syntax to use the *Workfront* Text Mode interface.
+You must use a specific syntax to use the `Workfront` Text Mode interface.
 
-For more details about the *Workfront* syntax for text mode, see [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+For more details about the `Workfront` syntax for text mode, see [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 #### `Calculated Columns, Conditional Formatting, and other uses of Text Mode`
 
@@ -288,7 +282,7 @@ For information about report usage, including how often they are viewed, by what
 
 ## Common terms used in reference to reports
 
-The following terms are used in reference to *Workfront* reports: 
+The following terms are used in reference to `Workfront` reports: 
 
 <table cellspacing="15"> 
  <col> 
@@ -315,7 +309,7 @@ The following terms are used in reference to *Workfront* reports:
   </tr> 
   <tr> 
    <td>Bean or JavaBean</td> 
-   <td>A Bean represents a reusable-programming element. The term Bean identifies relationships between different objects in the <em>Workfront</em> application. It is important to be familiar with these relationships as you attempt to display additional attributes about an object that are not available in the basic reporting tools.</td> 
+   <td>A Bean represents a reusable-programming element. The term Bean identifies relationships between different objects in the <span>Workfront</span> application. It is important to be familiar with these relationships as you attempt to display additional attributes about an object that are not available in the basic reporting tools.</td> 
   </tr> 
   <tr> 
    <td>Builder Interface or Report Builder</td> 
@@ -371,7 +365,7 @@ The following terms are used in reference to *Workfront* reports:
   </tr> 
   <tr> 
    <td>Object or Object Type</td> 
-   <td> An Object is a <em>Workfront</em> application element (i.e., Project, Task, Group, Company, Filter). The Object Type is used when creating a new Report, View, Filter, or Grouping to identify which object is the focus of the report. Reports can have only one object type, which is the main object of the report.<br>Parent objects may be referenced in the same report.<br>For more information about the hierarchy of objects, see the section "Understanding the Interdependency and Hierarchy of Objects" in the article <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</td> 
+   <td> An Object is a <span>Workfront</span> application element (i.e., Project, Task, Group, Company, Filter). The Object Type is used when creating a new Report, View, Filter, or Grouping to identify which object is the focus of the report. Reports can have only one object type, which is the main object of the report.<br>Parent objects may be referenced in the same report.<br>For more information about the hierarchy of objects, see the section "Understanding the Interdependency and Hierarchy of Objects" in the article <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</td> 
   </tr> 
   <tr> 
    <td>Prompt</td> 

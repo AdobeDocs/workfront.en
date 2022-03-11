@@ -10,10 +10,8 @@ description: Updated for QS except for section about expanding a work item in th
 # Home Calendar view
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.</p>
--->
-
 Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.
+-->
 
 The Home Calendar view in the Home area allows you to view and manage your work week and work assignments on a personal work calendar&nbsp;visible only to you. You can use it to schedule when you want to do your work. And you can integrate it with outside calendars such as a Microsoft Outlook calendar.&nbsp;
 
@@ -58,7 +56,7 @@ Depending on the item, the following information might display on the left of th
 
 ## Allocation bar
 
-When you set up your Home Calendar, you specify the number of hours you typically work in a week (see [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)). *Adobe Workfront* uses this number to determine your total allocable work hours.&nbsp;
+When you set up your Home Calendar, you specify the number of hours you typically work in a week (see [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)). `Adobe Workfront` uses this number to determine your total allocable work hours.&nbsp;
 
 The Allocation bar is a visual representation of the number of hours in your work week and how you are using them.
 
@@ -68,7 +66,7 @@ The colors in the Allocation bar indicate the following information:
 
 * `Grey`: Number of hours scheduled for events from integrated calendars. For more information about integrating calendars, see the section [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view) in [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-* `Blue`:&nbsp;Number of hours you have scheduled for *Workfront* work items assigned to you. You can schedule work by dragging items from the Work List and dropping them into your calendar. For more information about scheduling work, see the [Schedule work items in your Home Calendar](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) section in [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+* `Blue`: Number of hours you have scheduled for `Workfront` work items assigned to you. You can schedule work by dragging items from the Work List and dropping them into your calendar. For more information about scheduling work, see the [Schedule work items in your Home Calendar](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) section in [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
 * `Light Blue`:&nbsp;The number of free hours available for allocation.
 * `Red`(not shown above):&nbsp;Scheduled events and work items that have exceeded the number of hours you have available for the week.
@@ -81,5 +79,5 @@ The Due bar on your Home Calendar displays the items that are due for the week c
 
 >[!NOTE]
 >
->If you have integrated your Microsoft calendar with your *Workfront* calendar, items in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your *Workfront* Calendar. For more information, see the section&nbsp; [Work list on the Home Calendar](#using-the-left-panel-of-the-home-view)&nbsp;above and the article&nbsp; [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+>If you have integrated your Microsoft calendar with your `Workfront` calendar, items in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your `Workfront` Calendar. For more information, see the section&nbsp; [Work list on the Home Calendar](#using-the-left-panel-of-the-home-view)&nbsp;above and the article&nbsp; [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 

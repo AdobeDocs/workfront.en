@@ -10,7 +10,7 @@ description: The syntax of some API responses may contain the escape character, 
 
 The syntax of some API responses may contain the escape character, "\" (backslash). An escape character indicates that the character or string of characters that immediately follow the escaped character have a special value. For example, \t tells the reading device that "t" should be interpreted as "tab" and not as the letter t. A string of one or more characters following the backslash is called an escape sequence.&nbsp;
 
-Hexadecimal escaped sequences require the use of valid hexadecimal digits. The following table lists the escape sequences that are encoded in *Adobe Workfront* API responses:
+Hexadecimal escaped sequences require the use of valid hexadecimal digits. The following table lists the escape sequences that are encoded in `Adobe Workfront` API responses:
 
 <table cellspacing="15"> 
  <col> 

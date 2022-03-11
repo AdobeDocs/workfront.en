@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Submit a timesheet for approval
 
@@ -69,35 +69,12 @@ If the system&nbsp;administrator has&nbsp;enabled the "Timesheet Approval to Use
 
 To view the status of a timesheet:
 
-<ol> <draft-comment>
-  <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
- </draft-comment>
- <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
-  <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li>
- </draft-comment>
- <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li> <draft-comment>
-  <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">My Timesheets</span>.<br><img src="assets/timesheets-status-adobe-350x146.png" style="width: 350;height: 146;"><br></li>
- </draft-comment>
- <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">My Timesheets</span>.<br><img src="assets/timesheets-status-adobe-350x146.png" style="width: 350;height: 146;"><br></li> 
-</ol>
-
 ## Recall a timesheet
 
 You can recall a timesheet that has already been submitted for approval. Only timesheets that haven't been approved can be recalled.
 
 To recall a timesheet:
 
-<ol> <draft-comment>
-  <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
- </draft-comment>
- <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
-  <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li>
- </draft-comment>
- <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li> <draft-comment>
-  <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">My Timesheets</span>.</li>
- </draft-comment>
- <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">My Timesheets</span>.</li> 
- <li value="4">Select a timesheet with a status of Submitted.</li> 
- <li value="5">Click <span class="bold">Recall</span>.</li> 
-</ol>
+1. Select a timesheet with a status of Submitted.
+1. Click `Recall`.
 

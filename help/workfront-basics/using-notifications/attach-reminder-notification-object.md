@@ -11,7 +11,7 @@ description: Reminder notifications can be associated with several different obj
 
 Reminder notifications can be associated with several different object types: Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles.
 
-Before you can attach reminder notifications to an object, an *Adobe Workfront administrator* must create the notification, as described in&nbsp; [Set up reminder notifications](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).&nbsp;
+Before you can attach reminder notifications to an object, an `Adobe Workfront administrator` must create the notification, as described in&nbsp; [Set up reminder notifications](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).&nbsp;
 
 The steps to attach a reminder `notifications`&nbsp;are the same, regardless of the object type that you are attaching them to.
 
@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,19 +44,20 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Attach reminder notifications to an object
 
-<ol> 
- <li value="1">Go to the object where you want to attach the reminder notification.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the Edit icon <img src="assets/edit-icon.png">.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the Edit icon <img src="assets/edit-icon.png">.</li> 
- <li value="3">In the left panel of the <b>Edit</b> box that appears, click <span class="bold">Settings</span>.</li> 
- <li value="4">Under <span class="bold">Reminder Notification</span>, select the notifications that you want to attach to the object.<p>In this example, the object being edited is a task:</p><draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/reminder-notification-select-one-350x213.png" style="width: 350;height: 213;"></p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/reminder-notification-select-one-350x213.png" style="width: 350;height: 213;"></p><p>If the <em>Workfront administrator</em> has created multiple reminder notifications, you can attach multiple notifications to a single object.</p></li> 
- <li value="5"> <p>Click <span class="bold">Save Changes</span>.</p> <p>If you need help testing the delivery of a reminder notification, see your <em>Workfront administrator</em>.</p> </li> 
-</ol>
+1. Go to the object where you want to attach the reminder notification.
+1. In the left panel of the **Edit** box that appears, click `Settings`.
+
+1. Under `Reminder Notification`, select the notifications that you want to attach to the object.
+
+   In this example, the object being edited is a task:
+
+   If the `Workfront administrator` has created multiple reminder notifications, you can attach multiple notifications to a single object.
+
+1. Click `Save Changes`.
+
+   If you need help testing the delivery of a reminder notification, see your `Workfront administrator`.
 

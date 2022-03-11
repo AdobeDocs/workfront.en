@@ -22,17 +22,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher to assign or work on a request; <em>Work</em> or higher to reassign a request</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher to assign or work on a request; <span>Work</span> or higher to reassign a request</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## Assign a request to a team
 
@@ -54,7 +54,7 @@ You can manually assign a request to a team from the team page,&nbsp;as describe
 To manually assign a request to a team from the team page:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Teams</span>.</li> 
  <li value="2">Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new team from the drop-down menu or search for a team in the search bar.</li> 
  <li value="3"> <p>Click the <span class="bold">More</span> icon <img src="assets/more-icon.png">, then select <span class="bold">Send work request</span>.</p> <p> <img src="assets/edit-team-settings-350x205.png" style="width: 350;height: 205;"> </p> </li> 
  <li value="4">Fill in the information in the box that opens.</li> 
@@ -65,17 +65,8 @@ To manually assign a request to a team from the team page:
 
 You can reassign requests that have been assigned to your team:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Teams</span>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>, then click <span class="bold">Teams</span>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new team from the drop-down menu or search for a team in the search bar.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new team from the drop-down menu or search for a team in the search bar.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left navigation panel, select <span class="bold">Team Requests</span>.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left navigation panel, select <span class="bold">Team Requests</span>.</li> 
- <li value="4">Click the <span class="bold">Reassign</span>&nbsp;icon.<br></li> 
- <li value="5">Begin typing the name of the user, group, or team who you want to reassign the request to, then click <span class="bold">Assign</span>.<br>The request is reassigned.</li> 
-</ol>
+1. Click the `Reassign`&nbsp;icon.  
+
+1. Begin typing the name of the user, group, or team who you want to reassign the request to, then click `Assign`.  
+   The request is reassigned.
 

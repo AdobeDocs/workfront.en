@@ -10,7 +10,7 @@ description: You can connect your work with the following AEM Asset Integrations
 
 You can connect your work with the following AEM Asset Integrations:
 
-* *Experience Manager Assets Essentials*
+* `Experience Manager Assets Essentials`
 
   For more information, see [Adobe Workfront for Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 

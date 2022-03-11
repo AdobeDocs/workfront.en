@@ -24,16 +24,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects or higher</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects or higher</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,32 +57,18 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Require time to be approved for a project
 
 To require project manager approval for hours on the project:
 
-<ol> 
- <li value="1">Go to the project where you want to require approval for hours.</li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">More</span> icon 
-    <img src="assets/more-icon.png"> to the right of the project name, then click&nbsp;
-    <span class="bold">Edit</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the 
-   <span class="bold">More</span> icon 
-   <img src="assets/more-icon.png"> to the right of the project name, then click&nbsp;
-   <span class="bold">Edit</span>.
-  </MadCap:conditionalText><br>The Edit Project dialog box displays.</li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the <span class="bold">Project Settings</span> section, select <span class="bold">Require time to be approved for this project</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the <span class="bold">Project Settings</span> section, select <span class="bold">Require time to be approved for this project</span>. </p> </li> 
- <li value="4">Click <span class="bold">Save</span>.<br>Now when&nbsp;time is logged and approved, those hours become locked and cannot be altered by the user who entered them on the project or the timesheet. Only a <em>Workfront administrator</em> can adjust the time recorded.</li> 
-</ol>
+1. Go to the project where you want to require approval for hours.
+1. Click the More icon to the right of the project name, then click Edit.  
+   The Edit Project dialog box displays.
+1. In the Project Settings section, select Require time to be approved for this project. 
+1. Click `Save`.  
+   Now when time is logged and approved, those hours become locked and cannot be altered by the user who entered them on the project or the timesheet. Only a `Workfront administrator` can adjust the time recorded.
 
 ## Approve and reject time on a&nbsp;project
 
@@ -95,18 +81,7 @@ If you set up a project to require approval on the hours logged, the project man
 To approve or reject hours on a project:
 
 1. Go to the project.
-1. 
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the
-   <span class="bold">Hours</span> area in the left panel.&nbsp;This might be located under the
-   <span class="bold">Show More</span> area.
-   </MadCap:conditionalText>
-   -->
-
-   `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Click the  <span class="bold">Hours</span> area in the left panel.&nbsp;This might be located under the  <span class="bold">Show More</span> area. </MadCap:conditionalText>`  
-
+1. Click the Hours area in the left panel. This might be located under the Show More area.  
 1. The hours logged for issues, tasks, and the project display and should have a status of `Submitted`.  
    Click the box to the left of the hour entries to select the hours you want to approve.
 

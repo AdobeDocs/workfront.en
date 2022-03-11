@@ -8,7 +8,7 @@ description: You can use a URL call to access the allocation information for a p
 
 # Access Project Allocation Information via the API
 
-You can use a URL call to access the&nbsp;allocation information for a project that is available when scheduling resources in *Adobe Workfront*. (For more information about user allocations, see [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).)
+You can use a URL call to access the allocation information for a project that is available when scheduling resources in `Adobe Workfront`. (For more information about user allocations, see [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).)
 
 Accessing&nbsp;allocation information in this way enables you to get information about the number of hours planned over a time period based on a specific&nbsp;user, role, or team. This information is helpful when budgeting for a project or validating forecasted&nbsp;revenue.
 
@@ -20,13 +20,13 @@ Accessing&nbsp;allocation information in this way enables you to get information
 
 The information returned in your request depends upon the criteria you specify in the request. Some criteria is required.
 
-Before requesting information as described in the following sections, you must first log in to the *Workfront* site&nbsp;via your browser.&nbsp;
+Before requesting information as described in the following sections, you must first log in to the `Workfront` site&nbsp;via your browser.&nbsp;
 
 ### Required Criteria
 
 You must include&nbsp;the following criteria in your request:
 
-`Protocol and *Workfront* IP Address:` Specify the protocol (http://) followed by&nbsp;the IP address of your *Workfront* instance.&nbsp;
+`Protocol and `Workfront` IP Address:` Specify the protocol (http://) followed by the IP address of your `Workfront` instance.&nbsp;
 
 For example:
 <pre>https://<em>domain</em>.my.workfront.com/contourData</pre>`Project (Required):`&nbsp;Specify a specific project for which you want to receive information.

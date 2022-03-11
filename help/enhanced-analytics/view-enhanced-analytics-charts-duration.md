@@ -7,7 +7,7 @@ title: View Enhanced analytics visualizations by duration
 description: If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations:
 ---
 
-# View *Enhanced analytics* visualizations by duration
+# View `Enhanced analytics` visualizations by duration
 
 If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations:
 
@@ -17,14 +17,14 @@ If your teams do not use planned hours, you can select a duration view of the pr
 * Project treemap  
   To learn more about the Project treemap visualization, see [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md).
 
-In *Enhanced analytics*, the duration of a project is calculated by the following formulas:
+In `Enhanced analytics`, the duration of a project is calculated by the following formulas:
 
 <ul> 
  <li> <p>Planned Timeframe: <code>Planned Completion Date of the project - Start Date of the project</code></p> </li> 
  <li> <p>Days Worked: <code>Planned Duration for tasks completed in the selected date range / Typical hours per work day</code></p> <note type="note">
    8 hours is the default number for 
    <b>Typical hours per work day</b>. An 
-   <em>Adobe Workfront administrator</em> can update the 
+   <span>Adobe Workfront administrator</span> can update the 
    <b>Typical hours per work day</b> setting under 
    <b>Setup</b> > 
    <b>Project Preferences</b> > 
@@ -46,7 +46,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><em>Workfront</em> plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"><span>Workfront</span> plan</a>*</td> 
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -64,7 +64,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -73,24 +73,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 ## View the Burndown visualization by duration
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the Main Menu icon 
-     <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the Main Menu icon 
-    <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
-   </MadCap:conditionalText>select <b>Analytics</b>.</p> <note type="tip">
-   If you don't see Analytics in the 
-   <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Main Menu
-    </MadCap:conditionalText>
-   </draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Main Menu
-   </MadCap:conditionalText> and you know you have the appropriate access, modify the URL by adding "analytics" to it.
+ <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> <note type="tip">
+   If you don't see Analytics in the Main Menu and you know you have the appropriate access, modify the URL by adding "analytics" to it.
    <br>For example, the URL changes to "company.my.workfront.com/analytics" in the address bar.
   </note> </li> 
  <li value="2"> <p>In the <b>Flight plan</b> or <b>Project treemap</b> visualization, select a project.</p> <p>The <b>Burndown</b> visualization for that project opens.</p> </li> 
@@ -103,24 +87,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 ## View the Project treemap visualization by duration
 
 <ol> 
- <li value="1"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the Main Menu icon 
-     <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the Main Menu icon 
-    <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then 
-   </MadCap:conditionalText>select <b>Analytics</b>.</p> <note type="tip">
-   If you don't see Analytics in the 
-   <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Main Menu
-    </MadCap:conditionalText>
-   </draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Main Menu
-   </MadCap:conditionalText> and you know you have the appropriate access, modify the URL by adding "analytics" to it.
+ <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> <note type="tip">
+   If you don't see Analytics in the Main Menu and you know you have the appropriate access, modify the URL by adding "analytics" to it.
    <br>For example, the URL changes to "company.my.workfront
    <span>.com</span>/analytics" in the address bar.
   </note> </li> 

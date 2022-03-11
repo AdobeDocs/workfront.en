@@ -15,7 +15,7 @@ Consider the following when working with the SNLT constraint:
 
 * You should use the Start No Later Than constraint when the project is scheduled From Complete Date. In this case, you can provide a soft constraint on a task before it forces other dependent tasks to show as At Risk.
 * Start No Later Than is the default constraint if a project uses a schedule mode of&nbsp;Schedule from Completion Date and system or group default for the Start&nbsp;Date of a task is Today. For information about where to set the default Constraint for a new task, refer to [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* When you use the SNLT constraint with a Schedule From Start Date project, *Adobe Workfront* schedules the task as it would an As Soon As Possible task.
+* When you use the SNLT constraint with a Schedule From Start Date project, `Adobe Workfront` schedules the task as it would an As Soon As Possible task.
 * When you move or copy a task with a SNLT constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
 
   * When the destination project is scheduled From Start:
@@ -37,32 +37,6 @@ Consider the following when working with the SNLT constraint:
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="using-SNLT"></a>Use the Start No Later Than Task Constraint</h2>
-<p>To update the Task Constraint to Start No Later Than:</p>
-<ol>
-<li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li>
-<li value="3">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</li>
-<li value="4"> <p>Select <span class="bold">Start No Later Than</span>.</p> </li>
-<li value="5"> <p>Specify a <span class="bold">Planned Start Date</span>.</p> <p>This is the date by which the task must start, and not later than this date.</p> </li>
-<li value="6">Click <span class="bold">Save Changes</span>.<br></li>
-</ol>
-</div>
+Use the Start No Later Than Task Constraint To update the Task Constraint to Start No Later Than: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Start No Later Than. Specify a Planned Start Date. This is the date by which the task must start, and not later than this date. Click Save Changes.
 -->
-
-## Use the Start No Later Than Task Constraint
-
-To update the Task Constraint to Start No Later Than:
-
-<ol> 
- <li value="1">Go to a task whose Task Constraint you want to update.</li> 
- <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="3">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</li> 
- <li value="4"> <p>Select <span class="bold">Start No Later Than</span>.</p> </li> 
- <li value="5"> <p>Specify a <span class="bold">Planned Start Date</span>.</p> <p>This is the date by which the task must start, and not later than this date.</p> </li> 
- <li value="6">Click <span class="bold">Save Changes</span>.<br></li> 
-</ol>
 

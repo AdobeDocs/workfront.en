@@ -8,11 +8,11 @@ description: This page describes all changes made available to Workfront Library
 
 # Workfront Library release activity - February 13, 2020
 
-This page describes all changes made available to *Workfront Library* with the release to the Production environment on February 12.
+This page describes all changes made available to `Workfront Library` with the release to the Production environment on February 12.
 
-For a list of all changes made to *Workfront Library*, see [Workfront Library release activity](../../../product-announcements/product-releases/library-release-activity/workfront-library-release-activity.md).
+For a list of all changes made to `Workfront Library`, see [Workfront Library release activity](../../../product-announcements/product-releases/library-release-activity/workfront-library-release-activity.md).
 
-The *Workfront Library* release on February 12 contains the following enhancements:
+The `Workfront Library` release on February 12 contains the following enhancements:
 
 ## ZIP files have a preview thumbnail image
 

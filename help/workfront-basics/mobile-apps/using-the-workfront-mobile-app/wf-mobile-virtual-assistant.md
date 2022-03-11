@@ -7,9 +7,9 @@ title: Adobe Workfront mobile app virtual assistant
 description: Use the Adobe Workfront mobile app virtual assistant to locate, delete, and search for information inside of Workfront. In addition, you can pin virtual assistant commands and queries to access the results at any time.
 ---
 
-# *Adobe Workfront* mobile app virtual assistant
+# `Adobe Workfront` mobile app virtual assistant
 
-Use the *Adobe Workfront* mobile app virtual assistant to locate, delete, and search for information inside of Workfront. In addition, you can pin virtual assistant commands and queries to access the results at any time.
+Use the `Adobe Workfront` mobile app virtual assistant to locate, delete, and search for information inside of Workfront. In addition, you can pin virtual assistant commands and queries to access the results at any time.
 
 ## Available commands
 

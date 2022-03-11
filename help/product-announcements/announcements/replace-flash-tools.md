@@ -1,49 +1,38 @@
 
 
-# Replacement of Flash-based tools in *Adobe Workfront*
+# Replacement of Flash-based tools in `Adobe Workfront`
 
-We have removed all Flash-based tools from *Adobe Workfront Classic*.
+We have removed all Flash-based tools from `Adobe Workfront Classic`.
 
-Replacement tools that are based on current standards are available now in *Workfront*. These changes align with the end of support for Flash products as announced by Adobe.
+Replacement tools that are based on current standards are available now in `Workfront`. These changes align with the end of support for Flash products as announced by Adobe.
 
 ## Important dates
 
-The following dates are important for the removal process of all Flash-based tools in *Workfront*:
+The following dates are important for the removal process of all Flash-based tools in `Workfront`:
 
 * 
 
   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="bold">July 1, 2020</span>: All Flash-based tools will be removed from all <em>Workfront</em> products for those customers who are not using them currently. </p>
+  July 1, 2020: All Flash-based tools will be removed from all Workfront products for those customers who are not using them currently.
   -->
-
-  `July 1, 2020`: All Flash-based tools will be removed from all *Workfront* products for those customers who are not using them currently.
 
   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">All customers who are currently using the Flash-based tools will continue to have access after this date. If you are still using these products, report all blocking issues or concerns that you see which prevent you from fully transitioning all your users to the new replacement tools by this date. Work with your account manager or our support team to report these concerns. </p>
-  -->
-
   All customers who are currently using the Flash-based tools will continue to have access after this date. If you are still using these products, report all blocking issues or concerns that you see which prevent you from fully transitioning all your users to the new replacement tools by this date. Work with your account manager or our support team to report these concerns.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about contacting our support team, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </p>
   -->
 
-  For information about contacting our support team, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md). 
-
-* `November 19, 2020`: All Flash-based tools have been removed from all *Workfront* products. 
-
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  We recommend that you start using the new tools and retire the Flash tools before then, to increase the security of your instance. We will also gradually disable the tools that have not been used for at least 3 months. If you would like us to disable the Flash tools before November, you can contact
-  <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>.
-  </MadCap:conditionalText>
+  For information about contacting our support team, see Contact Customer Support.
   -->
 
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> We recommend that you start using the new tools and retire the Flash tools before then, to increase the security of your instance. We will also gradually disable the tools that have not been used for at least 3 months. If you would like us to disable the Flash tools before November, you can contact  <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </MadCap:conditionalText>`
+* `November 19, 2020`: All Flash-based tools have been removed from all `Workfront` products. 
+
+  <!--
+  We recommend that you start using the new tools and retire the Flash tools before then, to increase the security of your instance. We will also gradually disable the tools that have not been used for at least 3 months. If you would like us to disable the Flash tools before November, you can contact Contact Customer Support.
+  -->
 
 ## Legacy Flash-based tools
 
-The tools listed in the following sections have been removed from the *Workfront* system and replaced with new solutions.
+The tools listed in the following sections have been removed from the `Workfront` system and replaced with new solutions.
 
 For information about replacement tools, see [Legacy Flash-based tools and their replacements](#understanding-legacy-tools-and-their-replacements) in this article.
 
@@ -60,21 +49,14 @@ For information about replacement tools, see [Legacy Flash-based tools and their
 * The Legacy Resource Estimates area in the Business Case of a project
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   is displayed in view-only mode
-  </MadCap:conditionalText>
   -->
-
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  is displayed in view-only mode</MadCap:conditionalText>`
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  For more information, see
-  <a href="../../resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md" class="MCXref xref">Migrate from Legacy Resource Estimates to Resource Budgeting </a>
-  </MadCap:conditionalText>
+  For more information, see Migrate from Legacy Resource Estimates to Resource Budgeting
   -->
 
-  `<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> For more information, see  <a href="../../resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md" class="MCXref xref">Migrate from Legacy Resource Estimates to Resource Budgeting </a></MadCap:conditionalText>`.   
+  .   
 
 * The Resource Grid subtab in the Staffing tab of a project
 * The Use New Scheduling Area option in the Scheduling subtab of the Staffing tab of a project which removes the legacy Scheduling area or the Team Builder. In this case, the Scheduling timeline now displays by default.
@@ -107,13 +89,11 @@ The following reporting features and reports have been removed:
 
 ### Proofing
 
-The Legacy *proofing viewer* has been replaced with the new *Web Proofing Viewer* and *Desktop Proofing Viewer* for most customers and has been removed for all customers in November 2020.
+The Legacy `proofing viewer` has been replaced with the new `Web Proofing Viewer` and `Desktop Proofing Viewer` for most customers and has been removed for all customers in November 2020.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">With the 2018.2 release, the Legacy <em>proofing viewer</em> was removed as the default viewer.</p>
+With the 2018.2 release, the Legacy proofing viewer was removed as the default viewer.
 -->
-
-With the 2018.2 release, the Legacy *proofing viewer* was removed as the default viewer.
 
 For more information, see the following resources:
 
@@ -121,29 +101,12 @@ For more information, see the following resources:
 * [Review proofs in the Desktop Proofing Viewer](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref">Legacy proofing viewer removed in 2018.3</a> </li>
+  Legacy proofing viewer removed in 2018.3
   -->
 
-* [Legacy proofing viewer removed in 2018.3](../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md)
-
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="Addition"></a>Additional features to be removed</h3>
-<ul>
-<li>The Legacy Portfolio Optimizer<br>For more information, see <a href="../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md" class="MCXref xref">Portfolio Optimizer overview</a>.<br></li>
-<li>The Legacy financial fields in the Business Case of the project and the Portfolio Optimizer</li>
-<li>The dialog boxes used when sharing reports, calendars, and documents no longer rely on Flash-based technology</li>
-</ul>
-</div>
+Additional features to be removed The Legacy Portfolio Optimizer For more information, see Portfolio Optimizer overview. The Legacy financial fields in the Business Case of the project and the Portfolio Optimizer The dialog boxes used when sharing reports, calendars, and documents no longer rely on Flash-based technology
 -->
-
-### Additional features to be removed
-
-* The Legacy Portfolio Optimizer  
-  For more information, see [Portfolio Optimizer overview](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).  
-
-* The Legacy financial fields in the Business Case of the project and the Portfolio Optimizer
-* The dialog boxes used when sharing reports, calendars, and documents no longer rely on Flash-based technology
 
 ## Legacy Flash-based tools and their replacements
 
@@ -169,10 +132,10 @@ Except where specified otherwise, all Legacy features have been replaced by new 
     <ul> 
      <li>You could specify only one Legacy Resource Pool per project, which resulted in multiple Legacy Resource Pools supporting only the flow of separate groups working independently of each other and never sharing resources. In all other cases, it was recommended to keep one Legacy Resource Pool that included all resources in the system, which led to performance problems with large amounts of projects and data.</li> 
     </ul> </td> 
-   <td> <p><span class="bold">Resource Pool</span> </p> <p>New Resource Pools are a collection of users that are needed at the same time for the completion of the project. <em>Workfront</em> also realizes that there are cases when specialized users need to have work allocated to them separately. For this reason, you can now budget users instead of job roles. </p> Advantages of the Resource Pool over the Legacy Resource Pools include the following: 
+   <td> <p><span class="bold">Resource Pool</span> </p> <p>New Resource Pools are a collection of users that are needed at the same time for the completion of the project. <span>Workfront</span> also realizes that there are cases when specialized users need to have work allocated to them separately. For this reason, you can now budget users instead of job roles. </p> Advantages of the Resource Pool over the Legacy Resource Pools include the following: 
     <ul>
      <li>Because Resource Pools are based on the users, their time off and schedule exceptions are already taken into account for the user and role availability calculations. This results in precise and up-to-date data, allowing for correct budgeting decisions and minimizing the likelihood of changes when the project is in flight.</li>
-     <li>Because there is now more control over the availability of resources and accuracy of data, <em>Workfront</em> allows you to associate multiple Resource Pools with a project. One user can also belong to more than one Resource Pool, in case they have multiple skills that could be used in multiple projects at the same time. </li>
+     <li>Because there is now more control over the availability of resources and accuracy of data, <span>Workfront</span> allows you to associate multiple Resource Pools with a project. One user can also belong to more than one Resource Pool, in case they have multiple skills that could be used in multiple projects at the same time. </li>
     </ul><p>With such control over the data, it is no longer necessary to have one Resource Pool that includes all resources for distributing the available budget. In fact, we do not recommend this. Instead, we recommend diversifying your Resource Pools and only associating relevant Resource Pools with projects.</p><p> For more information about Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a></p></td> 
   </tr> 
   <tr> 
@@ -181,17 +144,13 @@ Except where specified otherwise, all Legacy features have been replaced by new 
   </tr> 
   <tr> 
    <td> <p><span class="bold">Resource Estimates</span> </p> <p>The Resource Estimates tab under each Legacy Resource Pool served the same purpose as the Resource Budget Manager, only in the context of one Legacy Resource Pool. This tool presented the same limitations as the Resource Budget Manager and the Legacy Resource Pools: inaccurate data and manual input of availability. </p> </td> 
-   <td> <p>With the automatic calculation of user availability, Resource Estimates have become obsolete and have been removed.</p> <p>The tool is eliminated on the Legacy Resource Pools and the Legacy Resource Estimates in the Business Case of a project. <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
-     </MadCap:conditionalText></p> </td> 
+   <td> <p>With the automatic calculation of user availability, Resource Estimates have become obsolete and have been removed.</p> <p>The tool is eliminated on the Legacy Resource Pools and the Legacy Resource Estimates in the Business Case of a project. <!--
+      The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time.
+     --></p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Capacity Planner</span> </p> <p>The Capacity Planner was a <em>Workfront</em> tool for budgeting resources and prioritizing projects inside a Legacy Resource Pool, according to the availability of the resources. Given the incompleteness of data from Resource Estimates and the Resource Budget Manager which provided the information for the Capacity Planner, project prioritization had to be double-checked against the availability of the users.</p> <p>Using a single Legacy Resource Pool that included all the job roles in the system was the most common scenario, which led to performance problems with the Capacity Planner trying to load a large number of projects.</p> </td> 
-   <td> <p><span class="bold">The Project View of the Resource Planner</span> </p> <p>In the Project-based view of the Resource Planner, you can budget resources and prioritize projects similarly to how you used to do it in the Legacy Capacity Planner. Unlike the legacy tool, more data is now supported, with the available information being more precise by taking into account both the users' time off and schedule exceptions.</p> <p>Available, Planned, and Budgeted information is visible at a glance so that Resource Managers can see both whether there are enough people to do the work and whether the project plans exceed initial budget estimations.</p> <p> For information about using the Project View in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a></p> <p><span class="bold">The Scenario&nbsp;Planner</span> </p> <p>For long-term capacity planning, what-if scenario modeling and prioritization, we have also introduced the <em>Workfront Scenario Planner</em> . </p> <p>This is available only in <em>the new Adobe Workfront experience</em> and requires an additional license. For information about the <em>Workfront Scenario Planner</em>, see <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </td> 
+   <td> <p><span class="bold">Capacity Planner</span> </p> <p>The Capacity Planner was a <span>Workfront</span> tool for budgeting resources and prioritizing projects inside a Legacy Resource Pool, according to the availability of the resources. Given the incompleteness of data from Resource Estimates and the Resource Budget Manager which provided the information for the Capacity Planner, project prioritization had to be double-checked against the availability of the users.</p> <p>Using a single Legacy Resource Pool that included all the job roles in the system was the most common scenario, which led to performance problems with the Capacity Planner trying to load a large number of projects.</p> </td> 
+   <td> <p><span class="bold">The Project View of the Resource Planner</span> </p> <p>In the Project-based view of the Resource Planner, you can budget resources and prioritize projects similarly to how you used to do it in the Legacy Capacity Planner. Unlike the legacy tool, more data is now supported, with the available information being more precise by taking into account both the users' time off and schedule exceptions.</p> <p>Available, Planned, and Budgeted information is visible at a glance so that Resource Managers can see both whether there are enough people to do the work and whether the project plans exceed initial budget estimations.</p> <p> For information about using the Project View in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a></p> <p><span class="bold">The Scenario&nbsp;Planner</span> </p> <p>For long-term capacity planning, what-if scenario modeling and prioritization, we have also introduced the <span>Workfront Scenario Planner</span> . </p> <p>This is available only in <span>the new Adobe Workfront experience</span> and requires an additional license. For information about the <span>Workfront Scenario Planner</span>, see <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="bold">Legacy Resource Estimates (Business Case)</span> </p> <p>You could use the Legacy Resource Estimates area of the Business Case to budget a certain amount of labor hours and costs as part of the project planning and request for resources. This view didn’t provide any visibility into the availability of resources, which resulted in approximate requests for resources and an increased chance for rejected project work.</p> </td> 
@@ -213,49 +172,20 @@ Except where specified otherwise, all Legacy features have been replaced by new 
     <ul> 
      <li> <p><span class="bold">For the Analytical Phase:</span> </p> 
       <ul> 
-       <li> <p><span class="bold">The <em>Workload Balancer</em></span>: Use the <em>Workload Balancer</em> to view the users' workload at a more granular level. When you use the <em>Workload Balancer</em>, you can view which users have availability in their workload to complete the task on time. This includes their time off and schedule exceptions details. </p> <p>For information about the <em>Workload Balancer</em>, see <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a>.</p> </li> 
+       <li> <p><span class="bold">The <span>Workload Balancer</span></span>: Use the <span>Workload Balancer</span> to view the users' workload at a more granular level. When you use the <span>Workload Balancer</span>, you can view which users have availability in their workload to complete the task on time. This includes their time off and schedule exceptions details. </p> <p>For information about the <span>Workload Balancer</span>, see <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a>.</p> </li> 
        <li> <p><span class="bold">The User View of the Resource Planner</span><span class="bold">:</span> When trying to understand on a higher level what projects your users are allocated to, use the User View of the Resource Planner. This allows you to see what users are working on as well as their over- and underallocation for a specific time frame. The Resource Planner also provides visualization of the overall allocation of users as a whole, as well as visibility into the Actual Hours logged, which is helpful in analyzing progress of the work done. </p> <p>For information about using the User View in the Resource Planner, see the <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">Use the User View to view Available, Planned, and Actual Hours or FTE </a> section in <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a></p> </li> 
       </ul> </li> 
      <li><span class="bold">For the Tactical Phase:</span> 
       <ul> 
-       <li><span class="bold">The <em>Workload Balancer</em></span> You can do the following using the <em>Workload Balancer</em>: 
+       <li><span class="bold">The <span>Workload Balancer</span></span> You can do the following using the <span>Workload Balancer</span>: 
         <ul>
          <li>Assign work to users.</li>
          <li>Manage users' allocations to work items. </li>
-         <li>Share the <em>Workload Balancer</em> with other users who may not have visibility into the People area. Use the Shareable link functionality to share a link to the <em>Workload Balancer</em> and embed it in custom dashboards. Any users with access to View users are able to view these dashboards when you share them.</li>
-        </ul><p>The <em>Workload Balancer</em> is available in the People area. </p><p>For information about the <em>Workload Balancer</em>, see <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a>.</p></li> 
-      </ul> <draft-comment>
-       <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-        <li><span class="bold">The Resource Scheduling Areas</span><span class="bold">:</span> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
-         <ul>
-          <li> manual dragging and dropping of tasks to the correct assignee </li>
-          <li> automatic assigning of tasks </li>
-          <li> bulk swapping assignments </li>
-          <li><p>adjusting Planned Hours according to the true availability of users. </p></li>
-         </ul><p>These actions provide even more control over managing workload. </p><p> For information about managing user assignments and allocations in the Resource Scheduling areas, see <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</p><p>With this new functionality, the Resource Grid is replaced by the User View of the Resource Planner and the Resource Scheduling areas in the following areas of the application: </p>
-         <ul>
-          <li>People - the Resource Grid is eliminated along with the Legacy Resource Planning tab.</li>
-          <li>Project - the Scheduling area under the Staffing tab of the project is available to Work and Plan license users. They do not have to have Manage access to the project to view this area. </li>
-          <li>Reporting - the ability to view User reports in the Resource Grid view is removed. Instead, there is an option to share a URL for the User View of the Resource Planner and embed it in custom dashboards, providing visibility into user utilization to virtually anyone in the system. Any users with access to View users are able to view these dashboards when you share them. </li>
-          <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
-         </ul></li> 
-       </ul>
-      </draft-comment>
-      <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <li><span class="bold">The Resource Scheduling Areas</span><span class="bold">:</span> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
-        <ul>
-         <li> manual dragging and dropping of tasks to the correct assignee </li>
-         <li> automatic assigning of tasks </li>
-         <li> bulk swapping assignments </li>
-         <li><p>adjusting Planned Hours according to the true availability of users. </p></li>
-        </ul><p>These actions provide even more control over managing workload. </p><p> For information about managing user assignments and allocations in the Resource Scheduling areas, see <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</p><p>With this new functionality, the Resource Grid is replaced by the User View of the Resource Planner and the Resource Scheduling areas in the following areas of the application: </p>
-        <ul>
-         <li>People - the Resource Grid is eliminated along with the Legacy Resource Planning tab.</li>
-         <li>Project - the Scheduling area under the Staffing tab of the project is available to Work and Plan license users. They do not have to have Manage access to the project to view this area. </li>
-         <li>Reporting - the ability to view User reports in the Resource Grid view is removed. Instead, there is an option to share a URL for the User View of the Resource Planner and embed it in custom dashboards, providing visibility into user utilization to virtually anyone in the system. Any users with access to View users are able to view these dashboards when you share them. </li>
-         <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
-        </ul></li> 
-      </ul> </li> 
+         <li>Share the <span>Workload Balancer</span> with other users who may not have visibility into the People area. Use the Shareable link functionality to share a link to the <span>Workload Balancer</span> and embed it in custom dashboards. Any users with access to View users are able to view these dashboards when you share them.</li>
+        </ul><p>The <span>Workload Balancer</span> is available in the People area. </p><p>For information about the <span>Workload Balancer</span>, see <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a>.</p></li> 
+      </ul> <!--
+       The Resource Scheduling Areas: When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: manual dragging and dropping of tasks to the correct assignee automatic assigning of tasks bulk swapping assignments adjusting Planned Hours according to the true availability of users. These actions provide even more control over managing workload. For information about managing user assignments and allocations in the Resource Scheduling areas, see Get started with Resource Scheduling. With this new functionality, the Resource Grid is replaced by the User View of the Resource Planner and the Resource Scheduling areas in the following areas of the application: People - the Resource Grid is eliminated along with the Legacy Resource Planning tab. Project - the Scheduling area under the Staffing tab of the project is available to Work and Plan license users. They do not have to have Manage access to the project to view this area. Reporting - the ability to view User reports in the Resource Grid view is removed. Instead, there is an option to share a URL for the User View of the Resource Planner and embed it in custom dashboards, providing visibility into user utilization to virtually anyone in the system. Any users with access to View users are able to view these dashboards when you share them. User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.
+      --> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -268,11 +198,11 @@ Except where specified otherwise, all Legacy features have been replaced by new 
   </tr> 
   <tr> 
    <td> <p><span class="bold">Sharing Dialog Boxes for Reports, Calendars, and Documents</span> </p> <p>When sharing reports, calendars, and documents, the dialog boxes that were used were based on Flash technology.</p> </td> 
-   <td> <p>The experience when sharing reports, calendars, and documents in <em>Workfront</em> has not changed. However, the experience no longer relies on Flash.</p> <p>For more information about sharing these items, see <a href="../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>The experience when sharing reports, calendars, and documents in <span>Workfront</span> has not changed. However, the experience no longer relies on Flash.</p> <p>For more information about sharing these items, see <a href="../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Legacy <em>proofing viewer</em></span> </p> <p>The Legacy <em>proofing viewer</em> was a web-based <em>proofing</em> viewer that provided <em>proofing</em> capabilities for static, video, and interactive <em>proofs</em>.</p> </td> 
-   <td> <p><span class="bold"><em>Web Proofing Viewer</em> and <em>Desktop Proofing Viewer</em></span> </p> <p>The <em>Web Proofing Viewer</em> provides <em>proofing</em> capabilities for static and video <em>proofs</em>.</p> <p>The <em>Desktop Proofing Viewer</em> provides <em>proofing</em> capabilities for interactive <em>proofs</em>, in addition to providing full support for static and video <em>proofs</em>.</p> <p>The SWF file format is no longer supported by any of the major providers and has been replaced with HTML5 banners for proofing. </p> <p>For more detailed information about the differences between the available <em>proofing</em> viewers, see <a href="../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </td> 
+   <td> <p><span class="bold">Legacy <span>proofing viewer</span></span> </p> <p>The Legacy <span>proofing viewer</span> was a web-based <span>proofing</span> viewer that provided <span>proofing</span> capabilities for static, video, and interactive <span>proofs</span>.</p> </td> 
+   <td> <p><span class="bold"><span>Web Proofing Viewer</span> and <span>Desktop Proofing Viewer</span></span> </p> <p>The <span>Web Proofing Viewer</span> provides <span>proofing</span> capabilities for static and video <span>proofs</span>.</p> <p>The <span>Desktop Proofing Viewer</span> provides <span>proofing</span> capabilities for interactive <span>proofs</span>, in addition to providing full support for static and video <span>proofs</span>.</p> <p>The SWF file format is no longer supported by any of the major providers and has been replaced with HTML5 banners for proofing. </p> <p>For more detailed information about the differences between the available <span>proofing</span> viewers, see <a href="../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

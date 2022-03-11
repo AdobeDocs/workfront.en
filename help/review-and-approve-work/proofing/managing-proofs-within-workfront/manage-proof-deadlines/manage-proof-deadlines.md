@@ -1,6 +1,6 @@
 
 
-# Manage *proof* deadlines
+# Manage `proof` deadlines
 
 * [Set a deadline for an existing basic proof](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md) 
 * [Add, edit, or delete a deadline for a stage](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md) 

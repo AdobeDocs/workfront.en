@@ -19,53 +19,23 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em> plan*</p> </td> 
+   <td> <p><span>Adobe Workfront</span> plan*</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><em>Adobe Workfront</em> license*</p> </td> 
-   <td> <p><em>Plan</em> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td><span class="bold">Access level configurations*</span> </td> 
-    <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td><span class="bold">Access level configurations*</span> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td> <p><span class="bold">Object permissions</span> </p> </td> 
-    <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td> <p><span class="bold">Object permissions</span> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-  </tr> 
+   <td> <p><span>Adobe Workfront</span> license*</p> </td> 
+   <td> <p><span>Plan</span> </p> </td> 
+  </tr> Access level configurations* Edit access to Projects with ability to Create and Copy projects Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions View permissions or higher to the project For information on requesting additional access, see Request access to objects in Adobe Workfront. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Copy a project
 
 <ol> 
  <li value="1">Go to the project that you want to copy.</li> 
- <li value="2"> <p> <draft-comment>
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-     Click the 
-     <span class="bold">More</span> icon 
-     <img src="assets/qs-more-menu.png"> next to the name of the project, then click 
-     <span class="bold">Copy</span>. 
-    </MadCap:conditionalText>
-   </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">More</span> icon 
-    <img src="assets/qs-more-menu.png"> next to the name of the project, then click 
-    <span class="bold">Copy</span>. 
-   </MadCap:conditionalText><br></p> <p> </p> </li> 
+ <li value="2"> <p> Click the More icon next to the name of the project, then click Copy.<br></p> <p> </p> </li> 
  <li value="3"> <p>Specify a name for the project.<br></p> <p>By default, the new name is <span class="bold">Copy of [Original project name].</span></p> </li> 
  <li value="4"> <p>Select the <span class="bold">Status</span> of your new project. </p> <p>By default, the <span class="bold">Status</span> matches that of the original project.</p> </li> 
  <li value="5"> <p>(Optional) Select any of the following options to remove the items from the new project.</p> <note type="important"> 
@@ -98,7 +68,7 @@ You must have the following:
      <li>Expenses</li> 
      <li> <p>Documents</p> </li> 
     </ul> <p>The custom forms will remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </li> 
-   <li> <p><span class="bold">Clear Documents</span>: Removes everything in the documents tab, including document versions, linked documents, and folders.</p> <p>By default, document <em>proofs</em> and approvals cannot be copied to another project. </p> </li> 
+   <li> <p><span class="bold">Clear Documents</span>: Removes everything in the documents tab, including document versions, linked documents, and folders.</p> <p>By default, document <span>proofs</span> and approvals cannot be copied to another project. </p> </li> 
    <li> <p><span class="bold">Clear All Predecessors</span>: Removes all predecessor relationships between the tasks on the project. </p> <note type="tip">
      Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. 
     </note> </li> 

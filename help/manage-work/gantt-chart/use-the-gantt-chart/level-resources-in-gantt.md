@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Overview of Resource Leveling
 
@@ -49,8 +49,8 @@ If the same resource is assigned to two different tasks, you can use resource le
 Consider the following when leveling resources on a project:
 
 <ul> 
- <li> <p>Resource leveling only applies to one project, so <em>Adobe Workfront</em> does not level resources across more than one project at a time.</p> </li> 
- <li> <p>If <span class="bold">Effort Driven</span> is selected as a <span class="bold">Duration Type</span>, <em>Workfront</em> will not level the resources.</p> </li> 
+ <li> <p>Resource leveling only applies to one project, so <span>Adobe Workfront</span> does not level resources across more than one project at a time.</p> </li> 
+ <li> <p>If <span class="bold">Effort Driven</span> is selected as a <span class="bold">Duration Type</span>, <span>Workfront</span> will not level the resources.</p> </li> 
  <li> <p>When multiple users are assigned to the same task, leveling will be canceled.</p> </li> 
  <li> <p>Conditions for the type of <span class="bold">Task Constraint</span>&nbsp;will take precedence over the leveling of resources. For example,&nbsp;if <span class="bold">Fixed Dates</span> is selected as the Task Constraint, resource leveling will not change the task dates.</p> </li> 
  <li> <p>Predecessor relationships will take precedence over resource leveling.</p> </li> 
@@ -62,13 +62,7 @@ Consider the following when leveling resources on a project:
 
 <ol> 
  <li value="1">Navigate to a project.</li> 
- <li value="2">Select the <span class="bold">Tasks</span> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    area
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   area
-  </MadCap:conditionalText>.</li> 
+ <li value="2">Select the <span class="bold">Tasks</span> area.</li> 
  <li value="3"> <p>Click the <span class="bold">Gantt</span> icon.<br></p> </li> 
  <li value="4"> <p>Disable the <span class="bold">Autosave</span> option. </p> <note type="tip">
    You cannot level resources in the Gantt chart when the Autosave option is enabled. 
@@ -81,56 +75,6 @@ Consider the following when leveling resources on a project:
 </ol>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="leveling-delay"></a>Overview of Leveling Delay</h2>
-<p>At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic&nbsp;schedule. </p>
-<p>As the project manager, or the task assignee, you can also add a Leveling Delay on individual tasks to account for any resource or scheduling conflicts. In other words, a task might be scheduled with a delay to ensure that when <em>Adobe Workfront</em> levels&nbsp;the tasks a more realistic schedule overcomes resource conflicts.</p>
-<p>To manually add a Leveling Delay to a task:</p>
-<ol>
-<li value="1">Navigate to a task for which you want to add a Leveling Delay.</li>
-<li value="2"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Click the
-<span class="bold">More icon</span> to the right of the task name, then click
-<span class="bold">Edit</span>.
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Click the
-<span class="bold">More icon</span> to the right of the task name, then click
-<span class="bold">Edit</span>.
-</MadCap:conditionalText> </p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Click the
-<span class="bold">More icon</span> to the right of the task name, then click
-<span class="bold">Edit</span>.
-</MadCap:conditionalText> </p> <p> <draft-comment>
-<img src="assets/qs-task-edit-icon-highlighted-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-</draft-comment><img src="assets/qs-task-edit-icon-highlighted-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
-<li value="3">Click <span class="bold">Settings</span>.<br></li>
-<li value="4">Specify the <span class="bold">Leveling Delay</span>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li>
-<li value="5">Click <span class="bold">Save Changes</span>.&nbsp;</li>
-</ol>
-</div>
+Overview of Leveling Delay At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic schedule. As the project manager, or the task assignee, you can also add a Leveling Delay on individual tasks to account for any resource or scheduling conflicts. In other words, a task might be scheduled with a delay to ensure that when Adobe Workfront levels the tasks a more realistic schedule overcomes resource conflicts. To manually add a Leveling Delay to a task: Navigate to a task for which you want to add a Leveling Delay. Click the More icon to the right of the task name, then click Edit. Click Settings. Specify the Leveling Delay, in hours. This is the time that the resource will be delayed starting the task due to resource conflicts. Click Save Changes.
 -->
-
-## Overview of Leveling Delay
-
-At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic&nbsp;schedule.
-
-As the project manager, or the task assignee, you can also add a Leveling Delay on individual tasks to account for any resource or scheduling conflicts. In other words, a task might be scheduled with a delay to ensure that when *Adobe Workfront* levels&nbsp;the tasks a more realistic schedule overcomes resource conflicts.
-
-To manually add a Leveling Delay to a task:
-
-<ol> 
- <li value="1">Navigate to a task for which you want to add a Leveling Delay.</li> 
- <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">More icon</span> to the right of the task name, then click 
-    <span class="bold">Edit</span>.
-   </MadCap:conditionalText> </p> <p> <img src="assets/qs-task-edit-icon-highlighted-350x154.png" style="width: 350;height: 154;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li> 
- <li value="3">Click <span class="bold">Settings</span>.<br></li> 
- <li value="4">Specify the <span class="bold">Leveling Delay</span>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li> 
- <li value="5">Click <span class="bold">Save Changes</span>.&nbsp;</li> 
-</ol>
 

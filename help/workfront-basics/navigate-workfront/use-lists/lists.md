@@ -5,7 +5,7 @@ title: Lists in Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Lists in *Adobe Workfront*
+# Lists in `Adobe Workfront`
 
 This section contains the following articles:
 

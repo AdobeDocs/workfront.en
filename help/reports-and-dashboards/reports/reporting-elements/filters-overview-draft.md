@@ -7,29 +7,25 @@ title: Filters overview in Adobe Workfront (draft)
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
-# Filters overview in *Adobe Workfront*
+# Filters overview in `Adobe Workfront`
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (draft)
-</MadCap:conditionalText>
 -->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  (draft)</MadCap:conditionalText>`
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-You can use filters in&nbsp;*Adobe Workfront* to reduce the amount of information you display on the screen in lists, reports, or other areas.&nbsp;
+You can use filters in  `Adobe Workfront` to reduce the amount of information you display on the screen in lists, reports, or other areas.&nbsp;
 
 >[!NOTE]
 >
->This article describes all areas where you can apply filters in&nbsp;*Workfront*, as well as general information about filters in lists and reports. Refer to the articles linked below to find out information about filters in specific areas other than lists and reports.
+>This article describes all areas where you can apply filters in  `Workfront`, as well as general information about filters in lists and reports. Refer to the articles linked below to find out information about filters in specific areas other than lists and reports.
 
-## Types of *Workfront* filters
+## Types of `Workfront` filters
 
-There are several types of filters in *Workfront*. All filters fulfill the same purpose of limiting the amount of information you display on the screen.
+There are several types of filters in `Workfront`. All filters fulfill the same purpose of limiting the amount of information you display on the screen.
 
-The following are types of filters that you can use in&nbsp;*Workfront*:
+The following are types of filters that you can use in  `Workfront`:
 
 <table cellspacing="3"> 
  <col> 
@@ -41,81 +37,61 @@ The following are types of filters that you can use in&nbsp;*Workfront*:
   </tr> 
   <tr> 
    <td>Permanent filters for lists and reports</td> 
-   <td>Built by <em>Workfront</em> or customized by you or other users. You can use them more than one time. If you have the correct access and permissions, you can name, save, and reuse them in several areas. You can also share these filters with other users. They are available in lists or reports of objects</td> 
+   <td>Built by <span>Workfront</span> or customized by you or other users. You can use them more than one time. If you have the correct access and permissions, you can name, save, and reuse them in several areas. You can also share these filters with other users. They are available in lists or reports of objects</td> 
   </tr> 
   <tr> 
    <td>Temporary or permanent filters for special areas</td> 
-   <td>Built by <em>Workfront</em> or customized by you or other users. You can save permanent filters and use more than one time, or you can apply them temporarily to serve your immediate needs, without saving them. Unsaved filters cannot be shared or deleted. They are available in special areas, as described in the section <a href="#filters" class="MCXref xref">Workfront filters for special areas</a> in this article. </td> 
+   <td>Built by <span>Workfront</span> or customized by you or other users. You can save permanent filters and use more than one time, or you can apply them temporarily to serve your immediate needs, without saving them. Unsaved filters cannot be shared or deleted. They are available in special areas, as described in the section <a href="#filters" class="MCXref xref">Workfront filters for special areas</a> in this article. </td> 
   </tr> 
  </tbody> 
 </table>
 
-## *Workfront* temporary filters
+## `Workfront` temporary filters
 
 Quick filters allow you to search for an item on the screen by using a keyword. After you refresh the page, the temporary quick filter is cleared. You cannot save temporary filters to reuse.
 
 For information about quick filters, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-## *Workfront* permanent filters for lists and reports
+## `Workfront` permanent filters for lists and reports
 
-You can use permanent filters that you, others, or *Workfront* created in lists or reports of objects.
+You can use permanent filters that you, others, or `Workfront` created in lists or reports of objects.
 
-For information about objects in *Workfront* and which ones you can build reports for, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about objects in `Workfront` and which ones you can build reports for, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 For more information about filters in lists and reports, see the following articles:
 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) 
 * [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
-* 
+* Delete filters
 
-  <!--
-  <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref">Delete filters</a> </p>
-  -->
+## `Workfront` filters for special areas
 
-  [Delete filters](../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md)
+You can use either built-in filters or build custom filters in the following areas of `Workfront`:
 
-## *Workfront* filters for special areas
+* Home   
+  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+* Requests area. You cannot customize filters in the Requests area.
 
-You can use either built-in filters or build custom filters in the following areas of *Workfront*:
+  For information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md). 
 
-<ul> 
- <li> <p>Home <br>For information, see the <a href="../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type" class="MCXref xref">Filter the Work List</a> section in the article <a href="../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md" class="MCXref xref">Display items in the Work List in the Home area</a>.</p> </li> 
- <li> <p>Requests area. You cannot customize filters in the Requests area. </p> <p>For information, see <a href="../../../manage-work/requests/create-requests/locate-submitted-requests.md" class="MCXref xref">Locate submitted requests</a>. </p> </li> 
- <li> <p>Timesheets. You can use built-in filtering criteria but you cannot build custom filters to reuse for the Timesheets area. </p> <p>For information, see <a href="../../../timesheets/timesheets/timesheets-overview.md" class="MCXref xref">Timesheets overview</a>. </p> </li> 
- <li>Resource Planner<br>For information, see the article <a href="../../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a>.</li> 
- <li> <p>Utilization report</p> <p>For information, see the section <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information" class="MCXref xref">Filter utilization information</a> in the article <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>. </p> </li> 
- <li>Resource Scheduling areas<br>For information, see the article <a href="../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref">Filter information in the Scheduling area</a>.</li> 
- <li> <p><em>Workload Balancer</em> </p> <p>For information, see <a href="../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>.</p> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Analytics area</p> <p>For information, see <a href="../../../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>. </p> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Analytics area</p> <p>For information, see <a href="../../../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>. </p> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Blueprints area.&nbsp;This area is only available for <em>Workfront administrators</em>.</p> <p>For information, see <a href="../../../administration-and-setup/blueprints/blueprints-install.md" class="MCXref xref">Install a blueprint</a>. </p> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Blueprints area.&nbsp;This area is only available for <em>Workfront administrators</em>.</p> <p>For information, see <a href="../../../administration-and-setup/blueprints/blueprints-install.md" class="MCXref xref">Install a blueprint</a>. </p> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><em>Scenario Planner</em> </p> <p>This is available only in <em>the new Adobe Workfront experience</em> and requires an additional license. For information about the <em>Workfront Scenario Planner</em>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <note type="tip">
-    You cannot customize filters in the
-    <em>Scenario Planner</em>.
-   </note> <p>You can use built-in filters for plans, initiatives, or projects and you can customize project filters in the <em>Scenario Planner</em>.</p> <p>For information, see the following articles:</p> 
-   <ul> 
-    <li> <p><a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a> </p> </li> 
-    <li> <p><a href="../../../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner</a> </p> </li> 
-    <li> <p><a href="../../../scenario-planner/import-projects-to-plans.md" class="MCXref xref">Import projects to plans in the Adobe Workfront Scenario Planner</a> </p> </li> 
-   </ul> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><em>Scenario Planner</em> </p> <p>This is available only in <em>the new Adobe Workfront experience</em> and requires an additional license. For information about the <em>Workfront Scenario Planner</em>, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <note type="tip">
-   You cannot customize filters in the
-   <em>Scenario Planner</em>.
-  </note> <p>You can use built-in filters for plans, initiatives, or projects and you can customize project filters in the <em>Scenario Planner</em>.</p> <p>For information, see the following articles:</p> 
-  <ul> 
-   <li> <p><a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a> </p> </li> 
-   <li> <p><a href="../../../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner</a> </p> </li> 
-   <li> <p><a href="../../../scenario-planner/import-projects-to-plans.md" class="MCXref xref">Import projects to plans in the Adobe Workfront Scenario Planner</a> </p> </li> 
-  </ul> </li> <draft-comment>
-  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Goals </p> <p>This requires an additional license. For information about <em>Workfront Goals</em>, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>You can use built-in filtering criteria but you cannot build custom filters to reuse for the Goals area. </p> <p>For information, see <a href="../../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> </li>
- </draft-comment>
- <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Goals </p> <p>This requires an additional license. For information about <em>Workfront Goals</em>, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>You can use built-in filtering criteria but you cannot build custom filters to reuse for the Goals area. </p> <p>For information, see <a href="../../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> </li> 
-</ul>
+* Timesheets. You can use built-in filtering criteria but you cannot build custom filters to reuse for the Timesheets area.
+
+  For information, see [Timesheets overview](../../../timesheets/timesheets/timesheets-overview.md). 
+
+* Resource Planner  
+  For information, see the article [Filter information in the Resource Planner](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+
+* Utilization report
+
+  For information, see the section [Filter utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) in the article [View resource utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md). 
+
+* Resource Scheduling areas  
+  For information, see the article [Filter information in the Scheduling area](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
+
+* `Workload Balancer`
+
+  For information, see [Manage filters in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ## Overview of filters in lists and reports
 
@@ -132,14 +108,14 @@ When working with lists and reports, you can filter information on the screen by
 >When creating or editing filters in reports, you must edit the report in order for the new filter to become the default filter for the report. When you edit just the filter, outside the report builder, the default filter of the report is not updated.  
 >For information about editing a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-For information about *Workfront* Lists, see the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).  
-For information about *Workfront* reports, see the article [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+For information about `Workfront` Lists, see the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).  
+For information about `Workfront` reports, see the article [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Consider the following when working with filters in lists or reports:
 
 * You can customize existing filters in lists and reports. All users who have permissions to the filters can also see your changes.
 
-* Your *Workfront administrator* must grant you access to Edit Filters, Views, and Groupings to create permanent filters.
+* Your `Workfront administrator` must grant you access to Edit Filters, Views, and Groupings to create permanent filters.
 
   For information about granting access to Filters, Views, and Groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
@@ -154,12 +130,6 @@ Consider the following when working with filters in lists or reports:
 
 When you build a filter, you connect multiple elements together that make up filter statements. You can have multiple filter statements that define the criteria for your filter.
 
-<!--
-<img src="assets/filter-statements-with-or-and-and-nwe-350x204.png" style="width: 350;height: 204;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
--->
-
-![](assets/filter-statements-with-or-and-and-nwe-350x204.png)
-
 A filter contains the following elements:
 
 <table cellspacing="3"> 
@@ -168,7 +138,7 @@ A filter contains the following elements:
  <tbody> 
   <tr> 
    <td>Object</td> 
-   <td> <p>The <em>Workfront</em> database object of the filter. For information about what objects are reportable in <em>Workfront</em>, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p> <p>For example, projects, tasks, issues, users, documents can be the object of a filter. </p> </td> 
+   <td> <p>The <span>Workfront</span> database object of the filter. For information about what objects are reportable in <span>Workfront</span>, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p> <p>For example, projects, tasks, issues, users, documents can be the object of a filter. </p> </td> 
   </tr> 
   <tr> 
    <td>Field</td> 
@@ -176,7 +146,7 @@ A filter contains the following elements:
   </tr> 
   <tr> 
    <td> <p>Value</p> </td> 
-   <td>The actual name of the field in <em>Workfront</em>.&nbsp;For example, Complete can be the value of a Project&nbsp;Status field. </td> 
+   <td>The actual name of the field in <span>Workfront</span>.&nbsp;For example, Complete can be the value of a Project&nbsp;Status field. </td> 
   </tr> 
   <tr> 
    <td>Operator</td> 
@@ -191,7 +161,7 @@ A filter contains the following elements:
 
 ## Filter operators
 
-*Workfront* has 2 filter operators that connect each filter statement:
+`Workfront` has 2 filter operators that connect each filter statement:
 
 <ul> 
  <li> <p><span class="bold">AND</span>: When you join 2 filter statement by the AND&nbsp;operator you indicate that you want both filter statements to be met at the same time.</p> 
@@ -253,7 +223,7 @@ For example, you have a radio button field on a project called "Color" and the o
 * Red, blue
 
 If you want to build a filter that would find only projects where the third option is selected, the filter statement in the text mode interface should be:
-<pre>DE:check=red/, blue<br>DE:check_Mod=in</pre>This syntax ensures that the values are read together, as one option. If you omit the&nbsp;slash, *Workfront* reads the comma as an 'OR', in which case only the projects that have either the first or the second option would be selected.&nbsp;
+<pre>DE:check=red/, blue<br>DE:check_Mod=in</pre>This syntax ensures that the values are read together, as one option. If you omit the slash, `Workfront` reads the comma as an 'OR', in which case only the projects that have either the first or the second option would be selected.&nbsp;
 
 This syntax also applies when building prompts. For more information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
@@ -267,7 +237,7 @@ For example, if you have a field with 3 options (A, B, and C), and select 2 of t
 
 ## `Limitations about joining multiple filter rules`
 
-You can reference only five objects, excluding the object of the report, when you build a filter in *Workfront*.&nbsp;
+You can reference only five objects, excluding the object of the report, when you build a filter in `Workfront`.&nbsp;
 
 When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit.&nbsp;
 

@@ -39,32 +39,6 @@ Consider the following when using the Start No Earlier Than Task Constraint:
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="using-SNET"></a>Use the Start No Earlier Than Task Constraint</h2>
-<p>To update the Task Constraint to Start No Later Than:</p>
-<ol>
-<li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li>
-<li value="3">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</li>
-<li value="4"> <p>Select <span class="bold">Start No Earlier Than</span>.</p> </li>
-<li value="5"> <p>Specify a <span class="bold">Planned Start Date</span>.</p> <p>This is the date by which the task must start, and not earlier than this date. </p> </li>
-<li value="6">Click <span class="bold">Save Changes</span>.</li>
-</ol>
-</div>
+Use the Start No Earlier Than Task Constraint To update the Task Constraint to Start No Later Than: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Start No Earlier Than. Specify a Planned Start Date. This is the date by which the task must start, and not earlier than this date. Click Save Changes.
 -->
-
-## Use the Start No Earlier Than Task Constraint
-
-To update the Task Constraint to Start No Later Than:
-
-<ol> 
- <li value="1">Go to a task whose Task Constraint you want to update.</li> 
- <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More</span> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="3">In the <span class="bold">Overview</span> section, expand the <span class="bold">Task Constraint</span> drop-down menu.</li> 
- <li value="4"> <p>Select <span class="bold">Start No Earlier Than</span>.</p> </li> 
- <li value="5"> <p>Specify a <span class="bold">Planned Start Date</span>.</p> <p>This is the date by which the task must start, and not earlier than this date. </p> </li> 
- <li value="6">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
 

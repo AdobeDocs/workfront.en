@@ -9,7 +9,7 @@ description: As an Adobe Workfront administrator, you can specify preferences fo
 
 # Configure timesheet and hour preferences
 
-As an *Adobe Workfront administrator*, you can specify preferences for timesheets and hours in *Workfront* in order to define what items the timesheets can pre-populate with and what items users can log time to.
+As an `Adobe Workfront administrator`, you can specify preferences for timesheets and hours in `Workfront` in order to define what items the timesheets can pre-populate with and what items users can log time to.
 
 Any changes you make to timesheets impact all timesheets that are created in the future.
 
@@ -22,28 +22,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Set timesheet and hour preferences
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Timesheet & Hours</span> > <span class="bold">Preferences</span>.</li> 
-</ol>
+1. Click `Timesheet & Hours` > `Preferences`.
 
 <ol data-mc-continue="true"> 
  <li value="3"> <p>On the page that displays, in the <span class="bold">General Preferences</span> section, configure any of the following options: </p> <p> 
@@ -73,76 +68,9 @@ You must have the following to perform the steps in this article:
          <li>If the user does not have a job role assigned in their profile and there is a task assigned as the Task Owner in the Advanced Assignments dialog box, that job role appears when the user logs time on the task.</li> 
         </ul> 
        </note> </td> 
-     </tr> <draft-comment>
-      <tr data-mc-conditions=""> 
-       <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
-       <td> <p>Restrict editing to timesheet owners and <em>Workfront administrators</em>. When this option is disabled, timesheets can also be edited by:</p> 
-        <ul> 
-         <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
-         <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
-         <li> <p>The manager of the timesheet owner</p> </li> 
-        </ul> </td> 
-      </tr>
-     </draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
-      <td> <p>Restrict editing to timesheet owners and <em>Workfront administrators</em>. When this option is disabled, timesheets can also be edited by:</p> 
-       <ul> 
-        <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
-        <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
-        <li> <p>The manager of the timesheet owner</p> </li> 
-       </ul> </td> 
-     </tr> <draft-comment>
-      <tr data-mc-conditions=""> 
-       <td role="rowheader">Restrict hour editing to owners and admins</td> 
-       <td>Restrict editing to the user who input the hours and <em>Workfront administrators</em>. This setting applies to the Hours tab in a project or in an Hours report.</td> 
-      </tr>
-     </draft-comment>
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Restrict hour editing to owners and admins</td> 
-      <td>Restrict editing to the user who input the hours and <em>Workfront administrators</em>. This setting applies to the Hours tab in a project or in an Hours report.</td> 
-     </tr> 
+     </tr> Restrict timesheet editing to owners and admins Restrict editing to timesheet owners and Workfront administrators. When this option is disabled, timesheets can also be edited by: Users with administrative access to timesheets and hours in their access level Timesheet approvers if “Can edit hours” is enabled on the timesheet The manager of the timesheet owner Restrict hour editing to owners and admins Restrict editing to the user who input the hours and Workfront administrators. This setting applies to the Hours tab in a project or in an Hours report. 
     </tbody> 
-   </table> </p> </li> <draft-comment>
-  <li value="4" data-mc-conditions="SnippetConditions-wf-groups.system-level"> <p>In the <span class="bold">Logging Time</span> section, configure any of the following options: </p> 
-   <table cellspacing="0"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Log time directly on projects</td> 
-      <td>Allows users to log time on the project (both on the Updates tab and timesheet). If users do not record&nbsp;time at the project level, this options should remain unchecked.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Log time on projects that are complete</td> 
-      <td>Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><span class="bold">Log time on projects that are dead</span> </td> 
-      <td>When this option is enabled, users can log hours on projects with a Dead status.</td> 
-     </tr> 
-    </tbody> 
-   </table> </li>
- </draft-comment>
- <li value="4" data-mc-conditions="SnippetConditions-wf-groups.system-level"> <p>In the <span class="bold">Logging Time</span> section, configure any of the following options: </p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Log time directly on projects</td> 
-     <td>Allows users to log time on the project (both on the Updates tab and timesheet). If users do not record&nbsp;time at the project level, this options should remain unchecked.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Log time on projects that are complete</td> 
-     <td>Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Log time on projects that are dead</span> </td> 
-     <td>When this option is enabled, users can log hours on projects with a Dead status.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
+   </table> </p> </li> In the Logging Time section, configure any of the following options: Log time directly on projects Allows users to log time on the project (both on the Updates tab and timesheet). If users do not record time at the project level, this options should remain unchecked. Log time on projects that are complete Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status. Log time on projects that are dead When this option is enabled, users can log hours on projects with a Dead status. 
  <li value="5"> <p>In the <span class="bold">Pre-Populate timesheets with&nbsp;</span>section, configure any of the following options: </p> 
   <table cellspacing="0"> 
    <col> 
@@ -165,54 +93,7 @@ You must have the following to perform the steps in this article:
      <td> <p>When selected, the timesheet includes tasks that have either a Projected Start Date or Completion Date that falls within the time frame of the project, even if the planned date of the issue or task falls outside of the timesheet date range.</p> </td> 
     </tr> 
    </tbody> 
-  </table> </li> <draft-comment>
-  <li value="6" data-mc-conditions="SnippetConditions-wf-groups.system-level"> <p>In the <span class="bold">Project, Task or Issue Deletion Preferences</span> section, specify the following:</p> 
-   <table cellspacing="0"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">When deleting projects</td> 
-      <td> 
-       <ul> 
-        <li><span class="bold">Keep logged time already added to timesheets as general time</span>: If this project is restored at a later time, the time remains on the timesheet.</li> 
-        <li><span class="bold">Delete any logged time</span>: If this project is later restored, time already logged is restored to the project.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">When deleting tasks or issues</td> 
-      <td> 
-       <ul> 
-        <li><span class="bold">Move any logged time to the project where the task or issue resides</span>: If this task or issue is later restored, the time remains on the project.<br></li> 
-        <li> <p><span class="bold">Delete any logged time</span>: If this task or issue is later restored, logged time is restored to the task or issue.</p> <p>For more detailed information about these options, see <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">Configure affect on hours when an object is deleted and restored</a>.</p> </li> 
-       </ul> </td> 
-     </tr> 
-    </tbody> 
-   </table> </li>
- </draft-comment>
- <li value="6" data-mc-conditions="SnippetConditions-wf-groups.system-level"> <p>In the <span class="bold">Project, Task or Issue Deletion Preferences</span> section, specify the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">When deleting projects</td> 
-     <td> 
-      <ul> 
-       <li><span class="bold">Keep logged time already added to timesheets as general time</span>: If this project is restored at a later time, the time remains on the timesheet.</li> 
-       <li><span class="bold">Delete any logged time</span>: If this project is later restored, time already logged is restored to the project.</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">When deleting tasks or issues</td> 
-     <td> 
-      <ul> 
-       <li><span class="bold">Move any logged time to the project where the task or issue resides</span>: If this task or issue is later restored, the time remains on the project.<br></li> 
-       <li> <p><span class="bold">Delete any logged time</span>: If this task or issue is later restored, logged time is restored to the task or issue.</p> <p>For more detailed information about these options, see <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">Configure affect on hours when an object is deleted and restored</a>.</p> </li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
+  </table> </li> In the Project, Task or Issue Deletion Preferences section, specify the following: When deleting projects Keep logged time already added to timesheets as general time: If this project is restored at a later time, the time remains on the timesheet. Delete any logged time: If this project is later restored, time already logged is restored to the project. When deleting tasks or issues Move any logged time to the project where the task or issue resides: If this task or issue is later restored, the time remains on the project. Delete any logged time: If this task or issue is later restored, logged time is restored to the task or issue. For more detailed information about these options, see Configure affect on hours when an object is deleted and restored. 
  <li value="7"> <p>Click <span class="bold">Save</span>.</p> </li> 
 </ol>
 
@@ -220,25 +101,25 @@ You must have the following to perform the steps in this article:
 
 Groups in your organization might need a timesheet or hour preference configured differently for their unique workflows. You can unlock the preference for all groups throughout the organization so that they can configure it on their own.
 
-When a preference is unlocked and a *group administrator* modifies it, it affects timesheet owners if the group is their Home Group.
+When a preference is unlocked and a `group administrator` modifies it, it affects timesheet owners if the group is their Home Group.
 
-For information about how a *group administrator* configures timesheet and hour preferences for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+For information about how a `group administrator` configures timesheet and hour preferences for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 >[!NOTE]
 >
->After a *Workfront administrator* unlocks a preference at the system level, any *group administrator* can configure it and then lock it to ensure that everyone in their group and the subgroups below is using the same configuration. This is parallel to the ability that a *Workfront administrator* has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a group timesheet and hour preference](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>After a `Workfront administrator` unlocks a preference at the system level, any `group administrator` can configure it and then lock it to ensure that everyone in their group and the subgroups below is using the same configuration. This is parallel to the ability that a `Workfront administrator` has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a group timesheet and hour preference](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 To unlock a project preference so that groups can configure it:
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2">In the left panel, click <span class="bold">Timesheets & Hours</span>, then click <span class="bold">Preferences</span>.</li> 
  <li value="3"> <p>Do any of the following:</p> 
   <ul> 
-   <li>If you want <em>group administrators</em> to be able to configure a preference for their groups, unlock it <img src="assets/unlock-toggle-button.png">.</li> 
+   <li>If you want <span>group administrators</span> to be able to configure a preference for their groups, unlock it <img src="assets/unlock-toggle-button.png">.</li> 
    <li>If you want all groups to use your configuration for a preference, make sure that it is locked (this is the default).<note type="important">
      We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that 
-     <em>group administrators</em> might have made.
+     <span>group administrators</span> might have made.
     </note></li> 
   </ul> </li> 
  <li value="4">Click <span class="bold">Save</span>.</li> 

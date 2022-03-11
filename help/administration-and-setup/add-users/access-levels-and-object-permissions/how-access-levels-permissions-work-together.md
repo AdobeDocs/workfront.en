@@ -12,7 +12,7 @@ description: The Adobe Workfront administrator determines what access level each
 
 # How access levels and permissions work together
 
-The *Adobe Workfront administrator* determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
+The `Adobe Workfront administrator` determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
 
 Also, users gain access to individual objects when other users share and grant certain permissions on those objects.
 
@@ -20,27 +20,27 @@ So, the activities a user can do with an object are defined by a combination of 
 
 ![](assets/security-model-hierachy-350x393.png)
 
-For example, if your access level says that you can create tasks, but the permissions you receive on a specific project don't allow you to add tasks to it, you can't add tasks on the project even though you can create tasks elsewhere in *Workfront*.
+For example, if your access level says that you can create tasks, but the permissions you receive on a specific project don't allow you to add tasks to it, you can't add tasks on the project even though you can create tasks elsewhere in `Workfront`.
 
 This article explains how this combination works.
 
 ## Access level
 
-The access level assigned to each user by a *Workfront administrator* is required for logging in to *Workfront*.
+The access level assigned to each user by a `Workfront administrator` is required for logging in to `Workfront`.
 
 The default access levels are:
 
-* System Administrator (attached to the *Plan* license)
-* Planner (attached to the *Plan* license)
-* Worker (attached to the *Work* license)
-* Reviewer (attached to the *Review* license)
-* Requestor (attached to the *Request* license)
+* System Administrator (attached to the `Plan` license)
+* Planner (attached to the `Plan` license)
+* Worker (attached to the `Work` license)
+* Reviewer (attached to the `Review` license)
+* Requestor (attached to the `Request` license)
 
 * External User (attached to the External Email license)
 
-The *Workfront* license for each default access level determines what is available and configurable in the access level. For information about the *Workfront* licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+The `Workfront` license for each default access level determines what is available and configurable in the access level. For information about the `Workfront` licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-For the users who are assigned to it, an access level defines what they can see and do with the following object types and areas in *Workfront*:
+For the users who are assigned to it, an access level defines what they can see and do with the following object types and areas in `Workfront`:
 
 * Projects
 * Tasks
@@ -53,8 +53,8 @@ For the users who are assigned to it, an access level defines what they can see 
 * Templates
 * Financial Data
 * Resource Management
-* *Scenario Planner* 
-* *Workfront Goals*
+* `Scenario Planner` 
+* `Workfront Goals`
 
 In a custom access level, you can configure the settings for these objects and areas to change how much access users have to them. Depending on the license associated with the access level, as well as the type of the object or area, you can configure the access level to allow no access, view access, or edit access to an object or area.
 
@@ -73,7 +73,7 @@ When sharing an object with someone in the system, a user can grant the recipien
 * `View`: This level of permission allows the recipient to share the object in one of the following ways:
 
   * System-wide so that all users can see it (not available for all objects)
-  * With external users who don’t have a *Workfront* license (not available for all objects)
+  * With external users who don’t have a `Workfront` license (not available for all objects)
   * With an email address (available only for documents)
 
 * `Contribute` (not available for all objects)
@@ -99,7 +99,7 @@ The following table compares a user's general access to objects (defined by the 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Granted by a <em>Workfront administrator</em> in the access level of a user</td> 
+   <td>Granted by a <span>Workfront administrator</span> in the access level of a user</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
   </tr> 
@@ -124,9 +124,9 @@ The following table compares a user's general access to objects (defined by the 
 
 ## More example scenarios
 
-When Olivia shares a *Workfront* project with Tony, Tony's access to it is determined by a combination of two things:
+When Olivia shares a `Workfront` project with Tony, Tony's access to it is determined by a combination of two things:
 
-* Tony's access level, assigned by the *Workfront administrator*
+* Tony's access level, assigned by the `Workfront administrator`
 * Tony's permissions to the project, specified by Olivia
 
 Tony's actions on the project can be further restricted on the project, but they cannot be unrestricted beyond what is allowed on his access level.

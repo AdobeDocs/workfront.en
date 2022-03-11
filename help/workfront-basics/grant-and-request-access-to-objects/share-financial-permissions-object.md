@@ -7,9 +7,9 @@ title: Share financial permissions on an object in Adobe Workfront
 description: Your Adobe Workfront administrator can grant you access to view or edit financial data when assigning your access level. For more information, see Grant access to financial data.
 ---
 
-# Share financial permissions on an object in *Adobe Workfront*
+# Share financial permissions on an object in `Adobe Workfront`
 
-Your *Adobe Workfront administrator* can grant you access to view or edit financial data when assigning your access level. For more information, see [Grant access to financial data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Your `Adobe Workfront administrator` can grant you access to view or edit financial data when assigning your access level. For more information, see [Grant access to financial data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View or Manage finances for specific projects, tasks, or issues that you have access to share.
 
@@ -24,16 +24,16 @@ You must have the following to share financial data information on objects:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -42,7 +42,7 @@ You must have the following to share financial data information on objects:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Share an object and grant financial permissions
 
@@ -55,17 +55,7 @@ To grant financial permissions to an object:
 
 <ol> 
  <li value="1">Go to a task, project, or issue that you want to share with others.</li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Near the name of the object, click the More menu 
-    <img src="assets/more-icon.png">, then click 
-    <span class="bold">Sharing</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Near the name of the object, click the More menu 
-   <img src="assets/more-icon.png">, then click 
-   <span class="bold">Sharing</span>.
-  </MadCap:conditionalText> </li> 
+ <li value="2"> Near the name of the object, click the More menu , then click Sharing. </li> 
  <li value="3"> <p>In the <span class="bold">Give <Object name>&nbsp;access to</span> field start typing the name of a user, team, role, group or a company that you want to share the object with.</p> <note type="tip">
    You can share an object only with active users, teams, 
    <span>roles,</span> or companies.

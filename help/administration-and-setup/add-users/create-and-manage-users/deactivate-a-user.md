@@ -18,13 +18,13 @@ description: The procedure described on this page applies only to organizations 
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Your users might leave the organization and you might need to remove them from *Adobe Workfront*. They should not remain active in the system because this would create confusion for other users when adding them to updates or assigning them work.
+Your users might leave the organization and you might need to remove them from `Adobe Workfront`. They should not remain active in the system because this would create confusion for other users when adding them to updates or assigning them work.
 
 >[!IMPORTANT]
 >
->We recommend that you deactivate users who have left the organization rather than deleting them. If a user is deleted, all history in *Workfront* associated with that user is lost. This includes their work assignments, their association with notes, hours, documents, and all other objects they have once created.
+>We recommend that you deactivate users who have left the organization rather than deleting them. If a user is deleted, all history in `Workfront` associated with that user is lost. This includes their work assignments, their association with notes, hours, documents, and all other objects they have once created.
 >
->Deactivating a user in *Workfront* removes the user's licenses to both *Workfront* and digital *proofing*. Additionally, the user can no longer be assigned work. When a user is deactivated, that user's *Workfront* license and *proofing* license become available to be used by another user; all other information in the deactivated user's profile remains as-is.
+>Deactivating a user in `Workfront` removes the user's licenses to both `Workfront` and digital `proofing`. Additionally, the user can no longer be assigned work. When a user is deactivated, that user's `Workfront` license and `proofing` license become available to be used by another user; all other information in the deactivated user's profile remains as-is.
 >
 >For more information about the impact of deleting and that of deactivating users, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -37,23 +37,19 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE">Users with a <em>Plan</em> license can deactivate any direct reports who are not <em>Workfront administrators</em>. They can also deactivate themselves.<br></p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE">Users with a <em>Plan</em> license can deactivate any direct reports who are not <em>Workfront administrators</em>. They can also deactivate themselves.<br></p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE">Users with a System Administrator access level can deactivate any user except for the main administrator.</p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE">Users with a System Administrator access level can deactivate any user except for the main administrator.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The System Administrator access level. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <em>group administrator</em> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b><img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if User <b>Admin (Group Users)</b> is enabled, you must be a <span>group administrator</span> of a group where the user is a member.</p> <p>For more information about the <b>Users</b> setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -61,35 +57,24 @@ You must have the following to perform the steps in this article:
 
 ## Deactivate a user immediately
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select a user, click the More icon <img src="assets/more-icon.png">, then click <b>Deactivate</b>.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select a user, click the More icon <img src="assets/more-icon.png">, then click <b>Deactivate</b>.</li> 
- <li value="3"> <p>Click <span class="bold">Deactivate</span> in the box that appears.<br></p> </li> 
-</ol>
+1. Click `Deactivate` in the box that appears.
 
 ## Schedule users for deactivation
 
 As a manager, you might want to mark users for deactivation before their actual leaving your organization. For example, if you are working with a user who is contractually bound, they are in your system for a limited period of time and you know their termination date. You can schedule them to become deactivated on that date.
 
-*Workfront administrators* and *Plan* license users can see the deactivation date in their user profile.
+`Workfront administrators` and `Plan` license users can see the deactivation date in their user profile.
 
 To schedule a user for deactivation:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Users . 
  <li value="2"> <p>Select the user's name.</p> <p>Or</p> <p>(Optional) Select multiple users to schedule them for deactivation in bulk.</p> </li> 
  <li value="3">Click <span class="bold">Edit</span>.</li> 
  <li value="4"> <p>In the <span class="bold">Resource Planning</span> area of the user profile box, click the <span class="bold">Schedule Deactivation</span> box to select it.<br></p> </li> 
  <li value="5"> <p>In the calendar that displays, specify the date and the time for the <span class="bold">Scheduled Deactivation Date</span>.</p> <note type="note">  
    <ul> 
     <li> In the time box, you can select only whole hour increments, not minutes.</li> 
-    <li>If you select a time for the current day which has passed, <em>Workfront</em> will schedule the deactivation for the following day at 12:00 AM. The time selected matches the computer timezone of the user who is scheduling the deactivation.</li> 
+    <li>If you select a time for the current day which has passed, <span>Workfront</span> will schedule the deactivation for the following day at 12:00 AM. The time selected matches the computer timezone of the user who is scheduling the deactivation.</li> 
    </ul> 
   </note> </li> 
  <li value="6"> <p>Click <span class="bold">Save Changes</span>.<br></p> <p>The user is deactivated on the selected day sometimes after the selected time. If you selected multiple users to deactivate in bulk, all selected users are deactivated on the selected day sometimes after the selected time.</p> </li> 
@@ -97,9 +82,9 @@ To schedule a user for deactivation:
 
 We recommend that you build a report for users that you have scheduled for deactivation, to keep informed about what users are coming up to be deactivated. There is no confirmation that the deactivation happened once the users become deactivated.
 
-## About deactivating *Workfront administrators* and *Plan* license users
+## About deactivating `Workfront administrators` and `Plan` license users
 
-Before you deactivate a *Workfront administrator* or a user with a *Plan* license, it's important to check for *Workfront* objects and activities involving that person, then associate them with another *Workfront administrator* or *Plan* license user as necessary.
+Before you deactivate a `Workfront administrator` or a user with a `Plan` license, it's important to check for `Workfront` objects and activities involving that person, then associate them with another `Workfront administrator` or `Plan` license user as necessary.
 
 These objects and activities might include the following:
 
@@ -108,7 +93,7 @@ These objects and activities might include the following:
 * Reports set up to run with the access rights of the user
 * Templates owned by the user
 * Projects and templates on which the user was set as a resource manager
-* Request queue routing rules on which the *Workfront administrator* or Plan license user is the Default Assignee
+* Request queue routing rules on which the `Workfront administrator` or Plan license user is the Default Assignee
 * Approval processes that have a stage including the user (especially if they were the only approver on the stage)
 * Timesheets that list the user as an approver
 * Timesheet profiles that list the user as an approver

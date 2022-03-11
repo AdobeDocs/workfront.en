@@ -15,21 +15,17 @@ A user who is designated as the `Project Owner` of a project and has `Manage` pe
 
 ## Cause
 
-The *Adobe Workfront administrator* restricted the user to viewing only Companies, Groups & Teams they belong to in the Access Level of the user. The team that the user is looking for is not one of their own teams.
+The `Adobe Workfront administrator` restricted the user to viewing only Companies, Groups & Teams they belong to in the Access Level of the user. The team that the user is looking for is not one of their own teams.
 
 ## Solution
 
-As a *Workfront administrator*, do the following:
+As a `Workfront administrator`, do the following:
 
 <ol> 
  <li value="1">Find the user and click to access it.</li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More menu</span> <img src="assets/more-icon.png"> next to the name of the user, then click&nbsp;<span class="bold">Edit</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">More menu</span> <img src="assets/more-icon.png"> next to the name of the user, then click&nbsp;<span class="bold">Edit</span>. </p> </li> 
+ <li value="2"> Click the More menu next to the name of the user, then click Edit. </li> 
  <li value="3">Click <span class="bold">Access</span> and make note of the name of the <span class="bold">Access Level</span> assigned to this user.</li> 
- <li value="4"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</p> </li> 
+ <li value="4"> Click the Main Menu icon in the upper-right corner of Adobe Workfront. </li> 
  <li value="5">Go to <span class="bold">Setup > Access Levels.</span></li> 
  <li value="6">Click the name of the <span class="bold">Access Level</span> to edit it.&nbsp;</li> 
  <li value="7"> <p>Deselect the following field: <span class="bold">View only companies, groups & teams they belong to.</span></p> <p> <img src="assets/view-only-team-groups-companies-they-belong-to-350x141.png" style="width: 350;height: 141;"> </p> </li> 

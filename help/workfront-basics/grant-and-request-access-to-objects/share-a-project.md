@@ -7,13 +7,13 @@ title: Share a project in Adobe Workfront
 description: Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see Grant access to projects.
 ---
 
-# Share a project in *Adobe Workfront*
+# Share a project in `Adobe Workfront`
 
-Your *Adobe Workfront administrator* can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Your `Adobe Workfront administrator` can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific projects that you have access to share.
 
-Permissions are specific to one item in *Workfront* and define what actions one can take on that item.
+Permissions are specific to one item in `Workfront` and define what actions one can take on that item.
 
 ## Considerations about sharing projects
 
@@ -21,7 +21,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 <ul> 
  <li> <p>By default, the creator of a project has permissions to manage the project and is also designated as the Project Owner. If the project is assigned to another owner, that user also has permissions to manage the project. When the project creator (or owner) shares the project with other users, they grant certain permissions to those users to control what they can do as they work on the project.</p> <p>However, if a project owner does not have a Planner license, they do not have full access to manage the project. Only a user with a Plan license can have permissions to manage a project. For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md" class="MCXref xref">How access levels and permissions work together</a>.</p> </li> 
- <li>You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in <em>Workfront</em>, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
+ <li>You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in <span>Workfront</span>, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
  <li> You can grant the following permissions to a project:&nbsp; 
   <ul>
    <li>View</li>
@@ -32,15 +32,9 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * When you share a project, all the tasks, issues, and documents inherit the same permissions, unless otherwise specified.
 
-  For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the 
+  For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the  section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
-  <!--
-  <a href="../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></a>
-  -->
-
-  [](../../manage-work/projects/manage-projects/edit-projects.md#access) section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
-
-  The *Workfront administrator* can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  The `Workfront administrator` can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * You can remove inherited permissions from a project so that the children objects will not inherit them.&nbsp;For more information about removing inherited permissions from objects, see&nbsp; [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -54,9 +48,9 @@ You can share a project in the following ways:
     For more information about adding users to a project team, see the "Adding Users to a Project Team" section in [Project Team overview](../../manage-work/projects/planning-a-project/project-team-overview.md). 
   * Individually or bulk-sharing the projects when using the `Sharing` option.
 
-    Sharing a project is similar to sharing all other objects in *Adobe Workfront*.
+    Sharing a project is similar to sharing all other objects in `Adobe Workfront`.
 
-    For information about sharing objects in *Workfront*, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+    For information about sharing objects in `Workfront`, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 <ul> 
  <li> <p>Automatically, by doing one of the following: </p> 
@@ -73,67 +67,12 @@ You can share a project in the following ways:
 </ul>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To view what users have inherited the access on the project from a portfolio or a program, do the following:</p>
-<ol style="list-style-type: lower-alpha;">
-<li value="1">Go to a project whose sharing permissions you want to view. </li>
-<li value="2"> <draft-comment>
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Click the
-<span class="bold">More</span> menu
-<img src="assets/more-icon.png">, then click
-<span class="bold">Sharing</span>.
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Click the
-<span class="bold">More</span> menu
-<img src="assets/more-icon.png">, then click
-<span class="bold">Sharing</span>.
-</MadCap:conditionalText> </li>
-<li value="3"> <p>Expand the <span class="bold">Inherited Permissions</span> list. </p> <p>This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project. </p> <p> <img src="assets/screen-shot-2014-01-22-at-10.13.10-am-350x284.png" style="width: 350;height: 284;"> </p> </li>
-</ol>
-</div>
+To view what users have inherited the access on the project from a portfolio or a program, do the following: Go to a project whose sharing permissions you want to view. Click the More menu , then click Sharing. Expand the Inherited Permissions list. This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project.
 -->
-
-To view what users have inherited the access on the project from a portfolio or a program, do the following:
-
-<ol style="list-style-type: lower-alpha;"> 
- <li value="1">Go to a project whose sharing permissions you want to view. </li> 
- <li value="2"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the 
-   <span class="bold">More</span> menu 
-   <img src="assets/more-icon.png">, then click 
-   <span class="bold">Sharing</span>.
-  </MadCap:conditionalText> </li> 
- <li value="3"> <p>Expand the <span class="bold">Inherited Permissions</span> list. </p> <p>This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project. </p> <p> <img src="assets/screen-shot-2014-01-22-at-10.13.10-am-350x284.png" style="width: 350;height: 284;"> </p> </li> 
-</ol>
 
 <!--
-<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch.</li>
-<li value="2"> <draft-comment>
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Click the More menu, then click
-<span class="bold">Sharing</span>.
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-Click the More menu, then click
-<span class="bold">Sharing</span>.
-</MadCap:conditionalText> </li>
-<li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <span class="bold">Set as my project access template</span>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the <em>Workfront administrator</em> in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li>
-<li value="4">Click <span class="bold">Save</span>.</li>
-</ol>
+Go to a project whose sharing permissions you want for all projects you create from scratch. Click the More menu, then click Sharing. In the Project Access box that displays, near the upper-right corner, click the gear icon , then click Set as my project access template. The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future. The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level. For more information about specifying sharing defaults for projects in the Access Level, see Grant access to projects. Click Save.
 -->
-
-<ol data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
- <li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch.</li> 
- <li value="2"> <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the More menu, then click 
-   <span class="bold">Sharing</span>.
-  </MadCap:conditionalText> </li> 
- <li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <span class="bold">Set as my project access template</span>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the <em>Workfront administrator</em> in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li> 
- <li value="4">Click <span class="bold">Save</span>.</li> 
-</ol>
 
 ## Limitations for different license types
 
@@ -143,64 +82,8 @@ Click the More menu, then click
 * To be able to copy a project, a user must also have access to create projects in their Access Level.
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Configuring_Default_Permissions_for_Access_Levels_in_a_Project"></a>Configure default permissions for a project</h2>
-<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#sharing-a-project" class="MCXref xref">Ways to share a project</a>. </p>
-<p>To configure the default permissions that are included with each access level:</p>
-<ol>
-<li value="1">Go to the project where you want to set the default permissions.</li>
-<li value="2"> <p>Click <draft-comment>
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-the More menu
-<img src="assets/more-icon.png">, then click
-<span class="bold">Edit</span>.
-<img src="assets/edit-icon.png">
-</MadCap:conditionalText>
-</draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-the More menu
-<img src="assets/more-icon.png">, then click
-<span class="bold">Edit</span>.
-<img src="assets/edit-icon.png">
-</MadCap:conditionalText></p> <draft-comment>
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p>
-</draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p> </li>
-<li value="3">Click <span class="bold">Access</span> in the list on the left.</li>
-<li value="4"> <p>In the <span class="bold">When someone is given access to this PROJECT</span> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#understanding-project-permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
-The
-<span class="bold">Delete</span> access in the
-<span class="bold">Manage</span> permission level determines whether users can&nbsp;delete the project itself. Users with
-<span class="bold">Manage</span> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have
-<span class="bold">Manage</span> permissions to the tasks and issues.&nbsp;
-</note> </li>
-<li value="5">Click <span class="bold">Save Changes</span>.</li>
-</ol>
-</div>
+Configure default permissions for a project As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in Ways to share a project. To configure the default permissions that are included with each access level: Go to the project where you want to set the default permissions. Click the More menu , then click Edit. Click Access in the list on the left. In the When someone is given access to this PROJECT section, select permissions that you want to be available when users are given access to the project via sharing. Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level. To view which permissions are available for each level, see Share a project in Adobe Workfront. Note: The Delete access in the Manage permission level determines whether users can delete the project itself. Users with Manage access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have Manage permissions to the tasks and issues. Click Save Changes.
 -->
-
-## Configure default permissions for a project
-
-As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in [Ways to share a project](#sharing-a-project).
-
-To configure the default permissions that are included with each access level:
-
-<ol> 
- <li value="1">Go to the project where you want to set the default permissions.</li> 
- <li value="2"> <p>Click <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    the More menu 
-    <img src="assets/more-icon.png">, then click 
-    <span class="bold">Edit</span>. 
-    <img src="assets/edit-icon.png">
-   </MadCap:conditionalText></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p> </li> 
- <li value="3">Click <span class="bold">Access</span> in the list on the left.</li> 
- <li value="4"> <p>In the <span class="bold">When someone is given access to this PROJECT</span> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#understanding-project-permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
-    The 
-   <span class="bold">Delete</span> access in the 
-   <span class="bold">Manage</span> permission level determines whether users can&nbsp;delete the project itself. Users with 
-   <span class="bold">Manage</span> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have 
-   <span class="bold">Manage</span> permissions to the tasks and issues.&nbsp;
-  </note> </li> 
- <li value="5">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
 
 ## Project permission options
 

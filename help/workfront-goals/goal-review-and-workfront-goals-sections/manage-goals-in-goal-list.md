@@ -6,9 +6,9 @@ title: Manage goals in the Goal List of Adobe Workfront Goals
 description: After you or other users create goals, you can review their progress and information in the Goal List. For information about creating goals, see Create goals in Adobe Workfront Goals.
 ---
 
-# Manage goals in the *Goal List* of *Adobe Workfront Goals*
+# Manage goals in the `Goal List` of `Adobe Workfront Goals`
 
-After you or other users create goals, you can review their progress and information in the *Goal List*. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+After you or other users create goals, you can review their progress and information in the `Goal List`. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 ## Access requirements
 
@@ -19,46 +19,29 @@ You must have the following access to perform the actions described in this arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <em>Adobe Workfront Goals</em> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see:</p> 
+   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Object permissions</td> 
-    <td> 
-     <div> 
-      <p>View or higher permissions on goals</p> 
-      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
-     </div> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-    <div> 
-     <p>View or higher permissions on goals</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
-    </div> </td> 
-  </tr> 
+  </tr> Object permissions View or higher permissions on goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -66,30 +49,30 @@ You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main&nbsp;Menu.
 
-## Manage goals in the *Goal List*
+## Manage goals in the `Goal List`
 
-You can view and manage goals in the following sections of *Workfront Goals*:
+You can view and manage goals in the following sections of `Workfront Goals`:
 
-* *Goal List* 
-* *Goal Alignment* 
-* *Pulse* 
-* *Check-in*
+* `Goal List` 
+* `Goal Alignment` 
+* `Pulse` 
+* `Check-in`
 
 Each section displays goals in slightly different formats. Which section you use depends on the purpose you want to achieve as you are working with goals.
 
 For more information, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
-This article describes how to review goals in the *Goal List*.
+This article describes how to review goals in the `Goal List`.
 
-Consider the following when reviewing the *Goal List*:
+Consider the following when reviewing the `Goal List`:
 
-* You can view goals that you or anyone else in your organization created in the *Goal List*. 
+* You can view goals that you or anyone else in your organization created in the `Goal List`. 
 * This is a combined list that displays goals, as well as results, activities, or projects associated with the goals.
 
-To review goals in the *Goal List*:
+To review goals in the `Goal List`:
 
 <ol> 
- <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner. </p> <p> <img src="assets/main-menu-align-icon-highlighted-350x463.png" style="width: 350;height: 463;"> </p> <p>The <em>Goal List</em> section displays by default. You can view goals regardless of their status, period, or owner, by default. </p> <p>The list of goals contains the following columns with information about each goal: </p> 
+ <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner. </p> <p> <img src="assets/main-menu-align-icon-highlighted-350x463.png" style="width: 350;height: 463;"> </p> <p>The <span>Goal List</span> section displays by default. You can view goals regardless of their status, period, or owner, by default. </p> <p>The list of goals contains the following columns with information about each goal: </p> 
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -129,7 +112,7 @@ To review goals in the *Goal List*:
     </tr> 
    </tbody> 
   </table> </li> 
- <li value="2"> <p><span>Use the filters in the upper-right corner of the goal list to select only goals that are important to you. For information about using filters in <em>Workfront Goals</em>, see </span><a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a> </p> </li> 
+ <li value="2"> <p><span>Use the filters in the upper-right corner of the goal list to select only goals that are important to you. For information about using filters in <span>Workfront Goals</span>, see </span><a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a> </p> </li> 
  <li value="3"> <p>Click any of the fields in the column headers to sort it by that field. </p> <p>A<span>n arrow</span> displays to the right of the field by which the list is sorted. </p> <p> <img src="assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png" style="width: 350;height: 117;"> </p> </li> 
  <li value="4">(Optional) Click the field in the column again to sort the same column in a descending order. </li> 
  <li value="5"> <p>Click&nbsp;the right-pointing arrow to the left of the goal name to expand a goal</p> <p>Or</p> <p>Click <span>the right-pointing arrow <img src="assets/right-pointing-arrow.png"> in the header of the list </span>to expand all the goals in the list and view additional information about each goal, including any of the following:</p> 

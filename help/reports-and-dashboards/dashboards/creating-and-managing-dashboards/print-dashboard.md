@@ -23,16 +23,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 ## Understand what information is printed when printing a dashboard
 
-When printing a dashboard or saving it as a PDF file, some information from the dashboard, as it appears in the *Adobe Workfront* web application, may not appear on the printed or exported file.
+When printing a dashboard or saving it as a PDF file, some information from the dashboard, as it appears in the `Adobe Workfront` web application, may not appear on the printed or exported file.
 
 * [What is displayed?](#what-is-displayed) 
 * [What is not displayed?](#what-is-not-displayed)
@@ -64,14 +64,14 @@ The following information is included in the printed or exported dashboard file:
 * Report titles
 * Timestamp of when the report was last generated
 * All objects on the dashboard, including list views, external web pages, reports, and calendars
-* Your company’s logo, if your *Workfront administrator* has customized it in your Global Navigation Bar. For more information about branding the *Workfront* site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+* Your company’s logo, if your `Workfront administrator` has customized it in your Global Navigation Bar. For more information about branding the `Workfront` site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### What is not displayed?
 
 The following information is not included in the printed or exported dashboard file:&nbsp;
 
-* The *Workfront* navigation bar
-* Any other formatting that is specific to *Workfront*
+* The `Workfront` navigation bar
+* Any other formatting that is specific to `Workfront`
 * Depending on the size of your reports and the number and width of individual columns, exporting and printing a dashboard might&nbsp;result in some columns being cut off.
 
 ## Print a dashboard

@@ -23,47 +23,25 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Aggregator module
 
@@ -82,15 +60,15 @@ The following image shows a typical setup of the aggregator module :
  <tbody> 
   <tr> 
    <td> <p>Source Module</p> </td> 
-   <td> <p>The module from which the bundle aggregation will start. The source module is usually an iterator or a search module that outputs a series of bundles. When you setup the aggregator's source module (and close the aggregator's setup), the route between the source module and the aggregator module are wrapped in a grey area so that you can see clearly the start and the end of the aggregation. <draft-comment>
-      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SHOW&nbsp;THIS</span>
-     </draft-comment><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SHOW&nbsp;THIS</span></p> <p>For more information on iterators, see <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Iterator module</a></p> <p>For more information on search modules see search modules in <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Types of modules</a>.</p> </td> 
+   <td> <p>The module from which the bundle aggregation will start. The source module is usually an iterator or a search module that outputs a series of bundles. When you setup the aggregator's source module (and close the aggregator's setup), the route between the source module and the aggregator module are wrapped in a grey area so that you can see clearly the start and the end of the aggregation. <!--
+      SHOW THIS
+     --></p> <p>For more information on iterators, see <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Iterator module</a></p> <p>For more information on search modules see search modules in <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Types of modules</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Target structure type</p> </td> 
-   <td> <p>(Applicable only for the Array aggregator module.) The target structure into which the data shall be aggregated. The default option, Custom, enables you to choose items that should be aggregated into the Array aggregator's output bundle's <code>Array </code>item:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Once you connect more modules after the Array aggregator module and get back to the module's setup, the Target structure type dropdown will contain all following modules and their fields that are of type Array of Collections, as shown in the Attachments field of the Slack &gt; Create a Message module:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The video below explains how the modules connected after an Array aggregator affects the content of Target structure type dropdown:</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The video below explains how the modules connected after an Array aggregator affects the content of Target structure type dropdown:</p> </td> 
+   <td> <p>(Applicable only for the Array aggregator module.) The target structure into which the data shall be aggregated. The default option, Custom, enables you to choose items that should be aggregated into the Array aggregator's output bundle's <code>Array </code>item:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Once you connect more modules after the Array aggregator module and get back to the module's setup, the Target structure type dropdown will contain all following modules and their fields that are of type Array of Collections, as shown in the Attachments field of the Slack &gt; Create a Message module:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> <!--
+     The video below explains how the modules connected after an Array aggregator affects the content of Target structure type dropdown:
+    --> </td> 
   </tr> 
   <tr> 
    <td>Aggregated fields</td> 
@@ -116,16 +94,12 @@ The following image shows a typical setup of the aggregator module :
 >Bundles generated by modules between the source module and the aggregator module are not outputted by the aggregator module, so they are not accessible by the modules in the flow after the aggregator. If you need any data from a bundle outputted by a module between the source module and the aggregator module, make sure to include the given item in the aggregator module's setup (as in the Aggregated fields field in the setup of the Array aggregator module).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Learn when to use an Array Aggregator in your scenarios</h2>
+Learn when to use an Array Aggregator in your scenarios
 -->
-
-## Learn when to use an Array Aggregator in your scenarios
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The video below is module 2 of the 3 part lesson titled Iterator and Array Aggregator. It is a continuation of module 1 (video link) and using a sample scenario, explains when to use an Array aggregator and what to do with the output.</p>
--->
-
 The video below is module 2 of the 3 part lesson titled Iterator and Array Aggregator. It is a continuation of module 1 (video link) and using a sample scenario, explains when to use an Array aggregator and what to do with the output.
+-->
 
 ` `**Example: **`` Use Case: Zipping all email attachments and uploading the ZIP to Dropbox
 

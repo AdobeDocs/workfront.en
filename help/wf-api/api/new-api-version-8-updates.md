@@ -10,7 +10,7 @@ description: The following existing resources have been updated with this releas
 
 ## Updated Resources
 
-The following existing resources have been updated with this release of the *Adobe Workfront* API. To view the resources that are new to versions 8, please see [What's New in API Version 8](../../wf-api/api/new-api-version-8.md). Changes made to a resource are indicated in the following manner:
+The following existing resources have been updated with this release of the `Adobe Workfront` API. To view the resources that are new to versions 8, please see [What's New in API Version 8](../../wf-api/api/new-api-version-8.md). Changes made to a resource are indicated in the following manner:
 
 * Additions are simply listed
 * Removals are indicated with strikethrough text

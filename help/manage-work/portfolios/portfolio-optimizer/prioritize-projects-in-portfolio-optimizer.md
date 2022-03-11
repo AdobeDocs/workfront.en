@@ -33,16 +33,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> licenses*</td> 
-   <td> <p><em>Business</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> licenses*</td> 
+   <td> <p><span>Business</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -51,40 +51,16 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Change the priority of the projects in the Portfolio Optimizer
 
 <ol> 
- <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> 
- <li value="2"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click&nbsp;
-    <span class="bold">Portfolios</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click&nbsp;
-   <span class="bold">Portfolios</span>.
-  </MadCap:conditionalText></li> 
- <li value="3"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    (Optional) Select the correct filter in the 
-    <span class="bold">Filter</span> drop-down menu, to view the correct list of portfolios. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   (Optional) Select the correct filter in the 
-   <span class="bold">Filter</span> drop-down menu, to view the correct list of portfolios. 
-  </MadCap:conditionalText> </li> 
+ <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>.</li> 
+ <li value="2"> Click Portfolios.</li> 
+ <li value="3"> (Optional) Select the correct filter in the Filter drop-down menu, to view the correct list of portfolios. </li> 
  <li value="4">Click the name of a portfolio to open it. </li> 
- <li value="5"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click 
-    <span class="bold">Portfolio Optimization</span> in the left panel. 
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click 
-   <span class="bold">Portfolio Optimization</span> in the left panel. 
-  </MadCap:conditionalText></li> 
+ <li value="5"> Click Portfolio Optimization in the left panel.</li> 
  <li value="6"> <p>In the <span class="bold">Project Prioritization</span> section,&nbsp;alter the priority of your projects by clicking the gray area next to the number of the project and dragging it to the desired display position.<br></p> <p> Click the <span class="bold">Set Priority</span> button in the Optimizer tools area when you finish re-arranging your projects. The projects will receive a new number&nbsp;based on the new order.</p> </li> 
  <li value="7"> <p>Click <span class="bold">Save</span> to save the new project priority in the Portfolio Optimizer.</p> <note type="note">
    This does not necessarily change the order of the projects in the Portfolio Optimizer. The priority is listed as a number in the number (

@@ -4,14 +4,14 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Close your Workfront Proof account
-description: Important: This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see Proofing.
+description: After completing the steps in this section, your account will be closed immediately. All data in your account will be deleted and cannot be restored.
 ---
 
-# Close your *Workfront Proof* account
+# Close your `Workfront Proof` account
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product *Workfront Proof*. For information on proofing inside *Adobe Workfront*, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product `Workfront Proof`. For information on proofing inside `Adobe Workfront`, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 &nbsp;After completing the steps in this section, your account will be closed immediately. All data in your account will be deleted and cannot be restored.
 

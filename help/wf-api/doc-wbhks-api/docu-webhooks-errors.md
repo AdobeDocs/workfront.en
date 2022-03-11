@@ -13,7 +13,7 @@ Problems can arise when processing API requests. This should be handled in a con
 
 * Include an error code in the response header. Error codes include:
 
-  * 403 - Forbidden. Indicates that either the request tokens are missing or invalid, or that credentials associated with the tokens don’t have access to the specified resource. For OAuth-based webhook providers, *Adobe Workfront* will attempt to retrieve new access tokens.
+  * 403 - Forbidden. Indicates that either the request tokens are missing or invalid, or that credentials associated with the tokens don’t have access to the specified resource. For OAuth-based webhook providers, `Adobe Workfront` will attempt to retrieve new access tokens.
   * 404 - Not found. Indicates that the specified file or folder doesn’t exist.
   * 500 - Internal Server Error. Any other type of error.
 

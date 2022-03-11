@@ -8,7 +8,7 @@ description: The purpose of the dashboard is to provide quick access to informat
 
 # Edit a dashboard
 
-The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with the following items in *Adobe Workfront*:
+The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with the following items in `Adobe Workfront`:
 
 * Reports
 
@@ -37,16 +37,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -55,7 +55,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -67,11 +67,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 <ol> 
  <li value="1"> <p>Go to the dashboard that you want to edit.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Dashboard Actions</span>, then click <span class="bold">Edit</span>.</p> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <draft-comment>
-     <img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    </draft-comment><img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-dashboard-actions-menu-350x318.png" style="width: 350;height: 318;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <note type="tip">
+ <li value="2"> <p>Click <span class="bold">Dashboard Actions</span>, then click <span class="bold">Edit</span>.</p>  <note type="tip">
    To learn how to delete a dashboard, see 
    <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md" class="MCXref xref">Delete a dashboard</a>.
    <br>
@@ -83,7 +79,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
   </ul></li> 
  <li value="4">In the <span class="bold">Available Reports & Calendars</span> section, start typing the name of a report, calendar, or external page in the <span class="bold">Search by name or type ...</span> field, then drag and drop the report or calendar in the layout pane to the right.<br><note type="note">
    &nbsp;When searching for an item, the search returns any of the 2,000 most recently created reports.&nbsp;Report names that include unicode characters are not returned in search results. As a best practice, avoid including&nbsp;unicode characters when naming objects in 
-   <em>Workfront</em>&nbsp;by typing names rather than copying and pasting names from another source.
+   <span>Workfront</span>&nbsp;by typing names rather than copying and pasting names from another source.
   </note></li> 
  <li value="5">(Optional) Select a new layout for the dashboard by clicking a radio button corresponding to the layout you want.</li> 
  <li value="6">(Optional) Mouse over the name of an existing report and click the trash can icon to remove it from the dashboard.</li> 

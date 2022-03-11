@@ -19,10 +19,8 @@ A POP email account in Microsoft Exchange is disabled.
 Before spending time troubleshooting the problem, ensure the user's POP account is configured properly. If you continue to experience problems after you confirm the POP account is correctly configured, contact Microsoft Support or one of their partners for additional help.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in <em>Adobe Workfront</em>, see .</p>
+For instructions on integrating a POP account in Adobe Workfront, see .
 -->
-
-For instructions on integrating a POP account in *Adobe Workfront*, see .
 
 ## Access requirements
 
@@ -33,16 +31,16 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a <em>Workfront administrator</em>. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a <span>Workfront administrator</span>. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +49,7 @@ You must have the following to perform the steps in this article:
 
 >[!NOTE]
 >
->The following steps may be used as a general guide for configuring POP in Microsoft Exchange for a production *Workfront* system. The steps may differ significantly depending on the version of Exchange or the code changes made by Microsoft.
+>The following steps may be used as a general guide for configuring POP in Microsoft Exchange for a production `Workfront` system. The steps may differ significantly depending on the version of Exchange or the code changes made by Microsoft.
 
 <ol> 
  <li value="1">Start and enable the POP3 service on the Exchange 2010 server. <br><note type="note">
@@ -77,7 +75,7 @@ You must have the following to perform the steps in this article:
   <ol>
    <li value="1">Start the Microsoft&nbsp;Exchange&nbsp;Management console.</li>
    <li value="2"><p>Navigate: Microsoft <span class="bold">Exchange On-Premise</span> > <span class="bold">Recipient Configuration</span> > <span class="bold">Mailbox.</span></p><p>A list of mailboxes or users displays.</p></li>
-   <li value="3">Highlight the email being used within <em>Workfront</em>.</li>
+   <li value="3">Highlight the email being used within <span>Workfront</span>.</li>
    <li value="4">On the right side under <span class="bold">Actions</span>, select <span class="bold">Properties</span>, then open the <span class="bold">Mailbox Features</span> tab.</li>
    <li value="5"><p>(Conditional) If POP3 is disabled, click <span class="bold">POP3</span>, then click <span class="bold">Enable</span>.</p><p>A list of mailboxes or users displays.</p></li>
   </ol></li> 

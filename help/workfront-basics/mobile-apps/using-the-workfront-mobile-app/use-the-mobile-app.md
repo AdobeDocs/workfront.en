@@ -6,7 +6,7 @@ title: Use the Adobe Workfront mobile app
 description: This section contains the following articles:
 ---
 
-# Use the *Adobe Workfront* mobile app
+# Use the `Adobe Workfront` mobile app
 
 This section contains the following articles:
 
@@ -20,10 +20,9 @@ This section contains the following articles:
 * [Share and download proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-mobile.md" class="MCXref xref" xrefformat="{para}">Comment on proofs in the Adobe Workfront mobile app</a> </li>
+  Comment on proofs in the Adobe Workfront mobile app
   -->
 
-* [Comment on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-mobile.md) 
 * [Approvals in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md) 
 * [Adobe Workfront for Mobile Device Management (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md) 
 * [Configure Adobe Workfront for MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) 

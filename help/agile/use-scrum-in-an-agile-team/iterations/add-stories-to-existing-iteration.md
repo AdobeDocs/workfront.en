@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,17 +44,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Understand how adding stories affects task dates
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-By default, when
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver"> By default, when</MadCap:conditionalText>` you add an existing task to an iteration, the task's Planned Start Date and Planned Completion Date are set as follows:
+By default, when you add an existing task to an iteration, the task's Planned Start Date and Planned Completion Date are set as follows:
 
 ### `Task Planned Start Date`
 
@@ -78,11 +72,7 @@ By default, when
 
   * The project's Planned Start Date is&nbsp;*after*&nbsp;the iteration's Start Date&nbsp;and&nbsp;the project's Planned Completion Date is&nbsp;*after*&nbsp;the iteration's End Date.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section <a href="../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5" class="MCXref xref">Configure how dates are applied when adding work items to an iteration</a> in the article <a href="../../../agile/get-started-with-agile-in-workfront/configure-scrum.md" class="MCXref xref">Configure Scrum</a>. </p>
--->
-
-You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section Configure how dates are applied when adding work items to an iteration in the article Configure Scrum. 
 
 ## Add a story to an existing iteration
 
@@ -102,10 +92,7 @@ You can add any task or issue to any iteration if&nbsp;you have Manage access to
 
 <ol> 
  <li value="1">Go to the project, report, or dashboard that contains the task or issue you want to add to an iteration.</li> 
- <li value="2">Select one or more tasks or issues.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">More</span> <img src="assets/more-icon.png"> > <span class="bold">Add to Iteration</span>.<br>You cannot assign tasks or issues assigned to non-agile teams.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">More</span> <img src="assets/more-icon.png"> > <span class="bold">Add to Iteration</span>.<br>You cannot assign tasks or issues assigned to non-agile teams.</li> 
+ <li value="2">Select one or more tasks or issues.</li> Click More > Add to Iteration. You cannot assign tasks or issues assigned to non-agile teams. 
  <li value="4"> <p>In the <span class="bold">Add Stories</span> box, type the name of the iteration.</p> <note type="note">
    You can move a story from an existing iteration to a new iteration.
   </note> </li> 

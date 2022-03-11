@@ -6,13 +6,13 @@ title: Review graphs to understand goal progress trends in Adobe Workfront Goals
 description: You can view the overall health of your goals and their progress trend in time in the Graphs section of Adobe Workfront Goals. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
 ---
 
-# Review graphs to understand goal progress trends in *Adobe Workfront Goals*
+# Review graphs to understand goal progress trends in `Adobe Workfront Goals`
 
-You can view the overall health of your goals and their progress trend in time in the Graphs section of *Adobe Workfront Goals*. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
+You can view the overall health of your goals and their progress trend in time in the Graphs section of `Adobe Workfront Goals`. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
 
 >[!IMPORTANT]
 >
->You can see a total count for your goals in the Graphs section for a selected period of time.&nbsp;However, *Workfront Goals* takes into account only goals with a status of Active and Closed when calculating the overall goal progress status and percent complete.
+>You can see a total count for your goals in the Graphs section for a selected period of time. However, `Workfront Goals` takes into account only goals with a status of Active and Closed when calculating the overall goal progress status and percent complete.
 
 ## Access requirements
 
@@ -23,46 +23,29 @@ You must have the following access to perform the actions described in this arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Request</em> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Request</span> or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the <em>Adobe Workfront Goals</em> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the <span>Adobe Workfront Goals</span> to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see:</p> 
+   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader">Object permissions</td> 
-    <td> 
-     <div> 
-      <p>View or higher permissions on goals</p> 
-      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
-     </div> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-    <div> 
-     <p>View or higher permissions on goals</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
-    </div> </td> 
-  </tr> 
+  </tr> Object permissions View or higher permissions on goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -70,9 +53,9 @@ You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main&nbsp;Menu.
 
-## Types of graphs in *Workfront Goals*
+## Types of graphs in `Workfront Goals`
 
-The following charts are available in the Graphs section or *Workfront Goals*: 
+The following charts are available in the Graphs section or `Workfront Goals`: 
 
 <table cellspacing="0"> 
  <col> 
@@ -84,7 +67,7 @@ The following charts are available in the Graphs section or *Workfront Goals*:
     <ul> 
      <li>A total number of goals for the selected period of time. Goals with any status are taken into account. </li> 
      <li>The progress status of goals with a status of Active and Closed.</li> 
-    </ul> <p>For information about how <em>Workfront Goals</em> calculates progress status, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>.</p> </td> 
+    </ul> <p>For information about how <span>Workfront Goals</span> calculates progress status, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">The Goal Progress Chart</td> 
@@ -100,7 +83,7 @@ The following charts are available in the Graphs section or *Workfront Goals*:
 ## Review goal progress in graphs
 
 <ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <em>Workfront Goals</em> area. </p> </p> </li> 
+ <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the <span>Workfront Goals</span> area. </p> </p> </li> 
  <li value="2"> <p>Click <span class="bold">Graphs</span> in the left panel. </p> <p> <img src="assets/graphs-in-left-panel.png"> </p> <p>The Graphs section displays. </p> <p>By default, the goals displayed in the Graphs section are limited by the following criteria:&nbsp;</p> 
   <ul> 
    <li>The filters applied to the Graphs area. </li> 
@@ -153,78 +136,7 @@ The following charts are available in the Graphs section or *Workfront Goals*:
 </ol>
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(Optional) Click one of the following tabs to view goals filtered by their owners: </p>
-<div>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Personal</td>
-<td>Goals where you are designated as the owner or that have a result or activity that you own.&nbsp;</td>
-</tr>
-<tr>
-<td role="rowheader">My Teams</td>
-<td> <p>Goals where any of your teams is designated as the Owner. </p> <note type="tip">
-<span>If you are not assigned to any teams, no results display when you select the My Teams filter. </span>
-</note> </td>
-</tr>
-<tr>
-<td role="rowheader">My Groups</td>
-<td>Goals where any of your groups is designated as the Owner. </td>
-</tr>
-<tr>
-<td role="rowheader">Company</td>
-<td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your <em>Workfront</em> instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p>
-<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-<span class="autonumber"><span><b>Tip: </b></span></span>
-<p>In <em>Adobe Workfront Goals</em>, the Company filter displays the goals for which your organization is selected as the owner. </p>
-<p>You cannot search for companies using this field. Only your organization who is the owner of your <em>Workfront</em> instance is selected by default. </p>
-</div> </td>
-</tr>
-<tr>
-<td role="rowheader">All</td>
-<td>Goals owned by you, your teams, your groups, your company, or anyone in your organization.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
+(Optional) Click one of the following tabs to view goals filtered by their owners: Personal Goals where you are designated as the owner or that have a result or activity that you own. My Teams Goals where any of your teams is designated as the Owner. Tip: If you are not assigned to any teams, no results display when you select the My Teams filter. My Groups Goals where any of your groups is designated as the Owner. Company Goals where your organization is the owner. This is the organization associated with your Workfront instance, as described in Configure basic information for your system. Tip: In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. All Goals owned by you, your teams, your groups, your company, or anyone in your organization.
 -->
-
-(Optional) Click one of the following tabs to view goals filtered by their owners:
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Personal</td> 
-   <td>Goals where you are designated as the owner or that have a result or activity that you own.&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">My Teams</td> 
-   <td> <p>Goals where any of your teams is designated as the Owner. </p> <p>Tip: <span>If you are not assigned to any teams, no results display when you select the My Teams filter. </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">My Groups</td> 
-   <td>Goals where any of your groups is designated as the Owner. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Company</td> 
-   <td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your <em>Workfront</em> instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p> 
-    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-     <span class="autonumber"><span><b>Tip: </b></span></span> 
-     <p>In <em>Adobe Workfront Goals</em>, the Company filter displays the goals for which your organization is selected as the owner. </p> 
-     <p>You cannot search for companies using this field. Only your organization who is the owner of your <em>Workfront</em> instance is selected by default. </p> 
-    </div> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">All</td> 
-   <td>Goals owned by you, your teams, your groups, your company, or anyone in your organization.</td> 
-  </tr> 
- </tbody> 
-</table>
 
 &nbsp;

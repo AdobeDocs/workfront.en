@@ -10,17 +10,17 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 >[!NOTE]
 >
->We are no longer developing the Resource Scheduling tools and they will soon be removed from *Adobe Workfront*. We recommend that you use the *Workload Balancer* for scheduling your resources. 
+>We are no longer developing the Resource Scheduling tools and they will soon be removed from `Adobe Workfront`. We recommend that you use the `Workload Balancer` for scheduling your resources. 
 >
->For information about scheduling resources using the new *Workload Balancer*, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
+>For information about scheduling resources using the new `Workload Balancer`, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the *Workload Balancer*, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>For more information about the timeline for removing the Resource Scheduling tools and replacing them with the `Workload Balancer`, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-You can allow *Adobe Workfront* to analyze current work assignments across your available users and propose intelligent, logical assignments for any tasks or issues that are not yet assigned. You can modify any proposed assignments prior to finalizing the assignments.
+You can allow `Adobe Workfront` to analyze current work assignments across your available users and propose intelligent, logical assignments for any tasks or issues that are not yet assigned. You can modify any proposed assignments prior to finalizing the assignments.
 
-*Workfront* looks at the tasks and issues available in the Unassigned area within the currently selected date range and proposes assignments for each item at one time. You can create a filter to limit the number of items available in the Unassigned area.
+`Workfront` looks at the tasks and issues available in the Unassigned area within the currently selected date range and proposes assignments for each item at one time. You can create a filter to limit the number of items available in the Unassigned area.
 
-Your system administrator determines how *Workfront* calculates resource availability at the system level (considering hours as well as FTE availability). Depending on this system-wide setting, resource availability is calculated either using the default schedule or the user's schedule. For more information, see [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md).
+Your system administrator determines how `Workfront` calculates resource availability at the system level (considering hours as well as FTE availability). Depending on this system-wide setting, resource availability is calculated either using the default schedule or the user's schedule. For more information, see [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md).
 
 ## Access requirements
 
@@ -31,16 +31,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Projects, Tasks, and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Projects, Tasks, and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -49,18 +49,18 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
-*Workfront* uses a proprietary algorithm to determine assignment proposals. To facilitate the best results, ensure that the following information is accurate in *Workfront*:
+`Workfront` uses a proprietary algorithm to determine assignment proposals. To facilitate the best results, ensure that the following information is accurate in `Workfront`:
 
 * Task and issue information, including:
 
   * Role assignments   
     No proposal is made for tasks and issues that are not assigned to a role.
   * Planned Hours  
-    If a task or issue currently has no planned hours, *Workfront* assumes 4 planned hours per workday when automatically assigning work. These hours are not automatically assigned to the work item; they are used only to ensure more realistic assignment distributions.
+    If a task or issue currently has no planned hours, `Workfront` assumes 4 planned hours per workday when automatically assigning work. These hours are not automatically assigned to the work item; they are used only to ensure more realistic assignment distributions.
   
   * Planned Start Dates and Planned Completion Dates
 
@@ -89,37 +89,11 @@ To set limits for job role assignments:
 <ol> 
  <p>Go to the scheduling timeline for multiple projects or for an individual project:</p> 
  <ul> 
-  <li> <p><b>For multiple projects</b>:&nbsp; <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Click the 
-     <span class="bold">Main Menu</span> icon 
-     <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-     <em>Workfront</em>, click 
-     <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-     <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-    </MadCap:conditionalText></p> </li> 
-  <li> <p><b>For an individual project</b>: <draft-comment>
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText>
-    </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-      Go to a project, click the 
-     <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-     <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-    </MadCap:conditionalText></p> </li> 
+  <li> <p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p> </li> 
+  <li> <p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p> </li> 
  </ul> 
  <li value="1">Click the <span class="bold">Settings</span> icon.<br><img src="assets/automode-settings.png" alt="Automode_settings.png"></li> 
- <li value="2">In the Automated Resource Scheduling section, click in the <span class="bold">Limit</span> column inline with the item in the <span class="bold">Role</span> column and enter a positive number.<br><em>Workfront</em> automatically saves your changes.<br> <note type="note">  All current project team members are automatically eligible for all recommended work regardless of the role limit set. 
+ <li value="2">In the Automated Resource Scheduling section, click in the <span class="bold">Limit</span> column inline with the item in the <span class="bold">Role</span> column and enter a positive number.<br><span>Workfront</span> automatically saves your changes.<br> <note type="note">  All current project team members are automatically eligible for all recommended work regardless of the role limit set. 
   </note><br><img src="assets/set-role-limits-350x341.png" alt="Set_Role_Limits.png" style="width: 350;height: 341;"></li> 
  <li value="3">(Optional) Click the <span class="bold">Showing</span> menu at the top of the Limit column and select the desired display options.</li> 
  <li value="4">To go back to the resource scheduling area, click <span class="bold">Return to Scheduling</span>.</li> 
@@ -129,50 +103,24 @@ To set limits for job role assignments:
 
 You can assign tasks and issues to users on the scheduling timeline whether you are on the Scheduling tab (when scheduling resources for multiple projects) or the Staffing tab (when scheduling resources for an individual project).
 
-To allow *Workfront* to automatically propose assignments for tasks and issues in the Unassigned area:
+To allow `Workfront` to automatically propose assignments for tasks and issues in the Unassigned area:
 
 <ol> 
  <li value="1"> <p>Go to the scheduling timeline for multiple projects or for an individual project:</p> 
   <ul> 
-   <li> <p><b>For multiple projects</b>:&nbsp; <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Click the 
-       <span class="bold">Main Menu</span> icon 
-       <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-       <em>Workfront</em>, click 
-       <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-       <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Click the 
-      <span class="bold">Main Menu</span> icon 
-      <img src="assets/main-menu-icon.png"> in the upper-right corner of 
-      <em>Workfront</em>, click 
-      <span class="bold">Resourcing > <em>Workload Balancer</em></span>, then select 
-      <span class="bold">Scheduling</span> in the upper-left drop-down menu. 
-     </MadCap:conditionalText></p> </li> 
-   <li> <p><b>For an individual project</b>: <draft-comment>
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-        Go to a project, click the 
-       <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-       <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-      </MadCap:conditionalText>
-     </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-       Go to a project, click the 
-      <span class="bold"><em>Workload Balancer</em></span> section in the left panel, then select 
-      <span class="bold">Scheduling</span> from the upper-left drop-down menu. 
-     </MadCap:conditionalText></p> </li> 
+   <li> <p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p> </li> 
+   <li> <p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p> </li> 
   </ul> </li> 
  <li value="2"> <p>(Optional) Create a filter to customize what content is displayed in the Unassigned area on the scheduling timeline.<br>For more information about creating a filter, see <a href="../../resource-mgmt/resource-scheduling/filter-scheduling-area.md#creating-and-modifying-filters-on-the-scheduling-tab-for-projects" class="MCXref xref">Filter information in the Scheduling area</a> in <a href="../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref">Filter information in the Scheduling area</a><a href="../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref">Filter information in the Scheduling area</a></p> 
   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>"> <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p>To ensure that <em>Workfront</em> assigns work to the most eligible users:</p> 
+   <p>To ensure that <span>Workfront</span> assigns work to the most eligible users:</p> 
    <ul> 
     <li>Filter only information that affects which tasks are displayed in the Unassigned area (such as Portfolios, Programs, an Projects). </li> 
-    <li>We recommend that you do not filter information that affects which users are available to assign on the scheduling timeline. Doing so limits <em>Workfront</em> from viewing all potential assignees, which can result in less satisfactory assignments.</li> 
+    <li>We recommend that you do not filter information that affects which users are available to assign on the scheduling timeline. Doing so limits <span>Workfront</span> from viewing all potential assignees, which can result in less satisfactory assignments.</li> 
    </ul> 
   </div> </li> 
- <li value="3">(Optional) Modify the date range that is displayed on the scheduling timeline, as described in <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#adjusting-the-date-range-for-which-data-is-displayed" class="MCXref xref">Adjust the date range of the Scheduling areas</a> in <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>. <em>Workfront</em> makes assignments only for tasks and issues within the visible date range on the scheduling timeline.</li> 
- <li value="4"> <p>Click the <span class="bold">Auto</span> button in the upper-right corner of the scheduling timeline.<br><img src="assets/scheduling-auto-350x221.png" alt="scheduling_auto.png" style="width: 350;height: 221;"><br><em>Workfront</em> proposes assignments for each task or issue in the <span class="bold">Unassigned</span> area. </p> <note type="tip">
+ <li value="3">(Optional) Modify the date range that is displayed on the scheduling timeline, as described in <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#adjusting-the-date-range-for-which-data-is-displayed" class="MCXref xref">Adjust the date range of the Scheduling areas</a> in <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>. <span>Workfront</span> makes assignments only for tasks and issues within the visible date range on the scheduling timeline.</li> 
+ <li value="4"> <p>Click the <span class="bold">Auto</span> button in the upper-right corner of the scheduling timeline.<br><img src="assets/scheduling-auto-350x221.png" alt="scheduling_auto.png" style="width: 350;height: 221;"><br><span>Workfront</span> proposes assignments for each task or issue in the <span class="bold">Unassigned</span> area. </p> <note type="tip">
    Tasks and issues must already be assigned to a role in order for an assignment to be proposed. To ensure the best results, tasks and issues should contain the information described in 
    <a href="#prerequisites" class="MCXref xref">Prerequisites</a>.
   </note> <p>Proposed assignments are differentiated with a dotted outline around each task or issue, as follows:<br><span class="bold">Proposed task assignment:</span></p> <p><span class="bold"><img src="assets/assignment-auto-proposed-350x116.png" alt="assignment_auto_proposed.png" style="width: 350;height: 116;"></span> </p> <p><span class="bold">Existing task assignment:</span> </p> <p><span class="bold"><img src="assets/assignment-auto-existing-350x116.png" alt="assignment_auto_existing.png" style="width: 350;height: 116;"></span> </p> </li> 

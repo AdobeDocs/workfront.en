@@ -2,10 +2,10 @@
 
 # `Workfront Tools for AEM User Guide : Configure Event Subscriptions`
 
-Event subscriptions are used to notify AEM of events that take place in *Adobe Workfront*. There are three Workfront Tools features that need event subscriptions in order to work, these are:
+Event subscriptions are used to notify AEM of events that take place in `Adobe Workfront`. There are three Workfront Tools features that need event subscriptions in order to work, these are:
 
 * Automatic creation of project linked folders.
-* Synchronization of changes in *Workfront* document custom form values to AEM asset metadata.
+* Synchronization of changes in `Workfront` document custom form values to AEM asset metadata.
 * Automatic publication of assets to Brand Portal upon project completion.
 
 If you plan to use either of these three features, then you should enable Event subscriptions.
@@ -21,18 +21,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p><em>Review</em> or higher</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> or higher</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> <!--
+   Adobe Workfront license* Review or higher
+  --> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have a license to Adobe Experience Manager</td> 
@@ -40,7 +33,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 

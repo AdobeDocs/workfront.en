@@ -13,7 +13,7 @@ The following work items can be assigned to an agile team and added to that team
 * `Scrum agile teams:` Tasks and issues can be assigned to the agile team and added to the backlog.
 * `Kanban agile teams:` Tasks can be assigned to the agile team and added to the backlog. Users can view the backlog directly from the agile story board, as described in [Add the backlog to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). The team uses this backlog to prioritize and manage their work queue.
 
-Tasks or issues can be&nbsp;assigned to the team (and subsequently added to the team backlog) from anywhere in *Adobe Workfront*. For example, a single team might be assigned work assignments from multiple projects.
+Tasks or issues can be assigned to the team (and subsequently added to the team backlog) from anywhere in `Adobe Workfront`. For example, a single team might be assigned work assignments from multiple projects.
 
 ## Access requirements
 
@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Create and manage stories on the backlog
 
@@ -105,16 +105,7 @@ When you create a story from the backlog, the story is created as a task or issu
 
 To create a story from the backlog:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Teams</span>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Scrum team from the drop-down menu or search for a team in the search bar.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Scrum team from the drop-down menu or search for a team in the search bar.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select <span class="bold">Backlog</span> from the left panel.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select <span class="bold">Backlog</span> from the left panel.</li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. (Optional) Click the Switch team icon , then either select a new Scrum team from the drop-down menu or search for a team in the search bar. Select Backlog from the left panel. 
  <li value="4">Do either of the following, depending on whether you want to create a task or an issue: 
   <ul>
    <li><span class="bold">To create a task:</span> Click the <span class="bold">Stories</span> tab.</li>
@@ -201,4 +192,4 @@ For more information, see [Move an agile story](../../agile/work-in-an-agile-env
 
 You can export one or more stories (including tasks and issues) directly from the backlog.
 
-You export stories from the backlog in the same way that you export other data in *Workfront*, as described in [Export data](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+You export stories from the backlog in the same way that you export other data in `Workfront`, as described in [Export data](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).

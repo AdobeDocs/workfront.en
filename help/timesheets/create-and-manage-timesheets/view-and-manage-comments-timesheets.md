@@ -23,16 +23,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Review</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Review</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to Tasks and Issues</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## View comments on a timesheet
 
@@ -51,16 +51,7 @@ By default, comments are hidden the first time you&nbsp;access a timesheet.
 
 To show comments on a timesheet:
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">All Timesheets</span>.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">All Timesheets</span>.</li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Timesheets. In the left panel, click All Timesheets. 
  <li value="4">Go to the timesheet where you want to display comments.</li> 
  <li value="5"> <p>Click <span class="bold">Show Comments</span>&nbsp;in the upper-right corner of the timesheet.</p> <p> <img src="assets/screen-shot-2017-03-22-at-11.27.58-am.png" alt="Screen_Shot_2017-03-22_at_11.27.58_AM.png"> </p> <p>Comments are displayed and highlighted in yellow below the hour entry where they were made.</p> <p> <img src="assets/timesheet-comment-displayed-350x94.png" alt="timesheet_comment_displayed.png" style="width: 350;height: 94;"> <br> </p> </li> 
 </ol>
@@ -75,16 +66,7 @@ To show comments on a timesheet:
 
 You can make general comments about the timesheet.
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">All Timesheets</span>.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">All Timesheets</span>.</li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Timesheets. In the left panel, click All Timesheets. 
  <li value="4">Go to the timesheet where you want to make a comment.</li> 
  <li value="5"> <p>Below the timesheet, click <span class="bold">Include a comment</span>.</p> <p> <img src="assets/timesheet-comment-enter-350x349.png" alt="timesheet_comment_enter.png" style="width: 350;height: 349;"> </p> </li> 
  <li value="6"> <p>Type your comment, then click <span class="bold">Save</span>.</p> <p>Your comment is displayed in the <span class="bold">Recent Updates</span> area.</p> </li> 
@@ -92,16 +74,7 @@ You can make general comments about the timesheet.
 
 ### Comment on an individual hour entry in a timesheet
 
-<ol> <draft-comment>
-  <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li>
- </draft-comment>
- <li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>.</li> <draft-comment>
-  <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li>
- </draft-comment>
- <li value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</li> <draft-comment>
-  <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">All Timesheets</span>.</li>
- </draft-comment>
- <li value="3" data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">All Timesheets</span>.</li> 
+<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Timesheets. In the left panel, click All Timesheets. 
  <li value="4">Go to the timesheet where you want to make a comment.</li> 
  <li value="5"> <p>Click in the entry field where you want to make a comment.</p> <p> <img src="assets/14.png" alt=""> </p> </li> 
  <li value="6"> <p>Click the <span class="bold">+</span> icon.</p> <p> <img src="assets/timesheet-comment-entry.png" alt="timesheet_comment_entry.png"> </p> </li> 
@@ -114,15 +87,9 @@ You can make general comments about the timesheet.
 You can comment on individual items in the timesheet, update their Actual Start Date or Condition. The update displays in the Updates area of the object associated with the logged time.
 
 <ol> 
- <li value="1"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Workfront</em>.</p> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Timesheets</span>.</p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">All Timesheets</span>.</p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In the left panel, click <span class="bold">All Timesheets</span>.</p> </li> 
+ <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront. </li> 
+ <li value="2"> Click Timesheets. </li> 
+ <li value="3"> In the left panel, click All Timesheets. </li> 
  <li value="4"> <p>Go to the timesheet where you want to make a comment.</p> </li> 
  <li value="5"> <p>Click the <span class="bold">Update Status</span> icon <img src="assets/update-status-icon-in-timesheet-19x20.png" style="width: 19;height: 20;"> inline with a task or issue.</p> <note type="tip">
    You cannot comment on projects or General Time hour entries.

@@ -18,7 +18,7 @@ The following webinar recordings are available:
 
 ## R1 Release Webinar (March 29, 2017)
 
-The *Workfront* R1 2017 Release Webinar was presented by the *Workfront* Product team on March 29. &nbsp;
+The `Workfront` R1 2017 Release Webinar was presented by the `Workfront` Product team on March 29. &nbsp;
 
 For convenience, the webinar is divided into the following topics:
 

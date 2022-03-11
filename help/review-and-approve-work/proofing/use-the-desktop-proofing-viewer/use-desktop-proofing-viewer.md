@@ -7,7 +7,7 @@ title: Use the Desktop Proofing Viewer
 description: Install the Desktop Proofing Viewer with Automatic Updates
 ---
 
-# Use the *Desktop Proofing Viewer*
+# Use the `Desktop Proofing Viewer`
 
 * [Install the Desktop Proofing Viewer with Automatic Updates](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md) 
 * [Update the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md) 

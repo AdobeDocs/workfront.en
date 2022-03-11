@@ -13,7 +13,7 @@ When managing task assignments, you can simultaneously modify them for multiple 
 This article refers to modifying multiple user assignments for multiple tasks in a task list. Also see the following articles for modifying assignments on multiple tasks in other areas:
 
 * For information about modifying assignments on multiple tasks in the Scheduling area, see [Modify multiple users assignments to tasks in the Scheduling areas](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
-* For information about assigning tasks using the *Workload Balancer*, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* For information about assigning tasks using the `Workload Balancer`, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 For information about assigning a task to one resource in a list, see [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -44,63 +44,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ##
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>When to modify user assignments on tasks</h2>
-<p>You might want to modify the user assignments for multiple tasks for a variety of reasons, including the following:</p>
-<ul>
-<li>Users join or leave your team</li>
-<li> <p>A user takes a vacation that extends beyond task due dates</p> <note type="note">
-When assigning users to work, their availability according to their schedules affects the Planned and Projected Dates of tasks. For information about schedules, see
-<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.
-</note> </li>
-<li>A specific role or user is set as the assignee for multiple tasks and you want to quickly modify all items to be assigned to a different user or role</li>
-</ul>
-<h2><a name="removing-assignees-affects-task-hours-and-allocation-percentage"></a>How removing assignees affects task hours and allocation percentages</h2>
-<p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
-<p>When you delete a user from a task with the following Duration&nbsp;Types:</p>
-<ul>
-<li> <p><span class="bold">Simple:</span> The planned hours assigned to that user are subtracted from the task’s total planned hours.</p> <note type="important">
-<span class="s1">This could negatively affect your project plan because it changes the total planned hours for the task and the project.</span>
-</note> </li>
-<li><span class="s1"><span class="bold">Effort Driven:</span> The allocation percentage does not change for other users.</span> </li>
-<li><span class="s1"><span class="bold">Calculated Assignment:</span> The allocation percentages of other users are adjusted so that the total equals 100%.</span> </li>
-<li><span class="s1"><span class="bold">Calculated Work:</span> The allocation percentage does not change for other users.</span> </li>
-</ul>
-</div>
+When to modify user assignments on tasks You might want to modify the user assignments for multiple tasks for a variety of reasons, including the following: Users join or leave your team A user takes a vacation that extends beyond task due dates Note: When assigning users to work, their availability according to their schedules affects the Planned and Projected Dates of tasks. For information about schedules, see Create a schedule. A specific role or user is set as the assignee for multiple tasks and you want to quickly modify all items to be assigned to a different user or role How removing assignees affects task hours and allocation percentages Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration Type, see Overview of Task Duration and Duration Type. When you delete a user from a task with the following Duration Types: Simple: The planned hours assigned to that user are subtracted from the task’s total planned hours. Important: This could negatively affect your project plan because it changes the total planned hours for the task and the project. Effort Driven: The allocation percentage does not change for other users. Calculated Assignment: The allocation percentages of other users are adjusted so that the total equals 100%. Calculated Work: The allocation percentage does not change for other users.
 -->
-
-## When to modify user assignments on tasks
-
-You might want to modify the user assignments for multiple tasks for a variety of reasons, including the following:
-
-<ul> 
- <li>Users join or leave your team</li> 
- <li> <p>A user takes a vacation that extends beyond task due dates</p> <note type="note">
-   When assigning users to work, their availability according to their schedules affects the Planned and Projected Dates of tasks. For information about schedules, see 
-   <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.
-  </note> </li> 
- <li>A specific role or user is set as the assignee for multiple tasks and you want to quickly modify all items to be assigned to a different user or role</li> 
-</ul>
-
-## How removing assignees affects task hours and allocation percentages
-
-Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
-When you delete a user from a task with the following Duration&nbsp;Types:
-
-<ul> 
- <li> <p><span class="bold">Simple:</span> The planned hours assigned to that user are subtracted from the task’s total planned hours.</p> <note type="important">
-   <span class="s1">This could negatively affect your project plan because it changes the total planned hours for the task and the project.</span> 
-  </note> </li> 
- <li><span class="s1"><span class="bold">Effort Driven:</span> The allocation percentage does not change for other users.</span> </li> 
- <li><span class="s1"><span class="bold">Calculated Assignment:</span> The allocation percentages of other users are adjusted so that the total equals 100%.</span> </li> 
- <li><span class="s1"><span class="bold">Calculated Work:</span> The allocation percentage does not change for other users.</span> </li> 
-</ul>
 
 ## Modify assignments for multiple tasks
 
@@ -121,9 +71,7 @@ When you delete a user from a task with the following Duration&nbsp;Types:
    <li value="5">Begin typing the name of the user or role that you want to filter for, then click the name when it appears in the drop-down list.</li> 
    <li value="6">Click <span class="bold">Save Filter.</span></li> 
   </ol></li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select the tasks for which you want to modify assignments, then click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.<br></p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Select the tasks for which you want to modify assignments, then click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.<br></p> <p> <br>The Edit Tasks page displays. The items that you edit display in the upper-left corner of the page.</p> </li> 
+ <li value="3"> Select the tasks for which you want to modify assignments, then click the Edit icon . <p> <br>The Edit Tasks page displays. The items that you edit display in the upper-left corner of the page.</p> </li> 
  <li value="4">Go to the <span class="bold">Assignments</span> section.</li> 
  <li value="5">Do one of the following to add or remove assignees:<br><note type="important">
    Removing assignees can affect the task hours and allocation percentages. For more information, see the section 
@@ -164,7 +112,7 @@ When you delete a user from a task with the following Duration&nbsp;Types:
      <p>If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.</p> 
     </note></li> 
    <li><span class="bold">Task Owner</span>: Select this option to make the assignee the owner of the task for all tasks being edited.</li> 
-   <li><span class="bold">Assignee's Role</span>: Select a role from the drop-down list. If left unselected, <em>Adobe Workfront</em> automatically selects the Primary Role of the user. </li> 
+   <li><span class="bold">Assignee's Role</span>: Select a role from the drop-down list. If left unselected, <span>Adobe Workfront</span> automatically selects the Primary Role of the user. </li> 
   </ul></li> 
  <li value="7">Click <span class="bold">Save Changes.</span></li> 
 </ol>

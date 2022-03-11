@@ -2,7 +2,7 @@
 
 # Set a deadline for an existing basic proof
 
-You can set a single deadline for a basic *proof* after it's been created.
+You can set a single deadline for a basic `proof` after it's been created.
 
 ## Access requirements
 
@@ -13,15 +13,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Current plan: <em>Work</em> or <em>Plan</em></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p>Current plan: <span>Work</span> or <span>Plan</span></p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Proof Permission Profile</em> </td> 
+   <td role="rowheader"><span>Proof Permission Profile</span> </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or *Proof Permission Profile* you have, contact your *Workfront* or *Workfront Proof administrator*.
+&#42;To find out what plan, role, or `Proof Permission Profile` you have, contact your `Workfront` or `Workfront Proof administrator`.
 
 ## Set a deadline for an existing basic proof
 
@@ -43,9 +43,9 @@ You must have the following access to perform the steps in this article:
  <li value="1"> 
   <ol> 
    <li value="1"> <p>Go to the project, task, or issue that contains the document, then select <span class="bold">Documents</span>.</p> </li> 
-   <li value="2"> <p>Find the <em>proof</em> you need. </p> </li> 
+   <li value="2"> <p>Find the <span>proof</span> you need. </p> </li> 
   </ol> </li> 
- <li value="2"> <p>Click <span class="bold"><em>Proofing</em> Workflow</span>.</p> </li> 
+ <li value="2"> <p>Click <span class="bold"><span>Proofing</span> Workflow</span>.</p> </li> 
  <li value="3"> <p>In the <span class="bold">Workflow </span>area, select <span class="bold">No Deadline</span>.</p> <p> <img src="assets/no-deadline-basic-proof-350x70.png" style="width: 350;height: 70;"> </p> </li> 
  <li value="4"> <p>Choose a date, and specify a time, then click anywhere on the screen. </p> </li> 
  <li value="5"> <p>Choose if you want to notify reviewers of the new deadline.</p> </li> 

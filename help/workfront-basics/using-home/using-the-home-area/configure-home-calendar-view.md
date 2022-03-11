@@ -26,17 +26,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Work</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Work</span> or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your *Workfront administrator*.
+&#42;To find out what plan or license type you have, contact your `Workfront administrator`.
 
 ## About integrating Microsoft Outlook calendars
 
@@ -50,11 +50,11 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
 * Attachments associated with your Outlook events are not attached to the Outlook events in your Home Calendar. 
 * Integration with an Outlook calendar must be completed for each user individually. 
-* Events that appear in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your *Adobe Workfront* Calendar. For more information, see [Due bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar)&nbsp;and [Work list on the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+* Events that appear in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your `Adobe Workfront` Calendar. For more information, see [Due bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar)&nbsp;and [Work list on the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 * When you enable the integration with Outlook, only work items that are dragged onto the Home Calendar from that point forward will sync. Items that were on the Home Calendar prior to enabling the integration will not appear, and you must drag them onto the Home Calendar again if you want them to appear in Outlook.
 * When you share (or unshare) an Outlook calendar with other people, or when you change the permission level for a calendar you share with others, this change does not affect their calendars for about 30 minutes (for more information, consult the Microsoft Outlook documentation).  
-  Consequently, when you integrate *Workfront* Calendar with an Outlook calendar that you share with other users, they will not see your *Workfront* Calendar items for about 30 minutes.
+  Consequently, when you integrate `Workfront` Calendar with an Outlook calendar that you share with other users, they will not see your `Workfront` Calendar items for about 30 minutes.
 
 >[!NOTE]
 >
@@ -66,27 +66,25 @@ Consider the following as you configure your Home Calendar with your Microsoft O
  <li value="1"> <p>In the Home Calendar view, click the <span class="bold">Settings</span> gear icon <img src="assets/calendar-settings-gear-icon.png" alt="Calendar_Settings_gear_icon.png"> in the upper right corner to open the <span class="bold">Calendar settings</span> panel on the right side of the window.</p> <p>If you need information about accessing the Home Calendar view, see <a href="../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md" class="MCXref xref">View the Home Calendar</a>.</p> </li> 
  <li value="2"> <p>(Optional) To integrate your Microsoft Outlook calendar, click <span class="bold">Add account</span> in the upper-right corner of the <span class="bold">Calendar settings</span> panel. Then, if you are prompted to do so, enter your Microsoft Outlook login information. You can repeat this step to add multiple Outlook accounts.</p> <note type="note">
     You must give 
-   <em>Workfront</em> permission to access your Outlook calendar. Granting permission allows 
-   <em>Workfront</em> to maintain access to calendar data, read your outlook profile, and read and update your Microsoft calendar.
+   <span>Workfront</span> permission to access your Outlook calendar. Granting permission allows 
+   <span>Workfront</span> to maintain access to calendar data, read your outlook profile, and read and update your Microsoft calendar.
   </note> </li> 
  <li value="3"> Refresh the browser window to see information from your Outlook account in the calendar and in the Calendar settings panel.</li> 
  <li value="4">Click the <span class="bold">Settings</span> gear icon again in the upper right corner to open the <span class="bold">Calendar settings</span> panel. <img src="assets/calendar-settings-gear-icon.png" alt="Calendar_Settings_gear_icon.png"><br></li> 
  <li value="5">(Optional) Under each Microsoft account you have added in the previous step, select <span class="bold">View</span> or <span class="bold">Sync</span>:
   <ul>
    <li><span class="bold">View</span>: This is a read-only option that displays Microsoft calendar events on your Home Calendar.</li>
-   <li><p><span class="bold">Sync</span>: This option allows a two-way sync between your Microsoft and Home calendars. In other words,&nbsp;<em>Workfront</em> Home Calendar items export to your Microsoft calendar and Microsoft calendar items import to your <em>Workfront</em> Home Calendar in real time.<br></p><draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/view-sync-checkboxes-qs.png"></p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><img src="assets/view-sync-checkboxes-qs.png"></p></li>
+   <li><p><span class="bold">Sync</span>: This option allows a two-way sync between your Microsoft and Home calendars. In other words,&nbsp;<span>Workfront</span> Home Calendar items export to your Microsoft calendar and Microsoft calendar items import to your <span>Workfront</span> Home Calendar in real time.<br></p></li>
   </ul></li> 
- <li value="6"> <p>(Optional) Under your <em>Workfront</em> account or an integrated account, select the associated calendars you want&nbsp;to view on your Home Calendar (such as your PTO, Birthdays, or Holidays calendar) then click your browser's Refresh or Reload button to see your changes.<br></p> </li> 
+ <li value="6"> <p>(Optional) Under your <span>Workfront</span> account or an integrated account, select the associated calendars you want&nbsp;to view on your Home Calendar (such as your PTO, Birthdays, or Holidays calendar) then click your browser's Refresh or Reload button to see your changes.<br></p> </li> 
  <li value="7">(Optional) In the <span class="bold">General</span> section under <span class="bold">Start Week On</span>, select the day you want to display&nbsp;&nbsp;as the first day of your&nbsp;work week in the Home Calendar.</li> 
  <li value="8"> <p>Configure&nbsp;the following options:</p> 
   <ul> 
    <li><span class="bold">My Work Days:</span>&nbsp;Select the days you work.</li> 
    <li><span class="bold">My Usual Start Time:</span>&nbsp;Select the time you start your work day.</li> 
    <li><span class="bold">My Usual End Time:</span>&nbsp;Select the time you end your work day.</li> 
-  </ul> <p> <em>Workfront</em> uses these three settings to calculate the number of hours you work in a week. This number affects the Allocation bar, which helps you track your workload against your available work hours.&nbsp;For more information, see <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time" class="MCXref xref">Allocation bar</a> in&nbsp;the article <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">Home Calendar view</a>.</p> </li> 
- <li value="9"> <p>Click outside the <span class="bold">Calendar settings</span> area to dismiss it.<br></p> <p><em>Workfront</em> saves your changes automatically.</p> </li> 
+  </ul> <p> <span>Workfront</span> uses these three settings to calculate the number of hours you work in a week. This number affects the Allocation bar, which helps you track your workload against your available work hours.&nbsp;For more information, see <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time" class="MCXref xref">Allocation bar</a> in&nbsp;the article <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">Home Calendar view</a>.</p> </li> 
+ <li value="9"> <p>Click outside the <span class="bold">Calendar settings</span> area to dismiss it.<br></p> <p><span>Workfront</span> saves your changes automatically.</p> </li> 
 </ol>
 
 For information about using the Calendar view to manage your&nbsp;work assignments and integrated calendar events, see [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).

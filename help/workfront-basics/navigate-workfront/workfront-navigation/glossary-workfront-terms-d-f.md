@@ -10,11 +10,11 @@ description: For the full glossary, see Glossary of Workfront terms.
 
 >[!IMPORTANT]
 >
->This article should be used as a reference to understand the terms that you may encounter in the *Adobe Workfront* application or in the *Workfront* documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
+>This article should be used as a reference to understand the terms that you may encounter in the `Adobe Workfront` application or in the `Workfront` documentation. We are currently&nbsp;updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.&nbsp;
 
 For the full glossary, see [Glossary of Workfront terms](../../../workfront-basics/navigate-workfront/workfront-navigation/glossary-of-workfront-terms.md).
 
-The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;&nbsp;
+The following table is a list of commonly used terms in `Adobe Workfront`:&nbsp;&nbsp;
 
 ## D-F
 
@@ -39,43 +39,15 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td> <p>Days Late</p> </td> 
    <td> <p>This field shows a date difference between Planned Start and Today if the Actual Completion Date is missing.</p> <p>Also&nbsp;shows a date difference between Actual Completion and Planned Completion, when an Actual Completion Date is present.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Default Schedule</td> 
-    <td> <p>Customizable default working hours to be assigned to users and projects within an organization. </p> <p>Schedules are used to calculate the planned, start, and completion dates of tasks that are assigned to users.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Default Schedule</td> 
-   <td> <p>Customizable default working hours to be assigned to users and projects within an organization. </p> <p>Schedules are used to calculate the planned, start, and completion dates of tasks that are assigned to users.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Deliverable</td> 
-    <td>Quantifiable goods or services that must be provided upon the completion of a project.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Deliverable</td> 
-   <td>Quantifiable goods or services that must be provided upon the completion of a project.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Demand Management</td> 
-    <td>Scoring and prioritization of the intake processes.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Demand Management</td> 
-   <td>Scoring and prioritization of the intake processes.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Department Goals</td> 
-    <td>Goals unique to a specific department that focus on improving operational metrics within the department.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Department Goals</td> 
-   <td>Goals unique to a specific department that focus on improving operational metrics within the department.</td> 
-  </tr> 
+  </tr> <!--
+   Default Schedule Customizable default working hours to be assigned to users and projects within an organization. Schedules are used to calculate the planned, start, and completion dates of tasks that are assigned to users.
+  --> <!--
+   Deliverable Quantifiable goods or services that must be provided upon the completion of a project.
+  --> <!--
+   Demand Management Scoring and prioritization of the intake processes.
+  --> <!--
+   Department Goals Goals unique to a specific department that focus on improving operational metrics within the department.
+  --> 
   <tr> 
    <td>Dependency</td> 
    <td>The link between two tasks that require one task to change status before the other task can also change status.</td> 
@@ -86,7 +58,7 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   </tr> 
   <tr> 
    <td>Document</td> 
-   <td>Any file that is attached to an object within <em>Workfront</em>.</td> 
+   <td>Any file that is attached to an object within <span>Workfront</span>.</td> 
   </tr> 
   <tr> 
    <td>Document Version</td> 
@@ -96,9 +68,9 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
    <td> <p>Duration</p> </td> 
    <td> <p>The window of time allocated for completion of a task issue, or project (as determined by the number of days between the Planned Start and the Planned Completion). </p> 
     <ul> 
-     <li>For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by <em>Workfront</em>.&nbsp;</li> 
+     <li>For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by <span>Workfront</span>.&nbsp;</li> 
      <li>For issues, the Duration is always an editable field and it should represent an estimate of a number of days that would require the issue to be resolved.&nbsp;</li> 
-     <li>For projects, the Duration is a calculation performed by <em>Workfront</em> and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project.&nbsp;</li> 
+     <li>For projects, the Duration is a calculation performed by <span>Workfront</span> and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project.&nbsp;</li> 
     </ul> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -109,9 +81,9 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
      <li>Calculated Work</li> 
      <li>Effort Driven</li> 
      <li>Simple</li> 
-    </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p> </td> 
+    </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <!--
+     Task field used by the planner to set how the work required is allocated to the assignees across the duration.
+    --> </td> 
   </tr> 
   <tr> 
    <td>Duration Unit</td> 
@@ -124,25 +96,11 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td> <p>End Date</p> </td> 
    <td> <p> In a Rate report, this is the date when a new billing rate for a job role at the project level ends. The hours associated with the project that are before this date are multiplied by this billing rate to calculate the revenue on the project. </p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Engagement</td> 
-    <td>The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Engagement</td> 
-   <td>The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Enterprise Goals</td> 
-    <td>Cross-functional goals that contribute to the metrics of the company goals.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Enterprise Goals</td> 
-   <td>Cross-functional goals that contribute to the metrics of the company goals.</td> 
-  </tr> 
+  </tr> <!--
+   Engagement The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”
+  --> <!--
+   Enterprise Goals Cross-functional goals that contribute to the metrics of the company goals.
+  --> 
   <tr> 
    <td>Event</td> 
    <td>Any change in a project or task.</td> 
@@ -154,29 +112,15 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td>Event notification</td> 
    <td>Email that is generated from an event handler.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Expenses</td> 
-    <td>A non-labor cost on tasks or projects.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>Expenses</td> 
-   <td>A non-labor cost on tasks or projects.</td> 
-  </tr> 
+  </tr> <!--
+   Expenses A non-labor cost on tasks or projects.
+  --> 
   <tr> 
    <td>External</td> 
-   <td> <p>Typically, an access level that allows people who don’t have <em>Workfront</em>, to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a>.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>External System</td> 
-    <td>Any services or software that is stored and governed outside the designated system of record.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>External System</td> 
-   <td>Any services or software that is stored and governed outside the designated system of record.</td> 
-  </tr> 
+   <td> <p>Typically, an access level that allows people who don’t have <span>Workfront</span>, to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a>.</p> </td> 
+  </tr> <!--
+   External System Any services or software that is stored and governed outside the designated system of record.
+  --> 
   <tr> 
    <td>Financial Management</td> 
    <td>Process to manage labor costs, expenses, and revenue data in Workfront.</td> 
@@ -187,9 +131,9 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   </tr> 
   <tr> 
    <td>Filter</td> 
-   <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Filter determines the results that display in a report or on an Workfront panel listing, like projects, tasks, or issues.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Filter determines the results that display in a report or on an Workfront panel listing, like projects, tasks, or issues.</p> </td> 
+   <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <!--
+     The Filter determines the results that display in a report or on an Workfront panel listing, like projects, tasks, or issues.
+    --> </td> 
   </tr> 
   <tr> 
    <td> <p>Flags</p> </td> 
@@ -202,16 +146,9 @@ The following table is a list of commonly used terms in *Adobe Workfront*:&nbsp;
   <tr> 
    <td>Folder</td> 
    <td>Folders are used to organize documents or reports associated with an object.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>FTE</td> 
-    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td>FTE</td> 
-   <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-  </tr> 
+  </tr> <!--
+   FTE The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.
+  --> 
  </tbody> 
 </table>
 

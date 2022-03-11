@@ -8,9 +8,9 @@ description: As a Project Manager, you can configure a project to use a currency
 
 # Change the project currency
 
-As a Project Manager, you can configure a project to use a currency other than the default currency for your *Adobe Workfront* system. This allows you to display financial information on your project in the desired currency when calculating labor costs and revenue.
+As a Project Manager, you can configure a project to use a currency other than the default currency for your `Adobe Workfront` system. This allows you to display financial information on your project in the desired currency when calculating labor costs and revenue.
 
-Before you can use alternate currencies as described in this section, the *Workfront administrator* must first enable and configure multiple currencies, as described in the article [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Before you can use alternate currencies as described in this section, the `Workfront administrator` must first enable and configure multiple currencies, as described in the article [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Access requirements
 
@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -39,17 +39,17 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-## Considerations when changing a project's currency in *Workfront*
+## Considerations when changing a project's currency in `Workfront`
 
 * You cannot change the currency of a project if there is any financial information in the project.
 * Rates are used for Labor Costs; Revenue calculations and are used in the future for reporting purposes.
-* If you do not specify a different currency for a project, *Workfront* assumes that the project's currency is the default currency of the system. For information on system-level default currency, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+* If you do not specify a different currency for a project, `Workfront` assumes that the project's currency is the default currency of the system. For information on system-level default currency, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-* By default, all full license users have access to view currencies and exchange rates. The *Workfront administrator* needs to grant additional administrative access for `Exchange rates` to enable users to set specific rates on projects. 
+* By default, all full license users have access to view currencies and exchange rates. The `Workfront administrator` needs to grant additional administrative access for `Exchange rates` to enable users to set specific rates on projects. 
 
-* Exchange rates in *Workfront* are not dynamic. The value is set by an administrator and must be updated when changes in exchange rates occur. 
+* Exchange rates in `Workfront` are not dynamic. The value is set by an administrator and must be updated when changes in exchange rates occur. 
 * When you create a report to reflect currency on a project, by default all reports are grouped by the project's default currency. If you create a report with multiple project's that have different exchange rates, then any groupings applied to the project reflect the default exchange rate at the system level. For more information, see the article [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Configure the currency for a project
@@ -58,15 +58,9 @@ You must have the following access to perform the steps in this article:
  <li value="1"> <p>Go to the project where you want to change the default currency.</p> <note type="tip">
    Ensure that the project does not already have any financial information. For example, ensure there are no Planned or Actual Costs associated with the project. 
   </note> </li> 
- <li value="2"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Project Details</span> in the left panel, then go to the <span class="bold">Finance</span> area. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Project Details</span> in the left panel, then go to the <span class="bold">Finance</span> area. </p> </li> 
- <li value="3"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Add</span> in the <span class="bold">Currency</span> field and select the currency that you want to use as the default currency for the project. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Add</span> in the <span class="bold">Currency</span> field and select the currency that you want to use as the default currency for the project. </p> </li> 
- <li value="4">(Conditional) If you select a currency other than the default currency that is set for your <em>Workfront</em> system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.</li> 
- <li value="5"> <draft-comment>
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Save Changes</span>. </p>
-  </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <span class="bold">Save Changes</span>. </p> </li> 
+ <li value="2"> Click Project Details in the left panel, then go to the Finance area. </li> 
+ <li value="3"> Click Add in the Currency field and select the currency that you want to use as the default currency for the project. </li> 
+ <li value="4">(Conditional) If you select a currency other than the default currency that is set for your <span>Workfront</span> system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.</li> 
+ <li value="5"> Click Save Changes. </li> 
 </ol>
 

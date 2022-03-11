@@ -19,51 +19,29 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> <draft-comment>
-     <p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p>
-    </draft-comment><p data-mc-conditions="SnippetConditions.HIDE"><em>Workfront Fusion for Work Automation</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ### Type coercion
 
-This document describes how *Adobe Workfront Fusion* behaves in situations when it receives values in expected and unexpected data formats.
+This document describes how `Adobe Workfront Fusion` behaves in situations when it receives values in expected and unexpected data formats.
 
 <table cellspacing="15"> 
  <col> 
@@ -85,7 +63,7 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>array </td> 
    <td>other </td> 
-   <td> <p>If the received value is not of the array type, <em>Workfront Fusion</em> will create an array and the first (and the only) element will be the received value.</p> </td> 
+   <td> <p>If the received value is not of the array type, <span>Workfront Fusion</span> will create an array and the first (and the only) element will be the received value.</p> </td> 
   </tr> 
   <tr> 
    <td>boolean </td> 
@@ -110,7 +88,7 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>buffer </td> 
    <td>buffer </td> 
-   <td> <p>The value is handed over unchanged only if the codepage is as expected. If the codepage differs, <em>Workfront Fusion</em> will try to convert the received value to the requested codepage. If this conversion is not supported, <em>Workfront Fusion</em> will return a validation error.</p> </td> 
+   <td> <p>The value is handed over unchanged only if the codepage is as expected. If the codepage differs, <span>Workfront Fusion</span> will try to convert the received value to the requested codepage. If this conversion is not supported, <span>Workfront Fusion</span> will return a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>buffer </td> 
@@ -135,7 +113,7 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>buffer </td> 
    <td>other </td> 
-   <td> <p><em>Workfront Fusion</em> returns a validation error.</p> </td> 
+   <td> <p><span>Workfront Fusion</span> returns a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>collection </td> 
@@ -145,7 +123,7 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>collection </td> 
    <td>other </td> 
-   <td> <p><em>Workfront Fusion</em> returns a validation error.</p> </td> 
+   <td> <p><span>Workfront Fusion</span> returns a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>date </td> 
@@ -155,12 +133,12 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>date </td> 
    <td>text </td> 
-   <td> <p><em>Workfront Fusion</em> will try to convert the text to a date. If the conversion fails, it will return a validation error. Date must contain day, month and year. Date may contain time and time zone. Default time zone is based on your settings. Examples:</p> <p><code>2016-06-20T17:26:44.356Z</code> </p> <p><code>2016-06-20 19:26:44 GMT+02:00</code> </p> <p><code>2016-06-20 19:26+0200</code> </p> <p><code>2016-06-20 17:26:44</code> </p> <p><code>2016-06-20</code> </p> <p><code>2016/06/20 17:26:44</code> </p> <p><code>2016/06/20 19:26:44+02:00</code> </p> <p><code>2016/06/20 17:26</code> </p> <p><code>2016/06/20 5:26 PM</code> </p> <p><code>2016/06/20</code> </p> <p><code>06/20/2016 17:26:44</code> </p> <p><code>06/20/2016 19:26:44+02:00</code> </p> <p><code>06/20/2016 17:26</code> </p> <p><code>06/20/2016 5:26 PM</code> </p> <p><code>06/20/2016</code> </p> <p><code>20.6.2016 17:26:44</code> </p> <p><code>20.6.2016 19:26:44+02:00</code> </p> <p><code>20.6.2016 17:26</code> </p> <p><code>20.6.2016</code> </p> </td> 
+   <td> <p><span>Workfront Fusion</span> will try to convert the text to a date. If the conversion fails, it will return a validation error. Date must contain day, month and year. Date may contain time and time zone. Default time zone is based on your settings. Examples:</p> <p><code>2016-06-20T17:26:44.356Z</code> </p> <p><code>2016-06-20 19:26:44 GMT+02:00</code> </p> <p><code>2016-06-20 19:26+0200</code> </p> <p><code>2016-06-20 17:26:44</code> </p> <p><code>2016-06-20</code> </p> <p><code>2016/06/20 17:26:44</code> </p> <p><code>2016/06/20 19:26:44+02:00</code> </p> <p><code>2016/06/20 17:26</code> </p> <p><code>2016/06/20 5:26 PM</code> </p> <p><code>2016/06/20</code> </p> <p><code>06/20/2016 17:26:44</code> </p> <p><code>06/20/2016 19:26:44+02:00</code> </p> <p><code>06/20/2016 17:26</code> </p> <p><code>06/20/2016 5:26 PM</code> </p> <p><code>06/20/2016</code> </p> <p><code>20.6.2016 17:26:44</code> </p> <p><code>20.6.2016 19:26:44+02:00</code> </p> <p><code>20.6.2016 17:26</code> </p> <p><code>20.6.2016</code> </p> </td> 
   </tr> 
   <tr> 
    <td>date </td> 
    <td>other </td> 
-   <td> <p><em>Workfront Fusion</em> returns a validation error.</p> </td> 
+   <td> <p><span>Workfront Fusion</span> returns a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>number </td> 
@@ -170,12 +148,12 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>number </td> 
    <td>text </td> 
-   <td> <p><em>Workfront Fusion</em> will try to convert the text to a number. If the conversion fails, it will return a validation error.</p> </td> 
+   <td> <p><span>Workfront Fusion</span> will try to convert the text to a number. If the conversion fails, it will return a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>number </td> 
    <td>other </td> 
-   <td> <p><em>Workfront Fusion</em> returns a validation error.</p> </td> 
+   <td> <p><span>Workfront Fusion</span> returns a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -185,7 +163,7 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>text </td> 
    <td>array </td> 
-   <td> <p>If the given array supports conversion to text, the value will be converted. If not, <em>Workfront Fusion</em> will return a validation error.</p> </td> 
+   <td> <p>If the given array supports conversion to text, the value will be converted. If not, <span>Workfront Fusion</span> will return a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -195,7 +173,7 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>text </td> 
    <td>buffer </td> 
-   <td> <p>If text encoding is specified for binary data, the value will be converted to text. If not, <em>Workfront Fusion</em> will return a validation error.</p> </td> 
+   <td> <p>If text encoding is specified for binary data, the value will be converted to text. If not, <span>Workfront Fusion</span> will return a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -210,7 +188,7 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>text </td> 
    <td>other </td> 
-   <td> <p><em>Workfront Fusion</em> returns a validation error.</p> </td> 
+   <td> <p><span>Workfront Fusion</span> returns a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>time </td> 
@@ -220,12 +198,12 @@ This document describes how *Adobe Workfront Fusion* behaves in situations when 
   <tr> 
    <td>time </td> 
    <td>text </td> 
-   <td> <p><em>Workfront Fusion</em> will try to convert time to the hours:minutes:seconds format. If the conversion fails, it will return a validation error.</p> </td> 
+   <td> <p><span>Workfront Fusion</span> will try to convert time to the hours:minutes:seconds format. If the conversion fails, it will return a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>time </td> 
    <td>other </td> 
-   <td> <p><em>Workfront Fusion</em> returns a validation error.</p> </td> 
+   <td> <p><span>Workfront Fusion</span> returns a validation error.</p> </td> 
   </tr> 
  </tbody> 
 </table>

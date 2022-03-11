@@ -2,7 +2,7 @@
 
 # Jira Software modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your *Jira Software* account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your `Jira Software` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -17,62 +17,42 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use Jira modules you must have a Jira account.
 
-## Connect Jira Software to *Workfront Fusion*
+## Connect Jira Software to `Workfront Fusion`
 
 Your connection method is based on whether you are using Jira Cloud or Jira Server.
 
 * [Connect Jira Cloud to Workfront Fusion](#connect) 
 * [Connect Jira Server to Workfront Fusion](#connect2)
 
-### Connect Jira Cloud to *Workfront Fusion*
+### Connect Jira Cloud to `Workfront Fusion`
 
-Connect Jira Cloud to *Workfront Fusion*
+Connect Jira Cloud to `Workfront Fusion`
 
-To connect Jira Software to *Workfront Fusion*, you must create an API token and insert it together with your Service URL and Username to the Create a connection field in *Workfront Fusion*.
+To connect Jira Software to `Workfront Fusion`, you must create an API token and insert it together with your Service URL and Username to the Create a connection field in `Workfront Fusion`.
 
 #### Create an API&nbsp;token in Jira
 
@@ -87,9 +67,9 @@ To connect Jira Software to *Workfront Fusion*, you must create an API token and
  <li value="6">Continue with <a href="#configur2" class="MCXref xref">Configure the Jira API token in Workfront Fusion</a>.</li> 
 </ol>
 
-#### Configure the Jira API token in *Workfront Fusion*
+#### Configure the Jira API token in `Workfront Fusion`
 
-1. In *Workfront Fusion*, add a Jira module to a scenario to open the `Create a connection` box.
+1. In `Workfront Fusion`, add a Jira module to a scenario to open the `Create a connection` box.
 
 1. Specify the following information:
 
@@ -99,9 +79,9 @@ To connect Jira Software to *Workfront Fusion*, you must create an API token and
 
 1. Click Continue to create the connection and return to the module.
 
-### Connect Jira Server to *Workfront Fusion*
+### Connect Jira Server to `Workfront Fusion`
 
-To authorize a connection between *Workfront Fusion* and Jira Server, you need your Consumer Key, Private Key, And Service URL. You might need to contact your Jira administrator for this information.
+To authorize a connection between `Workfront Fusion` and Jira Server, you need your Consumer Key, Private Key, And Service URL. You might need to contact your Jira administrator for this information.
 
 * [Generate Public and Private keys for your Jira connection](#generate) 
 * [Configure the client app as a consumer in Jira](#configur) 
@@ -109,7 +89,7 @@ To authorize a connection between *Workfront Fusion* and Jira Server, you need y
 
 #### Generate Public and Private keys for your Jira connection
 
-To acquire a private key for your *Workfront Fusion* Jira connection, you need to generate public and private keys.
+To acquire a private key for your `Workfront Fusion` Jira connection, you need to generate public and private keys.
 
 <ol> 
  <li value="1"> <p>In your terminal, run the following <code>openssl </code>commands.</p> 
@@ -160,13 +140,7 @@ To acquire a private key for your *Workfront Fusion* Jira connection, you need t
  <li value="8"> <p>Select the <span class="bold">Create incoming link</span> checkbox.</p> </li> 
  <li value="9"> <p>Click <span class="bold">Continue</span>.</p> </li> 
  <li value="10"> <p> the <span class="bold">Link applications</span> window, fill in the following fields:</p> 
-  <table cellspacing="0"> <draft-comment>
-    <col data-mc-conditions="">
-   </draft-comment>
-   <col data-mc-conditions=""> <draft-comment>
-    <col data-mc-conditions="">
-   </draft-comment>
-   <col data-mc-conditions=""> 
+  <table cellspacing="0">   
    <tbody> 
     <tr> 
      <td role="rowheader"> <p>Consumer Key</p> </td> 
@@ -186,14 +160,14 @@ To acquire a private key for your *Workfront Fusion* Jira connection, you need t
  <li value="12"> <p>Continue to <a href="#create2" class="MCXref xref">Create a connection to Jira Server or Jira Data Center in Workfront Fusion</a></p> </li> 
 </ol>
 
-#### Create a connection to Jira Server or Jira Data Center in *Workfront Fusion*
+#### Create a connection to Jira Server or Jira Data Center in `Workfront Fusion`
 
 >[!NOTE]
 >
 >Use the Jira Server app to connect to Jira Server or Jira Data Center.
 
 <ol> 
- <li value="1">In any Jira Server module in <em>Workfront Fusion</em>, click <span class="bold">Add</span> next to the connection field.</li> 
+ <li value="1">In any Jira Server module in <span>Workfront Fusion</span>, click <span class="bold">Add</span> next to the connection field.</li> 
  <li value="2"> <p>In the Create a connection panel, fill in the following fields:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -222,7 +196,7 @@ To acquire a private key for your *Workfront Fusion* Jira connection, you need t
 
 ## Jira Software modules and their fields
 
-When you configure *Jira Software* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *Jira Software* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `Jira Software` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `Jira Software` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -248,7 +222,7 @@ This trigger module starts a scenario when a record is added, updated, or delete
     <ol> 
      <li value="1">Click <span class="bold">Add</span></li> 
      <li value="2">Enter a name for the webhook.</li> 
-     <li value="3"> <p>Select the connection you want to use for your webhook. </p> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </li> 
+     <li value="3"> <p>Select the connection you want to use for your webhook. </p> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </li> 
      <li value="4"> <p>Select the record type that you want the software to watch for:</p> 
       <ul> 
        <li>Comment </li> 
@@ -273,27 +247,9 @@ This trigger module starts a scenario when a record is added, updated, or delete
 
 #### Add issue to sprint
 
-This action module *adds one or more issues to a sprint*
+This action module `adds one or more issues to a sprint`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Jira Software</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Jira Software</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -301,7 +257,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sprint ID</td> 
@@ -318,26 +274,9 @@ When you are configuring this module, the following fields display
 
 This action module creates a new record in Jira.
 
-The module returns any standard fields associated with the record
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-or records
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  or records</MadCap:conditionalText>`, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -345,7 +284,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -364,26 +303,9 @@ When you are configuring this module, the following fields display
 
 #### Custom API Call
 
-This action module lets you make a custom authenticated call to the *Jira Software* API
+This action module lets you make a custom authenticated call to the `Jira Software` API. This way, you can create a data flow automation that can't be accomplished by the other `Jira Software` modules.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-without having to think through authentication
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  without having to think through authentication</MadCap:conditionalText>`. This way, you can create a data flow automation that can't be accomplished by the other *Jira Software* modules.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -391,7 +313,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -403,7 +325,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><em>Workfront Fusion</em> adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p><span>Workfront Fusion</span> adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -421,47 +343,13 @@ When you are configuring this module, the following fields display
 
 #### Delete a record
 
-This action module *deletes a particular record*
+This action module `deletes a particular record`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Jira Software</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `record`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Jira Software</em></MadCap:conditionalText>`.
+The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *record*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>deleted</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>deleted</em></MadCap:conditionalText>` *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -469,7 +357,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -491,27 +379,9 @@ When you are configuring this module, the following fields display
 
 #### Download an attachment
 
-This action module *downloads a particular attachment*
+This action module `downloads a particular attachment`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Jira Software</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Jira Software</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -519,7 +389,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
@@ -530,38 +400,13 @@ When you are configuring this module, the following fields display
 
 #### Read a record
 
-This action module reads *data from a single record* in *Jira Software*.
+This action module reads `data from a single record` in `Jira Software`.
 
-You specify the
+You specify the ID of the `record`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText>
--->
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *record*.
-
-The module returns any standard fields associated with the record
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-or records
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  or records</MadCap:conditionalText>`, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -569,7 +414,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -588,54 +433,20 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
-   <td> <p>Enter or map the unique <em>Jira Software</em> ID of the <em>record</em> that you want the module to <em>read</em>.</p> </td> 
+   <td> <p>Enter or map the unique <span>Jira Software</span> ID of the <span>record</span> that you want the module to <span>read</span>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Update a record
 
-This action module *updates an existing record, such as an issue or project,*
+This action module `updates an existing record, such as an issue or project,`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>Jira Software</em>
-</MadCap:conditionalText>
--->
+You specify the ID of the `record`.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>Jira Software</em></MadCap:conditionalText>`.
+The module returns the ID of the  `record` and any associated fields, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-You specify the
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-type and
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  type and</MadCap:conditionalText>` ID of the *record*.
-
-The module returns the ID of the 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-<em>updated</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  <em>updated</em></MadCap:conditionalText>` *record* and any associated fields, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -643,7 +454,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -672,24 +483,9 @@ When you are configuring this module, the following fields display
 
 This search module retrieves all items of a specific type that match your search query
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.
-</MadCap:conditionalText>
--->
+You can map `this information` in subsequent modules in the scenario.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.</MadCap:conditionalText>`You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -697,7 +493,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -712,43 +508,20 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Max Results</p> </td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>retrieve</em> during each scenario execution cycle.</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Offset</td> 
-    <td> Enter or map the ID of the first item you want to retrieve details for. This is a way to paginate the records. If you enter the 5000th item as the offset, the module would return items 5000-9999.</td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Offset</td> 
-   <td> Enter or map the ID of the first item you want to retrieve details for. This is a way to paginate the records. If you enter the 5000th item as the offset, the module would return items 5000-9999.</td> 
-  </tr> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>retrieve</span> during each scenario execution cycle.</p> </td> 
+  </tr> <!--
+   Offset Enter or map the ID of the first item you want to retrieve details for. This is a way to paginate the records. If you enter the 5000th item as the offset, the module would return items 5000-9999.
+  --> 
  </tbody> 
 </table>
 
 #### Search for records
 
-This search module looks for *records in an object* in *Jira Software* that match the search query you specify.
+This search module looks for `records in an object` in `Jira Software` that match the search query you specify.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-The module
-<em>returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses</em>.
-</MadCap:conditionalText>
--->
+You can map `this information` in subsequent modules in the scenario.
 
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> The module  <em>returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses</em>.</MadCap:conditionalText>` You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>Jira Software</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>Jira Software</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -756,7 +529,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your <em>Jira Software</em> account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your <span>Jira Software</span> account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 

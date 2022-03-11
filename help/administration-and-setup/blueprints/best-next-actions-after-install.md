@@ -10,7 +10,7 @@ description: This article outlines what you should do after you install a bluepr
 
 # Actions to take after installing a blueprint
 
-This article outlines what you should do after you install a blueprint in *Adobe Workfront* to fully deploy the blueprint to your system users.
+This article outlines what you should do after you install a blueprint in `Adobe Workfront` to fully deploy the blueprint to your system users.
 
 * [Project template recommendations](#template) 
 * [Organizational structure recommendations](#organiza)
@@ -48,9 +48,9 @@ Prepare training materials for both the work managers who will use this template
 
 ### Create or update reports and dashboards
 
-If the solution represents a new type of work that your organization has not performed previously in *Workfront*, you may need to create new reports and dashboards to support the work. For information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) and [Create a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+If the solution represents a new type of work that your organization has not performed previously in `Workfront`, you may need to create new reports and dashboards to support the work. For information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) and [Create a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-If the solution is similar to work that you have already been executing in *Workfront*, then you should verify that the work feeds into existing reports and dashboards as expected. If it does not feed into your existing reporting, take action to update filters or create new reports.
+If the solution is similar to work that you have already been executing in `Workfront`, then you should verify that the work feeds into existing reports and dashboards as expected. If it does not feed into your existing reporting, take action to update filters or create new reports.
 
 ## Organizational structure recommendations
 
@@ -72,13 +72,10 @@ After installing a blueprint that includes a company:
 For additional information on companies, see [Create and edit companies](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Groups</h3>
+Groups
 -->
-
-### Groups
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Next actions for groups - content to be provided</p>
+Next actions for groups - content to be provided
 -->
 
-Next actions for groups - content to be provided

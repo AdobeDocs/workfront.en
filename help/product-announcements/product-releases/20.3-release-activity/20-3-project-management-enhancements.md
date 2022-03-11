@@ -8,33 +8,21 @@ description: This page describes all project management enhancements made with t
 
 # 20.3 Project Management enhancements
 
-This page describes all *project management* enhancements made with the *20.3* release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
+This page describes all `project management` enhancements made with the `20.3` release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 
-For a list of all changes available with the *20.3* release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+For a list of all changes available with the `20.3` release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
 ## Custom field formatting in lists
 
 >[!NOTE]
 >
->This feature is supported only in *the new Adobe Workfront experience*. It is available for some lists in *Adobe Workfront Classic*, but it is not supported in *Adobe Workfront Classic*.
+>This feature is supported only in `the new Adobe Workfront experience`. It is available for some lists in `Adobe Workfront Classic`, but it is not supported in `Adobe Workfront Classic`.
 
 Now, when the system administrator creates custom forms fields that are configured for formatting, you can format text in those fields where you use them the most: in lists throughout Workfront. Instead of going into the Details area to format text in the custom form, you can click a field in a list and apply Bold, Italics, and Underline to text there.
 
-Note that this functionality is available only in the updated lists. For more information about updated lists, see 
+Note that this functionality is available only in the updated lists. For more information about updated lists, see Get started with lists in Adobe Workfront.
 
-<!--
-<a href="../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Get started with lists in&nbsp;Adobe Workfront</a>
--->
-
-[Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-For information about how a Workfront administrator creates text fields with formatting, see 
-
-<!--
-<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Create or edit a custom form</a>
--->
-
-[Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For information about how a Workfront administrator creates text fields with formatting, see Create or edit a custom form.
 
 `<iframe class="vimeo-player_0" src="assets/434818101?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -44,7 +32,7 @@ For information about how a Workfront administrator creates text fields with for
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*
+>This feature is available only in `the new Adobe Workfront experience`
 
 The global areas of Projects, Portfolios, Programs and Templates now have an updated header that makes better use of the space on the screen. This update provides more space for the information you work with that you need to focus on.
 
@@ -58,7 +46,7 @@ The Templates link from the Projects area has been removed. You can still access
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*
+>This feature is available only in `the new Adobe Workfront experience`
 
 As part of updating the look and feel of the new Workfront experience, we have redesigned the Edit project box. You can access the new Edit Project box from an individual project or when editing a single project from a list.
 
@@ -69,18 +57,10 @@ In addition to an updated look and feel, the following improvements are availabl
 * Commenting functionality is removed from the edit project screen to eliminate redundancy with the Updates section.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see “New Edit Object box” (NEW ARTICLE, LINK LATER!!).</p>
--->
-
 For information about the new Edit Box box, see “New Edit Object box” (NEW ARTICLE, LINK LATER!!).
-
-For information about the new Edit Project box, see 
-
-<!--
-<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Edit projects</a>
 -->
 
-[Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+For information about the new Edit Project box, see Edit projects.
 
 `<iframe class="vimeo-player_0" src="assets/430814318?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -90,19 +70,13 @@ For information about the new Edit Project box, see
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*
+>This feature is available only in `the new Adobe Workfront experience`
 
 The new Summary panel to the right of the documents list is now available with an enhanced design in the new Workfront experience. This panel provides the same actions and information available in the panel on the right when you select a document in Workfront Classic, including document details, updates, Custom Forms, approvals, and document versions.
 
 Some actions are currently unavailable but will be added in a future release. These actions include the proofing workflow.
 
-For more information, see 
-
-<!--
-<a href="../../../documents/managing-documents/summary-for-documents.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Summary for documents overview</a>
--->
-
-[Summary for documents overview](../../../documents/managing-documents/summary-for-documents.md).
+For more information, see Summary for documents overview.
 
 `<iframe class="vimeo-player_0" src="assets/434793918?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 
@@ -112,7 +86,7 @@ For more information, see
 
 >[!NOTE]
 >
->This feature is available only in *the new Adobe Workfront experience*
+>This feature is available only in `the new Adobe Workfront experience`
 
 Look for the following improvements in the Document Details page:
 
@@ -121,13 +95,7 @@ Look for the following improvements in the Document Details page:
 * Larger preview thumbnail, allowing you to easily identify the document
 * Global Edit icon added, giving you the ability to edit multiple fields at once.
 
-For more information, see 
-
-<!--
-<a href="../../../documents/managing-documents/document-details-overview.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Document Details overview</a>
--->
-
-[Document Details overview](../../../documents/managing-documents/document-details-overview.md).
+For more information, see Document Details overview.
 
 `<iframe class="vimeo-player_0" src="assets/434794293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
 

@@ -11,7 +11,7 @@ description: In a Adobe Workfront Fusion scenario, you can connect your ServiceN
 
 # ServiceNow modules
 
-In a *Adobe Workfront Fusion* scenario, you can connect your *ServiceNow* account to multiple third-party applications and services.
+In a `Adobe Workfront Fusion` scenario, you can connect your `ServiceNow` account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -26,51 +26,31 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions=""> 
-    <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-    <td> <p>Plan, Work</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p>Plan, Work</p> </td> 
-  </tr> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront Fusion</em> license**</td> 
-   <td> <p><em>Workfront Fusion for Work Automation and Integration</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront Fusion</span> license**</td> 
+   <td> <p><span>Workfront Fusion for Work Automation and Integration</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase <em>Adobe Workfront Fusion</em> as well as <em>Adobe Workfront</em> to use functionality described in this article.</td> 
-  </tr> <draft-comment>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <draft-comment>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p>
-     </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-   </tr>
-  </draft-comment>
-  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your organization.</p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront Fusion</em> administrator for your team.</p> </td> 
-  </tr> 
+   <td>Your organization must purchase <span>Adobe Workfront Fusion</span> as well as <span>Adobe Workfront</span> to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
-&#42;&#42;For information on *Adobe Workfront Fusion* licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on `Adobe Workfront Fusion` licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
 To use ServiceNow modules, you must have a ServiceNow account.
 
-## Connect ServiceNow to *Workfront Fusion*
+## Connect ServiceNow to `Workfront Fusion`
 
 To create a connection for your ServiceNow modules:
 
@@ -103,7 +83,7 @@ To create a connection for your ServiceNow modules:
 
 ## ServiceNow modules and their fields
 
-When you configure *ServiceNow* modules, *Workfront Fusion* displays the fields listed below. Along with these, additional *ServiceNow* fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure `ServiceNow` modules, `Workfront Fusion` displays the fields listed below. Along with these, additional `ServiceNow` fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -136,7 +116,7 @@ This trigger module activates a scenario when a record is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table type</td> 
@@ -160,33 +140,16 @@ This trigger module activates a scenario when a record is created or updated.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Custom API Call
 
-This action module lets you make a custom authenticated call to the *ServiceNow* API
+This action module lets you make a custom authenticated call to the `ServiceNow` API. This way, you can create a data flow automation that can't be accomplished by the other `ServiceNow` modules.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-without having to think through authentication
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  without having to think through authentication</MadCap:conditionalText>`. This way, you can create a data flow automation that can't be accomplished by the other *ServiceNow* modules.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ServiceNow</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ServiceNow</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -194,7 +157,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Relative URL</td> 
@@ -226,26 +189,9 @@ When you are configuring this module, the following fields display
 
 This action module reads a ServiceNow record by using the system ID.
 
-The module returns any standard fields associated with the record
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-or records
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  or records</MadCap:conditionalText>`, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ServiceNow</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ServiceNow</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -253,7 +199,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record System ID</td> 
@@ -265,7 +211,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
-   <td>Select the type of <em>ServiceNow</em> record that you want the module to <em>read</em>.</td> 
+   <td>Select the type of <span>ServiceNow</span> record that you want the module to <span>read</span>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Display</td> 
@@ -288,7 +234,7 @@ This action module deactivates a user in ServiceNow by using the system ID.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">User System ID</td> 
@@ -307,7 +253,7 @@ This action module downloads an attachment in a ServiceNow record.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Attachment System ID</td> 
@@ -326,7 +272,7 @@ This action module uploads an attachment to a ServiceNow record.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table name</td> 
@@ -351,16 +297,7 @@ This action module uploads an attachment to a ServiceNow record.
 
 This action module creates a new ServiceNow record.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ServiceNow</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ServiceNow</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -368,7 +305,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table type</td> 
@@ -376,7 +313,7 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
-   <td>Select the type of <em>ServiceNow</em> record that you want the module to <em>create</em>. You can then fill in the available fields for this record type.</td> 
+   <td>Select the type of <span>ServiceNow</span> record that you want the module to <span>create</span>. You can then fill in the available fields for this record type.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -385,16 +322,7 @@ When you are configuring this module, the following fields display
 
 This action module creates a new ServiceNow record.
 
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ServiceNow</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ServiceNow</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -402,7 +330,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record System ID</td> 
@@ -414,34 +342,16 @@ When you are configuring this module, the following fields display
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
-   <td>Select the type of <em>ServiceNow</em> record that you want the module to <em>update</em>. You can then fill in the available fields for this record type.</td> 
+   <td>Select the type of <span>ServiceNow</span> record that you want the module to <span>update</span>. You can then fill in the available fields for this record type.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Delete a record
 
-This action module *deletes an incident or a user*
+This action module `deletes an incident or a user`.
 
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-in
-<em>ServiceNow</em>
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  in  <em>ServiceNow</em></MadCap:conditionalText>`.
-
-When you are configuring this module, the following fields display
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-, along with any other available
-<em>ServiceNow</em> fields, depending on the connection and options you choose
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE"> , along with any other available  <em>ServiceNow</em> fields, depending on the connection and options you choose</MadCap:conditionalText>`.
+When you are configuring this module, the following fields display.
 
 <table cellspacing="0"> 
  <col> 
@@ -449,7 +359,7 @@ When you are configuring this module, the following fields display
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -466,15 +376,7 @@ When you are configuring this module, the following fields display
 
 This module searches for records using criteria you select.
 
-The module returns any standard fields associated with the record
-
-<!--
-<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">
-or records
-</MadCap:conditionalText>
--->
-
-`<MadCap:conditionalText data-mc-conditions="SnippetConditions.HIDE">  or records</MadCap:conditionalText>`, along with any custom fields and values that the connection accesses. You can map *this information* in subsequent modules in the scenario.
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map `this information` in subsequent modules in the scenario.
 
 <table cellspacing="0"> 
  <col> 
@@ -482,7 +384,7 @@ or records
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to <em>Workfront Fusion</em>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to <span>Workfront Fusion</span>, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table type</td> 
@@ -498,7 +400,7 @@ or records
   </tr> 
   <tr> 
    <td role="rowheader">Maximal count of records</td> 
-   <td> <p>Enter or map the maximum number of <em>record</em>s you want the module to <em>return</em> during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of <span>record</span>s you want the module to <span>return</span> during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Search type</td> 

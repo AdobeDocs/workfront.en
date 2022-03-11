@@ -24,7 +24,7 @@ To access the Task Details tab:
 
 >[!TIP]
 >
->You can also search for a task, and click the name to access the task. For more information on searching for objects in *Adobe Workfront*, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+>You can also search for a task, and click the name to access the task. For more information on searching for objects in `Adobe Workfront`, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## Manage task information on the Overview subtab
 
@@ -59,7 +59,7 @@ You can see the following information on the `Overview` sub-tab:
 `Planned Start Date`: When the task&nbsp;is planned to start.&nbsp;The planned start date of a task is set and influenced by a number of factors:
 
 * Depending on the system-wide preference&nbsp;for the task planned start date, the start date of a new task on a project can either be today, or the start date of the project. For more information about the system-wide task preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* Depending on the predecessors of the task, the planned start date is picked by *Workfront*&nbsp;to be the next available date after the predecessors finish, or start, depending on the predecessor relationship. For more information about predecessor relationships, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+* Depending on the predecessors of the task, the planned start date is picked by `Workfront`&nbsp;to be the next available date after the predecessors finish, or start, depending on the predecessor relationship. For more information about predecessor relationships, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * The project manager or the task owner can manually set the planned start date when the task constraint is either Fixed Dates or Must Start On. For more information about task constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
@@ -69,7 +69,7 @@ You can see the following information on the `Overview` sub-tab:
 
 `Planned Completion Date`: The anticipated completion date as shown when the task is planned. The planned completion date can be set by a number of factors:
 
-* The planned completion date is calculated from the planned start date by adding the Duration of the task to the planned start date. When the&nbsp;project manager or *Workfront* specifies&nbsp;the Duration of the task, this triggers an update to the planned completion date. If the planned date changes, it will often be because the Duration of the has been updated.
+* The planned completion date is calculated from the planned start date by adding the Duration of the task to the planned start date. When the project manager or `Workfront` specifies&nbsp;the Duration of the task, this triggers an update to the planned completion date. If the planned date changes, it will often be because the Duration of the has been updated.
 * The project manager or the task owner can manually set the planned completion&nbsp;date when the task constraint is either Fixed Dates or Must Finish&nbsp;On. For more information about task constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 * If the Duration Type of the task changes, and&nbsp;the number of resources&nbsp;on the tasks changes at the same time, the planned completion date will change, as well.&nbsp;For more information about duration types, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -83,7 +83,7 @@ You can see the following information on the `Overview` sub-tab:
 
 ## Manage task information on the Custom Forms subtab
 
-If your *Workfront administrator* created custom forms for tasks, you can attach a custom form to a task in this tab.
+If your `Workfront administrator` created custom forms for tasks, you can attach a custom form to a task in this tab.
 
 You can attach up to 10 forms to the same task. Only active custom forms can be associated with tasks. <![CDATA[    ]]>
 

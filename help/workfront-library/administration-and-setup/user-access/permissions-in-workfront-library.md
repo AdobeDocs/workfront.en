@@ -7,25 +7,25 @@ title: Permissions in Workfront Library
 description: Before you can access Workfront Library, your Workfront Library administrator must assign you an access level. There are 3 access levels in Workfront Library:
 ---
 
-#  Permissions in *Workfront Library*
+#  Permissions in `Workfront Library`
 
-Before you can access *Workfront Library*, your *Workfront Library administrator* must assign you an access level. There are 3 access levels in *Workfront Library*:
+Before you can access `Workfront Library`, your `Workfront Library administrator` must assign you an access level. There are 3 access levels in `Workfront Library`:
 
 * Admin 
 * Manager 
 * Viewer
 
-Each access level grants specific permissions that allow or restrict users' activities regarding items in *Workfront Library*.
+Each access level grants specific permissions that allow or restrict users' activities regarding items in `Workfront Library`.
 
 The following table provides more detailed information about the permissions available for each access level.
 
 | `Permissions`  | `Admin`  | `Manager`  | `Viewer`  |
 |---|---|---|---|
-| Configure *Workfront Library* taxonomy |✓ |&nbsp; |&nbsp; |
+| Configure `Workfront Library` taxonomy |✓ |&nbsp; |&nbsp; |
 | Edit metadata |✓ |✓ |&nbsp; |
-| Invite a *Workfront* user to access *Workfront Library* |✓ |&nbsp; |&nbsp; |
-| Invite a *Workfront* user to access a portal |✓ |✓&nbsp; |&nbsp; |
-| Remove users' access to *Workfront Library* |✓ |&nbsp; |&nbsp; |
+| Invite a `Workfront` user to access `Workfront Library` |✓ |&nbsp; |&nbsp; |
+| Invite a `Workfront` user to access a portal |✓ |✓&nbsp; |&nbsp; |
+| Remove users' access to `Workfront Library` |✓ |&nbsp; |&nbsp; |
 | Remove&nbsp;users'&nbsp;access to a portal |✓ | ✓&nbsp; |&nbsp; |
 | Upload content |✓ |✓ |&nbsp; |
 | Upload a new version of an asset |✓ |✓ |&nbsp; |

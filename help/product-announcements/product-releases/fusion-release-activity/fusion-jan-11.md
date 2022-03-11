@@ -8,17 +8,17 @@ title: Workfront Fusion release activity: Week of January 11, 2021
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of January 11, 2021.
 ---
 
-# *Workfront Fusion* release activity:&nbsp;Week of January 11, 2021
+# `Workfront Fusion` release activity:&nbsp;Week of January 11, 2021
 
-This page describes all enhancements made in *Adobe Workfront Fusion* the week of *January 11, 2021*.
+This page describes all enhancements made in `Adobe Workfront Fusion` the week of `January 11, 2021`.
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-For a list of recent bug fixes in *Workfront Fusion*, see the [*Workfront* Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled *Workfront Fusion* Maintenance Update.
+For a list of recent bug fixes in `Workfront Fusion`, see the [ `Workfront` Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled `Workfront Fusion` Maintenance Update.
 
 ## Widen connector and modules now available
 
-You can now use *Workfront Fusion* to connect to your Widen account. With the Widen modules, you can:
+You can now use `Workfront Fusion` to connect to your Widen account. With the Widen modules, you can:
 
 * Add assets to or remove assets from a collection
 * Download or upload files
@@ -31,7 +31,7 @@ For more information see [Widen modules](../../../workfront-fusion/apps-and-thei
 
 ## Datadog connector and modules now available
 
-You can now use *Workfront Fusion* to connect to your Datadog account.
+You can now use `Workfront Fusion` to connect to your Datadog account.
 
 With the Datadog modules, you can:
 

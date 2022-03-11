@@ -19,16 +19,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -48,24 +48,10 @@ For more information on creating reports, see [Create a report](../../../reports
 ## Filter a report by the time frame of a date
 
 <ol> 
- <li value="1"> <draft-comment>
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-    Click the 
-    <span class="bold">Main Menu</span> icon 
-    <img src="assets/main-menu-icon.png">, then click&nbsp;
-    <span class="bold">Reporting</span>.
-   </MadCap:conditionalText>
-  </draft-comment><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-   Click the 
-   <span class="bold">Main Menu</span> icon 
-   <img src="assets/main-menu-icon.png">, then click&nbsp;
-   <span class="bold">Reporting</span>.
-  </MadCap:conditionalText> </li> 
+ <li value="1"> Click the Main Menu icon , then click Reporting. </li> 
  <li value="2">Click <span class="bold">New Report</span>, then select the type of report you want.<br>For example, select <span class="bold">Hour Report</span>.</li> 
  <li value="3">Select the <span class="bold">Filters</span> tab.</li> 
- <li value="4">Click <span class="bold">Add a Filter Rule</span>, then select <span class="bold">Hour Entry Date</span>.<br><draft-comment>
-   <img src="assets/qs-filtering-hour-report-by-timeframe-350x357.png" style="width: 350;height: 357;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-  </draft-comment><img src="assets/qs-filtering-hour-report-by-timeframe-350x357.png" style="width: 350;height: 357;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li> 
+ <li value="4">Click <span class="bold">Add a Filter Rule</span>, then select <span class="bold">Hour Entry Date</span>.<br></li> 
  <li value="5"> <p>In the following drop-down menu, select any of the following options:</p> 
   <table cellspacing="0"> 
    <col> 
@@ -115,7 +101,7 @@ For more information on creating reports, see [Create a report](../../../reports
 
 ## Built-in time frame modifiers
 
-*Adobe Workfront* has built-in time frame modifiers that you can use without defining a specific date.&nbsp;
+`Adobe Workfront` has built-in time frame modifiers that you can use without defining a specific date.&nbsp;
 
 These modifiers are available for any date field in a filter or a prompt in any report.&nbsp;
 
@@ -171,7 +157,7 @@ For example, if you are building an hour report and would like to display hours 
   </tr> 
   <tr> 
    <td role="rowheader">Last Quarter</td> 
-   <td> <p>Displays hours where the Entry Date is a date in the quarter preceding&nbsp;the current quarter, where quarters are defined above.</p> <p>Note:  If your <em>Workfront administrator</em> has enabled and defined custom quarters for your system, the built-in filters for quarters are replaced with your custom quarter information. For more information about enabling custom quarters, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable custom quarters for projects</a>.</p> </td> 
+   <td> <p>Displays hours where the Entry Date is a date in the quarter preceding&nbsp;the current quarter, where quarters are defined above.</p> <p>Note:  If your <span>Workfront administrator</span> has enabled and defined custom quarters for your system, the built-in filters for quarters are replaced with your custom quarter information. For more information about enabling custom quarters, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable custom quarters for projects</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">This Year</td> 

@@ -78,9 +78,9 @@ For more information, see&nbsp; [Manually assign unassigned tasks and issues in 
 
 `<iframe class="mt-media" src="assets/201889347?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`
 
-## Customize *Workfront* Terminology by Changing Object Names
+## Customize `Workfront` Terminology by Changing Object Names
 
-You can now customize *Workfront* terminology by changing the names of certain objects.   
+You can now customize `Workfront` terminology by changing the names of certain objects.   
 Using a Layout Template, you can now change the names of the following work objects to match the needs in your organization:
 
 * Portfolio
@@ -112,7 +112,7 @@ The following areas do not show the updated name of the objects:
 * Mobile Apps
 * Outlook Add-in
 
-For more information about how to customize the *Workfront* terminology using a Layout Template, see the "Customizing Terminology" section in "Creating and Managing Layout Templates" and the "Understanding the Implications of Customizing Object Names" section in [Understand objects in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).&nbsp;`<iframe class="mt-media" src="assets/201701616?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
+For more information about how to customize the `Workfront` terminology using a Layout Template, see the "Customizing Terminology" section in "Creating and Managing Layout Templates" and the "Understanding the Implications of Customizing Object Names" section in [Understand objects in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).&nbsp;`<iframe class="mt-media" src="assets/201701616?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
 
 ## Include Approval Start and End Dates in Reports
 
@@ -127,7 +127,7 @@ For more information about these fields, see [Glossary of Adobe Workfront termin
 
 For more information about approval paths, how they are created and triggered, and the function they serve in approval processes, see [Create an approval process for work items](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-The following fields were removed from *Workfront* and can no longer be included in reports (these fields provided information regarding the project rather than information about the approvals themselves, and were often misused):
+The following fields were removed from `Workfront` and can no longer be included in reports (these fields provided information regarding the project rather than information about the approvals themselves, and were often misused):
 
 * Approvals Planned Start Date
 * Approval Projected Start Date

@@ -2,11 +2,11 @@
 
 # View and manage custom OAuth2 applications
 
-As an *Adobe Workfront administrator*, you can view and manage the OAuth2 applications for your instance of Workfront, which allow other applications to access *Workfront*.
+As an `Adobe Workfront administrator`, you can view and manage the OAuth2 applications for your instance of Workfront, which allow other applications to access `Workfront`.
 
 >[!NOTE]
 >
->In the context of OAuth2, "Oauth2 application: refers to the this sort of access link between an app and a server such as *Workfront*. 
+>In the context of OAuth2, "Oauth2 application: refers to the this sort of access link between an app and a server such as `Workfront`. 
 >
 >For more information, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
@@ -23,25 +23,25 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
-   <td> <p><em>Pro</em> or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
+   <td> <p><span>Pro</span> or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em>or higher</p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span>or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. </p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a <em>Workfront administrator</em>. </p> <draft-comment>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-    </draft-comment><p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on <em>Workfront administrators</em>, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td> <!--
+     You must be a Workfront administrator.
+    --> <!--
+     For information on Workfront administrators, see Grant a user full administrative access.
+    --> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Prerequisites
 
@@ -57,7 +57,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 ### View and edit custom OAuth2 applications
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
  <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
  <li value="4"> <p>Hover over the application and click the <b>Edit</b> icon when it appears on the far right.</p> </li> 
@@ -67,7 +67,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 ### Delete custom OAuth2 Applications
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
  <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
  <li value="4"> <p>Hover over the application and click the <b>Delete</b> icon when it appears on the far right.</p> </li> 
@@ -90,7 +90,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 >
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
  <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
  <li value="4"> <p>Hover over the application and click the <b>Edit</b> icon when it appears on the far right.</p> </li> 
@@ -105,7 +105,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 ### Add or edit notes for Client Secret
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
  <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
  <li value="4"> <p>Hover over the application and click the <b>Edit</b> icon when it appears on the far right.</p> </li> 
@@ -119,7 +119,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 ### Delete Client Secret
 
 <ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <em>Adobe Workfront</em>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
+ <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of <span>Adobe Workfront</span>, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
  <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
  <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
  <li value="4"> <p>Hover over the application and click the <b>Edit</b> icon when it appears on the far right.</p> </li> 

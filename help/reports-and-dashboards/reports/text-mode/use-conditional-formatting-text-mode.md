@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> plan*</td> 
+   <td role="rowheader"><span>Adobe Workfront</span> plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><em>Adobe Workfront</em> license*</td> 
-   <td> <p><em>Plan</em> </p> </td> 
+   <td role="rowheader"><span>Adobe Workfront</span> license*</td> 
+   <td> <p><span>Plan</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit views in a report</p> <p>Note: If you still don't have access, ask your <em>Workfront administrator</em> if they set additional restrictions in your access level. For information on how a <em>Workfront administrator</em> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit views in a report</p> <p>Note: If you still don't have access, ask your <span>Workfront administrator</span> if they set additional restrictions in your access level. For information on how a <span>Workfront administrator</span> can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your *Workfront administrator*.
+&#42;To find out what plan, license type, or access you have, contact your `Workfront administrator`.
 
 ## Conditional formatting in Text Mode
 
@@ -54,7 +54,7 @@ You can also use text mode to format views in reports and lists.&nbsp;Using cond
 
 >[!NOTE]
 >
->&nbsp;Using CSS styling to customize&nbsp;conditional formatting is not supported. Instead, you must use the predesigned formatting options that are&nbsp;available in *Adobe Workfront*.
+>Using CSS styling to customize conditional formatting is not supported. Instead, you must use the predesigned formatting options that are available in `Adobe Workfront`.
 
 ## Add conditional formatting to Views
 
@@ -103,86 +103,8 @@ Dates can be configured to display in a variety of formats.
 For more information, see [Format dates in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
-<pre>valueformat=&nbsp;[new date format]</pre>
-<p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
-<pre>valueformat=atDate<br>valuefield=projectedCompletionDate&nbsp;</pre>
-<p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
-<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
-<p>You can format dates using the following <code>valueformat</code>&nbsp;text mode values:</p>
-<table cellspacing="15">
-<col>
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><span class="bold">Format</span> </th>
-<th scope="col">Example&nbsp;</th>
-<th scope="col"><em><span class="bold">valueformat=</span></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>atDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY Time</td>
-<td>10/11/18 12:00pm</td>
-<td><pre>longAtDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>shortAtDate</pre> </td>
-</tr>
-<tr>
-<td>Mth, DD, YR</td>
-<td>Oct, 11, 2018</td>
-<td><pre>mediumAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR</td>
-<td>Mon, Oct, 11, 2018</td>
-<td><pre>partialAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR Time</td>
-<td>Mon, Oct, 11, 2018 12:00 pm</td>
-<td><pre>fullAtDate</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
+To establish a date format, you must modify the valueformat line of the text mode code in the column. valueformat=&nbsp;[new date format] For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like: valueformat=atDate valuefield=projectedCompletionDate&nbsp; If you wanted to show the Planned Completion Date as Mth, DD, Year, the code would look like: valueformat=mediumAtdate valuefield=plannedCompletionDate You can format dates using the following valueformat text mode values: Format Example valueformat= MM/DD/YY 10/11/18 atDate MM/DD/YY Time 10/11/18 12:00pm longAtDate MM/DD/YY 10/11/18 shortAtDate Mth, DD, YR Oct, 11, 2018 mediumAtDate DW, Mth, Day, YR Mon, Oct, 11, 2018 partialAtDate DW, Mth, Day, YR Time Mon, Oct, 11, 2018 12:00 pm fullAtDate
 -->
-
-To establish a date format, you must modify the 
-
-```
-valueformat
-```
-
-line of the text mode code in the column.
-<pre>valueformat=&nbsp;[new date format]</pre>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:
-<pre>valueformat=atDate<br>valuefield=projectedCompletionDate&nbsp;</pre>If you wanted to show the Planned Completion Date as *Mth, DD, Year*, the code would look like:
-<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>You can format dates using the following 
-
-```
-valueformat
-```
-
-&nbsp;text mode values:
-
-| `Format`  |Example  |* `valueformat=`* |
-|---|---|---|
-| MM/DD/YY |10/11/18 |<pre>atDate</pre> |
-| MM/DD/YY Time |10/11/18 12:00pm |<pre>longAtDate</pre> |
-| MM/DD/YY |10/11/18 |<pre>shortAtDate</pre> |
-| Mth, DD, YR |Oct, 11, 2018 |<pre>mediumAtDate</pre> |
-| DW, Mth, Day, YR |Mon, Oct, 11, 2018 |<pre>partialAtDate</pre> |
-| DW, Mth, Day, YR Time |Mon, Oct, 11, 2018 12:00 pm |<pre>fullAtDate</pre> |
 
 #### Format numbers
 
@@ -191,90 +113,8 @@ You can format numeric values to display information that best suits your report
 For more information, see [Format numbers, currency and percentage values in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the&nbsp;<span class="bold">valueformat</span>&nbsp;line of your column.</p>
-<p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
-<p>You can format numbers&nbsp;using the following values for the&nbsp;<code>valueformat</code>&nbsp;line of your column:</p>
-<table border="2" cellspacing="15" cellpadding="1">
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><span class="bold">Example</span> </th>
-<th scope="col"><em><code>valueformat=</code></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1234</td>
-<td><pre>doubleAsString</pre> or <pre>int</pre></td>
-</tr>
-<tr>
-<td>1,234</td>
-<td><pre>doubleAsInt</pre> </td>
-</tr>
-<tr>
-<td>$1,234</td>
-<td><pre>currencyStringCurrencyRounded</pre> </td>
-</tr>
-<tr>
-<td>1234.56</td>
-<td><pre>doubleAsDouble</pre> </td>
-</tr>
-<tr>
-<td>$1,234.56</td>
-<td><pre>currencyStringCurrency</pre> </td>
-</tr>
-<tr>
-<td>12%</td>
-<td><pre>doubleAsPercentRounded</pre> </td>
-</tr>
-<tr>
-<td>12.34%</td>
-<td><pre>doubleAsPercent</pre> </td>
-</tr>
-<tr>
-<td>(1,234.56)</td>
-<td><pre>doubleAsFinancial</pre> </td>
-</tr>
-<tr>
-<td>(1,234)</td>
-<td><pre>doubleAsFiancialRounded</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
+To modify the format of a numeric value, you must edit the valueformat line of your column. For example, if you wanted to display the Budget column as $1000, the value format line would look like: valueformat=currencyStringCurrencyRounded valuefield=budget You can format numbers using the following values for the valueformat line of your column: Example valueformat= 1234 doubleAsString or int 1,234 doubleAsInt $1,234 currencyStringCurrencyRounded 1234.56 doubleAsDouble $1,234.56 currencyStringCurrency 12% doubleAsPercentRounded 12.34% doubleAsPercent (1,234.56) doubleAsFinancial (1,234) doubleAsFiancialRounded
 -->
-
-To modify the format of a numeric value, you must edit the  `valueformat`&nbsp;line of your column.
-
-For example, if you wanted to display the Budget column as $1000, the value format line would look like:
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>You can format numbers&nbsp;using the following values for the&nbsp;
-
-```
-valueformat
-```
-
-&nbsp;line of your column:
-
-| `Example`  |*
-
-```
-valueformat=
-```
-
-* |
-|---|---|
-| 1234 |<pre>doubleAsString</pre> or <pre>int</pre> |
-| 1,234 |<pre>doubleAsInt</pre> |
-| $1,234 |<pre>currencyStringCurrencyRounded</pre> |
-| 1234.56 |<pre>doubleAsDouble</pre> |
-| $1,234.56 |<pre>currencyStringCurrency</pre> |
-| 12% |<pre>doubleAsPercentRounded</pre> |
-| 12.34% |<pre>doubleAsPercent</pre> |
-| (1,234.56) |<pre>doubleAsFinancial</pre> |
-| (1,234) |<pre>doubleAsFiancialRounded</pre> |
 
 ### Column rules
 
@@ -436,7 +276,7 @@ If you would like to apply a condition to the entire row, use the following code
 
 #### Apply images
 
-Similarly to formatting with text, images can be used to display information in reports. *Workfront* has a number of built-in images to convey visual information in a report setting. To use images in the conditional formatting setting the following statement is needed:
+Similarly to formatting with text, images can be used to display information in reports. `Workfront` has a number of built-in images to convey visual information in a report setting. To use images in the conditional formatting setting the following statement is needed:
 <pre>image.case.0.comparison.leftmethod= [field name]<br>image.case.0.comparison.lefttext= [field name]<br>image.case.0.comparison.righttext= [field value]<br>image.case.0.comparison.operator= [qualifier]<br>image.case.0.comparison.operatortype= [data type]<br>image.case.0.comparison.icon=true<br>image.case.0.comparison.truetext=</pre>For example, on a project report, you want to build a column where you would show a frown face for every Planned Completion Date that does&nbsp;not equal to today's date. Use the following text mode code to add the icon to your column:
 <pre>image.case.0.comparison.leftmethod=plannedCompletionDate<br>image.case.0.comparison.lefttext=plannedCompletionDate<br>image.case.0.comparison.righttext=2013-04-10T13:00:00:000&nbsp;<br>image.case.0.comparison.operator=ne&nbsp;<br>image.case.0.comparison.operatortype=date<br>image.case.0.comparison.icon=true<br>image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif</pre>
 
